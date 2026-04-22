@@ -155,11 +155,9 @@ npm ci
 ## Clonar el proyecto
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd simulador_opocisiones_A1
+git clone https://github.com/lgfraga/simulador_de_test_para_oposiciones_TIC-A1.git
+cd simulador_de_test_para_oposiciones_TIC-A1
 ```
-
-Sustituye `<URL_DEL_REPOSITORIO>` por la URL real de tu repositorio en GitHub.
 
 ---
 
@@ -170,8 +168,8 @@ Sustituye `<URL_DEL_REPOSITORIO>` por la URL real de tu repositorio en GitHub.
 #### 1. Clonar el repositorio
 
 ```powershell
-git clone <URL_DEL_REPOSITORIO>
-cd simulador_opocisiones_A1
+git clone https://github.com/lgfraga/simulador_de_test_para_oposiciones_TIC-A1.git
+cd simulador_de_test_para_oposiciones_TIC-A1
 ```
 
 #### 2. Instalar dependencias JavaScript
@@ -203,8 +201,8 @@ http://localhost:5173
 #### 1. Clonar el repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd simulador_opocisiones_A1
+git clone https://github.com/lgfraga/simulador_de_test_para_oposiciones_TIC-A1.git
+cd simulador_de_test_para_oposiciones_TIC-A1
 ```
 
 #### 2. Instalar dependencias JavaScript
@@ -330,7 +328,7 @@ Una vez activado, puedes ejecutar tus scripts Python con seguridad sin afectar a
 ## Estructura general del proyecto
 
 ```text
-simulador_opocisiones_A1/
+simulador_de_test_para_oposiciones_TIC-A1/
 ├── dataset_temas/              # Base de datos en JSON (133 temas)
 ├── src/
 │   ├── components/            # Componentes React reutilizables
@@ -485,18 +483,6 @@ Comprueba:
 - Scripts de saneamiento
 - Modo simulación realista sin feedback inmediato
 - Despliegue con servidor web en producción
-
----
-
-## Licencia
-
-
-
-Por ejemplo:
-
-- MIT
-- GPL
-- uso privado / no redistribuible
 
 ---
 
