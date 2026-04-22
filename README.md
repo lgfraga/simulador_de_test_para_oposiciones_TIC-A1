@@ -5,7 +5,32 @@ Aplicación web local para practicar el **primer ejercicio tipo test** de las op
 El aplicativo permite simular exámenes completos, practicar por bloques y examinar por tema, utilizando como base una colección de **133 ficheros JSON** con preguntas, opciones, justificación y referencia.
 
 ---
+## Capturas del aplicativo
 
+<p>
+  <a href="docs/images/Screenshot%202026-04-22%20051046.png" target="_blank">
+    <img src="docs/images/Screenshot%202026-04-22%20051046.png" alt="Interfaz de inicio" width="35%">
+  </a>
+</p>
+
+<p>
+  <a href="docs/images/Screenshot%202026-04-22%20051107.png" target="_blank">
+    <img src="docs/images/Screenshot%202026-04-22%20051107.png" alt="Temas" width="35%">
+  </a>
+</p>
+
+<p>
+  <a href="docs/images/Screenshot%202026-04-22%20051129.png" target="_blank">
+    <img src="docs/images/Screenshot%202026-04-22%20051129.png" alt="Exámen" width="35%">
+  </a>
+</p>
+
+<p>
+  <a href="docs/images/Screenshot%202026-04-22%20051239.png" target="_blank">
+    <img src="docs/images/Screenshot%202026-04-22%20051239.png" alt="Test" width="35%">
+  </a>
+</p>
+---
 ## Características principales
 
 - Simulación del examen completo tipo test.
