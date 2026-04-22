@@ -232,6 +232,12 @@ Si quieres exponerla a la red local:
 npm run dev -- --host 0.0.0.0
 ```
 
+Si quieres exponerla fuera de la red local por un puerto específico (ejemplo para sitio: tica1.sytes.net):
+
+```bash
+__VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS=tica1.sytes.net npm run dev -- --host 0.0.0.0 --port 5178
+```
+
 ---
 
 ## Compilación para producción
