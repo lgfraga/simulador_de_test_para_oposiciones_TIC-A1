@@ -7,25 +7,21 @@ El aplicativo permite simular exámenes completos, practicar por bloques y exami
 ---
 ## Capturas del aplicativo
 
-<p>
+<p align="center">
   <a href="docs/images/Screenshot%202026-04-22%20051046.png" target="_blank">
-    <img src="docs/images/Screenshot%202026-04-22%20051046.png" alt="Interfaz de inicio" width="35%">
+    <img src="docs/images/Screenshot%202026-04-22%20051046.png" alt="Inicio" width="35%">
   </a>
-</p>
-
-<p>
+  &nbsp;
   <a href="docs/images/Screenshot%202026-04-22%20051107.png" target="_blank">
     <img src="docs/images/Screenshot%202026-04-22%20051107.png" alt="Temas" width="35%">
   </a>
 </p>
 
-<p>
+<p align="center">
   <a href="docs/images/Screenshot%202026-04-22%20051129.png" target="_blank">
     <img src="docs/images/Screenshot%202026-04-22%20051129.png" alt="Exámen" width="35%">
   </a>
-</p>
-
-<p>
+  &nbsp;
   <a href="docs/images/Screenshot%202026-04-22%20051239.png" target="_blank">
     <img src="docs/images/Screenshot%202026-04-22%20051239.png" alt="Test" width="35%">
   </a>
