@@ -26,6 +26,7 @@ El aplicativo permite simular exámenes completos, practicar por bloques y exami
     <img src="docs/images/Screenshot%202026-04-22%20051239.png" alt="Test" width="35%">
   </a>
 </p>
+
 ---
 ## Características principales
 
