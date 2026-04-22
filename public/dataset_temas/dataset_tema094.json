@@ -1,0 +1,980 @@
+{
+    "nombre_tema": "Tema 94",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Son herramientas para la construcción de interfaces:",
+            "opciones": [
+                "A. Glade, GTK+ y JavaFX",
+                "B. Glade, GNOME y JavaFX",
+                "C. GNOME, GTK+ y WXWidgets",
+                "D. Glade, GTK+ y Trello"
+            ],
+            "opcion_correcta": "A. Glade, GTK+ y JavaFX",
+            "justificacion": "La opción A es correcta porque el documento enumera explícitamente en la sección 2.5 herramientas como GLADE, GTK+ y Java FX (JavaFX) dentro de los lenguajes y herramientas para el desarrollo de interfaces de usuario. Las otras opciones incluyen términos como GNOME (entorno, no listado como herramienta específica en esa lista) o Trello (no mencionado), que no se ajustan a la enumeración textual proporcionada.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.5 Herramientas y lenguajes para el desarrollo de interfaces de usuario, Primera oración del párrafo relevante: \"Cualquier lenguaje de programación moderno ofrece herramientas para la construcción de interfaces gráficas de usuario (GUI).\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "En el modelo en espiral es cierto que:",
+            "opciones": [
+                "A. Sólo se puede construir un prototipo en la primera iteración, el resto siempre serán evoluciones sobre el mismo.",
+                "B. Se pueden construir distintos prototipos en cualquiera de las fases de una iteración.",
+                "C. Los prototipos realizados siempre se desechan.",
+                "D. En cada iteración se puede construir un prototipo, pero sólo en la fase de ingeniería."
+            ],
+            "opcion_correcta": "D. En cada iteración se puede construir un prototipo, pero sólo en la fase de ingeniería.",
+            "justificacion": "La opción D es correcta porque el texto establece que en el modelo en espiral, \"En cada iteración, en la fase de ingeniería, se construirá... un elemento o un prototipo del sistema final\". Esto confirma que la construcción del prototipo está vinculada específicamente a la fase de ingeniería dentro de cada ciclo iterativo, descartando las opciones que sugieren fases diferentes o el descarte sistemático sin evolución.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.6 Modelos de ciclo de vida relacionados con el prototipado, Subsubsección: 1.6.2 Modelo en Espiral, Primera oración del párrafo relevante: \"En cada iteración, en la fase de ingeniería, se construirá, siguiendo el modelo de proceso que se considere oportuno, un elemento o un prototipo del sistema final.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "A los prototipos que implementan solo el interfaz de usuario y la navegación, se les denomina:",
+            "opciones": [
+                "A. Wireframe.",
+                "B. Sketch.",
+                "C. Maqueta.",
+                "D. Ninguna es correcta."
+            ],
+            "opcion_correcta": "C. Maqueta.",
+            "justificacion": "La opción C es correcta ya que el documento define las maquetas como \"construcciones que implementan solamente la interfaz de usuario\" y especifica que \"muestran los elementos de la interfaz y la navegación\", sin desarrollar código para la funcionalidad subyacente. Esto coincide exactamente con la descripción de la pregunta, diferenciándola de wireframes o sketches que son representaciones más básicas o gráficas.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.3 Tipos de prototipos, Subsubsección: 1.3.2 Prototipos según la funcionalidad implementada, Primera oración del párrafo relevante: \"Las maquetas son construcciones que implementan solamente la interfaz de usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Un Mockup es:",
+            "opciones": [
+                "A. Un tipo de prototipo",
+                "B. Un problema asociado al diseño de interfaces de usuario",
+                "C. Una herramienta para desarrollar interfaces gráficas",
+                "D. Ninguna es correcta"
+            ],
+            "opcion_correcta": "A. Un tipo de prototipo",
+            "justificacion": "La opción A es correcta porque el texto indica que se utilizan términos como \"mockup... para referirse a distintos tipos de prototipos\", clasificándolo dentro de la sección de tipos de prototipos según la funcionalidad implementada. Se define explícitamente como una maqueta en terminología de diseño gráfico, validando su naturaleza como tipo de prototipo y no como herramienta o problema.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.3 Tipos de prototipos, Subsubsección: 1.3.2 Prototipos según la funcionalidad implementada, Primera oración del párrafo relevante: \"Generalmente, se habla de prototipos y maquetas como conceptos equivalentes y se utilizan términos como mockup...\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Respecto a la construcción de un prototipo podemos decir:",
+            "opciones": [
+                "A. Es el proceso que facilita al programador la creación del modelo de software a construir",
+                "B. Puede adoptar la forma de un 'prototipo que funcione' que describa la interacción hombre-máquina, de forma que facilite al usuario la comprensión de cómo funcionará tal trabajo",
+                "C. Puede adoptar la forma de 'un prototipo que funcione' que implementa algunos subconjuntos de la funcionalidad requerida al software deseado",
+                "D. Todas las respuestas anteriores son ciertas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son ciertas",
+            "justificacion": "La opción D es correcta porque el documento define un prototipo como un producto para evaluar y modificar especificaciones (opción A/B), y aclara que \"un prototipo no tiene porqué implementar todas las funcionalidades del sistema\", pudiendo implementarse una parte de las mismas o aspectos específicos (opción C). Por tanto, todas las afirmaciones anteriores se sustentan en la definición y objetivos descritos en el texto.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.2 Conceptos de prototipos, Subsubsección: 1.2.1 Definición, Primera oración del párrafo relevante: \"Se puede definir un prototipo como un producto software que se obtiene en una fase anterior a la finalización de un proyecto de desarrollo...\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Cuando en diseño de interfaces de usuario se habla de WIMP nos referimos a:",
+            "opciones": [
+                "A. Es un software comercial para la creación de interfaces.",
+                "B. Se refiere a Windows, Icons, Menus and Pointers.",
+                "C. Es una evolución de diseño orientado a la experiencia al usuario.",
+                "D. Son todas las interfaces basadas en menús."
+            ],
+            "opcion_correcta": "B. Se refiere a Windows, Icons, Menus and Pointers.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente el término WIMP en el apartado sobre interfaces gráficas como un acrónimo que se refiere a \"Windows, Icons, Menus, Pointers\". El texto indica que este término fue acuñado por Merzouga Wilberts en 1980 y se refiere a un estilo de interacción de estos elementos de la interfaz de usuario, descartando las opciones que lo definen como software comercial o evolución de UX.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.2 Conceptos de interfaces de usuario. Subsubsección: 2.2.1 Tipos de interfaces de usuario -> 2.2.1.2 Según la forma de interacción del usuario (Apartado Interfaz gráfica). Primera oración del párrafo relevante: \"Otro concepto relacionado con las interfaces gráficas es WIMP (Windows, Icons, Menus, Pointers), término acuñado por Merzouga Wilberts en 1980...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En relación con el diseño de interfaces de usuario, la ley según la cual \"El tiempo que se tarda en tomar una decisión aumenta a medida que se incrementa el número de alternativas\" se denomina:",
+            "opciones": [
+                "A. Ley de Fitts.",
+                "B. Ley de Hick.",
+                "C. Ley de Moore.",
+                "D. Ley de Hook."
+            ],
+            "opcion_correcta": "B. Ley de Hick.",
+            "justificacion": "La opción B es correcta ya que el documento establece en la sección de diseño de interfaces que \"La ley de Hick explica que el tiempo de decisión de un humano varía según el número de opciones que se le presenten\", formulando textualmente que \"El tiempo que se tarda en tomar una decisión aumenta a medida que se incrementa el número de alternativas\". La Ley de Fitts, por su parte, trata del tiempo para apuntar a un punto.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.3 Diseño de interfaces de usuario. Primera oración del párrafo relevante: \"Dos de las leyes más conocidas en el diseño de interfaces de usuario son la Ley de Hick y la Ley de Fitts.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Señale la afirmación cierta sobre los prototipos...",
+            "opciones": [
+                "A. Son un modelo a escala o facsímil de lo real que lleva a cabo la totalidad de las funciones necesarias del sistema final.",
+                "B. En la fase de diseño se utiliza para definir los requerimientos del usuario.",
+                "C. Se debe definir su objetivo a medida que se desarrolla.",
+                "D. Los prototipos de pantalla permiten evaluar la posición de información sobre la pantalla."
+            ],
+            "opcion_correcta": "D. Los prototipos de pantalla permiten evaluar la posición de información sobre la pantalla.",
+            "justificacion": "La opción D es correcta porque el documento indica que en la técnica del prototipado, específicamente en Métrica v3, se centra en el aspecto visual de las pantallas y se debe realizar un análisis de la información a mostrar para \"organizar la pantalla en áreas específicas\". Las opciones A y B son incorrectas o imprecisas según el texto, ya que un prototipo no tiene por qué implementar todas las funcionalidades (1.2.1) y su objetivo debe determinarse desde el principio si es evolutivo o desechable (1.3.3).",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.8 El Prototipado en Métrica versión 3. Subsubsección: 1.8.4 La Técnica del Prototipado en Métrica v3. Primera oración del párrafo relevante: \"Tras considerar estos aspectos hay que realizar un análisis de la información a mostrar en cada una de las pantallas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Indique cuál de las siguientes afirmaciones, referidas al concepto de prototipo en el desarrollo de software, es INCORRECTA:",
+            "opciones": [
+                "A. Es un producto software que se obtiene en una fase anterior a la finalización de un proyecto de desarrollo.",
+                "B. No tiene por qué implementar todas las funcionalidades del sistema.",
+                "C. El uso de prototipos no va a reducir el riesgo del proyecto.",
+                "D. Una vez se ha usado un prototipo, puede servir de base para el desarrollo del sistema."
+            ],
+            "opcion_correcta": "C. El uso de prototipos no va a reducir el riesgo del proyecto.",
+            "justificacion": "La opción C es la correcta (como afirmación incorrecta) porque el documento afirma explícitamente en la sección de objetivos y beneficios que \"Un prototipo permite reducir el riesgo en un proyecto de desarrollo de software mediante la reducción de la incertidumbre\". Por tanto, afirmar que no reduce el riesgo contradice directamente el texto. Las opciones A, B y D son afirmaciones correctas según las definiciones del documento (1.2.1 y 1.2.2).",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.2 Conceptos de prototipos. Subsubsección: 1.2.2 Objetivo y beneficios. Primera oración del párrafo relevante: \"Según Sommerville, un prototipo permite demostrar conceptos, probar opciones de diseño, y en general, informarse más sobre el problema y sus posibles soluciones.\". (Párrafo siguiente: \"Un prototipo permite reducir el riesgo en un proyecto de desarrollo de software mediante la reducción de la incertidumbre...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Los principios de diseño de interfaces de usuario son:",
+            "opciones": [
+                "A. Familiaridad del usuario, uniformidad de la interfaz, volver a estados anteriores para revertir errores, elaboración de sistemas de ayuda, realimentación, proporcionar la información precisa, anticipación ante las necesidades de usuario, usabilidad, eficacia.",
+                "B. Familiaridad del usuario, uniformidad de la interfaz, volver a estados anteriores para revertir errores, realimentación, proporcionar la información precisa, anticipación ante las necesidades de usuario, usabilidad, eficacia.",
+                "C. Familiaridad del usuario, uniformidad de la interfaz, volver a estados anteriores para revertir errores, elaboración de sistemas de ayuda, realimentación, proporcionar la información precisa, anticipación ante las necesidades de usuario, usabilidad, eficiencia.",
+                "D. Familiaridad del usuario, uniformidad de la interfaz, volver a estados anteriores para revertir errores, elaboración de sistemas de ayuda, realimentación, anticipación ante las necesidades de usuario, usabilidad, eficiencia."
+            ],
+            "opcion_correcta": "C. Familiaridad del usuario, uniformidad de la interfaz, volver a estados anteriores para revertir errores, elaboración de sistemas de ayuda, realimentación, proporcionar la información precisa, anticipación ante las necesidades de usuario, usabilidad, eficiencia.",
+            "justificacion": "La opción C es correcta porque el documento enumera en la sección de principios de diseño conceptos como \"Familiaridad del usuario\", \"Uniformidad de la interfaz\", \"Recuperación de estados\" (volver a estados anteriores), \"Guía de usuarios\" (sistemas de ayuda), \"Realimentación\", \"Anticipación\" y \"Eficiencia\". La opción C es la única que incluye la mayoría de estos elementos clave mencionados en el texto, incluyendo la eficiencia como ideal a lograr, mientras que otras opciones omiten puntos críticos como la elaboración de sistemas de ayuda o usan términos no listados como eficacia en lugar de eficiencia.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.3 Diseño de interfaces de usuario. Subsubsección: 2.3.1 Principios de diseño de interfaces de usuario. Primera oración del párrafo relevante: \"Aunque existe una gran cantidad de información y bibliografía respecto al diseño de la GUI, en este apartado se explican de manera resumida los principios más relevantes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "En relación con el diseño digital de una web o una aplicación señale la herramienta de diseño que incluye detalles visuales y de diseño, como por ejemplo, imágenes, tipografía, colores y estilos de botones:",
+            "opciones": [
+                "A. Wireframe.",
+                "B. Sketch.",
+                "C. Mockup.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Mockup.",
+            "justificacion": "La opción C es correcta porque el documento define en la sección correspondiente a los tipos de prototipos según la funcionalidad implementada que un \"mockup\" representa especialmente un diseño gráfico editorial y, en el caso de una página web, visualiza el contenido y permite revisar la parte visual del proyecto. Esto se alinea con la descripción de incluir detalles visuales como imágenes, tipografía y colores, diferenciándose del wireframe o sketch que son más básicos.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.3 Tipos de prototipos. Subsubsección: 1.3.2 Prototipos según la funcionalidad implementada. Primera oración del párrafo relevante: \"Un mockup es una maqueta en terminología de diseño gráfico.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "No se considera una técnica o herramienta para la creación de prototipos:",
+            "opciones": [
+                "A. Técnicas de Cuarta Generación",
+                "B. Componentes de Software Reutilizables",
+                "C. Modelado Lógico de Datos",
+                "D. Especificaciones Formales y Entornos para Prototipos"
+            ],
+            "opcion_correcta": "C. Modelado Lógico de Datos",
+            "justificacion": "La opción C es correcta porque el documento, en la sección dedicada a las herramientas de prototipado, identifica explícitamente como métodos y herramientas para la creación de prototipos las \"Técnicas de Cuarta Generación\", los \"Componentes de Software Reutilizables\" y las \"Especificaciones Formales y Entornos para Prototipos\". El \"Modelado Lógico de Datos\" no aparece en esta lista de técnicas específicas para el prototipado dentro del texto proporcionado.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.7 Herramientas de prototipado. Primera oración del párrafo relevante: \"Andriole o Tannenbaum identifican los siguientes métodos y herramientas para la creación de prototipos:\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cuál de los siguientes programas informáticos genera archivos XML?:",
+            "opciones": [
+                "A. GTK+(GIMP Toolkit).",
+                "B. WXWidgets.",
+                "C. GLADE.",
+                "D. Todos generan XML."
+            ],
+            "opcion_correcta": "C. GLADE.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de herramientas y lenguajes para el desarrollo de interfaces que GLADE \"no genera código fuente, sino un archivo XML que representa la interfaz de usuario\". Las otras opciones mencionadas (GTK+, WXWidgets) se describen como bibliotecas o toolkits sin mencionar explícitamente la generación de archivos XML como su característica principal en el texto.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.5 Herramientas y lenguajes para el desarrollo de interfaces de usuario. Primera oración del párrafo relevante: \"GLADE Es una herramienta de desarrollo visual de interfaces.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Para el diseño de interfaces de aplicaciones se utilizan patrones de diseño de interfaz de usuario. Entre los más usados se encuentra:",
+            "opciones": [
+                "A. Pull to refresh, también conocido como Swipe to refresh o tirar para actualizar en español.",
+                "B. Juicy page, también conocido como enriquecedor de contenidos.",
+                "C. Single top.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Pull to refresh, también conocido como Swipe to refresh o tirar para actualizar en español.",
+            "justificacion": "La opción A es correcta conceptualmente porque el documento establece en la sección de diseño de interfaces que esta disciplina busca definir cómo responderá una interfaz a las acciones con los usuarios y establecer flujos de operación (Diseño de interacción). Aunque el término específico \"Pull to refresh\" no aparece textualmente, se enmarca dentro de los principios de diseño de interacción y usabilidad descritos (como realimentación y eficiencia) que rigen la creación de patrones de interfaz para facilitar la tarea del usuario.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.3 Diseño de interfaces de usuario. Primera oración del párrafo relevante: \"El diseño de las interfaces de aplicaciones, o interfaces de usuario como comúnmente es conocida esta disciplina en la ingeniería del software...\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Cuál de los siguientes no es un punto de vista a considerar en el desarrollo de una GUI (Interfaz Gráfica de Usuario):",
+            "opciones": [
+                "A. Modelo de usuario.",
+                "B. Modelo del programador.",
+                "C. Modelo del diseñador.",
+                "D. Modelo del cliente."
+            ],
+            "opcion_correcta": "D. Modelo del cliente.",
+            "justificacion": "La opción D es correcta porque el documento especifica explícitamente que existen \"tres puntos de vista distintos en una GUI\": el modelo del usuario, el modelo del diseñador y el modelo del programador. El \"Modelo del cliente\" no se menciona como uno de los tres puntos de vista fundamentales para el diseño de la interfaz gráfica según el texto proporcionado.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.2 Conceptos de interfaces de usuario. Primera oración del párrafo relevante: \"Existen tres puntos de vista distintos en una GUI:\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "La utilización de prototipos tiene como objetivo/s:",
+            "opciones": [
+                "A. Reducir el riesgo del proyecto",
+                "B. Conseguir mayor aceptación del sistema final por el área usuaria",
+                "C. Definir con exactitud los requisitos de los usuarios",
+                "D. las respuestas a) y b) son correctas"
+            ],
+            "opcion_correcta": "A. Reducir el riesgo del proyecto",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección 1.2.2 que \"Un prototipo permite reducir el riesgo en un proyecto de desarrollo de software mediante la reducción de la incertidumbre\". Aunque se mencionan beneficios como la concordancia con las necesidades del usuario, el objetivo fundamental citado para justificar el esfuerzo es la reducción de riesgos e incertidumbre en el proyecto.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.2 CONCEPTOS DE PROTOTIPOS. Subsubsección: 1.2.2 OBJETIVO Y BENEFICIOS. Primera oración del párrafo relevante: \"Según Sommerville, un prototipo permite demostrar conceptos, probar opciones de diseño, y en general, informarse más sobre el problema y sus posibles soluciones.\" (Nota: La frase específica sobre riesgo aparece en el segundo párrafo de esta subsección: \"Un prototipo permite reducir el riesgo en un proyecto de desarrollo de software mediante la reducción de la incertidumbre...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "No se puede considerar una disciplina en el diseño de las interfaces de usaurio:",
+            "opciones": [
+                "A. UI (Diseño de interfaz de usuario)",
+                "B. UX (Diseño de experiencia de usuario)",
+                "C. IxD (Diseño de interacción)",
+                "D. RX (Diseño de experencia de respuesta)"
+            ],
+            "opcion_correcta": "D. RX (Diseño de experencia de respuesta)",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 2.3.2, enumera específicamente las disciplinas surgidas para mejorar la experiencia de usuario como UI, UX e IxD. No se menciona ninguna disciplina denominada \"RX\" ni \"Diseño de experiencia de respuesta\", por lo que esta opción no corresponde a los conceptos presentados en el texto.",
+            "referencia": "Sección: 2 DISEÑO DE INTERFACES DE APLICACIONES. Subsección: 2.3 DISEÑO DE INTERFACES DE USUARIO. Subsubsección: 2.3.2 ENFOQUES DE DISEÑO UI, UX, IXD. Primera oración del párrafo relevante: \"Conforme el diseño de interfaces usuario y su impacto en la usabilidad ha ido extendiéndose y evolucionando, han ido surgiendo nuevos enfoques o variantes que han incorporado elementos y visiones a tener en cuenta en el diseño de interfaces...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "En cuanto al uso de los prototipos es falso que:",
+            "opciones": [
+                "A. Se usarán en situaciones en las que los requisitos no están claros.",
+                "B. Se usarán para probar una tecnología nueva que se desconoce cómo va a responder.",
+                "C. Se usarán para poder convencer al usuario de cuál es la mejor opción.",
+                "D. Se usarán para probar algoritmos específicos."
+            ],
+            "opcion_correcta": "C. Se usarán para poder convencer al usuario de cuál es la mejor opción.",
+            "justificacion": "La opción C es correcta (como enunciado falso) porque el documento indica en la sección 1.4 que el prototipado se usa cuando los requisitos no están claros, para probar funcionalidades o tecnologías nuevas, pero no menciona como objetivo \"convencer al usuario\". De hecho, en la sección 1.5 se advierte como desventaja que el cliente puede pensar que el prototipo es el sistema final, lo que dificulta convencerle de lo contrario, indicando que el fin es la comunicación y entendimiento, no la persuasión de una opción específica.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.4 CUÁNDO USAR PROTOTIPADO. Primera oración del párrafo relevante: \"Los prototipos no deben usarse de forma sistemática en un proyecto, sino que debido al incremento de esfuerzo inicial que requieren deben ser usados solamente cuando se dan ciertas condiciones que indican que el uso del prototipado es adecuado a las características del proyecto de desarrollo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Cuál de los siguientes enunciados NO es una ventaja del uso de prototipos?",
+            "opciones": [
+                "A. Para los usuarios es más fácil de evaluar un prototipo que un documento de especificación de requisitos software.",
+                "B. Hay una continua revisión de los requisitos del sistema por los usuarios.",
+                "C. Siempre es sencillo evolucionar el prototipo si se ha desarrollado con poca calidad.",
+                "D. Los usuarios tienen mucha más facilidad a la hora de describir lo que necesitan si lo ven en un prototipo."
+            ],
+            "opcion_correcta": "C. Siempre es sencillo evolucionar el prototipo si se ha desarrollado con poca calidad.",
+            "justificacion": "La opción C es correcta (como enunciado que NO es una ventaja) porque el documento, en la sección 1.5 bajo desventajas, afirma explícitamente: \"No siempre es fácil cambiar un prototipo. Si el desarrollo no se ha hecho con la calidad suficiente, puede resultar muy difícil de modificar\". Esto contradice directamente la afirmación de que siempre es sencillo evolucionarlo si hay poca calidad.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.5 VENTAJAS Y DESVENTAJAS DE LOS PROTOTIPOS. Primera oración del párrafo relevante (sobre desventajas): \"Las desventajas del uso de las técnicas de prototipado son las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿A cuál de las siguientes opciones corresponde la definición siguiente?: \"Un medio a través del cual se simula el aspecto visual del sistema mediante la representación de los conceptos, componentes, objetos gráficos, entradas y salidas requeridas para la ejecución de cada función en respuesta a las necesidades planteadas.\"",
+            "opciones": [
+                "A. Diseño orientado a objetos.",
+                "B. JRP.",
+                "C. Prototipado.",
+                "D. JAD."
+            ],
+            "opcion_correcta": "C. Prototipado.",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 1.2.1 un prototipo como un producto software obtenido antes de la finalización para evaluar y modificar especificaciones, y en la sección 1.3.2 describe que los prototipos simulan la interfaz de usuario y permiten experimentar interactuando con ella, lo cual coincide con la definición de simulación del aspecto visual y funcionalidad proporcionada en la pregunta.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.2 CONCEPTOS DE PROTOTIPOS. Subsubsección: 1.2.1 DEFINICIÓN. Primera oración del párrafo relevante: \"Se puede definir un prototipo como un producto software que se obtiene en una fase anterior a la finalización de un proyecto de desarrollo, con objeto de permitir evaluar, modificar especificaciones de usuario, demostrar al usuario en qué punto del camino se encuentra, etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Cuántos puntos de vista existen en una Interfaz Gráfica de Usuario?",
+            "opciones": [
+                "A. Dos: Modelo del usuario y modelo de usabilidad..",
+                "B. Tres: Modelo del usuario, Modelo del diseñador y Modelo de usabilidad.",
+                "C. Tres: Modelo del usuario, Modelo del diseñador y Modelo del programador.",
+                "D. Dos: Modelo de programador y Modelo de usabilidad."
+            ],
+            "opcion_correcta": "C. Tres: Modelo del usuario, Modelo del diseñador y Modelo del programador.",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección correspondiente a los conceptos de interfaces que existen tres puntos de vista distintos en una GUI: el modelo del usuario, el modelo del diseñador y el modelo del programador. Esta enumeración coincide textualmente con la opción seleccionada, descartando las otras opciones que incluyen \"modelo de usabilidad\" o reducen el número de modelos a dos, lo cual no se ajusta a la clasificación presentada en el texto.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.2 Conceptos de interfaces de usuario. Primera oración del párrafo relevante: \"Existen tres puntos de vista distintos en una GUI:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "El enfoque de diseño de interfaces de usuario (UI):",
+            "opciones": [
+                "A. Considera que todos los elementos que te permiten interactuar con el dispositivo forma parte de la interfaz.",
+                "B. Sitúa al usuario en el centro del diseño.",
+                "C. Se centra en el diseño de la interacción hombre-máquina.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. Considera que todos los elementos que te permiten interactuar con el dispositivo forma parte de la interfaz.",
+            "justificacion": "La opción A es correcta porque el documento define el Diseño de interfaz de usuario (UI) como el enfoque que considera que todos los elementos que permiten interactuar con un dispositivo forman parte del diseño del User Interface. Las opciones B y C corresponden a las definiciones de UX (User Experience) e IxD (Interaction Design) respectivamente, según se detalla en la sección de enfoques de diseño, por lo que no aplican al concepto específico de UI descrito en el texto.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.3.2 Enfoques de diseño UI, UX, IxD. Primera oración del párrafo relevante: \"Este enfoque considera que todos los elementos que te permiten interactuar con un dispositivo forman parte del diseño del User Interface...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Señale la afirmación cierta sobre los prototipos de comportamiento:",
+            "opciones": [
+                "A. También se conocen como prototipos de implantación y se usan para simular el diseño del sistema de información final.",
+                "B. También se conocen como prototipos de implantación y normalmente no incluyen funcionalidades de edición, control de errores, seguridad o mensajes.",
+                "C. También se conocen como prototipos de diseño y se usan para simular el diseño del sistema de información final.",
+                "D. También se conocen como prototipos de diseño y normalmente no incluyen funcionalidades de edición, control de errores, seguridad o mensajes."
+            ],
+            "opcion_correcta": "C. También se conocen como prototipos de diseño y se usan para simular el diseño del sistema de información final.",
+            "justificacion": "La opción C es correcta porque el documento clasifica los prototipos según la función y especifica que los prototipos \"De diseño\", también conocidos como prototipos de comportamiento, se usan para simular el diseño del sistema de información final. Las opciones A y B son incorrectas al asociarlos con \"implantación\", mientras que la opción D describe características de los prototipos de implantación (que no incluyen funcionalidades de edición o seguridad), no de los de diseño/comportamiento.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.3.1 Prototipos según la función. Primera oración del párrafo relevante: \"Estos prototipos, también conocidos como prototipos de comportamiento, se usan para simular el diseño del sistema de información final.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Qué tipo de prototipo es más adecuado para eliminar el problema de la indefinición de requisitos?",
+            "opciones": [
+                "A. Rápido",
+                "B. Evolutivo",
+                "C. Incremental",
+                "D. Rápido o evolutivo, nunca el incremental"
+            ],
+            "opcion_correcta": "A. Rápido",
+            "justificacion": "La opción A es correcta porque el documento indica que los prototipos rápidos (dentro de la categoría desechables) se construyen rápidamente para evaluarlos cuanto antes y reducir el riesgo de construir un producto que se aleje de las necesidades del usuario. Además, en la sección sobre cuándo usar prototipado, se menciona su utilidad en situaciones donde los requisitos no están claros, lo cual permite obtener nuevos requerimientos mediante la evaluación temprana sin el coste de un desarrollo evolutivo completo.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.3.3 Prototipos según el destino. Primera oración del párrafo relevante: \"Los prototipos rápidos se construyen rápidamente, para poder evaluarlos cuanto antes por el usuario o el desarrollador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "El prototipado de sistemas de información, según Métrica V3:",
+            "opciones": [
+                "A. Tiene como objetivo elaborar un modelo o maqueta de las interfaces entre el sistema y el usuario para evaluar el rendimiento y funcionalidad del sistema.",
+                "B. Es la técnica principal para obtener un catálogo de requisitos del usuario de forma alternativa a la obtenida en la fase del anásis del sistema.",
+                "C. Es una práctica cuyo aspecto clave es la identificación de los usuarios a los que va a dirigir, teniendo en cuenta que debe responder a diferentes individualidades, con distintos conocimientos y habilidades.",
+                "D. Se debe centrar en las funciones fundamentales, ignorando aquellos atributos relacionados con el aspecto estético como son el color y el sonido y en general todo aspecto vidual del sistema."
+            ],
+            "opcion_correcta": "C. Es una práctica cuyo aspecto clave es la identificación de los usuarios a los que va a dirigir, teniendo en cuenta que debe responder a diferentes individualidades, con distintos conocimientos y habilidades.",
+            "justificacion": "La opción C es correcta porque la sección dedicada a la técnica del prototipado en Métrica v3 recomienda estudiar específicamente quiénes son los usuarios a los que va dirigido el prototipo, determinando los diferentes perfiles de usuarios y sus funciones. La opción D es incorrecta ya que el texto menciona explícitamente al final de la sección el uso de recursos estéticos como color o sonido para mejorar la interacción, no ignorarlos.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.8.4 La Técnica del Prototipado en Métrica v3. Primera oración del párrafo relevante: \"Para la construcción de los prototipos, Métrica recomienda estudiar los siguientes aspectos:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Escoja la ordenación correcta de las siguientes técnicas para la realización de prototipos de menor a mayor grado de fidelidad con el sistema final:",
+            "opciones": [
+                "A. Mockup, Sketch y WireFrame.",
+                "B. Sketch, Mockup y WireFrame.",
+                "C. Sketch, WireFrame y Mockup.",
+                "D. Mockup, Wireframe y Sketch."
+            ],
+            "opcion_correcta": "C. Sketch, WireFrame y Mockup.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección 1.3.2 que un \"Sketch\" es un dibujo rápido con pocos detalles, un \"Wireframe\" es una representación básica de baja calidad para definir estructura, y un \"Mockup\" representa un diseño gráfico editorial revisando la parte visual del proyecto. Esta progresión indica un aumento en el detalle y fidelidad visual desde el bosquejo inicial hasta la maqueta gráfica.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.3 TIPOS DE PROTOTIPOS. Subsubsección: 1.3.2 PROTOTIPOS SEGÚN LA FUNCIONALIDAD IMPLEMENTADA. Primera oración del párrafo relevante: \"Un sketch es un dibujo rápido o bosquejo de guía general que no tiene por qué tener muchos detalles y que reproduce un concepto, idea, o generalidad de un proyecto de una manera muy sencilla.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "El estándar ISO11581 responde a:",
+            "opciones": [
+                "A. Interacción de diálogos.",
+                "B. Diseño ergonómico de los centros de control.",
+                "C. Evaluación de Productos de Software.",
+                "D. Símbolos y funciones de los iconos."
+            ],
+            "opcion_correcta": "D. Símbolos y funciones de los iconos.",
+            "justificacion": "La opción D es correcta porque el documento lista explícitamente en la sección 2.7 que el estándar \"ISO/IEC 11581 - Símbolos y funciones de los iconos\" comprende partes aplicadas a los iconos visualizados en la pantalla del ordenador, coincidiendo textualmente con la opción seleccionada.",
+            "referencia": "Sección: 2 DISEÑO DE INTERFACES DE APLICACIONES. Subsección: 2.7 ESTÁNDARES RELACIONADOS. Primera oración del párrafo relevante: \"ISO/IEC 11581 - Símbolos y funciones de los iconos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "En el diseño de interfaces de usuario ha de tenerse en cuenta la Ley de Hick según la cual...",
+            "opciones": [
+                "A. El tiempo que el usuario requiere para alcanzar a pulsar un objetivo en la interfaz depende de una relación logarítmica entre su superficie y la distancia a la que se encuentra.",
+                "B. El tiempo que se tarda en tomar una decisión aumenta a medida que se incrementa el número de alternativas.",
+                "C. a) y b) son correctas.",
+                "D. La ley de Hick no aplica para el diseño de interfaces de usuario."
+            ],
+            "opcion_correcta": "B. El tiempo que se tarda en tomar una decisión aumenta a medida que se incrementa el número de alternativas.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.3 que \"La ley de Hick explica que el tiempo de decisión de un humano varía según el número de opciones que se le presenten\", formulando textualmente que el tiempo aumenta al incrementarse las alternativas, mientras que la opción A corresponde a la Ley de Fitts descrita inmediatamente después.",
+            "referencia": "Sección: 2 DISEÑO DE INTERFACES DE APLICACIONES. Subsección: 2.3 DISEÑO DE INTERFACES DE USUARIO. Primera oración del párrafo relevante: \"La ley de Hick explica que el tiempo de decisión de un humano varía según el número de opciones que se le presenten.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Cuál de las siguientes es una característica del prototipado rápido como modelo de ciclo de vida de los sistemas de información?",
+            "opciones": [
+                "A. No importa el tiempo que se necesite emplear en su desarrollo.",
+                "B. El prototipo viene a ser una versión inicial del software, que habrá que ir refinando y mejorando para construir el sistema real.",
+                "C. Se utilizan en todas las fases del desarrollo, aunque su elevado coste hace que su uso se limite dentro de un proyecto.",
+                "D. El prototipo sirve para crear y validar la especificación y para que el usuario se haga una idea de cómo será el software definitivo."
+            ],
+            "opcion_correcta": "D. El prototipo sirve para crear y validar la especificación y para que el usuario se haga una idea de cómo será el software definitivo.",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 1.2.1 un prototipo como un producto obtenido antes de la finalización con objeto de \"permitir evaluar, modificar especificaciones de usuario, demostrar al usuario en qué punto del camino se encuentra\", lo que implica validar especificaciones y dar una idea del software definitivo.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.2 CONCEPTOS DE PROTOTIPOS. Subsubsección: 1.2.1 DEFINICIÓN. Primera oración del párrafo relevante: \"Se puede definir un prototipo como un producto software que se obtiene en una fase anterior a la finalización de un proyecto de desarrollo, con objeto de permitir evaluar, modificar especificaciones de usuario, demostrar al usuario en qué punto del camino se encuentra, etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Sobre la elaboración de un prototipo es cierto que...",
+            "opciones": [
+                "A. El que los usuarios finales vean en el prototipo una versión definitiva del software no es un problema típico de los prototipos desechables.",
+                "B. Los prototipos desechables se utilizan en desarrollos en cascada.",
+                "C. No se suelen considerar aspectos de calidad pero sí de facilidad de mantenimiento.",
+                "D. El que los usuarios finales vean en el prototipo una versión definitiva del software es un problema típico de los prototipos evolutivos."
+            ],
+            "opcion_correcta": "B. Los prototipos desechables se utilizan en desarrollos en cascada.",
+            "justificacion": "La opción B es correcta porque el documento indica en la sección 1.6 que es factible construir un prototipo usando cualquier modelo, incluyendo el \"modelo de ciclo de vida en cascada\", incorporando las etapas de construcción del prototipo en la fase de análisis o diseño antes de construir el sistema final, lo cual se alinea con la naturaleza desechable donde el prototipo no evoluciona al sistema real.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.6 MODELOS DE CICLO DE VIDA RELACIONADOS CON EL PROTOTIPADO. Primera oración del párrafo relevante: \"Así, si queremos construir un prototipo durante el diseño de una aplicación que se está desarrollando según un modelo de ciclo de vida en cascada, basta con incorporar en la fase de análisis o diseño las etapas de construcción del prototipo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Según Métrica 3 el Jefe de Proyecto puede elegir una estrategia de desarrollo por prototipos en:",
+            "opciones": [
+                "A. La interfaz de Gestión de Proyectos.",
+                "B. En fase de Análisis del Sistema de Información.",
+                "C. En cualquiera de las dos anteriores.",
+                "D. Métrica 3 no contempla el desarrollo por prototipos."
+            ],
+            "opcion_correcta": "A. La interfaz de Gestión de Proyectos.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección dedicada a Métrica v3 que, dentro de la Interfaz de Gestión de Proyectos (GPI), es tarea del Jefe de Proyecto elegir la Estrategia de Desarrollo. El texto indica que entre los modelos contemplados se encuentra el \"Por Prototipos\", confirmando que esta decisión se toma en dicha interfaz y no exclusivamente en fases posteriores como el análisis.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.8 El Prototipado en Métrica versión 3. Subsubsección: 1.8.1 Interfaz de Gestión de Proyectos (GPI). Primera oración del párrafo relevante: \"En la tarea GPI.2.1, en la Interfaz de Gestión de Proyectos, el Jefe de Proyecto debe elegir la Estrategia de Desarrollo, es decir, qué modelo o modelos de proceso se van a aplicar al proyecto en particular.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "El modelo de ciclo de vida R.A.D se basa en:",
+            "opciones": [
+                "A. El modelo de desarrollo incremental",
+                "B. El modelo en espiral",
+                "C. El prototipado evolutivo",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. El prototipado evolutivo",
+            "justificacion": "La opción C es correcta porque, aunque el término R.A.D no aparece explícitamente en el texto, el documento describe el \"prototipado evolutivo\" como aquel que evoluciona desde su estadio de prototipo hasta convertirse en la solución final. Este concepto se alinea funcionalmente con modelos de desarrollo rápido donde el prototipo no se descarta sino que se aprovecha para construir el sistema definitivo, tal como se detalla en la clasificación según el destino.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.3 Tipos de prototipos. Subsubsección: 1.3.3 Prototipos según el destino. Primera oración del párrafo relevante: \"Los prototipos evolutivos son aquellos que evolucionan desde su estadio de prototipo hasta convertirse en la solución final.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Cuándo aplicaría usted un ciclo de vida basado en prototipos?",
+            "opciones": [
+                "A. Cuando los requisitios son difíciles de revisar",
+                "B. Cuando el sistema es crítico",
+                "C. Para desarrollos de larga duración",
+                "D. Se aplicaría en todos los casos anteriores"
+            ],
+            "opcion_correcta": "A. Cuando los requisitios son difíciles de revisar",
+            "justificacion": "La opción A es correcta porque el documento indica que el prototipado debe usarse solamente cuando se dan ciertas condiciones, siendo una de las principales \"Situaciones en las que los requisitos no están claros\". Esto implica que cuando los requisitos son difíciles de definir o revisar, el prototipado es la técnica adecuada para facilitar el entendimiento y reducir la incertidumbre.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.4 CUÁNDO USAR PROTOTIPADO. Primera oración del párrafo relevante: \"Los prototipos no deben usarse de forma sistemática en un proyecto, sino que debido al incremento de esfuerzo inicial que requieren deben ser usados solamente cuando se dan ciertas condiciones que indican que el uso del prototipado es adecuado a las características del proyecto de desarrollo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "En Métrica V3, la Definición de la interfaz de usuario está incluida como actividad en la fase de:",
+            "opciones": [
+                "A. DSI",
+                "B. CSI",
+                "C. ASI",
+                "D. ACI"
+            ],
+            "opcion_correcta": "C. ASI",
+            "justificacion": "La opción C es correcta porque el documento especifica que dentro de la actividad \"ASI 8 Definición de Interfaces de Usuario\", se utiliza la técnica de prototipado para crear las interfaces de Usuario y de Impresión. Esto sitúa claramente la definición de la interfaz en la fase de Análisis del Sistema de Información (ASI) según la metodología Métrica v3 descrita.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.8 El Prototipado en Métrica versión 3. Subsubsección: 1.8.2 Análisis del Sistema de Información (ASI). Primera oración del párrafo relevante: \"En la actividad ASI 8 Definición de Interfaces de Usuario, se usa la técnica de prototipado para crear las interfaces de Usuario y de Impresión.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "La clasificación de prototipos por función incluye los siguientes tipos:",
+            "opciones": [
+                "A. Prototipo, mockup o maqueta, sketch, wireframe.",
+                "B. De requisitios, de diseño, de implementación.",
+                "C. Desechable, evolutivo.",
+                "D. De viabilidad, de necesidad, de implantación o producción."
+            ],
+            "opcion_correcta": "D. De viabilidad, de necesidad, de implantación o producción.",
+            "justificacion": "La opción D es correcta porque el documento clasifica los prototipos según la función en cuatro clases específicas: De viabilidad, De necesidad, De diseño y De implantación. La opción seleccionada recoge correctamente tres de estas categorías fundamentales definidas por Whitten en el texto, diferenciándose de las otras opciones que corresponden a clasificaciones según funcionalidad implementada o destino.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.3 Tipos de prototipos. Subsubsección: 1.3.1 Prototipos según la función. Primera oración del párrafo relevante: \"Según Whitten, los prototipos se pueden clasificar en las siguientes cuatro clases:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "En relación al uso de prototipos en el desarrollo de sistemas, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+            "opciones": [
+                "A. La fase de construcción de prototipos comienza al finalizar la recolección de requisitos.",
+                "B. Métrica v.3 no contempla el uso de prototipos.",
+                "C. En general, el uso de prototipos aumenta el tiempo de análisis del sistema de información.",
+                "D. Se conoce como ‘mockup’ al primer prototipo sencillo, sin detalles visuales y de rápida construcción."
+            ],
+            "opcion_correcta": "C. En general, el uso de prototipos aumenta el tiempo de análisis del sistema de información.",
+            "justificacion": "La opción C es correcta porque el documento indica que la construcción y evaluación del prototipo suponen tareas adicionales que pueden incrementar el coste y esfuerzo inicial del proyecto en comparación con un modelo tradicional. Aunque a largo plazo puede reducir costes por evitar cambios tardíos, inicialmente requiere más tiempo y esfuerzo de análisis y construcción.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.2 CONCEPTOS DE PROTOTIPOS. Subsubsección: 1.2.3 COSTE. Primera oración del párrafo relevante: \"Es lógico pensar que, si hay más tareas a realizar en el proyecto, como las correspondientes a la construcción del prototipo y evaluación del mismo, el coste del proyecto pueda ser superior a un desarrollo siguiendo un modelo tradicional sin prototipado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Según J. Whitten, en relación con los prototipos en el desarrollo de sistemas, los prototipos según la función, se clasifican como:",
+            "opciones": [
+                "A. Verticales u horizontales.",
+                "B. Sketch, wireframe y maquetas.",
+                "C. Desechables y evolutivos.",
+                "D. De viabilidad, de necesidad, de diseño y de implementación."
+            ],
+            "opcion_correcta": "D. De viabilidad, de necesidad, de diseño y de implementación.",
+            "justificacion": "La opción D es correcta porque el documento cita explícitamente a Whitten para clasificar los prototipos según la función en cuatro clases específicas: de viabilidad, de necesidad, de diseño y de implantación (implementación). Las otras opciones corresponden a otras clasificaciones o conceptos diferentes mencionados en el texto.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.3 TIPOS DE PROTOTIPOS. Subsubsección: 1.3.1 PROTOTIPOS SEGÚN LA FUNCIÓN. Primera oración del párrafo relevante: \"Según Whitten, los prototipos se pueden clasificar en las siguientes cuatro clases:\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál de las siguientes afirmaciones referentes al paradigma de desarrollo mediante prototipos es cierta?",
+            "opciones": [
+                "A. Está indicado cuando las especificaciones funcionales del usuario no se pueden definir en una fase inicial del proyecto",
+                "B. Está indicado cuando varias aplicaciones independientemente desarrolladas deban ser ligadas estrechamente",
+                "C. Coincide con el modelo de desarrollo evolutivo",
+                "D. En este modelo, el sistema operativo, lenguaje de programación y algoritmos son las únicas coincidencias entre prototipo y sistema final"
+            ],
+            "opcion_correcta": "A. Está indicado cuando las especificaciones funcionales del usuario no se pueden definir en una fase inicial del proyecto",
+            "justificacion": "La opción A es correcta porque el documento establece que el uso del prototipado es adecuado específicamente en situaciones donde los requisitos no están claros o no se pueden definir completamente al inicio, facilitando así el entendimiento entre usuarios y desarrolladores.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.4 CUÁNDO USAR PROTOTIPADO. Primera oración del párrafo relevante: \"Los prototipos no deben usarse de forma sistemática en un proyecto, sino que debido al incremento de esfuerzo inicial que requieren deben ser usados solamente cuando se dan ciertas condiciones que indican que el uso del prototipado es adecuado a las características del proyecto de desarrollo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Qué tipo de prototipo es más adecuado si se conocen bien todos los requisitos de partida?",
+            "opciones": [
+                "A. Rápido",
+                "B. Evolutivo",
+                "C. Incremental",
+                "D. Cualquiera de los anteriores"
+            ],
+            "opcion_correcta": "C. Incremental",
+            "justificacion": "La opción C es correcta en el contexto de Métrica v3, donde si los requisitos están claros no se justifica tanto el prototipado puro (destinado a requisitos inciertos), sino modelos como el incremental o por subsistemas que permiten un desarrollo estructurado. El documento menciona la aproximación incremental dentro de los modelos de Métrica v3 como una alternativa al modelo por prototipos.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.8 EL PROTOTIPADO EN MÉTRICA VERSIÓN 3. Subsubsección: 1.8.1 INTERFAZ DE GESTIÓN DE PROYECTOS (GPI). Primera oración del párrafo relevante: \"Los modelos que tiene contemplados Métrica v3 son:\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "En relación con la técnica del prototipado, ¿qué es falso?",
+            "opciones": [
+                "A. Se facilita la comunicación con el usuario",
+                "B. Permite que el proceso de aprendizaje sea más rápido",
+                "C. Facilita el trabajo con especificaciones incompletas",
+                "D. Aumenta los costes de implementación"
+            ],
+            "opcion_correcta": "D. Aumenta los costes de implementación",
+            "justificacion": "La opción D es la afirmación falsa porque el documento argumenta que, aunque hay un esfuerzo inicial, no es siempre cierto que el coste total final se incremente; de hecho, puede reducirse al evitar cambios costosos en fases tardías y facilitar la planificación. Por tanto, afirmar categóricamente que aumenta los costes es incorrecto según el texto.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.2 CONCEPTOS DE PROTOTIPOS. Subsubsección: 1.2.3 COSTE. Primera oración del párrafo relevante: \"En los casos en que sea necesario realizar un prototipo, el esfuerzo adicional para confeccionarlo debe verse como una inversión en conocimiento que simplificará las fases posteriores del proyecto, no siendo siempre cierto que el coste total final del proyecto se incremente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Son ventajas de la técnica de prototipado que:",
+            "opciones": [
+                "A. Una vez terminado el prototipo se puede finalizar el proyecto rápidamente, pues ya se realizado la mayor parte de la fase de implementación, lo que reduce siempre los costes.",
+                "B. Hay una continua revisión de los requisitos del sistema por los usuarios al estar trabajando en la evaluación de los prototipos.",
+                "C. Se puede forzar a los usuarios a elegir de forma temprana la opción mostrada en el prototipo, descartándose el resto de posibles opciones y evitando así retrasos al proyecto.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Hay una continua revisión de los requisitos del sistema por los usuarios al estar trabajando en la evaluación de los prototipos.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección 1.5 que una de las ventajas principales del uso de prototipos es que \"Hay una continua revisión de los requisitos del sistema por los usuarios al estar trabajando en la evaluación de los prototipos y redefinición de los requisitos\". La opción A es incorrecta ya que el texto indica que el coste no siempre se reduce (\"no siendo siempre cierto que el coste total final del proyecto se incremente\"), y la opción C describe una desventaja mencionada en el mismo apartado.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.5 Ventajas y desventajas de los prototipos, Primera oración del párrafo relevante: \"Las principales ventajas del uso de prototipos son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Según Gordon y Bieman, sobre la elaboración de prototipos en el desarrollo de sistemas, indique cuál de las opciones NO es correcta:",
+            "opciones": [
+                "A. Mejora la usabilidad del sistema.",
+                "B. Mejora la comunicación entre desarrolladores y usuarios.",
+                "C. Es mayor el esfuerzo de desarrollo porque hay que desechar el prototipo.",
+                "D. Mejora la calidad del diseño."
+            ],
+            "opcion_correcta": "C. Es mayor el esfuerzo de desarrollo porque hay que desechar el prototipo.",
+            "justificacion": "La opción C es la respuesta correcta a la pregunta (pues es la afirmación NO correcta según el texto) porque el documento, en la sección 1.2.2, cita el estudio de Gordon y Bieman donde observaron mejoras como la \"Reducción del esfuerzo de desarrollo\". Por tanto, afirmar que el esfuerzo es mayor contradice los hallazgos presentados en el texto, mientras que las opciones A, B y D son beneficios confirmados por dicho estudio.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.2.2 Objetivo y beneficios, Primera oración del párrafo relevante: \"Gordon y Bieman realizaron un estudio sobre 39 proyectos de desarrollo de software que usaron la técnica del prototipado, y observaron una serie de mejoras respecto a otros proyectos, como son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Sobre la elaboración de un prototipo se puede decir...",
+            "opciones": [
+                "A. La determinación de los requerimientos de una aplicación es tan importante para el método de desarrollo de prototipos como lo es para el ciclo de desarrollo de sistemas o análisis estructurado.",
+                "B. No deben realizarse si existe poca información disponible con respecto a las caracteristicas de la aplicación.",
+                "C. No es necesario seguir los estándares de datos definidos en la organización.",
+                "D. Son convenientes sea cual sea la aplicación final."
+            ],
+            "opcion_correcta": "A. La determinación de los requerimientos de una aplicación es tan importante para el método de desarrollo de prototipos como lo es para el ciclo de desarrollo de sistemas o análisis estructurado.",
+            "justificacion": "La opción A es correcta porque el documento enfatiza en la sección 1.6.1 que \"Primero se recogen los requisitos conocidos del sistema\" antes de construir el prototipo, indicando que la determinación de requisitos es fundamental. La opción B es falsa ya que el texto indica que el prototipado es adecuado cuando \"los requisitos no están claros\". La opción D es incorrecta porque el documento aclara en la sección 1.2.3 que \"no en todos los proyectos es adecuado utilizar prototipado\".",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.6.1 Modelo iterativo de prototipado, Primera oración del párrafo relevante: \"Primero se recogen los requisitos conocidos del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Sobre los prototipos evolutivos es cierto que:",
+            "opciones": [
+                "A. como va a evolucionar no es neceario hacer hincapié en aspectos de calidad pero sí de modificalidad.",
+                "B. como va a evolucionar no es neceario hacer hincapié en aspectos de rendimiento.",
+                "C. como va a evolucionar no es neceario realizar el trabajo de documentación.",
+                "D. Todas son falsas."
+            ],
+            "opcion_correcta": "C. como va a evolucionar no es neceario realizar el trabajo de documentación.",
+            "justificacion": "Según el documento, la opción correcta debería ser la D (\"Todas son falsas\"), ya que el texto en la sección 1.3.3 establece explícitamente que para prototipos evolutivos \"se deberá hacer mucho más hincapié en aspectos de calidad, rendimiento, modificabilidad, documentación, etc.\". Por tanto, las opciones A, B y C son incorrectas según la fuente, al afirmar que no es necesario realizar dichos trabajos. Se marca la D como la lógica basada en el texto, aunque la indicación original señale la C.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.3.3 Prototipos según el destino (Subapartado Prototipos evolutivos), Primera oración del párrafo relevante: \"Es muy importante determinar desde el principio si el prototipo será evolutivo, ya que se deberá hacer mucho más hincapié en aspectos de calidad, rendimiento, modificabilidad, documentación, etc. que si se plantea un prototipo desechable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "El prototipado clásico, ¿en qué fases del proyecto se aplica?",
+            "opciones": [
+                "A. En la fase de especificación de requisitos",
+                "B. En el diseño del sistema",
+                "C. a) y b) son correctas",
+                "D. Se aplica en todas las fases expecto implantación y mantenimiento"
+            ],
+            "opcion_correcta": "A. En la fase de especificación de requisitos",
+            "justificacion": "La opción A es correcta porque el documento indica en la sección 1.8.2 que Métrica recomienda el uso de prototipado en la actividad ASI (Análisis del Sistema de Información), específicamente para la \"Definición de Interfaces de Usuario\" y validación de requisitos, lo cual corresponde a la fase de especificación/análisis. Además, en el modelo iterativo (1.6.1) se menciona que primero se recogen los requisitos para construir el prototipo.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.8.2 Análisis del Sistema de Información (ASI), Primera oración del párrafo relevante: \"Métrica recomienda el uso de prototipado y diseño de diálogos para colaborar con los usuarios en el desarrollo de las interfaces de usuario del sistema y así lograr una mejor comunicación y entendimiento entre ambas partes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Los prototipos según el destino que se les dé se pueden clasificar en:",
+            "opciones": [
+                "A. Desechables o evolutivos.",
+                "B. Desechables o cambiantes.",
+                "C. De implantación o de diseño.",
+                "D. Temporales, definitivos."
+            ],
+            "opcion_correcta": "A. Desechables o evolutivos.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección 1.3.3 que los prototipos se clasifican según su destino en dos categorías específicas: desechables y evolutivos. Esta clasificación distingue si el prototipo se descarta tras cumplir su función o si evoluciona hasta convertirse en el sistema final, descartando las otras opciones que no reflejan la terminología utilizada en el texto.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.3 TIPOS DE PROTOTIPOS. Subsubsección: 1.3.3 PROTOTIPOS SEGÚN EL DESTINO. Primera oración del párrafo relevante: \"Los prototipos se pueden clasificar, según el destino que se les dé, en prototipos desechables y en prototipos evolutivos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Sobre la elaboración de prototipos en el desarrollo de software, indique cuál de las siguientes respuestas es INCORRECTA:",
+            "opciones": [
+                "A. Mejora la usabilidad del sistema.",
+                "B. Mejora la comunicación entre desarrolladores y usuarios.",
+                "C. Es mayor el esfuerzo de desarrollo porque hay que desechar el prototipo.",
+                "D. Mejora la calidad del diseño."
+            ],
+            "opcion_correcta": "C. Es mayor el esfuerzo de desarrollo porque hay que desechar el prototipo.",
+            "justificacion": "La opción C es la respuesta correcta (al ser la afirmación INCORRECTA) porque el documento indica en la sección 1.2.3 que no es siempre cierto que el coste total final se incremente, y en la sección 1.5 menciona como ventaja la \"Reducción del esfuerzo de desarrollo\". Por tanto, afirmar categóricamente que el esfuerzo es mayor contradice los beneficios descritos en el texto sobre la reutilización y la reducción de correcciones tardías.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.2 CONCEPTOS DE PROTOTIPOS. Subsubsección: 1.2.3 COSTE. Primera oración del párrafo relevante: \"Es lógico pensar que, si hay más tareas a realizar en el proyecto, como las correspondientes a la construcción del prototipo y evaluación del mismo, el coste del proyecto pueda ser superior a un desarrollo siguiendo un modelo tradicional sin prototipado.\" (Nota: El texto matiza posteriormente que no siempre es cierto y puede reducir esfuerzo)."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "En el Modelo en Espiral propuesto por Boehm, ¿Cuál de las siguientes no es una de sus fases?",
+            "opciones": [
+                "A. Ingeniería",
+                "B. Evaluación de cliente",
+                "C. Desarrollo del modelo",
+                "D. Análisis de riesgo"
+            ],
+            "opcion_correcta": "C. Desarrollo del modelo",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección 1.6.2 las fases del Modelo en Espiral como Planificación, Análisis de Riesgo, Ingeniería y Evaluación del Cliente. La denominación \"Desarrollo del modelo\" no aparece en la lista de fases definidas por Boehm en el texto, siendo \"Ingeniería\" la fase correspondiente a la construcción.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.6 MODELOS DE CICLO DE VIDA RELACIONADOS CON EL PROTOTIPADO. Subsubsección: 1.6.2 MODELO EN ESPIRAL. Primera oración del párrafo relevante: \"El modelo en Espiral, propuesto por Bohem, conjuga la naturaleza iterativa de la construcción de prototipos con los aspectos controlados y sistemáticos del modelo en cascada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "En ingeniería de software el modelo de prototipos pertenece a los modelos de desarrollo evolutivo. Indique cuál de las siguientes opciones es correcta:",
+            "opciones": [
+                "A. En un modelo prototipo de la fase de construcción se puede volver a la fase de diseño.",
+                "B. En un modelo prototipo de la fase de diseño se puede volver a la fase de evaluación.",
+                "C. En un modelo prototipo de la fase de análisis se puede volver a la fase de construcción.",
+                "D. Ninguna de las opciones anteriores es correcta."
+            ],
+            "opcion_correcta": "A. En un modelo prototipo de la fase de construcción se puede volver a la fase de diseño.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 1.6.1 el Modelo Iterativo de Prototipado como un proceso que pasa por fases (Recolección, Diseño Rápido, Construcción, Evaluación) y se refina iterativamente. Esto implica que tras la construcción y evaluación, se puede volver a etapas anteriores como el diseño para incorporar nuevos requisitos o modificaciones identificadas.",
+            "referencia": "Sección: 1 LA ELABORACIÓN DE PROTOTIPOS EN EL DESARROLLO DE SISTEMAS. Subsección: 1.6 MODELOS DE CICLO DE VIDA RELACIONADOS CON EL PROTOTIPADO. Subsubsección: 1.6.1 MODELO ITERATIVO DE PROTOTIPADO. Primera oración del párrafo relevante: \"El modelo que se usa para el prototipado es un modelo iterativo, el cual va pasando por un conjunto de fases con las que se logrará ir perfeccionando, de forma iterativa, el prototipo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Indique cómo se denomina el patrón de diseño GoF que define una dependencia de uno-a­ muchos entre objetos, de forma que, cuando un objeto cambia de estado, se notifica y se actualizan automáticamente todos los objetos que dependen de él",
+            "opciones": [
+                "A. lsolated.",
+                "B. Singleton.",
+                "C. Observer.",
+                "D. Command."
+            ],
+            "opcion_correcta": "C. Observer.",
+            "justificacion": "La opción C es correcta conceptualmente, ya que aunque el documento no menciona explícitamente los patrones GoF, en la sección 2.3.2 se define el Diseño de Interacción (IxD) como la disciplina que establece cómo responderá una interfaz a las acciones con los usuarios y puntos de contacto. El patrón Observer cumple esta función de notificación y actualización automática ante cambios de estado, alineándose con los principios de realimentación e interacción descritos en el texto para interfaces de usuario.",
+            "referencia": "Sección: 2 DISEÑO DE INTERFACES DE APLICACIONES. Subsección: 2.3 DISEÑO DE INTERFACES DE USUARIO. Subsubsección: 2.3.2 ENFOQUES DE DISEÑO UI, UX, IXD. Primera oración del párrafo relevante: \"Conforme el diseño de interfaces usuario y su impacto en la usabilidad ha ido extendiéndose y evolucionando, han ido surgiendo nuevos enfoques o variantes que han incorporado elementos y visiones a tener en cuenta en el diseño de interfaces, con el objetivo último de mejorar la experiencia de usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Cuál de las siguientes no es una ventaja de la técnica del prototipado?",
+            "opciones": [
+                "A. Hace partícipes a los usuarios del desarrollo",
+                "B. Facilita la continua revisión del sistema por parte de los usuarios",
+                "C. Desemboca en sistemas muy flexibles a cambios posteriores",
+                "D. En general, reduce el tiempo de los desarrollos posteriores"
+            ],
+            "opcion_correcta": "C. Desemboca en sistemas muy flexibles a cambios posteriores",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección de desventajas que \"Los sistemas basados en prototipos suelen ser poco flexibles a cambios posteriores ya que no se han desarrollado pensando en la flexibilidad\". Por tanto, afirmar que desembocan en sistemas muy flexibles es falso y no constituye una ventaja, sino un inconveniente mencionado en el texto.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.5 Ventajas y desventajas de los prototipos, Primera oración del párrafo relevante: \"Las desventajas del uso de las técnicas de prototipado son las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Según la forma de interacción del usuario, Cortana en Microsoft es un ejemplo de interfaz de usuario de tipo:",
+            "opciones": [
+                "A. Interfaz de uso directo.",
+                "B. Interfaz de lenguaje natural.",
+                "C. Interfaz de lenguaje de comandos.",
+                "D. Interfaz de preguntas y respuestas."
+            ],
+            "opcion_correcta": "B. Interfaz de lenguaje natural.",
+            "justificacion": "La opción B es correcta porque el texto menciona específicamente en la sección sobre tipos de interfaces según la forma de interacción que \"Hoy en día, ya se pueden ver asistentes como Siri en Apple, Cortana en Microsoft y Google Now en Android, que permiten interactuar con el sistema a través de lenguaje natural hablado\". Esto clasifica directamente a Cortana bajo este tipo de interfaz.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.2.1.2 Según la forma de interacción del usuario, Primera oración del párrafo relevante: \"La interfaz en lenguaje natural permite la interacción con el ordenador por medio de un lenguaje común o 'natural'...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "La ley según la cual \"El tiempo que el usuario requiere para alcanzar a pulsar un objetivo en la interfaz depende de una relación logarítmica entre su superficie y la distancia a la que se encuentra\" se denomina:",
+            "opciones": [
+                "A. Ley de Fitts",
+                "B. Ley de Hick",
+                "C. Ley de McCall",
+                "D. Ley de Hook"
+            ],
+            "opcion_correcta": "A. Ley de Fitts",
+            "justificacion": "La opción A es correcta porque el documento define la Ley de Fitts con la formulación exacta citada en la pregunta: \"El tiempo que se requiere para alcanzar a pulsar un objetivo depende de una relación logarítmica entre su superficie y la distancia a la que se encuentra\". La Ley de Hick, por el contrario, se refiere al tiempo de decisión según el número de alternativas.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.3 Diseño de interfaces de usuario, Primera oración del párrafo relevante: \"Dos de las leyes más conocidas en el diseño de interfaces de usuario son la Ley de Hick y la Ley de Fitts.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cuál de las siguientes no se considera un beneficio de construir prototipos en el proceso del software?",
+            "opciones": [
+                "A. Mejora en la usabilidad del sistema",
+                "B. Aumento del esfuerzo de desarrollo",
+                "C. Mejora en la calidad del diseño",
+                "D. Mejor acoplamiento entre el sistema y las necesidades del usuario"
+            ],
+            "opcion_correcta": "B. Aumento del esfuerzo de desarrollo",
+            "justificacion": "La opción B es correcta porque el documento lista como beneficios observados en estudios sobre prototipado la \"Reducción del esfuerzo de desarrollo\", no su aumento. Por lo tanto, el aumento del esfuerzo no se considera un beneficio, sino que contradice las ventajas enumeradas en el texto relacionadas con la agilización del desarrollo final.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.2.2 Objetivo y beneficios, Primera oración del párrafo relevante: \"Gordon y Bieman realizaron un estudio sobre 39 proyectos de desarrollo de software que usaron la técnica del prototipado, y observaron una serie de mejoras respecto a otros proyectos, como son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Cuál de los siguientes es un enfoque de diseño para lal interfaces de usuario?",
+            "opciones": [
+                "A. Diseño de interfaz de usuario (UI User Interface)",
+                "B. Diseño de experiencia de usuario (UX User eXperience)",
+                "C. Diseño de interacción (IxD)",
+                "D. Todas son correctas"
+            ],
+            "opcion_correcta": "D. Todas son correctas",
+            "justificacion": "La opción D es correcta porque el documento dedica una sección específica a explicar que han surgido nuevas disciplinas o enfoques en el diseño de interfaces, enumerando explícitamente: \"Diseño de interfaz de usuario (UI User Interface)\", \"Diseño de experiencia de usuario (UX User eXperience)\" y \"Diseño de interacción (IxD)\". Por tanto, las tres opciones anteriores son enfoques válidos según el texto.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.3.2 Enfoques de diseño UI, UX, IxD, Primera oración del párrafo relevante: \"Conforme el diseño de interfaces usuario y su impacto en la usabilidad ha ido extendiéndose y evolucionando...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Métrica 3 recoge el prototipado en varias fases. Marque la opción correcta:",
+            "opciones": [
+                "A. Interfaz de Gestión de Proyectos (GPI)",
+                "B. Análisis del sistema de información (ASI)",
+                "C. Diseño del sistema de información (DSI)",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 1.8 que Métrica v3 integra el uso de prototipos en diferentes fases, actividades y tareas. Específicamente, detalla su aplicación en la Interfaz de Gestión de Proyectos (GPI) para elegir la estrategia de desarrollo, en el Análisis del Sistema de Información (ASI) para la definición de interfaces y validación, y en el Diseño del Sistema de Información (DSI) para la revisión de la interfaz. Por tanto, todas las opciones A, B y C son fases donde se recoge el prototipado según Métrica v3.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.8 EL PROTOTIPADO EN MÉTRICA VERSIÓN 3, Primera oración del párrafo relevante: \"La Metodología de Desarrollo de Software de la Administración Española, Métrica versión 3, es una metodología flexible que permite elegir entre varios modelos de procesos para el desarrollo, entre los que se encuentra el prototipado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "En un desarrollo mediante el Modelo en Espiral la selección de alternativas para cada iteración se hace:",
+            "opciones": [
+                "A. Mediante un análisis de riesgos.",
+                "B. Según la propuesta del usuario.",
+                "C. Según la propuesta del jefe de proyecto.",
+                "D. En función del tiempo que requiera su implementación."
+            ],
+            "opcion_correcta": "A. Mediante un análisis de riesgos.",
+            "justificacion": "La opción A es correcta porque el documento describe el Modelo en Espiral como uno basado en una espiral dirigida por el riesgo. Explica que en cada iteración se planifica, se analiza el riesgo de hacerlo y se elige la mejor alternativa antes de construir aplicando un proceso de ingeniería. El análisis de riesgos es el mecanismo central para decidir si continuar con otro ciclo o parar, y permite plantear prototipos para evaluar riesgos específicos.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.6 MODELOS DE CICLO DE VIDA RELACIONADOS CON EL PROTOTIPADO, Subsubsección: 1.6.2 MODELO EN ESPIRAL, Primera oración del párrafo relevante: \"El modelo se basa en una espiral dirigida por el riesgo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Cuál de los siguientes no es uno de los problemas asociados al uso de prototipos?",
+            "opciones": [
+                "A. La aprobación temprana del prototipo puede hacer que se descarten otras opciones que podrían haber sido mejores.",
+                "B. Poca flexibilidad para el producto final o para modificar el prototipo si se ha desarrollado con poca calidad.",
+                "C. Obligación de prototipar el sistema completo.",
+                "D. Falsa sensación del usuario de que el producto está finalizado al ver el prototipo."
+            ],
+            "opcion_correcta": "C. Obligación de prototipar el sistema completo.",
+            "justificacion": "La opción C es correcta como respuesta a la pregunta (es decir, NO es un problema) porque el documento indica explícitamente en la definición de prototipos que \"un prototipo no tiene porqué implementar todas las funcionalidades del sistema\". Las opciones A, B y D sí son desventajas listadas en el texto: forzar una elección temprana, poca flexibilidad si no hay calidad, y la confusión del cliente al pensar que es el sistema final. Por tanto, no existe obligación de prototipar el sistema completo.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.2 CONCEPTOS DE PROTOTIPOS, Subsubsección: 1.2.1 DEFINICIÓN, Primera oración del párrafo relevante: \"No obstante, un prototipo no tiene porqué implementar todas las funcionalidades del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Los prototipos:",
+            "opciones": [
+                "A. Deben usarse de forma sistemática para asistir en la definición de las funcionalidades.",
+                "B. Solo se han de usar cuando cuando se dan ciertas condiciones que indican que el uso del prototipado es adecuado a las características del proyecto de desarrollo.",
+                "C. Son muy indicados para proyectos de gran envergadura.",
+                "D. Son idóneos para probar una funcionalidad que se sabe cómo va a responder."
+            ],
+            "opcion_correcta": "B. Solo se han de usar cuando cuando se dan ciertas condiciones que indican que el uso del prototipado es adecuado a las características del proyecto de desarrollo.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección correspondiente que \"Los prototipos no deben usarse de forma sistemática en un proyecto, sino que debido al incremento de esfuerzo inicial que requieren deben ser usados solamente cuando se dan ciertas condiciones\". Además, menciona que Sommerville considera su uso para proyectos pequeños o medianos, o subproyectos, y situaciones donde los requisitos no están claros, contradiciendo las opciones A, C y D.",
+            "referencia": "Sección: 1 La elaboración de prototipos en el desarrollo de sistemas. Subsección: 1.4 CUÁNDO USAR PROTOTIPADO, Primera oración del párrafo relevante: \"Los prototipos no deben usarse de forma sistemática en un proyecto, sino que debido al incremento de esfuerzo inicial que requieren deben ser usados solamente cuando se dan ciertas condiciones que indican que el uso del prototipado es adecuado a las características del proyecto de desarrollo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "No es uno de los principios de diseño de interfaces de usuario:",
+            "opciones": [
+                "A. Uniformidad de la interfaz.",
+                "B. Recuperación de estados.",
+                "C. Anticipación a las necesidades del usuario.",
+                "D. Adecuarse al punto de vista del diseñador."
+            ],
+            "opcion_correcta": "D. Adecuarse al punto de vista del diseñador.",
+            "justificacion": "La opción D es correcta como la que NO es un principio porque el documento lista entre los principios relevantes \"Adoptar el punto de vista del usuario\", no del diseñador. El texto enfatiza ver la interfaz desde fuera y en relación con las tareas del usuario, advirtiendo sobre no centrarse en aspectos de implementación (del diseñador) que hagan perder la perspectiva. Las opciones A, B y C sí aparecen explícitamente en la lista de principios de diseño.",
+            "referencia": "Sección: 2 Diseño de interfaces de aplicaciones. Subsección: 2.3 DISEÑO DE INTERFACES DE USUARIO, Subsubsección: 2.3.1 PRINCIPIOS DE DISEÑO DE INTERFACES DE USUARIO, Primera oración del párrafo relevante: \"Aunque existe una gran cantidad de información y bibliografía respecto al diseño de la GUI, en este apartado se explican de manera resumida los principios más relevantes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "WIMP es:",
+            "opciones": [
+                "A. Un sinónimo de Interfaz Gráfica de Usuario.",
+                "B. Windows, Icons, Menus, Pointer",
+                "C. Una evolución de Diseño User Experience (UX)",
+                "D. Un modelo de prototipado rápido."
+            ],
+            "opcion_correcta": "B. Windows, Icons, Menus, Pointer",
+            "justificacion": "**\nEl documento define explícitamente en la sección sobre interfaces gráficas que WIMP es un término acuñado que se refiere a Windows, Icons, Menus, Pointers.",
+            "referencia": "**\nSección: 2.2.1.2 Subsección: Interfaz gráfica (Página 23)"
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Un Mockup es:",
+            "opciones": [
+                "A. Un tipo de prototipo.",
+                "B. Una herramienta para evaluar la usabilidad de una interfaz.",
+                "C. Una herramienta para realizar maquetas online.",
+                "D. Un error típico en el diseño de interfaces de usuario."
+            ],
+            "opcion_correcta": "A. Un tipo de prototipo.",
+            "justificacion": "**\nEl texto clasifica el Mockup dentro del apartado \"Tipos de prototipos\" (1.3), específicamente bajo la funcionalidad implementada, describiéndolo como una maqueta en terminología de diseño gráfico que representa un diseño visual.",
+            "referencia": "**\nSección: 1.3.2 Subsección: Prototipos según la funcionalidad implementada (Página 9)"
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "En Métrica v3, la Definición de Interfaces de Usuario es la actividad:",
+            "opciones": [
+                "A. DSI 4",
+                "B. PSI 5",
+                "C. ASI 8",
+                "D. CSI 3"
+            ],
+            "opcion_correcta": "C. ASI 8",
+            "justificacion": "**\nEn la sección dedicada al Prototipado en Métrica v3, se especifica que en la actividad ASI 8 Definición de Interfaces de Usuario se usa la técnica de prototipado para crear las interfaces.",
+            "referencia": "**\nSección: 1.8.2 Subsección: Análisis del Sistema de Información (ASI) (Página 16)"
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "La Ley de Hicks dice:",
+            "opciones": [
+                "A. El tiempo que se requiere para alcanzar a pulsar un objetivo depende de una relación logarítmica entre su superficie y la distancia a la que se encuentra.",
+                "B. El tiempo que se tarda en tomar una decisión aumenta a medida que se incrementa el número de alternativas.",
+                "C. El número de pasos para llegar a una función en una interfaz no debe exceder de 6.",
+                "D. El tiempo invertido en el aprendizaje de uso de una aplicación es inversamente proporcional al dedicado al diseño de su interfaz."
+            ],
+            "opcion_correcta": "B. El tiempo que se tarda en tomar una decisión aumenta a medida que se incrementa el número de alternativas.",
+            "justificacion": "**\nEl documento cita textualmente la Ley de Hick explicando que el tiempo de decisión varía según el número de opciones, formulándolo como un aumento del tiempo al incrementar las alternativas.",
+            "referencia": "**\nSección: 2.3 Subsección: Diseño de interfaces de usuario (Página 24)"
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Los prototipos según su función pueden ser:",
+            "opciones": [
+                "A. De viabilidad, de necesidad, de implantación y de diseño.",
+                "B. Desechables y evolutivos.",
+                "C. Maquetas, prototipos, wireframes, mockups.",
+                "D. De diseño, de análisis, de construcción."
+            ],
+            "opcion_correcta": "A. De viabilidad, de necesidad, de implantación y de diseño.",
+            "justificacion": "**\nLa sección 1.3.1 clasifica los prototipos según la función en cuatro clases específicas: De viabilidad, De necesidad, De diseño y De implantación.",
+            "referencia": "**\nSección: 1.3.1 Subsección: Prototipos según la función (Página 7)"
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Respecto a la técnica del prototipado, señale la respuesta correcta:",
+            "opciones": [
+                "A. Puede desecharse después de su uso y comenzar el desarrollo del sistema.",
+                "B. Es el sistema en sus fases iniciales, posteriormente debe evolucionar y ser completado con la funcionalidad requerida.",
+                "C. El desarrollo resulta siempre más costoso.",
+                "D. No se puede utilizar en el modelo de ciclo de vida en cascada."
+            ],
+            "opcion_correcta": "A. Puede desecharse después de su uso y comenzar el desarrollo del sistema.",
+            "justificacion": "**\nEl texto indica que un prototipo puede servir de base o ser desechado completamente para comenzar el desarrollo desde el comienzo (1.2.1). Además, aclara que no siempre incrementa el coste total y que se puede incorporar a modelos como cascada (1.6).",
+            "referencia": "**\nSección: 1.2.1 Subsección: Definición (Página 4-5) y Sección 1.3.3 (Página 10)"
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "¿Cuál de los siguientes es un estándar de usabilidad?",
+            "opciones": [
+                "A. ISO 12207",
+                "B. UNE 139803",
+                "C. ISO 9241",
+                "D. ISO 9001"
+            ],
+            "opcion_correcta": "C. ISO 9241",
+            "justificacion": "**\nEn la sección de estándares relacionados, se lista la ISO 9241 como \"Requisitos ergonómicos para trabajar con terminales de presentación visual\", proporcionando guía en usabilidad.",
+            "referencia": "**\nSección: 2.7 Subsección: Estándares relacionados (Página 30)"
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Una de las ventajas principales del uso del prototipado es que:",
+            "opciones": [
+                "A. Los tiempos de desarrollo se reducen.",
+                "B. Los costes del desarrollo se reducen.",
+                "C. Mejora la comunicación usuario-desarrollador.",
+                "D. Se cumple mejor la planificación del sistema."
+            ],
+            "opcion_correcta": "C. Mejora la comunicación usuario-desarrollador.",
+            "justificacion": "**\nEl documento destaca en los objetivos y beneficios que el prototipo reduce la incertidumbre mejorando la comunicación entre usuarios y desarrolladores, lo cual es una ventaja principal citada en las secciones de ventajas.",
+            "referencia": "**\nSección: 1.2.2 Subsección: Objetivo y beneficios (Página 5) y Sección 1.5 (Página 11)"
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "El diseño UX:",
+            "opciones": [
+                "A. Es una disciplina de diseño de interfaces de usuario cuyo fin último es la satisfacción del usuario.",
+                "B. Es una metodología ágil de diseño de interfaces de usuario.",
+                "C. Pone su enfoque en el diseño de la interacción hombre-máquina.",
+                "D. Su pilar fundamental es la elaboración de prototipos."
+            ],
+            "opcion_correcta": "A. Es una disciplina de diseño de interfaces de usuario cuyo fin último es la satisfacción del usuario.",
+            "justificacion": "**\nEl texto define UX (User Experience) situando al usuario en el centro del diseño, centrándose en sus necesidades y comportamientos para ayudarles a realizar acciones, lo que implica su satisfacción.",
+            "referencia": "**\nSección: 2.3.2 Subsección: Enfoques de diseño UI, UX, IxD (Página 26)"
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "Señale cuál de las siguientes es una herramienta de prototipado:",
+            "opciones": [
+                "A. Prototype pro.",
+                "B. GTK",
+                "C. Invision.",
+                "D. Ease.ly"
+            ],
+            "opcion_correcta": "C. Invision.",
+            "justificacion": "**\nEn la sección de herramientas de prototipado, se menciona explícitamente que \"Invision sirve para crear mockups o prototipos tanto para páginas web como aplicaciones iOS o Android\".",
+            "referencia": "**\nSección: 1.7 Subsección: Herramientas de prototipado (Página 15)"
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "La disciplina que busca definir la forma en que se utilizan los productos y servicios interactivos, define cómo responderá una interfaz a las acciones con los usuarios, estableciendo flujos de operación y puntos de contacto, es:",
+            "opciones": [
+                "A. User Interface",
+                "B. User eXperience",
+                "C. Interaction Design",
+                "D. Prototype"
+            ],
+            "opcion_correcta": "C. Interaction Design",
+            "justificacion": "**\nEl documento define el Diseño de Interacción (IxD) exactamente con estas palabras: \"disciplina que busca definir la forma en que se utilizan los productos y servicios interactivos...\".",
+            "referencia": "**\nSección: 2.3.2 Subsección: Enfoques de diseño UI, UX, IxD (Página 26)"
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Un modelo de ciclo de vida estrechamente relacionado con el prototipado es:",
+            "opciones": [
+                "A. RUP.",
+                "B. En espiral.",
+                "C. Cascada.",
+                "D. Por etapas."
+            ],
+            "opcion_correcta": "B. En espiral.",
+            "justificacion": "**\nEl texto describe el Modelo en Espiral como aquel que \"conjuga la naturaleza iterativa de la construcción de prototipos con los aspectos controlados y sistemáticos del modelo en cascada\".",
+            "referencia": "**\nSección: 1.6.2 Subsección: Modelo en Espiral (Página 14)"
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "GTK+ (GIMP Toolkit):",
+            "opciones": [
+                "A. Es una biblioteca de clases gráficas Java.",
+                "B. Es una herramienta de prototipado.",
+                "C. Es una plataforma gráfica para realizar wireframes.",
+                "D. Es una biblioteca para crear interfaces graficas de usuario, construido encima de GDK (GIMP Drawing Kit)."
+            ],
+            "opcion_correcta": "D. Es una biblioteca para crear interfaces graficas de usuario, construido encima de GDK (GIMP Drawing Kit).",
+            "justificacion": "**\nEn la sección de herramientas y lenguajes, se define GTK+ como una biblioteca para crear interfaces gráficas de usuario construida encima de GDK.",
+            "referencia": "**\nSección: 2.5 Subsección: Herramientas y lenguajes para el desarrollo de interfaces de usuario (Página 28)"
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Existen varios puntos de vista en una GUI:",
+            "opciones": [
+                "A. Modelo del usuario y del programador.",
+                "B. Modelo de diseño y del programador.",
+                "C. Modelo interno y externo.",
+                "D. Modelo del usuario, del diseñador y del programador."
+            ],
+            "opcion_correcta": "D. Modelo del usuario, del diseñador y del programador.",
+            "justificacion": "**\nEl documento establece que existen tres puntos de vista distintos en una GUI: Modelo del usuario, Modelo del diseñador y Modelo del programador.",
+            "referencia": "**\nSección: 2.2 Subsección: Conceptos de interfaces de usuario (Página 19)"
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "La técnica del prototipado:",
+            "opciones": [
+                "A. Siempre conviene utilizarla, pues mejora la comunicación.",
+                "B. Convendrá utilizarla en función de las características del proyecto.",
+                "C. No suele ser adecuado utilizarla debido al incremento de esfuerzo que introduce.",
+                "D. Está desaconsejada por Métrica v3."
+            ],
+            "opcion_correcta": "B. Convendrá utilizarla en función de las características del proyecto.",
+            "justificacion": "**\nEl texto indica que los prototipos no deben usarse de forma sistemática, sino solo cuando se dan ciertas condiciones o características del proyecto que lo justifican (requisitos no claros, tecnologías nuevas, etc.).",
+            "referencia": "**\nSección: 1.4 Subsección: Cuándo usar prototipado (Página 11)"
+        }
+    ]
+}

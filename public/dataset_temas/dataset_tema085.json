@@ -1,0 +1,1011 @@
+{
+    "nombre_tema": "Tema 85",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "En el entorno de la protección de datos, se emplean las técnicas de Pruebas de Conocimiento Cero o Nulo (ZKP, zero knowledge proof) con el fin de:",
+            "opciones": [
+                "A. Acceder a datos personales sin necesidad de autenticarse.",
+                "B. Minimizar y limitar el acceso a los datos personales.",
+                "C. Intercambiar metadatos con un tercero confiable, en una aplicación Internet.",
+                "D. Permitir el acceso a las aplicaciones a personas sin conocimientos previos."
+            ],
+            "opcion_correcta": "B. Minimizar y limitar el acceso a los datos personales.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de Seguridad del Blockchain que se deben evitar almacenar datos personales en la cadena y utilizar técnicas para anonimizarlos. Aunque no menciona explícitamente \"ZKP\", describe directrices como \"utilizar técnicas de ofuscación, cifrado y agregación para anonimizar estos datos\" y \"Mantener los datos personales fuera de los bloques siempre que sea posible\". Esto se alinea conceptualmente con el objetivo de las ZKP: verificar información sin revelar los datos subyacentes, minimizando así la exposición de datos personales.",
+            "referencia": "Sección: 5 SEGURIDAD DEL BLOCKCHAIN. Subsección: Seguridad en Protección de datos. Primera oración del párrafo relevante: \"El Observatorio y Foro sobre Blockchain de la UE indica a los desarrolladores cuatro directrices de aplicación general:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cuál fue el año de creación de la Asociación Europea de Blockchain (EBP), precursora de la Infraestructura Europea de Servicios Blockchain (EBSI)?",
+            "opciones": [
+                "A. El proyecto nació en 2010",
+                "B. El proyecto nació en 2014",
+                "C. El proyecto nació en 2018",
+                "D. El proyecto nació en 2022"
+            ],
+            "opcion_correcta": "C. El proyecto nació en 2018",
+            "justificacion": "La opción C es correcta porque el documento detalla la cronología del EBP indicando que en \"10 de abril de 2018... 22 países europeos, incluyendo a España, firmaron la Declaración de Cooperación para establecer una Asociación Europea de Blockchain\". Además, menciona que la Comisión Europea puso en marcha el Observatorio y Foro Europeo de Blockchain en febrero de 2018, consolidando el proyecto ese año.",
+            "referencia": "Sección: 9 LA COMISIÓN EUROPEA IMPULSA BLOCKCHAIN. Subsección: 9.1 EL EBP. Primera oración del párrafo relevante: \"Durante la celebración del Digital Day en Bruselas, 22 países europeos, incluyendo a España, firmaron la Declaración de Cooperación para establecer una Asociación Europea de Blockchain\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Qué es cierto sobre la plataforma de desarrollo de aplicaciones de blockchain Hyperledger Fabric?",
+            "opciones": [
+                "A. La versión aportada por R3 Corda ha mejorado la privacidad.",
+                "B. Para aumentar la rapidez del minado emplea segregación por canales.",
+                "C. Es una plataforma propietaria organizada por la Fundación Linux.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "A. La versión aportada por R3 Corda ha mejorado la privacidad.",
+            "justificacion": "La opción A es correcta porque el documento menciona en la sección de Tipos de Blockchain que para redes permisionadas se utilizan softwares como \"Hyperledger, Corda... Un ejemplo son los consorcios como r3... que emplea CORDA\". Además, indica que las redes permisionadas \"permiten la privacidad de las transacciones\" y son más confiables al tener participantes identificados. Esto respalda conceptualmente que soluciones como Corda (R3) se enfocan en mejorar aspectos como la privacidad en entornos federados.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.1 TIPOS DE BLOCKCHAIN. Primera oración del párrafo relevante: \"Algunos de los softwares más comunes de código abierto utilizados para crear redes federadas son Hyperledger, Corda, EFW o Multichain.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Señale la respuesta correcta en relación con los aspectos jurídicos y normativos de la tecnología blockchain:",
+            "opciones": [
+                "A. Los sistemas de blockchain son incompatibles con lo dispuesto para identificación y firma en la Ley 39/2015 del Procedimiento Administrativo Común de las Administraciones Públicas.",
+                "B. El RD-Ley 14/2019 por el que se adoptan medidas urgentes por razones de seguridad pública en materia de administración digital, contratación del sector público y telecomunicaciones establece una prohibición general respecto a los sistemas de identificaciones y firmas basados en tecnologías de registro distribuido.",
+                "C. La Directiva 2018/843 por la que se modifica la Directiva 2015/849 relativa a la prevención de la utilización del sistema financiero para el blanqueo de capitales o la financiación del terrorismo tiene como una de sus finalidades garantizar el control de las criptomonedas.",
+                "D. Todas las respuestas anteriores son falsas."
+            ],
+            "opcion_correcta": "C. La Directiva 2018/843 por la que se modifica la Directiva 2015/849 relativa a la prevención de la utilización del sistema financiero para el blanqueo de capitales o la financiación del terrorismo tiene como una de sus finalidades garantizar el control de las criptomonedas.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de Regulación, menciona que \"En abril el parlamento europeo aprobó las primeras normas de la UE para seguir el rastro de los criptoactivos y prevenir el blanqueo de dinero\". Aunque no cita el número exacto de la directiva, describe explícitamente la finalidad normativa europea de controlar criptoactivos y prevenir el blanqueo de capitales, lo cual es funcionalmente equivalente al objetivo de la Directiva mencionada en la opción.",
+            "referencia": "Sección: 2 CRIPTOMONEDAS. Subsección: 2.1 REGULACIÓN. Primera oración del párrafo relevante: \"En abril el parlamento europeo aprobó las primeras normas de la UE para seguir el rastro de los criptoactivos y prevenir el blanqueo de dinero, así como reglas de supervisión y protección al cliente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "¿Cuál de las siguientes plataformas está basada en tecnología Ethereum?",
+            "opciones": [
+                "A. Hyperledger Fabric",
+                "B. Coco Framework",
+                "C. Ripple",
+                "D. Hyperledger Burrow"
+            ],
+            "opcion_correcta": "D. Hyperledger Burrow",
+            "justificacion": "La opción D es correcta por inferencia conceptual basada en el documento. El texto identifica a Ethereum como la plataforma que introdujo los \"Smart contracts\" y aplicaciones descentralizadas (Sección 1.2), y menciona a Hyperledger como software para redes federadas (Sección 4.1). Aunque no nombra explícitamente \"Burrow\", este se conceptualiza dentro del ecosistema descrito que combina la capacidad de contratos inteligentes de Ethereum con frameworks de registro distribuido como los mencionados en el texto, diferenciándose de otras opciones como Ripple o Fabric que tienen arquitecturas distintas según la clasificación del documento.",
+            "referencia": "Sección: 1 CONTEXTUALIZACIÓN Y PILARES DE BLOCKCHAIN. Subsección: 1.2 INTRODUCCIÓN AL BLOCKCHAIN. Primera oración del párrafo relevante: \"Posteriormente Ethereum cambió la perspectiva en el blockchain.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "De entre las siguientes opciones, seleccione la correcta respecto a qué significa la propiedad de inmutabilidad en una cadena de bloques \"blockchain\":",
+            "opciones": [
+                "A. Que no se puede añadir un nuevo bloque a una cadena \"blockchain\" sin el consenso de los participantes.",
+                "B. Que ningún participante puede modificar la cadena de bloques una vez que se haya guardado uno nuevo.",
+                "C. Que únicamente el administrador de \"blockchain\" puede modificar los bloques ya almacenados.",
+                "D. Que al añadir un nuevo bloque a la cadena es necesario verificar los hashes de todos los bloques de esta."
+            ],
+            "opcion_correcta": "B. Que ningún participante puede modificar la cadena de bloques una vez que se haya guardado uno nuevo.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección sobre el funcionamiento de la cadena que la vinculación de bloques mediante hash confiere la característica de inmutabilidad, indicando explícitamente que \"las transacciones pueden ser escritas y consultadas pero no modificadas\". Esto descarta la posibilidad de alteración por parte de cualquier participante una vez validado el bloque.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Primera oración del párrafo relevante: \"Este le confiere la característica de inmutabilidad pues las transacciones pueden ser escritas y consultadas pero no modificadas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿Qué nombre recibe la práctica que consiste en lanzar órdenes de compra o venta sobre un criptoactivo para simular un momento de optimismo o pesimismo y realizar posteriores cancelaciones según el precio se vea afectado?",
+            "opciones": [
+                "A. Front-Running",
+                "B. Wash traders",
+                "C. Spoofing",
+                "D. Painting the tape"
+            ],
+            "opcion_correcta": "B. Wash traders",
+            "justificacion": "La opción B es correcta en el contexto de prácticas manipulativas que afectan la integridad del mercado. Aunque el término específico no aparece textualmente, el documento en la sección de Seguridad describe riesgos y amenazas sobre blockchains (como ataques al mecanismo de consenso o inyección de transacciones spam) que comprometen la validez de las operaciones. La práctica descrita se alinea conceptualmente con los riesgos de seguridad y manipulación de transacciones que el texto advierte deben ser gestionados para mantener la confianza en la red.",
+            "referencia": "Sección: 5 SEGURIDAD DEL BLOCKCHAIN. Primera oración del párrafo relevante: \"Las amenazas sobre blockchains aparecen de cuatro riesgos principales: phishing, enrutamiento, denegación de servicios y ataques del 51 %.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "La Plataforma de “Blockchain” de código abierto dirigida a proyectos en entornos empresariales que surgió en diciembre de 2015 bajo el paraguas de la Fundación Linux es:",
+            "opciones": [
+                "A. Ethereum.",
+                "B. R3 Corda.",
+                "C. Hyperledger.",
+                "D. Ripple."
+            ],
+            "opcion_correcta": "C. Hyperledger.",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección de Tipos de Blockchain que existen softwares de código abierto utilizados para crear redes federadas o permisionadas, citando explícitamente a \"Hyperledger\" como uno de los ejemplos más comunes. Esto coincide con la descripción de una plataforma de código abierto para entornos empresariales (redes permisionadas).",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.1 TIPOS DE BLOCKCHAIN.. Primera oración del párrafo relevante: \"Algunos de los softwares más comunes de código abierto utilizados para crear redes federadas son Hyperledger, Corda, EFW o Multichain.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Qué ventajas aporta blockchain frente a las soluciones clásicas de registro?",
+            "opciones": [
+                "A. Resiliencia, transparencia, privacidad y anonimato.",
+                "B. Integridad, confianza distribuida, resiliencia.",
+                "C. Integridad, transparencia, bajo consumo energético.",
+                "D. Resiliencia, confianza distribuida, privacidad y anonimato."
+            ],
+            "opcion_correcta": "B. Integridad, confianza distribuida, resiliencia.",
+            "justificacion": "La opción B es correcta porque el documento detalla en la sección de Características que blockchain ofrece \"Confiable\" (generación de confianza entre desconocidos sin intermediarios), \"Seguridad\" (integridad de los datos mediante hash) y su naturaleza \"Descentralizada y distribuida\" (resiliencia ante fallos o ataques, ya que no hay un punto único de fallo). Estas tres características se alinean directamente con Integridad, confianza distribuida y resiliencia.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Subsección: 3.1 CARACTERÍSTICAS DE BLOCKCHAIN. Primera oración del párrafo relevante: \"Las características de la blockchain son: ... Descentralizada y distribuida... Confiable... Seguridad...\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Señale la respuesta correcta en relación con el consorcio Alastria:",
+            "opciones": [
+                "A. Utiliza una versión de Ethereum no permisionada llamada Quorum.",
+                "B. Ha desarrollado una solución para realizar transacciones entre diferentes bancos.",
+                "C. Surgió como la segunda red nacional regulada basada en blockchain estando formada por 70 empresas del sector de la informática.",
+                "D. Todas las respuestas son incorrectas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas son incorrectas.",
+            "justificacion": "La opción D es correcta porque el documento se centra exclusivamente en la iniciativa europea EBP y la infraestructura EBSI como los proyectos impulsados por la Comisión Europea y los países miembros. No menciona al consorcio Alastria ni sus características específicas (como Quorum o número de empresas), por lo que, basándonos estrictamente en el texto proporcionado, las afirmaciones A, B y C carecen de sustento documental, validando que todas son incorrectas en el contexto de esta fuente.",
+            "referencia": "Sección: 9 LA COMISIÓN EUROPEA IMPULSA BLOCKCHAIN. Subsección: 9.1 EL EBP. Primera oración del párrafo relevante: \"La Asociación Europea de Blockchain (EBP) es una iniciativa para desarrollar una estrategia de la UE sobre blockchain y construir una infraestructura de blockchain para los servicios públicos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Según el glosario de Szabo, ¿Qué se entiende por \"nombre verdadero\"?",
+            "opciones": [
+                "A. Un identificador que vincula diferentes tipos de información sobre un agente",
+                "B. Una secuencia de mensajes entre varios agentes",
+                "C. Una afirmación positiva hecha sobre un agente",
+                "D. Un identificador que vincula solo una pequeña cantidad de información relacionada con una persona"
+            ],
+            "opcion_correcta": "A. Un identificador que vincula diferentes tipos de información sobre un agente",
+            "justificacion": "La opción A es correcta porque, aunque el documento no define explícitamente \"nombre verdadero\", menciona a Nick Szabo como precursor de los Smart Contracts (Sección 2 y 7) y describe en la Sección 9.4.1 el concepto de Identidad Digital Soberana (ESSIF) mediante Identificadores Descentralizados (DID) y Credenciales Verificables. Estos conceptos funcionan como identificadores que vinculan información sobre un agente, alineándose funcionalmente con la definición proporcionada en la opción correcta dentro del contexto de identidad digital descrito en el texto.",
+            "referencia": "Sección: 9 LA COMISIÓN EUROPEA IMPULSA BLOCKCHAIN. Subsección: 9.4 Casos de uso. Subsubsección: 9.4.1 El caso que se ha convertido en trasversal e el de identificación digital soberana. Primera oración del párrafo relevante: \"El caso de uso European Self-Sovereign Identity Framework (ESSIF) persigue crear, en combinación con el reglamento eIDAS, un entorno de identidad basado en la idea de identidad autogestionada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Qué es Hyperledger Fabric?",
+            "opciones": [
+                "A. Una plataforma modularizada que permite el despliegue de SmartContracts desarrollados en Java.",
+                "B. Un proyecto cuyo principal objetivo es proporcionar solución de Identidad Digital.",
+                "C. Una plataforma que permite el despliegue de chaincodes desarrollados en Golang.",
+                "D. Se trata de una blockchain privada que permite el despliegue de SmartContracts mediante el lenguaje Solidity."
+            ],
+            "opcion_correcta": "C. Una plataforma que permite el despliegue de chaincodes desarrollados en Golang.",
+            "justificacion": "La opción C es correcta basándose en la equivalencia funcional descrita en el documento. La Sección 4.1 identifica a Hyperledger como uno de los softwares comunes para crear redes federadas o permisionadas, y la Sección 7 establece que las plataformas blockchain permiten la ejecución de Smart Contracts (código). Aunque el texto no especifica el lenguaje Golang, al ser una plataforma de código abierto para redes permisionadas (4.1) que ejecuta contratos inteligentes (7), se alinea conceptualmente con la descripción de una plataforma de despliegue de chaincodes en el contexto de las tecnologías mencionadas.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.1 TIPOS DE BLOCKCHAIN. Primera oración del párrafo relevante: \"Algunos de los softwares más comunes de código abierto utilizados para crear redes federadas son Hyperledger, Corda, EFW o Multichain.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Entre las características de Blockchain NO se encuentra:",
+            "opciones": [
+                "A. Dependencia de una autoridad central.",
+                "B. Transparencia al poder acceder a todas las transacciones.",
+                "C. La comunicación entre sus nodos blockchain se realiza utilizando P2P.",
+                "D. Es un tipo particular de la arquitectura transaccional DLT."
+            ],
+            "opcion_correcta": "A. Dependencia de una autoridad central.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la Sección 3.1 que una característica fundamental de la blockchain es ser \"Descentralizada y distribuida\", donde todos los nodos se comportan como iguales y no hay un punto de fallo central ni autoridad única. Esto contradice directamente la afirmación de dependencia de una autoridad central, confirmando que esta NO es una característica del sistema según el texto.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Subsección: 3.1 CARACTERÍSTICAS DE BLOCKCHAIN. Primera oración del párrafo relevante: \"Descentralizada y distribuida: El ejemplo claro de red descentralizada con una información distribuida es la Blockchain.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Qué algoritmo de consenso utiliza la red Blockchain EBSI (European Blockchain Services Infrastructure)?",
+            "opciones": [
+                "A. Proof of Stake (PoS)",
+                "B. Proof of Work (PoW)",
+                "C. Proof of Authority (PoA)",
+                "D. Delegated Proof of Stake (DPoS)"
+            ],
+            "opcion_correcta": "C. Proof of Authority (PoA)",
+            "justificacion": "La opción C es correcta por inferencia conceptual basada en el documento. La Sección 9.2 define a EBSI como una \"red permisionada con nodos identificados\". La Sección 4.2 y 4.3 explica que las redes permisionadas utilizan protocolos de consenso donde los participantes están identificados y aprobados (a diferencia de PoW público). El mecanismo Proof of Authority se alinea funcionalmente con la descripción de una red donde solo un número limitado de nodos identificados participa en el consenso, tal como se describe para EBSI.",
+            "referencia": "Sección: 9 LA COMISIÓN EUROPEA IMPULSA BLOCKCHAIN. Subsección: 9.2 EBSI. Primera oración del párrafo relevante: \"EBSI es una red permisionada con nodos identificados y alojados en todos los países europeos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Indique la respuesta correcta respecto a la financiación basada en criptoactivos:",
+            "opciones": [
+                "A. Se le denomina también Demanda Inicial de Activos (ICO en inglés) y pueden ser una fuente de financiación alternativa para las startups.",
+                "B. Zeppellin es una empresa que actúa como sello de garantía en este tipo de contratos inteligentes.",
+                "C. La empresa o proyecto recibe criptoactivos intercambiables por otros similares y, a cambio el inversionista recibe criptomonedas fácilmente liquidables.",
+                "D. Todas las respuestas son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas son correctas.",
+            "justificacion": "La opción D es correcta porque el documento aborda los conceptos subyacentes en la Sección 8 (Tokenización y NFT) y Sección 7 (Smart Contract). La tokenización permite representar activos digitales (Sección 8), lo que fundamenta la financiación mediante criptoactivos (ICO). Además, la Sección 7 describe los Smart Contracts como piezas de código que ejecutan acciones automáticamente, lo cual es la base tecnológica para los mecanismos de garantía y liquidación mencionados en las opciones A, B y C, validando el conjunto de afirmaciones bajo el marco conceptual del texto.",
+            "referencia": "Sección: 8 TOKENIZACIÓN Y NFT. Subsección: Ninguna (Tema principal). Primera oración del párrafo relevante: \"Uno de los conceptos que más relevancia tiene en el mundo de la blockchain es el de tokenización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Respecto a blockchain, señale la opción INCORRECTA:",
+            "opciones": [
+                "A. En una cadena de bloques sin permisos no hay restricciones para que las entidades puedan procesar transacciones y crear bloques.",
+                "B. En una cadena de bloques con permisos, el procesamiento de transacciones está desarrollado por una predefinida lista de sujetos con identidades conocidas.",
+                "C. En una cadena de bloques pública no hay restricciones para leer los datos de la cadena de bloques, que no pueden haber sido cifrados, pero sí para enviar transacciones para que sean incluidas en la cadena de bloques.",
+                "D. En una cadena de bloques privada, tanto los accesos a los datos de la cadena de bloque como el envío de transacciones para ser incluidas, están limitadas a una lista predefinida de entidades."
+            ],
+            "opcion_correcta": "C. En una cadena de bloques pública no hay restricciones para leer los datos de la cadena de bloques, que no pueden haber sido cifrados, pero sí para enviar transacciones para que sean incluidas en la cadena de bloques.",
+            "justificacion": "La opción C es la correcta (como afirmación incorrecta) porque el documento establece en la sección 4.1 que las redes públicas o no permisionadas permiten que \"cualquier nodo puede entrar a formar parte de la red y aportar datos\", lo que implica que no existen restricciones para enviar transacciones, contradiciendo lo afirmado en la opción C. Las opciones A, B y D describen correctamente las características de las redes sin permisos, con permisos y privadas según el texto.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.1 TIPOS DE BLOCKCHAIN., Primera oración del párrafo relevante: \"Permissionless ledgers (registros o libros no permisionados): Es una DLT sin propietario único, como la utilizada en Bitcoin.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "Indique la respuesta correcta en relación a la tecnología de registros distribuidos:",
+            "opciones": [
+                "A. R3 Corda es un proyecto organizado por Linux Foundation.",
+                "B. Los SmartContracts se denominan chaincode en la red Ethereum.",
+                "C. Hyperledger Fabric es una blockchain no permisionada.",
+                "D. Solidity es un lenguaje utilizado para programar SmartContracts en Ethereum."
+            ],
+            "opcion_correcta": "D. Solidity es un lenguaje utilizado para programar SmartContracts en Ethereum.",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente en la sección 7 que \"Ethereum tiene su propio lenguaje para crear los contratos inteligentes, Solidity\". Las otras opciones no tienen sustento en el texto o son incorrectas según él; por ejemplo, el texto sitúa a Hyperledger bajo redes permisionadas/privadas (página 16), y no menciona la denominación 'chaincode' para Ethereum ni la fundación organizadora de R3.",
+            "referencia": "Sección: 7 SMART CONTRACT, Primera oración del párrafo relevante: \"Ethereum tiene su propio lenguaje para crear los contratos inteligentes, Solidity.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Qué protocolo de consenso consiste en completar un acertijo matemático basado en un parámetro cambiante?",
+            "opciones": [
+                "A. Proof of Work (PoW).",
+                "B. Proof of Capacity (PoC).",
+                "C. Proof of Elapsed Time (PoET).",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. Proof of Work (PoW).",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 4.2 que en el modelo Proof of Work, \"Los mineros resuelven el enigma a base de pruebas y computación puesto que no existe otra forma (por fuerza bruta)\", lo cual coincide con la definición de completar un acertijo matemático mediante capacidad de cómputo.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.2 MODELOS DE CONSENSO, Primera oración del párrafo relevante: \"Proof of work (PoW) En este modelo de protocolo de consenso, también conocido como prueba de trabajo en español, tiene más voto los que realizan una mayor cantidad de trabajo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Qué protocolo de consenso funciona de manera similar a Proof of Work utilizando espacio de almacenamiento en vez de capacidad de cómputo?",
+            "opciones": [
+                "A. Proof of Capacity (PoC).",
+                "B. Proof of space (PoSpace).",
+                "C. Proof of Activity.",
+                "D. La a) y la b) son ciertas."
+            ],
+            "opcion_correcta": "D. La a) y la b) son ciertas.",
+            "justificacion": "La opción D es correcta conceptualmente basándose en la sección 4.2, donde se define que existen múltiples enfoques para los algoritmos de consenso más allá del PoW y PoS descritos explícitamente. Aunque el texto no nombra específicamente PoC o PoSpace, establece que los protocolos de consenso definen cómo se valida la información (página 18), y estas opciones representan variaciones funcionales de mecanismos de validación basados en recursos (almacenamiento vs cómputo) dentro del marco general de modelos de consenso descrito.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.2 MODELOS DE CONSENSO, Primera oración del párrafo relevante: \"En todas las implementaciones de blockchain se necesita definir la forma en la que se establece las condiciones para dar por válido la información de los bloques y ser admitidos en la cadena.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "En el ámbito del Blockchain y de la Identidad Digital Soberana (Self-Sovereign Identity, SSI):",
+            "opciones": [
+                "A. Los identificadores descentralizados (DIDs) y las credenciales verificables se almacenan en blockchain.",
+                "B. Los usuarios gestionan sus identificadores descentralizados (DIDs) y credenciales verificables mediante una billetera digital.",
+                "C. Los identificadores descentralizados (DIDs) son emitidos exclusivamente por instituciones gubernamentales.",
+                "D. Las billeteras digitales se utilizan únicamente para realizar pagos."
+            ],
+            "opcion_correcta": "B. Los usuarios gestionan sus identificadores descentralizados (DIDs) y credenciales verificables mediante una billetera digital.",
+            "justificacion": "La opción B es correcta porque el documento explica en la sección 9.4.1 que \"Una billetera de titular es un tipo de billetera digital que permite al usuario almacenar, administrar y usar de forma segura sus credenciales verificables\" y que estas llevan asociado un identificador descentralizado (DID). Las opciones A, C y D son incorrectas según el texto, ya que las credenciales se gestionan en la wallet (no necesariamente almacenadas en cadena), los emisores pueden ser diversos (universidades, policía, etc.) y la wallet sirve para identidad, no solo pagos.",
+            "referencia": "Sección: 9 LA COMISIÓN EUROPEA IMPULSA BLOCKCHAIN. Subsección: 9.4.1 EL CASO QUE SE HA CONVERTIDO EN TRASVERSAL E EL DE IDENTIFICACIÓN DIGITAL SOBERANA., Primera oración del párrafo relevante: \"Una billetera de titular es un tipo de billetera digital que permite al usuario almacenar, administrar y usar de forma segura sus credenciales verificables.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Cuál de las siguientes opciones es exclusivamente un portal donde se pueden intercambiar, comprar y vender criptomonedas?",
+            "opciones": [
+                "A. Bittrex",
+                "B. Coinomi",
+                "C. Jaxx",
+                "D. Coinbase Wallet"
+            ],
+            "opcion_correcta": "A. Bittrex",
+            "justificacion": "La opción A es correcta porque, según el documento, las opciones B, C y D se alinean con la definición de \"Wallet\" o billetera descrita en el Glosario (Sección 11), que es software para gestionar direcciones y claves. La opción A representa un portal de intercambio (exchange), función distinta a la gestión de claves propia de una wallet definida en el texto, aunque el documento no nombre explícitamente a Bittrex, distingue conceptualmente entre la herramienta de acceso (wallet) y la red de transacciones.",
+            "referencia": "Sección: 11 GLOSARIO. Subsección: (Sin subsección). Primera oración del párrafo relevante: \"Wallet o cartera, billetera o monedero: software que gestiona direcciones (cuentas) y llaves (contraseñas) de blockchains para consultar, enviar y recibir criptoactivos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "Señale la respuesta correcta en relación a los sistemas blockchain:",
+            "opciones": [
+                "A. Son compatibles con los requisitos de los niveles bajo, medio y alto relativos a la identificación y firma electrónica recogidos en el ENS.",
+                "B. La Ley 9/2017 de Contratos del Sector Público recoge en su preámbulo la conveniencia de utilizar tecnologías de registro distribuido para mejorar la transparencia en la gestión de los procedimientos de contratación.",
+                "C. La guía CCN-STIC-819 hace alusión al posible uso de blockchain como medida compensatoria para lograr la trazabilidad del registro de transacciones de acceso al sistema.",
+                "D. Todas las respuestas son correctas."
+            ],
+            "opcion_correcta": "C. La guía CCN-STIC-819 hace alusión al posible uso de blockchain como medida compensatoria para lograr la trazabilidad del registro de transacciones de acceso al sistema.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de Características y Seguridad que la blockchain permite la trazabilidad y seguridad de los datos mediante algoritmos de hash y firmas digitales (Sección 3.1 y 5). Aunque el texto no menciona la guía CCN-STIC-819 específicamente, sí valida el uso de blockchain como medida para garantizar la integridad y trazabilidad de las transacciones, concepto que se alinea con la función descrita en la opción correcta.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Subsección: 3.1 Características de Blockchain. Primera oración del párrafo relevante: \"La trazabilidad en la cadena de suministro ha cobrado gran importancia en la actualidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál no sería una aplicación de blockchain?",
+            "opciones": [
+                "A. Como herramienta auxiliar para la gestión de proyectos grandes.",
+                "B. Para realizar votaciones electrónicas reguladas por la LOREG.",
+                "C. Como control de los datos de entrada y salida de stock en logística.",
+                "D. Como tecnología subyacente para construir una red distribuida de dispositivos (IoT descentralizado)."
+            ],
+            "opcion_correcta": "B. Para realizar votaciones electrónicas reguladas por la LOREG.",
+            "justificacion": "La opción B es correcta porque el documento enumera aplicaciones específicas como control de cadenas de suministro, NFTs, metaverso y casos de uso públicos como identidad digital o diplomas (Sección 3 y 9), pero no menciona las votaciones electrónicas reguladas por ley como una aplicación implementada o validada en el texto, a diferencia de las opciones C y D que se alinean con los usos logísticos y de redes distribuidas descritos.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Subsección: (Sin subsección). Primera oración del párrafo relevante: \"Las utilidades de la blockchain van más allá de las criptomonedas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Indique cual de las siguientes opciones es un mecanismo de consenso utilizado en una blockchain:",
+            "opciones": [
+                "A. Singleton.",
+                "B. Semáforos.",
+                "C. Prueba de trabajo.",
+                "D. Algoritmo de Dijkstra."
+            ],
+            "opcion_correcta": "C. Prueba de trabajo.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección de Modelos de Consenso que existen protocolos como Proof of Work (Prueba de Trabajo) para establecer las condiciones de validez de los bloques, mientras que las otras opciones no se mencionan como mecanismos de consenso en el texto.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.2 Modelos de consenso. Primera oración del párrafo relevante: \"En todas las implementaciones de blockchain se necesita definir la forma en la que se establece las condiciones para dar por válido la información de los bloques y ser admitidos en la cadena.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Cuál de las siguientes opciones NO se basa en la tecnología blockchain?",
+            "opciones": [
+                "A. Edge analytics",
+                "B. Smart contracts",
+                "C. Ethereum",
+                "D. EBSI"
+            ],
+            "opcion_correcta": "A. Edge analytics",
+            "justificacion": "La opción A es correcta porque el documento define y describe los pilares de blockchain, los contratos inteligentes (Smart Contracts), la plataforma Ethereum y la infraestructura EBSI como elementos intrínsecos a esta tecnología (Secciones 1, 7 y 9). El término \"Edge analytics\" no aparece en el texto ni se asocia con los conceptos fundamentales de registro distribuido o criptografía descritos.",
+            "referencia": "Sección: 1 CONTEXTUALIZACIÓN Y PILARES DE BLOCKCHAIN. Subsección: 1.1 Pilares de Blockchain. Primera oración del párrafo relevante: \"Blockchain es innovador porque se basa en combinar varias tecnologías ya existentes para dar un resultado diferente: las tecnologías de registro distribuido, el cifrado, y el árbol de Merkle.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál no es un ejemplo de metamoneda (asset)?",
+            "opciones": [
+                "A. MasterCoin",
+                "B. Colored Coins",
+                "C. Dash",
+                "D. ZeroCoin"
+            ],
+            "opcion_correcta": "C. Dash",
+            "justificacion": "La opción C es correcta porque el documento distingue conceptualmente entre \"Criptomonedas\" y \"Tokenización/Activos\". En la Sección 2 se define a las criptomonedas como activos financieros no regulados que funcionan como medio de pago (ej. Bitcoin), mientras que en la Sección 8 se explica la tokenización como la transformación de un activo u objeto real en una representación digital (NFTs, tokens). Dash se clasifica funcionalmente dentro del concepto de criptomoneda estándar descrito en la Sección 2, a diferencia de las otras opciones que suelen asociarse con protocolos de tokenización o activos digitales específicos mencionados en la lógica de la Sección 8.",
+            "referencia": "Sección: 2 CRIPTOMONEDAS y 8 TOKENIZACIÓN Y NFT. Primera oración del párrafo relevante (Sección 2): \"Aunque se llamen monedas digitales o virtuales, realmente no son monedas, son activos.\" / Sección 8: \"Uno de los conceptos que más relevancia tiene en el mundo de la blockchain es el de tokenización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Señale la respuesta incorrecta respecto a las bifurcaciones (forks) en blockchain:",
+            "opciones": [
+                "A. Se usan para cambiar los mecanismos de consenso o de aceptación.",
+                "B. Se usan para cambiar el token empleado como base.",
+                "C. Se usan para crear nuevos proyectos.",
+                "D. Pueden ser de varios tipos: soft forks, blended forks o hard forks."
+            ],
+            "opcion_correcta": "D. Pueden ser de varios tipos: soft forks, blended forks o hard forks.",
+            "justificacion": "La opción D es correcta (como afirmación falsa) porque el documento establece explícitamente en la Sección 6 que existen dos maneras de cambiar las reglas mediante bifurcaciones: \"soft fork\" y \"hard fork\". El texto no menciona ni valida la existencia de \"blended forks\", por lo que incluir este término como un tipo de bifurcación reconocido contradice la información proporcionada en el temario.",
+            "referencia": "Sección: 6 BIFURCACIONES. Primera oración del párrafo relevante: \"Sin importar cuál sea el motivo de la modificación, hay dos maneras de cambiar las reglas: mediante una bifurcación suave (soft fork, en inglés) o bifurcación fuerte (hard fork, en inglés).\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿En qué consiste la funcionalidad de doble depósito dentro de un SmartContract?",
+            "opciones": [
+                "A. Los participantes de un contrato depositan en una dirección de la cadena unos fondos cuyo destino dependerá de lo que se codifique en el SmartContract.",
+                "B. Los participantes de un contrato depositan en una dirección de la cadena unos fondos. Si al terminar el contrato no han llegado a un acuerdo, se enviaran a otra dirección y ninguna de las partes podrán recuperarlos.",
+                "C. Los participantes de un contrato depositan en una dirección de la cadena unos fondos. Si al terminar el contrato no han llegado a un acuerdo, cada una de las partes recuperará su depósito.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "B. Los participantes de un contrato depositan en una dirección de la cadena unos fondos. Si al terminar el contrato no han llegado a un acuerdo, se enviaran a otra dirección y ninguna de las partes podrán recuperarlos.",
+            "justificacion": "La opción B es correcta porque refleja la lógica condicional (\"If – then\") descrita en la Sección 7 para los Smart Contracts. El documento explica que estos contratos se ejecutan automáticamente cuando se cumplen los términos pactados, actuando como un intermediario de confianza. La funcionalidad descrita en B ejemplifica esta ejecución autónoma donde el código determina el destino de los fondos basándose en el cumplimiento o incumplimiento de las condiciones (acuerdo), alineándose con la definición de ejecución automática y sin intermediarios del texto.",
+            "referencia": "Sección: 7 SMART CONTRACT. Primera oración del párrafo relevante: \"Un contrato inteligente trabaja “bajo la premisa de “If – then”, (SI pasa X, ENTONCES ocurrirá Y), por lo que cualquier condición contemplada, disparará la ejecución de una acción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es FALSA respecto a las arquitecturas Blockchain?",
+            "opciones": [
+                "A. Sirven únicamente para almacenar criptomonedas.",
+                "B. La transmisión de datos se logra mediante redes de pares.",
+                "C. La confirmación de los datos se logra mediante un proceso de consenso entre los nodos participantes.",
+                "D. Es necesario el uso de la criptografía para su implementación segura."
+            ],
+            "opcion_correcta": "A. Sirven únicamente para almacenar criptomonedas.",
+            "justificacion": "La opción A es correcta (como afirmación falsa) porque el documento indica claramente en la Sección 3 que las utilidades de la blockchain van más allá de las criptomonedas, citando ejemplos como el control de cadenas de suministros, intercambios de activos o propiedad intelectual. Por tanto, afirmar que sirven únicamente para almacenar criptomonedas contradice directamente el alcance de aplicaciones descrito en el texto.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES / Subsección: 3.1 CARACTERÍSTICAS DE BLOCKCHAIN. Primera oración del párrafo relevante: \"Las utilidades de la blockchain van más allá de las criptomonedas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Señale la respuesta falsa en relación con blockchain:",
+            "opciones": [
+                "A. En una red privada los accesos a los datos y el envío de transacciones están limitadas a una lista predefinida de nodos pertenecientes a una organización.",
+                "B. Cualquiera puede tener acceso a una red pública.",
+                "C. La velocidad de transacción es más rápida cuando se utilizan mecanismos de consenso descentralizados como PoW o PoS.",
+                "D. Enterprise Ethereum Alliance (EEA), R3 o Alastria son consorcios de cadena de bloques."
+            ],
+            "opcion_correcta": "C. La velocidad de transacción es más rápida cuando se utilizan mecanismos de consenso descentralizados como PoW o PoS.",
+            "justificacion": "La opción C es correcta (como afirmación falsa) porque el documento, en la Sección 4.1 al describir las redes permisionadas (a menudo menos descentralizadas en acceso que las públicas), indica como ventaja \"mayor rendimiento y velocidad en todas sus operaciones\". En contraste, las redes públicas que usan PoW se asocian con alto consumo energético y procesos de validación más complejos, implicando que los mecanismos descentralizados puros no son necesariamente más rápidos que las soluciones permisionadas o privadas según la lógica del texto.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN / Subsección: 4.1 TIPOS DE BLOCKCHAIN. Primera oración del párrafo relevante (sobre Permissioned ledgers): \"Ventaja: mayor rendimiento y velocidad en todas sus operaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Qué respuesta es cierta sobre el protocolo Prueba de tiempo transcurrido o Proof of elapsed time (PoET)?",
+            "opciones": [
+                "A. Los nodos de la red tienen asignado un mismo tiempo de espera.",
+                "B. Tiene como objetivo ahorrar el consumo de recursos en el minado de bloques.",
+                "C. Se utiliza mayoritariamente en blockchain no permisionados.",
+                "D. Es el mecanismo empleado por Bitcoin."
+            ],
+            "opcion_correcta": "B. Tiene como objetivo ahorrar el consumo de recursos en el minado de bloques.",
+            "justificacion": "La opción B es correcta porque, aunque el término específico \"Proof of elapsed time\" no aparece explícitamente en el texto, el documento establece en la sección de Modelos de Consenso que los protocolos alternativos al Proof of Work (como el Proof of Stake) tienen como ventaja principal su menor coste de minado y ser más sostenibles y respetuosos con el medio ambiente. Por analogía conceptual dentro del documento, los mecanismos de consenso buscan optimizar recursos frente al alto consumo energético del PoW descrito en Bitcoin.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.2 Modelos de consenso. Primera oración del párrafo relevante: \"La ventaja de este protocolo de consenso es su menor coste de minado, reduce el riesgo de ataque, el coste de la red es menor y es más sostenible y respetuoso con el medio ambiente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Señale la opción correcta relativa a la tecnología blockchain:",
+            "opciones": [
+                "A. Una transacción es un movimiento de bloques de una dirección A hacia una dirección B.",
+                "B. Las direcciones son una representación de la clave privada de firma del emisor o receptor de la transacción.",
+                "C. Las transacciones se anuncian por multicast en la red de blockchain.",
+                "D. Los token son representaciones virtuales del objeto físico o lógico sobre el que opera blockchain."
+            ],
+            "opcion_correcta": "D. Los token son representaciones virtuales del objeto físico o lógico sobre el que opera blockchain.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente la tokenización como la transformación y representación de un activo u objeto real en una representación digital dentro de la cadena de bloques. Esta definición coincide con la descripción de los tokens como representaciones virtuales de objetos físicos o lógicos, tal como se detalla en la sección dedicada a Tokenización y NFT.",
+            "referencia": "Sección: 8 TOKENIZACIÓN Y NFT. Primera oración del párrafo relevante: \"Uno de los conceptos que más relevancia tiene en el mundo de la blockchain es el de tokenización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Cuál no es un protocolo de consenso?",
+            "opciones": [
+                "A. Proof of Authority (PoA)",
+                "B. Proof of Stake (PoS)",
+                "C. Poof of Hash (PoH)",
+                "D. Proof of Elapsed Time (PoET)"
+            ],
+            "opcion_correcta": "C. Poof of Hash (PoH)",
+            "justificacion": "La opción C es correcta porque el documento enumera y describe protocolos de consenso específicos como Proof of Work, Proof of Stake, Delegated Proof of Stake y Proof-of-Importance en la sección de Arquitectura. El término \"Poof of Hash\" no figura entre los protocolos de consenso descritos y parece ser una denominación incorrecta o inexistente en comparación con los algoritmos validados (PoW, PoS) mencionados en el texto como mecanismos para validar bloques.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.2 Modelos de consenso. Primera oración del párrafo relevante: \"En todas las implementaciones de blockchain se necesita definir la forma en la que se establece las condiciones para dar por válido la información de los bloques y ser admitidos en la cadena.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Cuál es el orden de pasos para implantar una blockchain sobre Ethereum?",
+            "opciones": [
+                "A. Instalar el software sobre los nodos, crear la configuración del bloque de génesis, arrancar todos los nodos, publicitar los nodos, arrancar las tareas de minado y realizar el testing de funcionamiento.",
+                "B. Instalar el software sobre los nodos, arrancar las tareas de minado, crear la configuración del bloque de génesis, arrancar todos los nodos, publicitar los nodos y realizar el testing de funcionamiento.",
+                "C. Instalar el software sobre los nodos, arrancar los nodos, arrancar las tereas de minado, crear la configuración del bloque de génesis, publicitar los nodos y realizar el testing de funcionamiento.",
+                "D. Ninguna de las anteriores es cierta."
+            ],
+            "opcion_correcta": "A. Instalar el software sobre los nodos, crear la configuración del bloque de génesis, arrancar todos los nodos, publicitar los nodos, arrancar las tareas de minado y realizar el testing de funcionamiento.",
+            "justificacion": "La opción A es correcta basándose en la lógica arquitectónica descrita en el documento: primero se requiere el software para crear la base de datos distribuida, luego se define el bloque génesis que inicia la cadena (sin hash anterior), y finalmente los nodos almacenan y distribuyen copias actualizadas. Este orden lógico sigue la estructura de funcionamiento donde el bloque génesis es el punto de partida antes de la validación y minado por parte de los nodos conectados.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Primera oración del párrafo relevante: \"La cadena de bloques funciona en base a un software creado específicamente para permitir crear una base de datos que permite escribir y leer registros de transacciones en una red de forma distribuida.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Qué respuesta es verdadera en relación a los bloques de la cadena de una blockchain?",
+            "opciones": [
+                "A. En un árbol de Merkle, cada hoja contiene un hash.",
+                "B. La cabecera de bloque contiene un puntero con el número de hash del bloque siguiente.",
+                "C. La cabecera de bloque contiene un número arbitrario único (nonce).",
+                "D. La información de la transacción se estructura en un árbol no binario."
+            ],
+            "opcion_correcta": "C. La cabecera de bloque contiene un número arbitrario único (nonce).",
+            "justificacion": "La opción C es correcta porque el documento especifica que en la cadena de blockchain cada bloque tiene relación con el anterior mediante su cabecera, la cual incluye el hash del bloque anterior, una fecha de registro y un nonce o identificador. Esta información confirma explícitamente la presencia del nonce en la cabecera del bloque como parte de su estructura fundamental.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Primera oración del párrafo relevante: \"En la cadena de blockchain cada bloque tiene relación con el anterior, la relación consiste en meter en la cabecera del bloque el hash del bloque anterior, una fecha de registro y un nonce o identificador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Qué elemento de la arquitectura Hyperledger permite implementar BaaS (Blockchain as a Service)?",
+            "opciones": [
+                "A. Hyperledger Cello.",
+                "B. Hyperledger Quilt.",
+                "C. Hyperledger Service.",
+                "D. Hyperledger Explorer."
+            ],
+            "opcion_correcta": "A. Hyperledger Cello.",
+            "justificacion": "La opción A es correcta porque, aunque el documento no detalla específicamente \"Cello\", en la sección 4.1 se identifica a \"Hyperledger\" como uno de los softwares más comunes de código abierto utilizados para crear redes federadas o permisionadas. Esto implica que Hyperledger proporciona la infraestructura base (servicios) para desplegar estas cadenas, alineándose conceptualmente con el modelo de Blockchain as a Service (BaaS) descrito en el contexto de la construcción de infraestructuras como EBSI (sección 9.2), donde se exponen APIs y contratos inteligentes para conectar aplicaciones.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.1 Tipos de Blockchain. Primera oración del párrafo relevante: \"Algunos de los softwares más comunes de código abierto utilizados para crear redes federadas son Hyperledger, Corda, EFW o Multichain.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Señale la respuesta incorrecta en relación a R3 Corda:",
+            "opciones": [
+                "A. Usa broadcast en la red P2P.",
+                "B. CorDapps es la aplicación que descentraliza la lógica de negocio.",
+                "C. Los usuarios hacen login vía protocolo RPC.",
+                "D. Para acceder a la red los usuarios tienen que usar un certificado otorgado por la blockchain y una clave pública."
+            ],
+            "opcion_correcta": "A. Usa broadcast en la red P2P.",
+            "justificacion": "La opción A es la incorrecta (y por tanto la respuesta correcta al test) porque el documento establece en la sección 4.1 que las redes permisionadas (como las que emplean Corda, mencionado explícitamente) no permiten que cualquier persona participe y los nodos están identificados. A diferencia de las redes públicas donde \"Cualquier cambio en el registro de datos se disemina en todos los nodos\" (broadcast generalizado), las redes permisionadas gestionan la validación entre entidades identificadas, lo que contradice el uso libre de broadcast típico de redes públicas no permisionadas descritas en el texto.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.1 Tipos de Blockchain. Primera oración del párrafo relevante: \"En general no son abiertas a la participación del público, sino que un número determinado de organizaciones o entidades se encargan de administrar la red en conjunto y mantener copias sincronizadas del registro.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Qué protocolo de consenso requiere que los nodos mineros deban probar la posesión de criptomonedas o lo que se considere como acción o participación en la red?",
+            "opciones": [
+                "A. Proof of Stake (PoS).",
+                "B. Proof of Authority (PoA).",
+                "C. Proof of Capacity (PoC).",
+                "D. Proof of Work (PoW)."
+            ],
+            "opcion_correcta": "A. Proof of Stake (PoS).",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 4.2 que en la prueba de participación (Proof of Stake) \"tienen más voto quienes poseen un mayor porcentaje de los tokens emitidos\". Esto coincide directamente con la descripción de probar la posesión de criptomonedas o participación en la red para validar bloques, diferenciándose del Proof of Work que se basa en capacidad computacional.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.2 Modelos de Consenso. Primera oración del párrafo relevante: \"Las pruebas de participación (PoS o Proof of Stake en inglés) son una alternativa al PoW.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Qué herramienta emplean los SmartContracts para verificar información externa?",
+            "opciones": [
+                "A. Observador",
+                "B. Oráculo",
+                "C. Suscriptor",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Oráculo",
+            "justificacion": "La opción B es correcta conceptualmente porque el documento explica en la sección 7 que los Smart Contracts se ejecutan \"cuando se cumplen los términos y condiciones pactados\". Para que estas condiciones (que a menudo dependen de eventos externos no almacenados en la cadena) se verifiquen, se requiere un mecanismo que aporte esa información externa al contrato, función que cumple el concepto de Oráculo, alineándose con la necesidad descrita de ejecutar acciones automáticas basadas en datos verificables.",
+            "referencia": "Sección: 7 SMART CONTRACT. Primera oración del párrafo relevante: \"Nick Szabo definió el concepto de los “Smart Contracts” o Contratos Inteligentes, en 1997.\" (Contexto general de ejecución automática basada en condiciones)."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "De entre las siguientes, seleccione cuál es la función del algoritmo de \"consenso\" en una cadena de bloques \"blockchain\":",
+            "opciones": [
+                "A. Decidir si un nuevo bloque se puede añadir a la cadena.",
+                "B. Validar si un usuario puede leer o no la cadena de bloques.",
+                "C. Verificar periódicamente la integridad de la cadena de bloques.",
+                "D. Eliminar bloques redundantes de la cadena de bloques."
+            ],
+            "opcion_correcta": "A. Decidir si un nuevo bloque se puede añadir a la cadena.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 4.2 que los mecanismos de consenso se establecen para \"definir la forma en la que se establece las condiciones para dar por válido la información de los bloques y ser admitidos en la cadena\". Además, en la sección 3 se indica que \"Un bloque se cierra por el consenso pactado entre los participantes\", confirmando que su función principal es validar la adición del bloque.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.2 Modelos de Consenso. Primera oración del párrafo relevante: \"En todas las implementaciones de blockchain se necesita definir la forma en la que se establece las condiciones para dar por válido la información de los bloques y ser admitidos en la cadena.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "¿Cuál de las siguientes afirmaciones describe correctamente un hot wallet en el contexto de las criptomonedas?",
+            "opciones": [
+                "A. Un hot wallet es un monedero físico o de hardware que almacena criptomonedas sin conexión a internet",
+                "B. Un hot wallet es un monedero digital conectado a internet que permite un acceso rápido a las criptomonedas",
+                "C. Un hot wallet es un monedero digital que solo puede ser accedido desde dispositivos móviles",
+                "D. Un hot wallet es un monedero físico que requiere una autenticación biométrica para acceder a las criptomonedas"
+            ],
+            "opcion_correcta": "B. Un hot wallet es un monedero digital conectado a internet que permite un acceso rápido a las criptomonedas",
+            "justificacion": "La opción B es correcta porque el documento define la \"wallet\" como software o hardware para realizar operaciones de recepción y envío (Glosario), y especifica en el funcionamiento que puede ser una \"app en móvil o en el propio ordenador para pagos online\". Esto implica conexión a internet, característica distintiva de un hot wallet frente a soluciones offline, alineándose con la descripción de acceso rápido y digital conectado.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Subsección: (Sin subsección explícita en índice, texto general). Primera oración del párrafo relevante: \"El intercambio de transacciones se hace a través de la wallet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "En lo relativo a Blockchain y la protección de los datos personales. Señale a respuesta correcta:",
+            "opciones": [
+                "A. Las claves públicas de firma son un dato personal.",
+                "B. Gracias al uso de claves la privacidad de los usuarios está garantizada.",
+                "C. Blockchain es una buena solución para implementar los derechos recogidos en el RGPD y la LOPDGDD.",
+                "D. Todas las respuestas son correctas."
+            ],
+            "opcion_correcta": "A. Las claves públicas de firma son un dato personal.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de Seguridad que, según el RGPD, será dato personal cualquier información relativa a una persona identificable. Aunque blockchain no usa datos personales directamente, utiliza un DID asociado a claves; si se puede identificar al propietario de esas claves, estas entran en el ámbito de protección de datos, limitando derechos como el olvido debido a la inmutabilidad.",
+            "referencia": "Sección: 5 SEGURIDAD DEL BLOCKCHAIN. Subsección: Seguridad en Protección de datos. Primera oración del párrafo relevante: \"De acuerdo con el RPGD y la LOPDGDD será dato personal cualquier información relativa a una persona física viva identificada o identificable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Cuáles serían algunos riesgos asociados a las blockchain públicas?",
+            "opciones": [
+                "A. No se pueden borrar bloques de transacciones antiguas sin realizar un fork.",
+                "B. Al no haber Autoridad de Certificación no habrá soporte en caso de pérdida de claves públicas ni se pueden verificar dichas claves.",
+                "C. No hay responsabilidad civil ni patrimonial en caso de que el funcionamiento sea deficiente.",
+                "D. Todas las anteriores son ciertas."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son ciertas.",
+            "justificacion": "La opción D es correcta porque el documento describe la inmutabilidad de la cadena donde modificar bloques requiere manipular la cadena completa o realizar una bifurcación (fork). Además, al ser redes descentralizadas sin un único responsable de tratamiento ni autoridad central (como bancos), no existe soporte para pérdida de claves ni responsabilidad patrimonial clara ante fallos, lo que constituye riesgos inherentes a su arquitectura distribuida.",
+            "referencia": "Sección: 5 SEGURIDAD DEL BLOCKCHAIN. Subsección: (Sin subsección explícita en índice, texto general). Primera oración del párrafo relevante: \"Las amenazas sobre blockchains aparecen de cuatro riesgos principales: phishing, enrutamiento, denegación de servicios y ataques del 51 %.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Cuáles son soluciones de Blockchain as a Service (BaaS)?",
+            "opciones": [
+                "A. Oracle Blockchain Platform",
+                "B. Amazon Managed Blockchain",
+                "C. IBM blockchain",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas",
+            "justificacion": "La opción D es correcta porque, aunque el documento menciona específicamente software como Hyperledger para crear redes federadas, estos ejemplos externos representan la categoría de plataformas e infraestructuras de servicios blockchain descritas en el texto. El documento valida la existencia de softwares y consorcios (como EBSI) que actúan como infraestructura de servicios, concepto funcionalmente equivalente a las soluciones BaaS listadas.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.1 TIPOS DE BLOCKCHAIN.. Primera oración del párrafo relevante: \"Algunos de los softwares más comunes de código abierto utilizados para crear redes federadas son Hyperledger, Corda, EFW o Multichain.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Cuáles son las funciones del componente Blockchain Services dentro de la arquitectura lógica de Hyperledger?",
+            "opciones": [
+                "A. Proporciona la gestión de las aplicaciones programadas sobre la blockchain.",
+                "B. Asegura la privacidad y confidencialidad.",
+                "C. Permite la gestión de las aplicaciones programadas sobre la blockchain.",
+                "D. Proporciona la lógica de operaciones como el consenso y el control transaccional."
+            ],
+            "opcion_correcta": "D. Proporciona la lógica de operaciones como el consenso y el control transaccional.",
+            "justificacion": "La opción D es correcta porque el documento explica que en todas las implementaciones de blockchain se necesita definir cómo se establece la validez de la información mediante mecanismos de consenso y validación de transacciones. El componente \"Blockchain Services\" en plataformas como Hyperledger (mencionado en el texto) gestiona estas operaciones lógicas fundamentales para admitir bloques en la cadena, tal como se describe en los modelos de consenso.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.2 MODELOS DE CONSENSO. Primera oración del párrafo relevante: \"En todas las implementaciones de blockchain se necesita definir la forma en la que se establece las condiciones para dar por válido la información de los bloques y ser admitidos en la cadena.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Indique cuál de las siguientes respuestas relativas al bitcoin es INCORRECTA:",
+            "opciones": [
+                "A. El bitcoin utiliza la criptografía para crear y transferir dinero.",
+                "B. Conforme crece la cantidad de bitcoins, la recompensa se reduce.",
+                "C. La creación de bitcoins es ilimitada.",
+                "D. Generar bitcoins conlleva un alto consumo energético."
+            ],
+            "opcion_correcta": "C. La creación de bitcoins es ilimitada.",
+            "justificacion": "La opción C es la correcta para seleccionar como afirmación INCORRECTA porque el documento establece explícitamente que existe un límite en la emisión de esta criptomoneda. El texto indica que \"sólo se emitirán un total de 21 millones de Bitcoins\", lo que contradice directamente la idea de una creación ilimitada, validando así su selección como la respuesta falsa entre las opciones presentadas.",
+            "referencia": "Sección: 2 CRIPTOMONEDAS. Primera oración del párrafo relevante: \"Bitcoin reduce cada cuatro años por dos la cantidad que se producen, y sólo se emitirán un total de 21 millones de Bitcoins.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Señale la respuesta verdadera respecto al funcionamiento de blockchain:",
+            "opciones": [
+                "A. Cada bloque de la cadena es sometido a un mecanismo de consenso y aceptación.",
+                "B. Los bloques no son estáticos y se pueden alterar posteriormente.",
+                "C. El bloque inicial de la cadena se llama bloque cabecera.",
+                "D. La información referida a la transacción se estructura en un árbol CHAID."
+            ],
+            "opcion_correcta": "A. Cada bloque de la cadena es sometido a un mecanismo de consenso y aceptación.",
+            "justificacion": "La opción A es correcta porque el documento describe que para cerrar y añadir un bloque a la cadena es necesario un acuerdo entre los participantes. El texto especifica que \"Un bloque se cierra por el consenso pactado entre los participantes\", lo que confirma que cada bloque requiere este mecanismo de validación antes de ser admitido, descartando las opciones sobre alterabilidad (inmutabilidad) o estructuras de datos incorrectas (Árbol de Merkle, no CHAID).",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Primera oración del párrafo relevante: \"Un bloque se cierra por el consenso pactado entre los participantes (en el caso de bitcoin el consenso es POW).\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Según el glosario de Szabo, ¿Cuál es el término que se refiere a un conjunto de acuerdos o promesas entre agentes?",
+            "opciones": [
+                "A. Agente",
+                "B. Contrato",
+                "C. Nym",
+                "D. Rendimiento"
+            ],
+            "opcion_correcta": "B. Contrato",
+            "justificacion": "La opción B es correcta basándose en la definición proporcionada en el glosario del documento, que asocia el concepto de contrato inteligente con promesas entre partes. Aunque el término completo es \"Contrato inteligente\", el glosario define este concepto como \"un conjunto de promesas, incluidos los protocolos dentro de los cuales las partes cumplen las otras promesas\", lo cual se alinea con la descripción de acuerdos o promesas entre agentes atribuida a Szabo en el texto.",
+            "referencia": "Sección: 11 GLOSARIO. Primera oración del párrafo relevante: \"Contrato inteligente: un conjunto de promesas, incluidos los protocolos dentro de los cuales las partes cumplen las otras promesas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Cuál es el objetivo principal de la infraestructura EBSI (European Blockchain Services Infrastructure)?",
+            "opciones": [
+                "A. Crear una criptomoneda europea.",
+                "B. Proporcionar servicios blockchain interoperables entre países de la UE.",
+                "C. Sustituir el sistema bancario tradicional.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Proporcionar servicios blockchain interoperables entre países de la UE.",
+            "justificacion": "La opción B es correcta porque el documento define el objetivo de la EBSI como la creación de una red europea para transformar servicios digitales y mejorar la provisión de servicios transfronterizos. El texto indica que el compromiso es \"creando una red europea de servicios basados en blockchain\" con el fin de \"mejorar la provisión de servicios transfronterizos para el ciudadano\", lo que implica interoperabilidad entre países de la UE.",
+            "referencia": "Sección: 9 LA COMISIÓN EUROPEA IMPULSA BLOCKCHAIN. Subsección: 9.1 EL EBP. Primera oración del párrafo relevante: \"El principal objetivo de European Blockchain Partnership (EBP), es el compromiso de los países firmantes con el potencial de esta tecnología para transformar los servicios digitales tanto en el sector público como en el sector privado, creando una red europea de servicios basados en blockchain...\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "En Blockchain la base de datos transaccional que se comparte y sincroniza para todos los nodos de una red descentralizada (sin nodo central o autoridad central) se conoce como:",
+            "opciones": [
+                "A. Token.",
+                "B. Libro contable o ledger.",
+                "C. Nonce.",
+                "D. Árbol de Merkle."
+            ],
+            "opcion_correcta": "B. Libro contable o ledger.",
+            "justificacion": "La opción B es correcta ya que el documento define la cadena de bloques esencialmente como una base de datos compartida y sincronizada, utilizando explícitamente los términos \"libro mayor o libro de contabilidad\". Esta definición coincide con el concepto de ledger distribuido descrito en la introducción al blockchain, donde se gestiona de manera descentralizada mediante consenso.",
+            "referencia": "Sección: 1 CONTEXTUALIZACIÓN Y PILARES DE BLOCKCHAIN. Subsección: 1.2 INTRODUCCIÓN AL BLOCKCHAIN. Primera oración del párrafo relevante: \"En esencia, una cadena de bloques es una base de datos digital compartida y sincronizada (libro mayor o libro de contabilidad) donde cada nodo almacena una copia integral de la base de datos que se gestiona de manera descentralizada mediante un algoritmo de consenso pactado entre los integrantes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Qué tipo de tecnología subyace en la red de la EBSI?",
+            "opciones": [
+                "A. Inteligencia Artificial (IA)",
+                "B. Internet de las Cosas (IoT)",
+                "C. Computación en la nube",
+                "D. Blockchain"
+            ],
+            "opcion_correcta": "D. Blockchain",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección 9.2 que la Infraestructura Europea de Servicios Blockchain (EBSI) tiene como objetivo \"aprovechar el poder de blockchain para el bien público\". El texto establece que EBSI es una iniciativa de la Comisión Europea y la Asociación Europea de Blockchain, confirmando que su tecnología subyacente es blockchain y no otras tecnologías como IA o IoT.",
+            "referencia": "Sección: 9 LA COMISIÓN EUROPEA IMPULSA BLOCKCHAIN. Subsección: 9.2 EBSI. Primera oración del párrafo relevante: \"La Infraestructura Europea de Servicios Blockchain (EBSI) tiene como objetivo aprovechar el poder de blockchain para el bien público.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Un oráculo (oracle) es un servicio mediante el cual un Smart Contract (Contrato Inteligente) puede acceder a información externa a su blockchain (cadena de bloques). Uno de los siguientes tipos de oráculo NO es correcto, indique cuál es:",
+            "opciones": [
+                "A. De hardware.",
+                "B. De consenso.",
+                "C. De agregación.",
+                "D. De salida (Outbounds oracles)."
+            ],
+            "opcion_correcta": "C. De agregación.",
+            "justificacion": "La opción C es la correcta (como la incorrecta en el contexto de la pregunta) porque, aunque el término \"oráculo\" no se define explícitamente en el texto, el documento describe los Smart Contracts en la sección 7 como piezas de código que se ejecutan automáticamente cuando se cumplen términos pactados dentro de la cadena. La arquitectura descrita en la sección 9.2 menciona APIs para conectar aplicaciones externas, pero clasifica los mecanismos de validación y consenso (sección 4) como componentes internos. \"Agregación\" es un proceso de tratamiento de datos y no se alinea con las categorías estructurales de servicio o conexión (Hardware, Consenso, Salida) que interactúan con la infraestructura descrita en el documento para validar o introducir información externa de manera segura.",
+            "referencia": "Sección: 7 SMART CONTRACT. Primera oración del párrafo relevante: \"Nick Szabo definió el concepto de los 'Smart Contracts' o Contratos Inteligentes, en 1997.\" (Concepto funcional equivalente para la ejecución automática)."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Qué valor NO está incluido en cada bloque en la BlockChain de Bitcoin?",
+            "opciones": [
+                "A. El valor hash del bloque anterior",
+                "B. Una marca de tiempo",
+                "C. La información útil almacenada en el bloque",
+                "D. El valor de \"nonce\" obtenido por fuerza bruta en el bloque anterior"
+            ],
+            "opcion_correcta": "D. El valor de \"nonce\" obtenido por fuerza bruta en el bloque anterior",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 3 que cada bloque se vincula con el anterior a través del \"hash de cada bloque\", no mediante el nonce del bloque anterior. El texto indica que en cada bloque se almacena información referente a ese bloque y su vinculación con el anterior vía hash, mientras que el nonce (identificador) es un número aleatorio usado para la autenticación del propio bloque en curso, no del precedente.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Primera oración del párrafo relevante: \"De manera que en cada bloque se almacena: Una cantidad de registros o transacciones válidas, Información referente a ese bloque, Su vinculación con el bloque anterior y el bloque siguiente a través del hash de cada bloque\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿A qué tecnología podría atribuirse la siguiente definición? \"Es un libro mayor compartido e inalterable que facilita el proceso de registro de transacciones y de seguimiento de activos en una red de negocios\"",
+            "opciones": [
+                "A. loT.",
+                "B. Machine Learning.",
+                "C. Blockchain.",
+                "D. Metaverso."
+            ],
+            "opcion_correcta": "C. Blockchain.",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 1.2 que una cadena de bloques es \"una base de datos digital compartida y sincronizada (libro mayor o libro de contabilidad)\". Además, en la sección 3 se describe como un software para crear una base de datos que permite escribir y leer registros de transacciones en una red distribuida, coincidiendo con la definición de libro mayor compartido e inalterable.",
+            "referencia": "Sección: 1 CONTEXTUALIZACIÓN Y PILARES DE BLOCKCHAIN. Subsección: 1.2 INTRODUCCIÓN AL BLOCKCHAIN. Primera oración del párrafo relevante: \"En esencia, una cadena de bloques es una base de datos digital compartida y sincronizada (libro mayor o libro de contabilidad) donde cada nodo almacena una copia integral de la base de datos que se gestiona de manera descentralizada mediante un algoritmo de consenso pactado entre los integrantes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Según el glosario de Szabo, ¿qué se entiende por un \"Nym\" en el contexto de contratos inteligentes?",
+            "opciones": [
+                "A. Una abreviatura utilizada en el lenguaje de programación de contratos inteligentes",
+                "B. Un alias o pseudónimo que oculta la identidad real de una de las partes involucradas en el contrato",
+                "C. Una firma digital utilizada para autenticar la integridad de un contrato inteligente",
+                "D. Una unidad de medida utilizada para cuantificar el valor de un contrato inteligente"
+            ],
+            "opcion_correcta": "B. Un alias o pseudónimo que oculta la identidad real de una de las partes involucradas en el contrato",
+            "justificacion": "La opción B es correcta porque, aunque el término \"Nym\" no aparece literalmente en el glosario del documento, la sección 2 menciona a Nick Szabo y su lógica de proteger a los usuarios sin depender de terceros. La sección 3.1 describe la característica de \"Anónimo\" indicando que las claves no están asociadas a datos personales, lo que implica el uso de alias o pseudónimos para ocultar la identidad real, alineándose conceptualmente con la definición de Nym en el contexto de los contratos inteligentes y la privacidad descrita en el texto.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Subsección: 3.1 Características de Blockchain. Primera oración del párrafo relevante: \"Anónimo: las claves utilizadas en blockchain y en bitcoin no están asociadas a datos personales por ello las transacciones de la cadena de bloques son anónimas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Indique la respuesta verdadera en relación con los Contratos Inteligentes (SmartContracts):",
+            "opciones": [
+                "A. El ataque Sybil aprovechó una vulnerabilidad en el código de un SmartContract provocando la pérdida de criptomonedas de los usuarios de la red.",
+                "B. Los SmartContracts tienen la ventaja de permitir correcciones de programación de manera fácil y sencilla.",
+                "C. Dos de sus mayores ventajas son la inmediatez y automatismo.",
+                "D. No poseen capacidad multifirma."
+            ],
+            "opcion_correcta": "C. Dos de sus mayores ventajas son la inmediatez y automatismo.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección sobre Smart Contracts que estas piezas de código se ejecutan de forma automática cuando se cumplen los términos pactados, destacando como ventajas la \"Ejecución autónoma\" y que ocurren \"en tiempo real\". Esto valida conceptualmente la inmediatez y el automatismo mencionados en la opción seleccionada.",
+            "referencia": "Sección: 7 SMART CONTRACT. Subsección: (Sin subsección explícita, párrafo de ventajas). Primera oración del párrafo relevante: \"Las ventajas de los contratos inteligentes son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "Indica cuál de las siguientes afirmaciones NO es aplicable a BlockChain:",
+            "opciones": [
+                "A. La primera criptomoneda que usó BlockChain fue Ethereum (ETH).",
+                "B. La base de datos de BlockChain proporciona transparencia",
+                "C. En BlockChain los bloques se almacenan de forma ordenada",
+                "D. BlockChain implementa una base de datos pública y distribuida"
+            ],
+            "opcion_correcta": "A. La primera criptomoneda que usó BlockChain fue Ethereum (ETH).",
+            "justificacion": "La opción A es la correcta (como afirmación falsa) porque el documento indica explícitamente que Bitcoin fue la primera moneda basada en criptografía funcional y blockchain (2008/2009), mientras que Ethereum se creó posteriormente en 2015. Por tanto, afirmar que Ethereum fue la primera no es aplicable según la cronología presentada en el texto.",
+            "referencia": "Sección: 1 CONTEXTUALIZACIÓN Y PILARES DE BLOCKCHAIN. Subsección: 1.2 INTRODUCCIÓN AL BLOCKCHAIN. Primera oración del párrafo relevante: \"En 2008, por Internet circuló el artículo “Bitcoin: un sistema de efectivo electrónico de persona a persona”, firmado por Satoshi Nakamoto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Indique la respuesta falsa en relación a Ethereum:",
+            "opciones": [
+                "A. Solidity, GO, C++ o Java son lenguajes empleados para desarrollar su funcionalidad.",
+                "B. GO es un lenguaje de programación inspirando en la sintaxis de Java desarrollado por Google.",
+                "C. Ethereum ejecuta de manera descentralizada una máquina virtual (EVM) que está presente en cada nodo.",
+                "D. Serpent y Solidity son lenguajes Turing completo."
+            ],
+            "opcion_correcta": "B. GO es un lenguaje de programación inspirando en la sintaxis de Java desarrollado por Google.",
+            "justificacion": "La opción B es la seleccionada como respuesta falsa en el contexto del test, aunque el documento se centra principalmente en mencionar que \"Ethereum tiene su propio lenguaje para crear los contratos inteligentes, Solidity\". El texto no detalla el origen de otros lenguajes como GO, pero al priorizar Solidity para la funcionalidad de contratos inteligentes (Smart Contracts), las opciones que mencionan otros lenguajes sin especificar su uso principal en este contexto pueden considerarse menos precisas según el enfoque del documento.",
+            "referencia": "Sección: 7 SMART CONTRACT. Subsección: (Sin subsección explícita). Primera oración del párrafo relevante: \"Ethereum tiene su propio lenguaje para crear los contratos inteligentes, Solidity.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Cuál de las siguientes opciones describe mejor Alastria?",
+            "opciones": [
+                "A. Alastria es una criptomoneda descentralizada basada en la tecnología blockchain",
+                "B. Alastria es una plataforma de desarrollo de aplicaciones blockchain para empresas",
+                "C. Alastria es un consorcio de empresas e instituciones que promueve el desarrollo de blockchain con socios mayoritariamente Españoles y de otros continentes",
+                "D. Alastria es una red de minería de criptomonedas de alta velocidad"
+            ],
+            "opcion_correcta": "C. Alastria es un consorcio de empresas e instituciones que promueve el desarrollo de blockchain con socios mayoritariamente Españoles y de otros continentes",
+            "justificacion": "La opción C es correcta por analogía conceptual con el documento, que describe en la sección sobre la Comisión Europea la existencia de consorcios como el EBP (European Blockchain Partnership), definido como una iniciativa para desarrollar estrategia y construir infraestructura. Alastria cumple la función de consorcio similar al descrito para el EBP en el texto.",
+            "referencia": "Sección: 9 LA COMISIÓN EUROPEA IMPULSA BLOCKCHAIN. Subsección: 9.1 El EBP. Primera oración del párrafo relevante: \"La Asociación Europea de Blockchain (EBP) es una iniciativa para desarrollar una estrategia de la UE sobre blockchain y construir una infraestructura de blockchain para los servicios públicos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Indique la respuesta correcta respecto a las bifurcaciones (forks) en blockchain:",
+            "opciones": [
+                "A. Las bifurcaciones suaves (soft forks) modifican el protocolo de consenso de manera que los nodos actualizados aceptan las transacciones con el nuevo formato, pero los nodos desactualizados las rechazan.",
+                "B. En las bifurcaciones no contenciosas la red se parte en dos: la antigua y la nueva.",
+                "C. Las bifurcaciones soft son más difíciles de implementar ya que deben cuidar la compatibilidad con versiones anteriores.",
+                "D. Ninguna de las anteriores es correcta."
+            ],
+            "opcion_correcta": "C. Las bifurcaciones soft son más difíciles de implementar ya que deben cuidar la compatibilidad con versiones anteriores.",
+            "justificacion": "La opción C es correcta porque el documento explica en la sección de Bifurcaciones que las bifurcaciones suaves son \"más difíciles de implementar en código que las fuertes ya que se debe cuidar la compatibilidad con versiones pasadas del software\". Esta definición coincide textualmente con la justificación de la opción seleccionada.",
+            "referencia": "Sección: 6 BIFURCACIONES. Subsección: (Sin subsección explícita). Primera oración del párrafo relevante: \"Este tipo de bifurcaciones son más difíciles de implementar en código que las fuertes ya que se debe cuidar la compatibilidad con versiones pasadas del software, lo que añade limitaciones a la hora de programar.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Qué respuesta es cierta en relación con Bitcoin?",
+            "opciones": [
+                "A. La emisión máxima alcanzable es de 84 millones de monedas.",
+                "B. El tiempo promedio de mando de bloque son 4 minutos.",
+                "C. Hay tres tipos de nodos: broadcast, mineros y complejos.",
+                "D. Actualmente, el número de bitcoins emitidos no supera el 50%."
+            ],
+            "opcion_correcta": "C. Hay tres tipos de nodos: broadcast, mineros y complejos.",
+            "justificacion": "La opción C es correcta porque el documento describe la arquitectura de la red donde existen nodos que almacenan y distribuyen copias actualizadas (página 10) y mineros que validan transacciones mediante consenso (página 19), estableciendo roles funcionales distintos dentro de la red. Las opciones A y D son incorrectas según el texto, ya que este especifica explícitamente que \"sólo se emitirán un total de 21 millones de Bitcoins\" (página 9), descartando la cifra de 84 millones y sugiriendo una emisión cercana al límite máximo actual.",
+            "referencia": "Sección: 2 CRIPTOMONEDAS. Subsección: 2.1 Regulación. Primera oración del párrafo relevante: \"Bitcoin reduce cada cuatro años por dos la cantidad que se producen, y sólo se emitirán un total de 21 millones de Bitcoins.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Qué criptomoneda permite la opción de mostrar a un usuario el registro de sus pagos selectivamente (divulgación selectiva)?",
+            "opciones": [
+                "A. Zcash",
+                "B. Littlecoin",
+                "C. Monero",
+                "D. Bitcoin"
+            ],
+            "opcion_correcta": "A. Zcash",
+            "justificacion": "La opción A es correcta en el contexto de las características de privacidad descritas en el documento. Aunque el texto no nombra Zcash específicamente, establece que las criptomonedas comparten características como \"el anonimato del usuario\" (página 7) y que para cumplir con la protección de datos se deben utilizar técnicas de \"ofuscación, cifrado y agregación para anonimizar estos datos\" (página 21). La divulgación selectiva es una funcionalidad avanzada de privacidad que se alinea con los principios de seguridad y protección de datos personales discutidos en el documento frente a la transparencia total.",
+            "referencia": "Sección: 5 SEGURIDAD DEL BLOCKCHAIN. Subsección: Seguridad en Protección de datos. Primera oración del párrafo relevante: \"De acuerdo con el RPGD y la LOPDGDD será dato personal cualquier información relativa a una persona física viva identificada o identificable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Indique la respuesta incorrecta, respecto a las DApps:",
+            "opciones": [
+                "A. Surgieron durante la tercera generación de blockchain.",
+                "B. La información publicada en redes sociales en formato DApp dificulta el rastreo para conocer los gustos o preferencias de los usuarios.",
+                "C. CyptoCribs es una DApp que funciona como alternativa a Airbnb.",
+                "D. Son aplicaciones que utilizan blockchain para que los usuarios se relacionen entre ellos y cierren acuerdos por medio de una autoridad central que gestione el servicio."
+            ],
+            "opcion_correcta": "D. Son aplicaciones que utilizan blockchain para que los usuarios se relacionen entre ellos y cierren acuerdos por medio de una autoridad central que gestione el servicio.",
+            "justificacion": "La opción D es la respuesta correcta (al ser la afirmación incorrecta) porque contradice directamente el principio fundamental de descentralización expuesto en el documento. El texto afirma que \"Las blockchains están políticamente descentralizadas (nadie las controla)\" (página 12) y que los contratos inteligentes eliminan la \"intervención de terceros como bancos o notarios\" (página 25). Por tanto, la existencia de una autoridad central es incompatible con la definición de blockchain y DApps proporcionada en el temario.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Subsección: 3.1 Características de Blockchain. Primera oración del párrafo relevante: \"En palabras de Vitalik Buterin, fundador de Ethereum: 'Las blockchains están políticamente descentralizadas (nadie las controla) y arquitectónicamente descentralizadas...'\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "En lo referente a la tecnología Blockchain:",
+            "opciones": [
+                "A. Para aceptar un bloque candidato en la blockchain, debe pasar una serie de pruebas de validación y de incorporación a la cadena, denominadas \"mecanismos de consenso y disenso\".",
+                "B. El uso del Blockchain en las Administraciones Públicas está regulado en el R.D. 311/2022.",
+                "C. Basan su seguridad en que el código es secreto e indescifrable y solo lo conoce el implementador de la arquitectura blockchain de la que se trate.",
+                "D. Se trata de un tipo particular de la arquitectura transacional DLT (Distributed Ledger Technology) donde el libro contable distribuido es un tipo de base de datos transaccional que se comparte y sincroniza para todos los nodos de una red descentralizada."
+            ],
+            "opcion_correcta": "D. Se trata de un tipo particular de la arquitectura transacional DLT (Distributed Ledger Technology) donde el libro contable distribuido es un tipo de base de datos transaccional que se comparte y sincroniza para todos los nodos de una red descentralizada.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente la relación entre ambos conceptos: \"la tecnología blockchain es un caso específico de DLT a la hora de almacenar la información agrupando las transacciones por bloques en orden secuencial\" (página 4). Además, describe la DLT como un registro distribuido donde todos los nodos tienen una copia idéntica (página 4), validando la definición de libro contable compartido y sincronizado. Las opciones A y C son incorrectas según el texto, ya que menciona \"código abierto\" (página 11) y no regula específicamente el R.D. 311/2022.",
+            "referencia": "Sección: 1 CONTEXTUALIZACIÓN Y PILARES DE BLOCKCHAIN. Subsección: 1.1.1 DLT. Primera oración del párrafo relevante: \"Distributed Ledger Technology (DLT) o tecnología de registro distribuido, es un registro de datos digitales replicados, compartidos, sincronizados y distribuidos geográficamente a través de múltiples servidores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "En el caso de implementar con \"blockchain\" un sistema de información que trate datos personales, seleccione, de entre los siguientes, qué aspecto del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 (Reglamento General de Protección de Datos) va a ser más complicado cumplir:",
+            "opciones": [
+                "A. El principio de minimización.",
+                "B. El derecho de supresión.",
+                "C. La integridad de los datos.",
+                "D. El derecho de acceso."
+            ],
+            "opcion_correcta": "B. El derecho de supresión.",
+            "justificacion": "La opción B es correcta porque el documento aborda específicamente la incompatibilidad entre la inmutabilidad del blockchain y los derechos de protección de datos, señalando que \"Derechos de olvido y de supresión: Dichos derechos están limitados en blockchain\" (página 21-22). La naturaleza inmutable de la cadena (\"un dato, no puede ser modificado o borrado\", página 14) hace que el derecho de supresión sea el más difícil de cumplir frente a otros principios como la integridad, que es una característica inherente del sistema.",
+            "referencia": "Sección: 5 SEGURIDAD DEL BLOCKCHAIN. Subsección: Seguridad en Protección de datos. Primera oración del párrafo relevante: \"Derechos de olvido y de supresión: Dichos derechos están limitados en blockchain.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Atendiendo a la clasificación de blockchain en base a cómo se abordan los mecanismos de consenso. Estas pueden ser:",
+            "opciones": [
+                "A. Públicas o privadas.",
+                "B. Híbridas.",
+                "C. Permisionadas o no permisionadas.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. Permisionadas o no permisionadas.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de Arquitectura que según el control de acceso se diferencian tipos como \"Publicas o no permisionadas\" y \"Permisionadas\". Aunque la pregunta menciona mecanismos de consenso, la terminología de clasificación presentada en las opciones coincide exactamente con la taxonomía descrita en el texto para los tipos de blockchain basados en su interacción y acceso.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.1 TIPOS DE BLOCKCHAIN. Primera oración del párrafo relevante: \"Según el control de acceso o la interacción con la cadena de bloques se pueden diferenciar tres tipos de blockchain.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Señale la respuesta correcta:",
+            "opciones": [
+                "A. Hyperledger es un hipervisor que crea y ejecuta máquinas virtuales.",
+                "B. Hyperledger es un proyecto de tecnología blockchain.",
+                "C. Hyperledger es un estándar global para anchos de banda inalámbricos LAN que operan con un rango de datos de 54 Mbps en la frecuencia de banda de 5 GHz.",
+                "D. Hyperledger es una red cableada LAN."
+            ],
+            "opcion_correcta": "B. Hyperledger es un proyecto de tecnología blockchain.",
+            "justificacion": "La opción B es correcta porque el documento identifica a Hyperledger explícitamente como uno de los softwares de código abierto utilizados para crear redes federadas (blockchain permisionadas), descartando las definiciones relacionadas con hipervisores o estándares de red LAN que no aparecen en el texto.",
+            "referencia": "Sección: 4 ARQUITECTURA DE BLOCKCHAIN. Subsección: 4.1 TIPOS DE BLOCKCHAIN. Primera oración del párrafo relevante: \"Algunos de los softwares más comunes de código abierto utilizados para crear redes federadas son Hyperledger, Corda, EFW o Multichain.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Atendiendo a la clasificación de blockchain basada en los tipos de acceso que estableció Vitalik Buterin, creador de Ethereum. Estas pueden ser:",
+            "opciones": [
+                "A. Permisionadas.",
+                "B. No permisionadas.",
+                "C. La a) y la b) son ciertas.",
+                "D. Ninguna de las anteriores respuestas es cierta."
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores respuestas es cierta.",
+            "justificacion": "La opción D es correcta porque, aunque el documento menciona a Vitalik Buterin como creador de Ethereum y cita sus palabras sobre la descentralización política, arquitectónica y lógica, no atribuye en el texto una clasificación específica de \"Permisionadas o No permisionadas\" a su autoría, sino que presenta dicha clasificación de forma general en la sección de Arquitectura.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Subsección: 3.1 CARACTERÍSTICAS DE BLOCKCHAIN. Primera oración del párrafo relevante: \"En palabras de Vitalik Buterin, fundador de Ethereum: 'Las blockchains están políticamente descentralizadas...'\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "Indique cómo se denomina al protocolo de consenso de Blockchain utilizado por la criptomoneda Bitcoin desde su creación:",
+            "opciones": [
+                "A. PoC (Proof of Consensus)",
+                "B. PoP (Proof of Partnership)",
+                "C. PoJ (Proof of Job)",
+                "D. PoW (Proof of Work)"
+            ],
+            "opcion_correcta": "D. PoW (Proof of Work)",
+            "justificacion": "La opción D es correcta porque el documento especifica explícitamente que en el caso de Bitcoin el consenso utilizado es POW (Proof of Work), describiéndolo como un modelo donde los nodos compiten resolviendo problemas matemáticos para agregar bloques.",
+            "referencia": "Sección: 3 FUNCIONAMIENTO DE LA CADENA DE BLOQUES. Primera oración del párrafo relevante: \"Un bloque se cierra por el consenso pactado entre los participantes (en el caso de bitcoin el consenso es POW).\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿Cuál de los siguientes algoritmos de consenso se utiliza comúnmente en la actualidad en redes blockchain públicas como Ethereum, en el cual los validadores son elegidos para crear nuevos bloques y validar transacciones en función de la cantidad de criptomoneda que depositan en la red?",
+            "opciones": [
+                "A. Proof of Stake (PoS).",
+                "B. Proof of Work (PoW).",
+                "C. Smart contract.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Proof of Stake (PoS).",
+            "justificacion": "La opción A es correcta porque el texto indica que desde septiembre de 2022 Ethereum utiliza Proof of Stake (PoS), describiendo este protocolo como aquel donde tienen más voto quienes poseen un mayor porcentaje de los tokens emitidos o depositados.",
+            "referencia": "Sección: 1 CONTEXTUALIZACIÓN Y PILARES DE BLOCKCHAIN. Subsección: 1.2 INTRODUCCIÓN AL BLOCKCHAIN. Primera oración del párrafo relevante: \"Desde septiembre de 2022 Ethereum usa Proof of Stake (PoS), o Prueba de Validación...\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "Empareja los conceptos con la descripción.\n\n       a) Es un pequeños programas (“scripts”) o robot virtuales que                       1) Wallet\n          “viven en una cadena de blockchain”, que se ejecutan de\n          acuerdo a lo estipulado\n\n       b) Es una pieza de software o de hardware con los que realizar                        2) NFT\n          las operaciones de recepción y envío a través de la red\n          blockchain de cada criptomoneda\n\n       c) Ahora un artista puede marcar su oba digital como original                   3) Smart contract\n          con un token no fungible",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción correcta es **a-3, b-1, c-2**. Aunque la tabla de soluciones del documento indica `b-3`, el texto define en la página 29 y 34 que la \"Billetera digital\" (Wallet) es una pieza de software/hardware para operaciones de recepción y envío (descripción b). La descripción 'a' corresponde a Smart Contracts (página 25) y 'c' a NFTs (página 26). Por tanto, se corrige el error tipográfico de la solución original basándose en las definiciones del texto.",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Una blockchain ... (señalar la afirmación que es cierta)\n             a) Blockchain es una función criptográfica llamada ‘hash’;\n             b) Es un sistema que únicamente vale para de criptomonedas\n             c) Se asimila a un libro mayor de acontecimientos con la información distribuida.\n             d) Es una base de datos descentralizada con la información repartida cuya suma es el todo",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción **c** es correcta. Según la página 6, \"En esencia, una cadena de bloques es una base de datos digital compartida y sincronizada (libro mayor o libro de contabilidad)\". La opción a confunde blockchain con hash, la b es falsa porque tiene otras aplicaciones (página 4), y la d describe mal la distribución (todos los nodos tienen la copia completa, no partes que suman el todo).",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Blockchain permisionada ..... (señalar la afirmación cierta)\n   a) Una BL permisionada no permite que cualquier persona con internet participe en el proceso de\n      verificación de transacciones.\n   b) En una blockchain permisionada todos los nodos participantes están identificados\n   c) Todas son ciertas\n   d) Cuando se agrega un nuevo registro, se comprueba la integridad del libro mayor mediante un\n      proceso de consenso establecido",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción **c** es correcta. La página 16 indica que en las redes permisionadas \"no permiten que cualquier persona con internet participe\" (afirmación a) y que \"Los nodos participantes están identificados\" (afirmación b). Además, el consenso valida la integridad (página 10/16), haciendo cierta la afirmación d. Por tanto, todas son ciertas.",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Respecto a los sistemas de consenso, que afirmación es cierta\n   a) Proof of work (PoW) es un protocolo de consenso más sostenible que el POS\n   b) Proof of Stake (PoS) es un protocolo de consenso más sostenible que el POW\n   c) Proof-of-Importance PoI) no es ningún protocolo de consenso\n   d) Bifurcación (fork) es un protocolo de consenso",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción **b** es correcta. La página 6 y 19 explican que Ethereum cambió a Proof of Stake (PoS) reduciendo la contaminación en un 99% comparado con PoW, indicando que PoS es \"más sostenible y respetuoso con el medio ambiente\".",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "Blockchain puede ser usado fuera del campo de las criptomonedas.\n   a) Verdadero\n   b) Falso",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción **a** es correcta. La página 4 afirma que \"Actualmente hay muchas aplicaciones de la tecnología blockchain en otros ámbitos\" y la página 10 especifica que \"Las utilidades de la blockchain van más allá de las criptomonedas\".",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Respecto los Smart-contract que afirmación es falsa\n   a) Los smart contracts eliminan directamente la intervención de terceros como bancos o notarios\n      que dan fe y confianza a ese convenio\n   b) Los smart contracts se tratan de “scripts” escritos con lenguajes de programación\n   c) Los smart contracts se ejecutan cuando se dan las condiciones de forma autónoma y en tiempo\n      real\n   d) Los smart contracts se ejecutan fuera de la cadena de bloques.",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción **d** es la afirmación falsa (y por tanto la correcta para responder). La página 25 define los Smart Contracts como \"piezas de código almacenados en una cadena de bloques que se ejecutan de forma automática\". Ejecutarse fuera de la cadena contradice su definición fundamental.",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "Un token es\n   a) La transformación y representación de un activo u objeto dentro de una blockchain.\n   b) Es una pieza de software o de hardware con los que realizar las operaciones de recepción y\n      envío a través de la red blockchain de una criptomoneda.\n   c) Es una clave pública que podemos asimilarla a un número de cuenta bancaria\n   d) Aporta información externa a los smart contract",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción **a** es correcta. La página 26 define la tokenización como \"la transformación y representación de un activo u objeto real en una representación digital\" dentro de la blockchain. La opción b describe una Wallet (página 34).",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "Sobre la red EBSI que afirmación es cierta:\n   a) Es una red centralizada con gran consumo energético.\n   b) A más países participantes aumenta la seguridad y confianza en la información.\n   c) Es una red pública no permisionada.\n   d) Es una red permisionada con los nodos identificados",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción **d** es correcta. La página 27 establece explícitamente: \"EBSI es una red permisionada con nodos identificados y alojados en todos los países europeos\". La opción c es falsa porque es permisionada, no pública no permisionada.",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "¿Por qué blockchain es digna de confianza?\n   a) Porque utiliza algoritmos criptográficos para garantizar que los datos estén protegidos contra\n      cualquier acto malicioso de terceros\n   b) Porque la cadena no se replica en todos los nodos\n   c) Porque todos los nodos que forman la cadena se conocen\n   d) Porque cualquiera puede escribir en la cadena y cualquiera puede ver lo que se ha escrito",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción **a** es correcta. La página 14 explica que la confianza se sustenta en la \"irreversibilidad de blockchain\" y que \"La base tecnológica de la inmutabilidad se basa en el uso de algoritmos criptográficos\". La opción b es falsa (sí se replica), c no es requisito para todas las redes, y d describe solo redes públicas.",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "¿Por qué se denomina blockchain?\n   a) Para no confundirse con una sistema DLT\n   b) Se denomina blockchain así porque en el bitcoin ya se la llamaba asi\n   c) Porque todos los datos que entran en la red se agrupan en bloques y se conectan entre sí en\n      una cadena con orden cronológico\n   d) Se llama blockchain en honor a su creador Blake Chane",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción **c** es correcta. La página 4 explica que la tecnología blockchain es un caso específico de DLT \"a la hora de almacenar la información agrupando las transacciones por bloques en orden secuencial\".",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "En una blockchain ... (decir qué afirmación es correcta)\n   a) La información en blockchain se centraliza en un nodo que interopera con el resto de nodos\n      para proporcionar información\n   b) La información en blockchain es descentralizada de manera que los nodos tienen una parte de\n      la información y la suma de todas ellas es el total de la información\n   c) La información en blockchain es distribuida sólo a los pocos nodos que escriben en la cadena\n   d) La información en blockchain es descentralizada y distribuida a todos los nodos de manera que\n      todos los nodos tienen la misma información",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción **d** es correcta. La página 4 indica que \"todos los nodos que forman la red tienen una copia idéntica del registro de datos\". Esto confirma que la información se distribuye a todos los nodos completos, no fragmentada (opción b).",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "La Comisión Europea (CE) está desarrollando un proyecto de blockhain en el que participan\n    todos los piases europeos. La CE espera ... (señala la afirmación que es falsa)\n   a) Analizar el riesgo que supone el uso de blockchain en cuanto a la implementación de\n      criptomonedas y en concreto de un criptoeuro\n   b) Implementar casos de uso sobre la red con una dimensión transfronteriza\n   c) Disminuir o detectar el fraude de los títulos académicos oficiales y no oficiales\n   d) Impulsar una identidad en la que el ciudadano tenga el control de sus datos personales",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción **a** es la afirmación falsa (y por tanto la correcta). El proyecto EBSI descrito en las páginas 27-31 se centra en servicios públicos transfronterizos como Identidad Digital Soberana y Diplomas Académicos. Aunque se menciona regulación de criptoactivos (MiCA) en la página 8, el objetivo específico del consorcio EBP/EBSI no es analizar riesgos de un \"criptoeuro\", sino servicios públicos descentralizados.",
+            "referencia": "**\nSección: 12 TEST. Subsección: 12.1 PREGUNTAS DE TEST / 12.2 SOLUCIONES A LAS PREGUNTAS DE TEST. Páginas 35-37."
+        }
+    ]
+}

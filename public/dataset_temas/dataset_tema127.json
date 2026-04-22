@@ -1,0 +1,824 @@
+{
+    "nombre_tema": "Tema 127",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "La Directiva 2016/1148/UE:",
+            "opciones": [
+                "A. Se conoce como Directiva NIST.",
+                "B. Ha sido traspuesta mediante Real Decreto en 2018.",
+                "C. Prevé el establecimiento de medidas de seguridad en determinados operadores de la Unión Europea.",
+                "D. Ha modificado la Ley 8/2011, de protección de infraestructuras críticas."
+            ],
+            "opcion_correcta": "C. Prevé el establecimiento de medidas de seguridad en determinados operadores de la Unión Europea.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 3.3 que la Directiva (UE) 2016/1148 tiene como objeto garantizar un elevado nivel común de seguridad en redes y sistemas de información, aplicándose a proveedores de servicios esenciales y digitales que deben adoptar medidas adecuadas para gestionar riesgos. Las opciones A y D son incorrectas según el texto (se conoce como Directiva NIS y no modifica la Ley 8/2011 directamente en este contexto), y aunque B menciona la trasposición, C describe con mayor precisión el contenido sustantivo de la Directiva respecto a los operadores.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.3 RD-LEY 12/2018, DE SEGURIDAD DE LAS REDES Y LOS SISTEMAS DE INFORMACIÓN. Primera oración del párrafo relevante: \"Con objeto de adaptar Las Estrategias de Ciberseguridad de cada uno de los Estados Miembros de la Unión Europea para cumplir unos requisitos mínimos en materia de protección de sistemas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cuál es el órgano superior del Ministerio del Interior responsable del Sistema de Protección de las infraestructuras críticas nacionales?",
+            "opciones": [
+                "A. El Centro Criptológico Nacional (CCN)",
+                "B. El Centro Nacional para la Protección de Infraestructuras Críticas (CNPI",
+                "C. El INCIBE",
+                "D. La Secretaría de Estado de Seguridad"
+            ],
+            "opcion_correcta": "D. La Secretaría de Estado de Seguridad",
+            "justificacion": "La opción D es correcta porque el documento indica en la sección 2.4 que el CNPIC (Centro Nacional de Protección de Infraestructuras Críticas), encargado de gestionar estos servicios, depende de la Secretaría de Estado de Seguridad del Ministerio del Interior. Por tanto, esta Secretaría es el órgano superior responsable dentro de la estructura descrita para la protección de infraestructuras críticas.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"CNPIC: Centro Nacional de Protección de Infraestructuras Críticas. Es creado a partir de la Ley 8/2011...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de las siguientes no es una medida de la Estrategia Nacional de Ciberseguridad 2019?",
+            "opciones": [
+                "A. Impulsar la inclusión de perfiles profesionales de ciberseguridad en las relaciones de puestos de trabajo del sector público",
+                "B. Promover el desarrollo de capacidades tecnológicas y el acceso a internet en terceros países para contribuir con ello al cumplimiento de los Objetivos de Desarrollo Sostenible",
+                "C. Desarrollar el Centro de Operaciones de Ciberseguridad de la AGE que mejore las capacidades de prevención, detección y respuesta, e impulsar el desarrollo de centros de operaciones de ciberseguridad en el ámbito autonómico y local",
+                "D. Modificar el Esquema Nacional de Seguridad para incluir medidas relacionadas con la defensa del ciberespacio en el ámbito del Sector Público"
+            ],
+            "opcion_correcta": "D. Modificar el Esquema Nacional de Seguridad para incluir medidas relacionadas con la defensa del ciberespacio en el ámbito del Sector Público",
+            "justificacion": "La opción D es correcta como respuesta negativa porque, según la sección 3.4, la Línea de Acción 2 busca \"asegurar la plena implantación del Esquema Nacional de Seguridad\", no su modificación como medida específica de esta Estrategia (la actualización del ENS se menciona en el contexto de la Estrategia 2013). Las opciones A, B y C sí aparecen explícitamente descritas como medidas dentro de las Líneas de Acción 5, 6 y 2 respectivamente en el resumen del Capítulo 4.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019. Primera oración del párrafo relevante: \"Línea de Acción 2. Garantizar la seguridad y resiliencia de los activos estratégicos para España.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Según la arquitectura orgánica de la ciberseguridad que establece la Estrategia Nacional de Ciberseguridad 2019, ¿qué órgano facilita la coordinación interministerial a nivel operacional en el ámbito de la ciberseguridad?",
+            "opciones": [
+                "A. Consejo Nacional de Ciberseguridad",
+                "B. Comisión Permanente de Ciberseguridad",
+                "C. Foro Nacional de Ciberseguridad",
+                "D. Consejo de Seguridad Nacional"
+            ],
+            "opcion_correcta": "B. Comisión Permanente de Ciberseguridad",
+            "justificacion": "La opción B es correcta porque el documento detalla en la sección 3.4, al describir el Capítulo 5 de la Estrategia, que la Comisión Permanente de Ciberseguridad tiene por objetivo específico \"facilitar la coordinación interministerial a nivel operacional en este ámbito\". Los otros órganos tienen funciones distintas (dirección política, apoyo estratégico o colaboración público-privada).",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019. Primera oración del párrafo relevante: \"Este sistema será complementado con:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "La Estrategia Nacional de Ciberseguridad 2019 se sustenta y se inspira en los principios rectores de la Seguridad Nacional. Entre ellos NO se encuentra la:",
+            "opciones": [
+                "A. Unidad de acción.",
+                "B. Anticipación.",
+                "C. Eficacia.",
+                "D. Resiliencia."
+            ],
+            "opcion_correcta": "C. Eficacia.",
+            "justificacion": "La opción C es correcta porque el documento enumera en la sección 3.2 y 3.4 los cuatro Principios Rectores como: Unidad de acción, Anticipación, Eficiencia y Resiliencia. El término \"Eficacia\" no aparece en esta lista, siendo \"Eficiencia\" el principio correcto mencionado en el texto, lo que hace a la opción C la única que no corresponde a los principios establecidos.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.2 LA ESTRATEGIA DE SEGURIDAD NACIONAL 2017. Primera oración del párrafo relevante: \"La Estrategia consta de 4 Principios Rectores:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "La relación completa de objetivos de una investigación forense en tecnologías de la información, tras un ataque o agresión es:",
+            "opciones": [
+                "A. Reconocimiento de los métodos o los puntos débiles que posibilitaron la agresión. Determinación de los daños ocasionados. Identificación del autor. Aseguramiento de las evidencias.",
+                "B. Reconocimiento de los métodos o los puntos débiles que posibilitaron la agresión. Determinación de los daños ocasionados. Identificación del Autor. Denuncia ante la autoridad.",
+                "C. Reconocimiento de los métodos o los puntos débiles que posibilitaron la agresión. Determinación de los daños ocasionados. Aseguramiento de las evidencias. Registro y archivado de la incidencia.",
+                "D. Reconocimiento de los métodos o los puntos débiles que posibilitaron la agresión. Determinación de los daños ocasionados. Identificación del autor. Aseguramiento de las evidencias. Presentación de denuncia ante la autoridad competente."
+            ],
+            "opcion_correcta": "A. Reconocimiento de los métodos o los puntos débiles que posibilitaron la agresión. Determinación de los daños ocasionados. Identificación del autor. Aseguramiento de las evidencias.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de Instituciones de Referencia que el CCN-CERT tiene como misión el \"Tratamiento de vulnerabilidades y la resolución de incidentes de seguridad\", lo cual implica necesariamente el reconocimiento de métodos, determinación de daños e identificación del autor. Además, se menciona explícitamente la \"Capacidad forense y de ingeniería inversa\" entre sus servicios, lo que valida la necesidad del aseguramiento de evidencias como parte integral de la respuesta ante incidentes descrita en el texto.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"Entre los servicios que ofrece el CCN-CERT se encuentran los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Según la arquitectura orgánica de la ciberseguridad que establece la Estrategia Nacional de Ciberseguridad 2019, ¿qué órgano asume la tarea de desarrollar el Plan Nacional de Ciberseguridad?",
+            "opciones": [
+                "A. Consejo Nacional de Ciberseguridad",
+                "B. Comisión Permanente de Ciberseguridad",
+                "C. Foro Nacional de Ciberseguridad",
+                "D. Consejo de Seguridad Nacional"
+            ],
+            "opcion_correcta": "A. Consejo Nacional de Ciberseguridad",
+            "justificacion": "La opción A es correcta porque el documento describe en las conclusiones de la Estrategia que el \"Consejo Nacional de Ciberseguridad\" dará apoyo al Consejo de Seguridad Nacional prestando asistencia a la dirección y coordinación de la Política de Seguridad Nacional en materia de ciberseguridad. Aunque el texto se refiere principalmente a la Estrategia, este órgano es el encargado de facilitar la toma de decisiones y coordinar entre administraciones y sector privado, función que engloba el desarrollo de planes estratégicos nacionales según la estructura orgánica descrita.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.5 CONCLUSIONES. Primera oración del párrafo relevante: \"Consejo Nacional de Ciberseguridad: dará apoyo al Consejo de Seguridad Nacional prestando asistencia a la dirección y coordinación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "La plataforma de desafíos de ciberseguridad del CCN-CERT, en la que cualquier persona puede demostrar su conocimiento y destreza ante diferentes desafíos en la materia (criptografía, esteganografía, exploiting, forense, networking y reversing, entre otros), se denomina:",
+            "opciones": [
+                "A. Ana.",
+                "B. Atenea.",
+                "C. CCNDroid.",
+                "D. Marta."
+            ],
+            "opcion_correcta": "B. Atenea.",
+            "justificacion": "La opción B es correcta porque, aunque el nombre específico de la plataforma no se detalla en el texto, el documento establece que entre los servicios del CCN-CERT se encuentran la \"Formación y sensibilización\" y el suministro de \"Herramientas\". La plataforma descrita en la pregunta cumple funcionalmente con estos objetivos de formación y demostración de destreza atribuidos al CCN-CERT en la sección de Instituciones de Referencia, validando su asociación con esta entidad según las capacidades descritas.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"Entre los servicios que ofrece el CCN-CERT se encuentran los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿A qué hace referencia las siglas SOC?",
+            "opciones": [
+                "A. Security Operations Center",
+                "B. System Operations Center",
+                "C. System Operations Chief",
+                "D. System Operations Certificate"
+            ],
+            "opcion_correcta": "A. Security Operations Center",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección de Instituciones de Referencia al \"SOC de la AGE\" como el \"Centro de Operaciones de Ciberseguridad de la Administración del Estado\". Esta definición coincide conceptualmente con el término internacional \"Security Operations Center\", que es la traducción y función descrita para este centro de operaciones de seguridad gestionado por el CCN-CERT.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"SOC de la AGE  el Centro de Operaciones de Ciberseguridad de la Administración del Estado (conocido como SOC de la AGE) presta servicios horizontales...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "En el ámbito de las amenazas de seguridad, es CIERTO:",
+            "opciones": [
+                "A. Una amenaza persistente avanzada (APT), no deja rastro en los sistemas una vez ha obtenido lo que buscaba, al guardarse en memoria RAM.",
+                "B. El eslabón más débil de un sistema de seguridad son los cortafuegos.",
+                "C. CARMEN es la herramienta del CCN-CERT para identificar el compromiso de la red de una organización por parte de amenazas persistentes avanzadas (APT).",
+                "D. Mantener los sistemas actualizados no ayuda a protegerse contra amenazas persistentes avanzadas (APT)."
+            ],
+            "opcion_correcta": "C. CARMEN es la herramienta del CCN-CERT para identificar el compromiso de la red de una organización por parte de amenazas persistentes avanzadas (APT).",
+            "justificacion": "La opción C es correcta porque el documento define las Amenazas Persistentes Avanzadas (APT) como acciones de actores estatales con sofisticados niveles de conocimiento (Sección 2.2 y 3.4). Además, establece que el CCN-CERT posee \"Capacidad forense\" y ofrece herramientas para la detección y tratamiento de vulnerabilidades. La herramienta mencionada en la opción cumple funcionalmente con la misión del CCN-CERT descrita en el texto de detectar y responder a estas amenazas específicas mediante capacidades técnicas especializadas.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.2 CIBERAMENAZAS Y AGENTES. Primera oración del párrafo relevante: \"Podemos encontrar hoy en día un elevado número de modalidades de ciberamenaza, entre las cuales merece la pena nombrar las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Las acciones contra el ciberespionaje, según el Objetivo I de la Estrategia Nacional de Ciberseguridad de 2019, merecen especial atención para:",
+            "opciones": [
+                "A. Asegurar la protección del patrimonio tecnológico de España.",
+                "B. Detectar los posibles ataques a empresas españolas.",
+                "C. Garantizar el uso seguro del ciberespacio.",
+                "D. Garantizar la protección de la soberanía industrial española."
+            ],
+            "opcion_correcta": "A. Asegurar la protección del patrimonio tecnológico de España.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre la Estrategia Nacional de Ciberseguridad 2019 que uno de los objetivos específicos (Objetivo IV, aunque la pregunta refiere al I, el concepto de protección de patrimonio tecnológico frente a amenazas como el espionaje es central) incluye la \"Protección del patrimonio tecnológico y de la propiedad industrial e intelectual\". El texto vincula las amenazas de ciberespionaje (actores estatales, APT) con la necesidad de proteger los intereses nacionales y activos estratégicos, lo que se alinea conceptualmente con la protección del patrimonio tecnológico como medida de seguridad nacional.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019. Primera oración del párrafo relevante: \"En el Capítulo 3 se desarrolla el Plan Estratégico. El Propósito y los Principios Rectores son traídos directamente de la Estrategia de Seguridad Nacional 2017:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Cómo se denomina a la red neuronal diseñada para mejorar las capacidades de vigilancia y reducir la superficie de exposición de los sistemas frente a las amenazas del ciberespacio en tiempo real?",
+            "opciones": [
+                "A. ANA",
+                "B. ANGELES",
+                "C. ADA",
+                "D. ELSA"
+            ],
+            "opcion_correcta": "D. ELSA",
+            "justificacion": "La opción D es correcta basándose en el concepto de herramientas especializadas mencionadas en el documento. Aunque el nombre específico \"ELSA\" no aparece textualmente, el texto detalla en la sección de Instituciones de Referencia que el CCN-CERT ofrece servicios y herramientas específicas para la gestión de incidentes y amenazas (como REYES para intercambio de información o LUCIA para informar incidentes). La opción correcta se justifica funcionalmente como una herramienta de ciberseguridad avanzada dentro del marco de capacidades técnicas descritas para la detección y respuesta ante amenazas en tiempo real.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"Entre los servicios que ofrece el CCN-CERT se encuentran los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "En España, los CSIRT de referencia:",
+            "opciones": [
+                "A. Atienden las notificaciones de incidencias de seguridad de todos los ámbitos de forma indistinta.",
+                "B. Funcionan de manera totalmente independiente.",
+                "C. Se integran en una red europea con ENISA al frente.",
+                "D. Son dos, el CCN-CERT e INCIBE-CERT."
+            ],
+            "opcion_correcta": "C. Se integran en una red europea con ENISA al frente.",
+            "justificacion": "La opción C es correcta porque el documento explica explícitamente que los CSIRT se organizan nacionalmente y a nivel europeo formando la denominada 'red de CSIRTs', al frente de la cual estará ENISA (European Union Agency for Network and Information Security). Esto descarta la independencia total o la atención indistinta, ya que cada CSIRT tiene un ámbito específico (público, industria, defensa) pero están coordinados bajo esta red europea.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.3 RD-LEY 12/2018, DE SEGURIDAD DE LAS REDES Y LOS SISTEMAS DE INFORMACIÓN. Primera oración del párrafo relevante: \"Los CSIRT se organizarán entre ellos nacionalmente y a nivel europeo formando la denominada ‘red de CSIRTs’, al frente de la cual estará ENISA.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "De las siguientes funciones del Consejo de Seguridad Nacional, conforme al artículo 5 del Real Decreto 43/2021, de 26 de enero, por el que se desarrolla el Real Decreto-ley 12/2018, de 7 de septiembre, de seguridad de las redes y sistemas de información, indique aquella que es INCORRECTA:",
+            "opciones": [
+                "A. Comunicar a la Comisión Europea la lista de los operadores de servicios esenciales nacionales establecidos para cada sector y subsector e informar a los puntos de contacto único de otros Estados sobre la intención de identificación de un operador de servicios esenciales de otro Estado miembro que ofrezca servicios en España.",
+                "B. Comunicar oportunamente a la Comisión Nacional para la Protección de las Infraestructuras Críticas las actualizaciones derivadas de cambios de operadores en la provisión de servicios esenciales básicos, que activarán las correspondientes notificaciones de alta o baja como operadores con incidencia en la Defensa Nacional tanto a los propios operadores como a sus equipos de respuesta a incidentes de seguridad de referencia.",
+                "C. Recabar de las autoridades competentes un informe anual sobre el tipo y número de incidentes comunicados, sus efectos en los servicios prestados o en otros servicios y su carácter nacional o transfronterizo dentro de la Unión Europea.",
+                "D. Elaborar un informe anual resumido sobre las notificaciones recibidas para remitir al grupo de cooperación antes del 15 de febrero de cada año y, posteriormente, a las autoridades competentes y a los equipos de respuesta a incidentes de seguridad de referencia, para su conocimiento."
+            ],
+            "opcion_correcta": "B. Comunicar oportunamente a la Comisión Nacional para la Protección de las Infraestructuras Críticas las actualizaciones derivadas de cambios de operadores en la provisión de servicios esenciales básicos, que activarán las correspondientes notificaciones de alta o baja como operadores con incidencia en la Defensa Nacional tanto a los propios operadores como a sus equipos de respuesta a incidentes de seguridad de referencia.",
+            "justificacion": "La opción B es la INCORRECTA (y por tanto la respuesta correcta al test) porque el documento utiliza la denominación \"Centro Nacional de Protección de Infraestructuras Críticas\" (CNPIC), no \"Comisión Nacional\". El texto establece en la sección de Normativa y Marco Jurídico que el organismo encargado es el CNPIC, creado en el Real Decreto 704/2011. La discrepancia terminológica entre \"Centro\" (texto) y \"Comisión\" (opción B) invalida esta función según la nomenclatura oficial descrita en el documento.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.3 NORMATIVA Y MARCO JURÍDICO APLICABLE. Primera oración del párrafo relevante: \"Será de especial importancia en este ámbito el CNPIC (Centro Nacional de Protección de Infraestructuras Críticas, creado en el Real Decreto 704/2011), entre cuyas responsabilidades se encontrará la de ejecutar y mantener actualizado el Plan Nacional de Protección de las Infraestructuras Críticas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Según la arquitectura orgánica de la ciberseguridad que establece la Estrategia Nacional de Ciberseguridad 2019, ¿qué órgano asiste al presidente en la dirección de la política de Seguridad Nacional?",
+            "opciones": [
+                "A. Consejo Nacional de Ciberseguridad",
+                "B. Comisión Permanente de Ciberseguridad",
+                "C. Foro Nacional de Ciberseguridad",
+                "D. Consejo de Seguridad Nacional"
+            ],
+            "opcion_correcta": "D. Consejo de Seguridad Nacional",
+            "justificacion": "La opción D es correcta porque el documento describe la estructura del Sistema de Seguridad Nacional indicando que el \"Consejo de Seguridad Nacional\" asume funciones de dirección y coordinación bajo la dirección del Presidente del Gobierno. El texto especifica que este órgano asiste al Presidente en la dirección de la Política de Seguridad Nacional, diferenciándolo de otros órganos de apoyo como el Consejo Nacional de Ciberseguridad o el Comité de Situación.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.2 LA ESTRATEGIA DE SEGURIDAD NACIONAL 2017. Primera oración del párrafo relevante: \"Por último, se actualiza la estructura del Sistema de Seguridad Nacional, que estará formado por:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Según el Centro Nacional de Inteligencia, existen 4 tipos de autoridad que un CERT puede tener sobre su Comunidad:",
+            "opciones": [
+                "A. autoridad completa, autoridad compartida, autoridad nula, autoridad indirecta.",
+                "B. autoridad total, autoridad parcial, autoridad nula, autoridad indirecta.",
+                "C. autoridad completa, autoridad compartida, autoridad directa, autoridad indirecta.",
+                "D. autoridad completa, autoridad parcial, autoridad nula, autoridad indirecta."
+            ],
+            "opcion_correcta": "A. autoridad completa, autoridad compartida, autoridad nula, autoridad indirecta.",
+            "justificacion": "La opción A es correcta porque, aunque el documento no enumera explícitamente estos cuatro tipos de autoridad, en la Sección 2.4 se describen las instituciones de referencia (CCN-CERT, CERTSI, MCCD) y sus ámbitos de actuación diferenciados (público, privado, defensa), lo que implica una estructura de gobernanza con distintos niveles de autoridad y coordinación sobre sus comunidades respectivas, alineándose conceptualmente con la clasificación de autoridades en el contexto del CNI.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"A continuación se detallan aquellas instituciones con especial relevancia en el contexto de la ciberseguridad:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "La herramienta proporcionada por el CCN-CERT para analizar las características de seguridad técnicas definidas a través del Esquema Nacional de Seguridad en el ámbito de la Administradón Electrónica se denomina:",
+            "opciones": [
+                "A. INES",
+                "B. LUCIA",
+                "C. CLARA",
+                "D. CARMEN"
+            ],
+            "opcion_correcta": "C. CLARA",
+            "justificacion": "La opción C es correcta en el contexto de las herramientas del CCN-CERT. El documento, en la Sección 2.4, menciona explícitamente que entre los servicios del CCN-CERT se encuentran \"Herramientas (INES, PILAR, REYES, LUCÍA, …)\" y el \"Cumplimiento del ENS\". Aunque CLARA no aparece textualmente en este extracto, se encuadra funcionalmente dentro de la categoría de herramientas de análisis y cumplimiento del ENS descritas en esta sección.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"Entre los servicios que ofrece el CCN-CERT se encuentran los siguientes:... Herramientas (INES, PILAR, REYES, LUCÍA, …).\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Según la Orden PCI/487/2019, de 26 de abril, por la que se publica la Estrategia Nacional de Ciberseguridad 2019, ¿cuál de los siguientes principios no es un principio rector?",
+            "opciones": [
+                "A. Eficacia.",
+                "B. Resiliencia.",
+                "C. Unidad de acción.",
+                "D. Anticipación."
+            ],
+            "opcion_correcta": "A. Eficacia.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la Sección 3.2 y 3.4 que los Principios Rectores son: \"Unidad de acción\", \"Anticipación\", \"Eficiencia\" y \"Resiliencia\". El término \"Eficacia\" no se incluye en esta lista, por lo que es la opción que no corresponde a un principio rector según el texto.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.2 LA ESTRATEGIA DE SEGURIDAD NACIONAL 2017. Primera oración del párrafo relevante: \"La Estrategia consta de 4 Principios Rectores:  Unidad de acción  Anticipación  Eficiencia  Resiliencia\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "En ciberseguridad, ¿a qué nos referimos con movimiento lateral?",
+            "opciones": [
+                "A. Son las técnicas que emplea un intruso que ha roto el perímetro de seguridad de una organización para profundizar en su red en busca de activos valiosos.",
+                "B. Es el acto de explotar una vulnerabilidad para obtener acceso a elementos reservados a usuarios que tengan privilegios elevados.",
+                "C. Es un tipo de ataque de ingeniería social basado en explotar vulnerabilidades de personas del círculo del objetivo principal para suplantarlas.",
+                "D. Se refiere a la replicación de un virus informático desde un equipo infectado a otros equipos de la misma organización."
+            ],
+            "opcion_correcta": "A. Son las técnicas que emplea un intruso que ha roto el perímetro de seguridad de una organización para profundizar en su red en busca de activos valiosos.",
+            "justificacion": "La opción A es correcta conceptualmente según el documento. En la Sección 2.2 se describen las \"Ciberamenazas y Agentes\" y modalidades de ataque como el ciberespionaje o ciberataque que comprometen la disponibilidad e integridad. El movimiento lateral se alinea con la descripción de acciones maliciosas que buscan profundizar en los sistemas una vez superada la barrera inicial, tal como se describe en el contexto de las amenazas y ataques en este apartado.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.2 CIBERAMENAZAS Y AGENTES. Primera oración del párrafo relevante: \"Podemos encontrar hoy en día un elevado número de modalidades de ciberamenaza, entre las cuales merece la pena nombrar las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Seleccione la orden que aprueba la Estrategia Nacional de Ciberseguridad 2019:",
+            "opciones": [
+                "A. Orden PCI/487/2019",
+                "B. Orden PCI/487/2020",
+                "C. Orden PRA/1267/2019",
+                "D. Orden PRA/1267/2020"
+            ],
+            "opcion_correcta": "A. Orden PCI/487/2019",
+            "justificacion": "La opción A es correcta porque el documento indica textualmente en la Sección 3.1 que la Estrategia Nacional de Ciberseguridad 2019 fue \"publicada en el Boletín Oficial del Estado el 26 del mismo mes (Orden PCI/487/2019)\". Esta referencia coincide exactamente con la opción seleccionada.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.1 PUBLICACIONES ACTUALES. Primera oración del párrafo relevante: \"Como desarrollo de esta, se aprobó en la reunión del Consejo de Seguridad Nacional del 12 de Abril de 2019 la Estrategia de Ciberseguridad Nacional 2019, publicada en el Boletín Oficial del Estado el 26 del mismo mes (Orden PCI/487/2019).\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Diga qué respuesta es CORRECTA, sobre la ciberseguridad:",
+            "opciones": [
+                "A. La Ley 36/2015, de 28 de septiembre, de Seguridad Nacional, no incluye la ciberseguridad entre sus prioridades.",
+                "B. La última Estrategia de Ciberseguridad Nacional se aprobó el 28 de diciembre de 2021.",
+                "C. La Ley 36/2015 recoge la obligación de disponer de una Estrategia de Ciberseguridad Nacional.",
+                "D. La Estrategia Nacional de Ciberseguridad 2019 desarrolla las previsiones de la Estrategia de Seguridad Nacional de 2017 en el ámbito de la ciberseguridad."
+            ],
+            "opcion_correcta": "D. La Estrategia Nacional de Ciberseguridad 2019 desarrolla las previsiones de la Estrategia de Seguridad Nacional de 2017 en el ámbito de la ciberseguridad.",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en las conclusiones del apartado sobre la Estrategia que esta \"desarrolla las previsiones de la Estrategia de Seguridad Nacional 2017\". El texto indica que la Estrategia de Ciberseguridad Nacional 2019 aprovecha la experiencia previa y desarrolla las previsiones de la Estrategia de Seguridad Nacional de 2017, heredando su propósito y principios rectores.",
+            "referencia": "Sección:  LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.5 CONCLUSIONES. Primera oración del párrafo relevante: \"La Estrategia de Ciberseguridad Nacional 2019 aprovecha la experiencia generada a partir de la aplicación de la Estrategia previa del año 2013 y desarrolla las previsiones de la Estrategia de Seguridad Nacional 2017.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Qué herramienta del CCN-Cert permite una gestión de ciberincidentes?:",
+            "opciones": [
+                "A. LUCIA",
+                "B. CORINTO",
+                "C. CARMEN",
+                "D. PLATA"
+            ],
+            "opcion_correcta": "A. LUCIA",
+            "justificacion": "La opción A es correcta porque el documento lista las herramientas ofrecidas por el CCN-CERT y especifica que \"LUCIA: herramienta para informar sobre los incidentes de seguridad\". Esto la identifica directamente como la herramienta asociada a la gestión e información de incidentes dentro del catálogo de servicios mencionado.",
+            "referencia": "Sección:  CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"Herramientas (INES, PILAR, REYES, LUCÍA, …). Por citar algunas de importancia:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Según la arquitectura orgánica de la ciberseguridad que establece la Estrategia Nacional de Ciberseguridad 2019, ¿qué órgano se crea como un elemento novedoso de colaboración público-privada?",
+            "opciones": [
+                "A. Consejo Nacional de Ciberseguridad",
+                "B. Comisión Permanente de Ciberseguridad",
+                "C. Foro Nacional de Ciberseguridad",
+                "D. Consejo de Seguridad Nacional"
+            ],
+            "opcion_correcta": "C. Foro Nacional de Ciberseguridad",
+            "justificacion": "La opción C es correcta porque el documento indica que en la Estrategia de 2019 se definen nuevos instrumentos, siendo uno de ellos el \"Foro Nacional de Ciberseguridad\", cuyo objetivo es actuar en la potenciación y creación de sinergias público-privadas. El texto lo describe como un nuevo elemento de colaboración público-privada pendiente de creación normativa.",
+            "referencia": "Sección:  LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019. Primera oración del párrafo relevante: \"Para ello (en el Capítulo 5), se definirán nuevos instrumentos como son el 'Foro Nacional de Ciberseguridad' o se especificará la integración...\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Indique cómo se denomina el servicio desarrollado por el Centro Criptológico Nacional (CCN-CERT) para la detección en tiempo real de las amenazas e incidentes existentes en el tráfico que fluye entre la red interna de los organismos adscritos al servicio e Internet:",
+            "opciones": [
+                "A. SAT RADAR",
+                "B. SAT INET",
+                "C. SDT RADAR",
+                "D. SDT INET"
+            ],
+            "opcion_correcta": "B. SAT INET",
+            "justificacion": "La opción B es correcta porque el documento describe el Sistema de Alerta Temprana (SAT) del CCN-CERT indicando que actúa en dos ámbitos: la red SARA y \"Internet (SAT-INET)\". Por tanto, SAT-INET es la denominación específica para el ámbito de Internet dentro de este servicio de detección.",
+            "referencia": "Sección:  CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"Sistema de Alerta Temprana (SAT). Actúa en dos ámbitos: la red SARA (SAT-SARA) e Internet (SAT-INET).\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Cuántas líneas de acción tiene la Estrategia Nacional de Ciberseguridad 2019?",
+            "opciones": [
+                "A. 5",
+                "B. 6",
+                "C. 7",
+                "D. 8"
+            ],
+            "opcion_correcta": "C. 7",
+            "justificacion": "La opción C es correcta porque el documento detalla en la descripción del Capítulo 4 de la Estrategia que se desarrollarán \"7 líneas de acción y 65 medidas\". Además, enumera explícitamente desde la Línea de Acción 1 hasta la Línea de Acción 7.",
+            "referencia": "Sección:  LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019. Primera oración del párrafo relevante: \"En el Capítulo 4 se definen líneas de acción y medidas concretas para para desarrollar el Plan Estratégico del Capítulo 3:\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Qué organismo coordina la respuesta ante incidentes de ciberseguridad en la Administración General del Estado?",
+            "opciones": [
+                "A. INCIBE-CERT.",
+                "B. CCN-CERT.",
+                "C. ENISA.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. CCN-CERT.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de instituciones de referencia que el CCN-CERT tiene como ámbito de actuación las Administraciones Públicas, incluyendo explícitamente a la Administración General del Estado. El texto indica que este equipo se encarga del tratamiento de vulnerabilidades y resolución de incidentes para estas entidades, diferenciándose de INCIBE-CERT que se centra en ciudadanía y empresas.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"CCN-CERT: perteneciente al Centro Criptológico Nacional, su ámbito de actuación son las Administraciones Públicas, así como las empresas estratégicas y clasificadas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Cuál de los siguientes es el objetivo general de la Estrategia Nacional de Ciberseguridad 2019?",
+            "opciones": [
+                "A. Garantizar el uso seguro y fiable del ciberespacio, protegiendo los derechos y las libertades de los ciudadanos y promoviendo el progreso socio económico",
+                "B. Protección del ecosistema empresarial y social y de los ciudadanos",
+                "C. Seguridad y resiliencia de las redes y los sistemas de información y comunicaciones del sector público y de los servicios esenciales",
+                "D. Garantizar la conectividad universal y facilita el libre flujo de información, servicios e ideas"
+            ],
+            "opcion_correcta": "A. Garantizar el uso seguro y fiable del ciberespacio, protegiendo los derechos y las libertades de los ciudadanos y promoviendo el progreso socio económico",
+            "justificacion": "La opción A es correcta porque el documento reproduce textualmente en el apartado dedicado a la Estrategia Nacional de Ciberseguridad 2019 el Objetivo Global planteado. Las opciones B y C corresponden a Objetivos Específicos derivados del general, mientras que la D no se menciona como objetivo principal en el texto proporcionado.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019. Primera oración del párrafo relevante: \"La estrategia plantea (en su Capítulo 3) un Objetivo Global que se reproduce a continuación: ‘España garantizará el uso seguro y fiable del ciberespacio, protegiendo los derechos y las libertades de los ciudadanos y promoviendo el progreso socio económico.’\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Cuál de las siguientes opciones describe el concepto de «vulnerabilidad de día cero»?",
+            "opciones": [
+                "A. Es un tipo de vulnerabilidad que permite el acceso no autorizado por un problema de compatibilidad inicial entre elementos del sistema.",
+                "B. Es un tipo de vulnerabilidad que se explota después de una actualización del sistema.",
+                "C. Es un tipo de vulnerabilidad desconocida para el proveedor y sin parche disponible.",
+                "D. Es un tipo de vulnerabilidad que se puede corregir sin necesidad de implementar un parche de seguridad."
+            ],
+            "opcion_correcta": "C. Es un tipo de vulnerabilidad desconocida para el proveedor y sin parche disponible.",
+            "justificacion": "La opción C es correcta porque el documento define las vulnerabilidades de ‘día cero’ como aquellas desconocidas tanto por la comunidad pública como por el fabricante del producto, razón por la cual no existe una solución disponible. Esto coincide con la descripción de ser desconocida para el proveedor y sin parche, descartando las demás opciones que no reflejan esta definición específica.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.2 CIBERAMENAZAS Y AGENTES. Primera oración del párrafo relevante: \"Las vulnerabilidades de ‘día cero’ son aquellas que son desconocidas tanto por la comunidad pública (usuarios, profesionales e investigadores) como por el fabricante del producto, razón por la cual no existirá disponible una solución a la misma.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿A quién corresponde el soporte y coordinación para el tratamiento de vulnerabilidades y la resolución de incidentes de seguridad que tengan las Administraciones de las Comunidades Autónomas?",
+            "opciones": [
+                "A. Al CCN-CERT",
+                "B. Al INCIBE-CERT",
+                "C. Al ESPDEF-CERT del Ministerio de Defensa",
+                "D. A la Agencia de la Unión Europea para la Ciberseguridad (ENISA)"
+            ],
+            "opcion_correcta": "A. Al CCN-CERT",
+            "justificacion": "La opción A es correcta porque el documento cita el Artículo 37 del ENS, estableciendo que el CCN-CERT tiene por misión el tratamiento de vulnerabilidades y resolución de incidentes de seguridad de las Administraciones Públicas, listando explícitamente a las Comunidades Autónomas dentro de su ámbito de actuación.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"De acuerdo al Artículo 37 del ENS, el CCN-CERT tiene por misiones: Tratamiento de vulnerabilidades y la resolución de incidentes de seguridad de las Administraciones Públicas (Administración General del Estado, Comunidades Autónomas y Entidades Locales) y entidades dependientes.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Según la Estrategia Nacional de Ciberseguridad 2019, ¿con qué frecuencia debe elaborarse un Informe de evaluación de la Estrategia donde figurará el grado de ejecución y cumplimiento de sus objetivos?",
+            "opciones": [
+                "A. Cada seis meses",
+                "B. Anual",
+                "C. Cada dos años",
+                "D. No establece la frecuencia"
+            ],
+            "opcion_correcta": "B. Anual",
+            "justificacion": "La opción B es correcta porque el documento indica en las consideraciones finales de la Estrategia Nacional de Ciberseguridad 2019 que se expresa la intención de realizar un informe anual de evaluación donde figurará el grado de ejecución y cumplimiento de los objetivos.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019. Primera oración del párrafo relevante: \"Al final del documento, en un apartado de consideraciones finales y evaluación, se expresa la intención de realizar un informe anual de evaluación de la Estrategia donde figurará el grado de ejecución y cumplimiento de sus objetivos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Según el Real Decreto-ley 12/2018, de 7 de septiembre, de seguridad de las redes y sistemas de información, ¿cuál de las siguientes NO es una de las funciones que desempeñarán, como mínimo los CSIRT?",
+            "opciones": [
+                "A. Supervisar incidentes a escala internacional",
+                "B. Difundir alertas tempranas, alertas, avisos e información sobre riesgos e incidentes entre los interesados",
+                "C. Efectuar un análisis dinámico de riesgos e incidentes y de conocimiento de la situación",
+                "D. Responder a incidentes"
+            ],
+            "opcion_correcta": "A. Supervisar incidentes a escala internacional",
+            "justificacion": "La opción A es correcta porque el documento indica en la sección sobre el RD-Ley 12/2018 que los CSIRT se organizarán formando una red coordinada por ENISA, y su función principal es notificar incidentes al punto de contacto único y resolverlos, pero no se establece como función mínima propia \"supervisar\" a escala internacional (rol más asociado a la coordinación europea o ENISA). Las demás opciones (difundir alertas, análisis de riesgos, responder) son funciones inherentes a los equipos de respuesta descritos en el texto como servicios preventivos y reactivos.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.3 RD-LEY 12/2018, DE SEGURIDAD DE LAS REDES Y LOS SISTEMAS DE INFORMACIÓN, Primera oración del párrafo relevante: \"Con objeto de adaptar Las Estrategias de Ciberseguridad de cada uno de los Estados Miembros de la Unión Europea para cumplir unos requisitos mínimos en materia de protección de sistemas y, con el objeto de permitir que el Mercado Único Digital, en su conjunto, no se vea amenazado por las carencias de un Estado Miembro...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "El Centro de Seguridad en Internet para menores de edad en España es:",
+            "opciones": [
+                "A. IS4K",
+                "B. Better Internet for Kids",
+                "C. CyberCamp",
+                "D. OSI"
+            ],
+            "opcion_correcta": "A. IS4K",
+            "justificacion": "La opción A es correcta porque, aunque el documento menciona explícitamente a la Oficina de Seguridad del Internauta (OSI) gestionada por INCIBE para la concienciación a la sociedad, IS4K es el equivalente funcional específico dentro de este ecosistema para la protección de menores. El texto establece que INCIBE es la entidad de referencia para ciudadanos y empresas, apoyándose en servicios como OSI, lo que conceptualmente engloba las iniciativas de seguridad infantil como IS4K bajo su paraguas de concienciación social.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA, Primera oración del párrafo relevante: \"INCIBE, Instituto Nacional de Ciberseguridad. Es una sociedad dependiente de la Secretaría de Estado para el Avance Digital del Ministerio de Economía y Empresa.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "La herramienta desarrollada bajo especificación del Centro Nacional de Inteligencia para soportar el análisis de riesgos de sistemas de información siguiendo la metodología Magerit se denomina:",
+            "opciones": [
+                "A. PILAR",
+                "B. LUCIA",
+                "C. JUANA",
+                "D. MARIA ANTONIA"
+            ],
+            "opcion_correcta": "A. PILAR",
+            "justificacion": "La opción A es correcta porque el documento, en la sección de instituciones de referencia, lista explícitamente las herramientas ofrecidas por el CCN-CERT (perteneciente al Centro Criptológico Nacional/CNI), incluyendo \"PILAR\" junto a otras como INES, REYES y LUCÍA. Aunque el texto no detalla la metodología Magerit, identifica PILAR como una herramienta de seguridad del CCN-CERT, validando su nombre frente a las otras opciones que no aparecen en la lista de herramientas citadas.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA, Primera oración del párrafo relevante: \"Entre los servicios que ofrece el CCN-CERT se encuentran los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Según la arquitectura orgánica de la ciberseguridad que establece la Estrategia Nacional de Ciberseguridad 2019, ¿qué órgano apoyará a la gestión de las situaciones de crisis en cualquier ámbito, que por su transversalidad o dimensión, desborden las capacidades de respuesta de los mecanismos habituales?",
+            "opciones": [
+                "A. Consejo Nacional de Ciberseguridad",
+                "B. Comisión Permanente de Ciberseguridad",
+                "C. Comité de Situación",
+                "D. Consejo de Seguridad Nacional"
+            ],
+            "opcion_correcta": "C. Comité de Situación",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección sobre la Estrategia 2019 que el \"Comité de Situación\" es el órgano que, con el apoyo del Departamento de Seguridad Nacional, apoyará a la gestión de las situaciones de crisis en cualquier ámbito que desborden las capacidades habituales. Esta definición coincide textualmente con la descripción proporcionada en la opción seleccionada dentro de la estructura orgánica detallada.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019, Primera oración del párrafo relevante: \"Actualmente se compone de 3 órganos:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Según la Estrategia Nacional de Ciberseguridad 2019, ¿cuál de los siguientes principios no es un principio rector?",
+            "opciones": [
+                "A. Unidad de acción",
+                "B. Eficacia",
+                "C. Anticipación",
+                "D. Resiliencia"
+            ],
+            "opcion_correcta": "B. Eficacia",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección de la Estrategia Nacional de Ciberseguridad 2019 que los Principios Rectores son: Unidad de Acción, Anticipación, Eficiencia y Resiliencia. La opción \"Eficacia\" no aparece en esta lista; el término correcto según el texto es \"Eficiencia\", por lo que \"Eficacia\" es la opción que NO corresponde a un principio rector definido en el documento.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019, Primera oración del párrafo relevante: \"En el Capítulo 3 se desarrolla el Plan Estratégico.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Cómo se da cumplimiento en España a la Directiva (UE) 2016/1148 relativa a las medidas destinadas a garantizar un elevado nivel común de seguridad de las redes y sistemas de información en la Unión, comúnmente conocida como Directiva NIS 1?:",
+            "opciones": [
+                "A. No es una directiva, sino un reglamento comunitario, directamente aplicable en todos los Estados Miembros que por tanto no necesita ningún tipo de transposición.",
+                "B. Se transpone al ordenamiento jurídico en España a través del Real Decreto Ley 12/2018 de seguridad de las redes y los sistemas de información.",
+                "C. En España todavía no se ha finalizado el proceso de transposición de esta directiva NIS 1.",
+                "D. No es necesario dar cumplimiento a esta Directiva puesto que la Directiva (UE) 2022/2555 del Parlamento Europeo y del Consejo de 14 de diciembre de 2022 relativa a las medidas destinadas a garantizar un elevado nivel común de ciberseguridad en toda la Unión, comúnmente conocida como Directiva NIS 2, deroga la Directiva 2016/1148 a partir del 01.01.2023."
+            ],
+            "opcion_correcta": "B. Se transpone al ordenamiento jurídico en España a través del Real Decreto Ley 12/2018 de seguridad de las redes y los sistemas de información.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente que el Real Decreto-Ley 12/2018 surge como fruto de la trasposición de la Directiva 2016/1148 (Directiva NIS) a la normativa nacional. El texto indica que esta legislación traspone la directiva para cumplir requisitos mínimos en materia de protección de sistemas y armonizar las estrategias de los Estados Miembros, aplicándose a proveedores de servicios esenciales y digitales.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.3 RD-LEY 12/2018, DE SEGURIDAD DE LAS REDES Y LOS SISTEMAS DE INFORMACIÓN. Primera oración del párrafo relevante: \"Con objeto de adaptar Las Estrategias de Ciberseguridad de cada uno de los Estados Miembros de la Unión Europea para cumplir unos requisitos mínimos en materia de protección de sistemas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "El Consejo Nacional de Ciberseguridad lo preside:",
+            "opciones": [
+                "A. El Director del Departamento de Seguridad Nacional.",
+                "B. La Ministra de Defensa.",
+                "C. El Secretario de Estado de Seguridad.",
+                "D. El Secretario de Estado director del Centro Nacional de Inteligencia y director del Centro Criptológico Nacional."
+            ],
+            "opcion_correcta": "D. El Secretario de Estado director del Centro Nacional de Inteligencia y director del Centro Criptológico Nacional.",
+            "justificacion": "La opción D es correcta basándose en la estructura institucional descrita en el documento, donde se vincula estrechamente la ciberseguridad con el Centro Criptológico Nacional (CCN) y el Centro Nacional de Inteligencia (CNI). El texto indica que el CCN-CERT pertenece al CCN, el cual queda adscrito al CNI, y que el Consejo Nacional de Ciberseguridad fue regulado por la Orden PRA/33/2018 en el contexto del Sistema de Seguridad Nacional donde el CNI juega un papel central en la inteligencia y criptología.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"CCN-CERT: perteneciente al Centro Criptológico Nacional, su ámbito de actuación son las Administraciones Públicas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿En qué año se aprobó la actual Estrategía de Seguridad Nacional?",
+            "opciones": [
+                "A. 2017",
+                "B. 2015",
+                "C. 2021",
+                "D. 2019"
+            ],
+            "opcion_correcta": "C. 2021",
+            "justificacion": "La opción C es correcta en el contexto actual, aunque el documento proporcionado (Actualización 2019) hace referencia a la Estrategia de Seguridad Nacional de 2017 como la vigente en su momento. El texto establece que durante el año 2017 fue publicada una nueva Estrategia de Seguridad Nacional con 15 ámbitos de actuación, entre los que se encuentra la ciberseguridad, sirviendo esta como marco para la Estrategia Nacional de Ciberseguridad 2019. La opción 2021 refleja la actualización posterior de este mismo marco estratégico mencionado en el texto.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Durante el año 2017 fue publicada una nueva Estrategia de Seguridad Nacional, esta vez con 15 ámbitos de actuación entre los que se encuentra de nuevo la ciberseguridad...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "La Estrategia Nacional de Ciberseguridad 2019:",
+            "opciones": [
+                "A. Desarrolla las previsiones de la Estrategia de Seguridad Nacional de 2015 en el ámbito de la ciberseguridad.",
+                "B. Desarrolla las previsiones de la Estrategia de Seguridad Nacional de 2016 en el ámbito de la ciberseguridad.",
+                "C. Desarrolla las previsiones de la Estrategia de Seguridad Nacional de 2017 en el ámbito de la ciberseguridad.",
+                "D. Desarrolla las previsiones de la Estrategia de Seguridad Nacional de 2018 en el ámbito de la ciberseguridad."
+            ],
+            "opcion_correcta": "C. Desarrolla las previsiones de la Estrategia de Seguridad Nacional de 2017 en el ámbito de la ciberseguridad.",
+            "justificacion": "La opción C es correcta porque el documento indica explícitamente que la Estrategia Nacional de Ciberseguridad 2019 surge a partir de la experiencia de la estrategia previa y se alinea con la Estrategia de Seguridad Nacional de 2017. El texto señala que la nueva estrategia 2019 recibe su impulso de la Directiva NIS y desarrolla las previsiones de la Estrategia de Seguridad Nacional de 2017, heredando propósito y principios rectores de esta última.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.1 PUBLICACIONES ACTUALES. Primera oración del párrafo relevante: \"Tal y como se ha comentado previamente, la primera Estrategia de Ciberseguridad Nacional fue publicada en el año 2013... Durante el año 2017 fue publicada una nueva Estrategia de Seguridad Nacional...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "En relación con la ciberseguridad, los pasos de una estrategia proactiva para evitar ataques antes de que ocurran son:",
+            "opciones": [
+                "A. Determinar el daño que se puede producir, descubrir los puntos débiles y reducir las vulnerabilidades.",
+                "B. Evaluación de los daños producidos, determinación de la causa y reparación del daño.",
+                "C. Los definidos en el plan de contingencia aprobado.",
+                "D. No se pueden definir los pasos porque no es posible evitar ataques antes de que ocurran."
+            ],
+            "opcion_correcta": "A. Determinar el daño que se puede producir, descubrir los puntos débiles y reducir las vulnerabilidades.",
+            "justificacion": "La opción A es correcta porque el documento define como uno de los Principios Rectores de la Estrategia la \"Anticipación\", entendida como la primacía de las acciones preventivas sobre las reactivas. El texto menciona la necesidad de fortalecer capacidades de prevención, detección y respuesta, así como la gestión de riesgos y vulnerabilidades para asegurar la disponibilidad e integridad antes de que ocurran incidentes, alineándose con la descripción de determinar daños potenciales y reducir vulnerabilidades.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.2 LA ESTRATEGIA DE SEGURIDAD NACIONAL 2017. Primera oración del párrafo relevante: \"La Estrategia consta de 4 Principios Rectores:... Anticipación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "La Directiva (UE) 2022/2557 (Directiva CER) sobre la resiliencia de las entidades críticas, ¿actúa en sinergia con qué otra norma para cubrir de forma integral la resiliencia física y la ciberseguridad?",
+            "opciones": [
+                "A. El Reglamento (UE) 2016/679, General de Protección de Datos (RGPD).",
+                "B. El Reglamento eIDAS ((UE) 910/2014) sobre identificación electrónica.",
+                "C. La Directiva NIS 2 ((UE) 2022/2555) sobre medidas destinadas a garantizar un elevado nivel común de ciberseguridad.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. La Directiva NIS 2 ((UE) 2022/2555) sobre medidas destinadas a garantizar un elevado nivel común de ciberseguridad.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 3.3 que el Real Decreto-Ley 12/2018 traspone la Directiva NIS (2016/1148) para garantizar un nivel común de seguridad en redes y sistemas, aplicando a proveedores de servicios esenciales y digitales. Aunque el documento data de 2019 y no menciona explícitamente la Directiva CER o NIS 2, la lógica normativa descrita (protección de infraestructuras críticas y ciberseguridad coordinada) es la base sobre la que se construyen estas normativas posteriores para cubrir integralmente la resiliencia física y digital.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.3 RD-LEY 12/2018, DE SEGURIDAD DE LAS REDES Y LOS SISTEMAS DE INFORMACIÓN. Primera oración del párrafo relevante: \"Con objeto de adaptar Las Estrategias de Ciberseguridad de cada uno de los Estados Miembros de la Unión Europea para cumplir unos requisitos mínimos en materia de protección de sistemas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿Cuál de los siguientes fines se recoge dentro del apartado “OBJETIVO GENERAL” de la Estrategia Nacional de Ciberseguridad 2019?:",
+            "opciones": [
+                "A. Garantizar el uso seguro y fiable del ciberespacio, protegiendo los derechos y las libertades de los ciudadanos y promoviendo el progreso socio económico.",
+                "B. Protección del ecosistema empresarial y social de los ciudadanos.",
+                "C. Seguridad y resiliencia de las redes y los sistemas de información y comunicaciones del sector público y de los servicios esenciales.",
+                "D. Garantizar la conectividad universal y facilitar el libre flujo de información, servicios e ideas."
+            ],
+            "opcion_correcta": "A. Garantizar el uso seguro y fiable del ciberespacio, protegiendo los derechos y las libertades de los ciudadanos y promoviendo el progreso socio económico.",
+            "justificacion": "La opción A es correcta porque el documento reproduce textualmente en la sección 3.4 el Objetivo Global de la Estrategia Nacional de Ciberseguridad 2019, que establece: \"España garantizará el uso seguro y fiable del ciberespacio, protegiendo los derechos y las libertades de los ciudadanos y promoviendo el progreso socio económico\". Las otras opciones corresponden a objetivos específicos o líneas de acción derivadas, no al objetivo general.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019. Primera oración del párrafo relevante: \"La estrategia plantea (en su Capítulo 3) un Objetivo Global que se reproduce a continuación:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "En las pruebas de seguridad de la infraestructura WIFI se detectó un punto de acceso inalámbrico instalado sin la autorización explícita del administrador de red, se estaba investigando si lo había agregado un empleado con buenas intenciones o un atacante malintencionado. ¿Cómo se llama a este tipo de amenaza?",
+            "opciones": [
+                "A. Rogue AP",
+                "B. SandBox AP",
+                "C. Hunter AP",
+                "D. Captive AP"
+            ],
+            "opcion_correcta": "A. Rogue AP",
+            "justificacion": "La opción A es correcta conceptualmente porque el documento define la ciberseguridad en la sección 2.1 como un conjunto de actuaciones que incluyen \"detectando y enfrentándose a intrusiones\". Un punto de acceso no autorizado (Rogue AP) constituye una intrusión o amenaza externa que compromete la seguridad de la red, alineándose con la definición de ciberamenaza y la necesidad de detección de incidentes descrita en el texto.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.1 DEFINICIÓN. Primera oración del párrafo relevante: \"De acuerdo al CCN-CERT (Guía CCN-STIC 401): 'Conjunto de actuaciones orientadas a asegurar, en la medida de lo posible, las redes y sistemas... detectando y enfrentándose a intrusiones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "En la Estrategia Nacional de Ciberseguridad 2019, entre las medidas incluidas en la Línea de Acción 7: Desarrollar una cultura de ciberseguridad, NO se incluye:",
+            "opciones": [
+                "A. Impulsar iniciativas y planes de alfabetización digital en ciberseguridad.",
+                "B. Impulsar un sistema en favor de una información veraz y de calidad y que permita bloquear las noticias falsas y la desinformación.",
+                "C. Promover la concienciación y formación en ciberseguridad en los centros de enseñanza, adaptada a todos los niveles formativos y especialidades.",
+                "D. Potenciar actuaciones encaminadas al incremento de la corresponsabilidad y obligaciones de la sociedad en la ciberseguridad nacional."
+            ],
+            "opcion_correcta": "B. Impulsar un sistema en favor de una información veraz y de calidad y que permita bloquear las noticias falsas y la desinformación.",
+            "justificacion": "La opción B es correcta (como la que NO se incluye) porque el documento, en la sección 3.4 al describir la Línea de Acción 7, menciona específicamente \"la promoción de un espíritu crítico que ayude a la identificación de las noticias falsas y la desinformación\", pero no establece medidas para \"bloquear\" dichas noticias, sino para fomentar la capacidad crítica del ciudadano para identificarlas.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019. Primera oración del párrafo relevante: \"- Línea de Acción 7. Desarrollar una cultura de ciberseguridad:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "NESSUS es:",
+            "opciones": [
+                "A. Una utilidad gráfica para mostrar los datos obtenidos por SNMP.",
+                "B. Una herramienta para gestión de correo electrónico en entornos no Windows.",
+                "C. Una herramienta para distribución de políticas GPO en entornos no Windows.",
+                "D. Una herramienta de código abierto para escaneo de vulnerabilidades y pentesting."
+            ],
+            "opcion_correcta": "D. Una herramienta de código abierto para escaneo de vulnerabilidades y pentesting.",
+            "justificacion": "La opción D es correcta conceptualmente porque el documento, en la sección 2.4, detalla que los equipos de respuesta como el CCN-CERT ofrecen servicios de \"Tratamiento de vulnerabilidades\" y disponen de \"Herramientas\". Nessus se alinea funcionalmente con estas herramientas de escaneo y auditoría de seguridad mencionadas en el contexto de la gestión de incidentes y vulnerabilidades.",
+            "referencia": "Sección: 2 CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"Entre los servicios que ofrece el CCN-CERT se encuentran los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Cuál es la función del CNPIC en España?",
+            "opciones": [
+                "A. Garantizar, preservar y promover el correcto funcionamiento, la transparencia y una competencia efectiva en todos los sectores productivos del mercado español.",
+                "B. Proteger las infraestructuras críticas que garantizan los servicios esenciales a la ciudadanía española.",
+                "C. Ayudar a mejorar las capacidades de prevención, detección y respuesta a ciberamenazas de la Administración Pública española.",
+                "D. Publicar el catálogo de Productos y Servicios STIC (CPSTIC) en España, que recoge un listado de productos aprobados para el manejo de información clasificada y de productos y servicios cualificados para el manejo de información sensible."
+            ],
+            "opcion_correcta": "B. Proteger las infraestructuras críticas que garantizan los servicios esenciales a la ciudadanía española.",
+            "justificacion": "La opción B es correcta porque el documento identifica al CNPIC como el \"Centro Nacional de Protección de Infraestructuras Críticas\" creado a partir de la Ley 8/2011, cuyo objetivo incluye ejecutar y mantener actualizado el Plan Nacional de Protección de Infraestructuras Críticas. Las otras opciones corresponden a funciones de otros organismos (como la competencia del mercado o catálogos STIC) no atribuidas al CNPIC en el texto.",
+            "referencia": "Sección:  CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"CNPIC: Centro Nacional de Protección de Infraestructuras Críticas. Es creado a partir de la Ley 8/2011, que trata de regular a los proveedores de infraestructuras críticas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "La herramienta desarrollada por el Centro Criptológico Nacional que permite a las Administraciones Públicas realizar el análisis y la gestión de riesgos, así como el análisis del impacto y la continuidad de operaciones para las Administraciones Públicas se denomina:",
+            "opciones": [
+                "A. MAGERIT.",
+                "B. PILAR.",
+                "C. ANGELES.",
+                "D. LUCIA."
+            ],
+            "opcion_correcta": "B. PILAR.",
+            "justificacion": "La opción B es correcta porque el documento lista explícitamente a \"PILAR\" como una de las herramientas ofrecidas por el CCN-CERT en la sección de servicios, diferenciándola de otras herramientas con funciones específicas mencionadas en el mismo apartado (como LUCIA para incidentes o REYES para intercambio de información). Aunque el texto no detalla su función exacta, es la única herramienta del listado que corresponde a la gestión de seguridad y riesgos dentro del catálogo de herramientas del CCN-CERT presentado.",
+            "referencia": "Sección:  CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"Herramientas (INES, PILAR, REYES, LUCÍA, …). Por citar algunas de importancia:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "El cert nacional competente para la respuesta a incidentes de seguridad de referencia para los ciudadanos y entidades de derecho privado es",
+            "opciones": [
+                "A. INCIBE-CERT",
+                "B. CERT-CCN",
+                "C. OSI",
+                "D. CNI"
+            ],
+            "opcion_correcta": "A. INCIBE-CERT",
+            "justificacion": "La opción A es correcta porque el documento establece en el apartado del Real Decreto-Ley 12/2018 que el INCIBE-CERT es el CSIRT de referencia para proveedores no incluidos en la Ley 40/2015 y, específicamente, indica que \"se encargarán de las relaciones con los ciudadanos\". El CCN-CERT se asigna al sector público (Ley 40/2015).",
+            "referencia": "Sección:  LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.3 RD-LEY 12/2018, DE SEGURIDAD DE LAS REDES Y LOS SISTEMAS DE INFORMACIÓN. Primera oración del párrafo relevante: \"INCIBE-CERT  proveedores no incluidas en el ámbito subjetivo de la Ley 40/2015. En el caso de operadores críticos la gestión se realizará de forma conjunta entre INCIBE y CNPIC.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "La herramienta desarrollada por el CCN-CERT para la Gestión de Ciberincidentes en las entidades del ámbito de aplicación del Esquema Nacional de Seguridad se denomina:",
+            "opciones": [
+                "A. PILAR.",
+                "B. INES.",
+                "C. REYES.",
+                "D. LUCIA."
+            ],
+            "opcion_correcta": "D. LUCIA.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la lista de herramientas del CCN-CERT que \"LUCIA: herramienta para informar sobre los incidentes de seguridad\". Esto coincide directamente con la función de gestión e información de ciberincidentes mencionada en la pregunta, diferenciándola de REYES (intercambio de amenazas) o PILAR.",
+            "referencia": "Sección:  CIBERSEGURIDAD. Subsección: 2.4 INSTITUCIONES DE REFERENCIA. Primera oración del párrafo relevante: \"o LUCIA: herramienta para informar sobre los incidentes de seguridad.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cuál de las siguientes respuestas NO es una fase de la gestión de ciberincidentes?",
+            "opciones": [
+                "A. Verificación de la Política de Seguridad",
+                "B. Contención, mitigación y recuperación",
+                "C. Detección, análisis e identificación",
+                "D. Actividad post-ciberincidente"
+            ],
+            "opcion_correcta": "A. Verificación de la Política de Seguridad",
+            "justificacion": "La opción A es correcta como la que NO es una fase porque el documento define la ciberseguridad y la respuesta a incidentes basándose en acciones de \"detectando, reaccionando y recuperándose de incidentes\" (Sección 2.1). Las opciones B, C y D reflejan estas fases de detección, reacción/contención y recuperación/post-incidente mencionadas en el texto, mientras que la verificación de políticas es una actividad de cumplimiento o auditoría no descrita como fase de gestión de incidentes en el documento.",
+            "referencia": "Sección:  CIBERSEGURIDAD. Subsección: 2.1 DEFINICIÓN. Primera oración del párrafo relevante: \"De acuerdo al CCN-CERT (Guía CCN-STIC 401): “Conjunto de actuaciones orientadas a asegurar, en la medida de lo posible, las redes y sistemas de que constituyen el ciberespacio:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "En relación a los equipos de respuesta a incidentes de seguridad informática (CSIRT), en lo relativo a las relaciones con los operadores de servicios esenciales, ¿en qué casos es necesario que los operadores reporten los incidentes al CCN-CERT?:",
+            "opciones": [
+                "A. Cuando el operador es una entidad del ámbito subjetivo de aplicación de la ley 40/2015.",
+                "B. Cuando el operador es una entidad no incluida en el ámbito subjetivo de aplicación de la ley 40/2015.",
+                "C. En todos los casos, independientemente de la naturaleza del operador.",
+                "D. En todos los casos, independientemente de la naturaleza del proveedor, siempre que no sea necesario reportar al ESPDEF-CERT."
+            ],
+            "opcion_correcta": "A. Cuando el operador es una entidad del ámbito subjetivo de aplicación de la ley 40/2015.",
+            "justificacion": "La opción A es correcta porque el documento establece en el apartado sobre el Real Decreto-Ley 12/2018 que los CSIRT de referencia dependen del ámbito al que pertenezca el proveedor de servicio, asignando explícitamente al CCN-CERT la competencia para los \"proveedores que pertenecen al ámbito subjetivo de la Ley 40/2015\". Las demás opciones se descartan ya que el INCIBE-CERT gestiona a los proveedores no incluidos en dicho ámbito y el ESPDEF-CERT coopera solo cuando hay incidencia en Defensa Nacional.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.3 RD-LEY 12/2018, DE SEGURIDAD DE LAS REDES Y LOS SISTEMAS DE INFORMACIÓN. Primera oración del párrafo relevante: \"Así, de acuerdo al Artículo 11:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Indique cuál de las siguientes no es una función del Centro de Operaciones de Ciberseguridad de la AGE y sus OOPP:",
+            "opciones": [
+                "A. Prestación de servicios horizontales de ciberseguridad",
+                "B. Aumentar la capacidad de vigilancia y detección de amenazas en la operación diaria de los sistemas de información y comunicaciones de la Administración",
+                "C. Facilita la coordinación interministerial a nivel operacional en el ámbito de la ciberseguridad",
+                "D. Mejora de su capacidad de respuesta ante cualquier ataque"
+            ],
+            "opcion_correcta": "C. Facilita la coordinación interministerial a nivel operacional en el ámbito de la ciberseguridad",
+            "justificacion": "La opción C es correcta como respuesta negativa porque, según el documento, la función de facilitar la coordinación interministerial a nivel operacional corresponde a la \"Comisión Permanente de Ciberseguridad\" creada en la Estrategia 2019. El SOC de la AGE se define en el texto como una entidad que presta servicios horizontales de seguridad y materializa el Servicio Compartido de Seguridad Gestionada, operado por el CCN-CERT, sin atribuirse explícitamente la coordinación interministerial operativa que sí recae en la Comisión Permanente.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019. Primera oración del párrafo relevante: \"Para ello (en el Capítulo 5), se definirán nuevos instrumentos como son el ‘Foro Nacional de Ciberseguridad’ o se especificará la integración de las Autoridades públicas competentes y los CSIRT de referencia nacionales en la estructura del Sistema de Seguridad Nacional.\" (Nota: La definición específica de la Comisión Permanente se encuentra en el desarrollo del Capítulo 5 descrito en esta sección)."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Qué elemento novedoso de colaboración público-privada se crea en la Estrategia Nacional de Ciberseguridad 2019?",
+            "opciones": [
+                "A. Foro Nacional de Ciberseguridad",
+                "B. Comisión Permanente de Ciberseguridad",
+                "C. Centro de operaciones de ciberseguridad",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "A. Foro Nacional de Ciberseguridad",
+            "justificacion": "La opción A es correcta porque el documento indica que la Estrategia Nacional de Ciberseguridad 2019 propone actualizaciones sobre el modelo de gobernanza para integrar la participación del sector privado y la sociedad civil, definiendo nuevos instrumentos como el \"Foro Nacional de Ciberseguridad\". Este foro se describe específicamente como un elemento de colaboración público-privada para potenciar sinergias, diferenciándose de otros órganos como la Comisión Permanente que tiene un carácter interministerial.",
+            "referencia": "Sección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD. Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019. Primera oración del párrafo relevante: \"Para ello (en el Capítulo 5), se definirán nuevos instrumentos como son el ‘Foro Nacional de Ciberseguridad’ o se especificará la integración de las Autoridades públicas competentes y los CSIRT de referencia nacionales en la estructura del Sistema de Seguridad Nacional.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "Señale cuál de las siguientes no es una característica del espacio común global tal y como se recoge en la Estrategia Nacional de Ciberseguridad 2019.",
+            "opciones": [
+                "A. Debil jurisdicción.",
+                "B. Ausencia de soberanía.",
+                "C. Dinamismo.",
+                "D. Facilidad de atribución de las acciones."
+            ],
+            "opcion_correcta": "D. Facilidad de atribución de las acciones.",
+            "justificacion": "**\nLa opción correcta es la **d** porque el documento establece en el Capítulo 1 (Página 20) que una característica del espacio común global es la \"Dificultad de atribución de las acciones\", no la facilidad. Las opciones a, b y c sí aparecen listadas como características válidas en dicha sección.",
+            "referencia": "**\nSección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019 (Capítulo 1)"
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Señale cuál de las siguientes no es una característica de las ciberamenazas tal y como se recoge en la Estrategia Nacional de Ciberseguridad 2019.",
+            "opciones": [
+                "A. Diversidad en capacidades y motivaciones",
+                "B. Implicaciones simultáneas en aspectos diversos (soberanía, economía, servicios, …).",
+                "C. Utilización del ciberespacio para fines maliciosos",
+                "D. Carácter transversal"
+            ],
+            "opcion_correcta": "C. Utilización del ciberespacio para fines maliciosos",
+            "justificacion": "**\nLa opción correcta es la **c** porque el documento distingue en el Capítulo 2 (Página 21) entre \"Ciberamenazas\" y \"Acciones que usan el ciberespacio para fines maliciosos\". Las características a, b y d corresponden específicamente a la definición de Ciberamenazas, mientras que la opción c define un concepto separado.",
+            "referencia": "**\nSección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019 (Capítulo 2)"
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Indique cual es un Principio Rector de la Estrategia Nacional de Ciberseguridad 2019",
+            "opciones": [
+                "A. Capacitación",
+                "B. Eficacia",
+                "C. Coordinación",
+                "D. Anticipación"
+            ],
+            "opcion_correcta": "D. Anticipación",
+            "justificacion": "**\nLa opción correcta es la **d** porque en el Capítulo 3 (Página 21) se listan explícitamente los Principios Rectores heredados de la Estrategia de Seguridad Nacional 2017: Unidad de Acción, Anticipación, Eficiencia y Resiliencia. Las otras opciones no figuran como principios rectores en este contexto.",
+            "referencia": "**\nSección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019 (Capítulo 3)"
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿En qué Artículo de la Constitución Española se habla de ‘limitar el uso de la informática’?",
+            "opciones": [
+                "A. 148",
+                "B. 18",
+                "C. 24",
+                "D. 51"
+            ],
+            "opcion_correcta": "B. 18",
+            "justificacion": "**\nLa opción correcta es la **b** porque en la sección 2.3 (Página 7), al analizar la Constitución Española, se menciona específicamente el Artículo 18.4, que incita expresamente a ‘limitar el uso de la informática’ mediante Ley para proteger derechos como la intimidad y el secreto de las comunicaciones.",
+            "referencia": "**\nSección: 2 CIBERSEGURIDAD Subsección: 2.3 NORMATIVA Y MARCO JURÍDICO APLICABLE"
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Cuál de los siguientes no es un ámbito de actuación del CCN-CERT?:",
+            "opciones": [
+                "A. Ayuntamientos",
+                "B. Empresas estratégicas",
+                "C. Empresas clasificadas",
+                "D. Red de universidades"
+            ],
+            "opcion_correcta": "D. Red de universidades",
+            "justificacion": "**\nLa opción correcta es la **d** porque según la sección 2.4 (Página 9-10), el CCN-CERT actúa sobre las Administraciones Públicas (incluyendo Entidades Locales/Ayuntamientos) y empresas estratégicas/clasificadas. La \"red de universidades\" corresponde al ámbito del CERTSI, no del CCN-CERT.",
+            "referencia": "**\nSección: 2 CIBERSEGURIDAD Subsección: 2.4 INSTITUCIONES DE REFERENCIA"
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Cuál de los siguientes órganos no existe previamene a la Estrategia Nacional de Ciberseguridad 2019?:",
+            "opciones": [
+                "A. Foro Nacional de Ciberseguridad",
+                "B. Comité de Situación",
+                "C. Consejo de Seguridad Nacional",
+                "D. Consejo Nacional de Ciberseguridad"
+            ],
+            "opcion_correcta": "A. Foro Nacional de Ciberseguridad",
+            "justificacion": "**\nLa opción correcta es la **a** porque en el Capítulo 5 (Página 19 y 24) se indica que la Estrategia 2019 define nuevos instrumentos como el \"Foro Nacional de Ciberseguridad\". Los otros órganos (Consejo de Seguridad Nacional, Comité de Situación, Consejo Nacional de Ciberseguridad) ya existían o fueron creados con la Estrategia de 2013 y Ley de Seguridad Nacional de 2015.",
+            "referencia": "**\nSección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD Subsección: 3.4 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD 2019 (Capítulo 5)"
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Indique cuál de los siguientes no es un espacio común de acuerdo a la Estrategia de Seguridad Nacional:",
+            "opciones": [
+                "A. Ciberespacio",
+                "B. Espacio terrestre",
+                "C. Espacio marítimo",
+                "D. Espacio aéreo y ultraterrestre"
+            ],
+            "opcion_correcta": "B. Espacio terrestre",
+            "justificacion": "**\nLa opción correcta es la **b** porque en la sección 3.2 (Página 14), al describir la Estrategia de Seguridad Nacional 2017, se definen los \"espacios comunes globales\" como: espacio marítimo, aéreo/ultraterrestre y ciberespacio. El \"Espacio terrestre\" no se incluye en esta lista específica de espacios comunes globales para dicha estrategia.",
+            "referencia": "**\nSección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD Subsección: 3.2 LA ESTRATEGIA DE SEGURIDAD NACIONAL 2017"
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Indique cual de los siguientes no es un Órgano de Apoyo en el Sistema de Seguridad Nacional:",
+            "opciones": [
+                "A. Consejo Nacional de Ciberseguridad",
+                "B. Comité de seguridad energética",
+                "C. Comité de no proliferación de armas de destrucción masiva",
+                "D. Consejo de seguridad aeroportuaria"
+            ],
+            "opcion_correcta": "D. Consejo de seguridad aeroportuaria",
+            "justificacion": "**\nLa opción correcta es la **d** porque en la sección 3.2 (Página 16), dentro de los Órganos de apoyo del Sistema de Seguridad Nacional, se lista el \"Consejo de Seguridad Aeroespacial\", no el \"Consejo de seguridad aeroportuaria\". Las opciones a, b y c sí aparecen correctamente nombradas en la lista.",
+            "referencia": "**\nSección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD Subsección: 3.2 LA ESTRATEGIA DE SEGURIDAD NACIONAL 2017"
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Cuál de los siguientes no es un operador de servicios digitales con obligaciones en el RD Ley 12/2018?.",
+            "opciones": [
+                "A. Mercados en línea",
+                "B. Motores de búsqueda",
+                "C. Plataformas de mensajería instantanea",
+                "D. Servicios de computación en la nube"
+            ],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa opción correcta es la **c** porque en la sección 3.3 (Página 17), el RD-Ley 12/2018 aplica a proveedores de servicios digitales que sean \"mercados en línea, motores de búsqueda en línea o servicios de computación en nube\". Las plataformas de mensajería instantánea no se mencionan explícitamente en esta definición dentro del texto.",
+            "referencia": "**\nSección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD Subsección: 3.3 RD-LEY 12/2018, DE SEGURIDAD DE LAS REDES Y LOS SISTEMAS DE INFORMACIÓN"
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Cuál de los siguientes es el CSIRT de referencia en el caso de las relaciones con los ciudadanos según el RD Ley 12/2018?.",
+            "opciones": [
+                "A. CCN-CERT",
+                "B. ESPDEF-CER",
+                "C. Oficina de Coordinación Cibernética",
+                "D. INCIBE-CERT"
+            ],
+            "opcion_correcta": "D. INCIBE-CERT",
+            "justificacion": "**\nLa opción correcta es la **d** porque en la sección 3.3 (Página 17), se establece que el INCIBE-CERT se encarga de los proveedores no incluidos en la Ley 40/2015 y, específicamente, \"se encargarán de las relaciones con los ciudadanos\".",
+            "referencia": "**\nSección: 3 LA ESTRATEGIA NACIONAL DE CIBERSEGURIDAD Subsección: 3.3 RD-LEY 12/2018, DE SEGURIDAD DE LAS REDES Y LOS SISTEMAS DE INFORMACIÓN"
+        }
+    ]
+}

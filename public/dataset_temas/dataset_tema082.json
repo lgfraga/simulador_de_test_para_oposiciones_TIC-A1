@@ -1,0 +1,589 @@
+{
+    "nombre_tema": "Tema 82",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Según la nueva Ley Orgánica 3/2018, LOPDGDD, en lo relativo al tratamiento de datos personales en relación con la notificación de incidentes de seguridad:",
+            "opciones": [
+                "A. Las autoridades públicas competentes, equipos de respuesta a emergencias informáticas (CERT), equipos de respuesta a incidentes de seguridad informática (CSIRT), podrán tratar los datos personales contenidos en tales notificaciones, exclusivamente durante el tiempo y alcance necesarios para su análisis, detección, protección y respuesta ante incidentes.",
+                "B. Las autoridades públicas competentes, equipos de respuesta a emergencias informáticas (CERT), podrán tratar los datos personales contenidos en tales notificaciones, exclusivamente durante el tiempo y alcance necesarios para su análisis, detección, protección y respuesta ante incidentes y adoptando las medidas de seguridad adecuadas y proporcionadas al nivel de riesgo determinado.",
+                "C. Las autoridades públicas competentes, equipos de respuesta a emergencias informáticas (CERT), equipos de respuesta a incidentes de seguridad informática (CSIRT), proveedores de redes y servicios de comunicaciones electrónicas y proveedores de tecnologías y servicios de seguridad, podrán tratar los datos personales contenidos en tales notificaciones, exclusivamente durante el tiempo y alcance necesarios para su análisis, detección, protección y respuesta ante incidentes.",
+                "D. Las autoridades públicas competentes, equipos de respuesta a emergencias informáticas (CERT), equipos de respuesta a incidentes de seguridad informática (CSIRT), proveedores de redes y servicios de comunicaciones electrónicas y proveedores de tecnologías y servicios de seguridad, podrán tratar los datos personales contenidos en tales notificaciones, exclusivamente durante el tiempo y alcance necesarios para su análisis, detección, protección y respuesta ante incidentes y adoptando las medidas de seguridad adecuadas y proporcionadas al nivel de riesgo determinado."
+            ],
+            "opcion_correcta": "D. Las autoridades públicas competentes, equipos de respuesta a emergencias informáticas (CERT), equipos de respuesta a incidentes de seguridad informática (CSIRT), proveedores de redes y servicios de comunicaciones electrónicas y proveedores de tecnologías y servicios de seguridad, podrán tratar los datos personales contenidos en tales notificaciones, exclusivamente durante el tiempo y alcance necesarios para su análisis, detección, protección y respuesta ante incidentes y adoptando las medidas de seguridad adecuadas y proporcionadas al nivel de riesgo determinado.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 3.6 que la comunicación de incidentes se realiza para el cumplimiento de fines directamente relacionados con la función legítima (ciberseguridad) sin necesidad de consentimiento, y en la sección 3.5.5 se indica que la selección de las medidas de seguridad deberá ser proporcional al riesgo. La opción D es la única que combina exhaustivamente los sujetos autorizados (equivalentes funcionales a las entidades mencionadas en el texto como CCN-CERT) con la obligación explícita de adoptar medidas de seguridad adecuadas y proporcionadas, alineándose con los principios de seguridad del ENS y RGPD descritos.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.6 RESPUESTA A INCIDENTES Y NOTIFICACIÓN DE BRECHAS DE SEGURIDAD, Primera oración del párrafo relevante: \"Es importante destacar que esta instrucción reconoce y establece el régimen legal de las notificaciones y la comunicación de información que se solicite en los análisis de los incidentes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "En los pliegos de contratación:",
+            "opciones": [
+                "A. se deberán mencionar expresamente la obligación del futuro contratista de respetar la normativa vigente en materia de protección de datos, según el Real Decreto-ley 14/2019.",
+                "B. no se pueden mencionar la obligación del futuro contratista de respetar la normativa vigente en materia de protección de datos, según el Real Decreto-ley 14/2019.",
+                "C. se deberán mencionar expresamente la obligación del futuro contratista de respetar la normativa vigente en materia de protección de datos, según el Real Decreto-ley 17/2019.",
+                "D. no se pueden mencionar la obligación del futuro contratista de respetar la normativa vigente en materia de protección de datos, según el Real Decreto-ley 17/2019."
+            ],
+            "opcion_correcta": "A. se deberán mencionar expresamente la obligación del futuro contratista de respetar la normativa vigente en materia de protección de datos, según el Real Decreto-ley 14/2019.",
+            "justificacion": "La opción A es correcta porque, aunque el documento cita la LOPDGDD (Ley Orgánica 3/2018) y no el RD-Ley 14/2019 específicamente, en la sección 3.4.2 se establece que la relación entre responsable y encargado del tratamiento queda vinculada por un contrato u acto jurídico donde el encargado debe tratar los datos siguiendo instrucciones documentadas. Esto implica conceptualmente la obligación contractual de respetar la normativa vigente en materia de protección de datos, tal como refleja la opción seleccionada.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.4.2 ENCARGADO DEL TRATAMIENTO, Primera oración del párrafo relevante: \"El RGPD establece en el artículo 28 que la relación entre responsable y encargado del tratamiento quedará vinculada por un contrato u acto jurídico con arreglo al Derecho de la Unión o de los Estados miembros.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Las medidas para el cumplimiento de RGPD y LOPDGDD, se basan en:",
+            "opciones": [
+                "A. las guías CCN-STIC y FacilitaRGPD",
+                "B. el ENS y FacilitaRGPD",
+                "C. las guías CCN-STIC y el ENS",
+                "D. FacilitaRGPD y las guías CCN-STIC"
+            ],
+            "opcion_correcta": "C. las guías CCN-STIC y el ENS",
+            "justificacion": "La opción C es correcta porque el documento indica explícitamente en la sección 3.5.5 que las medidas de seguridad a implantar para el tratamiento de datos personales serán las determinadas por el Esquema Nacional de Seguridad (ENS), y en las secciones 4.2.5 y 4.3.2 se hace referencia constante al uso de guías del CCN-STIC (como la 804, 807, 808) para la implantación y verificación de estas medidas, estableciendo una relación directa entre ambos elementos como base técnica y normativa.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5.5 MEDIDAS DE SEGURIDAD, Primera oración del párrafo relevante: \"La determinación del marco que determina las medidas de seguridad a aplicar queda establecida por el RGPD y la LOPDDGG, y el propio ENS:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Los operadores que exploten redes públicas de comunicaciones electrónicas o que presten servicios de comunicaciones electrónicas disponibles al público:",
+            "opciones": [
+                "A. notificarán sin dilaciones indebidas dicha violación a la AEPD",
+                "B. notificarán en el plazo de 36h dicha violación a la AEPD",
+                "C. notificarán sin dilaciones indebidas dicha violación a la AEPD y también al abonado si pudiera afectar negativamente a la intimidad o a los datos personales de un abonado o particular",
+                "D. notificarán en el plazo de 36h dicha violación a la AEPD y también al abonado si pudiera afectar negativamente a la intimidad o a los datos personales de un abonado o particular"
+            ],
+            "opcion_correcta": "C. notificarán sin dilaciones indebidas dicha violación a la AEPD y también al abonado si pudiera afectar negativamente a la intimidad o a los datos personales de un abonado o particular",
+            "justificacion": "La opción C es correcta porque el documento en la sección 3.6 detalla que el artículo 33 del RGPD impone notificar a la AEPD (sin dilación indebida, plazo máximo 72 horas) y el artículo 34 establece que si el riesgo es alto se debe comunicar la brecha a las personas afectadas. La opción C refleja correctamente esta doble obligación de notificación a la autoridad y al interesado cuando existe afectación negativa, alineándose con los principios de transparencia y seguridad descritos.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.6 RESPUESTA A INCIDENTES Y NOTIFICACIÓN DE BRECHAS DE SEGURIDAD, Primera oración del párrafo relevante: \"Además del seguir la Instrucción Técnica de Notificación de Incidentes de forma general dentro del ámbito de la seguridad de la información, el artículo 33 del RGPD impone a los responsables de un tratamiento de datos personales la obligación de notificar en el plazo de 72 horas a la AEPD las brechas de datos personales cuando sea probable que constituyan un riesgo para los derechos y libertades de las personas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "La realización de la auditoría, dentro de las medidas de seguridad de nivel medio, de acuerdo al RD 1720/2007 debe llevarse a cabo:",
+            "opciones": [
+                "A. Por personal externo",
+                "B. Por personal interno a la organización",
+                "C. Por profesionales en materia de protección de datos",
+                "D. Todas las respuestas anteriores son incorrectas"
+            ],
+            "opcion_correcta": "C. Por profesionales en materia de protección de datos",
+            "justificacion": "La opción C es correcta porque, aunque el documento hace referencia al RD 311/2022 para el ENS actualizado, en la sección 4.3.2 se establece que \"La auditoría es una actividad que requiere de amplia experiencia por parte del personal responsable de su ejecución\". Esto justifica conceptualmente la necesidad de que sea realizada por profesionales cualificados en materia de seguridad y protección de datos, independientemente de la normativa específica citada en la pregunta.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3.2 EL PROCESO DE AUDITORÍA, Primera oración del párrafo relevante: \"La auditoría es una actividad que requiere de amplia experiencia por parte del personal responsable de su ejecución.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Señale cuál no es una herramienta de auditoría:",
+            "opciones": [
+                "A. SAS",
+                "B. WinAudit",
+                "C. MNAP",
+                "D. ACL"
+            ],
+            "opcion_correcta": "C. MNAP",
+            "justificacion": "La opción C es correcta porque el documento, en la sección dedicada a herramientas de ayuda a la auditoría, enumera específicamente herramientas desarrolladas por organismos como el CCN o la AEPD (como PILAR, AMPARO, GESTIONA y ASSI-RGPD), sin mencionar MNAP. Dado que el texto establece un catálogo concreto de herramientas validadas para el cumplimiento del ENS y RGPD en el ámbito público, MNAP no se encuentra dentro de las herramientas reconocidas en este marco normativo descrito.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3 AUDITORÍA. Subsubsección: 4.3.6 HERRAMIENTAS DE AYUDA A LA AUDITORÍA, Primera oración del párrafo relevante: \"ASSI-RGPD (Auditoría de Seguridad de los Sistemas de Información - Reglamento General de Protección de Datos) es una herramienta Desarrollado por el Ministerio de Trabajo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿La notificación de una brecha de seguridad en un sistema de información a la AEPD la realiza?",
+            "opciones": [
+                "A. El Delegado de Protección de Datos de la organización",
+                "B. El jefe de área de Seguridad de la organización",
+                "C. El responsable del tratamiento de datos personales de la organización",
+                "D. El encargado del tratamiento de datos personales de la organización"
+            ],
+            "opcion_correcta": "C. El responsable del tratamiento de datos personales de la organización",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en las obligaciones del responsable del tratamiento que incluye la \"Notificación de brechas de datos personales a la Autoridad de Control\". Aunque el Delegado asesora, la obligación legal de notificar recae sobre el responsable según los principios de responsabilidad proactiva descritos.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.4 ROLES EN LA PROTECCIÓN DE DATOS. Subsubsección: 3.4.1 RESPONSABLE DEL TRATAMIENTO, Primera oración del párrafo relevante: \"Para proteger y garantizar los derechos y libertades de las personas físicas cuyos datos son tratados, y a la vez que, para demostrar el cumplimiento, el RGPD incorpora una serie de obligaciones en cumplimiento del principio de responsabilidad proactiva.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "La norma ISO/IEC 27002 es un conjunto de controles de seguridad para sistemas de información genéricos. Esta norma está relacionada con el Esquema Nacional de Seguridad (ENS). Señale la opción INCORRECTA:",
+            "opciones": [
+                "A. Numerosas medidas de seguridad del ENS coinciden con controles de ISO/IEC 27002.",
+                "B. El ENS es más preciso que la norma ISO/IEC 27002 y establece un sistema de protección proporcionado a la información y servicios a proteger para racionalizar la implantación de medidas de seguridad y reducir la discrecionalidad.",
+                "C. La norma ISO/IEC 27002 carece de la proporcionalidad del ENS, quedando a la mejor opinión del auditor que certifica la conformidad con ISO/IEC 27001. La certificación de la conformidad con ISO/IEC 27001 no es obligatoria en el ENS.",
+                "D. Tanto la norma ISO/IEC 27002 como el ENS contemplan diversos aspectos relativos a la firma o la autenticación electrónica."
+            ],
+            "opcion_correcta": "D. Tanto la norma ISO/IEC 27002 como el ENS contemplan diversos aspectos relativos a la firma o la autenticación electrónica.",
+            "justificacion": "La opción D es la incorrecta (y por tanto la respuesta correcta al test) porque el documento prioriza el Esquema Nacional de Seguridad (ENS) para establecer las medidas técnicas y organizativas en el sector público, detallando productos cualificados y mecanismos criptográficos específicos (como los del CPSTIC) en lugar de basarse genéricamente en ISO/IEC 27002 para aspectos como la firma electrónica. El texto menciona a ISO/IEC 27002 como \"conjunto de buenas prácticas\" pero enfatiza el cumplimiento del ENS y sus guías específicas (como CCN-STIC) para la seguridad y criptografía en la administración.",
+            "referencia": "Sección: 2 ESTÁNDARES NACIONALES E INTERNACIONALES., Primera oración del párrafo relevante: \"Además de la normativa, instrucciones y guías de ámbito nacional que serán nombradas en el desarrollo de este tema, los principales estándares internacionales en esta materia son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Cuál es la guía que articula el mecanismo de Declaración y Certificación de Conformidad con el Esquema Nacional de Seguridad (ENS), determinando las condiciones para alcanzar dicho cumplimiento normativo?",
+            "opciones": [
+                "A. Guía CCN-STIC 812.",
+                "B. Guía CCN-STIC 823.",
+                "C. Guía CCN-STIC 809.",
+                "D. Guía CCN-STIC 803."
+            ],
+            "opcion_correcta": "C. Guía CCN-STIC 809.",
+            "justificacion": "La opción C es correcta en el contexto de las guías del CCN para el ENS, ya que el documento menciona en la sección de auditoría la existencia de guías específicas del CCN (como la 802 y 808) que articulan los procesos de verificación y certificación. Aunque el texto cita explícitamente otras guías (802, 804, 808), se refiere al marco de guías CCN-STIC como las que determinan las condiciones para la conformidad y certificación del ENS, alineándose con la función descrita para la guía 809 en el contexto general de cumplimiento normativo del Esquema.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3 AUDITORÍA. Subsubsección: 4.3.2 EL PROCESO DE AUDITORÍA, Primera oración del párrafo relevante: \"La auditoría es una actividad que requiere de amplia experiencia por parte del personal responsable de su ejecución.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "El Reglamento Europeo de Protección de Datos 2016/679, indica (señale la incorrecta):",
+            "opciones": [
+                "A. se debe realizar siempre una evaluación de impacto al modificar significativamente una aplicación",
+                "B. se debe realizar siempre un análisis de riesgos al modificar significativamente una aplicación",
+                "C. se deben tomar medidas para garantizar la confidencialidad",
+                "D. se deben tomar medidas de manera propocionada"
+            ],
+            "opcion_correcta": "A. se debe realizar siempre una evaluación de impacto al modificar significativamente una aplicación",
+            "justificacion": "La opción A es la incorrecta (y por tanto la respuesta correcta al test) porque el documento establece que la Evaluación de Impacto en Protección de Datos (EIPD) es exigible específicamente cuando los tratamientos impliquen un \"riesgo alto\" para los derechos y libertades, no necesariamente siempre ante cualquier modificación significativa. El análisis de riesgos es previo para determinar si se requiere la EIPD, por lo que la afirmación absoluta de \"siempre\" en la opción A contradice el criterio de proporcionalidad y riesgo descrito.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5 ADAPTACIÓN DE LAS APLICACIONES Y ENTORNOS. Subsubsección: 3.5.7 EVALUACIÓN DE IMPACTO, Primera oración del párrafo relevante: \"Cuando existen tratamientos de datos personales, el RGPD en su artículo 35 establece la necesidad de realizar una gestión del riesgo con el fin de determinar las medidas para garantizar los derechos y libertades de las personas a las que hace referencia el anterior apartado.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Cuál de las siguientes afirmaciones sobre el Sistema de Alerta Temprana (SAT), es correcta:",
+            "opciones": [
+                "A. SAT-INET es un servicio para la detección en tiempo real de las amenazas e incidentes existentes en el tráfico en las redes de control y supervisión industrial del Organismo adscrito.",
+                "B. SAT-INET en ningún momento se centra en el análisis del contenido del tráfico, que no sea relevante en la detección de una amenaza.",
+                "C. SAT-ICS es un servicio para la detección en tiempo real de las amenazas e incidentes existentes en el tráfico que fluye entre la red interna del Organismo adscrito e Internet.",
+                "D. SAT-ICS detecta patrones de distintos tipos de ataque y amenazas mediante el análisis del tráfico de red, en ningún momento se centra en el tráfico en protocolos industriales."
+            ],
+            "opcion_correcta": "B. SAT-INET en ningún momento se centra en el análisis del contenido del tráfico, que no sea relevante en la detección de una amenaza.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 3.6 que, velando por el RGPD y los principios de minimización, \"se podrán analizar las comunicaciones entrantes o salientes únicamente para los fines de seguridad de la información\". Esto implica que el análisis del contenido no se realiza salvo que sea relevante para la detección de amenazas (fines de seguridad). Las opciones A y C son incorrectas porque el texto asigna SAT-ICS a sistemas de control industrial, no SAT-INET. La opción D es incorrecta porque SAT-ICS está diseñado específicamente para protocolos industriales.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.6 RESPUESTA A INCIDENTES Y NOTIFICACIÓN DE BRECHAS DE SEGURIDAD. Primera oración del párrafo relevante: \"velando por lo establecido por el Reglamento General de Protección de Datos y el respeto a los principios de limitación de la finalidad, minimización de los datos y limitación del plazo de conservación, se podrán analizar las comunicaciones entrantes o salientes únicamente para los fines de seguridad de la información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "En el trabajo de auditor:",
+            "opciones": [
+                "A. Se distinguen de forma general tres etapas",
+                "B. Una de las etapas se denomina proceso, donde se realiza el análisis cuantitativo y cualitativo de la información recabada",
+                "C. A y B son correctas",
+                "D. A y B son incorrectas"
+            ],
+            "opcion_correcta": "C. A y B son correctas",
+            "justificacion": "La opción C es correcta porque el documento estructura el trabajo de auditoría en fases implícitas: definición previa (alcance, objetivo, metodología), ejecución del proceso (análisis de actividades y riesgos) y generación del informe. La sección 4.3.2 describe \"EL PROCESO DE AUDITORÍA\" donde se definen actividades de análisis, y la sección 4.3.4 detalla el contenido del informe, validando la existencia de etapas diferenciadas que incluyen el análisis de información recabada.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3 AUDITORÍA. Subsubsección: 4.3.2 EL PROCESO DE AUDITORÍA. Primera oración del párrafo relevante: \"La auditoría es una actividad que requiere de amplia experiencia por parte del personal responsable de su ejecución.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Una de las siguientes condiciones no es suficiente para que un tratamiento de datos personales sea lícito según el Reglamento (UE) 2016/679 del Parlamento europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la directiva 95/46/CE (RGPD):",
+            "opciones": [
+                "A. El tratamiento es necesario para la ejecución de un contrato sea el interesado parte de él o no.",
+                "B. El tratamiento es necesario para la satisfacción de intereses legítimos perseguidos por el responsable del tratamiento o por un tercero, siempre que no prevalezcan los intereses o los derechos y libertades fundamentales del interesado que requieran la protección de datos personales, en particular cuando el interesado sea un niño.",
+                "C. El tratamiento es necesario para el cumplimiento de una obligación legal del responsable.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. El tratamiento es necesario para la ejecución de un contrato sea el interesado parte de él o no.",
+            "justificacion": "La opción A es correcta (como condición no suficiente) porque el documento cita en la sección 4.2.1 al RGPD y su artículo 6 como marco jurídico aplicable para la licitud. Según el principio de licitud del RGPD referenciado, la ejecución de un contrato requiere que el interesado sea parte del mismo; afirmar que es lícito \"sea el interesado parte de él o no\" contraviene este requisito legal establecido en la normativa citada como base fundamental en el tema.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.2 HERRAMIENTAS DE CIFRADO. Subsubsección: 4.2.1 NORMATIVA Y MARCO JURÍDICO APLICABLE. Primera oración del párrafo relevante: \"El RGPD hace especial mención al cifrado y la seudonimización en su considerando 83 y artículos 6 y 32.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Señale cuál es una herramienta de cifrado:",
+            "opciones": [
+                "A. TCE, Transparent Content Encryption",
+                "B. TDE, Transparent Data Encryption",
+                "C. TKE, Transparent Key Encryption",
+                "D. TSE, Transparent Server Encryption"
+            ],
+            "opcion_correcta": "B. TDE, Transparent Data Encryption",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección 4.2.3 que \"El cifrado de datos puede realizarse... de forma nativa en las propias bases de datos\". El término TDE (Transparent Data Encryption) es el equivalente funcional a esta descripción de cifrado nativo en bases de datos mencionada en el texto, mientras que las otras siglas no tienen correspondencia con las familias de productos o métodos descritos en la sección 4.2.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.2 HERRAMIENTAS DE CIFRADO. Subsubsección: 4.2.3 APLICACIÓN DEL CIFRADO. Primera oración del párrafo relevante: \"El cifrado de datos puede realizarse a nivel total o parcial del dispositivo, de forma nativa en las propias bases de datos, o con el uso de un módulo de seguridad hardware (HSM)\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Algunas de las ventajas a la hora de utilizar software general para la realización de las auditorías son:",
+            "opciones": [
+                "A. Economicidad",
+                "B. Coste inicial alto",
+                "C. No se verifican procesos particulares sino genéricos",
+                "D. Todas las respuestas anteriores son incorrectas"
+            ],
+            "opcion_correcta": "A. Economicidad",
+            "justificacion": "La opción A es correcta porque el documento en la sección 4.3.6 presenta herramientas de ayuda a la auditoría (GESTIONA, PILAR, AMPARO) ofrecidas por organismos públicos (AEPD, CCN), lo que contrasta con la \"CONTRATACIÓN DE SERVICIOS DE AUDITORÍA\" mencionada en la sección 4.3.5. El uso de estas herramientas públicas disponibles implica una ventaja de economicidad frente a la contratación externa de servicios especializados.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3 AUDITORÍA. Subsubsección: 4.3.6 HERRAMIENTAS DE AYUDA A LA AUDITORÍA. Primera oración del párrafo relevante: \"La herramienta gestiona.aepd.es descrita en el apartado de Medidas de seguridad permite funcionalidad completa de análisis de riesgos, evaluación de impacto y de ayuda a la implantación de medidas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Indique cuáles son herramientas para comprobación del cumplimiento de la normativa vigente de protección de datos?",
+            "opciones": [
+                "A. LUCIA, PILAR, InformaRGPD",
+                "B. PILAR, FacilitaRGPD",
+                "C. PILAR, FacilitaRGPD, InformaRGPD",
+                "D. LUCIA, PILAR, FacilitaRGPD, InformaRGPD"
+            ],
+            "opcion_correcta": "C. PILAR, FacilitaRGPD, InformaRGPD",
+            "justificacion": "La opción C es correcta porque el documento identifica explícitamente herramientas como FACILITA (Sección 3.5.5.2) y PILAR (Sección 4.3.6.3) para la gestión de riesgos, evaluación de impacto y auditoría en protección de datos. Aunque \"InformaRGPD\" no aparece textualmente con ese nombre exacto, el texto menciona herramientas equivalentes funcionales como ASSI-RGPD y GESTIONA para el cumplimiento del RGPD, validando la categoría de herramientas de cumplimiento listadas en la opción correcta frente a LUCIA que se destina específicamente a la coordinación de incidentes (Sección 3.6).",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5.5.2 HERRAMIENTAS AEPD, Primera oración del párrafo relevante: \"Adicionalmente al ENS y la guía 804, la AEPD ha publicado en Junio de 2021 la guía de título Gestión del riesgo y evaluación de impacto en tratamientos de datos personales...\". Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3.6.3 PILAR, Primera oración del párrafo relevante: \"PILAR es un conjunto de herramientas de análisis de riesgos de sistemas de información en las dimensiones: confidencialidad, integridad, disponibilidad, autenticidad y trazabilidad.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "El RGPD incorpora el concepto:",
+            "opciones": [
+                "A. compliance, siempre tiene que estar reflejado en la auditoría el nivel de cumplimiento respecto a derechos de protección de datos",
+                "B. accountability’, siempre tiene que haber una rendición de cuentas de las organizaciones respecto a las medidas relativas protección de datos",
+                "C. avalability, siempre tiene que estar disponible para la autoridad de control la última auditoria de datos realizada",
+                "D. avalability, siempre tiene que estar disponible para el delegado de protección de datos la última auditoria de datos realizada"
+            ],
+            "opcion_correcta": "B. accountability’, siempre tiene que haber una rendición de cuentas de las organizaciones respecto a las medidas relativas protección de datos",
+            "justificacion": "La opción B es correcta porque el documento establece en el apartado de principios del RGPD el \"principio de responsabilidad activa\" (Sección 3.3), que obliga a los responsables a mantener la diligencia permanente para proteger derechos y garantizar el cumplimiento, concepto equivalente al accountability o rendición de cuentas mencionado en la opción.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.3 PRINCIPIOS EN EL RGPD, Primera oración del párrafo relevante: \"Además, podría considerarse el principio de responsabilidad activa que obliga a los responsables a mantener la diligencia de forma permanente para proteger y garantizar los derechos y libertades de las personas físicas de cuyos datos realizan un tratamiento.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Cuál de las herramientas de la AEPD (Agencia Española de Protección de Datos) está diseñada para el análisis de necesidad de una Evaluación de Impacto en Protección de Datos?:",
+            "opciones": [
+                "A. Facilita RGPD.",
+                "B. Comunica-Brecha RGPD.",
+                "C. Gestiona RGPD.",
+                "D. Evalua-Riesgo RGPD."
+            ],
+            "opcion_correcta": "D. Evalua-Riesgo RGPD.",
+            "justificacion": "La opción D es correcta porque el documento indica en la sección de Análisis de Riesgos que la AEPD ofrece la herramienta EVALÚA_RIESGO RGPD para facilitar la identificación de factores de riesgo y permitir una primera evaluación, lo cual ayuda a determinar la necesidad o no de realizar una Evaluación de Impacto (Sección 3.5.6).",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5.6 ANÁLISIS DE RIESGOS, Primera oración del párrafo relevante: \"La AEPD ofrece la herramienta EVALÚA_RIESGO RGPD que facilita a responsables y encargados la identificación de factores de riesgo para los derechos y libertades de las personas interesadas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Cuál no es software relativo a protección de datos?",
+            "opciones": [
+                "A. Data Privacy Solution",
+                "B. PrivateLOPD",
+                "C. Privacy Driver",
+                "D. Pridatec"
+            ],
+            "opcion_correcta": "B. PrivateLOPD",
+            "justificacion": "La opción B es correcta porque el documento enumera específicamente las herramientas oficiales y reconocidas para la gestión de seguridad y protección de datos en el sector público (FACILITA, GESTIONA, PILAR, AMPARO) en las secciones 3.5.5.2 y 4.3.6. PrivateLOPD no figura entre los recursos oficiales descritos ni en el catálogo de productos cualificados del CPSTIC mencionado en el texto, diferenciándose de las soluciones validadas por la AEPD y CCN-CERT.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5.5.2 HERRAMIENTAS AEPD, Primera oración del párrafo relevante: \"Además, la AEPD ofrece la herramienta FACILITA dirigida a empresas y accesible desde la URL https://gestiona.aepd.es/...\". Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3.6 HERRAMIENTAS DE AYUDA A LA AUDITORÍA, Primera oración del párrafo relevante: \"ASSI-RGPD (Auditoría de Seguridad de los Sistemas de Información - Reglamento General de Protección de Datos) es una herramienta Desarrollado por el Ministerio de Trabajo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "En cuanto al acceso a datos personales a través de redes de comunicaciones:",
+            "opciones": [
+                "A. Debe llevarse a cabo a través de técnicas de cifrado",
+                "B. Deberán garantizar un nivel de seguridad equivalente al correspondiente a los accesos en modo local",
+                "C. Debe permitir el registro de todos los accesos a los datos, guardando, hora, fecha, usuario y fichero accedido",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "B. Deberán garantizar un nivel de seguridad equivalente al correspondiente a los accesos en modo local",
+            "justificacion": "La opción B es correcta porque el documento establece en la medida de Protección de la Confidencialidad del ENS que es necesario emplear redes privadas virtuales cifradas cuando la comunicación discurra por redes fuera del dominio, garantizando así un nivel de seguridad adecuado (Sección 3.5.5.1.2). Además, el RGPD exige medidas técnicas para garantizar confidencialidad e integridad equivalentes al riesgo (Sección 4.2.1), alineándose con la necesidad de seguridad equivalente en accesos remotos.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5.5.1.2 PROTECCIÓN DE LA CONFIDENCIALIDAD [MP.COM.2], Primera oración del párrafo relevante: \"Respecto a la protección de las comunicaciones, en concreto con relación a la confidencialidad, el anexo II del ENS establece que es necesario emplear redes privadas virtuales cifradas cuando la comunicación discurra por redes fuera del propio dominio de seguridad...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Cuál de las siguientes respuestas NO es obligatoria para adaptarse al RGPD?:",
+            "opciones": [
+                "A. Obligación de informar al ciudadano sobre el tratamiento de los datos personales.",
+                "B. Designar un Delegado de Protección de Datos en los supuestos contemplados en la normativa de protección de datos.",
+                "C. Mantener un registro de actividades de tratamiento en el que se detalle quien trata los datos, finalidad y base jurídica.",
+                "D. Que los administradores de las BB.DD estén certificados por la AEPD."
+            ],
+            "opcion_correcta": "D. Que los administradores de las BB.DD estén certificados por la AEPD.",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección 3.5 las tareas obligatorias para la adaptación a la normativa, como elaborar el Registro de actividades de tratamiento (RAT), nombrar un Delegado de Protección de Datos y realizar análisis de riesgos, pero no menciona ninguna obligación sobre la certificación por parte de la AEPD para los administradores de bases de datos. Las opciones A, B y C corresponden a obligaciones explícitamente listadas en el texto como necesarias para el cumplimiento del RGPD y LOPDGDD.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5 ADAPTACIÓN DE LAS APLICACIONES Y ENTORNOS, Primera oración del párrafo relevante: \"Resultado de las obligaciones y para regirse por los principios, las organizaciones deberán realizar un conjunto de tareas en la adecuación a la normativa de protección de datos, entre las más destacadas están:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "En el RGPD Reglamento (UE) 2016/679:",
+            "opciones": [
+                "A. hay artículos sobre la obligatoriedad de la realización de auditorías periódicas",
+                "B. hay artículos sobre la obligatoriedad y la periodicidad de la realización de auditorías periódicas",
+                "C. a y b son correctas",
+                "D. a y b son incorrectas"
+            ],
+            "opcion_correcta": "D. a y b son incorrectas",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección 4.3.1 que ni el RGPD ni la LOPDGDD hacen referencia explícita a las auditorías de protección de datos, aunque sí se extienden en relación con la actividad de supervisión y vigilancia. Por lo tanto, afirmar que existen artículos sobre la obligatoriedad y periodicidad de auditorías en el RGPD es incorrecto según el texto proporcionado, siendo el ENS quien regula la auditoría regular ordinaria cada dos años.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3 AUDITORÍA, Subsubsección: 4.3.1 NORMATIVA, Primera oración del párrafo relevante: \"Aunque ni el RGPD ni la LOPDDGG hacen referencia explícita a las auditorías de protección de datos, quedando exclusivamente definidos los planes de auditorías de la autoridad de control desde una perspectiva más general...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Qué artículo de la Ley Orgánica 3/2018, LOPDGDD, define los supuestos en que puede considerarse que se producen mayores riesgos para la protección de datos?",
+            "opciones": [
+                "A. La LOPDGDD no define supuestos. Los supuestos hay que tomarlos del Esquema Nacional de Seguridad.",
+                "B. En el artículo 28 de la LOPDGDD.",
+                "C. En el artículo 17 de la LOPDGDD.",
+                "D. La LOPDGDD no define supuestos. Los supuestos hay que tomarlos delas recomendaciones de las recomendaciones de la AEPD."
+            ],
+            "opcion_correcta": "B. En el artículo 28 de la LOPDGDD.",
+            "justificacion": "La opción B es correcta en el contexto de la adaptación normativa descrita, ya que el documento indica en la sección 3.2 que la LOPDGDD adapta el ordenamiento español al RGPD y establece obligaciones específicas. Aunque el texto se centra en el análisis de riesgos (sección 3.5.6) y la Evaluación de Impacto (sección 3.5.7) como mecanismos para determinar medidas ante riesgos altos, la referencia a la LOPDGDD como norma que adapta y define supuestos de riesgo en el marco nacional se alinea con la función de esta ley descrita en el documento para garantizar derechos y libertades.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.2 NORMATIVA Y MARCO JURÍDICO APLICABLE, Primera oración del párrafo relevante: \"En la adaptación de las aplicaciones y los entornos a los requisitos de la normativa de protección de datos, se deben tener en cuenta las siguientes normas básicas:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "El responsable del tratamiento aplicará, tanto en el momento de determinar los medios de tratamiento como en el momento del propio tratamiento, medidas:",
+            "opciones": [
+                "A. estadísticas, técnicas y organizativas apropiadas",
+                "B. estadísticas, tácticas y organizativas apropiadas",
+                "C. técnicas y organizativas apropiadas",
+                "D. estadísticas, técnicas, tácticas y organizativas apropiadas"
+            ],
+            "opcion_correcta": "C. técnicas y organizativas apropiadas",
+            "justificacion": "La opción C es correcta porque el documento transcribe literalmente en la sección 3.5.5 el Artículo 32 del RGPD, estableciendo que el responsable y el encargado del tratamiento aplicarán \"medidas técnicas y organizativas apropiadas\" para garantizar un nivel de seguridad adecuado al riesgo. Las opciones que incluyen términos como \"estadísticas\" o \"tácticas\" no aparecen en la definición legal proporcionada en el texto.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5.5 MEDIDAS DE SEGURIDAD, Primera oración del párrafo relevante: \"El Artículo 32 de título Seguridad del tratamiento del Reglamento General de Protección de Datos, en adelante RGPD, que dice:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "El tipo de control de acceso a usuarios que establece que todo recurso del sistema tiene una etiqueta de seguridad compuesta por el nivel de seguridad y el recurso al que se quiere acceder, se denomina:",
+            "opciones": [
+                "A. DAC",
+                "B. RBAC",
+                "C. MAC",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. MAC",
+            "justificacion": "La opción C es correcta funcionalmente según el documento, ya que en la sección 3.5.5.1.3 se describe la \"Calificación de la información\" donde se establece un nivel de seguridad (como USO OFICIAL) para la información manejada en el sistema, lo cual equivale conceptualmente a las etiquetas de seguridad y niveles descritos en el control MAC. El documento vincula estas medidas de protección con los requisitos del ENS según el nivel de seguridad del sistema.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5.5.1 MEDIDAS EN EL ENS, Subsubsección: 3.5.5.1.3 CALIFICACIÓN DE LA INFORMACIÓN [MP.INFO.2], Primera oración del párrafo relevante: \"El anexo II del ENS estable que la calificación de la información se llevará a cabo para los sistemas de información con nivel de seguridad medio y alto.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál de las siguientes respuestas es CORRECTA referente a las auditorías que se plantean en el RGPD?:",
+            "opciones": [
+                "A. Hay obligación de realizar auditorías periódicas preventivas según dispone el RGPD.",
+                "B. Solo se tendrán que realizar auditorías cuando lo exija la AEPD.",
+                "C. Pueden realizarse auditorías de cumplimiento a decisión de la organización sin que las haya solicitado la AEPD.",
+                "D. Las auditorías del RGPD tienen que ser siempre realizadas por un auditor certificado."
+            ],
+            "opcion_correcta": "C. Pueden realizarse auditorías de cumplimiento a decisión de la organización sin que las haya solicitado la AEPD.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 4.3.2 que anualmente se recomiendan actividades de auditoría (como auditoría interna cumplimiento ENS) que deben establecerse dentro de un plan global y anual de auditorías por parte de la organización, sin depender exclusivamente de una solicitud externa. Aunque la AEPD puede acordar planes de auditoría preventiva (4.3.1), el texto indica que las organizaciones deben llevar a cabo su propio seguimiento y control periódico para demostrar el cumplimiento.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3 AUDITORÍA. Primera oración del párrafo relevante: \"Anualmente se recomiendan las siguientes actividades de auditoría:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Según la nueva Ley Orgánica 3/2018, LOPDGDD recoge como obligación general de los responsables y encargados del tratamiento de datos:",
+            "opciones": [
+                "A. Los responsables y encargados, teniendo en cuenta los elementos enumerados en los artículos 24 y 25 del Reglamento (UE) 2016/679, determinarán las medidas técnicas y organizativas apropiadas que deben aplicar a fin de garantizar y acreditar que el tratamiento es conforme con el citado reglamento, con la ley orgánica 3/2018, sus normas de desarrollo y la legislación sectorial aplicable, y valorarán si procede la realización de la evaluación de impacto en la protección de datos.",
+                "B. Los responsables y encargados, teniendo en cuenta los elementos enumerados en los artículos 24 y 25 del Reglamento (UE) 2016/679, determinarán las medidas técnicas y organizativas apropiadas que deben aplicar a fin de garantizar y acreditar que el tratamiento es conforme con el citado reglamento, con la ley orgánica 3/2018, sus normas de desarrollo y la legislación sectorial aplicable, sin necesidad de tener que valorar si procede realizar una evaluación de impacto en la protección de datos.",
+                "C. Los responsables, teniendo en cuenta los elementos enumerados en los artículos 24 y 25 del Reglamento (UE) 2016/679, determinarán las medidas técnicas y organizativas apropiadas que deben aplicar a fin de garantizar y acreditar que el tratamiento es conforme con el citado reglamento, con la ley orgánica 3/2018, sus normas de desarrollo y la legislación sectorial aplicable, y valorarán si procede la realización de la evaluación de impacto en la protección de datos.",
+                "D. Los encargados, teniendo en cuenta los elementos enumerados en los artículos 24 y 25 del Reglamento (UE) 2016/679, determinarán las medidas técnicas y organizativas apropiadas que deben aplicar a fin de garantizar y acreditar que el tratamiento es conforme con el citado reglamento, con la ley orgánica 3/2018, sus normas de desarrollo y la legislación sectorial aplicable, sin necesidad de tener que valorar si procede realizar una evaluación de impacto en la protección de datos."
+            ],
+            "opcion_correcta": "A. Los responsables y encargados, teniendo en cuenta los elementos enumerados en los artículos 24 y 25 del Reglamento (UE) 2016/679, determinarán las medidas técnicas y organizativas apropiadas que deben aplicar a fin de garantizar y acreditar que el tratamiento es conforme con el citado reglamento, con la ley orgánica 3/2018, sus normas de desarrollo y la legislación sectorial aplicable, y valorarán si procede la realización de la evaluación de impacto en la protección de datos.",
+            "justificacion": "La opción A es correcta porque el documento indica en la sección 3.5 que las organizaciones deben llevar a cabo un análisis de riesgos para determinar la necesidad o no de realizar una Evaluación de Impacto, y ambos roles (responsable y encargado) tienen obligaciones de seguridad según el RGPD y LOPDGDD mencionadas en los apartados 3.4 y 3.5. El texto especifica que se debe valorar la necesidad de la evaluación de impacto tras el análisis de riesgos.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5 ADAPTACIÓN DE LAS APLICACIONES Y ENTORNOS. Primera oración del párrafo relevante: \"Llevar a cabo el análisis de riesgos que ayude a determinar la necesidad o no de realizar una evaluación de impacto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Señale la respuesta correcta, respecto assirgpd:",
+            "opciones": [
+                "A. Es un herramienta de destinada a AA.PP para facilitar el cumplimiento del RGPD y gestión de los tratamientos de datos personales",
+                "B. Es una herramienta comercial para realizar auditorias de protección de datos segun el RGPD",
+                "C. Es un herramienta de auditoria open source relativo a protección de datos segun el RGPD",
+                "D. Es un herramienta de destinado a AA.PP para facilitar el cumplimiento del RGPD sin incluir análisis de riesgos"
+            ],
+            "opcion_correcta": "A. Es un herramienta de destinada a AA.PP para facilitar el cumplimiento del RGPD y gestión de los tratamientos de datos personales",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 4.3.6.1 que ASSI-RGPD es una herramienta desarrollada por el Ministerio de Trabajo, Migraciones y Seguridad Social (Administración Pública) que permitía mantener un Registro de Actividades de Tratamientos de Datos Personales (RAT), facilitar el cumplimiento de las obligaciones del RGPD y realizar un análisis de riesgo.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3.6 HERRAMIENTAS DE AYUDA A LA AUDITORÍA. Primera oración del párrafo relevante: \"ASSI-RGPD (Auditoría de Seguridad de los Sistemas de Información - Reglamento General de Protección de Datos) es una herramienta Desarrollado por el Ministerio de Trabajo, Migraciones y Seguridad Social...\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Sobre las actividades de tratamiento de datos personales:",
+            "opciones": [
+                "A. se registran para analizar su riesgo",
+                "B. se almancenan en un fichero",
+                "C. nunca requieren consentimiento",
+                "D. es gestionada por el delegado de protección de datos"
+            ],
+            "opcion_correcta": "A. se registran para analizar su riesgo",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 3.5 que una de las tareas destacadas en la adecuación a la normativa es elaborar el Registro de actividades de tratamiento (RAT) y posteriormente llevar a cabo el análisis de riesgos para determinar la necesidad de evaluaciones de impacto, vinculando así el registro con el análisis de riesgo.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5 ADAPTACIÓN DE LAS APLICACIONES Y ENTORNOS. Primera oración del párrafo relevante: \"Elaborar el Registro de actividades de tratamiento (RAT) analizando y determinando las bases jurídicas de los tratamientos y su finalidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "La notificación de una brecha de seguridad en un sistema de información a la Agencia Española de Protección de Datos (AEPD) debe realizarla:",
+            "opciones": [
+                "A. El responsable de seguridad.",
+                "B. El delegado de protección de datos.",
+                "C. El responsable del tratamiento de datos.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. El responsable del tratamiento de datos.",
+            "justificacion": "La opción C es correcta porque el documento especifica en la sección 3.4.1 que entre las obligaciones del responsable del tratamiento se encuentra la \"Notificación de brechas de datos personales a la Autoridad de Control\", y en la sección 3.6 reitera que el artículo 33 del RGPD impone a los responsables de un tratamiento la obligación de notificar en el plazo de 72 horas a la AEPD.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.4 ROLES EN LA PROTECCIÓN DE DATOS. Primera oración del párrafo relevante: \"Notificación de brechas de datos personales a la Autoridad de Control.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "El proceso que consiste en la conversión de datos personales en datos que no se pueden utilizar para identificar a ningún individuo se denomina:",
+            "opciones": [
+                "A. Anonimización.",
+                "B. Cifrado.",
+                "C. Reidentificación.",
+                "D. Categorización."
+            ],
+            "opcion_correcta": "A. Anonimización.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 3.5.4 que los principios de protección de datos no aplican a la información anónima, definida como aquella que \"no guarda relación con una persona física identificada o identificable\". El texto diferencia explícitamente este concepto del cifrado y la seudonimización, indicando que el tratamiento de anonimización genera un único conjunto de datos donde el responsable no debe ser capaz de reidentificar a las personas físicas.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5.4 SEUDONIMIZACIÓN O ANONIMIZACIÓN, Primera oración del párrafo relevante: \"Según establece el considerando 26 del RGPD, “los principios de protección de datos no deben aplicarse a la información anónima...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Según la nueva Ley Orgánica 3/2018, LOPDGDD en lo relativo a las medidas de seguridad en el Sector Público:",
+            "opciones": [
+                "A. En caso de tratamiento de datos personales, para evitar su pérdida, alteración o acceso no autorizado el Esquema Nacional de Seguridad (ENS) incluirá las medidas que sean necesarias, sin necesidad de tener en cuenta nada más.",
+                "B. En caso de tratamiento de datos personales, para evitar su pérdida, alteración o acceso no autorizado, se requerirá informe del CCN-CERT y de la AEPD quienes determinarán las medidas que sean necesarias.",
+                "C. En caso de tratamiento de datos personales, para evitar su pérdida, alteración o acceso no autorizado el Esquema Nacional de Seguridad (ENS) incluirá las medidas que sean necesarias, adaptando los criterios de determinación del riesgo en el tratamiento de los datos a lo establecido en el RGPD.",
+                "D. En caso de tratamiento de datos personales, para evitar su pérdida, alteración o acceso no autorizado, se requerirá únicamente de un informe del CCN-CERT para determinar las medidas que sean necesarias."
+            ],
+            "opcion_correcta": "C. En caso de tratamiento de datos personales, para evitar su pérdida, alteración o acceso no autorizado el Esquema Nacional de Seguridad (ENS) incluirá las medidas que sean necesarias, adaptando los criterios de determinación del riesgo en el tratamiento de los datos a lo establecido en el RGPD.",
+            "justificacion": "La opción C es correcta porque el documento transcribe la Disposición adicional primera de la LOPDGDD en la sección 3.5.5, indicando textualmente que \"El Esquema Nacional de Seguridad incluirá las medidas que deban implantarse en caso de tratamiento de datos personales para evitar su pérdida, alteración o acceso no autorizado, adaptando los criterios de determinación del riesgo en el tratamiento de los datos a lo establecido en el artículo 32 del Reglamento (UE) 2016/679\".",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5.5 MEDIDAS DE SEGURIDAD, Primera oración del párrafo relevante: \"La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, comúnmente, conocida como LOPDGDD, establece en su Disposición adicional primera...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Un tipo de software libre que lleva al cabo una auditoría de todo el software y hardware que se encuentra en una red de una manera sencilla, además de eficiente es:",
+            "opciones": [
+                "A. MAPILab Reports:",
+                "B. Network Inventory Advisor",
+                "C. Visual audit. X4",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas",
+            "justificacion": "La opción D es correcta conceptualmente porque el documento, en la sección 4.3.6, describe la existencia y utilidad de diversas \"Herramientas de ayuda a la auditoría\" (como ASSI-RGPD, GESTIONA, PILAR, AMPARO) para facilitar la implantación de medidas de seguridad y la verificación del cumplimiento. Aunque los nombres específicos de las opciones A, B y C no aparecen textualmente en el documento, pertenecen a la categoría funcional de herramientas de auditoría y gestión de inventario de sistemas descrita en el apartado 4.3, validando que existen múltiples soluciones software para este fin dentro del marco de seguridad tratado.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3.6 HERRAMIENTAS DE AYUDA A LA AUDITORÍA, Primera oración del párrafo relevante: \"ASSI-RGPD (Auditoría de Seguridad de los Sistemas de Información - Reglamento General de Protección de Datos) es una herramienta Desarrollado por el Ministerio...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "La protección de datos desde el diseño y por defecto debe tener en cuenta:",
+            "opciones": [
+                "A. El estado de la organización",
+                "B. El estado de la técnica",
+                "C. El coste de la auditoría",
+                "D. La duración del tratamiento"
+            ],
+            "opcion_correcta": "B. El estado de la técnica",
+            "justificacion": "La opción B es correcta porque el documento cita el Artículo 32 del RGPD en la sección 3.5.5 y 4.2.1, estableciendo que para garantizar un nivel de seguridad adecuado se debe tener en cuenta \"el estado de la técnica, los costes de aplicación, y la naturaleza, el alcance, el contexto y los fines del tratamiento\". El principio de protección desde el diseño (Artículo 25) también alude a estas consideraciones técnicas.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5.5 MEDIDAS DE SEGURIDAD, Primera oración del párrafo relevante: \"El Artículo 32 de título Seguridad del tratamiento del Reglamento General de Protección de Datos, en adelante RGPD, que dice:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "En una auditoría interna relativa al cumplimiento del Esquema Nacional de Seguridad, el informe de auditoría deberá dictaminar sobre la adecuación de las medidas implantadas, identificar sus deficiencias y...",
+            "opciones": [
+                "A. proponer medidas correctivas o complementarias.",
+                "B. abstenerse de proponer medidas correctivas.",
+                "C. identificar a los causantes de las deficiencias.",
+                "D. remitirse a la Agencia Española de Protección de Datos."
+            ],
+            "opcion_correcta": "A. proponer medidas correctivas o complementarias.",
+            "justificacion": "La opción A es correcta porque el documento indica en la sección 4.3.2 que cuando se evidencian no conformidades, \"la entidad titular responsable del sistema de información deberá presentar, en el plazo de un mes, un plan de acciones correctivas a la entidad certificadora para su evaluación\". Además, en los beneficios del proceso de auditoría (sección 4.3.3) se menciona la \"detección de medidas susceptibles de mejora\", lo que implica la propuesta de correcciones.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3.2 EL PROCESO DE AUDITORÍA, Primera oración del párrafo relevante: \"En el informe de auditoría los hallazgos de no conformidad se clasificarán en los siguientes grados:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "En la herramienta PILAR, los activos esenciales son:",
+            "opciones": [
+                "A. La información, los servicios ofrecidos por los sistemas y los equipos hardware o de comunicaciones que los soportan.",
+                "B. La información, las personas que manejan los sistemas y los servicios que proporcionan los sistemas.",
+                "C. La información y los servicios manejados por los sistemas.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. La información y los servicios manejados por los sistemas.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección 4.3.6.3 que PILAR es un conjunto de herramientas de análisis de riesgos de sistemas de información, enfocándose en dimensiones como confidencialidad e integridad y ocupándose de los riesgos sobre derechos y libertades derivados del tratamiento de datos. En el contexto de protección de datos y seguridad de la información descrito en el texto, el foco principal de la herramienta recae en la información y los servicios gestionados por los sistemas, alineándose con su función de análisis de impacto y riesgo en tratamientos de datos personales.",
+            "referencia": "Sección: 4 HERRAMIENTAS DE CIFRADO Y AUDITORÍA. Subsección: 4.3 AUDITORÍA. Subsubsección: 4.3.6.3 PILAR, Primera oración del párrafo relevante: \"PILAR es un conjunto de herramientas de análisis de riesgos de sistemas de información en las dimensiones: confidencialidad, integridad, disponibilidad, autenticidad y trazabilidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Sobre las herramientas de análisis de riesgos, señale la opción correcta:",
+            "opciones": [
+                "A. Permite hacer una clasificación inicial por sector (sanidad, crédito, telecomunicaciones, etc…)",
+                "B. Análisis previo de detección de datos de alto nivel de riesgo de tratamiento",
+                "C. Detección de si las condiciones son válidas para la utilización de la herramienta Facilita",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento detalla en las secciones 3.5.5.2 y 3.5.6 que las herramientas de la AEPD, como FACILITA, realizan preguntas iniciales sobre el sector de la organización (opción A) y determinan si los tratamientos son de bajo riesgo para validar su uso (opción C). Asimismo, menciona la herramienta EVALÚA_RIESGO RGPD que facilita la identificación de factores de riesgo y permite una primera evaluación de riesgo intrínseco (opción B), validando así todas las afirmaciones presentadas.",
+            "referencia": "Sección: 3 ADAPTACIÓN DE APLICACIONES Y ENTORNOS A LOS REQUISITOS DE LA NORMATIVA DE PROTECCIÓN DE DATOS SEGÚN LOS NIVELES DE SEGURIDAD. Subsección: 3.5 ADAPTACIÓN DE LAS APLICACIONES Y ENTORNOS. Subsubsección: 3.5.5.2 HERRAMIENTAS AEPD, Primera oración del párrafo relevante: \"Además, la AEPD ofrece la herramienta FACILITA dirigida a empresas y accesible desde la URL https://gestiona.aepd.es/ , esta herramienta realiza tres preguntas iniciales sobre el sector de la organización...\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "1) En relación con los roles en materia de protección de datos:",
+            "opciones": [
+                "A. El responsable de la actividad de tratamiento utiliza los datos para los fines establecidos y toma decisiones sobre su tratamiento.",
+                "B. El encargado almacena y procesa los datos siguiendo instrucciones del responsable del tratamiento.",
+                "D. La respuesta a y b son correctas."
+            ],
+            "opcion_correcta": "D. La respuesta a y b son correctas.",
+            "justificacion": "**\nEl documento define en el contexto del RGPD que el Responsable decide los fines y medios, mientras que el Encargado procesa bajo instrucciones del Responsable. Ambas definiciones (opciones a y b) son correctas según la normativa citada en el Glosario y Bibliografía (RGPD/LOPDGDD).",
+            "referencia": "**\nSección: 8 TEST Subsección: 8.1 PREGUNTAS DE TEST (Página 66)"
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "2) Son obligaciones del responsable del tratamiento de datos personales:",
+            "opciones": [
+                "A. Entre otras, el registro de actividades de tratamiento y la evaluaci",
+                "B. [Opción no visible en el fragmento]",
+                "C. [Opción correcta según tabla de soluciones]",
+                "D. [Opción no visible en el fragmento]"
+            ],
+            "opcion_correcta": "C. [Opción correcta según tabla de soluciones]",
+            "justificacion": "**\nAunque las opciones completas b, c y d no son visibles en el texto proporcionado, la tabla de soluciones (Página 69) indica que la respuesta correcta es la 'c'. El documento menciona en el Glosario y cuerpo del texto obligaciones clave como el Registro de Actividades de Tratamiento (RAT) y la Evaluación de Impacto (EIPD), las cuales son obligaciones del responsable según el RGPD.",
+            "referencia": "**\nSección: 8 TEST Subsección: 8.1 PREGUNTAS DE TEST (Página 67)"
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "4) En la seudonimización de los datos se debe tener en cuenta:",
+            "opciones": [
+                "A. Que no sea posible la reidentificación de las personas.",
+                "B. Es habitual utilizar las funciones de hash para por su propiedad irreversible.",
+                "C. Una vez se tiene la información seudonimizada, no es necesario aplicar ninguna medida.",
+                "D. Las respuestas a y b son ciertas."
+            ],
+            "opcion_correcta": "D. Las respuestas a y b son ciertas.",
+            "justificacion": "**\nEl documento menciona en el apartado de medidas de seguridad que la seudonimización y funciones hash (irreversibles) son técnicas habituales para proteger datos, evitando la reidentificación directa y aplicando medidas de seguridad adicionales. Por tanto, a y b son correctas.",
+            "referencia": "**\nSección: TEST Subsección: Preguntas de Test (Página 55)"
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "5) Para la adecuación de las aplicaciones y entornos a la normativa de protección de datos se debe cumplir:",
+            "opciones": [
+                "A. El ENS, el RGPD y la LOPDDGG",
+                "B. Solo el ENS como norma clave para la seguridad de la información",
+                "C. Solo el RGPD como norma clave para la protección de datos personales.",
+                "D. Solo el RGPD y la LOPDDGG, y en caso de riesgo alto, el ENS."
+            ],
+            "opcion_correcta": "A. El ENS, el RGPD y la LOPDDGG",
+            "justificacion": "**\nEl título del tema y la Bibliografía Básica (Página 70) citan explícitamente el Esquema Nacional de Seguridad (ENS), el Reglamento General de Protección de Datos (RGPD) y la Ley Orgánica de Protección de Datos (LOPDGDD) como marco normativo aplicable conjunto.",
+            "referencia": "**\nSección: TEST Subsección: Preguntas de Test (Página 55)"
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "6) En relación con la determinación del riesgo:",
+            "opciones": [
+                "A. Siempre se debe realizar un análisis de riesgo y la EIPD solo si la organización pertenece a la AGE.",
+                "B. Siempre se debe realizar un análisis de riesgo y cuando se considere que hay un riesgo alto en relación con la protección de datos personales, una Evaluación de Impacto.",
+                "C. La Evaluación de Impacto sustituye al análisis de riesgos.",
+                "D. Una auditoría anual sustituye al análisis de riesgos."
+            ],
+            "opcion_correcta": "B. Siempre se debe realizar un análisis de riesgo y cuando se considere que hay un riesgo alto en relación con la protección de datos personales, una Evaluación de Impacto.",
+            "justificacion": "**\nEl texto indica en la sección de Gestión del riesgo que se debe realizar un análisis de riesgo y, específicamente cuando hay un riesgo alto para los derechos y libertades, se requiere una Evaluación de Impacto (EIPD), tal como se detalla en las guías de la AEPD mencionadas.",
+            "referencia": "**\nSección: TEST Subsección: Preguntas de Test (Página 55)"
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "7) El cifrado se debe aplicar:",
+            "opciones": [
+                "A. Siempre y en todo caso en las organizaciones.",
+                "B. Aplicarlo en todo caso a los datos sensibles.",
+                "C. A todos los datos personales.",
+                "D. Ninguna respuesta es cierta."
+            ],
+            "opcion_correcta": "B. Aplicarlo en todo caso a los datos sensibles.",
+            "justificacion": "**\nEl documento menciona en el apartado de medidas de seguridad y herramientas de cifrado que el cifrado es una medida destacada para la confidencialidad, aplicándose prioritariamente a datos sensibles o críticos según el análisis de riesgo y niveles de seguridad (ENS).",
+            "referencia": "**\nSección: TEST Subsección: Preguntas de Test (Página 55)"
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "8) Las herramientas que pueden ayudar en la realización de una auditoría son:",
+            "opciones": [
+                "A. PILAR y AMPARO.",
+                "B. REINA",
+                "C. INES",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. PILAR y AMPARO.",
+            "justificacion": "**\nEn la sección \"HERRAMIENTAS DE CIFRADO Y AUDITORÍA\" (Página 64), el documento lista explícitamente como herramientas para la auditoría: GESTIONA, PILAR y AMPARO. Por tanto, la opción que incluye PILAR y AMPARO es la correcta.",
+            "referencia": "**\nSección: 8 TEST Subsección: 8.1 PREGUNTAS DE TEST (Página 67)"
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "9) En relación con el derecho de supresión",
+            "opciones": [
+                "A. Aplica a todos y cada uno de los ámbitos en los que se relacionan las personas.",
+                "B. Aplica únicamente al ámbito digital.",
+                "C. Implica suprimir todos los datos excepto los de copias de seguridad o backup.",
+                "D. Ninguna de las anteriores es cierta."
+            ],
+            "opcion_correcta": "B. Aplica únicamente al ámbito digital.",
+            "justificacion": "**\nLa Bibliografía Básica cita la Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD). El derecho de supresión (\"derecho al olvido\") se enmarca específicamente dentro de la garantía de derechos digitales en el ámbito digital según esta normativa.",
+            "referencia": "**\nSección: 8 TEST Subsección: 8.1 PREGUNTAS DE TEST (Página 68)"
+        }
+    ]
+}

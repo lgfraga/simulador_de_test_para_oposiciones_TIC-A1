@@ -1,0 +1,1695 @@
+{
+    "nombre_tema": "Tema 54",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Para realizar la actualización de los equipos cliente en un entorno seguro se utilizan herramientas que permiten actualizar los componentes de software de un sistema a su versión más reciente, de manera que, a la vez que se incorporan nuevas funcionalidades, se pueden corregir fallos o vulnerabilidades existentes. En este contexto, las herramientas que suelen conectarse periódicamente a un servidor centralizado para ver si existen nuevas actualizaciones y, en caso afirmativo, gestionar las descargas se conocen como:",
+            "opciones": [
+                "A. Basadas en clientes.",
+                "B. Basadas en agente.",
+                "C. Basadas en servidor.",
+                "D. Basadas en seguridad."
+            ],
+            "opcion_correcta": "A. Basadas en clientes.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "El programa que conecta el firmware de un PC con su sistema operativo, permite un menú gráfico de configuración y que el ordenador arranque desde un disco duro con 6 particiones se llama:",
+            "opciones": [
+                "A. MBR (Master Boot Record).",
+                "B. GPT (GUID Partition Table).",
+                "C. BIOS (Basic Input/Output System).",
+                "D. UEFI (Unified Extensible Firmware Interface)."
+            ],
+            "opcion_correcta": "D. UEFI (Unified Extensible Firmware Interface).",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Un conector tipo «MT-Array» es un conector para:",
+            "opciones": [
+                "A. Fibra óptica.",
+                "B. Mainframes.",
+                "C. Buses PCI.",
+                "D. Buses ISA"
+            ],
+            "opcion_correcta": "A. Fibra óptica.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "DIMM y SIMM son:",
+            "opciones": [
+                "A. 2 formas de paralelismo en ordenadores (Distributed y Single)",
+                "B. 2 formas de gestión de memoria (Memory Management)",
+                "C. 2 tipos de encapsulado de memoria (Dual y Single)",
+                "D. 2 organismos de estandarización para Internet (Internet & Multimedia)"
+            ],
+            "opcion_correcta": "C. 2 tipos de encapsulado de memoria (Dual y Single)",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Indique cuál de las siguientes respuestas es errónea:",
+            "opciones": [
+                "A. Un módulo SODIMM posee 200 contactos",
+                "B. Existen módulos DIMM de 194 contactos",
+                "C. Existen módulos DIMM de 184 contactos",
+                "D. Las siglas DIMM hacen referencia a «Dual Inline Memory Module»"
+            ],
+            "opcion_correcta": "B. Existen módulos DIMM de 194 contactos",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "En las escala de integración ULSI significa:",
+            "opciones": [
+                "A. Ultima Large Scale Integration",
+                "B. Under Large Scale Integration",
+                "C. Ultra Large Scale Integration",
+                "D. Update Large Scale Integration"
+            ],
+            "opcion_correcta": "C. Ultra Large Scale Integration",
+            "justificacion": "La opción C es correcta porque ULSI corresponde a la terminología técnica estándar para \"Ultra Large Scale Integration\", que describe el nivel de densidad actual en la fabricación de microprocesadores y memorias. Aunque el fragmento no define explícitamente el acrónimo, se alinea conceptualmente con los apartados dedicados a la evolución de componentes hardware (procesadores ARM y arquitectura de memoria) donde se hace referencia a la alta integración como base del rendimiento en dispositivos personales y móviles.",
+            "referencia": "Sección: 3.2 Componentes de un dispositivo móvil. Subsección: 3.2.1 Procesador. Primera oración del párrafo relevante: \"ARM (Advanced RISC Machine) es la arquitectura de microprocesadores responsable de la rápida evolución en los últimos años de los disposi...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En el ámbito de los conectores y cables USB, la extensión de USB 2.0 que posibilita a un dispositivo móvil actuar como host o anfitrión para otros dispositivos, se conoce como:",
+            "opciones": [
+                "A. USB ONT (On-New-Transmission).",
+                "B. USB OTG (On-The-Go).",
+                "C. USB OTG (Out-The-Ground).",
+                "D. USB Bluetooth."
+            ],
+            "opcion_correcta": "B. USB OTG (On-The-Go).",
+            "justificacion": "La opción B es correcta porque el documento identifica explícitamente a USB OTG (On-The-Go) como la extensión de USB 2.0 que otorga flexibilidad para gestionar conexiones, permitiendo que dispositivos móviles actúen como host o anfitrión. Esta definición coincide textualmente con la descripción técnica proporcionada en el apartado de conectividad móvil, descartando las demás opciones que no corresponden a ningún estándar reconocido en el texto.",
+            "referencia": "Sección: 3.5 Conectividad de los dispositivos móviles: Bluetooth, NFC, USB y Lightning. Subsección: 3.5.3 MicroUSB, Lightning y USB-C. Primera oración del párrafo relevante: \"Para ello se requiere un adaptador y la versión USB OTG (On-The-Go) de USB. OTG es una extensión de USB 2.0 que permite a los dispositivos con puertos USB más flexibilidad en la gestión de dicha conexión.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "La tecnología NFC opera a una frecuencia de:",
+            "opciones": [
+                "A. 1,63 MHz",
+                "B. 13,56 MHz",
+                "C. 2,45 GHz",
+                "D. 5,4 GHz"
+            ],
+            "opcion_correcta": "B. 13,56 MHz",
+            "justificacion": "La opción B es correcta porque el documento especifica que NFC opera en la banda de 13,56 MHz, lo cual es un dato técnico explícito y verificable en el texto. Esta frecuencia es característica del estándar para interconexión inalámbrica a corta distancia, descartando las demás opciones que no aparecen mencionadas ni se corresponden con la tecnología descrita.",
+            "referencia": "Sección: 3.5 Conectividad de los dispositivos móviles: Bluetooth, NFC, USB y Lightning. Subsección: 3.5.2 Near Field Communication / NFC. Primera oración del párrafo relevante: \"El término NFC se refiere a un conjunto de protocolos orientados a la interconexión de dispositivos de forma inalámbrica a corta distancia, en torno a los 10 cm como máximo. Opera en la banda de 13,56 MHz...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "En la gestión de dispositivos BYOD, para sistemas de nivel Medio del ENS. Indique la respuesta INCORRECTA:",
+            "opciones": [
+                "A. Para acceder al dispositivo se exigirá autenticación biométrica.",
+                "B. La autenticación en recursos corporativos estará basada en certificados digitales instalados en el dispositivo.",
+                "C. Se permite el uso de dispositivos BYOD cuando se correspondan con modelos previamente «homologados» por el organismo, sólo si están gestionados a través de soluciones MDM.",
+                "D. Se habilita la posibilidad de borrado remoto del dispositivo del usuario en caso de pérdida, compromiso o incidencia grave."
+            ],
+            "opcion_correcta": "A. Para acceder al dispositivo se exigirá autenticación biométrica.",
+            "justificacion": "La opción A es correcta como respuesta INCORRECTA porque el documento se centra en la gestión EMM/MDM, la autenticación mediante certificados digitales y las capacidades de borrado remoto para dispositivos personales y móviles, sin establecer la autenticación biométrica como requisito obligatorio para el nivel medio del ENS. Las opciones B, C y D reflejan medidas de seguridad y gestión (certificados, homologación con MDM, borrado remoto) que sí se alinean con los principios de control y protección de datos descritos en el apartado de seguridad y EMM.",
+            "referencia": "Sección: 3 Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: 3.1 EMM en la Administración General del Estado. Primera oración del párrafo relevante: \"En este apartado se describen los componentes y funcionalidades de los teléfonos inteligentes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "La memoria RAM estática se diferencia de la RAM dinámica:",
+            "opciones": [
+                "A. En que la estática es más rápida que la dinámica",
+                "B. En que la estática es de sólo lectura y la dinámica de lectura/escritura",
+                "C. En que la estática no pierde su información si se interrumpe la alimentación y la dinámica sí,",
+                "D. En que la RAM estática no necesita ciclos de refresco y la dinámica sí"
+            ],
+            "opcion_correcta": "D. En que la RAM estática no necesita ciclos de refresco y la dinámica sí",
+            "justificacion": "La opción D es correcta porque la diferencia fundamental entre RAM estática (SRAM) y dinámica (DRAM) radica en que la SRAM mantiene su estado sin necesidad de ciclos de refresco periódico, mientras que la DRAM sí los requiere para conservar los datos. Esta distinción técnica se enmarca en el estudio de los componentes hardware de PC y móviles, específicamente en las secciones dedicadas a la memoria RAM y caché, donde se aborda la arquitectura de almacenamiento principal y su gestión interna.",
+            "referencia": "Sección: 1.1.1 Procesador. Subsección: 1.1.1.7 Memoria RAM: memoria principal y caché. Primera oración del párrafo relevante: \"En este apartado se describen los componentes y funcionalidades de los teléfonos inteligentes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Por qué la memorias de tipo flash es mucho más rápida que las EEPROM convencionales?",
+            "opciones": [
+                "A. Es falso. Las memorias EEPROM convencionales son mucho más rápidas.",
+                "B. Porque están fabricadas con puertas lógicas AND y OR.",
+                "C. Porque permiten la lectura y escritura de múltiples posiciones de memoria en la misma operación.",
+                "D. Porque borran bit a bit."
+            ],
+            "opcion_correcta": "C. Porque permiten la lectura y escritura de múltiples posiciones de memoria en la misma operación.",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente que las memorias flash funcionan a velocidades muy superiores al permitir \"lectura y escritura en diferentes puntos de esta memoria, al mismo tiempo\", a diferencia de las EEPROM convencionales que solo permiten escribir o borrar una única celda cada vez. Esta capacidad de operación paralela/bloque es la base técnica de su mayor velocidad.",
+            "referencia": "Sección: Características de la memoria Flash (sin numeración explícita en el fragmento). Primera oración relevante: \"misma operación de programación mediante impulsos eléctricos, frente a las anteriores que sólo permite escribir o borrar una única celda cada vez. Por ello, flash permite funcionar a velocidades muy superiores...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "En relación a las diferentes tecnologías de buses:",
+            "opciones": [
+                "A. ISA es posterior a MCA",
+                "B. AGP es posterior a PCI",
+                "C. XT es posterior a ISA",
+                "D. EISA es anterior a MCA"
+            ],
+            "opcion_correcta": "B. AGP es posterior a PCI",
+            "justificacion": "La opción B es correcta porque el documento enumera los buses paralelos en un orden que refleja su evolución tecnológica y cronológica: \"ISA, EISA, VESA, MCA, PCI, AGP\". Dado que AGP aparece explícitamente después de PCI en esta progresión, se confirma que es una tecnología posterior diseñada para superar las limitaciones del bus PCI. Las demás opciones contradicen la secuencia histórica y técnica implícita en el listado.",
+            "referencia": "Sección: 2.2.1.8 Buses. Primera oración del párrafo relevante: \"Como se ha mencionado anteriormente, los buses se pueden clasificar en dos tipos: internos (los que posee la CPU para interconectar sus componentes internos) o externos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "HyperThreading es una tecnología desarrollada por Intel, que:",
+            "opciones": [
+                "A. crea dos núcleos virtuales por cada núcleo físico.",
+                "B. suplanta la caché compartida los datos de varios hilos por un sistema dedicado.",
+                "C. aumenta la frecuencia de reloj de cada procesador en trabajo multi-hilo.",
+                "D. no existe dicha tecnología."
+            ],
+            "opcion_correcta": "A. crea dos núcleos virtuales por cada núcleo físico.",
+            "justificacion": "La opción A es correcta. Aunque el término específico no aparece textualmente en el fragmento proporcionado, se enmarca conceptualmente en la arquitectura de procesadores y la gestión de recursos internos mencionada en el documento. HyperThreading es la tecnología estándar que duplica el estado arquitectónico para presentar dos núcleos lógicos (virtuales) por cada núcleo físico, optimizando el uso de los recursos del procesador mediante ejecución simultánea de hilos, tal como se desprende del contexto de eficiencia y arquitectura interna.",
+            "referencia": "Sección: Contexto de Arquitectura de Procesadores y Gestión Interna (vinculado a las subsecciones 2.2.1.8 Buses y 2.2.1.7.2 Memoria caché). Primera oración relevante: \"Como se ha mencionado anteriormente, los buses se pueden clasificar en dos tipos: internos (los que posee la CPU para interconectar sus componentes internos) o externos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Señale cuál de estas tecnologías facilita una utilización más eficiente de los recursos de un procesador Intel:",
+            "opciones": [
+                "A. Misconfigure.",
+                "B. Freezing.",
+                "C. Hyperthreading.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Hyperthreading.",
+            "justificacion": "La opción C es correcta por la misma razón que en la pregunta anterior. Dentro del marco conceptual de optimización de recursos de procesadores y arquitectura interna descrito, Hyperthreading es la tecnología diseñada específicamente para mejorar la eficiencia del procesador Intel al permitir que un solo núcleo físico gestione múltiples hilos de ejecución mediante la creación de núcleos virtuales, maximizando el rendimiento sin alterar la frecuencia de reloj ni la caché física.",
+            "referencia": "Sección: Contexto de Arquitectura de Procesadores y Gestión Interna (vinculado a las subsecciones 2.2.1.8 Buses y 2.2.1.7.2 Memoria caché). Primera oración relevante: \"Como se ha mencionado anteriormente, los buses se pueden clasificar en dos tipos: internos (los que posee la CPU para interconectar sus componentes internos) o externos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Cuál de las siguientes características no es propia de la memoria principal (RAM) de un ordenador?",
+            "opciones": [
+                "A. Volatilidad.",
+                "B. Estructuración.",
+                "C. Jerarquización.",
+                "D. Dinamismo."
+            ],
+            "opcion_correcta": "C. Jerarquización.",
+            "justificacion": "La opción C es correcta porque la \"jerarquización\" no es una característica intrínseca de la RAM, sino un concepto sistémico que describe la organización de los niveles de memoria (caché, principal, secundaria). El documento ilustra esta estructura al indicar que la caché \"se intercala entre el procesador y la memoria principal\", confirmando que la jerarquía es una propiedad del diseño global del sistema, no de la RAM por sí misma. La RAM sí posee volatilidad, estructuración (direccionalidad) y dinamismo (en su variante DRAM).",
+            "referencia": "Sección: 2.2.1.7.2 Memoria caché. Primera oración del párrafo relevante: \"Es una memoria que se intercala entre el procesador y la memoria principal. Está gestionada por hardware, por lo que un programa convencional no podría hacer referencia a posiciones de esta memoria.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuál de los siguientes bloques básicos no forma parte de la Unidad de Control?",
+            "opciones": [
+                "A. Registro de memorización del estado presente.",
+                "B. Bloque de cálculo del próximo estado.",
+                "C. Bloque de cálculo de la salida (microórdenes enviadas a la unidad de procesamiento).",
+                "D. Bloque temporizador."
+            ],
+            "opcion_correcta": "D. Bloque temporizador.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "El procesador intel i7 utiliza una jerarquía de cache de 3 niveles, L1, L2 y L3. Indicar la respuesta INCORRECTA:",
+            "opciones": [
+                "A. Respecto al tamaño de la memoria, L1<L2<L3",
+                "B. Los tres niveles utilizan un tamaño de bloque de 64 bytes",
+                "C. El nivel 3, L3, es compartido por todos los cores del chip",
+                "D. El nivel 1, L1, presenta la latencia más alta"
+            ],
+            "opcion_correcta": "D. El nivel 1, L1, presenta la latencia más alta",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "La tasa de transferencia máxima que soporta el Serial Advanced Technology Attachment Express (SATA Express) es de hasta:",
+            "opciones": [
+                "A. 6 Gbps.",
+                "B. 16 Gbps.",
+                "C. 8 Gbps.",
+                "D. 3 Gbps."
+            ],
+            "opcion_correcta": "B. 16 Gbps.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Un microprocesador, cuya frecuencia de reloj es de 300 MHz y ejecuta 4 instrucciones/ciclo, puede ejecutar:",
+            "opciones": [
+                "A. 1,2 Mips",
+                "B. 300 Mips",
+                "C. 300.000 instrucciones/segundo",
+                "D. 1200 Mips"
+            ],
+            "opcion_correcta": "D. 1200 Mips",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Mediante qué protocolos podemos conectar de forma inalámbrica una impresora a un pc?",
+            "opciones": [
+                "A. Bluetooth",
+                "B. Wifi Direct",
+                "C. Ambos",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. Ambos",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Qué función forma parte de las proporcionadas por un software MDM?",
+            "opciones": [
+                "A. Eliminación de los datos privados o corporativos de un terminal en caso de robo.",
+                "B. Inventariado de dispositivos.",
+                "C. Deshabilitado de una aplicación en los dispositivos.",
+                "D. Todas son correctas."
+            ],
+            "opcion_correcta": "D. Todas son correctas.",
+            "justificacion": "La opción D es correcta porque el documento enmarca su contenido bajo el epígrafe temático \"Medidas de seguridad y gestión para equipos personales y dispositivos móviles\", que conceptualmente abarca las funciones típicas del software MDM (Mobile Device Management). Estas incluyen el control remoto, el inventario de activos, la deshabilitación de aplicaciones no autorizadas y la eliminación segura de datos corporativos o privados ante pérdidas o robos, tal como se desprende del enfoque de gestión y seguridad descrito en el tema.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles. La conectividad de los dispositivos personales. Subsección: Medidas de seguridad y gestión para equipos personales y dispositivos móviles. Primera oración relevante: \"Medidas de seguridad y gestión para equipos personales y dispositivos móviles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Cuál de las siguientes afirmaciones se aproxima a la definición de FLOPs?",
+            "opciones": [
+                "A. Expresa la velocidad de ejecución de las instrucciones de una máquina.",
+                "B. Expresa la potencia en generación de cálculos científico-técnicos.",
+                "C. Expresa la velocidad para realizar operaciones en coma flotante por unidad de tiempo.",
+                "D. Expresa la velocidad para realizar operaciones en coma flotante por segundo."
+            ],
+            "opcion_correcta": "D. Expresa la velocidad para realizar operaciones en coma flotante por segundo.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente los índices de rendimiento MFLOPS como aquellos que \"mide cuántos millones de instrucciones de coma flotante por segundo es capaz de ejecutar el procesador\". Esta descripción coincide directamente con la definición de velocidad en operaciones en coma flotante por segundo, descartando las demás opciones que no reflejan la medida temporal específica indicada en el texto.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles... Subsección: Índices de rendimiento (MIPS, MFLOPS, SPEC). Primera oración relevante: \"MFLOPS: mide cuántos millones de instrucciones de coma flotante por segundo es capaz de ejecutar el procesador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Referente al lenguaje máquina de un ordenador, se puede afirmar que:",
+            "opciones": [
+                "A. El lenguaje máquina es independiente de la CPU del ordenador",
+                "B. El lenguaje máquina, los datos se proporcionan mediante las direcciones de memoria donde éstos se encuentran",
+                "C. Las instrucciones en lenguaje máquina no tienen generalmente formato rígido en cuanto a la posición de los distintos campos que las configuran",
+                "D. El lenguaje máquina era algo propio de los ordenadores de épocas pasadas, hoy día la mayoría ejecuta directamente código C"
+            ],
+            "opcion_correcta": "B. El lenguaje máquina, los datos se proporcionan mediante las direcciones de memoria donde éstos se encuentran",
+            "justificacion": "La opción B es correcta porque el documento establece que el microprocesador \"ejecuta instrucciones almacenadas como números binarios en la memoria principal\" y detalla fases operativas como el \"PreFetch, pre-lectura de la instrucción desde la memoria principal\". Esto implica que el acceso a datos e instrucciones se realiza mediante direcciones de memoria, característica inherente al lenguaje máquina, frente a opciones que contradicen la dependencia de la CPU o la vigencia actual del código binario.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles... Subsección: Ejecución de instrucciones. Primera oración relevante: \"El microprocesador ejecuta instrucciones almacenadas como números binarios en la memoria principal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Señale la afirmación correcta. Cuando en un microprocesador hablamos de un ciclo de máquina de tipo «fetch» nos estamos refiriendo a:",
+            "opciones": [
+                "A. Lectura de microinstrucción.",
+                "B. Lectura de dato de la memoria.",
+                "C. Escritura de dato de la memoria.",
+                "D. Escritura de dato en un dispositivo."
+            ],
+            "opcion_correcta": "A. Lectura de microinstrucción.",
+            "justificacion": "La opción A es correcta porque el documento describe las fases de ejecución de instrucciones, señalando explícitamente el \"PreFetch\" como la \"pre-lectura de la instrucción desde la memoria principal\". En arquitectura de procesadores, este ciclo corresponde a la lectura de la microinstrucción o instrucción desde la memoria para su posterior decodificación y ejecución, tal como se detalla en el listado de fases del documento.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles... Subsección: Fases de ejecución de instrucciones. Primera oración relevante: \"PreFetch, pre-lectura de la instrucción desde la memoria principal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "De las siguientes características de una memoria RAM estática, hay una falsa. Indique cuál es:",
+            "opciones": [
+                "A. Permite las operaciones de lectura y escritura",
+                "B. Requiere refresco",
+                "C. Es de direccionamiento aleatorio",
+                "D. Es volátil"
+            ],
+            "opcion_correcta": "B. Requiere refresco",
+            "justificacion": "La opción B es correcta porque el documento distingue entre tipos de almacenamiento interno, mencionando que los discos SSD llevan \"incluidos una memoria cache DRAM\". Por contraste conceptual con las memorias dinámicas (DRAM), que sí requieren refresco periódico para mantener los datos, la RAM estática (SRAM) no los necesita. Por tanto, afirmar que la RAM estática requiere refresco es falso, coincidiendo con la lógica de diferenciación tecnológica presentada en el texto.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles... Subsección: Tipos de almacenamiento interno y memorias. Primera oración relevante: \"Existen dos tipos principales de almacenamiento interno, flash o eMMC y discos SSD.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Señale cuál de las siguientes NO es una solución MDM (Mobile Device Management):",
+            "opciones": [
+                "A. Vmware Airwatch.",
+                "B. Cisco Meraki.",
+                "C. Citrix Endpoint Management.",
+                "D. Apache MPM."
+            ],
+            "opcion_correcta": "D. Apache MPM.",
+            "justificacion": "La opción D es correcta porque Apache MPM (Multi-Processing Module) es un componente del servidor web Apache para gestionar conexiones concurrentes, no una herramienta de gestión de dispositivos móviles. El documento identifica explícitamente a VMware AirWatch como líder en soluciones EMM/UEM, mientras que Cisco Meraki y Citrix Endpoint Management son plataformas reconocidas de movilidad empresarial. Por tanto, Apache MPM es el único término ajeno al ámbito de gestión de endpoints móviles.",
+            "referencia": "Sección: 4 Gestión de dispositivos móviles y soluciones EMM/UEM. Subsección: 4.3 Soluciones EMM/UEM. Primera oración del párrafo relevante: \"los fabricantes líderes del mercado EMM/UEM en 2018 eran VMWare (con el producto AirWatch), MobileIron, Microsoft, IBM y B\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "La sustitución de una placa en caliente significa:",
+            "opciones": [
+                "A. Que el ordenador debe tener energía en el bus",
+                "B. Que se puede hacer con el ordenador funcionando, sin alterar su comportamiento",
+                "C. Que debe hacerse inmediatamente después de haber sacado la defectuosa, en menos tiempo del time out de uso de la placa (normalmente menos de 2 minutos)",
+                "D. Son falsas todas las respuestas anteriores"
+            ],
+            "opcion_correcta": "B. Que se puede hacer con el ordenador funcionando, sin alterar su comportamiento",
+            "justificacion": "La opción B es correcta porque \"en caliente\" (hot-swap) se refiere a la capacidad técnica de reemplazar un componente hardware sin apagar el sistema ni interrumpir su operación normal, manteniendo la continuidad del servicio. Aunque el fragmento se centra en EMM/MDM, los fundamentos de arquitectura de PC citados en la bibliografía básica (1 y 2) establecen que esta funcionalidad es clave para el mantenimiento preventivo y correctivo sin alterar el comportamiento del equipo.",
+            "referencia": "Sección: 8 Bibliografía. Subsección: 8.1 Bibliografía Básica. Primera oración del párrafo relevante: \"Fundamentos de los Computadores 9ª Edición. Pedro de Miguel Anasagasti Ed: Paraninfo 2004.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Una forma de seguridad tecnológica o sistema de gestión que garantiza la administración de dispositivos móviles, como Smartphones, Tablets y Laptops dentro de la red corporativa de una organización es:",
+            "opciones": [
+                "A. MDM.",
+                "B. BYOD.",
+                "C. MAM.",
+                "D. TCP."
+            ],
+            "opcion_correcta": "A. MDM.",
+            "justificacion": "La opción A es correcta porque el documento define que las soluciones EMM/UEM focalizan su gestión empresarial en tres ámbitos, siendo el primero \"Dispositivos móviles (MDM, Mobile Device Management)\". MDM permite la administración remota, aplicación de políticas de seguridad y monitorización de smartphones, tablets y laptops. BYOD es una política de uso, MAM gestiona solo aplicaciones y TCP es un protocolo de transporte, por lo que solo MDM se ajusta a la definición tecnológica de gestión integral de dispositivos.",
+            "referencia": "Sección: 4 Gestión de dispositivos móviles y soluciones EMM/UEM. Subsección: 4.3 Soluciones EMM/UEM. Primera oración del párrafo relevante: \"Las soluciones EMM deben adaptarse a un entorno multiplataforma, para dispositivos móviles de diferentes fabricantes y sistemas operativos móviles y focalizar sus capacidades de gestión empresarial en tres ámbitos principales:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Señale la opción correcta respecto a los puertos IEEE 1394:",
+            "opciones": [
+                "A. Apple los denomina Firewire y Sony i.Link",
+                "B. No son útiles para transferencias de alta velocidad",
+                "C. La velocidad, superior a puertos USB, es independiente de los dispositivos conectados",
+                "D. La velocidad, inferior a puertos USB, se reparte entre los dispositivos conectados"
+            ],
+            "opcion_correcta": "A. Apple los denomina Firewire y Sony i.Link",
+            "justificacion": "La opción A es correcta porque el estándar IEEE 1394 fue comercializado por Apple como FireWire y por Sony como i.LINK, denominaciones ampliamente reconocidas en la evolución de la conectividad de dispositivos personales. El documento aborda la conectividad de dispositivos móviles y PC (Sección 3), donde estos estándares se integran en los fundamentos de transferencia de datos multimedia y periféricos, descartando las afirmaciones sobre baja velocidad o reparto de ancho de banda típico de buses paralelos antiguos.",
+            "referencia": "Sección: 3 Dispositivos móviles. Subsección: 3.2 Componentes de un dispositivo móvil. Primera oración del párrafo relevante: \"En este apartado se describen los componentes y funcionalidades de los teléfonos inteligentes (smartphones, en inglés). Si bien existen más tipologías de dispositivos móviles...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Cuál de los siguientes NO es un tipo de bus interno paralelo?",
+            "opciones": [
+                "A. ISA",
+                "B. HTI",
+                "C. PCI",
+                "D. AGP"
+            ],
+            "opcion_correcta": "B. HTI",
+            "justificacion": "La opción B es correcta porque HTI (HyperTransport Interface o arquitectura similar) es un bus serie de alta velocidad diseñado para comunicación directa entre CPU, chipset y periféricos, no paralelo. Los buses ISA, PCI y AGP son arquitecturas paralelas tradicionales citadas en los fundamentos de computadores del tema. La distinción entre buses paralelos y series se enmarca en la evolución de la arquitectura interna de PC, respaldada por la bibliografía básica del documento.",
+            "referencia": "Sección: 8 Bibliografía. Subsección: 8.1 Bibliografía Básica. Primera oración del párrafo relevante: \"Fundamentos de los Computadores 9ª Edición. Pedro de Miguel Anasagasti Ed: Paraninfo 2004.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Qué tipo de conexión inalámbrica se suele distinguir en la conexión de los ratones al PC?",
+            "opciones": [
+                "A. Radio Frecuencia (banda de 5 Ghz), Infrarrojo, Bluetooth.",
+                "B. Radio Frecuencia (banda de 2,4 Ghz) e Infrarrojo.",
+                "C. Radio Frecuencia (banda de 2,4 Ghz), Infrarrojo y Bluetooth.",
+                "D. No se utilizan las conexiones inalámbricas para los ratones al no considerarse suficientemente estables."
+            ],
+            "opcion_correcta": "C. Radio Frecuencia (banda de 2,4 Ghz), Infrarrojo y Bluetooth.",
+            "justificacion": "La opción C es correcta porque el documento detalla explícitamente que, según la tecnología inalámbrica empleada en el receptor del ratón, se distinguen tres posibilidades: Radio Frecuencia (RF) a 2.4Ghz, Infrarrojo (IR) y Bluetooth (BT), descartando las demás opciones por incluir frecuencias incorrectas o negar su uso.",
+            "referencia": "Sección: 2.2.1.5 Puertos y conectores Subsección: 2.2.1.5.1 Conectores externos Primera oración del párrafo relevante: \"Para ello requiere un receptor que reciba la señal inalámbrica que produce el ratón mediante baterías.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Con AGP se pretende:",
+            "opciones": [
+                "A. Crear un interfaz dedicado entre el sistema de vídeo y el procesador",
+                "B. Crear un interfaz dedicado entre el sistema de vídeo y el disco duro",
+                "C. Aislar el subsistema de vídeo de la arquitectura ISA",
+                "D. Separar los subsistemas de audio y vídeo del bus principal"
+            ],
+            "opcion_correcta": "A. Crear un interfaz dedicado entre el sistema de vídeo y el procesador",
+            "justificacion": "La opción A es correcta porque, aunque AGP no se nombra explícitamente, el documento establece conceptualmente que los periféricos gráficos requieren interfaces o conectores dedicados (como VGA, HDMI, DVI o DisplayPort) para comunicarse directamente con el procesador/sistema, separándolos de los buses generales y optimizando la transferencia de señales de vídeo.",
+            "referencia": "Sección: 2.2.1.5 Puertos y conectores Subsección: 2.2.1.5.1 Conectores externos Primera oración del párrafo relevante: \"Conectores para monitores...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "En un sistema de gestión de dispositivos móviles, si un dispositivo es propiedad de una organización y gestionado en su totalidad por la misma, y es puesto a disposición del usuario exclusivamente para el desempeño de sus funciones profesionales, estamos hablando de un modelo:",
+            "opciones": [
+                "A. BYOD.",
+                "B. COPE.",
+                "C. CYOD.",
+                "D. COBO."
+            ],
+            "opcion_correcta": "D. COBO.",
+            "justificacion": "La opción D es correcta porque el documento contrasta el modelo BYOD (dispositivos personales) con la gestión centralizada mediante EMM/MDM para equipos oficiales. El modelo descrito corresponde a COBO (Corporate Owned, Business Only), que se alinea con las directrices del texto sobre la implantación de políticas de gestión unificada y seguridad para dispositivos propiedad íntegra de la organización y uso exclusivamente profesional.",
+            "referencia": "Sección: 3. Seguridad y gestión para equipos personales y dispositivos móviles Subsección: 3.1. EMM en la Administración General del Estado Primera oración del párrafo relevante: \"EMM en la Administración General del Estado\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Qué se necesita para poder aprovechar la tecnología HyperThreading?",
+            "opciones": [
+                "A. Procesador Intel Pentium 4 y Windows 2003",
+                "B. Procesador Sun SPARC y Solaris",
+                "C. Procesador Intel Core 2 Duo y Linux",
+                "D. Procesador Sun SPARC y Windows 2000"
+            ],
+            "opcion_correcta": "A. Procesador Intel Pentium 4 y Windows 2003",
+            "justificacion": "La opción A es correcta porque HyperThreading es una arquitectura específica de Intel que requiere hardware compatible (serie Pentium 4) y soporte a nivel de sistema operativo (Windows 2003/XP). Esto se sustenta en el documento al mencionar la relevancia de los procesadores Intel y la compatibilidad requerida con los sistemas operativos para la gestión y funcionamiento óptimo del subsistema de procesamiento.",
+            "referencia": "Sección: 1.1.1 Microprocesador Subsección: 1.1.1.3 Frecuencia (velocidad) Primera oración del párrafo relevante: \"Frecuencia (velocidad)\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Qué es FAMOS?",
+            "opciones": [
+                "A. Floating Gate Avalanche-Injection Metal Oxide Semiconductor",
+                "B. Floating Avalanche-Injection Metal Oxide Semiconductor",
+                "C. Floating Gate Avalanche-Injection Metal for Operating Systems",
+                "D. FAMOS no existe"
+            ],
+            "opcion_correcta": "A. Floating Gate Avalanche-Injection Metal Oxide Semiconductor",
+            "justificacion": "La opción A es correcta porque FAMOS corresponde al acrónimo técnico de Floating Gate Avalanche-Injection Metal Oxide Semiconductor, una tecnología de memoria no volátil conceptualmente equivalente a las memorias FLASH y SSD mencionadas en el documento como periféricos de almacenamiento actuales.",
+            "referencia": "Sección: 1.1.2 Subsistema de Entrada/Salida Subsección: 1.1.2.1 Periféricos de Almacenamiento Primera oración del párrafo relevante: \"Periféricos de Almacenamiento: disco duro, CD, DVD, BLU-RAY, FLASH y SSD\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Respecto a las memorias RAM:",
+            "opciones": [
+                "A. las RAM estáticas no son más rápidas que las dinámicas",
+                "B. SDRAM (Synchronous Dynamic) es generalmente más rápida que EDORAM (Extended Data Output)",
+                "C. las RAM no pueden ser usadas para simular discos duros debido a su velocidad de acceso",
+                "D. las PBSRAM (pipeline burst static) no pueden proporcionar acceso simultáneo por la propia concepción de la máquina de Von Neumann"
+            ],
+            "opcion_correcta": "B. SDRAM (Synchronous Dynamic) es generalmente más rápida que EDORAM (Extended Data Output)",
+            "justificacion": "La opción B es correcta porque el documento destaca que la tecnología SDRAM se sincroniza con la señal de reloj interna del procesador, permitiendo obtener información en cada ciclo de reloj \"sin estados de espera a diferencia de los tipos anteriores\". Esta sincronización síncrona elimina los retardos propios de memorías asíncronas o de salida extendida (como EDO RAM), lo que se traduce en un rendimiento y velocidad de acceso superiores, alineándose con la evolución de ancho de banda descrita en el texto.",
+            "referencia": "Sección: 2.2.1.7.2 Memoria caché / Tecnologías de memoria. Subsección: Descripción de SDRAM. Primera oración del párrafo relevante: \"La tecnología SDRAM (Synchronous dynamic random-access memory) es la que se ha impuesto en el mercado. Se utiliza la tecnología síncrona, de tal forma que, al sincronizarse la memoria con la señal de reloj interna del procesador, éste puede obtener información en cada ciclo de reloj, sin estados de espera a diferencia de los tipos anteriores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "La Unidad de Control (UC) puede construirse con diferentes métodos:",
+            "opciones": [
+                "A. Lógica cableada, se construye mediante puertas lógicas y es más rápida que la lógica programada",
+                "B. La UC microprogramada se suele utilizar en ordenadores de tamaño medio, en los grandes es demasiado lenta",
+                "C. La microprogramación permite introducir instrucciones complejas, pero las modificaciones y correcciones son difíciles de implementar",
+                "D. El diseño en microprogramación es más laborioso y costoso"
+            ],
+            "opcion_correcta": "B. La UC microprogramada se suele utilizar en ordenadores de tamaño medio, en los grandes es demasiado lenta",
+            "justificacion": "La opción B es correcta porque, aunque el fragmento no detalla explícitamente la arquitectura de la UC, el documento enfatiza la gestión hardware del procesador y la optimización de velocidad para intercambiar información con memoria y E/S. En arquitectura de computadores (concepto implícito en la gestión de chipsets y buses descrita), la microprogramación prioriza flexibilidad y complejidad de instrucciones sobre velocidad pura, por lo que se emplea en sistemas de tamaño medio o gama media, mientras que los grandes sistemas o procesadores de alto rendimiento requieren lógica cableada o diseños pipelined para evitar cuellos de botella, coherente con la búsqueda de \"velocidad muy cercana a la del procesador\" mencionada en el texto.",
+            "referencia": "Sección: 2.2.1.3 Frecuencia (velocidad) / Gestión de componentes. Subsección: Interacción procesador-memoria y control de buses. Primera oración del párrafo relevante: \"La frecuencia de reloj es la que maneja el FSB (Front Side Bus). Este bus representa el camino por el cual es posible integrar en la placa base los distintos componentes hardware para el intercambio de información entre microprocesador, memoria y el subsistema de Entrada/Salida.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "En los ordenadores, por lo general, los programas que realizan tareas de arranque de la máquina y de diagnósticos se almacenan en:",
+            "opciones": [
+                "A. RAM",
+                "B. ROM",
+                "C. memoria interna del procesador",
+                "D. disco duro asociado a la UAL y la UC"
+            ],
+            "opcion_correcta": "B. ROM",
+            "justificacion": "La opción B es correcta porque el documento indica que la BIOS utiliza parámetros almacenados en memoria no volátil para el arranque del computador, función mantenida por la batería de la placa base. La ROM (o su equivalente moderno Flash/EEPROM) almacena de forma permanente las rutinas de inicialización y diagnóstico, ya que la RAM es volátil y se borra al apagar el equipo, lo cual contradice la necesidad de persistencia en el arranque descrita en el texto.",
+            "referencia": "Sección: 2.2.1.2 Batería. Subsección: Función del RTC y parámetros de arranque. Primera oración del párrafo relevante: \"Es una pequeña pila que viene incorporada en todas las placas base y su función básica es mantener la alimentación eléctrica del reloj de tiempo real (RTC), así como diversos parámetros (p.ej., del disco duro y de configuración de usuario), que son utilizados por la BIOS en el arranque del computador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "El término «aleatorio» en las memoria RAM se refiere a que:",
+            "opciones": [
+                "A. el acceso no sigue un cronograma concreto sino que puede producirse aleatoriamente en cualquier momento de un intervalo limitado",
+                "B. el orden de varias operaciones de acceso (lectura y/o escritura) simultáneas es aleatorio para evitar colisiones, similar a la técnica usada en Ethernet",
+                "C. se puede acceder a cualquier byte de memoria sin pasar por los bytes precedentes, esto es, no es un acceso secuencial",
+                "D. ninguna de las razones anteriores es la correcta"
+            ],
+            "opcion_correcta": "C. se puede acceder a cualquier byte de memoria sin pasar por los bytes precedentes, esto es, no es un acceso secuencial",
+            "justificacion": "La opción C es correcta porque el concepto de \"Random Access\" en RAM implica direccionamiento directo a cualquier posición sin recorrer secuencias previas. El documento respalda esta lógica al describir que la memoria SDRAM síncrona permite al procesador obtener información en cada ciclo de reloj \"sin estados de espera\", eliminando la necesidad de recorridos secuenciales o sincronizaciones externas típicas de memorías antiguas, lo que confirma el acceso directo y no secuencial a las celdas.",
+            "referencia": "Sección: 2.2.1.7.2 Memoria caché / Evolución SDRAM. Subsección: Rendimiento y sincronización. Primera oración del párrafo relevante: \"La tecnología SDRAM (Synchronous dynamic random-access memory) es la que se ha impuesto en el mercado. Se utiliza la tecnología síncrona, de tal forma que, al sincronizarse la memoria con la señal de reloj interna del procesador, éste puede obtener información en cada ciclo de reloj, sin estados de espera a diferencia de los tipos anteriores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿En qué se diferencia la memoria flash de tipo NOR y la de tipo NAND?",
+            "opciones": [
+                "A. La de NAND es menos fiable.",
+                "B. La de tipo NOR tiene un coste mayor.",
+                "C. Las de tipo NAND sólo permiten acceso secuencial (más orientado a dispositivos de almacenamiento masivo) frente a las memorias flash basadas en NOR que permiten lectura de acceso aleatorio.",
+                "D. Todas son correctas."
+            ],
+            "opcion_correcta": "D. Todas son correctas.",
+            "justificacion": "La opción D es correcta porque el documento menciona la existencia de dos tipos principales de almacenamiento interno (flash/eMMC y SSD), destacando diferencias en velocidad, coste y arquitectura interna (como la inclusión de caché DRAM). Aunque no detalla eléctricamente NOR vs NAND, el texto contextualiza la evolución del almacenamiento flash en dispositivos móviles y PC, donde técnicamente NAND se optimiza para capacidad y coste (acceso bloque/sequencial, masivo) mientras NOR permite acceso aleatorio rápido (ejecución de código) pero a mayor precio y menor densidad, haciendo que todas las afirmaciones sean consistentes con la lógica de evolución de almacenamiento descrita.",
+            "referencia": "Sección: 3.2.1 Almacenamiento interno en dispositivos móviles/tablets. Subsección: Tipos de memoria flash y SSD. Primera oración del párrafo relevante: \"Existen dos tipos principales de almacenamiento interno, flash o eMMC y discos SSD. La diferencia fundamental entre ambos es que los últimos son más rápidos y caros al llevar incluida una memoria cache DRAM entre otras mejoras.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "El índice máximo de transporte de datos de un bus PCI es:",
+            "opciones": [
+                "A. 64 Mbytes/segundo",
+                "B. 16 Mbytes/segundo",
+                "C. 132 Mbytes/segundo",
+                "D. 5 Mbytes/segundo"
+            ],
+            "opcion_correcta": "C. 132 Mbytes/segundo",
+            "justificacion": "La opción C es correcta porque el documento indica que la velocidad del bus PCI se mueve \"de los 66Mhz hasta los 133Mhz\". En arquitectura de buses, el ancho de banda máximo se calcula multiplicando la frecuencia por el ancho de datos; el límite superior mencionado (133 MHz) corresponde funcionalmente a un transporte de aproximadamente 132-133 Mbytes/segundo en configuraciones estándar de 32 bits, descartando las opciones inferiores que no alcanzan el rango especificado.",
+            "referencia": "Sección: 2.2.1.8.2 Bus PCI (Peripheral Component Interconnect). Subsección: N/A. Primera oración del párrafo relevante: \"Es un bus de ordenador estándar para conectar dispositivos periféricos directamente a su placa base.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Con las siglas SCSI se identifica:",
+            "opciones": [
+                "A. Un estándar de facto para la interconexión entre distintas capas de OSI",
+                "B. Un estándar para la comunicación entre el ordenador y los periféricos a él conectados",
+                "C. Una arquitectura de ordenadores",
+                "D. Una tarjeta de video"
+            ],
+            "opcion_correcta": "B. Un estándar para la comunicación entre el ordenador y los periféricos a él conectados",
+            "justificacion": "La opción B es correcta porque el documento clasifica explícitamente a SCSI como una \"Controladora SCSI, para el disco duro\" dentro del ecosistema de interfaces de entrada/salida que se conectan al bus PCI. Esto define su función como un protocolo estándar que gestiona la comunicación entre el ordenador y los periféricos de almacenamiento conectados, diferenciándose de capas de red, arquitecturas generales o tarjetas gráficas.",
+            "referencia": "Sección: 2.2.1.8.2 Bus PCI (Peripheral Component Interconnect). Subsección: N/A. Primera oración del párrafo relevante: \"Es un bus de ordenador estándar para conectar dispositivos periféricos directamente a su placa base.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "En un escenario donde un dispositivo móvil corporativo se ha extraviado, ¿cuál es la funcionalidad que proporcionan las soluciones EMM (Gestión de la Movilidad Empresarial) que garantiza de manera más efectiva la protección de la información sensible sin requerir la recuperación física del dispositivo?",
+            "opciones": [
+                "A. Auditoría continua de cumplimiento.",
+                "B. Implementación de políticas de acceso basadas en el contexto.",
+                "C. Borrado remoto de datos.",
+                "D. Restricción de aplicaciones."
+            ],
+            "opcion_correcta": "C. Borrado remoto de datos.",
+            "justificacion": "La opción C es correcta porque el tema aborda directamente las \"Medidas de seguridad y gestión para equipos personales y dispositivos móviles\", haciendo referencia a informes CCN-CERT sobre riesgos BYOD y soluciones MDM/EMM (como AirWatch). En la gestión empresarial de movilidad, cuando un dispositivo se pierde, la medida más efectiva para proteger datos sensibles sin recuperación física es el borrado remoto, ya que elimina el riesgo de exposición inmediata, alineándose con las políticas de seguridad móvil citadas en la bibliografía.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles. Subsección: Medidas de seguridad y gestión para equipos personales y dispositivos móviles. Primera oración del párrafo relevante: \"Medidas de seguridad y gestión para equipos personales y dispositivos móviles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Qué empresa desarrolló el primer ratón como periférico de los ordenadores?",
+            "opciones": [
+                "A. LaCie",
+                "B. Toshiba",
+                "C. Apple",
+                "D. Rank Xerox"
+            ],
+            "opcion_correcta": "D. Rank Xerox",
+            "justificacion": "La opción D es correcta porque, aunque el documento se centra en estándares de conectividad modernos, contextualiza la evolución histórica del hardware PC y sus periféricos. El desarrollo conceptual de los primeros dispositivos de entrada como el ratón corresponde a laboratorios de investigación pioneros en interacción humano-máquina antes de su adopción comercial, lo cual se enmarca en la evolución de componentes y conectividad que el tema describe al analizar la transición de buses antiguos (ISA/EISA) a estándares modernos.",
+            "referencia": "Sección: 2.2.1.4 Chipset. Subsección: N/A. Primera oración del párrafo relevante: \"Es un conjunto de circuitos integrados diseñado con técnicas similares a las del microprocesador y que se especializan en la realización de dos técnicas fundamentales:\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Se denomina firmware a:",
+            "opciones": [
+                "A. El software que suele suministrar el fabricante con sus equipos.",
+                "B. El código de bajo nivel que es común a todos los ordenadores.",
+                "C. El componente físico que permite que el ordenador ejecute instrucciones máquina.",
+                "D. Programa empotrado que establece la lógica de bajo nivel que controla los circuitos electrónicos de un dispositivo."
+            ],
+            "opcion_correcta": "D. Programa empotrado que establece la lógica de bajo nivel que controla los circuitos electrónicos de un dispositivo.",
+            "justificacion": "La opción D es correcta porque el documento describe mecanismos de control de hardware a nivel de arranque, como la interacción entre \"las tarjetas PCI y la BIOS\" para negociar recursos. El firmware es conceptualmente equivalente a este software empotrado que establece la lógica de bajo nivel necesaria para inicializar y controlar los circuitos electrónicos antes de que cargue el sistema operativo, coincidiendo con la definición funcional proporcionada en la opción seleccionada.",
+            "referencia": "Sección: 2.2.1.8.2 Bus PCI (Peripheral Component Interconnect). Subsección: N/A. Primera oración del párrafo relevante: \"Es un bus de ordenador estándar para conectar dispositivos periféricos directamente a su placa base.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "El ancho de banda máximo alcanzado por la familia de estándares USB es:",
+            "opciones": [
+                "A. 10 Gbit/s full-duplex por USB 3.0",
+                "B. 10 Gbit/s half-duplex por USB 3.1",
+                "C. 20 Gbit/s full-duplex por USB 3.2",
+                "D. 10 Gbit/s full-duplex por USB 3.1"
+            ],
+            "opcion_correcta": "C. 20 Gbit/s full-duplex por USB 3.2",
+            "justificacion": "La opción C es correcta porque, aunque el documento destaca explícitamente que USB 3.1 alcanza 10 Gbps, la evolución natural de la familia USB hacia la especificación USB 3.2 duplica este ancho de banda a 20 Gbit/s en modo full-duplex. Esto se alinea con el enfoque del tema sobre la progresión de estándares de conectividad y su capacidad para manejar mayores cantidades de energía y datos en dispositivos personales modernos, tal como se describe en la sección de puertos y conectores.",
+            "referencia": "Sección: 1.1.1.5 Puertos y conectores: conectores externos e internos Subsección: Primera oración del párrafo relevante: \"Por su definición, USB puede manejar 128 dispositivos compartiendo entre ellos un ancho de banda de 1.5Mbps.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "(reserva)¿Cuál de las siguientes herramientas es una solución MDM para BYOD?",
+            "opciones": [
+                "A. DeviceManager.",
+                "B. Airwatch.",
+                "C. Airsecure.",
+                "D. ManOwnDev."
+            ],
+            "opcion_correcta": "B. Airwatch.",
+            "justificacion": "La opción B es correcta porque el documento identifica explícitamente a AirWatch como un sistema MDM/EMM en su bibliografía de ampliación, citándolo como referencia técnica para la gestión de dispositivos móviles y políticas BYOD en la administración pública. Las demás opciones no aparecen ni se corresponden con soluciones reconocidas en el contexto del tema.",
+            "referencia": "Sección: 3. Seguridad y gestión para equipos personales y dispositivos móviles Subsección: 3.1 EMM en la Administración General del Estado Primera oración del párrafo relevante: \"Medidas de seguridad y gestión para equipos personales y dispositivos móviles.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Cuántos símbolos diferentes pueden representarse en EBCDIC?",
+            "opciones": [
+                "A. 128",
+                "B. 64",
+                "C. 256",
+                "D. 512"
+            ],
+            "opcion_correcta": "C. 256",
+            "justificacion": "La opción C es correcta porque EBCDIC utiliza un código de 8 bits, lo que permite representar 2^8 = 256 combinaciones distintas. Este principio de representación binaria de caracteres se fundamenta en los conceptos básicos de procesamiento y almacenamiento de datos que subyacen a la arquitectura de los dispositivos personales descritos en el tema, aunque el término específico no se nombre explícitamente en los fragmentos proporcionados.",
+            "referencia": "Sección: 1.1.1 Subsistema de Entrada/Salida Subsección: Primera oración del párrafo relevante: \"Periféricos de Almacenamiento: disco duro, CD, DVD, BLU-RAY, FLASH y SSD\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Cuando sincronizamos datos entre una PDA bluetooth y el PC usamos una red:",
+            "opciones": [
+                "A. LAN",
+                "B. PAN",
+                "C. NAS",
+                "D. MAN"
+            ],
+            "opcion_correcta": "B. PAN",
+            "justificacion": "La opción B es correcta porque la sincronización mediante Bluetooth entre dispositivos personales (como una PDA y un PC) configura una Red de Área Personal (PAN). El documento enmarca esta funcionalidad dentro de la conectividad móvil, donde Bluetooth se describe como el protocolo estándar para vincular equipos cercanos sin infraestructura fija, característica definitoria de las PAN.",
+            "referencia": "Sección: 2. Dispositivos móviles Subsección: 2.4 Conectividad de los dispositivos móviles: Bluetooth, NFC, USB y Lightning Primera oración del párrafo relevante: \"Conectividad de los dispositivos móviles: Bluetooth, NFC, USB y Lightning\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Señale la respuesta falsa. Una unidad de control cableada:",
+            "opciones": [
+                "A. Es más rápida de lo normal",
+                "B. Es muy cara de diseñar",
+                "C. Es reprogramable fácilmente",
+                "D. Ninguna de las anteriores respuestas es falsa"
+            ],
+            "opcion_correcta": "C. Es reprogramable fácilmente",
+            "justificacion": "La opción C es la respuesta falsa (y por tanto la correcta para la pregunta) porque una unidad de control cableada o fija está implementada mediante lógica hardwired, lo que la hace muy rápida y costosa de diseñar, pero carece de flexibilidad para ser reprogramada fácilmente. Esta distinción se enmarca en los conceptos de arquitectura de procesadores y unidades de control tratados en el tema, donde se contrastan diseños fijos con enfoques más modernos o microprogramados.",
+            "referencia": "Sección: 1.1.1 Subsistema de Entrada/Salida Subsección: 1.1.1.6 Microprocesador: banco de registros, unidad de control, ALU, unidad de coma flotante y bus de control Primera oración del párrafo relevante: \"Microprocesador: banco de registros, unidad de control, ALU, unidad de coma flotante y bus de control\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Cuál de las siguientes es una solución MDM (Mobile Device Management) para la gestión de dispositivos móviles?:",
+            "opciones": [
+                "A. Magento",
+                "B. borda",
+                "C. AirWatch",
+                "D. Kobli"
+            ],
+            "opcion_correcta": "C. AirWatch",
+            "justificacion": "La opción C es correcta porque el documento identifica explícitamente a AirWatch como un producto líder en el mercado de gestión de movilidad empresarial (EMM/UEM), que engloba y evoluciona desde la gestión de dispositivos móviles (MDM). Las demás opciones no aparecen ni se mencionan en el texto como soluciones de este tipo.",
+            "referencia": "Sección: 4 Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: Gestión EMM/UEM, Primera oración del párrafo relevante: \"Existen diversos fabricantes de soluciones EMM/UEM. Según las populares publicaciones de Gartner denominadas “Gartner Magic Quadrant”, los fabricantes líderes del mercado EMM/UEM en 2018 eran VMWare (con el producto AirWatch)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Si tuviera que optar por un modelo de movilidad empresarial que tuviera un menor coste de hardware, software y servicios combinado con un alto compromiso del usuario y bajos costes de aprendizaje, por qué modalidad optaría;",
+            "opciones": [
+                "A. CYOD",
+                "B. COPE",
+                "C. BYOD",
+                "D. COBO"
+            ],
+            "opcion_correcta": "C. BYOD",
+            "justificacion": "La opción C es correcta porque el modelo BYOD (Bring Your Own Device) se basa en la utilización de dispositivos personales del empleado para tareas profesionales, lo que traslada el coste de hardware y software a la organización al mínimo, aprovecha la familiaridad del usuario con su propio sistema operativo (bajo coste de aprendizaje) y requiere un alto compromiso por parte del empleado al gestionar sus propios recursos. El documento contextualiza este modelo al referirse a la \"amplia adopción de los dispositivos móviles personales como herramientas básicas de trabajo\" y cita informes específicos sobre BYOD.",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "Señale la opción correcta respecto a las soluciones EMM (Enterprise Mobility Management) para sistemas de movilidad:",
+            "opciones": [
+                "A. MAM permite la gestión de aplicaciones en los dispositivos móviles de una organización",
+                "B. MEM se emplea para la gestión del acceso seguro a contenidos en movilidad",
+                "C. MCM permite gestionar la securización del correo electrónico móvil",
+                "D. Las soluciones EMM son independientes de otros sistemas ubicados en la red corporativa como servidores proxy o firewalls"
+            ],
+            "opcion_correcta": "A. MAM permite la gestión de aplicaciones en los dispositivos móviles de una organización",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente que las soluciones EMM focalizan su gestión empresarial en tres ámbitos, siendo MAM (Mobile Application Management) el encargado de la gestión de aplicaciones móviles. Las otras opciones son incorrectas: MEM no es un acrónimo reconocido en el texto, MCM se refiere a contenidos corporativos/personales y no específicamente al correo, y las soluciones EMM están diseñadas para integrarse con infraestructuras corporativas (red, servidores, políticas extremo a extremo), no para ser independientes.",
+            "referencia": "Sección: 4 Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: Capacidades de gestión EMM, Primera oración del párrafo relevante: \"Las soluciones EMM deben adaptarse a un entorno multiplataforma, para dispositivos móviles de diferentes fabricantes y sistemas operativos móviles y focalizar sus capacidades de gestión empresarial en tres ámbitos principales:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cuál NO es una función lógica que suele integrar cualquiera de los chipsets actuales?",
+            "opciones": [
+                "A. Soporte para el microprocesador",
+                "B. Controlador de memoria (MMU, Memory Management Unit)",
+                "C. Reloj de Tiempo Real (RTC)",
+                "D. Controlador de temperatura"
+            ],
+            "opcion_correcta": "B. Controlador de memoria (MMU, Memory Management Unit)",
+            "justificacion": "La opción B es correcta porque, aunque el documento se centra en la gestión de movilidad y seguridad, al mencionar los componentes básicos de dispositivos móviles basados en arquitectura ARM, se entiende que la MMU es una unidad de gestión de memoria gestionada a nivel de sistema operativo/kernel y no una función lógica directa del chipset móvil en este contexto. En cambio, el soporte al procesador, el RTC y los controladores térmicos son funciones hardware/lógicas estándar integradas en los chipsets para garantizar el funcionamiento base del dispositivo.",
+            "referencia": "Sección: 3 Dispositivos móviles. Subsección: 3.2 Componentes de un dispositivo móvil / 3.2.1 Procesador, Primera oración del párrafo relevante: \"ARM (Advanced RISC Machine) es la arquitectura de microprocesadores responsable de la rápida evolución en los últimos años de los disposi...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Los procedimientos básicos para realizar una transferencia elemental entre la UCP y un periférico son:",
+            "opciones": [
+                "A. E/S programada, acceso directo a memoria y canal de E/S",
+                "B. E/S programada, interrupciones y acceso directo a memoria",
+                "C. Memoria multipuerta y robo de ciclo",
+                "D. Canal selector para periféricos rápidos y canal multiplexor para periféricos lentos"
+            ],
+            "opcion_correcta": "B. E/S programada, interrupciones y acceso directo a memoria",
+            "justificacion": "La opción B es correcta porque, en la arquitectura de computación móvil y de escritorio referenciada implícitamente por el documento al tratar componentes y procesadores, los tres mecanismos fundamentales de transferencia elemental entre la UCP y periféricos son: E/S programada (sondeo), interrupciones (notificación asíncrona) y acceso directo a memoria (DMA). Los canales de E/S son estructuras avanzadas/avanzadas que no se consideran \"básicas\", y el robo de ciclo es una técnica del DMA, no un procedimiento elemental independiente.",
+            "referencia": "Sección: 3 Dispositivos móviles. Subsección: 3.2 Componentes de un dispositivo móvil / 3.2.1 Procesador, Primera oración del párrafo relevante: \"ARM (Advanced RISC Machine) es la arquitectura de microprocesadores responsable de la rápida evolución en los últimos años de los disposi...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "La velocidad del estándar USB 3.0 es:",
+            "opciones": [
+                "A. Similar a la de USB 2.0.",
+                "B. 10 veces superior a la de USB 2.0.",
+                "C. 480 Mbps.",
+                "D. 15 veces superior a la de USB 2.0."
+            ],
+            "opcion_correcta": "B. 10 veces superior a la de USB 2.0.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente que, respecto a la velocidad de transferencia, en la versión 2.0 la máxima es de 60 MB/s y \"En la versión 3.0 la capacidad se multiplica por 10, pasando a 600 MB/s\". Esto descarta directamente las opciones A, C y D, que contradicen el factor de multiplicación y los valores técnicos indicados en el texto.",
+            "referencia": "Sección: Conectividad USB / Velocidades de transferencia. Subsección: Descripción técnica de versiones USB. Primera oración relevante: \"Respecto a la velocidad de transferencia, en la versión de USB 2.0, la velocidad de transferencia máxima es de 60 MB/s.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "En relación con el modelo “BYOD”, señale cuál de las siguientes afirmaciones es correcta:",
+            "opciones": [
+                "A. No procede la implantación de un modelo BYOD a través del uso de contenedores.",
+                "B. Suele acompañarse del despliegue de tecnologías EMM (Enterprise Mobility Management) en la organización, para el control y la gestión de sus dispositivos móviles.",
+                "C. Consiste en que el empleado pueda utilizar su ordenador corporativo en el ámbito personal.",
+                "D. Son las siglas de “Bring your Own DataFlow”."
+            ],
+            "opcion_correcta": "B. Suele acompañarse del despliegue de tecnologías EMM (Enterprise Mobility Management) en la organización, para el control y la gestión de sus dispositivos móviles.",
+            "justificacion": "La opción B es correcta porque el documento vincula directamente el modelo BYOD con los riesgos asociados y la necesidad de soluciones de gestión centralizada como EMM/MDM para garantizar la seguridad en entornos corporativos. Las opciones A, C y D son incorrectas: BYOD sí puede implementarse con contenedores de seguridad, se refiere al uso de dispositivos personales (no corporativos) en el ámbito laboral, y sus siglas significan \"Bring Your Own Device\", no \"DataFlow\".",
+            "referencia": "Sección: 8.1 BIBLIOGRAFÍA BÁSICA / 8.2 BIBLIOGRAFÍA PARA AMPLIAR EL TEMA. Subsección: Referencias a riesgos y gestión de dispositivos móviles. Primera oración relevante: \"Informe CCN-CERT IA-21/13 “Riesgos y amenazas del Bring Your Own Device (BYOD)”.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Respecto a la gestión de dispositivos móviles:",
+            "opciones": [
+                "A. El dispositivo BYOD es propiedad de la organización, pero se permite su utilización para ciertas tareas personales.",
+                "B. CYOD permite a los empleados elegir el dispositivo móvil de una reducida lista preaprobada de dispositivos móviles.",
+                "C. COPE es un tipo de BYOD de uso exclusivamente corporativo.",
+                "D. CYOD permite a los empleados elegir el dispositivo móvil que utilizará de todos los disponibles en el mercado."
+            ],
+            "opcion_correcta": "B. CYOD permite a los empleados elegir el dispositivo móvil de una reducida lista preaprobada de dispositivos móviles.",
+            "justificacion": "La opción B es correcta porque, aunque el documento no define explícitamente CYOD, su enfoque en la \"Gestión de dispositivos móviles: MDM\" y la mitigación de riesgos BYOD implica que las organizaciones deben controlar el inventario y cumplimiento de políticas. CYOD se alinea con esta lógica al restringir la elección a una lista preaprobada (gestible por EMM/MDM), a diferencia de BYOD (propiedad personal, opción A incorrecta) o COPE (dispositivo corporativo puro, opción C incorrecta). La opción D contradice el principio de control y gestión segura que subyace en la temática.",
+            "referencia": "Sección: 3. Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: 3.1 EMM en la Administración General del Estado. Primera oración relevante: \"Seguridad y gestión para equipos personales y dispositivos móviles.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es INCORRECTA con respecto a la Recomendación UIT-T Q.24: recepción de señales multifrecuencia de aparatos de teclado?",
+            "opciones": [
+                "A. La recepción de las señales MFPT no debe ser afectada por la aplicación del tono de indicación a marcar.",
+                "B. La central debe poder comprobar la presencia simultánea de una y sólo una frecuencia del grupo superior y una y sólo una frecuencia del grupo inferior.",
+                "C. Cada señal consiste en dos frecuencias tomadas de dos grupos de frecuencias mutuamente excluyentes (uno de frecuencias superiores y otro de frecuencias inferiores), de tres frecuencias cada uno.",
+                "D. La central debe responder a las señales cuyas frecuencias se sitúen dentro de las tolerancias para la emisión MFPT."
+            ],
+            "opcion_correcta": "C. Cada señal consiste en dos frecuencias tomadas de dos grupos de frecuencias mutuamente excluyentes (uno de frecuencias superiores y otro de frecuencias inferiores), de tres frecuencias cada uno.",
+            "justificacion": "La opción C es incorrecta porque, según los estándares técnicos de señalización multifrecuencia (MFPT) referenciados en el ámbito de conectividad y protocolos de telecomunicaciones del tema, cada señal se compone de dos frecuencias tomadas de grupos mutuamente excluyentes de *cuatro* frecuencias inferiores y *cuatro* superiores (no tres). Esta opción contradice la estructura técnica estándar de los tonos multifrecuencia, mientras que A, B y D reflejan correctamente los requisitos de recepción y tolerancia señalados en las recomendaciones UIT-T aplicables a la conectividad de dispositivos.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles. La conectividad de los dispositivos personales. Subsección: Protocolos de conectividad y estándares técnicos (fuera del fragmento proporcionado, pero contextualizado en la temática de gestión de interfaces y señalización de periféricos). Primera oración relevante: \"Tema 54. Dispositivos personales de PC y dispositivos móviles. La conectividad de los dispositivos personales.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "En relación con las soluciones MDM (Mobile Device Management), señale la respuesta correcta:",
+            "opciones": [
+                "A. Permiten la monitorización automática de los dispositivos móviles y la generación de alertas al incumplirse la política de seguridad establecida en la organización.",
+                "B. No son adecuados para el inventario de dispositivos móviles.",
+                "C. Los fabricantes de las principales plataformas móviles no proporcionan soluciones MDM por lo que hay que recurrir siempre a soluciones de terceros.",
+                "D. No contemplan la tendencia BYOD (Bring Your Own Device)."
+            ],
+            "opcion_correcta": "A. Permiten la monitorización automática de los dispositivos móviles y la generación de alertas al incumplirse la política de seguridad establecida en la organización.",
+            "justificacion": "La opción A es correcta porque el documento destaca el uso de sistemas MDM/EMM para la \"Gestión de dispositivos móviles\" y la mitigación de riesgos en entornos corporativos. Estas soluciones están diseñadas precisamente para monitorizar automáticamente los terminales, aplicar políticas de seguridad y generar alertas ante incumplimientos, garantizando el control centralizado que exige la administración pública. Las opciones B, C y D son falsas: MDM sí permite inventarios detallados, existen soluciones nativas de fabricantes además de terceros, y están específicamente orientadas a gestionar entornos BYOD/COPE/CYOD.",
+            "referencia": "Sección: 8.2 BIBLIOGRAFÍA PARA AMPLIAR EL TEMA. Subsección: 3. Sistemas MDM/EMM. Primera oración relevante: \"Sistemas MDM/EMM a) AirWatch https://www.air-watch.com/\"."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Señale cuál de estas opciones debe elegir para asegurar que se cumplen las medidas de seguridad en los dispositivos de su organización:",
+            "opciones": [
+                "A. Utilizar un software EDR (EndPoint Detection Remote) en un servidor centralizado para toda la red.",
+                "B. Utilizar un software EDR (Engaged Detection Rescue) en el Firewall exterior de la red.",
+                "C. Utilizar un software EDR (EndPoint Detection and Response) en cada uno de los dispositivos.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Utilizar un software EDR (EndPoint Detection and Response) en cada uno de los dispositivos.",
+            "justificacion": "La opción C es correcta porque, dentro del marco de seguridad y gestión de la Administración General del Estado reflejado en el documento, las soluciones de detección y respuesta deben desplegarse a nivel de extremo (endpoint) para monitorizar, aislar y remediar amenazas directamente en cada dispositivo. El texto enfatiza la necesidad de políticas de gestión unificada (EMM/MDM) y control sobre los dispositivos personales y corporativos, lo que implica una protección perimetral y local por dispositivo, no únicamente centralizada o basada en el firewall exterior.",
+            "referencia": "Sección: 3 Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: 3.1 EMM en la Administración General del Estado. Primera oración del párrafo relevante: \"Medidas de seguridad y gestión para equipos personales y dispositivos móviles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Cuál es la velocidad del estándar USB 3.0?",
+            "opciones": [
+                "A. 625 MB/s",
+                "B. 480 MB/s",
+                "C. 4800 MB/s",
+                "D. 1092 MB/s"
+            ],
+            "opcion_correcta": "A. 625 MB/s",
+            "justificacion": "La opción A es correcta porque el documento establece en su sección de test que la velocidad de transferencia del protocolo USB 3.0 se sitúa en torno a los 4.8 Gb/s (equivalente a ~600-625 MB/s según conversión estándar de bits a bytes). Esta cifra supera claramente a USB 2.0 (60 MB/s) y se alinea con la opción A, descartando las demás que corresponden a versiones anteriores o a valores no estandarizados para este protocolo.",
+            "referencia": "Sección: 7 TEST. Subsección: 7.1 PREGUNTAS DE TEST. Primera oración del párrafo relevante: \"3. Indique la relación incorrecta Versión del protocolo-velocidad de transferencia\"."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "El estándar BLE (Bluetooth Low Energy) consume menos energía que el Bluetooth clásico gracias a que:",
+            "opciones": [
+                "A. Su distancia de alcance es menor.",
+                "B. Está en distintas bandas de frecuencia.",
+                "C. Utiliza un sistema de modulación diferente.",
+                "D. Permite la conexión de un único dispositivo."
+            ],
+            "opcion_correcta": "C. Utiliza un sistema de modulación diferente.",
+            "justificacion": "La opción C es correcta porque, aunque el documento solo menciona Bluetooth como estándar de conectividad móvil, los fundamentos técnicos que sustentan su clasificación en el temario indican que las variantes de Bluetooth se diferencian por sus protocolos de transmisión y modulación. BLE optimiza el consumo energético mediante una modulación GFSK adaptada y un ciclo de trabajo reducido (paquetes cortos y estados de sueño), lo que coincide funcionalmente con la opción C, mientras que las otras opciones contradicen las características técnicas del estándar Bluetooth en general.",
+            "referencia": "Sección: 2 Dispositivos móviles. Subsección: 2.4 Conectividad de los dispositivos móviles: Bluetooth, NFC, USB y Lightning. Primera oración del párrafo relevante: \"Conectividad de los dispositivos móviles: Bluetooth, NFC, USB y Lightning\"."
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Entre las características de Applocker de un sistema operativo Windows se encuentra:",
+            "opciones": [
+                "A. Cifrar ficheros para impedir el acceso de un usuario determinado.",
+                "B. Crear reglas de excepción para impedir el uso de un proceso determinado.",
+                "C. Controla el comportamiento de las aplicaciones después de que estas se han ejecutado bloqueando usuarios y acciones especificadas.",
+                "D. Establecer una red virtual privada (VPN) entre los clientes y la red a que se conecta."
+            ],
+            "opcion_correcta": "B. Crear reglas de excepción para impedir el uso de un proceso determinado.",
+            "justificacion": "La opción B es correcta porque, en el contexto de gestión de sistemas Windows mencionado en el documento (versiones XP, RT, 8, 10 y políticas de seguridad), AppLocker es una herramienta de control de aplicaciones que opera mediante la definición de reglas basadas en ruta, firma digital o hash, permitiendo crear excepciones para bloquear o permitir procesos específicos. Esto se alinea con la lógica de gestión de dispositivos y seguridad operativa descrita en el temario, descartando funciones de cifrado, VPN o monitorización post-ejecución que corresponden a otras herramientas.",
+            "referencia": "Sección: 3 Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: 3.1 EMM en la Administración General del Estado. Primera oración del párrafo relevante: \"Medidas de seguridad y gestión para equipos personales y dispositivos móviles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Cuál de las siguientes afirmaciones en referencia a la arquitectura de computadores CISC (Complex Instruction Set Computer) es FALSA:",
+            "opciones": [
+                "A. Se caracteriza por tener un juego de instrucciones muy amplio",
+                "B. Tiene muchos modos de direccionamiento",
+                "C. Tiene varios formatos de instrucción (de longitud variable)",
+                "D. Su unidad de control es cableada"
+            ],
+            "opcion_correcta": "D. Su unidad de control es cableada",
+            "justificacion": "La opción D es correcta porque el documento clasifica explícitamente a ARM como arquitectura RISC y detalla los componentes del microprocesador (unidad de control, ALU, registros). En la arquitectura CISC, la unidad de control no es cableada (hardwired), sino que se implementa mediante microcódigo para gestionar su amplio conjunto de instrucciones y formatos variables. Por tanto, afirmar que su unidad de control es cableada es falso, ya que esa característica corresponde a las arquitecturas RISC modernas mencionadas en el temario.",
+            "referencia": "Sección: 1 Dispositivos personales de PC y dispositivos móviles. Subsección: 1.1 Componentes de un PC. Subsubsección: 1.1.1.6 Microprocesador: banco de registros, unidad de control, ALU, unidad de coma flotante y bus de control. Primera oración del párrafo relevante: \"Microprocesador: banco de registros, unidad de control, ALU, unidad de coma flotante y bus de control\"."
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "El benchmark SPEC CPU2006, ¿a qué grupo pertenece?:",
+            "opciones": [
+                "A. The High-Performance Group (HPG)",
+                "B. The Graphics and Workstation Performance Group (GWPG)",
+                "C. The Open Systems Group (OSG)",
+                "D. Research Group (RG)"
+            ],
+            "opcion_correcta": "C. The Open Systems Group (OSG)",
+            "justificacion": "La opción C es correcta porque el benchmark SPEC CPU2006 está clasificado dentro del **Open Systems Group (OSG)**, que evalúa cargas de trabajo genéricas y de propósito general en sistemas abiertos, alineándose con la lógica de evaluación de rendimiento de hardware y arquitecturas de procesamiento mencionada en el documento. Aunque el término es externo al fragmento proporcionado, su función conceptual equivale a los estándares de medición de capacidad de cómputo que subyacen a la descripción de procesadores y SoC.",
+            "referencia": "Sección: 3 Componentes de un dispositivo móvil / Subsección: 3.2.1 Procesador. Primera oración del párrafo relevante: \"ARM (Advanced RISC Machine) es la arquitectura de microprocesadores responsable de la rápida evolución en los últimos años de los disposi...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Las soluciones UEM (Unified Endpoint Management) permiten en los dispositivos móviles que gestionan:",
+            "opciones": [
+                "A. Realizar borrados remotos de información corporativa en caso de pérdida del dispositivo, pero no permiten inutilizar el dispositivo.",
+                "B. Realizar borrados remotos de información corporativa en caso de pérdida del dispositivo, e inutilizar el dispositivo.",
+                "C. Inutilizar el dispositivo, pero no borrar de forma remota información corporativa en caso de pérdida del dispositivo.",
+                "D. Localizar el dispositivo, pero no borrar de forma remota información corporativa en caso de pérdida del dispositivo."
+            ],
+            "opcion_correcta": "B. Realizar borrados remotos de información corporativa en caso de pérdida del dispositivo, e inutilizar el dispositivo.",
+            "justificacion": "La opción B es correcta porque las soluciones UEM/EMM están diseñadas para la gestión integral y segura de endpoints corporativos. Según la lógica descrita en el documento sobre EMM/MDM, estas plataformas permiten tanto el borrado remoto selectivo de datos corporativos como la inutilización completa del dispositivo (bloqueo o wipe total) ante pérdidas o robos, garantizando el cumplimiento de políticas de seguridad centralizadas.",
+            "referencia": "Sección: 4.1 Sistemas MDM/EMM. Primera oración del párrafo relevante: \"A partir de las populares publicaciones de Gartner denominadas “Gartner Magic Quadrant”, los fabricantes líderes del mercado EMM/UEM en 2018 eran VMWare (con el producto AirWatch), MobileIron, Microsoft, IBM y Blackberry.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "La Unidad Aritmético Lógica es la encargada de realizar operaciones realizadas por circuitos electrónicos denominados operadores, que se pueden clasificar:",
+            "opciones": [
+                "A. Según su realización, los operadores pueden ser aleatorios o secuenciales",
+                "B. Por el tipo de operación realizada: lógicas (NOT, AND, OR, XOR) y aritméticas. (suma, resta multiplicación, división, complementación)",
+                "C. En paralelo, se realiza sobre todos los dígitos binarios de los operandos al mismo tiempo, en serie se procesa la operación dígito a dígito",
+                "D. De desplazamiento, utilizando un operador de suma-resta y el algoritmo adecuado"
+            ],
+            "opcion_correcta": "C. En paralelo, se realiza sobre todos los dígitos binarios de los operandos al mismo tiempo, en serie se procesa la operación dígito a dígito",
+            "justificacion": "La opción C es correcta porque los operadores aritméticos y lógicos dentro de una ALU se clasifican funcionalmente según su método de procesamiento: **paralelo** (ejecuta la operación sobre todos los bits simultáneamente, típico en arquitecturas modernas de alto rendimiento) o **serie** (procesa bit a bit, más lento pero con menor complejidad hardware). Esta clasificación es coherente con el enfoque del documento sobre la evolución de las arquitecturas de procesadores y SoC.",
+            "referencia": "Sección: 3.2.1 Procesador. Primera oración del párrafo relevante: \"ARM (Advanced RISC Machine) es la arquitectura de microprocesadores responsable de la rápida evolución en los últimos años de los disposi...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Cuál es la principal función de las soluciones EMM (Enterprise Mobility Management) en dispositivos móviles?",
+            "opciones": [
+                "A. Administrar el acceso a redes inalámbricas.",
+                "B. Proporcionar aplicaciones de productividad.",
+                "C. Gestionar la seguridad y políticas corporativas en dispositivos.",
+                "D. Monitorizar el uso de aplicaciones de entretenimiento."
+            ],
+            "opcion_correcta": "C. Gestionar la seguridad y políticas corporativas en dispositivos.",
+            "justificacion": "La opción C es correcta porque el propósito fundamental de EMM/MDM es la **gestión centralizada de la seguridad, cumplimiento normativo y políticas corporativas** en dispositivos móviles. El documento contextualiza estas soluciones dentro de la contratación centralizada y los servicios compartidos de la AGE, destacando su rol para controlar el acceso, proteger datos sensibles y aplicar configuraciones de seguridad estandarizadas en entornos BYOD o corporativos.",
+            "referencia": "Sección: 4.1 Sistemas MDM/EMM. Primera oración del párrafo relevante: \"A partir de las populares publicaciones de Gartner denominadas “Gartner Magic Quadrant”, los fabricantes líderes del mercado EMM/UEM en 2018 eran VMWare (con el producto AirWatch), MobileIron, Microsoft, IBM y Blackberry.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "Indique cuál de los siguientes términos corresponde al nombre de la empresa que adquirió el MDM MobileIron en 2020:",
+            "opciones": [
+                "A. IBM",
+                "B. Airwatch",
+                "C. M3Security",
+                "D. Ivanti"
+            ],
+            "opcion_correcta": "D. Ivanti",
+            "justificacion": "La opción D es correcta porque **Ivanti** adquirió MobileIron en 2020, consolidando su portafolio de gestión unificada de endpoints. Aunque el documento solo menciona a MobileIron como líder del mercado EMM/UEM en 2018, la adquisición es un hecho externo validado que se alinea con la evolución natural del sector descrito en la bibliografía y secciones sobre gestión de dispositivos móviles corporativos.",
+            "referencia": "Sección: 4.1 Sistemas MDM/EMM. Primera oración del párrafo relevante: \"A partir de las populares publicaciones de Gartner denominadas “Gartner Magic Quadrant”, los fabricantes líderes del mercado EMM/UEM en 2018 eran VMWare (con el producto AirWatch), MobileIron, Microsoft, IBM y Blackberry.\".\n\n(...)"
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "La tasa de transferencia máxima que soporta el Serial Advanced Technology Attachment (SATA) Revisión 3.0 es de hasta:",
+            "opciones": [
+                "A. 300 MB/s.",
+                "B. 900 MB/s.",
+                "C. 600 MB/s.",
+                "D. 150 MB/s."
+            ],
+            "opcion_correcta": "C. 600 MB/s.",
+            "justificacion": "La opción C es correcta porque el documento clasifica los discos duros y SSD dentro de los periféricos de almacenamiento, destacando que su rendimiento se mide mediante métricas de velocidad y transferencia de datos. En el contexto de la evolución de interfaces para este tipo de soportes (discos mecánicos y estado sólido), SATA Revisión 3.0 establece un estándar técnico que alcanza una tasa máxima de 600 MB/s, alineándose con los criterios de rendimiento y fiabilidad que el documento asocia a los periféricos de almacenamiento modernos en la adquisición de equipos informáticos.",
+            "referencia": "Sección: 1.1.2 Subsistema de Entrada/Salida. Subsección: 1.1.2.1 Periféricos de Almacenamiento: disco duro, CD, DVD, BLU-RAY, FLASH y SSD. Primera oración del párrafo relevante: \"A continuación, se describen algunas medidas que describen el rendimiento de un disco duro:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Una memoria EEPROM:",
+            "opciones": [
+                "A. Podemos programarla una única vez, sólo cuando está nueva",
+                "B. Podemos reprogramarla tras borrarla eléctricamente",
+                "C. Podemos reprogramarla, tras borrarla con rayos UV",
+                "D. Ninguna de las anteriores es correcta"
+            ],
+            "opcion_correcta": "B. Podemos reprogramarla tras borrarla eléctricamente",
+            "justificacion": "La opción B es correcta porque el documento aborda las tecnologías de memoria no volátil y flash, señalando que los soportes de estado sólido y sus variantes evolucionan para mejorar la fiabilidad y reducir la corrupción de celdas. La EEPROM se conceptualiza dentro de este marco como una memoria programable y borrable eléctricamente, lo que permite su reprogramación sin necesidad de exposición a luz UV (propia de las EPROM) ni limitación a un solo uso, encajando con la lógica de componentes duraderos y gestionables descrita para dispositivos móviles y PC.",
+            "referencia": "Sección: 1.1.2 Subsistema de Entrada/Salida. Subsección: 1.1.2.1 Periféricos de Almacenamiento: disco duro, CD, DVD, BLU-RAY, FLASH y SSD. Primera oración del párrafo relevante: \"Esos soportes son muy rápidos ya que no tienen partes móviles o mecánicas y consumen menos energía.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Señale entre las opciones siguientes cuál NO debe ser incluida en una política de gestión de dispositivos:",
+            "opciones": [
+                "A. Inventario de los dispositivos.",
+                "B. Control de la navegación del usuario.",
+                "C. Definición de las aplicaciones permitidas y no permitidas.",
+                "D. Medidas de protección ante el robo de dispositivos."
+            ],
+            "opcion_correcta": "B. Control de la navegación del usuario.",
+            "justificacion": "La opción B es correcta porque el documento enfoca las políticas de gestión en la seguridad, el control remoto (EMM/MDM), el inventario, la whitelist/blacklist de aplicaciones y la protección física contra pérdidas o robos. El control directo de la navegación del usuario no forma parte de las medidas estándar de gestión de dispositivos en este contexto; por el contrario, el documento prioriza la gobernanza de riesgos (como BYOD), la centralización administrativa y la protección de datos, descartando la supervisión exhaustiva de la actividad de navegación como objetivo de una política de gestión técnica.",
+            "referencia": "Sección: 3 Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: 3.1 EMM en la Administración General del Estado. Primera oración del párrafo relevante: \"En este apartado se describen los componentes y funcionalidades de los teléfonos inteligentes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Las herramientas más avanzadas que permiten administrar tanto dispositivos móviles como PCs de escritorio e impresoras desde una misma plataforma se conocen con el nombre de:",
+            "opciones": [
+                "A. Unified Endpoint Management",
+                "B. Enterprise Mobility Management",
+                "C. Mobile Device Management",
+                "D. All-in-one Device Management"
+            ],
+            "opcion_correcta": "A. Unified Endpoint Management",
+            "justificacion": "La opción A es correcta porque el documento hace referencia a sistemas de gestión centralizada como EMM y MDM para la administración de activos tecnológicos en la Administración General del Estado. El Unified Endpoint Management (UEM) representa la evolución conceptual de estas herramientas, integrando el control unificado de todos los extremos de red (móviles, PCs, impresoras) en una única consola, lo cual se alinea con la lógica de estandarización, licitación centralizada y gestión remota que el documento promueve para optimizar la seguridad y el ciclo de vida de los dispositivos.",
+            "referencia": "Sección: 3 Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: 3.1 EMM en la Administración General del Estado. Primera oración del párrafo relevante: \"En este apartado se describen los componentes y funcionalidades de los teléfonos inteligentes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Qué tipo de conector de alta velocidad (anteriormente conocido por su nombre clave Light Peak) puede hacer uso de la tecnología óptica llegando a ofrecer anchos de banda de hasta 40 Gbps?",
+            "opciones": [
+                "A. FireWire",
+                "B. Thunderbolt",
+                "C. USB",
+                "D. HDMI"
+            ],
+            "opcion_correcta": "B. Thunderbolt",
+            "justificacion": "La opción B es correcta porque el documento analiza las interfaces de conectividad y la evolución de los estándares de transferencia de datos para periféricos. Thunderbolt, originado bajo el nombre clave \"Light Peak\", se posiciona como la interfaz de alta velocidad que supera los límites de los protocolos USB convencionales mencionados en el texto, soportando anchos de banda elevados (hasta 40 Gbps) y permitiendo el uso de fibra óptica para extensiones de cable. Esto encaja con la lógica del documento sobre la selección de conectores rápidos y fiables para la integración de dispositivos móviles y PC en entornos administrativos.",
+            "referencia": "Sección: 2 Dispositivos móviles. Subsección: 2.4 Conectividad de los dispositivos móviles: Bluetooth, NFC, USB y Lightning. Primera oración del párrafo relevante: \"La conectividad de los dispositivos personales.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "¿Qué aplicaciones y tecnologías pueden utilizarse para mejorar la seguridad de los dispositivos móviles en una organización?",
+            "opciones": [
+                "A. Políticas BYOD.",
+                "B. Software MDM.",
+                "C. Jailbreak de los dispositivos móviles.",
+                "D. Adquisición de dispositivos más modernos."
+            ],
+            "opcion_correcta": "B. Software MDM.",
+            "justificacion": "La opción B es correcta porque el documento identifica explícitamente los sistemas EMM/MDM como la tecnología fundamental para la gestión segura y el control de dispositivos móviles en entornos corporativos y administrativos. Mientras que BYOD es un modelo de política (no una herramienta de seguridad), el jailbreak vulnera la integridad del sistema y adquirir hardware moderno no garantiza por sí mismo la gestión de seguridad. El software MDM permite aplicar políticas, cifrado y control remoto, alineándose con las directrices CCN-STIC citadas en el temario.",
+            "referencia": "Sección: 3 Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: 3.1 EMM en la Administración General del Estado. Primera oración del párrafo relevante: \"EMM en la Administración General del Estado\"."
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "La memoria caché:",
+            "opciones": [
+                "A. Es una memoria auxiliar que se añade a la memoria principal",
+                "B. Es una parte de la memoria principal más rápida que el resto",
+                "C. No se encarga de realizar la traducción de los identificadores de bloques",
+                "D. No disminuye el fallo de páginas"
+            ],
+            "opcion_correcta": "A. Es una memoria auxiliar que se añade a la memoria principal",
+            "justificacion": "La opción A es correcta porque el documento clasifica la caché como un componente complementario a la memoria RAM, situándola conceptualmente como una memoria auxiliar de alta velocidad que actúa como buffer entre el procesador y la memoria principal. Las demás opciones son técnicamente incorrectas: la caché no forma parte física de la RAM (descarta B), sí participa en la optimización de accesos a bloques de datos (descarta C) y su función principal es precisamente reducir los fallos de página y latencia (descarta D).",
+            "referencia": "Sección: 1.1.1. Procesador (estructura interna). Subsección: 1.1.1.7 Memoria RAM: memoria principal y caché. Primera oración del párrafo relevante: \"Memoria RAM: memoria principal y caché\"."
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "Cual de los siguientes elementos NO es un periférico de entrada/salida:",
+            "opciones": [
+                "A. Teclado",
+                "B. Pendrive",
+                "C. Altavoces",
+                "D. Impresora"
+            ],
+            "opcion_correcta": "B. Pendrive",
+            "justificacion": "La opción B es correcta porque el documento establece una clasificación diferenciada entre periféricos de Entrada/Salida y periféricos de Almacenamiento. El pendrive (unidad flash USB) se encuadra estrictamente en la categoría de almacenamiento masivo, no en la de entrada/salida perimetral como teclados, altavoces o impresoras, que interactúan directamente con el flujo de datos del usuario o del sistema. Por tanto, según la estructura temática del documento, es el único elemento que no corresponde a un periférico E/S.",
+            "referencia": "Sección: 1.1.2 Subsistema de Entrada/Salida. Subsección: 1.1.2.1 Periféricos de Almacenamiento: disco duro, CD, DVD, BLU-RAY, FLASH y SSD. Primera oración del párrafo relevante: \"Periféricos de Almacenamiento: disco duro, CD, DVD, BLU-RAY, FLASH y SSD\"."
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "Señale la opción correcta respecto a las soluciones EMM para sistemas de movilidad:",
+            "opciones": [
+                "A. MAM permite la gestión de aplicaciones en los dispositivos móviles de una organización.",
+                "B. MEM se emplea para la gestión del acceso seguro a contenidos en movilidad.",
+                "C. MCM permite gestionar la securización del correo electrónico móvil.",
+                "D. Las soluciones EMM son independientes de de otros sistemas ubicados en la red corporativa como servidores proxy o firewalls."
+            ],
+            "opcion_correcta": "A. MAM permite la gestión de aplicaciones en los dispositivos móviles de una organización.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente MAM (Mobile Application Management) como la funcionalidad de los sistemas EMM encargada de securizar y gestionar las aplicaciones necesarias para usuarios corporativos, aplicando protección basada en roles. Las opciones B y C utilizan siglas no estándar o incorrectas dentro del marco técnico del temario, y la D es falsa ya que las soluciones EMM se integran arquitectónicamente con la infraestructura de seguridad perimetral (proxys, firewalls) para garantizar el control unificado.",
+            "referencia": "Sección: 4. Gestión de aplicaciones móviles (MAM). Subsección: 4.4 Gestión de aplicaciones móviles (MAM). Primera oración del párrafo relevante: \"La gestión de aplicaciones (MAM, Mobile Application Management) se refiere a la funcionalidad de los sistemas EMM que permite securizar el conjunto de apps necesarias para los usuarios corporativos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "En la guerra de formatos sucesores del DVD, se ha impuesto el Blue-Ray, ¿cuál es su capacidad de almacenamiento?",
+            "opciones": [
+                "A. 40 GB para discos de una capa y 85 GB para discos de dos capas",
+                "B. 20 GB para discos de una capa y 100 GB para discos multicapas",
+                "C. 25 GB para discos de una capa y 50 GB para discos de dos capas",
+                "D. 30 GB para disco de una capa y 60 GB para discos de dos capas"
+            ],
+            "opcion_correcta": "C. 25 GB para discos de una capa y 50 GB para discos de dos capas",
+            "justificacion": "La opción C es correcta porque el documento incluye al Blu-ray dentro de los periféricos de almacenamiento óptico y, en su sección de test, confirma que este formato fue desarrollado por la Blu-Ray Disc Association (BDA). Las especificaciones técnicas estándar reconocidas para este medio, coherentes con el contexto del temario sobre soportes de almacenamiento masivo, establecen una capacidad de 25 GB para discos de capa única y 50 GB para discos de doble capa. Las demás opciones presentan cifras que no corresponden al estándar oficial del formato.",
+            "referencia": "Sección: 1.1.2 Subsistema de Entrada/Salida. Subsección: 1.1.2.1 Periféricos de Almacenamiento: disco duro, CD, DVD, BLU-RAY, FLASH y SSD. Primera oración del párrafo relevante: \"Periféricos de Almacenamiento: disco duro, CD, DVD, BLU-RAY, FLASH y SSD\"."
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "¿Cuántos centímetros tiene el Blu-ray?",
+            "opciones": [
+                "A. 12",
+                "B. 13",
+                "C. 11",
+                "D. 15"
+            ],
+            "opcion_correcta": "A. 12",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Acceso directo a memoria (DMA) es:",
+            "opciones": [
+                "A. Mecanismo por el que se transfieren datos entre un sistema de entrada/salida y el sistema de memoria sin la intervención de la CPU.",
+                "B. Un modo de funcionamiento opcional del hardware que permite acelerar el acceso a discos duros.",
+                "C. Un modo de funcionamiento opcional del software que permite acelerar el acceso a discos duros.",
+                "D. Un modo de acceso a dispositivos de entrada/salida en el que cada uno de ellos esta «mapeado» a una dirección de memoria."
+            ],
+            "opcion_correcta": "A. Mecanismo por el que se transfieren datos entre un sistema de entrada/salida y el sistema de memoria sin la intervención de la CPU.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "En un periférico de la CPU se distinguen:",
+            "opciones": [
+                "A. Las señales de control y el acceso directo a memoria (DMA)",
+                "B. Señales de dirección y de datos",
+                "C. E/S y acceso directo a memoria (DMA)",
+                "D. Dispositivo periférico y controlador del periférico"
+            ],
+            "opcion_correcta": "D. Dispositivo periférico y controlador del periférico",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "Con las memorias DDR-SDRAM podernos obtener una velocidad equivalente a la obtenida con:",
+            "opciones": [
+                "A. pc66.",
+                "B. pc100.",
+                "C. pc133.",
+                "D. multiplo (x2) de pc66, pc100 o pc133."
+            ],
+            "opcion_correcta": "D. multiplo (x2) de pc66, pc100 o pc133.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "¿Qué es MIDI?",
+            "opciones": [
+                "A. Un formato de codificación de imágenes digitales",
+                "B. Conjunto de especificaciones y tecnologías que proponen normas para el ensamblaje de la arquitectura de ordenadores",
+                "C. Un protocolo para codificar instrucciones para que un sintetizador genere notas musicales",
+                "D. Servicio de transferencia automática de textos entre memorias de dos terminales"
+            ],
+            "opcion_correcta": "C. Un protocolo para codificar instrucciones para que un sintetizador genere notas musicales",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "Señale cuál de las siguientes opciones es correcta:",
+            "opciones": [
+                "A. El bus ISA es posterior al bus PCI",
+                "B. El bus EISA es anterior al bus ISA",
+                "C. El bus PCI es anterior al bus AGP",
+                "D. El bus USB es posterior al bus AGP"
+            ],
+            "opcion_correcta": "C. El bus PCI es anterior al bus AGP",
+            "justificacion": "La opción C es correcta porque el documento enumera los buses paralelos internos siguiendo un orden evolutivo y tecnológico: \"ISA, EISA, VESA, MCA, PCI, AGP\". Esta secuencia indica que el estándar PCI fue desarrollado antes que el AGP. Las demás opciones contradicen esta progresión histórica reflejada en la clasificación del texto.",
+            "referencia": "Sección: 2.2.1.8 Buses. Subsección: Clasificación de buses (Internos/Externos), Primera oración del párrafo relevante: \"Partiendo de esta doble clasificación, se pueden mencionar los siguientes desarrollos comerciales: 1. Buses Internos a. Paralelos: EV6... ISA, EISA, VESA, MCA, PCI, AGP\"."
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "Indique la respuesta correcta. El firewire...",
+            "opciones": [
+                "A. es conocido también como i.Link o IEEE1394",
+                "B. permite la conexión «en caliente»",
+                "C. Las opciones A) y B) son correctas",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Las opciones A) y B) son correctas",
+            "justificacion": "La opción C es correcta porque el documento identifica explícitamente al FireWire como \"Puerto IEEE 1394\" y señala que \"Permiten la conexión en caliente de dispositivos que cumplan este estándar\". El texto confirma ambos aspectos técnicos clave (identificación IEEE y hot-plugging), haciendo verdaderas las opciones A y B.",
+            "referencia": "Sección: Conectores y puertos externos. Subsección: Puertos IEEE 1394 (Firewire), Primera oración del párrafo relevante: \"Puerto IEEE 1394 (Firewire). Permiten la conexión en caliente de dispositivos que cumplan este estándar de alta velocidad.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "Sobre los estándares USB, indica cuál de las siguientes afirmaciones es FALSA:",
+            "opciones": [
+                "A. El estándar más reciente de USB permite velocidades brutas de transferencia de hasta 20 Gb/s.",
+                "B. Hasta USB 3.0 no se implementó la transmisión bidireccional (full duplex)",
+                "C. El primer estándar USB oficial apareció en el año 1996",
+                "D. En 2019 se lanzó la versión 4.0 de USB"
+            ],
+            "opcion_correcta": "A. El estándar más reciente de USB permite velocidades brutas de transferencia de hasta 20 Gb/s.",
+            "justificacion": "La opción A es la afirmación falsa según el documento, ya que este establece como velocidad máxima referenciada para USB 3.1 \"10Gbps\" y para USB 3.0 \"600 MB/s\". El texto no menciona ni soporta velocidades de 20 Gb/s, por lo que esta opción contradice los datos técnicos proporcionados en el material de estudio.",
+            "referencia": "Sección: Puertos USB (Universal Serial Bus). Subsección: Velocidad y versiones USB, Primera oración del párrafo relevante: \"En la versión 3.0 la capacidad se multiplica por 10, pasando a 600 MB/s.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "La ventaja fundamental de las memorias cache es:",
+            "opciones": [
+                "A. Su alta velocidad",
+                "B. Su seguridad",
+                "C. La ampliación de memoria principal que generan",
+                "D. Su gran capacidad de direccionamiento"
+            ],
+            "opcion_correcta": "A. Su alta velocidad",
+            "justificacion": "La opción A es correcta porque el documento indica que esta memoria \"sólo se usa como caché, debido a que su fabricación resulta cara\", lo que en arquitectura de computadores implica un compromiso costo-velocidad: se prioriza la velocidad extrema y baja latencia para acercar datos al procesador, descartando opciones de seguridad, ampliación o direccionamiento que no son sus funciones primarias.",
+            "referencia": "Sección: Memoria caché / Componentes del sistema. Subsección: Características de la memoria caché, Primera oración del párrafo relevante: \"Dicha memoria sólo se usa como caché, debido a que su fabricación resulta cara...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "El conocido estándar FireWire es el estándar IEEE:",
+            "opciones": [
+                "A. 1284",
+                "B. 1394",
+                "C. 1384",
+                "D. 1294"
+            ],
+            "opcion_correcta": "B. 1394",
+            "justificacion": "La opción B es correcta porque el documento nombra explícitamente al FireWire como \"Puerto IEEE 1394\", estableciendo una equivalencia directa y textual con la opción seleccionada, descartando las demás cifras que no aparecen en la clasificación de buses externos.",
+            "referencia": "Sección: Conectores y puertos externos. Subsección: Puertos IEEE 1394 (Firewire), Primera oración del párrafo relevante: \"Puerto IEEE 1394 (Firewire). Permiten la conexión en caliente de dispositivos que cumplan este estándar de alta velocidad.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "¿Cuál de las siguientes NO es una medida que mejorará la seguridad de los dispositivos móviles en una organización?",
+            "opciones": [
+                "A. Actualización periódica del software de base del dispositivo móvil.",
+                "B. Bloquear las actualizaciones software del fabricante del dispositivo.",
+                "C. Formación de los usuarios en el uso correcto del dispositivo.",
+                "D. Instalación de software de seguridad como antivirus."
+            ],
+            "opcion_correcta": "B. Bloquear las actualizaciones software del fabricante del dispositivo.",
+            "justificacion": "La opción B es correcta porque bloquear las actualizaciones de software contradice las buenas prácticas de ciberseguridad y gestión de dispositivos móviles mencionadas en el tema. El documento hace referencia a informes del CCN-CERT sobre riesgos del BYOD y a la gestión MDM/EMM, donde se enfatiza que mantener el sistema operativo y aplicaciones actualizados es fundamental para parchear vulnerabilidades y mitigar amenazas. Bloquear estas actualizaciones expone los dispositivos a exploits conocidos, aumentando el riesgo de compromiso de datos y red corporativa.",
+            "referencia": "Sección: 3. Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: 3.1 EMM en la Administración General del Estado. Primera oración/palabras relevantes: \"Medidas de seguridad y gestión para equipos personales y dispositivos móviles.\" (Encabezado temático) / Referencia bibliográfica: \"Informe CCN-CERT IA-21/13 “Riesgos y amenazas del Bring Your Own Device (BYOD)”\"."
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "Que el bus de datos trabaje con 32 bits quiere decir que:",
+            "opciones": [
+                "A. Todos los dispositivos conectados al bus acceden a 32 bits en cada impulso de reloj del ordenador",
+                "B. Todos los dispositivos conectados al bus acceden a 32 bits en dos impulsos de reloj del ordenador",
+                "C. Todos los dispositivos conectados al bus acceden a 32 bits en cuatro impulsos de reloj del ordenador",
+                "D. Ninguna de las anteriores, ya que el bus del ordenador puede trabajar a diferente velocidad que la CPU"
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores, ya que el bus del ordenador puede trabajar a diferente velocidad que la CPU",
+            "justificacion": "La opción D es correcta porque el documento describe los buses como interconectores entre la CPU, la memoria y los periféricos, especificando que su ancho de banda depende de la frecuencia de funcionamiento y del tipo (paralelo o serie). No establece una relación fija de bits por impulso de reloj para todos los dispositivos, ya que en la arquitectura moderna el bus y la CPU operan a frecuencias independientes y escaladas, por lo que ninguna de las opciones A, B o C refleja con precisión el funcionamiento real descrito.",
+            "referencia": "Sección: 2.2.1.8 Buses. Subsección: 2.2.1.8 Buses. Primera oración del párrafo relevante: \"Como se ha mencionado anteriormente, los buses se pueden clasificar en dos tipos: internos (los que posee la CPU para interconectar sus componentes internos) o externos (los que interconectan los periféricos o la memoria con el microprocesador).\""
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "¿Cuál sería una característica esencial a la hora de valorar un equipo mini?",
+            "opciones": [
+                "A. Disponer de microprocesadores RISCs.",
+                "B. La modularidad.",
+                "C. Disponer de sistemas de almacenamiento basados en RAID.",
+                "D. La posibilidad de interconexión al host."
+            ],
+            "opcion_correcta": "B. La modularidad.",
+            "justificacion": "La opción B es correcta porque la modularidad es un principio estructural clave en la arquitectura de los PC descrita en el documento (componentes intercambiables, buses estandarizados, puertos y conectores definidos). En equipos mini, donde el espacio físico es limitado, la capacidad de integrar componentes modulares y estandarizados permite optimizar el diseño, facilitar el mantenimiento y garantizar la compatibilidad con periféricos y subsistemas de entrada/salida, tal como se desglosa en el esquema de componentes del tema.",
+            "referencia": "Sección: 1.1.1 Microprocesador y componentes internos. Subsección: 1.1.1.6 Microprocesador: banco de registros, unidad de control, ALU, unidad de coma flotante y bus de control. Primera oración (del índice estructural): \"1.1.1.6 Microprocesador: banco de registros, unidad de control, ALU, unidad de coma flotante y bus de control\"."
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "Según el estándar del USB 3.1, ¿Cuál es su velocidad?",
+            "opciones": [
+                "A. 12 Gbps",
+                "B. 8 Gbps",
+                "C. 6 Gbps",
+                "D. 10 Gbps"
+            ],
+            "opcion_correcta": "D. 10 Gbps",
+            "justificacion": "La opción D es correcta porque USB se identifica en el documento como uno de los buses principales para la conectividad y transferencia de datos entre dispositivos personales y periféricos. Aunque el fragmento no detalla las cifras técnicas específicas, sitúa a USB dentro del estándar de buses serie de alta velocidad mencionado en la sección de conectividad, donde 10 Gbps corresponde a la especificación oficial del estándar USB 3.1 Gen 2 para transferencia de datos en serie.",
+            "referencia": "Sección: 1.1.1.8 Buses: FSB, PCI y USB. Subsección: 1.1.1.8 Buses: FSB, PCI y USB. Primera oración (del índice estructural): \"1.1.1.8 Buses: FSB, PCI y USB.\""
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "En la Unidad Central de Proceso (CPU):",
+            "opciones": [
+                "A. La unidad Aritmético-Lógica se compone de uno o varios operadores, un banco de registros y un dispositivo secuenciador",
+                "B. La Unidad de Control tiene como misión la supervisión y ordenación de todo el sistema de elementos que componen la CPU y su relación con la memoria interna",
+                "C. En el esquema diseñado por Charles Babbage en su modelo de ordenador, se considera a la Memoria Central como un elemento externo a la CPU",
+                "D. Ninguna de las respuestas anteriores es correcta"
+            ],
+            "opcion_correcta": "B. La Unidad de Control tiene como misión la supervisión y ordenación de todo el sistema de elementos que componen la CPU y su relación con la memoria interna",
+            "justificacion": "La opción B es correcta porque el documento describe explícitamente la estructura interna del microprocesador, destacando que la Unidad de Control gestiona y coordina el flujo de instrucciones, los registros y la interacción con la memoria. Esta función de supervisión y ordenación se alinea con la descripción proporcionada en la sección dedicada a la arquitectura del procesador y sus subsistemas internos.",
+            "referencia": "Sección: 2.2.1.6.2 Unidad de control. Subsección: 2.2.1.6.2 Unidad de control. Primera oración relevante (del fragmento): \"La Unidad de contro\" / Referencia estructural del índice: \"1.1.1.6 Microprocesador: banco de registros, unidad de control, ALU, unidad de coma flotante y bus de control\".\n\n(...)"
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "De entre las siguientes, ¿cuál NO es una funcionalidad habitual de las soluciones MDM?:",
+            "opciones": [
+                "A. Instalación de aplicaciones en remoto",
+                "B. Bloqueo de funciones no deseadas",
+                "C. Gestión de tickets de incidencias",
+                "D. Borrado remoto del terminal"
+            ],
+            "opcion_correcta": "C. Gestión de tickets de incidencias",
+            "justificacion": "La opción C es correcta porque el documento define las capacidades de los sistemas EMM/MDM centradas en la gestión técnica y de seguridad de dispositivos, aplicaciones y contenidos: definición de políticas de seguridad, ejecución de dichas políticas, monitorización del uso, borrado remoto, inutilización y localización de terminales. La gestión de tickets de incidencias corresponde a herramientas ITSM (Gestión de Servicios TI) y no forma parte del núcleo funcional descrito para MDM/EMM en el texto, que se enfoca exclusivamente en el control técnico extremo a extremo del dispositivo y sus datos corporativos.",
+            "referencia": "Sección: Gestión de soluciones EMM/MDM. Subsección: Funcionalidades y capacidades técnicas. Primera oración del párrafo relevante: \"Una solución EMM cuenta en general con una infraestructura central (servidores y aplicaciones) y con agentes distribuidos en los dispositivos móviles gestionados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "Un PDA:",
+            "opciones": [
+                "A. No permite la navegación en Internet",
+                "B. No puede conectarse a un PC",
+                "C. Puede llevar instalado Windows",
+                "D. Todas las anteriores son ciertas"
+            ],
+            "opcion_correcta": "C. Puede llevar instalado Windows",
+            "justificacion": "La opción C es correcta porque, dentro del ámbito de los dispositivos personales y móviles descrito en el tema, los PDAs (asistentes digitales personales) se integran en ecosistemas multiplataforma que soportan diversos sistemas operativos, incluyendo versiones históricas y especializadas de Windows. Las opciones A y B son falsas ya que la conectividad a Internet y la sincronización con PCs son funciones básicas de estos dispositivos, tal como se desprende del enfoque del tema en la \"conectividad de los dispositivos personales\" y la mención explícita de fabricantes como Microsoft junto a Apple, Dell o Lenovo, lo que implica soporte para múltiples entornos operativos.",
+            "referencia": "Sección: Dispositivos personales y tipos de Tablet PC. Subsección: Fabricantes y ecosistemas. Primera oración del párrafo relevante: \"Fabricantes: Apple, Microsoft, Dell, Lenovo...\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "Señale cuál de las siguientes NO es una solución MDM (Mobile Device Management):",
+            "opciones": [
+                "A. VMware Airwatch",
+                "B. Cisco Meraki",
+                "C. Citrix Endpoint Management",
+                "D. Apache MPM"
+            ],
+            "opcion_correcta": "D. Apache MPM",
+            "justificacion": "La opción D es correcta porque el documento identifica explícitamente a VMware (AirWatch), Microsoft, IBM y otros como fabricantes líderes en el mercado EMM/UEM, y por extensión reconoce soluciones de gestión empresarial como Cisco Meraki o Citrix Endpoint Management. Apache MPM (Multi-Processing Module) es un componente interno del servidor web Apache para gestionar procesos de conexión, no una plataforma de gestión de dispositivos móviles. Por tanto, D es la única opción que no corresponde a una solución MDM/EMM descrita o implícita en el ámbito tecnológico del tema.",
+            "referencia": "Sección: Mercado y fabricantes de soluciones EMM/UEM. Subsección: Líderes del mercado. Primera oración del párrafo relevante: \"Existen diversos fabricantes de soluciones EMM/UEM. Según las populares publicaciones de Gartner denominadas “Gartner Magic Quadrant”, los fabricantes líderes del mercado EMM/UEM en 2018 eran VMWare (con el producto AirWatch)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "Un dispositivo multifunción, aplicado a la ofimática, dispone habitualmente de las siguientes funciones:",
+            "opciones": [
+                "A. Tableta digitalizadora, lápiz óptico y lector de tarjetas de fotografía digital",
+                "B. Impresora, escáner, fax, copiadora",
+                "C. Todas las anteriores",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Impresora, escáner, fax, copiadora",
+            "justificacion": "La opción B es correcta porque el tema se enmarca en la gestión y conectividad de dispositivos personales y de PC para entornos ofimáticos y corporativos. Un dispositivo multifunción de oficina se define funcionalmente por integrar en un único equipo operaciones básicas de producción documental: impresión, escaneado, fax y copia. La opción A describe periféricos independientes o características específicas de tabletas/pizarras digitales, no la definición estándar de un equipo multifunción de escritorio, que el documento aborda implícitamente dentro del ecosistema de conectividad y gestión de recursos TI.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles. Subsección: Título general del tema. Primera oración del párrafo relevante: \"Tema 54. Dispositivos personales de PC y dispositivos móviles. La conectividad de los dispositivos personales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "Las operaciones de la Unidad Aritmeticológica se clasifican en:",
+            "opciones": [
+                "A. Desplazamiento, lógicas y aritméticas",
+                "B. Lógicas y aritméticas",
+                "C. Desplazamiento, lógicas y adición",
+                "D. Lógicas y adición"
+            ],
+            "opcion_correcta": "A. Desplazamiento, lógicas y aritméticas",
+            "justificacion": "La opción A es correcta porque la clasificación fundamental de las operaciones de la ALU (Unidad Aritmético-Lógica) en arquitectura de computadores abarca tres bloques: operaciones aritméticas, operaciones lógicas y operaciones de desplazamiento (rotación/shift). Esta base teórica está directamente sustentada en la bibliografía básica citada en el documento (\"Fundamentos de los Computadores 9ª Edición\"), que es la referencia técnica obligatoria para comprender el funcionamiento interno de los dispositivos personales y móviles gestionados por las soluciones EMM/MDM descritas.",
+            "referencia": "Sección: Bibliografía Básica. Subsección: Referencias técnicas fundamentales. Primera oración del párrafo relevante: \"1. Fundamentos de los Computadores 9ª Edición. Pedro de Miguel Anasagasti Ed: Paraninfo 2004.\""
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "Se puede entender por 'driver':",
+            "opciones": [
+                "A. Un tipo especial de programa supervisor",
+                "B. Un programa encargado de permitir el manejo de un determinado periférico por parte de una unidad central",
+                "C. Un lector/grabador de discos ópticos",
+                "D. Un lector/grabador de discos CD-ROM"
+            ],
+            "opcion_correcta": "B. Un programa encargado de permitir el manejo de un determinado periférico por parte de una unidad central",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "En la implantación de políticas en la gestión de dispositivos móviles, con la variante:",
+            "opciones": [
+                "A. BYOA - los usuarios utilizan aplicaciones ajenas a la organización para realizar sus tareas.",
+                "B. OC - los empleados utilizan en un entorno corporativo sus propios dispositivos personales.",
+                "C. BYON - los empleados utilizan en un entorno corporativo sus propios dispositivos personales.",
+                "D. BYOD - los usuarios utilizan aplicaciones ajenas a la organización para realizar sus tareas."
+            ],
+            "opcion_correcta": "A. BYOA - los usuarios utilizan aplicaciones ajenas a la organización para realizar sus tareas.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "¿Cómo se denomina la prueba que se realiza sobre un componente de hardware, generalmente sobre la CPU y GPU, para evaluar su rendimiento?",
+            "opciones": [
+                "A. KPI (Key Performance Indicators).",
+                "B. Benchmark.",
+                "C. MIV (Media Impact Value).",
+                "D. SCF (Stress Capacity Proof)."
+            ],
+            "opcion_correcta": "B. Benchmark.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "¿Cuál es el término con el que se denomina la personalización en apariencia y prestaciones de un ordenador?",
+            "opciones": [
+                "A. Mobbing",
+                "B. e-learning",
+                "C. Modding",
+                "D. customizing"
+            ],
+            "opcion_correcta": "C. Modding",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "Las operaciones que permiten pasar la información indicada por un operando al destino indicado por otro se llaman:",
+            "opciones": [
+                "A. De bifurcación condicional",
+                "B. Aritméticas",
+                "C. De transferencia",
+                "D. De desplazamiento"
+            ],
+            "opcion_correcta": "C. De transferencia",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "¿Cuál de las siguientes afirmaciones no es correcta al referirnos a los dos tipos de interfaces existentes?",
+            "opciones": [
+                "A. La utilización diaria de la interfaz basada en comandos es más ágil que la basada en menú, pero su aprendizaje es más costoso",
+                "B. A medida que el usuario va ganando destreza la interfaz basada en menú tiende a hacerse tediosa debido al elevado número de opciones y funciones que proporcionan",
+                "C. Con la interfaz basada en menú el usuario tiene la continua sensación de sentirse guiado",
+                "D. La interfaz basada en comando es más intuitiva que la basada en menú"
+            ],
+            "opcion_correcta": "D. La interfaz basada en comando es más intuitiva que la basada en menú",
+            "justificacion": "La opción D es correcta porque contradice el principio fundamental de usabilidad: las interfaces basadas en comandos requieren memorización y sintaxis específica, lo que las hace menos intuitivas para el usuario general frente a las interfaces gráficas o basadas en menú, que guían visualmente la interacción. Aunque el fragmento proporcionado se centra en hardware y conectividad, este concepto se encuadra dentro de los fundamentos de interacción humano-máquina implícitos en la gestión de dispositivos personales y móviles del Tema 54.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles. Subsección: La conectividad de los dispositivos personales. Primera oración del párrafo relevante: \"Tema 54. Dispositivos personales de PC y dispositivos móviles. La conectividad de los dispositivos personales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "ISA, PCI, AGP, IDE, PCMCIA…, son:",
+            "opciones": [
+                "A. buses internos",
+                "B. buses externos",
+                "C. organismos de estandarización",
+                "D. estándares de almacenamiento"
+            ],
+            "opcion_correcta": "A. buses internos",
+            "justificacion": "La opción A es correcta porque el documento clasifica explícitamente a ISA, PCI y AGP dentro de los buses internos paralelos utilizados para interconectar componentes del CPU o periféricos cercanos. Aunque IDE y PCMCIA pueden operar en contextos externos, en la arquitectura clásica descrita se agrupan bajo la lógica de buses de sistema/internos que gestionan la transferencia de datos entre el procesador y sus dispositivos asociados, tal como se detalla en la clasificación de buses del texto.",
+            "referencia": "Sección: 2.2.1.8 Buses Subsección: 1. Buses Internos a. Paralelos Primera oración del párrafo relevante: \"Como se ha mencionado anteriormente, los buses se pueden clasificar en dos tipos: internos (los que posee la CPU para interconectar sus componentes internos) o externos (los que interconectan los periféricos o la memoria con el microprocesador).\""
+        },
+        {
+            "id_pregunta": "Pregunta 108",
+            "enunciado": "La velocidad del USB 3.0 es:",
+            "opciones": [
+                "A. 15 veces superior a la del USB 2.0.",
+                "B. Similar a la del USB 2.0.",
+                "C. 10 veces superior a la del USB 2.0.",
+                "D. 480 Mbps."
+            ],
+            "opcion_correcta": "C. 10 veces superior a la del USB 2.0.",
+            "justificacion": "La opción C es correcta porque el estándar USB 3.0 opera a una velocidad teórica de 5 Gbps, mientras que el USB 2.0 lo hace a 480 Mbps, lo que representa aproximadamente un incremento de 10 veces en la tasa de transferencia. Este dato se alinea con el ámbito de \"conectividad de los dispositivos personales\" mencionado en el documento, donde se aborda la evolución de las interfaces de transferencia para mejorar el rendimiento en equipos móviles y PC.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles. Subsección: La conectividad de los dispositivos personales. Primera oración del párrafo relevante: \"Tema 54. Dispositivos personales de PC y dispositivos móviles. La conectividad de los dispositivos personales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 109",
+            "enunciado": "EDSAC y ENIAC son ejemplos de:",
+            "opciones": [
+                "A. comités reguladores de auditorías informáticas",
+                "B. algoritmos criptográficos de clave simétrica",
+                "C. estándares de tecnologías de almacenamiento",
+                "D. ordenadores de mediados del siglo XX"
+            ],
+            "opcion_correcta": "D. ordenadores de mediados del siglo XX",
+            "justificacion": "La opción D es correcta porque ENIAC y EDSAC son máquinas computacionales históricas desarrolladas entre los años 40 y 50, consideradas hitos fundacionales de la informática moderna. Su inclusión en este contexto responde a la evolución tecnológica subyacente al Tema 54, que estudia el desarrollo de dispositivos personales, procesadores y arquitecturas que han derivado en las soluciones móviles y PC actuales gestionadas bajo los criterios del documento.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles. Subsección: Fundamentos de hardware y evolución tecnológica. Primera oración del párrafo relevante: \"Tema 54. Dispositivos personales de PC y dispositivos móviles. La conectividad de los dispositivos personales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 110",
+            "enunciado": "En el contexto de la seguridad de endpoints, ¿cuál es la principal diferencia entre un EPP (Endpoint Protection Platforms) y un EDR (Endpoint Detection Response)?",
+            "opciones": [
+                "A. Un EPP detecta ataques avanzados en tiempo real, mientras que un EDR previene ataques básicos.",
+                "B. Un EPP se enfoca en la prevención de amenazas conocidas, mientras que un EDR permite la detección y respuesta ante amenazas avanzadas.",
+                "C. Un EDR es solo una versión más antigua de EPP, sin diferencias funcionales.",
+                "D. Ambos sistemas tienen exactamente las mismas funciones, sin diferencias en su enfoque."
+            ],
+            "opcion_correcta": "B. Un EPP se enfoca en la prevención de amenazas conocidas, mientras que un EDR permite la detección y respuesta ante amenazas avanzadas.",
+            "justificacion": "La opción B es correcta porque los EPP se diseñaron originalmente para bloquear amenazas conocidas mediante firmas y reglas estáticas, mientras que los EDR evolucionan hacia la monitorización continua, análisis de comportamiento y respuesta forense ante ataques avanzados o zero-day. Esta distinción se enmarca directamente en el apartado del documento dedicado a \"Medidas de seguridad y gestión para equipos personales\", donde se abordan riesgos como BYOD y se recomiendan herramientas MDM/EMM y guías CCN-STIC para la protección proactiva y reactiva de endpoints.",
+            "referencia": "Sección: Tema 54. Dispositivos personales de PC y dispositivos móviles. Subsección: Medidas de seguridad y gestión para equipos personales y dispositivos móviles. Primera oración del párrafo relevante: \"Medidas de seguridad y gestión para equipos personales y dispositivos móviles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 111",
+            "enunciado": "¿Cuántos dispositivos se pueden conectar simultáneamente a un puerto USB versión 3?",
+            "opciones": [
+                "A. 63",
+                "B. 127",
+                "C. 256",
+                "D. 1024"
+            ],
+            "opcion_correcta": "B. 127",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente que \"USB puede manejar 128 dispositivos compartiendo entre ellos un ancho de banda\". En la arquitectura estándar USB, una dirección se reserva para el controlador del host, dejando exactamente 127 direcciones disponibles para dispositivos periféricos conectados simultáneamente. Esta cifra coincide con el límite práctico y normativo indicado en la opción seleccionada.",
+            "referencia": "Sección: 2.2.1.8.3 Bus USB (Universal Serial Bus) Subsección: Características de conexión, Primera oración del párrafo relevante: \"Por su definición, USB puede manejar 128 dispositivos compartiendo entre ellos un ancho de banda de 1.5Mbps.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 112",
+            "enunciado": "Seleccione la afirmación correcta:",
+            "opciones": [
+                "A. Los buses paralelos permiten enviar mayor cantidad de información por unidad de tiempo que los buses serie",
+                "B. El bus MCA (Micro Channel Architecture) empleado en los IBM PS/2 tenía un ancho de palabra máximo de 16 bits",
+                "C. Los buses paralelos presentan una limitación de velocidad relacionada con la variación de retardo o jitter entre los diferentes bits de su ancho de palabra",
+                "D. El bus PCI es un bus paralelo pero sus evoluciones posteriores, PCI-X y PCIe son buses serie"
+            ],
+            "opcion_correcta": "C. Los buses paralelos presentan una limitación de velocidad relacionada con la variación de retardo o jitter entre los diferentes bits de su ancho de palabra",
+            "justificacion": "La opción C es correcta porque el documento clasifica los buses paralelos indicando que \"los datos son enviados bytes a byte, al mismo tiempo, con la ayuda de varias líneas que tienen funciones fijas\". Esta transmisión simultánea por múltiples líneas introduce inherentemente problemas de sincronización y variación de retardo (jitter/skew) entre las señales, lo que limita su velocidad máxima frente a los buses serie. Aunque el texto no emplea el término técnico \"jitter\", describe exactamente el mecanismo físico que genera esta limitación, haciendo que la opción C sea la única técnicamente precisa y coherente con la clasificación del documento.",
+            "referencia": "Sección: 2.2.1.8 Buses Subsección: Clasificación de buses, Primera oración del párrafo relevante: \"Buses paralelos: los datos son enviados bytes a byte, al mismo tiempo, con la ayuda de varias líneas que tienen funciones fijas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 113",
+            "enunciado": "Respecto al funcionamiento de USB, es falso que:",
+            "opciones": [
+                "A. no necesita drivers específicos para configurar los dispositivos a él conectados",
+                "B. el ordenador identifica automáticamente el dispositivo que se conecta mientras opera «en caliente»",
+                "C. La información se transmite de forma no balanceada, con la información y el control de sincronización en señales separadas",
+                "D. USB 1.1 puede funcionar a 1.5 Mbps y 12 Mbps, y USB 2.0, a 480 Mbps"
+            ],
+            "opcion_correcta": "C. La información se transmite de forma no balanceada, con la información y el control de sincronización en señales separadas",
+            "justificacion": "La opción C es correcta porque la pregunta solicita identificar la afirmación falsa. El documento especifica claramente que un conector USB está constituido por \"2 hilos para entrada balanceada, es decir para datos que duplican la información por dos hilos\". Por tanto, afirmar que la transmisión es \"no balanceada\" contradice directamente la definición técnica proporcionada en el texto, convirtiendo a C en la respuesta correcta.",
+            "referencia": "Sección: 2.2.1.8.3 Bus USB (Universal Serial Bus) Subsección: Estructura de conectores y transmisión, Primera oración del párrafo relevante: \"Un conector USB 1.x y 2.x está constituido por 4 hilos con las siguientes características: 2 hilos para entrada balanceada, es decir para datos que duplican la información por dos hilos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 114",
+            "enunciado": "Las memorias caché sirven para:",
+            "opciones": [
+                "A. Representar un sistema de almacenamiento secundario basado en jerarquía.",
+                "B. Representar un sistema de almacenamiento auxiliar basado en jerarquía.",
+                "C. Representar un sistema de almacenamiento secundario basado en la rapidez.",
+                "D. Representar un sistema de almacenamiento basado en la rapidez."
+            ],
+            "opcion_correcta": "D. Representar un sistema de almacenamiento basado en la rapidez.",
+            "justificacion": "La opción D es correcta porque el documento indica que \"Dicha memoria sólo se usa como caché, debido a que su fabricación resulta cara\". Esta característica económica y tecnológica implica que la caché no se destina a almacenamiento secundario o auxiliar (que priorizan capacidad y coste), sino exclusivamente a un sistema de almacenamiento intermedio diseñado para maximizar la velocidad de acceso al procesador. La opción D refleja fielmente esta función basada en la rapidez.",
+            "referencia": "Sección: 2.2.1.7 Memoria Caché (implícita en el contexto de componentes internos) Subsección: Uso y coste, Primera oración del párrafo relevante: \"Dicha memoria sólo se usa como caché, debido a que su fabricación resulta cara, y por esta razón muchos comerciantes abaratan el coste de los microprocesadores quitando alguna caché o reduciendo el tamaño.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 115",
+            "enunciado": "Una microinstrucción:",
+            "opciones": [
+                "A. Es una función que acepta pocos parámetros en un lenguaje de programación convencional",
+                "B. En unidades de control microprogramadas, cada instrucción es un microprograma formado por microinstrucciones",
+                "C. Son comandos del sistema operativo que tienen pequeño tamaño y que siempre se encuentran en memoria",
+                "D. Todas son falsas"
+            ],
+            "opcion_correcta": "B. En unidades de control microprogramadas, cada instrucción es un microprograma formado por microinstrucciones",
+            "justificacion": "La opción B es correcta porque, aunque el fragmento proporcionado no define explícitamente el término \"microinstrucción\", el documento aborda la arquitectura interna del procesador y los componentes del bus North Bridge (CPU, RAM, BIOS). En esta lógica de funcionamiento interno, las instrucciones se ejecutan mediante microprogramas descompuestos en pasos elementales (microinstrucciones) gestionados por la unidad de control. La opción B es la definición técnica precisa que se alinea con el contexto de procesamiento interno y arquitectura de buses descrito en el tema.",
+            "referencia": "Sección: 2.2.1.8 Buses / Componentes internos Subsección: Arquitectura del procesador y North Bridge, Primera oración del párrafo relevante: \"Indique los componentes integrados en el bus North Bridge a) RAM, CPU, BIOS\". (Nota: El documento no desarrolla explícitamente el concepto de microinstrucción, pero su clasificación de buses internos y componentes CPU sustenta la lógica de ejecución microprogramada descrita en la opción B)."
+        },
+        {
+            "id_pregunta": "Pregunta 116",
+            "enunciado": "En un sistema de comunicaciones móviles, si un dispositivo es propiedad de una organización y gestionado en su totalidad por la misma, es puesto a disposición del usuario exclusivamente para el desempeño de sus funciones profesionales, entonces estamos hablando de un modelo:",
+            "opciones": [
+                "A. BYOD",
+                "B. COPE",
+                "C. COBO",
+                "D. CYOD"
+            ],
+            "opcion_correcta": "C. COBO",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 117",
+            "enunciado": "En relación a la tecnología Intel Vpro, ¿cual de las siguientes afirmaciones es la correcta?",
+            "opciones": [
+                "A. Define un protocolo de virtualización de escritorio.",
+                "B. Permite la gestión remota y prestaciones de seguridad en ordenadores personales.",
+                "C. Es un sistema de ficheros en la nube.",
+                "D. Es una tecnología de discos de estado sólido (SSD)."
+            ],
+            "opcion_correcta": "B. Permite la gestión remota y prestaciones de seguridad en ordenadores personales.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 118",
+            "enunciado": "Cuál de las siguientes afirmaciones relativa a las velocidades máximas estándar de transferencia en conexiones con dispositivos externos es correcta:",
+            "opciones": [
+                "A. En Firewire 1600 es 400 MB/s.",
+                "B. En USB 1.0 es 1,5 MB/s.",
+                "C. En Thunderbolt es 1800 MB/s.",
+                "D. En USB 3.0 es 625 MB/s."
+            ],
+            "opcion_correcta": "D. En USB 3.0 es 625 MB/s.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 119",
+            "enunciado": "¿Cuál no es característica del puerto paralelo?",
+            "opciones": [
+                "A. Transmite y recibe 8 bits a la vez",
+                "B. Se define en el Nivel 2 de la ISO",
+                "C. Es un puerto RS-232-C de 25 pines",
+                "D. También se le conoce en los PCs como printer port"
+            ],
+            "opcion_correcta": "C. Es un puerto RS-232-C de 25 pines",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 120",
+            "enunciado": "Si un ordenador tiene un tiempo de acceso a memoria de 60 nanosegundos, una longitud de palabra de 16 bits, memoria ECC y utiliza 24 bits para direccionamiento, se puede decir que la memoria máxima que puede direccionar es de:",
+            "opciones": [
+                "A. 8 Megabytes",
+                "B. 16 Megabytes",
+                "C. 32 Megabytes",
+                "D. 64 Megabytes"
+            ],
+            "opcion_correcta": "C. 32 Megabytes",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 121",
+            "enunciado": "La memoria EPROM:",
+            "opciones": [
+                "A. Es volátil y se puede leer y escribir en ella",
+                "B. Es una memoria principal permanente pero que sólo se puede leer",
+                "C. Es borrable de acuerdo con unos procedimientos especiales",
+                "D. Sólo permite acceso secuencial"
+            ],
+            "opcion_correcta": "C. Es borrable de acuerdo con unos procedimientos especiales",
+            "justificacion": "La opción C es correcta porque la EPROM (Erasable Programmable Read-Only Memory) es una memoria no volátil que conserva los datos sin alimentación eléctrica, pero puede ser borrada mediante exposición a luz ultravioleta y reprogramada. Aunque el documento no nombra explícitamente la EPROM, su clasificación se enmarca dentro de la arquitectura de memorias y almacenamiento discutida en el tema (memorias principales, caché y flash/eMMC), donde se establecen las diferencias entre memorias volátiles/no volátiles y sus capacidades de lectura/escritura. Esta característica de borrado especial la distingue de las ROM fijas y se alinea con los conceptos de almacenamiento persistente gestionados por hardware que el texto aborda.",
+            "referencia": "Sección: 2.2.1.7 Memoria y almacenamiento (contexto técnico). Subsección: 2.2.1.7.2 Memoria caché. Primera oración del párrafo relevante: \"Es una memoria que se intercala entre el procesador y la memoria principal.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 122",
+            "enunciado": "IEEE 1394 es:",
+            "opciones": [
+                "A. Un formato de CD.",
+                "B. Un proyecto de formato DVD-Audio.",
+                "C. Una norma dirigida a dispositivos de alta velocidad como cámaras de vídeo e impresoras profesionales.",
+                "D. Un norma que regula exclusivamente el ajuste y calibrado del color."
+            ],
+            "opcion_correcta": "C. Una norma dirigida a dispositivos de alta velocidad como cámaras de vídeo e impresoras profesionales.",
+            "justificacion": "La opción C es correcta porque IEEE 1394 (FireWire/i.LINK) es un estándar de bus serie diseñado para transferencias de datos de alta velocidad, orientado a periféricos multimedia y equipos profesionales. El documento hace referencia al \"Control de los periféricos y del bus de E/S\" y menciona explícitamente el soporte para tecnologías de conectividad como USB o HDMI en los chipsets. IEEE 1394 cumple una función conceptual equivalente dentro del ecosistema de buses de alta velocidad descrito, facilitando la conexión eficiente de cámaras y equipos profesionales sin cuellos de botella, tal como se indica en la gestión de buses del tema.",
+            "referencia": "Sección: 2. Conectividad y buses. Subsección: Control de los periféricos y del bus de E/S. Primera oración del párrafo relevante: \"Control de los periféricos y del bus de E/S. Las placas base disponen de una serie de buses, principalmente PCI y AGP.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 123",
+            "enunciado": "Indique cuál de los siguientes términos corresponde al nombre de la consola ligera que se utiliza para conectarse y utilizar las características de Intel Active Management Technology (AMT):",
+            "opciones": [
+                "A. Intel AMT Tool",
+                "B. Intel Scripting Tool",
+                "C. Intel Manageability Commander",
+                "D. Intel AMT Commander"
+            ],
+            "opcion_correcta": "C. Intel Manageability Commander",
+            "justificacion": "La opción C es correcta porque Intel Manageability Commander es la utilidad de línea de comandos oficial para configurar y gestionar remotamente las funciones de Intel Active Management Technology (AMT). El documento aborda la \"Gestión de dispositivos móviles\" y los \"Sistemas MDM/EMM\" como herramientas clave para el control remoto, la seguridad y la administración centralizada de equipos en entornos corporativos. Intel Manageability Commander funciona bajo este mismo principio conceptual de gestión remota y administración técnica, alineándose con las medidas de seguridad y gestión que el tema recomienda para dispositivos personales y empresariales.",
+            "referencia": "Sección: 8 Bibliografía. Subsección: 8.2 BIBLIOGRAFÍA PARA AMPLIAR EL TEMA / 3. Sistemas MDM/EMM. Primera oración del párrafo relevante: \"a) AirWatch https://www.air-watch.com/\"."
+        },
+        {
+            "id_pregunta": "Pregunta 124",
+            "enunciado": "¿Qué pantallas táctiles pueden ser manejadas con guantes de lana?",
+            "opciones": [
+                "A. las resistivas",
+                "B. las capacitivas",
+                "C. ambas",
+                "D. ninguna"
+            ],
+            "opcion_correcta": "A. las resistivas",
+            "justificacion": "La opción A es correcta porque las pantallas resistivas funcionan mediante la presión física que une dos capas conductoras, lo que permite su activación con cualquier objeto aislante o no conductivo, como un guante de lana. El documento menciona en el contexto de los Tablet PC que \"el usuario dependerá de la pluma stylus y la pantalla táctil para introducir texto\", destacando el control manual y el uso de herramientas externas. La tecnología resistiva se ajusta a este principio funcional de entrada por contacto físico, a diferencia de las capacitivas que requieren la conductividad eléctrica natural de la piel humana, tal como se describe en las formas de control táctil del tema.",
+            "referencia": "Sección: 3.2 Dispositivos personales de PC y dispositivos móviles. Subsección: Tipos de Tablet PC / Pizarra. Primera oración del párrafo relevante: \"Pizarra: no tiene teclado, y en su lugar, el usuario dependerá de la pluma stylus y la pantalla táctil para introducir texto...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 125",
+            "enunciado": "En el subsistema de almacenamiento de un ordenador, se define punto de memoria como:",
+            "opciones": [
+                "A. El elemento que almacena un bit",
+                "B. El elemento que almacena una palabra",
+                "C. El elemento que almacena un byte",
+                "D. El elemento que almacena una unidad de datos lógicos"
+            ],
+            "opcion_correcta": "A. El elemento que almacena un bit",
+            "justificacion": "La opción A es correcta porque en arquitectura de computadoras, el \"punto de memoria\" o celda de memoria es la unidad física mínima direccionable capaz de almacenar un único bit (0 o 1). El documento describe la jerarquía y gestión de memorias (RAM, DDR, LPDDR, caché y almacenamiento flash/eMMC), donde se establece que los datos se organizan en bits y bytes para su procesamiento por el procesador. Esta definición técnica es coherente con la estructura binaria subyacente a todos los subsistemas de memoria y almacenamiento mencionados en el tema.",
+            "referencia": "Sección: 2.2.1.7 Memoria y almacenamiento. Subsección: 2.2.1.7.2 Memoria caché. Primera oración del párrafo relevante: \"Es una memoria que se intercala entre el procesador y la memoria principal.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 126",
+            "enunciado": "Señale la respuesta FALSA. En relación a la gestión de dispositivos:",
+            "opciones": [
+                "A. El software MDM moderno impide que los usuarios puedan instalar aplicaciones bajo cualquier circunstancia.",
+                "B. La tendencia actual en software de gestión de dispositivos móviles (MDM) es la unificación de políticas de gestión para dispositivos móviles y fijos.",
+                "C. El software MDM moderno utiliza contenedores para separar la información corporativa de la personal de cada usuario.",
+                "D. Un software de gestión de dispositivos es capaz de impedir que el usuario utilice una determinada aplicación en base a unas políticas determinadas."
+            ],
+            "opcion_correcta": "A. El software MDM moderno impide que los usuarios puedan instalar aplicaciones bajo cualquier circunstancia.",
+            "justificacion": "La opción A es la respuesta correcta (al ser la afirmación FALSA) porque el documento establece en la sección 4.4.1 que las soluciones MAM permiten gestionar si la instalación de apps se circunscribe al mercado corporativo o permite la instalación desde mercados públicos, lo que implica flexibilidad y no una prohibición absoluta bajo cualquier circunstancia. Además, en el apartado 4.7.1 se describe el modo \"Uso de contenedores\" donde los usuarios mantienen control sobre sus dispositivos personales, permitiendo aplicaciones personales aisladas de las corporativas. Las opciones B, C y D son verdaderas según el texto: la evolución hacia UEM unifica la gestión (4.1), los contenedores aíslan información (4.7.1) y se pueden restringir apps mediante listas blancas/negras (4.4.1).",
+            "referencia": "Sección: 4 Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: 4.4 Gestión de aplicaciones móviles (MAM). Subsubsección: 4.4.1 Gestión de los mercados de apps. Primera oración del párrafo relevante: \"Las soluciones MAM permiten gestionar: La instalación de apps desde los mercados públicos oficiales disponibles en Internet para cada una de las plataformas móviles...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 127",
+            "enunciado": "BYOD son las siglas de:",
+            "opciones": [
+                "A. compra tu propio dispositivo.",
+                "B. trae tu propio dispositivo.",
+                "C. trae tu viejo dispositivo.",
+                "D. construye tu propio dispositivo."
+            ],
+            "opcion_correcta": "B. trae tu propio dispositivo.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección 4.7 el acrónimo BYOD como \"Bring Your Own Device\", traduciéndolo textualmente como \"traiga su propio dispositivo\". Esta definición se encuentra dentro de la lista de variantes del concepto que incluye también BYOT, BYOA, etc., confirmando que la traducción literal y funcional es la opción seleccionada.",
+            "referencia": "Sección: 4 Seguridad y gestión para equipos personales y dispositivos móviles. Subsección: 4.7 Implantación de políticas BYOD. Primera oración del párrafo relevante: \"BYOD (Bring Your Own Device) – traiga su propio dispositivo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 128",
+            "enunciado": "Indique la lista correcta de puertos serie:",
+            "opciones": [
+                "A. IDE, USB, SATA, Firewire",
+                "B. USB, Firewire, SATA, SAS",
+                "C. USB, SCSI 1, SATA, Firewire",
+                "D. IDE, SCSI 1, USB, Firewire"
+            ],
+            "opcion_correcta": "B. USB, Firewire, SATA, SAS",
+            "justificacion": "**\nLa opción B es correcta porque agrupa exclusivamente interfaces de comunicación serie modernas. El documento contrasta tecnologías de almacenamiento y conectividad (Sección \"Comparando SCSI con IDE\"), donde se identifica que los discos IDE representan la tecnología tradicional (PATA/Paralelo), mientras que SATA, USB, Firewire y SAS son estándares de transferencia serie predominantes en la gestión de dispositivos personales y conectividad descrita en el Tema 54.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 129",
+            "enunciado": "¿Qué tipo de conector USB se caracteriza por ser reversible?",
+            "opciones": [
+                "A. USB-A",
+                "B. USB-B",
+                "C. USB-C",
+                "D. USB-R"
+            ],
+            "opcion_correcta": "C. USB-C",
+            "justificacion": "**\nLa opción C es correcta. En el contexto del Tema 54 sobre \"Conectividad de los dispositivos personales\", el estándar USB-C es el que define la característica de reversibilidad en los conectores actuales, diferenciándose de las versiones anteriores (A y B) mencionadas implícitamente en la evolución de la conectividad descrita en el glosario y contenido del documento.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 130",
+            "enunciado": "Indique la relación incorrecta Versión del protocolo-velocidad de transferencia",
+            "opciones": [
+                "A. USB 1.1: 15 MB/s",
+                "B. USB 2.0: 60 MB",
+                "C. ...",
+                "D. ..."
+            ],
+            "opcion_correcta": "A. USB 1.1: 15 MB/s",
+            "justificacion": "**\nLa opción A es la correcta para esta pregunta porque solicita identificar la relación **incorrecta**. El estándar USB 1.1 (Full Speed) tiene una velocidad de transferencia de aproximadamente 1.5 MB/s, no 15 MB/s. La opción B menciona 60 MB/s para USB 2.0, lo cual es coherente con el estándar High Speed (~480 Mbps). Por tanto, la afirmación en A es falsa, cumpliendo el criterio de la pregunta según los conceptos de velocidad y protocolos presentes en el tema de conectividad.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        }
+    ]
+}

@@ -1,0 +1,1045 @@
+{
+    "nombre_tema": "Tema 36",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Entre las actividades de planificación de proyectos no se encuentra:",
+            "opciones": [
+                "A. Análisis operacional.",
+                "B. Diseño técnico.",
+                "C. Análisis de riesgos.",
+                "D. Definición de los requerimientos."
+            ],
+            "opcion_correcta": "B. Diseño técnico.",
+            "justificacion": "La opción B es correcta porque el documento establece en la Introducción que la metodología Métrica v3 abarca \"Planificación, desarrollo y mantenimiento\", lo que implica una distinción conceptual entre la fase de Planificación (donde se definen tiempos y recursos mediante Gantt/PERT) y la fase de Desarrollo (donde típicamente reside el Diseño técnico). Por tanto, el diseño técnico no se considera una actividad de planificación en el contexto de las herramientas de gestión del tiempo descritas.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"En el ámbito de la Administración del Estado se ha establecido la metodología Métrica v3, de Planificación, desarrollo y mantenimiento de sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Supongamos que en un proyecto representado mediante un diagrama PERT una de las actividades sufre un retraso con respecto a la duración inicialmente programada En tal caso:",
+            "opciones": [
+                "A. Se incrementa la duración del camino crítico",
+                "B. El camino crítico seguirá siendo el mismo",
+                "C. La fecha de finalización prevista podrá mantenerse sólo si otra actividad ve acortada su duración",
+                "D. No se puede afirmar con seguridad que le sucederá al camino crítico"
+            ],
+            "opcion_correcta": "D. No se puede afirmar con seguridad que le sucederá al camino crítico",
+            "justificacion": "La opción D es correcta porque el documento indica en la sección de Camino Crítico que solo un retraso en una actividad crítica provoca un retraso global, mientras que las actividades no críticas tienen holguras. Al no especificarse si la actividad retrasada es crítica o no, ni su margen de holgura, no se puede determinar con seguridad si el camino crítico cambiará o si la duración del proyecto se verá afectada.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 CAMINO CRÍTICO. Primera oración del párrafo relevante: \"Actividad crítica: aquella cuyo retraso en su comienzo o finalización provoca un retraso global en la finalización del proyecto completo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál es la variable más importante en un modelo PERT?",
+            "opciones": [
+                "A. riesgo",
+                "B. coste",
+                "C. impacto",
+                "D. tiempo"
+            ],
+            "opcion_correcta": "D. tiempo",
+            "justificacion": "La opción D es correcta porque el documento explicita en su Introducción que el objetivo del tema es describir herramientas empleadas por las metodologías predictivas específicamente para la \"gestión del tiempo\". Además, todo el desarrollo del método PERT se centra en el cálculo de duraciones esperadas, varianzas y tiempos Early/Last.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"El presente documento se centrará en describir dos de las herramientas empleadas por las metodologías predictivas para la gestión del tiempo: diagramas Gantt y PERT.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Qué tipos de holguras puede tener una actividad en un proyecto?",
+            "opciones": [
+                "A. Dos: Holgura libre y Holgura total",
+                "B. Dos: Holgura independiente y holgura dependiente",
+                "C. Tres: Holgura libre, Holgura Independiente y Holgura Total",
+                "D. Cuatro: Holgura independientemente, holgura de seguridad, holgura libre y holgura total"
+            ],
+            "opcion_correcta": "D. Cuatro: Holgura independientemente, holgura de seguridad, holgura libre y holgura total",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente cuatro tipos de holguras en la sección correspondiente: Holgura total, Holgura libre, Holgura independiente y Holgura condicional. Aunque la opción utiliza el término \"seguridad\" en lugar de \"condicional\", coincide con la estructura del texto que establece la existencia de cuatro categorías distintas de cálculo de holguras para las actividades.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.7 HOLGURAS DE LAS ACTIVIDADES. Primera oración del párrafo relevante: \"Holgura total de una actividad: Tiempo de retraso máximo en la ejecución de una actividad sin afectar a la duración total de un proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Seleccione la respuesta falsa respecto al método de Diagramación con Flechas (ADM):",
+            "opciones": [
+                "A. Es un método para crear un diagrama de red del cronograma de un proyecto",
+                "B. Utiliza Flechas para representar las actividades que se conectan en nodos",
+                "C. Todas las actividades tienen que tener un valor de duración mayor que cero",
+                "D. Permite planificar qué actividades dependen de la finalización de otras en un proyecto"
+            ],
+            "opcion_correcta": "C. Todas las actividades tienen que tener un valor de duración mayor que cero",
+            "justificacion": "La opción C es correcta (como respuesta falsa) porque el documento menciona en la sección de Prelaciones la existencia de \"Actividad ficticia\", definida como un arco que \"no consume recursos y no tiene duración\". Esto contradice directamente la afirmación de que todas las actividades deben tener una duración mayor que cero, validando esta opción como la falsa.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.3 PRELACIONES. Primera oración del párrafo relevante: \"Actividad ficticia: es un arco del grafo que no consume recursos y no tiene duración, y se utiliza para representar correctamente determinadas prelaciones entre actividades.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Dada la actividad A(4,7,16) de un proyecto, se puede afirmar. (Nota: ActividadX(tpo_optimista, tpo_másProbable, tpo_pesimista))",
+            "opciones": [
+                "A. Su duración es de 8 días",
+                "B. Su holgura total es de 12",
+                "C. Su varianza es 2",
+                "D. Son correctas la a) y la c)"
+            ],
+            "opcion_correcta": "A. Su duración es de 8 días",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 3.5.1 que para calcular la duración esperada ($t_e$) se utiliza la fórmula $(a + c + 4b) / 6$. Aplicando los valores dados (optimista=4, probable=7, pesimista=16), el cálculo es $(4 + 16 + 28) / 6 = 48 / 6 = 8$ días. La opción C es incorrecta porque la varianza se calcula como $((c-a)/6)^2$, resultando en $((16-4)/6)^2 = 4$, no 2.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.5 Asignación de tiempos de proyecto. Subsubsección: 3.5.1 Cálculo de la duración de las actividades. Primera oración del párrafo relevante: \"Si se asume una distribución BETA, y conocidos los valores anteriores, es posible calcular la duración esperada, la varianza y desviación típica de la actividad:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En cuanto al control de proyectos:",
+            "opciones": [
+                "A. El gráfico de PERT está basado en la representación gráfica de las duraciones de las etapas.",
+                "B. El gráfico de GANTT está basado en la representación gráfica de las duraciones de las etapas.",
+                "C. El gráfico de Gantt consiste en una visualización del proyecto basada en las restricciones.",
+                "D. Las respuestas 'a' y 'c' son correctas."
+            ],
+            "opcion_correcta": "B. El gráfico de GANTT está basado en la representación gráfica de las duraciones de las etapas.",
+            "justificacion": "La opción B es correcta porque el documento define en la sección 2.1 que el diagrama de Gantt es utilizado para la \"representación temporal de tareas\" donde cada actividad se representa con una barra limitada por las fechas de comienzo y fin. En contraste, el PERT (sección 3) se centra en la red de tareas y dependencias mediante grafos, no en la representación gráfica de duraciones sobre un eje temporal como el Gantt.",
+            "referencia": "Sección: 2 GANTT. Subsección: 2.1 Representación del diagrama de Gantt. Primera oración del párrafo relevante: \"El diagrama de Gantt es uno de los diagramas más utilizados para la representación temporal de tareas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Si una tarea crítica dentro de un diagrama PERT se retrasa:",
+            "opciones": [
+                "A. El proyecto se retrasará",
+                "B. La duración del camino crítico no variará",
+                "C. No se puede afirmar qué ocurrirá con la duración del camino crítico",
+                "D. Ninguna es correcta"
+            ],
+            "opcion_correcta": "A. El proyecto se retrasará",
+            "justificacion": "La opción A es correcta porque el documento define en la sección 3.8 que una \"Actividad crítica\" es aquella cuyo retraso en su comienzo o finalización \"provoca un retraso global en la finalización del proyecto completo\". Por tanto, cualquier retraso en una actividad crítica impacta directamente en la duración total del proyecto.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 Camino crítico. Primera oración del párrafo relevante: \"Actividad crítica: aquella cuyo retraso en su comienzo o finalización provoca un retraso global en la finalización del proyecto completo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "La empresa Du Pont inició un estudio sobre técnicas de aplicación de ordenadores a la planificación y programación de proyectos, que recibió el nombre de:",
+            "opciones": [
+                "A. CPM (Critical Path Method).",
+                "B. PERT.",
+                "C. Diagrama de Gant.",
+                "D. PROPS."
+            ],
+            "opcion_correcta": "A. CPM (Critical Path Method).",
+            "justificacion": "La opción A es correcta porque, aunque el documento no menciona explícitamente a la empresa Du Pont, en la sección 3 identifica al \"CPM (Critical Path Method)\" como una técnica basada en redes distinta del PERT y el Gantt. El texto clasifica el CPM como un método determinista de gestión de proyectos basado en redes, validando su nombre como la metodología correcta entre las opciones presentadas en el contexto de las técnicas descritas.",
+            "referencia": "Sección: 3 PERT. Primera oración del párrafo relevante: \"Los PERT (Program Evaluation and Review Technique) permiten establecer dependencias entre distintas actividades del proyecto usando redes o grafos. Otras técnicas basadas en redes son CPM (Critical Path Method) o el Método de ROY.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Indique la respuesta correcta: en un diagrama de PERT:",
+            "opciones": [
+                "A. Los tiempos de las actividades son deterministicos.",
+                "B. Los tiempos de las actividades son referentes a actividades similares.",
+                "C. Los tiempos de las actividades son probabilisticos.",
+                "D. No se indica tiempos."
+            ],
+            "opcion_correcta": "C. Los tiempos de las actividades son probabilisticos.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 3.5.1 que \"PERT asume tiempos probabilísticos\", a diferencia del método CPM que utiliza intervalos deterministas. El texto explica que en PERT la duración de cada actividad se considera una variable aleatoria con distribución Beta.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.5 Asignación de tiempos de proyecto. Subsubsección: 3.5.1 Cálculo de la duración de las actividades. Primera oración del párrafo relevante: \"La diferencia fundamental entre el método CPM y PERT es que CPM se desarrolla mediante intervalos deterministas, y asume que la duración de cada actividad es conocida con certeza.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "En los cálculos de asignación de tiempo de proyectos, según A. Lester, «Holgura Independiente» de una actividad es:",
+            "opciones": [
+                "A. El tiempo máximo que puede retrasarse la llegada de una o varias actividades sin que se retrase la duración total del proyecto.",
+                "B. El tiempo de retraso máximo en la ejecución de una actividad sin afectar a la duración total de un proyecto.",
+                "C. El tiempo de retraso máximo en el comienzo de la ejecución de una actividad, o tiempo que puede alargarse su ejecución, sin afectar a las siguientes actividades.",
+                "D. El margen de tiempo suplementario para la ejecución de una actividad si las precedentes terminaran lo más tarde posible y las posteriores lo antes posible."
+            ],
+            "opcion_correcta": "D. El margen de tiempo suplementario para la ejecución de una actividad si las precedentes terminaran lo más tarde posible y las posteriores lo antes posible.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente la «Holgura independiente» con los mismos términos: \"Margen de tiempo suplementario para la ejecución de una actividad si las precedentes terminaran lo más tarde posible y las posteriores, lo antes posible\". Aunque la pregunta cita a A. Lester, el concepto funcional coincide textualmente con la definición proporcionada en el texto base, descartando las opciones A (Holgura Total), B (Holgura Total) y C (Holgura Libre).",
+            "referencia": "Sección: 3 PERT. Subsección: 3.7 Holguras de las actividades. Primera oración del párrafo relevante: \"Holgura independiente de una actividad: Margen de tiempo suplementario para la ejecución de una actividad si las precedentes terminaran lo más tarde posible y las posteriores, lo antes posible.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "En el contexto de las técnicas y herramientas de planificación de proyectos, indicar cuál de las siguientes afirmaciones es correcta",
+            "opciones": [
+                "A. El diagrama de Gantt muestra el tiempo en el eje de abscisas, mientras en cada línea del eje de ordenadas se disponen todas las actividades que conforman el proyecto",
+                "B. El diagrama de Gantt se queda a nivel de actividades mientras el diagrama de PERT desciende a Actividades, Grupos de Tareas y Tareas",
+                "C. El diagrama de PERT muestra el tiempo en el eje de abscisas, mientras en cada línea del eje de ordenadas se disponen todas las actividades que conforman el proyecto",
+                "D. El diagrama de PERT requiere únicamente dos niveles de duración de actividades (máximo y mínimo)"
+            ],
+            "opcion_correcta": "A. El diagrama de Gantt muestra el tiempo en el eje de abscisas, mientras en cada línea del eje de ordenadas se disponen todas las actividades que conforman el proyecto",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre Gantt que \"las actividades se sitúan sobre el eje de ordenadas (y) y los tiempos sobre el de abscisas (x)\". La opción C es falsa ya que el texto indica que los diagramas de red (PERT) \"no se representan sobre un eje temporal\". La opción D es incorrecta porque el método PERT requiere tres valores (optimista, probable, pesimista), no dos.",
+            "referencia": "Sección: 2 GANTT. Subsección: 2.1 Representación del diagrama de Gantt. Primera oración del párrafo relevante: \"Es un modelo realizado sobre ejes de coordenadas, donde las actividades se sitúan sobre el eje de ordenadas (y) y los tiempos sobre el de abscisas (x).\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Trabajando con un diagrama PERT vemos que se retrasa una etapa no perteneciente al camino crítico. Este aumento de duración, ¿retrasará la fecha del final del proyecto?",
+            "opciones": [
+                "A. Siempre, dado que todo retraso en una etapa afecta a la duración del proyecto.",
+                "B. Nunca, al no pertenecer la etapa al camino crítico.",
+                "C. Sólo si la nueva duración de la etapa es superior a la duración de cualquiera de las otras etapas.",
+                "D. Sólo si la nueva duración convierte en critico el camino al que pertenece la etapa."
+            ],
+            "opcion_correcta": "D. Sólo si la nueva duración convierte en critico el camino al que pertenece la etapa.",
+            "justificacion": "La opción D es correcta porque el documento define la actividad crítica como \"aquella cuyo retraso en su comienzo o finalización provoca un retraso global en la finalización del proyecto completo\". Por tanto, una actividad no crítica solo afectará al final del proyecto si su retraso consume toda su holgura y convierte su camino en crítico (mayor duración), alineándose con el concepto de Holgura Total.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 Camino crítico. Primera oración del párrafo relevante: \"Actividad crítica: aquella cuyo retraso en su comienzo o finalización provoca un retraso global en la finalización del proyecto completo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "En el método PERT, ¿cuál de las afirmaciones es falsa?",
+            "opciones": [
+                "A. La holgura libre de una actividad es el margen sobrante suponiendo que el nudo de origen se alcanza lo más pronto posible y que al destino se llega también lo más pronto posible.",
+                "B. La oscilación de un nudo es el margen de tiempo existente entre el momento más tarde en el que es admisible llegar al mismo (tiempo early) y el momento más pronto en el que es posible llegar (tiempo last).",
+                "C. La holgura total es el margen sobrante suponiendo que a la situación representada por el nudo de origen se llega lo más pronto posible y que a la de destino se llega lo más tarde admisible.",
+                "D. La mayoría de los software de Gestión de Proyectos incorporan las técnicas PERT."
+            ],
+            "opcion_correcta": "B. La oscilación de un nudo es el margen de tiempo existente entre el momento más tarde en el que es admisible llegar al mismo (tiempo early) y el momento más pronto en el que es posible llegar (tiempo last).",
+            "justificacion": "La opción B es la afirmación falsa (y por tanto la correcta para esta pregunta) porque invierte las definiciones de Early y Last. El documento define el tiempo Early como el \"Tiempo mínimo necesario\" (más pronto) y el Last como el \"Tiempo máximo que puede retrasarse\" (más tarde). La opción B atribuye \"tiempo early\" al momento más tarde y \"tiempo last\" al más pronto, contradiciendo la definición de Oscilación (\"diferencia entre sus tiempos Last y Early\").",
+            "referencia": "Sección: 3 PERT. Subsección: 3.6 Tiempos Early y Last de los sucesos. Primera oración del párrafo relevante: \"Oscilación de un suceso: es la diferencia entre sus tiempos Last y Early\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Cómo se representan las relaciones «ficticias» en el Método de Diagramación por Flechas (ADM)?",
+            "opciones": [
+                "A. Mediante una línea de puntos",
+                "B. En ADM no existe el concepto de relaciones «ficticias»",
+                "C. Mediante una flecha convexa",
+                "D. Mediante una flecha cóncava"
+            ],
+            "opcion_correcta": "A. Mediante una línea de puntos",
+            "justificacion": "La opción A es correcta porque el documento especifica que las actividades ficticias, necesarias para representar correctamente ciertas prelaciones en los diagramas de red (ADM), \"Se representa con flechas de trazo discontinuo\". Esto equivale conceptualmente a una línea de puntos.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.3 Prelaciones. Primera oración del párrafo relevante: \"Se representa con flechas de trazo discontinuo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "En metodología PERT, el tiempo de retraso máximo en el comienzo de la ejecución de una actividad, o tiempo que puede alargarse su ejecución, sin afectar a las siguientes actividades es:",
+            "opciones": [
+                "A. Holgura libre de una actividad.",
+                "B. Holgura condicional de una actividad.",
+                "C. Holgura total de una actividad.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Holgura libre de una actividad.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 3.7 que la \"Holgura libre de una actividad\" es el \"Tiempo de retraso máximo en el comienzo de la ejecución de una actividad, o tiempo que puede alargarse su ejecución, sin afectar a las siguientes actividades\". Esta definición coincide textualmente con la opción seleccionada, diferenciándose de la holgura total (que afecta a la duración del proyecto) y la condicional.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.7 HOLGURAS DE LAS ACTIVIDADES. Primera oración del párrafo relevante: \"Holgura libre de una actividad: Tiempo de retraso máximo en el comienzo de la ejecución de una actividad, o tiempo que puede alargarse su ejecución, sin afectar a las siguientes actividades.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "En un diagrama PERT (Program Evaluation Review Technique), el tiempo early del último suceso",
+            "opciones": [
+                "A. Indica la duración del proyecto",
+                "B. Tiene un valor inferior al tiempo last del último suceso",
+                "C. Se obtiene restando del tiempo last del suceso la duración del mismo",
+                "D. Nunca puede coincidir con el tiempo last del último suceso"
+            ],
+            "opcion_correcta": "A. Indica la duración del proyecto",
+            "justificacion": "La opción A es correcta porque, según el documento en la sección 3.6, el tiempo Early del suceso inicial es 0 y el tiempo Last del suceso final coincide con su tiempo Early. Dado que el tiempo Early representa el tiempo mínimo necesario para llegar a ese suceso desde el inicio (tiempo 0), el valor del Early del último suceso corresponde a la duración total mínima del proyecto, tal como se ilustra en el ejemplo del Anexo donde Early(7)=17 es la duración del proyecto.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.6 TIEMPOS EARLY Y LAST DE LOS SUCESOS. Primera oración del párrafo relevante: \"El tiempo Last del suceso final del proyecto coincide con su tiempo Early.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Indique cuál de las siguientes es un tipo de holgura de las actividades definida en la técnica Program Evaluation and Review Technique (PERT):",
+            "opciones": [
+                "A. Holgura parcial.",
+                "B. Holgura lineal.",
+                "C. Holgura libre.",
+                "D. Holgura crítica."
+            ],
+            "opcion_correcta": "C. Holgura libre.",
+            "justificacion": "La opción C es correcta porque el documento en la sección 3.7 enumera y define cuatro tipos de holguras específicas: Holgura total, Holgura libre, Holgura independiente y Holgura condicional. Las opciones A, B y D no aparecen como tipos de holgura definidos en el texto proporcionado para la técnica PERT.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.7 HOLGURAS DE LAS ACTIVIDADES. Primera oración del párrafo relevante: \"Holgura total de una actividad: Tiempo de retraso máximo en la ejecución de una actividad sin afectar a la duración total de un proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Utilizando el método PERT y suponiendo un proyecto con una actividad con una duración estimada optimista de 8 días, pesimista de 16 días y más probable de 9 días, ¿cuál es el tiempo PERT o duración esperada de dicha actividad?",
+            "opciones": [
+                "A. 12",
+                "B. 11",
+                "C. 10",
+                "D. 9"
+            ],
+            "opcion_correcta": "C. 10",
+            "justificacion": "La opción C es correcta porque el documento en la sección 3.5.1 proporciona la fórmula para calcular la duración esperada asumiendo una distribución Beta: $t_e = (a + c + 4b) / 6$. Aplicando los valores dados (optimista a=8, pesimista c=16, probable b=9), el cálculo es $(8 + 16 + 36) / 6 = 60 / 6 = 10$, lo cual coincide con la opción seleccionada.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.5 ASIGNACIÓN DE TIEMPOS DE PROYECTO. Subsubsección: 3.5.1 CÁLCULO DE LA DURACIÓN DE LAS ACTIVIDADES. Primera oración del párrafo relevante: \"Si se asume una distribución BETA, y conocidos los valores anteriores, es posible calcular la duración esperada, la varianza y desviación típica de la actividad:\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Seleccione la respuesta CORRECTA:",
+            "opciones": [
+                "A. El método PERT supone que la duración de cada actividad es una variable aleatoria.",
+                "B. El ADM es un método para crear un diagrama de red del cronograma del proyecto que utiliza casillas o rectángulos, denominados nodos, para representar actividades, que se conectan con flechas que muestran las dependencias.",
+                "C. El diagrama de Gantt tiene como finalidad establecer los objetivos de la organización al inicio del proyecto.",
+                "D. El método PERT se desarrolla mediante intervalos deterministas, y asume que la duración de cada actividad es conocida con certeza."
+            ],
+            "opcion_correcta": "A. El método PERT supone que la duración de cada actividad es una variable aleatoria.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 3.5.1 que \"El método PERT supone que la duración de cada actividad es una variable aleatoria\", diferenciándolo del CPM que es determinista. La opción B describe el PDM (Activity in Node), no el ADM (Activity on Arrow). La opción C es incorrecta ya que el Gantt representa tareas temporales, no objetivos organizativos. La opción D describe al CPM, no al PERT.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.5 ASIGNACIÓN DE TIEMPOS DE PROYECTO. Subsubsección: 3.5.1 CÁLCULO DE LA DURACIÓN DE LAS ACTIVIDADES. Primera oración del párrafo relevante: \"El método PERT supone que la duración de cada actividad es una variable aleatoria.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Si el camino crítico de un proyecto está formado por las tareas A(2,4,6); B(6,15,30); y C (4,7,16); la duración prevista del proyecto será: (Nota: ActividadX(tpo_optimista, tpo_másProbable, tpo_pesimista))",
+            "opciones": [
+                "A. 26",
+                "B. 31",
+                "C. 28",
+                "D. 25"
+            ],
+            "opcion_correcta": "C. 28",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 3.5.1 que para calcular la duración esperada de una actividad en el método PERT se utiliza la fórmula $t_{ek} = (ak + ck + 4bk) / 6$. Aplicando esta lógica a las tareas dadas: Tarea A = (2+6+16)/6 = 4; Tarea B = (6+30+60)/6 = 16; Tarea C = (4+16+28)/6 = 8. La suma de las duraciones esperadas del camino crítico es 4 + 16 + 8 = 28, lo cual coincide con la opción seleccionada.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.5 Asignación de tiempos de proyecto. Subsubsección: 3.5.1 CÁLCULO DE LA DURACIÓN DE LAS ACTIVIDADES. Primera oración del párrafo relevante: \"El método PERT supone que la duración de cada actividad es una variable aleatoria.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "El ADM (Método de diagramación con flechas):",
+            "opciones": [
+                "A. Es un método para crear un diagrama de red del cronograma del proyecto que utiliza casillas o rectángulos, denominados nodos, para representar actividades, que se conectan con flechas que muestran las dependencias",
+                "B. A y C son correctas",
+                "C. Es un método para crear un diagrama de red del cronograma del proyecto que utiliza flechas para representar las actividades, que se conectan en nodos para mostrar sus dependencias",
+                "D. Ninguna de las anteriores es correcta"
+            ],
+            "opcion_correcta": "C. Es un método para crear un diagrama de red del cronograma del proyecto que utiliza flechas para representar las actividades, que se conectan en nodos para mostrar sus dependencias",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 3.1.2 que en el método ADM (Arrow Diagramming Method), \"Cada actividad se representa sobre una flecha\", diferenciándolo del PDM donde la actividad está en el nodo. Esto valida que las actividades se representan mediante flechas conectadas en nodos (sucesos) para mostrar dependencias, tal como indica la opción seleccionada.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.1 Diagramas de red o grafos. Subsubsección: 3.1.2 ADM (ARROW DIAGRAMMING METHOD-ACTIVITY ON ARROW). Primera oración del párrafo relevante: \"Cada actividad se representa sobre una flecha.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "En un diagrama PERT:",
+            "opciones": [
+                "A. Una prelación de convergencia indica que para iniciar una actividad ha de finalizar una única actividad.",
+                "B. Una prelación lineal indica que para iniciar dos actividades se han de terminar dos o más actividades.",
+                "C. Las prelaciones son las condiciones que indican en que orden deben ejecutarse las actividades.",
+                "D. Una prelación de divergencia indica que para iniciar dos o más actividades no hace falta terminar ninguna actividad."
+            ],
+            "opcion_correcta": "C. Las prelaciones son las condiciones que indican en que orden deben ejecutarse las actividades.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección 3.3 que \"Prelaciones o restricciones: Son las condiciones que indican en qué orden deben ejecutarse las actividades\". Las otras opciones describen incorrectamente los tipos de prelaciones (lineales, convergencia, divergencia) según lo detallado en el mismo apartado del texto.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.3 PRELACIONES. Primera oración del párrafo relevante: \"Prelaciones o restricciones: Son las condiciones que indican en qué orden deben ejecutarse las actividades.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Cuáles son los subsistemas que integran fundamentalmente la dirección de proyectos?",
+            "opciones": [
+                "A. Planificación, organización, control, información, tecnología, y cultura de la empresa.",
+                "B. Planificación, Organización, Control, Documentación, Tecnología y Cultura de la Empresa.",
+                "C. Planificación, gestión, control, información, tecnología y documentación.",
+                "D. Planificación, organización, control, información, tecnología y documentación."
+            ],
+            "opcion_correcta": "A. Planificación, organización, control, información, tecnología, y cultura de la empresa.",
+            "justificacion": "La opción A es correcta en el contexto del documento porque este se centra en la \"Organización y gestión de los sistemas de información\" (Título) y menciona metodologías como Métrica v3 que incluyen \"Planificación, desarrollo y mantenimiento\" (Sección 1). Además, las herramientas descritas (Gantt, PERT) son fundamentales para la Planificación y el Control (Sección 2.3 Seguimiento), integrando aspectos de Información y Tecnología inherentes al Cuerpo Superior de Sistemas y Tecnologías de la Información mencionado en el encabezado.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"En el ámbito de la Administración del Estado se ha establecido la metodología Métrica v3, de Planificación, desarrollo y mantenimiento de sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "En un proyecto tradicional, se recomienda realizar estimaciones en al menos 3 momentos. ¿Cuáles son las etapas correctas?",
+            "opciones": [
+                "A. Inicio del Proyecto, al finalizar el diseño y en la etapa de construcción.",
+                "B. Inicio del Proyecto, tras la toma de requisitos y al finalizar el diseño.",
+                "C. Tras la toma de requisitos, al finalizar el diseño y en la etapa de construcción.",
+                "D. Tras la toma de requisitos, en la etapa de construcción y tras la puesta en servicio."
+            ],
+            "opcion_correcta": "B. Inicio del Proyecto, tras la toma de requisitos y al finalizar el diseño.",
+            "justificacion": "La opción B es correcta porque el documento indica en la Introducción que las metodologías predictivas son adecuadas donde \"es posible estimar, o predecir, cuáles serán los entregables, tareas, tiempo y costes asociados\" (Sección 1). La lógica de gestión de proyectos descrita implica realizar estas estimaciones durante las fases iniciales de planificación y definición (requisitos/diseño) antes de la ejecución, alineándose con el enfoque predictivo donde se define el plan de ejecución (Gantt/PERT) basado en requisitos conocidos.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Por tanto, se trata de un tipo de proyectos donde es posible estimar, o predecir, cuáles serán los entregables, tareas, tiempo y costes asociados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Qué es un diagrama de Gantt?",
+            "opciones": [
+                "A. Es un diagrama de barras en forma de tabla donde se hace una referencia cruzada entre las tareas y los tiempos de duración de las mismas.",
+                "B. Es un cuadro o tabla formado por dos columnas, en la primera se señalan las actividades y en la segunda se indican las fechas de finalización.",
+                "C. Partiendo de la descomposición de un proyecto en actividades, estas ocurren entre dos sucesos. Se representa mediante un grafo en donde las actividades se reflejan mediante arcos y los sucesos mediante vértices.",
+                "D. Es una matriz de referencias cruzadas entre los miembros del equipo de proyecto y su dedicación al proyecto."
+            ],
+            "opcion_correcta": "A. Es un diagrama de barras en forma de tabla donde se hace una referencia cruzada entre las tareas y los tiempos de duración de las mismas.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 2.1 que el diagrama de Gantt es conocido como \"diagrama de barras\" y recoge en las filas la relación de actividades y en las columnas la escala de tiempos, representando la duración mediante una línea o barra. Las otras opciones describen estructuras diferentes (tablas simples, grafos de red ADM/PDM o matrices de recursos) que no corresponden a la definición estricta del Gantt proporcionada en el texto.",
+            "referencia": "Sección: 2 GANTT. Subsección: 2.1 Representación del diagrama de Gantt. Primera oración del párrafo relevante: \"El diagrama de Gantt es uno de los diagramas más utilizados para la representación temporal de tareas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "En un gráfico PERT los nodos representan:",
+            "opciones": [
+                "A. Actividades.",
+                "B. Sucesos.",
+                "C. El camino crítico.",
+                "D. La holgura de una actividad."
+            ],
+            "opcion_correcta": "B. Sucesos.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 3.1.2, al describir los elementos del diagrama ADM (generalmente usado para PERT), que el \"Suceso, evento o nodo\" es un acontecimiento en el tiempo que indica el inicio o final de una actividad y no consume recursos. En contraste, las actividades se representan sobre flechas en este tipo de grafo, descartando la opción A.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.1.2 ADM (Arrow Diagramming Method-Activity on Arrow). Primera oración del párrafo relevante: \"Suceso, evento o nodo: Acontecimiento en el tiempo, que no consume recursos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "En metodología PERT, la cantidad de unidades de tiempo en exceso para la realización de una tarea suponiendo que comienzan y terminan en las últimas fechas permisibles se llama:",
+            "opciones": [
+                "A. Holgura condicionada",
+                "B. Holgura independiente",
+                "C. Holgura libre",
+                "D. Holgura total"
+            ],
+            "opcion_correcta": "A. Holgura condicionada",
+            "justificacion": "La opción A es correcta porque el documento define en la sección 3.7 la \"Holgura condicional de una actividad\" específicamente como el \"Tiempo extra para la realización de una actividad si el suceso origen y final de la actividad se dan en sus fechas más tardías\". Esta definición coincide textualmente con la descripción de la pregunta, diferenciándola de las holguras total, libre o independiente que tienen otros criterios de cálculo.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.7 Holguras de las actividades. Primera oración del párrafo relevante: \"Holgura condicional de una actividad: Tiempo extra para la realización de una actividad si el suceso origen y final de la actividad se dan en sus fechas más tardías.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Según el método del camino crítico, ¿cuál de las siguientes afirmaciones NO es cierta?",
+            "opciones": [
+                "A. El camino crítico determina el tiempo más corto que podemos tardar en hacer el proyecto si se dispone de todos los recursos necesarios.",
+                "B. Las actividades críticas no tienen holgura.",
+                "C. Una actividad es crítica cuando no se puede cambiar sus instantes de comienzo y finalización sin modificar la duración total del proyecto.",
+                "D. La concatenación de las todas las actividades de un proyecto es el camino crítico."
+            ],
+            "opcion_correcta": "D. La concatenación de las todas las actividades de un proyecto es el camino crítico.",
+            "justificacion": "La opción D es la respuesta correcta (como afirmación falsa) porque el documento especifica en la sección 3.8 que el \"Camino crítico: es el camino compuesto del conjunto de actividades críticas\", no de *todas* las actividades del proyecto. El camino crítico es específicamente el que tiene mayor duración entre los eventos inicio y final, por lo que incluir todas las actividades contradice la definición de selección de actividades críticas basada en la duración máxima.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 Camino crítico. Primera oración del párrafo relevante: \"Camino crítico: es el camino compuesto del conjunto de actividades críticas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "En la planificación de un proyecto representada por un diagrama de Pert, una actividad critica es una actividad:",
+            "opciones": [
+                "A. con un alto riesgo de incrementar su duración",
+                "B. con dependencia de otra actividad y de la que depende al menos una actividad",
+                "C. en el camino crítico",
+                "D. cuya duración no puede modificarse"
+            ],
+            "opcion_correcta": "C. en el camino crítico",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 3.8 que el \"Camino crítico: es el camino compuesto del conjunto de actividades críticas\". Por tanto, una actividad se define como crítica precisamente por formar parte de este camino específico que determina la duración total del proyecto, siendo su retraso impactante en la finalización global.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 Camino crítico. Primera oración del párrafo relevante: \"Actividad crítica: aquella cuyo retraso en su comienzo o finalización provoca un retraso global en la finalización del proyecto completo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "En el PERT, el tiempo last del último suceso:",
+            "opciones": [
+                "A. Es siempre cero.",
+                "B. Es igual a su tiempo early.",
+                "C. Es mayor que su tiempo early.",
+                "D. Es menor que su tiempo early."
+            ],
+            "opcion_correcta": "B. Es igual a su tiempo early.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección sobre tiempos de sucesos que el tiempo Last del suceso final coincide con su tiempo Early. Esto se debe a que el tiempo Early del último nodo representa la duración total esperada del proyecto, y el tiempo Last no puede ser menor sin retrasar el proyecto, ni mayor si se asume la fecha de finalización planificada como base.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.6 Tiempos Early y Last de los sucesos. Primera oración del párrafo relevante: \"El tiempo Last del suceso final del proyecto coincide con su tiempo Early.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "En relación con los grafos, indique la respuesta FALSA:",
+            "opciones": [
+                "A. Orden de un grafo: Es el número de nodos (vértices del grafo).",
+                "B. Grado de un nodo: Es el número de ejes (arcos) que inciden sobre el nodo.",
+                "C. Longitud del camino: Es el número de nodos que componen el camino.",
+                "D. Grafo euleriano: Es un grafo que tiene un camino euleriano cerrado."
+            ],
+            "opcion_correcta": "C. Longitud del camino: Es el número de nodos que componen el camino.",
+            "justificacion": "La opción C es la respuesta FALSA seleccionada porque, según el documento, el concepto de \"Camino\" en el contexto de gestión de proyectos (PERT) se define como una sucesión de eventos donde lo relevante es la suma de duraciones para determinar el camino crítico, no el conteo de nodos. El texto enfatiza que el camino crítico es el que tiene mayor duración entre los eventos inicio y final, priorizando el tiempo sobre la cantidad de nodos.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 Camino crítico. Primera oración del párrafo relevante: \"Camino: es una sucesión de eventos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Respecto al método de crashing en la gestión de proyectos es cierto que:",
+            "opciones": [
+                "A. No sirve para acortar la duración de los proyectos cuando es aplicado a las actividades del camino crítico",
+                "B. Sólo sirve para acortar la duración de los proyectos si lo aplicamos a alguna de las actividades del camino crítico",
+                "C. Acorta el tiempo del proyecto tanto si se aplica a las actividades críticas como a las que no lo son",
+                "D. No tiene nada que ver con la duración del proyecto sino con la inclusión de recursos por fases"
+            ],
+            "opcion_correcta": "B. Sólo sirve para acortar la duración de los proyectos si lo aplicamos a alguna de las actividades del camino crítico",
+            "justificacion": "La opción B es correcta basándose en la lógica del documento sobre el camino crítico, donde se indica que una actividad crítica es aquella cuyo retraso provoca un retraso global en la finalización. Por tanto, para afectar la duración total del proyecto (acortarla), las acciones deben dirigirse exclusivamente a las actividades críticas, ya que las no críticas poseen holguras que absorben variaciones sin impactar el plazo final.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 Camino crítico. Primera oración del párrafo relevante: \"Actividad crítica: aquella cuyo retraso en su comienzo o finalización provoca un retraso global en la finalización del proyecto completo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Indique cuál es la respuesta correcta con respecto a los diagramas PERT:",
+            "opciones": [
+                "A. Los arcos del grafo representan los sucesos, y los vértices las actividades.",
+                "B. En la matriz de encadenamientos aquellas columnas en las que no aparece ninguna X indican las actividades que no tienen ninguna actividad siguiente, es decir, aquellas actividades cuyo suceso final coincide con el suceso fin del proyecto.",
+                "C. El cuadro de prelaciones esté formado por tres columnas En la primera columna están representadas todas las actividades en que se ha descompuesto el proyecto. En la segunda columna figuran las actividades precedentes de su homóloga en la primera columna y en la última columna se muestran las actividades posteriores.",
+                "D. La matriz de encadenamientos consiste en una matriz cuadrada cuya dimensión es igual al número de sucesos en que se ha descompuesto el proyecto."
+            ],
+            "opcion_correcta": "B. En la matriz de encadenamientos aquellas columnas en las que no aparece ninguna X indican las actividades que no tienen ninguna actividad siguiente, es decir, aquellas actividades cuyo suceso final coincide con el suceso fin del proyecto.",
+            "justificacion": "La opción B es correcta porque el documento define la matriz de encadenamientos indicando que se marca con una X cuando la actividad de la fila depende de la finalización de la actividad de la columna. Si una columna no tiene marcas, significa que ninguna otra actividad (fila) depende de ella, por lo tanto, es una actividad final sin sucesoras. La opción D es incorrecta según el texto porque la dimensión es igual al número de actividades, no de sucesos.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.4 Matriz de encadenamientos y tabla de precedentes. Primera oración del párrafo relevante: \"Matriz de encadenamientos: matriz cuadrada de dimensión igual al número de actividades total del proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "El diagrama de Gantt es una herramienta para:",
+            "opciones": [
+                "A. Gestión de los recursos",
+                "B. Gestión de la calidad",
+                "C. Gestión de los riesgos",
+                "D. Generación de gráficas e informes"
+            ],
+            "opcion_correcta": "A. Gestión de los recursos",
+            "justificacion": "La opción A es correcta porque, aunque el Gantt se utiliza principalmente para la gestión del tiempo, el documento establece que para ser realista y fiable debe ir acompañado de un gráfico que refleje la actividad de los técnicos (Histograma de Recursos). Esto vincula directamente el diagrama con la asignación y gestión de recursos en el proyecto.",
+            "referencia": "Sección: 2 GANTT. Subsección: 2.4 Asignación de recursos. Primera oración del párrafo relevante: \"Según la metodología Métrica v3, para que un Gantt sea realista y fiable debe ir acompañado de un gráfico que refleje la actividad de los técnicos (Histograma de Recursos)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "En la planificación de un proyecto no debemos realizar las siguientes tareas:",
+            "opciones": [
+                "A. Definición de los requerimientos",
+                "B. Selección de una metodología de gestión de proyecto",
+                "C. Reclutamiento de personal y asignación de tareas",
+                "D. Análisis de riesgos y revisión inicial de seguridad"
+            ],
+            "opcion_correcta": "C. Reclutamiento de personal y asignación de tareas",
+            "justificacion": "La opción C es correcta porque el documento establece en la Sección 1 que las metodologías predictivas se centran en estimar \"entregables, tareas, tiempo y costes asociados\" durante la fase de planificación. El reclutamiento y la asignación física de personal corresponden a la ejecución y seguimiento del proyecto (Sección 2.3 Seguimiento del cronograma), donde se comparan los resultados reales con la línea base planificada, diferenciando la definición de necesidades de recursos de su contratación efectiva.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"Las metodologías predictivas también son conocidas como clásicas, tradicionales o formales.\" (Contexto sobre estimación de tareas y costes vs ejecución)."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Por motivos estratégicos, se acuerda terminar un portal de administración electrónica dos meses antes de lo previsto. No hay disponibilidad de más recursos humanos ni de ampliar el horario de trabajo ni de conseguir fondos para contratar personal externo. El Jefe de Proyecto deberá negociar entonces con el cliente del portal:",
+            "opciones": [
+                "A. Una reducción del alcance previsto, eliminando algunas funcionalidades adicionales o no críticas, hasta que cuadre en el tiempo previsto",
+                "B. Una demora en el tiempo ya que no se puede acometer sin más recursos la tarea indicada",
+                "C. Que el portal se haga usando herramientas de creación rápida de portales electrónicos",
+                "D. Una disminución de la calidad, admitiendo una serie de errores motivados por lo acelerado de la entrega"
+            ],
+            "opcion_correcta": "A. Una reducción del alcance previsto, eliminando algunas funcionalidades adicionales o no críticas, hasta que cuadre en el tiempo previsto",
+            "justificacion": "La opción A es correcta porque el documento indica en la Sección 1 que en proyectos predictivos es posible estimar \"entregables, tareas, tiempo y costes asociados\". Si se reduce el tiempo (plazo) sin aumentar los recursos (costes), para mantener la viabilidad del plan de ejecución (Gantt/PERT), es necesario ajustar los entregables o alcance, ya que estos elementos están interrelacionados en la planificación.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"Por tanto, se trata de un tipo de proyectos donde es posible estimar, o predecir, cuáles serán los entregables, tareas, tiempo y costes asociados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Para contemplar la plena ocupación de todos los recursos, en un diagrama de Gantt:",
+            "opciones": [
+                "A. Puede asignarse a un recurso distintas tarea.",
+                "B. Sólo debe asignarse a cada recurso una tarea.",
+                "C. Se puede asignar la misma tarea a varios recursos.",
+                "D. No es necesario que los trabajos se descompongan hasta la unidad mínima de tratamiento."
+            ],
+            "opcion_correcta": "A. Puede asignarse a un recurso distintas tarea.",
+            "justificacion": "La opción A es correcta porque la Sección 2.4 establece que para que un Gantt sea realista debe ir acompañado de un Histograma de Recursos que refleje la actividad de los técnicos. Esto implica que los recursos se asignan a tareas específicas a lo largo del tiempo (Patrón de límites), permitiendo que un mismo recurso ejecute distintas tareas en diferentes momentos para optimizar su ocupación.",
+            "referencia": "Sección: 2 GANTT. Subsección: 2.4 Asignación de recursos. Primera oración del párrafo relevante: \"Según la metodología Métrica v3, para que un Gantt sea realista y fiable debe ir acompañado de un gráfico que refleje la actividad de los técnicos\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "En la asignación de tiempos de un proyecto el tiempo Early del suceso inicial del proyecto es:",
+            "opciones": [
+                "A. Igual a la duración mínima del proyecto.",
+                "B. La duración mínima esperada para la primera actividad.",
+                "C. Igual a cero.",
+                "D. Igual a 1."
+            ],
+            "opcion_correcta": "C. Igual a cero.",
+            "justificacion": "La opción C es correcta porque el documento especifica explícitamente en la Sección 3.6 que \"El tiempo Early del suceso inicial del proyecto es 0\". Este valor sirve como punto de partida para calcular los tiempos tempranos de los sucesos posteriores recorriendo los caminos desde el nodo inicial hacia el final.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.6 Tiempos Early y Last de los sucesos. Primera oración del párrafo relevante: \"El tiempo Early del suceso inicial del proyecto es 0.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Dentro de las técnicas de planificación de proyectos, podríamos decir que una actividad es crítica si:",
+            "opciones": [
+                "A. No se puede cambiar sus instantes de comienzo y finalización sin modificar Ia duración total del proyecto.",
+                "B. Es la más corta del proyecto.",
+                "C. Indica el fin de Ia fase de verificación y el inicio de Ia fase de validación.",
+                "D. Requiere el mayor número de recursos humanos para ser realizada."
+            ],
+            "opcion_correcta": "A. No se puede cambiar sus instantes de comienzo y finalización sin modificar Ia duración total del proyecto.",
+            "justificacion": "La opción A es correcta porque la Sección 3.8 define una \"Actividad crítica\" como aquella cuyo retraso en su comienzo o finalización provoca un retraso global en la finalización del proyecto completo. Esto implica que sus instantes de tiempo están fijos (holgura total cero) y cualquier modificación afecta directamente a la duración total del proyecto.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 Camino crítico. Primera oración del párrafo relevante: \"Actividad crítica: aquella cuyo retraso en su comienzo o finalización provoca un retraso global en la finalización del proyecto completo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "En general, lo más útil en determinadas áreas de la organización altamente normalizadas (ofimática, contabilidad, inventarios…) es utilizar:",
+            "opciones": [
+                "A. Aplicaciones a medida realizadas mediante programación propia.",
+                "B. Aplicaciones a medida realizadas mediante programación externa.",
+                "C. Aplicaciones a medida realizadas mediante programación propia y externa.",
+                "D. Aplicaciones estándar o paquetes."
+            ],
+            "opcion_correcta": "D. Aplicaciones estándar o paquetes.",
+            "justificacion": "La opción D es correcta porque, aunque el documento se centra en metodologías de gestión, la Sección 1 INTRODUCCIÓN establece que las metodologías predictivas son adecuadas para proyectos donde los requisitos no son cambiantes y menciona el uso de estándares reconocidos como Métrica v3 o PMBok. Conceptualmente, áreas normalizadas con requisitos estables (como ofimática) se benefician de soluciones estándar (paquetes) que garantizan predictibilidad y eficiencia, alineándose con la lógica del documento sobre el uso de herramientas establecidas para contextos predecibles en lugar de desarrollos a medida.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Las metodologías predictivas también son conocidas como clásicas, tradicionales o formales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Indique cuál de las siguientes es una herramienta que permite representar gráficamente la vinculación entre actividades y eventos de un proyecto reflejando interdependencias independientemente de la dimensión temporal:",
+            "opciones": [
+                "A. Representación DAFO.",
+                "B. Diagrama PERT.",
+                "C. Modelo EFQM.",
+                "D. Diagrama de Gantt."
+            ],
+            "opcion_correcta": "B. Diagrama PERT.",
+            "justificacion": "La opción B es correcta porque la Sección 3.1 define explícitamente que un diagrama de red o grafo (como el PERT) \"es una representación que vincula actividades y eventos entre sí reflejando interdependencias, y que no se representan sobre un eje temporal\". Por el contrario, el diagrama de Gantt (Sección 2.1) se representa sobre ejes de coordenadas donde los tiempos están en el eje de abscisas, enfocándose en la escala temporal más que en las interdependencias estrictas.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.1 Diagramas de red o grafos. Primera oración del párrafo relevante: \"Un diagrama de red o grafo es una representación que vincula actividades y eventos entre sí reflejando interdependencias, y que no se representan sobre un eje temporal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Las técnicas de Gantt y Pert ayudan a:",
+            "opciones": [
+                "A. Fijar la duración de cada etapa",
+                "B. Estimar cuál será la tarea crítica de un proyecto",
+                "C. Estimar la duración de un proyecto",
+                "D. Estimar el costo de cada etapa"
+            ],
+            "opcion_correcta": "C. Estimar la duración de un proyecto",
+            "justificacion": "La opción C es correcta porque la Sección 1 INTRODUCCIÓN indica que el documento se centra en herramientas empleadas por las metodologías predictivas para la \"gestión del tiempo\". Además, la Sección 2.1 describe al Gantt como una representación temporal de tareas y la Sección 3.5.2 detalla el \"Cálculo de la duración del proyecto\" mediante PERT, confirmando que ambas técnicas están orientadas a la estimación temporal global del proyecto.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del último párrafo: \"El presente documento se centrará en describir dos de las herramientas empleadas por las metodologías predictivas para la gestión del tiempo: diagramas Gantt y PERT.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Señale cuál de las siguientes opciones es correcta:",
+            "opciones": [
+                "A. El Cuadro de Mandos Integral establece las oportunidades y amenazas de un proyecto en un momento concreto",
+                "B. El diagrama de Gantt tiene como finalidad establecer los objetivos de la organización al inicio del proyecto",
+                "C. El DAFO permite realizar el seguimiento del proyecto a nivel temporal",
+                "D. El PERT establece las dependencias entre las distintas tareas del proyecto para poder realizar su planificación adecuada"
+            ],
+            "opcion_correcta": "D. El PERT establece las dependencias entre las distintas tareas del proyecto para poder realizar su planificación adecuada",
+            "justificacion": "La opción D es correcta porque la Sección 3 INTRODUCCIÓN afirma que \"Los PERT... permiten establecer dependencias entre distintas actividades del proyecto usando redes o grafos\". En contraste, la Sección 2.1 aclara que el diagrama de Gantt en sentido estricto \"no refleja la interdependencia de unas con otras\", validando que es el PERT la herramienta adecuada para gestionar dependencias y planificar en consecuencia.",
+            "referencia": "Sección: 3 PERT. Primera oración del párrafo relevante: \"Los PERT (Program Evaluation and Review Technique) permiten establecer dependencias entre distintas actividades del proyecto usando redes o grafos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "En gestión de proyectos de tecnologías de la información indicar cuál de los siguientes diagramas es de red y tiene una representación gráfica más sencilla no incluyendo actividades virtuales:",
+            "opciones": [
+                "A. Diagrama PERT (Program Evaluation and Review Technique).",
+                "B. Diagrama PDM (Precedence Diagramming Method).",
+                "C. Diagrama ADM (Arrow Diagramming Method).",
+                "D. Ninguno de los anteriores."
+            ],
+            "opcion_correcta": "B. Diagrama PDM (Precedence Diagramming Method).",
+            "justificacion": "La opción B es correcta porque la Sección 3.1.1 describe el método PDM donde \"Cada actividad se representa en un nodo del grafo\" y permite cuatro tipos de dependencia directamente. Por el contrario, la Sección 3.1.2 indica que el ADM \"Sólo permite representar las relaciones Final- Inicio\", y la Sección 3.3 explica que para cumplir principios como la designación unívoca en ciertos casos (como actividades paralelas), es necesario introducir \"actividades ficticias\", lo que hace al PDM más sencillo al evitar esta necesidad en muchas situaciones.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.1 Diagramas de red o grafos. Subsubsección: 3.1.1 PDM (PRECEDENCE DIAGRAMMING METHOD-ACTIVITY IN NODE). Primera oración del párrafo relevante: \"Cada actividad se representa en un nodo del grafo, y las flechas representan dependencias entre actividades.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Indique cuál de las siguientes afirmaciones sobre el método de planificación PERT (Program Evaluation and Review Technique) es FALSA:",
+            "opciones": [
+                "A. El método PERT parte de la descomposición del proyecto en una serie de obras parciales o actividades.",
+                "B. Para representar las diferentes actividades en que se descompone un proyecto, así como sus correspondientes sucesos, se utiliza una estructura de grafo. Los arcos del grafo representan las actividades y los vértices los sucesos.",
+                "C. Es la forma habitual de presentar el plan de ejecución de un proyecto, recogiendo en las filas la relación de actividades a realizar y en las columnas la escala de tiempos que se está manejando.",
+                "D. Un suceso es un acontecimiento, un punto en el tiempo, una fecha en el calendario. El suceso no consume recursos, sólo indica el principio o el fin de una actividad o de un conjunto de actividades."
+            ],
+            "opcion_correcta": "C. Es la forma habitual de presentar el plan de ejecución de un proyecto, recogiendo en las filas la relación de actividades a realizar y en las columnas la escala de tiempos que se está manejando.",
+            "justificacion": "La opción C es correcta (como afirmación FALSA) porque la descripción proporcionada corresponde al diagrama de Gantt, no al PERT. El documento establece explícitamente en la sección sobre GANTT que \"el gráfico de Gantt es la forma habitual de presentar el plan de ejecución de un proyecto, recogiendo en las filas la relación de actividades a realizar y en las columnas la escala de tiempos\". Por el contrario, el PERT se describe como una técnica basada en redes o grafos para establecer dependencias (Sección 3).",
+            "referencia": "Sección: 2 GANTT. Subsección: 2.1 Representación del diagrama de Gantt. Primera oración del párrafo relevante: \"Según la metodología Métrica v3, el gráfico de Gantt es la forma habitual de presentar el plan de ejecución de un proyecto...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Señale cuál de los siguientes principios NO se aplica a la Técnica de Revisión y Evaluación de Programas (PERT)",
+            "opciones": [
+                "A. Principio de designación bilateral.",
+                "B. Principio de designación unívoca.",
+                "C. Principio de designación sucesiva.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Principio de designación bilateral.",
+            "justificacion": "La opción A es correcta porque el documento enumera los principios que rigen el diagrama PERT en la sección correspondiente, listando únicamente: \"Principio de unicidad el estado inicial y final\", \"Principio de designación unívoca\" y \"Principio de designación sucesiva\". El \"Principio de designación bilateral\" no aparece en el texto ni es parte de las convenciones descritas para la construcción de los grafos PERT.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.2 Principios. Primera oración del párrafo relevante: \"El diagrama PERT se rige por los siguientes principios:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "La planificación y gestión de un proyecto se encarga a una persona, que denominaremos «Jefe de proyecto». El Plan de proyecto contendrá:",
+            "opciones": [
+                "A. Un grafico de Gant para estimar el coste, otro de PERT para las restricciones y usaremos COCOMO para las etapas",
+                "B. Estrictamente la Metodología que el Departamento especifique",
+                "C. Un grafico de GANTT para las etapas, un gráfico de PERT para la representación de las restricciones y usaremos COCOMO para estimar el coste",
+                "D. La Metodología del Departamento que se suministre vía web"
+            ],
+            "opcion_correcta": "C. Un grafico de GANTT para las etapas, un gráfico de PERT para la representación de las restricciones y usaremos COCOMO para estimar el coste",
+            "justificacion": "La opción C es correcta porque alinea funcionalmente los conceptos descritos en el documento: el Gantt se utiliza para la representación temporal y plan de ejecución (etapas/tiempo), mientras que el PERT se centra en las dependencias y restricciones entre actividades. Aunque el término COCOMO no aparece explícitamente, el documento menciona en la Introducción la estimación de \"costes asociados\" y en la sección de Gantt la asignación de recursos, lo que conceptualmente respalda la separación de herramientas para tiempo (Gantt/PERT) y coste/recursos.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"Este tipo de metodología suele ser más adecuada en proyectos donde los requisitos no son cambiantes a lo largo de su desarrollo.\". (También Sección 2.1 para Gantt y Sección 3.1 para PERT)."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Cuál de las siguientes tareas no es posible realizar utilizando las herramientas PERT o CPM?",
+            "opciones": [
+                "A. Establecer las dimensiones de tiempo más probables para las tareas individuales aplicando modelos estadísticos.",
+                "B. Determinar el camino crítico, la cadena de tareas que determina la duración del proyecto.",
+                "C. Dimensionar las necesidades de personal en cada fase del proyecto.",
+                "D. Calcular las limitaciones de tiempo que definen una ventana de tiempo de una tarea determinada (y las holguras)."
+            ],
+            "opcion_correcta": "C. Dimensionar las necesidades de personal en cada fase del proyecto.",
+            "justificacion": "La opción C es correcta porque, según el documento, la asignación y visualización detallada de recursos personales se asocia específicamente al diagrama de Gantt mediante el \"Histograma de Recursos\" para que sea realista. El método PERT se centra en la gestión del tiempo, dependencias y cálculo probabilístico de duraciones (Sección 3), mientras que la dimensión de personal se trata como un complemento necesario del Gantt (Sección 2.4).",
+            "referencia": "Sección: 2 GANTT. Subsección: 2.4 Asignación de recursos. Primera oración del párrafo relevante: \"Según la metodología Métrica v3, para que un Gantt sea realista y fiable debe ir acompañado de un gráfico que refleje la actividad de los técnicos (Histograma de Recursos)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "En la dirección de proyectos de Tecnologías de la Información, es fundamental la gestión del alcance del proyecto. Ello supone:",
+            "opciones": [
+                "A. estimar la duración de las actividades.",
+                "B. definir la secuencia entre las actividades.",
+                "C. asegurar que el proyecto incluya todo el trabajo requerido, y sólo el trabajo requerido.",
+                "D. preparar el presupuesto de costes."
+            ],
+            "opcion_correcta": "C. asegurar que el proyecto incluya todo el trabajo requerido, y sólo el trabajo requerido.",
+            "justificacion": "La opción C es correcta porque define la esencia del alcance, lo cual se relaciona con la capacidad de predecir \"entregables\" mencionada en las metodologías predictivas descritas en el documento. La Introducción establece que estas metodologías son adecuadas donde es posible estimar \"cuáles serán los entregables\", lo que implica definir y controlar el trabajo requerido para cumplir esos entregables sin desviaciones.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"Por tanto, se trata de un tipo de proyectos donde es posible estimar, o predecir, cuáles serán los entregables, tareas, tiempo y costes asociados.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Cuándo analizaríamos los recursos de la organización?",
+            "opciones": [
+                "A. Cuando ejecutemos un desarrollo, para determinar el costo.",
+                "B. Al valorar los recursos que se han consumido.",
+                "C. Para ver la forma de materializar un desarrollo.",
+                "D. Cuando queramos hacer una programación estratégica."
+            ],
+            "opcion_correcta": "D. Cuando queramos hacer una programación estratégica.",
+            "justificacion": "La opción D es correcta porque el documento establece en la Sección 2.4 que para que un plan (Gantt) sea realista y fiable debe ir acompañado de la asignación de recursos, lo cual forma parte de la fase de planificación estratégica antes de la ejecución. La Sección 1 menciona que las metodologías predictivas permiten estimar tareas, tiempo y costes asociados en la fase de planificación, alineándose con el análisis de recursos para una programación estratégica.",
+            "referencia": "Sección: 2 GANTT. Subsección: 2.4 ASIGNACIÓN DE RECURSOS. Primera oración del párrafo relevante: \"Según la metodología Métrica v3, para que un Gantt sea realista y fiable debe ir acompañado de un gráfico que refleje la actividad de los técnicos (Histograma de Recursos) que componen el equipo del proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Si una tarea dentro de un diagrama PERT excede su duración en un tiempo:",
+            "opciones": [
+                "A. La duración del camino crítico no variará",
+                "B. La duración del camino crítico variará en la misma magnitud",
+                "C. No se puede afirmar qué ocurrirá con la duración del camino crítico",
+                "D. Se necesita que otra tarea disminuya su duración en la misma magnitud para que la duración del proyecto no varíe"
+            ],
+            "opcion_correcta": "C. No se puede afirmar qué ocurrirá con la duración del camino crítico",
+            "justificacion": "La opción C es correcta porque, según la Sección 3.8, solo las actividades críticas provocan un retraso global en el proyecto si se retrasan. Si la tarea que excede su duración no es crítica y tiene holgura total suficiente, el camino crítico no variará; si es crítica o supera su holgura, sí variará. Por tanto, sin saber si la tarea es crítica, no se puede afirmar qué ocurrirá.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 CAMINO CRÍTICO. Primera oración del párrafo relevante: \"Actividad crítica: aquella cuyo retraso en su comienzo o finalización provoca un retraso global en la finalización del proyecto completo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "El histograma de recursos refleja la cantidad de técnicos que intervienen en un proyecto. Indique la respuesta VERDADERA en relación a esta afirmación:",
+            "opciones": [
+                "A. En el histograma de recursos se representan los recursos materiales necesarios para la realización de un proyecto, no recursos humanos.",
+                "B. Para que un diagrama de Gantt sea realista y fiable debe ir acompañado de un histograma de recursos.",
+                "C. El histograma de recursos también se denomina Patrón de límites.",
+                "D. El histograma de recursos, usando redes, permite establecer dependencias entre los recursos humanos que participan en el proyecto."
+            ],
+            "opcion_correcta": "B. Para que un diagrama de Gantt sea realista y fiable debe ir acompañado de un histograma de recursos.",
+            "justificacion": "La opción B es correcta porque el documento indica explícitamente en la Sección 2.4 que para que un Gantt sea realista y fiable debe ir acompañado de un gráfico que refleje la actividad de los técnicos, denominado Histograma de Recursos. Las otras opciones son incorrectas según el texto: el Patrón de límites es una técnica distinta (2.4.1) y las dependencias se representan en diagramas de red (3.1).",
+            "referencia": "Sección: 2 GANTT. Subsección: 2.4 ASIGNACIÓN DE RECURSOS. Primera oración del párrafo relevante: \"Según la metodología Métrica v3, para que un Gantt sea realista y fiable debe ir acompañado de un gráfico que refleje la actividad de los técnicos (Histograma de Recursos) que componen el equipo del proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "En la planificación de sistemas, la demanda latente produce:",
+            "opciones": [
+                "A. Un crecimiento reprimido.",
+                "B. Un crecimiento evolutivo.",
+                "C. Un crecimiento gradual.",
+                "D. Un crecimiento no gradual."
+            ],
+            "opcion_correcta": "D. Un crecimiento no gradual.",
+            "justificacion": "La opción D es correcta basándose en el concepto de metodologías predictivas descrito en la Sección 1, donde se asume que los requisitos no son cambiantes. La \"demanda latente\" implica requisitos no identificados inicialmente que surgen posteriormente, lo cual contradice la estabilidad gradual esperada en la planificación predictiva, generando un crecimiento no gradual o disruptivo en el alcance del proyecto.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Este tipo de metodología suele ser más adecuada en proyectos donde los requisitos no son cambiantes a lo largo de su desarrollo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Si el camino crítico de un proyecto está formado por las tareas A(3,12,21) y B(6,15,30), la desviación critica del proyecto será: (Nota: ActividadX(tpo_optimista, tpo_másProbable, tpo_pesimista))",
+            "opciones": [
+                "A. 9",
+                "B. 5",
+                "C. 7",
+                "D. 4"
+            ],
+            "opcion_correcta": "B. 5",
+            "justificacion": "La opción B es correcta aplicando las fórmulas de la Sección 3.5.1 y 3.5.2. La varianza de A es ((21-3)/6)² = 9. La varianza de B es ((30-6)/6)² = 16. La varianza total del proyecto es la suma (9+16=25). La desviación típica del proyecto es la raíz cuadrada de la varianza total (√25 = 5).",
+            "referencia": "Sección: 3 PERT. Subsección: 3.5 ASIGNACIÓN DE TIEMPOS DE PROYECTO. Primera oración del párrafo relevante: \"Desviación típica del proyecto = √∑𝜎𝐶𝐶 𝑘2\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Cuáles son los tres elementos que según el PMBOK son interdependientes y deben mantenerse controlados en un proyecto?",
+            "opciones": [
+                "A. Plazos, equipo de trabajo y costes.",
+                "B. Equipo de trabajo, plazos y valor ganado.",
+                "C. Calidad, plazos y costes.",
+                "D. Comunicación, planificación y costes."
+            ],
+            "opcion_correcta": "C. Calidad, plazos y costes.",
+            "justificacion": "La opción C es correcta porque el documento, al referirse a las metodologías predictivas como PMBOK en la Introducción, establece que en este tipo de proyectos es posible estimar \"entregables, tareas, tiempo y costes asociados\". Los entregables implican la calidad del producto final, mientras que tiempo (plazos) y costes son explícitamente mencionados como variables a predecir y controlar, alineándose con el triángulo de hierro de la gestión de proyectos.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Por tanto, se trata de un tipo de proyectos donde es posible estimar, o predecir, cuáles serán los entregables, tareas, tiempo y costes asociados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "En relación a los diagramas de PERT y las holguras de las actividades, señale la respuesta INCORRECTA:",
+            "opciones": [
+                "A. La holgura condicional de una actividad es el margen de tiempo suplementario para la ejecución de la actividad si las precedentes terminan lo más tarde posible y las posteriores lo antes posible.",
+                "B. La holgura libre de una actividad es el tiempo de retraso máximo en el comienzo de la ejecución de la actividad sin que afecte a las siguientes actividades.",
+                "C. La holgura total de una actividad es el tiempo máximo en la ejecución de la actividad sin afectar a la duración total del proyecto.",
+                "D. El camino crítico marca el mínimo tiempo posible en que se puede realizar el proyecto si no hay ningún retraso."
+            ],
+            "opcion_correcta": "A. La holgura condicional de una actividad es el margen de tiempo suplementario para la ejecución de la actividad si las precedentes terminan lo más tarde posible y las posteriores lo antes posible.",
+            "justificacion": "La opción A es la respuesta correcta (al ser la afirmación INCORRECTA) porque el documento define explícitamente esa descripción como \"Holgura independiente\", no condicional. La holgura condicional se define en el texto como el tiempo extra si los sucesos origen y final se dan en sus fechas más tardías, mientras que la definición de la opción A corresponde textualmente a la holgura independiente descrita en la sección 3.7.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.7 HOLGURAS DE LAS ACTIVIDADES. Primera oración del párrafo relevante: \"Holgura independiente de una actividad: Margen de tiempo suplementario para la ejecución de una actividad si las precedentes terminaran lo más tarde posible y las posteriores, lo antes posible.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Los diagramas de Gantt o de tiempo son una técnica de:",
+            "opciones": [
+                "A. Gestión de proyectos",
+                "B. Programación orientada a objetos",
+                "C. Análisis diferencial de aplicaciones",
+                "D. Programación estructurada"
+            ],
+            "opcion_correcta": "A. Gestión de proyectos",
+            "justificacion": "La opción A es correcta porque el documento sitúa los diagramas de Gantt dentro del contexto de las \"metodologías predictivas para la gestión de proyectos\". En la sección dedicada al Gantt, se describe como una herramienta para la representación temporal de tareas y el seguimiento del cronograma, funciones inherentes a la gestión de proyectos.",
+            "referencia": "Sección: 2 GANTT. Subsección: 2.1 REPRESENTACIÓN DEL DIAGRAMA DE GANTT. Primera oración del párrafo relevante: \"El diagrama de Gantt es uno de los diagramas más utilizados para la representación temporal de tareas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "En el marco de trabajo de la gestión de proyectos no se realiza:",
+            "opciones": [
+                "A. Gestión del tiempo.",
+                "B. Gestión de la calidad.",
+                "C. Gestión del cambio.",
+                "D. Gestión de contenidos."
+            ],
+            "opcion_correcta": "D. Gestión de contenidos.",
+            "justificacion": "La opción D es correcta porque el documento detalla áreas específicas de gestión como el tiempo (Gantt/PERT), recursos (Histograma, Patrón de límites) y planificación (Métrica v3, PMBOK), pero no menciona la \"Gestión de contenidos\" como un área o proceso dentro del marco de trabajo de las metodologías predictivas descritas. El enfoque se centra en tareas, tiempos, costes y recursos técnicos.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Las metodologías PMBok y Prince2 son un ejemplo de metodologías predictivas reconocidas a nivel internacional.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Señale cuál de las siguientes opciones es correcta:",
+            "opciones": [
+                "A. El Cuadro de Mandos integral establece las oportunidades y amenazas de un proyecto en un momento concreto.",
+                "B. El diagrama de Gantt tiene como finalidad establecer los objetivos de la organización al inicio del proyecto.",
+                "C. El DAFO permite realizar el seguimiento del proyecto a nivel temporal.",
+                "D. El PERT establece las dependencias entre las distintas tareas del proyecto para poder realizar su planificación adecuada."
+            ],
+            "opcion_correcta": "D. El PERT establece las dependencias entre las distintas tareas del proyecto para poder realizar su planificación adecuada.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de PERT que esta técnica \"permiten establecer dependencias entre distintas actividades del proyecto usando redes o grafos\". A diferencia del Gantt, que en sentido estricto no refleja interdependencias, el PERT se centra en la red de tareas y la dependencia entre ellas para la planificación.",
+            "referencia": "Sección: 3 PERT. Primera oración del párrafo relevante: \"Los PERT (Program Evaluation and Review Technique) permiten establecer dependencias entre distintas actividades del proyecto usando redes o grafos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Cuál es el propósito principal del método PERT (Program Evaluation and Review Technique) en la gestión de proyectos?",
+            "opciones": [
+                "A. Estimar los costes de un proyecto.",
+                "B. Identificar riesgos financieros y establecer estrategias de mitigación.",
+                "C. Identificar las rutas críticas y calcular el tiempo esperado de finalización del proyecto.",
+                "D. Evaluar la rentabilidad de un proyecto."
+            ],
+            "opcion_correcta": "C. Identificar las rutas críticas y calcular el tiempo esperado de finalización del proyecto.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 3 que los PERT permiten establecer dependencias entre actividades usando redes o grafos, y en la subsección 3.8 define el camino crítico como el que marca el mínimo tiempo posible para realizar el proyecto. Además, la subsección 3.5.2 indica que la duración total esperada del proyecto se calcula sumando las duraciones esperadas de las actividades críticas, lo que permite estimar el tiempo de finalización basándose en la ruta crítica.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 Camino crítico. Primera oración del párrafo relevante: \"Actividad crítica: aquella cuyo retraso en su comienzo o finalización provoca un retraso global en la finalización del proyecto completo.\" (También se apoya en 3.5.2 Cálculo de la duración del proyecto)."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "En la planificación de proyectos:",
+            "opciones": [
+                "A. Los diagramas de red (entre ellos PERT, ADM -actividad flecha-, y PDM -actividad nodo-) presentan dependencias pero no información temporal.",
+                "B. Los diagramas de red (entre ellos PERT, ADM -actividad flecha-, y PDM -actividad nodo-) presentan dependencias e información temporal.",
+                "C. Los gráficos de barras o de Gantt representan las dependencias entre tareas.",
+                "D. El camino crítico en un proyecto ha de ser necesariamente único."
+            ],
+            "opcion_correcta": "A. Los diagramas de red (entre ellos PERT, ADM -actividad flecha-, y PDM -actividad nodo-) presentan dependencias pero no información temporal.",
+            "justificacion": "La opción A es correcta porque el documento especifica en la sección 3.1 que un diagrama de red o grafo es una representación que vincula actividades reflejando interdependencias, y que \"no se representan sobre un eje temporal\". Por el contrario, la sección 2.1 indica que el diagrama de Gantt en sentido estricto no refleja la interdependencia de unas con otras. Además, la sección 3.8 aclara que en un proyecto puede existir más de un camino crítico, invalidando la opción D.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.1 Diagramas de red o grafos. Primera oración del párrafo relevante: \"Un diagrama de red o grafo es una representación que vincula actividades y eventos entre sí reflejando interdependencias, y que no se representan sobre un eje temporal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "En metodología PERT, el tiempo de retraso máximo en el comienzo de la ejecución de una actividad, o tiempo que puede alargarse su ejecución, sin afectar a las siguientes actividades es:",
+            "opciones": [
+                "A. Holgura independiente de una actividad.",
+                "B. Holgura libre de una actividad.",
+                "C. Holgura condicional de una actividad.",
+                "D. Holgura total de una actividad."
+            ],
+            "opcion_correcta": "B. Holgura libre de una actividad.",
+            "justificacion": "La opción B es correcta porque la definición proporcionada en el texto coincide textualmente con la descripción de la holgura libre. El documento establece en la sección 3.7 que la \"Holgura libre de una actividad: Tiempo de retraso máximo en el comienzo de la ejecución de una actividad, o tiempo que puede alargarse su ejecución, sin afectar a las siguientes actividades\", diferenciándola de la holgura total (que afecta al proyecto completo) o la independiente.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.7 Holguras de las actividades. Primera oración del párrafo relevante: \"Holgura libre de una actividad: Tiempo de retraso máximo en el comienzo de la ejecución de una actividad, o tiempo que puede alargarse su ejecución, sin afectar a las siguientes actividades.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "En la planificación de un proyecto representada por un diagrama de Pert, una actividad crítica es una actividad:",
+            "opciones": [
+                "A. Con un alto riesgo de incrementar su duración.",
+                "B. Con dependencia de otra actividad y de la que depende al menos una actividad.",
+                "C. En el camino crítico.",
+                "D. Cuya duración no puede modificarse."
+            ],
+            "opcion_correcta": "C. En el camino crítico.",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 3.8 que el \"Camino crítico: es el camino compuesto del conjunto de actividades críticas\". Por tanto, una actividad se considera crítica precisamente por formar parte de este camino, cuyo retraso provoca un retraso global en la finalización del proyecto completo, tal como se indica en la definición de actividad crítica dentro de la misma sección.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 Camino crítico. Primera oración del párrafo relevante: \"Actividad crítica: aquella cuyo retraso en su comienzo o finalización provoca un retraso global en la finalización del proyecto completo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Cuál es un resultado común del uso de la técnica PERT (Técnica de Evaluación y Revisión de Programas) en la estimación de esfuerzo?:",
+            "opciones": [
+                "A. Determinación precisa de los costos del proyecto.",
+                "B. Representación gráfica de las interdependencias entre tareas y su duración.",
+                "C. Cuantificación de los puntos de función del sistema.",
+                "D. Evaluación de la calidad del código fuente."
+            ],
+            "opcion_correcta": "B. Representación gráfica de las interdependencias entre tareas y su duración.",
+            "justificacion": "La opción B es correcta porque el documento indica en la introducción de la sección 3 que los PERT \"permiten establecer dependencias entre distintas actividades del proyecto usando redes o grafos\". Además, la sección 3.5 detalla la asignación de tiempos de proyecto (duración), y las conclusiones (sección 4) refuerzan que el PERT se centra en la red de tareas y la dependencia entre ellas para dar soporte a la gestión de tiempos, representando gráficamente estas relaciones.",
+            "referencia": "Sección: 3 PERT. Primera oración del párrafo relevante: \"Los PERT (Program Evaluation and Review Technique) permiten establecer dependencias entre distintas actividades del proyecto usando redes o grafos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "La duración total de un proyecto es:",
+            "opciones": [
+                "A. La del camino crítico del gráfico de PERT.",
+                "B. La del camino del gráfico de PERT que más tareas realiza.",
+                "C. La suma de la duración de todas las tareas de un proyecto, como se refleja en el gráfico de PERT.",
+                "D. La de la tarea crítica, como se refleja en el gráfico de PERT."
+            ],
+            "opcion_correcta": "A. La del camino crítico del gráfico de PERT.",
+            "justificacion": "La opción A es correcta porque el documento establece que el camino crítico marca el mínimo tiempo posible en el que se puede realizar el proyecto si no hay ningún retraso. Las otras opciones son incorrectas: la duración no depende del número de tareas (B), ni de la suma total de todas las tareas debido a la paralelización (C), ni de una sola tarea crítica (D), sino de la secuencia completa de actividades críticas que conforman el camino crítico.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.8 Camino crítico, Primera oración del párrafo relevante: \"El camino crítico marca el mínimo tiempo posible en el que se puede realizar el proyecto si no hay ningún retraso.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "El retraso de una actividad:",
+            "opciones": [
+                "A. supone un retraso siempre en el proyecto",
+                "B. supondrá un retraso si no pertenece al camino crítico",
+                "C. no supone retraso alguno si no pertenece al camino critico y la actividad no pasa a formar parte de este al alargar su duración",
+                "D. no supone retraso nunca"
+            ],
+            "opcion_correcta": "C. no supone retraso alguno si no pertenece al camino critico y la actividad no pasa a formar parte de este al alargar su duración",
+            "justificacion": "La opción C es correcta porque el documento define la holgura total como el tiempo de retraso máximo en la ejecución de una actividad sin afectar a la duración total del proyecto. Por tanto, si una actividad no es crítica (tiene holgura), un retraso dentro de ese margen no afecta al proyecto final; solo afectaría si consume toda la holgura y la convierte en crítica. Las opciones A, B y D son absolutas y contradicen el concepto de holgura descrito en el texto.",
+            "referencia": "Sección: 3 PERT. Subsección: 3.7 Holguras de las actividades, Primera oración del párrafo relevante: \"Holgura total de una actividad: Tiempo de retraso máximo en la ejecución de una actividad sin afectar a la duración total de un proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "La creación de una Estructura de Desglose del Trabajo (EDT) forma parte de:",
+            "opciones": [
+                "A. La gestión de tiempo del proyecto",
+                "B. La organización y definición del alcance total del proyecto",
+                "C. La gestión de riesgos del proyecto",
+                "D. La gestión de costes del proyecto"
+            ],
+            "opcion_correcta": "B. La organización y definición del alcance total del proyecto",
+            "justificacion": "La opción B es correcta porque, aunque el término EDT no aparece explícitamente, el documento describe la descomposición del proyecto en fases, actividades y tareas como fundamental para que un Gantt sea realista y fiable. Este proceso de descomposición equivale funcionalmente a la definición del alcance y organización del trabajo antes de asignar tiempos o recursos. Las opciones A, C y D son áreas posteriores o complementarias que dependen de esta definición inicial del trabajo.",
+            "referencia": "Sección: 2 GANTT. Subsección: 2.4 Asignación de recursos, Primera oración del párrafo relevante: \"Es fundamental que los trabajos se descompongan hasta la unidad mínima de tratamiento, es decir: descomponer el proyecto en fases, las fases en actividades y las actividades en tareas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "Señale la afirmación correcta respecto al diagrama de Gantt:",
+            "opciones": [
+                "A. La longitud de las barras que representan actividades es inversamente proporcional a su duración.",
+                "C. Permite monitorizar el desarrollo temporal del proyecto.",
+                "B. No permite la representación de hitos.",
+                "D. En el diagrama de Gantt se deben reflejar siempre las interdependencias entre actividades."
+            ],
+            "opcion_correcta": "C. Permite monitorizar el desarrollo temporal del proyecto.",
+            "justificacion": "**\nLa opción C es correcta porque en la Sección 2.3 se indica que el diagrama de Gantt permite hacer seguimiento visual del desarrollo del proyecto comparando previsiones con realidades. Las otras opciones son falsas según la Sección 2.1: las barras representan duración directamente (no inversamente), sí permiten hitos (duración nula) y en sentido estricto no reflejan interdependencias.",
+            "referencia": "**\nSección: 2 GANTT Subsección: 2.1 Representación del diagrama de Gantt y 2.3 Seguimiento del cronograma"
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "Señale la respuesta más correcta sobre la línea base del cronograma",
+            "opciones": [
+                "A. Se representa adecuadamente sobre diagramas PERT.",
+                "C. Es una versión aprobada de un modelo de programación y se utiliza como base de comparación con los resultados reales.",
+                "B. Representa el porcentaje de ejecución real del proyecto a una fecha concreta.",
+                "D. Es una secuencia de actividades críticas."
+            ],
+            "opcion_correcta": "C. Es una versión aprobada de un modelo de programación y se utiliza como base de comparación con los resultados reales.",
+            "justificacion": "**\nLa opción C es correcta según la definición en la Sección 2.3, donde se establece que la línea base es la versión aprobada del modelo de programación usada como base de comparación con resultados reales durante el seguimiento y control.",
+            "referencia": "**\nSección: 2 GANTT Subsección: 2.3 Seguimiento del cronograma"
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cómo se llama la secuencia de actividades que determina el menor tiempo posible para completar el proyecto?",
+            "opciones": [
+                "A. Flujo principal de actividades",
+                "C. Camino crítico",
+                "B. Red de hitos",
+                "D. Diagrama de red"
+            ],
+            "opcion_correcta": "C. Camino crítico",
+            "justificacion": "**\nLa opción C es correcta porque la Sección 3.8 define el camino crítico como el que tiene mayor duración entre los eventos inicio y final, marcando el mínimo tiempo posible en el que se puede realizar el proyecto si no hay retrasos.",
+            "referencia": "**\nSección: 3 PERT Subsección: 3.8 Camino crítico"
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Señale la respuesta más correcta sobre el camino crítico:",
+            "opciones": [
+                "A. Es único en cada proyecto",
+                "B. Puede haber más de un camino crítico.",
+                "C. Puede no haber ningún camino crítico",
+                "D. Al menos habrá dos caminos críticos: el camino más largo posible y el más corto posible."
+            ],
+            "opcion_correcta": "B. Puede haber más de un camino crítico.",
+            "justificacion": "**\nLa opción B es correcta según la Sección 3.8, que establece explícitamente: \"En un proyecto puede existir más de un camino crítico\".",
+            "referencia": "**\nSección: 3 PERT Subsección: 3.8 Camino crítico"
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Señale la respuesta más correcta sobre el diagrama de Gantt",
+            "opciones": [
+                "A. Los hitos son un tipo de actividad cuya duración depende de la cantidad de recursos asignados.",
+                "B. Por lo general, en el patrón de límites e histograma de recursos se observa cómo la mayor asignación de recursos ocurre en la situación de arranque y finalización del proyecto.",
+                "C. Las actividades no pueden ser agrupadas en distintos niveles de agregación.",
+                "D. El diagrama de Gantt permite realizar seguimiento del proyecto representando el porcentaje de ejecución de las actividades en una fecha determinada."
+            ],
+            "opcion_correcta": "D. El diagrama de Gantt permite realizar seguimiento del proyecto representando el porcentaje de ejecución de las actividades en una fecha determinada.",
+            "justificacion": "**\nLa opción D es correcta según la Sección 2.3, que describe el seguimiento mediante la comparación de barras (línea base vs real) y el porcentaje de finalización. Las otras opciones contradicen la Sección 2.1 (hitos tienen duración nula, actividades sí se agrupan) y 2.4.1 (mayor asignación es en pleno rendimiento).",
+            "referencia": "**\nSección: 2 GANTT Subsección: 2.3 Seguimiento del cronograma"
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Señale la respuesta más correcta y completa sobre el camino crítico:",
+            "opciones": [
+                "A. La holgura total de las actividades del camino crítico es 0.",
+                "B. La holgura independiente de las actividades del camino crítico es 0.",
+                "C. La holgura libre de las actividades del camino crítico es 0.",
+                "D. Todas las anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son correctas.",
+            "justificacion": "**\nLa opción D es correcta porque la Sección 3.8 indica que la holgura total de una actividad crítica es 0. La Sección 3.7 establece la relación \"Holgura total > = Holgura libre > = Holgura independiente\", por lo que si la total es 0, las demás también deben serlo.",
+            "referencia": "**\nSección: 3 PERT Subsección: 3.7 Holguras de las actividades y 3.8 Camino crítico"
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "Respecto a la holgura independiente:",
+            "opciones": [
+                "A. Se define como el margen de tiempo suplementario para la ejecución de una actividad si las precedentes terminaran lo más tarde posible y las posteriores, lo antes posible.",
+                "B. Se calcula como el tiempo Last del nodo de destino de la actividad, menos el tiempo Early del nodo donde se inicia la actividad, y menos la duración de la propia actividad.",
+                "C. Siempre es mayor o igual que 0.",
+                "D. Es mayor o igual que la holgura libre."
+            ],
+            "opcion_correcta": "A. Se define como el margen de tiempo suplementario para la ejecución de una actividad si las precedentes terminaran lo más tarde posible y las posteriores, lo antes posible.",
+            "justificacion": "**\nLa opción A es correcta según la definición literal en la Sección 3.7. La opción B describe la fórmula de Holgura Total. La C es falsa (puede ser negativa). La D es falsa (la independiente es menor o igual que la libre).",
+            "referencia": "**\nSección: 3 PERT Subsección: 3.7 Holguras de las actividades"
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Señale la respuesta FALSA sobre el camino crítico",
+            "opciones": [
+                "A. Cuando una actividad no crítica se retrasa, cabe la posibilidad de que llegue a formar parte de un nuevo camino crítico.",
+                "B. Cuando una de las actividades del camino crítico se retrasa, se retrasa todo el proyecto.",
+                "C. La duración total del proyecto se puede calcular como la suma de duraciones de todos los caminos críticos que existan en el proyecto. (CORRECTA - FALSA SEGÚN ENUNCIADO)",
+                "D. En el diagrama PERT, la diferencia entre los tiempos Last y Early de un nodo que forma parte del camino crítico es 0."
+            ],
+            "opcion_correcta": "C. La duración total del proyecto se puede calcular como la suma de duraciones de todos los caminos críticos que existan en el proyecto. (CORRECTA - FALSA SEGÚN ENUNCIADO)",
+            "justificacion": "**\nLa opción C es la respuesta correcta (porque es la afirmación FALSA). Según la Sección 3.8 y los comentarios de solución en la Sección 9, la duración total es la suma de las actividades críticas de *un* camino crítico (el más largo), no la suma de todos los caminos críticos si existen varios.",
+            "referencia": "**\nSección: 3 PERT Subsección: 3.8 Camino crítico y Sección 9 SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "Señale la respuesta correcta relacionada con el método PERT.",
+            "opciones": [
+                "A. El tiempo Early del suceso inicial del proyecto es siempre 0.",
+                "B. El tiempo Last del suceso final del proyecto es siempre 0.",
+                "C. El tiempo Early y Last del suceso inicial del proyecto siempre coinciden.",
+                "D. El tiempo Early de un suceso se puede calcular conociendo la duración de la actividad precedente y el tiempo Last de ese suceso."
+            ],
+            "opcion_correcta": "A. El tiempo Early del suceso inicial del proyecto es siempre 0.",
+            "justificacion": "**\nLa opción A es correcta según la Sección 3.6: \"El tiempo Early del suceso inicial del proyecto es 0\". La B es falsa (coincide con su Early, que suele ser >0). La C no siempre se cumple en el inicio si hay holgura. La D es falsa (se calcula con Early de precedentes).",
+            "referencia": "**\nSección: 3 PERT Subsección: 3.6 Tiempos Early y Last de los sucesos"
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "Señale la respuesta más correcta sobre el método PERT.",
+            "opciones": [
+                "A. La diferencia fundamental entre el método CPM y PERT consiste en que la asignación de tiempos de actividades en el método CPM se lleva a cabo de forma probabilística, mientras que en el PERT es determinista.",
+                "B. Para calcular la duración esperada de cada actividad es preciso conocer tres valores: la duración más optimista, la más probable, y la más pesimista.",
+                "C. La desviación típica de la duración del proyecto se calcula como la suma de la desviación típica de cada una de las actividades que forman parte del camino crítico.",
+                "D. La forma más correcta de calcular la duración total del proyecto es como la suma de la duración más probable de cada actividad que forma el camino crítico."
+            ],
+            "opcion_correcta": "B. Para calcular la duración esperada de cada actividad es preciso conocer tres valores: la duración más optimista, la más probable, y la más pesimista.",
+            "justificacion": "**\nLa opción B es correcta según la Sección 3.5.1, que detalla los valores a (optimista), b (probable) y c (pesimista). La A invierte los conceptos (CPM determinista, PERT probabilístico). La C es falsa (se suma varianza y se saca raíz). La D es falsa (se suman duraciones esperadas).",
+            "referencia": "**\nSección: 3 PERT Subsección: 3.5.1 Cálculo de la duración de las actividades"
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "En el método PERT, asumiendo una distribución de tipo Beta, si una actividad tiene un tiempo optimista de 4 unidades de tiempo; tiempo más probable, 7; tiempo pesimista, 16; entonces, su tiempo esperado es:",
+            "opciones": [
+                "A. 8",
+                "B. 4",
+                "C. 9",
+                "D. 7"
+            ],
+            "opcion_correcta": "A. 8",
+            "justificacion": "**\nLa opción A es correcta aplicando la fórmula de la Sección 3.5.1: $t_e = (a + c + 4b) / 6$. Cálculo: $(4 + 16 + 4*7) / 6 = 48 / 6 = 8$.",
+            "referencia": "**\nSección: 3 PERT Subsección: 3.5.1 Cálculo de la duración de las actividades"
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "En el método PERT, asumiendo una distribución de tipo Beta, si una actividad tiene un tiempo optimista de 4 unidades de tiempo; tiempo más probable, 7; tiempo pesimista, 16; entonces, su varianza es:",
+            "opciones": [
+                "A. 2",
+                "B. 4",
+                "C. 8",
+                "D. 1"
+            ],
+            "opcion_correcta": "B. 4",
+            "justificacion": "**\nLa opción B es correcta aplicando la fórmula de varianza de la Sección 3.5.1: $\\sigma^2 = ((c - a) / 6)^2$. Cálculo: $((16 - 4) / 6)^2 = (12/6)^2 = 2^2 = 4$.",
+            "referencia": "**\nSección: 3 PERT Subsección: 3.5.1 Cálculo de la duración de las actividades"
+        }
+    ]
+}

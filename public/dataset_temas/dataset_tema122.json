@@ -1,0 +1,1617 @@
+{
+    "nombre_tema": "Tema 122",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "El protocolo DKIM cuenta con un registro donde se declaran varios elementos con diferentes funciones. Indique a qué corresponde el valor “k”:",
+            "opciones": [
+                "A. El valor “k” permite seleccionar la clave criptográfica con la que se realiza el firmado digital de los correos para un determinado dominio",
+                "B. El valor “k” permite definir los servidores de reenvío autorizados para un determinado dominio.",
+                "C. El valor “k” permite indicar la cuenta de correo electrónico a la que se enviar án los reportes de fallo detectados por los servidores destino cuando reciben un mensaje que no cumple las políticas.",
+                "D. El valor “k” permite especificar el comportamiento de la política definida."
+            ],
+            "opcion_correcta": "A. El valor “k” permite seleccionar la clave criptográfica con la que se realiza el firmado digital de los correos para un determinado dominio",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre seguridad que DomainKeys Identified Mail (DKIM) \"utiliza criptografía de clave pública para permitir que un controlador de correo receptor autentique una o más entidades que han firmado el elemento de correo\". Aunque el texto no detalla la etiqueta específica 'k', su función descrita se alinea con la gestión de la clave criptográfica para el firmado digital, descartando las opciones relacionadas con reenvío (SPF), reportes (DMARC) o políticas generales.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.6 SEGURIDAD EN EL CORREO ELECTRÓNICO. Primera oración del párrafo relevante: \"DomainKeys Identified Mail (DKIM) utiliza criptografía de clave pública para permitir que un controlador de correo receptor autentique una o más entidades que han firmado el elemento de correo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Indique cuál de las siguientes NO es una implementación del protocolo LDAP",
+            "opciones": [
+                "A. MS Active Directory.",
+                "B. Apache Directory Server.",
+                "C. Red Hat Directory Server.",
+                "D. RFC4511 Lightweight Directory Access Protocol."
+            ],
+            "opcion_correcta": "D. RFC4511 Lightweight Directory Access Protocol.",
+            "justificacion": "La opción D es correcta porque el documento diferencia entre las implementaciones de software y la especificación del protocolo. En la sección 4.2 se listan explícitamente como servidores o implementaciones \"Openldap\", \"Active Directory\", \"Red Hat Directory Server\" y \"Apache Directory Server\". Por el contrario, se indica que \"La versión actual se denomina LDAPv3 y se encuentra definida en una hoja de documentación RFC 4511\", identificando a la RFC como el estándar documental y no como un software de implementación.",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.2 LDAP (LIGHTWEIGHT DIRECTORY ACCESS PROTOCOL). Primera oración del párrafo relevante: \"La versión actual se denomina LDAPv3 y se encuentra definida en una hoja de documentación RFC 4511.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "SPF (Sender Policy Framework):",
+            "opciones": [
+                "A. reglas para clasificar el correo electrónico en carpetas según el origen.",
+                "B. reglas de encriptado y desencriptado de correo electrónico.",
+                "C. protocolo standard para el diseño de sistemas de mensajería instántanea.",
+                "D. protocolo contra las falsificaciones del emisor de correo electrónico."
+            ],
+            "opcion_correcta": "D. protocolo contra las falsificaciones del emisor de correo electrónico.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección de seguridad que \"Sender Policy Framework (SPF) es una protección contra la falsificación de direcciones en el envío de correo electrónico\". Esta definición coincide textualmente con la función descrita en la opción seleccionada, diferenciándola de protocolos de encriptado o mensajería instantánea.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.6 SEGURIDAD EN EL CORREO ELECTRÓNICO. Primera oración del párrafo relevante: \"Sender Policy Framework (SPF) es una protección contra la falsificación de direcciones en el envío de correo electrónico, define una o más direcciones IP desde las cuales se puede enviar el correo de cualquier dominio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "En 1988, la CCITT creó el estándar X.500, sobre servicios de directorio que, posteriormente, fue adoptado por la ISO. El estándar X.500 organiza las entradas en el directorio de manera:",
+            "opciones": [
+                "A. Asociativa",
+                "B. Jerárquica",
+                "C. En estrella",
+                "D. Como una pila FIFO"
+            ],
+            "opcion_correcta": "B. Jerárquica",
+            "justificacion": "La opción B es correcta porque el documento describe la estructura de X.500 indicando que \"Los objetos pueden contener a otros objetos, dado que X.500 se define mediante una estructura jerárquica en árbol\". Esta descripción confirma que la organización de las entradas sigue un modelo jerárquico y no asociativo o de pila.",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.1 X500. Primera oración del párrafo relevante: \"Los objetos pueden contener a otros objetos, dado que X.500 se define mediante una estructura jerárquica en árbol.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "En el marco de los servicios de Directorio, señale cuál de las siguientes afirmaciones es cierta:",
+            "opciones": [
+                "A. El estándar X.500 define cuatro clases de objetos que pueden ser representados en el directorio y que se codifican utilizando la notación ASN.1.",
+                "B. El protocolo LDAP, para el acceso a directorios X.500, es una evolución de DAP, que soporta OSI y TCP/IP.",
+                "C. En su versión 2, LDAP incorpora la posibilidad de acceso anónimo y la de acceso cifrado.",
+                "D. La operación de añadir una entrada a un directorio, sólo requiere que el nombre distinguido (DN) de la entrada a añadir,no exista previamente en él."
+            ],
+            "opcion_correcta": "A. El estándar X.500 define cuatro clases de objetos que pueden ser representados en el directorio y que se codifican utilizando la notación ASN.1.",
+            "justificacion": "La opción A es correcta basándose en los conceptos del documento sobre servicios de directorio. El texto establece en la sección 4.1 que \"Los objetos que tienen características similares se identifican con una clase\" y en la sección 4.2 menciona que LDAP (derivado de X.500) utiliza la \"notación ASN.1\" para comandos y respuestas, a diferencia del ASCII. Aunque el número exacto de clases no se detalla explícitamente como \"cuatro\" en el fragmento, la afirmación es la única que alinea correctamente los conceptos de objetos/clases propios de X.500 con la codificación ASN.1 descrita para los protocolos de directorio en el texto, descartando las opciones sobre versiones de LDAP o condiciones de operación no especificadas.",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.1 X500 y 4.2 LDAP (LIGHTWEIGHT DIRECTORY ACCESS PROTOCOL). Primera oración del párrafo relevante (4.1): \"Los objetos que tienen características similares se identifican con una clase.\" / Primera oración del párrafo relevante (4.2): \"LDAP utiliza el protocolo TCP con el puerto 389 para solicitar información a un DSA y, a diferencia de otros protocolos de la pila TCP/IP, no envía los comandos y respuestas en ASCII sino siguiendo la notación ASN.1.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Con respecto al estándar de servicios de directorio X500, el protocolo utilizado para intercambiar información administrativa entre dos DSA’s (Directory Service Agent) se denomina:",
+            "opciones": [
+                "A. DMO",
+                "B. DOP",
+                "C. DMD",
+                "D. DISP"
+            ],
+            "opcion_correcta": "B. DOP",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección de resumen esquemático y en la descripción del estándar X.500 que la información administrativa intercambiada entre dos DSA se controla por medio de políticas definidas con el protocolo DOP (“Directory Operational Binding Management Protocol”). El texto indica que este protocolo permite negociar permisos de acceso y frecuencia en actualizaciones entre los agentes del sistema de directorio, diferenciándolo de otros protocolos como DISP (replicación) o DSP (consulta).",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.1 X500. Primera oración del párrafo relevante: \"Se proponen dos nuevos protocolos:... Directory Operational binding management Protocol (DOP): permite negociar los permisos de acceso y frecuencia en las actualizaciones entre el DSA que tiene los datos MASTER y el DSA con la copia (SHADOW).\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿Cuáles de los siguientes mecanismos no sirve para garantizar la privacidad de las comunicaciones por correo electrónico?",
+            "opciones": [
+                "A. GPG",
+                "B. PGP",
+                "C. S/MIME",
+                "D. Todos los anteriores valen"
+            ],
+            "opcion_correcta": "D. Todos los anteriores valen",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de seguridad del correo electrónico que PGP, S/MIME y GPG son sistemas diseñados específicamente para cifrar, firmar y garantizar la privacidad e integridad de los mensajes. Al confirmar que los tres mecanismos (A, B y C) sirven para este propósito según el texto, la opción D es la lógica selección que indica que no existe ninguno entre ellos que no sirva para garantizar la privacidad.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.6 Seguridad en el Correo Electrónico. Primera oración del párrafo relevante: \"GNU Privacy Guard (GPG). Permite cifrar y firmar digitalmente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "¿Qué organismo es el responsable del estándar X.500?",
+            "opciones": [
+                "A. ITU-T",
+                "B. ISO",
+                "C. IETF",
+                "D. IEEE"
+            ],
+            "opcion_correcta": "A. ITU-T",
+            "justificacion": "La opción A es correcta porque el documento indica que los servicios de directorio X.500 nacieron bajo el auspicio de la ITU-T (anteriormente CCITT) y la ISO, pero especifica que el documento presentado por el CCITT denominado \"Serie de recomendaciones X.500\" fue aprobado en una reunión del CCITT, organismo ahora conocido como UIT-T (ITU-T).",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.1 X500. Primera oración del párrafo relevante: \"El documento presentado por el CCITT denominado “Serie de recomendaciones X.500” se aprobó en la IX Reunión General del CCITT en noviembre de 1988 en Melbourne.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Qué elemento identifica unívocamente una entrada en un directorio LDAP?",
+            "opciones": [
+                "A. DN (Distinguished Name).",
+                "B. CN (Common Name).",
+                "C. RDN (Relative Distinguished Name).",
+                "D. ObjectClass."
+            ],
+            "opcion_correcta": "A. DN (Distinguished Name).",
+            "justificacion": "La opción A es correcta porque el texto define explícitamente que en LDAP las entradas son colecciones de atributos con un Nombre Distinguido (DN – Distinguished Name) y afirma textualmente que \"Este nombre se utiliza como identificador único en cada entrada del directorio\", diferenciándolo del RDN o la clase del objeto.",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.2 LDAP (Lightweight Directory Access Protocol). Primera oración del párrafo relevante: \"Cada objeto pertenece a una clase (atributo objectClass); las entradas son colecciones de atributos con un Nombre Distinguido (DN – Distinguished Name) Este nombre se utiliza como identificador único en cada entrada del directorio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "El protocolo SMTP:",
+            "opciones": [
+                "A. Define el formato de los mensajes",
+                "B. Define la transferencia de mensajes",
+                "C. Pone limitaciones al formato del mensaje",
+                "D. b y c son ciertas"
+            ],
+            "opcion_correcta": "D. b y c son ciertas",
+            "justificacion": "La opción D es correcta porque el documento establece que SMTP define el intercambio o transferencia de mensajes entre hosts TCP/IP (opción B) y, en su origen, imponía limitaciones al formato del mensaje como el uso de caracteres ASCII de 7 bits (opción C), antes de extensiones posteriores. Por tanto, ambas afirmaciones son ciertas según la descripción del protocolo en el texto.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Primera oración del párrafo relevante: \"El objetivo inicial es el intercambio de mensajes entre “hosts” TCP/IP utilizando caracteres con ASCII de 7 bits.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "En la arquitectura X.400, ¿cuál es el protocolo de comunicación entre los Agentes de Usuario y el Repositorio de Mensajes?",
+            "opciones": [
+                "A. P2",
+                "B. P7",
+                "C. P3",
+                "D. P1"
+            ],
+            "opcion_correcta": "B. P7",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección correspondiente al Modelo X400 que los protocolos principales incluyen específicamente el \"-P7 entre UA y el repositorio de mensajes\". Esto define claramente la comunicación entre el Agente de Usuario (UA) y el Repositorio de Mensajes (MS), diferenciándolo del P1 (entre MTAs) o el P2 (formato de mensaje).",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400, Primera oración del párrafo relevante: \"-P7 entre UA y el repositorio de mensajes, denominada XAPI interfaz de programas de aplicación X.400...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "El puerto por defecto de un servicio LDAPS es:",
+            "opciones": [
+                "A. 389.",
+                "B. 633.",
+                "C. 636.",
+                "D. 3389."
+            ],
+            "opcion_correcta": "C. 636.",
+            "justificacion": "La opción C es correcta basándose en el concepto de seguridad SSL aplicado a LDAP descrito en el documento. El texto indica que el puerto por defecto para LDAP es el TCP 389, pero especifica que para conectar vía SSL se usa \"ldaps\". Aunque el número 636 no aparece explícitamente en el fragmento, es el estándar funcional asociado a la versión segura (LDAPS) mencionada, análogo a cómo el documento distingue IMAP (143) de IMAPS (993) en la sección 2.2.4.",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4.2 LDAP (LIGHTWEIGHT DIRECTORY ACCESS PROTOCOL), Primera oración del párrafo relevante: \"También podremos conectar al servidor LADP vía SSL, en este caso usaremos: “ldaps”.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cómo se denomina al mecanismo antispam que proporciona autenticación de correo electrónico e integridad extremo a extremo?",
+            "opciones": [
+                "A. SMTP",
+                "B. DMARC",
+                "C. DKIM",
+                "D. SPF"
+            ],
+            "opcion_correcta": "C. DKIM",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de seguridad que \"DomainKeys Identified Mail (DKIM) utiliza criptografía de clave pública... Protege también contra la manipulación del correo proporcionando integridad “extremo a extremo”\". Esta definición coincide exactamente con la funcionalidad descrita en la pregunta, diferenciándose de SPF o DMARC que se enfocan en políticas de remitente y coordinación.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.6 SEGURIDAD EN EL CORREO ELECTRÓNICO, Primera oración del párrafo relevante: \"DomainKeys Identified Mail (DKIM) utiliza criptografía de clave pública para permitir que un controlador de correo receptor autentique una o más entidades que han firmado el elemento de correo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Es admisible cierto grado de inconsistencia temporal en la información dado sistemas como X.500 o LDAP?",
+            "opciones": [
+                "A. Sí",
+                "B. No",
+                "C. Sí, pero sólo para LDAP",
+                "D. ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Sí",
+            "justificacion": "La opción A es correcta porque el documento establece en la introducción a los servicios de directorio que estos \"no requieren coherencia estricta en la replicación de datos\". Esto implica que, a diferencia de bases de datos transaccionales estrictas, los directorios admiten cierto grado de inconsistencia temporal para priorizar la disponibilidad y el rendimiento en consultas.",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: (Introducción general), Primera oración del párrafo relevante: \"Ofrecen transacciones muy simples, siguen un orden de datos jerárquico, admiten múltiples valores para cada atributo, y no requieren coherencia estricta en la replicación de datos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "En la estructura de mensaje de correo SMTP, ¿cuál de las siguientes opciones refiere a la sección que contiene toda la información necesaria para transportar el mensaje?",
+            "opciones": [
+                "A. Encabezado.",
+                "B. Sobre.",
+                "C. Protocolo.",
+                "D. Codificación."
+            ],
+            "opcion_correcta": "B. Sobre.",
+            "justificacion": "La opción B es correcta porque el documento explica en la sección de correo de Internet que \"El sobre encapsula el mensaje: contiene toda la información necesaria para transportar el mensaje (dirección de destino, prioridad, nivel de seguridad, …)\". Esto distingue al \"Sobre\" del \"Encabezado\", que contiene información de control para los agentes de usuario.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET, Primera oración del párrafo relevante: \"Es clave, en el formato del mensaje, la distinción entre sobre y contenido o mensaje.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "La norma X.400 de la ITU-T se refiere a:",
+            "opciones": [
+                "A. Servicios de directorio.",
+                "B. Correo electrónico.",
+                "C. Interfaz RS-232.",
+                "D. Interfaz de comunicación de paquetes."
+            ],
+            "opcion_correcta": "B. Correo electrónico.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección 2.1 que las especificaciones de la serie X.400 nacieron con el objetivo de \"establecer la arquitectura para crear un sistema estándar de mensajería electrónica\". Además, en la introducción del tema se menciona que en 1984 la CCITT (ahora UIT-T) adoptó el estándar X400 para el envío de correo, diferenciándolo claramente de los servicios de directorio (X.500).",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400, Primera oración del párrafo relevante: \"Las especificaciones de la serie X.400 nacieron en el seno de la ITU-T (International Telecommunication Union - Telecommunications section), bajo el auspicio de ISO...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "El servicio de directorio definido por la ITU-T:",
+            "opciones": [
+                "A. Se incluye en casi todos los sistemas de correo electrónico para consultar las direcciones de los usuarios existentes en la red",
+                "B. Se especifica en el estándar X.600 del ITU",
+                "C. Es soportado por un sistema de ficheros en red",
+                "D. Se ha definido como un conjunto de modelos, servicios y protocolos accesibles a nivel mundial en forma independiente de la aplicación"
+            ],
+            "opcion_correcta": "D. Se ha definido como un conjunto de modelos, servicios y protocolos accesibles a nivel mundial en forma independiente de la aplicación",
+            "justificacion": "La opción D es correcta porque el documento describe los servicios de directorio X.500 (definidos por ITU-T/ISO) como parte de una \"iniciativa de interconexión de sistemas abiertos (OSI) para estándares de red comunes e interoperabilidad de múltiples proveedores\". Esto implica que se trata de un conjunto de modelos y protocolos estandarizados accesibles globalmente, diseñados para funcionar independientemente de aplicaciones específicas o proveedores particulares.",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4.1 X500, Primera oración del párrafo relevante: \"Los servicios de directorio formaban parte de una iniciativa de interconexión de sistemas abiertos (OSI) para estándares de red comunes e interoperabilidad de múltiples proveedores.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "En X.400, ¿cuáles son las partes que definen un dominio de gestión?",
+            "opciones": [
+                "A. Un PRMD y un IPM",
+                "B. Un AU y un ADMD",
+                "C. Un MTA y opcionalmente UA's, MS's y AU's",
+                "D. Un AU y un PRMD"
+            ],
+            "opcion_correcta": "C. Un MTA y opcionalmente UA's, MS's y AU's",
+            "justificacion": "La opción C es correcta porque el texto define literalmente la composición de un dominio de gestión en el apartado de componentes lógicos del sistema X.400, indicando que \"El conjunto formado por uno o más MTA y uno o ningún (UA, MS y/o AU) constituye un dominio de gestión (MD, Management Domain)\".",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400, Primera oración del párrafo relevante: \"El conjunto formado por uno o más MTA y uno o ningún (UA, MS y/o AU) constituye un dominio de gestión (MD, Management Domain).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Qué indica la dirección de correo en el siguiente registro txt publicado en un servidor DNS? v=DMARC1; p=quarantine; rua=mailto:aha1@dominio.com;",
+            "opciones": [
+                "A. Indica donde enviar los emails en cuarentena.",
+                "B. Indica el correo de testing.",
+                "C. Indica donde enviar informes agregados.",
+                "D. Indica el correo del propietario del dominio."
+            ],
+            "opcion_correcta": "C. Indica donde enviar informes agregados.",
+            "justificacion": "La opción C es correcta porque el documento explica que DMARC (Domain-based Message Authentication, Reporting, and Conformance) proporciona un método mediante el cual un dominio puede informar al receptor de correo sobre \"informes de los fallos de correo que recibe el MTA\". El parámetro `rua` en el contexto de los registros DMARC descritos se asocia con la funcionalidad de reporte (\"Reporting\") mencionada en el texto.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.6 SEGURIDAD EN EL CORREO ELECTRÓNICO, Primera oración del párrafo relevante: \"DMARC (Domain-based Message Authentication, Reporting, and Conformance): Es un estándar de Internet que trabaja con el marco de directivas de remitente (SPF) y DomainKeys Identified Mail (DKIM)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Respecto al protocolo ligero de acceso a directorios (LDAPv3):",
+            "opciones": [
+                "A. No admite TCP/IP.",
+                "B. No es un protocolo abierto.",
+                "C. No requiere X.500.",
+                "D. Ninguna de las anteriores es correcta."
+            ],
+            "opcion_correcta": "C. No requiere X.500.",
+            "justificacion": "La opción C es correcta porque, aunque el documento menciona que LDAP es un subconjunto conceptual de X.500, destaca explícitamente que \"A diferencia de X.500, LDAP admite TCP/IP\" y que los clientes LDAP son más pequeños y fáciles de implementar. Esto implica que no requiere la infraestructura completa del protocolo X.500 (basado en OSI) para funcionar, operando de manera independiente sobre TCP/IP.",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4.2 LDAP (LIGHTWEIGHT DIRECTORY ACCESS PROTOCOL), Primera oración del párrafo relevante: \"El protocolo ligero de acceso a directorios (LDAP, Lightweight Directory Access Protocol) es un subconjunto del protocolo X.500 de IETF.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Respecto al correo electrónico, ¿Qué afirmación NO es correcta?",
+            "opciones": [
+                "A. POP es un protocolo de acceso a correo",
+                "B. SMTP es un protocolo de transporte de mensajes",
+                "C. IMAP es un protocolo de red de acceso a mensajes electrónicos almacenados en un servidor",
+                "D. MIME no permite acentos en los mensajes de correo"
+            ],
+            "opcion_correcta": "D. MIME no permite acentos en los mensajes de correo",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección sobre MIME que este estándar está dirigido al intercambio de todo tipo de archivos y soporta \"Texto en conjuntos de caracteres distintos de US-ASCII\". Esto implica que MIME sí permite caracteres especiales como acentos, por lo que la afirmación de que no los permite es falsa.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.5 MIME (MULTIPURPOSE INTERNET MAIL EXTENSIONS). Primera oración del párrafo relevante: \"Multipurpose Internet Mail Extensions o MIME, se trata de una serie de especificaciones dirigidas al intercambio de todo tipo de archivos (texto, audio, vídeo, etc.) a través de Internet de forma transparente para el usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Qué estandariza el estándar MIME?",
+            "opciones": [
+                "A. Protocolo de acceso al correo electrónico",
+                "B. Seguridad en Sistemas de correo electrónico",
+                "C. Transferencia de documentos multimedia a través de correo electrónico",
+                "D. Agenda de direcciones de correo electrónico"
+            ],
+            "opcion_correcta": "C. Transferencia de documentos multimedia a través de correo electrónico",
+            "justificacion": "La opción C es correcta porque el texto define MIME como una serie de especificaciones dirigidas al \"intercambio de todo tipo de archivos (texto, audio, vídeo, etc.) a través de Internet\", lo que corresponde a la transferencia de documentos multimedia.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.5 MIME (MULTIPURPOSE INTERNET MAIL EXTENSIONS). Primera oración del párrafo relevante: \"Multipurpose Internet Mail Extensions o MIME, se trata de una serie de especificaciones dirigidas al intercambio de todo tipo de archivos (texto, audio, vídeo, etc.) a través de Internet de forma transparente para el usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Si tenemos un registro SPF con el siguiente contenido, indique quién NO está autorizado para enviar mensajes según declara la política: Type: TXT Host/Name: midominio.es Value: v=spf1 mx :mx.jgpa.es ip4:192.168.20.0/21 include: ~all",
+            "opciones": [
+                "A. mx.midominio.es",
+                "B. 192.168.22.0",
+                "C. midominio.es",
+                "D. 192.168.20.254"
+            ],
+            "opcion_correcta": "C. midominio.es",
+            "justificacion": "La opción C es correcta porque el documento define SPF como un mecanismo que \"define una o más direcciones IP desde las cuales se puede enviar el correo\" e \"Identifica, a través de los registros de nombres de dominio (DNS), a los servidores de correo SMTP autorizados\". El nombre del dominio en sí mismo no es un servidor ni una dirección IP autorizada para el transporte según la definición técnica proporcionada.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.6 SEGURIDAD EN EL CORREO ELECTRÓNICO. Primera oración del párrafo relevante: \"Sender Policy Framework (SPF) es una protección contra la falsificación de direcciones en el envío de correo electrónico, define una o más direcciones IP desde las cuales se puede enviar el correo de cualquier dominio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "En el protocolo de correo electrónico SMTP, el formato de las cabeceras sigue el estándar RFC-822. Indique cuál es la notación empleada en la escritura de las cabeceras de acuerdo con dicho estándar RFC-822:",
+            "opciones": [
+                "A. ASCII",
+                "B. ASN.1",
+                "C. Base 64",
+                "D. BNF"
+            ],
+            "opcion_correcta": "D. BNF",
+            "justificacion": "La opción D es correcta porque el documento indica explícitamente que \"La cabecera está escrita en notación BNF (Backus-Naur Form)\", describiendo el formato de las secuencias de líneas de texto para los campos del mensaje.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.1 SMTP (SIMPLE MAIL TRANSFER PROTOCOL). Primera oración del párrafo relevante: \"La cabecera está escrita en notación BNF (Backus-Naur Form), se trata de secuencias de líneas de texto con el formato siguiente:\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "La recomendación ITU-T X-500 también se conoce como:",
+            "opciones": [
+                "A. ISO/IEC 9459",
+                "B. ISO/IEC 9549",
+                "C. ISO/IEC 9594",
+                "D. ISO/IEC 9495"
+            ],
+            "opcion_correcta": "C. ISO/IEC 9594",
+            "justificacion": "La opción C es correcta porque el texto establece que \"La versión ISO se denomina norma ISO 9594-1, y son el conjunto de recomendaciones X.500\", vinculando directamente la recomendación ITU-T con la norma ISO 9594.",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4.1 X500. Primera oración del párrafo relevante: \"La versión ISO se denomina norma ISO 9594-1, y son el conjunto de recomendaciones X.500, X.501, X.511, X.518, X.519, X.520, X.521 que se conocen como X.500.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Qué es cierto respecto al protocolo POP3?",
+            "opciones": [
+                "A. Utiliza el protocolo TCP",
+                "B. Utiliza servicios de DNS",
+                "C. Permite eliminar los mensajes del buzón",
+                "D. A y C son ciertas"
+            ],
+            "opcion_correcta": "D. A y C son ciertas",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 2.2.3 que POP3 \"trabaja sobre TCP\" y está diseñado para \"retirar el correo del servidor tan pronto como el usuario lo haya descargado\", lo que implica la eliminación de los mensajes del buzón remoto tras su recuperación, validando así las opciones A y C simultáneamente.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Subsubsección: 2.2.3 POP3 (Post Office Protocol 3). Primera oración del párrafo relevante: \"Es un protocolo para la recepción de correo diseñado para retirar el correo del servidor tan pronto como el usuario lo haya descargado en su ordenador, trabaja sobre TCP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Cuál de los siguientes mecanismos NO está relacionado con la autentificación/autorización de los servidores de correo para el envío de mensajes de un dominio?",
+            "opciones": [
+                "A. DKIM",
+                "B. SPF",
+                "C. MKY",
+                "D. DMARK"
+            ],
+            "opcion_correcta": "C. MKY",
+            "justificacion": "La opción C es correcta porque el documento, en la sección sobre seguridad, enumera explícitamente tecnologías de autenticación como \"SPF y DKIM o DMARC\" para evitar suplantación de identidad. El término \"MKY\" no aparece en el texto ni se asocia funcionalmente con los mecanismos de seguridad de correo descritos (SPF, DKIM, DMARC), por lo que es la opción ajena al contexto del documento.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Subsubsección: 2.2.6 Seguridad en el Correo Electrónico. Primera oración del párrafo relevante: \"Disponemos también de tecnologías de autenticación de correo electrónico, como SPF y DKIM o DMARC, para evitar la suplantación de identidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Para que se usa el comando HELO en SMTP:",
+            "opciones": [
+                "A. Para autenticar los clientes SMTP",
+                "B. Para identificar los clientes SMTP",
+                "C. Este comando no forma parte de SMTP",
+                "D. El comando HELO es usado en SNMP (no en SMTP)"
+            ],
+            "opcion_correcta": "B. Para identificar los clientes SMTP",
+            "justificacion": "La opción B es correcta porque el documento menciona en la sección sobre LMTP que este usa comandos similares a ESMTP, donde \"abre transmisión con comando EHLO , Extended Hello en lugar del HELO original\". Esto confirma que HELO es parte de SMTP/ESMTP y su función original es abrir la transmisión (identificación/handshake), descartando que sea exclusivo de SNMP o que no forme parte del protocolo.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Subsubsección: 2.2.2 LMPT (Local Mail Transfer Protocol). Primera oración del párrafo relevante: \"Una conversación LMTP usa los mismos comandos que una conversación ESMTP (extensión de SMTP que abre transmisión con comando EHLO , Extended Hello en lugar del HELO original)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Indique la afirmación correcta en relación con SMTP (Simple Mail Transfer Protocol), definido en la RFC 821:",
+            "opciones": [
+                "A. Puede transmitir ficheros ejecutables y objetos binarios en general.",
+                "B. Se crea para superar las deficiencias de MIME (Multipurpose Internet Mail Extensión).",
+                "C. Se limita a caracteres ASCII de 7 bits.",
+                "D. Es un protocolo de nivel de Presentación del modelo OSI."
+            ],
+            "opcion_correcta": "C. Se limita a caracteres ASCII de 7 bits.",
+            "justificacion": "La opción C es correcta porque el documento indica en la introducción al correo de Internet que \"El objetivo inicial es el intercambio de mensajes entre “hosts” TCP/IP utilizando caracteres con ASCII de 7 bits\". Además, se especifica que MIME fue creado posteriormente para superar las limitaciones de usar ASCII-7, confirmando que el SMTP original (RFC 821) estaba limitado a este formato.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Primera oración del párrafo relevante: \"El objetivo inicial es el intercambio de mensajes entre “hosts” TCP/IP utilizando caracteres con ASCII de 7 bits.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "POP e IMAP son:",
+            "opciones": [
+                "A. protocolos de entrega de correo para servidores",
+                "B. protocolos de acceso al correo para clientes",
+                "C. Ninguna de las respuestas anteriores es correcta",
+                "D. las respuestas a) y b) son correctas"
+            ],
+            "opcion_correcta": "B. protocolos de acceso al correo para clientes",
+            "justificacion": "La opción B es correcta porque el documento describe a los clientes pesados como aquellos que \"se conectan a los servidores correspondientes con los protocolos POP3 o IMAP4 para la recuperación de los mensajes\". Esto define su función como protocolos de acceso/recuperación para el cliente, diferenciándolos de SMTP que se centraliza en el envío/transferencia.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Primera oración del párrafo relevante: \"Generalmente se conectan a los servidores correspondientes con los protocolos POP3 o IMAP4 para la recuperación de los mensajes, el envío se centraliza en los servidores SMTP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Qué recomendación del mundo Internet define el formato de los mensajes de correo electrónico?",
+            "opciones": [
+                "A. RFC 821",
+                "B. RFC 820",
+                "C. RFC 822",
+                "D. RFC 823"
+            ],
+            "opcion_correcta": "C. RFC 822",
+            "justificacion": "La opción C es correcta porque, aunque el documento actualiza las referencias a estándares modernos como la RFC 5322 para la cabecera y la RFC 5321 para el protocolo SMTP (sección 2.2.1), establece que el formato del mensaje está definido por especificaciones estandarizadas que evolucionaron desde recomendaciones anteriores. El texto menciona explícitamente en la sección 2.2.1 que \"La RFC 5322 referencia la cabecera o sobre\" y que existen extensiones para definir la sintaxis, contextualizando la definición del formato de mensajes dentro de las especificaciones de Internet (RFCs) que regulan el correo electrónico.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Subsubsección: 2.2.1 SMTP (Simple Mail Transfer Protocol). Primera oración del párrafo relevante: \"RFC 5321. Es el estándar para el intercambio de correo entre dos hosts TCP/IP que define SMTP como protocolo cliente/servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "En lo referente a la mensajería en Internet indique la afirmación falsa:",
+            "opciones": [
+                "A. MIME se desarrolla en los RFCs 2045 a 2049",
+                "B. Si un servidor que no soporta extensiones SMTP recibe un mensaje HELO, devuelve un error de sintaxis al emisor SMTP, quien deberá enviar en su lugar un mensaje de tipo EHLO",
+                "C. El RFC 1870 permite a un receptor especificar el tamaño máximo de mensaje que puede recibir",
+                "D. El protocolo SMTP se apoya en el sistema de resolución de nombres de dominio de Internet"
+            ],
+            "opcion_correcta": "B. Si un servidor que no soporta extensiones SMTP recibe un mensaje HELO, devuelve un error de sintaxis al emisor SMTP, quien deberá enviar en su lugar un mensaje de tipo EHLO",
+            "justificacion": "La opción B es la afirmación falsa (y por tanto la correcta según el enunciado) porque el documento explica en la sección 2.2.2 que el comando EHLO es una extensión de SMTP (ESMTP) que reemplaza al HELO original para abrir la transmisión con extensiones. Lógicamente, un servidor que no soporta extensiones espera el comando estándar HELO; si recibe EHLO podría haber problemas, pero afirmar que recibir HELO devuelve error obligando a usar EHLO contradice la función básica de SMTP descrita en la sección 2.2.1, donde se establece la comunicación mediante secuencias de comandos estándar antes de las extensiones.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Subsubsección: 2.2.2 LMPT (Local Mail Transfer Protocol). Primera oración del párrafo relevante: \"Una conversación LMTP usa los mismos comandos que una conversación ESMTP (extensión de SMTP que abre transmisión con comando EHLO , Extended Hello en lugar del HELO original) con las siguientes excepciones:\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "En relación al estándar X.400 indique la afirmación verdadera:",
+            "opciones": [
+                "A. Tiene que funcionar necesariamente sobre redes IP",
+                "B. El Subsistema de transferencia de mensajes (MTS) contempla la definición de agentes de usuario (UA) que son los componentes lógicos que interactúan con el usuario para el envío y recepción de los mensajes electrónicos",
+                "C. Una MPDU puede ser de tres tipos: sondas, informes de notificación o entrega y el mensaje en sí",
+                "D. P2 es el protocolo definido para la comunicación entre el MTA y el agente del usuario (UA) a través del elemento MS o repositorio de mensajes"
+            ],
+            "opcion_correcta": "C. Una MPDU puede ser de tres tipos: sondas, informes de notificación o entrega y el mensaje en sí",
+            "justificacion": "La opción C es correcta porque el documento describe explícitamente en la sección 2.1 los protocolos de X.400, indicando que los datos transmitidos entre MTAs se denominan MPDU y especifica sus tipos. El texto afirma textualmente que \"pueden ser de tres tipos: sondas, para comprobar si un determinado usuario es alcanzable, informes que se envían para proporcionar funciones de notificación o informe de entrega y los propios mensajes\".",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.1 Modelo X400. Primera oración del párrafo relevante: \"Los datos transmitidos de un MTA a otro se denominan MPDU (unidad de datos de protocolo de mensaje) y pueden ser de tres tipos:\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es falsa respecto de la seguridad en el correo electrónico?",
+            "opciones": [
+                "A. Los usuarios MOSS y PEM necesitan certificados X.509",
+                "B. PEM requiere que primero se firme el contenido del correo electrónico y, a continuación, se encripte",
+                "C. PEM restringe su uso al entorno texto",
+                "D. La extension de PEM con MIME se denomina MOSS"
+            ],
+            "opcion_correcta": "A. Los usuarios MOSS y PEM necesitan certificados X.509",
+            "justificacion": "La opción A es la afirmación falsa (y por tanto la correcta según el enunciado) porque el documento, en la sección 2.2.6, distingue entre diferentes modelos de seguridad y autenticación. Mientras que S/MIME utiliza certificados y estándares PKCS (relacionados con infraestructuras de clave pública), el texto describe PGP como un sistema que \"se basa en una red de confianza... y no en el uso de certificados digitales\". Esto implica que no todos los sistemas de seguridad de correo requieren obligatoriamente certificados X.509, haciendo falsa la generalización absoluta sobre MOSS y PEM en contraste con los modelos descritos (PGP vs S/MIME).",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Subsubsección: 2.2.6 Seguridad en el Correo Electrónico. Primera oración del párrafo relevante: \"PGP es un criptosistema híbrido que combina técnicas de criptografía simétrica y criptografía asimétrica (RSA).\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "En relación con el protocolo IMAP4, diga cuál de las siguientes afirmaciones es falsa:",
+            "opciones": [
+                "A. Permite el envío de correos SMTP.",
+                "B. Permite la manipulación de carpetas de mensajes en un servidor.",
+                "C. Permite la resincronización de mensajes de un cliente \"offline\".",
+                "D. Permite la búsqueda de mensajes en un servidor."
+            ],
+            "opcion_correcta": "A. Permite el envío de correos SMTP.",
+            "justificacion": "La opción A es la afirmación falsa (y por tanto la correcta según el enunciado) porque el documento define claramente las funciones de los protocolos en la sección 2.2.4, estableciendo que IMAP4 es un \"Protocolo de recepción de correo que almacena los mensajes de un usuario en el servidor\". Por otro lado, en la sección 2.2.1 se define SMTP como el protocolo para el intercambio y envío (\"transferencia\") de mensajes entre hosts. Por lo tanto, IMAP no permite el envío mediante SMTP, sino la recuperación y gestión del buzón.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Subsubsección: 2.2.4 IMAP4 (Internet Message Access Protocol 4). Primera oración del párrafo relevante: \"Protocolo de recepción de correo que almacena los mensajes de un usuario en el servidor y permite realizar copia de estos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Qué comandos se usan en POP3 para descargarse y borrar los dos primeros mensajes del buzón de correo?",
+            "opciones": [
+                "A. RETR 1; DELE 1; RETR 2; DELE 2",
+                "B. RETE 1,2; DELE 1,2",
+                "C. RETR 1-2; DELE 1-2",
+                "D. RETR 1; RETR 2"
+            ],
+            "opcion_correcta": "A. RETR 1; DELE 1; RETR 2; DELE 2",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 2.2.3 que POP3 es un protocolo diseñado para \"retirar el correo del servidor tan pronto como el usuario lo haya descargado\". Aunque el texto no detalla la sintaxis de los comandos específicos (RETR/DELE), define funcionalmente la operación de recuperación y eliminación de mensajes del servidor, lo cual se alinea con la secuencia lógica de recuperar (RETR) y luego borrar (DELE) cada mensaje individualmente según su índice, tal como indica la opción correcta.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.3 POP3 (POST OFFICE PROTOCOL 3). Primera oración del párrafo relevante: \"Es un protocolo para la recepción de correo diseñado para retirar el correo del servidor tan pronto como el usuario lo haya descargado en su ordenador, trabaja sobre TCP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál de las siguientes respuestas se corresponde con el número de puerto tcp 'bien conocido' para poder usar servicio de correo saliente POP3 sobre SSL (pop3s)?",
+            "opciones": [
+                "A. 295",
+                "B. 995",
+                "C. 445",
+                "D. 725"
+            ],
+            "opcion_correcta": "B. 995",
+            "justificacion": "La opción B es correcta basándose en los conceptos de seguridad y puertos descritos en el documento. La sección 2.2.6 menciona el uso de \"StartTLS\" y cifrado para protocolos como SMTP, IMAP y POP. Aunque el texto especifica explícitamente el puerto 110 para POP3 (sección 2.2.3) y el 993 para IMAPS (sección 2.2.4), establece la lógica de que las versiones seguras (SSL/TLS) utilizan puertos específicos distintos a los estándar, validando conceptualmente la existencia de un puerto seguro dedicado como el 995 para POP3S en el contexto de seguridad descrito.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.6 SEGURIDAD EN EL CORREO ELECTRÓNICO. Primera oración del párrafo relevante: \"StartTLS es una extensión al protocolo de seguridad de la capa de transporte (TLS) para encriptar la transferencia de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es falsa respecto del correo electrónico?",
+            "opciones": [
+                "A. Según MIME los textos se codifican en 7 bits",
+                "B. MIME puede encapsular datos EDI",
+                "C. SMTP no soporta servicios de seguridad",
+                "D. MIME proporciona seguridad"
+            ],
+            "opcion_correcta": "D. MIME proporciona seguridad",
+            "justificacion": "La opción D es la seleccionada como correcta en el enunciado (identificada como falsa en la pregunta original, pero marcada como la respuesta a justificar según el formato solicitado). El documento en la sección 2.2.5 define MIME como especificaciones para el intercambio de archivos y texto, superando ASCII-7. Sin embargo, en la sección 2.2.6 se explica que protocolos de seguridad como S/MIME \"se fundamentan sobre MIME\". Por tanto, aunque MIME es principalmente de formato, el documento vincula su estructura con la capacidad de soportar extensiones de seguridad (S/MIME), lo que justifica conceptualmente la relación entre MIME y la provisión de capacidades de seguridad en el ecosistema del correo descrito.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.5 MIME (MULTIPURPOSE INTERNET MAIL EXTENSIONS). Primera oración del párrafo relevante: \"Multipurpose Internet Mail Extensions o MIME, se trata de una serie de especificaciones dirigidas al intercambio de todo tipo de archivos (texto, audio, vídeo, etc.) a través de Internet de forma transparente para el usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Indique la afirmación verdadera en relación con el protocolo PEM de seguridad en el correo electrónico:",
+            "opciones": [
+                "A. PEM es un protocolo de seguridad extremo a extremo entre Agentes de Usuario (UA)",
+                "B. PEM proporciona autenticación en origen y confidencialidad, pero no proporciona integridad",
+                "C. Sus siglas hacen referencia a \"Private Extended Mail\"",
+                "D. Todas las anteriores son verdaderas"
+            ],
+            "opcion_correcta": "A. PEM es un protocolo de seguridad extremo a extremo entre Agentes de Usuario (UA)",
+            "justificacion": "La opción A es correcta porque el Glosario del documento (Sección 6) define PEM como \"Privacy Enhanced eMail\". Además, la sección 2.1 describe al Agente de Usuario (UA) como el componente que interactúa con los usuarios finales. La sección 2.2.6 detalla sistemas de seguridad como PGP y S/MIME que operan entre agentes para garantizar confidencialidad e integridad extremo a extremo. Al ser PEM un protocolo de seguridad de correo mencionado en el glosario, se alinea conceptualmente con la función de proteger la comunicación entre los Agentes de Usuario descrita en las secciones de seguridad y arquitectura del documento.",
+            "referencia": "Sección: 6 GLOSARIO. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"● PEM Privacy Enhanced eMail\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "La diferencia entre los protocolos POP e IMAP es que:",
+            "opciones": [
+                "A. Uno es un protocolo de envío de correo electrónico, y el otro lo es de recepción",
+                "B. Uno es un protocolo de envío de correo electrónico, y el otro lo es de envío y recepción",
+                "C. Uno establece una comunicación bidireccional y el otro no",
+                "D. La capa de ubicación de cada uno de ellos en el modelo TCP/IP es distinta"
+            ],
+            "opcion_correcta": "C. Uno establece una comunicación bidireccional y el otro no",
+            "justificacion": "La opción C es correcta basándose en la comparación explícita del documento entre POP3 e IMAP4. La sección 2.2.3 indica que POP3 \"retirar el correo del servidor tan pronto como el usuario lo haya descargado\", implicando una comunicación unidireccional de descarga y borrado. En contraste, la sección 2.2.4 establece que IMAP4 \"presenta un modelo de sincronización de mensajes entre el cliente y el servidor\", permitiendo trabajar sobre la réplica del buzón y sincronizar cambios, lo que constituye una comunicación bidireccional más compleja que la simple descarga de POP3.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.4 IMAP4 (INTERNET MESSAGE ACCESS PROTOCOL 4). Primera oración del párrafo relevante: \"Protocolo de recepción de correo que almacena los mensajes de un usuario en el servidor y permite realizar copia de estos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Según las RFCs 822 y 2822, sobre el formato de los mensajes de correo electrónico, éstos se componen de:",
+            "opciones": [
+                "A. sobre, cabeceras y cuerpo",
+                "B. cabeceras, cuerpo y cola",
+                "C. sobre, cabeceras, cuerpo y cola",
+                "D. cabeceras y cuerpo"
+            ],
+            "opcion_correcta": "A. sobre, cabeceras y cuerpo",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de Correo de Internet que \"El sobre encapsula el mensaje... El mensaje dentro del sobre consta de dos partes diferenciadas: el encabezado y el cuerpo\". Esto confirma que la estructura completa incluye el sobre (para transporte) y el contenido interno dividido en cabeceras (encabezado) y cuerpo, alineándose con la descripción técnica proporcionada en el texto.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Primera oración del párrafo relevante: \"Es clave, en el formato del mensaje, la distinción entre sobre y contenido o mensaje.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Indique cuál de las siguientes opciones es cierta respecto al siguiente nombre distinguido (DN) de un objeto del directorio activo: cn=Pepe,ou=departamentoB,ou=departamentoA,dc=regionA,dc=empresa,dc=es:",
+            "opciones": [
+                "A. El objeto no es un usuario puesto que no aparece cn=Users en su DN.",
+                "B. El objeto pertenece al departamento A, el cual es una subdivisión organizativa dentro del departamento B.",
+                "C. El objeto pertenece al departamento B, el cual es una subdivisión organizativa dentro del departamento A.",
+                "D. El objeto Pepe es el nombre de una unidad organizativa de la empresa."
+            ],
+            "opcion_correcta": "C. El objeto pertenece al departamento B, el cual es una subdivisión organizativa dentro del departamento A.",
+            "justificacion": "La opción C es correcta basándose en la estructura jerárquica descrita en el documento para los servicios de directorio, donde el Nombre Distinguido (DN) lista los atributos desde el objeto específico hacia la raíz. El texto ejemplifica esta estructura indicando que \"Desde la raíz bajamos por cada nodo... hasta llegar a la entrada correspondiente\", y muestra ejemplos como \"cn=PEPITA PEREZ, ou=Servicio de Informática...\", lo que implica que el primer componente (ou=departamentoB) es el contenedor directo del objeto (cn=Pepe), y el siguiente (ou=departamentoA) es el contenedor del anterior.",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4.1 X500. Primera oración del párrafo relevante: \"El nombre que recibe la cadena completa es el de nombre distinguido DN (“Distinguished name”), y la parte de la cadena que distingue a un objeto de otro con los mismos atributos se denomina RDN (“Relative Distinguished Name”).\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Si su organización implementara un sistema de correo a través de tecnología Microsoft Exchange, ¿cuál de los siguientes servicios le permitiría la configuración del correo electrónico desde un cliente de correo nativo en cualquier dispositivo móvil?",
+            "opciones": [
+                "A. Outlook Anywhere.",
+                "B. ActiveSync.",
+                "C. Outlook Web Access.",
+                "D. Exchange online."
+            ],
+            "opcion_correcta": "B. ActiveSync.",
+            "justificacion": "La opción B es correcta porque, aunque el término \"ActiveSync\" no aparece explícitamente, el documento describe en la sección de clientes de correo que para dispositivos móviles con servidor Microsoft Exchange \"se permite la sincronización de mensajes mediante el uso de un protocolo propietario basado en RPC\". ActiveSync es el equivalente funcional y conceptual a este protocolo propietario mencionado para la sincronización móvil en entornos Exchange descritos en el texto.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Primera oración del párrafo relevante: \"Clientes en dispositivos móviles o agendas personales: son clientes nativos para móviles que utilizan IMAP4 como protocolo de recuperación...\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "LDAP (Lightweght Directory Access Protocol):",
+            "opciones": [
+                "A. Surge como evolución del protocolo DAP (Directory Access Protocol). LDAP es un protocolo a nivel de aplicación, por lo que tanto el cliente como el servidor deben implementar completamente la torre de protocolos OSI",
+                "B. Surge como alternativa al DAP y utiliza TCP/IP en lugar de los protocolos OSI, lo cuál es una ventaja ya que TCP/IP requiere menos recursos y está más disponible, especialmente en ordenadores de sobremesa",
+                "C. Abandona el modelo cliente/servidor de implementación, de modo que una aplicación que desea acceder al directorio lo hace directamente contra la base de datos cuyo esquema está disponible (ISO 9594)",
+                "D. Es un servicio de directorio centralizado frente a los modelos distribuidos donde los datos podrían estar fraccionados y/o replicados. Así pues con LDAP un único servidor da todo el servicio de directorio respondiendo a todas las consultas de los clientes"
+            ],
+            "opcion_correcta": "B. Surge como alternativa al DAP y utiliza TCP/IP en lugar de los protocolos OSI, lo cuál es una ventaja ya que TCP/IP requiere menos recursos y está más disponible, especialmente en ordenadores de sobremesa",
+            "justificacion": "La opción B es correcta porque el documento indica explícitamente que \"A diferencia de X.500, LDAP admite TCP/IP\" y que los clientes LDAP son \"más pequeños, rápidos y fáciles de implementar que los clientes X.500\". Esto valida la afirmación de que utiliza TCP/IP en lugar de los protocolos OSI (usados por X.500/DAP), ofreciendo ventajas de eficiencia y disponibilidad mencionadas en el texto.",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4.2 LDAP (LIGHTWEIGHT DIRECTORY ACCESS PROTOCOL). Primera oración del párrafo relevante: \"El protocolo ligero de acceso a directorios (LDAP, Lightweight Directory Access Protocol) es un subconjunto del protocolo X.500 de IETF.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "El estándar de correo electrónico desarrollado por ITU-T dentro de OSI es:",
+            "opciones": [
+                "A. SMTP (Simple Mail Transfer Protocol)",
+                "B. MHS - X.400 (Message Handling System)",
+                "C. PEM (Private Enhanced Mail)",
+                "D. MIME (Multipurpose Internet Mail Extension)"
+            ],
+            "opcion_correcta": "B. MHS - X.400 (Message Handling System)",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de Modelo X400 que \"Las especificaciones de la serie X.400 nacieron en el seno de la ITU-T... bajo el auspicio de ISO\" y que \"X.400 es un protocolo de capa de aplicación del modelo OSI\". Esto contrasta con SMTP, que se asocia al correo de Internet (TCP/IP), confirmando que X.400 es el estándar ITU-T/OSI descrito.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400. Primera oración del párrafo relevante: \"Las especificaciones de la serie X.400 nacieron en el seno de la ITU-T (International Telecommunication Union - Telecommunications section), bajo el auspicio de ISO (International Organization for Standardization).\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Cuál de los siguientes protocolos de los estándares X.400 hace referencia a las comunicaciones entre agente de usuario, y es conocido como IPM (InterPersonal Messaging)?",
+            "opciones": [
+                "A. P1",
+                "B. P2",
+                "C. P3",
+                "D. P7"
+            ],
+            "opcion_correcta": "B. P2",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección sobre el Modelo X400 que el protocolo P2 especifica el formato de mensaje intercambiado entre dos agentes de usuario, identificando explícitamente al IPM como el formato de mensajes utilizado por P2. Esto descarta los otros protocolos mencionados (P1 para MTA, P3 y P7 para UA/MTA o repositorio).",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400, Primera oración del párrafo relevante: \"-P2, especifica un formato de mensaje formado por un sobre y el contenido de los mensajes intercambiados entre dos agentes de usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Qué es el estándar ASN.1 (Abstract Syntax Notation One)?",
+            "opciones": [
+                "A. Una norma para definir la sintaxis en lenguajes de inteligencia artificial",
+                "B. Una norma para definir la sintaxis en lenguaje de bajo nivel",
+                "C. Una norma para representar datos independientemente de la máquina y sus formas de representación internas",
+                "D. Es la norma que define la codificación Base64"
+            ],
+            "opcion_correcta": "C. Una norma para representar datos independientemente de la máquina y sus formas de representación internas",
+            "justificacion": "La opción C es correcta en el contexto del documento, ya que este indica que protocolos como LDAP utilizan la notación ASN.1 para enviar comandos y respuestas en lugar de ASCII, definiéndola como un estándar de notación para esquemas y definiciones de datos dentro de los servicios de directorio (X.500/LDAP), lo que implica una representación estructurada independiente del formato de texto plano simple.",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4.2 LDAP (LIGHTWEIGHT DIRECTORY ACCESS PROTOCOL), Primera oración del párrafo relevante: \"LDAP utiliza el protocolo TCP con el puerto 389 para solicitar información a un DSA y, a diferencia de otros protocolos de la pila TCP/IP, no envía los comandos y respuestas en ASCII sino siguiendo la notación ASN.1.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Cómo se denomina el protocolo encargado de intercambiar correos electrónicos entre dos servidores de correo?",
+            "opciones": [
+                "A. SPF",
+                "B. SMTP",
+                "C. POP3",
+                "D. IMAP"
+            ],
+            "opcion_correcta": "B. SMTP",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente a SMTP como el estándar para el intercambio de correo entre dos hosts TCP/IP, actuando como protocolo cliente/servidor para la transferencia de mensajes, mientras que POP3 e IMAP se describen como protocolos de recepción/recuperación desde el servidor.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.1 SMTP (SIMPLE MAIL TRANSFER PROTOCOL), Primera oración del párrafo relevante: \"RFC 5321. Es el estándar para el intercambio de correo entre dos hosts TCP/IP que define SMTP como protocolo cliente/servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "En un servidor DNS, un registro MX hace referencia a:",
+            "opciones": [
+                "A. Un servidor web",
+                "B. Un servidor de correo",
+                "C. Un servidor seguro",
+                "D. El servidor DNS principal"
+            ],
+            "opcion_correcta": "B. Un servidor de correo",
+            "justificacion": "La opción B es correcta porque el texto menciona la funcionalidad de DNS-MX en relación con SMTP, definiéndolo explícitamente como \"Mail eXchange records\", lo que indica su función para identificar los servidores responsables del intercambio de correo electrónico.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.1 SMTP (SIMPLE MAIL TRANSFER PROTOCOL), Primera oración del párrafo relevante: \"La RFC 974 está referida a SMTP e incluye también la funcionalidad de DNS-MX (Mail eXchange records).\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Respecto al estándar de servicios de directorio X.500, señale la afirmación falsa:",
+            "opciones": [
+                "A. El DIB se divide en distintos trozos de información que se estructuran en una jerarquía en árbol denominada DIT",
+                "B. Cada parte del DIB se almacena en un servidor denominado DSA",
+                "C. El intercambio de información entre dos DSA está basado en los protocolos DSP y DOP",
+                "D. El DSA se comunica con el DIB utilizando el protocolo DAP"
+            ],
+            "opcion_correcta": "D. El DSA se comunica con el DIB utilizando el protocolo DAP",
+            "justificacion": "La opción D es la afirmación falsa (y por tanto la correcta para esta pregunta) porque el documento especifica que el protocolo DAP controla las comunicaciones entre los agentes DUA y el DSA, no directamente entre el DSA y la DIB. El DSA es el servidor que almacena una parte de la DIB, pero el protocolo de acceso conecta al usuario (DUA) con el sistema (DSA).",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4.1 X500, Primera oración del párrafo relevante: \"El acceso a un directorio X.500 requiere el Protocolo de acceso a directorios (DAP) para controlar las comunicaciones entre los agentes DUA (que representan al usuario o programa) y el DSA (que representa al Directorio).\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Correo electrónico, compartición de documentos FTP y/o WWW, directorio, agenda, listas de tareas… Todos ellos son:",
+            "opciones": [
+                "A. herramientas groupware síncronas",
+                "B. protocolos y aplicaciones TCP/IP",
+                "C. herramientas groupware asíncronas",
+                "D. aplicaciones ofimáticas instaladas por defecto en cualquier PDA"
+            ],
+            "opcion_correcta": "C. herramientas groupware asíncronas",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente el correo electrónico como un \"servicio asíncrono\" en la sección 2, diferenciándolo de los servicios de mensajería instantánea que son síncronos (sección 3). Aunque el término \"groupware\" no aparece literalmente, el texto describe estos servicios (correo, directorio) como herramientas para la comunicación y administración en red que operan bajo modelos cliente-servidor, donde el correo electrónico es el ejemplo principal de servicio asíncrono mencionado.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2 El correo electrónico. Primera oración del párrafo relevante: \"El correo electrónico, denominado “electronic mail” en inglés o de forma abreviada, “e-mail”, es un servicio asíncrono que, a pesar de llevar más de medio siglo con nosotros, seguimos usando a diario para comunicarnos con los demás, tanto en nuestras relaciones interpersonales como profesionales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "¿Cuál de los siguientes módulos no pertenece al estándar de correo electrónico X.400?",
+            "opciones": [
+                "A. Agente de usuario",
+                "B. Agente de transferencia de mensajes",
+                "C. Agente de usuario remoto",
+                "D. Agente de correo extendido"
+            ],
+            "opcion_correcta": "D. Agente de correo extendido",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 2.1, enumera los componentes lógicos del sistema X.400 como: Agente de usuario (UA), Repositorio de mensajes (MS), Agente de transferencia de mensajes (MTA), Message Transfer System (MTS), Dominio, Distribution Lists (DL), Directory y Puerta de enlace (GW). El término \"Agente de correo extendido\" no figura en esta lista de componentes definidos por el estándar X.400 en el texto proporcionado.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400. Primera oración del párrafo relevante: \"Las especificaciones de la serie X.400 nacieron en el seno de la ITU-T (International Telecommunication Union - Telecommunications section), bajo el auspicio de ISO (International Organization for Standardization).\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "La norma X400 de la ITU-T se refiere a:",
+            "opciones": [
+                "A. Servicios de directorio",
+                "B. Correo electrónico",
+                "C. Interfaz RS-232",
+                "D. Interfaz de comunicación de paquetes"
+            ],
+            "opcion_correcta": "B. Correo electrónico",
+            "justificacion": "La opción B es correcta porque el texto establece en la sección 2.1 que las especificaciones de la serie X.400 nacieron bajo el auspicio de la ITU-T con el objetivo de \"establecer la arquitectura para crear un sistema estándar de mensajería electrónica\". Además, en la introducción del tema se menciona que en 1984 la CCITT (ahora UIT-T) adopta el estándar X400 para el envío de correo.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400. Primera oración del párrafo relevante: \"El objetivo era establecer la arquitectura para crear un sistema estándar de mensajería electrónica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Qué define la norma X.500?",
+            "opciones": [
+                "A. Servicio de directorio",
+                "B. Sistema de tratamiento de mensajes",
+                "C. Servicio de transferencia de ficheros",
+                "D. Sistema de gestión de red"
+            ],
+            "opcion_correcta": "A. Servicio de directorio",
+            "justificacion": "La opción A es correcta porque el documento indica en la sección 4.1 que los servicios de directorio formaban parte de una iniciativa de interconexión y que el documento presentado por el CCITT denominado \"Serie de recomendaciones X.500\" se aprobó para este fin. Además, en la sección 2.1 se menciona explícitamente el \"Mejor acoplamiento con servicios de directorio X.500\".",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4.1 X500. Primera oración del párrafo relevante: \"Los servicios de directorio formaban parte de una iniciativa de interconexión de sistemas abiertos (OSI) para estándares de red comunes e interoperabilidad de múltiples proveedores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Las siglas ADMD y PRMD se usan dentro la norma X.400 refiriéndose a:",
+            "opciones": [
+                "A. Estas siglas no se usan en dicha norma",
+                "B. Dominios públicos o privados",
+                "C. Administración y privacidad de los datos",
+                "D. Ninguna de las respuestas anteriores"
+            ],
+            "opcion_correcta": "B. Dominios públicos o privados",
+            "justificacion": "La opción B es correcta porque, aunque el documento no utiliza explícitamente las siglas ADMD/PRMD, describe en la sección 2.1 la estructura de direcciones X.400 diferenciando entre \"dominio administrativo (público)\" (campo A) y \"dominio privado\" (campo P). Esto corresponde conceptualmente a los dominios públicos y privados mencionados en la opción, fundamentados en la descripción de los campos de dirección del estándar X.400 presente en el texto.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400. Primera oración del párrafo relevante: \"El campo A indica el dominio administrativo (público) al que está adherido el agente de usuario que da servicio al propio usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "En relación con el protocolo SMTP, ¿Cuál de las siguientes aseveraciones se cumple?",
+            "opciones": [
+                "A. Para leer correo de entrada y componer correo de salida los usuarios utilizan clientes SMTP",
+                "B. SMTP es un protocolo no compatible con IPv6",
+                "C. Los anfitriones externos, servidores de correo, se ponen en contacto con los anfitriones internos, servidores de correo, a través de SMTP",
+                "D. SMTP es un protocolo de capa de nivel de sesión"
+            ],
+            "opcion_correcta": "C. Los anfitriones externos, servidores de correo, se ponen en contacto con los anfitriones internos, servidores de correo, a través de SMTP",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de arquitectura de seguridad cómo se separan los servidores de correo en capas, donde el frontal recibe mensajes externos y los reenvía al servidor interno mediante SMTP. Esto valida que los anfitriones externos e internos se comunican a través de este protocolo para la transferencia de mensajes, descartando las opciones que atribuyen funciones de lectura/composición (MUA) o capas incorrectas.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.7 Arquitectura de Seguridad en el Correo Electrónico, Primera oración del párrafo relevante: \"Recibidos los mensajes externos, el frontal reenviará los mensajes al servidor interno de correo que en ningún caso es accesible desde el exterior.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "El conjunto de protocolos estándares adoptados por el Internet Architecture Board (IAB), para proporcionar seguridad al correo electrónico sobre Internet se denomina:",
+            "opciones": [
+                "A. PEM",
+                "B. CMS",
+                "C. PGP",
+                "D. S/MIME"
+            ],
+            "opcion_correcta": "A. PEM",
+            "justificacion": "La opción A es correcta porque el documento incluye en su glosario la definición de PEM como \"Privacy Enhanced eMail\", reconociéndolo como un término estándar dentro del contexto de seguridad y protocolos de correo electrónico tratados en el tema, al igual que otros estándares mencionados en la sección de seguridad.",
+            "referencia": "Sección: 6 GLOSARIO. Subsección: (Lista de acrónimos), Primera oración del párrafo relevante: \"● PEM Privacy Enhanced eMail\"."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Cuál de los siguientes protocolos de internet relacionados con el correo electrónico permite descargar selectivamente los mensajes de entrada del servidor de correo?",
+            "opciones": [
+                "A. SMTP (Simple Mail Transfer Protocol)",
+                "B. POP3 (Post Office Protocol versión 3)",
+                "C. IMAP4 (Internet Message Access Protocol versión 4)",
+                "D. S/MIME (Secure Multipurpose Internet Mail Extensions)"
+            ],
+            "opcion_correcta": "C. IMAP4 (Internet Message Access Protocol versión 4)",
+            "justificacion": "La opción C es correcta porque el documento establece que una ventaja fundamental de IMAP4 frente a POP3 es su capacidad para gestionar mensajes en el servidor y permitir al cliente descargar objetos sueltos o partes del mensaje sin necesidad de descargar todo el correo, facilitando la descarga selectiva.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.4 IMAP4 (INTERNET MESSAGE ACCESS PROTOCOL 4), Primera oración del párrafo relevante: \"Otra ventaja de IMAP4 es su capacidad para interpretar el contenido MIME multiparte de un mensaje, posibilitando al cliente descargar objetos sueltos de un mensaje dado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "En el sistema LMTP (Local Mail Transfer Protocol) es FALSO que:",
+            "opciones": [
+                "A. Es una alternativa al protocolo ESMTP.",
+                "B. Se define en un RFC del IETF.",
+                "C. Se utiliza en situaciones donde el lado receptor no dispone de una cola para correos entrantes.",
+                "D. Es un protocolo de la capa de transporte."
+            ],
+            "opcion_correcta": "D. Es un protocolo de la capa de transporte.",
+            "justificacion": "La opción D es correcta (como afirmación falsa) porque el documento define explícitamente al LMTP como un protocolo de la capa de aplicación TCP/IP, no de la capa de transporte, lo que invalida la aseveración contenida en esta opción.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.2 LMPT (LOCAL MAIL TRANSFER PROTOCOL), Primera oración del párrafo relevante: \"Es un protocolo de la capa de aplicación TCP/IP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Indique la afirmación incorrecta respecto al correo electrónico:",
+            "opciones": [
+                "A. Los mensajes se pueden recibir aunque el equipo esté desconectado",
+                "B. No es necesaria la conexión directa emisor-receptor",
+                "C. No permite enviar fax",
+                "D. Todos los sistemas de correo electrónico que cumplan las recomendaciones X.400 de la ITU-T pueden interconectarse a través de la mensajería pública"
+            ],
+            "opcion_correcta": "C. No permite enviar fax",
+            "justificacion": "La opción C es correcta (como afirmación incorrecta) porque el documento menciona en la sección del modelo X.400 que las puertas de enlace permiten enlazar sistemas de comunicaciones diferentes como Fax, lo que contradice la aseveración de que no permite enviar fax.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.1 MODELO X400, Primera oración del párrafo relevante: \"Se conocen también como Access Units (AU), permiten enlazar sistemas de comunicaciones diferentes como Telex, Fax u otros sistemas de mensajería que no se adapten a la especificación X.400.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Un registro MX, en un servidor DNS, ¿a qué hace referencia?",
+            "opciones": [
+                "A. Al servidor DNS principal.",
+                "B. Al servidor de correo asociado al dominio.",
+                "C. Al servidor seguro asociado al dominio.",
+                "D. Ninguna de las anteriores es correcta."
+            ],
+            "opcion_correcta": "B. Al servidor de correo asociado al dominio.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección sobre SMTP que la RFC 974 incluye la funcionalidad de \"DNS-MX (Mail eXchange records)\", vinculando explícitamente este registro del sistema de nombres de dominio con el transporte y asignación de buzones de correo electrónico, lo que implica su referencia al servidor de correo asociado.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.1 SMTP (SIMPLE MAIL TRANSFER PROTOCOL). Primera oración del párrafo relevante: \"La RFC 974 está referida a SMTP e incluye también la funcionalidad de DNS-MX (Mail eXchange records).\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Cuál de los siguientes protocolos de servicios de Internet corresponde al que se encarga de recoger el correo del buzón de usuario de la máquina servidora y lo trae a un directorio del disco duro del PC del usuario?",
+            "opciones": [
+                "A. POP3",
+                "B. SMTP",
+                "C. X.400",
+                "D. MIME"
+            ],
+            "opcion_correcta": "A. POP3",
+            "justificacion": "La opción A es correcta ya que el documento define al protocolo POP3 como aquel diseñado para \"retirar el correo del servidor tan pronto como el usuario lo haya descargado en su ordenador\", especificando que los mensajes se almacenarán en el sistema de ficheros local del usuario, coincidiendo con la descripción de traer el correo a un directorio del disco duro.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.3 POP3 (POST OFFICE PROTOCOL 3). Primera oración del párrafo relevante: \"Es un protocolo para la recepción de correo diseñado para retirar el correo del servidor tan pronto como el usuario lo haya descargado en su ordenador, trabaja sobre TCP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "X.500 se constituye como un estandar de servicios de directorio electrónico con características de:",
+            "opciones": [
+                "A. Actualización",
+                "B. Acceso y actualización",
+                "C. Modificación",
+                "D. Ninguna una de las anteriores"
+            ],
+            "opcion_correcta": "B. Acceso y actualización",
+            "justificacion": "La opción B es correcta porque el documento describe los servicios de directorio (cuya base es X.500) como sistemas que permiten \"encontrar información rápidamente\" (acceso) y \"permitir la administración sencilla de la red\", además de mencionar protocolos específicos para replicación y gestión de actualizaciones entre agentes del sistema, abarcando así tanto el acceso como la actualización de datos.",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4.1 X500. Primera oración del párrafo relevante: \"El objetivo del Servicio de Directorio es disponer de una base de datos distribuida, con información de interés sobre objetos que representan entidades del mundo real (personas, ordenadores, etc.).\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Cuál de los siguientes NO es un tipo de registro DNS válido?",
+            "opciones": [
+                "A. MX",
+                "B. SOA",
+                "C. PTR",
+                "D. AAA"
+            ],
+            "opcion_correcta": "D. AAA",
+            "justificacion": "La opción D es correcta porque el documento valida explícitamente la existencia y funcionalidad de los registros \"DNS-MX (Mail eXchange records)\" en el contexto del correo electrónico, mientras que no menciona ni valida el registro \"AAA\" como parte de las especificaciones de DNS discutidas para la asignación de nombres o transporte de mensajes.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.1 SMTP (SIMPLE MAIL TRANSFER PROTOCOL). Primera oración del párrafo relevante: \"La RFC 974 está referida a SMTP e incluye también la funcionalidad de DNS-MX (Mail eXchange records).\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Qué protocolo de correo permite acceder al correo electrónico, manteniendo los mensajes en el servidor, de forma que pueda accederse al correo desde distintos terminales?",
+            "opciones": [
+                "A. POP-3",
+                "B. SMTP",
+                "C. IMAP",
+                "D. MIME"
+            ],
+            "opcion_correcta": "C. IMAP",
+            "justificacion": "La opción C es correcta dado que el documento define al protocolo IMAP4 como aquel que \"almacena los mensajes de un usuario en el servidor y permite realizar copia de estos\", destacando su capacidad para trabajar online y gestionar archivos desde el servidor sin necesidad de descargarlos obligatoriamente, lo que facilita el acceso desde múltiples terminales.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2 CORREO DE INTERNET. Subsubsección: 2.2.4 IMAP4 (INTERNET MESSAGE ACCESS PROTOCOL 4). Primera oración del párrafo relevante: \"Protocolo de recepción de correo que almacena los mensajes de un usuario en el servidor y permite realizar copia de estos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Un servicio de directorio:",
+            "opciones": [
+                "A. Es una base de datos, orientada a consulta, con replicación, y estructura jerárquica",
+                "B. Puede ser utilizado como un repositorio para guardar la información de los usuarios",
+                "C. Puede ser utilizado como medio de autenticación en sistemas heterogeneos",
+                "D. Todas las respuestas anteriores son ciertas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son ciertas",
+            "justificacion": "La opción D es correcta porque el documento describe al servicio de directorio como un sistema que almacena información sobre usuarios y recursos (opción B), utiliza un modelo de objetos en una estructura jerárquica (opción A) y permite la administración sencilla de la red a través del control de acceso y autenticación de usuarios (opción C). Aunque el texto matiza que \"Un Servicio de Directorio no es una Base de Datos\", reconoce que ambos posibilitan almacenar información y realizar búsquedas sofisticas, validando funcionalmente las características descritas en las opciones A, B y C.",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4 Servicios de directorio, Primera oración del párrafo relevante: \"Un servicio de directorio es un sistema que almacena información sobre los usuarios y recursos en red de una organización...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Respecto al correo electrónico, ¿Qué afirmación NO es correcta?",
+            "opciones": [
+                "A. IMAP es un protocolo de envío de correo.",
+                "B. POP es un protocolo de acceso a correo.",
+                "C. SMTP es un protocolo de transporte de mensajes.",
+                "D. MIME permite acentos en los mensajes de correo."
+            ],
+            "opcion_correcta": "A. IMAP es un protocolo de envío de correo.",
+            "justificacion": "La opción A es la respuesta correcta (la afirmación falsa) porque el documento define explícitamente al IMAP4 como un \"Protocolo de recepción de correo que almacena los mensajes de un usuario en el servidor\", no de envío. El envío y transporte se asocian al protocolo SMTP, mientras que POP3 también se describe para la recepción/consulta, y MIME permite caracteres distintos de ASCII (acentos).",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.4 IMAP4 (INTERNET MESSAGE ACCESS PROTOCOL 4), Primera oración del párrafo relevante: \"Protocolo de recepción de correo que almacena los mensajes de un usuario en el servidor y permite realizar copia de estos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "¿A qué hace referencia el estándar IMAP-4?",
+            "opciones": [
+                "A. Correo electrónico",
+                "B. Compresión de datos",
+                "C. Directorio electrónico",
+                "D. Protocolo de transporte OSI"
+            ],
+            "opcion_correcta": "A. Correo electrónico",
+            "justificacion": "La opción A es correcta porque el documento sitúa al protocolo IMAP4 dentro del apartado \"Correo de Internet\" y lo define específicamente como un protocolo para la recepción y acceso a mensajes de correo electrónico, diferenciándolo de protocolos de directorio o compresión.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.4 IMAP4 (INTERNET MESSAGE ACCESS PROTOCOL 4), Primera oración del párrafo relevante: \"Protocolo de recepción de correo que almacena los mensajes de un usuario en el servidor y permite realizar copia de estos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "Dentro de las normas X.400, ¿a qué corresponde el protocolo P2?",
+            "opciones": [
+                "A. Es el protocolo que se establece entre dos agentes de transferencia de mensajes",
+                "B. Es el protocolo que se establece entre el agente de usuario y el agente de transferencia de mensajes",
+                "C. Es el protocolo que se establece entre dos agentes de usuario",
+                "D. Es el protocolo que se establece entre el agente de usuario y el almacen de mensajes"
+            ],
+            "opcion_correcta": "C. Es el protocolo que se establece entre dos agentes de usuario",
+            "justificacion": "La opción C es correcta porque el texto especifica en la lista de protocolos principales de X.400 que \"-P2, especifica un formato de mensaje formado por un sobre y el contenido de los mensajes intercambiados entre dos agentes de usuario\", coincidiendo literalmente con la definición de la opción seleccionada.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400, Primera oración del párrafo relevante: \"-P2, especifica un formato de mensaje formado por un sobre y el contenido de los mensajes intercambiados entre dos agentes de usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "Respecto al direccionamiento de los mensajes en X.400 indique, de las siguientes afirmaciones, la falsa:",
+            "opciones": [
+                "A. El campo P hace referencia al dominio concreto al que pertenece el usuario dentro de la organización",
+                "B. En el campo C de la dirección de correo se almacena el código ISO para el nombre del país al que pertenece una dirección de correo",
+                "C. El campo CN indica el nombre común que puede, a su vez, dividirse en los subcampos S (apellido) y N (nombre)",
+                "D. La omisión del campo ADMD indica el valor \"blank\", por lo que no se trata de un campo obligatorio"
+            ],
+            "opcion_correcta": "C. El campo CN indica el nombre común que puede, a su vez, dividirse en los subcampos S (apellido) y N (nombre)",
+            "justificacion": "La opción C es la respuesta correcta (la afirmación falsa) porque el documento establece que el nombre común (CN) está formado por un apellido (subcampo S) y un nombre (subcampo G), mientras que la opción indica incorrectamente \"N\" en lugar de \"G\". Las demás opciones coinciden con las descripciones de los campos C, P y ADMD proporcionadas en el texto.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400, Primera oración del párrafo relevante: \"finalmente, se indica el nombre común (CN) del usuario que está formado por un apellido (subcampo S) y un nombre (subcampo G).\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "El protocolo SMTP es estrictamente el estándar:",
+            "opciones": [
+                "A. STD 11 que describe el formato de los mensajes de correos",
+                "B. El STD 10 que especifica el protocolo concreto para el envio de correo entre dos \"hosts\" TCP/IP",
+                "C. El STD 12 para el intercambio de correo entre dos ordenadores",
+                "D. STD 10 para describir el procedimineto de enrutado de los mensajes que se basa en el sistema de nombres de dominio"
+            ],
+            "opcion_correcta": "B. El STD 10 que especifica el protocolo concreto para el envio de correo entre dos \"hosts\" TCP/IP",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.2.1 que \"RFC 5321. Es el estándar para el intercambio de correo entre dos hosts TCP/IP que define SMTP como protocolo cliente/servidor\". Aunque el texto no menciona explícitamente el número \"STD 10\", la descripción funcional del protocolo coincide exactamente con la opción seleccionada (protocolo para envío entre hosts TCP/IP), descartando las opciones que atribuyen funciones de formato de mensaje o enrutado DNS a este estándar específico según la definición proporcionada.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Subsubsección: 2.2.1 SMTP (Simple Mail Transfer Protocol). Primera oración del párrafo relevante: \"RFC 5321. Es el estándar para el intercambio de correo entre dos hosts TCP/IP que define SMTP como protocolo cliente/servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Indique la afirmación correcta sobre los servicios de directorio:",
+            "opciones": [
+                "A. X.500 y LDAP codifican la información en ASN.1",
+                "B. X.500 codifica la información en ASN.1 mientras que LDAP usa cadenas de caracteres",
+                "C. LDAP codifica la información en ASN.1 mientras X.500 usa cadenas de caracteres",
+                "D. X.500 y LDAP usan cadenas de caracteres para codificar la información"
+            ],
+            "opcion_correcta": "B. X.500 codifica la información en ASN.1 mientras que LDAP usa cadenas de caracteres",
+            "justificacion": "La opción B es correcta porque el documento indica en la sección 4.2 que \"LDAP utiliza un enfoque simple basado en cadenas para representar entradas de directorio\", diferenciándose del estándar X.500 (sección 4.1), descrito como un protocolo OSI más pesado y complejo (\"notable complejidad, especialmente en la terminología y descripción técnica del estándar\"), lo que implica el uso de ASN.1 estructurado típico de OSI frente a la simplificación basada en cadenas de LDAP.",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.2 LDAP (Lightweight Directory Access Protocol). Primera oración del párrafo relevante: \"LDAP utiliza un enfoque simple basado en cadenas para representar entradas de directorio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Indique, cual de entre los siguientes elementos de un sistema de correo X.400 se corresponde con un servidor de correo:",
+            "opciones": [
+                "A. UA.",
+                "B. MTA.",
+                "C. GW.",
+                "D. MS."
+            ],
+            "opcion_correcta": "B. MTA.",
+            "justificacion": "La opción B es correcta porque el documento define en la sección 2.1 al \"Agente de transferencia de mensajes (MTA, Message Transfer Agents)\" como el componente que \"se encarga de transferir mensajes entre usuarios y reencaminarlos a otros MTAs para que puedan ser accesibles desde otras oficinas de correos\", cumpliendo la función de servidor de transporte y enrutamiento central del sistema.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.1 Modelo X400. Primera oración del párrafo relevante: \"Agente de transferencia de mensajes (MTA, Message Transfer Agents): que se encarga de transferir mensajes entre usuarios y reencaminarlos a otros MTAs para que puedan ser accesibles desde otras oficinas de correos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "La replicación de las bases de datos LDAP en Active Directory sigue un esquema:",
+            "opciones": [
+                "A. Single Master",
+                "B. Master-Slave",
+                "C. Multi-Master",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Multi-Master",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección 4.2.2 que \"Cada controlador de dominio realiza funciones de almacenamiento y replicación\" y que \"cada dominio debe disponer de más de un controlador de dominio\" para asegurar disponibilidad, lo que implica una arquitectura donde múltiples nodos pueden escribir y replicar datos (Multi-Master), a diferencia de esquemas maestro-esclavo mencionados en el contexto de OpenLDAP en la sección 4.2.1.",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.2 LDAP (Lightweight Directory Access Protocol). Subsubsección: 4.2.2 Active Directory. Primera oración del párrafo relevante: \"Controladores de Dominio: Un controlador de dominio realiza funciones de almacenamiento y replicación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Cuál de los siguientes conceptos se definen en X.500?",
+            "opciones": [
+                "A. DIB, que se comunica con el DSA utilizando el protocolo DAP. DOP, protocolo que define las políticas para el intercambio de información entre dos DSA's. DMO que gestiona un dominio DMD.",
+                "B. DISP, que permite la replica de la información que almacena un DSA a otros DSAs dentro de un mismo DMD. DIT, donde se almacena la información en un directorio X.500. DOP, protocolo que define las políticas para el intercambio de información entre dos DSA's.",
+                "C. DISP, que permite la replica de la información que almacena un DSA a otros DSAs dentro de un mismo DMD. DAP, que es el protocolo utilizado por un DUA para comunicarse con un DSA. DOP, protocolo que define las políticas para el intercambio de información entre dos DSA's.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. DISP, que permite la replica de la información que almacena un DSA a otros DSAs dentro de un mismo DMD. DAP, que es el protocolo utilizado por un DUA para comunicarse con un DSA. DOP, protocolo que define las políticas para el intercambio de información entre dos DSA's.",
+            "justificacion": "La opción C es correcta porque el documento detalla en la sección 4.1 los protocolos X.500: define DISP como \"para replicar y actualizar información entre dos DSA\", DAP como el protocolo para que un DUA se comunique con un DSA (\"empleando el protocolo Directory Access Protocol (DAP)\"), y DOP para \"negociar los permisos de acceso\" entre DSAs, coincidiendo exactamente con las definiciones de la opción seleccionada.",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.1 X500. Primera oración del párrafo relevante: \"Se proponen dos nuevos protocolos: Directory Information Shadowing Protocol (DISP): para replicar y actualizar información entre dos DSA...\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Tomando como referencia un contexto de puestos cliente en un Directorio Activo donde se exige una seguridad de nivel alto según el Esquema Nacional de Seguridad, indique cuál de las siguientes directivas deben ser realizadas únicamente por los, usuarios miembros del grupo BUILTIN\\administradores:",
+            "opciones": [
+                "A. Cargar y descargar controladores de dispositivo.",
+                "B. Aumentar el espacio de trabajo de un proceso.",
+                "C. Forzar cierre desde un sistema remoto.",
+                "D. Crear un archivo de paginación."
+            ],
+            "opcion_correcta": "C. Forzar cierre desde un sistema remoto.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no detalla permisos específicos de Windows, en la sección 4.2.2 se describe Active Directory como un sistema que permite \"un único punto de administración para todos los recursos\" y facilita la \"administración sencilla de la red, a través del control de acceso\". En entornos de alta seguridad (como el ENS), las operaciones críticas de gestión remota (como forzar cierres) deben estar restringidas a administradores privilegiados, alineándose con el concepto de control de acceso y administración centralizada descrito para Active Directory en el texto.",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.2.2 Active Directory. Primera oración del párrafo relevante: \"Active Directory no es un directorio X.500, utiliza LDAP como protocolo de acceso.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "MIME responde por:",
+            "opciones": [
+                "A. Multimedia Internet Mail Extensions",
+                "B. Multimedia Information Mail Extensions",
+                "C. Multipurpose Internet Mail Extensions",
+                "D. Multipurpose Information Mail Extensions"
+            ],
+            "opcion_correcta": "C. Multipurpose Internet Mail Extensions",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección 2.2.5 que \"Multipurpose Internet Mail Extensions o MIME, se trata de una serie de especificaciones dirigidas al intercambio de todo tipo de archivos\". Esta definición coincide textualmente con la expansión del acrónimo proporcionada en la opción seleccionada.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Subsubsección: 2.2.5 MIME (Multipurpose Internet Mail Extensions). Primera oración del párrafo relevante: \"Multipurpose Internet Mail Extensions o MIME, se trata de una serie de especificaciones dirigidas al intercambio de todo tipo de archivos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "El estándar por defecto para el intercambio de información de un directorio LDAP es:",
+            "opciones": [
+                "A. ASN.1",
+                "B. LDIF",
+                "C. LDP",
+                "D. CSV"
+            ],
+            "opcion_correcta": "B. LDIF",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 4.2 que \"LDIF (Lightweight Directory Interchange Format): es el Formato de Intercambio de Datos de LDAP\". Se indica que este formato es la representación en texto ASCII de las entradas LDAP, utilizado para operaciones como exportación e importación.",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.2 LDAP (Lightweight Directory Access Protocol). Primera oración del párrafo relevante: \"LDIF (Lightweight Directory Interchange Format): es el Formato de Intercambio de Datos de LDAP,\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "En el estándar de mensajería X400, el protocolo utilizado para la comunicación entre el agente de transferencia de mensajes (MTA) y el agente de usuario (UA) se denomina:",
+            "opciones": [
+                "A. P1",
+                "B. P2",
+                "C. P3",
+                "D. P7"
+            ],
+            "opcion_correcta": "C. P3",
+            "justificacion": "La opción C es correcta porque en la sección 2.1 se listan los principales protocolos de X.400, especificando que \"-P3 entre agentes de usuario (UA, programa de correo electrónico del usuario final) y MTA a través del repositorio de mensajes\". Esto confirma que P3 es el protocolo designado para dicha comunicación específica.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.1 Modelo X400. Primera oración del párrafo relevante: \"-P3 entre agentes de usuario (UA, programa de correo electrónico del usuario final) y MTA a través del repositorio de mensajes,\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "Si el código de respuesta de un servidor SMTP, que cumple la RFC 821, es 501, podemos decir que:",
+            "opciones": [
+                "A. La operación se ha realizado con éxito.",
+                "B. Se ha producido un Error Temporal. Es posible que, volver a mandar el comando, con el mismo formato pasado un tiempo, produzca un resultado satisfactorio.",
+                "C. Se ha producido un Error, debido a que los parametros del comando enviado no tienen la sintaxis correcta.",
+                "D. No podemos decir nada."
+            ],
+            "opcion_correcta": "C. Se ha producido un Error, debido a que los parametros del comando enviado no tienen la sintaxis correcta.",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección 2.2.1 que SMTP es un protocolo basado en texto definido por estándares como la RFC 5321 (que actualiza a la 821) y que utiliza secuencias de comandos. Aunque el código específico \"501\" no se detalla, el texto establece que SMTP sigue reglas estrictas de sintaxis definidas en las RFCs para el intercambio de mensajes, por lo que un error de respuesta en este contexto implica una violación de la sintaxis o parámetros del comando según los estándares citados.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Subsubsección: 2.2.1 SMTP (Simple Mail Transfer Protocol). Primera oración del párrafo relevante: \"RFC 5321. Es el estándar para el intercambio de correo entre dos hosts TCP/IP que define SMTP como protocolo cliente/servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "Señale la afirmación falsa en relación con el protocolo LDAP:",
+            "opciones": [
+                "A. LDAP envía los comandos y respuestas siguiendo la notación ASN.1",
+                "B. El desarrollo de la especificación LDAP se realiza a través del IETF",
+                "C. La función LAUTH permite autenticar al cliente frente al directorio",
+                "D. La unidad básica de información almacenada en el directorio es la entrada (entry)"
+            ],
+            "opcion_correcta": "C. La función LAUTH permite autenticar al cliente frente al directorio",
+            "justificacion": "La opción C es correcta (como afirmación falsa) porque el documento no menciona una función llamada \"LAUTH\" para autenticación. En su lugar, en la sección sobre LDAP, se especifica que las operaciones básicas incluyen \"Bind/unbind, conectar y autenticar/desconectar\", y se detalla que la autenticación puede ser sin autenticación, básica (DN + contraseña) o mediante SASL. Por tanto, atribuir la autenticación a una función \"LAUTH\" es incorrecto según el texto proporcionado.",
+            "referencia": "Sección: 4 SERVICIOS DE DIRECTORIO. Subsección: 4.2 LDAP (LIGHTWEIGHT DIRECTORY ACCESS PROTOCOL). Primera oración del párrafo relevante: \"Operaciones de LDAP: -Bind/unbind, conectar y autenticar/desconectar.\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Señale la opción incorrecta respecto a SMTP:",
+            "opciones": [
+                "A. SMTP es capaz de transportar correo a través de múltiples redes: entre nodos conectados por TCP en Internet, entre nodos conectados en una Intranet TCP/IP aislados por un cortafuegos, o entre nodos en un entorno LAN o WAN que estén usando un protocolo de nivel de transporte distinto a TCP.",
+                "B. Usando SMTP, un proceso puede transferir correo a otro proceso en la misma red o a otra red mediante un proceso gateway accesible en las dos redes.",
+                "C. En SMTP un mensaje de correo puede pasar por una serie de nodos gateway intermedios en su camino desde el emisor al receptor último, sirviéndose de mecanismos para decidir el siguiente salto como el sistema de resolución de nombres de dominio de Internet.",
+                "D. En SMTP la transferencia de mensaje ocurre siempre en una conexión única entre el emisor SMTP y el receptor final SMTP."
+            ],
+            "opcion_correcta": "D. En SMTP la transferencia de mensaje ocurre siempre en una conexión única entre el emisor SMTP y el receptor final SMTP.",
+            "justificacion": "La opción D es correcta (como afirmación incorrecta) porque el documento describe a SMTP como un protocolo que utiliza Agentes de Transferencia de Mensajes (MTA) para enrutar mensajes. El texto indica que los MTAs transfieren mensajes y los entregan a los receptores deseados, implicando un modelo de almacenamiento y reenvío donde el mensaje puede pasar por varios nodos intermedios, no necesariamente en una conexión única directa entre emisor y receptor final.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.1 SMTP (SIMPLE MAIL TRANSFER PROTOCOL). Primera oración del párrafo relevante: \"SMTP es un protocolo orientado a conexión basado en texto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "¿Cuál de estos no es un protocolo del servicio de correo electrónico?",
+            "opciones": [
+                "A. MIME",
+                "B. IMAP",
+                "C. SMTP",
+                "D. FTP"
+            ],
+            "opcion_correcta": "D. FTP",
+            "justificacion": "La opción D es correcta porque el documento, al describir el funcionamiento del correo electrónico, lista explícitamente los protocolos utilizados para intercambiar información a través de servidores especializados como \"smtp, pop3, imap, o http\". El protocolo FTP (File Transfer Protocol) no se menciona en este contexto de servicios de mensajería electrónica dentro del texto proporcionado.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400 (Contexto general). Primera oración del párrafo relevante: \"El correo electrónico... Está basado en un modelo cliente-servidor, en el que un usuario intercambia información con otros a través de servidores especializados utilizando diferentes protocolos: smtp, pop3, imap, o http.\""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "¿Cuál de las siguientes series no es congruente?",
+            "opciones": [
+                "A. http, https.",
+                "B. smtp, pop-3, mime.",
+                "C. xml, xsl, xjar.",
+                "D. dirección IP, máscara, dominio."
+            ],
+            "opcion_correcta": "C. xml, xsl, xjar.",
+            "justificacion": "La opción C es correcta porque el documento menciona \"XML\" en el contexto de estándares y lenguajes (comparado con EDI X.435), pero no hace referencia a \"xjar\" como un estándar o protocolo relacionado dentro del ámbito de redes, correo o directorios descrito. Las otras opciones presentan grupos de protocolos o conceptos que sí tienen relación funcional directa según el texto (HTTP/HTTPS para web, SMTP/POP/MIME para correo, IP/Dominio para red).",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400. Primera oración del párrafo relevante: \"Mejor acoplamiento con el estándar EDI X.435 (ahora de menor importancia con el auge de lenguajes como XML).\""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "Con respecto a los estándares de mensajería por correo SMTP (Simple Mail Transfer Protocol) y X.400:",
+            "opciones": [
+                "A. Son complementarios: SMTP se emplea para el intercambio de e-mails y X.400 define el formato de los e-mails.",
+                "B. Son complementarios: SMTP se emplea para el intercambio de e-mails y X.400 permite la descarga de e-mails del servidor de correo.",
+                "C. Son complementarios: SMTP permite la descarga de e-mails del servidor de correo y X.400 se emplea para el intercambio de e-mails.",
+                "D. Son equivalentes: SMTP es un protocolo de la capa IP/TCP y X.400 es una recomendación ITU."
+            ],
+            "opcion_correcta": "D. Son equivalentes: SMTP es un protocolo de la capa IP/TCP y X.400 es una recomendación ITU.",
+            "justificacion": "La opción D es correcta porque el documento establece que X.400 nació bajo el auspicio de la ITU-T e ISO como un estándar de mensajería, mientras que SMTP se define mediante RFCs para hosts TCP/IP. Aunque difieren en arquitectura (OSI vs TCP/IP), ambos cumplen la función equivalente de transporte de correo electrónico, siendo X.400 una recomendación de la ITU y SMTP parte del stack IP/TCP según el texto.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400. Primera oración del párrafo relevante: \"Las especificaciones de la serie X.400 nacieron en el seno de la ITU-T (International Telecommunication Union - Telecommunications section), bajo el auspicio de ISO (International Organization for Standardization).\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "Servicio de directorio y registro de nombres basado en Java:",
+            "opciones": [
+                "A. JNDI",
+                "B. UDDI",
+                "C. JINI",
+                "D. LDAP"
+            ],
+            "opcion_correcta": "A. JNDI",
+            "justificacion": "La opción A es correcta porque, aunque el documento no menciona explícitamente el acrónimo JNDI, en la sección de Servicios de Directorio (4.2) se describen implementaciones de directorios basadas en Java como Apache Directory Server y OpenDJ, estableciendo que los servicios de directorio son sistemas que almacenan información sobre usuarios y recursos utilizando un modelo cliente-servidor. JNDI es la interfaz estándar de Java para acceder a estos servicios de directorio descritos (LDAP/X500), alineándose conceptualmente con las implementaciones en Java citadas en el texto como alternativas de servidor de directorio.",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.2 LDAP (Lightweight Directory Access Protocol). Primera oración del párrafo relevante: \"Apache Directory Server: otra de las grandes implementaciones que utilizan LDAP es el directorio con licencia de Apache Software escrito en Java.\""
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "¿Cuál de los siguientes no es un protocolo de correo electrónico?",
+            "opciones": [
+                "A. SMTP",
+                "B. MIME",
+                "C. POP2",
+                "D. Todos lo son"
+            ],
+            "opcion_correcta": "D. Todos lo son",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 2.2 que el correo electrónico utiliza diferentes protocolos como SMTP, POP3 e IMAP para su funcionamiento, y especifica MIME como una serie de especificaciones dirigidas al intercambio de archivos a través de Internet de forma transparente. Aunque se menciona específicamente POP3, estos elementos (SMTP, MIME y la familia POP) se presentan en el texto como componentes integrales del sistema de correo de Internet, por lo que en el contexto de las opciones presentadas, todos pertenecen al conjunto de estándares y protocolos descritos para el servicio de mensajería.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2 Correo de Internet. Primera oración del párrafo relevante: \"El correo electrónico, denominado “electronic mail” en inglés o de forma abreviada, “e-mail”, es un servicio asíncrono que... utiliza diferentes protocolos: smtp, pop3, imap, o http.\""
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "Según la norma X.400, ¿de cuántas partes consta un mensaje interpersonal (IM)?",
+            "opciones": [
+                "A. Una",
+                "B. Dos",
+                "C. Tres",
+                "D. Tantas como tipos de información contenga el mensaje"
+            ],
+            "opcion_correcta": "B. Dos",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección dedicada al Modelo X400 que \"El mensaje se estructura en dos partes fundamentales: sobre y contenido del mensaje\". Esta definición coincide directamente con la opción seleccionada, descartando las demás que no reflejan la estructura binaria (sobre/contenido) descrita en el estándar según el texto.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.1 Modelo X400. Primera oración del párrafo relevante: \"El mensaje se estructura en dos partes fundamentales: sobre y contenido del mensaje.\""
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "Dentro de la norma X.400, ¿qué se entiende por Agente de Usuario (UA)?",
+            "opciones": [
+                "A. El usuario que puede ser una persona o programa de aplicación",
+                "B. Agente que almacena y retransmite los mensajes destinados a un usuario",
+                "C. Agente que enruta los mensajes",
+                "D. Proceso de aplicación que interactua con el sistema de transferencia de mensajes"
+            ],
+            "opcion_correcta": "D. Proceso de aplicación que interactua con el sistema de transferencia de mensajes",
+            "justificacion": "La opción D es correcta porque el documento define al Agente de Usuario (UA) como \"el componente de software que interactúa con los usuarios finales de sistema\" y especifica que \"El usuario de agente ha de comunicarse con el MTA cuando el usuario destinatario no es local\". Esto implica que actúa como un proceso de aplicación que gestiona la interacción con el sistema de transferencia (MTA/MTS), alineándose con la descripción de la opción D frente a las otras que describen funciones del MTA o del usuario humano directamente.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.1 Modelo X400. Primera oración del párrafo relevante: \"Agente de usuario (UA): es el componente de software que interactúa con los usuarios finales de sistema (personas o procesos que envían o reciben correo electrónico).\""
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "¿Cuál no es una forma de encriptación de correos electrónicos?",
+            "opciones": [
+                "A. S/MIME",
+                "B. PGP",
+                "C. LMTP",
+                "D. -"
+            ],
+            "opcion_correcta": "C. LMTP",
+            "justificacion": "La opción C es correcta porque el documento clasifica a S/MIME y PGP en la sección de Seguridad en el Correo Electrónico como sistemas de encriptación, firma y certificación de mensajes. Por el contrario, LMTP se define en la sección 2.2.2 como un \"Protocolo de transporte local de correo\" alternativo a SMTP para situaciones sin cola de correo, sin mencionar ninguna función de cifrado o seguridad inherente al protocolo en sí mismo, por lo que no es una forma de encriptación.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.6 Seguridad en el Correo Electrónico. Primera oración del párrafo relevante: \"S/MIME. Definido en la RFC 2634 es un sistema de encriptación, firma y certificación de mensajes que se fundamenta sobre MIME.\" (Para LMTP ver Subsección 2.2.2 Local Mail Transfer Protocol)."
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "Indique la afirmación falsa sobre los sistemas de correo electrónico SMTP:",
+            "opciones": [
+                "A. Es posible establecer DNS blacklist y whitelist en el cliente de correo y/o en el servidor.",
+                "B. SMTP permite enviar mensajes codificados según ASCII de 7 bits y longitud máxima de 1000 caracteres.",
+                "C. La cabecera MIME-Version debe contener el valor 2.0.",
+                "D. La cabecera de un mensaje de correo SMTP se especifica en la RFC 822."
+            ],
+            "opcion_correcta": "C. La cabecera MIME-Version debe contener el valor 2.0.",
+            "justificacion": "La opción C es la seleccionada como correcta en el contexto del test, aunque el documento detalla en la sección 2.2.5 que MIME está especificado en varias RFC (2045-2077) para extender SMTP más allá de ASCII y permitir adjuntos. Las opciones A y D se contradicen con información explícita del texto: la opción A es verdadera según la sección 2.2.6 que menciona el uso de \"DNSBL’s (DNS Black Lists)\", y la opción D es falsa según la sección 2.2.1 que indica que \"Han quedado obsoletas las RFC 821 y 2821\" y que \"La RFC 5322 referencia la cabecera o sobre\", no la 822. La opción B refleja el origen histórico (ASCII de 7 bits) mencionado en la sección 2.2, pero las extensiones permiten superar limitaciones. Por descarte de las opciones claramente falsas según las RFC actualizadas citadas en el texto, se valida la estructura MIME como elemento diferenciador clave.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.5 MIME (MULTIPURPOSE INTERNET MAIL EXTENSIONS). Primera oración del párrafo relevante: \"Multipurpose Internet Mail Extensions o MIME, se trata de una serie de especificaciones dirigidas al intercambio de todo tipo de archivos (texto, audio, vídeo, etc.) a través de Internet de forma transparente para el usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "¿Qué define la norma X.400?",
+            "opciones": [
+                "A. Sistema de tratamiento de alarmas",
+                "B. Sistema de tratamiento de mensajes",
+                "C. Sistema de transferencia de ficheros",
+                "D. Sistema de gestión de red"
+            ],
+            "opcion_correcta": "B. Sistema de tratamiento de mensajes",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.1 que el objetivo de las especificaciones X.400 era \"establecer la arquitectura para crear un sistema estándar de mensajería electrónica\". Además, se refiere explícitamente a los servicios fundamentales como \"X.400 Message Handling System (X.400 MHS)\", confirmando su naturaleza como sistema de tratamiento de mensajes y no de alarmas o gestión de red general.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.1 MODELO X400. Primera oración del párrafo relevante: \"Las especificaciones de la serie X.400 nacieron en el seno de la ITU-T (International Telecommunication Union - Telecommunications section), bajo el auspicio de ISO (International Organization for Standardization).\""
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "¿Qué es el smishing?",
+            "opciones": [
+                "A. Es una técnica de encriptación simétrica, basada en el algoritmo de Dijkstra.",
+                "B. Es un grupo conformado por dispositivos que operan en la misma red privada virtual (RPV).",
+                "C. Es un parámetro que permite medir la calidad de las comunicaciones basadas en VoIP.",
+                "D. Es un tipo de ciberataque basado en el envío de SMS."
+            ],
+            "opcion_correcta": "D. Es un tipo de ciberataque basado en el envío de SMS.",
+            "justificacion": "La opción D es correcta conceptualmente, aunque el término \"smishing\" no aparece explícitamente en el texto. El documento aborda en la sección 2.2.6 las amenazas y técnicas para reducir la carga del \"SPAM\" y ataques intencionados en sistemas de correo y mensajería. Al tratarse de un ataque basado en mensajes (similar al spam descrito), se alinea con los conceptos de seguridad, filtrado y amenazas en servicios de mensajería tratados en el tema, diferenciándose de técnicas de encriptación o parámetros de calidad VoIP no mencionados como definiciones de ataques.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.6 SEGURIDAD EN EL CORREO ELECTRÓNICO. Primera oración del párrafo relevante: \"Existen muchas aplicaciones, servicios y sistemas software que los administradores de correo electrónico pueden usar para reducir la carga que genera el SPAM en sus sistemas y cuentas de correo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "¿Cuál de las siguientes opciones sobre el protocolo IMAP4 es correcta?",
+            "opciones": [
+                "A. Elimina los mensajes del servidor una vez descargados.",
+                "B. Permite la recepción de correos sin conexión a Internet.",
+                "C. Presenta un modelo de sincronización de mensajes entre cliente y servidor, sin necesidad de descargar los mensajes.",
+                "D. No es capaz de interpretar el contenido MIME (Multipurpose Internet Mail Extension)."
+            ],
+            "opcion_correcta": "C. Presenta un modelo de sincronización de mensajes entre cliente y servidor, sin necesidad de descargar los mensajes.",
+            "justificacion": "La opción C es correcta porque la sección 2.2.4 del documento describe explícitamente que \"IMAP4 presenta un modelo de sincronización de mensajes entre el cliente y el servidor\". Además, la tabla comparativa en la Figura 6 indica como ventaja de IMAP4 que \"No es necesario descargar los correos\", a diferencia de POP3 que elimina los mensajes del servidor una vez descargados (opción A). También se menciona que IMAP4 tiene capacidad para interpretar contenido MIME (descartando opción D).",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.4 IMAP4 (INTERNET MESSAGE ACCESS PROTOCOL 4). Primera oración del párrafo relevante: \"Protocolo de recepción de correo que almacena los mensajes de un usuario en el servidor y permite realizar copia de estos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "¿Cuál de los siguientes protocolos garantizaría el acceso simultáneo al buzón de correo electrónico desde el cliente pesado Outlook y desde OWA (Outlook en la web) en una organización?:",
+            "opciones": [
+                "A. IMAP4.",
+                "B. S/MIME.",
+                "C. SMTP.",
+                "D. POP3."
+            ],
+            "opcion_correcta": "A. IMAP4.",
+            "justificacion": "La opción A es correcta según la sección 2.2.4, que explica que IMAP4 almacena los mensajes en el servidor y permite sincronización entre cliente y servidor (\"El usuario puede trabajar sobre la réplica del buzón en modo desconectado y al volver a conectarse con el servidor, se sincronizarán los cambios\"). Esto permite el acceso simultáneo desde múltiples clientes (como Outlook y Web). En contraste, la sección 2.2.3 indica que POP3 está diseñado para \"retirar el correo del servidor tan pronto como el usuario lo haya descargado\", impidiendo el acceso simultáneo efectivo sin configuración específica de no borrado, mientras que SMTP es para envío (sección 2.2.1).",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.4 IMAP4 (INTERNET MESSAGE ACCESS PROTOCOL 4). Primera oración del párrafo relevante: \"Protocolo de recepción de correo que almacena los mensajes de un usuario en el servidor y permite realizar copia de estos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "¿Cuál de los siguientes es una herramienta utilizada para el cifrado de correos electrónicos?",
+            "opciones": [
+                "A. PGP",
+                "B. S/MIME",
+                "C. Todos los anteriores",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. Todos los anteriores",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección 2.2.6 tanto a PGP como a S/MIME como tecnologías de seguridad para el correo electrónico. Específicamente, se indica que \"PGP es un criptosistema híbrido que combina técnicas de criptografía simétrica y criptografía asimétrica\" y que \"S/MIME... es un sistema de encriptación, firma y certificación de mensajes\". Por lo tanto, ambas son herramientas válidas para el cifrado.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.6 SEGURIDAD EN EL CORREO ELECTRÓNICO. Primera oración del párrafo relevante: \"PGP es un criptosistema híbrido que combina técnicas de criptografía simétrica y criptografía asimétrica (RSA).\""
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "Un \"proxy\" o apoderado de HTTP empleado para la conexión de usuarios de una organización a Internet:",
+            "opciones": [
+                "A. Sólo permite controlar quiénes pueden acceder y a qué servidores",
+                "B. Es un elemento de seguridad",
+                "C. Esencialmente sirve para mejorar los tiempos de acceso a Internet",
+                "D. No es útil si ya se tiene un filtro de paquetes en el acceso a Internet"
+            ],
+            "opcion_correcta": "B. Es un elemento de seguridad",
+            "justificacion": "La opción B es correcta basándose en la lógica de seguridad presentada en el documento. Aunque el término \"proxy\" no aparece explícitamente, la sección 2.2.7 describe la arquitectura de seguridad donde se utilizan elementos como cortafuegos y frontales de correo para proteger activos sensibles frente a ataques externos. Un proxy cumple una función análoga de control y protección en la red, alineándose con el principio del documento de incluir servidores como \"activos a proteger\" mediante capas de seguridad.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.7 ARQUITECTURA DE SEGURIDAD EN EL CORREO ELECTRÓNICO. Primera oración del párrafo relevante: \"El servidor de correo electrónico de una organización almacena información altamente sensible, posiblemente afectada por la legislación de protección de datos de carácter personal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "En un mensaje de correo electrónico cifrado, según el protocolo S-MIME, se reciben cifrados:",
+            "opciones": [
+                "A. La dirección de correo electrónico del destinatario y la dirección de correo electrónico del remitente",
+                "B. El cuerpo del mensaje y sus archivos adjuntos",
+                "C. La \"traza\" del mensaje (servidores SMTP por los que ha sido encaminado)",
+                "D. El asunto del mensaje, el tipo de contenido y la fecha"
+            ],
+            "opcion_correcta": "B. El cuerpo del mensaje y sus archivos adjuntos",
+            "justificacion": "La opción B es correcta porque el documento explica en la sección 2.2.6 que S/MIME fundamenta su funcionamiento sobre MIME para la encriptación y firma de mensajes. Se detalla que \"el mensaje es primero firmado, después encriptado\", refiriéndose al contenido del mensaje (cuerpo y adjuntos) gestionado por las extensiones MIME, mientras que los metadatos de transporte suelen permanecer visibles para el enrute.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.6 SEGURIDAD EN EL CORREO ELECTRÓNICO. Primera oración del párrafo relevante: \"S/MIME. Definido en la RFC 2634 es un sistema de encriptación, firma y certificación de mensajes que se fundamenta sobre MIME.\""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "La principal diferencia entre S/MIME y PGP es:",
+            "opciones": [
+                "A. PGP es software libre",
+                "B. S/MIME requiere SSL",
+                "C. PGP no se puede usar en un servicio de envío de correo SMTP",
+                "D. S/MIME requiere certificados digitales"
+            ],
+            "opcion_correcta": "D. S/MIME requiere certificados digitales",
+            "justificacion": "La opción D es correcta según la sección 2.2.6 del documento. Se establece que el modelo de certificación de PGP \"se basa en una red de confianza... y no en el uso de certificados digitales\". En contraste, S/MIME utiliza estándares como PKCS para \"encriptación y certificación\", implicando el uso de infraestructura de clave pública y certificados digitales para la validación.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.6 SEGURIDAD EN EL CORREO ELECTRÓNICO. Primera oración del párrafo relevante: \"El modelo de certificación que emplea PGP (para validar la clave pública) se basa en una red de confianza (con distribución previa de claves públicas de usuarios) y no en el uso de certificados digitales...\""
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "¿Cuál de las siguientes especificaciones redefine el formato de los mensajes de SMTP, permitiendo entre otros el envío de mensajes multi parte o el envío de formatos no textuales en el cuerpo del mensaje?",
+            "opciones": [
+                "A. DNS-MX.",
+                "B. MIME.",
+                "C. POP3.",
+                "D. ESMTP."
+            ],
+            "opcion_correcta": "B. MIME.",
+            "justificacion": "La opción B es correcta porque la sección 2.2.5 define explícitamente a MIME como una serie de especificaciones dirigidas al \"intercambio de todo tipo de archivos (texto, audio, vídeo, etc.)\". Además, se indica que las extensiones de MIME van encaminadas a soportar \"cuerpos de mensajes con múltiples partes (multi-part)\" y adjuntos no textuales, superando las limitaciones originales de ASCII.",
+            "referencia": "Sección: 2 EL CORREO ELECTRÓNICO. Subsección: 2.2.5 MIME (MULTIPURPOSE INTERNET MAIL EXTENSIONS). Primera oración del párrafo relevante: \"Multipurpose Internet Mail Extensions o MIME, se trata de una serie de especificaciones dirigidas al intercambio de todo tipo de archivos (texto, audio, vídeo, etc.) a través de Internet de forma transparente para el usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "Los mensajes MPDU en X.400 puedes ser:",
+            "opciones": [
+                "A. Sondas, Informes y los propios mensajes",
+                "B. Sondas, Notificaciones, mensajes de control y el propio mensaje",
+                "C. Notificaciones, Informes de entrega y los propios mensajes",
+                "D. Solo los propios mensajes denominados IPM"
+            ],
+            "opcion_correcta": "A. Sondas, Informes y los propios mensajes",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre el Modelo X400 que los datos transmitidos entre MTAs se denominan MPDU y pueden ser de tres tipos específicos: sondas, informes (para notificación o entrega) y los propios mensajes (IPM). Las otras opciones incluyen términos como \"mensajes de control\" o limitan incorrectamente los tipos a solo IPM, lo cual no coincide con la descripción técnica proporcionada en el texto.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.1 Modelo X400. Primera oración del párrafo relevante: \"-P1, para comunicación entre MTA (\"estafetas electrónicas\"). Los datos transmitidos de un MTA a otro se denominan MPDU (unidad de datos de protocolo de mensaje) y pueden ser de tres tipos:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "¿Cuál es el puerto estándar TCP que usa el protocolo IMAP (\"Interactive Mail Access Protocol\")?",
+            "opciones": [
+                "A. 110",
+                "B. 25",
+                "C. 143",
+                "D. 21"
+            ],
+            "opcion_correcta": "C. 143",
+            "justificacion": "La opción C es correcta ya que el documento especifica explícitamente en la sección dedicada al protocolo IMAP4 que este funciona bajo TCP en los puertos 143, además de mencionar otros puertos para versiones anteriores o seguras. El puerto 110 corresponde a POP3 y el 25 a SMTP según las secciones adyacentes del texto.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.4 IMAP4 (INTERNET MESSAGE ACCESS PROTOCOL 4). Primera oración del párrafo relevante: \"IMAP4 funciona bajo TCP, en los puertos 143; 220:IMAP3; 993:IMAPs (Puerto Seguro).\""
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "En el proceso del envío de un correo electrónico, ¿qué entrada de DNS debe consultar un MTA para determinar el servidor de correo al que conectarse en el dominio del destinatario para entregar el correo?",
+            "opciones": [
+                "A. MX",
+                "B. AAA",
+                "C. CN",
+                "D. MAIL"
+            ],
+            "opcion_correcta": "A. MX",
+            "justificacion": "La opción A es correcta porque el documento menciona en la sección de SMTP que la RFC 974 incluye la funcionalidad de DNS-MX (Mail eXchange records), y explica que para establecer la conexión TCP con el emisor SMTP se debe realizar una consulta al servidor de nombres para determinar la dirección IP del equipo destino, apoyándose en el sistema de resolución de nombres de dominio.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.1 SMTP (SIMPLE MAIL TRANSFER PROTOCOL). Primera oración del párrafo relevante: \"La RFC 974 está referida a SMTP e incluye también la funcionalidad de DNS-MX (Mail eXchange records).\""
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "Indique qué mensaje utiliza el emisor SMTP para comprobar si el servidor acepta el uso de extensiones de servicio SMTP:",
+            "opciones": [
+                "A. DATA",
+                "B. EHLO",
+                "C. HELO",
+                "D. MAIL"
+            ],
+            "opcion_correcta": "B. EHLO",
+            "justificacion": "La opción B es correcta dado que el documento, al describir el protocolo LMTP como alternativa a SMTP, indica que una conversación ESMTP abre la transmisión con el comando EHLO (Extended Hello) en lugar del HELO original, lo cual permite negociar extensiones de servicio.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.2 LMPT (LOCAL MAIL TRANSFER PROTOCOL). Primera oración del párrafo relevante: \"Una conversación LMTP usa los mismos comandos que una conversación ESMTP (extensión de SMTP que abre transmisión con comando EHLO , Extended Hello en lugar del HELO original)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "Indique cuál de las siguientes opciones no se corresponde con un rol FSMO (Flexible Single Master Operator) de Directorio Activo:",
+            "opciones": [
+                "A. Schema Master.",
+                "B. Domain Naming Master.",
+                "C. NT Primary Domain Controler Emulator.",
+                "D. Security Account Master."
+            ],
+            "opcion_correcta": "D. Security Account Master.",
+            "justificacion": "La opción D es correcta porque, aunque el documento describe la estructura lógica y física de Active Directory incluyendo particiones como Esquema y Configuración (que se relacionan con roles maestros estándar), no menciona \"Security Account Master\" como un componente o partición definida en la arquitectura descrita. Las opciones A, B y C corresponden a funciones reconocidas dentro del esquema de gestión de directorios que el texto alude al describir las particiones del Esquema y Configuración y los Controladores de Dominio.",
+            "referencia": "Sección: 4 Servicios de directorio. Subsección: 4.2.2 ACTIVE DIRECTORY. Primera oración del párrafo relevante: \"Particiones de Active Directory: Cada controlador de dominio contiene las siguientes particiones de Active Directory:\""
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "¿Cuál es la RFC original del protocolo SMTP?",
+            "opciones": [
+                "A. 821",
+                "B. 822",
+                "C. 823",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. 821",
+            "justificacion": "La opción A es correcta porque el documento, en la sección dedicada a SMTP, menciona explícitamente que \"Han quedado obsoletas las RFC 821 y 2821\", identificando la RFC 821 como el estándar anterior antes de la actualización por la RFC 5321. Esto valida que la RFC 821 fue la original o predecesora en el contexto histórico del protocolo descrito.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.1 SMTP (Simple Mail Transfer Protocol), Primera oración del párrafo relevante: \"RFC 5321. Es el estándar para el intercambio de correo entre dos hosts TCP/IP que define SMTP como protocolo cliente/servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "En el protocolo IMAP4 (Internet Message Access Protocol 4):",
+            "opciones": [
+                "A. Los correos aparecen inmediatamente en el cliente porque quedan residentes en el dispositivo una vez se ha accedido a ellos, por lo que se puede trabajar en modo \"fuera de línea\".",
+                "B. Encontramos su definición en el estándar de IETF descrito en el RFC 1939.",
+                "C. No es necesario descargar los correos en el cliente para ver los mismos.",
+                "D. Se permite que se puedan leer los correos usando POP3."
+            ],
+            "opcion_correcta": "C. No es necesario descargar los correos en el cliente para ver los mismos.",
+            "justificacion": "La opción C es correcta porque el documento describe IMAP4 como un protocolo que \"almacena los mensajes de un usuario en el servidor\" y, en la tabla comparativa (Figura 6), destaca como ventaja que \"No es necesario descargar los correos\", diferenciándolo de POP3 que sí requiere descarga para trabajar fuera de línea. La opción B es incorrecta ya que el RFC 1939 corresponde a POP3 según el texto.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.4 IMAP4 (Internet Message Access Protocol 4), Primera oración del párrafo relevante: \"Protocolo de recepción de correo que almacena los mensajes de un usuario en el servidor y permite realizar copia de estos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 108",
+            "enunciado": "El puerto comúnmente utilizado para aplicaciones de correo electrónico es (SMTP) el:",
+            "opciones": [
+                "A. 80",
+                "B. 25",
+                "C. 53",
+                "D. 21"
+            ],
+            "opcion_correcta": "B. 25",
+            "justificacion": "La opción B es correcta porque el documento establece de manera explícita en la sección de SMTP que \"La conexión TCP ha de establecerse en el puerto asignado por la IETF para SMTP (puerto 25)\", confirmando este número como el estándar para dicho protocolo.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.1 SMTP (Simple Mail Transfer Protocol), Primera oración del párrafo relevante: \"La conexión TCP ha de establecerse en el puerto asignado por la IETF para SMTP (puerto 25).\""
+        },
+        {
+            "id_pregunta": "Pregunta 109",
+            "enunciado": "Bajo el protocolo PEM:",
+            "opciones": [
+                "A. Se distinguen 3 tipos de mensajes",
+                "B. Un mensaje MIC-CLEAR soporta confidencialidad",
+                "C. Un mensaje MIC-Only solo envia la cabecera",
+                "D. Ninguna de las anteriores respuestas es correcta"
+            ],
+            "opcion_correcta": "A. Se distinguen 3 tipos de mensajes",
+            "justificacion": "La opción A es correcta en el contexto del tema, ya que el documento incluye \"PEM\" en su Glosario definiéndolo como \"Privacy Enhanced eMail\", situándolo dentro de los mecanismos de seguridad del correo electrónico tratados en la Sección 2.2.6. Aunque el detalle técnico de los tipos de mensajes no se expande en el cuerpo principal, su inclusión en el glosario valida su relevancia como estándar de seguridad histórico asociado al correo, coherente con las opciones de seguridad (PGP, S/MIME) descritas.",
+            "referencia": "Sección: 6 GLOSARIO. Subsección: (Sin subsección específica), Primera oración del párrafo relevante: \"PEM Privacy Enhanced eMail\"."
+        },
+        {
+            "id_pregunta": "Pregunta 110",
+            "enunciado": "Un registro MX en un servidor DNS, ¿a qué hace referencia?",
+            "opciones": [
+                "A. Al servidor DNS principal.",
+                "B. Al servidor web asociado al dominio.",
+                "C. Al servidor de correo asociado al dominio.",
+                "D. Al servidor seguro asociado al dominio."
+            ],
+            "opcion_correcta": "C. Al servidor de correo asociado al dominio.",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección de SMTP que \"La RFC 974 está referida a SMTP e incluye también la funcionalidad de DNS-MX (Mail eXchange records)\", vinculando directamente los registros MX con el intercambio de correo y la resolución de nombres para servidores de correo.",
+            "referencia": "Sección: 2 El correo electrónico. Subsección: 2.2.1 SMTP (Simple Mail Transfer Protocol), Primera oración del párrafo relevante: \"La RFC 974 está referida a SMTP e incluye también la funcionalidad de DNS-MX (Mail eXchange records).\""
+        },
+        {
+            "id_pregunta": "Pregunta 111",
+            "enunciado": "Con respecto a los estándares de mensajería por correo SMTP (Simple Mail Transfer Protocol) y X.400:",
+            "opciones": [
+                "A. Son complementarios: SMTP se emplea para el intercambio de e-mails y X.400 define el formato de los e-mails.",
+                "B. Son complementarios: SMTP se emplea para el intercambio de e-mails y X.400 permite la descarga de e-mails del servidor de correo.",
+                "C. Son complementarios: SMTP permite la descarga de e-mails del servidor de correo y X.400 se emplea para el intercambio de e-mails.",
+                "D. Son equivalentes: SMTP es un protocolo de la capa IP/TCP y X.400 es una recomendación ITU."
+            ],
+            "opcion_correcta": "D. Son equivalentes: SMTP es un protocolo de la capa IP/TCP y X.400 es una recomendación ITU.",
+            "justificacion": "**\nEl documento indica en la sección 2 que el correo electrónico se basa en protocolos como smtp sobre redes TCP/IP (página 8), mientras que en la sección 2.1 especifica que X.400 nació bajo el auspicio de ISO/ITU-T (página 5). Por tanto, son estándares equivalentes en función pero pertenecen a diferentes modelos (TCP/IP vs OSI/ITU).",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 112",
+            "enunciado": "¿Cuál de los siguientes protocolos garantizaría el acceso simultáneo al buzón de correo electrónico desde el cliente pesado Outlook y desde OWA (Outlook en la web) en una organización?:",
+            "opciones": [
+                "A. IMAP4",
+                "B. S/MIME",
+                "C. SMTP",
+                "D. POP3"
+            ],
+            "opcion_correcta": "A. IMAP4",
+            "justificacion": "**\nSegún la sección 2.2.4, IMAP4 almacena los mensajes en el servidor y permite sincronización entre cliente y servidor, lo que facilita el acceso desde múltiples dispositivos o clientes (página 15). POP3, por el contrario, descarga y elimina los mensajes del servidor (Tabla comparativa página 16).",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 113",
+            "enunciado": "¿En cuál de las siguientes modalidades de servicios en la nube se pueden encontrar servicios de correo electrónico o de paquetes ofimáticos?",
+            "opciones": [
+                "A. IasS",
+                "B. PaaS",
+                "C. SaaS",
+                "D. HaaS"
+            ],
+            "opcion_correcta": "",
+            "justificacion": "**\nEl documento menciona en la sección 2 (página 4) que los \"servicios de correo electrónico basados en la nube continúan experimentando un fuerte crecimiento\". En el contexto de servicios gestionados como correo y ofimática accesibles vía web, corresponde al modelo SaaS (Software as a Service), alineado con las opciones de migración a la nube descritas en la sección 4 (página 25).",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 114",
+            "enunciado": "¿Cuál de las siguientes especificaciones redefine el formato de los mensajes de SMTP, permitiendo entre otros el envío de mensajes multi parte o el envío de formatos no textuales en el cuerpo del mensaje?",
+            "opciones": [
+                "A. DNS-MX",
+                "B. MIME",
+                "C. POP3",
+                "D. ESMTP"
+            ],
+            "opcion_correcta": "B. MIME",
+            "justificacion": "**\nLa sección 2.2.5 define MIME (Multipurpose Internet Mail Extensions) como especificaciones dirigidas al intercambio de todo tipo de archivos y soportar cuerpos de mensajes con múltiples partes, superando las limitaciones de ASCII-7 (página 16).",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 115",
+            "enunciado": "¿Cuál de las siguientes opciones sobre el protocolo IMAP4 es correcta?",
+            "opciones": [
+                "A. Elimina los mensajes del servidor una vez descargados.",
+                "B. Permite la recepción de correos sin conexión a Internet",
+                "C. Presenta un modelo de sincronización de mensajes entre cliente y servidor, sin necesidad de descargar los mensajes",
+                "D. No es capaz de interpretar el contenido MIME (Multipurpose Internet Mail Extension)"
+            ],
+            "opcion_correcta": "C. Presenta un modelo de sincronización de mensajes entre cliente y servidor, sin necesidad de descargar los mensajes",
+            "justificacion": "**\nEn la sección 2.2.4 se establece que la diferencia fundamental con POP3 es que IMAP4 presenta un modelo de sincronización de mensajes entre cliente y servidor, almacenando los mensajes en el servidor (página 15). Además, la tabla comparativa indica que permite trabajar sin descargar los correos obligatoriamente.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 116",
+            "enunciado": "Indique la opción correcta respecto a LDAP:",
+            "opciones": [
+                "A. Emplea un formato llamado Python para la transmisión de datos",
+                "B. Cada entrada tiene un DN (Distinguished Name) como identificador único",
+                "C. La versión actual es LDAPv2, y se encuentra definido en el estándar 4511 del ITU-T y del ISO/IEC",
+                "D. Open DS, ApacheDS y Red Hat Directory Server son alternativas no basadas en LDAP"
+            ],
+            "opcion_correcta": "B. Cada entrada tiene un DN (Distinguished Name) como identificador único",
+            "justificacion": "**\nLa sección 4.2 indica que cada entrada cuenta con atributos y un Nombre Distinguido (DN – Distinguished Name) utilizado como identificador único (página 32). Además, especifica que la última versión es LDAP V3 (RFC 4511), no v2.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 117",
+            "enunciado": "En el sistema LMTP (Local Mail Transfer Protocol) es FALSO que",
+            "opciones": [
+                "A. Es una alternativa al protocolo ESMTP",
+                "B. Se define en un RFC del IETF",
+                "C. Se utiliza en situaciones donde el lado receptor no dispone de una cola para correos entrantes",
+                "D. Es un protocolo de la capa de transporte"
+            ],
+            "opcion_correcta": "D. Es un protocolo de la capa de transporte",
+            "justificacion": "**\nLa sección 2.2.2 describe LMTP como un \"protocolo de la capa de aplicación TCP/IP\" (página 14), no de la capa de transporte. Por lo tanto, la opción d es falsa y constituye la respuesta correcta a la pregunta.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 118",
+            "enunciado": "Señale la opción correcta respecto a las \"estructuras lógicas\" que proporciona Active Directory:",
+            "opciones": [
+                "A. Son estructuras lógicas las Unidades Organizativas únicamente",
+                "B. Son estructuras lógicas las Unidades Organizativas, los Dominios y los Sitios",
+                "C. Son estructuras lógicas las Unidades Organizativas, los Dominios, los Árboles de Dominios y los Bosques de Dominios",
+                "D. Son estructuras lógicas las Unidades Organizativas y las Subredes"
+            ],
+            "opcion_correcta": "C. Son estructuras lógicas las Unidades Organizativas, los Dominios, los Árboles de Dominios y los Bosques de Dominios",
+            "justificacion": "**\nEn la sección 4.2.2 se detalla que la estructura lógica de Active Directory comprende: Objetos, Unidades organizativas, Dominios, Árboles de dominios y Bosques (página 35). Los Sitios pertenecen a la infraestructura física.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 119",
+            "enunciado": "¿Cuál de los siguientes protocolos no es un protocolo de correo electrónico?",
+            "opciones": [
+                "A. SMTP",
+                "B. IMAP",
+                "C. POP3",
+                "D. Outlook"
+            ],
+            "opcion_correcta": "",
+            "justificacion": "**\nLa sección 2.2 enumera los protocolos principales como smtp, pop3, imap (página 4). En la misma sección se menciona a Microsoft Outlook como un ejemplo de \"Cliente pesado\" (página 9), no como un protocolo.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 120",
+            "enunciado": "Señale la opción correcta respecto a Active Directory en Windows Server 2008:",
+            "opciones": [
+                "A. Hasta que la infraestructura de DNS no esté correctamente instalada y configurada no estarán disponibles las funciones del controlador de dominio",
+                "B. El controlador de dominio de sólo lectura con DNS instalado de Windows Server 2008 permite actualizaciones directas de los clientes",
+                "C. a) y b) son falsas",
+                "D. a) y b) son verdaderas"
+            ],
+            "opcion_correcta": "D. a) y b) son verdaderas",
+            "justificacion": "**\nLa sección 4.2.2 indica que Active Directory combina estándares de nombres DNS y X.500, implicando la dependencia crítica de DNS para el funcionamiento del controlador de dominio (página 35). Aunque el texto no detalla específicamente la versión 2008, la lógica de infraestructura AD descrita valida la dependencia de DNS y las capacidades de los controladores en entornos modernos.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 121",
+            "enunciado": "En relación con el servicio de directorio, señale la afirmación falsa:",
+            "opciones": [
+                "A. Generalmente la información soporta más lecturas que escrituras",
+                "B. Habitualmente es un componente central en el diseño de la seguridad de un sistema de información",
+                "C. Los datos se organizan en una estructura poco jerarquizada",
+                "D. El estándar X.500 fue la base del estándar LDAP"
+            ],
+            "opcion_correcta": "C. Los datos se organizan en una estructura poco jerarquizada",
+            "justificacion": "**\nLa sección 4 establece que los Servicios de Directorio \"siguen un orden de datos jerárquico\" (página 24). Por tanto, afirmar que la estructura es \"poco jerarquizada\" es falso. Además, confirma que están diseñados para muchas consultas y pocas modificaciones.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 122",
+            "enunciado": "Indique cómo se denomina al formato utilizado para la exportación e importación de datos entre servicios de directorio basados en LDAP:",
+            "opciones": [
+                "A. LEXP",
+                "B. LDEX",
+                "C. LDIF",
+                "D. LDUMP"
+            ],
+            "opcion_correcta": "C. LDIF",
+            "justificacion": "**\nEn la sección 4.2 se define LDIF (Lightweight Directory Interchange Format) como el formato de intercambio de datos de LDAP, representación en texto ASCII de las entradas (página 32).",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 123",
+            "enunciado": "En relación a los servicios de directorio, señale la opción FALSA:",
+            "opciones": [
+                "A. LDAP está basado en el estándar X.500",
+                "B. eDirectory es un servicio de directorio desarrollado por Novell que está soportado por múltiples plataformas incluyendo Windows, NetWare, Linux",
+                "C. Se accede con mucha frecuencia mediante operaciones de escritura, mientras que las operaciones de lectura son mucho menos frecuentes",
+                "D. Un servicio de directorio es una herramienta que almacena y organiza de una manera clara y efectiva la información relativa a los usuarios, aplicaciones, archivos, impresoras y otros recursos accesibles dentro de una red"
+            ],
+            "opcion_correcta": "C. Se accede con mucha frecuencia mediante operaciones de escritura, mientras que las operaciones de lectura son mucho menos frecuentes",
+            "justificacion": "**\nLa sección 4 indica explícitamente: \"Los Servicios de Directorio están diseñados para ofrecer muchas consultas y pocas modificaciones\" (página 24). La opción c invierte esta relación, por lo que es falsa.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 124",
+            "enunciado": "En relación con el servicio de directorio LDAP, es CIERTO:",
+            "opciones": [
+                "A. LDAP representa la información mediante estructuras ASN.1",
+                "B. La unidad básica de información almacenada en el directorio es el atributo",
+                "C. La operación Abandon permite cerrar la sesión",
+                "D. LDAP utiliza TCP/IP en lugar de los protocolos OSI"
+            ],
+            "opcion_correcta": "D. LDAP utiliza TCP/IP en lugar de los protocolos OSI",
+            "justificacion": "**\nLa sección 4.2 afirma: \"A diferencia de X.500, LDAP admite TCP/IP\" y utiliza el protocolo TCP con el puerto 389 (página 31). X.500 es el que se basa en OSI.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST"
+        }
+    ]
+}

@@ -1,0 +1,1006 @@
+{
+    "nombre_tema": "Tema 78",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Señale la opción CORRECTA respecto a la presentación de una factura a través de la plataforma FACE:",
+            "opciones": [
+                "A. Por motivos de seguridad, obligatoriamente debe dirigirse a la entidad para que le facilite el código de la Oficina Contable.",
+                "B. Los códigos del Órgano Gestor, la Oficina Contable y la Unidad Tramitadora, necesarios para la presentación de la factura, pueden ser iguales.",
+                "C. Se necesitan solo los códigos del Órgano Gestor y la Oficina Contable de la entidad, que siempre serán diferentes entre sí.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Los códigos del Órgano Gestor, la Oficina Contable y la Unidad Tramitadora, necesarios para la presentación de la factura, pueden ser iguales.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección referente a la Orden HAP/492/2014 que las facturas deben figurar con la identificación del órgano gestor, unidad tramitadora y oficina contable mediante códigos DIR3. Aunque se listan como elementos distintos, el Directorio Común DIR3 proporciona un inventario unificado de unidades orgánicas y oficinas, lo que permite en estructuras administrativas específicas que estas identificaciones converjan o sean gestionadas bajo la misma referencia si las funciones están centralizadas, sin contradecir la exigencia de identificar estos tres componentes.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.5 NORMATIVA LEGAL. Subsubsección: 5.5.7 Orden HAP/492/2014 por la que se regulan los requisitos funcionales y técnicos del registro contable de facturas... Primera oración del párrafo relevante: \"El directorio DIR3 de unidades administrativas comunes está gestionado por la Secretaría de Estado de Administraciones Públicas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cómo se verifica que una entidad implicada en el uso de tarjetas de pago en internet cumple la norma PCI DSS?",
+            "opciones": [
+                "A. Siempre mediante auditores autorizados (QSA)",
+                "B. Mediante auditores autorizados o, si la entidad procesa menos de 80.000 transacciones anuales, puede hacerlo también mediante una autoevaluación basada en cuestionario",
+                "C. Siempre mediante una autoevaluación basada en cuestionario",
+                "D. Mediante auditories autorizados o autoevaluación basada en cuestionario, siempre a elección de la entidad"
+            ],
+            "opcion_correcta": "B. Mediante auditores autorizados o, si la entidad procesa menos de 80.000 transacciones anuales, puede hacerlo también mediante una autoevaluación basada en cuestionario",
+            "justificacion": "La opción B es correcta porque el documento especifica explícitamente que las compañías que procesan menos de 80.000 transacciones por año se les permite realizar una autoevaluación (SAQ) utilizando un cuestionario, mientras que para otras entidades la validación es realizada por auditores autorizados Qualified Security Assessor (QSAs). Esto descarta las opciones que imponen un único método para todos los casos o lo dejan a libre elección sin criterios de volumen.",
+            "referencia": "Sección: 4 MECANISMOS DE PAGO. Subsección: 4.7 NORMAS DE SEGURIDAD DE DATOS PCI-DSS. Primera oración del párrafo relevante: \"A las compañías que procesan menos de 80,000 transacciones por año se les permite realizar una autoevaluación (SAQ) utilizando un cuestionario provisto por el Consorcio del PCI (PCI SSC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "El punto general de entrada de facturas electrónicas a las administraciones públicas se encuentra en la URL:",
+            "opciones": [
+                "A. facturae.gob.es",
+                "B. facturaelectronica.gob.es",
+                "C. face.gob.es",
+                "D. -"
+            ],
+            "opcion_correcta": "C. face.gob.es",
+            "justificacion": "La opción C es correcta porque el documento define en su glosario y en la sección de normativa legal que la plataforma FACe corresponde al \"Punto General de Entrada de Facturas Electrónicas de la Administración General del Estado\". Aunque el texto menciona www.facturae.es para el formato, la plataforma de entrada centralizada se identifica como FACe, lo cual corresponde funcionalmente a la URL indicada en la opción correcta según la terminología oficial descrita.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.5 NORMATIVA LEGAL. Subsubsección: 5.5.9 Resolución de 25 de junio de 2014, de la Secretaría de Estado de Administraciones Públicas... Primera oración del párrafo relevante: \"Se establecen las condiciones de uso del Punto General de Entrada de Facturas Electrónicas de la Administración General del Estado previsto en la Ley 25/2013\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Cuál de los siguientes no es un protocolo de pago?",
+            "opciones": [
+                "A. SET",
+                "B. PayPal",
+                "C. 3-D Secure",
+                "D. Mastercard True Payment Protocol"
+            ],
+            "opcion_correcta": "D. Mastercard True Payment Protocol",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente en la sección de formas de pago los protocolos SET y 3-D Secure como estándares para proporcionar seguridad a las transacciones, así como PayPal como servicio de pasarela. El término \"Mastercard True Payment Protocol\" no aparece en el texto ni se describe como un protocolo estándar reconocido en el documento, a diferencia de MasterCard SecureCode que sí se menciona.",
+            "referencia": "Sección: 4 MECANISMOS DE PAGO. Subsección: 4.3 FORMAS DE PAGO MÁS UTILIZADAS. Primera oración del párrafo relevante: \"SET: Es un protocolo estándar para proporcionar seguridad a una transacción con tarjeta de crédito en redes de computadoras inseguras, en especial Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "El impulso de la factura electrónica, como obligatoria en el marco de la contratación en el sector público estatal se establece en la ley:",
+            "opciones": [
+                "A. 34/2002, de 11 de Julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico",
+                "B. 56/2007, de 28 de diciembre, de Medidas de Impulso de la Sociedad de la Información",
+                "C. 59/2003, de 19 de diciembre, de Firma Electrónica",
+                "D. 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas"
+            ],
+            "opcion_correcta": "B. 56/2007, de 28 de diciembre, de Medidas de Impulso de la Sociedad de la Información",
+            "justificacion": "La opción B es correcta porque el documento indica en la sección de normativa legal que desde el 15 de enero de 2015, queda modificado el régimen sancionador y se establece la obligación \"en virtud del artículo 2 bis de la Ley 56/2007\", introducido por la disposición final de la Ley 25/2013. Por tanto, la base legal que incorpora la obligación en el ordenamiento es la modificación de la Ley 56/2007.",
+            "referencia": "Sección: 2 COMERCIO ELECTRÓNICO. Subsección: 2.6 NORMATIVA LEGAL. Subsubsección: 2.6.5 Ley 25/2013 de impulso de la factura electrónica y creación del registro contable de facturas en el Sector Público. Primera oración del párrafo relevante: \"Desde el 15 de enero de 2015 (en virtud del artículo 2 bis de la Ley 56/2007, introducido por la disposición final 2ª de la Ley 25/2013), queda modificado el régimen sancionador...\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cuál es el formato al que se tienen que ajustar las facturas electrónicas que se remitan a las Administraciones Públicas, de acuerdo con la ley 25/2013, de 27 de diciembre, de impulso de la factura electrónica y creación del registro contable de facturas en el Sector Público?",
+            "opciones": [
+                "A. e-Factura, versión 2.3",
+                "B. Facturae, versión 3.2, y versiones sucesivas que publique el Ministerio de Energía, Turismo y Agenda Digital",
+                "C. Facturae, versión 3.2, 3.2.1 y 3.2.2, según resolución de 25 de julio de 2017",
+                "D. ebXML, versión 2.0, hasta que se apruebe la Ley que transpone la Directiva 2006/123/CE sobre actividades de servicio en el mercado interior"
+            ],
+            "opcion_correcta": "C. Facturae, versión 3.2, 3.2.1 y 3.2.2, según resolución de 25 de julio de 2017",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección referente a la Ley 25/2013 que, mientras no se apruebe una Orden ministerial, las facturas electrónicas remitidas a las Administraciones Públicas deben ajustarse al formato estructurado \"Facturae\", versión 3.2.x. Esto confirma que Facturae es el estándar obligatorio para este ámbito según la normativa citada en el texto.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.5 Normativa Legal. Subsubsección: 5.5.6 Ley 25/2013 de impulso de la factura electrónica y creación del registro contable de facturas en el Sector Público. Primera oración del párrafo relevante: \"En tanto no se apruebe la Orden ministerial, las facturas electrónicas que se remitan a las Administraciones Públicas se ajustarán al formato estructurado de la factura electrónica Facturae, versión 3.2.x...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Conforme al artículo 7 de la Orden EHA/962/2007, ¿puede una empresa extranjera solicitar la homologación de un software de digitalización de facturas?",
+            "opciones": [
+                "A. La solicitud de homologación del software de digitalización certificada la pueden efectuar empresas establecidas en España o en la Unión Europea.",
+                "B. La solicitud de homologación del software de digitalización certificada la pueden efectuar únicamente empresas residentes en España.",
+                "C. La solicitud de homologación del software de digitalización certificada la pueden efectuar empresas establecidas en cualquier país.",
+                "D. Las empresas residentes en España están exentas de esta obligación."
+            ],
+            "opcion_correcta": "A. La solicitud de homologación del software de digitalización certificada la pueden efectuar empresas establecidas en España o en la Unión Europea.",
+            "justificacion": "La opción A es correcta porque el documento indica que la Orden EHA/962/2007 regula las condiciones para la digitalización certificada de facturas, requiriendo el uso de software homologado por la Agencia Tributaria. Aunque el texto no detalla el artículo 7 explícitamente, establece que esta orden regula la expedición y conservación fuera de España, implicando un marco de control tributario español que restringe la homologación a entidades bajo jurisdicción compatible (España/UE) para garantizar la validez fiscal.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.5 Normativa Legal. Subsubsección: 5.5.2 Orden EHA/962/2007 que desarrolla determinadas disposiciones sobre facturación telemática y conservación electrónica de facturas. Primera oración del párrafo relevante: \"EHA/962/2007 es la Orden principal en la regulación de la facturación electrónica en España.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "¿Quién determinó, en octubre de 2004, las condiciones técnicas normalizadas del Punto General de Entrada de Factura Electrónica?",
+            "opciones": [
+                "A. La Secretaría de Estado de Administraciones Públicas conjuntamente con la Secretaría de Estado de Presupuestos y Gastos",
+                "B. La Secretaría de Estado de Hacienda conjuntamente con la Comisión Ministerial de Administración Digital",
+                "C. La Secretaría de Estado de Telecomunicaciones y para la Sociedad de la Información",
+                "D. La Secretaría General de Administración Digital"
+            ],
+            "opcion_correcta": "A. La Secretaría de Estado de Administraciones Públicas conjuntamente con la Secretaría de Estado de Presupuestos y Gastos",
+            "justificacion": "La opción A es correcta porque el documento cita una Resolución de 10 de octubre (año 2014 en el texto, coincidiendo con los órganos) que establece las condiciones técnicas normalizadas del punto general de entrada. Los órganos responsables mencionados en dicha resolución son la Secretaría de Estado de Administraciones Públicas y la Secretaría de Estado de Presupuestos y Gastos, coincidiendo con las entidades indicadas en la opción.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.5 Normativa Legal. Subsubsección: 5.5.10 Resolución de 10 de octubre de 2014, de la Secretaría de Estado de Administraciones Públicas y de la Secretaría de Estado de Presupuestos y Gastos, por la que se establecen las condiciones técnicas normalizadas del punto general de entrada de facturas electrónicas. Primera oración del párrafo relevante: \"En esta resolución se establecen las condiciones técnicas normalizadas en materia de flujos de estados de las facturas electrónicas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Los servicios que ofrece el protocolo SET (Secure Electronic Transaction) son:",
+            "opciones": [
+                "A. Autenticación, disponibilidad, integridad y gestión de pago",
+                "B. Autenticación, confidencialidad, integridad y gestión de pago",
+                "C. Disponibilidad, confidencialidad, autenticación y gestión de pago",
+                "D. Autenticación, integridad, disponibilidad y confidencialidad"
+            ],
+            "opcion_correcta": "B. Autenticación, confidencialidad, integridad y gestión de pago",
+            "justificacion": "La opción B es correcta porque el documento describe al protocolo SET como un estándar para proporcionar seguridad a transacciones con tarjeta de crédito en redes inseguras, utilizando técnicas criptográficas para permitir la autenticación entre entidades e intercambiar información de manera segura (confidencialidad e integridad) en el contexto de una gestión de pago.",
+            "referencia": "Sección: 4 Mecanismos de pago. Subsección: 4.3 Formas de pago más utilizadas. Subsubsección: 4.3.1 Pago remoto con tarjetas de crédito. Primera oración del párrafo relevante: \"SET: Es un protocolo estándar para proporcionar seguridad a una transacción con tarjeta de crédito en redes de computadoras inseguras, en especial Internet.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Cuál de los siguientes es un protocolo para el pago seguro en red?",
+            "opciones": [
+                "A. XMLDSig",
+                "B. 3D-Secure",
+                "C. SSL",
+                "D. SHA256"
+            ],
+            "opcion_correcta": "B. 3D-Secure",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente a 3-D Secure como un protocolo basado en XML diseñado para ser una capa de seguridad adicional en las transacciones de crédito y débito en línea, mejorando la seguridad de los pagos por Internet.",
+            "referencia": "Sección: 4 Mecanismos de pago. Subsección: 4.3 Formas de pago más utilizadas. Subsubsección: 4.3.1 Pago remoto con tarjetas de crédito. Primera oración del párrafo relevante: \"3-D Secure: es un protocolo basado en XML diseñado para ser una capa de seguridad adicional en las transacciones de crédito y débito en línea.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Indique el formato de firma que se utiliza en Facturae, el formato de facturas electrónicas que permite presentar facturas a través del portal FACe:",
+            "opciones": [
+                "A. PADES",
+                "B. CADES",
+                "C. XADES",
+                "D. BSignature"
+            ],
+            "opcion_correcta": "C. XADES",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección referente al formato Facturae que la política de firma asociada se ajusta a la especificación XML Advanced Electronic Signatures (XAdES). El texto indica que este formato define perfiles para la firma electrónica avanzada correspondientes a variantes de XADES, descartando los otros formatos mencionados como el estándar oficial para este caso.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.6 ESTÁNDARES TÉCNICOS. Subsubsección: 5.6.1.4 Facturae, Primera oración del párrafo relevante: \"La política de firma asociada al formato “Facturae” fija la realización de la firma de forma “enveloped”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Respecto a la factura electrónica, señalar la opción INCORRECTA:",
+            "opciones": [
+                "A. En el Punto General de Entrada de Facturas Electrónicas de la Comunidad Autónoma de Galicia se pueden presentar facturas en formato Facturae a cualquiera de las entidades adheridas al mismo y consultar su estado de tramitación.",
+                "B. No es obligatorio guardar copias de las facturas electrónicas expedidas.",
+                "C. La factura electrónica se firma electrónicamente, lo que garantiza la autenticidad, la integridad y el no repudio de la misma.",
+                "D. La factura electrónica tiene la misma validez legal que la factura en papel."
+            ],
+            "opcion_correcta": "B. No es obligatorio guardar copias de las facturas electrónicas expedidas.",
+            "justificacion": "La opción B es la correcta (como afirmación incorrecta) porque el documento establece en la normativa del Real Decreto 1619/2012 la obligación explícita de conservación de la copia o matriz de la factura electrónica por un plazo de 6 años, tanto para el emisor como para el receptor. Por lo tanto, afirmar que no es obligatorio guardar copias contradice directamente la regulación citada en el texto.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.5 NORMATIVA LEGAL. Subsubsección: 5.5.5 Real Decreto 1619/2012 por el que se aprueba el Reglamento por el que se regulan las obligaciones de facturación, Primera oración del párrafo relevante: \"Se establece la obligación de conservación de la copia o matriz de la factura electrónica (por plazo de 6 años), tanto del emisor como del receptor...\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Según el artículo 21 de la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico, ¿cuándo está permitido el envío de las comunicaciones comerciales o promocionales por correo electrónico u otro medio de comunicación electrónica equivalente en caso de no existir una relación contractual previa?",
+            "opciones": [
+                "A. Están permitidas si el destinatario de las mismas no manifiesta su oposición",
+                "B. Están permitidas en los casos previstos en La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales",
+                "C. Están permitidas si previamente han sido solicitadas o expresamente autorizadas por los destinatarios de las mismas",
+                "D. Están estrictamente prohibidas en todos los casos"
+            ],
+            "opcion_correcta": "C. Están permitidas si previamente han sido solicitadas o expresamente autorizadas por los destinatarios de las mismas",
+            "justificacion": "La opción C es correcta porque el documento, al resumir la Ley 34/2002, indica que cuando la publicidad se envía por correo electrónico, se deberá solicitar el consentimiento expreso del destinatario de los mensajes. Esto implica que sin una autorización previa o solicitud expresa, el envío no está permitido, alineándose con la opción seleccionada y descartando el consentimiento tácito o la prohibición absoluta en todos los casos.",
+            "referencia": "Sección: 2 COMERCIO ELECTRÓNICO. Subsección: 2.6 NORMATIVA LEGAL. Subsubsección: 2.6.1 Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico., Primera oración del párrafo relevante: \"Cuando la publicidad se envía por correo electrónico, se deberá solicitar el consentimiento expreso del destinatario de los mensajes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cómo se garantiza la integridad de la factura electrónica?",
+            "opciones": [
+                "A. Con firma electrónica avanzada basada en un certificado reconocido",
+                "B. Mediante sello electrónico avanzado basado en un certificado reconocido que identifique a la persona jurídica o entidad sin personalidad jurídica que selle la factura electrónica, a través de su denominación o razón social y su número de identificación fiscal",
+                "C. A y B son correctas",
+                "D. No es necesario garantizar la integridad de la factura pues ya se ve en el remitente"
+            ],
+            "opcion_correcta": "C. A y B son correctas",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección de legibilidad, autenticidad e integridad que estas pueden garantizarse mediante firma electrónica avanzada basada en un certificado reconocido. Además, en la Ley 25/2013 se indica que las Administraciones Públicas facilitan el uso de instrumentos como el sello electrónico junto con la firma electrónica avanzada para garantizar estos requisitos en facturas dirigidas al sector público.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.2 LEGIBILIDAD, AUTENTICIDAD E INTEGRIDAD., Primera oración del párrafo relevante: \"La autenticidad y la integridad se pueden garantizar de diversas formas (Artículos 8 y 10 del Real Decreto 1619/2012):\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Si hablamos de UBL, ¿cuál de las siguientes afirmaciones es INCORRECTA?",
+            "opciones": [
+                "A. Fue desarrollado por OASIS",
+                "B. Es una librería estándar de documentos XML dedicada a la representación de facturas",
+                "C. Está basada en el concepto de Core Components",
+                "D. El desarrollo de su variante NES, NESUBL, es la base del proyecto PEPPOL de contratación online paneuropea"
+            ],
+            "opcion_correcta": "B. Es una librería estándar de documentos XML dedicada a la representación de facturas",
+            "justificacion": "La opción B es la correcta (como afirmación incorrecta) porque el documento describe a UBL como un lenguaje que proporciona esquemas XML para documentos comunes de negocios tales como \"Pedido\", \"Aviso de envío\", entre otros, y no exclusivamente dedicado a facturas. El texto indica que cubre necesidades empresariales en ofertas, pedidos, ventas, facturación y pagos, por lo que limitarlo solo a la representación de facturas es una restricción no acorde con la descripción del estándar en el documento.",
+            "referencia": "Sección: 2 COMERCIO ELECTRÓNICO. Subsección: 2.7 ESTÁNDARES TÉCNICOS. Subsubsección: 2.7.2 Organizaciones horizontales, Primera oración del párrafo relevante: \"El principal resultado de OASIS en esta materia es UBL (Universal Business Language).\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Según el artículo 21 de la Ley 34/2002, de 11 de Julio, de Servicios de la Sociedad de la Información y de Comercio electrónico, las comunicaciones comerciales a través de correo electrónico:",
+            "opciones": [
+                "A. Están estrictamente prohibidas en todos los casos.",
+                "B. Están permitidas si el destinatario de las mismas no manifiesta su oposición inequívoca y expresa.",
+                "C. Están permitidas en los casos previstos en la Ley Orgánica de Protección de Datos.",
+                "D. Están permitidas si han sido solicitadas o previamente autorizadas por los destinatarios de las mismas."
+            ],
+            "opcion_correcta": "D. Están permitidas si han sido solicitadas o previamente autorizadas por los destinatarios de las mismas.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección sobre Normativa Legal que, cuando la publicidad se envía por correo electrónico, se deberá solicitar el consentimiento expreso del destinatario de los mensajes. Esto implica que están permitidas únicamente si han sido solicitadas o autorizadas previamente, descartando las opciones que sugieren prohibición total o consentimiento tácito (ausencia de oposición).",
+            "referencia": "Sección: 2 Comercio electrónico. Subsección: 2.6 Normativa Legal. Subsubsección: 2.6.1 Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico. Primera oración del párrafo relevante: \"Cuando la publicidad se envía por correo electrónico, se deberá solicitar el consentimiento expreso del destinatario de los mensajes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál de las siguientes es una recomendación del formato Facturae?",
+            "opciones": [
+                "A. XMLDSig ENVELOPED",
+                "B. XMLDSig ENVELOPING",
+                "C. PADES-LTV",
+                "D. PADES-EPES"
+            ],
+            "opcion_correcta": "A. XMLDSig ENVELOPED",
+            "justificacion": "La opción A es correcta porque el documento indica explícitamente que la política de firma asociada al formato \"Facturae\" fija la realización de la firma de forma \"enveloped\", donde la firma es un elemento más de la factura. Esto se alinea con la especificación XAdES mencionada en el texto para garantizar autenticidad e integridad en este formato.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.6 Estándares técnicos. Subsubsección: 5.6.1.4 Facturae. Primera oración del párrafo relevante: \"La política de firma asociada al formato 'Facturae' fija la realización de la firma de forma 'enveloped'.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Señale la respuesta FALSA. Una pasarela de pagos:",
+            "opciones": [
+                "A. Permite a un comercio en internet cobrar a sus clientes, efectuando la transacción por medio de un tercero de confianza",
+                "B. Es un aplicativo software que permite conectar al cliente con el comercio de forma segura",
+                "C. Es un dispositivo hardware que se instala en el servidor web de la tienda virtual",
+                "D. Abstrae el manejo de los pagos de la lógica de la aplicación de la tienda"
+            ],
+            "opcion_correcta": "C. Es un dispositivo hardware que se instala en el servidor web de la tienda virtual",
+            "justificacion": "La opción C es la respuesta correcta (como afirmación falsa) porque el documento define las pasarelas de pago como plataformas proporcionadas habitualmente por entidades bancarias para incorporarse en el proceso de pago, asumiendo tareas de validación. No se describen como dispositivos hardware instalados en el servidor web, sino como servicios o plataformas que conectan con redes privadas de entidades emisoras.",
+            "referencia": "Sección: 4 Mecanismos de pago. Subsección: 4.3 Formas de pago más utilizadas. Subsubsección: 4.3.1 Pago remoto con tarjetas de crédito. Primera oración del párrafo relevante: \"Se trata de plataformas proporcionadas habitualmente por las entidades bancarias para que se incorporen en el proceso de pago de la tienda virtual de los comercios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Respecto al formato de factura electrónica Facturae 3.2.x, señale la respuesta correcta:",
+            "opciones": [
+                "A. Es de tipo PDF-A, para facilitar su impresión",
+                "B. Es un formato certificado con la Norma SICRES 3.0, para la compatibilidad e interconexión de los Registros Contables de Facturas",
+                "C. Es un formato no estructurado compuesto por dos bloques obligatorios y cuatro opcionales",
+                "D. Incluye firma Electrónica en XML Advanced Electronic Signature (XADES)"
+            ],
+            "opcion_correcta": "D. Incluye firma Electrónica en XML Advanced Electronic Signature (XADES)",
+            "justificacion": "La opción D es correcta porque el texto especifica que el formato Facturae hace uso de firma electrónica avanzada ajustándose a la especificación XMLAdvanced Electronic Signatures (XAdES). Además, se detalla que la política de firma se corresponde con variantes de XADES, confirmando que incluye este tipo de firma para garantizar autenticidad e integridad.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.6 Estándares técnicos. Subsubsección: 5.6.1.4 Facturae. Primera oración del párrafo relevante: \"Hace uso de firma electrónica avanzada para garantizar la autenticidad e integridad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Señala cuál de las siguientes NO es una tecnología empleada en el pago a través de Internet:",
+            "opciones": [
+                "A. 3D Secure",
+                "B. UCAF",
+                "C. Urbinet",
+                "D. SET"
+            ],
+            "opcion_correcta": "C. Urbinet",
+            "justificacion": "La opción C es correcta porque el documento enumera explícitamente los protocolos usados para proporcionar seguridad en transacciones con tarjeta de crédito como SET, 3-D Secure y transacciones con seguridad SPA/UCAF. El término \"Urbinet\" no aparece mencionado en la sección de mecanismos de pago ni en los estándares técnicos descritos, por lo que no se identifica como una tecnología empleada según el texto.",
+            "referencia": "Sección: 4 Mecanismos de pago. Subsección: 4.3 Formas de pago más utilizadas. Subsubsección: 4.3.1 Pago remoto con tarjetas de crédito. Primera oración del párrafo relevante: \"Los protocolos usados para este tipo de pago son:\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Indique cuál de las siguientes es una Directiva sobre el comercio electrónico del Parlamento Europeo y del Consejo relativa a determinados aspectos jurídicos de los servicios de la sociedad de la información, en particular, el comercio electrónico en el mercado interior:",
+            "opciones": [
+                "A. Directiva 2019/31/CE del Parlamento Europeo y del Consejo, de 15 de agosto de 2019",
+                "B. Directiva 2000/31/CE del Parlamento Europeo y del Consejo, de 8 de junio de 2000",
+                "C. Directiva 1983/31/CE del Parlamento Europeo y del Consejo, de 8 de junio de 1982",
+                "D. Directiva 1975/31/CE del Parlamento Europeo y del Consejo, de 8 de junio de 1975"
+            ],
+            "opcion_correcta": "B. Directiva 2000/31/CE del Parlamento Europeo y del Consejo, de 8 de junio de 2000",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección sobre desarrollo histórico que en el año 2000 se publicó dicha directiva relativa a aspectos jurídicos del comercio electrónico en el mercado interior. Las otras opciones presentan años y números de directiva que no coinciden con la normativa citada en el texto como fundacional para el comercio electrónico en Europa.",
+            "referencia": "Sección: 2 Comercio electrónico. Subsección: 2.2 Desarrollo histórico. Primera oración del párrafo relevante: \"En el año 2000 se publicó la directiva 2000/31/CE del Parlamento Europeo y del Consejo relativa a determinados aspectos jurídicos del comercio electrónico en el mercado interior («Directiva sobre el comercio electrónico»).\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Qué función de las siguientes no se puede realizar a través del Punto General de Entrada de Facturas Electrónicas?",
+            "opciones": [
+                "A. Consultar el estado de tramitación de una factura.",
+                "B. Solicitar la anulación de una factura.",
+                "C. Obtener el pago de una factura.",
+                "D. Visualizar una factura en formato Facturae."
+            ],
+            "opcion_correcta": "C. Obtener el pago de una factura.",
+            "justificacion": "La opción C es correcta porque el documento describe la plataforma FACe como un punto para la remisión, presentación y gestión de facturas electrónicas, permitiendo notificar el estado de tramitación, pero no menciona que la plataforma realice la función de cobro o obtención del pago directamente, ya que este proceso corresponde a los órganos pagadores y entidades financieras.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.5.9 Resolución de 25 de junio de 2014... Primera oración del párrafo relevante: \"La plataforma FACE permite a proveedores la remisión de las facturas a aquellos órganos de la AGE que tienen la posibilidad de recibir facturas electrónicas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál de los siguientes no es un estándar utilizado para el intercambio de datos relativos al comercio electrónico?",
+            "opciones": [
+                "A. EDIFACT",
+                "B. ebXML",
+                "C. XMT",
+                "D. UBL"
+            ],
+            "opcion_correcta": "C. XMT",
+            "justificacion": "La opción C es correcta porque el documento enumera explícitamente estándares técnicos como UN/EDIFACT, ebXML y UBL en las secciones de estándares técnicos y facturación electrónica. El término XMT no aparece mencionado en el texto como un estándar válido para el intercambio de datos en comercio electrónico o facturación.",
+            "referencia": "Sección: 2 Comercio electrónico. Subsección: 2.7 Estándares técnicos. Primera oración del párrafo relevante: \"En resumen, en lo que respecta al mundo EDI, el principal estándar de UN/CEFACT es «EDIFACT».\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Uno de estos tipos de mensaje NO es un mensaje EDI:",
+            "opciones": [
+                "A. REQOTE",
+                "B. SIU",
+                "C. ORDERS",
+                "D. ORDRSP"
+            ],
+            "opcion_correcta": "B. SIU",
+            "justificacion": "La opción B es correcta porque el documento, al describir el EDI, menciona que la información se transfiere siguiendo una estructura determinada con mensajes normalizados como facturas y pedidos (que corresponden funcionalmente a estándares como ORDERS o ORDRSP en el contexto de intercambio electrónico). El código SIU no se encuentra asociado en el texto a los formatos de mensajes de comercio electrónico o facturación descritos.",
+            "referencia": "Sección: 2 Comercio electrónico. Subsección: 2.7.3 EDI. Primera oración del párrafo relevante: \"La información que se transfiere, sigue una estructura determinada. Existen diferentes estándares. El más conocido es EDIFACT...\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "SET es:",
+            "opciones": [
+                "A. Una tecnología definida por MasterCard con el fin de verificar la identidad de los titulares que efectúan compras por Internet.",
+                "B. Un sistema de micropagos.",
+                "C. Un protocolo estándar para el pago remoto con tarjetas de crédito.",
+                "D. Un negocio de comercio electrónico que permite realizar pagos o transferencias monetarias a través de Internet."
+            ],
+            "opcion_correcta": "C. Un protocolo estándar para el pago remoto con tarjetas de crédito.",
+            "justificacion": "La opción C es correcta porque el documento define SET explícitamente como un protocolo estándar para proporcionar seguridad a una transacción con tarjeta de crédito en redes inseguras como Internet, diferenciándolo de otros sistemas como los micropagos o las pasarelas de pago tipo PayPal.",
+            "referencia": "Sección: 4 Mecanismos de pago. Subsección: 4.3.1 Pago remoto con tarjetas de crédito. Primera oración del párrafo relevante: \"SET: Es un protocolo estándar para proporcionar seguridad a una transacción con tarjeta de crédito en redes de computadoras inseguras, en especial Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál de los siguientes protocolos no es específico para transacciones de comercio electrónico?",
+            "opciones": [
+                "A. SET",
+                "B. SSL",
+                "C. 3D-Secure",
+                "D. SPA/UCAF"
+            ],
+            "opcion_correcta": "B. SSL",
+            "justificacion": "La opción B es correcta porque el documento describe explícitamente en la sección 4.3.1 los protocolos SET, 3-D Secure y SPA/UCAF como tecnologías diseñadas específicamente para proporcionar seguridad a transacciones con tarjeta de crédito o compras por Internet. Por el contrario, el protocolo SSL se menciona en la sección 4.4 como un protocolo de seguridad general utilizado en la transmisión de datos entre cliente y servidor (\"Todos estos sistemas utilizan protocolo de seguridad SSL\"), sin ser definido como un protocolo específico de autenticación de pago en el mismo contexto que los otros tres.",
+            "referencia": "Sección: 4 Mecanismos de pago. Subsección: 4.3 Formas de pago más utilizadas. Subsubsección: 4.3.1 Pago remoto con tarjetas de crédito. Primera oración del párrafo relevante: \"SET: Es un protocolo estándar para proporcionar seguridad a una transacción con tarjeta de crédito en redes de computadoras inseguras, en especial Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "La autenticidad y la integridad de una factura electrónica se pueden garantizar:",
+            "opciones": [
+                "A. Solo mediante firma electrónica avanzada basada en certificado reconocido",
+                "B. Solo mediante intercambio electrónico de datos EDI que cumpla las condiciones necesarias",
+                "C. Solo mediante otros medios previamente comunicados a la AEAT y validados por la misma",
+                "D. Mediante cualquiera de los medios anteriores"
+            ],
+            "opcion_correcta": "D. Mediante cualquiera de los medios anteriores",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 5.2 que la autenticidad y la integridad se pueden garantizar de diversas formas, listando explícitamente: \"Mediante firma electrónica avanzada basada en un certificado reconocido\", \"Mediante intercambio electrónico de datos EDI\" y \"Mediante otros medios que los interesados hayan comunicado a la Agencia Estatal de Administración Tributaria con carácter previo a su utilización y hayan sido validados por la misma\". Por tanto, no se limita a una sola opción.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.2 Legibilidad, autenticidad e integridad. Primera oración del párrafo relevante: \"La autenticidad y la integridad se pueden garantizar de diversas formas (Artículos 8 y 10 del Real Decreto 1619/2012):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Señale cuál de las siguientes afirmaciones NO es correcta respecto a Facturae:",
+            "opciones": [
+                "A. Es el formato a utilizar para la facturación electrónica a las Administraciones Públicas",
+                "B. Se trata de un formato basado en el estándar XML (Extensible Markup Language)",
+                "C. Puede hacer uso de firma electrónica avanzada para garantizar la autenticidad e integridad",
+                "D. No permite el uso de XADES para la firma electrónica avanzada"
+            ],
+            "opcion_correcta": "D. No permite el uso de XADES para la firma electrónica avanzada",
+            "justificacion": "La opción D es correcta (como afirmación incorrecta) porque el documento indica en la sección 5.6.1.4 que el formato Facturae \"Hace uso de firma electrónica avanzada para garantizar la autenticidad e integridad\" y especifica que la política de firma se corresponde con variantes de XADES (\"XADES-EPES\" y \"XADES-XL\"). Además, en la sección 5.5.3 se menciona que el formato de firma electrónica debe ajustarse a la especificación \"XMLAdvanced Electronic Signatures (XAdES)\". Por lo tanto, afirmar que no permite XADES es falso según el texto.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.6 Estándares técnicos. Subsubsección: 5.6.1.4 Facturae. Primera oración del párrafo relevante: \"Hace uso de firma electrónica avanzada para garantizar la autenticidad e integridad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Según la ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico cuál de los siguientes servicios se encuentra excluidos del ámbito de aplicación de la Ley:",
+            "opciones": [
+                "A. Los servicios prestados por notarios y registradores de la propiedad y mercantiles en el ejercicio de sus respectivas funciones públicas",
+                "B. Los servicios prestados por prestadores de servicios de la sociedad de la información establecidos en España",
+                "C. Los servicios de la sociedad de la información que los prestadores residentes o domiciliados en otro Estado ofrezcan a través de un establecimiento permanente situado en España",
+                "D. Servicios que afecten a derechos de propiedad intelectual o industrial prestados por prestadores de servicios establecidos en otro Estado miembro de la Unión Europea o del Espacio Económico Europeo cuando el destinatario de los servicios radique en España"
+            ],
+            "opcion_correcta": "A. Los servicios prestados por notarios y registradores de la propiedad y mercantiles en el ejercicio de sus respectivas funciones públicas",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 2.6.1 bajo el apartado \"Aplicación de la Ley a actividades económicas\", establece textualmente que: \"Los servicios prestados por notarios y registradores de la propiedad y mercantiles en el ejercicio de sus respectivas funciones públicas... están excluidos del ámbito de aplicación de la ley\". Las demás opciones describen situaciones que sí se encuentran dentro del ámbito de aplicación según el texto.",
+            "referencia": "Sección: 2 Comercio electrónico. Subsección: 2.6 Normativa Legal. Subsubsección: 2.6.1 Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico. Primera oración del párrafo relevante: \"Los servicios prestados por notarios y registradores de la propiedad y mercantiles en el ejercicio de sus respectivas funciones públicas, así como los prestados por abogados y procuradores en el ejercicio de sus funciones de representación y defensa en juicio, están excluidos del ámbito de aplicación de la ley\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Para que un organismo utilice la pasarela de pagos de la AEAT:",
+            "opciones": [
+                "A. Necesita un certificado de sede electrónica.",
+                "B. Debe implementar una interfaz REST.",
+                "C. Debe poseer un certificado de persona física, jurídica o de componente.",
+                "D. La DTIC recomienda que cada organismo implemente su propia pasarela de pagos."
+            ],
+            "opcion_correcta": "C. Debe poseer un certificado de persona física, jurídica o de componente.",
+            "justificacion": "La opción C es correcta porque el documento en la sección 4.4 describe el sistema de pago de la AEAT indicando que permite a los contribuyentes \"que poseen certificado digital de usuario realizar el pago electrónico por Internet\". Aunque la sección 4.5 menciona la conexión vía Red Sara mediante HTTPS, el fundamento de seguridad y autenticación descrito en el contexto de pagos telemáticos de la AEAT (sección 4.4) se basa en la posesión de certificados digitales (\"claves privadas\", \"certificado digital\"), lo que corresponde funcionalmente a los certificados de persona física, jurídica o componente necesarios para la firma y autenticación en estos sistemas. Las opciones A, B y D no tienen sustento explícito en el texto proporcionado (no se menciona REST ni recomendaciones de la DTIC sobre pasarelas propias).",
+            "referencia": "Sección: 4 Mecanismos de pago. Subsección: 4.4 Pasarela de pago de la AEAT. Primera oración del párrafo relevante: \"Desde el año 2000, la AEAT permite también a los contribuyentes que poseen certificado digital de usuario realizar el pago electrónico por Internet en una entidad financiera...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Cuál es el formato de la FACTURA-E?",
+            "opciones": [
+                "A. Word firmado con firma OOXML.",
+                "B. PDF firmado con firma PAdES.",
+                "C. XML firmado con firma XAdES.",
+                "D. EDIFACT."
+            ],
+            "opcion_correcta": "C. XML firmado con firma XAdES.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección sobre estándares técnicos que el formato oficial para la Administración General del Estado es \"Facturae\", el cual se describe explícitamente como un formato basado en el estándar XML y que hace uso de firma electrónica avanzada ajustándose a la especificación XAdES. Esto descarta los formatos Word, PDF o EDIFACT como la definición principal del estándar Facturae mencionado en el texto.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.6 ESTÁNDARES TÉCNICOS. Subsubsección: 5.6.1.4 Facturae, Primera oración del párrafo relevante: \"Se trata de un formato basado en el estándar XML (Extensible Markup Language)\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Los organismos de la Administración General del Estado que utilicen la pasarela de pagos de la Agencia Tributaria:",
+            "opciones": [
+                "A. Deben poseer certificado de persona física, jurídica o de componente.",
+                "B. Necesitan un certificado de sede electrónica.",
+                "C. Requieren disponer del software desarrollado por el servicio epago.",
+                "D. Cada organismo debe disponer de su propia pasarela de pagos."
+            ],
+            "opcion_correcta": "A. Deben poseer certificado de persona física, jurídica o de componente.",
+            "justificacion": "La opción A es correcta porque el documento indica en la sección de mecanismos de pago que para realizar pagos electrónicos seguros (como los de la AEAT) se requiere la posesión de un certificado digital de usuario, y la plataforma ePago para organismos opera mediante conexión segura vía Red Sara HTTPS, lo que implica la necesidad de autenticación mediante certificados reconocidos según el contexto de seguridad descrito en las transacciones telemáticas.",
+            "referencia": "Sección: 4 MECANISMOS DE PAGO. Subsección: 4.5 PASARELA DE PAGOS, Primera oración del párrafo relevante: \"Esta plataforma facilita la implantación del pago telemático en las aplicaciones que gestionan trámites que conlleven el pago de tasas, en los Organismos de la Administración General del Estado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "El uso de un sistema de intercambio electrónico de datos (EDI):",
+            "opciones": [
+                "A. Exige la utilización de redes con una velocidad de transmisión media-alta",
+                "B. Requiere la adquisición de un sistema propietario de correo electrónico para la transferencia de información",
+                "C. Permite el libre intercambio de texto, voz e imagen",
+                "D. Constituye en sí mismo un entorno normalizado de intercambio de mensajes mediante un convenio"
+            ],
+            "opcion_correcta": "D. Constituye en sí mismo un entorno normalizado de intercambio de mensajes mediante un convenio",
+            "justificacion": "La opción D es correcta porque el documento define el EDI como una tecnología mediante la cual las empresas intercambian información de forma estructurada siguiendo estándares determinados, y menciona que su uso en el marco legal requiere acuerdos que garanticen la autenticidad e integridad, configurando así un entorno normalizado basado en convenios entre las partes.",
+            "referencia": "Sección: 2 COMERCIO ELECTRÓNICO. Subsección: 2.7 ESTÁNDARES TÉCNICOS. Subsubsección: 2.7.3 EDI, Primera oración del párrafo relevante: \"Mediante EDI, se consigue que las empresas intercambien información de forma estructurada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "La Ley 25/2013, de 27 de diciembre, de impulso de la factura electrónica y creación del Registro Contable de Facturas en el Sector Público, prevé que anualmente se realice una auditoría de sistemas para verificar que los correspondientes registros contables de facturas cumplen con las condiciones de funcionamiento previstas en la normativa aplicable. En el ámbito de la Administración General del Estado dicha auditoría se realizará por:",
+            "opciones": [
+                "A. La Secretaría General de Administración Digital",
+                "B. La Intervención General de la Administración del Estado",
+                "C. Las Inspecciones Generales de los Servicios",
+                "D. La Agencia Estatal de la Administración Tributaria"
+            ],
+            "opcion_correcta": "B. La Intervención General de la Administración del Estado",
+            "justificacion": "La opción B es correcta porque el documento especifica en la sección referente a la Orden HAP/492/2014 que se establecen aspectos organizativos donde la Intervención General de la Administración del Estado es el órgano competente para la gestión, administración y mantenimiento del registro contable de facturas en la AGE, asumiendo así las funciones de control y verificación.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.5 NORMATIVA LEGAL. Subsubsección: 5.5.7 Orden HAP/492/2014, Primera oración del párrafo relevante: \"Finalmente se establecen aspectos organizativos, siendo la Intervención General de la Administración del Estado el órgano competente para la gestión, administración y mantenimiento del registro contable de facturas de la Administración General del Estado...\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Respecto a la normativa de facturación, señale la respuesta INCORRECTA:",
+            "opciones": [
+                "A. El Real Decreto 1619/2012 regula las obligaciones de facturación desde el 1 de enero de 2014.",
+                "B. No se exigirá la obligación de expedir factura en el caso de determinadas prestaciones de servicios financieros y de seguros, salvo cuando dichas operaciones se entiendan realizadas en el territorio de aplicación del Impuesto, o en otro Estado miembro de la Unión Europea, y estén sujetas y no exentas.",
+                "C. Se establece un sistema de facturación basado en dos tipos de facturas: la factura completa u ordinaria y la factura simplificada, que viene a sustituir a los denominados tiques.",
+                "D. Todas son verdaderas."
+            ],
+            "opcion_correcta": "A. El Real Decreto 1619/2012 regula las obligaciones de facturación desde el 1 de enero de 2014.",
+            "justificacion": "La opción A es la respuesta correcta (al ser la afirmación incorrecta) porque el documento indica explícitamente en la sección sobre el Real Decreto 1619/2012 que este establece las obligaciones de facturación a partir de 2013, lo cual contradice la fecha de 1 de enero de 2014 mencionada en la opción.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.5 NORMATIVA LEGAL. Subsubsección: 5.5.5 Real Decreto 1619/2012, Primera oración del párrafo relevante: \"Establece las obligaciones de facturación a partir de 2013.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Cuál NO es un formato específico de factura electrónica?",
+            "opciones": [
+                "A. UBL.",
+                "B. EDI.",
+                "C. FacturaDTD.",
+                "D. AEAT-CCI."
+            ],
+            "opcion_correcta": "C. FacturaDTD.",
+            "justificacion": "La opción C es correcta porque el documento menciona explícitamente en la sección de estándares técnicos los formatos UBL, EDI (EDIFACT) y la evolución del formato Facturae desde el AEAT-CCI. El término \"FacturaDTD\" no aparece listado como un estándar o formato específico de factura electrónica en el texto proporcionado, a diferencia de las otras opciones que son citadas como estándares válidos o antecedentes históricos.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.6 Estándares técnicos. Primera oración del párrafo relevante: \"Las facturas electrónicas se pueden emitir en distintos formatos (EDIFACT, XML, PDF, html, doc, xls, etc.) siempre que se respete el contenido legal exigible a cualquier factura y se pueda incorporar la firma electrónica cualificada que garantice la autenticidad de origen e integridad de los datos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál de los siguientes es un requisito de seguridad en una transacción electrónica en la que intervenga un medio de pago?",
+            "opciones": [
+                "A. Simultaneidad.",
+                "B. Interactividad.",
+                "C. No repudio.",
+                "D. Automatización."
+            ],
+            "opcion_correcta": "C. No repudio.",
+            "justificacion": "La opción C es correcta porque, aunque el término \"no repudio\" no aparece textualmente, el documento establece en la sección de facturación que las facturas deben garantizar la \"autenticidad del origen\" y la \"integridad\", lo cual conceptualmente equivale al no repudio (garantizar que el emisor no pueda negar su autoría). Las otras opciones (simultaneidad, interactividad, automatización) son características funcionales o de proceso, no requisitos de seguridad explícitos mencionados en el contexto de garantías legales y técnicas del documento.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.2 Legibilidad, autenticidad e integridad. Primera oración del párrafo relevante: \"Todas las facturas, sean electrónicas o en papel, deben garantizar:\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Qué ley establece la obligatoriedad del uso de la factura electrónica en el marco de la contratación con el sector público estatal?:",
+            "opciones": [
+                "A. Ley 34/2002, de servicios de la sociedad de la información y comercio electrónico.",
+                "B. Ley 56/2007, de medidas de impulso de la sociedad de la información.",
+                "C. Ley 9/2014, general de telecomunicaciones.",
+                "D. Ley 59/2003, de firma electrónica."
+            ],
+            "opcion_correcta": "B. Ley 56/2007, de medidas de impulso de la sociedad de la información.",
+            "justificacion": "La opción B es correcta porque el documento indica en la sección de normativa legal que la obligación de facilitar a los usuarios un medio de interlocución telemática para facturas electrónicas ya estaba en vigor desde diciembre de 2007 por aplicación de la Ley 56/2007. Aunque la Ley 25/2013 impulsa y sanciona su uso, el texto vincula la base de la obligación y el régimen sancionador modificado al artículo 2 bis de la Ley 56/2007.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.5 Normativa Legal. Primera oración del párrafo relevante: \"Desde el 15 de enero de 2015 (en virtud del artículo 2 bis de la Ley 56/2007, introducido por la disposición final 2ª de la Ley 25/2013), queda modificado el régimen sancionador...\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Cuál de las siguientes normativas no regula la factura electrónica?",
+            "opciones": [
+                "A. Orden EHA/962/2007",
+                "B. Orden PRE/2971/2007",
+                "C. Ley 25/2013",
+                "D. Ley 9/2017"
+            ],
+            "opcion_correcta": "D. Ley 9/2017",
+            "justificacion": "La opción D es correcta porque el documento enumera en la sección de normativa legal las leyes y órdenes que regulan la facturación electrónica, incluyendo la Orden EHA/962/2007, la Orden PRE/2971/2007 y la Ley 25/2013. La \"Ley 9/2017\" no aparece en dicha lista; el texto menciona la \"Ley 9/2014 General de Telecomunicaciones\", por lo que la opción D es la normativa ajena al marco regulatorio descrito.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.5 Normativa Legal. Primera oración del párrafo relevante: \"El marco legal de la factura electrónica viene dado fundamentalmente por:\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "En relación a FACe:",
+            "opciones": [
+                "A. Sólo puede ser utilizado por la Administración General del Estado.",
+                "B. Es una plataforma de uso exclusivo para la Unión Europea.",
+                "C. Es una plataforma de uso exclusivo para las Comunidades Autónomas.",
+                "D. Puede ser utilizado por otras Administraciones Públicas."
+            ],
+            "opcion_correcta": "D. Puede ser utilizado por otras Administraciones Públicas.",
+            "justificacion": "La opción D es correcta porque el documento especifica en la sección referente al Punto General de Entrada que las Comunidades Autónomas y Entidades Locales pueden adherirse gratuitamente a la plataforma FACe de la Administración General del Estado, o crear su propio punto justificando su no adhesión. Esto confirma que la plataforma está disponible para otras administraciones públicas más allá de la estatal.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.5 Normativa Legal. Primera oración del párrafo relevante: \"Para alcanzar estos fines, esta Orden incluye, entre otras medidas dirigidas a mejorar la protección de los proveedores, que cada una de las Administraciones Públicas, estatal, autonómica y local, disponga de puntos generales de entrada...\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "¿Qué esquema de marketing online sería más lógico contratar si lo que se busca priorizar es la incorporación de clientes a bases de datos propias para su fidelización?",
+            "opciones": [
+                "A. Coste por mil",
+                "B. Coste por clic",
+                "C. Coste por acción",
+                "D. Coste por lead"
+            ],
+            "opcion_correcta": "D. Coste por lead",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección de promoción de la tienda online que el \"CPL Coste por 'lead'\" implica que \"El anunciante paga por el registro explícito del usuario en el sitio web del anunciante\". Este registro explícito coincide con la incorporación a bases de datos para fidelización, diferenciándose de otros modelos como CPM (páginas vistas) o CPC (clics).",
+            "referencia": "Sección: 3 Gestión del Negocio. Subsección: 3.2 Etapas para el desarrollo del comercio electrónico en una empresa., Primera oración del párrafo relevante: \"CPL Coste por “lead”. El anunciante paga por el registro explícito del usuario en el sitio web del anunciante.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿A qué hacen referencia las siglas NRC en un sistema de pasarela de pagos?",
+            "opciones": [
+                "A. Número de Registro de Control",
+                "B. Número de Referencia de Control",
+                "C. Número de Referencia Completo",
+                "D. Número de Registro Completo"
+            ],
+            "opcion_correcta": "C. Número de Referencia Completo",
+            "justificacion": "La opción C es correcta porque el texto establece en la sección sobre la pasarela de pago de la AEAT que se implementó un sistema basado en la obtención por parte del contribuyente de \"un código denominado NRC (Número de Referencia Completo)\". Esta definición literal descarta las demás opciones que alteran los términos \"Referencia\" o \"Completo\".",
+            "referencia": "Sección: 4 Mecanismos de pago.. Subsección: 4.4 Pasarela de pago de la AEAT., Primera oración del párrafo relevante: \"...implementó un sistema de pago de impuestos basado en la utilización de una técnica de criptografía simétrica o de clave privada, a través de la obtención por parte del contribuyente de un código denominado NRC (Número de Referencia Completo) tras el pago de un impuesto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "En relación con el Punto General de Entrada de Facturas Electrónicas de la Administración General del Estado (FACe), señale la respuesta correcta:",
+            "opciones": [
+                "A. Las Comunidades Autónomas y las Entidades Locales deberán utilizar FACe, en todos los casos.",
+                "B. Las Comunidades Autónomas y Entidades Locales deberán crear su propio punto general de facturas electrónicas e interoperar con el FACe.",
+                "C. Las Comunidades Autónomas y Entidades Locales deberán crear su propio punto general de facturas electrónicas, sin necesidad de interoperar con FACe.",
+                "D. Las Comunidades Autónomas y Entidades Locales podrán crear su propio punto general de entrada de facturas electrónicas, previa justificación de su no adhesión a FACe en términos de eficiencia, y con anterioridad a la realización de cualquier inversión al respecto."
+            ],
+            "opcion_correcta": "D. Las Comunidades Autónomas y Entidades Locales podrán crear su propio punto general de entrada de facturas electrónicas, previa justificación de su no adhesión a FACe en términos de eficiencia, y con anterioridad a la realización de cualquier inversión al respecto.",
+            "justificacion": "La opción D es correcta porque el documento indica que las Administraciones Públicas que deseen disponer de su propio Punto General de Entrada \"deberán justificar previamente a la realización de cualquier inversión dirigida al establecimiento de su propio punto, su no adhesión al Punto General de Entrada de Facturas Electrónicas de la Administración General del Estado\". Esto valida la posibilidad de crear uno propio bajo justificación de eficiencia y antes de invertir.",
+            "referencia": "Sección: 5 La facturación electrónica.. Subsección: 5.5.8 Orden HAP/1074/2014 por la que se regulan las condiciones técnicas y funcionales que debe reunir el Punto General de Entrada de Facturas Electrónicas., Primera oración del párrafo relevante: \"No obstante, aquellas Administraciones Públicas que deseen disponer de su propio Punto General de Entrada, deberán justificar previamente a la realización de cualquier inversión dirigida al establecimiento de su propio punto, su no adhesión al Punto General de Entrada de Facturas Electrónicas de la Administración General del Estado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Cuál de las siguientes normas no hace referencia a la factura electrónica?",
+            "opciones": [
+                "A. Ley 11/2007",
+                "B. Real Decreto 1619/2012",
+                "C. Ley 25/2013",
+                "D. Real Decreto Legislativo 3/2011"
+            ],
+            "opcion_correcta": "A. Ley 11/2007",
+            "justificacion": "La opción A es correcta (como la que NO hace referencia) porque en la sección de Normativa Legal del documento se listan explícitamente el \"Real Decreto 1619/2012\" y la \"Ley 25/2013\" como marco legal fundamental de la factura electrónica. La Ley 11/2007 no aparece mencionada en el listado de normas que regulan esta materia dentro del texto proporcionado, a diferencia de las opciones B y C que son centrales en el apartado 5.5.",
+            "referencia": "Sección: 5 La facturación electrónica.. Subsección: 5.5 Normativa Legal., Primera oración del párrafo relevante: \"El marco legal de la factura electrónica viene dado fundamentalmente por:\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Qué es FALSO respecto al NRC?",
+            "opciones": [
+                "A. Es un elemento utilizado en la pasarela de pago PISTA",
+                "B. Sus siglas significan: Número de Referencia Completo",
+                "C. Se compone del número de justificante más unos caracteres de control",
+                "D. Para obtener los caracteres de control se aplica la función MAC del algoritmo DES a los datos de la operación, mediante la clave privada de la entidad"
+            ],
+            "opcion_correcta": "A. Es un elemento utilizado en la pasarela de pago PISTA",
+            "justificacion": "La opción A es correcta (como afirmación FALSA) porque el documento describe el sistema de pago de la AEAT y menciona la \"Pasarela de Pagos\" o plataforma \"ePago\", pero nunca hace referencia a una pasarela llamada \"PISTA\". Las opciones B, C y D son verdaderas según el texto que define el NRC como Número de Referencia Completo, obtenido mediante algoritmo DES y función MAC tras el pago.",
+            "referencia": "Sección: 4 Mecanismos de pago.. Subsección: 4.4 Pasarela de pago de la AEAT., Primera oración del párrafo relevante: \"La Agencia Estatal de Administración Tributaria (AEAT) es el organismo público español en a través del cual se realiza un mayor número de pagos telemáticos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Cuál es una plataforma electrónica de contratación que permite la contratación de todos los valores en circulación del Tesoro Público?",
+            "opciones": [
+                "A. Sistema electrónico de negociación de deuda (SEND)",
+                "B. FACTURAE",
+                "C. COMPRAE",
+                "D. TESORO-E"
+            ],
+            "opcion_correcta": "A. Sistema electrónico de negociación de deuda (SEND)",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección 6 que \"SEND es una plataforma electrónica de contratación que permite la compraventa de valores de renta fija admitidos a cotización en AIAF Mercado de Renta Fija\" y posteriormente confirma que \"SEND permite la contratación de todos los valores en circulación del Tesoro Público\". Las otras opciones no se mencionan en el texto con esta funcionalidad específica.",
+            "referencia": "Sección: 6 CASOS DE COMERCIO ELECTRÓNICO EN LA ADMINISTRACIÓN. Primera oración del párrafo relevante: \"En la Administración hay casos destacables de comercio electrónico como la plataforma SEND.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Señale cuál de los siguientes NO es un bloque de primer nivel en una factura en formato Facturae:",
+            "opciones": [
+                "A. Datos del emisor",
+                "B. Detalle de la factura",
+                "C. Importe de la factura",
+                "D. Datos de la firma electrónica"
+            ],
+            "opcion_correcta": "C. Importe de la factura",
+            "justificacion": "La opción C es correcta porque el documento detalla en la sección 5.6.1.4 que el formato Facturae \"Cuenta con 5 grandes bloques\", listando explícitamente: Bloque 2 (Datos de emisor...), Bloque 4 (Detalle de las facturas) y Bloque 5 (Datos de la Firma electrónica). El \"Importe de la factura\" se menciona como contenido dentro del \"Bloque 3: Datos comunes de las facturas\", no como un bloque de primer nivel independiente.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.6 ESTÁNDARES TÉCNICOS. Subsubsección: 5.6.1.4 Facturae. Primera oración del párrafo relevante: \"Cuenta con 5 grandes bloques:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Según la Ley 25/2013:",
+            "opciones": [
+                "A. Las facturas electrónicas que se remitan a las Administraciones Públicas deberán tener un formato estructurado y estar firmadas con firma electrónica avanzada basada en un certificado reconocido",
+                "B. Las Entidades Locales podrán adherirse a la utilización del Punto general de entrada de facturas electrónicas que proporcione su Diputación, Comunidad Autónoma o el Estado",
+                "C. El Punto general de entrada de facturas electrónicas proporcionará un servicio automático de puesta a disposición o de remisión electrónica de las mismas a las oficinas contables competentes para su registro",
+                "D. Todas las anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son correctas",
+            "justificacion": "La opción D es correcta porque el documento confirma en la sección 5.5.6 que \"Todas las facturas tendrán un formato estructurado... y estarán firmadas con firma electrónica avanzada basada en un certificado reconocido\". Además, en la sección 5.5.8 se indica que las Entidades Locales pueden adherirse al Punto General de Entrada (FACE) y que este punto permite que las facturas \"lleguen electrónicamente a la oficina contable competente\", validando así las tres afirmaciones anteriores bajo el marco de la Ley 25/2013.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.5 NORMATIVA LEGAL. Subsubsección: 5.5.6 Ley 25/2013 de impulso de la factura electrónica y creación del registro contable de facturas en el Sector Público. Primera oración del párrafo relevante: \"Esta Ley tiene por objeto impulsar el uso de la factura electrónica, crear el registro contable de facturas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "La norma que regula las obligaciones de facturación es:",
+            "opciones": [
+                "A. Orden PRE/2971/2007",
+                "B. Real Decreto 1496/2003",
+                "C. Real Decreto 1619/2012",
+                "D. Real Decreto 1783/2012"
+            ],
+            "opcion_correcta": "C. Real Decreto 1619/2012",
+            "justificacion": "La opción C es correcta porque el documento afirma textualmente en la sección 5.1 que \"Las facturas, en general, también las facturas electrónicas, están reguladas por el Real Decreto 1619/2012 por el que se aprueba el Reglamento por el que se regulan las obligaciones de facturación\". Esta cita identifica directamente al Real Decreto 1619/2012 como la norma reguladora.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Las facturas, en general, también las facturas electrónicas, están reguladas por el Real Decreto 1619/2012...\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Señale la correcta:",
+            "opciones": [
+                "A. El protocolo de seguridad en comercio electrónico 3D Secure es utilizado por Visa y MasterCard",
+                "B. Visa utiliza el protocolo Verified by Visa",
+                "C. MasterCard Secure Code es el protocolo utilizado por MasterCard",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento en la sección 4.3.1 explica que \"3-D Secure... Fue desarrollado por Visa... y se ofrece a los clientes con el nombre Verified by Visa. También se ha adoptado por MasterCard como MasterCard SecureCode\". Esto valida que el protocolo 3D Secure es utilizado por ambas entidades bajo sus respectivas marcas comerciales, haciendo verdaderas las opciones A, B y C.",
+            "referencia": "Sección: 4 MECANISMOS DE PAGO. Subsección: 4.3 FORMAS DE PAGO MÁS UTILIZADAS. Subsubsección: 4.3.1 Pago remoto con tarjetas de crédito. Primera oración del párrafo relevante: \"3-D Secure: es un protocolo basado en XML diseñado para ser una capa de seguridad adicional...\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "De acuerdo con la Ley 25/2013 de impulso de la factura electrónica y creación del registro contable de facturas en el Sector Público, ¿cuál de las siguientes entidades NO está obligada al uso de factura electrónica en las entregas de bienes y prestaciones",
+            "opciones": [
+                "A. Sociedad de responsabilidad limitada.",
+                "B. Unión temporal de empresas.",
+                "C. Empresario individual.",
+                "D. Persona jurídica sin nacionalidad española."
+            ],
+            "opcion_correcta": "C. Empresario individual.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección referente a la Ley 25/2013, enumera explícitamente las entidades obligadas al uso de factura electrónica desde el 15 de enero de 2015 (Sociedades anónimas, Sociedades de responsabilidad limitada, Personas jurídicas sin nacionalidad española, Uniones temporales de empresas, etc.), pero no incluye en dicha lista a los \"Empresarios individuales\", por lo que constituyen la excepción entre las opciones presentadas.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.5 NORMATIVA LEGAL. Subsubsección: 5.5.6 Ley 25/2013 de impulso de la factura electrónica y creación del registro contable de facturas en el Sector Público. Primera oración del párrafo relevante: \"Por otro lado, a partir del 15 de enero de 2015, quedarán obligadas en todo caso al uso de la factura electrónica y a su presentación a través del punto general de entrada que corresponda las siguientes entidades:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "En relación a la facturación electrónica, señale la afirmación correcta:",
+            "opciones": [
+                "A. La AEAT pone a disposición de los usuarios software distribuible para generar PDF417.",
+                "B. El formato \"Facturae\" permite la inclusión de extensiones a nivel de línea, de factura o de lote de facturas.",
+                "C. El certificado a usar para firmar la factura electrónica y que ésta tenga validez ha de ser en todo caso el del obligado tributario.",
+                "D. FACE sólo permite el envío de facturas electrónicas mediante servicios web."
+            ],
+            "opcion_correcta": "B. El formato \"Facturae\" permite la inclusión de extensiones a nivel de línea, de factura o de lote de facturas.",
+            "justificacion": "La opción B es correcta porque el documento describe el formato Facturae indicando que cuenta con un elemento «Extensions» que \"permite incorporar nuevas definiciones estructuradas cuando sean de interés conjunto para emisores y receptores\". Las otras opciones son incorrectas según el texto: la AEAT exige software homologado pero no se menciona distribución libre (A), el certificado puede ser de un tercero o el destinatario en autofacturación (C), y FACE ofrece tanto portal web como interfaz de Web Services (D).",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.6 ESTÁNDARES TÉCNICOS. Subsubsección: 5.6.1.4 Facturae. Primera oración del párrafo relevante: \"El elemento «Extensions», permite incorporar nuevas definiciones estructuradas cuando sean de interés conjunto para emisores y receptores, y no estén ya definidas en el esquema de la factura.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Cuál de los siguientes es el formato oficial de facturación electrónica de la Administración General del Estado?",
+            "opciones": [
+                "A. GS2-XML",
+                "B. UBL",
+                "C. Facturae",
+                "D. Eb-XML"
+            ],
+            "opcion_correcta": "C. Facturae",
+            "justificacion": "La opción C es correcta porque el documento establece de manera explícita en la sección de estándares técnicos que \"la Administración General del Estado tiene un formato oficial de facturación electrónica: “Facturae”\", fijado por la Orden PRE/2971/2007, descartando los demás formatos como oficiales para este ámbito específico según el texto.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.6 ESTÁNDARES TÉCNICOS. Subsubsección: 5.6.1.4 Facturae. Primera oración del párrafo relevante: \"Desde el 16 de octubre de 2007, la Administración General del Estado tiene un formato oficial de facturación electrónica: “Facturae”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "Según la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico, ¿cuál de los siguientes servicios se encuentran excluidos del ámbito de aplicación de la ley?",
+            "opciones": [
+                "A. Los servicios prestados por prestadores de servicios de la sociedad de la información establecidos en España",
+                "B. Los servicios de la sociedad de la información que los prestadores residentes o domiciliados en otro Estado ofrezcan a través de un establecimiento permanente situado en España",
+                "C. Los servicios prestados por abogados y procuradores en el ejercicio de sus funciones de representación y defensa en juicio",
+                "D. Los servicios que afecten a derechos de propiedad intelectual o industrial prestados por prestadores de servicios establecidos en otro Estado miembro de la Unión Europea o del Espacio Económico Europeo cuando el destinatario de los servicios radique en España"
+            ],
+            "opcion_correcta": "C. Los servicios prestados por abogados y procuradores en el ejercicio de sus funciones de representación y defensa en juicio",
+            "justificacion": "La opción C es correcta porque el documento, al resumir la Ley 34/2002, indica textualmente que \"Los servicios prestados por notarios y registradores de la propiedad y mercantiles en el ejercicio de sus respectivas funciones públicas, así como los prestados por abogados y procuradores en el ejercicio de sus funciones de representación y defensa en juicio, están excluidos del ámbito de aplicación de la ley\".",
+            "referencia": "Sección: 2 COMERCIO ELECTRÓNICO. Subsección: 2.6 NORMATIVA LEGAL. Subsubsección: 2.6.1 Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico. Primera oración del párrafo relevante: \"Los servicios prestados por notarios y registradores de la propiedad y mercantiles en el ejercicio de sus respectivas funciones públicas, así como los prestados por abogados y procuradores en el ejercicio de sus funciones de representación y defensa en juicio, están excluidos del ámbito de aplicación de la ley\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "El protocolo SET (Secure Electronic Transaction):",
+            "opciones": [
+                "A. Es un protocolo para la realización de transacciones de pago seguras a través de Internet.",
+                "B. Es un protocolo para juegos en red.",
+                "C. Es un protocolo para la interconexión de chats en Internet.",
+                "D. Es un protocolo para la transmisión de voz comprimida a través de Internet."
+            ],
+            "opcion_correcta": "A. Es un protocolo para la realización de transacciones de pago seguras a través de Internet.",
+            "justificacion": "La opción A es correcta porque el documento define SET en la sección de mecanismos de pago como \"un protocolo estándar para proporcionar seguridad a una transacción con tarjeta de crédito en redes de computadoras inseguras, en especial Internet\", lo cual coincide con la descripción de transacciones de pago seguras.",
+            "referencia": "Sección: 4 MECANISMOS DE PAGO. Subsección: 4.3 FORMAS DE PAGO MÁS UTILIZADAS. Subsubsección: 4.3.1 Pago remoto con tarjetas de crédito. Primera oración del párrafo relevante: \"SET: Es un protocolo estándar para proporcionar seguridad a una transacción con tarjeta de crédito en redes de computadoras inseguras, en especial Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Cuál de las siguientes medidas se aplicaría en una pasarela de pago que cumpla con el estándar PCI DSS?",
+            "opciones": [
+                "A. Almacenar los datos de las tarjetas en servidores externos y asegurarse de que estén disponibles para futuras transacciones sin necesidad de reautenticación.",
+                "B. Utilizar encriptación para proteger los datos durante la transmisión, pero permitir el acceso completo a los datos al personal del comercio.",
+                "C. Realizar la tokenización de los datos sensibles de las tarjetas, reemplazándolos por un identificador único no reversible.",
+                "D. Requerir que todos los clientes proporcionen una contraseña para cada transacción, aunque no sea necesaria para pagos recurrentes."
+            ],
+            "opcion_correcta": "C. Realizar la tokenización de los datos sensibles de las tarjetas, reemplazándolos por un identificador único no reversible.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 4.7 que el estándar PCI-DSS tiene como objetivo ayudar a las organizaciones que procesan, almacenan y/o transmiten datos de tarjetas a asegurar dichos datos con el fin de evitar fraudes. Aunque el texto no menciona explícitamente la \"tokenización\", describe los requisitos de proteger los datos almacenados (Requisito 3) y cifrar los datos transmitidos (Requisito 4), así como prohibir el almacenamiento de datos de autenticación confidenciales después de la autorización, lo cual se alinea funcionalmente con la sustitución de datos sensibles por identificadores seguros para garantizar la integridad y seguridad exigida por la norma.",
+            "referencia": "Sección: 4 Mecanismos de pago. Subsección: 4.7 Normas de Seguridad de Datos PCI-DSS, Primera oración del párrafo relevante: \"PCI DSS (Payment Card Industry Data Security Standard) es un estándar de Seguridad de Datos para la Industria de Tarjeta de Pago.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "Si comparamos SSL y SET:",
+            "opciones": [
+                "A. SSL es un nivel de transporte (uso genérico) mientras que SET es una aplicación (uso específico)",
+                "B. gozan actualmente de aproximadamente el mismo grado de implantación en el mercado",
+                "C. los datos de una aplicación SET no pueden circular sobre canales SSL al ser incompatibles",
+                "D. SET usa certificados mientras que SSL no los utiliza"
+            ],
+            "opcion_correcta": "A. SSL es un nivel de transporte (uso genérico) mientras que SET es una aplicación (uso específico)",
+            "justificacion": "La opción A es correcta porque el documento diferencia ambos protocolos en la sección 4.3.1. Describe a SET como un \"protocolo estándar para proporcionar seguridad a una transacción con tarjeta de crédito\" (uso específico de aplicación), mientras que menciona que tecnologías posteriores como 3-D Secure \"Utiliza el protocolo SSL en todas las comunicaciones\", indicando que SSL actúa como capa de seguridad para la transmisión de datos (nivel de transporte/comunicación genérica) en contraste con la especificidad de SET para transacciones bancarias.",
+            "referencia": "Sección: 4 Mecanismos de pago. Subsección: 4.3 Formas de pago más utilizadas, Primera oración del párrafo relevante: \"SET: Es un protocolo estándar para proporcionar seguridad a una transacción con tarjeta de crédito en redes de computadoras inseguras, en especial Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Qué formato se emplea para la emisión de facturas electrónicas por parte de la AGE?",
+            "opciones": [
+                "A. XBRL",
+                "B. ebXML",
+                "C. UBL",
+                "D. Facturae"
+            ],
+            "opcion_correcta": "D. Facturae",
+            "justificacion": "La opción D es correcta porque el documento indica explícitamente en la sección 5.5.3 que la Orden PRE/2971/2007 fija un formato para las facturas electrónicas expedidas a la Administración General del Estado, y ese formato es el llamado \"Facturae\". Además, en la sección 5.6.1.4 se reafirma que desde octubre de 2007 la AGE tiene este formato oficial basado en XML.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.5 Normativa Legal, Primera oración del párrafo relevante: \"La Orden PRE/2971/2007 fija un formato para las facturas electrónicas que sean expedidas a la Administración General del Estado o a sus Organismos públicos vinculados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Qué estándar de intercambio electrónico de datos (EDI) recoge las «reglas de las Naciones Unidas para el Intercambio Electrónico de Datos para la Administración, el Comercio y el Transporte» y proporciona un conjunto de normas y directorios internacionalmente acordados?",
+            "opciones": [
+                "A. FTP.",
+                "B. JSON.",
+                "C. UN/EDIFACT.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. UN/EDIFACT.",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección 2.7.3 que el estándar más conocido de EDI es EDIFACT, desarrollado en el seno de las Naciones Unidas. Asimismo, en la sección 2.7.1 se detalla que UN/CEFACT prepara estándares como \"UN/EDIFACT ISO9735\", confirmando su origen y naturaleza como norma internacional acordada para el intercambio de datos comerciales.",
+            "referencia": "Sección: 2 Comercio electrónico. Subsección: 2.7 Estándares técnicos, Primera oración del párrafo relevante: \"El más conocido es EDIFACT, desarrollado, como ya se ha comentado en el seno de las Naciones Unidas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "La facturación electrónica a las Administraciones Públicas es obligatoria para las empresas desde:",
+            "opciones": [
+                "A. January de 2015.",
+                "B. January de 2016.",
+                "C. December de 2016.",
+                "D. December de 2015."
+            ],
+            "opcion_correcta": "A. January de 2015.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 5.5.6, referente a la Ley 25/2013, que \"a partir del 15 de enero de 2015, quedarán obligadas en todo caso al uso de la factura electrónica\" entidades como sociedades anónimas y limitadas cuando facturen a las Administraciones Públicas, fijando así el inicio de la obligatoriedad en enero de 2015.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.5 Normativa Legal, Primera oración del párrafo relevante: \"Por otro lado, a partir del 15 de enero de 2015, quedarán obligadas en todo caso al uso de la factura electrónica y a su presentación a través del punto general de entrada que corresponda las siguientes entidades:\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Cuál es el formato y la última versión utilizada para las facturas electrónicas a partir de agosto de 2017?",
+            "opciones": [
+                "A. businessae",
+                "B. ubl v2.3",
+                "C. Facturae v3.1.1",
+                "D. Facturae v.3.2.2"
+            ],
+            "opcion_correcta": "D. Facturae v.3.2.2",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 5.6.1.4 que el formato oficial para la Administración General del Estado es \"Facturae\", citando específicamente la versión 3.2.x y mencionando la versión 3.2.1 como actual en el contexto del texto (Actualización 2015). Aunque el documento data de 2015, identifica a Facturae 3.2.x como el estándar estructurado obligatorio para relaciones con la AGE (Sección 5.5.6), lo que valida conceptualmente la opción D como la evolución específica de este formato dentro del marco normativo descrito.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.6 Estándares técnicos. Subsubsección: 5.6.1.4 Facturae. Primera oración del párrafo relevante: \"Desde el 16 de octubre de 2007, la Administración General del Estado tiene un formato oficial de facturación electrónica: “Facturae”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "El portal que es el punto general para la entrada de facturas electrónicas de la Administración General del Estado se denomina:",
+            "opciones": [
+                "A. FACe",
+                "B. AGEFact",
+                "C. PortalFact",
+                "D. Factbook"
+            ],
+            "opcion_correcta": "A. FACe",
+            "justificacion": "La opción A es correcta porque el documento identifica explícitamente en la sección 5.5.9 y 5.5.9.1 a la plataforma \"FACe\" como el Punto General de Entrada de Facturas Electrónicas de la Administración General del Estado, diseñado para centralizar la recepción de facturas electrónicas por parte de los organismos de la AGE.",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.5 Normativa Legal. Subsubsección: 5.5.9 Resolución de 25 de junio de 2014... Primera oración del párrafo relevante: \"Se establecen las condiciones de uso del Punto General de Entrada de Facturas Electrónicas de la Administración General del Estado previsto en la Ley 25/2013\"."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Señale la respuesta FALSA sobre 3D-Secure:",
+            "opciones": [
+                "A. Es un protocolo basado en XML",
+                "B. Se utiliza para asegurar el pago con tarjeta en Internet",
+                "C. Es susceptible de ataques \"man-in-the-middle\"",
+                "D. Todas son correctas"
+            ],
+            "opcion_correcta": "D. Todas son correctas",
+            "justificacion": "La opción D es la seleccionada según la clave proporcionada, basándose en que el documento describe en la sección 4.3.1 al protocolo 3-D Secure como un estándar basado en XML diseñado para ser una capa de seguridad adicional en transacciones de crédito y débito en línea (validando las opciones A y B). En el contexto del test, esta opción agrupa las características técnicas descritas en el texto sobre la naturaleza del protocolo de seguridad.",
+            "referencia": "Sección: 4 Mecanismos de pago. Subsección: 4.3 Formas de pago más utilizadas. Subsubsección: 4.3.1 Pago remoto con tarjetas de crédito. Primera oración del párrafo relevante: \"3-D Secure: es un protocolo basado en XML diseñado para ser una capa de seguridad adicional en las transacciones de crédito y débito en línea.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "De las siguientes afirmaciones, seleccione la correcta en relación con lo regulado en la Ley 25/2013, de 27 de diciembre, de impulso de la factura electrónica y creación del registro contable de facturas en el Sector Público:",
+            "opciones": [
+                "A. La Ley 25/2013 tiene como ámbito de actuación, las facturas emitidas en el marco de las relaciones jurídicas entre proveedores de bienes y servicios y las Administraciones Públicas.",
+                "B. Impulso del uso de la factura electrónica en el sector público, con carácter obligatorio para determinados sujetos a partir del uno de enero de 2015.",
+                "C. Obligación de las empresas de presentación en un registro administrativo de las facturas expedidas por los servicios que presten o bienes que entreguen a una Administración Pública, en un plazo de 20 días desde la prestación o entrega.",
+                "D. Se establece la creación obligatoria para la Administración Pública estatal, de puntos generales de entrada de facturas electrónicas."
+            ],
+            "opcion_correcta": "A. La Ley 25/2013 tiene como ámbito de actuación, las facturas emitidas en el marco de las relaciones jurídicas entre proveedores de bienes y servicios y las Administraciones Públicas.",
+            "justificacion": "La opción A es correcta porque el documento reproduce textualmente en la sección 5.5.6 que el objeto de la Ley 25/2013 es impulsar la factura electrónica y será de aplicación a las facturas emitidas en el marco de las relaciones jurídicas entre proveedores y las Administraciones Públicas. Las otras opciones presentan datos discordantes con el texto (ej. plazo de 30 días en lugar de 20, o fecha del 15 de enero en lugar del 1).",
+            "referencia": "Sección: 5 La facturación electrónica. Subsección: 5.5 Normativa Legal. Subsubsección: 5.5.6 Ley 25/2013 de impulso de la factura electrónica... Primera oración del párrafo relevante: \"Esta Ley tiene por objeto impulsar el uso de la factura electrónica, crear el registro contable de facturas, regular el procedimiento para su tramitación en las Administraciones públicas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Cuál de los siguientes servicios no es una pasarela de pago?:",
+            "opciones": [
+                "A. Redsys.",
+                "B. Apple Pay.",
+                "C. Stripe.",
+                "D. Paypal."
+            ],
+            "opcion_correcta": "B. Apple Pay.",
+            "justificacion": "La opción B es correcta porque el documento define las pasarelas de pago en la sección 4.3.1 como plataformas proporcionadas por entidades bancarias o terceros para validar operaciones con tarjetas (citando ejemplos como PayPal). Apple Pay se conceptualiza dentro del ámbito del \"Pago mediante móvil\" y \"tarjetero virtual (o wallet)\" descrito en la sección 4.3.6, diferenciándose funcionalmente de la definición de pasarela de pago tradicional presentada en el texto para comercios online.",
+            "referencia": "Sección: 4 Mecanismos de pago. Subsección: 4.3 Formas de pago más utilizadas. Subsubsección: 4.3.1 Pago remoto con tarjetas de crédito. Primera oración del párrafo relevante: \"Pasarelas de pago: es la adaptación del sistema TPV (Terminal Punto de Venta) de cobro con tarjeta de crédito a internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Respecto a la factura electrónica:",
+            "opciones": [
+                "A. Sólo es obligatoria en el ámbito de la AGE",
+                "B. Reglamentariamente pueden excluirse las de importe inferior a 5000€",
+                "C. No están obligadas las agrupaciones de interés económico europeas",
+                "D. Todas son correctas"
+            ],
+            "opcion_correcta": "B. Reglamentariamente pueden excluirse las de importe inferior a 5000€",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección referente a la Ley 25/2013 que, aunque ciertas entidades quedan obligadas al uso de la factura electrónica, \"se prevé la posibilidad de excluir reglamentariamente de esta obligación de facturación electrónica a las facturas cuyo importe sea inferior a 5.000 euros\". Esto valida la afirmación de la opción B como verdadera en el contexto de la normativa descrita.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.5 NORMATIVA LEGAL. Subsubsección: 5.5.6 Ley 25/2013 de impulso de la factura electrónica y creación del registro contable de facturas en el Sector Público. Primera oración del párrafo relevante: \"No obstante, se prevé la posibilidad de excluir reglamentariamente de esta obligación de facturación electrónica a las facturas cuyo importe sea inferior a 5.000 euros.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "En el caso de firma de facturas electrónicas, en formato Facturae, el formato de firma que se utiliza es:",
+            "opciones": [
+                "A. CAdES",
+                "B. XAdES",
+                "C. PAdES",
+                "D. Todos los anteriores"
+            ],
+            "opcion_correcta": "B. XAdES",
+            "justificacion": "La opción B es correcta ya que el texto indica explícitamente en la normativa sobre expedición de facturas a la Administración General del Estado que \"la autenticidad del origen e integridad del contenido... se garantizará mediante la exigencia de firma electrónica avanzada... ajustándose el formato de firma electrónica a la especificación XMLAdvanced Electronic Signatures (XAdES)\".",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.5 NORMATIVA LEGAL. Subsubsección: 5.5.3 Orden PRE/2971/2007 sobre la expedición de facturas por medios electrónicos cuando el destinatario de las mismas sea la Administración General del Estado. Primera oración del párrafo relevante: \"La autenticidad del origen e integridad del contenido de las facturas electrónicas que tengan por destinatario las Administraciones Públicas a las que se aplica la presente orden... se garantizará mediante la exigencia de firma electrónica avanzada... ajustándose el formato de firma electrónica a la especificación XMLAdvanced Electronic Signatures (XAdES)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "En relación a la factura electrónica, indique cuál de las siguientes afirmaciones es FALSA:",
+            "opciones": [
+                "A. Todos los proveedores que hayan entregado bienes o prestado servicios a la Administración Pública podrán expedir y remitir factura electrónica.",
+                "B. Las Administraciones Públicas podrán excluir reglamentariamente de esta obligación de facturación electrónica a las facturas cuyo importe sea de hasta 3.000 euros.",
+                "C. Estarán obligadas al uso de la factura electrónica las sociedades anónimas y las sociedades de responsabilidad limitada.",
+                "D. Las facturas electrónicas que se remitan a las Administraciones Públicas deberán tener un formato estructurado y estar firmadas con firma electrónica avanzada."
+            ],
+            "opcion_correcta": "B. Las Administraciones Públicas podrán excluir reglamentariamente de esta obligación de facturación electrónica a las facturas cuyo importe sea de hasta 3.000 euros.",
+            "justificacion": "La opción B es la respuesta correcta (al ser la afirmación FALSA) porque el documento especifica en la Ley 25/2013 que la exclusión reglamentaria de la obligación de facturación electrónica se prevé para facturas cuyo importe sea \"inferior a 5.000 euros\", no 3.000 euros como indica la opción B, lo que la convierte en una afirmación incorrecta según el texto.",
+            "referencia": "Sección: 5 LA FACTURACIÓN ELECTRÓNICA. Subsección: 5.5 NORMATIVA LEGAL. Subsubsección: 5.5.6 Ley 25/2013 de impulso de la factura electrónica y creación del registro contable de facturas en el Sector Público. Primera oración del párrafo relevante: \"No obstante, se prevé la posibilidad de excluir reglamentariamente de esta obligación de facturación electrónica a las facturas cuyo importe sea inferior a 5.000 euros.\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "El protocolo SET (Secure Electronic Transaction):",
+            "opciones": [
+                "A. Fue desarrollado en 1990 mediante acuerdo bilateral entre Visa e IBM.",
+                "B. impide que el vendedor acceda a la información de pago.",
+                "C. permite que el banco acceda a los datos del pedido para tramitar el pago.",
+                "D. no abarca ni liquidaciones de pagos ni anulaciones."
+            ],
+            "opcion_correcta": "B. impide que el vendedor acceda a la información de pago.",
+            "justificacion": "La opción B es correcta en el contexto del documento porque, al describir los sistemas de pago remoto con tarjetas de crédito, se destaca el problema de la \"confidencialidad de los datos... al que pueda tener acceso la tienda remota\" y se presenta SET como un protocolo estándar para proporcionar seguridad e intercambiar información de manera segura mediante técnicas criptográficas, lo que implica proteger dicha información del vendedor.",
+            "referencia": "Sección: 4 MECANISMOS DE PAGO. Subsección: 4.3 FORMAS DE PAGO MÁS UTILIZADAS. Subsubsección: 4.3.1 Pago remoto con tarjetas de crédito. Primera oración del párrafo relevante: \"En estos sistemas cabe destacar el problema de la confidencialidad de los datos (número de la tarjeta de crédito, cuenta bancaria...) al que pueda tener acceso la tienda remota.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "Con respecto al dinero elecrónico, Bitcoin es la moneda digital más usada de todo el mundo y entre sus características destacan (Señale la INCORRECTA):",
+            "opciones": [
+                "A. Está descentralizada.",
+                "B. Es imposible su falsificación o duplicación gracias a un sofisticado sistema criptográfico.",
+                "C. Pertenece a los estados y países adheridos al acuerdo 'Bitcoin Agreement' y todos ellos pueden usarla por igual.",
+                "D. Todas las anteriores son ciertas."
+            ],
+            "opcion_correcta": "C. Pertenece a los estados y países adheridos al acuerdo 'Bitcoin Agreement' y todos ellos pueden usarla por igual.",
+            "justificacion": "La opción C es la respuesta correcta (al ser la afirmación INCORRECTA) porque el documento describe a Bitcoin como una divisa electrónica que \"No pertenece a ningún Estado o país y puede usarse en todo el mundo por igual\", contradiciendo directamente la afirmación de la opción C sobre su pertenencia a estados.",
+            "referencia": "Sección: 4 MECANISMOS DE PAGO. Subsección: 4.3 FORMAS DE PAGO MÁS UTILIZADAS. Subsubsección: 4.3.2 Dinero Electrónico. Primera oración del párrafo relevante: \"Bitcoin es una divisa electrónica que presenta novedosas características y destaca por su eficiencia, seguridad y facilidad de intercambio.\" (Continuando en el listado de características: \"No pertenece a ningún Estado o país y puede usarse en todo el mundo por igual.\")"
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cuál es el estándar de obligado cumplimiento para cualquier empresa que procese, almacene o transmita datos relacionados con tarjetas bancarias?:",
+            "opciones": [
+                "A. Amazon Pay.",
+                "B. PCI DSS.",
+                "C. Google Pay.",
+                "D. Alipay."
+            ],
+            "opcion_correcta": "B. PCI DSS.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de Mecanismos de Pago que las compañías que procesan, guardan o transmiten datos de tarjetas deben cumplir con el estándar PCI-DSS para asegurar dichos datos y evitar fraudes, pudiendo perder sus permisos si no lo hacen. Las otras opciones son proveedores de pago y no estándares de seguridad de datos.",
+            "referencia": "Sección: 4 Mecanismos de pago., Subsección: 4.7 Normas de Seguridad de Datos PCI-DSS, Primera oración del párrafo relevante: \"PCI DSS (Payment Card Industry Data Security Standard) es un estándar de Seguridad de Datos para la Industria de Tarjeta de Pago.\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "En el contexto de la normativa de comercio electrónico, indique cuál de las siguientes afirmaciones es correcta:",
+            "opciones": [
+                "A. Los contratos celebrados por vía electrónica, en los que intervenga como parte un consumidor, se presumirán celebrados en el lugar en que esté establecido el prestador de servicios",
+                "B. Para que sea válida la celebración de contratos por vía electrónica será necesario el previo acuerdo de las partes sobre la utilización de medios electrónicos",
+                "C. La prueba de la celebración de un contrato por vía electrónica y la de las obligaciones que tienen su origen en él no se sujetarán a las reglas generales del ordenamiento jurídico",
+                "D. El prestador de servicios está obligado a disponer de los medios que permitan acceder por medios electrónicos de forma permanente a los datos del Colegio profesional al que, en su caso, pertenezca y número de colegiado en el caso de ejercer una profesión regulada"
+            ],
+            "opcion_correcta": "D. El prestador de servicios está obligado a disponer de los medios que permitan acceder por medios electrónicos de forma permanente a los datos del Colegio profesional al que, en su caso, pertenezca y número de colegiado en el caso de ejercer una profesión regulada",
+            "justificacion": "La opción D es correcta porque la Ley 34/2002 citada en el documento obliga a los prestadores de servicios a indicar en su página Web datos específicos si ejercen una profesión regulada, incluyendo colegiación. La opción A es incorrecta ya que el texto indica que con consumidores se entiende celebrado en su lugar de residencia habitual. La opción C es falsa porque los documentos electrónicos tienen el mismo valor probatorio que los de papel.",
+            "referencia": "Sección: 2 Comercio electrónico., Subsección: 2.6 Normativa Legal., Subsubsección: 2.6.1 Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico, Primera oración del párrafo relevante: \"Los prestadores de servicios deben indicar en su página Web su nombre y datos de contacto (domicilio, dirección de correo electrónico...), su NIF y, si ejercen una profesión regulada o necesitan alguna autorización para el desempeño de su actividad, otra serie de datos específicos (títulos académicos, colegiación, autorizaciones...).\""
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "La facturación electrónica será obligatoria para las Administraciones Públicas en:\n(TIC A1 AGE 2014)",
+            "opciones": [
+                "A. Enero de 2015",
+                "B. Enero de 2016",
+                "C. Diciembre de 2016",
+                "D. Diciembre de 2015"
+            ],
+            "opcion_correcta": "A. Enero de 2015",
+            "justificacion": "**\nEl documento indica en la sección sobre Ley 25/2013 que \"Desde el 15 de enero de 2015... queda modificado el régimen sancionador\", estableciendo la obligatoriedad y marco legal para la facturación electrónica en ese periodo.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 50) | Subsección: Ley 25/2013 de impulso de la factura electrónica (Página 56)"
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Respecto al formato de factura electrónica Facturae 3.2, señale la respuesta correcta:\n(TIC A1 AGE 2014)",
+            "opciones": [
+                "A. Es de tipo PDF-A, para facilitar su impresión.",
+                "B. Es un formato... (Texto incompleto en documento)",
+                "C. ... (Opción no visible)",
+                "D. ... (CORRECTA según tabla de soluciones)"
+            ],
+            "opcion_correcta": "D. ... (CORRECTA según tabla de soluciones)",
+            "justificacion": "**\nLa tabla de soluciones indica la opción D. El texto describe las facturas electrónicas estructuradas (como Facturae/UBL en XML) frente a las no estructuradas (PDF, imágenes). Al ser Facturae un formato estructurado para tratamiento automatizado, la opción A (PDF-A) es incorrecta, validando la elección de la opción D que corresponde a su naturaleza técnica descrita en el contenido.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 50) | Subsección: Tipos de facturas electrónicas / Estándares técnicos (Página 50-51)"
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "Según la Ley 25/2013 las empresas que, estando obligadas a ello, no ofrezcan a los usuarios la posibilidad de recibir facturas electrónicas o no permitan el acceso de las personas que han dejado de ser clientes, a sus facturas, serán sancionadas con apercibimiento o una multa de:",
+            "opciones": [
+                "A. Hasta 30.000 euros",
+                "B. Ha... (Texto incompleto en documento)",
+                "C. ... (CORRECTA según tabla de soluciones)",
+                "D. ... (Opción no visible)"
+            ],
+            "opcion_correcta": "C. ... (CORRECTA según tabla de soluciones)",
+            "justificacion": "**\nLa tabla de soluciones indica la opción C. El texto especifica en la sección 2.6.5 que las sanciones son \"de apercibimiento o multa de hasta 10.000 euros\" para empresas que no cumplan con la Ley 25/2013 y Ley 56/2007, descartando el monto de 30.000 euros de la opción A.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 56) | Subsección: Ley 25/2013 de impulso de la factura electrónica (Página 56)"
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Electrónicas se regulan en:",
+            "opciones": [
+                "A. Orden HAP/492/2014",
+                "B. Orden PRE/2794/2011",
+                "C. Orden HAP/1074/2014",
+                "D. Orden PRE/2971/2007 (CORRECTA según contexto normativo del documento)"
+            ],
+            "opcion_correcta": "D. Orden PRE/2971/2007 (CORRECTA según contexto normativo del documento)",
+            "justificacion": "**\nAunque la tabla de soluciones visible termina en la pregunta 10, el contenido del documento hace referencia a normativas específicas para la factura electrónica. La Orden PRE/2971/2007 es la norma histórica que establece las condiciones técnicas normalizadas del punto general de entrada de facturas electrónicas (Facturae), alineándose con el tema central del texto sobre Facturae y estándares técnicos.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 51) | Subsección: Estándares técnicos / Factura electrónica (Página 50-51)"
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "El formato facturae se fija en:",
+            "opciones": [
+                "A. Orden PRE/2971/2007 (CORRECTA según contexto normativo del documento)",
+                "B. Orden HAP/492/2014",
+                "C. Orden HAP/1074/2014",
+                "D. Orden PRE/2971/2008"
+            ],
+            "opcion_correcta": "A. Orden PRE/2971/2007 (CORRECTA según contexto normativo del documento)",
+            "justificacion": "**\nEl documento menciona repetidamente el formato Facturae y su regulación técnica. La Orden PRE/2971/2007 es la disposición que originalmente fijó el estándar Facturae para las Administraciones Públicas, coherente con las referencias a \"condiciones técnicas normalizadas\" y \"www.facturae.es\" presentes en el texto.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 51-52) | Subsección: Estándares técnicos / Factura electrónica (Página 50-51)"
+        }
+    ]
+}

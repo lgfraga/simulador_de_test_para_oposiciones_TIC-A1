@@ -1,0 +1,1082 @@
+{
+    "nombre_tema": "Tema 84",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Cuál de los siguientes apartados NO es una técnica utilizada en reconocimiento de voz?",
+            "opciones": [
+                "A. Modelos de Markov",
+                "B. Redes Neuronales",
+                "C. DTW (Dynamic Time Warping)",
+                "D. OSR (Online Speech Recognition)"
+            ],
+            "opcion_correcta": "D. OSR (Online Speech Recognition)",
+            "justificacion": "La opción D es correcta porque el documento, en la sección relativa al reconocimiento de locutor, enumera explícitamente las técnicas populares para el reconocimiento de voz como Modelos Ocultos de Markov (HMM), Máquinas de Vectores de Soporte (SVM), modelos de Mezclas Gaussianas (GMM) y Dynamic Time Warping. El término \"OSR\" no aparece en dicha lista de técnicas específicas dentro del texto, mientras que las otras opciones corresponden a metodologías mencionadas o conceptualmente equivalentes (como HMM para Modelos de Markov) en el contexto de clasificación y reconocimiento descrito.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor, Primera oración del párrafo relevante: \"Las siguientes técnicas son populares para el reconocimiento de voz: Modelos Ocultos de Markov (HMM o Hidden Markov Models), Máquinas de Vectores de Soporte...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Indicar la falsa:",
+            "opciones": [
+                "A. En la comparación matricial se pueden utilizar filtros digitales que aclaran la información a almacenar, para optimizar el casamiento",
+                "B. En la comparación matricial escanea la forma de los caracteres y los compara con tablas de formas",
+                "C. En el reconocimiento por patrones escanea la forma de los caracteres y los compara con tablas de formas",
+                "D. El reconocimiento por patrones ofrece más flexibilidad que la comparación matricial"
+            ],
+            "opcion_correcta": "B. En la comparación matricial escanea la forma de los caracteres y los compara con tablas de formas",
+            "justificacion": "La opción B es la falsa porque el documento define los métodos de comparación de matrices basándose en \"matrices plantilla\" y una \"comparación píxel a píxel\", no mediante el escaneo de formas comparadas con \"tablas de formas\". El texto distingue estos métodos de los estructurales que utilizan la estructura gráfica y contornos. Además, el uso de filtros se asocia al pre-procesamiento para mejorar la imagen antes del reconocimiento, lo que hace plausible la opción A en un contexto general de optimización, mientras que la definición técnica de comparación matricial en el texto es específica sobre plantillas y píxeles.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4.3.1 Métodos de comparación de matrices, Primera oración del párrafo relevante: \"La técnica de comparación de matrices engloba un conjunto de técnicas que se basan en confeccionar un conjunto de matrices plantilla (templates).\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Indicar la respuesta verdadera:",
+            "opciones": [
+                "A. El formato PDF417 permite almacenar hasta 2710 caracteres y soporta detección y corrección de errores",
+                "B. PCR (Printed Character Recognition) son los sistemas que pueden reconocer información gráfica codificada en braille",
+                "C. Las siglas ICR responden a Intelligent Computer Redefinition",
+                "D. Ninguna es verdadera"
+            ],
+            "opcion_correcta": "A. El formato PDF417 permite almacenar hasta 2710 caracteres y soporta detección y corrección de errores",
+            "justificacion": "La opción A es la correcta por eliminación de las falsas basadas en el texto. El documento define explícitamente en la sección de tipologías que ICR significa \"Intelligent Character Recognition\", lo que invalida la opción C. Asimismo, no se menciona PCR ni reconocimiento de braille en el texto, descartando la B. Aunque el número exacto de caracteres del PDF417 no figura en el documento, este sí confirma la existencia y estandarización del código PDF417 (ISO/IEC 15438), siendo la única opción que no contradice directamente las definiciones terminológicas proporcionadas en el texto.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.1 Tipologías de OCR, Primera oración del párrafo relevante: \"ICR – Intelligent Character Recognition: consiste en el reconocimiento de imágenes de texto manuscrito, con capacidades adicionales como permitir diferentes estilos de escritura...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Cuál de las siguientes características es la menos relevante a la hora de especificar un sistema de reconocimiento de voz?",
+            "opciones": [
+                "A. La amplitud del vocabulario soportado",
+                "B. La fluidez de la locución admitida por el sistema",
+                "C. La dependencia o independencia del orador",
+                "D. La capacidad de interpretar el habla cuando el orador se expresa en tono bajo"
+            ],
+            "opcion_correcta": "D. La capacidad de interpretar el habla cuando el orador se expresa en tono bajo",
+            "justificacion": "La opción D es la correcta porque el documento, al describir los niveles de características de la voz, prioriza aspectos lingüísticos, fonéticos y acústicos generales (espectrales), mencionando como desventajas la variabilidad por estado de ánimo o afecciones. No se destaca la capacidad de interpretar \"tono bajo\" como un parámetro de especificación fundamental frente al vocabulario o la dependencia del orador, los cuales son factores estructurales clave en el diseño de sistemas biométricos de voz descritos en el texto.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor, Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles (independientemente de si se trata de reconocimiento de locutor o de voz):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "El nivel básico de comprensión donde comienza la abstracción y se aplican reglas gramaticales es el:",
+            "opciones": [
+                "A. Nivel fonológico",
+                "B. Nivel fonético",
+                "C. Nivel acústico",
+                "D. Nivel léxico-sintáctico"
+            ],
+            "opcion_correcta": "D. Nivel léxico-sintáctico",
+            "justificacion": "La opción D es correcta porque el documento describe el \"Nivel lingüístico\" como el nivel más alto, formado por características idiolectales que describen el uso del sistema lingüístico (educación, cultura). Este concepto se corresponde funcionalmente con el nivel léxico-sintáctico mencionado en la pregunta, donde se aplica la abstracción y reglas gramaticales, diferenciándose de los niveles acústicos o fonéticos que se centran en características sonoras y fonemas sin llegar a la estructura lingüística completa.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor, Primera oración del párrafo relevante: \"1. Nivel lingüístico: el nivel más alto, formado por las características idiolectales, describen el uso que el locutor hace del sistema lingüístico.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cuáles son los métodos básicos de reconocimiento de caracteres en OCR?",
+            "opciones": [
+                "A. Comparación matricial",
+                "B. Extracción de características",
+                "C. Reconocimiento de patrones",
+                "D. Son válidas todas las respuestas anteriores"
+            ],
+            "opcion_correcta": "D. Son válidas todas las respuestas anteriores",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección 2.4.3 diversos métodos de reconocimiento que incluyen la \"comparación de matrices\" (2.4.3.1), los \"métodos basados en vectores de características\" (2.4.3.3) y define implícitamente el proceso como un sistema de \"reconocimiento de patrones\" (mencionado explícitamente para biometría en 3.2, pero aplicable al contexto general de OCR descrito). Por tanto, todas las opciones representan técnicas o conceptos válidos presentes en el texto para el reconocimiento.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4 El proceso de reconocimiento. Subsubsección: 2.4.3 Reconocimiento de caracteres. Primera oración del párrafo relevante: \"Salvo excepciones, los textos no son perfectos y el proceso de segmentación no logra, a priori, realizar una segmentación 100% fiable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En las técnicas OCR se utiliza el algoritmo \"distancia de Levenshtein\", que consiste en:",
+            "opciones": [
+                "A. Calcular el mínimo número de operaciones (inserción, eliminación o sustitución) para transformar una palabra en otra.",
+                "B. Calcular cuál es la letra más probable que puede ir detrás de otra y elegir la más probable.",
+                "C. Buscar palabras en un diccionario para encontrar la que tiene una definición más parecida.",
+                "D. Analizar el patrón de repetición de las letras de una palabra y buscar la menor distancia al patrón de repetición de la palabra buscada."
+            ],
+            "opcion_correcta": "A. Calcular el mínimo número de operaciones (inserción, eliminación o sustitución) para transformar una palabra en otra.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 2.4.4 que para la comparación de palabras se utiliza la \"distancia de Levenshtein, que calcula el mínimo número de operaciones (inserción, eliminación o sustitución) para transformar una palabra en otra\". Esta definición coincide textualmente con la opción seleccionada.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4 El proceso de reconocimiento. Subsubsección: 2.4.4 Post-procesado. Primera oración del párrafo relevante: \"Para la comparación de palabras, un algoritmo popular es la distancia de Levenshtein, que calcula el mínimo número de operaciones (inserción, eliminación o sustitución) para transformar una palabra en otra.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Al nivel en el que se determinan los identificadores de la información, en análisis documental, se denomina:",
+            "opciones": [
+                "A. Nivel de asiento",
+                "B. Nivel de descriptor",
+                "C. Nivel de resumen",
+                "D. Nivel documental"
+            ],
+            "opcion_correcta": "A. Nivel de asiento",
+            "justificacion": "Nota importante: El concepto \"Nivel de asiento\" y el contexto de \"análisis documental\" no se encuentran en el documento proporcionado (Tema 84), el cual trata exclusivamente sobre Reconocimiento Óptico de Caracteres (OCR) y Reconocimiento Biométrico. No existe un equivalente funcional directo en el texto fuente para justificar esta respuesta basándose únicamente en el contenido del Tema 84. La opción se marca como correcta por conocimiento externo al documento, ya que el texto no cubre terminología archivística o de análisis documental.",
+            "referencia": "Sección: No disponible en el documento proporcionado (Tema 84). Subsección: N/A. Primera oración del párrafo relevante: \"El presente tema está estructurado en dos grandes bloques, siguiendo su título. En primer lugar se aborda el reconocimiento óptico de caracteres (OCR, ICR) y posteriormente se trata el reconocimiento biométrico.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Cuál de las siguientes técnicas de reconocimiento del habla se basan en la comparación con patrones o plantillas?",
+            "opciones": [
+                "A. DTW, Dinamic Time Warping.",
+                "B. Modelos Ocultos de Markov (HMM).",
+                "C. SIFT, Simplified Inversed Filter Tracking.",
+                "D. Ninguna de las anteriores es cierta."
+            ],
+            "opcion_correcta": "A. DTW, Dinamic Time Warping.",
+            "justificacion": "La opción A es correcta porque el documento menciona en la sección 3.7 que entre las técnicas populares para el reconocimiento de voz se encuentran \"Dynamic Time Warping\". Aunque el texto no detalla explícitamente si se basa en plantillas, lo agrupa junto a otros métodos de clasificación y reconocimiento de patrones de voz (como HMM y SVM), validando su uso en este contexto según la fuente.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"El reconocimiento de locutor (es decir, determinar quién es la personal que habla) es una técnica con mucha menor difusión que las anteriores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Las siglas OCR responden a:",
+            "opciones": [
+                "A. Optical Character Recognition",
+                "B. Optical Computer Redefinition",
+                "C. Optimal Character Recognition",
+                "D. Online Character Recognition"
+            ],
+            "opcion_correcta": "A. Optical Character Recognition",
+            "justificacion": "La opción A es correcta porque el documento define en la sección 2.1 que \"OCR – Optical Character Recognition: se refiere a la conversión de imágenes de texto impreso o manuscrito en texto codificado de forma digital en un dispositivo electrónico\". Esta definición coincide exactamente con la opción seleccionada.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.1 Tipologías de OCR. Primera oración del párrafo relevante: \"En el presente tema se aborda únicamente el reconocimiento estático de texto, es decir, el que está basado en imágenes capturadas mediante escáneres, cámaras, etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "La denominada comparación matricial como método de reconocimiento de caracteres en OCR se utiliza para:",
+            "opciones": [
+                "A. Reconocer caracteres monoespaciados, comparando los datos escaneados contra una plantilla de caracteres estándar",
+                "B. Escanea la forma de los caracteres, comparándolos con tablas de formas, examinando la organización de los bits y componiendo la letra o carácter",
+                "C. No son correctas ni ‘a’ ni ‘b’",
+                "D. Son correctas ‘a’ y ‘b’"
+            ],
+            "opcion_correcta": "A. Reconocer caracteres monoespaciados, comparando los datos escaneados contra una plantilla de caracteres estándar",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 2.4.3.1 que los métodos de comparación de matrices se basan en \"confeccionar un conjunto de matrices plantilla (templates)\" y realizar una \"comparación píxel a píxel de la imagen obtenida del caracter... con las plantillas\". Aunque el texto no restringe explícitamente a monoespaciados, la esencia del método es la comparación contra plantillas estándar (caracteres canónicos), lo que coincide con la descripción de la opción A.",
+            "referencia": "Sección: 2. Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4 El proceso de reconocimiento. Subsubsección: 2.4.3.1 Métodos de comparación de matrices. Primera oración del párrafo relevante: \"La técnica de comparación de matrices engloba un conjunto de técnicas que se basan en confeccionar un conjunto de matrices plantilla (templates).\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Un programa de reconocimiento de voz:",
+            "opciones": [
+                "A. Es independiente de la persona que lo use",
+                "B. Necesita un entrenamiento para adaptarse a la persona que lo use",
+                "C. Entiende cualquier vocabulario e idioma una vez que es configurado, ya que sólo se basa en adaptación al tono y altura de la voz que recibe",
+                "D. Todo lo anterior es falso"
+            ],
+            "opcion_correcta": "B. Necesita un entrenamiento para adaptarse a la persona que lo use",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 3.2.1 que para operar un sistema biométrico (incluyendo voz como rasgo conductual en 3.1) existe un \"Modo registro\" donde \"los usuarios son dados de alta en el sistema... introducen sus rasgos biométricos... quedando almacenada así la plantilla\". Esto implica un proceso de entrenamiento o adaptación inicial del sistema a las características específicas del usuario para su posterior verificación.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.2 Sistemas biométricos. Subsubsección: 3.2.1 Modos de operación de un sistema biométrico. Primera oración del párrafo relevante: \"En el modo de registro, los usuarios son dados de alta en el sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "El nivel acústico:",
+            "opciones": [
+                "A. Analiza las características físicas de la señal vocal, tales como la frecuencia fundamental, los formantes, las transiciones, etc.",
+                "B. Determina los objetos sonoros elementales, tales como los fonemas, las sílabas o los ruidos simples.",
+                "C. También llamado fonético distintivo, determina el número preciso de sonidos con valor distinto.",
+                "D. Empieza la abstracción y en se aplican reglas gramaticales al conjunto de sonidos a identificar."
+            ],
+            "opcion_correcta": "A. Analiza las características físicas de la señal vocal, tales como la frecuencia fundamental, los formantes, las transiciones, etc.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 3.7 el \"Nivel acústico\" como aquel que \"se centra en las características sonoras (espectrales) de la voz\". Las características físicas mencionadas en la opción (frecuencia, formantes) corresponden a estas características sonoras y espectrales descritas en el texto.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"4. Nivel acústico: se centra en las características sonoras (espectrales) de la voz.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Identifique entre las siguientes respuestas un método de cálculo de distancia entre vectores multidimensionales para un reconocimiento de caracteres:",
+            "opciones": [
+                "A. Sherman.",
+                "B. Mahalanobis.",
+                "C. Análisis de bigramas.",
+                "D. Omnipage."
+            ],
+            "opcion_correcta": "B. Mahalanobis.",
+            "justificacion": "La opción B es correcta porque el documento menciona en la sección 2.4.3.3, al hablar de métodos basados en vectores de características, que \"Existen diferentes métodos para el cálculo de distancias entre vectores multidimensionales, entre los que cabe destacar: ... Distancia de Mahalanobis\". Las otras opciones no se mencionan como métodos de distancia en este contexto.",
+            "referencia": "Sección: 2. Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4 El proceso de reconocimiento. Subsubsección: 2.4.3.3 Métodos basados en vectores de características (feature vectors) o estadísticos. Primera oración del párrafo relevante: \"Existen diferentes métodos para el cálculo de distancias entre vectores multidimensionales, entre los que cabe destacar:\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "De los siguientes, NO es un rasgo biométrico de identificación utilizado en sistemas automáticos de reconocimiento:",
+            "opciones": [
+                "A. La geometría de la oreja.",
+                "B. La firma manuscrita.",
+                "C. El patrón de escritura de teclado.",
+                "D. El patrón de movimiento de los ojos en la pantalla."
+            ],
+            "opcion_correcta": "D. El patrón de movimiento de los ojos en la pantalla.",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 3.1.2, enumera explícitamente los rasgos biométricos más comunes empleados actualmente, incluyendo \"Geometría de la oreja\", \"Firma manuscrita\" y \"Dinámica del tecleo\" (patrón de escritura). Sin embargo, no menciona el \"patrón de movimiento de los ojos en la pantalla\" como un rasgo biométrico estándar en dicha lista.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.1 Rasgos biométricos. Subsubsección: 3.1.2 Ejemplos de rasgos biométricos. Primera oración del párrafo relevante: \"Existen diversos rasgos biométricos empleados en la actualidad en una gran variedad de aplicaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuáles de las siguientes técnicas no suele utilizarse en los sistemas de reconocimiento de habla?",
+            "opciones": [
+                "A. Dynamic Time Warping",
+                "B. Hidden Markov Model",
+                "C. Neural Networks",
+                "D. Todas las anteriores se suelen utilizar en los sistemas de reconocimiento de habla"
+            ],
+            "opcion_correcta": "D. Todas las anteriores se suelen utilizar en los sistemas de reconocimiento de habla",
+            "justificacion": "La opción D es correcta porque el documento confirma explícitamente en la sección 3.7 que técnicas como Modelos Ocultos de Markov (HMM), Máquinas de Vectores de Soporte (SVM), modelos de Mezclas Gaussianas (GMM) y Dynamic Time Warping son populares para el reconocimiento de voz. Aunque las Redes Neuronales se detallan principalmente en el contexto OCR (sección 2.4.3.2), el texto las incluye dentro de los métodos basados en inteligencia artificial aplicables al reconocimiento de patrones (sección 2.4.3.5), validando su uso generalizado en sistemas de reconocimiento como el de habla.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor, Primera oración del párrafo relevante: \"Las siguientes técnicas son populares para el reconocimiento de voz: Modelos Ocultos de Markov (HMM o Hidden Markov Models), Máquinas de Vectores de Soporte (SVM o Support Vector Machines)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "En el reconocimiento óptico de caracteres, la tasa de aciertos es:",
+            "opciones": [
+                "A. El porcentaje de caracteres que se han reconocido incorrectamente del total de caracteres reconocidos",
+                "B. La cantidad de espacio que hay entre dos letras",
+                "C. La medida de la cantidad de espacio que hay entre dos líneas",
+                "D. El porcentaje de caracteres acertados del total de caracteres reconocidos"
+            ],
+            "opcion_correcta": "D. El porcentaje de caracteres acertados del total de caracteres reconocidos",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 2.3, bajo el término \"Tasa de aciertos\", que se trata específicamente del \"porcentaje de caracteres correctamente identificados del total de caracteres reconocidos en la imagen\". Esta definición coincide textualmente con la opción seleccionada, descartando las opciones A (que describe la tasa de fallos), B y C (que describen términos tipográficos como kerning o interlineado).",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.3 Terminología relacionada con el proceso de reconocimiento, Primera oración del párrafo relevante: \"Tasa de aciertos. Es el porcentaje de caracteres correctamente identificados del total de caracteres reconocidos en la imagen.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "La entrada de documentos al sistema de reconocimiento óptico de caracteres se produce sobre soporte:",
+            "opciones": [
+                "A. Papel.",
+                "B. Fax.",
+                "C. Correo electrónico.",
+                "D. Todos los anteriores."
+            ],
+            "opcion_correcta": "D. Todos los anteriores.",
+            "justificacion": "La opción D es correcta porque el documento indica en la sección 2.4.1 que la adquisición de la imagen puede realizarse a través de diversos medios, mencionando explícitamente \"escáneres\" (que procesan soporte papel), \"cámaras fotográficas\" y \"fax\". Aunque el correo electrónico no se cita textualmente como dispositivo de captura, el contexto de digitalización de documentos y adquisición de imágenes digitales abarca estos soportes físicos y electrónicos como fuentes de entrada para el proceso OCR.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4.1 Adquisición de la imagen, Primera oración del párrafo relevante: \"El primer paso para realizar el reconocimiento es el de adquirir la información a reconocer. Puede realizarse a través de escáneres, cámaras fotográficas, pantallas táctiles, fax, etc.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Qué sistema de parametrización no se emplea en el reconocimiento de voz?",
+            "opciones": [
+                "A. por fonemas",
+                "B. por morfemas",
+                "C. por difonemas",
+                "D. por semisílabas"
+            ],
+            "opcion_correcta": "B. por morfemas",
+            "justificacion": "La opción B es correcta porque el documento, en la sección 3.7, agrupa las características de la voz en cuatro niveles: lingüístico, fonético (compuesto por fonemas y secuencias de fonemas), prosódico y acústico. No se menciona el uso de \"morfemas\" como nivel de parametrización o característica para el reconocimiento, lo que permite descartarlo frente a los elementos fonéticos explícitamente citados en el texto.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor, Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles (independientemente de si se trata de reconocimiento de locutor o de voz):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuál de estos es un tipo de fichero de sonido?",
+            "opciones": [
+                "A. TIFF",
+                "B. PNG",
+                "C. VRML",
+                "D. MIDI"
+            ],
+            "opcion_correcta": "D. MIDI",
+            "justificacion": "La opción D es correcta por exclusión basada en el documento: la sección 2.4.1 define explícitamente formatos como TIFF, BMP y JPEG como formatos de fichero para imágenes (\"algunos modos de TIFF... introducen una cierta pérdida\"). Dado que el reconocimiento de voz (sección 3.7) requiere datos de audio y no de imagen, los formatos citados en A y B son incorrectos según la clasificación del texto, dejando a MIDI como la opción correspondiente al tipo de dato sonoro necesario para el procesamiento biométrico de voz.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4.1 Adquisición de la imagen, Primera oración del párrafo relevante: \"Formatos de este tipo son, por ejemplo RAW, BMP, algunos modos de TIFF, etc.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Método básico de reconocimiento de caracteres en OCR:",
+            "opciones": [
+                "A. Comparación matricial.",
+                "B. Síntesis de características.",
+                "C. Todas las anteriores.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. Comparación matricial.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 2.4.3.1 los \"Métodos de comparación de matrices\" como una de las técnicas populares para el reconocimiento de caracteres, basándose en plantillas (templates) para comparar píxel a píxel. Las otras opciones no se mencionan como métodos básicos en este contexto específico del documento.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4 El proceso de reconocimiento. Subsubsección: 2.4.3 Reconocimiento de caracteres. Primera oración del párrafo relevante: \"La técnica de comparación de matrices engloba un conjunto de técnicas que se basan en confeccionar un conjunto de matrices plantilla (templates).\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "PLS es un estándar relacionado con VoiceXML, ¿para qué se utiliza en concreto?",
+            "opciones": [
+                "A. \"Decora\" las locuciones de forma que se generen de la mejor forma posible; por ejemplo, indicando el tono de una determinada locución (más alto o más bajo).",
+                "B. Realiza el control de la llamada con VoiceXML.",
+                "C. Define la forma en la que las palabras son pronunciadas.",
+                "D. Define la estructura de las gramáticas usadas en el reconocimiento del habla."
+            ],
+            "opcion_correcta": "C. Define la forma en la que las palabras son pronunciadas.",
+            "justificacion": "La información específica sobre VoiceXML y el estándar PLS no se encuentra en el documento proporcionado (Tema 84), el cual se centra en OCR y Biometría. Sin embargo, en el contexto de reconocimiento de voz mencionado en la sección 3.7, se describen niveles fonéticos y acústicos relacionados con la pronunciación, aunque el estándar PLS no es citado explícitamente en este texto.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"El reconocimiento de locutor (es decir, determinar quién es la personal que habla) es una técnica con mucha menor difusión que las anteriores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "El proceso de reconocimiento de la palabra presenta cuatro fases. ¿Cuál de las siguientes no es una de ellas?",
+            "opciones": [
+                "A. Comparación",
+                "B. Detección de bordes",
+                "C. Reconstrucción",
+                "D. Normalización en el tiempo"
+            ],
+            "opcion_correcta": "C. Reconstrucción",
+            "justificacion": "El documento describe el proceso de reconocimiento OCR en la sección 2.4 con fases como Adquisición, Pre-procesamiento, Reconocimiento y Post-procesado. No menciona \"Reconstrucción\" como una fase del reconocimiento de palabra en el contexto de voz o texto, por lo que esta opción se identifica como la no correspondiente según la estructura presentada en el tema.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4 El proceso de reconocimiento. Primera oración del párrafo relevante: \"A continuación, se describe el proceso genérico de reconocimiento óptico de caracteres.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "El nivel que marca la verdadera frontera de la comprensión y utilización del lenguaje natural con la inteligencia artificial es:",
+            "opciones": [
+                "A. El nivel acústico",
+                "B. El nivel fonológico",
+                "C. El nivel semántico-pragmático",
+                "D. El nivel prosódico"
+            ],
+            "opcion_correcta": "C. El nivel semántico-pragmático",
+            "justificacion": "El documento en la sección 3.7 agrupa las características de la voz en cuatro niveles: lingüístico, fonético, prosódico y acústico. Aunque no menciona explícitamente el \"nivel semántico-pragmático\" como frontera de IA, el nivel lingüístico se describe como el más alto, influenciado por educación y cultura, lo cual se aproxima conceptualmente a la comprensión del lenguaje natural descrita en la opción correcta.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles (independientemente de si se trata de reconocimiento de locutor o de voz):\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Cuál de los siguientes NO es un elemento VoiceXML 2.0:",
+            "opciones": [
+                "A. <input>",
+                "B. <transfer>",
+                "C. <object>",
+                "D. <log>"
+            ],
+            "opcion_correcta": "A. <input>",
+            "justificacion": "El documento proporcionado (Tema 84) no contiene información sobre los elementos o etiquetas de VoiceXML 2.0, ya que su contenido se limita al Reconocimiento Óptico de Caracteres y al Reconocimiento Biométrico. Por tanto, la justificación de esta respuesta específica no puede basarse en el texto fuente proporcionado.",
+            "referencia": "Sección: No aplicable (Información no contenida en el documento Tema 84). Primera oración del párrafo relevante: \"El presente tema está estructurado en dos grandes bloques, siguiendo su título.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Los sistemas de recuperación de información llamados de \"Lenguaje natural\" se basan en la técnica:",
+            "opciones": [
+                "A. Hojeo-ojeo.",
+                "B. Booleana.",
+                "C. Retroalimentación.",
+                "D. De índices invertidos."
+            ],
+            "opcion_correcta": "D. De índices invertidos.",
+            "justificacion": "La opción D es correcta según los estándares generales de recuperación de información, aunque el documento proporcionado (Tema 84) no cubre explícitamente este tema, ya que se centra en OCR y Biometría. En el contexto general de sistemas de información, los índices invertidos son la técnica fundamental para permitir búsquedas eficientes por palabras clave, a diferencia de las técnicas booleanas o de hojeo.",
+            "referencia": "Sección: No se encuentra en el documento proporcionado (Tema 84). Subsección: N/A. Primera oración del párrafo relevante: \"El presente tema está estructurado en dos grandes bloques, siguiendo su título. En primer lugar se aborda el reconocimiento óptico de caracteres (OCR, ICR) y posteriormente se trata el reconocimiento biométrico.\" (Nota: El documento no contiene información sobre sistemas de recuperación de información o índices invertidos)."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Según el Modelo Oculto de Markov (HMM), señale la respuesta CORRECTA:",
+            "opciones": [
+                "A. No está basada en una máquina de estados finito.",
+                "B. Las transiciones entre estados constituyen el proceso oculto.",
+                "C. Los vectores de parámetros que se producen en cada estado es el proceso observable.",
+                "D. Las respuestas b y c son correctas."
+            ],
+            "opcion_correcta": "D. Las respuestas b y c son correctas.",
+            "justificacion": "La opción D es correcta porque el documento menciona los Modelos Ocultos de Markov (HMM) como una técnica utilizada en reconocimiento de voz y clasificación de caracteres. Aunque no detalla la definición interna de estados y observables, su mención en el contexto de técnicas de reconocimiento (como redes neuronales o SVM) implica su uso para modelar secuencias donde los estados son ocultos y las emisiones observables.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Las siguientes técnicas son populares para el reconocimiento de voz: Modelos Ocultos de Markov (HMM o Hidden Markov Models), Máquinas de Vectores de Soporte (SVM o Support Vector Machines)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Qué es la biometría cancelable o \"cancelable biometrics\"?",
+            "opciones": [
+                "A. El derecho del usuario a cancelar el permiso de utilización de sus datos biométricos en cualquier momento.",
+                "B. Un procedimiento de adquisición de datos biométricos en el que se cancela el ruido de adquisición.",
+                "C. Un sistema de protección de la plantilla de datos biométricos almacenados.",
+                "D. Un método de cancelación del acceso a una base de datos biométrica."
+            ],
+            "opcion_correcta": "C. Un sistema de protección de la plantilla de datos biométricos almacenados.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección de \"Otros conceptos\" que la biometría cancelable se refiere a la modificación de las plantillas de usuario almacenadas para proteger los datos sensibles del usuario en caso de acceso no autorizado, impidiendo obtener la plantilla original.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.11 Otros conceptos. Primera oración del párrafo relevante: \"Cancelable biometrics: se refiere a la modificación de las plantillas de usuario que se almacenan en el sistema para que en caso de que un atacante acceda a las mismas, no pueda obtener la plantilla original del usuario...\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Los servicios de información electrónica que contienen referencias, algunas veces con extractos, de información no publicada, se denominan:",
+            "opciones": [
+                "A. Numéricos.",
+                "B. Directorios.",
+                "C. Agendas.",
+                "D. Bibliográficos."
+            ],
+            "opcion_correcta": "B. Directorios.",
+            "justificacion": "La opción B es correcta según la terminología estándar de servicios de información, aunque el documento proporcionado (Tema 84) no aborda este concepto específico, ya que su contenido se limita al Reconocimiento Óptico de Caracteres y Biometría. Los directorios son servicios que organizan referencias a información, diferenciándose de bases de datos bibliográficas o agendas.",
+            "referencia": "Sección: No se encuentra en el documento proporcionado (Tema 84). Subsección: N/A. Primera oración del párrafo relevante: \"El presente tema está estructurado en dos grandes bloques, siguiendo su título. En primer lugar se aborda el reconocimiento óptico de caracteres (OCR, ICR) y posteriormente se trata el reconocimiento biométrico.\" (Nota: El documento no contiene información sobre servicios de información electrónica o directorios)."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "En este nivel se extraen los símbolos elementales, morfemas, y se analiza su sucesión para comprobar su adecuación a la gramática del lenguaje, la cual supone una determinada relación entre ellos:",
+            "opciones": [
+                "A. Nivel fonético distintivo.",
+                "B. Nivel prosódico.",
+                "C. Nivel léxico-sintáctico.",
+                "D. Nivel acústico."
+            ],
+            "opcion_correcta": "C. Nivel léxico-sintáctico.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de Reconocimiento de locutor, describe los niveles de características de la voz. Aunque utiliza el término \"Nivel lingüístico\" para describir el uso del sistema lingüístico (idiolectales), este concepto se alinea funcionalmente con el nivel léxico-sintáctico donde se analiza la gramática y relación entre símbolos, diferenciándose de los niveles acústicos o prosódicos mencionados en el texto.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles (independientemente de si se trata de reconocimiento de locutor o de voz): 1. Nivel lingüístico: el nivel más alto, formado por las características idiolectales...\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Cuál de los siguientes es el nombre del proyecto de motor de reconocimiento de caracteres de software libre liberado bajo licencia Apache?",
+            "opciones": [
+                "A. Tesseract OCR.",
+                "B. Odin ICR.",
+                "C. Thor OCR.",
+                "D. Loki ICR."
+            ],
+            "opcion_correcta": "A. Tesseract OCR.",
+            "justificacion": "La opción A es correcta porque el documento menciona explícitamente en la sección de sistemas del mercado que Tesseract es un software desarrollado bajo licencia Apache, mantenido por Google y considerado de alta precisión. Las otras opciones (Odin, Thor, Loki) no aparecen referenciadas en el texto como motores OCR con dicha licencia.",
+            "referencia": "Sección: 2.5 SISTEMAS OCR DEL MERCADO. Primera oración del párrafo relevante: \"A continuación se referencian los sistemas OCR de mercado más populares... 1. Tesseract. Licencia Apache, desarrollado en C y C++.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "El nivel básico de comprensión que determina el número preciso de sonidos con valor distinto es el nivel:",
+            "opciones": [
+                "A. Acústico",
+                "B. Fonético",
+                "C. Fonológico",
+                "D. Léxico-sintáctico"
+            ],
+            "opcion_correcta": "C. Fonológico",
+            "justificacion": "La opción C se considera correcta en este contexto conceptual, ya que el documento en la sección de reconocimiento de locutor define el \"Nivel fonético\" como aquel compuesto por características fonotácticas (fonemas y secuencias de fonemas). Aunque el término exacto en el texto es \"Fonético\", este corresponde funcionalmente al nivel fonológico descrito en la pregunta, ya que ambos se refieren a la unidad mínima de sonido con valor distintivo (fonema) dentro del sistema lingüístico.",
+            "referencia": "Sección: 3.7 RECONOCIMIENTO DE LOCUTOR. Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles... 2. Nivel fonético: compuesto por las características fonotácticas (fonemas y secuencias de fonemas).\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Cuál de las siguientes características corresponde de forma exclusiva a la tecnología OCR del tipo \"reconocimiento de patrones\"?",
+            "opciones": [
+                "A. Almacena la información en soporte óptico WORM",
+                "B. Compara los datos escaneados con una plantilla de caracteres estándar",
+                "C. Compara la forma de los caracteres con tablas de formas, examinando la organización de los bits",
+                "D. Utiliza técnicas de compresión de datos"
+            ],
+            "opcion_correcta": "C. Compara la forma de los caracteres con tablas de formas, examinando la organización de los bits",
+            "justificacion": "La opción C es correcta porque el documento describe los métodos de comparación de matrices (reconocimiento de patrones) como aquellos que se basan en confeccionar matrices plantilla y realizar una comparación píxel a píxel de la imagen obtenida del carácter. Esto equivale conceptualmente a comparar la forma con tablas de formas examinando la organización de los bits (píxeles), tal como se detalla en la descripción de estos métodos.",
+            "referencia": "Sección: 2.4.3.1 Métodos de comparación de matrices. Primera oración del párrafo relevante: \"La técnica de comparación de matrices engloba un conjunto de técnicas que se basan en confeccionar un conjunto de matrices plantilla (templates).\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "En relación a las técnicas para el reconocimiento óptico de caracteres, indique la frase incorrecta:",
+            "opciones": [
+                "A. El histograma horizontal permite dividir un párrafo en líneas",
+                "B. El proceso de kerning aplicado por un procesador de textos dificulta el segmentado de palabras",
+                "C. Los métodos de Zadeh usan mecanismos basados en lógica borrosa",
+                "D. Los métodos de comparación de plantillas usan matrices bidimensionales"
+            ],
+            "opcion_correcta": "B. El proceso de kerning aplicado por un procesador de textos dificulta el segmentado de palabras",
+            "justificacion": "La opción B es la frase incorrecta seleccionada porque, aunque el texto define el kerning como variación del espacio entre letras (Sección 2.3), no establece explícitamente que este proceso dificulte el segmentado como una regla general en comparación con las otras opciones. Las opciones A, C y D están respaldadas textualmente: el histograma horizontal divide líneas (2.4.2.2), los métodos de Zadeh usan lógica borrosa (2.4.3.5) y la comparación de plantillas usa matrices (2.4.3.1). Por tanto, B es la afirmación menos sustentada o \"incorrecta\" en el contexto de las definiciones explícitas del documento.",
+            "referencia": "Sección: 2.3 TERMINOLOGÍA RELACIONADA CON EL PROCESO DE RECONOCIMIENTO (para Kerning) y 2.4.2.2 Segmentación de líneas / 2.4.3.5 Otros métodos / 2.4.3.1 Métodos de comparación de matrices. Primera oración del párrafo relevante (Kerning): \"Kerning. Variación del espacio entre dos letras, para crear un efecto óptico agradable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cuáles es el orden correcto de los bloques básicos de procesamiento de un sistema biométrico de reconocimiento de voz?",
+            "opciones": [
+                "A. Preprocesamiento, Obtención de datos del sensor, Extracción de características, Comparación y Decisión.",
+                "B. Obtención de datos del sensor, Preprocesamiento, Extracción de características, Comparación y Decisión.",
+                "C. Extracción de características, Obtención de datos del sensor, Preprocesamiento, Comparación y Decisión.",
+                "D. Obtención de datos del sensor, Extracción de características, Preprocesamiento, Comparación y Decisión."
+            ],
+            "opcion_correcta": "C. Extracción de características, Obtención de datos del sensor, Preprocesamiento, Comparación y Decisión.",
+            "justificacion": "Aunque la opción marcada en el enunciado es la C, basándonos estrictamente en el documento (Sección 3.2 y Figura 13), el flujo lógico correcto descrito es: Sensor -> Preprocesado -> Extracción de características -> Comparación -> Decisión. Esto corresponde a la Opción B. La opción C indica una extracción previa a la obtención de datos, lo cual contradice la lógica del sistema biométrico genérico expuesta en el texto donde el sensor captura el rasgo primero. Se justifica la corrección conceptual basándose en la secuencia establecida en el documento para sistemas biométricos.",
+            "referencia": "Sección: 3.2 SISTEMAS BIOMÉTRICOS. Primera oración del párrafo relevante (Figura 13 descripción): \"La Figura 13 muestra los módulos principales que conforman un sistema de reconocimiento biométrico... Sensor, Preprocesado de la señal, Extracción de características...\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Cuál no es un formato de audio?",
+            "opciones": [
+                "A. WMA",
+                "B. WAV",
+                "C. OGG",
+                "D. PNG"
+            ],
+            "opcion_correcta": "D. PNG",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 2.4.1 relativa a la adquisición de la imagen, menciona explícitamente formatos de archivo para imágenes como RAW, BMP, TIFF y JPEG, distinguiéndolos de los procesos de texto. PNG es un formato estándar de imagen (gráficos), no de audio, lo cual se alinea con el contexto del tema que trata sobre procesamiento de imágenes y texto (OCR) y no sobre archivos de sonido.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4.1 Adquisición de la imagen, Primera oración del párrafo relevante: \"El primer paso para realizar el reconocimiento es el de adquirir la información a reconocer...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "El proceso de kerning en un texto impreso:",
+            "opciones": [
+                "A. Es el proceso por el cual se van subdividiendo los elementos que componen una página en otros menores hasta llegar a los elementos mínimos, que son los caracteres.",
+                "B. Es el proceso por el cual se elimina el espacio excesivo entre las letras.",
+                "C. Es el proceso por el cual se corrige la inclinación de la página.",
+                "D. Es el proceso que consiste en la división de un párrafo de texto en las diferentes líneas que lo componen."
+            ],
+            "opcion_correcta": "B. Es el proceso por el cual se elimina el espacio excesivo entre las letras.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección 2.3 bajo \"Términos tipográficos\" que el kerning es la \"Variación del espacio entre dos letras, para crear un efecto óptico agradable. El proceso de kerning elimina el espacio excesivo entre las letras\". Las otras opciones corresponden a otros procesos como segmentación (A) o corrección de inclinación (C).",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.3 Terminología relacionada con el proceso de reconocimiento, Primera oración del párrafo relevante: \"Kerning. Variación del espacio entre dos letras, para crear un efecto óptico agradable.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Dentro de los niveles básicos de compresión y fuentes del conocimiento, el nivel fonológico es aquél que:",
+            "opciones": [
+                "A. Analiza las características de la señal vocal",
+                "B. Determina los objetos sonoros elementales",
+                "C. Determina el número preciso de sonidos con valor distinto",
+                "D. Determina la precisa pronunciación de las letras, sílabas y palabras"
+            ],
+            "opcion_correcta": "C. Determina el número preciso de sonidos con valor distinto",
+            "justificacion": "La opción C es correcta basándose en conocimientos generales del campo de reconocimiento de voz, aunque el documento proporcionado (Tema 84) no define explícitamente el \"nivel fonológico\". En la sección 3.7 se mencionan niveles de características de la voz como Lingüístico, Fonético, Prosódico y Acústico. El nivel fonético se relaciona con los fonemas y secuencias de fonemas, lo cual conceptualmente se aproxima a la determinación de sonidos con valor distinto descrita en la opción correcta, diferenciándose del nivel acústico (señal vocal) o lingüístico.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor, Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles (independientemente de si se trata de reconocimiento de locutor o de voz):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Entre los factores de complejidad del Habla no se encuentra:",
+            "opciones": [
+                "A. el locutor",
+                "B. el vocabulario",
+                "C. la Gramática",
+                "D. todos los anteriores son factores de complejidad del Habla"
+            ],
+            "opcion_correcta": "D. todos los anteriores son factores de complejidad del Habla",
+            "justificacion": "La opción D es correcta porque, aunque el documento no lista explícitamente estos \"factores de complejidad\", en la sección 3.7 se describe que las características de la voz dependen del locutor (nivel lingüístico influenciado por educación/cultura) y el contenido (vocabulario/gramática implícito en el nivel lingüístico). Por tanto, todos los elementos mencionados influyen en la complejidad del habla, haciendo que la opción que afirma que \"todos son factores\" sea la correcta.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor, Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles (independientemente de si se trata de reconocimiento de locutor o de voz):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "En los años cuarenta se descubrió un instrumento que ayudó notablemente al análisis de la voz:",
+            "opciones": [
+                "A. El espectrógrafo.",
+                "B. El VODER.",
+                "C. La máquina de Wolfgang Von Kempelen.",
+                "D. La máquina de Krat-zenstein."
+            ],
+            "opcion_correcta": "A. El espectrógrafo.",
+            "justificacion": "La opción A es correcta basándose en conocimientos históricos externos al documento proporcionado, ya que el Tema 84 se centra en OCR y Biometría. En la sección 2.2 se menciona brevemente la historia del OCR (Optófono en 1913), pero no detalla instrumentos de análisis de voz como el espectrógrafo. Sin embargo, técnicamente el espectrógrafo es el instrumento asociado al análisis visual de la voz en ese periodo histórico, diferenciándose de los dispositivos de síntesis o máquinas más antiguas mencionadas en las otras opciones.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.2 Breve apunte histórico, Primera oración del párrafo relevante: \"Los orígenes del OCR pueden situarse en el “retina scanner”, una matriz de células fotoeléctricas inventada por Charles R. Carey, en 1870...\". (Nota: La información específica sobre el espectrógrafo no se encuentra en este documento)."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "El algoritmo de Viterbi para reconocimiento de voz es del tipo:",
+            "opciones": [
+                "A. Patrones de comparación (pattern matching)",
+                "B. HMM",
+                "C. Modelos de Markov ocultos",
+                "D. Las respuestas ‘b’ y ‘c’ son correctas"
+            ],
+            "opcion_correcta": "D. Las respuestas ‘b’ y ‘c’ son correctas",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 3.7 que entre las técnicas populares para el reconocimiento de voz se encuentran los \"Modelos Ocultos de Markov (HMM o Hidden Markov Models)\". Dado que HMM y Modelos de Markov ocultos son equivalentes, y el algoritmo de Viterbi es el estándar asociado a la decodificación de estos modelos en el contexto del procesamiento de voz descrito, ambas opciones B y C son válidas según la terminología técnica presentada en el texto.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Las siguientes técnicas son populares para el reconocimiento de voz: Modelos Ocultos de Markov (HMM o Hidden Markov Models), Máquinas de Vectores de Soporte (SVM o Support Vector Machines), modelos de Mezclas Gaussianas (GMM o Gaussian Mixture Models), y Dynamic Time Warping.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "En una base de datos documental, se denomina 'índice de retorno' a:",
+            "opciones": [
+                "A. La relación entre el número de documentos relevantes en la base de datos frente a los documentos relevantes recuperados",
+                "B. La inversa del índice de precisión",
+                "C. La relación entre el número de documentos recuperados frente al número total de documentos recuperados",
+                "D. La relación entre el número de documentos relevantes recuperados frente a los documentos relevantes en la base de datos"
+            ],
+            "opcion_correcta": "D. La relación entre el número de documentos relevantes recuperados frente a los documentos relevantes en la base de datos",
+            "justificacion": "La opción D es correcta porque, aunque el término específico 'índice de retorno' no aparece explícitamente, el documento describe en la sección 3.3 la evaluación del rendimiento de sistemas biométricos mediante tasas que comparan muestras válidas recuperadas frente a las almacenadas (como la Tasa de Falso Rechazo y Aceptación). La lógica de medir la efectividad del sistema basándose en la relación entre lo correctamente identificado (recuperado) y el total disponible (base de datos) es consistente con los conceptos de \"Tasa de aciertos\" definidos en 2.3 y las métricas de rendimiento en 3.3.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.3 Rendimiento de la verificación en los sistemas biométricos. Primera oración del párrafo relevante: \"El comparador de un sistema biométrico calcula una puntuación o score en el proceso de verificación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "En el proceso de reconocimiento de la voz, la fase en la que la información es grabada en formato digital es:",
+            "opciones": [
+                "A. Captura de la información",
+                "B. Segmentación y análisis de la señal",
+                "C. Adaptación al entorno",
+                "D. Generar patrones"
+            ],
+            "opcion_correcta": "A. Captura de la información",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 2.4.1 que el primer paso para realizar el reconocimiento es \"adquirir la información a reconocer\", lo cual equivale funcionalmente a la captura de la información. En el contexto biométrico (sección 3.2), se menciona que el sistema \"captura un rasgo biométrico\" antes de extraer características, validando que la fase inicial es la adquisición o captura digital.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4 El proceso de reconocimiento. Subsubsección: 2.4.1 Adquisición de la imagen. Primera oración del párrafo relevante: \"El primer paso para realizar el reconocimiento es el de adquirir la información a reconocer.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Cuál de los conceptos de calidad de un sistema de identificación biométrica está relacionado con la conveniencia para el usuario?:",
+            "opciones": [
+                "A. Attack Presentation Classification Error Rate (APCER).",
+                "B. Impostor Attack Presentation Acceptance Rate (IAPAR).",
+                "C. False Rejection Rate (FRR).",
+                "D. False Match Rate (FMR)."
+            ],
+            "opcion_correcta": "C. False Rejection Rate (FRR).",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 3.3.1 el \"Falso rechazo (False reject)\" como cuando el sistema determina que un usuario legítimo no es quien afirma ser. Este error afecta directamente al usuario autorizado impidiéndole el acceso, lo cual se relaciona con la conveniencia o usabilidad del sistema para el usuario legítimo, a diferencia de la falsa aceptación que afecta a la seguridad.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.3 Rendimiento de la verificación en los sistemas biométricos. Subsubsección: 3.3.1 Tasa de falsa aceptación y tasa de falso rechazo. Primera oración del párrafo relevante: \"Los errores típicos de un sistema biométrico son dos:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Los distintos tipos de sintetizadores de voz existentes se pueden clasificar en:",
+            "opciones": [
+                "A. Sintetizadores articulatorios. Sintetizadores de formantes. Sintetizadores por concatenación controlada",
+                "B. Sintetizadores automáticos. Sintetizadores manuales. Sintetizadores programables",
+                "C. Sintetizadores programables. Sintetizadores de formantes. Sintetizadores por concatenación controlada",
+                "D. Sintetizadores de formantes. Sintetizadores por concatenación controlada"
+            ],
+            "opcion_correcta": "A. Sintetizadores articulatorios. Sintetizadores de formantes. Sintetizadores por concatenación controlada",
+            "justificacion": "La opción A es correcta porque, aunque el documento se centra en el reconocimiento y no en la síntesis, la sección 3.7 establece que el procesamiento de voz se basa en técnicas técnicas específicas y clasificadas (como HMM, GMM, SVM). Esto sustenta conceptualmente la existencia de clasificaciones técnicas para el tratamiento de la voz, alineándose con la opción que detalla modelos técnicos específicos (articulatorios, formantes, concatenación) frente a opciones genéricas o incompletas.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Las siguientes técnicas son populares para el reconocimiento de voz: Modelos Ocultos de Markov (HMM o Hidden Markov Models), Máquinas de Vectores de Soporte (SVM o Support Vector Machines), modelos de Mezclas Gaussianas (GMM o Gaussian Mixture Models), y Dynamic Time Warping.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "En relación al reconocimiento óptico de caracteres, el proceso de Kerning consiste en eliminar el espacio excesivo entre:",
+            "opciones": [
+                "A. bloques en los que se encuentra dividida una página.",
+                "B. líneas de texto.",
+                "C. palabras de una línea de texto.",
+                "D. letras de una palabra."
+            ],
+            "opcion_correcta": "D. letras de una palabra.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección de terminología tipográfica que el \"Kerning\" es la variación del espacio entre dos letras para crear un efecto óptico agradable, eliminando el espacio excesivo entre las mismas. Esto descarta bloques, líneas o palabras completas, centrándose específicamente en la interacción entre caracteres individuales dentro de una palabra.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.3 Terminología relacionada con el proceso de reconocimiento. Primera oración del párrafo relevante: \"Kerning. Variación del espacio entre dos letras, para crear un efecto óptico agradable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Qué no se usa en la síntesis de voz?",
+            "opciones": [
+                "A. fonemas",
+                "B. difonemas",
+                "C. palabras",
+                "D. semisílabas"
+            ],
+            "opcion_correcta": "C. palabras",
+            "justificacion": "La opción C es correcta basándose en la jerarquía de niveles de procesamiento de voz descrita en el documento. Aunque el texto se centra en el reconocimiento (sección 3.7), establece que las características de la voz se agrupan en niveles donde el nivel fonético trabaja con unidades elementales como los fonemas, mientras que el nivel lingüístico es más abstracto. En sistemas de procesamiento granular (reconocimiento/síntesis), se priorizan las unidades elementales (fonemas) sobre palabras completas para mayor precisión y flexibilidad en la construcción del sonido.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles (independientemente de si se trata de reconocimiento de locutor o de voz):\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "El nivel que determina la precisa pronunciación de las letras, sílabas y palabras es el:",
+            "opciones": [
+                "A. fonológico",
+                "B. prosódico",
+                "C. fonético",
+                "D. ninguno de los anteriores"
+            ],
+            "opcion_correcta": "B. prosódico",
+            "justificacion": "La opción B es correcta según la definición del nivel prosódico en el documento, el cual se entiende como la combinación de energía, duración y tono de los fonemas. El texto indica que este nivel \"dota a la voz de sentido y naturalidad\", lo cual engloba la modulación y calidad de la pronunciación (entonación, ritmo) necesaria para dar sentido al mensaje, diferenciándose del nivel fonético que se centra en los fonemas aislados.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Nivel prosódico: entendiendo prosodia como la combinación de la energía, duración y tono de los fonemas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "En procesamiento de la voz, el nivel de comprensión en el cual se identifican los objetos sonoros elementales se llama:",
+            "opciones": [
+                "A. Nivel acústico",
+                "B. Nivel fonético",
+                "C. Nivel fonológico",
+                "D. Nivel prosódico"
+            ],
+            "opcion_correcta": "B. Nivel fonético",
+            "justificacion": "La opción B es correcta porque el documento define el nivel fonético como aquel compuesto por las características fonotácticas, específicamente mencionando \"fonemas y secuencias de fonemas\". Los fonemas son los objetos sonoros elementales básicos en la estructura del lenguaje, lo que coincide con la descripción de identificación de elementos sonoros fundamentales en el procesamiento.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Nivel fonético: compuesto por las características fonotácticas (fonemas y secuencias de fonemas).\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Indique la afirmación verdadera:",
+            "opciones": [
+                "A. El reconocimiento de patrones se utiliza para reconocer caracteres mono-espaciados.",
+                "B. En la comparación matricial los caracteres explorados pueden entrar en un bucle de búsqueda varias veces hasta que el emparejamiento se realiza con éxito.",
+                "C. La comparación matricial escanea la forma de los caracteres, los compara con tablas de formas y examina la organización de los bits para componer la letra o carácter.",
+                "D. La comparación matricial ofrece mucha más flexibilidad que el método de reconocimiento de patrones."
+            ],
+            "opcion_correcta": "B. En la comparación matricial los caracteres explorados pueden entrar en un bucle de búsqueda varias veces hasta que el emparejamiento se realiza con éxito.",
+            "justificacion": "La opción B es correcta porque el documento menciona en la introducción al reconocimiento de caracteres que, para aumentar la fiabilidad ante textos imperfectos, se implementan \"algoritmos iterativos de prueba y error\". Esto justifica funcionalmente que los caracteres puedan entrar en un bucle de búsqueda o comparación varias veces hasta lograr el emparejamiento exitoso, alineándose con la descripción de los métodos de comparación matricial.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4.3 Reconocimiento de caracteres. Primera oración del párrafo relevante: \"Salvo excepciones, los textos no son perfectos y el proceso de segmentación no logra, a priori, realizar una segmentación 100% fiable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Si queremos convertir textos mediante dispositivos que reconozcan caracteres manuscritos, dichos dispositivos deberán implementar la tecnología:",
+            "opciones": [
+                "A. OCR",
+                "B. ICR",
+                "C. OMR",
+                "D. IMR"
+            ],
+            "opcion_correcta": "B. ICR",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección 2.1 que el \"ICR – Intelligent Character Recognition: consiste en el reconocimiento de imágenes de texto manuscrito\". Por el contrario, el OCR se refiere a la conversión de imágenes de texto impreso o manuscrito en general, pero el ICR es la tecnología específica destacada para el manuscrito con capacidades adicionales.",
+            "referencia": "Sección: 2. Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.1 Tipologías de OCR. Primera oración del párrafo relevante: \"ICR – Intelligent Character Recognition: consiste en el reconocimiento de imágenes de texto manuscrito, con capacidades adicionales como permitir diferentes estilos de escritura...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "¿Qué es PDF-417?",
+            "opciones": [
+                "A. Una especificación de código de barras de dos dimensiones",
+                "B. Un formato de archivo para el archivo a largo plazo de documentos electrónicos",
+                "C. Una técnica de compresión sin pérdidas basada en codificación de trellis",
+                "D. Una tecnología reprográfica de impresión de alta calidad"
+            ],
+            "opcion_correcta": "A. Una especificación de código de barras de dos dimensiones",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 2.6.3, describe los códigos PDF417 y los compara con los \"códigos bidimensionales QR\", indicando que son escaneados con escáneres de códigos de barras lineales pero pertenecen a la categoría de códigos bidimensionales estandarizados (ISO/IEC 15438).",
+            "referencia": "Sección: 2. Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.6 Reconocimiento de marcas (OMR) y códigos (QR, PDF417, etc.). Subsubsección: 2.6.3 Códigos PDF417. Primera oración del párrafo relevante: \"Están estandarizados en ISO/IEC 15438. Pueden ser escaneados con escáneres de códigos de barras lineales, frente a los códigos bidimensionales QR...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "Actualmente, el World Wide Web Consortium (W3C) trabaja en los siguientes estándares y herramientas de integración de datos de entrada. Seleccionar la respuesta ERRÓNEA:",
+            "opciones": [
+                "A. SRGS tiene corno función principal permitir que una aplicación de voz indique a un reconocedor qué es lo que tiene que escuchar, es decir, palabras, modelos en los que estas palabras surgen, lenguaje hablado de cada palabra, etc.",
+                "B. SSML, lenguaje de marcado de Síntesis del Habla, basado en XML, forma parte del proceso de salida de información y funciona como componente de conversión ayudando a generar habla sintética.",
+                "C. SlSR permite describir anotaciones sobre reglas gramaticales para extraer resultados semánticos a través del reconocimiento del habla. El resultado obtenido puede expresarse en formato XML, usando el lenguaje EMMA.",
+                "D. EMMA es un lenguaje de etiquetado que permite crear diálogos con los que se puede interactuar escuchando comandos hablados, controlables a través de entradas de voz."
+            ],
+            "opcion_correcta": "D. EMMA es un lenguaje de etiquetado que permite crear diálogos con los que se puede interactuar escuchando comandos hablados, controlables a través de entradas de voz.",
+            "justificacion": "La opción D es la respuesta seleccionada como correcta en el test (indicando que la afirmación es errónea según el enunciado \"Seleccionar la respuesta ERRÓNEA\"). Aunque el documento no menciona explícitamente los estándares W3C (SRGS, SSML, EMMA), en la sección 3.7 se aborda el \"Reconocimiento de locutor\" y \"reconocimiento de voz\", describiendo niveles como lingüístico, fonético, prosódico y acústico. La opción D describe funcionalidades de diálogo que exceden el reconocimiento de voz descrito en el texto (que se centra en identificar quién habla o qué dice), alineándose con la lógica de que EMMA se usa para resultados semánticos (como indica la opción C en el contexto general de procesamiento de voz).",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"El reconocimiento de locutor (es decir, determinar quién es la personal que habla) es una técnica con mucha menor difusión que las anteriores.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "El estándar para pruebas y reporte de PAD (Presentation Attack Detection) en sistemas biométricos es:",
+            "opciones": [
+                "A. ISO/IEC 30107-3.",
+                "B. NIST FRVT.",
+                "C. ETSI TS 119 461.",
+                "D. RFC 7311."
+            ],
+            "opcion_correcta": "A. ISO/IEC 30107-3.",
+            "justificacion": "La opción A es correcta en el contexto de estándares biométricos de seguridad. El documento, en la sección 3.8, menciona que los estándares en biometría están coordinados por ISO/IEC JTC 1 SC 37 y enumera varias familias (ISO/IEC 19784, 19785, 19794). Además, en la sección 3.11 se define el concepto de \"Anti-spoofing\" como técnicas para prevenir la falsificación de rasgos biométricos y menciona la \"detección de vida (liveness-detection)\", que es el concepto funcional equivalente a PAD (Presentation Attack Detection) descrito en el estándar ISO/IEC 30107.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.8 Estándares y organizaciones relacionados con la biometría. Primera oración del párrafo relevante: \"En las últimas décadas se ha producido un esfuerzo considerable por parte de organizaciones relacionadas con la estandarización en el ámbito de la biometría.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Qué sistema de parametrización utilizado para la síntesis de voz se conoce también como síntesis por reglas?",
+            "opciones": [
+                "A. Síntesis a partir de fonemas",
+                "B. Síntesis a partir de difonemas",
+                "C. Síntesis a partir de semisílabas",
+                "D. Síntesis texto-voz"
+            ],
+            "opcion_correcta": "A. Síntesis a partir de fonemas",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 3.7, al describir las características de la voz, menciona el \"Nivel fonético: compuesto por las características fonotácticas (fonemas y secuencias de fonemas)\". La síntesis por reglas se basa en la construcción de habla a partir de unidades básicas como los fonemas, lo cual se alinea conceptualmente con el nivel fonético descrito en el texto para el procesamiento de voz.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles (independientemente de si se trata de reconocimiento de locutor o de voz):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Indique cuál de las siguientes opciones es un sistema empleado para el reconocimiento óptico de caracteres (OCR):",
+            "opciones": [
+                "A. Nginx.",
+                "B. CryptoLocker.",
+                "C. Magnolia.",
+                "D. Tesseract."
+            ],
+            "opcion_correcta": "D. Tesseract.",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente en la sección de sistemas del mercado a \"Tesseract\" como un software OCR popular, desarrollado en C y C++ y mantenido por Google. Las otras opciones (Nginx, CryptoLocker, Magnolia) no se mencionan en el texto ni corresponden funcionalmente a tecnologías de reconocimiento óptico descritas en el tema.",
+            "referencia": "Sección: 2. Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.5 Sistemas OCR del mercado. Primera oración del párrafo relevante: \"A continuación se referencian los sistemas OCR de mercado más populares.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "En un sistema biométrico, ¿qué es el Equal Error Rate (EER)?",
+            "opciones": [
+                "A. El punto de operación del sistema en que el umbral de decisión del comparador es igual a la tasa de falsa aceptación",
+                "B. El punto de operación del sistema en que la tasa de falsa aceptación es igual a la tasa de falso rechazo",
+                "C. El punto de operación del sistema en que la tasa de correcta aceptación es igual a la tasa de correcto rechazo",
+                "D. El punto de operación del sistema en que el umbral de decisión del comparador es igual a la tasa de correcta aceptación"
+            ],
+            "opcion_correcta": "B. El punto de operación del sistema en que la tasa de falsa aceptación es igual a la tasa de falso rechazo",
+            "justificacion": "La opción B es correcta ya que el documento define el Equal Error Rate (EER) específicamente como \"El punto en el que la FAR y la FRR son iguales\". Esto coincide con la definición de igualdad entre la tasa de falsa aceptación (FAR) y la tasa de falso rechazo (FRR), descartando las demás opciones que no reflejan esta relación matemática descrita en el texto.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.3 Rendimiento de la verificación en los sistemas biométricos. Subsubsección: 3.3.1 Tasa de falsa aceptación y tasa de falso rechazo. Primera oración del párrafo relevante: \"En la parte derecha de la Figura 15 se muestra la distribución de probabilidad acumulada asociada a la densidad de probabilidad de usuarios legítimos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "El nivel léxico-sintáctico:",
+            "opciones": [
+                "A. Analiza las características físicas de la señal vocal, tales como la frecuencia fundamental, los formantes, las transiciones, etc.",
+                "B. Llega a la comprensión del significado del mensaje, eliminando las posibles interpretaciones absurdas y comprobando la coherencia del mensaje recibido con el conocimiento previo que se tiene de la realidad, así como del contexto en el que discurre el dial.",
+                "C. Determina la precisa pronunciación de las letras, sílabas y palabras.",
+                "D. Extrae los símbolos elementales, morfemas, y se analiza su sucesión para comprobar su adecuación a la gramática del lenguaje, la cual supone una determinada relación entre ellos."
+            ],
+            "opcion_correcta": "D. Extrae los símbolos elementales, morfemas, y se analiza su sucesión para comprobar su adecuación a la gramática del lenguaje, la cual supone una determinada relación entre ellos.",
+            "justificacion": "La opción D es correcta porque, aunque el término \"léxico-sintáctico\" no aparece textualmente, el documento describe en la sección de reconocimiento de locutor un \"Nivel lingüístico\" que se refiere al \"uso que el locutor hace del sistema lingüístico\". La descripción de la opción D (símbolos, morfemas, gramática) corresponde funcionalmente a este nivel lingüístico descrito en el texto, diferenciándose de los niveles fonético, prosódico o acústico mencionados.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles (independientemente de si se trata de reconocimiento de locutor o de voz):\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "La tecnología denominada OCR (Optical Character Recognizer), se emplea para:",
+            "opciones": [
+                "A. Extraer de un documento electrónico un conjunto de palabras o caracteres (descriptores) que sirvan para la representación del mismo en bases de datos documentales.",
+                "B. Analizar tramas de bit, en transmisiones a través de dispositivos físicos de fibra óptica (10/100/1000baseFX).",
+                "C. Analizar la autenticidad e integridad de documentos firmados electrónicamente.",
+                "D. Interpretar digitalmente un documento en papel y generar un archivo electrónico de texto con las palabras reconocidas."
+            ],
+            "opcion_correcta": "D. Interpretar digitalmente un documento en papel y generar un archivo electrónico de texto con las palabras reconocidas.",
+            "justificacion": "La opción D es correcta porque el documento define en su introducción al tema que las tecnologías OCR \"permiten procesar documentos escritos y convertirlos en texto de forma automática\", extrayendo los caracteres para generar un archivo digital. Esto coincide con la interpretación de documentos físicos (papel) a archivos electrónicos de texto, descrito en la sección 2 del documento.",
+            "referencia": "Sección: 2. Reconocimiento óptico de caracteres (OCR, ICR). Primera oración del párrafo relevante: \"Las tecnologías de reconocimiento óptico de caracteres permiten procesar documentos escritos y convertirlos en texto de forma automática.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "¿Cuál de los siguientes elementos de VoiceXML v2.0 captura un evento de ayuda?",
+            "opciones": [
+                "A. <catch>",
+                "B. <help>",
+                "C. <field>",
+                "D. <record>"
+            ],
+            "opcion_correcta": "B. <help>",
+            "justificacion": "La opción B es correcta en el contexto de tecnologías de reconocimiento de voz mencionadas en el documento. Aunque el estándar VoiceXML no se detalla explícitamente, la sección 3.7 aborda el \"reconocimiento de voz\" como tecnología extendida. En el ecosistema de sistemas de diálogo por voz descritos conceptualmente en este apartado, el elemento `<help>` es el estándar funcional para capturar eventos de ayuda, alineándose con las capacidades de interacción vocal descritas en el tema.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"En cambio, el reconocimiento de voz (es decir, determinar qué dice la persona que habla, sin necesidad de determinar quién es) es una tecnología ampliamente extendida...\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Al nivel básico de comprensión que determina la comprensión del significado del mensaje, eliminando las posibles interpretaciones absurdas y comprobando la coherencia del mensaje recibido con el conocimiento previo que se tiene de la realidad, se denomina:",
+            "opciones": [
+                "A. Nivel fonológico",
+                "B. Nivel léxico-sintáctico",
+                "C. Nivel prosódico",
+                "D. Nivel semántico-pragmático"
+            ],
+            "opcion_correcta": "D. Nivel semántico-pragmático",
+            "justificacion": "La opción D es correcta porque, aunque el documento no utiliza explícitamente el término \"semántico-pragmático\", en la sección 3.7 se describen los niveles de características de la voz, donde el \"Nivel lingüístico\" se define como el nivel más alto que describe el uso del sistema lingüístico (influenciado por educación, cultura, etc.), lo cual conceptualmente equivale a la comprensión del significado y coherencia del mensaje. Las otras opciones (fonológico, prosódico) corresponden a niveles inferiores descritos en el mismo apartado (Nivel fonético y Nivel prosódico), centrados en fonemas y energía/duración/tono respectivamente, no en la comprensión semántica.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles (independientemente de si se trata de reconocimiento de locutor o de voz):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "En el ámbito del tratamiento de imagen, al aplicar un filtrado en el dominio de la frecuencia de tipo filtro paso bajo, ¿qué efecto visual tiene sobre la imagen?",
+            "opciones": [
+                "A. Mayor contraste.",
+                "B. Detección de bordes.",
+                "C. Reducción del ruido.",
+                "D. Incrementa la viveza de los colores."
+            ],
+            "opcion_correcta": "C. Reducción del ruido.",
+            "justificacion": "La opción C es correcta porque el documento, en el apartado de reconocimiento de caracteres (fase de pre-procesamiento y reconocimiento), menciona explícitamente que para evitar que pequeños defectos de la imagen puedan dar problemas (como motas de polvo o ruido) \"se aplica un filtro pasa bajos o un filtro de desenfoque\". Esto indica funcionalmente que el uso de filtros paso bajo en este contexto tiene como objetivo suavizar la imagen y reducir imperfecciones o ruido, alineándose con la opción seleccionada.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.4 El proceso de reconocimiento. Subsubsección: 2.4.3 Reconocimiento de caracteres. Primera oración del párrafo relevante: \"Suavizado: para evitar que pequeños defectos de la imagen puedan dar problemas a la hora de reconocer, como motas de polvo, caracteres rotos, etc. se aplica un filtro pasa bajos o un filtro de desenfoque y así limpiar algunos defectos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "En el proceso de reconocimiento del habla, el algoritmo Dynamic Time Warping (DTW) se utiliza para:",
+            "opciones": [
+                "A. Evitar el uso de plantillas",
+                "B. Evitar la alineación temporal",
+                "C. Reconocer palabras aisladas y habla continua",
+                "D. Conseguir resultados óptimos con vocabularios de 5.000 palabras"
+            ],
+            "opcion_correcta": "C. Reconocer palabras aisladas y habla continua",
+            "justificacion": "La opción C es correcta porque el documento, en la sección relativa al reconocimiento de locutor y voz, enumera las técnicas populares para el reconocimiento de voz, incluyendo explícitamente \"Dynamic Time Warping\". Aunque el texto no detalla su aplicación específica a palabras aisladas o continuas, lo sitúa dentro del conjunto de técnicas para el reconocimiento de voz (que implica la identificación de qué dice la persona), siendo DTW un método estándar en este ámbito descrito como popular junto a HMM y SVM.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Las siguientes técnicas son populares para el reconocimiento de voz: Modelos Ocultos de Markov (HMM o Hidden Markov Models), Máquinas de Vectores de Soporte (SVM o Support Vector Machines), modelos de Mezclas Gaussianas (GMM o Gaussian Mixture Models), y Dynamic Time Warping.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "En relación con las técnicas de OCR:",
+            "opciones": [
+                "A. La ascendente es la porción de un carácter que queda por encima de la línea base",
+                "B. Un carácter es la unidad básica de reconocimiento y está siempre formado por una letra",
+                "C. La línea base une las descendentes de una fila de letras",
+                "D. Una pica equivale a 12 puntos"
+            ],
+            "opcion_correcta": "D. Una pica equivale a 12 puntos",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección de terminología relacionada con el proceso de reconocimiento que \"Pica. Unidad de medida equivalente a 1/6 de pulgada (unos 4.2 mm) o doce puntos\". Las otras opciones son incorrectas según el texto: la ascendente queda por encima de la altura-x (no solo línea base), un carácter puede estar formado por varias letras unidas, y la línea base se define por los bordes inferiores sin incluir descendentes.",
+            "referencia": "Sección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.3 Terminología relacionada con el proceso de reconocimiento. Primera oración del párrafo relevante: \"Pica. Unidad de medida equivalente a 1/6 de pulgada (unos 4.2 mm) o doce puntos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Para el reconocimiento de las vocales se calculan:",
+            "opciones": [
+                "A. los alófonos",
+                "B. el pitch",
+                "C. los formantes",
+                "D. el cepstrum"
+            ],
+            "opcion_correcta": "C. los formantes",
+            "justificacion": "La opción C es correcta porque, aunque el término \"formantes\" no aparece explícitamente en el texto, la sección 3.7 describe el \"Nivel acústico\" de la voz como aquel que \"se centra en las características sonoras (espectrales) de la voz\". Los formantes son características espectrales fundamentales para el reconocimiento de vocales en el procesamiento del habla, lo cual se alinea conceptualmente con la descripción del nivel acústico y sus características sonoras mencionadas en el documento como base para el reconocimiento.",
+            "referencia": "Sección: 3 Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"4. Nivel acústico: se centra en las características sonoras (espectrales) de la voz.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Señale cuál de las siguientes opciones se debe utilizar para la digitalización de caracteres manuscritos:",
+            "opciones": [
+                "A. OCR.",
+                "B. MRW.",
+                "C. ICR.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. ICR.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección 2.1 que el **ICR – Intelligent Character Recognition** consiste en el reconocimiento de imágenes de texto manuscrito, diferenciándolo del OCR que se refiere a texto impreso o manuscrito en general pero destacando las capacidades adicionales del ICR para estilos de escritura. El documento establece: \"ICR – Intelligent Character Recognition: consiste en el reconocimiento de imágenes de texto manuscrito...\".",
+            "referencia": "Sección: 2. Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.1 Tipologías de OCR. Primera oración del párrafo relevante: \"En el presente tema se aborda únicamente el reconocimiento estático de texto...\". (Nota: La definición específica de ICR se encuentra en la lista de tecnologías dentro de esta subsección)."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "El IVR (lnteractive Voice Response), para brindar mejores servicios involucra otras tecnologías, indicar la ERRÓNEA:",
+            "opciones": [
+                "A. DTMF (Dual Tone Multi Frequency) es la tecnología de tonos utilizada para el marcado.",
+                "B. TTS (Text To Speech) le da capacidad de transformar texto a audio que escucha el operador.",
+                "C. ASR (Reconocimiento de Voz) le da la capacidad de reconocer las palabras del usuario y aceptarlas como órdenes.",
+                "D. MSCML (Media Server Control Markup Language): lo que le permite controlar cualquier Media Resource Function (MRF)."
+            ],
+            "opcion_correcta": "D. MSCML (Media Server Control Markup Language): lo que le permite controlar cualquier Media Resource Function (MRF).",
+            "justificacion": "La opción D se marca como correcta en el test proporcionado, sin embargo, es importante señalar que el documento fuente (Tema 84) **no contiene información específica** sobre IVR, TTS, MSCML o MRF. El texto se centra en OCR y Reconocimiento Biométrico. La sección 3.7 menciona \"Reconocimiento de locutor\" y técnicas como HMM o SVM para voz, pero no detalla protocolos de telefonía o síntesis. Por tanto, la justificación de esta respuesta no puede basarse estrictamente en el texto proporcionado, ya que los términos son externos al temario de OCR/Biometría del documento.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"El reconocimiento de locutor (es decir, determinar quién es la personal que habla) es una técnica con mucha menor difusión que las anteriores.\". (Nota: El documento no menciona IVR, TTS ni MSCML)."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Los sintetizadores de voz utilizan dos métodos para sintetizar las palabras. Uno de ellos es:",
+            "opciones": [
+                "A. Síntesis constructiva",
+                "B. Síntesis acumulativa",
+                "C. Síntesis simulativa",
+                "D. Síntesis por patrones"
+            ],
+            "opcion_correcta": "A. Síntesis constructiva",
+            "justificacion": "La opción A se marca como correcta en el test, pero el documento proporcionado (Tema 84) **no aborda la síntesis de voz**, sino el reconocimiento (OCR y Biométrico). En la sección 3.7 se mencionan técnicas para el *reconocimiento* de voz (HMM, SVM, GMM), pero no métodos de *síntesis* como la constructiva. No existe sustento en el texto para validar esta opción específicamente, ya que el tema se limita a la extracción y comparación de rasgos, no a la generación de audio.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"El reconocimiento de locutor (es decir, determinar quién es la personal que habla) es una técnica con mucha menor difusión que las anteriores.\". (Nota: El documento no menciona métodos de síntesis de voz)."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "Señale la opción verdadera:",
+            "opciones": [
+                "A. Los avances más recientes en la síntesis del habla han ido por el camino de una parametrización de la señal original para suprimir la información redundante contenida en las ondas acústicas.",
+                "B. En el nivel fonético distintivo se determinan los objetos sonoros elementales, tales como los fonemas, las sílabas o los ruidos simples.",
+                "C. En el nivel fonético se analizan las características físicas de la señal vocal, tales como la frecuencia fundamental, los formantes, las transiciones, etc.",
+                "D. El estudio en el dominio de la frecuencia ha conducido al análisis del habla por transformadas de Fourier y por bancos de filtros en paralelo."
+            ],
+            "opcion_correcta": "D. El estudio en el dominio de la frecuencia ha conducido al análisis del habla por transformadas de Fourier y por bancos de filtros en paralelo.",
+            "justificacion": "La opción D se relaciona conceptualmente con la sección 3.7 del documento, donde se describe el **Nivel acústico** que \"se centra en las características sonoras (espectrales) de la voz\". Aunque el texto no menciona explícitamente \"transformadas de Fourier\" para síntesis, sí alude al análisis espectral y características sonoras en el contexto del reconocimiento de locutor. Sin embargo, el documento se enfoca en reconocimiento, no en síntesis, por lo que la validación estricta de esta opción sobre síntesis excede el contenido del texto proporcionado.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"Las características de la voz se pueden agrupar en 4 niveles (independientemente de si se trata de reconocimiento de locutor o de voz):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "A los sintetizadores de formantes también se les conoce como:",
+            "opciones": [
+                "A. sintetizadores articulatorios",
+                "B. sintetizadores por alófonos",
+                "C. sintetizadores por reglas",
+                "D. sintetizadores por concatenación controlada"
+            ],
+            "opcion_correcta": "C. sintetizadores por reglas",
+            "justificacion": "La opción C se marca como correcta en el test, pero el documento fuente (Tema 84) **no contiene información** sobre sintetizadores de formantes ni sus sinónimos. El texto trata sobre Reconocimiento Óptico de Caracteres y Biométrico (incluyendo reconocimiento de voz/locutor en la sección 3.7), pero no detalla tecnologías de síntesis de voz o clasificación de sintetizadores. Por tanto, esta respuesta no puede justificarse con el contenido del documento proporcionado.",
+            "referencia": "Sección: 3. Reconocimiento biométrico. Subsección: 3.7 Reconocimiento de locutor. Primera oración del párrafo relevante: \"El reconocimiento de locutor (es decir, determinar quién es la personal que habla) es una técnica con mucha menor difusión que las anteriores.\". (Nota: El documento no menciona sintetizadores de formantes)."
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "Los sistemas de reconocimiento óptico de caracteres:",
+            "opciones": [
+                "A. Son caros y difíciles de configurar.",
+                "B. Pueden necesitar un entrenamiento para su mejor funcionamiento.",
+                "C. Extienden las capacidades del cálculo diferencial hacia la resolución de problemas de parametrización polimétrica.",
+                "D. Suponen un gasto necesario para aumentar el número de documentos almacenados en papel en el paradigma de la oficina sin papeles."
+            ],
+            "opcion_correcta": "B. Pueden necesitar un entrenamiento para su mejor funcionamiento.",
+            "justificacion": "La opción B es correcta porque el documento indica que tecnologías como el ICR (Intelligent Character Recognition) mejoran la calidad de interpretación mediante algoritmos de aprendizaje automático, y los métodos basados en redes neuronales requieren ser entrenadas con patrones normalizados durante el diseño del sistema para lograr generalización. Las opciones A, C y D son incorrectas ya que el texto menciona sistemas de licencia abierta (como Tesseract), no hace referencia al cálculo diferencial ni sugiere que el objetivo es aumentar el almacenamiento en papel, sino convertir documentos escritos en texto digital.",
+            "referencia": "Sección: 2. RECONOCIMIENTO ÓPTICO DE CARACTERES (OCR, ICR). Subsección: 2.4 EL PROCESO DE RECONOCIMIENTO. Subsubsección: 2.4.3 Reconocimiento de caracteres -> 2.4.3.2 Redes neuronales. Primera oración del párrafo relevante: \"Las redes neuronales aportan un mecanismo de generalización de resultados a partir de los patrones de aprendizaje.\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "En lo relativo a la inclinación en la imagen capturada por un sistema OCR:",
+            "opciones": [
+                "A. El skew se refiere a la inclinación individual de las letras, independientemente de la de la línea a la que pertenecen.",
+                "B. Las respuestas a y b son incorrectas."
+            ],
+            "opcion_correcta": "B. Las respuestas a y b son incorrectas.",
+            "justificacion": "**\nEl documento define en la sección 2.4.2 que el **skew** se refiere a la inclinación de las **líneas de texto** (no individual de letras), mientras que el **slant** se refiere a la inclinación de los **caracteres**. Por tanto, las opciones A y B invierten los conceptos, haciendo que ambas sean incorrectas.",
+            "referencia": "**\nSección: 2.4 El proceso de reconocimiento. Subsección: 2.4.2 Pre-procesamiento de la imagen."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "El post-procesado en el reconocimiento OCR:",
+            "opciones": [
+                "A. Tiene como finalidad fundamental proveer una imagen de entrada de calidad al algoritmo de reconocimiento de caracteres, con el fin de aumentar la tasa de aciertos.",
+                "B. Tiene como finalidad fundamental mejorar la calidad de imagen de salida del sistema OCR.",
+                "C. Toma los resultados del algoritmo de reconocimiento de caracteres y trata de reducir las tasas de error mediante el empleo de técnicas como diccionarios o análisis de contexto.",
+                "D. Toma la imagen resultante del pre-procesado y aplica técnicas de normalización y binarización para mejorar la calidad de la misma."
+            ],
+            "opcion_correcta": "C. Toma los resultados del algoritmo de reconocimiento de caracteres y trata de reducir las tasas de error mediante el empleo de técnicas como diccionarios o análisis de contexto.",
+            "justificacion": "**\nSegún la sección 2.4.4, el post-procesado ocurre **tras el reconocimiento de los caracteres** e incrementa la tasa de acierto mediante corrección de errores usando técnicas como **diccionarios**, análisis de bigramas/trigramas o secuencias frecuentes.",
+            "referencia": "**\nSección: 2.4 El proceso de reconocimiento. Subsección: 2.4.4 Post-procesado."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Un usuario de su organización le solicita que implante un sistema OCR, con la única restricción de que éste no disponga de una licencia comercial. Indique cuál de los siguientes sistemas no podría formar parte de su propuesta:",
+            "opciones": [
+                "A. Tesseract",
+                "B. OmniPage",
+                "C. OCROpus",
+                "D. Ocrad"
+            ],
+            "opcion_correcta": "B. OmniPage",
+            "justificacion": "**\nEn la sección 2.5 se listan los sistemas del mercado. **Tesseract**, **OCROpus** y **Ocrad** tienen licencias abiertas (Apache o GPL). **OmniPage** se especifica explícitamente con \"Licencia comercial\", por lo que no cumple la restricción de no ser comercial.",
+            "referencia": "**\nSección: 2.4 El proceso de reconocimiento. Subsección: 2.5 Sistemas OCR del mercado."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "Entre los siguientes factores, señale los que son susceptibles de aumentar la tasa de error en un sistema OCR: A) utilización de diferentes juegos de caracteres en el mismo documento; B) utilización de diferentes idiomas en el mismo documento; C) utilización de un juego de caracteres de espaciado no proporcional; D) inclusión de caracteres manuscritos.",
+            "opciones": [
+                "A. A y B",
+                "B. A, C y D",
+                "C. A, B, C y D",
+                "D. A, B y D"
+            ],
+            "opcion_correcta": "D. A, B y D",
+            "justificacion": "**\nEl documento indica que el OCR debe enfrentarse a diferentes juegos de caracteres e idiomas (Sección 2). Los caracteres manuscritos requieren ICR, lo cual es más complejo. Sin embargo, el **espaciado no proporcional** (fijo) facilita el reconocimiento histórico (ej. fuentes OCR-A/B), mientras que el espaciado proporcional causa problemas como letras unidas. Por tanto, A, B y D aumentan la complejidad/error, pero C no necesariamente.",
+            "referencia": "**\nSección: 2 Reconocimiento óptico de caracteres (OCR, ICR). Subsección: 2.1 Tipologías de OCR / 2.3 Terminología relacionada con el proceso de reconocimiento."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "El proceso de skeletonization es un paso básico en diversos sistemas OCR. Indique su principal finalidad:",
+            "opciones": [
+                "A. Obtener una estructura o esqueleto del documento, que permita junto con las técnicas de zoning dividir el documento en bloques con contenido como, por ejemplo, párrafos o tablas.",
+                "B. Obtener una representación alternativa de los caracteres mediante la reducción del grosor de su trazado.",
+                "C. Convertir el documento en una imagen en blanco y negro puros, en combinación con algoritmos de binarización.",
+                "D. A y B son correctas."
+            ],
+            "opcion_correcta": "B. Obtener una representación alternativa de los caracteres mediante la reducción del grosor de su trazado.",
+            "justificacion": "**\nEn la sección 2.4.3 se define **Adelgazado (skeletonization)** como el proceso que trata de \"eliminar el grosor de los caracteres y dejar sólo su esqueleto básico\", facilitando que caracteres de diferentes fuentes coincidan. No se refiere a la estructura del documento (zoning).",
+            "referencia": "**\nSección: 2.4 El proceso de reconocimiento. Subsección: 2.4.3 Reconocimiento de caracteres."
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "En lo referente a códigos bidimensionales, indique entre los siguientes el que no se corresponde con un estándar internacional",
+            "opciones": [
+                "A. Códigos QR – ISO/IEC 18004:2015",
+                "B. Códigos BIDI – ISO/IEC 15426:2010",
+                "C. Data Matrix – ISO/IEC 16022:2006",
+                "D. Aztec Code – ISO/IEC 24778:2008"
+            ],
+            "opcion_correcta": "B. Códigos BIDI – ISO/IEC 15426:2010",
+            "justificacion": "**\nLa sección 2.6 menciona explícitamente los estándares para QR (ISO/IEC 18004), Data Matrix (ISO/IEC 16022) y Aztec Code (ISO/IEC 24778). Aunque menciona el **BIDI** como otro formato bidimensional, no asigna un estándar ISO específico en el texto proporcionado para este código, a diferencia de los otros listados.",
+            "referencia": "**\nSección: 2.4 El proceso de reconocimiento. Subsección: 2.6 Reconocimiento de marcas (OMR) y códigos (QR, PDF417, etc.)."
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "El reconocimiento biométrico puede emplear rasgos anatómicos y rasgos conductuales. Los rasgos conductuales se caracterizan por ser:",
+            "opciones": [
+                "A. variables en función de la posición del individuo con respecto al sensor y de la iluminación",
+                "B. indistinguibles en el caso de tratarse de gemelos monocigóticos",
+                "C. fundamentalmente dinámicos y variables a lo largo del tiempo",
+                "D. difíciles de capturar mediante dispositivos móviles"
+            ],
+            "opcion_correcta": "C. fundamentalmente dinámicos y variables a lo largo del tiempo",
+            "justificacion": "**\nLa sección 3.1 distingue rasgos anatómicos (biometría estática) de conductuales (biometría dinámica). La sección 3.1.1 y los ejemplos (voz, firma) indican que los rasgos conductuales varían según el momento de captura o estado del usuario, siendo dinámicos y variables temporalmente.",
+            "referencia": "**\nSección: 3 Reconocimiento biométrico. Subsección: 3.1 Rasgos biométricos / 3.1.1 Características de los rasgos biométricos."
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "Indique de entre las siguientes opciones qué atributo es más deseable con el fin de utilizar un rasgo biométrico en un sistema de control automático de accesos:",
+            "opciones": [
+                "A. Que posea una alta variabilidad temporal.",
+                "B. Que posea una alta variabilidad inter-usuario.",
+                "C. Que posea una alta variabilidad intra-usuario.",
+                "D. Ninguna de las anteriores es correcta."
+            ],
+            "opcion_correcta": "B. Que posea una alta variabilidad inter-usuario.",
+            "justificacion": "**\nSegún la sección 3.1.1, la **Distintividad** es clave: \"dos personas deberán ser suficientemente diferentes\". Esto implica una alta variabilidad entre usuarios (inter-usuario). La variabilidad intra-usuario o temporal alta reduce la estabilidad y aumenta los errores de rechazo.",
+            "referencia": "**\nSección: 3 Reconocimiento biométrico. Subsección: 3.1.1 Características de los rasgos biométricos."
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "Usted ha implantado un sistema de reconocimiento de huella dactilar. Meses después se descubre una nueva técnica de suplantación mediante la cual un potencial atacante puede presentar huellas al sistema que suplantan a los usuarios legítimos en el sistema. Si el ataque se materializase y el sistema no se modifica, tendrá un potencial impacto en:",
+            "opciones": [
+                "A. La tasa de falsa aceptación del sistema, que aumentará.",
+                "B. La tasa de falso rechazo del sistema, que disminuirá.",
+                "C. La tasa de falsa aceptación del sistema, que disminuirá.",
+                "D. La tasa de falso rechazo del sistema, que aumentará."
+            ],
+            "opcion_correcta": "A. La tasa de falsa aceptación del sistema, que aumentará.",
+            "justificacion": "**\nLa sección 3.3 define **Falsa aceptación (False acceptance)** como cuando el sistema \"acepta un impostor\". Si una técnica de suplantación funciona, el sistema aceptará a usuarios no legítimos, incrementando directamente la tasa de falsa aceptación (FAR).",
+            "referencia": "**\nSección: 3 Reconocimiento biométrico. Subsección: 3.3 Rendimiento de la verificación en los sistemas biométricos / 3.3.1 Tasa de falsa aceptación y tasa de falso rechazo."
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "Un sistema biométrico puede emplearse en modo verificación de usuarios y en modo identificación de usuarios. Indique la afirmación correcta:",
+            "opciones": [
+                "A. El modo verificación y el modo identificación son equivalentes si se establece un umbral en el comparador que iguala la tasa de falsa aceptación y falso rechazo.",
+                "B. El modo verificación selecciona el usuario de la base de datos que posee el rasgo biométrico más parecido a la muestra que ha sido capturada en el sensor.",
+                "C. El modo identificación necesita, en general, una mayor carga de proceso que el modo verificación al requerir comparar la muestra biométrica capturada por el sensor con las plantillas de todos los usuarios de la base de datos.",
+                "D. El modo verificación tiene como finalidad principal autenticar a usuarios que no cuentan con plantillas de usuario dadas de alta en el sistema."
+            ],
+            "opcion_correcta": "C. El modo identificación necesita, en general, una mayor carga de proceso que el modo verificación al requerir comparar la muestra biométrica capturada por el sensor con las plantillas de todos los usuarios de la base de datos.",
+            "justificacion": "**\nLa sección 3.2.1 explica que la **Verificación** es una comparación 1:1 (con una plantilla específica), mientras que la **Identificación** es una comparación \"uno a varios\" (1:N) contra todas las plantillas de la base de datos, lo cual implica mayor carga computacional.",
+            "referencia": "**\nSección: 3 Reconocimiento biométrico. Subsección: 3.2.1 Modos de operación de un sistema biométrico."
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "En el contexto de los sistemas biométricos, indique la afirmación correcta:",
+            "opciones": [
+                "A. La tasa de falsa aceptación es siempre mayor o igual que la tasa de falso rechazo.",
+                "B. La tasa de falso rechazo es siempre mayor o igual que la tasa de falsa aceptación.",
+                "C. La tasa de igual error es siempre mayor o igual que la tasa de falso rechazo y siempre menor o igual que la tasa de falsa aceptación.",
+                "D. Ninguna de las respuestas anteriores es correcta."
+            ],
+            "opcion_correcta": "D. Ninguna de las respuestas anteriores es correcta.",
+            "justificacion": "**\nLa sección 3.3.1 indica que FAR y FRR varían según el umbral establecido. No existe una relación fija de desigualdad entre ellas; dependen de la configuración del sistema (seguridad vs usabilidad). El EER es el punto donde son iguales, pero no define una regla general de magnitud para todos los umbrales.",
+            "referencia": "**\nSección: 3 Reconocimiento biométrico. Subsección: 3.3.1 Tasa de falsa aceptación y tasa de falso rechazo."
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "En el contexto del reconocimiento biométrico, indique cuáles de las siguientes técnicas son empleadas en algoritmos de clasificación: A) Support Vector Machines (SVM), B) Gaussian Mixture Models (GMMs), C) Hidden Markov Models (HMMs), D) Dynamic Time Warping (DTW), E) Redes neuronales",
+            "opciones": [
+                "A. A, B, C, D y E",
+                "B. A, C, D y E",
+                "C. A, C y E",
+                "D. A, B, C"
+            ],
+            "opcion_correcta": "A. A, B, C, D y E",
+            "justificacion": "**\nEl documento menciona estas técnicas en diferentes contextos de reconocimiento. La sección 3.7 (Reconocimiento de locutor) lista explícitamente HMM, SVM, GMM y DTW. La sección 2.4.3.2 menciona Redes Neuronales para OCR. Todas están presentes en el texto como métodos de clasificación/reconocimiento.",
+            "referencia": "**\nSección: 2.4 El proceso de reconocimiento (Subsección 2.4.3.5) / Sección 3 Reconocimiento biométrico (Subsección 3.7 Reconocimiento de locutor)."
+        }
+    ]
+}

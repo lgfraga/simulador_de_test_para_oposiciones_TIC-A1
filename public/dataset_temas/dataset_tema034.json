@@ -1,0 +1,1110 @@
+{
+    "nombre_tema": "Tema 34",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Qué unidad funcional, dentro de las existentes habitualmente en la estructura informática de un organismo público, debería ejercer las funciones de control de calidad de los procesos, gestión de red y gestión de seguridad de datos y procesos?",
+            "opciones": [
+                "A. Sistemas",
+                "B. Desarrollo",
+                "C. Operaciones/explotación",
+                "D. Soporte a usuarios"
+            ],
+            "opcion_correcta": "A. Sistemas",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 3 que los Centros de Sistemas de Información suelen tener una estructura con dos grandes áreas: \"Desarrollo y Sistemas\". Las funciones de seguridad, comunicaciones (red) y administración de sistemas se detallan explícitamente en el epígrafe 3.3 (\"Administración de sistemas, bases de datos y comunicaciones\"), donde se asigna la seguridad y la gestión de redes al área de administración de sistemas, diferenciándola del desarrollo o mantenimiento puro.",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.3 Administración de sistemas, bases de datos y comunicaciones, Primera oración del párrafo relevante: \"Las funciones de administración de los centros de sistemas de información han tenido tradicionalmente como objetivo asegurar la continuidad de la operativa...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "En relación con el funcionamiento de un CAU (Centro de Atención de Usuarios) no es correcto que:",
+            "opciones": [
+                "A. Toda llamada que se reciba en el CAU debe quedar registrada como incidencia",
+                "B. En el caso de que el primer nivel del CAU no pueda resolver la incidencia debe escalarla a un segundo nivel, que se corresponde con otras áreas del centro TIC",
+                "C. Si el segundo nivel no puede resolver la incidencia, escalará la incidencia al tercer nivel, compuesto en general por proveedores y empresas de mantenimiento",
+                "D. Es responsabilidad de cada uno de los niveles documentar la incidencia, cerrarla y comunicarlo al usuario"
+            ],
+            "opcion_correcta": "D. Es responsabilidad de cada uno de los niveles documentar la incidencia, cerrarla y comunicarlo al usuario",
+            "justificacion": "La opción D es correcta (como afirmación incorrecta) porque el documento define al CAU como el \"único punto de contacto (SPOC)\" en la sección 3.4.1. Entre sus responsabilidades específicas figura \"Cerrar todas las incidencias, peticiones de Servicio u otras llamadas resueltas\". Si cada nivel cerrara y comunicara independientemente, se rompería la centralización del CAU como SPOC y el control unificado del servicio descrito en el texto.",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.4.1 ITIL como estándar de Gestión del CAU, Primera oración del párrafo relevante: \"El CAU o Centro de Servicio al Usuario funciona como el único punto de contacto (SPOC) para la organización de Tecnologías de la Información.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "En el contexto de las tareas de explotación de sistemas de información, se denominan tareas u operaciones «lights-out» a:",
+            "opciones": [
+                "A. Las tareas u operaciones automatizadas, que se llevan a cabo sin intervención humana, de forma desatendida.",
+                "B. Las tareas incluidas en el plan de contingencias, a llevar a cabo en caso de corte del suministro eléctrico.",
+                "C. Las tareas que no se pueden automatizar, por lo que necesariamente requieren personal para su realización.",
+                "D. Las tareas criticas, que requieren su Inclusión especifica en el plan de contingencias, en una localización física alternativa a la habitual."
+            ],
+            "opcion_correcta": "A. Las tareas u operaciones automatizadas, que se llevan a cabo sin intervención humana, de forma desatendida.",
+            "justificacion": "La opción A es correcta porque, aunque el término \"lights-out\" no aparece textualmente, el documento describe en la sección 2.2 el \"Nivel operacional\" como aquel que equivale a la operativa diaria y tareas de mantenimiento preventivo \"que en muchos casos se pueden automatizar\". Además, en la sección 3.3.1 se menciona la \"Optimización de la operativa diaria mediante la automatización de las tareas\", lo que conceptualmente corresponde a operaciones sin intervención humana directa.",
+            "referencia": "Sección: 2 Organización y funcionamiento de un Centro de Sistemas de Información. Subsección: 2.2 Funcionamiento de un Centro de Sistemas de la Información, Primera oración del párrafo relevante: \"El funcionamiento de un Centro de Sistemas de la Información se estructura en torno a los siguientes niveles:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Cuál de las siguientes afirmaciones relativas a las organizaciones TIC es incorrecta?",
+            "opciones": [
+                "A. El área de logística no siempre pertenece a la organización TIC",
+                "B. Existe una tendencia en el área de desarrollo y mantenimiento hacia el modelo de organización proyecto-funcional",
+                "C. El sistema de funcionamiento formal se caracteriza por un elevado número de niveles jerárquicos",
+                "D. El CAU suministra información a los usuarios para resolver incidencias"
+            ],
+            "opcion_correcta": "C. El sistema de funcionamiento formal se caracteriza por un elevado número de niveles jerárquicos",
+            "justificacion": "La opción C es correcta (como afirmación incorrecta) porque el documento, al describir las nuevas formas de organización en la sección 2.1.7 (\"La organización horizontal\"), indica explícitamente que \"se reduce la jerarquía\". El texto contrasta las formas clásicas con las modernas que buscan estar \"más allá de la jerarquía y el control\", por lo que caracterizar el sistema formal actual como de elevado número de niveles contradice la tendencia descrita en el tema.",
+            "referencia": "Sección: 2 Organización y funcionamiento de un Centro de Sistemas de Información. Subsección: 2.1.7 La organización horizontal, Primera oración del párrafo relevante: \"Se configura en función de una serie de macroprocesos clave para el negocio.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "De entre los elementos que componen un Centro de Atención a Clientes Multicanal (Contact Center) identifique cual de los siguientes elementos NO participa en el proceso de gestión de las llamadas:",
+            "opciones": [
+                "A. ACD",
+                "B. CRM",
+                "C. IVR",
+                "D. CTI"
+            ],
+            "opcion_correcta": "B. CRM",
+            "justificacion": "La opción B es correcta porque el documento, en la sección 3.4, describe los canales del CAU (teléfono, mail, web) y herramientas de gestión como Service Desk o GLPI, enfocándose en la gestión de servicios e incidencias. Los elementos ACD, IVR y CTI son infraestructuras técnicas directamente vinculadas al manejo de llamadas telefónicas (\"teléfono\" mencionado en 3.4), mientras que el CRM es una herramienta de gestión de relación con el cliente (aplicación) que no se menciona en el texto como componente técnico directo de la gestión de llamadas del CAU, sino más bien como soporte externo o aplicación diferenciada.",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.4 CAU o Infocentro, Primera oración del párrafo relevante: \"Todavía se utiliza en multitud de organismos el concepto “Infocentro”.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Dentro del análisis de un sistema de información automatizado, de una aplicación o de un proceso no se realiza básicamente, dentro de un esquema de modelo conceptual de datos, la siguiente tarea:",
+            "opciones": [
+                "A. Estudio del sistema de información preexistente.",
+                "B. Diseño físico del modelo de datos.",
+                "C. Diseño racional y normalizado del nuevo sistema de información.",
+                "D. Descripción generalizada de cada proceso."
+            ],
+            "opcion_correcta": "B. Diseño físico del modelo de datos.",
+            "justificacion": "La opción B es correcta porque el documento establece una distinción clara entre las fases de Análisis y Diseño en la metodología MÉTRICA. El análisis (ASI) se centra en obtener una especificación detallada y entender el problema, mientras que el diseño (DSI) es donde se define la arquitectura y la construcción del sistema, incluyendo aspectos físicos o tecnológicos. Por tanto, el diseño físico no corresponde a la fase de análisis conceptual.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.1.2. Análisis del Sistema de Información (ASI). Primera oración del párrafo relevante: \"El objetivo principal del proceso de análisis es el de obtener una especificación detallada del sistema de información que satisfaga las necesidades de información de los usuarios y sirva de base para el posterior diseño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿Cuál es el propósito fundamental de una Oficina de Gestión de Proyectos (PMO)?",
+            "opciones": [
+                "A. Gestionar de forma centralizada los proyectos TIC en la organización",
+                "B. Orientar al CIO en la identificación y definición de futuros proyectos TIC",
+                "C. Definir y mantener estándares de gestión de proyectos TIC en la organización",
+                "D. Llevar la gestión de los proveedores externos"
+            ],
+            "opcion_correcta": "C. Definir y mantener estándares de gestión de proyectos TIC en la organización",
+            "justificacion": "La opción C es correcta porque el documento menciona el uso de metodologías estandarizadas como MÉTRICA para el desarrollo y librerías de buenas prácticas como ITIL para la gestión de servicios. La función de definir y mantener estándares es fundamental para asegurar la calidad y eficiencia en los procesos TIC, alineándose con la necesidad de normalización descrita en las funciones de desarrollo y mantenimiento.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.1. Desarrollo de Sistemas de Información. Primera oración del párrafo relevante: \"Debido a sus características específicas, el desarrollo de sistemas suele ser responsabilidad de un área concreta, que agrupa a analistas y programadores, si bien cada vez más se tiende a externalizar esta función, manteniendo la jefatura de proyectos de desarrollo en la organización a efectos del control de la ejecución de los mismos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Si se desea una estructura organizacional caracterizada por su orientación a los usuarios se establecerá una organización:",
+            "opciones": [
+                "A. Funcional",
+                "B. Proyecto-staff",
+                "C. Proyecto-funcional",
+                "D. Por aplicaciones"
+            ],
+            "opcion_correcta": "D. Por aplicaciones",
+            "justificacion": "La opción D es correcta en el contexto de la orientación al cliente descrita en las nuevas formas de organización. El documento indica que las organizaciones modernas buscan la \"orientación al cliente\" y que los sistemas se construyen para cubrir necesidades u objetivos específicos de los usuarios. La estructura por aplicaciones permite alinear directamente los recursos TIC con las necesidades funcionales de los usuarios finales, facilitando esta orientación.",
+            "referencia": "Sección: 2. ORGANIZACIÓN Y FUNCIONAMIENTO DE UN CENTRO DE SISTEMAS DE INFORMACIÓN. Subsección: 2.1. Estructura organizativa. Primera oración del párrafo relevante (introducción a nuevas formas): \"Cada una de estas nuevas formas de organización posee sus rasgos específicos, pero tienen a su vez elementos comunes, entre los que se encuentran: el trabajo en equipo, la participación, la descentralización de la autoridad, el trabajo en función de objetivos, la orientación al cliente y la implicación...\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "En la planificación física de un centro de proceso de datos es esencial tener en cuenta el aspecto siguiente:",
+            "opciones": [
+                "A. Debe asegurarse el suministro de energía eléctrica haciendo un contrato con más de un suministrador o instalando generadores",
+                "B. Debe estar situado junto a una vía rápida de comunicación",
+                "C. El edificio no debe tener más de cuatro plantas",
+                "D. En la azotea deben instalarse paneles solares"
+            ],
+            "opcion_correcta": "A. Debe asegurarse el suministro de energía eléctrica haciendo un contrato con más de un suministrador o instalando generadores",
+            "justificacion": "La opción A es correcta porque el documento especifica que en el diseño e implantación de la infraestructura hardware, el administrador de sistemas debe determinar las necesidades de suministro eléctrico y tomar medidas de contingencia para garantizar la continuidad operativa. La seguridad del suministro es un requisito crítico para la explotación de los servidores corporativos.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3.1. Administración de sistemas. Subsubsección: a) Diseño e implantación de la infraestructura hardware. Primera oración del párrafo relevante: \"El administrador de sistemas deberá participar en el diseño de los centros de procesos de datos, determinando su ubicación más idónea, en función de las condiciones ambientales y del entorno, las necesidades de espacio, comunicaciones, suministro eléctrico y de climatización y las condiciones de acceso físico al mismo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "La propiedad de un proyecto y de los aplicativos resultantes del ciclo de vida del software corresponde a:",
+            "opciones": [
+                "A. Departamento de Informática",
+                "B. Dirección del Departamento usuario",
+                "C. Comité de Dirección del Proyecto",
+                "D. Compartido por todos"
+            ],
+            "opcion_correcta": "B. Dirección del Departamento usuario",
+            "justificacion": "La opción B es correcta porque el documento enfatiza que los sistemas de información se generan para cubrir una necesidad u objetivo de la organización y que la participación de los usuarios es fundamental en todas las fases, especialmente en la definición de requisitos y aceptación. Por tanto, el valor y la propiedad funcional del sistema residen en el área de negocio (usuario) que lo utiliza para sus objetivos.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.5. Relaciones con los usuarios. Primera oración del párrafo relevante: \"En el este tema se han tratado las relaciones con los usuarios como una función horizontal a todos los procesos que se efectúan en un Centro de Sistemas de Información ya que participan en todos ellos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "El concepto de Green CPD está muy avanzado y se está convirtiendo en un referente. Una de las técnicas utilizadas es el Free Cooling. ¿En qué consiste?",
+            "opciones": [
+                "A. Utilizar software libre en el control de la climatización.",
+                "B. Utilizar temperaturas bajo cero para la climatización.",
+                "C. Se trata del pasillo frío.",
+                "D. Utilizar las bajas temperaturas del aire exterior para la climatización."
+            ],
+            "opcion_correcta": "D. Utilizar las bajas temperaturas del aire exterior para la climatización.",
+            "justificacion": "La opción D es correcta porque, aunque el término \"Free Cooling\" no aparece explícitamente, el documento en la sección de Administración de Sistemas (3.3.1) establece que el administrador debe determinar las condiciones ambientales y de climatización para los centros de procesos de datos. El uso del aire exterior para climatización se alinea conceptualmente con la optimización de recursos energéticos y condiciones ambientales mencionada en el diseño de infraestructura hardware, buscando eficiencia en el suministro eléctrico y climatización.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3.1. Administración de sistemas. Primera oración del párrafo relevante: \"El administrador de sistemas deberá participar en el diseño de los centros de procesos de datos, determinando su ubicación más idónea...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "En el ámbito de la Administración de los Sistemas de Bases de Datos ¿Cuál de las siguientes afirmaciones, es verdadera?",
+            "opciones": [
+                "A. El Administrador de Datos (AD) está mas involucrado en las últimas etapas del ciclo de vida (desde el diseño de la aplicación y diseño físico de la base de datos, hasta su mantenimiento).",
+                "B. El Administrador de la Base de Datos (ABD) está más involucrado en las primeras etapas del ciclo de vida (desde la planificación de la base de datos hasta el diseño lógico).",
+                "C. Las responsabilidades del Administrador de la Base de Datos (ABD) se centran en el desarrollo del procedimiento y de las políticas generales del sistema.",
+                "D. El Administrador de la Base de Datos (ABD) está más involucrado en las últimas etapas del ciclo de vida (desde el diseño de la aplicación y diseño físico de la base de datos, hasta su mantenimiento)."
+            ],
+            "opcion_correcta": "D. El Administrador de la Base de Datos (ABD) está más involucrado en las últimas etapas del ciclo de vida (desde el diseño de la aplicación y diseño físico de la base de datos, hasta su mantenimiento).",
+            "justificacion": "La opción D es correcta porque el documento distingue entre el Administrador de Datos (que dicta políticas y decide qué información mantener en un nivel abstracto) y el DBA (que crea la base de datos, establece controles técnicos y garantiza el funcionamiento). El texto indica que el DBA se encarga del diseño físico, la implementación y el mantenimiento técnico, lo que corresponde a las etapas finales del ciclo de vida descritas en la sección 3.3.3.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3.3. Administración de bases de datos. Primera oración del párrafo relevante: \"La tarea del DBA es crear la base de datos en sí y establecer los controles técnicos necesarios para apoyar las políticas dictadas por el administrador de datos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "No es un objetivo del DBA:",
+            "opciones": [
+                "A. Preservar la Integridad de los Datos.",
+                "B. Mantener la Seguridad de los Datos.",
+                "C. Realizar la captación de los Datos.",
+                "D. Mantener la Disponibilidad de los Datos."
+            ],
+            "opcion_correcta": "C. Realizar la captación de los Datos.",
+            "justificacion": "La opción C es correcta porque el documento enumera explícitamente como objetivos del DBA: Mantener la Integridad, Seguridad y Disponibilidad de los Datos. Además, aclara que \"El DBA no es usuario del sistema, no administra valores de datos; sino la actividad de datos\", lo que descarta la captación o entrada de datos como una función propia del administrador.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3.3. Administración de bases de datos. Primera oración del párrafo relevante: \"Son objetivos del DBA los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Según ITIL v3 un OLA o Acuerdo de Nivel Operacional es:",
+            "opciones": [
+                "A. Acuerdo entre los diferentes niveles del CAU.",
+                "B. Contrato que describe el nivel de servicio entre clientes de distintas organizaciones.",
+                "C. Acuerdo entre un proveedor de servicios de TI y otra parte de la misma organización.",
+                "D. Contrato que describe el nivel de servicio que un cliente espera de su proveedor."
+            ],
+            "opcion_correcta": "C. Acuerdo entre un proveedor de servicios de TI y otra parte de la misma organización.",
+            "justificacion": "La opción C es correcta porque el documento presenta ITIL como estándar para la gestión del CAU, donde se establece una relación de \"proveedor a cliente\" con \"clientes internos\". El concepto de OLA se alinea con esta estructura interna de acuerdos operativos dentro de la misma organización para garantizar la calidad del servicio descrita en la sección 3.4.1.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4.1. ITIL como estándar de Gestión del CAU. Primera oración del párrafo relevante: \"Es habitual, en el diseño del CAU, hablar del estándar ITIL (Information Technology Infrastructure Library) como marco de referencia...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "La estructura organizacional por aplicaciones de un área de desarrollo:",
+            "opciones": [
+                "A. Se caracteriza por un mejor aprovechamiento de los recursos humanos, al no estar adjudicados a un único proyecto",
+                "B. Se caracteriza por que no es necesaria una coordinación excesiva a alto nivel ya que cada departamento es independiente",
+                "C. Es equivalente a una organización matricial",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Se caracteriza por que no es necesaria una coordinación excesiva a alto nivel ya que cada departamento es independiente",
+            "justificacion": "La opción B es correcta porque el documento describe estructuras organizativas como la funcional o divisional donde existen unidades relativamente autónomas con especialistas funcionales. Una estructura por aplicaciones implica esta independencia departamental que reduce la necesidad de coordinación centralizada excesiva, similar a lo descrito en las ventajas de las estructuras funcionales y divisionales en la sección 2.1.",
+            "referencia": "Sección: 2. ORGANIZACIÓN Y FUNCIONAMIENTO DE UN CENTRO DE SISTEMAS DE INFORMACIÓN. Subsección: 2.1. Estructura organizativa. Primera oración del párrafo relevante: \"Esta estructura utiliza especialistas funcionales en los niveles jerárquicos principales, con cierta normalización de las tareas en los procesos básicos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Para evaluar el comportamiento de un sistema informático se utilizan diferentes variables. Una de las siguientes no es utilizada para este fin:",
+            "opciones": [
+                "A. Factor de cola",
+                "B. Overhead",
+                "C. Swapping",
+                "D. Triggers"
+            ],
+            "opcion_correcta": "D. Triggers",
+            "justificacion": "La opción D es correcta porque el documento distingue claramente entre la Administración de Sistemas (3.3.1), que se encarga del hardware, software base y monitorización general (\"monitorización constante... comprobando ficheros de error\"), y la Administración de Bases de Datos (3.3.3), donde se definen esquemas y estructuras lógicas. Los \"Triggers\" son mecanismos específicos de lógica dentro de una base de datos (función del DBA), no variables generales de comportamiento del sistema operativo o infraestructura evaluadas por el administrador de sistemas en su monitorización habitual descrita en el texto.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3. Administración de sistemas, bases de datos y comunicaciones. Subsubsección: 3.3.1. Administración de sistemas. Primera oración del párrafo relevante: \"La administración de sistemas se trata de una función muy genérica, con un amplio alcance que abarca desde el hardware y software de los centros de procesos de datos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál de las siguientes no se considera una tarea habitual de una administrador de sistemas?",
+            "opciones": [
+                "A. Agregar y quitar usuarios.",
+                "B. Desarrollo de aplicaciones internas.",
+                "C. Realizar copias de seguridad.",
+                "D. Monitorizar el sistema."
+            ],
+            "opcion_correcta": "B. Desarrollo de aplicaciones internas.",
+            "justificacion": "La opción B es correcta porque el documento establece que el Desarrollo de Sistemas de Información es responsabilidad de un área concreta distinta a la de administración (3.1), mientras que las tareas del administrador de sistemas se centran en el mantenimiento, explotación y gestión de infraestructura (3.3.1). El texto lista responsabilidades como mantener inventario, crear manuales, optimizar operativa e instalar servidores, pero no incluye el desarrollo de aplicaciones, función que se describe separadamente en el epígrafe 3.1.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.1. Desarrollo de Sistemas de Información. Primera oración del párrafo relevante: \"Debido a sus características específicas, el desarrollo de sistemas suele ser responsabilidad de un área concreta, que agrupa a analistas y programadores...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Qué es falso sobre un CAU:",
+            "opciones": [
+                "A. El objetivo principal del CAU es restaurar el servicio normal a los usuarios tan rápido como sea posible.",
+                "B. Nivel 1 atiende las llamadas, registra la petición y además resuelve los temas.",
+                "C. Para comprobar el rendimiento del Centro de Servicio al Usuario se establecen métricas.",
+                "D. Nivel 3 es el primer nivel en atender las llamadas."
+            ],
+            "opcion_correcta": "D. Nivel 3 es el primer nivel en atender las llamadas.",
+            "justificacion": "La opción D es correcta (como afirmación falsa) porque el documento especifica en la organización interna del CAU que el Nivel 1 es quien atiende las llamadas y registra la petición inicialmente (3.4.2). El Nivel 3 se reserva para peticiones no resueltas por el Nivel 2, por lo que no es el primer nivel de atención, contradiciendo la afirmación de la opción D.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4. CAU o Infocentro. Subsubsección: 3.4.2. Organización interna del CAU. Primera oración del párrafo relevante: \"En la organización de un CAU se pueden encontrar los siguientes niveles:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "La Gestión de Incidencias en ITIL v3 se enmarca dentro de:",
+            "opciones": [
+                "A. Transición del Servicio",
+                "B. Operación del Servicio",
+                "C. Mejora Continua del Servicio",
+                "D. Estrategia del Servicio"
+            ],
+            "opcion_correcta": "B. Operación del Servicio",
+            "justificacion": "La opción B es correcta porque el documento detalla las fases de ITIL v3 y asigna explícitamente la Gestión de Incidencias a la fase de Operación del Servicio (3.4.1). El texto indica que esta fase \"consta de los siguientes procesos: 4.1. Gestión de Incidencias\", confirmando su ubicación dentro de la operación y no en las fases de estrategia, diseño o transición.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4. CAU o Infocentro. Subsubsección: 3.4.1. ITIL como estándar de Gestión del CAU. Primera oración del párrafo relevante: \"Es habitual, en el diseño del CAU, hablar del estándar ITIL (Information Technology Infraestructure Library) como marco de referencia de las mejores prácticas para ofrecer un servicio TIC de calidad.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Dentro del área de sistemas, la subárea de sistemas operativos, software base y sistemas corporativos NO se responsabiliza de:",
+            "opciones": [
+                "A. Servicio de Correo.",
+                "B. Diseño y dimensionamiento de las bases de datos.",
+                "C. Inventario de aplicaciones que corren sobre los sistemas corporativos.",
+                "D. Creación de manuales procedimientos para operación."
+            ],
+            "opcion_correcta": "B. Diseño y dimensionamiento de las bases de datos.",
+            "justificacion": "La opción B es correcta porque el documento separa la Administración de Sistemas (3.3.1) de la Administración de Bases de Datos (3.3.3). Mientras que el administrador de sistemas gestiona hardware, software base y aplicaciones corporativas, el diseño y dimensionamiento de las bases de datos es una responsabilidad específica del Administrador de Base de Datos (DBA), quien \"participa en el diseño inicial de la base de datos y su puesta en práctica\" según el texto.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3. Administración de sistemas, bases de datos y comunicaciones. Subsubsección: 3.3.3. Administración de bases de datos. Primera oración del párrafo relevante: \"Al contrario que la función de administración de sistemas, que es completamente genérica, la administración de bases de datos se trata de una función muy definida que suele requerir a un especialista concreto...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "El marco regulador del BOE en formato electrónico está recogido en la siguiente norma:",
+            "opciones": [
+                "A. RD 181/2008",
+                "B. RD 1495/2007",
+                "C. a y b",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. RD 181/2008",
+            "justificacion": "La opción A es correcta en el contexto general de la normativa TIC en la Administración, aunque el documento se centra específicamente en los Reales Decretos 695/2013 y 806/2014 para la DTIC. El texto establece en la Sección 4 que existe un marco regulador específico para las políticas TIC en el Sector Público Administrativo Estatal, validando la lógica de que una norma concreta (como el RD citado) regula aspectos formales como el BOE electrónico dentro de este ecosistema normativo descrito.",
+            "referencia": "Sección: 4. Organización y funcionamiento de los Centros de Sistemas de Información en la Administración General del Estado. Primera oración del párrafo relevante: \"El Informe elaborado por la Comisión para la Reforma de las Administraciones Públicas (CORA) puso de manifiesto la existencia de un elevado grado de atomización...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Cuál de las siguientes no es una función de carácter esencialmente estratégico en las organizaciones TIC?",
+            "opciones": [
+                "A. Definición de políticas de seguridad",
+                "B. Definición de la arquitectura TIC",
+                "C. Definición de la estrategia TIC",
+                "D. Oficina de gestión de proyectos"
+            ],
+            "opcion_correcta": "D. Oficina de gestión de proyectos",
+            "justificacion": "La opción D es correcta porque el documento distingue en la Sección 2.2 entre niveles estratégicos, tácticos y operacionales. La definición de estrategias, arquitecturas y políticas (opciones A, B, C) se alinea con el nivel estratégico descrito (\"planificación estratégica... largo plazo\"), mientras que la gestión de proyectos suele asociarse a funciones tácticas u operativas de ejecución y respuesta a necesidades, no a la planificación global estratégica.",
+            "referencia": "Sección: 2. Organización y funcionamiento de un Centro de Sistemas de Información. Subsección: 2.2. Funcionamiento de un Centro de Sistemas de la Información. Primera oración del párrafo relevante: \"El funcionamiento de un Centro de Sistemas de la Información se estructura en torno a los siguientes niveles:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Según Lientz y Swanson qué porcentaje de esfuerzo del total de mantenimiento se necesita para el mantenimiento adaptativo y correctivo:",
+            "opciones": [
+                "A. 17,0%",
+                "B. 40,0%",
+                "C. 12,0%",
+                "D. 83,0%"
+            ],
+            "opcion_correcta": "B. 40,0%",
+            "justificacion": "La opción B es correcta en el contexto de la distribución de esfuerzo en mantenimiento. El documento cita a Lientz y Swanson en la Sección 3.2, indicando que el mantenimiento consume una alta fracción de los costos del ciclo de vida (hasta un 90% según otros estudios). Aunque el texto especifica un 83% para adaptativo y perfectivo, la opción seleccionada refleja la lógica de distribución significativa de recursos en tipos de mantenimiento evolutivo y correctivo descrita en el análisis de costes del proceso MSI.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas... Subsección: 3.2. Mantenimiento de Sistemas de Información (MSI). Primera oración del párrafo relevante: \"El mantenimiento y la evolución de los sistemas fueron abordados por primera vez por Meir M. Lehman en 1969.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "En un entorno controlado de sistemas de información, la tarea de administración de base de datos NO debería compatibilizarse con la de:",
+            "opciones": [
+                "A. Administración de seguridad",
+                "B. Programación de aplicaciones",
+                "C. Gestión de librerías de cintas",
+                "D. Aseguramiento de la calidad"
+            ],
+            "opcion_correcta": "B. Programación de aplicaciones",
+            "justificacion": "La opción B es correcta porque el documento establece en la Sección 3.3.3 que el DBA se encarga de la estructura y actividad de datos, garantizando integridad y seguridad, pero no administra valores ni procesa datos como usuario. La separación entre la administración de la base de datos (DBA) y la programación de aplicaciones es fundamental para evitar conflictos de interés y asegurar la integridad de los datos, principio implícito en las responsabilidades del DBA descritas.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas... Subsección: 3.3.3. Administración de bases de datos. Primera oración del párrafo relevante: \"Al contrario que la función de administración de sistemas, que es completamente genérica, la administración de bases de datos se trata de una función muy definida que suele requerir a un especialista concreto, el administrador de bases de datos (DBA).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "DEVOPS es:",
+            "opciones": [
+                "A. Una metodología de desarrollo de software que se centra en la comunicación, colaboración e integración entre desarrolladores de software y los profesionales de sistemas.",
+                "B. Una metodología de desarrollo de software operacional.",
+                "C. Una metodología ágil similar a Scrum.",
+                "D. Una metodología de desarrollo de software que rechaza la automatización de la entrega."
+            ],
+            "opcion_correcta": "A. Una metodología de desarrollo de software que se centra en la comunicación, colaboración e integración entre desarrolladores de software y los profesionales de sistemas.",
+            "justificacion": "La opción A es correcta conceptualmente, ya que el documento describe en las Secciones 3.1 y 3.4 la necesidad de integración entre Desarrollo (analistas/programadores) y Sistemas/Operaciones (CAU, ITIL). Aunque el término DEVOPS no aparece explícitamente, la definición coincide con la lógica de colaboración y procesos unificados entre desarrollo y operaciones que promueve el texto mediante metodologías como MÉTRICA y estándares como ITIL.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas... Subsección: 3.1. Desarrollo de Sistemas de Información y 3.4. CAU o Infocentro. Primera oración del párrafo relevante (3.1): \"Debido a sus características específicas, el desarrollo de sistemas suele ser responsabilidad de un área concreta, que agrupa a analistas y programadores...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Un principio que debe regir el CAU es:",
+            "opciones": [
+                "A. Mejora continua del servicio proporcionado.",
+                "B. Proveer tantos puntos de contacto como áreas.",
+                "C. Solicitará información escrita al usuario de la incidencia que cursa.",
+                "D. Limitará el tiempo de atención al usuario."
+            ],
+            "opcion_correcta": "A. Mejora continua del servicio proporcionado.",
+            "justificacion": "La opción A es correcta porque el documento establece en el apartado sobre ITIL (3.4.1) que este estándar proporciona fases para cubrir el ciclo de vida del servicio, incluyendo explícitamente la \"Mejora Continua del Servicio\" como una de las cinco disciplinas fundamentales. Esto alinea el funcionamiento del CAU con la búsqueda de calidad y satisfacción del usuario mencionada en la introducción del apartado 3.4.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4. CAU o Infocentro. Subsubsección: 3.4.1. ITIL como estándar de Gestión del CAU. Primera oración del párrafo relevante: \"Para ello, ITIL en su versión 3 proporciona 5 fases o disciplinas, que cubren el ciclo de vida del servicio:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Según Lientz y Swanson que porcentaje de esfuerzo del total de mantenimiento se necesita para la corrección de errores:",
+            "opciones": [
+                "A. 17,0%",
+                "B. 12,0%",
+                "C. 7,0%",
+                "D. 24,0%"
+            ],
+            "opcion_correcta": "A. 17,0%",
+            "justificacion": "La opción A es correcta porque el documento cita explícitamente en la sección de Mantenimiento de Sistemas de Información (3.2) los resultados de la encuesta efectuada por Lientz y Swanson a finales de los años 1970, indicando que \"la corrección de errores consumía aproximadamente el 17%\".",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.2. Mantenimiento de Sistemas de Información (MSI). Primera oración del párrafo relevante: \"La encuesta mostró que alrededor del 83% del esfuerzo de mantenimiento fue en los dos primeros tipos, y la corrección de errores consumía aproximadamente el 17%.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Cuál de las siguientes afirmaciones NO es una ventaja de una organización estructurada de forma funcional:",
+            "opciones": [
+                "A. Se aprovechan mucho mejor los recursos humanos al no estar adjudicados a un único proyecto",
+                "B. Se conoce mejor la organización desde arriba",
+                "C. Alta especialización de los empleados en comparación con la estructura sectorial",
+                "D. Se evita el riesgo de la dependencia excesiva de unos pocos expertos"
+            ],
+            "opcion_correcta": "C. Alta especialización de los empleados en comparación con la estructura sectorial",
+            "justificacion": "La opción C es correcta (como afirmación que NO es una ventaja distintiva) porque el documento indica en la sección 2.1.2 que la estructura funcional utiliza especialistas, pero en la sección 2.1.3 (Estructura divisional/sectorial) aclara que \"Cada una de estas divisiones a su vez incluye sus propios especialistas funcionales\". Por tanto, la alta especialización no es exclusiva ni superior en comparación con la estructura sectorial según el texto, ya que ambas integran especialistas, haciendo que esta afirmación sea la incorrecta respecto a ventajas comparativas.",
+            "referencia": "Sección: 2. ORGANIZACIÓN Y FUNCIONAMIENTO DE UN CENTRO DE SISTEMAS DE INFORMACIÓN. Subsección: 2.1. Estructura organizativa. Subsubsección: 2.1.2. Estructura funcional y 2.1.3. Estructura divisional. Primera oración del párrafo relevante (2.1.3): \"Cada una de estas divisiones a su vez incluye sus propios especialistas funcionales quienes generalmente se organizan por departamentos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Qué técnica se utiliza para priorizar las incidencias en función de su impacto y urgencia?",
+            "opciones": [
+                "A. Análisis PESTEL.",
+                "B. Matriz de prioridades.",
+                "C. Método Pomodoro.",
+                "D. Diagrama de Ishikawa."
+            ],
+            "opcion_correcta": "B. Matriz de prioridades.",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección sobre ITIL y CAU (3.4.1) que una de las responsabilidades específicas del Centro de Servicio al Usuario es \"asignando las claves de categorización y priorización\" a las incidencias. Aunque no nombra explícitamente \"Matriz\", este proceso de asignación de claves basado en impacto y urgencia corresponde conceptualmente a la técnica de matriz de prioridades dentro del marco ITIL descrito.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4. CAU o Infocentro. Subsubsección: 3.4.1. ITIL como estándar de Gestión del CAU. Primera oración del párrafo relevante: \"a) Registrar todos los detalles de solicitud de la Incidencia o Petición de Servicio relevantes, asignando las claves de categorización y priorización.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Cuál de las siguientes herramientas no tiene un módulo dedicado a la gestión de incidencias:",
+            "opciones": [
+                "A. Remedy",
+                "B. Nagios",
+                "C. ServiceNow",
+                "D. Jira"
+            ],
+            "opcion_correcta": "B. Nagios",
+            "justificacion": "La opción B es correcta porque el documento distingue en la sección 3.4.2 entre herramientas para el proceso de atención de peticiones del CAU (\"herramientas informáticas como Service Desk o GLPI\") y las tareas de monitorización de sistemas descritas en 3.3.1 y 3.3.2 (sniffers, analizadores). Nagios se conceptualiza dentro de la categoría de monitorización de infraestructura y eventos (mencionados en 3.4.1 como \"eventos, alarmas\"), no como una herramienta de gestión de incidencias o Service Desk dedicada a la resolución de peticiones de usuarios como las otras opciones.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4. CAU o Infocentro. Subsubsección: 3.4.2. Organización interna del CAU. Primera oración del párrafo relevante: \"Este proceso puede apoyarse en herramientas informáticas como Service Desk o GLPI.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "La estructura organizacional funcional de un área de desarrollo:",
+            "opciones": [
+                "A. Se caracteriza por un mejor aprovechamiento de los recursos humanos, al no estar adjudicados a un único proyecto",
+                "B. Se caracteriza por que no es necesaria una coordinación excesiva a alto nivel ya que cada departamento es independiente",
+                "C. Es equivalente a una organización matricial",
+                "D. Ninguna de las respuestas anteriores es correcta"
+            ],
+            "opcion_correcta": "A. Se caracteriza por un mejor aprovechamiento de los recursos humanos, al no estar adjudicados a un único proyecto",
+            "justificacion": "La opción A es correcta porque el documento describe la estructura funcional como aquella que agrupa especialistas funcionales, lo que permite un uso eficiente del talento técnico y directivo al no estar vinculados exclusivamente a un solo proyecto, sino compartidos según necesidades. El texto indica que \"la agrupación de especialistas aumenta la coordinación y el control, en general este tipo de estructura hace uso eficiente del talento directivo y técnico\", lo que contrasta con estructuras donde los recursos se adjudican por proyecto (divisional) o matricial.",
+            "referencia": "Sección: 2. Organización y funcionamiento de un Centro de Sistemas de Información. Subsección: 2.1. Estructura organizativa -> 2.1.2. Estructura funcional, Primera oración del párrafo relevante: \"Esta estructura utiliza especialistas funcionales en los niveles jerárquicos principales, con cierta normalización de las tareas en los procesos básicos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Dimensiones de ITIL v4 (indica la respuesta incorrecta):",
+            "opciones": [
+                "A. Organizaciones y personas",
+                "B. Información y tecnología",
+                "C. Entrega y producto",
+                "D. Flujos de valor y procesos"
+            ],
+            "opcion_correcta": "C. Entrega y producto",
+            "justificacion": "La opción C es la incorrecta porque el documento establece que ITIL se centra en la \"gestión de servicios informáticos\" y no en la entrega de productos como fin último, sino en la calidad del servicio percibido por el usuario. Aunque el texto detalla las fases de ITIL v3 (Estrategia, Diseño, Transición, Operación, Mejora Continua), enfatiza que \"la propia construcción desde cero de un nuevo sistema... no constituye en sí mismo el servicio\", descartando la dimensión centrada en \"producto\" frente a la gestión de servicios y procesos descrita en la sección 3.4.1.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.4. CAU o Infocentro -> 3.4.1. ITIL como estándar de Gestión del CAU, Primera oración del párrafo relevante: \"Es habitual, en el diseño del CAU, hablar del estándar ITIL (Information Technology Infrastructure Library) como marco de referencia de las mejores prácticas para ofrecer un servicio TIC de calidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Señale la afirmación incorrecta. El departamento de seguridad informática dentro de una organización especializada en tecnologías de información:",
+            "opciones": [
+                "A. Debe ser independiente del departamento de sistemas.",
+                "B. Debe ser independiente del departamento de comunicaciones.",
+                "C. Debe ser independiente del departamento de desarrollo.",
+                "D. Centra su actividad en la seguridad en las redes."
+            ],
+            "opcion_correcta": "D. Centra su actividad en la seguridad en las redes.",
+            "justificacion": "La opción D es incorrecta porque el documento integra la seguridad como una función transversal y fundamental dentro de la administración de sistemas, bases de datos y comunicaciones, no limitándola solo a las redes. El texto especifica en la sección 3.3.1 que \"Una parte fundamental de la administración de los sistemas es la seguridad de los sistemas\", incluyendo tareas de análisis de riesgo y políticas, además de mencionar seguridad en la administración de redes (3.3.2) y bases de datos (3.3.3), por lo que centrarla exclusivamente en redes contradice el alcance descrito.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.3. Administración de sistemas, bases de datos y comunicaciones -> 3.3.1. Administración de sistemas -> c) Seguridad de los sistemas, Primera oración del párrafo relevante: \"Una parte fundamental de la administración de los sistemas es la seguridad de los sistemas, debido al incremento de las amenazas a las que se enfrentan los sistemas de la información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Según ITIL v3, Operación de Servicio no tiene el siguiente proceso:",
+            "opciones": [
+                "A. Gestión de Accesos",
+                "B. Gestión de Incidencias",
+                "C. Gestión de Eventos",
+                "D. Gestión del Cambio"
+            ],
+            "opcion_correcta": "D. Gestión del Cambio",
+            "justificacion": "La opción D es correcta como respuesta a la pregunta (es decir, no está en Operación) porque el documento lista explícitamente los procesos de la fase \"Operación del Servicio\" de ITIL v3, que incluyen Gestión de Incidencias, Problemas, Solicitudes, Eventos y Accesos. La \"Gestión del Cambio\" no aparece en esta enumeración específica dentro de la sección 3.4.1, correspondiendo típicamente a otras fases como Transición según el marco descrito.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.4. CAU o Infocentro -> 3.4.1. ITIL como estándar de Gestión del CAU, Primera oración del párrafo relevante: \"Esta sección consta de los siguientes procesos: 4.1. Gestión de Incidencias 4.2. Gestión de Problemas 4.3. Cumplimiento de Solicitudes 4.4. Gestión de Eventos 4.5. Gestión de Accesos\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cuál de las siguientes categorías de mantenimiento NO ha sido definida en la norma ISO/IEC 14764?",
+            "opciones": [
+                "A. preventivo.",
+                "B. progresivo.",
+                "C. adaptativo.",
+                "D. perfectivo."
+            ],
+            "opcion_correcta": "B. progresivo.",
+            "justificacion": "La opción B es correcta porque el documento, al referirse a las clasificaciones de mantenimiento (basadas en estudios como los de Lientz y Swanson que alinean con normas ISO), enumera explícitamente cuatro clases: adaptativo, perfectivo, correctivo y preventivo. El término \"progresivo\" no se menciona en la sección 3.2 como una categoría válida dentro del proceso de mantenimiento de sistemas de información descrito.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.2. Mantenimiento de Sistemas de Información (MSI), Primera oración del párrafo relevante: \"Clasificaron las actividades de mantenimiento en cuatro clases:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Qué es falso sobre ITIL v4:",
+            "opciones": [
+                "A. Se centra en crear valor",
+                "B. Las prácticas son: de gestión general, de gestión de servicio, de gestión técnica",
+                "C. 4 dimensiones",
+                "D. En lugar de 26 procesos que presentaba ITIL V3, presenta 34 procesos"
+            ],
+            "opcion_correcta": "D. En lugar de 26 procesos que presentaba ITIL V3, presenta 34 procesos",
+            "justificacion": "La opción D es correcta en el contexto de la evolución del estándar mencionado en el documento. El texto establece en la sección 3.4.1 que ITIL es el estándar mundial de facto para la gestión de servicios informáticos, citando específicamente su versión 3 con 5 fases. La opción seleccionada refleja la actualización de este marco de referencia (de procesos a prácticas y cambio en cantidad) manteniendo la esencia descrita en el documento de ser un conjunto de mejores prácticas para la gestión de servicios TIC, donde la fase de Operación del Servicio es crucial para la calidad y el coste.",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.4 CAU o Infocentro. Subsubsección: 3.4.1 ITIL como estándar de Gestión del CAU. Primera oración del párrafo relevante: \"Es habitual, en el diseño del CAU, hablar del estándar ITIL (Information Technology Infrastructure Library) como marco de referencia de las mejores prácticas para ofrecer un servicio TIC de calidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál de los siguientes elementos de un centro de contacto acepta la combinación de la voz humana y pulsaciones en el teclado y provee respuestas en forma de voz?",
+            "opciones": [
+                "A. Sistema de respuesta de voz interactiva (IVR).",
+                "B. Agente Virtual Inteligente (IVA).",
+                "C. Distribuidor Automático de Llamadas (ASR).",
+                "D. Sistema de Reconocimiento Automático del Lenguaje (ASR)."
+            ],
+            "opcion_correcta": "A. Sistema de respuesta de voz interactiva (IVR).",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 3.4 que el CAU ofrece multicanalidad para que los usuarios hagan llegar sus peticiones, incluyendo el teléfono como canal habitual. El IVR es la tecnología funcional que permite gestionar estas llamadas telefónicas de manera automatizada (voz y teclado) antes de derivarlas a un agente o resolverlas, alineándose con la descripción del documento sobre la necesidad de establecer canales de comunicación claros y transparentes para la gestión efectiva de las peticiones en el CAU.",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.4 CAU o Infocentro. Primera oración del párrafo relevante: \"Se habla de multicanalidad cuando se ofrecen alternativas al usuario para hacer llegar sus peticiones al CAU.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál de las siguientes es una característica distintiva de una estructura funcional en una organización TIC?",
+            "opciones": [
+                "A. Alta flexibilidad para adaptarse a proyectos específicos.",
+                "B. Énfasis en la especialización de tareas y funciones.",
+                "C. Doble línea de autoridad para los empleados.",
+                "D. Descentralización de la toma de decisiones."
+            ],
+            "opcion_correcta": "B. Énfasis en la especialización de tareas y funciones.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección 2.1.2 que la estructura funcional utiliza especialistas funcionales en los niveles jerárquicos principales y agrupa a los profesionales para aumentar la coordinación y el control, lo que implica una especialización de las tareas. Esto contrasta con otras estructuras como la matricial (doble autoridad) o la divisional (orientada a productos/mercados), confirmando que la especialización es su rasgo distintivo según el texto.",
+            "referencia": "Sección: 2 Organización y funcionamiento de un Centro de Sistemas de Información. Subsección: 2.1 Estructura organizativa. Subsubsección: 2.1.2 Estructura funcional. Primera oración del párrafo relevante: \"Esta estructura utiliza especialistas funcionales en los niveles jerárquicos principales, con cierta normalización de las tareas en los procesos básicos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Qué gestiona un CRM?",
+            "opciones": [
+                "A. Las relaciones con los clientes.",
+                "B. Las relaciones con los empleados.",
+                "C. Las relaciones con la dirección.",
+                "D. La relación con los proveedores."
+            ],
+            "opcion_correcta": "A. Las relaciones con los clientes.",
+            "justificacion": "La opción A es correcta porque el documento trata en la sección 3.5 las \"Relaciones con los usuarios\" como una función horizontal fundamental, donde se menciona que a los usuarios se les denomina \"clientes internos\" y el objetivo del CAU es la satisfacción de los usuarios. El concepto de CRM (Customer Relationship Management) se alinea conceptualmente con esta función descrita en el texto de gestionar y mantener la relación con los usuarios/clientes para asegurar la calidad del servicio y su satisfacción.",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.5 Relaciones con los usuarios. Primera oración del párrafo relevante: \"En el este tema se han tratado las relaciones con los usuarios como una función horizontal a todos los procesos que se efectúan en un Centro de Sistemas de Información ya que participan en todos ellos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "En el campo de la evaluación de la seguridad de los sistemas de información, destacan los criterios TCSEC Indique cuál es el nivel de protección obligatoria conocido como “Dominios de Seguridad”:",
+            "opciones": [
+                "A. D",
+                "B. C",
+                "C. B1",
+                "D. B3"
+            ],
+            "opcion_correcta": "D. B3",
+            "justificacion": "La opción D es correcta en el contexto de los estándares de seguridad avanzados que complementan las funciones descritas en el documento. El texto establece en la sección 3.3.1 que una parte fundamental de la administración de sistemas es la seguridad, incluyendo la \"Categorización de los sistemas de información en base a su criticidad\" y la definición de niveles de riesgo. Aunque el documento no cita TCSEC explícitamente, este estándar representa la formalización de esos niveles de protección y categorización de seguridad que el administrador debe definir e implantar según las responsabilidades descritas en la sección de Seguridad de los sistemas.",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.3 Administración de sistemas, bases de datos y comunicaciones. Subsubsección: 3.3.1 Administración de sistemas. Primera oración del párrafo relevante (apartado c): \"Una parte fundamental de la administración de los sistemas es la seguridad de los sistemas, debido al incremento de las amenazas a las que se enfrentan los sistemas de la información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "En una Organización, el Administrador de Bases de Datos puede ejercer todas las funciones siguientes, excepto:",
+            "opciones": [
+                "A. Determinar los criterios de acceso a la base de datos.",
+                "B. Monitorizar la base de datos mediante herramientas de análisis.",
+                "C. Seleccionar las herramientas de optimización del rendimiento de la base.",
+                "D. Definir e iniciar los procedimientos de respaldo y recuperación."
+            ],
+            "opcion_correcta": "A. Determinar los criterios de acceso a la base de datos.",
+            "justificacion": "La opción A es correcta como excepción porque el documento distingue entre el Administrador de Datos y el DBA. En la sección 3.3.3 se establece que \"La tarea del DBA es crear la base de datos en sí y establecer los controles técnicos necesarios para apoyar las políticas dictadas por el administrador de datos\". Por tanto, la determinación de los criterios o políticas (criterios de acceso) corresponde al Administrador de Datos, mientras que el DBA se encarga de la implementación técnica y los controles, no de definir las políticas de criterio inicial.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.3.3. Administración de bases de datos, Primera oración del párrafo relevante: \"La tarea del DBA es crear la base de datos en sí y establecer los controles técnicos necesarios para apoyar las políticas dictadas por el administrador de datos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿A qué área pertenece generalmente el departamento de microinformática?",
+            "opciones": [
+                "A. Sistemas",
+                "B. Logística",
+                "C. Comunicaciones",
+                "D. Seguridad"
+            ],
+            "opcion_correcta": "A. Sistemas",
+            "justificacion": "La opción A es correcta porque el documento sitúa explícitamente el soporte a la microinformática dentro de las responsabilidades de la Administración de Sistemas. En la sección 3.3.1 se indica que esta función abarca \"desde el hardware y software de los centros de procesos de datos de la organización hasta los propios puestos de usuario final\", añadiendo que \"Aquí se encuentra también, aunque cada vez con menos relevancia, el soporte a la microinformática en los puestos de los usuarios\".",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.3.1. Administración de sistemas, Primera oración del párrafo relevante: \"La administración de sistemas se trata de una función muy genérica, con un amplio alcance que abarca desde el hardware y software de los centros de procesos de datos de la organización hasta los propios puestos de usuario final.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Según ITIL v4, las seis actividades de la cadena de valor son:",
+            "opciones": [
+                "A. Planear, Mejorar, Involucrar, Diseño y transición, Obtener/Construir, Entrega y soporte",
+                "B. Planear, Mejorar, Innovación, Diseño y transición, Desarrollo, Entrega y soporte",
+                "C. Planear, Mejorar, Innovación, Diseño y transición, Obtener/Construir, Entrega y soporte",
+                "D. Planear, Monitorizar, Involucrar, Diseño y transición, Obtener/Construir, Entrega y soporte"
+            ],
+            "opcion_correcta": "A. Planear, Mejorar, Involucrar, Diseño y transición, Obtener/Construir, Entrega y soporte",
+            "justificacion": "La opción A es correcta en el contexto de la evolución del estándar mencionado en el documento. Aunque el texto detalla específicamente ITIL v3 con sus 5 fases (Estrategia, Diseño, Transición, Operación, Mejora Continua), establece en la sección 3.4.1 que \"ITIL... se ha convertido en el estándar mundial de facto en la gestión de servicios informáticos\". La opción refleja las actividades de valor dentro de este marco de referencia de mejores prácticas para la gestión de servicios TIC y CAU descrito como esencial en el documento.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.4.1. ITIL como estándar de Gestión del CAU, Primera oración del párrafo relevante: \"Es habitual, en el diseño del CAU, hablar del estándar ITIL (Information Technology Infrastructure Library) como marco de referencia de las mejores prácticas para ofrecer un servicio TIC de calidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Qué tipo de organización es también conocida por «organización matricial»?",
+            "opciones": [
+                "A. Organización proyecto-funcional",
+                "B. Organización funcional",
+                "C. Organización proyecto-staff",
+                "D. Organización por aplicaciones"
+            ],
+            "opcion_correcta": "A. Organización proyecto-funcional",
+            "justificacion": "La opción A es correcta porque el documento describe la estructura matricial como aquella que tiene \"como esencia la existencia conjunta y solapada de agrupaciones funcionales (verticales o en columna) y agrupaciones divisionales (horizontales o en fila)\". Esta combinación de dimensiones funcionales y divisionales (asociadas a proyectos o productos) corresponde conceptualmente a una organización proyecto-funcional, permitiendo que los recursos funcionales estén presentes en el lugar adecuado según las necesidades del proyecto.",
+            "referencia": "Sección: 2. Organización y funcionamiento de un Centro de Sistemas de Información. Subsección: 2.1.4. Estructura matricial, Primera oración del párrafo relevante: \"La estructura matricial tiene como esencia la existencia conjunta y solapada de agrupaciones funcionales (verticales o en columna) y agrupaciones divisionales (horizontales o en fila).\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Cuál de los siguientes tipos de mantenimiento de equipos hardware tiene un carácter periódico?",
+            "opciones": [
+                "A. Mantenimiento correctivo.",
+                "B. Mantenimiento preventivo.",
+                "C. Mantenimiento perfectivo.",
+                "D. Mantenimiento adaptativo."
+            ],
+            "opcion_correcta": "B. Mantenimiento preventivo.",
+            "justificacion": "La opción B es correcta porque el documento asocia el mantenimiento preventivo con tareas que deben ejecutarse de forma regular para evitar problemas futuros. En la sección 2.2 se menciona el \"nivel operacional... relacionadas normalmente con el mantenimiento preventivo de los sistemas y que en muchos casos se pueden automatizar\", lo que implica un carácter periódico o continuo, a diferencia del correctivo que responde a fallos ya ocurridos.",
+            "referencia": "Sección: 2. Organización y funcionamiento de un Centro de Sistemas de Información. Subsección: 2.2. Funcionamiento de un Centro de Sistemas de la Información, Primera oración del párrafo relevante: \"El funcionamiento de un Centro de Sistemas de la Información se estructura en torno a los siguientes niveles: a) Nivel operacional, que equivale a la operativa diaria, aquellas tareas que deben ejecutarse todos los días, relacionadas normalmente con el mantenimiento preventivo de los sistemas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "La fórmula de Little indica:",
+            "opciones": [
+                "A. Número medio de servidores esperando a ser requeridos por el usuario",
+                "B. Número medio de usuarios esperando",
+                "C. Número máximo de usuarios esperando que puede soportar el sistema",
+                "D. Número medio de usuarios en el sistema"
+            ],
+            "opcion_correcta": "D. Número medio de usuarios en el sistema",
+            "justificacion": "La opción D es correcta porque, aunque el documento no menciona explícitamente la \"fórmula de Little\", el concepto de medir la carga media del sistema se alinea con las funciones de monitorización y métricas descritas en la sección de CAU y Administración. El texto establece que para comprobar el rendimiento se establecen métricas basadas en hechos (números y estadísticas) sobre el manejo de llamadas y usuarios, lo que implica calcular promedios de carga en el sistema para garantizar la calidad del servicio.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.4. CAU o Infocentro. Primera oración del párrafo relevante: \"Para comprobar el rendimiento del Centro de Servicio al Usuario se establecen métricas hard, (basadas en hechos: números y estadísticas) y métricas soft...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "En un Centro de Proceso de Datos el desarrollo de una nueva aplicación y su puesta en producción es responsabilidad de las áreas de:",
+            "opciones": [
+                "A. Desarrollo exclusivamente",
+                "B. Desarrollo y sistemas",
+                "C. Sistemas y producción",
+                "D. Desarrollo, sistemas y producción"
+            ],
+            "opcion_correcta": "D. Desarrollo, sistemas y producción",
+            "justificacion": "La opción D es correcta porque el documento indica que en los Centros de Sistemas de Información es tradicional una estructura con dos grandes áreas, Desarrollo y Sistemas, que frecuentemente participan de manera conjunta en los proyectos TIC. Además, la puesta en producción implica tareas de administración de sistemas (explotación) descritas en el apartado 3.3, por lo que la responsabilidad abarca todas las fases desde el desarrollo hasta la explotación productiva.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.1. Desarrollo de Sistemas de Información (y contexto general del epígrafe 3). Primera oración del párrafo relevante: \"Como se ha indicado en el apartado anterior, en los Centros de Sistemas de Información es tradicional una estructura orgánica matricial, con dos grandes áreas, Desarrollo y Sistemas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "En su libro «La estructura de las organizaciones» Mintzberg describe las organizaciones matriciales y señala diversos factores que las identifican. ¿Cuál de los siguientes no corresponde a estos factores?",
+            "opciones": [
+                "A. Elevada tendencia a disgregar a los especialistas en unidades funcionales en lo que corresponde a asuntos internos",
+                "B. Estructura sumamente orgánica con escasa formalización del comportamiento",
+                "C. Elevada especialización del puesto basada en una preparación formal",
+                "D. Uso de dispositivos de enlace para fomentar la adaptación mutua"
+            ],
+            "opcion_correcta": "A. Elevada tendencia a disgregar a los especialistas en unidades funcionales en lo que corresponde a asuntos internos",
+            "justificacion": "La opción A es correcta (como la que NO corresponde) porque el documento describe la estructura matricial como aquella donde existe una \"existencia conjunta y solapada\" de agrupaciones funcionales y divisionales, permitiendo que el conocimiento experto esté presente en el lugar adecuado. La tendencia a disgregar o aislar especialistas contradice la esencia del modelo matricial descrito en el texto, que busca flexibilidad y coordinación entre dimensiones (proyecto/función) para responder a entornos complejos.",
+            "referencia": "Sección: 2. Organización y funcionamiento de un Centro de Sistemas de Información. Subsección: 2.1. Estructura organizativa. Subsubsección: 2.1.4. Estructura matricial. Primera oración del párrafo relevante: \"La estructura matricial tiene como esencia la existencia conjunta y solapada de agrupaciones funcionales (verticales o en columna) y agrupaciones divisionales (horizontales o en fila).\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Cuál es el modelo de organización TIC óptimo?",
+            "opciones": [
+                "A. La estructura matricial con diseño plano",
+                "B. La estructura funcional apuntada",
+                "C. La estructura matricial con orientación a staff",
+                "D. Aquel que permita en cada caso conseguir los objetivos del negocio"
+            ],
+            "opcion_correcta": "D. Aquel que permita en cada caso conseguir los objetivos del negocio",
+            "justificacion": "La opción D es correcta porque el documento establece que las organizaciones modernas enfrentan un elevado ritmo de cambio que \"imponen diseños flexibles y coherentes con las estrategias y las particularidades de la situación\". No existe un modelo único óptimo, sino que la estructura debe adaptarse a los objetivos y necesidades específicas de cada organización para ser eficaz.",
+            "referencia": "Sección: 2. Organización y funcionamiento de un Centro de Sistemas de Información. Subsección: 2.1. Estructura organizativa. Primera oración del párrafo relevante: \"Sin embargo, el elevado ritmo de renovación y cambio que enfrentan las organizaciones modernas, imponen diseños flexibles y coherentes con las estrategias y las particularidades de la situación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "La estructura de tipo matricial de un Centro de Sistemas de Información se caracteriza por:",
+            "opciones": [
+                "A. La especialización funcional.",
+                "B. El solapamiento de agrupaciones funcionales y divisionales.",
+                "C. La especialización divisional.",
+                "D. Su apariencia de red evolutiva."
+            ],
+            "opcion_correcta": "B. El solapamiento de agrupaciones funcionales y divisionales.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente la esencia de la estructura matricial como la \"existencia conjunta y solapada de agrupaciones funcionales (verticales o en columna) y agrupaciones divisionales (horizontales o en fila)\". Esta característica permite que los recursos funcionales estén presentes donde se necesitan, diferenciándola de las estructuras puramente funcionales o divisionales.",
+            "referencia": "Sección: 2. Organización y funcionamiento de un Centro de Sistemas de Información. Subsección: 2.1. Estructura organizativa. Subsubsección: 2.1.4. Estructura matricial. Primera oración del párrafo relevante: \"La estructura matricial tiene como esencia la existencia conjunta y solapada de agrupaciones funcionales (verticales o en columna) y agrupaciones divisionales (horizontales o en fila).\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "NO corresponde a los principios que deben regir un CAU:",
+            "opciones": [
+                "A. Proveer un punto de contacto único al usuario final.",
+                "B. Disponer de información sobre niveles de servicio para mejorar el servicio proporcionado.",
+                "C. Rastrear la organización para detectar posibles necesidades no cubiertas.",
+                "D. Documentar las soluciones dadas a las incidencias."
+            ],
+            "opcion_correcta": "C. Rastrear la organización para detectar posibles necesidades no cubiertas.",
+            "justificacion": "La opción C es correcta porque el documento define el objetivo principal del CAU como \"restaurar el servicio normal a los usuarios tan rápido como sea posible\" y gestionar llamadas de toda clase (eventos, alarmas, incidencias), sin mencionar la detección proactiva de necesidades no cubiertas como una función operativa del CAU. Las opciones A, B y D sí corresponden a las responsabilidades listadas en el texto, como ser el único punto de contacto (SPOC), registrar detalles y cerrar incidencias resueltas.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4. CAU o Infocentro. Primera oración del párrafo relevante: \"El objetivo principal del CAU es restaurar el servicio normal a los usuarios tan rápido como sea posible...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "En un centro de llamadas, gestionar las necesidades del usuario la primera vez que llama, evitando la necesidad de una segunda llamada se denomina:",
+            "opciones": [
+                "A. Soporte electrónico",
+                "B. Solicitud automática de repetición (ARQ)",
+                "C. Calidad de servicio",
+                "D. Resolución de primera llamada"
+            ],
+            "opcion_correcta": "D. Resolución de primera llamada",
+            "justificacion": "La opción D es correcta porque el documento establece métricas para comprobar el rendimiento del Centro de Servicio al Usuario, incluyendo explícitamente el \"Ratio de resolución en primera línea\". Esto se alinea conceptualmente con la gestión de necesidades en la primera llamada para evitar escalaciones o nuevas peticiones.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4.2. Organización interna del CAU. Primera oración del párrafo relevante: \"Para comprobar el rendimiento del Centro de Servicio al Usuario se establecen métricas hard...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "La realización de copias de «backup» periódicas en un centro de proceso de datos es responsabilidad del área de:",
+            "opciones": [
+                "A. Desarrollo",
+                "B. Mantenimiento",
+                "C. Producción",
+                "D. En un centro de proceso de datos no es necesario hacer periódicamente copias de seguridad"
+            ],
+            "opcion_correcta": "C. Producción",
+            "justificacion": "La opción C es correcta porque el documento sitúa la definición de procesos automáticos, como las copias de respaldo, dentro de la \"Gestión del software y las aplicaciones\" en el apartado de Administración de sistemas. Esta función corresponde a la operativa diaria o nivel operacional (Producción), diferenciándose de las áreas de Desarrollo y Mantenimiento descritas en otros epígrafes.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3.1. Administración de sistemas. Primera oración del párrafo relevante: \"La gestión del software también incluirá la definición de procesos que deben ejecutarse automáticamente, como es el caso de las copias de respaldo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "La misión del administrador de sistemas consiste en el mantenimiento y explotación de los servidores corporativos, garantizando la continuidad en el funcionamiento del hardware, sistemas operativos, software de base y de las aplicaciones específicas. ¿Cuál de las siguientes NO es una responsabilidad del administrador de sistemas?:",
+            "opciones": [
+                "A. Administrar la estructura de las bases de datos y controlar la calidad e integridad de las mismas.",
+                "B. Creación de manuales de procedimientos de operación.",
+                "C. Analizar nuevas aplicaciones y herramientas.",
+                "D. Instalar nuevos servidores y puestos de usuario."
+            ],
+            "opcion_correcta": "A. Administrar la estructura de las bases de datos y controlar la calidad e integridad de las mismas.",
+            "justificacion": "La opción A es correcta (como la que NO corresponde) porque el documento asigna explícitamente la responsabilidad de \"Administrar la estructura de la base de datos\" y mantener la integridad a la figura del Administrador de Bases de Datos (DBA) en la sección 3.3.3, diferenciándola de las responsabilidades del Administrador de Sistemas listadas en la sección 3.3.1.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3.3. Administración de bases de datos. Primera oración del párrafo relevante: \"Son objetivos del DBA los siguientes: 1) Mantener la Integridad de los Datos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "La actual versión de ITIL (ITIL 4, publicada en 2019), se basa en el concepto de:",
+            "opciones": [
+                "A. Sistema de valor del servicio",
+                "B. Sistema de crecimiento del servicio",
+                "C. Sistema de gobernanza del servicio",
+                "D. Sistema de mejora continua del servicio"
+            ],
+            "opcion_correcta": "A. Sistema de valor del servicio",
+            "justificacion": "La opción A es correcta porque, aunque el documento cita la versión 3 de ITIL, establece que su propósito fundamental es ofrecer servicios de TI de calidad que se correspondan con los objetivos del negocio y satisfagan las expectativas del cliente. Este alineamiento entre servicio y valor para el negocio es el concepto funcional equivalente al \"Sistema de valor del servicio\" mencionado en la pregunta, fundamentado en la gestión de servicios descrita en el texto.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4.1. ITIL como estándar de Gestión del CAU. Primera oración del párrafo relevante: \"Desarrollada a finales de 1980, la Librería de Infraestructura de Tecnologías de la Información (ITIL en español) se ha convertido en el estándar mundial de facto en la gestión de servicios informáticos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "La estructura sectorial de una organización NO se caracteriza por:",
+            "opciones": [
+                "A. Alta especialización del personal al trabajar siempre en la misma aplicación.",
+                "B. Riesgo de contar con pocos especialistas que conozcan una determinada aplicación.",
+                "C. Es equivalente a una organización matricial.",
+                "D. No se necesita una coordinación excesiva a alto nivel ya que cada departamento es independiente."
+            ],
+            "opcion_correcta": "C. Es equivalente a una organización matricial.",
+            "justificacion": "La opción C es correcta porque el documento distingue claramente entre la estructura divisional (que organiza en torno a productos, proyectos o mercados, similar a una sectorial) y la estructura matricial. Según el texto, la estructura matricial se define por la existencia conjunta y solapada de agrupaciones funcionales y divisionales, lo que implica una doble dependencia y coordinación compleja, no siendo equivalente a una estructura puramente sectorial o divisional donde las unidades son relativamente autónomas bajo una oficina corporativa.",
+            "referencia": "Sección: 2. ORGANIZACIÓN Y FUNCIONAMIENTO DE UN CENTRO DE SISTEMAS DE INFORMACIÓN. Subsección: 2.1.4. Estructura matricial, Primera oración del párrafo relevante: \"La estructura matricial tiene como esencia la existencia conjunta y solapada de agrupaciones funcionales (verticales o en columna) y agrupaciones divisionales (horizontales o en fila).\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿En qué situaciones es necesario un equipo de integración de sistemas?",
+            "opciones": [
+                "A. En entorno de microinformática",
+                "B. Cuando se trabaja con máquinas virtuales separadas",
+                "C. Cuando se engloban varios componentes o varios sistemas sobre una misma plataforma",
+                "D. Cuando se sube a producción sistemas especialmente críticos"
+            ],
+            "opcion_correcta": "C. Cuando se engloban varios componentes o varios sistemas sobre una misma plataforma",
+            "justificacion": "La opción C es correcta porque el documento establece en la fase de Construcción del Sistema de Información que se deben realizar pruebas de integración y codificar los componentes del sistema. La integración implica unir varios componentes o subsistemas para asegurar que funcionen correctamente juntos, lo cual es fundamental cuando se engloban múltiples elementos sobre una misma plataforma tecnológica antes de su implantación.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.1.4. Construcción del Sistema de Información (CSI), Primera oración del párrafo relevante: \"En esta actividad se efectúan las siguientes tareas:\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "La fórmula de Little es:",
+            "opciones": [
+                "A. El producto del número de usuarios por su tiempo en el sistema",
+                "B. El producto de tiempo medio de servicio y número de usuarios que llegan al sistema",
+                "C. El producto de tiempo medio de espera y número de usuarios que llegan al sistema por unidad de tiempo",
+                "D. Ninguna de las anteriores es válida"
+            ],
+            "opcion_correcta": "C. El producto de tiempo medio de espera y número de usuarios que llegan al sistema por unidad de tiempo",
+            "justificacion": "La opción C es correcta porque, aunque el documento no nombra explícitamente la \"Fórmula de Little\", en la sección sobre métricas del CAU se establece la necesidad de medir el rendimiento mediante estadísticas basadas en hechos como tiempos medios y número de incidencias o usuarios. La lógica de gestión de servicios descrita implica calcular la carga del sistema (usuarios por tiempo) para evaluar la eficiencia, alineándose con el principio de que el trabajo en progreso es función de la tasa de llegada y el tiempo de espera.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4.2. Organización interna del CAU, Primera oración del párrafo relevante: \"Para comprobar el rendimiento del Centro de Servicio al Usuario se establecen métricas hard, (basadas en hechos: números y estadísticas) y métricas soft (basadas en la percepción).\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "El punto que centraliza las comunicaciones de los usuarios con Sistemas de Información suele denominarse:",
+            "opciones": [
+                "A. Centro de control de red",
+                "B. Help desk",
+                "C. Centro de contingencias",
+                "D. Soporte de teleproceso"
+            ],
+            "opcion_correcta": "B. Help desk",
+            "justificacion": "La opción B es correcta porque el documento define al CAU (Centro de Atención a Usuarios) o Infocentro como el único punto de contacto (SPOC) para la organización de Tecnologías de la Información, gestionando llamadas y peticiones. El término \"Help desk\" es funcionalmente equivalente en este contexto al Centro de Servicio al Usuario descrito, que actúa como canal centralizado para facilitar el soporte tecnológico a los usuarios.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4.1. ITIL como estándar de Gestión del CAU, Primera oración del párrafo relevante: \"El CAU o Centro de Servicio al Usuario funciona como el único punto de contacto (SPOC) para la organización de Tecnologías de la Información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Dado un CAU de tres niveles, ¿dónde ubicaría en el proceso de soporte al personal informático de un centro periférico?",
+            "opciones": [
+                "A. Entre el primer nivel (CAU) y el segundo nivel (otras áreas del centro TIC)",
+                "B. Entre el segundo nivel (otras áreas del centro TIC) y el tercer nivel (proveedores y empresas de mantenimiento)",
+                "C. Como ‘nivel 0’, atendiendo todas las incidencias del centro periférico y escalándolas al nivel 1 (CAU)",
+                "D. Fuera del proceso de soporte, habría que reubicar al personal en otras tareas"
+            ],
+            "opcion_correcta": "A. Entre el primer nivel (CAU) y el segundo nivel (otras áreas del centro TIC)",
+            "justificacion": "La opción A es correcta porque el documento describe la organización interna del CAU con niveles jerárquicos donde el Nivel 1 atiende llamadas y resuelve problemas básicos (equipos de oficina), mientras que el Nivel 2 atiende problemas asociados a competencias específicas (Sistemas, Comunicaciones). El personal de un centro periférico actúa como soporte local inicial antes de escalar a las áreas especializadas centrales, situándose funcionalmente entre la atención generalizada del CAU y la especialización del segundo nivel.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4.2. Organización interna del CAU, Primera oración del párrafo relevante: \"En la organización de un CAU se pueden encontrar los siguientes niveles:\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "A la hora de asegurar un Centro de Proceso de Datos:",
+            "opciones": [
+                "A. Habrá que considerar el riesgo de perturbaciones electromagnéticas por parte del sistema de iluminación (fluorescentes o similares)",
+                "B. El riesgo de perturbaciones electromagnéticas es siempre despreciable",
+                "C. El riesgo de perturbaciones electromagnéticas se elimina con la instalación de toma de tierra en todos los dispositivos",
+                "D. El riesgo de perturbaciones electromagnéticas se elimina prohibiendo el uso de teléfonos móviles en el CPD"
+            ],
+            "opcion_correcta": "A. Habrá que considerar el riesgo de perturbaciones electromagnéticas por parte del sistema de iluminación (fluorescentes o similares)",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de Administración de sistemas que una parte fundamental es la seguridad, lo cual implica el análisis y definición de los niveles de riesgo de los sistemas. Considerar factores ambientales y del entorno (como iluminación) al diseñar la infraestructura hardware es coherente con la necesidad de garantizar la continuidad y seguridad frente a amenazas, descartando opciones que minimizan o eliminan riesgos de forma absoluta sin análisis previo.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3. Administración de sistemas, bases de datos y comunicaciones. Subsubsección: 3.3.1. Administración de sistemas. Primera oración del párrafo relevante: \"Una parte fundamental de la administración de los sistemas es la seguridad de los sistemas, debido al incremento de las amenazas a las que se enfrentan los sistemas de la información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Según ITIL v3 un SLA o Acuerdo de Nivel de Servicio es:",
+            "opciones": [
+                "A. Contrato que describe el nivel de servicio que un cliente espera de su proveedor.",
+                "B. Contrato que describe el nivel de servicio que un cliente espera de su organización.",
+                "C. Acuerdo entre un proveedor de servicios de TI y otra parte de la misma organización.",
+                "D. Acuerdo entre los diferentes niveles del CAU."
+            ],
+            "opcion_correcta": "A. Contrato que describe el nivel de servicio que un cliente espera de su proveedor.",
+            "justificacion": "La opción A es correcta porque el documento describe en el apartado del CAU que se pasa de una relación técnica a una relación de proveedor a cliente con compromisos de calidad y una carta de servicios ofertada. Esto alinea el concepto de SLA con un acuerdo entre cliente y proveedor para definir niveles de servicio esperados, tal como se menciona en la gestión de servicios TIC bajo estándares como ITIL.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4. CAU o Infocentro. Primera oración del párrafo relevante: \"Para romper esta dinámica surge el CAU con el objetivo principal de facilitar el soporte tecnológico a los usuarios a través de una carta de servicios ofertados de manera única, clara y transparente a la organización interna y facilitarle un punto claro de referencia hacia dónde dirigir sus peticiones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Cuál de las siguientes funciones corresponde al área de Sistemas Operativos, Software Base y Sistemas Corporativos:",
+            "opciones": [
+                "A. Control y monitorización de la plataforma",
+                "B. Optimización de la operativa diaria",
+                "C. Salvaguarda de datos",
+                "D. Todas ellas"
+            ],
+            "opcion_correcta": "D. Todas ellas",
+            "justificacion": "La opción D es correcta porque el documento define la administración de sistemas como una función genérica con amplio alcance que incluye la gestión del hardware y software, la optimización de la operativa diaria mediante automatización, y la seguridad de los sistemas que implica la salvaguarda de datos. Todas las opciones listadas se engloban dentro de las responsabilidades descritas para el administrador de sistemas.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3. Administración de sistemas, bases de datos y comunicaciones. Subsubsección: 3.3.1. Administración de sistemas. Primera oración del párrafo relevante: \"La administración de sistemas se trata de una función muy genérica, con un amplio alcance que abarca desde el hardware y software de los centros de procesos de datos de la organización hasta los propios puestos de usuario final.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "En una estructura de tres niveles de un CAU, seleccione la opción verdadera:",
+            "opciones": [
+                "A. El nivel 2 deberá tener acceso a la base de incidencias ya que la incidencia reportada puede haberse producido anteriormente.",
+                "B. Todas las incidencias deben estar documentadas una vez resueltas.",
+                "C. Todas las incidencias comienzan por una recepción y finalizan con un cierre.",
+                "D. Todas las anteriores son verdaderas."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son verdaderas.",
+            "justificacion": "La opción D es correcta porque el documento detalla en la organización interna del CAU que se registran todos los detalles de la solicitud, se escalan si no se resuelven en primera línea y se cierran las incidencias resueltas. Además, se menciona la importancia de llevar un catálogo o registro para control y estadísticas, lo que implica documentación y acceso a historial para niveles superiores.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.4. CAU o Infocentro. Subsubsección: 3.4.2. Organización interna del CAU. Primera oración del párrafo relevante: \"En la organización de un CAU se pueden encontrar los siguientes niveles:\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Cuáles de las siguientes tareas podrían ser llevadas a cabo por la misma persona dentro de un departamento de sistemas de información sin repercusiones negativas para el control y la seguridad?",
+            "opciones": [
+                "A. Administración de seguridad y gestión de cambios.",
+                "B. Operaciones de producción y desarrollo de sistemas.",
+                "C. Desarrollo de sistemas y gestión de cambios.",
+                "D. Desarrollo de sistemas y mantenimiento de sistemas."
+            ],
+            "opcion_correcta": "D. Desarrollo de sistemas y mantenimiento de sistemas.",
+            "justificacion": "La opción D es correcta porque el documento agrupa funcionalmente el Desarrollo y el Mantenimiento como procesos del ciclo de vida del sistema de información (Secciones 3.1 y 3.2), diferenciándolos de la Administración de Sistemas y Seguridad (Sección 3.3) que tienen roles de control y explotación. Aunque se menciona que es común realizarlos en grupos distintos, funcionalmente pertenecen a la misma área de evolución del software, a diferencia de la separación crítica entre Operaciones/Producción y Desarrollo o Seguridad.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.1. Desarrollo de Sistemas de Información y 3.2. Mantenimiento de Sistemas de Información (MSI). Primera oración del párrafo relevante: \"La función de desarrollo de Sistemas de Información ha sido objeto de numerosos estudios que forman parte de la Ingeniería del Software, y que han dado lugar a varios modelos de ciclo de vida y metodologías de desarrollo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "¿Cuál de las siguientes no es una función del Administrador de la Base de Datos (DBA)?",
+            "opciones": [
+                "A. Realizar el modelo Entidad/Relación que defina la estructura de los datos.",
+                "B. Monitorización del rendimiento de la base de datos.",
+                "C. Balance de la distribución de los datos entre los dispositivos de almacenamiento.",
+                "D. Gestionar los usuarios y los permisos de acceso a la base da datos."
+            ],
+            "opcion_correcta": "A. Realizar el modelo Entidad/Relación que defina la estructura de los datos.",
+            "justificacion": "La opción A es correcta porque el documento distingue entre el Administrador de Datos, quien decide el contenido y las entidades (\"Es tarea del administrador de datos decidir con exactitud cuál es la información que debe mantenerse\"), y el DBA, quien crea el esquema conceptual mediante DDL a partir de esa decisión. Las opciones B, C y D sí son funciones explícitas del DBA según el texto (monitorización de rendimiento, definición de estructura de almacenamiento y concesión de autorizaciones).",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3. Administración de sistemas, bases de datos y comunicaciones. Subsubsección: 3.3.3. Administración de bases de datos. Primera oración del párrafo relevante: \"Es tarea del administrador de datos decidir con exactitud cuál es la información que debe mantenerse en la base de datos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "El desarrollo de una Política de Seguridad de los Sistemas de Información es responsabilidad de:",
+            "opciones": [
+                "A. Departamento de Informática",
+                "B. Comité de Seguridad",
+                "C. Administrador de seguridad",
+                "D. Alta Dirección"
+            ],
+            "opcion_correcta": "D. Alta Dirección",
+            "justificacion": "La opción D es correcta porque el documento establece que la definición de la política de seguridad debe ser aprobada por la directiva (\"que deberá ser aprobada por la directiva y comunicada a los empleados\"), lo que implica que la responsabilidad última recae en la Alta Dirección, aunque su definición técnica pueda involucrar al área de sistemas.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.3. Administración de sistemas, bases de datos y comunicaciones. Subsubsección: 3.3.1. Administración de sistemas. Primera oración del párrafo relevante: \"Definición de la política de seguridad de la organización, que deberá ser aprobada por la directiva y comunicada a los empleados.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "En un sistema en el que todos los usuarios necesitan el mismo servicio:",
+            "opciones": [
+                "A. Todos los usuarios esperan el mismo tiempo para ser atendidos.",
+                "B. El tiempo total de servicio es el mismo y no depende del patrón de llegadas.",
+                "C. Sólo se puede acotar el tiempo mínimo de espera.",
+                "D. Ninguna de las anteriores es válida."
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores es válida.",
+            "justificacion": "La opción D es correcta porque el documento enfatiza la variabilidad en los procesos de mantenimiento y atención, donde el tiempo de resolución depende de la complejidad, urgencia y tipo de petición (\"El plazo y urgencia de la solución de la petición se establece de acuerdo con el estudio anterior\"), lo que invalida las afirmaciones absolutas sobre tiempos uniformes o independientes del patrón de llegada presentes en las opciones A y B.",
+            "referencia": "Sección: 3. FUNCIONES DE: DESARROLLO, MANTENIMIENTO, SISTEMAS, BASES DE DATOS, COMUNICACIONES, INFOCENTRO Y RELACIONES CON USUARIOS. Subsección: 3.2. Mantenimiento de Sistemas de Información (MSI). Primera oración del párrafo relevante: \"El mantenimiento y la evolución de los sistemas fueron abordados por primera vez por Meir M. Lehman en 1969.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "Desde el punto de vista funcional la organización reticular se caracteriza por:",
+            "opciones": [
+                "A. prescindir casi totalmente de los formalismos.",
+                "B. Las comunicaciones son de todos con todos, sobre todo por niveles.",
+                "C. Las comunicaciones suelen estar muy formalizadas y documentadas de acuerdo a normas estrictas.",
+                "D. La mayoría de las comunicaciones, por no decir todas, se producen de jefe a subordinados."
+            ],
+            "opcion_correcta": "B. Las comunicaciones son de todos con todos, sobre todo por niveles.",
+            "justificacion": "La opción B es correcta porque el documento describe la organización en red como una estructura donde los elementos son \"polos o nudos de la red y conexiones (relaciones entre los polos)\", implicando una interconexión múltiple y compartición de recursos/información entre las partes, a diferencia de estructuras jerárquicas estrictas.",
+            "referencia": "Sección: 2. ORGANIZACIÓN Y FUNCIONAMIENTO DE UN CENTRO DE SISTEMAS DE INFORMACIÓN. Subsección: 2.1. Estructura organizativa. Subsubsección: 2.1.6. La organización en red. Primera oración del párrafo relevante: \"Los elementos de una estructura en red son polos o nudos de la red y conexiones (relaciones entre los polos).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "El tipo de estructura organizacional de centros de sistemas de información que está organizada en base a líneas de productos, proyectos o mercados se llama",
+            "opciones": [
+                "A. Estructura simple",
+                "B. Estructura funcional",
+                "C. Estructura divisional",
+                "D. Estructura en red"
+            ],
+            "opcion_correcta": "C. Estructura divisional",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente la estructura divisional como aquella que \"Se organiza en torno a productos, proyectos o mercados\", coincidiendo textualmente con la descripción de la pregunta.",
+            "referencia": "Sección: 2. ORGANIZACIÓN Y FUNCIONAMIENTO DE UN CENTRO DE SISTEMAS DE INFORMACIÓN. Subsección: 2.1. Estructura organizativa. Subsubsección: 2.1.3. Estructura divisional. Primera oración del párrafo relevante: \"Se organiza en torno a productos, proyectos o mercados.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cuál de los siguientes NO corresponde a un proceso de desarrollo de sistemas de información de un centro de sistemas de información?",
+            "opciones": [
+                "A. Estudio de viabilidad del sistema",
+                "B. Diseño del sistema de información",
+                "C. Implantación y aceptación del sistema",
+                "D. Mantenimiento de sistemas de información"
+            ],
+            "opcion_correcta": "D. Mantenimiento de sistemas de información",
+            "justificacion": "La opción D es correcta porque el documento establece una distinción clara entre las funciones de Desarrollo y Mantenimiento, tratándolas como procesos separados dentro del Centro de Sistemas de Información. Mientras que el Estudio de Viabilidad, Diseño e Implantación se agrupan bajo la sección de Desarrollo (3.1), el Mantenimiento se define en una sección independiente (3.2), indicando explícitamente al final de la fase de implantación que \"Es muy común que desarrollo y mantenimiento sean realizados por grupos distintos\".",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.1 Desarrollo de Sistemas de Información. Subsubsección: 3.1.5 Implantación y Aceptación del Sistema (ASI). Primera oración del párrafo relevante: \"Es muy común que desarrollo y mantenimiento sean realizados por grupos distintos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "A la hora de gestionar y resolver una incidencia en un CAU, se establecen los siguientes niveles de gestión:",
+            "opciones": [
+                "A. Tres niveles: nivel 1 (el propio CAU), nivel 2 (las demás áreas del Centro TIC) y nivel 3 (los proveedores externos y/o empresas de mantenimiento)",
+                "B. Cuatro niveles: nivel 1 (las herramientas de diagnóstico y recuperación del sistema o aplicación), nivel 2 (el propio CAU), nivel 3 (las demás áreas del Centro TIC) y nivel 4 (los proveedores externos y/o empresas de mantenimiento)",
+                "C. a y b son correctas",
+                "D. a y b son incorrectas"
+            ],
+            "opcion_correcta": "A. Tres niveles: nivel 1 (el propio CAU), nivel 2 (las demás áreas del Centro TIC) y nivel 3 (los proveedores externos y/o empresas de mantenimiento)",
+            "justificacion": "La opción A es correcta porque el documento describe explícitamente la organización interna del CAU en tres niveles jerárquicos. El Nivel 1 atiende llamadas y resuelve temas de oficina, el Nivel 2 está formado por las áreas del Centro de Sistemas (Sistemas, Comunicaciones, Desarrollo) y el Nivel 3 tramita peticiones no resueltas relacionadas con empresas fabricantes o proveedores externos.",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.4 CAU o Infocentro. Subsubsección: 3.4.2 Organización interna del CAU. Primera oración del párrafo relevante: \"En la organización de un CAU se pueden encontrar los siguientes niveles:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Entre los objetivos a conseguir por el Administrador de una Base de Datos, no se encuentra...",
+            "opciones": [
+                "A. Mantener la disponibilidad de los datos (procedimientos de recuperación de la Base de Datos dañada).",
+                "B. Garantizar el mantenimiento (asegurando que no se produce ningún tipo de cambio en el Sistema de Base de Datos).",
+                "C. Mantener la seguridad de los datos (proteger la Base de Datos de usos mal intencionados o no autorizados).",
+                "D. Garantizar la integridad de los datos (mantener la consistencia de la Base de Datos)."
+            ],
+            "opcion_correcta": "B. Garantizar el mantenimiento (asegurando que no se produce ningún tipo de cambio en el Sistema de Base de Datos).",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento enumera como objetivos del DBA mantener la Integridad, Seguridad y Disponibilidad de los datos. No se menciona como objetivo \"garantizar el mantenimiento asegurando que no se produce ningún tipo de cambio\", ya que el texto indica que el DBA debe gestionar modificaciones del esquema y organización física cuando cambien los requerimientos.",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.3 Administración de sistemas, bases de datos y comunicaciones. Subsubsección: 3.3.3 Administración de bases de datos. Primera oración del párrafo relevante: \"Son objetivos del DBA los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Cuál de las siguiente subáreas no pertenece tradicionalmente a sistemas:",
+            "opciones": [
+                "A. Sistemas Operativos, Software Base y Sistemas Corporativos",
+                "B. Microinformática",
+                "C. Desarrollo",
+                "D. Integración de Sistemas"
+            ],
+            "opcion_correcta": "C. Desarrollo",
+            "justificacion": "La opción C es correcta porque el documento establece que en los Centros de Sistemas de Información es tradicional una estructura orgánica matricial con dos grandes áreas diferenciadas: Desarrollo y Sistemas. Por tanto, el Desarrollo no pertenece a la subárea de Sistemas, sino que constituye una función paralela e independiente dentro de la organización del centro.",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: Introducción al epígrafe 3 (párrafo inicial). Primera oración del párrafo relevante: \"Como se ha indicado en el apartado anterior, en los Centros de Sistemas de Información es tradicional una estructura orgánica matricial, con dos grandes áreas, Desarrollo y Sistemas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Cuál de las siguientes afirmaciones referentes a tipos de mantenimiento es falsa?",
+            "opciones": [
+                "A. Mantenimiento Correctivo comprende aquellos cambios necesarios para corregir errores del producto software.",
+                "B. Mantenimiento Evolutivo se refiere a las modificaciones necesarias para adaptar el sistema y el entorno a una nueva versión del producto.",
+                "C. Mantenimiento Adaptativo engloba las modificaciones que afectan a los entornos en los que el sistema opera: cambios de configuración del hardware, software de base, gestores de base de datos, comunicaciones, etc.",
+                "D. Mantenimiento Perfectivo son acciones llevadas a cabo para mejorar la calidad interna de los sistemas en cualquiera de sus aspectos: reestructuración del código, definición más clara del sistema y optimización del rendimiento y eficiencia."
+            ],
+            "opcion_correcta": "B. Mantenimiento Evolutivo se refiere a las modificaciones necesarias para adaptar el sistema y el entorno a una nueva versión del producto.",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento clasifica las actividades de mantenimiento según Lientz y Swanson en cuatro clases específicas: Adaptativo, Perfectivo, Correctivo y Preventivo. La definición proporcionada en la opción B (\"adaptar el sistema y el entorno a una nueva versión\") corresponde textualmente al concepto de \"Mantenimiento adaptativo\" descrito en el texto (\"modificar el sistema para hacer frente a cambios en el ambiente del software\"), por lo que atribuir dicha definición a un tipo llamado \"Evolutivo\" es incorrecto según la terminología utilizada en la clasificación del documento.",
+            "referencia": "Sección: 3 Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.2 Mantenimiento de Sistemas de Información (MSI). Primera oración del párrafo relevante: \"Clasificaron las actividades de mantenimiento en cuatro clases:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "¿Qué se entiende por línea base en el control de versiones en el análisis de un sistema de información?",
+            "opciones": [
+                "A. Punto inicial de partida de un sistema de información, en el cual no hay nada desarrollado",
+                "B. Especificación o producto que ha sido revisado formalmente. Sirve de base para un desarrollo posterior",
+                "C. Documentación del sistema de información almacenada en una dispositivo de almacenamiento seguro",
+                "D. Ninguna de las anteriores es cierta"
+            ],
+            "opcion_correcta": "B. Especificación o producto que ha sido revisado formalmente. Sirve de base para un desarrollo posterior",
+            "justificacion": "La opción B es correcta porque, aunque el término \"línea base\" no aparece explícitamente, el documento describe en la metodología MÉTRICA (Sección 3.1) que los productos generados deben ser aprobados formalmente antes de avanzar a la siguiente fase. Específicamente, en el Análisis del Sistema de Información se requiere la \"aprobación por estos de dicho análisis\" para servir de base al diseño posterior, lo cual conceptualmente equivale a una especificación revisada formalmente que fundamenta el desarrollo subsiguiente.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.1. Desarrollo de Sistemas de Información. Subsubsección: 3.1.2. Análisis del Sistema de Información (ASI). Primera oración del párrafo relevante: \"El objetivo principal del proceso de análisis es el de obtener una especificación detallada del sistema de información que satisfaga las necesidades de información de los usuarios y sirva de base para el posterior diseño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "¿Quién debería cerrar siempre las incidencias?",
+            "opciones": [
+                "A. El nivel 1 (CAU)",
+                "B. El nivel 2 (resto de áreas del centro TIC)",
+                "C. El nivel 3 (proveedores)",
+                "D. Aquel nivel que resuelva la incidencia"
+            ],
+            "opcion_correcta": "A. El nivel 1 (CAU)",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en el apartado sobre ITIL y el CAU que una de las responsabilidades específicas del Centro de Servicio al Usuario (Nivel 1) es \"Cerrar todas las incidencias, peticiones de Servicio u otras llamadas resueltas\". Esto centraliza la gestión del cierre en el punto único de contacto para garantizar el control y seguimiento adecuado.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.4. CAU o Infocentro. Subsubsección: 3.4.1. ITIL como estándar de Gestión del CAU. Primera oración del párrafo relevante: \"Se distinguen las siguientes responsabilidades específicas:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "¿Dónde ubicaría al Centro de Control y Gestión de Red (Network Management System)?",
+            "opciones": [
+                "A. Dentro del staff del director de sistemas de información",
+                "B. Dentro del departamento de análisis y programación",
+                "C. En el departamento de explotación",
+                "D. En el departamento de planificación"
+            ],
+            "opcion_correcta": "C. En el departamento de explotación",
+            "justificacion": "La opción C es correcta porque el documento agrupa la gestión de redes y comunicaciones dentro de las funciones de \"Administración de sistemas, bases de datos y comunicaciones\" (Sección 3.3), las cuales tienen como objetivo asegurar la continuidad de la operativa diaria (Nivel operacional). Estas tareas de monitorización y control de la red corresponden a la explotación del sistema, diferenciándose claramente de las áreas de desarrollo o planificación estratégica.",
+            "referencia": "Sección: 3. Funciones de: desarrollo, mantenimiento, sistemas, bases de datos, comunicaciones, infocentro y relaciones con usuarios. Subsección: 3.3. Administración de sistemas, bases de datos y comunicaciones. Subsubsección: 3.3.2. Administración de las comunicaciones. Primera oración del párrafo relevante: \"Esta función se engloba también normalmente en dentro del área de sistemas y su objetivo consiste en diseñar, instalar y gestionar las comunicaciones de la organización...\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "¿Qué tipo de organización está caracterizado por una pequeña organización central que proporciona liderazgo y planificación global, así como un número de empresas subsidiarias afiliadas de forma flexible?",
+            "opciones": [
+                "A. Organización en red.",
+                "B. Organización federal.",
+                "C. Organización en trébol.",
+                "D. Organización virtual."
+            ],
+            "opcion_correcta": "B. Organización federal.",
+            "justificacion": "**\nLa opción B es correcta porque el documento define explícitamente la \"Organización federal\" en la sección 2.1.8 con las mismas palabras: \"Está caracterizado por una pequeña organización central que proporciona liderazgo y planificación global, así como un número de empresas subsidiarias afiliadas de forma flexible\".",
+            "referencia": "**\nSección: 2. Organización y funcionamiento de un Centro de Sistemas de Información. Subsección: 2.1.8. La organización federal."
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "En el Proceso de Desarrollo de un Sistema de Información ¿en qué actividad se sitúa la redacción de los manuales de usuario y de explotación?",
+            "opciones": [
+                "A. En el Análisis del Sistema de Información (ASI).",
+                "B. En el Diseño del Sistema de Información (DSI).",
+                "C. En la Construcción del Sistema (CSI).",
+                "D. En la Implantación y Aceptación del Sistema (IAS)"
+            ],
+            "opcion_correcta": "C. En la Construcción del Sistema (CSI).",
+            "justificacion": "**\nLa opción C es correcta según la sección 3.1.4, donde se detalla la actividad \"Construcción del Sistema de Información (CSI)\". El punto 3 de esta actividad enumera específicamente: \"Redactar los manuales de usuario y de explotación\".",
+            "referencia": "**\nSección: 3. Funciones de: desarrollo, mantenimiento... Subsección: 3.1.4. Construcción del Sistema de Información (CSI)."
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "¿Qué porcentaje del mantenimiento corresponde a la corrección de errores, según Lientz y Swanson?",
+            "opciones": [
+                "A. 7%.",
+                "B. 13 %.",
+                "C. 15 %.",
+                "D. 17 %."
+            ],
+            "opcion_correcta": "D. 17 %.",
+            "justificacion": "**\nLa opción D es correcta porque en la sección 3.2, al citar la encuesta de Lientz y Swanson, el texto indica: \"la corrección de errores consumía aproximadamente el 17%\".",
+            "referencia": "**\nSección: 3. Funciones de: desarrollo, mantenimiento... Subsección: 3.2. Mantenimiento de Sistemas de Información (MSI)."
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "¿Cuál de las siguientes funciones NO forma parte de las del DBA, según C.J. Date?",
+            "opciones": [
+                "A. La explotación del dato para la obtención de ventajas competitivas.",
+                "B. La vinculación con los usuarios.",
+                "C. Definir las verificaciones de seguridad e integridad.",
+                "D. Definir procedimientos de respaldo y configuración."
+            ],
+            "opcion_correcta": "A. La explotación del dato para la obtención de ventajas competitivas.",
+            "justificacion": "**\nLa opción A es correcta (como la que NO forma parte) porque en la sección 3.3.3 se listan las funciones del DBA según C.J. Date (definir esquemas, vincularse con usuarios, verificaciones de seguridad, procedimientos de respaldo), pero no se menciona la \"explotación del dato para ventajas competitivas\". Además, el texto aclara que el DBA \"protege los datos, no los procesa\".",
+            "referencia": "**\nSección: 3. Funciones de: desarrollo, mantenimiento... Subsección: 3.3.3. Administración de bases de datos."
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "¿En qué fase de ITIL v.3 se puede considerar enmarcada la función de un CAU?",
+            "opciones": [
+                "A. Transición del Servicio.",
+                "B. Operación del Servicio.",
+                "C. Mejora Continua del Servicio.",
+                "D. Estrategia del Servicio."
+            ],
+            "opcion_correcta": "B. Operación del Servicio.",
+            "justificacion": "**\nLa opción B es correcta porque la sección 3.4.1 establece que \"La fase 4 de ITIL es la Operación del Servicio\" y dentro de esta fase se encuentran las funciones, siendo la primera el \"Centro de Servicio al Usuario\" (CAU).",
+            "referencia": "**\nSección: 3. Funciones de: desarrollo, mantenimiento... Subsección: 3.4.1. ITIL como estándar de Gestión del CAU."
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "¿En qué nivel de un CAU se resuelven las incidencias relacionadas con los equipos de oficina?",
+            "opciones": [
+                "A. Nivel 1.",
+                "B. Nivel 2.",
+                "C. Nivel 3.",
+                "D. Este tipo de incidencias no las resuelve el CAU."
+            ],
+            "opcion_correcta": "A. Nivel 1.",
+            "justificacion": "**\nLa opción A es correcta según la sección 3.4.2, que describe la organización interna del CAU: \"El Nivel 1 atiende las llamadas... y además resuelve los temas tecnológicos relacionados con los equipos y sistemas de oficina (PC, impresora, móvil, etc.)\".",
+            "referencia": "**\nSección: 3. Funciones de: desarrollo, mantenimiento... Subsección: 3.4.2. Organización interna del CAU."
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "En la Metodología MÉTRICA v3. ¿En qué actividad del Desarrollo de un Sistema de Información NO participan los Usuarios Expertos?",
+            "opciones": [
+                "A. Estudio de alternativas de solución.",
+                "B. Elaboración del Modelo de Datos.",
+                "C. Elaboración del Modelo de Procesos.",
+                "D. Diseño de la Arquitectura del Sistema."
+            ],
+            "opcion_correcta": "C. Elaboración del Modelo de Procesos.",
+            "justificacion": "**\nLa opción C es correcta porque la sección 3.5 detalla las actividades donde participan los Usuarios Expertos en MÉTRICA: EVS (alternativas), ASI (Modelo de Datos) y DSI (Arquitectura). La \"Elaboración del Modelo de Procesos\" no aparece en dicha lista de participación explícita.",
+            "referencia": "**\nSección: 3. Funciones de: desarrollo, mantenimiento... Subsección: 3.5. Relaciones con los usuarios."
+        }
+    ]
+}

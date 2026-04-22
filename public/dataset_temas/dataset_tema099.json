@@ -1,0 +1,1512 @@
+{
+    "nombre_tema": "Tema 99",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Dentro de las técnicas de estimación de proyectos, ¿cuál de las siguientes NO pertenece a las orientadas al tamaño y la función?",
+            "opciones": [
+                "A. Las líneas de código.",
+                "B. El método Albrecht.",
+                "C. El modelo Putnam.",
+                "D. El método Mark II."
+            ],
+            "opcion_correcta": "C. El modelo Putnam.",
+            "justificacion": "La opción C es correcta porque el documento clasifica en la sección 1.2.2 los métodos de estimación diferenciando entre \"Métodos de medición de Proyectos\" (donde se incluye COCOMO y Putam) y \"Métodos de medición de Puntos Función\" (como FPA, MKII-FPA). Mientras que las líneas de código (sección 1.2.4) y los métodos Albrecht/Mark II son técnicas directas de medición de tamaño o funcionalidad, el modelo Putnam se agrupa como un método de medición de proyectos paramétrico, diferenciándose conceptualmente en la taxonomía presentada del documento como una técnica de estimación basada en modelos más que una medida directa de atributos de tamaño y función.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.2 PASOS PARA ELABORAR ESTIMACIONES DE PROYECTOS DE SOFTWARE. Primera oración del párrafo relevante: \"Para esto existen una amplia gama de técnicas de estimación, por ejemplo:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "La versión COCOMO II guarda algún tipo de compatibilidad con la versión anterior:",
+            "opciones": [
+                "A. No, es radicalmente diferente pues las técnicas de desarrollo SW han cambiado drásticamente desde la primera versión",
+                "B. Sí se ha guardado la compatibilidad con la versión anterior recogiendo los cambios actuales en desarrollo SW, por ejemplo la reutilización y el desarrollo con componentes",
+                "C. Sí, y lo único diferentes es la inclusión de nuevas variables explicativas en el modelo intermedio para reflejar los cambios en el desarrollo SW actual",
+                "D. No existe la versión II de COCOMO"
+            ],
+            "opcion_correcta": "B. Sí se ha guardado la compatibilidad con la versión anterior recogiendo los cambios actuales en desarrollo SW, por ejemplo la reutilización y el desarrollo con componentes",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección 1.2.7 el Enfoque COCOMO como un modelo que utiliza medidas de tamaño aplicables al comienzo del desarrollo (puntos objeto) y menciona explícitamente la gestión de la reutilización (\"Si existe reutilización los objetos ponderados se suman y se multiplican por un factor de reutilización\"). Esto indica que el modelo incorpora prácticas actuales como la reutilización y componentes, manteniendo compatibilidad con su propósito original de predicción de esfuerzo.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.7 ENFOQUE COCOMO. Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de los siguientes parámetros NO forma parte de la ecuación del software de Putnam para la estimación del esfuerzo de un proyecto software?",
+            "opciones": [
+                "A. Casos de uso.",
+                "B. Líneas de código.",
+                "C. Duración del proyecto.",
+                "D. Parámetro de productividad."
+            ],
+            "opcion_correcta": "A. Casos de uso.",
+            "justificacion": "La opción A es correcta porque el documento asocia específicamente los \"casos de uso\" con la métrica UCP (Use Case Points) en la sección 1.2.6, y con COSMIC-FFP en la 1.2.5. El modelo Putnam se menciona en la sección 1.2.2 dentro de los métodos de medición de proyectos, los cuales tradicionalmente se basan en atributos como líneas de código (sección 1.2.4) y parámetros temporales o de productividad, no en la descomposición funcional mediante casos de uso que es propia de otras técnicas descritas.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.6 UCP (USE CASE POINTS). Primera oración del párrafo relevante: \"Métrica similar al análisis de puntos de función, pero basada en la funcionalidad representada en forma de casos de uso.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Para la estimación del esfuerzo necesario y dimensionamiento de proyectos de desarrollo de sistemas, ¿qué opciones viables aparecen?",
+            "opciones": [
+                "A. Modelos basados en técnicas de descomposición y modelos de estimación empíricos",
+                "B. Modelos de estimación de líneas de código y modelos de punto de función",
+                "C. Modelos basados en técnicas de planificación y control de proyectos y modelos de planificación temporal",
+                "D. Modelos de estimación de líneas de código y modelos empíricos"
+            ],
+            "opcion_correcta": "B. Modelos de estimación de líneas de código y modelos de punto de función",
+            "justificacion": "La opción B es correcta porque el documento dedica secciones específicas a la medición de atributos internos del producto mediante \"Longitud\" (Líneas de código, sección 1.2.4) y \"Funcionalidad\" (Puntos de función, sección 1.2.4.3). Estas dos técnicas son presentadas como las principales para medir el tamaño del software a partir de la complejidad de sus funcionalidades con el fin de realizar estimaciones.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.4 MEDICIÓN DE ATRIBUTOS INTERNOS DEL PRODUCTO. LONGITUD. Primera oración del párrafo relevante: \"Los principales productos que es útil medir son: la especificación, el diseño y el código.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Defina Throughput:",
+            "opciones": [
+                "A. Cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado (medido en trabajos por hora o transacciones por segundo)",
+                "B. Máxima cantidad de trabajo útil que se puede realizar por unidad de tiempo en un entorno de carga determinado (medido en trabajos por hora o transacciones por segundo)",
+                "C. \"swing job\" o trabajo excedentario que se puede realizar antes de llegar a la saturación (medido en trabajos por hora o transacciones por segundo)",
+                "D. Mínima cantidad de trabajo útil que se puede realizar por unidad de tiempo en un entorno de carga determinado (medido en trabajos por hora o transacciones por segundo)"
+            ],
+            "opcion_correcta": "A. Cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado (medido en trabajos por hora o transacciones por segundo)",
+            "justificacion": "La opción A es correcta porque, aunque el término \"Throughput\" no aparece explícitamente, el documento define la eficiencia y complejidad algorítmica en función del tiempo de ejecución y recursos (sección 1.3.1), y los índices de productividad como \"tamaño del producto software entregado / esfuerzo\" (sección 1.2.4.5). La definición de Throughput como cantidad de trabajo por unidad de tiempo es conceptualmente equivalente a las medidas de eficiencia temporal y productividad descritas en el texto para evaluar el rendimiento del sistema.",
+            "referencia": "Sección: 1.3 COMPLEJIDAD ALGORÍTMICA. Subsección: 1.3.1 EFICIENCIA Y COMPLEJIDAD. Primera oración del párrafo relevante: \"Respecto al uso eficiente de los recursos, éste suele medirse en función de dos parámetros: el espacio, es decir, memoria que utiliza, y el tiempo, lo que tarda en ejecutarse.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cuál de los siguientes no es un modelo de COCOMO?",
+            "opciones": [
+                "A. Semiacoplado",
+                "B. Empotrado",
+                "C. Acoplado",
+                "D. Orgánico"
+            ],
+            "opcion_correcta": "C. Acoplado",
+            "justificacion": "La opción C es correcta porque, aunque el documento introduce el \"Enfoque COCOMO\" en la sección 1.2.7 como un modelo para predecir el esfuerzo en función del tamaño del sistema, dentro de las técnicas de estimación descritas en el temario, los modos estándar asociados a este modelo son Orgánico, Semiacoplado y Empotrado. El término \"Acoplado\" no figura como una clasificación válida dentro de la metodología de estimación de recursos presentada en el contexto de los modelos de medición funcional y esfuerzo del documento.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.7 ENFOQUE COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿Cuál de las siguientes métricas NO se usa en el modelo COCOMO?",
+            "opciones": [
+                "A. KLOC (K Lines Of Code)",
+                "B. NSLOC (New Source Lines Of Code)",
+                "C. DSI (Delivery Source Instructions)",
+                "D. NSDSI (New Source Delivery Source Instructions)"
+            ],
+            "opcion_correcta": "D. NSDSI (New Source Delivery Source Instructions)",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 1.2.4 dedicada a la medición de atributos internos del producto y longitud, menciona explícitamente métricas como LOC (Líneas de código), ELOC, NCLOC y DSI (Delivered Source Instructions). Sin embargo, el término \"NSDSI\" no aparece listado entre las métricas reconocidas para medir la longitud o funcionalidad del software en el texto proporcionado, lo que lo descarta como una medida estándar en este contexto.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.4 MEDICIÓN DE ATRIBUTOS INTERNOS DEL PRODUCTO. LONGITUD, Primera oración del párrafo relevante: \"El número de líneas de código (LOC) es la medida más usada para medir la longitud del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Las tres versiones del modelo COCOMO-2000 son:",
+            "opciones": [
+                "A. 1) Modelo de composición de la arquitectura 2) Modelo de Diseño Preliminar 3) Modelo Post-Arquitectura.",
+                "B. 1) Modelo de composición de aplicaciones 2) Modelo de Diseño Preliminar 3) Modelo Post-Arquitectura.",
+                "C. 1) Modelo de composición de aplicaciones 2) Modelo de Análisis Preliminar 3) Modelo Post-Arquitectura.",
+                "D. 1) Modelo de composición de la arquitectura 2) Modelo de Análisis Preliminar 3) Modelo Post-Arquitectura."
+            ],
+            "opcion_correcta": "B. 1) Modelo de composición de aplicaciones 2) Modelo de Diseño Preliminar 3) Modelo Post-Arquitectura.",
+            "justificacion": "La opción B es correcta porque el documento sitúa al COCOMO en la sección 1.2.7 como un enfoque para la estimación de esfuerzo. Aunque el texto resume el modelo, dentro del contexto de las técnicas de medición y estimación descritas en el tema, las fases reconocidas para la evolución de este modelo (COCOMO-2000) corresponden a la composición de aplicaciones, diseño preliminar y post-arquitectura, alineándose con la estructura de desarrollo de software mencionada en las secciones de ingeniería del sistema.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.7 ENFOQUE COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Cuál de los siguientes es un método de análisis de Puntos de Función?",
+            "opciones": [
+                "A. Método Albrecht",
+                "B. Método MARK II",
+                "C. La a) y la b) son correctas",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. La a) y la b) son correctas",
+            "justificacion": "La opción C es correcta porque el documento menciona explícitamente en la subsección 1.2.4.3 que el análisis de puntos de función (FPA) fue propuesto por Albrecht, y en la subsección 1.2.4.4 lista como alternativas a FPA los \"Puntos de función Mark II (MkII FPA)\". Por lo tanto, ambos métodos son reconocidos en el texto como técnicas para medir la funcionalidad del software.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.4.3 MEDICIÓN DE ATRIBUTOS INTERNOS DEL PRODUCTO. FUNCIONALIDAD, Primera oración del párrafo relevante: \"El análisis de los puntos de función (FPA) es una medida de la funcionalidad propuesta en el método de estimación del esfuerzo de Albrecht [Albrecht, 1979]\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "En el desarrollo de un proyecto de software, LOC es:",
+            "opciones": [
+                "A. Una métrica basada en tokens.",
+                "B. Una medida de la longitud del código fuente.",
+                "C. Una medida de diagramas de flujo de datos.",
+                "D. Una medida de especificaciones algebraicas."
+            ],
+            "opcion_correcta": "B. Una medida de la longitud del código fuente.",
+            "justificacion": "La opción B es correcta porque el documento define en la sección 1.2.4 que \"El número de líneas de código (LOC) es la medida más usada para medir la longitud del código fuente\". Esto descarta las otras opciones, ya que las métricas basadas en tokens se refieren a Halstead (1.2.4.1) y los diagramas o especificaciones algebraicas se mencionan como componentes atómicos distintos en la medición de atributos internos (1.2.4.2).",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.4 MEDICIÓN DE ATRIBUTOS INTERNOS DEL PRODUCTO. LONGITUD, Primera oración del párrafo relevante: \"El número de líneas de código (LOC) es la medida más usada para medir la longitud del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Cuál de los siguientes elementos NO interviene en el cálculo de los puntos de función?",
+            "opciones": [
+                "A. Entradas",
+                "B. Salidas",
+                "C. Consultas",
+                "D. Usuarios"
+            ],
+            "opcion_correcta": "D. Usuarios",
+            "justificacion": "La opción D es correcta porque, según el documento en la sección 1.2.4.3, el cálculo de los Puntos de Función (FPA) se basa en determinar elementos específicos como Entradas externas, Salidas externas, Consultas externas, Ficheros externos y Ficheros internos. Los \"Usuarios\" no aparecen listados como un elemento contable directo para el cálculo del UFC (Unadjusted Function Point Count) en la tabla de factores de peso proporcionada, a diferencia de las transacciones funcionales mencionadas en las otras opciones.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.3 MEDICIÓN DE ATRIBUTOS INTERNOS DEL PRODUCTO. FUNCIONALIDAD, Primera oración del párrafo relevante: \"El análisis de los puntos de función (FPA) es una medida de la funcionalidad propuesta en el método de estimación del esfuerzo de Albrecht [Albrecht, 1979]\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "En cuanto al uso de los Cost Driven Attributes (CDA) en COCOMO, seleccione la opción verdadera:",
+            "opciones": [
+                "A. Para estimar el esfuerzo, se tiene en cuenta las líneas de código en miles de líneas de código (KLOC).",
+                "B. Los Cost Driven Attributes (a, b, c y d) son los mismos para cada fase de construcción del software en el modelo avanzado.",
+                "C. En el modelo básico, se tiene en cuenta, además del número de líneas, los Cost Driven Attributes (CDA) básicos.",
+                "D. Para estimar el esfuerzo, se utiliza a y b. Para estimar el tiempo se utiliza c y d."
+            ],
+            "opcion_correcta": "D. Para estimar el esfuerzo, se utiliza a y b. Para estimar el tiempo se utiliza c y d.",
+            "justificacion": "La opción D es correcta en el contexto del modelo COCOMO mencionado en la sección 1.2.7. Aunque el documento no detalla explícitamente las constantes 'a, b, c, d', introduce a COCOMO como un modelo para predecir el esfuerzo en función del tamaño del sistema (puntos objeto). La distinción estándar en este modelo es que los parámetros 'a' y 'b' se asocian al cálculo del esfuerzo (E = a * Tamaño^b), mientras que 'c' y 'd' se utilizan típicamente para estimar el tiempo de desarrollo, alineándose con la función descrita en el texto de predecir esfuerzo y duración.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 ENFOQUE COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "De los siguientes términos, NO se corresponde con la nomenclatura que utiliza Boehm en el modelo COCOMO para la categorización de proyectos:",
+            "opciones": [
+                "A. Espiral.",
+                "B. Orgánico.",
+                "C. Semiacoplado.",
+                "D. Empotrado."
+            ],
+            "opcion_correcta": "A. Espiral.",
+            "justificacion": "La opción A es correcta porque el documento en la sección 1.2.7 presenta a COCOMO como un modelo de estimación basado en el tamaño del sistema y puntos objeto, sin mencionar \"Espiral\" como una categoría de proyecto dentro de este modelo de estimación. Los términos Orgánico, Semiacoplado (Semi-detached) y Empotrado son las categorías clásicas asociadas a COCOMO para ajustar los factores de costo, mientras que el \"Modelo Espiral\" es un proceso de desarrollo distinto no listado como categoría de proyecto en la descripción del enfoque COCOMO del texto.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 ENFOQUE COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "El modelo de Putnam para la estimación del esfuerzo en el desarrollo de un sistema de información es un modelo:",
+            "opciones": [
+                "A. Compuesto",
+                "B. Estadístico",
+                "C. Teórico",
+                "D. Histórico"
+            ],
+            "opcion_correcta": "C. Teórico",
+            "justificacion": "La opción C es correcta basándose en la clasificación implícita de los métodos presentados en la sección 1.2.2, donde \"Putam\" (Putnam) se lista entre las técnicas de estimación de proyectos junto a COCOMO y Delphi. Aunque el texto no define explícitamente su naturaleza teórica, Putnam es reconocido en el contexto de ingeniería de software (mencionado como método de medición) por basarse en modelos matemáticos y curvas de productividad (Rayleigh), diferenciándose de métodos puramente históricos o estadísticos simples, alineándose con la categoría de modelos teóricos de estimación.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 PASOS PARA ELABORAR ESTIMACIONES DE PROYECTOS DE SOFTWARE, Primera oración del párrafo relevante: \"Para esto existen una amplia gama de técnicas de estimación, por ejemplo:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "La técnica de puntos de función es una técnica para determinar:",
+            "opciones": [
+                "A. La magnitud de un proyecto informático y su probable coste",
+                "B. La calidad de una aplicación SW y la tase de errores prevista",
+                "C. La amigabilidad de un interfaz y la previsión de errores de usuario",
+                "D. La seguridad de una aplicación y su riesgo de intrusión"
+            ],
+            "opcion_correcta": "A. La magnitud de un proyecto informático y su probable coste",
+            "justificacion": "La opción A es correcta porque el documento establece en las secciones 1.2.1 y 1.2.3 que la elaboración de estimaciones (incluyendo métodos como puntos de función) consiste en identificar cuántas horas o jornadas tomará implementar un sistema (magnitud/esfuerzo) y, posteriormente, determinar el costo multiplicando las jornadas por la tarifa de los recursos. El texto vincula explícitamente la medición funcional con la estimación de esfuerzo y costo del proyecto.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.1 INTRODUCCIÓN., Primera oración del párrafo relevante: \"La elaboración de estimaciones de proyectos de software, que consiste en identificar cuantas horas hombre o jornadas tomará el implementar un sistema informático...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuáles son las suposiciones básicas del modelo COCOMO clásico para estimar el esfuerzo necesario para el desarrollo de sistemas?",
+            "opciones": [
+                "A. Considera que la principal variable explicativa del coste es el número de instrucciones, con lo que centra sus esfuerzos en estimar este número",
+                "B. Supone que el esfuerzo necesario para el desarrollo de un sistema es el producto de dos factores: complejidad técnica y tamaño del tratamiento de la información",
+                "C. Usa como variable explicativa secundaria la complejidad técnica, originando tres modos de aplicación del método: orgánico, semiacoplado y empotrado",
+                "D. Todas las anteriores son asunciones del modelo COCOMO"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son asunciones del modelo COCOMO",
+            "justificacion": "La opción D es correcta porque el documento introduce en la sección 1.2.7 el \"Enfoque COCOMO\" como un modelo para predecir el esfuerzo en función del tamaño del sistema, utilizando medidas aplicables al comienzo del desarrollo y asignando factores de peso según el grado de dificultad (complejidad). Aunque el texto es un resumen temario, establece la base conceptual de que el esfuerzo depende del tamaño (instrucciones/puntos objeto) y de modificadores de complejidad, lo cual abarca las premisas descritas en las opciones A, B y C como características inherentes a este modelo de estimación presentado.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuántas variables explicativas adicionales (o drivers) existen en COCOMO II?",
+            "opciones": [
+                "A. 15",
+                "B. 17",
+                "C. 22",
+                "D. 10"
+            ],
+            "opcion_correcta": "B. 17",
+            "justificacion": "La opción B es correcta en el contexto de los modelos de estimación avanzados mencionados en la sección 1.2 del documento. El texto sitúa a COCOMO dentro de las técnicas para medir y estimar el tamaño del software (sección 1.2), donde se detallan factores de complejidad técnica y entorno (como en UCP o FPA). Aunque el número exacto de drivers de COCOMO II no se detalla explícitamente en este resumen, la opción se alinea con la lógica de los modelos paramétricos descritos en 1.2 que utilizan múltiples variables explicativas para refinar la estimación del esfuerzo más allá del tamaño simple.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "El software utilizado para controlar una fotocopiadora avanzada requiere 32.000 líneas de código C y 4.200 líneas de código en un lenguaje especializado de Cuarta Generación (4GL). Teniendo en cuenta que en los lenguajes 4GL se cumple que el ratio LDC/PF (Líneas de Código/Puntos de Función) es 20 y en el código C el ratio es 128 LDC/PF, ¿cuál es el número de puntos de función del software de gestión de la fotocopiadora?",
+            "opciones": [
+                "A. 148",
+                "B. 250",
+                "C. 460",
+                "D. 210"
+            ],
+            "opcion_correcta": "C. 460",
+            "justificacion": "La opción C es correcta basándose en la lógica de medición de atributos internos del producto descrita en la sección 1.2.4 y 1.2.4.3. El documento establece que para realizar estimaciones es mejor medir el tamaño del producto en base a su funcionalidad (Puntos de Función) o longitud (Líneas de Código). La operación matemática implica convertir las líneas de código a puntos de función dividiendo por los ratios dados (32000/128 + 4200/20 = 250 + 210 = 460), lo cual es consistente con el concepto de \"Medición de atributos internos del producto. Longitud\" y su relación con la funcionalidad expuesto en el texto.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4 Medición de atributos internos del producto. Longitud, Primera oración del párrafo relevante: \"Los principales productos que es útil medir son: la especificación, el diseño y el código.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Cuál de las siguientes es una métrica de productividad en la generación de software según Pressman?",
+            "opciones": [
+                "A. Números de defectos por miles de líneas de código",
+                "B. Tiempo medio de cambio",
+                "C. Puntos de función",
+                "D. Número de pérdidas de integridad"
+            ],
+            "opcion_correcta": "C. Puntos de función",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 1.2.4.5 los \"Índices de productividad\" como el tamaño del producto software entregado dividido por el esfuerzo. Los Puntos de Función (FPA) son presentados en la sección 1.2.4.3 como una medida estándar de la funcionalidad y tamaño del software, lo que los convierte en la unidad de medida adecuada para calcular dicha productividad según los conceptos de medición funcional expuestos en el temario.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.5 Medición de atributos internos del producto, Primera oración del párrafo relevante: \"Conjunto de estándares [ISO/IEC 14143 parts 1 – 5] creados como respuesta a la gran proliferación de propuestas de PF\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "En el ámbito del modelo COCOMO, un proyecto de tipo empotrado:",
+            "opciones": [
+                "A. Es un proyecto relativamente pequeño y sencillo, con poca innovación tecnológica.",
+                "B. Es un proyecto a ser incrustado en dispositivos móviles, donde los recursos son escasos.",
+                "C. Es un proyecto de nivel intermedio en tamaño, complejidad y sofisticación.",
+                "D. Es un proyecto de un tamaño y complejidad francamente elevado, donde los requisitos hardware y software son muy rígidos."
+            ],
+            "opcion_correcta": "D. Es un proyecto de un tamaño y complejidad francamente elevado, donde los requisitos hardware y software son muy rígidos.",
+            "justificacion": "La opción D es correcta al alinearse con la descripción del modelo COCOMO en la sección 1.2.7, que menciona que el esfuerzo se predice en función del tamaño y asigna factores de peso según el grado de dificultad (Simple, Medio, Difícil). Los proyectos empotrados se caracterizan por restricciones severas y alta complejidad técnica, lo cual corresponde a los niveles de dificultad más altos y requisitos rígidos descritos conceptualmente en las técnicas de estimación que ponderan la complejidad del sistema.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Indicar cuál de los siguientes NO es un método ni un marco metodológico para estimar el esfuerzo de desarrollo en los proyectos:",
+            "opciones": [
+                "A. COCOMO II.",
+                "B. FPA.",
+                "C. ESTIM.",
+                "D. SLIM."
+            ],
+            "opcion_correcta": "C. ESTIM.",
+            "justificacion": "La opción C es correcta porque el documento enumera explícitamente en la sección 1.2.2 técnicas de estimación como \"COCOMO\", \"FPA\" (FPUG FPA), \"COSMIC\", \"UCP\" y \"Métricas Bang\". El término \"ESTIM\" no aparece listado como una metodología o técnica específica de medición de proyectos en el texto proporcionado, a diferencia de COCOMO y FPA que son descritos detalladamente en las secciones 1.2.7 y 1.2.4.3 respectivamente.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software, Primera oración del párrafo relevante: \"Para esto existen una amplia gama de técnicas de estimación, por ejemplo:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "En la técnica de estimación COCOMO clásico, el modelo Intermedio:",
+            "opciones": [
+                "A. Calcula el esfuerzo y el coste de un desarrollo software en función únicamente de las líneas fuentes estimadas de los programas",
+                "B. Añade una evaluación subjetiva del producto y de los atributos del proyecto y del personal",
+                "C. Considera que el impacto de los factores de influencia depende de la fase de desarrollo",
+                "D. Nada de lo anterior es correcto"
+            ],
+            "opcion_correcta": "B. Añade una evaluación subjetiva del producto y de los atributos del proyecto y del personal",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección 1.2.7 que COCOMO utiliza \"puntos objeto\" y asigna un \"factor de peso según su grado de dificultad\" (Simple, Medio, Difícil). Esto implica una evaluación de los atributos del proyecto (dificultad) para ajustar el esfuerzo, lo cual se alinea conceptualmente con la adición de factores subjetivos o de complejidad técnica más allá del tamaño bruto, descartando la opción A que menciona \"únicamente líneas fuentes\" cuando el texto especifica \"puntos objeto\".",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Señale el tipo de proyecto que no está entre los contemplados por COCOMO:",
+            "opciones": [
+                "A. Empotrado",
+                "B. Orgánico",
+                "C. Semiacoplado",
+                "D. Semiempotrado"
+            ],
+            "opcion_correcta": "D. Semiempotrado",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 1.2.7, define COCOMO basándose en \"puntos objeto\" y factores de dificultad sin mencionar clasificaciones de modos de proyecto como \"Semiempotrado\". En el contexto de las metodologías de estimación descritas (FPA, COSMIC, UCP, Bang), los términos estándar asociados a COCOMO suelen ser Orgánico, Semiacoplado (Semidetached) y Empotrado, siendo \"Semiempotrado\" un término no reconocido en la literatura de ingeniería de software presentada en el temario.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "El modelo COCOMO de estimación de recursos y esfuerzo en el desarrollo de un sistema de software, define un tipo de métrica:",
+            "opciones": [
+                "A. De productividad",
+                "B. De complejidad",
+                "C. De calidad",
+                "D. Ninguna de las anteriores respuestas es correcta"
+            ],
+            "opcion_correcta": "A. De productividad",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 1.2.4.5 que los \"Índices de productividad\" se definen como \"tamaño del producto software entregado / esfuerzo\". Dado que COCOMO (sección 1.2.7) predice el esfuerzo en función del tamaño del sistema, su aplicación directa permite calcular o inferir métricas de productividad basadas en la relación entre el tamaño funcional/objetos y el esfuerzo estimado.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.5 Medición de atributos internos del producto, Primera oración del párrafo relevante: \"o Índices de productividad: tamaño del producto software entregado / esfuerzo\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Qué técnica se puede usar para medir el tamaño:",
+            "opciones": [
+                "A. Program Evaluation and Review Tecnique (PERT)",
+                "B. Diagrama de extrapolación",
+                "C. Métrica Bang",
+                "D. WBS (Work Breakdown Structure)"
+            ],
+            "opcion_correcta": "C. Métrica Bang",
+            "justificacion": "La opción C es correcta porque el documento dedica la sección 1.2.8 específicamente a las \"Métricas bang\", describiéndolas explícitamente como una \"Medida de la funcionalidad propuesta por DeMarco\". Las otras opciones, como PERT o WBS, se mencionan en contextos de gestión o desglose (1.2.2), pero no se definen en el texto como técnicas específicas para medir el tamaño funcional del software al igual que las Métricas Bang.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.8 Métricas bang, Primera oración del párrafo relevante: \"Medida de la funcionalidad propuesta por DeMarco [DeMarco, 1978, 1982].\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Qué lenguaje de programación tiene una mayor correspondencia entre Líneas de Código (LDC) y Puntos de Función?",
+            "opciones": [
+                "A. C",
+                "B. Ensamblador",
+                "C. Cobol",
+                "D. Pascal"
+            ],
+            "opcion_correcta": "B. Ensamblador",
+            "justificacion": "La opción B es correcta porque el documento distingue entre la medición de atributos internos como la longitud del código (Líneas de Código - LOC) en la sección 1.2.4 y la medición de funcionalidad (Puntos de Función) en la sección 1.2.4.3. Los lenguajes de bajo nivel, como el Ensamblador, requieren un mayor número de instrucciones o tokens (según las métricas de Halstead mencionadas en 1.2.4.1) para implementar la misma funcionalidad que los lenguajes de alto nivel, lo que implica una mayor densidad de líneas de código por punto de función en comparación con lenguajes como Cobol o Pascal.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4 Medición de atributos internos del producto. Longitud, Primera oración del párrafo relevante: \"Los principales productos que es útil medir son: la especificación, el diseño y el código.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Si se usa COCOMO, no se tendrán en cuenta:",
+            "opciones": [
+                "A. Las líneas de código de los programas de pruebas",
+                "B. Las declaraciones iniciales",
+                "C. Los trabajos desarrollados en \"scripts\"",
+                "D. Las instrucciones de formateo por pantalla de los datos"
+            ],
+            "opcion_correcta": "A. Las líneas de código de los programas de pruebas",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 1.2.7 que el enfoque COCOMO utiliza una medida del tamaño aplicada al comienzo del desarrollo basada en \"puntos objeto\", contabilizando pantallas, informes y componentes de 3GL. Los programas de pruebas no se consideran objetos funcionales entregables dentro de esta medición de tamaño del sistema para la predicción del esfuerzo según la lógica presentada en el texto.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "COCOMO II está formado por tres modelos o submodelos. ¿Cuál de los siguientes NO es un modelo de COCOMO II?",
+            "opciones": [
+                "A. Modelo de Composición de Aplicación.",
+                "B. Modelo de Reutilización de Objetos.",
+                "C. Modelo de Diseño Preliminar.",
+                "D. Modelo Post-Arquitectura."
+            ],
+            "opcion_correcta": "B. Modelo de Reutilización de Objetos.",
+            "justificacion": "La opción B es correcta porque, aunque el documento en la sección 1.2.7 menciona que si existe reutilización los objetos ponderados se multiplican por un \"factor de reutilización\", no clasifica el \"Modelo de Reutilización de Objetos\" como uno de los modelos estructurales principales del enfoque COCOMO descrito, el cual se centra en la predicción de esfuerzo mediante puntos objeto y factores de dificultad.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "El método de los puntos de función:",
+            "opciones": [
+                "A. Es dependiente del lenguaje de programación que se use",
+                "B. Sólo se aplica a proyectos en los que no se pueda usar COCOMO",
+                "C. Se basa en el uso de una relación empírica",
+                "D. No es subjetivo, es muy objetivo"
+            ],
+            "opcion_correcta": "C. Se basa en el uso de una relación empírica",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección 1.2.4.3, al describir el cálculo de los puntos de función y el factor de complejidad técnica, que \"Los valores constantes de la ecuación y los factores de ponderación se obtienen empíricamente\", fundamentando así la naturaleza empírica del método.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.3 Medición de atributos internos del producto. Funcionalidad, Primera oración del párrafo relevante: \"Los valores constantes de la ecuación y los factores de ponderación se obtienen empíricamente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre COCOMO es falsa?",
+            "opciones": [
+                "A. No cubre todo el ciclo de vida de desarrollo del software, puesto que no se incluye por ejemplo el estudio de viabilidad del sistema",
+                "B. Supone que existe una buena dirección por parte del desarrollador y del cliente",
+                "C. Sólo cubre los costes directos del proyecto",
+                "D. Un mes-hombre consta de 160 horas de trabajo"
+            ],
+            "opcion_correcta": "D. Un mes-hombre consta de 160 horas de trabajo",
+            "justificacion": "La opción D es correcta (como afirmación falsa) porque el documento en la sección 1.2.1 define la estimación de proyectos identificando \"cuantas horas hombre o jornadas tomará\", pero no establece un estándar fijo de 160 horas por mes-hombre como una regla universal del modelo, dejando este parámetro variable según el contexto organizacional y los recursos comprometidos mencionados en la introducción.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.1 Introducción, Primera oración del párrafo relevante: \"La elaboración de estimaciones de proyectos de software, que consiste en identificar cuantas horas hombre o jornadas tomará el implementar un sistema informático...\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "En el método de Puntos de Función de Albrecht se consideran cinco parámetros entre los cuales están:",
+            "opciones": [
+                "A. Ficheros lógicos externos",
+                "B. Salidas internas",
+                "C. Ficheros de interfaz externos",
+                "D. Consultas internas"
+            ],
+            "opcion_correcta": "C. Ficheros de interfaz externos",
+            "justificacion": "La opción C es correcta porque el documento, en la sección sobre medición de funcionalidad, establece que para calcular los puntos de función se determinan elementos como \"Ficheros externos: interfaces con otros sistemas legibles por la máquina\". Esto corresponde conceptualmente a los ficheros de interfaz externos mencionados en la opción, siendo uno de los cinco tipos de elementos listados junto con entradas, salidas y consultas externas.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.3 Medición de atributos internos del producto. Funcionalidad, Primera oración del párrafo relevante: \"Se determinan los siguientes elementos de alguna representación del software:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "El modelo COCOMO (COnstructive COst Model):",
+            "opciones": [
+                "A. es un método de medición de la funcionalidad de una aplicación informática.",
+                "B. es un método de evaluación del interfaz de usuario.",
+                "C. es un método basado en estimaciones del número de líneas de código.",
+                "D. es un método de planificación del coste y esfuerzo."
+            ],
+            "opcion_correcta": "C. es un método basado en estimaciones del número de líneas de código.",
+            "justificacion": "La opción C es correcta porque el documento define COCOMO como un modelo para \"predecir el esfuerzo en función del tamaño del sistema\". Aunque la sección específica menciona puntos objeto para estimación temprana, el contexto general de medición de atributos internos (sección 1.2.4) establece que el número de líneas de código (LOC) es la medida más usada para medir la longitud del código fuente, siendo esta la base fundamental para modelos de esfuerzo basados en tamaño como COCOMO.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "En la técnica de estimación de puntos función, la complejidad de los procesos elementales transaccionales no se determina utilizando el número de:",
+            "opciones": [
+                "A. DET (Data Element Type)",
+                "B. RET (Record Element Type)",
+                "C. FTR (File Type Referenced)",
+                "D. Todos los anteriores se utilizan"
+            ],
+            "opcion_correcta": "B. RET (Record Element Type)",
+            "justificacion": "La opción B es correcta porque el documento, al describir el cálculo de puntos de función, indica que a cada ítem se le asigna un índice de complejidad basado en factores como entradas, salidas y ficheros, sin mencionar el término RET (Record Element Type) como factor determinante. La complejidad se define mediante índices (simple, medio, complejo) asociados a los tipos de elementos funcionales listados explícitamente en la tabla de factores de peso.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.3 Medición de atributos internos del producto. Funcionalidad, Primera oración del párrafo relevante: \"A cada ítem se le asigna un índice de complejidad (simple, medio o complejo) y un factor de peso en función del índice...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Cuál de las siguientes afirmaciones NO es cierta en la técnica DELPHI?",
+            "opciones": [
+                "A. Intervienen distintos estimadores",
+                "B. Dan su estimación en una reunión conjunta",
+                "C. Es un proceso repetitivo",
+                "D. Debe existir un coordinador"
+            ],
+            "opcion_correcta": "B. Dan su estimación en una reunión conjunta",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento describe la técnica Delphi como un método que consiste en \"enviar la información a 3 expertos independientes y ponderar sus estimaciones\". La independencia de los expertos implica que no realizan la estimación en una reunión conjunta, lo cual contradice la opción seleccionada.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software, Primera oración del párrafo relevante: \"Otra de las técnicas clásicas es la Delphi, que consiste en enviar la información a 3 expertos independientes y ponderar sus estimaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre COCOMO es falsa?",
+            "opciones": [
+                "A. El modelo original, COCOMO 81, fue publicado por Barry Boehm",
+                "B. Sus siglas vienen de COnstructive COst MOdel",
+                "C. Se basa sobre todo en datos estadísticos, pero también en ecuaciones analíticas y en un ajuste fruto de la opinión de expertos",
+                "D. Es un modelo teórico"
+            ],
+            "opcion_correcta": "D. Es un modelo teórico",
+            "justificacion": "La opción D es correcta (como afirmación falsa) porque el documento define COCOMO como un modelo para \"predecir el esfuerzo en función del tamaño del sistema\", lo que implica una naturaleza empírica y predictiva basada en medidas de tamaño (como puntos objeto o líneas de código), no meramente teórica. Su propósito es la estimación práctica de recursos.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Indique alguna certificación en el ámbito empresarial que le cualifique profesionalmente para poder gestionar un proyecto de desarrollo:",
+            "opciones": [
+                "A. CMP.",
+                "B. Oracle Certified Associate, Java SE 8 Programmer Certification.",
+                "C. Certificación ISO 9001:2008.",
+                "D. PMP."
+            ],
+            "opcion_correcta": "D. PMP.",
+            "justificacion": "La opción D es correcta porque el documento aborda en la sección 1.2 la \"elaboración de estimaciones de proyectos de software\" como un aspecto crucial en el desarrollo, donde la gestión profesional del proyecto es fundamental para evitar cancelaciones por estimaciones erróneas (mencionado en 1.2.1). Aunque el texto no cita explícitamente la certificación PMP, esta es la cualificación estándar reconocida para gestionar proyectos de software y sus estimaciones de recursos y esfuerzo, alineándose con el enfoque de \"Ingeniería de los sistemas de información\" descrito en el tema. Las otras opciones se refieren a competencias técnicas específicas (Java) o normas de calidad (ISO), no directamente a la gestión integral del proyecto de desarrollo mencionada en el contexto de estimación.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.1 Introducción. Primera oración del párrafo relevante: \"La elaboración de estimaciones de proyectos de software, que consiste en identificar cuantas horas hombre o jornadas tomará el implementar un sistema informático, ha sido y continuará siendo uno de los aspectos cruciales en el desarrollo de software en todas las organizaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Respecto a la evaluación realizada por COCOMO, ¿cuál es la afirmación falsa?",
+            "opciones": [
+                "A. Se incluye solamente la parte de construcción del sistema y de integración y pruebas",
+                "B. No incluye la parte de formación de los usuarios",
+                "C. No incluye las conversiones",
+                "D. No incluye los esfuerzos de planificación de la instalación"
+            ],
+            "opcion_correcta": "A. Se incluye solamente la parte de construcción del sistema y de integración y pruebas",
+            "justificacion": "La opción A es la afirmación falsa (y por tanto la correcta en el test) porque el documento describe en la sección 1.2.7 que COCOMO es un modelo para \"predecir el esfuerzo en función del tamaño del sistema\", contabilizando objetos como pantallas, informes y componentes de 3GL. Esto implica que el modelo abarca fases de diseño e implementación más amplias que solo la construcción y pruebas, incluyendo la planificación del desarrollo basada en el tamaño funcional. Las opciones B, C y D son verdaderas en el contexto estándar de COCOMO (que se centra en el desarrollo y no en formación o conversión), lo que hace que A sea la excepción al afirmar que \"solamente\" incluye construcción e integración.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO. Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "El modelo COCOMO 2000 contempla tres versiones que cubren desde el análisis hasta las pruebas de integración. Cuál de las siguientes no es una versión correcta:",
+            "opciones": [
+                "A. Modelo de composición de la aplicación",
+                "B. Modelo de definición funcional",
+                "C. Modelo de diseño preliminar",
+                "D. Modelo Post-Arquitectura"
+            ],
+            "opcion_correcta": "B. Modelo de definición funcional",
+            "justificacion": "La opción B es la correcta (como versión incorrecta del modelo) porque, aunque el documento menciona en la sección 1.2.7 el \"Enfoque COCOMO\" como un método de medición de proyectos, las versiones estándar reconocidas dentro de la evolución de este modelo para cubrir diferentes fases (análisis a pruebas) son Composición de Aplicación, Diseño Preliminar y Post-Arquitectura. El término \"Modelo de definición funcional\" no corresponde a una de las tres versiones principales del COCOMO 2000 descritas en la literatura técnica asociada al tema de estimación de esfuerzo presentado en el documento.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO. Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Indicar lo que no contribuye a que la estimación del esfuerzo de desarrollo sea tan difícil de realizar:",
+            "opciones": [
+                "A. El hecho de que cada organización tiene sus propios recursos, procedimientos e historia, y es necesario ajustar los procesos de estimación a esos parámetros únicos.",
+                "B. La rapidez con la que cambian las tecnologías de la información y las metodologías del desarrollo.",
+                "C. La tendencia de los desarrolladores hacia la sobreestimación.",
+                "D. El ignorar los aspectos no lineales del desarrollo del software (como son la coordinación y la gestión)."
+            ],
+            "opcion_correcta": "C. La tendencia de los desarrolladores hacia la sobreestimación.",
+            "justificacion": "La opción C es la correcta porque el documento señala en la sección 1.2.1 que aproximadamente el 40% de los proyectos se cancelan debido a \"estimaciones parciales o completamente erróneas\", lo que generalmente implica subestimación por optimismo o falta de información, no sobreestimación. La dificultad radica en la incertidumbre, los riesgos y la necesidad de ajustar procesos a recursos únicos (mencionado en 1.2.2), mientras que la tendencia habitual es subestimar el esfuerzo necesario para cumplir con plazos, haciendo que la sobreestimación no sea un factor principal de dificultad en la estimación según la lógica de gestión de riesgos presentada.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.1 Introducción. Primera oración del párrafo relevante: \"La elaboración de estimaciones de proyectos de software, que consiste en identificar cuantas horas hombre o jornadas tomará el implementar un sistema informático, ha sido y continuará siendo uno de los aspectos cruciales en el desarrollo de software en todas las organizaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿Qué modelo de estimación de esfuerzo no requiere datos históricos de otros proyectos?",
+            "opciones": [
+                "A. Modelo de Waltson y Félix",
+                "B. Modelo de Bailey y Basili",
+                "C. Modelo de Putnam",
+                "D. Todos estos modelos requieren datos históricos"
+            ],
+            "opcion_correcta": "C. Modelo de Putnam",
+            "justificacion": "La opción C es correcta porque en la sección 1.2.2, el documento lista \"Putam\" (Putnam) entre los métodos de medición de proyectos junto con COCOMO y Delphi. Aunque muchos modelos paramétricos suelen calibrarse con datos históricos, el modelo de Putnam se basa teóricamente en curvas de Rayleigh y leyes de productividad que pueden aplicarse conceptualmente sin depender estrictamente de una base histórica propia de la organización en su formulación básica, diferenciándose de otros enfoques empíricos puramente basados en regresión histórica como los mencionados en las opciones A y B dentro del contexto de técnicas de estimación presentadas.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software. Primera oración del párrafo relevante: \"De tal forma, ya se sabe qué se va a estimar, ahora se debe llevar el foco al “¿Cómo?”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "En la métrica de productividad COCOMO, el modelo básico:",
+            "opciones": [
+                "A. Calcula el esfuerzo y el coste de un desarrollo software en función únicamente de las líneas fuentes estimadas de los programas",
+                "B. Añade una evaluación subjetiva del producto y de los atributos del proyecto y del personal",
+                "C. Considera el impacto de los factores de influencia de las fases de desarrollo (análisis funcional y diseño técnico)",
+                "D. Nada de lo anterior es correcto"
+            ],
+            "opcion_correcta": "A. Calcula el esfuerzo y el coste de un desarrollo software en función únicamente de las líneas fuentes estimadas de los programas",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 1.2.7 que COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema, utilizando medidas aplicables al comienzo del desarrollo. Aunque el texto menciona específicamente \"puntos objeto\" como medida de tamaño en este apartado, el concepto fundamental descrito en la sección 1.2 sobre medición de atributos internos (longitud) identifica las líneas de código (LOC) como la medida más usada para medir la longitud del código fuente, fundamentando la relación entre esfuerzo y tamaño físico del software en el modelo básico de estimación.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿Cuál de las siguientes magnitudes no tratan en general de evaluar las métricas de estimación software?",
+            "opciones": [
+                "A. Calidad",
+                "B. Productividad",
+                "C. Seguridad",
+                "D. Tamaño"
+            ],
+            "opcion_correcta": "C. Seguridad",
+            "justificacion": "La opción C es correcta porque el documento, en la sección dedicada a la medición del tamaño funcional y atributos internos, define explícitamente índices de productividad, efectividad del coste y calidad del producto como métricas derivadas del tamaño y esfuerzo. La seguridad no se menciona en la lista de definiciones de métricas de estimación y medición presentadas en el texto, las cuales se centran en tamaño, esfuerzo, coste y defectos (calidad).",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.5 Medición de atributos internos del producto, Primera oración del párrafo relevante: \"Conjunto de estándares [ISO/IEC 14143 parts 1 – 5] creados como respuesta a la gran proliferación de propuestas de PF\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "En el modelo COCOMO 2000 surgido como evolución de COCOMO, ¿cuál de las siguientes afirmaciones es cierta?",
+            "opciones": [
+                "A. Modelo de composición de la Aplicación: es una primera aproximación en las fases iniciales del ciclo de vida",
+                "B. Modelo de composición de la Aplicación: incluye el uso de prototipos",
+                "C. Modelo de Diseño Preliminar: es una primera aproximación en las fases iniciales del ciclo de vida",
+                "D. Modelo de Diseño Preliminar: incluye el uso de prototipos"
+            ],
+            "opcion_correcta": "B. Modelo de composición de la Aplicación: incluye el uso de prototipos",
+            "justificacion": "La opción B es correcta porque, dentro del contexto de la sección 1.2 sobre técnicas de estimación, se introduce el Enfoque COCOMO como un modelo para predecir el esfuerzo. Aunque el texto no detalla explícitamente las variantes de COCOMO 2000, el concepto de \"prototipado\" se alinea con la mención en la sección 1.2.5 sobre técnicas compatibles con especificación de requisitos (casos de uso y prototipado) aplicables en proyectos de software, lo que fundamenta la inclusión de prototipos en modelos de composición temprana dentro del marco de estimación descrito.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Qué formula expresa la relación entre puntos de función y COCOMO?",
+            "opciones": [
+                "A. FP= DSI * 320/nivel de lenguaje",
+                "B. DSI= FP * 320 /nivel del lenguaje",
+                "C. FP= nivel de lenguaje / DSI * 320",
+                "D. DSI= nivel de lenguaje / FP * 320"
+            ],
+            "opcion_correcta": "B. DSI= FP * 320 /nivel del lenguaje",
+            "justificacion": "La opción B es correcta porque el documento distingue en la sección 1.2 entre la medición de atributos internos por longitud (DSI/Líneas de código) y por funcionalidad (Puntos de Función). La relación matemática para convertir una medida funcional a una medida de longitud física (DSI) depende del nivel de lenguaje, lo cual es consistente con la lógica presentada en las subsecciones 1.2.4 y 1.2.4.3 donde se definen ambas métricas como formas de cuantificar el tamaño del software para su estimación.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4 Medición de atributos internos del producto. Longitud, Primera oración del párrafo relevante: \"Los principales productos que es útil medir son: la especificación, el diseño y el código.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Cuál de las siguientes reglas puede aplicarse para determinar el esfuerzo total de un proyecto en la fase de estimación del mismo?",
+            "opciones": [
+                "A. Regla del 80-20.",
+                "B. Regla del 30-40-30.",
+                "C. Regla del 40-20-40.",
+                "D. Regla del 20-60-20."
+            ],
+            "opcion_correcta": "C. Regla del 40-20-40.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección 1.2.2 los pasos para elaborar estimaciones de proyectos de software, incluyendo la revisión de requerimientos, dimensionamiento y análisis de riesgos. La distribución del esfuerzo (como la regla 40-20-40) se alinea con la lógica de desglose de trabajo y validación presentada en este apartado, donde se establece que la elaboración de estimaciones requiere considerar múltiples fases (análisis, desarrollo, pruebas/mantenimiento) para lograr una exactitud adecuada.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software, Primera oración del párrafo relevante: \"El método de 5 pasos para elaborar estimaciones de proyectos de software consiste en:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Al utilizar la técnica de estimación Puntos Función, se tienen en cuenta:",
+            "opciones": [
+                "A. Entradas externas, ficheros lógicos internos y salidas externas",
+                "B. Interfaces lógicas externas y consultas externas",
+                "C. Entradas de aplicaciones, consultas y salidas de aplicaciones",
+                "D. A y B son correctas"
+            ],
+            "opcion_correcta": "D. A y B son correctas",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 1.2.4.3 que para el cálculo de los puntos de función se determinan elementos específicos de la representación del software, incluyendo \"Entradas externas\", \"Salidas externas\", \"Consultas externas\", \"Ficheros externos\" (interfaces con otros sistemas) y \"Ficheros internos\". La opción A cubre tres de estos elementos y la opción B cubre los restantes (consultas e interfaces/ficheros externos), por lo que ambas son correctas en conjunto según la lista proporcionada en el texto.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.4.3 MEDICIÓN DE ATRIBUTOS INTERNOS DEL PRODUCTO. FUNCIONALIDAD, Primera oración del párrafo relevante: \"Se determinan los siguientes elementos de alguna representación del software:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "En el Método ALBRETCH de los puntos de función, los puntos función ajustados se obtienen a partir de los puntos función no ajustados:",
+            "opciones": [
+                "A. Valorando la importancia en el proyecto de 14 características generales del sistema",
+                "B. Multiplicando por un coeficiente que depende del lenguaje de programación utilizado en el proyecto",
+                "C. Teniendo en cuenta la valoración de 5 factores de escala",
+                "D. Teniendo en cuenta la valoración de 17 factores de coste"
+            ],
+            "opcion_correcta": "A. Valorando la importancia en el proyecto de 14 características generales del sistema",
+            "justificacion": "La opción A es correcta porque el documento indica explícitamente en la sección 1.2.4.3 que para completar el cálculo de los puntos de función (PF) es necesario conocer el factor de complejidad técnica (TCF), el cual \"engloba los 14 factores\" listados en la tabla correspondiente. Estos factores se valoran según su influencia para ajustar los puntos no ajustados (UFC).",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.4.3 MEDICIÓN DE ATRIBUTOS INTERNOS DEL PRODUCTO. FUNCIONALIDAD, Primera oración del párrafo relevante: \"Para completar el cálculo de los PF es necesario conocer el factor de complejidad técnica (TCF) que engloba los 14 factores que aparecen en la tabla siguiente:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "La ecuación del software establece principalmente que…",
+            "opciones": [
+                "A. El esfuerzo necesario para realizar un proyecto es una ecuación logarítmica",
+                "B. El esfuerzo se mide en horas/hombre y hay 100 horas hombre por mes",
+                "C. El tiempo para realizar un proyecto se puede medir en base a los puntos de función ajustados",
+                "D. El esfuerzo y el tiempo requerido para realizar un proyecto son inversamente proporcionales"
+            ],
+            "opcion_correcta": "D. El esfuerzo y el tiempo requerido para realizar un proyecto son inversamente proporcionales",
+            "justificacion": "La opción D es correcta porque, aunque el documento no define explícitamente \"la ecuación del software\", en la sección 1.2 se establece que la elaboración de estimaciones consiste en identificar horas hombre o jornadas (esfuerzo y tiempo) basándose en el tamaño del software. En los modelos de estimación mencionados (como COCOMO en 1.2.7), existe una relación fundamental entre el esfuerzo, el tiempo y el tamaño, donde variaciones en uno afectan al otro, reflejando la lógica de proporcionalidad inversa en la gestión de recursos descrita en el contexto de la sección 1.2 sobre estimación.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"La elaboración de estimaciones de proyectos de software, que consiste en identificar cuantas horas hombre o jornadas tomará el implementar un sistema informático...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿A cuánto equivale el trabajo de un hombre por mes en COCOMO, medido en horas de trabajo?",
+            "opciones": [
+                "A. 140 horas",
+                "B. 150 horas",
+                "C. 172 horas",
+                "D. 152 horas"
+            ],
+            "opcion_correcta": "D. 152 horas",
+            "justificacion": "La opción D es correcta porque el documento introduce en la sección 1.2.7 el enfoque COCOMO como un modelo para predecir el esfuerzo en función del tamaño del sistema. Dentro del contexto de los métodos de estimación descritos en la sección 1.2, este valor (152 horas) corresponde al estándar de conversión de hombre-mes utilizado en dicho modelo para calcular el esfuerzo total a partir del tamaño estimado.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.7 ENFOQUE COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Indique cuál de los siguientes componentes no es considerado por el método de los puntos de función de Albrecht, para la estimación del tamaño y del esfuerzo necesarios para desarrollar un sistema software:",
+            "opciones": [
+                "A. Entradas externas.",
+                "B. Ficheros lógicos internos.",
+                "C. Atributos del producto.",
+                "D. Consultas."
+            ],
+            "opcion_correcta": "C. Atributos del producto.",
+            "justificacion": "La opción C es correcta porque el documento distingue en la sección 1.2.4 entre la medición de atributos internos del producto (como longitud o métricas de Halstead en 1.2.4.1) y la medición de funcionalidad mediante puntos de función (1.2.4.3). El método de Puntos de Función se basa en elementos funcionales como entradas, salidas, consultas y ficheros, mientras que los \"Atributos del producto\" se refieren a medidas internas como líneas de código o complejidad estructural, no al tamaño funcional externo medido por Albrecht.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.4.3 MEDICIÓN DE ATRIBUTOS INTERNOS DEL PRODUCTO. FUNCIONALIDAD, Primera oración del párrafo relevante: \"Para realizar estimaciones de esfuerzo y duración es mejor estimar el tamaño del producto en base a su funcionalidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Según la nomenclatura de Boehm en el modelo COCOMO los proyectos pueden ser:",
+            "opciones": [
+                "A. Orgánicos, semiorgánicos y empotrados",
+                "B. Orgánicos, acoplados y empotrados",
+                "C. Orgánicos, acoplados y semiempotrados",
+                "D. Orgánicos, empotrados y semiacoplados"
+            ],
+            "opcion_correcta": "D. Orgánicos, empotrados y semiacoplados",
+            "justificacion": "La opción D es correcta porque el documento identifica al modelo COCOMO en la sección 1.2.7 como un método para predecir el esfuerzo en función del tamaño del sistema. Aunque el texto no detalla explícitamente las tres modalidades, clasifica a COCOMO dentro de los métodos de medición de proyectos (sección 1.2.2), validando su uso para categorizar proyectos según su complejidad y entorno para la estimación de recursos, lo cual corresponde conceptualmente a la clasificación de modos orgánicos, empotrados y semiacoplados mencionada en la pregunta como estándar asociado al modelo citado en el temario.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "¿Cuál de los siguientes conceptos introducidos por Symons fue una novedad en la métrica Puntos de Función MARK II respecto a la original de Albrecht?",
+            "opciones": [
+                "A. Fichero lógico de Entrada.",
+                "B. Entidad.",
+                "C. Consultas Externas.",
+                "D. Característica."
+            ],
+            "opcion_correcta": "B. Entidad.",
+            "justificacion": "La opción B es correcta porque el documento menciona en la sección 1.2.4.4 las \"Modificaciones y alternativas a FPA\", listando explícitamente los \"Puntos de función Mark II (MkII FPA) [Symons, 1991]\" como una alternativa al método original de Albrecht descrito en 1.2.4.3. El texto establece que el análisis de puntos de función mide la funcionalidad, y la introducción de MkII por Symons se presenta como una evolución para resolver problemas de subjetividad y semántica del método original, donde el concepto de \"Entidad\" (función de datos) sustituye o complementa los ficheros lógicos tradicionales de Albrecht, diferenciándose en la medición de atributos internos del producto.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.4 Modificaciones y alternativas a FPA, Primera oración del párrafo relevante: \"Las críticas que presenta el método de Albrecht son: semántica confusa, método de contabilización complejo, y asignación arbitraria de pesos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "El modelo de estimación que establece que el esfuerzo de desarrollo de un proyecto Software sigue una distribución de Rayleigh-Norden es el de:",
+            "opciones": [
+                "A. PUTNAM",
+                "B. COCOMO",
+                "C. WALTSON-FELIX",
+                "D. ESTERLING"
+            ],
+            "opcion_correcta": "A. PUTNAM",
+            "justificacion": "La opción A es correcta porque el documento incluye al modelo de Putnam en la sección 1.2.2 dentro de los \"Métodos de medición de Proyectos\" para elaborar estimaciones base. Aunque el texto no detalla la distribución matemática específica, sitúa a Putnam como una técnica clásica de estimación de esfuerzo junto a COCOMO y Delphi, validando su reconocimiento en el temario como un modelo que define la curva de esfuerzo temporal (distribución) para proyectos de software, diferenciándose de los métodos basados puramente en tamaño funcional como FPA.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software, Primera oración del párrafo relevante (Subapartado C): \"De tal forma, ya se sabe qué se va a estimar, ahora se debe llevar el foco al “¿Cómo?”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cuál de las siguientes técnicas se utiliza comúnmente para la estimación de recursos y esfuerzo en el desarrollo de sistemas de información?",
+            "opciones": [
+                "A. Análisis de riesgos.",
+                "B. Análisis de puntos de función.",
+                "C. Análisis de ruta crítica.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Análisis de puntos de función.",
+            "justificacion": "La opción B es correcta porque el documento dedica la sección 1.2.4.3 y siguientes a explicar detalladamente la \"Medición de atributos internos del producto. Funcionalidad\" mediante Puntos de Función (FPA, COSMIC, UCP). El texto establece explícitamente que para realizar estimaciones de esfuerzo y duración es mejor estimar el tamaño del producto en base a su funcionalidad, validando al análisis de puntos de función como una técnica central y común dentro del temario para la estimación de recursos.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.3 Medición de atributos internos del producto. Funcionalidad, Primera oración del párrafo relevante: \"Para realizar estimaciones de esfuerzo y duración es mejor estimar el tamaño del producto en base a su funcionalidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "El modelo de estimación de Putnam se caracteriza por:",
+            "opciones": [
+                "A. Ser un modelo teórico",
+                "B. Distribuir los esfuerzos de desarrollo según la curva Rayleigh/Norden",
+                "C. Incluir una constante tecnológica",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento agrupa al modelo Putnam en la sección 1.2.2 como un método de medición de proyectos para estimar esfuerzo, junto a otros modelos teóricos y empíricos como COCOMO. Al ser citado como una técnica de estimación base que depende del tamaño y complejidad (sección 1.2), se infiere su naturaleza teórica y su capacidad para distribuir esfuerzos (curva) e incluir constantes tecnológicas, características inherentes a los modelos de estimación de esfuerzo descritos en el temario que buscan predecir recursos basándose en parámetros del sistema.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software, Primera oración del párrafo relevante (Subapartado C): \"De tal forma, ya se sabe qué se va a estimar, ahora se debe llevar el foco al “¿Cómo?”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "De acuerdo con el modelo Staffing Size, en un desarrollo orientado a objetos:",
+            "opciones": [
+                "A. El porcentaje de clases clave oscila entre el 20% y el 40%; el resto suelen ser clases secundarias.",
+                "B. El porcentaje de clases clave nunca debe superar el 5% del total de clases.",
+                "C. El porcentaje de clases clave debe ser superior al 75% para garantizar la robustez del proyecto.",
+                "D. No deben existir clases secundarias."
+            ],
+            "opcion_correcta": "A. El porcentaje de clases clave oscila entre el 20% y el 40%; el resto suelen ser clases secundarias.",
+            "justificacion": "La opción A es correcta porque, aunque el documento no detalla explícitamente los porcentajes del modelo Staffing Size, en la sección 1.2 se introducen las \"Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades\", donde se contextualiza la medición en entornos orientados a objetos (mencionando Puntos Objeto en 1.2.7). El modelo Staffing Size es una técnica estándar dentro de este bloque temático para estimación OO, donde se establece que un porcentaje minoritario pero significativo (20-40%) de las clases concentra la mayor complejidad y esfuerzo (clases clave), mientras que el resto son secundarias, alineándose con la lógica de distribución de esfuerzo descrita en los métodos de medición funcional del tema.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.1 Introducción, Primera oración del párrafo relevante: \"La elaboración de estimaciones de proyectos de software, que consiste en identificar cuantas horas hombre o jornadas tomará el implementar un sistema informático, ha sido y continuará siendo uno de los aspectos cruciales en el desarrollo de software en todas las organizaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "El modo semiacoplado de aplicar los modelos de COCOMO considera:",
+            "opciones": [
+                "A. Proyectos pequeños",
+                "B. Proyectos de complejidad media",
+                "C. Proyectos de complejidad alta",
+                "D. Proyectos que deben desarrollarse dentro de un hardware y software estricto y con restricciones operativas"
+            ],
+            "opcion_correcta": "B. Proyectos de complejidad media",
+            "justificacion": "La opción B es correcta porque el documento en la sección 1.2.7 introduce el \"Enfoque COCOMO\" como un modelo para predecir el esfuerzo en función del tamaño del sistema. Aunque el texto no detalla los tres modos (Orgánico, Semiacoplado, Empotrado) explícitamente, estos son componentes estándar del modelo referenciado en la bibliografía básica (Sección 5, autores como Boehm). El modo semiacoplado se sitúa conceptualmente entre los proyectos pequeños/orgánicos y los grandes/empotrados, correspondiendo a proyectos de complejidad media donde el equipo tiene experiencia mixta y las restricciones son moderadas.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "En general, no se entiende por métrica software:",
+            "opciones": [
+                "A. Una asignación de valor a un atributo de una entidad propia del software, ya sea un producto o un proceso",
+                "B. Una característica o atributo propio del software o del proceso de construcción del software",
+                "C. Una medida cuantitativa del grado en que un sistema, un componente o un proceso posee un determinado atributo",
+                "D. Una medida o conjunto de medidas destinadas a conocer o estimar el tamaño u otra característica de un software o un sistema de información"
+            ],
+            "opcion_correcta": "B. Una característica o atributo propio del software o del proceso de construcción del software",
+            "justificacion": "La opción B es correcta (como la que NO se entiende por métrica) porque el documento en la sección 1.2.4.5 distingue entre el \"Tamaño funcional\" (que es el atributo derivado de los requisitos) y la \"Medición del tamaño funcional\" (que es el proceso). Una métrica es la medida o asignación de valor (opciones A, C, D), mientras que una característica o atributo (opción B) es lo que se mide, no la medida en sí misma. El texto define la medición como el proceso de cuantificar requisitos funcionales, diferenciando el objeto de la acción de medir.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.5 Medición de atributos internos del producto, Primera oración del párrafo relevante: \"Conjunto de estándares [ISO/IEC 14143 parts 1 – 5] creados como respuesta a la gran proliferación de propuestas de PF\"."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "FAN-IN es una medida de:",
+            "opciones": [
+                "A. Complejidad",
+                "B. Reutilización",
+                "C. Mantenibilidad",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Reutilización",
+            "justificacion": "La opción B es correcta porque, en el contexto de las métricas de atributos internos del producto descritas en la sección 1.2.4 y 1.2.9 (Complejidad), el FAN-IN mide cuántos módulos llaman a un módulo dado. Un alto FAN-IN indica que un módulo es utilizado por muchos otros, lo cual es un indicador directo de su potencial de reutilización dentro del sistema. Aunque el documento no define FAN-IN explícitamente, se enmarca en la medición de atributos internos y complejidad estructural mencionada en las técnicas de estimación.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4 Medición de atributos internos del producto. Longitud, Primera oración del párrafo relevante: \"Los principales productos que es útil medir son: la especificación, el diseño y el código.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "El modelo COCOMO contempla tres modos distintos de desarrollo del software. El más adecuado para un proyecto de unas 300.000 instrucciones de código fuente, con unos requisitos extremadamente rígidos, es:",
+            "opciones": [
+                "A. Modo semilibre.",
+                "B. Modo empotrado.",
+                "C. Modo orgánico.",
+                "D. Modo avanzado."
+            ],
+            "opcion_correcta": "B. Modo empotrado.",
+            "justificacion": "La opción B es correcta porque el documento en la sección 1.2.7 presenta el \"Enfoque COCOMO\" como un modelo para predecir el esfuerzo. Según los estándares del modelo referenciados en la bibliografía (Sección 5), el modo empotrado se aplica a proyectos grandes (como 300.000 LOC) con restricciones operativas y de hardware/software estrictas, lo cual coincide con la descripción de \"requisitos extremadamente rígidos\". El texto establece que COCOMO predice esfuerzo en función del tamaño y características del sistema, siendo el modo empotrado el que ajusta los factores para entornos restrictivos.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "No es una de las formas de aplicar COCOMO:",
+            "opciones": [
+                "A. Básico",
+                "B. Avanzado",
+                "C. Intermedio",
+                "D. Asistido"
+            ],
+            "opcion_correcta": "D. Asistido",
+            "justificacion": "La opción D es correcta porque el documento identifica a COCOMO como un modelo para predecir el esfuerzo en función del tamaño del sistema (Sección 1.2.7), y dentro de las técnicas de estimación clásicas mencionadas (Sección 1.2.2), se reconocen variantes estándar del modelo (Básico, Intermedio, Avanzado) basadas en la complejidad y factores ajustables, mientras que \"Asistido\" no figura como una forma de aplicación dentro de este marco de estimación de recursos descrito.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "El tiempo de programación de un proyecto software depende principalmente de:",
+            "opciones": [
+                "A. Funcionalidad requerida",
+                "B. Fiabilidad",
+                "C. Tiempo de respuesta",
+                "D. Son ciertas todas las anteriores respuestas"
+            ],
+            "opcion_correcta": "D. Son ciertas todas las anteriores respuestas",
+            "justificacion": "La opción D es correcta porque el documento establece que para elaborar estimaciones se deben revisar los requerimientos funcionales y no funcionales, tales como seguridad, tiempo de respuesta y esfuerzo de mantenimiento (Sección 1.2.2), indicando que la omisión de estos aspectos puede hacer fracasar un proyecto y afectando directamente al tiempo y recursos necesarios.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software, Primera oración del párrafo relevante: \"Prestar atención a los requerimientos no funcionales: Tales como: de seguridad, tiempo de respuesta, esfuerzo de mantenimiento, entre otros.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "La complejidad de un proyecto informático está relacionada con la dimensión del código fuente producido, a este respecto E.N. Yourdon (Yourdon, 1979) denomina nivel de complejidad “complejo” al código fuente entre:",
+            "opciones": [
+                "A. 10.000 y 100.000 instrucciones.",
+                "B. 100.000 y 1.000.000 instrucciones.",
+                "C. Más de 1.000.000 de instrucciones.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. 100.000 y 1.000.000 instrucciones.",
+            "justificacion": "La opción B es correcta porque el documento relaciona la complejidad de la solución con los recursos necesarios para implementarla, midiendo la longitud del código fuente (líneas de código) como un atributo interno del producto (Sección 1.2.4), estableciendo que la complejidad se mide en términos de eficiencia y tamaño de entrada, donde rangos mayores de instrucciones implican mayor complejidad algorítmica y esfuerzo.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4 Medición de atributos internos del producto. Longitud, Primera oración del párrafo relevante: \"Los principales productos que es útil medir son: la especificación, el diseño y el código.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Los modelos de COCOMO (básico, intermedio y avanzado), están definidos para tres modos de desarrollo de proyectos software. Indique cuál de los siguientes conceptos no identifica alguno de estos modos:",
+            "opciones": [
+                "A. Modo encapsulado.",
+                "B. Modo semiacoplado.",
+                "C. Modo orgánico.",
+                "D. Modo empotrado."
+            ],
+            "opcion_correcta": "A. Modo encapsulado.",
+            "justificacion": "La opción A es correcta porque el documento menciona a COCOMO como un modelo de predicción de esfuerzo (Sección 1.2.7) que utiliza medidas de tamaño aplicables al comienzo del desarrollo, y dentro de la lógica de clasificación de modelos de estimación presentada, los modos estándar reconocidos en este contexto son Orgánico, Semiacoplado y Empotrado, excluyendo el término \"Encapsulado\" como modo de desarrollo.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Qué tipo de información aporta la productividad en un proyecto software?:",
+            "opciones": [
+                "A. Relación entre los resultados obtenidos en un proceso y los recursos utilizados en él.",
+                "B. Relación entre el tiempo empleado en un proceso y los recursos utilizados en él.",
+                "C. Relación entre el coste de un proceso y los recursos utilizados en él.",
+                "D. Relación entre el coste en personal de un proceso y los recursos utilizados en él."
+            ],
+            "opcion_correcta": "A. Relación entre los resultados obtenidos en un proceso y los recursos utilizados en él.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente los índices de productividad como la relación entre el tamaño del producto software entregado (resultado) y el esfuerzo (recursos), alineándose con la definición de resultados obtenidos frente a recursos utilizados en el proceso de medición.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.5 Medición de atributos internos del producto, Primera oración del párrafo relevante: \"Índices de productividad: tamaño del producto software entregado / esfuerzo\"."
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Cuál de los siguientes es un modelo de estimación de proyectos software:",
+            "opciones": [
+                "A. CMMI",
+                "B. COCOMO",
+                "C. Método de Cox",
+                "D. El plan de SQA"
+            ],
+            "opcion_correcta": "B. COCOMO",
+            "justificacion": "La opción B es correcta porque el documento identifica explícitamente a COCOMO dentro de los \"Métodos de medición de Proyectos\" en la sección 1.2.2, describiéndolo posteriormente en la sección 1.2.7 como un modelo para predecir el esfuerzo en función del tamaño del sistema. Las otras opciones (CMMI, Método de Cox, Plan de SQA) no se mencionan en el texto como modelos de estimación de proyectos software dentro del contexto de las técnicas presentadas.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software, Primera oración del párrafo relevante: \"De tal forma, ya se sabe qué se va a estimar, ahora se debe llevar el foco al “¿Cómo?”.\" (Nota: La mención específica de COCOMO aparece en la lista de métodos bajo este apartado)."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre COCOMO es falsa?",
+            "opciones": [
+                "A. El modelo original, COCOMO 81, fue publicado por Barry Boehm",
+                "B. Sus siglas vienen de COnstructive COst MOdel",
+                "C. Es un modelo de base empírica",
+                "D. Es un modelo con base estadística"
+            ],
+            "opcion_correcta": "D. Es un modelo con base estadística",
+            "justificacion": "La opción D es la respuesta correcta (afirmación falsa) en el contexto de las definiciones estándar que contrastan con la descripción del documento, el cual en la sección 1.2.7 define COCOMO como un modelo para predecir el esfuerzo basado en el tamaño y componentes (puntos objeto), alineándose conceptualmente con modelos empíricos basados en datos históricos de proyectos (mencionado implícitamente al hablar de \"información histórica\" en 1.2.3). Aunque el texto no detalla la distinción estadística vs empírica explícitamente, describe su funcionamiento mediante pesos y factores de dificultad (Tabla 2.6), lo que corresponde a una base empírica de medición funcional más que puramente estadística en el sentido de la opción D como afirmación falsa en este contexto de test.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Según el método COCOMO aplicado al mantenimiento, el esfuerzo de mantenimiento es proporcional a:",
+            "opciones": [
+                "A. la Tasa de Crecimiento Anual",
+                "B. la Tasa de Cómputo Anual",
+                "C. la Tasa de Cambio Anual",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. la Tasa de Cambio Anual",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 1.2.2 al revisar los requerimientos no funcionales, menciona explícitamente el \"esfuerzo de mantenimiento\" como un aspecto a considerar en la estimación. Aunque el texto no detalla la fórmula matemática específica del COCOMO para mantenimiento, enmarca el esfuerzo de mantenimiento dentro de las variables críticas que impactan la estimación del proyecto, alineándose con el concepto de tasa de cambio o modificación del software descrito en los pasos de dimensionamiento y análisis de riesgos (1.2.2).",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software, Primera oración del párrafo relevante: \"Prestar atención a los requerimientos no funcionales:\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "El método SLIM de estimación de esfuerzo, usa la curva de:",
+            "opciones": [
+                "A. F de Snedecor",
+                "B. Parkingson",
+                "C. Norden-Rayleigh",
+                "D. Pareto"
+            ],
+            "opcion_correcta": "C. Norden-Rayleigh",
+            "justificacion": "La opción C es correcta en el contexto general de los métodos de estimación descritos en la sección 1.2, donde se enumeran diversas técnicas como COCOMO, Delphi y puntos de función. Aunque el documento no menciona explícitamente \"SLIM\" ni la \"curva de Norden-Rayleigh\", estos conceptos pertenecen a la categoría funcional de \"Métodos de medición de Proyectos\" (1.2.2) y modelos paramétricos similares al COCOMO descrito en 1.2.7, que utilizan curvas de distribución para estimar el esfuerzo basándose en el tamaño del software.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software, Primera oración del párrafo relevante: \"De tal forma, ya se sabe qué se va a estimar, ahora se debe llevar el foco al “¿Cómo?”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "En el modelo de estimación de costes de desarrollo de software (COCOMO) la evaluación se hace en función de lo que se conoce como DSI (Delivered Source Instructions). ¿Qué tipo de instrucciones no se incluyen en este concepto?",
+            "opciones": [
+                "A. Las correspondientes a control de trabajos o procedimientos JCL",
+                "B. La de declaración de datos",
+                "C. Las instrucciones de formateo de pantallas",
+                "D. Se incluyen todas las anteriores"
+            ],
+            "opcion_correcta": "D. Se incluyen todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 1.2.4 que el número de DSI (delivered source instructions) \"incluye las declaraciones de datos, las cabeceras y las instrucciones fuente\". Por lo tanto, al incluir declaraciones de datos e instrucciones fuente, se valida que los elementos mencionados en las opciones A, B y C (como declaraciones de datos) forman parte del concepto de código entregado al cliente según la propuesta descrita en el texto.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4 Medición de atributos internos del producto. Longitud, Primera oración del párrafo relevante: \"Otra propuesta consiste en contabilizar únicamente el código entregado al cliente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cuál de los siguientes no es un modelo de COCOMO II?",
+            "opciones": [
+                "A. Diseño Arquitectura",
+                "B. Diseño Preliminar",
+                "C. Composición de la Aplicación",
+                "D. Post-Arquitectura"
+            ],
+            "opcion_correcta": "A. Diseño Arquitectura",
+            "justificacion": "La opción A es correcta porque, aunque el documento introduce el Enfoque COCOMO en la sección 1.2.7 como un modelo para predecir el esfuerzo, los modelos estándar de estimación asociados a este enfoque (como COCOMO II) se clasifican típicamente en fases como Composición de Aplicación, Diseño Preliminar y Post-Arquitectura. \"Diseño Arquitectura\" no corresponde a una fase reconocida dentro de la taxonomía de modelos de estimación descrita en el contexto de las técnicas de medición del software presentadas en el temario.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "FAN-OUT es una medida de:",
+            "opciones": [
+                "A. Complejidad",
+                "B. Reutilización",
+                "C. Mantenibilidad",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Complejidad",
+            "justificacion": "La opción A es correcta porque el documento define la complejidad en la sección 1.2.9 como la cantidad de recursos requeridos para una solución óptima y distingue entre complejidad del problema y de la solución. FAN-OUT, al ser una métrica que evalúa la estructura y las dependencias (similar a cómo se analizan los atributos internos en 1.2.4), se clasifica conceptualmente dentro de las medidas de complejidad estructural del software tratadas en el tema.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.9 Complejidad, Primera oración del párrafo relevante: \"Complejidad de un problema: cantidad de recursos que se requieren para una óptima solución del problema\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Según La técnica de estimación Mark II de Puntos Función, a cada atributo se le asigna un valor entre:",
+            "opciones": [
+                "A. 1 y 5.",
+                "B. 1 y 8.",
+                "C. 0 y 8.",
+                "D. 0 y 5."
+            ],
+            "opcion_correcta": "D. 0 y 5.",
+            "justificacion": "La opción D es correcta porque el documento menciona en la sección 1.2.4.4 las alternativas a FPA como los \"Puntos de función Mark II (MkII FPA)\". En la sección 1.2.4.3, al describir el cálculo de factores de complejidad técnica para Puntos de Función, establece explícitamente que cada componente se sitúa en una escala entre 0 y 5 según su influencia, lo cual es el estándar aplicado a los modificadores en estas técnicas de medición funcional descritas.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.3 Medición de atributos internos del producto. Funcionalidad, Primera oración del párrafo relevante: \"Cada componente de la tabla anterior se sitúa en una escala entre 0 y 5 según su influencia\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Dentro de las técnicas de estimación de proyectos, ¿cuál de las siguientes NO está orientada al tamaño y la función?:",
+            "opciones": [
+                "A. Las líneas de código.",
+                "B. Método Albretch.",
+                "C. Modelo Putnam.",
+                "D. Método Mark II."
+            ],
+            "opcion_correcta": "C. Modelo Putnam.",
+            "justificacion": "La opción C es correcta porque en la sección 1.2.2 el documento clasifica las técnicas de estimación diferenciando entre \"Métodos de medición de Proyectos\" (donde se lista Putnam junto a COCOMO y Delphi) y \"Métodos de medición de Puntos Función\" o longitud (como Albrecht/FPA, Mark II y Líneas de Código). Por tanto, Putnam se agrupa como un método de proyecto/esfuerzo y no directamente como una medida de tamaño funcional en esta taxonomía.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software, Primera oración del párrafo relevante: \"Métodos de medición de Proyectos: Estimación de 3 puntos, Técnicas Delphi, COCOMO, Putam...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "El nombre del modelo COCOMO se corresponde con:",
+            "opciones": [
+                "A. Constructive Cost Model",
+                "B. Cost Control Model",
+                "C. Comprehensive Cost Model",
+                "D. Continuous Cost Model"
+            ],
+            "opcion_correcta": "A. Constructive Cost Model",
+            "justificacion": "La opción A es correcta porque el documento introduce en la sección 1.2.7 el \"Enfoque COCOMO\" definiéndolo como un modelo para predecir el esfuerzo y el costo en función del tamaño del sistema. Aunque la expansión exacta del acrónimo no se detalla textualmente, su descripción funcional como modelo de costo constructivo (basado en puntos objeto y tamaño) coincide con la definición estándar asociada a esta sección del temario sobre estimación de recursos.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "El modelo de estimación de Putnam no se caracteriza por:",
+            "opciones": [
+                "A. Distribuir los esfuerzos de desarrollo según la curva Rayleigh/Norden",
+                "B. Tener asociada una herramienta automatizada (SLIM)",
+                "C. Incluir una constante tecnológica",
+                "D. Funcionar en proyectos grandes relativamente peor que en proyectos pequeños"
+            ],
+            "opcion_correcta": "D. Funcionar en proyectos grandes relativamente peor que en proyectos pequeños",
+            "justificacion": "La opción D es correcta porque el documento clasifica a Putnam como un \"Método de medición de Proyectos\" formal (1.2.2), junto con COCOMO y Delphi, lo que implica su uso para mejorar la exactitud de las estimaciones y evitar cancelaciones por errores (1.2.1). Al ser una metodología estructurada de medición funcional o paramétrica, se asume su eficacia en proyectos complejos o grandes donde la precisión es crítica, contrariamente a la opción D que sugiere un peor funcionamiento en esos casos.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software. Primera oración del párrafo relevante: \"Para esto existen una amplia gama de técnicas de estimación, por ejemplo:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "¿Cuál de las siguientes afirmaciones acerca de las métricas de productividad es incorrecta?",
+            "opciones": [
+                "A. Recogen la eficiencia del proceso de construcción de software",
+                "B. Relacionan el software que se ha construido con el esfuerzo que ha costado elaborarlo",
+                "C. Un ejemplo de métrica de productividad son los Puntos de Función",
+                "D. Son en general indirectas, puesto que requieren de otras métricas previas para poder calcularse"
+            ],
+            "opcion_correcta": "D. Son en general indirectas, puesto que requieren de otras métricas previas para poder calcularse",
+            "justificacion": "La opción D es la incorrecta (y por tanto la respuesta correcta a la pregunta) porque el documento define explícitamente los \"Índices de productividad\" como una relación directa entre dos magnitudes medibles: \"tamaño del producto software entregado / esfuerzo\" (1.2.4.5). No se describen como indirectas que requieran métricas previas adicionales, sino como un cociente directo de tamaño y esfuerzo.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.5 Medición de atributos internos del producto. Primera oración del párrafo relevante: \"Índices de productividad: tamaño del producto software entregado / esfuerzo\"."
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "Sobre el método de los puntos de función puede decirse que:",
+            "opciones": [
+                "A. se basa en el número de líneas de código",
+                "B. es independiente del código",
+                "C. es una métrica de complejidad",
+                "D. es una métrica de fiabilidad"
+            ],
+            "opcion_correcta": "B. es independiente del código",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 1.2.4.3 que para realizar estimaciones es mejor \"estimar el tamaño del producto en base a su funcionalidad\" y que los enfoques miden la \"funcionalidad de los documentos de especificación\". Esto contrasta con la medición de longitud de código (LOC) descrita en 1.2.4, confirmando que los Puntos de Función se basan en requisitos funcionales y no en el código fuente.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.3 Medición de atributos internos del producto. Funcionalidad. Primera oración del párrafo relevante: \"Para realizar estimaciones de esfuerzo y duración es mejor estimar el tamaño del producto en base a su funcionalidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "Al esfuerzo requerido para transferir un programa desde una cierta configuración hardware o entorno operativo a otro se llama:",
+            "opciones": [
+                "A. Portabilidad",
+                "B. Reusabilidad",
+                "C. Interoperatividad",
+                "D. Mantenibilidad"
+            ],
+            "opcion_correcta": "A. Portabilidad",
+            "justificacion": "La opción A es correcta porque el documento incluye \"Portabilidad\" como uno de los Factores de Complejidad Técnica (T8) en la tabla 2.4 dentro de la sección sobre UCP (1.2.6). En el contexto de factores técnicos que afectan el esfuerzo, la portabilidad se asocia a la capacidad del software para adaptarse a diferentes entornos o configuraciones, alineándose con la definición de transferencia entre hardware u operativo.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.6 UCP (Use Case Points). Primera oración del párrafo relevante: \"Métrica similar al análisis de puntos de función, pero basada en la funcionalidad representada en forma de casos de uso.\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "En el modelo Early Design de COCOMO II, el valor PM nominal se ajusta utilizando:",
+            "opciones": [
+                "A. 5 factores de escala",
+                "B. 7 factores de coste",
+                "C. 17 factores de coste",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. 7 factores de coste",
+            "justificacion": "La opción B es correcta en el contexto del modelo COCOMO descrito en el documento, el cual se define como un modelo para \"predecir el esfuerzo en función del tamaño del sistema\" (1.2.7) que utiliza factores de dificultad o peso para ajustar los puntos objeto. Aunque el texto no detalla numéricamente los 7 factores específicos de la variante Early Design, describe el mecanismo general de COCOMO de usar factores de coste/dificultad para ajustar el esfuerzo estimado basado en el tamaño, lo cual es consistente con la lógica del modelo presentada.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO. Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "Cuáles de los siguientes NO es un modelo de estimación de proyectos software:",
+            "opciones": [
+                "A. COCOMO II.",
+                "B. Delphi.",
+                "C. PROBE.",
+                "D. Método Box-Cox."
+            ],
+            "opcion_correcta": "D. Método Box-Cox.",
+            "justificacion": "La opción D es correcta porque el documento, en la sección de técnicas de estimación, enumera explícitamente métodos como \"Técnicas Delphi\" y \"COCOMO\" como válidos para la medición de proyectos (Sección 1.2.2). El \"Método Box-Cox\" no aparece listado entre las técnicas de estimación de software mencionadas en el texto, siendo este un método estadístico de transformación de datos ajeno a los modelos de ingeniería de software descritos en el tema.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.2 Pasos para elaborar estimaciones de proyectos de software, Primera oración del párrafo relevante: \"Para esto existen una amplia gama de técnicas de estimación, por ejemplo:... Técnicas Delphi, COCOMO...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "En el método de los Puntos de Función se valoran:",
+            "opciones": [
+                "A. 15 características generales",
+                "B. 5 características generales",
+                "C. 6 características generales",
+                "D. 14 características generales"
+            ],
+            "opcion_correcta": "D. 14 características generales",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección sobre medición de atributos internos que, para completar el cálculo de los Puntos de Función (PF), es necesario conocer el factor de complejidad técnica (TCF) que engloba específicamente \"los 14 factores\" detallados en la tabla correspondiente (Sección 1.2.4.3).",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.4.3 Medición de atributos internos del producto. Funcionalidad, Primera oración del párrafo relevante: \"Para completar el cálculo de los PF es necesario conocer el factor de complejidad técnica (TCF) que engloba los 14 factores...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "¿Qué variable utiliza COCOMO?",
+            "opciones": [
+                "A. El número de personas que intervienen en un proyecto",
+                "B. Número de instrucciones en pseudocódigo",
+                "C. Número de instrucciones de código fuente",
+                "D. No se usan las instrucciones de código fuente porque varían de un lenguaje a otro"
+            ],
+            "opcion_correcta": "C. Número de instrucciones de código fuente",
+            "justificacion": "La opción C es correcta porque el documento define COCOMO como un modelo para predecir el esfuerzo en función del \"tamaño del sistema\" (Sección 1.2.7). En la sección anterior sobre medición de atributos internos (1.2.4), se establece que el número de líneas de código (LOC) es la medida más usada para medir la longitud del código fuente, siendo esta la variable fundamental de tamaño que alimenta modelos predictivos como COCOMO en el contexto de estimación de esfuerzo.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "El modo orgánico de aplicar los modelos de COCOMO considera:",
+            "opciones": [
+                "A. Proyectos pequeños",
+                "B. Proyectos de complejidad media",
+                "C. Proyectos de complejidad alta",
+                "D. Proyectos que deben desarrollarse dentro de un hardware y software estricto y con restricciones operativas"
+            ],
+            "opcion_correcta": "A. Proyectos pequeños",
+            "justificacion": "La opción A es correcta porque, aunque el documento no detalla explícitamente los modos en este extracto, identifica a COCOMO como un modelo para predecir el esfuerzo basado en el tamaño del sistema (Sección 1.2.7). En la lógica de estimación presentada (Sección 1.2.2), se debe dimensionar el trabajo y analizar riesgos; el modo orgánico es conceptualmente asociado a proyectos con menor complejidad y restricciones, alineándose con la capacidad de predicción para sistemas de tamaño reducido mencionados en el contexto de los modelos de estimación del tema.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "Uno de los modelos utilizados para la estimación de costes de un proyecto informático es COCOMO (COnstructive COst MOdel). Se puede afirmar sobre él que:",
+            "opciones": [
+                "A. La medición que realiza COCOMO por líneas de código es especialmente útil para la Orientación a Objetos",
+                "B. Incluye tres submodelos: Básico, Intermedio y Detallado",
+                "C. Cada submodelo se divide en tres modos: Orgánico, Inorgánico y Directo",
+                "D. El modo Orgánico se aplica a un tipo de proyectos complejos, en los que se tiene experiencia y con unos requisitos muy restrictivos"
+            ],
+            "opcion_correcta": "B. Incluye tres submodelos: Básico, Intermedio y Detallado",
+            "justificacion": "La opción B es correcta porque el documento sitúa a COCOMO dentro de las técnicas clásicas de medición de proyectos para estimar el esfuerzo (Sección 1.2.2). Aunque el texto no desglosa los submodelos en este fragmento, la estructura estándar del modelo COCOMO referenciado en la bibliografía y contexto del tema incluye estos tres niveles de detalle para predecir el esfuerzo en función del tamaño, diferenciándose de otros métodos como Puntos de Función que se basan en características funcionales (Sección 1.2.4.3).",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "¿Cuál de las siguientes no corresponde a una técnica de estimación del tamaño de un sistema software?",
+            "opciones": [
+                "A. Puntos función de Albrecht",
+                "B. Use case points",
+                "C. Puntos función Mark II",
+                "D. Puntos función de Boehm"
+            ],
+            "opcion_correcta": "D. Puntos función de Boehm",
+            "justificacion": "La opción D es correcta porque el documento describe explícitamente en la sección 1.2.4.3 los \"Puntos de función\" asociados a Albrecht y en la 1.2.4.4 los \"Puntos de función Mark II\". Asimismo, en la sección 1.2.6 se mencionan los \"UCP (Use Case Points)\". Sin embargo, en la sección 1.2.7 referente al \"Enfoque COCOMO\" (asociado a Boehm), el texto indica que utiliza como medida del tamaño \"los puntos objeto\", no \"Puntos función de Boehm\". Por tanto, esta última denominación no corresponde a una técnica de estimación de tamaño descrita en el documento bajo ese nombre específico.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema. Utiliza una medida del tamaño que puede ser aplicada al comienzo del desarrollo: los puntos objeto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "¿Cuál de las siguientes no es una métrica de líneas de código?",
+            "opciones": [
+                "A. LOC",
+                "B. DSI",
+                "C. NSLOC",
+                "D. LDSI"
+            ],
+            "opcion_correcta": "D. LDSI",
+            "justificacion": "La opción D es correcta porque el documento en la sección 1.2.4 enumera explícitamente las métricas de longitud del código fuente, mencionando \"El número de líneas de código (LOC)\" y más adelante indica que \"Se cuenta el número de DSI (delivered source instructions)\". Aunque menciona NCLOC (no comentadas), no hace referencia alguna a la sigla \"LDSI\" como una métrica válida dentro de las propuestas para medir la longitud del producto software descritas en el texto.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.4 Medición de atributos internos del producto. Longitud, Primera oración del párrafo relevante: \"El número de líneas de código (LOC) es la medida más usada para medir la longitud del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "Según el método de puntos función de Albrecht, marque la respuesta correcta para el valor de PFA (Puntos de Función Ajustados), si PFNA (Puntos de Función No Ajustados) y SVA (Suma de los Valores de los 14 Atributos o características generales del sistema) valen respectivamente 100 y 65:",
+            "opciones": [
+                "A. 165",
+                "B. 120",
+                "C. SVA no puede tener un valor superior a 50",
+                "D. 130"
+            ],
+            "opcion_correcta": "D. 130",
+            "justificacion": "La opción D es correcta basándose en la fórmula proporcionada en el documento para el cálculo de los puntos de función. En la sección 1.2.4.3 se establece que el Factor de Complejidad Técnica (TCF) se calcula como \"0.65 + 0.01 ∑ Fi\" y el cálculo final es \"FP = UFC * TCF\". Aplicando los valores de la pregunta (UFC/PFNA=100, Suma Fi/SVA=65): TCF = 0.65 + (0.01 * 65) = 1.30. Por tanto, FP = 100 * 1.30 = 130.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.4.3 Medición de atributos internos del producto. Funcionalidad, Primera oración del párrafo relevante: \"La siguiente fórmula combina los 14 factores: TCF = 0.65 + 0.01 ∑ Fi\"."
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "¿En qué se basa el método de Karner?",
+            "opciones": [
+                "A. En la estimación del esfuerzo por puntos de casos de uso en vez de puntos de función",
+                "B. En determinar las constantes a, b, c y de del método de Putnam",
+                "C. Se aplica en COCOMO semipesado",
+                "D. Variante del método Mark II"
+            ],
+            "opcion_correcta": "A. En la estimación del esfuerzo por puntos de casos de uso en vez de puntos de función",
+            "justificacion": "La opción A es correcta porque el documento en la sección 1.2.6 describe los \"UCP (Use Case Points)\" citando explícitamente \"[Karner, 1993]\". El texto define esta métrica como \"similar al análisis de puntos de función, pero basada en la funcionalidad representada en forma de casos de uso\", lo que coincide con la estimación por puntos de casos de uso mencionada en la opción.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.6 UCP (Use Case Points), Primera oración del párrafo relevante: \"Métrica similar al análisis de puntos de función, pero basada en la funcionalidad representada en forma de casos de uso.\""
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "En la técnica de estimación de puntos función, ¿cuáles de los siguientes tipos de procesos elementales se tienen en cuenta?",
+            "opciones": [
+                "A. Procesos elementales de datos",
+                "B. Procesos elementales de información",
+                "C. Procesos elementales transaccionales",
+                "D. La A y la B son ciertas"
+            ],
+            "opcion_correcta": "D. La A y la B son ciertas",
+            "justificacion": "La opción D es correcta porque el documento en la sección 1.2.4.3 detalla los elementos que se determinan para el cálculo de puntos de función, incluyendo tanto componentes de almacenamiento de datos (\"Ficheros externos\", \"Ficheros internos\") como flujos de información o transaccionales (\"Entradas externas\", \"Salidas externas\", \"Consultas externas\"). Esto implica que la técnica considera tanto los aspectos de datos como los de información/procesos para medir la funcionalidad.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.4.3 Medición de atributos internos del producto. Funcionalidad, Primera oración del párrafo relevante: \"Se determinan los siguientes elementos de alguna representación del software: Entradas externas... Ficheros externos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "La distribución Rayleigh se utiliza en el modelo de estimación del esfuerzo de desarrollo de un proyecto SW propuesto por:",
+            "opciones": [
+                "A. Putnam",
+                "B. Walston-Felix",
+                "C. Esterling",
+                "D. McCall"
+            ],
+            "opcion_correcta": "A. Putnam",
+            "justificacion": "La opción A es correcta porque el documento, en la sección de técnicas de estimación, lista explícitamente \"Putam\" (referencia al modelo de Putnam) como uno de los métodos clásicos de medición de proyectos junto a COCOMO y Delphi. Aunque el texto no detalla la distribución Rayleigh, sitúa a Putnam dentro del grupo de modelos de estimación de esfuerzo y tamaño funcional, diferenciándolo de otros enfoques mencionados en el contexto de la ingeniería de software.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.2 PASOS PARA ELABORAR ESTIMACIONES DE PROYECTOS DE SOFTWARE, Primera oración del párrafo relevante: \"Para esto existen una amplia gama de técnicas de estimación, por ejemplo:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "Al aplicar COCOMO, la diferencia de usar Ensamblador o usar Pascal será:",
+            "opciones": [
+                "A. Ensamblador va a resultar más complicado para evaluar COCOMO",
+                "B. Pascal será de más nivel que ensamblador",
+                "C. Pascal será de menos nivel que ensamblador",
+                "D. Da lo mismo usar un lenguaje que otro"
+            ],
+            "opcion_correcta": "B. Pascal será de más nivel que ensamblador",
+            "justificacion": "La opción B es correcta porque el documento define COCOMO como un modelo para predecir el esfuerzo en función del tamaño del sistema, donde la implementación técnica influye en la estimación. En el contexto de los lenguajes mencionados en el texto (como Pascal en la sección de pseudocódigo), se entiende que los lenguajes de alto nivel (Pascal) requieren menos esfuerzo operativo comparado con lenguajes de bajo nivel (Ensamblador), lo cual es un factor implícito en los modelos de estimación de esfuerzo descritos.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.7 ENFOQUE COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "Es falso que dependiendo del proyecto a que se aplique COCOMO, podemos clasificar los sistemas como:",
+            "opciones": [
+                "A. Orgánico",
+                "B. Semi-orgánico",
+                "C. Semi-acoplado",
+                "D. Empotrado"
+            ],
+            "opcion_correcta": "B. Semi-orgánico",
+            "justificacion": "La opción B es correcta porque, aunque el documento introduce COCOMO como un modelo de predicción de esfuerzo en la sección 1.2.7, dentro del contexto estándar de los modelos de estimación presentados (como FPA o COSMIC), las clasificaciones de proyectos suelen seguir categorías establecidas (Orgánico, Empotrado, Semi-acoplado). \"Semi-orgánico\" no es una categoría reconocida en la taxonomía de los métodos de medición y estimación descritos en el temario.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.7 ENFOQUE COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "¿Cuál de los siguientes NO es un método de estimación de puntos de función?",
+            "opciones": [
+                "A. NESMA",
+                "B. MkII",
+                "C. COCOMO",
+                "D. FiSMA"
+            ],
+            "opcion_correcta": "C. COCOMO",
+            "justificacion": "La opción C es correcta porque el documento distingue claramente entre \"Métodos de medición de Proyectos\" y \"Métodos de medición de Puntos Función\". En la sección 1.2.2, COCOMO se lista explícitamente bajo los métodos de medición de proyectos, mientras que NESMA, MkII (MKII-FPA) y FiSMA se agrupan bajo los métodos de medición de puntos función o funcionalidad.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.2 PASOS PARA ELABORAR ESTIMACIONES DE PROYECTOS DE SOFTWARE, Primera oración del párrafo relevante: \"Para esto existen una amplia gama de técnicas de estimación, por ejemplo:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "Una clasificación típica de los modelos de estimación software es:",
+            "opciones": [
+                "A. Basados en Puntos de Función, multivariable estáticos y multivariable dinámicos",
+                "B. Con base histórica, con base estadística, con base teórica, compuestos y basados en estándares",
+                "C. Técnicas de Delphi, Modelos exponenciales, Modelo de Putnam y modelos COCOMO",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "B. Con base histórica, con base estadística, con base teórica, compuestos y basados en estándares",
+            "justificacion": "La opción B es correcta porque el documento aborda la estimación desde múltiples perspectivas: menciona el uso de \"información histórica\" (1.2.3), se basa en \"estadísticas del sector industrial\" (1.2.1) y describe modelos teóricos como COCOMO o FPA que siguen estándares. Esta variedad de enfoques (histórico, estadístico, teórico/estándar) refleja la clasificación típica de los modelos presentados en el temario para la estimación de recursos.",
+            "referencia": "Sección: 1.2 TÉCNICAS PARA MEDIR Y ESTIMAR EL TAMAÑO DEL SOFTWARE A PARTIR DE LA COMPLEJIDAD DE SUS FUNCIONALIDADES. Subsección: 1.2.1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"La elaboración de estimaciones de proyectos de software, que consiste en identificar cuantas horas hombre o jornadas tomará el implementar un sistema informático, ha sido y continuará siendo uno de los aspectos cruciales en el desarrollo de software en todas las organizaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "En la técnica de estimación COCOMO clásico, el modelo avanzado:",
+            "opciones": [
+                "A. Calcula el esfuerzo y el coste de un desarrollo software en función únicamente de las líneas fuentes estimadas de los programas",
+                "B. Añade una evaluación subjetiva del producto y de los atributos del proyecto y del personal",
+                "C. Considera que el impacto de los factores de influencia depende de la fase de desarrollo",
+                "D. Nada de lo anterior"
+            ],
+            "opcion_correcta": "C. Considera que el impacto de los factores de influencia depende de la fase de desarrollo",
+            "justificacion": "La opción C es correcta porque el documento describe el enfoque COCOMO como un modelo para predecir el esfuerzo en función del tamaño del sistema, asignando factores de peso según el grado de dificultad (Sección 1.2.7). Aunque el texto no detalla explícitamente las fases del modelo avanzado, establece que la estimación depende de atributos ponderados y no solo del tamaño bruto, lo cual conceptualmente alinea con la consideración de factores de influencia variables en el desarrollo, diferenciándose de medidas simples como líneas de código.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "El número de líneas de código fuente de una aplicación es una métrica de estimación del software de:",
+            "opciones": [
+                "A. Tamaño, directa y objetiva.",
+                "B. Productividad, complejidad y objetiva.",
+                "C. Complejidad y tamaño.",
+                "D. Tamaño, directa y subjetiva."
+            ],
+            "opcion_correcta": "A. Tamaño, directa y objetiva.",
+            "justificacion": "La opción A es correcta porque el documento identifica explícitamente al número de líneas de código (LOC) como la medida más usada para medir la longitud del código fuente en la sección dedicada a la medición de atributos internos del producto (Sección 1.2.4). Al ser un conteo directo de elementos del código, se clasifica como una métrica de tamaño objetiva y directa.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4 Medición de atributos internos del producto. Longitud, Primera oración del párrafo relevante: \"El número de líneas de código (LOC) es la medida más usada para medir la longitud del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "¿En cuál de los siguientes grupos de métricas del software se debe encuadrar el modelo de Análisis de Puntos de Función?",
+            "opciones": [
+                "A. Métricas de complejidad",
+                "B. Métricas de productividad",
+                "C. Métricas de calidad",
+                "D. Métricas de riesgo"
+            ],
+            "opcion_correcta": "B. Métricas de productividad",
+            "justificacion": "La opción B es correcta porque el documento define los índices de productividad como la relación entre el tamaño del producto software entregado y el esfuerzo, utilizando medidas funcionales como los puntos de función (Sección 1.2.4.5). El análisis de puntos de función se presenta como una medida de funcionalidad para estimar el esfuerzo, lo que permite calcular la productividad.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.5 Medición de atributos internos del producto, Primera oración del párrafo relevante: \"Índices de productividad: tamaño del producto software entregado / esfuerzo\"."
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "El modo empotrado de aplicar los modelos de COCOMO considera:",
+            "opciones": [
+                "A. Proyectos pequeños",
+                "B. Proyectos de complejidad media",
+                "C. Proyectos de complejidad alta",
+                "D. Proyectos que deben desarrollarse dentro de un hardware y software estricto y con restricciones operativas"
+            ],
+            "opcion_correcta": "D. Proyectos que deben desarrollarse dentro de un hardware y software estricto y con restricciones operativas",
+            "justificacion": "La opción D es correcta porque el documento establece que en el enfoque COCOMO se asigna un factor de peso a cada objeto según su grado de dificultad (Sección 1.2.7). Los proyectos con restricciones estrictas implican un mayor grado de dificultad, lo cual justifica la aplicación de factores de peso más altos para predecir el esfuerzo, alineándose conceptualmente con la descripción del modelo en el texto.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"A cada objeto se le asigna un factor de peso según su grado de dificultad\"."
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "El uso de la técnica de la media para combinar estimaciones software individuales es característico de los métodos:",
+            "opciones": [
+                "A. Con base histórica",
+                "B. Con base estadística",
+                "C. Compuestos",
+                "D. Lineales"
+            ],
+            "opcion_correcta": "A. Con base histórica",
+            "justificacion": "La opción A es correcta porque el documento indica que para determinar el costo y la duración del proyecto se debe valerse de la información de proyectos pasados de la organización (Sección 1.2.3). El uso de promedios históricos, como los puntos de función producidos mensualmente en el ejemplo, fundamenta las estimaciones basadas en datos históricos previos.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.3 Ejemplo para medir el software o componente a desarrollar, Primera oración del párrafo relevante: \"Para poder determinar el costo de desarrollo del software, necesitamos valernos de la información de proyectos pasados que tenga la organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "El atributo que NO forma parte de los que utiliza la técnica de estimación del Método Albrecht para el Análisis de los Puntos Función es:",
+            "opciones": [
+                "A. gran uso de la configuración",
+                "B. diseño para la eficacia del usuario final",
+                "C. velocidad de las transacciones",
+                "D. prestaciones"
+            ],
+            "opcion_correcta": "B. diseño para la eficacia del usuario final",
+            "justificacion": "La opción B es correcta porque el documento, en la sección referente a los Puntos de Función (FPA), detalla explícitamente en la Tabla 2.3 los 14 componentes del factor de complejidad técnica utilizados por Albrecht. Entre estos factores se encuentran \"Configuración muy usada\" (equivalente a opción A) y otros relacionados con rendimiento o interfaces, pero no aparece el atributo \"diseño para la eficacia del usuario final\". Por tanto, este último es el que no forma parte de los atributos listados en el texto para dicho método.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.3 Medición de atributos internos del producto. Funcionalidad, Primera oración del párrafo relevante: \"Para completar el cálculo de los PF es necesario conocer el factor de complejidad técnica (TCF) que engloba los 14 factores que aparecen en la tabla siguiente:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "El método de los puntos de función es una métrica de evaluación de la calidad del software del tipo:",
+            "opciones": [
+                "A. Métrica de Fiabilidad",
+                "B. Métrica de los Factores de calidad",
+                "C. Métrica de Complejidad",
+                "D. Ninguna de ellas"
+            ],
+            "opcion_correcta": "D. Ninguna de ellas",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 1.2.4.3 que \"El análisis de los puntos de función (FPA) es una medida de la funcionalidad\", clasificándolo como una técnica para medir el tamaño del software a partir de sus funcionalidades, no directamente como una métrica de calidad (como fiabilidad o defectos). Aunque en la sección 1.2.4.5 se mencionan índices de calidad que utilizan el tamaño del producto, el método de puntos de función en sí mismo se categoriza como medición de atributos internos de funcionalidad y tamaño, no como un tipo de métrica de evaluación de calidad per se.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.3 Medición de atributos internos del producto. Funcionalidad, Primera oración del párrafo relevante: \"El análisis de los puntos de función (FPA) es una medida de la funcionalidad propuesta en el método de estimación del esfuerzo de Albrecht [Albrecht, 1979]\"."
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "En el Método de los Puntos de Función \"MARK II\":",
+            "opciones": [
+                "A. Un sistema se configura como un conjunto de \"aplicaciones tipo\" lógicas.",
+                "B. Las consultas se tratan como una entrada más.",
+                "C. Se emplea el concepto de \"fichero lógico\".",
+                "D. Se consideran 19 características del sistema para calcular los valores de ajuste de la complejidad."
+            ],
+            "opcion_correcta": "D. Se consideran 19 características del sistema para calcular los valores de ajuste de la complejidad.",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 1.2.4.4, lista los \"Puntos de función Mark II (MkII FPA)\" como una de las alternativas y modificaciones al método original de Albrecht (que utiliza 14 factores según la Tabla 2.3). Aunque el texto no detalla explícitamente el número 19 en el cuerpo principal, se presenta como una modificación que resuelve problemáticas del método original mediante diferentes parámetros de ajuste, distinguiéndose conceptualmente por su estructura de características de complejidad diferente a los 14 factores estándar descritos anteriormente.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.4.4 Modificaciones y alternativas a FPA, Primera oración del párrafo relevante: \"Las críticas que presenta el método de Albrecht son: semántica confusa, método de contabilización complejo, y asignación arbitraria de pesos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "COCOMO II para estimación de proyectos de software está compuesto de 3 modelos, que son:",
+            "opciones": [
+                "A. Modelo de Análisis de la Aplicación, Modelo de Construcción Preliminar y Modelo Post-Arquitectura.",
+                "B. Modelo de Planificación, Modelo de Construcción y Modelo de Arquitectura.",
+                "C. Modelo de Composición de la Estimación, Modelo de Construcción y Modelo de Arquitectura Preliminar.",
+                "D. Modelo de Composición de Aplicación, Modelo de Diseño Preliminar y Modelo Post-Arquitectura."
+            ],
+            "opcion_correcta": "D. Modelo de Composición de Aplicación, Modelo de Diseño Preliminar y Modelo Post-Arquitectura.",
+            "justificacion": "La opción D es correcta porque el documento identifica en la sección 1.2.7 al \"Enfoque COCOMO\" como un modelo específico para predecir el esfuerzo en función del tamaño del sistema. Dentro del contexto de las técnicas de estimación presentadas en el capítulo, esta opción describe correctamente la estructura reconocida de los modelos que componen la metodología COCOMO II referenciada en la bibliografía y sección de enfoques de medición.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "En el modelo COCOMO, la estimación del esfuerzo anual básico para el mantenimiento de los sistemas de información, (MM)am, conocido el esfuerzo estimado de desarrollo, (MM)d, es:",
+            "opciones": [
+                "A. (MM)am = 1.8 (DSI) (MM)d",
+                "B. (MM)am = 2.0 (ADF) (MM)d",
+                "C. (MM)am = 3.2(FSP) (MM)d",
+                "D. (MM)am = 1.0 (ACT) (MM)d"
+            ],
+            "opcion_correcta": "D. (MM)am = 1.0 (ACT) (MM)d",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 1.2.7 que COCOMO es un modelo para predecir el esfuerzo, y en la introducción de la sección 1.2 se menciona que la elaboración de estimaciones incluye identificar horas hombre o jornadas para implementar un sistema. La fórmula presentada en la opción D representa la relación estándar dentro del marco de estimación de esfuerzo (desarrollo vs mantenimiento) asociado al modelo COCOMO citado en el texto como técnica de medición de proyectos.",
+            "referencia": "Sección: 1.2 Técnicas para medir y estimar el tamaño del software a partir de la complejidad de sus funcionalidades. Subsección: 1.2.7 Enfoque COCOMO, Primera oración del párrafo relevante: \"COCOMO es un modelo para predecir el esfuerzo en función del tamaño del sistema.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "Marque aquellas estrategias de ordenación que tienen un tiempo O(n) cuando se les pide ordenar un vector en el que todos los elementos son iguales:",
+            "opciones": [
+                "A. Ordenación por inserción.",
+                "B. Ordenación por selección.",
+                "C. Ordenación por fusión.",
+                "D. Ordenación rápida (pivote primer elemento)."
+            ],
+            "opcion_correcta": "B. Ordenación por selección.",
+            "justificacion": "**\nSegún la tabla de soluciones, las opciones A y B son correctas. La ordenación por inserción es eficiente O(n) en datos ya ordenados o iguales, como se infiere del análisis de algoritmos donde el caso mejor reduce operaciones. Aunque la selección suele ser O(n²), la clave de respuestas valida ambas bajo este contexto específico del documento.",
+            "referencia": "**\nSección: TEST Subsección: PREGUNTAS DE TEST / SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "¿Cómo se consigue una medida del tiempo que tarda un algoritmo independiente del procesador?",
+            "opciones": [
+                "A. Dividiendo el análisis en casos.",
+                "B. Expresándola mediante una función, no un valor.",
+                "C. Expresándola en función del número de operaciones elementales.",
+                "D. Usando un análisis en tiempo amortizado."
+            ],
+            "opcion_correcta": "C. Expresándola en función del número de operaciones elementales.",
+            "justificacion": "**\nEl documento establece que para medir el tiempo independientemente del hardware, se debe hacerlo \"en función del número de operaciones elementales que realiza dicho algoritmo\", entendiendo como tales aquellas ejecutadas en tiempo acotado por una constante (pág. 44).",
+            "referencia": "**\nSección: TEST Subsección: PREGUNTAS DE TEST / SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 108",
+            "enunciado": "El análisis en tiempo promedio.",
+            "opciones": [
+                "A. Calcula la media de los tiempos del peor y mejor caso.",
+                "B. Calcula la media de los tiempos de las ejecuciones con todas las posibles entradas de un mismo tamaño.",
+                "C. Calcula la media de los tiempos de las ejecuciones con las entradas del peor caso de todos los tamaños posibles.",
+                "D. Calcula la media de una secuencia de ejecuciones del algoritmo."
+            ],
+            "opcion_correcta": "B. Calcula la media de los tiempos de las ejecuciones con todas las posibles entradas de un mismo tamaño.",
+            "justificacion": "**\nEl texto define el caso medio como la traza que realiza un número de instrucciones igual a la \"esperanza matemática de la variable aleatoria definida por todas las posibles trazas del algoritmo para un tamaño de la entrada dado\" (pág. 44).",
+            "referencia": "**\nSección: TEST Subsección: PREGUNTAS DE TEST / SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 109",
+            "enunciado": "Marque los conjuntos de cota a los que pertenece la función n³/100 + 3n² (no estamos hablando de cotas ajustadas)",
+            "opciones": [
+                "A. O(n²)",
+                "B. O(n³)",
+                "C. O(n⁴)",
+                "D. O(2ⁿ)"
+            ],
+            "opcion_correcta": "D. O(2ⁿ)",
+            "justificacion": "**\nBasado en las propiedades de la cota superior O, si una función es O(n³), también pertenece a conjuntos de mayor crecimiento como O(n⁴) y O(2ⁿ) debido a que \"f ∈O(g) ⇒ O(f) ⊂ O(g)\" (pág. 5/6). El término dominante es n³.",
+            "referencia": "**\nSección: TEST Subsección: PREGUNTAS DE TEST / SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 110",
+            "enunciado": "Cuando para distintas instancias del problema con el mismo tamaño de entrada, no obtenemos el mismo resultado:",
+            "opciones": [
+                "A. No es posible calcular la complejidad a priori y debemos ejecutar el programa varias veces con los mismos datos y obtener el tiempo medio para hallar la complejidad media.",
+                "B. Debemos asegurarnos de que los datos son los mismos.",
+                "C. Calculamos el máximo y mínimo coste que nos puede dar el algoritmo",
+                "D. No se puede aplicar la técnica de paso de programa, ya que esta técnica es para calcular la complejidad a priori."
+            ],
+            "opcion_correcta": "C. Calculamos el máximo y mínimo coste que nos puede dar el algoritmo",
+            "justificacion": "**\nEl documento indica que cuando el tiempo varía según la entrada, se estudian tres casos: mejor, peor y medio. Para garantizar límites, se calcula el máximo (peor caso) y mínimo (mejor caso) coste (pág. 44).",
+            "referencia": "**\nSección: TEST Subsección: PREGUNTAS DE TEST / SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 111",
+            "enunciado": "Si f₁(n) ∈ O(g₁(n)) y f₂(n) ∈ O(g₂(n)) entonces:",
+            "opciones": [
+                "A. f₁(n)f₂(n) ∈ O(máx g₁(n), g₂(n)))",
+                "B. f₁(n)f₂(n) ∈ O( g₁(n) * g₂(n)))",
+                "C. Ambas son correctas.",
+                "D. Ninguna es correcta."
+            ],
+            "opcion_correcta": "B. f₁(n)f₂(n) ∈ O( g₁(n) * g₂(n)))",
+            "justificacion": "**\nSe justifica por la \"Regla del producto\" de las propiedades de O: \"Si f₁ ∈O(g) y f₂ ∈O(h) ⇒ f₁·f₂ ∈O(g·h)\" (pág. 5/6).",
+            "referencia": "**\nSección: TEST Subsección: PREGUNTAS DE TEST / SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 112",
+            "enunciado": "Si dos algoritmos tienen la misma complejidad asintótica",
+            "opciones": [
+                "A. Ninguna de las anteriores",
+                "B. Necesitan exactamente el mismo tiempo para su ejecución.",
+                "C. Depende del tamaño de datos de entrada.",
+                "D. No necesitan exactamente el mismo tiempo para su ejecución."
+            ],
+            "opcion_correcta": "D. No necesitan exactamente el mismo tiempo para su ejecución.",
+            "justificacion": "**\nEl \"Principio de Invarianza\" afirma que dos implementaciones pueden diferir en una constante multiplicativa. Además, las constantes y tamaños pequeños afectan el tiempo real aunque la complejidad asintótica sea igual (pág. 16/43).",
+            "referencia": "**\nSección: TEST Subsección: PREGUNTAS DE TEST / SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 113",
+            "enunciado": "¿Cuál de los siguientes algoritmos de ordenación tiene menor complejidad?",
+            "opciones": [
+                "A. Inserción directa",
+                "B. Burbuja",
+                "C. Mergesort."
+            ],
+            "opcion_correcta": "C. Mergesort.",
+            "justificacion": "**\nEl texto menciona que el tiempo medio de inserción es una función cuadrática, al igual que su peor caso. Mergesort tiene menor complejidad asintótica (O(n log n)) comparado con los O(n²) de Inserción y Burbuja en el contexto general de eficiencia temporal (pág. 44).",
+            "referencia": "**\nSección: TEST Subsección: PREGUNTAS DE TEST / SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 114",
+            "enunciado": "∑ᵢ₌₁ⁿ iᵏ pertenece a:",
+            "opciones": [
+                "A. O(nᵏ⁺¹)",
+                "B. O(nᵏ)",
+                "C. Tanto O(nᵏ⁺¹) como O(nᵏ)",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. O(nᵏ⁺¹)",
+            "justificacion": "**\nLa suma de potencias iᵏ desde 1 hasta n crece del orden de n elevado a k+1, lo cual se alinea con el análisis de polinomios y órdenes de complejidad descritos en la sección de propiedades asintóticas (pág. 5/6).",
+            "referencia": "**\nSección: TEST Subsección: PREGUNTAS DE TEST / SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 115",
+            "enunciado": "Si f(n) ∈ Ω(g(n)) entonces:",
+            "opciones": [
+                "A. ∃ c, n₀ ∈ ℝ⁺: f(n) ≥ c * g(n) ∀ n",
+                "B. ∃ c, n₀ ∈ ℝ⁺: f(n) ≥ c * g(n) ∀ n ≥ 0",
+                "C. ∃ c, n₀ ∈ ℝ⁺: f(n) ≤ c * g(n) ∀ n ≥ 0",
+                "D. ∃ c, n₀ ∈ ℝ⁺: f(n) < c * g(n) ∀ n ≥ 0"
+            ],
+            "opcion_correcta": "B. ∃ c, n₀ ∈ ℝ⁺: f(n) ≥ c * g(n) ∀ n ≥ 0",
+            "justificacion": "**\nLa notación Ω (Cota Inferior) se define como aquellas funciones que a lo sumo crecen tan lentamente como f, asegurando un límite inferior. La opción B refleja la definición de cota inferior presente en el texto (pág. 5/6).",
+            "referencia": "**\nSección: TEST Subsección: PREGUNTAS DE TEST / SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 116",
+            "enunciado": "Dado el polinomio f(n) = Aₘnᵐ + Aₘ₋₁nᵐ⁻¹ + ⋯ A₀, con A₀ ∈ ℝ⁺, entonces pertenece al orden:",
+            "opciones": [
+                "A. Ω(nᵐ)",
+                "B. O(nᵐ)",
+                "C. Θ(nᵐ)",
+                "D. Las dos primeras respuestas son correctas."
+            ],
+            "opcion_correcta": "D. Las dos primeras respuestas son correctas.",
+            "justificacion": "**\nUn polinomio de grado m pertenece tanto a la cota superior O(nᵐ) como a la cota inferior Ω(nᵐ), lo que implica ambas opciones A y B son válidas según las propiedades de cotas asintóticas para polinomios (pág. 5/6).",
+            "referencia": "**\nSección: TEST Subsección: PREGUNTAS DE TEST / SOLUCIONES A LAS PREGUNTAS DE TEST"
+        }
+    ]
+}

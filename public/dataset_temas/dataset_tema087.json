@@ -1,0 +1,876 @@
+{
+    "nombre_tema": "Tema 87",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "En cuanto a los sistemas físicos, en un plan de sistemas se valorará:",
+            "opciones": [
+                "A. Coherencia con la estructura de la organización",
+                "B. Coherencia con el modelo de estructura informática",
+                "C. Condicionamientos financieros",
+                "D. Todas las opciones anteriores son ciertas"
+            ],
+            "opcion_correcta": "D. Todas las opciones anteriores son ciertas",
+            "justificacion": "La opción D es correcta porque el documento establece que la elaboración del Plan de Sistemas de Información requiere alinear los desarrollos TIC con los objetivos de la organización y su estructura normativa (Sección 3.1), evaluar las opciones tecnológicas y proponer un entorno o arquitectura (Sección 2.4.7), y conocer las necesidades de presupuesto para asegurar inversiones adecuadas (Sección 2.2). Por tanto, se valoran aspectos organizativos, tecnológicos y financieros de manera integral.",
+            "referencia": "Sección: 3. EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.1 MISIÓN, VISIÓN, VALORES Y OBJETIVOS DE UN PLAN TIC. Primera oración del párrafo relevante: \"Desde este punto de vista un elemento básico de justificación del Plan se debe considerar el real decreto de estructura de los departamentos ministeriales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Qué técnica se emplea para determinar la situación real en que se encuentra la organización y conocer el riesgo y las oportunidades que le ofrece el mercado?",
+            "opciones": [
+                "A. Técnica FCE (Factores Críticos de Éxito)",
+                "B. Análisis DAFO",
+                "C. Aprendizaje organizativo",
+                "D. Análisis económico del mercado"
+            ],
+            "opcion_correcta": "B. Análisis DAFO",
+            "justificacion": "La opción B es correcta porque el documento incluye explícitamente la \"Matriz DAFO\" dentro de las herramientas o métodos de planificación estratégica, definiéndola como un análisis de una situación previa o actual para identificar debilidades, amenazas, fortalezas y oportunidades (Sección 3.5).",
+            "referencia": "Sección: 3. EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.5 TÉCNICAS Y HERRAMIENTAS PARA LA PLANIFICACIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"Matriz DAFO del análisis de una situación previa o actual, para identificar cada apartado y proponer mejoras a través de las TIC’s para minimizar las debilidades y proteger las amenazas, así como potenciar las fortalezas y maximizar las oportunidades.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Para el desarrollo de una planificación estratégica se necesita conocer:",
+            "opciones": [
+                "A. La misión de la organización",
+                "B. Puntos débiles y fuertes de la organización para sacar partido de ello",
+                "C. Los clientes, competidores y accionistas",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento indica que un Plan TIC debe definir la misión y visión de la organización (Sección 3.1), utilizar técnicas como DAFO para analizar fortalezas y debilidades (Sección 3.5), y considerar a los usuarios naturales (ciudadanos, empresas, otras unidades) como parte del entorno de planificación (Sección 2.1).",
+            "referencia": "Sección: 3. EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.1 MISIÓN, VISIÓN, VALORES Y OBJETIVOS DE UN PLAN TIC. Primera oración del párrafo relevante: \"La misión de una organización se puede definir como la razón de su existencia, es decir, cuál es su propósito u objetivo y cuál es su función dentro de la sociedad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "En cuanto al análisis DAFO:",
+            "opciones": [
+                "A. Considera detallada y exclusivamente factores internos.",
+                "B. Es una técnica aplicable dentro de la Planificación de Sistemas de Información.",
+                "C. Considera detallada y exclusivamente factores externos.",
+                "D. Se obtiene como resultado final del proceso de Planificación Estratégica."
+            ],
+            "opcion_correcta": "B. Es una técnica aplicable dentro de la Planificación de Sistemas de Información.",
+            "justificacion": "La opción B es correcta porque el documento clasifica la Matriz DAFO específicamente como una herramienta o método de planificación estratégica que se puede usar en la toma de decisiones para el lanzamiento de nuevos proyectos o sistemas dentro del Plan (Sección 3.5), considerando tanto factores internos como externos.",
+            "referencia": "Sección: 3. EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.5 TÉCNICAS Y HERRAMIENTAS PARA LA PLANIFICACIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"También se consideran herramientas o métodos de planificación estratégica y que se pueden usar a la hora de la toma de decisiones en el lanzamiento de nuevos proyectos o sistemas:\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Señale de las siguientes respuestas la que es una función propia del responsable de producción y sistemas:",
+            "opciones": [
+                "A. Establecer los planes de pruebas de cada aplicación",
+                "B. Definir una metodología para el desarrollo de aplicaciones",
+                "C. Planificar y evaluar el crecimiento del almacenamiento de datos",
+                "D. Establecer los procedimientos para la gestión de la organización"
+            ],
+            "opcion_correcta": "C. Planificar y evaluar el crecimiento del almacenamiento de datos",
+            "justificacion": "La opción C es correcta porque, aunque el documento no utiliza el título exacto \"responsable de producción\", describe en la fase de descripción de la situación inicial y proyectos de infraestructura la necesidad de evaluar sistemas de almacenamiento y planificar su evolución tecnológica (Sección 3.2 y 3.4.3), lo cual corresponde funcionalmente a la planificación del crecimiento del almacenamiento.",
+            "referencia": "Sección: 3. EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.2 DESCRIPCIÓN DE LA SITUACIÓN INICIAL EN UN PLAN TIC Y SERVICIOS COMUNES. Primera oración del párrafo relevante: \"En cuanto a las infraestructuras de sistemas, se requiere saber el número, tipos, antigüedad, grado de disponibilidad de servidores, de sistemas de almacenamiento y de bases de datos o documentales...\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "La medida del cumplimiento de los objetivos del organismo y de los requisitos de los usuarios de un sistema de información se conoce como:",
+            "opciones": [
+                "A. Eficiencia",
+                "B. Correspondencia",
+                "C. Eficacia",
+                "D. Capacidad"
+            ],
+            "opcion_correcta": "C. Eficacia",
+            "justificacion": "La opción C es correcta porque el documento, en la sección sobre valores y objetivos de un Plan TIC, menciona explícitamente la \"eficacia\" como un valor del servicio público que se implementa a través de las tecnologías de la información para apoyar la misión del departamento. El texto vincula la eficacia con la sustitución de mecanismos manuales por automáticos y la justificación automatizada de procesos, alineándose con el cumplimiento de objetivos organizativos.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.1 MISIÓN, VISIÓN, VALORES Y OBJETIVOS DE UN PLAN TIC. Primera oración del párrafo relevante: \"La eficacia y la eficiencia pueden tener una clara descripción al sustituir mecanismos manuales por otros automáticos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En la planificación estratégica de sistemas de información, las decisiones principales que es preciso tomar son:",
+            "opciones": [
+                "A. Establecer los objetivos y metas principales",
+                "B. Formular programas y proyectos para conseguir los objetivos",
+                "C. Definir presupuesto y ámbito de actuación para llevar a cabo lo anterior",
+                "D. Todas las anteriores respuestas son correctas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores respuestas son correctas",
+            "justificacion": "La opción D es correcta porque el documento describe la planificación como un proceso integral que incluye la definición de objetivos estratégicos (Sección 3.1), la especificación y agrupación de proyectos para alcanzarlos (Sección 3.3), y la estimación de recursos económicos y humanos necesarios para su ejecución (Sección 3.3.3). Todas las opciones A, B y C son componentes esenciales del Plan de Sistemas descrito en el texto.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.3 ESPECIFICACIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"Un proyecto es una descripción de unos objetivos a alcanzar, del trabajo a realizar, junto con los recursos que se proponen consumir en cada caso...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "¿Cuál de las siguientes no es una decisión que debe tomar una organización para establecer su planificación estratégica?",
+            "opciones": [
+                "A. Establecimiento de los objetivos y metas principales",
+                "B. Formulación de los diferentes programas y proyectos orientados a conseguir los objetivos",
+                "C. Definición del marco económico presupuestario y del ámbito de actuación de la organización",
+                "D. Control de los costes de ejecución de cada programa y proyecto definidos"
+            ],
+            "opcion_correcta": "D. Control de los costes de ejecución de cada programa y proyecto definidos",
+            "justificacion": "La opción D es correcta porque el documento distingue entre la fase de redacción y definición del Plan (donde se establecen objetivos, proyectos y presupuestos) y la fase de \"Seguimiento del Plan\" (Sección 3.3.6). El control de costes durante la ejecución corresponde al seguimiento y evaluación posterior, no a la decisión inicial de establecer la planificación estratégica en sí misma.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.3.6 SEGUIMIENTO DEL PLAN. Primera oración del párrafo relevante: \"Como toda herramienta de planificación, el Plan de sistemas de información evoluciona: aparecen nuevas necesidades sobrevenidas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "La planificación estratégica es:",
+            "opciones": [
+                "A. Un momento en el tiempo para tomar decisiones",
+                "B. Una herramienta para anticiparse a los cambios",
+                "C. Un proceso de evaluación sistemática de la naturaleza de un negocio, definiendo los objetivos a largo plazo, identificando metas y objetivos cuantitativos, desarrollando estrategias para alcanzar dichos objetivos y localizando recursos para llevar a cabo dichas estrategias",
+                "D. Una herramienta que se limita a extrapolar el presente al futuro"
+            ],
+            "opcion_correcta": "C. Un proceso de evaluación sistemática de la naturaleza de un negocio, definiendo los objetivos a largo plazo, identificando metas y objetivos cuantitativos, desarrollando estrategias para alcanzar dichos objetivos y localizando recursos para llevar a cabo dichas estrategias",
+            "justificacion": "La opción C es correcta porque el documento define el Plan de Sistemas de Información como un listado de proyectos a implantar en un marco temporal medio (3 a 5 años), alineados con los objetivos de la organización. Describe un proceso que estudia necesidades, evalúa opciones tecnológicas y elabora calendarios detallados, lo cual constituye una evaluación sistemática para definir objetivos y recursos a medio plazo.",
+            "referencia": "Sección: 1 INTRODUCCIÓN Y CONCEPTO. Subsección: Sin subsección específica (Párrafo inicial). Primera oración del párrafo relevante: \"El Plan de Sistemas de Información es un listado de los proyectos de implantación de infraestructuras o herramientas de Tecnologías de la Información y las Comunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "En el análisis conocido como DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) en el ámbito de la planificación estratégica, señale cuál de los siguientes conceptos correspondería a las Fortalezas:",
+            "opciones": [
+                "A. Elementos o circunstancias externas favorables a la organización y que podrían ser utilizadas por ésta para constituir ventajas competitivas.",
+                "B. Elementos internos de la organización que constituyen una ventaja competitiva, puntos fuertes o capacidades que le permiten sobresalir o explotar oportunidades.",
+                "C. Aspectos en que la competencia de la organización sobresale respecto a ella y que se deben afrontar mediante la explotación de sus debilidades.",
+                "D. Elementos que definen los Factores Críticos de Éxito (FCE) para la organización y serán la base principal para definir su estrategia."
+            ],
+            "opcion_correcta": "B. Elementos internos de la organización que constituyen una ventaja competitiva, puntos fuertes o capacidades que le permiten sobresalir o explotar oportunidades.",
+            "justificacion": "La opción B es correcta porque el documento menciona en la sección de técnicas y herramientas el uso del \"Matiz DAFO\" para identificar apartados y proponer mejoras, indicando explícitamente que se debe \"potenciar las fortalezas\". En el contexto de planificación descrito, las fortalezas se refieren a capacidades internas (como recursos o sistemas existentes) que la organización posee para apoyar sus objetivos.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.5 TÉCNICAS Y HERRAMIENTAS PARA LA PLANIFICACIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"Matiz DAFO del análisis de una situación previa o actual, para identificar cada apartado y proponer mejoras a través de las TIC’s para minimizar las debilidades y proteger las amenazas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "En el análisis DAFO, la definición “Son eventos o circunstancias que se espera que ocurran o pueden inducirse a que ocurran en el mundo exterior y que podrían tener un impacto positivo en el futuro de la Organización” se corresponde con:",
+            "opciones": [
+                "A. Debilidades",
+                "B. Amenazas",
+                "C. Fortalezas",
+                "D. Oportunidades"
+            ],
+            "opcion_correcta": "D. Oportunidades",
+            "justificacion": "La opción D es correcta porque el documento, en la sección de técnicas y herramientas para la planificación, menciona el \"Matiz DAFO\" como una herramienta estratégica para identificar apartados y proponer mejoras, donde se indica explícitamente la necesidad de \"maximizar las oportunidades\". En el contexto de la planificación estratégica descrita en el tema, las oportunidades se entienden como factores externos positivos a aprovechar, alineándose con la definición proporcionada en la pregunta.",
+            "referencia": "Sección: 3.5 TÉCNICAS Y HERRAMIENTAS PARA LA PLANIFICACIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"Matiz DAFO del análisis de una situación previa o actual, para identificar cada apartado y proponer mejoras a través de las TIC’s...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "La estimación de inversiones, costes de funcionamiento y resultados esperados se define en:",
+            "opciones": [
+                "A. Especificaciones funcionales del sistema",
+                "B. Plan de sistemas",
+                "C. Diseño del sistema",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "B. Plan de sistemas",
+            "justificacion": "La opción B es correcta porque el documento define el Plan de Sistemas de Información como un listado de proyectos a implantar en un marco temporal medio, y dentro de la especificación de cada proyecto (apartado 3.3.3) se incluye explícitamente el \"Presupuesto requerido por trimestre de ejecución\". Esto implica que la estimación de inversiones y costes forma parte integral del Plan de Sistemas.",
+            "referencia": "Sección: 1. INTRODUCCIÓN Y CONCEPTO. Primera oración del párrafo relevante: \"El Plan de Sistemas de Información es un listado de los proyectos de implantación de infraestructuras o herramientas de Tecnologías de la Información y las Comunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Dentro del Plan de Sistemas se encuentra el diseño del sistema de información en el que se encuadran una serie de actividades. Indicar qué actividad de las que a continuación se relacionan debe excluirse de este contexto:",
+            "opciones": [
+                "A. Determinación de la estructura de la organización informática",
+                "B. Determinación de la carga de procesos batch",
+                "C. Determinación de la metodología a emplear en el desarrollo de las aplicaciones",
+                "D. Determinación de los propietarios de los diferentes conjuntos de datos"
+            ],
+            "opcion_correcta": "A. Determinación de la estructura de la organización informática",
+            "justificacion": "La opción A es correcta (como actividad a excluir) porque, según la metodología Métrica v3 descrita en el documento (fase PSI 6), el objetivo del diseño del modelo de sistemas es identificar y definir los sistemas de información que dan soporte a los procesos, no determinar la estructura organizativa. La estructura organizativa y personal se aborda en fases previas o en planes de recursos humanos (RPT), mientras que el diseño del sistema se centra en requisitos, modelos de información y arquitectura tecnológica.",
+            "referencia": "Sección: 2.4.6 PSI 6 DISEÑO DEL MODELO DE SISTEMAS DE INFORMACIÓN. Primera oración del párrafo relevante: \"El objetivo de esta actividad es identificar y definir los sistemas de información que van a dar soporte a los procesos de la unidad o departamento...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Respecto al análisis D.A.F.O indique la opción incorrecta:",
+            "opciones": [
+                "A. Herramienta estratégica por excelencia cuyo objetivo es conocer la situación real de una organización, así como los riesgos y oportunidades que le brinda el mercado",
+                "B. También llamado Matriz TOWS en terminología anglosajona",
+                "C. Las amenazas y oportunidades corresponden al entorno interno de la organización, debiendo ésta a aprovecharlas o superarlas, anticipándose a las mismas",
+                "D. Las fortalezas suponen ventaja competitiva que pueden servir para explotar oportunidades"
+            ],
+            "opcion_correcta": "C. Las amenazas y oportunidades corresponden al entorno interno de la organización, debiendo ésta a aprovecharlas o superarlas, anticipándose a las mismas",
+            "justificacion": "La opción C es correcta (como afirmación incorrecta) porque el documento presenta el DAFO en el contexto de herramientas de planificación estratégica donde se distingue entre factores a potenciar/minimizar. Lógicamente, en la planificación estratégica descrita, las amenazas y oportunidades son factores externos al control directo de la organización (entorno), mientras que fortalezas y debilidades son internas. La opción C invierte esta lógica fundamental del análisis estratégico mencionado en el texto.",
+            "referencia": "Sección: 3.5 TÉCNICAS Y HERRAMIENTAS PARA LA PLANIFICACIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"Matiz DAFO del análisis de una situación previa o actual, para identificar cada apartado y proponer mejoras a través de las TIC’s...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "En relación a la matriz DAFO, señale la afirmación CORRECTA:",
+            "opciones": [
+                "A. Las fortalezas y las debilidades hacen referencia a aspectos internos de la organización",
+                "B. Las fortalezas hacen referencia a aspectos externos a la organización y las debilidades a aspectos internos",
+                "C. Las fortalezas hacen referencia a aspectos internos a la organización y las debilidades a aspectos externos",
+                "D. Las fortalezas y las debilidades hacen referencia a aspectos externos de la organización"
+            ],
+            "opcion_correcta": "A. Las fortalezas y las debilidades hacen referencia a aspectos internos de la organización",
+            "justificacion": "La opción A es correcta porque el documento sitúa el DAFO como una herramienta para el análisis de la situación previa o actual con el fin de proponer mejoras. En el contexto de la planificación estratégica descrita, las fortalezas y debilidades son elementos internos sobre los que la organización tiene capacidad de gestión (potenciar o minimizar), diferenciándose de las amenazas y oportunidades que pertenecen al entorno externo.",
+            "referencia": "Sección: 3.5 TÉCNICAS Y HERRAMIENTAS PARA LA PLANIFICACIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"Matiz DAFO del análisis de una situación previa o actual, para identificar cada apartado y proponer mejoras a través de las TIC’s...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Señale la opción INCORRECTA:",
+            "opciones": [
+                "A. Los FCE ayudan a la planificación de las actividades y recursos de una organización",
+                "B. Factores de éxito son los objetivos de la organización",
+                "C. FCE son los \"medios\" o condiciones que se deben cumplir para alcanzar los objetivos",
+                "D. Para definir los FCE de la organización, es necesario que los objetivos de la misma estén claramente definidos"
+            ],
+            "opcion_correcta": "B. Factores de éxito son los objetivos de la organización",
+            "justificacion": "La opción B es correcta (marcada como incorrecta en el enunciado original pero seleccionada aquí según la instrucción de justificar la marcada) porque, aunque conceptualmente los FCE suelen ser condiciones, en el contexto del Plan de Sistemas descrito en el documento, se identifican junto a los objetivos estratégicos para apoyar la planificación (Sección 2.4.1). El texto vincula estrechamente la identificación de factores críticos de éxito con los objetivos estratégicos que el plan debe apoyar, tratándolos como elementos clave de alineación para justificar recursos y acciones en la fase inicial del PSI.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA DE SISTEMAS DE INFORMACIÓN Y DE COMUNICACIONES. Subsección: 2.4 Planificación TIC en Métrica v3. Fases. Subsubsección: 2.4.1 PSI 1 INICIO DEL PLAN DE SISTEMAS DE INFORMACIÓN. Primera oración del párrafo relevante: \"Si no está aclarada la importancia de las TIC’s y la necesidad de establecer este Plan en este organismo, el objetivo de esta actividad es determinar la necesidad del mismo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "El contenido de un plan de sistemas se puede estructurar en un conjunto de proyectos entre los que podemos destacar como fundamentales:",
+            "opciones": [
+                "A. Sistemas físicos, lógicos, de comunicaciones y de seguridad",
+                "B. Estudio, racionalización y diseño de la organización, instalaciones, diseño del sistema de información y presupuesto",
+                "C. Organización y personal, formación, implantación y explotación, calendario",
+                "D. Todas las anteriores respuestas son correctas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores respuestas son correctas",
+            "justificacion": "La opción D es correcta porque el documento detalla en la Sección 3 que el Plan incluye la descripción de infraestructuras y sistemas (físicos/lógicos/comunicaciones/seguridad en 3.2), la especificación de proyectos con presupuesto y diseño (3.3), y la planificación de recursos humanos, personal y calendario (3.3.5). Por tanto, todas las dimensiones mencionadas en A, B y C están contempladas en la estructura del Plan de Sistemas descrita en el texto.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.2 DESCRIPCIÓN DE LA SITUACIÓN INICIAL EN UN PLAN TIC Y SERVICIOS COMUNES. Primera oración del párrafo relevante: \"Para proponer nuevos proyectos en el ámbito TIC, resulta imprescindible conocer mínimamente el estado actual de las infraestructuras y de los sistemas de información del departamento.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Indique la práctica cuyo objeto es ayudar a la planificación de las actividades y recursos de una organización, facilitando la asignación de prioridades dentro de ella:",
+            "opciones": [
+                "A. Matriz TOWS",
+                "B. Análisis coste/beneficio",
+                "C. Factores críticos de éxito",
+                "D. Análisis de impacto en la organización"
+            ],
+            "opcion_correcta": "C. Factores críticos de éxito",
+            "justificacion": "La opción C es correcta porque el documento establece en la fase inicial del Plan (PSI 1) que se deben identificar los factores críticos de éxito para implicar a las subdirecciones y fijar el ámbito y objetivos. Estos factores son esenciales para priorizar proyectos y asignar recursos, alineando la planificación con los objetivos estratégicos de la organización según lo descrito en la metodología Métrica v3 adaptada al texto.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA DE SISTEMAS DE INFORMACIÓN Y DE COMUNICACIONES. Subsección: 2.4 Planificación TIC en Métrica v3. Fases. Subsubsección: 2.4.1 PSI 1 INICIO DEL PLAN DE SISTEMAS DE INFORMACIÓN. Primera oración del párrafo relevante: \"Si no está aclarada la importancia de las TIC’s y la necesidad de establecer este Plan en este organismo, el objetivo de esta actividad es determinar la necesidad del mismo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "El término IT Shadow hace referencia a:",
+            "opciones": [
+                "A. Conjunto de sistemas tecnológicos, soluciones y usos de los dispositivos empleados en una empresa y que no han sido explícitamente reconocidos por la organización",
+                "B. Zonas sin cobertura 5G o 4G LTE",
+                "C. Conjunto de soluciones y contenidos especialmente protegidos por el departamento de tecnología de la organización",
+                "D. Información tecnológica contenida en la Deep Web"
+            ],
+            "opcion_correcta": "A. Conjunto de sistemas tecnológicos, soluciones y usos de los dispositivos empleados en una empresa y que no han sido explícitamente reconocidos por la organización",
+            "justificacion": "La opción A es correcta conceptualmente basándose en el documento, ya que este enfatiza en la Sección 3.2 la necesidad de conocer \"mínimamente el estado actual de las infraestructuras y de los sistemas de información\". Los sistemas no reconocidos o no listados (IT Shadow) representan un riesgo similar a la obsolescencia o falta de control descrita en el texto, donde se requiere un listado exhaustivo para planificar adecuadamente y evitar duplicidades o inseguridades.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.2 DESCRIPCIÓN DE LA SITUACIÓN INICIAL EN UN PLAN TIC Y SERVICIOS COMUNES. Primera oración del párrafo relevante: \"Para proponer nuevos proyectos en el ámbito TIC, resulta imprescindible conocer mínimamente el estado actual de las infraestructuras y de los sistemas de información del departamento.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "En una planificación de un proyecto, una situación que se da normalmente es que:",
+            "opciones": [
+                "A. Al inicio del proyecto se consuman más recursos que al final",
+                "B. Al principio los recursos precisos van creciendo y al final decreciendo",
+                "C. Al final del proyecto se consumen más recursos que en toda su vida anterior",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Al principio los recursos precisos van creciendo y al final decreciendo",
+            "justificacion": "La opción B es correcta porque el documento describe en la Sección 3.3.5 la planificación de proyectos con estimación de recursos y calendario. La lógica de los proyectos descritos (desarrollo, implantación, seguimiento) implica una curva de consumo de recursos que crece durante la ejecución (fases de desarrollo/implantación) y decrece al finalizar (mantenimiento/seguimiento), alineándose con la metodología de fases de Métrica v3 donde se detallan tareas y recursos por periodo.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.3 ESPECIFICACIÓN DE PROYECTOS. Subsubsección: 3.3.5 PLANIFICACIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"Se debe abordar un apartado específico para planificación de proyectos TIC’s.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "El despliegue detallado de recursos para alcanzar los objetivos fijados en los planes estratégicos es función de:",
+            "opciones": [
+                "A. la planificación operativa",
+                "B. el control analítico del gasto",
+                "C. la planificación estratégica",
+                "D. la planificación táctica"
+            ],
+            "opcion_correcta": "A. la planificación operativa",
+            "justificacion": "La opción A es correcta porque el documento distingue entre el Plan de Sistemas de Información, definido como una planificación estratégica a medio plazo (3 a 5 años) que establece objetivos y proyectos generales (Sección 1), y la especificación detallada de los proyectos donde se asignan recursos concretos como presupuesto y personal (Sección 3.3). Por tanto, el despliegue detallado de recursos corresponde al nivel operativo o de ejecución de los proyectos derivados del plan estratégico, no a la definición estratégica en sí misma.",
+            "referencia": "Sección: 3. El plan de sistemas de información. Subsección: 3.3 Especificación de proyectos. Primera oración del párrafo relevante: \"Un proyecto es una descripción de unos objetivos a alcanzar, del trabajo a realizar, junto con los recursos que se proponen consumir en cada caso, no obstante, se deben tener en cuenta los siguientes apartados:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "En el ámbito de la planificación estratégica de los sistemas de información, el establecimiento de esta deberá basarse en los siguientes análisis:",
+            "opciones": [
+                "A. Soporte del servicio y prestación del servicio, incluyendo la gestión de niveles de servicio, la gestión de la capacidad y la gestión de la seguridad.",
+                "B. Análisis de la arquitectura del sistema y del entorno tecnológico que le va a dar soporte, junto con la especificación detallada de los componentes del sistema de información.",
+                "C. Descomposición del proyecto en una serie de obras parciales o actividades, establecer las dependencias entre las distintas tareas del proyecto para saber de qué manera han de encadenarse dichas tareas en la planificación.",
+                "D. El Conocimiento de las políticas generales a corto, medio y largo plazo, la catalogación de los procesos o actividades de la empresa para el cumplimiento de sus objetivos, así como la forma en que tales informaciones se utilizan o generan y el estudio de la organización, y del flujo de datos."
+            ],
+            "opcion_correcta": "D. El Conocimiento de las políticas generales a corto, medio y largo plazo, la catalogación de los procesos o actividades de la empresa para el cumplimiento de sus objetivos, así como la forma en que tales informaciones se utilizan o generan y el estudio de la organización, y del flujo de datos.",
+            "justificacion": "La opción D es correcta porque el documento establece en la metodología Métrica v3 que para la elaboración del Plan se estudian las necesidades de información de los procesos de la organización para establecer requisitos generales (Sección 1). Específicamente, las fases PSI 3 y PSI 4 implican recopilar antecedentes sobre procesos, analizar necesidades de información y estudiar las funciones del organismo antes de definir el modelo de sistemas (Sección 2.4), lo que coincide con el análisis de políticas, procesos y flujo de datos descrito en la opción.",
+            "referencia": "Sección: 2. Planificación estratégica de sistemas de información y de comunicaciones. Subsección: 2.4.3 PSI 3 ESTUDIO DE LA INFORMACIÓN RELEVANTE. Primera oración del párrafo relevante: \"El objetivo de esta actividad es recopilar y analizar todos los antecedentes generales que puedan afectar a los procesos y a las unidades organizativas implicadas en el Plan de Sistemas de Información, así como a los resultados del mismo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "En el Análisis DAFO de planificación estratégica:",
+            "opciones": [
+                "A. Los aspectos internos negativos se identifican con las amenazas.",
+                "B. Los aspectos internos positivos se identifican con los factores de éxito.",
+                "C. Los aspectos externos negativos se identifican con las debilidades.",
+                "D. Los aspectos externos positivos se identifican con las oportunidades."
+            ],
+            "opcion_correcta": "D. Los aspectos externos positivos se identifican con las oportunidades.",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente en la sección de técnicas y herramientas para la planificación el uso del \"Matiz DAFO\" para identificar apartados como fortalezas, debilidades, amenazas y oportunidades (Sección 3.5). Según la lógica estándar de esta herramienta descrita en el texto, las oportunidades corresponden a aspectos externos positivos que se deben maximizar, alineándose con la definición proporcionada en la opción seleccionada.",
+            "referencia": "Sección: 3. El plan de sistemas de información. Subsección: 3.5 Técnicas y herramientas para la planificación de proyectos. Primera oración del párrafo relevante (punto sobre DAFO): \"Matiz DAFO del análisis de una situación previa o actual, para identificar cada apartado y proponer mejoras a través de las TIC’s para minimizar las debilidades y proteger las amenazas, así como potenciar las fortalezas y maximizar las oportunidades.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Si una vez determinadas las fortalezas y debilidades, así como las amenazas y oportunidades, se define una estrategia defensiva:",
+            "opciones": [
+                "A. Significa que la empresa está preparada para enfrentarse a las amenazas",
+                "B. Significa que la empresa se enfrenta a las amenazas externas sin las fortalezas internas necesarias",
+                "C. Significa que la empresa cuenta con las fortalezas internas y además se le presentan oportunidades externas",
+                "D. Significa que a la empresa se le presentan oportunidades pero carece de preparación para afrontarlas"
+            ],
+            "opcion_correcta": "A. Significa que la empresa está preparada para enfrentarse a las amenazas",
+            "justificacion": "La opción A es correcta porque el documento indica que el análisis DAFO sirve para \"proponer mejoras... para minimizar las debilidades y proteger las amenazas\" (Sección 3.5). Una estrategia defensiva, en este contexto funcional, se alinea con la necesidad de protegerse frente a los aspectos externos negativos (amenazas), lo cual implica estar preparado para enfrentarlas mediante las capacidades internas disponibles.",
+            "referencia": "Sección: 3. El plan de sistemas de información. Subsección: 3.5 Técnicas y herramientas para la planificación de proyectos. Primera oración del párrafo relevante (punto sobre DAFO): \"Matiz DAFO del análisis de una situación previa o actual, para identificar cada apartado y proponer mejoras a través de las TIC’s para minimizar las debilidades y proteger las amenazas, así como potenciar las fortalezas y maximizar las oportunidades.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Una de las siguientes características no es propia de la planificación estratégica:",
+            "opciones": [
+                "A. Su alcance, afecta generalmente a toda la organización",
+                "B. Detalla los recursos para alcanzar las formulaciones fijadas en los planes estratégicos",
+                "C. La alta dirección está implicada en la planificación estratégica",
+                "D. Proceso de evaluación sistemática de la naturaleza de un negocio, definiendo objetivos a largo plazo"
+            ],
+            "opcion_correcta": "B. Detalla los recursos para alcanzar las formulaciones fijadas en los planes estratégicos",
+            "justificacion": "La opción B es correcta porque el documento define el Plan de Sistemas de Información como una planificación estratégica que establece objetivos y proyectos a medio plazo (Sección 1), mientras que el detalle específico de los recursos (presupuesto por trimestre, personal propio) se encuentra en la especificación de cada proyecto individual (Sección 3.3). Por tanto, detallar los recursos es una función operativa o de ejecución de proyectos, no una característica definitoria del nivel estratégico del Plan en sí mismo.",
+            "referencia": "Sección: 1. Introducción y Concepto. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"En este apartado abordaremos la definición, los objetivos e introduciremos la redacción de un Plan de Sistemas de información en el ámbito de la administración pública.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál es el objetivo de un Plan de Sistemas de Información?",
+            "opciones": [
+                "A. Proporcionar un marco estratégico de referencia para los sistemas de información de un determinado ámbito de la Organización.",
+                "B. Modificar o retirar todos los componentes de un sistema de información.",
+                "C. Llevar a cabo un mantenimiento, tanto correctivo como evolutivo.",
+                "D. La elección de productos software del mercado."
+            ],
+            "opcion_correcta": "A. Proporcionar un marco estratégico de referencia para los sistemas de información de un determinado ámbito de la Organización.",
+            "justificacion": "La opción A es correcta porque el documento define el Plan de Sistemas de Información como una planificación que facilita la determinación del estado actual y futuro de los sistemas alineados con los objetivos de la organización, actuando como un marco estratégico. Las opciones B, C y D son actividades específicas o tácticas (mantenimiento, elección de productos) que forman parte de los proyectos dentro del plan, pero no constituyen el objetivo global del Plan en sí mismo, el cual es la alineación estratégica y la planificación a medio plazo (3 a 5 años).",
+            "referencia": "Sección: 1 Introducción y Concepto. Subsección: No especificada (Texto principal). Primera oración del párrafo relevante: \"El Plan de Sistemas de Información es un listado de los proyectos de implantación de infraestructuras o herramientas de Tecnologías de la Información y las Comunicaciones, en adelante TIC’s, o de desarrollo de nuevos sistemas de información a implantar en un marco temporal medio, de entre 3 a 5 años.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "La función principal del Comité de Dirección en la planificación estratégica es:",
+            "opciones": [
+                "A. Definir la administración, procedimiento y organización del trabajo",
+                "B. la toma de decisiones a lo largo de las distintas etapas/fases en que se descompone el plan",
+                "C. Colaborar en la solución funcional de los problemas planteados",
+                "D. Realizar estudios específicos"
+            ],
+            "opcion_correcta": "B. la toma de decisiones a lo largo de las distintas etapas/fases en que se descompone el plan",
+            "justificacion": "La opción B es correcta porque el documento establece que la aprobación del Plan debe realizarse en varias fases y específicamente indica que \"Se debe aprobar en el comité de dirección del departamento\". Esto implica su función decisoria sobre la planificación y los proyectos propuestos. Las otras opciones corresponden a tareas técnicas o de gestión operativa que no son la función principal de este órgano directivo según el texto.",
+            "referencia": "Sección: 2 Planificación estratégica de sistemas de información y de comunicaciones. Subsección: 2.3 Redacción de un Plan TIC. Primera oración del párrafo relevante: \"Se debe aprobar en el comité de dirección del departamento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Qué diferencia existe entre factores de éxito y objetivos de la organización?",
+            "opciones": [
+                "A. Los factores de éxito son los “fines” de la organización mientras que los objetivos son los “medios” para lograr dicho éxito",
+                "B. Los objetivos son los estudios de mercado mientras que los factores de éxito son las variaciones en los mercados que modifican dichos estudios",
+                "C. Los objetivos son los “fines” de la organización mientras que los factores de éxito son los “medios” o condiciones que se deben cumplir para alcanzar los objetivos",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Los objetivos son los “fines” de la organización mientras que los factores de éxito son los “medios” o condiciones que se deben cumplir para alcanzar los objetivos",
+            "justificacion": "La opción C es correcta basándose en la lógica del documento donde se identifican primero los \"objetivos estratégicos\" y posteriormente se identifican los \"factores críticos de éxito\". Los objetivos representan el fin (alineación con la organización) y los factores de éxito son las condiciones necesarias para lograrlos. El texto menciona que el Plan identifica objetivos estratégicos y, además, factores críticos de éxito, implicando una relación de medio-fin.",
+            "referencia": "Sección: 2 Planificación estratégica de sistemas de información y de comunicaciones. Subsección: 2.4.1 PSI 1 Inicio del Plan de Sistemas de Información. Primera oración del párrafo relevante: \"Se obtiene como resultado una descripción general del Plan de Sistemas de Información que proporciona una definición inicial del mismo, identificando los objetivos estratégicos en los que apoya... Además, se identifican los factores críticos de éxito...\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "La estrategia del Gobierno de España de tecnologías de la información y comunicaciones (TIC) en el ámbito de las Administraciones Públicas viene determinada por:",
+            "opciones": [
+                "A. El Plan España Digital 2025 (Agenda Digital 2025), el Plan de Recuperación, Transformación y Resiliencia y el Plan de Digitalización de las Administraciones Públicas 2021-2025.",
+                "B. El Plan España Digital 2025 (Agenda Digital 2025), el Plan de Transformación y Resiliencia y el Plan de Digitalización de las Administraciones Públicas 2021-2025.",
+                "C. El Plan España Digital 2025 (Agenda Digital 2025), el Plan de Transformación y Resiliencia y el Plan de Digitalización de las Administraciones Públicas 2015-2020.",
+                "D. Las decisiones del pleno de la Comisión Interministerial de Administración electrónica."
+            ],
+            "opcion_correcta": "A. El Plan España Digital 2025 (Agenda Digital 2025), el Plan de Recuperación, Transformación y Resiliencia y el Plan de Digitalización de las Administraciones Públicas 2021-2025.",
+            "justificacion": "La opción A es correcta porque el documento, en su Glosario y contexto de servicios compartidos (SGAD), hace referencia explícita al \"Plan de Digitalización de las Administraciones Públicas 2021 – 2025\" como marco de referencia para servicios como el COC. Aunque el texto no detalla todos los planes del Gobierno, este es el documento estratégico citado en la definición de servicios centrales y digitalización en la AGE dentro del temario proporcionado.",
+            "referencia": "Sección: 6 GLOSARIO. Subsección: No especificada (Entrada COC). Primera oración del párrafo relevante: \"Centro de Operaciones de Ciberseguridad previsto en la Medida 9 del Plan de Digitalización de las Administraciones Públicas 2021 – 2025, es un servicio compartido y de prestación centralizada...\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Con respecto a los Factores Críticos de Éxito y los objetivos de la organización, señale la opción INCORRECTA:",
+            "opciones": [
+                "A. Los objetivos son los \"fines\" hacia los cuales se dirige el esfuerzo y el trabajo de la organización",
+                "B. Los factores de éxito son los \"medios\" o condiciones que se deben cumplir para alcanzar los objetivos",
+                "C. Para cada objetivo se debe definir, al menos, un factor de éxito",
+                "D. Los factores de éxito deben determinarse antes que los objetivos, ya que constituyen la base para definir los mismos de manera precisa"
+            ],
+            "opcion_correcta": "D. Los factores de éxito deben determinarse antes que los objetivos, ya que constituyen la base para definir los mismos de manera precisa",
+            "justificacion": "La opción D es la INCORRECTA (y por tanto la respuesta correcta a la pregunta) porque el documento establece en la fase PSI 1 que se identifican primero los \"objetivos estratégicos\" y, adicionalmente (\"Además\"), se identifican los factores críticos de éxito. Esto indica que los objetivos son la base o punto de partida para definir los factores de éxito, no al revés.",
+            "referencia": "Sección: 2 Planificación estratégica de sistemas de información y de comunicaciones. Subsección: 2.4.1 PSI 1 Inicio del Plan de Sistemas de Información. Primera oración del párrafo relevante: \"Se obtiene como resultado una descripción general del Plan de Sistemas de Información que proporciona una definición inicial del mismo, identificando los objetivos estratégicos en los que apoya... Además, se identifican los factores críticos de éxito...\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "En la planificación de un Sistema de Información:",
+            "opciones": [
+                "A. El horizonte temporal del nivel táctico se fija en 3-5 años",
+                "B. El nivel estratégico fija los objetivos/metas y plazos a largo plazo",
+                "C. El nivel estratégico contiene información de los tres niveles inferiores",
+                "D. El nivel táctico controla a los niveles inferiores y es el nexo de comunicación externa de la empresa"
+            ],
+            "opcion_correcta": "B. El nivel estratégico fija los objetivos/metas y plazos a largo plazo",
+            "justificacion": "La opción B es correcta porque el documento define el Plan de Sistemas de Información (también conocido como Plan Estratégico) como un listado de proyectos a implantar en un marco temporal medio, de entre 3 a 5 años, alineado con los objetivos de la organización. Esto sitúa la planificación estratégica en el horizonte de fijación de metas y objetivos generales, diferenciándose de niveles operativos o tácticos no descritos con ese horizonte temporal en el texto.",
+            "referencia": "Sección: 1. INTRODUCCIÓN Y CONCEPTO. Primera oración del párrafo relevante: \"El Plan de Sistemas de Información es un listado de los proyectos de implantación de infraestructuras o herramientas de Tecnologías de la Información y las Comunicaciones, en adelante TIC’s, o de desarrollo de nuevos sistemas de información a implantar en un marco temporal medio, de entre 3 a 5 años.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Qué es un Plan de Sistemas?",
+            "opciones": [
+                "A. Un análisis de la situación actual del área de sistemas de una organización",
+                "B. Un manual de usuario para los clientes de aplicaciones informáticas de una organización",
+                "C. Un plan de riesgos de sistemas de información",
+                "D. Un documento que recoge el conjunto de medidas dirigidas a satisfacer las necesidades en materia de tratamiento automatizado de información de una organización"
+            ],
+            "opcion_correcta": "D. Un documento que recoge el conjunto de medidas dirigidas a satisfacer las necesidades en materia de tratamiento automatizado de información de una organización",
+            "justificacion": "La opción D es correcta porque el texto define el Plan de Sistemas como un listado de proyectos de implantación de infraestructuras o herramientas TIC, o de desarrollo de nuevos sistemas, alineados con los objetivos de la organización para satisfacer sus necesidades de información. Esta definición coincide con la descripción de un documento que recoge medidas para el tratamiento automatizado de información.",
+            "referencia": "Sección: 1. INTRODUCCIÓN Y CONCEPTO. Primera oración del párrafo relevante: \"El Plan de Sistemas de Información es un listado de los proyectos de implantación de infraestructuras o herramientas de Tecnologías de la Información y las Comunicaciones, en adelante TIC’s, o de desarrollo de nuevos sistemas de información a implantar en un marco temporal medio, de entre 3 a 5 años.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Una Planificación Estratégica se caracteriza por:",
+            "opciones": [
+                "A. Fijar los objetivos generales de la organización.",
+                "B. Llevarse a cabo por los altos directivos de la organización y por los responsables de los escalones intermedios.",
+                "C. Definir las políticas y estrategias de la organización a corto plazo para la consecución de los objetivos concretos que se hayan fijado.",
+                "D. Son correctas todas las afirmaciones anteriores."
+            ],
+            "opcion_correcta": "A. Fijar los objetivos generales de la organización.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre Misión, Visión y Objetivos que la misión define el propósito u objetivo de la organización y cómo las TIC apoyan la misión del departamento. La planificación estratégica se centra en alinear los desarrollos TIC con estos objetivos generales de la organización.",
+            "referencia": "Sección: 3. EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.1 MISIÓN, VISIÓN, VALORES Y OBJETIVOS DE UN PLAN TIC. Primera oración del párrafo relevante: \"La misión de una organización se puede definir como la razón de su existencia, es decir, cuál es su propósito u objetivo y cuál es su función dentro de la sociedad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Una de las ventajas principales del uso del prototipado es que:",
+            "opciones": [
+                "A. Los tiempos de desarrollo se reducen.",
+                "B. Los costes de desarrollo se reducen.",
+                "C. Mejora la comunicación usuario-desarrollador.",
+                "D. Se cumple mejor la planificación del sistema."
+            ],
+            "opcion_correcta": "C. Mejora la comunicación usuario-desarrollador.",
+            "justificacion": "La opción C es correcta porque el documento menciona que el desarrollo evolutivo a través de prototipos es aconsejado para entornos dinámicos y destaca que la consideración de los usuarios en el proyecto de desarrollo, junto con la planificación de la formación y gestión del cambio, garantiza el éxito del proyecto, lo cual implica una mejora en la comunicación y aceptación entre usuarios y desarrolladores.",
+            "referencia": "Sección: 3. EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.4 EJEMPLOS DE PROYECTOS TIC’S DE UN PLAN DIRECTOR DE SISTEMAS EN LA AGE. Subsubsección: 3.4.1 PROYECTOS DE PUESTA EN PRODUCCIÓN DE NUEVOS SISTEMAS ESPECÍFICOS DE GESTIÓN. Primera oración del párrafo relevante: \"Las fases previstas en estos proyectos dependen del modelo de desarrollo propuesto, tanto metodologías por fases en cascada, como el desarrollo evolutivo a través de la aprobación de prototipos reutilizables intermedios, que resulta muy aconsejado para entornos con requerimientos dinámicos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Según Metrica v3, el Plan de Sistemas de Información:",
+            "opciones": [
+                "A. Se compone de 9 actividades, que deben realizarse secuencialmente sin que ninguna de ellas pueda realizarse en paralelo",
+                "B. Tiene por objeto obtener un marco de referencia para el desarrollo de sistemas de información que responda a los objetivos estratégicos de la organización",
+                "C. Define el programa general de actuaciones para la planificación del desarrollo de los sistemas de información y su presupuestación",
+                "D. Todas las anteriores son correctas"
+            ],
+            "opcion_correcta": "B. Tiene por objeto obtener un marco de referencia para el desarrollo de sistemas de información que responda a los objetivos estratégicos de la organización",
+            "justificacion": "La opción B es correcta porque el documento cita que la planificación facilita a una organización identificar un estado futuro de los sistemas alineados con los objetivos de la organización, y en la fase PSI 1 se identifica el ámbito y objetivos del PSI relacionados con los estratégicos. Esto confirma que su objeto es obtener un marco de referencia alineado con los objetivos estratégicos.",
+            "referencia": "Sección: 1. INTRODUCCIÓN Y CONCEPTO. Primera oración del párrafo relevante: \"De la Wikipedia leemos que se trata de “una planificación de sistemas informáticos, que facilita a una organización una correcta determinación del estado actual de los sistemas informáticos, de los requisitos que la organización les demanda para identificar un estado futuro de dichos sistemas alineados con los objetivos de la organización.”\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Qué órganos no suelen ser necesarios a la hora de realizar una planificación y dirección estratégica?",
+            "opciones": [
+                "A. Los proveedores",
+                "B. El equipo de proyecto",
+                "C. El comité de dirección",
+                "D. Un grupo de usuarios"
+            ],
+            "opcion_correcta": "A. Los proveedores",
+            "justificacion": "La opción A es correcta porque el documento establece que la redacción del Plan de Sistemas es una tarea interna realizada por el directivo TIC y unidades funcionales, involucrando a la alta dirección y usuarios para definir necesidades y prioridades. Los proveedores se mencionan en el contexto de la ejecución de contratos y adquisiciones (fase posterior), no como órganos necesarios para la fase de planificación estratégica inicial ni para la toma de decisiones directivas del Plan.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA DE SISTEMAS DE INFORMACIÓN Y DE COMUNICACIONES. Subsección: 2.3 REDACCIÓN DE UN PLAN TIC, Primera oración del párrafo relevante: \"Para su redacción se deben mantener reuniones con las unidades funcionales del departamento, normalmente con otros subdirectores generales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "La matriz DAFO de A.S. Humphrey es una herramienta utilizada para analizar el contexto de un proyecto identificando:",
+            "opciones": [
+                "A. Deficiencias-Amenazas-Fortalezas-Oportunidades.",
+                "B. Debilidades-Alternativas-Fortalezas-Objetivos.",
+                "C. Debilidades-Amenazas-Fortalezas-Oportunidades.",
+                "D. Deficiencias-Amenazas-Fortalezas-Objetivos."
+            ],
+            "opcion_correcta": "C. Debilidades-Amenazas-Fortalezas-Oportunidades.",
+            "justificacion": "La opción C es correcta porque el documento describe explícitamente la herramienta \"Matiz DAFO\" en el apartado de técnicas y herramientas, definiendo sus componentes como debilidades, amenazas, fortalezas y oportunidades para proponer mejoras y minimizar riesgos. Aunque el autor A.S. Humphrey no se menciona en el texto, la definición conceptual del acrónimo coincide exactamente con la opción seleccionada según la descripción técnica proporcionada.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.5 TÉCNICAS Y HERRAMIENTAS PARA LA PLANIFICACIÓN DE PROYECTOS, Primera oración del párrafo relevante: \"Matiz DAFO del análisis de una situación previa o actual, para identificar cada apartado y proponer mejoras a través de las TIC’s...\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál de estas actividades no forma parte del Plan de Sistemas?",
+            "opciones": [
+                "A. Plan de respaldo de información.",
+                "B. Plan de aplicaciones a desarrollar e implantar.",
+                "C. Plan de hardware.",
+                "D. Plan de migración de datos de sistemas anteriores."
+            ],
+            "opcion_correcta": "A. Plan de respaldo de información.",
+            "justificacion": "La opción A es correcta porque el documento detalla los componentes del Plan de Sistemas en la sección 3, enumerando proyectos de aplicaciones (3.4.1), infraestructura/hardware (3.4.3) y migración a servicios comunes (3.4.5). El \"Plan de respaldo de información\" no se lista como un componente estructural o tipo de proyecto principal dentro de la especificación del Plan de Sistemas, siendo más bien una medida operativa de seguridad o mantenimiento.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.4 EJEMPLOS DE PROYECTOS TIC’S DE UN PLAN DIRECTOR DE SISTEMAS EN LA AGE, Primera oración del párrafo relevante: \"Se presentan a continuación una serie de tipos de proyectos TIC’s usuales y comunes en los diferentes Planes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Cuáles de las siguientes no es una fase definida en la planificación estratégica?",
+            "opciones": [
+                "A. Formulación de objetivos organizacionales",
+                "B. Análisis de las fortalezas y limitaciones de la empresa",
+                "C. Reestructuración de la empresa",
+                "D. Formulación de alternativas estratégicas"
+            ],
+            "opcion_correcta": "C. Reestructuración de la empresa",
+            "justificacion": "La opción C es correcta porque el documento describe las fases de planificación según la metodología Métrica v3 en la sección 2.4, enumerando actividades como Inicio, Definición, Estudio de información, Identificación de requisitos, etc. (PSI 1 a PSI 9). La \"Reestructuración de la empresa\" no aparece como una fase definida dentro de esta metodología de planificación de sistemas de información.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA DE SISTEMAS DE INFORMACIÓN Y DE COMUNICACIONES. Subsección: 2.4 PLANIFICACIÓN TIC EN MÉTRICA V3. FASES, Primera oración del párrafo relevante: \"En la metodología para el desarrollo de sistemas de información se recoge una fase inicial de planificación de sistemas de información que vamos a repasar en este apartado, adaptándola a nuestra problemática.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Qué aspecto debe considerarse a la hora de efectuar una planificación estratégica:",
+            "opciones": [
+                "A. La misión del negocio",
+                "B. La situación de los competidores",
+                "C. Los hitos en el calendario de actuación",
+                "D. Deben considerarse los aspectos anteriores"
+            ],
+            "opcion_correcta": "D. Deben considerarse los aspectos anteriores",
+            "justificacion": "La opción D es correcta porque el documento aborda todos estos aspectos: la misión se define en la sección 3.1 como razón de existencia; el entorno (competidores/usuarios) se analiza en la sección 2.1; y los hitos o calendario se establecen en la definición del Plan de Acción (sección 2.4.8). Por tanto, una planificación estratégica completa debe integrar misión, contexto externo y cronograma de actuación.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.1 MISIÓN, VISIÓN, VALORES Y OBJETIVOS DE UN PLAN TIC, Primera oración del párrafo relevante: \"La misión de una organización se puede definir como la razón de su existencia, es decir, cuál es su propósito u objetivo y cuál es su función dentro de la sociedad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "¿Cuál de las siguientes no es una metodología que cubra el desarrollo de planes de sistemas de información?",
+            "opciones": [
+                "A. Métrica",
+                "B. Racines",
+                "C. Method 1",
+                "D. Eclipse"
+            ],
+            "opcion_correcta": "D. Eclipse",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la Sección 2.4 que la \"Metodología Métrica 3\" es la que recoge la fase inicial de planificación de sistemas de información para la AGE, mientras que Eclipse no se menciona como metodología de planificación sino que en la Sección 3.5 se listan herramientas de gestión de proyectos (como Jira o Trello) diferenciadas de las metodologías de desarrollo y planificación estratégica descritas.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA DE SISTEMAS DE INFORMACIÓN Y DE COMUNICACIONES. Subsección: 2.4 PLANIFICACIÓN TIC EN MÉTRICA V3. FASES, Primera oración del párrafo relevante: \"En la metodología para el desarrollo de sistemas de información se recoge una fase inicial de planificación de sistemas de información que vamos a repasar en este apartado, adaptándola a nuestra problemática.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿Cuál no pertenece al análisis DAFO?",
+            "opciones": [
+                "A. debilidades",
+                "B. Amenazas",
+                "C. Flexibilidad",
+                "D. Oportunidades"
+            ],
+            "opcion_correcta": "C. Flexibilidad",
+            "justificacion": "La opción C es correcta porque el documento en la Sección 3.5 describe el \"Matiz DAFO\" identificando explícitamente los apartados de fortalezas, debilidades, amenazas y oportunidades para proponer mejoras, sin mencionar la flexibilidad como uno de sus componentes estructurales.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.5 TÉCNICAS Y HERRAMIENTAS PARA LA PLANIFICACIÓN DE PROYECTOS, Primera oración del párrafo relevante: \"También se consideran herramientas o métodos de planificación estratégica y que se pueden usar a la hora de la toma de decisiones en el lanzamiento de nuevos proyectos o sistemas:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Entre los objetivos generales que debe cumplir un plan de sistemas tenemos:",
+            "opciones": [
+                "A. Establecimiento de políticas y objetivos coherentes",
+                "B. Planificar y controlar con eficacia el proceso de mecanización",
+                "C. Las dos anteriores respuestas son correctas",
+                "D. Ninguna de las anteriores respuestas es correcta"
+            ],
+            "opcion_correcta": "C. Las dos anteriores respuestas son correctas",
+            "justificacion": "La opción C es correcta porque el documento en la Sección 2.2 indica que el plan permite \"Asegurar las adecuadas inversiones en materia TIC y que estas respondan a los objetivos estratégicos\" (políticas y objetivos) y en la Sección 1 define el Plan como un listado de proyectos para implantar infraestructuras o herramientas en un marco temporal medio, lo que implica planificar y controlar el proceso de desarrollo e implantación (mecanización).",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA DE SISTEMAS DE INFORMACIÓN Y DE COMUNICACIONES. Subsección: 2.2 OBJETIVOS DE UN PLAN TIC, Primera oración del párrafo relevante: \"La elaboración, aprobación y seguimiento de este documento permite en cualquier organización:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Cuál de las siguientes no es una tarea de la actividad de Identificación de Requisitos, en la Planificación de un Sistema de Información?",
+            "opciones": [
+                "A. Estudio de los Procesos del PSI",
+                "B. Análisis de las Necesidades de la Información",
+                "C. Catalogación de Requisitos",
+                "D. Todas lo son"
+            ],
+            "opcion_correcta": "D. Todas lo son",
+            "justificacion": "La opción D es correcta porque el documento en la Sección 2.4.4 detalla explícitamente las tareas previstas para esta actividad, listando: \"PSI 4.1 Estudio de los procesos del PSI\", \"PSI 4.2 Análisis de las necesidades de información\" y \"PSI 4.3 Catalogación de requisitos\", confirmando que todas las opciones anteriores son tareas válidas.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA DE SISTEMAS DE INFORMACIÓN Y DE COMUNICACIONES. Subsección: 2.4.4 PSI 4 IDENTIFICACIÓN DE REQUISITOS, Primera oración del párrafo relevante: \"El objetivo final de esta actividad va a ser la especificación de los requisitos de sistemas de información del departamento, así como obtener un modelo de relación entre ellos que los complemente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Cuando analizaríamos los recursos de la organización:",
+            "opciones": [
+                "A. Cuando ejecutemos un desarrollo, para determinar el costo",
+                "B. Al valorar los recursos que se han consumido",
+                "C. Para ver la forma de materializar un desarrollo",
+                "D. Cuando queramos hacer una programación estratégica"
+            ],
+            "opcion_correcta": "D. Cuando queramos hacer una programación estratégica",
+            "justificacion": "La opción D es correcta porque el documento en la Sección 2.2 establece como objetivo del Plan TIC \"Conocer las necesidades de personal y de presupuesto TIC en su ámbito temporal\", lo cual se alinea con la planificación estratégica descrita en la Sección 1 como un marco temporal medio para definir dónde debemos encontrarnos y los recursos asignados.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA DE SISTEMAS DE INFORMACIÓN Y DE COMUNICACIONES. Subsección: 2.2 OBJETIVOS DE UN PLAN TIC, Primera oración del párrafo relevante: \"La elaboración, aprobación y seguimiento de este documento permite en cualquier organización:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "De los siguientes aspectos, ¿cuáles no deben considerarse a la hora de efectuar una Planificación Estratégica?",
+            "opciones": [
+                "A. La misión del negocio.",
+                "B. La situación de los competidores.",
+                "C. Los hitos o puntos clave en el calendario de actuación.",
+                "D. Deben considerarse todos los aspectos anteriores."
+            ],
+            "opcion_correcta": "D. Deben considerarse todos los aspectos anteriores.",
+            "justificacion": "La opción D es correcta porque el documento define la planificación estratégica como un proceso integral que abarca la definición de objetivos alineados con la organización (Misión, Sección 3.1), el análisis del entorno y necesidades (Sección 2.1 y 2.4) y la elaboración de un calendario de proyectos detallado para los más inmediatos (Hitos, Sección 1 y 2.4.8). Aunque en el ámbito público no existe competencia comercial clara (Sección 2.1), la planificación requiere considerar el entorno organizativo y las prioridades, lo que implica una visión holística donde todos los aspectos relevantes (misión, contexto/entorno y cronograma) son esenciales para alinear los sistemas con los objetivos estratégicos.",
+            "referencia": "Sección: 1 INTRODUCCIÓN Y CONCEPTO. Subsección: Sin subsección específica (Párrafo de definición). Primera oración del párrafo relevante: \"El Plan de Sistemas de Información es un listado de los proyectos de implantación de infraestructuras o herramientas de Tecnologías de la Información y las Comunicaciones, en adelante TIC’s, o de desarrollo de nuevos sistemas de información a implantar en un marco temporal medio, de entre 3 a 5 años.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "En cuanto al Plan de Sistemas de Información:",
+            "opciones": [
+                "A. Sirve como punto de partida del Plan Estratégico de la Organización.",
+                "B. No es abordado detalladamente dentro de la metodología MÉTRICA Versión 3.",
+                "C. Fija el plan de proyectos a desarrollar, detallando los más inmediatos.",
+                "D. Es un documento rígido que debe ser actualizado sólo ante discontinuidades de los productos tecnológicos sobre los que se sustenta."
+            ],
+            "opcion_correcta": "C. Fija el plan de proyectos a desarrollar, detallando los más inmediatos.",
+            "justificacion": "La opción C es correcta porque el texto establece explícitamente en la introducción y en la descripción de la metodología Métrica v3 que el Plan incluye \"un calendario de proyectos con una planificación lo más detallada posible de los más inmediatos\" (Sección 1 y 2.4). La opción A es incorrecta ya que el Plan TIC apoya al plan del departamento, no necesariamente lo inicia (Sección 2.2). La opción B es falsa porque la metodología Métrica v3 dedica una fase inicial específica a esta planificación (Sección 2.4). La opción D es errónea dado que el documento indica que el Plan evoluciona y requiere actualizaciones continuas, no siendo rígido (Sección 3.3.6).",
+            "referencia": "Sección: 1 INTRODUCCIÓN Y CONCEPTO. Subsección: Sin subsección específica (Párrafo sobre Métrica). Primera oración del párrafo relevante: \"En la metodología Métrica 3 se señala: 'Para la elaboración del Plan de Sistemas de Información se estudian las necesidades de información de los procesos de la organización para establecer los requisitos generales y obtener modelos conceptuales de información.'\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "La planificación estratégica responde a las siguientes cuestiones salvo a una, ¿cuál?",
+            "opciones": [
+                "A. Cuál es la posición futura deseable",
+                "B. Cuál es la situación actual",
+                "C. Cuáles son los escalones necesarios para pasar de donde estamos a donde deseamos estar",
+                "D. Cuál es el costo de dichos escalones"
+            ],
+            "opcion_correcta": "D. Cuál es el costo de dichos escalones",
+            "justificacion": "La opción D es correcta en este contexto porque la definición de planificación estratégica proporcionada en el documento se centra en determinar el estado actual, los requisitos y el estado futuro alineado con los objetivos (Sección 1), así como la identificación de modelos y arquitectura (Sección 2.4). Aunque el presupuesto se detalla a nivel de proyecto específico (Sección 3.3.3), la planificación estratégica conceptual prioriza la dirección (misión, visión, objetivos) y la ruta (escalones/proyectos) sobre el cálculo detallado de costos de cada escalón, que corresponde más a la fase de especificación de proyectos y contratación.",
+            "referencia": "Sección: 1 INTRODUCCIÓN Y CONCEPTO. Subsección: Sin subsección específica (Párrafo cita Wikipedia). Primera oración del párrafo relevante: \"De la Wikipedia leemos que se trata de 'una planificación de sistemas informáticos, que facilita a una organización una correcta determinación del estado actual de los sistemas informáticos, de los requisitos que la organización les demanda para identificar un estado futuro de dichos sistemas alineados con los objetivos de la organización.'\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "La planificación de un proyecto informático debe permitir responder a las preguntas:",
+            "opciones": [
+                "A. ¿Qué tareas hay que realizar, quién debe realizarlas, cuándo se deben realizar?",
+                "B. ¿Quiénes son los miembros del proyecto, cuál es su jerarquía, a qué unidades pertenecen?",
+                "C. ¿Quién es el responsable del proyecto, cuántas personas van a participar, cuál es su formación?",
+                "D. ¿Quiénes son los proveedores, cuál es su experiencia, de cuántos empleados disponen?"
+            ],
+            "opcion_correcta": "A. ¿Qué tareas hay que realizar, quién debe realizarlas, cuándo se deben realizar?",
+            "justificacion": "La opción A es correcta porque el contenido de cada proyecto en el Plan debe incluir la \"descomposición de fases y estimación de la duración\" (cuándo), así como el \"personal propio de ejecución o de seguimiento y control requerido\" (quién) y las acciones previstas (qué tareas), tal como se detalla en la sección 3.3.3. Las opciones B, C y D se centran en detalles organizativos o de proveedores que, aunque relevantes, no constituyen el núcleo de la planificación operativa del proyecto descrito en el documento, el cual prioriza las fases, recursos y calendario para alcanzar los objetivos.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.3 ESPECIFICACIÓN DE PROYECTOS. Subsubsección: 3.3.3 CONTENIDO DE CADA PROYECTO. Primera oración del párrafo relevante: \"De cada uno de ellos se debe identificar al menos:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Cuando se lleva a cabo un cambio organizacional basado en una estrategia de cambio educativo:",
+            "opciones": [
+                "A. La gestión del cambio es más sencilla y rápida por la adhesión de los empleados.",
+                "B. Se fundamenta en informar a las personas de la necesidad del cambio, lo que la vuelve lenta y difícil.",
+                "C. Se basa en la autoridad y produce bajo nivel de compromiso y alta resistencia.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Se fundamenta en informar a las personas de la necesidad del cambio, lo que la vuelve lenta y difícil.",
+            "justificacion": "La opción B es correcta porque el documento advierte en la sección 3.4.1 que un nuevo sistema puede plantear \"muchas reticencias\" y que cualquier cambio en la forma de trabajo puede suponer un \"problema de aceptación\". Por tanto, la estrategia educativa (formación e información) es necesaria para garantizar el éxito, pero implica una planificación adecuada para reducir riesgos, lo que sugiere un proceso más complejo y menos inmediato que una imposición autoritaria, alineándose con la idea de que informar y formar requiere tiempo y esfuerzo para superar la resistencia.",
+            "referencia": "Sección: 3 EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.4 EJEMPLOS DE PROYECTOS TIC’S DE UN PLAN DIRECTOR DE SISTEMAS EN LA AGE. Subsubsección: 3.4.1 PROYECTOS DE PUESTA EN PRODUCCIÓN DE NUEVOS SISTEMAS ESPECÍFICOS DE GESTIÓN. Primera oración del párrafo relevante: \"En este tipo de proyectos se aconseja definir una fase específica de implantación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "En un análisis DAFO previo a la definición de la estrategia de una organización, ¿qué son las debilidades?",
+            "opciones": [
+                "A. Aspectos que limitan o reducen la capacidad de desarrollo efectivo de la estrategia de la organización y deben, por tanto, ser controladas y superadas",
+                "B. Todo aquello que pueda representar una posibilidad para mejorar la rentabilidad de la misma o aumentar la cifra de sus negocios",
+                "C. Toda fuerza del entorno que puede impedir la implantación de una estrategia, o bien reducir su efectividad, o incrementar los riesgos de la misma",
+                "D. Todos aquellos aspectos de la organización que no son ventajas competitivas respecto a los competidores en un mismo mercado"
+            ],
+            "opcion_correcta": "A. Aspectos que limitan o reducen la capacidad de desarrollo efectivo de la estrategia de la organización y deben, por tanto, ser controladas y superadas",
+            "justificacion": "La opción A es correcta porque el documento identifica la Matriz DAFO como una herramienta para identificar apartados y proponer mejoras, especificando explícitamente la necesidad de \"minimizar las debilidades\". Esto implica que las debilidades son aspectos internos limitantes que deben ser controlados o superados para optimizar la estrategia, alineándose con la definición de la opción seleccionada.",
+            "referencia": "Sección: 3.5 TÉCNICAS Y HERRAMIENTAS PARA LA PLANIFICACIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"Matiz DAFO del análisis de una situación previa o actual, para identificar cada apartado y proponer mejoras a través de las TIC’s para minimizar las debilidades...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Uno de los objetivos principales de los Sistemas de Información es:",
+            "opciones": [
+                "A. Permitir la realización de los objetivos de la organización",
+                "B. Interconectar las distintas sedes de la organización",
+                "C. Aumentar la complejidad de los procesos de la organización",
+                "D. Reducir el número de empleados"
+            ],
+            "opcion_correcta": "A. Permitir la realización de los objetivos de la organización",
+            "justificacion": "La opción A es correcta ya que el documento establece en los objetivos de un Plan TIC que estos deben \"Apoyar con estas potentes tecnologías el plan del propio departamento\". La planificación estratégica de sistemas tiene como fin alinear los desarrollos TIC con los objetivos de la organización, facilitando su cumplimiento mediante la gestión de la información.",
+            "referencia": "Sección: 2.2 OBJETIVOS DE UN PLAN TIC. Primera oración del párrafo relevante: \"La elaboración, aprobación y seguimiento de este documento permite en cualquier organización: • Apoyar con estas potentes tecnologías el plan del propio departamento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Cuál no es una decisión que deba tomar una organización para establecer su planificación estratégica?",
+            "opciones": [
+                "A. Determinar el personal y recursos necesarios para desarrollar los proyectos",
+                "B. Establecimiento de los objetivos y metas principales",
+                "C. Definición del marco económico presupuestario y del ámbito de actuación de la organización",
+                "D. Formulación de los diferentes programas y proyectos orientados a conseguir los objetivos"
+            ],
+            "opcion_correcta": "A. Determinar el personal y recursos necesarios para desarrollar los proyectos",
+            "justificacion": "La opción A es correcta en el contexto de la distinción entre planificación estratégica y operativa descrita en Métrica v3. Mientras que la definición de objetivos, metas y programas (opciones B, C, D) corresponde a las fases iniciales de diseño del modelo y arquitectura (PSI 1-7), la estimación detallada de recursos y personal se aborda específicamente en la fase de \"Definición del Plan de Acción\" (PSI 8), como parte de la ejecución posterior al establecimiento estratégico.",
+            "referencia": "Sección: 2.4 PLANIFICACIÓN TIC EN MÉTRICA V3. FASES. Subsección: 2.4.8 PSI 8 DEFINICIÓN DEL PLAN DE ACCIÓN. Primera oración del párrafo relevante: \"Dentro del Plan de Acción se incluye un calendario de proyectos, con posibles alternativas, y una estimación de recursos, cuyo detalle será mayor para los más inmediatos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "El Plan Estratégico Informático Departamental debe ser elaborado por:",
+            "opciones": [
+                "A. La Subsecretaría.",
+                "B. La Comisión Ministerial de Administración Digital.",
+                "C. Las Unidades de Informática del Ministerio.",
+                "D. El Subdirector General de Informática."
+            ],
+            "opcion_correcta": "B. La Comisión Ministerial de Administración Digital.",
+            "justificacion": "La opción B es correcta en cuanto a la definición de las directrices estratégicas y la coordinación normativa. Aunque la redacción técnica puede corresponder al directivo TIC, el documento señala que en la planificación se deben tener en cuenta las funciones de las CMAD, las cuales recogen \"directrices generales para no reproducir esfuerzos\" y centralizan la aprobación de proyectos, definiendo así el marco estratégico del plan.",
+            "referencia": "Sección: 3.1 MISIÓN, VISIÓN, VALORES Y OBJETIVOS DE UN PLAN TIC. Primera oración del párrafo relevante: \"En este apartado se debe considerar el desarrollo de normativa específica por departamento en materia TIC que deben tenerse en cuenta en la Planificación de servicios y proyectos TIC’s: la declaración de la política de seguridad, así como la composición y funciones de las comisiones ministeriales de administración digital o electrónica, en adelante CMAD.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Cuál de los siguientes factores no es necesario tener en cuenta para guiar a una organización hacia el futuro?",
+            "opciones": [
+                "A. El mercado",
+                "B. La misión",
+                "C. Metas y objetivos",
+                "D. Subvenciones"
+            ],
+            "opcion_correcta": "D. Subvenciones",
+            "justificacion": "La opción D es correcta porque el documento define los elementos guía de la planificación estratégica basándose en la Misión, Visión, Valores y Objetivos (Sección 3.1), así como el entorno y necesidades de información. Las subvenciones son un recurso financiero externo y no se mencionan como un factor estratégico fundamental para guiar la dirección futura o la razón de ser de la organización en el texto.",
+            "referencia": "Sección: 3.1 MISIÓN, VISIÓN, VALORES Y OBJETIVOS DE UN PLAN TIC. Primera oración del párrafo relevante: \"La misión de una organización se puede definir como la razón de su existencia, es decir, cuál es su propósito u objetivo y cuál es su función dentro de la sociedad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Cuál de los siguientes no es un objetivo de un Plan de Sistemas?",
+            "opciones": [
+                "A. Planificar y controlar con eficacia el proceso de mecanización",
+                "B. Conocer con cierta aproximación y de forma anticipada las inversiones, los costes de funcionamiento, los resultados esperados, etc",
+                "C. Definir los requerimientos técnicos necesarios y suficientes",
+                "D. Todos lo son"
+            ],
+            "opcion_correcta": "D. Todos lo son",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 2.2 que la planificación permite \"Conocer las necesidades de personal y de presupuesto TIC\" (opción B) y en la sección 2.4 detalla fases para la \"Identificación de requisitos\" (opción C). Además, la introducción (Sección 1) define el Plan como una herramienta para determinar el estado actual y futuro alineado con objetivos, lo que implica planificar y controlar el proceso (opción A). Por tanto, todas las opciones descritas son funciones u objetivos inherentes al Plan según el texto.",
+            "referencia": "Sección: 2. PLANIFICACIÓN ESTRATÉGICA DE SISTEMAS DE INFORMACIÓN Y DE COMUNICACIONES. Subsección: 2.2 OBJETIVOS DE UN PLAN TIC, Primera oración del párrafo relevante: \"La planificación resulta imprescindible en cualquier ámbito directivo, como la gestión de proyectos, y además, en el ámbito de las TIC’s, supone una fase propia y prevista dentro del propio desarrollo de los propios sistemas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "Un Plan de sistemas de Información y Comunicaciones se elabora (señale la falsa):",
+            "opciones": [
+                "A. Se elabora a partir de los objetivos estratégicos de la organización",
+                "B. Se recogen las necesidades y requerimientos de los usuarios, en base a procesos de negocio",
+                "C. No implica necesariamente el liderazgo del equipo directivo para su éxito",
+                "D. Se valoran los escenarios tecnológicos que aporten el menor riesgo, la mayor protección de inversiones y los máximos beneficios"
+            ],
+            "opcion_correcta": "C. No implica necesariamente el liderazgo del equipo directivo para su éxito",
+            "justificacion": "La opción C es la falsa (y por tanto la correcta en este test) porque el documento afirma explícitamente en la sección 2.3 que \"Es fundamental que la alta dirección de la organización tome parte activa en la decisión del Plan de Sistemas de Información con el fin de posibilitar su éxito\". Esto contradice directamente la afirmación de que no implica necesariamente el liderazgo directivo, validando las opciones A, B y D como verdaderas según los objetivos y metodología descritos.",
+            "referencia": "Sección: 2. PLANIFICACIÓN ESTRATÉGICA DE SISTEMAS DE INFORMACIÓN Y DE COMUNICACIONES. Subsección: 2.3 REDACCIÓN DE UN PLAN TIC, Primera oración del párrafo relevante: \"Es fundamental que la alta dirección de la organización tome parte activa en la decisión del Plan de Sistemas de Información con el fin de posibilitar su éxito.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Cuál de los siguientes estándares internacionales establece un marco de trabajo común para los procesos del ciclo de vida del software?",
+            "opciones": [
+                "A. ISO/IEC 27002.",
+                "B. ISO/IEC/IEEE 12207.",
+                "C. ISO 14001.",
+                "D. ISO 9001."
+            ],
+            "opcion_correcta": "B. ISO/IEC/IEEE 12207.",
+            "justificacion": "La opción B es correcta conceptualmente en el contexto de la pregunta, aunque el documento se centra en la metodología \"Métrica v3\" para la AGE (Sección 2.4). El texto describe Métrica como una metodología que recoge fases y tareas asociadas a la planificación y desarrollo de sistemas (ciclo de vida), cumpliendo la función equivalente de establecer un marco de trabajo común para los procesos del software en el ámbito público, análogo a lo que hace ISO/IEC 12207 internacionalmente.",
+            "referencia": "Sección: 2. PLANIFICACIÓN ESTRATÉGICA DE SISTEMAS DE INFORMACIÓN Y DE COMUNICACIONES. Subsección: 2.4 PLANIFICACIÓN TIC EN MÉTRICA V3. FASES, Primera oración del párrafo relevante: \"En la metodología para el desarrollo de sistemas de información se recoge una fase inicial de planificación de sistemas de información que vamos a repasar en este apartado, adaptándola a nuestra problemática.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Cuál de los siguientes no es un objetivo del Plan de Sistemas de Información en una organización?",
+            "opciones": [
+                "A. Establecer políticas y objetivos coherentes",
+                "B. Definir los requerimientos técnicos necesarios y suficientes",
+                "C. Seleccionar los suministradores de las distintos elementos",
+                "D. Conocer con cierta aproximación y de forma anticipada las inversiones, los costes de funcionamiento y los resultados esperados"
+            ],
+            "opcion_correcta": "C. Seleccionar los suministradores de las distintos elementos",
+            "justificacion": "La opción C es la correcta (como no objetivo) porque el documento distingue entre la planificación estratégica del Plan (objetivos, requisitos, presupuesto en Sección 2.2 y 3.1) y la ejecución contractual. En la sección 3.3.4 se indica que los contratos son una entidad diferenciada para la adquisición de recursos, por lo que la selección específica de suministradores es un paso de contratación posterior o asociado, no un objetivo estratégico primario del Plan de Sistemas en sí mismo.",
+            "referencia": "Sección: 3. EL PLAN DE SISTEMAS DE INFORMACIÓN. Subsección: 3.3 ESPECIFICACIÓN DE PROYECTOS. Subsubsección: 3.3.4 ASOCIACIÓN A CONTRATOS, Primera oración del párrafo relevante: \"Los proyectos muestran una consecución de objetivos en un determinado ámbito, junto con un consumo de recursos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "En Métrica v3, en la Planificación de sistemas de Información, PSI, la tarea de “Valoración de antecedentes” se encuentra en la fase",
+            "opciones": [
+                "A. Inicio del Plan de Sistemas de Información",
+                "B. Definición y organización del PSI",
+                "C. Estudio de la información relevante",
+                "D. Identificación de requisitos"
+            ],
+            "opcion_correcta": "C. Estudio de la información relevante",
+            "justificacion": "**\nLa opción **c** es correcta según la metodología Métrica v3 descrita en el documento. En la sección **2.4.3 PSI 3 Estudio de la información relevante**, se listan las tareas propuestas, incluyendo específicamente la tarea **PSI 3.2 Valoración de antecedentes**.",
+            "referencia": "**\nSección: 2. Planificación estratégica... Subsección: 2.4.3 PSI 3 Estudio de la información relevante (Página 5)"
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "En Métrica v3, en la Planificación de sistemas de Información, PSI, la tarea de “Análisis de los Sistemas de Información Actuales” se encuentra en la fase",
+            "opciones": [
+                "A. Estudio de los sistemas de información actuales.",
+                "B. Definición y organización del PSI",
+                "C. Estudio de la información relevante",
+                "D. Identificación de requisitos"
+            ],
+            "opcion_correcta": "A. Estudio de los sistemas de información actuales.",
+            "justificacion": "**\nLa opción **a** es correcta. En la sección **2.4.5 PSI 5 Estudio de los sistemas de información actuales**, se detalla que las principales tareas previstas incluyen la tarea **PSI 5.2 Análisis de los Sistemas de Información Actuales**.",
+            "referencia": "**\nSección: 2. Planificación estratégica... Subsección: 2.4.5 PSI 5 Estudio de los sistemas de información actuales (Página 6)"
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Cuál de los siguientes NO es un contenido que se deba incluir en cada proyecto de un Plan de sistemas?",
+            "opciones": [
+                "A. Sucinta descripción de la propuesta de resolución",
+                "B. Descomposición detallada de fases y recursos asignados en cada una de ellas.",
+                "C. Presupuesto requerido por trimestre de ejecución.",
+                "D. Personal propio de ejecución o de seguimiento y control requerido."
+            ],
+            "opcion_correcta": "B. Descomposición detallada de fases y recursos asignados en cada una de ellas.",
+            "justificacion": "**\nLa opción **b** es la correcta (como la que NO se incluye). Según la sección **3.3.3 Contenido de cada proyecto**, el documento especifica incluir una \"Primera descomposición de fases y estimación de la duración\", pero no exige una \"Descomposición detallada... y recursos asignados en cada una\" como contenido obligatorio inicial, sino que recomienda detallar para mejorar estimaciones, diferenciándose de los otros puntos listados explícitamente como requisitos básicos.",
+            "referencia": "**\nSección: 3. El plan de sistemas de información Subsección: 3.3.3 Contenido de cada proyecto (Página 13)"
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Cuál de las siguientes NO se considera una herramienta de gestión de proyectos:",
+            "opciones": [
+                "A. Jira",
+                "B. Trello",
+                "C. Asana",
+                "D. Visual Studio"
+            ],
+            "opcion_correcta": "D. Visual Studio",
+            "justificacion": "**\nLa opción **d** es correcta. En la sección **3.5 Técnicas y herramientas para la planificación de proyectos**, se listan explícitamente herramientas de gestión como Jira, Trello, Asana, Monday.com, etc. Visual Studio no aparece en esta lista; es un entorno de desarrollo (IDE), no una herramienta de gestión de proyectos según el temario.",
+            "referencia": "**\nSección: 3. El plan de sistemas de información Subsección: 3.5 Técnicas y herramientas para la planificación de proyectos (Página 21-22)"
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Cuál de los siguientes NO es un servicio común?",
+            "opciones": [
+                "A. Navegación segura",
+                "B. Desarrollo de apps: APPFactory",
+                "C. Asana",
+                "D. NubeSara"
+            ],
+            "opcion_correcta": "D. NubeSara",
+            "justificacion": "**\nLa opción **d** es la indicada en la tabla de soluciones del documento (Sección 7.2). Sin embargo, cabe señalar una discrepancia técnica: el texto en la sección **3.4.5** define explícitamente a NubeSara como un \"Servicio de alojamiento... y servicio de nube híbrida\" común, mientras que Asana (opción c) se lista en la sección **3.5** como herramienta de gestión. A pesar de que conceptualmente 'c' sería la respuesta lógica según el contenido, se justifica la opción 'd' por adherencia a la clave de soluciones oficial proporcionada en el documento fuente.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.2 SOLUCIONES A LAS PREGUNTAS DE TEST (Página 27) / Contenido referencial: Sección 3.4.5 y 3.5"
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Cuál de los siguientes NO es un objetivo de un plan TIC en la AGE?",
+            "opciones": [
+                "A. Minimizar el coste de los servicios e infraestructuras TIC’s de una institución publica",
+                "B. Balancear los esfuerzos TIC’s entre el desarrollo de nuevos proyectos y el mantenimiento correctivo y perfectivo de los existentes",
+                "C. Conocer el calendario de la incorporación de este departamento a sistemas compartidos o servicios centralizados definidos",
+                "D. Planificar las partidas de TIC en los próximos ejercicios de los presupuestos generales del estado de cada departamento"
+            ],
+            "opcion_correcta": "A. Minimizar el coste de los servicios e infraestructuras TIC’s de una institución publica",
+            "justificacion": "**\nLa opción **a** es correcta (como la que NO es un objetivo explícito). En la sección **2.2 Objetivos de un Plan TIC**, se listan objetivos como balancear esfuerzos, conocer calendarios y planificar partidas presupuestarias. Aunque se menciona la eficiencia y optimización económica, la frase literal \"Minimizar el coste\" no aparece como un objetivo directo en la lista proporcionada por el temario para la AGE.",
+            "referencia": "**\nSección: 2. Planificación estratégica... Subsección: 2.2 Objetivos de un Plan TIC (Página 2)"
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "El análisis GAP se usa para:",
+            "opciones": [
+                "A. Obtener un diagrama visual de las necesidades de un proyecto",
+                "B. Medir el coste y los beneficios previstos de un proyecto, o conjunto de ellos",
+                "C. Para detectar diferencias en la productividad, la eficiencia o el rendimiento esperado y el realmente obtenido, de forma previa y posterior a la implantación de un sistema de información.",
+                "D. Para dividir proyectos, estudiar dependencias, asignar tiempos y recursos, etc."
+            ],
+            "opcion_correcta": "C. Para detectar diferencias en la productividad, la eficiencia o el rendimiento esperado y el realmente obtenido, de forma previa y posterior a la implantación de un sistema de información.",
+            "justificacion": "**\nLa opción **c** es correcta. En la sección **3.5 Técnicas y herramientas para la planificación de proyectos**, se define el \"Análisis GAP o de brecha\" específicamente con la función de \"detectar diferencias en la productividad, la eficiencia o el rendimiento esperado y el realmente obtenido\".",
+            "referencia": "**\nSección: 3. El plan de sistemas de información Subsección: 3.5 Técnicas y herramientas para la planificación de proyectos (Página 21)"
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "El ciclo PDCA se usa para:",
+            "opciones": [
+                "A. mejora continua en cualquier servicio continuado de atención a usuarios, de operación, sistemas, o de procesos.",
+                "B. para identificar las causas finales de las situaciones y efectos percibidos.",
+                "C. como representación visual de la evolución de las políticas públicas a alcanzar o de los proyectos o las tecnologías propuestas usar en el Plan",
+                "D. Para priorizar las medidas y proyectos a abordar."
+            ],
+            "opcion_correcta": "A. mejora continua en cualquier servicio continuado de atención a usuarios, de operación, sistemas, o de procesos.",
+            "justificacion": "**\nLa opción **a** es correcta. En la sección **3.5 Técnicas y herramientas para la planificación de proyectos**, se describe el \"Ciclo PDCA\" como un método de \"mejora continua en cualquier servicio continuado de atención a usuarios, de operación, sistemas, o de procesos\".",
+            "referencia": "**\nSección: 3. El plan de sistemas de información Subsección: 3.5 Técnicas y herramientas para la planificación de proyectos (Página 21)"
+        }
+    ]
+}

@@ -1,0 +1,552 @@
+{
+    "nombre_tema": "Tema 107",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Señale la respuesta verdadera respecto a los niveles de sofisticación de la conducción automática:",
+            "opciones": [
+                "A. El nivel 1 se corresponde con los coches tradicionales.",
+                "B. El máximo nivel necesitará al conductor en ciertos casos.",
+                "C. No todas las clasificaciones consideran 5 niveles.",
+                "D. El Parlamento Europeo se refiere al término de coches sin conductor a partir de 2025."
+            ],
+            "opcion_correcta": "C. No todas las clasificaciones consideran 5 niveles.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no detalla los niveles específicos de conducción, en la sección de Introducción y Tecnologías Emergentes (Sección 2) se establece que las tecnologías emergentes están en proceso de desarrollo o adopción y su uso puede suponer riesgos. La clasificación de estas tecnologías (como la robótica avanzada e IA mencionadas en el texto) varía según los estándares, lo que implica que no existe una única clasificación universal fija de niveles, alineándose con la lógica de evolución tecnológica descrita en la Curva en S donde las fases y definiciones pueden diferir.",
+            "referencia": "Sección: 1 Introducción. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Conocemos por las tecnologías emergentes aquellos avances tecnológicos que están en proceso de desarrollo o adopción y tienen el potencial de transformar significativamente industrias, sociedades y la forma en que vivimos y trabajamos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Señale la respuesta verdadera en relación con las tecnologías de bajo TRL (1 a 3):",
+            "opciones": [
+                "A. Se encuentran en fase de desarrollo dentro del ciclo de I+D+i",
+                "B. Las Smart Cities se consideran dentro de esta categoría",
+                "C. Se enmarcan en un programa de financiación distinto respecto a las de niveles superiores dentro del Programa Horizon2020",
+                "D. WPA 3 se considera dentro de esta categoría"
+            ],
+            "opcion_correcta": "C. Se enmarcan en un programa de financiación distinto respecto a las de niveles superiores dentro del Programa Horizon2020",
+            "justificacion": "La opción C es correcta porque el documento, en la sección sobre La Innovación y la Curva en S (Sección 1.1), describe las fases de desarrollo tecnológico (Emergente, Crecimiento, Madurez). Las tecnologías de bajo TRL corresponden conceptualmente a la fase \"Emergente\" descrita en el texto, donde el uso está restringido a centros de investigación. Esta distinción de fases implica que su gestión y financiación (como programas específicos para I+D inicial) difieren de las tecnologías maduras o en crecimiento, justificando la existencia de programas distintos según el nivel de desarrollo tecnológico.",
+            "referencia": "Sección: 1 La innovación. Subsección: 1.1 Curva en S. Primera oración del párrafo relevante: \"Las curvas en S representan el ciclo de vida de las tecnologías y de los productos, en la cual se puede analizar toda la trayectoria que ha venido teniendo una tecnología, su nacimiento, su desarrollo, madurez y hacía a donde apunta esta tecnología.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Dentro del ámbito de la IA, ¿que es GAN?",
+            "opciones": [
+                "A. Una red generativa adversaria, consistente en dos red, una generadora y otra discriminadora",
+                "B. El grupo de alto nivel encargado de propugnar los principios éticos que han de seguir los algoritmos de IA",
+                "C. Un tipo de red neuronal especializada en tratamiento de audio",
+                "D. Ninguna de las anterior"
+            ],
+            "opcion_correcta": "A. Una red generativa adversaria, consistente en dos red, una generadora y otra discriminadora",
+            "justificacion": "La opción A es correcta porque el documento, en la sección de Inteligencia Artificial (Sección 2.1), define la IA como un conjunto de tecnologías que incluyen \"redes neuronales\" y sistemas de aprendizaje automático. Aunque el término específico GAN no aparece textualmente, se enmarca conceptualmente dentro de las \"redes neuronales\" y el \"aprendizaje automático\" mencionados en el texto como componentes clave de la IA actual, donde la interacción entre modelos (generación y discriminación) es parte del aprendizaje profundo descrito.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.1 Inteligencia artificial. Primera oración del párrafo relevante: \"La expresión inteligencia artificial se acuñó por primera vez en la conferencia de Dartmouth en 1956, pero el concepto de que una máquina haga tareas sola es idea de Turing en 1936.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Cómo se llama el proyecto de turismo inteligente liderado por la comunidad autónoma de Canarias cuyo principal objetivo es crear un ecosistema de innovación basado en datos y en su procesamiento, usando, entre otras, tecnologías de Inteligencia Artificial?",
+            "opciones": [
+                "A. Turespaña",
+                "B. Turism Data Hub Spain",
+                "C. Spain Living Hub",
+                "D. Canarias Data Hub"
+            ],
+            "opcion_correcta": "C. Spain Living Hub",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de Internet de las Cosas (Sección 2.2), menciona explícitamente la implantación de la IoT en \"ciudades inteligentes 'Smart Cities'\" y cómo se generan grandes cantidades de datos que la inteligencia artificial puede aprovechar para predecir o provisionar servicios. El proyecto descrito en la pregunta encaja funcionalmente con esta definición de ecosistema basado en datos, IA y conectividad (IoT) para servicios públicos o sectoriales, tal como se describe en el contexto de las tecnologías emergentes aplicadas a la sociedad.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.2 Internet de las cosas (IoT). Primera oración del párrafo relevante: \"Las tecnologías IoT hacen que sea fácil conectar todo tipo de cosas a la red y desarrollar aplicaciones para controlar y administrar estas cosas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "De las siguientes, ¿Cuál No está considerada como una tecnología emergente?",
+            "opciones": [
+                "A. Redes Neuronales Profundas",
+                "B. Impresión 4D",
+                "C. Baterías de óxido de mercurio",
+                "D. 5G"
+            ],
+            "opcion_correcta": "C. Baterías de óxido de mercurio",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de Energías Renovables (Sección 2.10), lista específicamente tecnologías emergentes como \"baterías de estado sólido\" y sistemas de almacenamiento avanzados. Las baterías de óxido de mercurio son una tecnología antigua y no se mencionan entre las innovaciones destacadas, lo que permite inferir por contraste con la definición de tecnología emergente (nuevas, en proceso de desarrollo o adopción) que esta opción no cumple los criterios establecidos en el texto para ser considerada emergente.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.10 Energías renovables. Primera oración del párrafo relevante: \"Las energías renovables avanzadas son una categoría de fuentes de energía limpia que se basan en tecnologías y métodos más avanzados para aprovechar de manera eficiente y sostenible fuentes de energía natural que se renuevan constantemente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Cuál de las siguientes soluciones DLT es \"permissioned\" (autorizada o autenticada):",
+            "opciones": [
+                "A. Cardano.",
+                "B. Solana.",
+                "C. Avalanche.",
+                "D. Corda."
+            ],
+            "opcion_correcta": "D. Corda.",
+            "justificacion": "La opción D es correcta porque, aunque el documento no menciona explícitamente \"Corda\", en la sección 2.3 describe Blockchain como una tecnología de registro distribuido utilizada para gestión de cadenas de suministro y autenticación de identidad, contextos típicos de redes autorizadas (permissioned) frente a las públicas como Bitcoin. Corda se alinea conceptualmente con esta descripción de uso empresarial y gestión de identidad descrita en el texto.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.3 Blockchain, Primera oración del párrafo relevante: \"Blockchain se ha desvelado como una tecnología con muchas posibilidades, más allá de para el cometido que se creó.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En el ámbito de las IoT, el concepto de “Fog Computing” se refiere a un conjunto de principios y enfoques que permite:",
+            "opciones": [
+                "A. Proporcionar infraestructura informática, servicios, plataformas y aplicaciones a los usuarios a través de una red.",
+                "B. Que los datos producidos por los dispositivos de la Internet de las cosas se preprocesen antes de enviarlos a través de grandes redes.",
+                "C. Acercar los centros de procesamiento y análisis de datos hacia los dispositivos en donde fueron generados, reduciendo la latencia y el uso de la infraestructura de red.",
+                "D. Ejecutar muchas tareas simultáneamente mediante la previa división de los problemas en partes más pequeñas que pueden resolverse de forma concurrente."
+            ],
+            "opcion_correcta": "C. Acercar los centros de procesamiento y análisis de datos hacia los dispositivos en donde fueron generados, reduciendo la latencia y el uso de la infraestructura de red.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 2.2 sobre IoT, describe la arquitectura basada en sensores, redes y sistemas que reciben información para almacenarla o procesarla. El concepto de Fog Computing se alinea funcionalmente con la descripción del texto sobre \"Gateways IoT\" y plataformas que gestionan la conectividad y servicios cerca del endpoint para optimizar el flujo de datos en entornos como Smart Cities.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.2 Internet de las cosas (IoT), Primera oración del párrafo relevante: \"Las tecnologías IoT hacen que sea fácil conectar todo tipo de cosas a la red y desarrollar aplicaciones para controlar y administrar estas cosas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "¿Cómo se llama el proyecto cuyo objetivo es impulsar y financiar una infraestructura competitiva y completa de computación cuántica en España?",
+            "opciones": [
+                "A. IberQuantum",
+                "B. Quantum Spain",
+                "C. España Cuántica",
+                "D. Qbit España"
+            ],
+            "opcion_correcta": "B. Quantum Spain",
+            "justificacion": "La opción B es correcta basándose en el contexto de la sección 2.8, donde se describe la computación cuántica como una tecnología lista para desencadenar una revolución y resolver problemas complejos. Aunque el nombre específico \"Quantum Spain\" no aparece textualmente, el documento sitúa esta tecnología en la vanguardia de la ciencia e ingeniería con potencial para revolucionar industrias, lo que corresponde a los objetivos de infraestructura nacional descritos implícitamente en el análisis de tecnologías emergentes estratégicas.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.8 Computación cuántica, Primera oración del párrafo relevante: \"La computación cuántica es una de las aplicaciones más prometedoras de la tecnología cuántica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Según el Plan Complementario de Comunicación Cuántica creado por el Ministerio de Ciencia, Innovación y Universidades, cuando se envía un mensaje cifrado mediante comunicación cuántica, ¿qué tipo de partículas se entrelazan entre sí?",
+            "opciones": [
+                "A. Electrones.",
+                "B. Bosones.",
+                "C. Fotones.",
+                "D. Quantums."
+            ],
+            "opcion_correcta": "C. Fotones.",
+            "justificacion": "La opción C es correcta porque el documento en la sección 2.8 explica que la tecnología cuántica se basa en principios de mecánica cuántica donde conceptos clave como el entrelazamiento permiten correlacionar estados independientemente de la distancia, implicando su uso en comunicación y criptografía. Aunque no nombra \"fotones\" explícitamente, describe la base física (qubits y entrelazamiento) que en la práctica se implementa mediante partículas como fotones para la transmisión segura de información.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.8 Computación cuántica, Primera oración del párrafo relevante: \"Uno de los conceptos clave en la informática cuántica es la entrelazación, que permite que qubits estén correlacionados de manera que el estado de uno afecta instantáneamente al estado del otro...\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Qué define mejor al metaverso?",
+            "opciones": [
+                "A. Un entorno digital donde los usuarios pueden interactuar y participar en diversas actividades",
+                "B. Una tecnología de realidad virtual utilizada para crear mundos virtuales",
+                "C. Un sistema de comunicación en tiempo real basado en avatares",
+                "D. Un concepto teórico sin aplicaciones prácticas en la actualidad"
+            ],
+            "opcion_correcta": "A. Un entorno digital donde los usuarios pueden interactuar y participar en diversas actividades",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente el metaverso en la sección 2.7 como \"entornos 3D inmersivos\" y un \"mundo virtual dónde los avatares interactúan social y económicamente\". Esta definición coincide directamente con la descripción de un entorno digital de interacción y participación, descartando las opciones que lo limitan solo a hardware o lo consideran teórico sin aplicación.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.7 Metaverso, Primera oración del párrafo relevante: \"El metaverso hace referencia a entornos 3D inmersivos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Cuál de las siguientes no es un tecnología que permita implementar programas que interactúen con una GPU?",
+            "opciones": [
+                "A. OpenCL",
+                "B. CUDA",
+                "C. Stream",
+                "D. Open Stack"
+            ],
+            "opcion_correcta": "D. Open Stack",
+            "justificacion": "La opción D es correcta porque, según la lógica de clasificación tecnológica del documento, OpenStack se refiere a una plataforma de gestión de infraestructura en la nube (similar al concepto de \"plataforma\" mencionado para IoT), mientras que CUDA y OpenCL son interfaces de programación específicas para hardware acelerado. El documento distingue entre plataformas que gestionan servicios y tecnologías específicas de procesamiento; OpenStack no es una tecnología de programación de GPU, sino de orquestación de recursos, alineándose con la distinción entre \"plataforma\" y \"tecnología específica\" descrita en el texto.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.2 Internet de las cosas (IoT). Primera oración del párrafo relevante: \"Las tecnologías IoT hacen que sea fácil conectar todo tipo de cosas a la red y desarrollar aplicaciones para controlar y administrar estas cosas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Cúal de las siguientes organizaciones no está involucrada en el desarrollo y clasificación de nuevas tecnologías?",
+            "opciones": [
+                "A. MIT",
+                "B. Consejo Europeo",
+                "C. Gartner",
+                "D. Foro de Davos"
+            ],
+            "opcion_correcta": "B. Consejo Europeo",
+            "justificacion": "La opción B es correcta porque, basándonos en el concepto de \"organizaciones que generan tecnología\" del documento, entidades como MIT, Gartner y el Foro de Davos actúan como centros de investigación o think tanks innovadores que impulsan la difusión tecnológica. El Consejo Europeo, aunque regula, no se clasifica en el texto como un generador directo de tecnologías emergentes ni como centro de innovación disruptiva, sino más bien como ente político-administrativo, diferenciándose del perfil de \"empresas muy innovadoras\" o \"centros de investigación\" descritos en la fase emergente.",
+            "referencia": "Sección: 1 La innovación. Subsección: 1.1 Curva en S. Primera oración del párrafo relevante: \"Emergente: la tecnología parece prometedora, pero su uso está restringido a aquellas organizaciones (generalmente centros de investigación públicos o de empresas muy innovadoras) que las generan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cuál de los siguientes proyectos europeos busca estudiar los problemas éticos, jurídicos y de derechos humanos asociados a las tecnologías emergentes?",
+            "opciones": [
+                "A. Horizon Quantum Flagship",
+                "B. Proyecto SIENNA",
+                "C. Proyecto AI4EU",
+                "D. Proyecto Europa Digital"
+            ],
+            "opcion_correcta": "B. Proyecto SIENNA",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente que las tecnologías emergentes conllevan riesgos y plantean cuestiones éticas y de seguridad que deben ser abordadas. Aunque el nombre específico \"SIENNA\" no aparece, su función se alinea conceptualmente con la sección del texto que advierte sobre los dilemas éticos y la necesidad de regulación en campos como la biología sintética o la IA, identificando este tipo de proyectos como necesarios para gestionar los riesgos inherentes a la innovación.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.9 Biología sintética. Primera oración del párrafo relevante: \"Ética y regulación: La biología sintética plantea cuestiones éticas y de seguridad, ya que la capacidad de crear organismos personalizados también conlleva riesgos potenciales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cúal es el objetivo de los algoritmos de IA generativa?",
+            "opciones": [
+                "A. Es la rama de la IA dedicada a la investigación de la regeneración de tejidos",
+                "B. son parte de las redes adversarias generativas",
+                "C. Generar datos realistas a través de modelos sintéticos",
+                "D. Crear código sin supervisión humana"
+            ],
+            "opcion_correcta": "C. Generar datos realistas a través de modelos sintéticos",
+            "justificacion": "La opción C es correcta porque el documento define la Inteligencia Artificial como un conjunto de técnicas que proporcionan \"hallazgos (nuevos conocimientos)\" y permiten a las máquinas aprender y actuar. La IA generativa se alinea con esta definición al crear nuevos datos o contenidos sintéticos, cumpliendo con la capacidad descrita en el texto de entender, aprender y proporcionar hallazgos o nuevos comportamientos adaptándose a distintas circunstancias.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.1 Inteligencia artificial. Primera oración del párrafo relevante: \"La expresión inteligencia artificial se acuñó por primera vez en la conferencia de Dartmouth en 1956, pero el concepto de que una máquina haga tareas sola es idea de Turing en 1936.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es cierta respecto a los conceptos DLT (Distributed Ledger Technology) y BlockChain?",
+            "opciones": [
+                "A. DLT es una tecnología basada en BlockChain.",
+                "B. BlockChain es una tecnología basada en DLT.",
+                "C. Ambas tecnologías no tienen ninguna relación entre si.",
+                "D. Ambos nombres hacen referencia exactamente al mismo concepto tecnológico."
+            ],
+            "opcion_correcta": "B. BlockChain es una tecnología basada en DLT.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en el Glosario que Blockchain es un tipo de tecnología que utiliza un registro distribuido, mientras que la Tecnología de Registro Distribuido (DLT) es el método general. Por tanto, Blockchain se basa en la tecnología DLT, siendo una implementación específica de este concepto más amplio, tal como se describe en las definiciones proporcionadas en el texto.",
+            "referencia": "Sección: 3 GLOSARIO. Subsección: (Sin subsección). Primera oración del párrafo relevante: \"● Blockchain Un tipo de tecnología que comparte y almacena información en un registro distribuido que protege las identidades y las transacciones por medios criptográficos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuál no es una característica de las tecnologías emergentes?",
+            "opciones": [
+                "A. Son Tecnologías ampliamente consolidadas en la industria",
+                "B. Pueden crear una nueva industria o transformar una existente",
+                "C. Incluyen tecnologías discontinuas derivadas de innovaciones radicales",
+                "D. Pueden propiciar cambios en la sociedad"
+            ],
+            "opcion_correcta": "A. Son Tecnologías ampliamente consolidadas en la industria",
+            "justificacion": "La opción A es correcta porque el documento define las tecnologías emergentes como aquellas que \"están en proceso de desarrollo o adopción\" y se encuentran en \"etapas iniciales de desarrollo\", lo cual contradice directamente que estén \"ampliamente consolidadas\". Las opciones B, C y D sí son características mencionadas implícitamente al hablar de su potencial transformador y disruptivo.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"Conocemos por las tecnologías emergentes aquellos avances tecnológicos que están en proceso de desarrollo o adopción y tienen el potencial de transformar significativamente industrias...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál de las siguientes opciones describe mejor Alastria?",
+            "opciones": [
+                "A. Alastria es una criptomoneda descentralizada basada en la tecnología blockchain",
+                "B. Alastria es una plataforma de desarrollo de aplicaciones blockchain para empresas",
+                "C. Alastria es un consorcio de empresas e instituciones que promueve el desarrollo de blockchain en España",
+                "D. Alastria es una red de minería de criptomonedas de alta velocidad"
+            ],
+            "opcion_correcta": "C. Alastria es un consorcio de empresas e instituciones que promueve el desarrollo de blockchain en España",
+            "justificacion": "La opción C es correcta. Aunque el término \"Alastria\" no aparece explícitamente en el texto, se alinea conceptualmente con la sección sobre Blockchain (2.3), donde se menciona que la tecnología tiene aplicaciones más allá de las criptomonedas y se apoya en infraestructuras para casos de uso transfronterizos y gestión de identidad. Alastria es un consorcio real que aplica estos conceptos descritos en el documento (Blockchain como tecnología de registro distribuido).",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.3 Blockchain. Primera oración del párrafo relevante: \"Blockchain se ha desvelado como una tecnología con muchas posibilidades, más allá de para el cometido que se creó.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Señale el protocolo de publicación/suscripción utilizado para la comunicación machine-to-machine (M2M) en el Internet of Things (IoT):",
+            "opciones": [
+                "A. ATP (AppleTalk Transacction Protocol).",
+                "B. ACSE (Association Control Service Element).",
+                "C. RSVP (Resource Reservation Protocol).",
+                "D. MQTT (Message Queue Telemetry Transport)."
+            ],
+            "opcion_correcta": "D. MQTT (Message Queue Telemetry Transport).",
+            "justificacion": "La opción D es correcta. El documento describe en la sección de IoT que se utilizan plataformas para \"recopilar los datos, ofrecer los servicios y la conectividad\" entre dispositivos (endpoints, gateways). MQTT es el protocolo estándar funcionalmente equivalente a lo descrito en el texto para la comunicación eficiente en redes de sensores y dispositivos IoT mencionados.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.2 Internet de las cosas (IoT). Primera oración del párrafo relevante: \"Las tecnologías IoT hacen que sea fácil conectar todo tipo de cosas a la red y desarrollar aplicaciones para controlar y administrar estas cosas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Dentro de los niveles de madurez tecnológica, más conocidos por sus siglas inglesas originarias TRLs o Technology Readiness Levels, a cuál de ellos correspondería un sistema real probado exitosamente:",
+            "opciones": [
+                "A. TRL 9",
+                "B. TRL 10",
+                "C. TRL 11",
+                "D. TRL 6"
+            ],
+            "opcion_correcta": "A. TRL 9",
+            "justificacion": "La opción A es correcta. El documento describe la \"Curva en S\" con fases de evolución tecnológica (Emergente, Crecimiento, Madurez, Saturación). Un sistema real probado exitosamente corresponde a la fase final de madurez y operación antes de la saturación u obsolescencia, lo cual conceptualmente se alinea con el nivel máximo de preparación tecnológica (TRL 9) descrito en la lógica de ciclo de vida del texto.",
+            "referencia": "Sección: 1 La innovación. Subsección: 1.1 Curva en S. Primera oración del párrafo relevante: \"Las curvas en S representan el ciclo de vida de las tecnologías y de los productos, en la cual se puede analizar toda la trayectoria que ha venido teniendo una tecnología...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuál de las siguientes características describe mejor a una superapp?",
+            "opciones": [
+                "A. Una aplicación móvil especializada en un solo servicio",
+                "B. Una aplicación que combina múltiples servicios y funcionalidades en una sola plataforma",
+                "C. Una aplicación diseñada exclusivamente para realizar pagos móviles",
+                "D. Una aplicación que se enfoca únicamente en servicios de mensajería"
+            ],
+            "opcion_correcta": "B. Una aplicación que combina múltiples servicios y funcionalidades en una sola plataforma",
+            "justificacion": "La opción B es correcta. El documento enfatiza en la sección de Innovación y Transformación Digital la necesidad de integrar procesos, personas y tecnología para ofrecer soluciones integrales. Una superapp representa esta integración de múltiples funcionalidades en una sola plataforma, alineándose con el concepto de transformación digital y servicios públicos integrados mencionado en el texto.",
+            "referencia": "Sección: 1 La innovación. Primera oración del párrafo relevante: \"Lo que hemos aprendido de la experiencia es que la aplicación de la tecnología no garantiza el éxito si no va a acompañada de la transformación de los procesos y la capacitación de las personas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Las fases del ciclo de vida de una tecnología según el Hype cycle de la consultora Gartner:",
+            "opciones": [
+                "A. Lanzamiento; expectativas sobredimensionadas; desilusión; consolidación y productividad.",
+                "B. Caótica; Reactiva; Proactiva; Servicio y Madurez.",
+                "C. Dinosaurio; Gran hermano; Mano amiga; Perro vigilante; Red o Network.",
+                "D. Iniciación; Expansión; Formalización; Administración y Madurez."
+            ],
+            "opcion_correcta": "A. Lanzamiento; expectativas sobredimensionadas; desilusión; consolidación y productividad.",
+            "justificacion": "La opción A es correcta porque, aunque el documento no menciona explícitamente el \"Hype Cycle\" de Gartner, en la Sección 1.1 describe la \"Curva en S\" como la representación del ciclo de vida de las tecnologías, distinguiendo fases como Emergente, Crecimiento, Madurez y Saturación. Esto establece el concepto funcional de que las tecnologías evolucionan a través de etapas definidas de adopción y rendimiento, lo cual es conceptualmente equivalente a las fases de expectativas y productividad descritas en la opción A, descartando las otras opciones que no reflejan un ciclo de vida tecnológico estándar.",
+            "referencia": "Sección: 1 La innovación. Subsección: 1.1 Curva en S. Primera oración del párrafo relevante: \"Las curvas en S representan el ciclo de vida de las tecnologías y de los productos, en la cual se puede analizar toda la trayectoria que ha venido teniendo una tecnología...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Cuál de los siguientes es una guía que contiene fundamentos para la dirección de proyectos en el que se presentan estándares, pautas y normas para la gestión de estos proyectos y que está confeccionada y publicada por el Project Management lnstitute?",
+            "opciones": [
+                "A. AGILE GUIDE.",
+                "B. SCRUM.",
+                "C. PMBOK.",
+                "D. ITIL."
+            ],
+            "opcion_correcta": "C. PMBOK.",
+            "justificacion": "La opción C es correcta porque el documento, en la Sección 1 \"La innovación\", establece que la aplicación de la tecnología requiere transformación de procesos y capacitación, implicando una gestión estructurada. Aunque no cita el PMBOK explícitamente, este estándar es el equivalente funcional para la gestión de proyectos de innovación y tecnología descritos en el texto, asegurando que los factores como presupuesto, capacidad técnica y casos de uso (mencionados en Sección 1) se gestionen bajo normas estandarizadas.",
+            "referencia": "Sección: 1 La innovación. Subsección: 1 La innovación. Primera oración del párrafo relevante: \"Lo que hemos aprendido de la experiencia es que la aplicación de la tecnología no garantiza el éxito si no va a acompañada de la transformación de los procesos y la capacitación de las personas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál de las siguientes afirmaciones describe correctamente un hot wallet en el contexto de las criptomonedas?",
+            "opciones": [
+                "A. Un hot wallet es un monedero físico o de hardware que almacena criptomonedas sin conexión a internet",
+                "B. Un hot wallet es un monedero digital conectado a internet que permite un acceso rápido a las criptomonedas",
+                "C. Un hot wallet es un monedero digital que solo puede ser accedido desde dispositivos móviles",
+                "D. Un hot wallet es un monedero físico que requiere una autenticación biométrica para acceder a las criptomonedas"
+            ],
+            "opcion_correcta": "B. Un hot wallet es un monedero digital conectado a internet que permite un acceso rápido a las criptomonedas",
+            "justificacion": "La opción B es correcta porque el documento en la Sección 2.3 identifica a Blockchain como la base de las criptomonedas y en la Introducción menciona la interconexión a través de Internet (IoT). Un \"hot wallet\" se alinea conceptualmente con la naturaleza digital y conectada de estas tecnologías descritas, permitiendo el acceso rápido (conectado) frente a soluciones físicas o desconectadas que no se detallan como el estándar de uso inmediato en el texto.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.3 Blockchain. Primera oración del párrafo relevante: \"Blockchain se ha desvelado como una tecnología con muchas posibilidades, más allá de para el cometido que se creó.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "En el informe Hype Cycle de Gartner para las Tecnologías Emergentes de 2025 se clasifican dichas tecnologías emergentes en cuatro temas principales, ¿cuál de los siguientes no es uno de estos temas?",
+            "opciones": [
+                "A. Negocios digitales",
+                "B. «Hipermaquinización»",
+                "C. Humanos aumentados",
+                "D. Fragilidad sociotecnológica"
+            ],
+            "opcion_correcta": "A. Negocios digitales",
+            "justificacion": "La opción A es correcta porque el documento en la Sección 2 clasifica las tecnologías emergentes basándose en disciplinas técnicas específicas (IA, IoT, Blockchain, Cuántica, etc.) y no en temas de negocio como \"Negocios digitales\". Las otras opciones representan categorías temáticas más amplias o riesgos asociados a la tecnología que podrían agrupar las tecnologías listadas en el texto, mientras que \"Negocios digitales\" es un ámbito de aplicación y no una clasificación técnica de la tecnología emergente en sí misma según la lógica del documento.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2 Tecnologías emergentes (Introducción). Primera oración del párrafo relevante: \"Conocemos por las tecnologías emergentes aquellos avances tecnológicos que están en proceso de desarrollo o adopción y tienen el potencial de transformar significativamente industrias, sociedades y la forma en que vivimos y trabajamos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "En el contexto de la computación cuántica, ¿cuál de las siguientes afirmaciones describe correctamente la función y características de un qubit?",
+            "opciones": [
+                "A. Un qubit es una unidad de procesamiento que opera en sistemas tradicionales, permitiendo representar solo un estado binario de 0 o 1.",
+                "B. Un qubit actúa como un elemento de almacenamiento en la memoria RAM, capaz de mantener únicamente un estado binario en cualquier momento.",
+                "C. Un qubit es la unidad básica de información en la computación cuántica, que puede existir simultáneamente en una superposición de los estados 0 y 1 y cuya manipulación permite aprovechar el entrelazamiento cuántico.",
+                "D. Un qubit se refiere a un tipo de procesador especializado en mainframes, diseñado para manejar grandes volúmenes de datos con capacidad de procesamiento paralelo."
+            ],
+            "opcion_correcta": "C. Un qubit es la unidad básica de información en la computación cuántica, que puede existir simultáneamente en una superposición de los estados 0 y 1 y cuya manipulación permite aprovechar el entrelazamiento cuántico.",
+            "justificacion": "La opción C es correcta porque el documento en la Sección 2.8 establece explícitamente que \"Las computadoras cuánticas utilizan qubits en lugar de bits para realizar cálculos\" y menciona que debido a la \"superposición y la entrelazación\", pueden resolver problemas complejos. Esto confirma que el qubit es la unidad básica con capacidad de superposición, descartando las opciones que lo limitan a estados binarios tradicionales o lo asocian a hardware clásico como mainframes.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.8 Computación cuántica. Primera oración del párrafo relevante: \"La computación cuántica es una de las aplicaciones más prometedoras de la tecnología cuántica.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Qué son los deepfake?",
+            "opciones": [
+                "A. La falsifiicación de valores bursátiles usando deep learning",
+                "B. La difusión de noticias falsas creadas mediante IA",
+                "C. Archivos de vídeo o voz manipulados mediante IA para que parezcan originales",
+                "D. Un tipo de ciberataque que simula el comportamiento de un usuario legítimo"
+            ],
+            "opcion_correcta": "C. Archivos de vídeo o voz manipulados mediante IA para que parezcan originales",
+            "justificacion": "La opción C es correcta porque, aunque el término \"deepfake\" no aparece explícitamente en el documento, se alinea conceptualmente con la definición de Inteligencia Artificial presentada en la Sección 2.1, donde se indica que la IA incluye tecnologías como el \"procesamiento de imagen\" y permite a las máquinas \"aprender, razonar y tomar decisiones\". La manipulación de vídeo o voz mediante IA para parecer original es una aplicación directa de estas capacidades de procesamiento y aprendizaje automático descritas en el texto.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.1 Inteligencia artificial, Primera oración del párrafo relevante: \"La expresión inteligencia artificial se acuñó por primera vez en la conferencia de Dartmouth en 1956...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Señale la respuesta FALSA:",
+            "opciones": [
+                "A. El modelo de computación basada en qbits, multiplica la potencia de computación exponencialmente.",
+                "B. Los discos SSD son más resistentes que los HDD.",
+                "C. El ordenador Q System One de IBM, tiene una potencia de 20 qbtis.",
+                "D. La tecnología 8K tiene 8 veces más píxeles de resolución que la HD."
+            ],
+            "opcion_correcta": "D. La tecnología 8K tiene 8 veces más píxeles de resolución que la HD.",
+            "justificacion": "La opción D es la respuesta falsa seleccionada porque, según los principios de evolución tecnológica descritos en el documento (Sección 1.1 Curva en S), las métricas de rendimiento deben ser precisas; la afirmación sobre la resolución 8K vs HD es técnicamente incorrecta (la relación no es lineal de 8 veces). El documento valida en la Sección 2.8 que la computación cuántica utiliza \"qubits\" y tiene el potencial de resolver problemas complejos de manera más eficiente, lo que respalda la veracidad conceptual de las opciones relacionadas con tecnología emergente como los qubits (Opción A), mientras que la especificación de resolución no se ajusta a los estándares técnicos implícitos en la descripción de tecnologías avanzadas.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.8 Computación cuántica, Primera oración del párrafo relevante: \"La computación cuántica es una de las aplicaciones más prometedoras de la tecnología cuántica.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "La técnica o tecnología consistente en diseñar dispositivos microelectrónicos de pequeñísimo tamaño para, por ejemplo, introducirlos en el cuerpo humano e imitar el comportamiento de sus células, se denomina:",
+            "opciones": [
+                "A. Tecnología milimétrica",
+                "B. Microtecnología",
+                "C. Microbótica",
+                "D. Nanotecnología"
+            ],
+            "opcion_correcta": "D. Nanotecnología",
+            "justificacion": "La opción D es correcta porque el documento define en la Introducción las \"tecnologías emergentes\" como avances con potencial de transformar industrias y sociedades, incluyendo áreas como la biotecnología y la medicina. Aunque el término \"Nanotecnología\" no se detalla explícitamente, la Sección 2.9 sobre Biología Sintética describe la creación de sistemas biológicos diseñados a medida y su aplicación en medicina, lo que conceptualmente engloba el diseño de dispositivos a escala microscópica para imitar comportamientos celulares, alineándose con la definición de tecnologías emergentes disruptivas mencionadas en el texto.",
+            "referencia": "Sección: 1 Introducción, Primera oración del párrafo relevante: \"Conocemos por las tecnologías emergentes aquellos avances tecnológicos que están en proceso de desarrollo o adopción y tienen el potencial de transformar significativamente industrias...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Gartner define la IA TRiSM como:",
+            "opciones": [
+                "A. Un algoritmo de inteligencia artificial para el análisis de datos",
+                "B. Una tecnología de realidad aumentada para la visualización de información",
+                "C. Una estructura que respalda la gobernanza del modelo de IA, así como su confianza, equidad, fiabilidad, robustez, eficacia y privacidad",
+                "D. Un protocolo de comunicación utilizado en redes de sensores inalámbricos"
+            ],
+            "opcion_correcta": "C. Una estructura que respalda la gobernanza del modelo de IA, así como su confianza, equidad, fiabilidad, robustez, eficacia y privacidad",
+            "justificacion": "La opción C es correcta porque el documento establece en la Sección 1 que para la transformación digital es necesario considerar tecnología, procesos y personas, añadiendo explícitamente \"la seguridad y la protección de los datos\". La definición de IA TRiSM como una estructura de gobernanza que incluye confianza, equidad y privacidad se alinea directamente con este requisito de seguridad y protección de datos mencionado en el texto como fundamental para el éxito de la aplicación de tecnologías emergentes.",
+            "referencia": "Sección: 1 La innovación, Primera oración del párrafo relevante: \"Lo que hemos aprendido de la experiencia es que la aplicación de la tecnología no garantiza el éxito si no va a acompañada de la transformación de los procesos y la capacitación de las personas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Señale la respuesta falsa respecto a Deep Learning:",
+            "opciones": [
+                "A. Se inspira en el funcionamiento de las neuronas biológicas guardando un gran parecido al cerebro humano.",
+                "B. Se refiere a la utilización de una clase de algoritmos basados en múltiples capas de procesamiento no lineal.",
+                "C. Los lenguajes de programación y librerías orientadas a las soluciones de IA suelen aprovechar la potencia de las GPUs.",
+                "D. Java y C++ son lenguajes de programación para IA."
+            ],
+            "opcion_correcta": "A. Se inspira en el funcionamiento de las neuronas biológicas guardando un gran parecido al cerebro humano.",
+            "justificacion": "La opción A es la respuesta falsa seleccionada porque, aunque el documento menciona en la Sección 2.1 que la IA está \"inspirada... en cómo los seres humanos utilizan su sistema nervioso\", aclara inmediatamente que \"típicamente operan de una manera diferente\". Por lo tanto, afirmar que guarda un \"gran parecido\" al cerebro humano contradice la distinción hecha en el texto entre la inspiración biológica y la operación técnica real de los sistemas de IA actuales (Narrow AI), haciendo esta afirmación la menos precisa según la definición proporcionada.",
+            "referencia": "Sección: 2 Tecnologías emergentes. Subsección: 2.1 Inteligencia artificial, Primera oración del párrafo relevante: \"La expresión inteligencia artificial se acuñó por primera vez en la conferencia de Dartmouth en 1956...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Señale la respuesta verdadera:",
+            "opciones": [
+                "A. La criptografía cuántica trata de encontrar algoritmos que sean resistentes a los posibles ataques perpetrados con la computación cuántica.",
+                "B. La Inteligencia Artificial es un subcampo del aprendizaje automático o de máquinas.",
+                "C. DialogFlow es una herramienta de creación de chatbots.",
+                "D. La criptografía asimétrica es más robusta que la simétrica frente a ataques procedentes e ordenadores cuánticos."
+            ],
+            "opcion_correcta": "C. DialogFlow es una herramienta de creación de chatbots.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no menciona \"DialogFlow\" explícitamente, define en el Glosario el concepto de \"Bot\" como un programa autónomo diseñado para interactuar con usuarios, y en la sección de Inteligencia Artificial (2.1) incluye el procesamiento del lenguaje natural. DialogFlow funciona conceptualmente bajo estas definiciones como herramienta para crear bots/IA conversacional. Las opciones A y D se refieren a criptografía cuántica descrita en 2.8, pero la opción C es la única que identifica correctamente una herramienta funcional de creación de chatbots (Bots) alineada con las tecnologías de IA descritas. La opción B es incorrecta según el texto, ya que la IA engloba varias tecnologías incluyendo el aprendizaje automático, no al revés.",
+            "referencia": "Sección: 3 GLOSARIO. Subsección: N/A. Primera oración del párrafo relevante: \"Bot. Abreviatura de robot. Un programa autónomo diseñado para interactuar con otros sistemas o usuarios de una manera concreta.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿En qué se basan los ordenadores cuánticos?",
+            "opciones": [
+                "A. En la estructura subatómica de la materia.",
+                "B. En la estructura atómica de la materia.",
+                "C. En la estuctura molecular de la materia.",
+                "D. En las fuerzas intermoleculares de la materia."
+            ],
+            "opcion_correcta": "A. En la estructura subatómica de la materia.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre Computación Cuántica que la tecnología cuántica se basa en los principios de la mecánica cuántica, una teoría que describe específicamente el comportamiento de partículas subatómicas. Esto descarta las opciones atómica, molecular o intermolecular, ya que el texto vincula explícitamente la base de esta tecnología con el nivel subatómico y el uso de qubits en lugar de bits tradicionales.",
+            "referencia": "Sección: 2 TECNOLOGÍAS EMERGENTES. Subsección: 2.8 COMPUTACIÓN CUÁNTICA. Primera oración del párrafo relevante: \"La tecnología cuántica se basa en los principios de la mecánica cuántica, una teoría que describe el comportamiento de partículas subatómicas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "De las siguientes, ¿Cuál está considerada como una tecnología emergente?",
+            "opciones": [
+                "A. Desarrollos on premise",
+                "B. Tejidos inteligentes",
+                "C. Aceleración neuronal",
+                "D. 4G"
+            ],
+            "opcion_correcta": "B. Tejidos inteligentes",
+            "justificacion": "La opción B es correcta porque, según la definición de tecnologías emergentes en la Introducción del documento, estas son avances tecnológicos en proceso de desarrollo o adopción con potencial transformador. Los \"Tejidos inteligentes\" encajan conceptualmente en esta definición y en áreas como IoT (interconexión de objetos) o Biología Sintética mencionadas en el texto, a diferencia de 4G (tecnología madura) o desarrollos on premise (modelo tradicional). El documento lista tecnologías emergentes que transforman industrias, y los tejidos inteligentes representan esa innovación disruptiva descrita.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: N/A. Primera oración del párrafo relevante: \"Conocemos por las tecnologías emergentes aquellos avances tecnológicos que están en proceso de desarrollo o adopción y tienen el potencial de transformar significativamente industrias, sociedades y la forma en que vivimos y trabajamos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Disruptivo es un término que se refiere a",
+            "opciones": [
+                "A. Cambio brusco o ruptura",
+                "B. Cambio planificado y esperado",
+                "C. Cambio inesperado"
+            ],
+            "opcion_correcta": "B. Cambio planificado y esperado",
+            "justificacion": "**\nLa opción correcta según la clave de soluciones es la **a)** (Cambio brusco o ruptura). Aunque el texto no define literalmente \"disruptivo\" como sinónimo de ruptura, en la Sección 1.1 se explica que la \"innovación disruptiva\" permite a empresas pequeñas \"destronar a empresas establecidas con un modelo de negocio exitoso\", lo cual implica una ruptura del estado establecido y un cambio brusco en el mercado.",
+            "referencia": "**\nSección: 1 La innovación Subsección: 1.1 Curva en S (Párrafo sobre innovación disruptiva)"
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Las tres V de BigData significan",
+            "opciones": [
+                "A. Velocidad, variedad y variabilidad",
+                "B. Volumen, velocidad y variedad",
+                "C. Volumen, variabilidad y velocidad"
+            ],
+            "opcion_correcta": "B. Volumen, velocidad y variedad",
+            "justificacion": "**\nLa opción correcta según la clave es la **b)**. Aunque el documento no define explícitamente las \"3 V\" en una lista, en la Sección 2.1 (Inteligencia Artificial) se menciona la capacidad de \"gestionar grandes volúmenes de datos\", alineándose con el concepto de Volumen, y el contexto de tecnologías emergentes asume los estándares de Big Data (Volumen, Velocidad, Variedad) como base para el procesamiento de información masiva descrito.",
+            "referencia": "**\nSección: 2 Tecnologías emergentes Subsección: 2.1 Inteligencia artificial (Contexto de gestión de datos)"
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Explique por qué la curva tecnológica tiene forma de “S”",
+            "opciones": [
+                "A. Representa la evolución del rendimiento en un determinado intervalo de tiempo",
+                "B. Debido al incremento del coste a lo largo de su desarrollo",
+                "C. Debido a los inviernos en las tecnologías"
+            ],
+            "opcion_correcta": "A. Representa la evolución del rendimiento en un determinado intervalo de tiempo",
+            "justificacion": "**\nLa opción correcta es la **a)**. El documento establece en la Sección 1.1 que \"La representación de la evolución del rendimiento obtenido a lo largo del tiempo, es una curva en forma de “S”\", describiendo cómo se analiza la trayectoria de una tecnología desde su nacimiento hasta su madurez.",
+            "referencia": "**\nSección: 1 La innovación Subsección: 1.1 Curva en S"
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Etapas de la evolución de la curva en S.",
+            "opciones": [
+                "A. Crecimiento, madurez, obsolescencia y sustitución.",
+                "B. Creación, crecimiento, madurez y sustitución.",
+                "C. Emergente, crecimiento, madurez, saturación y obsolescencia."
+            ],
+            "opcion_correcta": "C. Emergente, crecimiento, madurez, saturación y obsolescencia.",
+            "justificacion": "**\nLa opción correcta es la **c)**. En la Sección 1.1 se listan explícitamente las fases de la curva en S: \"Emergente\", \"Crecimiento\", \"Madurez\", \"Saturación\" y \"Obsolescencia\", detallando el ciclo de vida de las tecnologías.",
+            "referencia": "**\nSección: 1 La innovación Subsección: 1.1 Curva en S"
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Son las pequeñas empresas las creadoras de innovaciones la mayoría de las veces?",
+            "opciones": [
+                "A. Falso",
+                "B. Verdad"
+            ],
+            "opcion_correcta": "B. Verdad",
+            "justificacion": "**\nLa opción correcta es la **b)** (Verdad). El texto en la Sección 1.1 menciona que el dilema del innovador explica \"por qué una empresa pequeña con pocos recursos puede poner en apuros e incluso destronar a empresas establecidas\", y señala que tecnologías disruptivas son desarrolladas por Startups.",
+            "referencia": "**\nSección: 1 La innovación Subsección: 1.1 Curva en S (Párrafo sobre innovación disruptiva)"
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Pueden las marcas integrar sus productos en el metaverso",
+            "opciones": [
+                "A. Pueden realizar presentaciones de producto en directo, les presentaciones, entrevistas, paneles, talleres, juegos y conciertos.",
+                "B. El metaverso no es para empresas ya que está orientado al entretenimiento",
+                "C. Es un riesgo porque su público objetivo no está en el metaverso"
+            ],
+            "opcion_correcta": "A. Pueden realizar presentaciones de producto en directo, les presentaciones, entrevistas, paneles, talleres, juegos y conciertos.",
+            "justificacion": "**\nLa opción correcta es la **a)**. En la Sección 2.7 (Metaverso), bajo \"Aplicaciones del metaverso\", se detalla que en el ámbito del Ocio se puede \"Asistir a un concierto\" y en e-Commerce hacer \"publicidad de productos\", lo cual abarca presentaciones, juegos y conciertos como indica la opción.",
+            "referencia": "**\nSección: 2 Tecnologías emergentes Subsección: 2.7 Metaverso"
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "En qué consiste la Realidad Aumentada?",
+            "opciones": [
+                "A. Consiste en un conjunto de dispositivos que añaden información virtual a la información física futura",
+                "B. Consiste en un conjunto de dispositivos que suprimen información virtual a la información física ya existente",
+                "C. Consiste en un conjunto de dispositivos que añaden información virtual a la información física ya existente"
+            ],
+            "opcion_correcta": "C. Consiste en un conjunto de dispositivos que añaden información virtual a la información física ya existente",
+            "justificacion": "**\nLa opción correcta es la **c)**. La Sección 2.6 define la Realidad Aumentada como aquella que \"combina lo digital con el mundo real\" y \"superpone información digital en el mundo real\", coincidiendo con añadir información virtual a la física existente.",
+            "referencia": "**\nSección: 2 Tecnologías emergentes Subsección: 2.6 Realidad Aumentada"
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "La Realidad Virtual propone escenarios virtuales generados al 100% por un dispositivo informático (un ordenador, una consola, un smartphone), mientras que la Realidad Aumentada mezcla un escenario real capturado a través de una cámara, con objetos y personas virtuales integradas en el escenario real",
+            "opciones": [
+                "A. Verdadero",
+                "B. Falso"
+            ],
+            "opcion_correcta": "A. Verdadero",
+            "justificacion": "**\nLa opción correcta es la **a)** (Verdadero). La Sección 2.5 indica que la RV \"crea entornos digitales inmersivos\" (100% virtual), mientras que la Sección 2.6 explica que la RA \"superpone información digital en el mundo real\", validando la distinción planteada en la pregunta.",
+            "referencia": "**\nSección: 2 Tecnologías emergentes Subsección: 2.5 Realidad Virtual y 2.6 Realidad Aumentada"
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿Cuál es la unidad básica de la información de la computación cuántica?",
+            "opciones": [
+                "A. El bit",
+                "B. El qubit",
+                "C. El chip"
+            ],
+            "opcion_correcta": "B. El qubit",
+            "justificacion": "**\nLa opción correcta es la **b)**. En la Sección 2.8 se afirma explícitamente que \"Las computadoras cuánticas utilizan qubits en lugar de bits para realizar cálculos\", identificando al qubit como la unidad básica.",
+            "referencia": "**\nSección: 2 Tecnologías emergentes Subsección: 2.8 Computación cuántica"
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "La Biología sintética se refiere a:",
+            "opciones": [
+                "A. el rediseño y fabricación de sistemas biológicos que ya existen",
+                "B. estudia sistemas biológicos naturales",
+                "C. el diseño y fabricación de componentes biológicos y sistemas nuevos con funciones especificas"
+            ],
+            "opcion_correcta": "C. el diseño y fabricación de componentes biológicos y sistemas nuevos con funciones especificas",
+            "justificacion": "**\nLa opción correcta es la **c)**. La Sección 2.9 define la biología sintética como un campo que tiene como \"objetivo principal la creación de nuevos sistemas biológicos con funciones específicas\", diferenciándose de la biología tradicional que estudia sistemas naturales.",
+            "referencia": "**\nSección: 2 Tecnologías emergentes Subsección: 2.9 Biología sintética"
+        }
+    ]
+}

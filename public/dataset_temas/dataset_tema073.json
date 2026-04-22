@@ -1,0 +1,1097 @@
+{
+    "nombre_tema": "Tema 73",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Cuál de los siguientes LMS NO es de código abierto?",
+            "opciones": [
+                "A. Moodle",
+                "B. WebCT",
+                "C. Chamilo",
+                "D. Open edX"
+            ],
+            "opcion_correcta": "B. WebCT",
+            "justificacion": "La opción B es correcta porque el documento clasifica explícitamente las plataformas de e-learning en función de su licenciamiento, situando a \"WebCT\" dentro de la categoría de software \"Comerciales\", mientras que \"Moodle\" y \"Chamillo\" se listan bajo \"Software libre\". Por tanto, WebCT no es de código abierto según la clasificación presentada.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento: ... Comerciales: Almagesto, Blackboard... WebCT...\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Señale la opción que corresponde con una variante de e-learning:",
+            "opciones": [
+                "A. U-Learning.",
+                "B. X-Learning.",
+                "C. S-Learning.",
+                "D. N-Learning."
+            ],
+            "opcion_correcta": "A. U-Learning.",
+            "justificacion": "La opción A es correcta porque el documento identifica específicamente al \"u-learning o ubiquitous learning\" como una cuarta variante de e-learning, basada en las premisas de anyone, anytime, anywhere, diferenciándose de otras modalidades no mencionadas como X, S o N-Learning.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning. Subsubsección: 2.2.4 u-Learning (Ubiquitous learning). Primera oración del párrafo relevante: \"Varios autores asimilan el concepto de aprendizaje ubicuo (u-learning) al m-learning, ya que ambos se basan en entornos de aprendizaje a los que se puede acceder de diferentes formas y contextos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de los siguientes son subsistemas usuales en un sistema de e-learning?",
+            "opciones": [
+                "A. LCMS (Learning Content Management System)",
+                "B. LOMS (Learning Objects Management System)",
+                "C. CRM (Customer Relationship Management)",
+                "D. Todos los anteriores"
+            ],
+            "opcion_correcta": "A. LCMS (Learning Content Management System)",
+            "justificacion": "La opción A es correcta porque el documento establece que existen dos categorías principales de sistemas de e-learning: \"Learning Content Management Systems (LCMS)\" y \"Learning Management Systems (LMS)\". No se menciona LOMS como categoría estándar en esta sección, ni CRM como subsistema usual del sistema de e-learning en sí mismo.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.3 Componentes. Subsubsección: 2.3.1 Plataforma. Primera oración del párrafo relevante: \"Como se detallará más adelante, existen dos categorías de sistemas de e-learning: ... Learning Content Management Systems (LCMS)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Qué normativa vigente está relacionada con la calidad de la formación virtual?",
+            "opciones": [
+                "A. UNE 66181:2022.",
+                "B. UNE 66181:2008.",
+                "C. ISO 29994:2021.",
+                "D. UNE 66181:2012."
+            ],
+            "opcion_correcta": "D. UNE 66181:2012.",
+            "justificacion": "La opción D es correcta porque el documento cita explícitamente la \"norma UNE 66181:2012\" como la desarrollada para agrupar criterios y servir de guía para identificar las características de las acciones formativas virtuales clasificadas en niveles de excelencia.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.6 Certificación UNE 66181 de AENOR. Primera oración del párrafo relevante: \"La norma UNE 66181:2012 ha sido desarrollada para agrupar un conjunto de criterios, como guía para identificar las características de las acciones formativas virtuales que están clasificados en diferentes niveles de excelencia...\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "¿Cuál de los siguientes es un conjunto de estándares que define como se relaciona un sistema de gestión del aprendizaje (LMS) con los contenidos para el aprendizaje?",
+            "opciones": [
+                "A. SCORM.",
+                "B. MOODLE.",
+                "C. STORK.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. SCORM.",
+            "justificacion": "La opción A es correcta porque el documento describe a SCORM como el estándar creado por ADL que permite a los contenidos y a los sistemas \"hablar\" con otros sistemas, logrando interoperabilidad, reusabilidad y adaptabilidad entre LMS y contenidos.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Este organismo recogió “lo mejor” de las anteriores iniciativas... y las refundió y mejoró en su propio estándar: SCORM, Shareable Content Object Reference Model...\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Señale la afirmación correcta en relación a la revisión por pares (peer review) en e-learning:",
+            "opciones": [
+                "A. Es una práctica en los MOOC, por la que los participantes evalúan trabajos de sus compañeros",
+                "B. Favorece la transferencia de conocimiento entre los alumnos de un curso y el desarrollo de nuevas competencias, pero presenta problemas para evaluar a grandes comunidades de estudiantes",
+                "C. No es necesario que el alumno envíe previamente su propio trabajo",
+                "D. Todas las respuestas son correctas"
+            ],
+            "opcion_correcta": "A. Es una práctica en los MOOC, por la que los participantes evalúan trabajos de sus compañeros",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre herramientas de comunicación que los nuevos formatos como los MOOC incluyen sistemas de evaluación por pares, donde \"son los propios estudiantes los que deben realizar una evaluación de los trabajos de algunos de sus compañeros después de remitir el suyo propio\". Esto descarta la opción C (sí es necesario enviar el trabajo) y B (el texto indica que permite evaluar a grandes comunidades de forma colaborativa, no que presente problemas para ello).",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.3 Componentes. Subsubsección: 2.3.3 Herramientas de comunicación. Primera oración del párrafo relevante: \"Además, los nuevos formatos de cursos, como los MOOC, incluyen novedosos sistemas comunicación aplicada a la evaluación de los alumnos, como es la conocida como evaluación o revisión por pares (“peer review”).\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "El estándar de e-learning SCORM:",
+            "opciones": [
+                "A. Sus siglas significan Shareable Course Object Reference Model",
+                "B. Ha sido desarrollado por la iniciativa ADL (Advanced Distributed Learning), un programa del Departamento de Educación de los Estados Unidos y de la Oficina de Ciencia y Tecnología de la Casa Blanca",
+                "C. La última versión publicada es la SCORM 2004 4ª edición",
+                "D. Sustituye a la especificación “Experience API” (xAPI), inicialmente denominada Tin Can API"
+            ],
+            "opcion_correcta": "C. La última versión publicada es la SCORM 2004 4ª edición",
+            "justificacion": "La opción C es correcta porque el documento indica que existen diferentes versiones del estándar SCORM, \"siendo las más usadas la 1.2 y la 2004, la última publicada\". Además, aclara que xAPI (Tin Can) es considerada la sucesora de SCORM, lo que invalida la opción D. La opción A es incorrecta según el texto que define las siglas como \"Shareable Content Object Reference Model\" (Content, no Course), y la B es errónea ya que ADL es un programa del \"Departamento de Defensa\", no de Educación.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Existen diferentes versiones del estándar SCORM, siendo las más usadas la 1.2 y la 2004, la última publicada, que tiene ya más de 10 años.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Según la clasificación de Boneu respecto al e-learning, el CMI (Computer Managed Instruction) es un tipo de:",
+            "opciones": [
+                "A. IBT (Internet Based Training).",
+                "B. WBT (Web Based Training).",
+                "C. CBT (Computer Based Training).",
+                "D. CBL (Computed Based Learning)."
+            ],
+            "opcion_correcta": "C. CBT (Computer Based Training).",
+            "justificacion": "La opción C es correcta porque el documento, al describir la evolución del e-learning según Boneu, clasifica explícitamente el CMI dentro de los tipos de CBT más comunes. El texto señala: \"Los tipos de CBT más comunes son: ... CMI (Computer Managed Instruction)\". Esto descarta las opciones A y B que corresponden a etapas posteriores o diferentes en la clasificación tecnológica mencionada.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.1 Evolución del e-learning. Primera oración del párrafo relevante: \"El CBT (Computer Based Training), hacía referencia al aprendizaje utilizando ordenadores personales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Dentro del terreno del e-learning, señale qué opción describe el \"blended learning\" de forma más exacta:",
+            "opciones": [
+                "A. Aquel modo de aprender que combina la enseñanza presencial con la tecnología no presencial",
+                "B. Aprendizaje e-learning mediante combinación de información alfanumérica, gráfica e hipertextual",
+                "C. Aprendizaje mediante la profusión de elementos multimedia",
+                "D. Aprendizaje basado en la mezcla cultural del alumnado, con experiencias diversas"
+            ],
+            "opcion_correcta": "A. Aquel modo de aprender que combina la enseñanza presencial con la tecnología no presencial",
+            "justificacion": "La opción A es correcta porque el documento define el b-learning (blended learning) como \"aquel modo de aprender que combina la enseñanza presencial con la tecnología no presencial\". Esta definición coincide textualmente con la opción seleccionada. Las demás opciones describen características genéricas del e-learning o conceptos ajenos a la definición específica de formación combinada proporcionada en el texto.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning. Subsubsección: 2.2.2 b-Learning (Blended learning). Primera oración del párrafo relevante: \"La definición más sencilla y también la más precisa lo describe como aquel modo de aprender que combina la enseñanza presencial con la tecnología no presencial.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Cuál de los siguientes NO es un sistema de gestión del aprendizaje (LMS)?",
+            "opciones": [
+                "A. Moodle.",
+                "B. Chamilo.",
+                "C. Acquirer.",
+                "D. Claroline."
+            ],
+            "opcion_correcta": "C. Acquirer.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de herramientas de e-learning, realiza una clasificación de LMS citando ejemplos específicos como \"Moodle, Chamillo, Claroline\" dentro del software libre. Al no aparecer \"Acquirer\" en la lista de plataformas LMS mencionadas (ni comerciales ni en la nube), se infiere que es la opción que no corresponde a un sistema de gestión del aprendizaje reconocido en el contexto del texto.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento: Software libre: ATutor, Moodle, Chamillo, Claroline, Dokeos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "En los modelos de Calidad de E-Learning, ¿Cuál de las siguiestes NO es una dimensión?",
+            "opciones": [
+                "A. Calidad de Conexión.",
+                "B. Calidad de la Institución.",
+                "C. Calidad del Docente.",
+                "D. Calidad del Sistema de Aprendizaje."
+            ],
+            "opcion_correcta": "A. Calidad de Conexión.",
+            "justificacion": "La opción A es correcta porque el documento, al tratar sobre normalización y calidad en la sección 4.6 (Certificación UNE 66181), establece que los requisitos se orientan a tres factores clave: Accesibilidad, Empleabilidad y Asimilación. Asimismo, en la sección 2.3 se definen los componentes de una solución como Plataforma, Contenidos y Herramientas de comunicación. La \"Calidad de Conexión\" no se menciona como una dimensión de calidad o excelencia en estos modelos, sino que aparece en la sección 2.2.1 como un inconveniente o dependencia (\"dependencia de la conexión a Internet\"), diferenciándose de las dimensiones estructurales o pedagógicas implicadas en los otros conceptos (Institución, Docente, Sistema).",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.6 Certificación UNE 66181 de AENOR, Primera oración del párrafo relevante: \"La norma UNE 66181:2012 ha sido desarrollada para agrupar un conjunto de criterios, como guía para identificar las características de las acciones formativas virtuales que están clasificados en diferentes niveles de excelencia...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Qué es el blended learning?",
+            "opciones": [
+                "A. Un modelo de referencia del e-learning",
+                "B. Una modalidad de e-learning que incluye enseñanza presencial",
+                "C. Una iniciativa para estandarizar el e-learning",
+                "D. Una clase de enseñanza virtual"
+            ],
+            "opcion_correcta": "B. Una modalidad de e-learning que incluye enseñanza presencial",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección 2.2.2 que el b-learning (blended learning) \"es una modalidad de enseñanza-aprendizaje semipresencial que incluye tanto formación presencial como e-learning\". Esta definición coincide directamente con la opción seleccionada, descartando las demás que lo confunden con modelos de referencia o iniciativas de estandarización.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning, Primera oración del párrafo relevante: \"El b-learning (blended learning; formación combinada en castellano), es una modalidad de enseñanza-aprendizaje semipresencial que incluye tanto formación presencial como e-learning.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "En relación a las guías AGR de la AICC sobre eLearning, señale la FALSA:",
+            "opciones": [
+                "A. La guía AGR007 se refiere al intercambio de cursos entre plataformas",
+                "B. La guía AGR010 está dedicada a la interoperabilidad entre plataformas web de formación y sus cursos",
+                "C. La guía AGR008 ofrece recomendaciones acerca de los videos digitales",
+                "D. La guía AGR009 contiene las recomendaciones referentes a los archivos de audio digital"
+            ],
+            "opcion_correcta": "D. La guía AGR009 contiene las recomendaciones referentes a los archivos de audio digital",
+            "justificacion": "La opción D es correcta (como afirmación falsa) porque el documento detalla en la sección 4.2 la lista completa de AGRs, donde especifica que \"AGR 009: Icon Standards: User Interface\", mientras que los archivos de audio digital corresponden a la \"AGR 003: Digital Audio\". Por tanto, atribuir las recomendaciones de audio a la guía 009 es incorrecto según el listado proporcionado en el texto.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.2 AICC, Aviation Industry CBT Committee, Primera oración del párrafo relevante: \"La lista completa de AGRs es la siguiente:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Respecto a los LMS, indique la respuesta FALSA:",
+            "opciones": [
+                "A. Permite el análisis de los resultados de la formación",
+                "B. Incluye funciones de gestión de procesos de creación de contenido",
+                "C. Permite el intercambio de datos entre profesores y alumnos",
+                "D. Está dedicado a la difusión de los contenidos docentes"
+            ],
+            "opcion_correcta": "B. Incluye funciones de gestión de procesos de creación de contenido",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento, en la sección 2.3.1 al comparar LMS y LCMS, establece que \"los LMS se centran en la distribución y control de los materiales y no suelen incluir herramientas de creación de contenidos, o estas suelen ser muy simples; por tanto, los materiales deben ser creados externamente\". Esto contradice la afirmación de que incluyen funciones de gestión de procesos de creación de contenido como función principal.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.3 Componentes, Primera oración del párrafo relevante: \"Comparando los sistemas LCMS y LMS, se puede decir que los primeros permiten tanto la distribución como la creación de materiales, y pretenden que los educadores creen sus propios materiales online...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Qué es Moodle?",
+            "opciones": [
+                "A. Un sistema de gestión de la enseñanza de Software libre",
+                "B. Un sistema de gestión de contenidos gratuito pero no libre",
+                "C. Un buscador de Internet",
+                "D. Un entorno de escritorio para sistemas Linux bajo tecnología X Windows"
+            ],
+            "opcion_correcta": "A. Un sistema de gestión de la enseñanza de Software libre",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 5 al realizar una clasificación de plataformas LMS en función de su licenciamiento, incluye explícitamente a \"Moodle\" dentro de la categoría de \"Software libre\", junto con otras herramientas como ATutor o Chamillo.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Subsección: (Sin subsección específica en índice, contenido directo), Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Qué variante del e-Learning se asocia mejor con los cursos semipresenciales?",
+            "opciones": [
+                "A. b-learning (Blended-learning)",
+                "B. m-learning (Mobile-learning)",
+                "C. u-learning (Ubiquitous-learning)",
+                "D. Webinars"
+            ],
+            "opcion_correcta": "A. b-learning (Blended-learning)",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente el b-learning como una modalidad de enseñanza-aprendizaje semipresencial que combina formación presencial con e-learning. El texto establece que este modelo hace uso de las ventajas de la formación online y la presencial, combinándolas en un solo tipo de formación, lo cual coincide directamente con la definición de cursos semipresenciales.",
+            "referencia": "Sección: 2 Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning. Subsubsección: 2.2.2 b-Learning (Blended learning). Primera oración del párrafo relevante: \"El b-learning (blended learning; formación combinada en castellano), es una modalidad de enseñanza-aprendizaje semipresencial que incluye tanto formación presencial como e-learning.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Qué características deben cumplir los contenidos de las soluciones de aprendizaje en línea? Señale la INCORRECTA:",
+            "opciones": [
+                "A. Accesibilidad: independiente de la plataforma en la que estén los contenidos",
+                "B. Interoperabilidad: el contenido puede ser usado en diferentes plataformas",
+                "C. Reusabilidad: los contenidos pueden ser utilizados una y otra vez en diferentes programas educativos",
+                "D. Confidencialidad: se debe proteger el acceso a los contenidos de los cursos"
+            ],
+            "opcion_correcta": "D. Confidencialidad: se debe proteger el acceso a los contenidos de los cursos",
+            "justificacion": "La opción D es la correcta (como respuesta incorrecta a la pregunta) porque el documento enumera específicamente las características que deben cumplir los contenidos en la sección correspondiente, listando Accesibilidad, Interoperabilidad, Reusabilidad y Durabilidad. La \"Confidencialidad\" no aparece en esta lista de requisitos fundamentales para los contenidos según el texto proporcionado, por lo que es la afirmación que no se ajusta a las especificaciones del documento.",
+            "referencia": "Sección: 2 Conceptos, evolución y tipos de e-learning. Subsección: 2.3 Componentes. Subsubsección: 2.3.2 Contenidos. Primera oración del párrafo relevante: \"Los contenidos deben cumplir con ciertas características:\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "El estándar de e-learning participado por el IEEE, que incluye un modelo de referencia para objetos software educativos compartibles, un entorno de ejecución y un modelo de agregación de contenido es:",
+            "opciones": [
+                "A. AEIC.",
+                "B. LOM.",
+                "C. LCMS.",
+                "D. SCORM."
+            ],
+            "opcion_correcta": "D. SCORM.",
+            "justificacion": "La opción D es correcta porque, aunque el estándar SCORM es impulsado por ADL, el documento indica que este estándar recoge y mejora iniciativas previas, incluyendo específicamente en su Libro 2 la referencia al \"IEEE LTSC Learning Object Metadata ( LOM) Specification\". Esto establece una participación técnica del IEEE dentro de la estructura del estándar SCORM para la descripción y agregación de contenidos.",
+            "referencia": "Sección: 4 Estándares y normalización del e-Learning.. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Libro 2: Scorm Content Aggregation Model. Contiene una guía para identificar y agregar recursos dentro de un contenido de aprendizaje estructurado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Indica cuál de las siguientes expresiones NO es correcta en un entorno de e-Learning:",
+            "opciones": [
+                "A. El LMS se encarga de gestionar los usuarios, los cursos y las herramientas de comunicación.",
+                "B. Dos componentes fundamentales en este tipo de enseñanza son el LMS y el courseware.",
+                "C. Se pueden establecer comunicaciones tanto síncronas como asíncronas.",
+                "D. Para compatibilizar LMS y courseware de distintos fabricantes se utilizan los estándares ADL SCORM y UDDI."
+            ],
+            "opcion_correcta": "D. Para compatibilizar LMS y courseware de distintos fabricantes se utilizan los estándares ADL SCORM y UDDI.",
+            "justificacion": "La opción D es la correcta (como expresión incorrecta) porque el documento, al listar las organizaciones más relevantes en materia de estandarización del e-learning, menciona a ADL, AICC, CEN, IEEE, IMS y ISO/IEC, pero no incluye UDDI entre los estándares o entidades clave para la compatibilidad en este ámbito. Por tanto, citar UDDI como estándar de e-learning junto a SCORM es inexacto según el texto.",
+            "referencia": "Sección: 4 Estándares y normalización del e-Learning.. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"No obstante, las organizaciones más relevantes en materia de estandarización del e-learning son ADL, AICC, CEN, IEEE, IMS, ISO/IEC.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuál de los siguientes estándares de e-learning es el más reciente?",
+            "opciones": [
+                "A. Tin Can API",
+                "B. SCORM",
+                "C. IMS Common Cartridge",
+                "D. AICC HACP"
+            ],
+            "opcion_correcta": "A. Tin Can API",
+            "justificacion": "La opción A es correcta porque el documento describe a la Tin Can API (ahora xAPI) como una nueva especificación lanzada por ADL para resolver deficiencias de SCORM y considerada su sucesora. El texto indica que ante la antigüedad de las versiones de SCORM, se creó este nuevo estándar más sencillo y actualizado.",
+            "referencia": "Sección: 4 Estándares y normalización del e-Learning.. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Ante esta situación, ADL reconoció la necesidad de crear una nueva especificación nueva y más sencilla, por lo que lanzó un proyecto denominado Tin Can, y de donde nace Tin Can API...\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Cuál no es un requisito de los MOOC (Massive Open Online Course)?",
+            "opciones": [
+                "A. Ser un curso",
+                "B. Tener carácter masivo",
+                "C. Online",
+                "D. Todas las anteriores son requisitos"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son requisitos",
+            "justificacion": "La opción D es correcta porque el documento define los MOOCs en la sección 2.2.6 como \"cursos online dirigidos a un gran número de participantes\", estableciendo explícitamente sus características principales: acceso masivo, carácter abierto y realización en línea. Por tanto, ser un curso, tener carácter masivo y ser online son requisitos inherentes a su definición según el texto, validando la opción que afirma que todas las anteriores son requisitos.",
+            "referencia": "Sección: 2 Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning. Subsubsección: 2.2.6 MOOCs (Massive Open Online Course). Primera oración del párrafo relevante: \"Mención especial merecen los conocidos como MOOCs, cursos online dirigidos a un gran número de participantes a través de Internet...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Cuáles son las ventajas del e-learning? Señale la FALSA:",
+            "opciones": [
+                "A. Elimina las distancias físicas",
+                "B. Favorece la interacción cara a cara",
+                "C. Permite flexibilidad horaria",
+                "D. Aumenta el número de destinatarios"
+            ],
+            "opcion_correcta": "B. Favorece la interacción cara a cara",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento en la sección 2.2.1 enumera las principales características y ventajas del e-learning, destacando que \"Elimina las distancias físicas\", \"Permite flexibilidad horaria\" y \"Aumenta el número de destinatarios\". La interacción cara a cara es propia de la formación presencial o b-learning (sección 2.2.2), no del e-learning puro que se basa en herramientas como correo, foro o chat para eliminar barreras espaciales.",
+            "referencia": "Sección: 2 Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning. Subsubsección: 2.2.1 e-Learning (Electronic learning). Primera oración del párrafo relevante: \"Las principales características de la formación a distancia son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Señale cuál de los siguientes no se corresponde con ningún libro SCORM:",
+            "opciones": [
+                "A. Scorm Content Aggregation Model.",
+                "B. Scorm Shareable Content Objects.",
+                "C. Scorm Run-Time Environment.",
+                "D. Scorm Sequencing and Navigation."
+            ],
+            "opcion_correcta": "B. Scorm Shareable Content Objects.",
+            "justificacion": "La opción B es correcta porque el documento en la sección 4.1 detalla que las especificaciones de SCORM están organizadas en tres libros: \"Scorm Overview\", \"Scorm Content Aggregation Model\" y \"Scorm Run-Time Environment\". Aunque menciona los \"Sharable Content Objects (SCOs)\" como componentes funcionales del modelo, no los lista como título de un libro específico dentro de la estructura de especificaciones técnica descrita.",
+            "referencia": "Sección: 4 Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Las especificaciones de SCORM están organizadas como “libros” separados.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Cuál de las siguientes no es una plataforma para cursos online abiertos masivos (MOOC)?",
+            "opciones": [
+                "A. Coursera",
+                "B. Udacity",
+                "C. Miríada X",
+                "D. Moodle"
+            ],
+            "opcion_correcta": "D. Moodle",
+            "justificacion": "La opción D es correcta porque el documento en la sección 5 clasifica las herramientas de e-learning diferenciando entre LMS y plataformas MOOC. Mientras que Coursera, Udacity y MiríadaX son citadas explícitamente como \"plataformas MOOC\", Moodle se lista bajo la categoría de \"Software libre\" dentro de los sistemas LMS (Learning Management System), no en el listado específico de plataformas dedicadas a MOOCs.",
+            "referencia": "Sección: 5 Herramientas de e-learning. Primera oración del párrafo relevante: \"Finalmente, existen multitud de plataformas MOOC que han resultado ser de gran éxito en los últimos años, como son MiríadaX... Coursera, Edx, Udacity y Canvas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Señale la opción que enumera tres de las especificaciones más robustas en el sector del e-learning:",
+            "opciones": [
+                "A. AICC, IMS y SCORM",
+                "B. AICC, EL-XML y SCORM",
+                "C. ELEARN, FCC y SCORM",
+                "D. SCORM, ELEARN y AICC"
+            ],
+            "opcion_correcta": "A. AICC, IMS y SCORM",
+            "justificacion": "La opción A es correcta porque el documento en la sección 4 identifica a las organizaciones más relevantes en materia de estandarización del e-learning como ADL (creadora de SCORM), AICC, IEEE e IMS Global Learning Consortium. Estas entidades son las que han desarrollado los estándares principales mencionados en el texto (SCORM, especificaciones AICC, especificaciones IMS), validando la combinación de AICC, IMS y SCORM como las más robustas según el contenido.",
+            "referencia": "Sección: 4 Estándares y normalización del e-Learning. Primera oración del párrafo relevante: \"No obstante, las organizaciones más relevantes en materia de estandarización del e-learning son ADL, AICC, CEN, IEEE, IMS, ISO/IEC.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Señale la respuesta incorrecta con respecto a los MOOC:",
+            "opciones": [
+                "A. Son similar a cualquier curso en línea.",
+                "B. El número de participantes es ilimitado.",
+                "C. MOOC son las siglas de Masive Open Online Course.",
+                "D. Se basan en la interacción social."
+            ],
+            "opcion_correcta": "A. Son similar a cualquier curso en línea.",
+            "justificacion": "La opción A es la respuesta correcta (como afirmación incorrecta) porque el documento define a los MOOCs como cursos que siguen principios específicos de \"educación abierta y masiva\", diferenciándolos de un curso en línea genérico. El texto establece que son una modalidad innovadora con características propias como el acceso libre, abierto y gratuito, lo cual no aplica a \"cualquier curso en línea\". Las opciones B, C y D se alinean con las características descritas (gran número de participantes, siglas correctas e interacción/evaluación por pares).",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning. Subsubsección: 2.2.6 MOOCs (Massive Open Online Course). Primera oración del párrafo relevante: \"Mención especial merecen los conocidos como MOOCs, cursos online dirigidos a un gran número de participantes a través de Internet, siguiendo los principios de educación abierta y masiva.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "La norma UNE 66181:2012 de AENOR:",
+            "opciones": [
+                "A. Fue desarrollada para agrupar un conjunto de criterios, como guía para identificar las características de las acciones formativas virtuales, que están clasificados en diferentes niveles de excelencia.",
+                "B. Permite que alumnos, proveedores de formación, empresas cliente, organismos públicos y proveedores conozcan los principios de calidad esperados desde el punto de vista de plataforma tecnológica, contenidos didácticos y ciclo de vida de la acción formativa.",
+                "C. Los factores clave a que se orientan sus requisitos son la accesibilidad, la empleabilidad y la asimilación.",
+                "D. Todas son correctas."
+            ],
+            "opcion_correcta": "D. Todas son correctas.",
+            "justificacion": "La opción D es correcta porque el documento valida explícitamente las tres afirmaciones anteriores en la sección dedicada a esta norma. El texto indica que la norma agrupa criterios para identificar características clasificadas en niveles de excelencia (Opción A), sirve para que las partes interesadas conozcan los principios de calidad (Opción B) y se orienta a tres factores clave: accesibilidad, empleabilidad y asimilación (Opción C).",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.6 Certificación UNE 66181 de AENOR. Primera oración del párrafo relevante: \"La norma UNE 66181:2012 ha sido desarrollada para agrupar un conjunto de criterios, como guía para identificar las características de las acciones formativas virtuales que están clasificados en diferentes niveles de excelencia...\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Cuál de los siguientes NO es un tipo de e-Learning, según la clasificación de Boneu basada en los medios tecnológicos usados?",
+            "opciones": [
+                "A. CBT (Computer Based Training). Aprendizaje utilizando ordenadores personales",
+                "B. IBT (Internet Based Training). Aprendizaje basado en las TIC, el uso de Internet, las aplicaciones y el acceso a la red",
+                "C. WBT (Web Based Training). Aprendizaje a través de la web",
+                "D. MBT (Mobile Based Training). Aprendizaje basado en tecnologías móviles"
+            ],
+            "opcion_correcta": "D. MBT (Mobile Based Training). Aprendizaje basado en tecnologías móviles",
+            "justificacion": "La opción D es correcta porque el documento, al citar la clasificación de Boneu, enumera específicamente CBT, IBT y WBT como las variantes basadas en medios tecnológicos. El término MBT no aparece en esta lista específica dentro del texto; aunque se menciona el m-Learning posteriormente, no forma parte de la taxonomía atribuida a Boneu en la sección de evolución.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.1 Evolución del e-learning. Primera oración del párrafo relevante: \"Otra clasificación de la evolución del e-learning es la que propone Boneu, en función de los medios tecnológicos usados:\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "En la plataforma de e-learning Moodle, indique cuál de las siguientes expresiones NO es correcta:",
+            "opciones": [
+                "A. Es una plataforma de libre distribución de e-learning",
+                "B. Soporta el aprendizaje colaborativo en cualquier lugar y en cualquier momento",
+                "C. Es una aplicación Web que funciona en cualquier computador en el que se pueda ejecutar PHP",
+                "D. Sólo funciona con el sistema operativo Linux"
+            ],
+            "opcion_correcta": "D. Sólo funciona con el sistema operativo Linux",
+            "justificacion": "La opción D es la respuesta correcta (como afirmación incorrecta) porque el documento clasifica a Moodle como \"Software libre\" y las plataformas de e-learning se describen como soluciones web accesibles mediante navegador, sin restricción explícita al sistema operativo del servidor o cliente en el texto. La limitación exclusiva a Linux contradice la naturaleza de aplicaciones web basadas en PHP descritas en el contexto de herramientas de e-learning que buscan accesibilidad universal.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Subsección: (Sin subsección específica, párrafo de clasificación). Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento: Software libre: ATutor, Moodle, Chamillo, Claroline, Dokeos, .LRN, Sakai. KEWL, LogyCampus, ILIAS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Para qué se utiliza un LMS?",
+            "opciones": [
+                "A. Para crear cursos de e-learning",
+                "B. Para cachear los cursos de e-learning en el web server",
+                "C. Es un Content Management System especializado en e-learning",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores",
+            "justificacion": "La opción D es correcta porque el documento distingue claramente entre LMS y LCMS. Establece que los LMS se centran en la \"distribución y control de los materiales\" y que \"no suelen incluir herramientas de creación de contenidos\", los cuales deben ser creados externamente (invalidando A). Además, indica que los LCMS tienen su origen en los CMS, diferenciándolos funcionalmente (invalidando C), y no menciona funciones de caché (invalidando B).",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.3 Componentes. Subsubsección: 2.3.1 Plataforma. Primera oración del párrafo relevante: \"Comparando los sistemas LCMS y LMS, se puede decir que los primeros permiten tanto la distribución como la creación de materiales, y pretenden que los educadores creen sus propios materiales online, mientras que los LMS se centran en la distribución y control de los materiales y no suelen incluir herramientas de creación de contenidos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Cuál de los siguientes no es un sistema de gestión de conocimiento con licencia de software libre?",
+            "opciones": [
+                "A. ATutor",
+                "B. Claroline",
+                "C. Joomla",
+                "D. Moodle"
+            ],
+            "opcion_correcta": "C. Joomla",
+            "justificacion": "La opción C es correcta porque el documento, en la sección dedicada a las herramientas de e-learning, clasifica explícitamente los sistemas LMS según su licenciamiento, listando como \"Software libre\" a ATutor, Moodle y Claroline, entre otros. Joomla no aparece en dicha lista de plataformas de gestión del aprendizaje (LMS) de código abierto mencionadas en el texto, por lo que se descarta como opción correcta dentro del contexto de la clasificación proporcionada.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento: ... Software libre: ATutor, Moodle, Chamillo, Claroline...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Cuál es la principal limitación de SCORM que el estándar xAPI (Experience API) busca superar?",
+            "opciones": [
+                "A. Su incapacidad para crear cuestionarios con más de 10 preguntas.",
+                "B. Su limitación para registrar experiencias de aprendizaje que ocurren fuera de un navegador web y de un LMS tradicional (ej. en apps móviles, simuladores o aprendizaje informal).",
+                "C. Su dependencia de la tecnología Flash para funcionar.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Su limitación para registrar experiencias de aprendizaje que ocurren fuera de un navegador web y de un LMS tradicional (ej. en apps móviles, simuladores o aprendizaje informal).",
+            "justificacion": "La opción B es correcta ya que el documento indica que xAPI (anteriormente Tin Can API) es considerada la sucesora de SCORM y su objetivo es resolver deficiencias del estándar anterior, logrando específicamente \"sacar al e-learning fuera del navegador de internet, desarrollándolo en apps nativas para móviles\". Esto permite registrar interacciones y experiencias de aprendizaje en entornos no tradicionales como aplicaciones móviles o simuladores.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Es ya considerada la sucesora de SCORM, ya que pretende resolver algunas de sus deficiencias, consigue sacar al e-learning fuera del navegador de internet...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "La iniciativa ADL (Advanced Distributed Learning) publicó en el año 2000 un modelo que trata de estandarizar los contenidos formativos digitales y que se conoce como:",
+            "opciones": [
+                "A. SCORM",
+                "B. B-Learning",
+                "C. DFC",
+                "D. ADL 2000"
+            ],
+            "opcion_correcta": "A. SCORM",
+            "justificacion": "La opción A es correcta porque el documento establece que la iniciativa ADL recogió las mejores iniciativas anteriores y las refundió en su propio estándar, denominado SCORM (Shareable Content Object Reference Model). Este modelo se describe como el que está teniendo un mayor impacto en la industria para estandarizar contenidos y lograr interoperabilidad.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Este organismo recogió “lo mejor” de las anteriores iniciativas... y las refundió y mejoró en su propio estándar: SCORM, Shareable Content Object Reference Model...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Cuál de los siguientes términos no tienen relación con el e-learning?",
+            "opciones": [
+                "A. IMS.",
+                "B. SCORM.",
+                "C. Moodle.",
+                "D. ePupil."
+            ],
+            "opcion_correcta": "D. ePupil.",
+            "justificacion": "La opción D es correcta porque los términos IMS, SCORM y Moodle aparecen explícitamente en el documento relacionados con la normalización y las herramientas de e-learning. IMS se menciona como consorcio de estándares, SCORM como estándar de ADL y Moodle como plataforma de software libre. El término \"ePupil\" no figura en ninguna sección del texto proporcionado ni se asocia a los conceptos tratados.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.4 IMS Global Learning Consortium, Inc. Primera oración del párrafo relevante: \"Este consorcio está formado por miembros provenientes de organizaciones educacionales, empresas públicas y privadas...\". (Referencia cruzada con Sección 5 para Moodle)."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Una de las siguientes opciones incluye tres plataformas Massive Open Online Courses (MOOCs):",
+            "opciones": [
+                "A. Udemy, Lynda y Tutellus.",
+                "B. Coursera, Tutellus y MarTa.",
+                "C. Lynda, MarTa y Coursera.",
+                "D. Lynda, Udemy e iMOOC."
+            ],
+            "opcion_correcta": "A. Udemy, Lynda y Tutellus.",
+            "justificacion": "La opción A es correcta en el contexto de la definición conceptual proporcionada por el documento. Aunque el texto cita ejemplos específicos como Coursera o EdX, define los MOOCs como cursos online dirigidos a un gran número de participantes con acceso libre y abierto. Las plataformas mencionadas en la opción A se ajustan funcionalmente a esta definición de \"cursos online dirigidos a un gran número de participantes... siguiendo los principios de educación abierta y masiva\" descrita en el documento, existiendo una \"multitud de plataformas MOOC\" según la sección de herramientas.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning. Subsubsección: 2.2.6 MOOCs (Massive Open Online Course). Primera oración del párrafo relevante: \"Mención especial merecen los conocidos como MOOCs, cursos online dirigidos a un gran número de participantes a través de Internet...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Las principales características de la modalidad de formación MOOC son:",
+            "opciones": [
+                "A. Son masivos (no hay límite de matriculaciones), son presenciales y tienen coste de matriculación.",
+                "B. Son masivos (no hay límite de matriculaciones), se imparten en formato online y son abiertos.",
+                "C. Hay un límite de matriculaciones, son presenciales y son gratuitos.",
+                "D. Hay un límite de matriculaciones, son presenciales y tienen coste de matriculación."
+            ],
+            "opcion_correcta": "B. Son masivos (no hay límite de matriculaciones), se imparten en formato online y son abiertos.",
+            "justificacion": "La opción B es correcta porque el documento define los MOOCs como \"cursos online dirigidos a un gran número de participantes a través de Internet, siguiendo los principios de educación abierta y masiva\". Además, enumera entre sus características principales el \"Acceso masivo\", el \"Acceso libre y abierto\" y que el curso se realiza en su totalidad en línea. Las opciones A, C y D son incorrectas al mencionar que son presenciales o tienen límites de matriculación, lo cual contradice la definición textual del documento.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning. Subsubsección: 2.2.6 MOOCs (Massive Open Online Course). Primera oración del párrafo relevante: \"Mención especial merecen los conocidos como MOOCs, cursos online dirigidos a un gran número de participantes a través de Internet, siguiendo los principios de educación abierta y masiva.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Indique cuál de los siguientes términos corresponde con el nombre de una plataforma LMS (Learning Management System):",
+            "opciones": [
+                "A. Moodle",
+                "B. Booble",
+                "C. Reedle",
+                "D. Peeble"
+            ],
+            "opcion_correcta": "A. Moodle",
+            "justificacion": "La opción A es correcta porque el documento, en la sección de Herramientas de e-learning, clasifica los LMS y lista explícitamente \"Moodle\" dentro del grupo de \"Software libre\". Además, se menciona que Moodle es la plataforma más ampliamente utilizada en las administraciones públicas españolas. Las opciones B, C y D no aparecen mencionadas en el texto como plataformas de gestión del aprendizaje.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento:\". (Seguida de la lista que incluye: \"Software libre: ATutor, Moodle, Chamillo...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Se conoce como Mobile learning a:",
+            "opciones": [
+                "A. Una modalidad de enseñanza semipresencial que incluye formación presencial y e-learning.",
+                "B. Una modalidad educativa que facilita el aprendizaje de forma autónoma y ubicua gracias a la mediación de dispositivos.",
+                "C. La adaptación del modelo de enseñanza al contexto en el que se encuentra el estudiante.",
+                "D. La formación on line de propósito abierto y proyección masiva."
+            ],
+            "opcion_correcta": "B. Una modalidad educativa que facilita el aprendizaje de forma autónoma y ubicua gracias a la mediación de dispositivos.",
+            "justificacion": "La opción B es correcta porque el documento define el mobile learning como \"la modalidad educativa que facilita la construcción del conocimiento... de forma autónoma y ubicua gracias a la mediación de dispositivos móviles portables\". La opción A corresponde a la definición de b-Learning (formación combinada). La opción C se asemeja más al concepto de u-Learning (aprendizaje ubicuo adaptado al contexto). La opción D describe los MOOCs.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning. Subsubsección: 2.2.3 m-Learning (Mobile Learning). Primera oración del párrafo relevante: \"Según Brazuelo F. y Gallego D. (2011), podemos definir el mobile learning como la modalidad educativa que facilita la construcción del conocimiento, la resolución de problemas de aprendizaje y el desarrollo de destrezas o habilidades diversas de forma autónoma y ubicua gracias a la mediación de dispositivos móviles portables.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Cuál de las siguientes plataformas de e-learning NO es libre?",
+            "opciones": [
+                "A. Atutor",
+                "B. ILIAS",
+                "C. LON-CAPA",
+                "D. Blackboard"
+            ],
+            "opcion_correcta": "D. Blackboard",
+            "justificacion": "La opción D es correcta porque el documento clasifica las plataformas de e-learning en función de su licenciamiento, listando \"Blackboard\" explícitamente dentro del grupo de plataformas \"Comerciales\". Por el contrario, Atutor e ILIAS aparecen listados bajo la categoría de \"Software libre\". Al ser Blackboard comercial, no es una plataforma libre según la clasificación presentada en el texto.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento:\". (Seguida de la lista que incluye: \"Comerciales: Almagesto, Blackboard...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿Cuál de las siguientes no es una característica de una herramienta de e-learning, según C. Clarence?:",
+            "opciones": [
+                "A. Accesible.",
+                "B. Usable.",
+                "C. Influyente.",
+                "D. Gratuita."
+            ],
+            "opcion_correcta": "D. Gratuita.",
+            "justificacion": "La opción D es correcta porque el documento enumera las características que según Clarenc deben cumplir todas las plataformas de e-learning: Interactividad, Flexibilidad, Escalabilidad, Estandarización, Usabilidad, Funcionalidad, Ubicuidad, Influyente y Accesibilidad. El término \"Gratuita\" no aparece en esta lista de características obligatorias, aunque el texto menciona posteriormente que existen plataformas de software libre, la gratuidad no se define como una característica intrínseca de la herramienta según este autor en el listado proporcionado.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Según Clarenc, todas las plataformas de e-learning deben cumplir con las siguientes características:\". (Seguida de la lista que incluye: \"Interactividad... Accesibilidad...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Un ejemplo de plataforma para soporte de un MOOC es:",
+            "opciones": [
+                "A. Moodle.",
+                "B. Coursera.",
+                "C. Canva.",
+                "D. Blackboard."
+            ],
+            "opcion_correcta": "B. Coursera.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección de herramientas, clasifica explícitamente a Coursera dentro de las \"plataformas MOOC\" que han resultado ser de gran éxito, diferenciándolas de los LMS tradicionales como Moodle o Blackboard que se listan en categorías distintas (software libre o comerciales).",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Finalmente, existen multitud de plataformas MOOC que han resultado ser de gran éxito en los últimos años, como son MiríadaX...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Indique la afirmación falsa respecto a la especificación de e-Learning “Experience API” (xAPI):",
+            "opciones": [
+                "A. Ha sido desarrollada por el World Wide Web Consortium (W3C)",
+                "B. Se considera el sustituto del estándar SCORM",
+                "C. Ofrece un API para intercambiar los flujos de actividades de una persona o un grupo de personas mientras interactúan con diversas tecnologías y contenidos, siendo esta información las “Experiencias de Aprendizaje”",
+                "D. Permite extender el e-learning a las aplicaciones nativas para móviles"
+            ],
+            "opcion_correcta": "A. Ha sido desarrollada por el World Wide Web Consortium (W3C)",
+            "justificacion": "La opción A es la afirmación falsa (y por tanto la correcta en el test) porque el documento atribuye el desarrollo del proyecto Tin Can, rebautizado como xAPI, a la iniciativa ADL (Advanced Distributed Learning), y no al W3C. El texto indica que ADL lanzó este proyecto para crear una nueva especificación más sencilla.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"ADL reconoció la necesidad de crear una nueva especificación nueva y más sencilla, por lo que lanzó un proyecto denominado Tin Can...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Qué representan las siglas MOOC?",
+            "opciones": [
+                "A. Multiple Orthogonal Output Coding",
+                "B. Método Objetivo de Organización de Costes",
+                "C. Massive Open Online Course",
+                "D. Main Object Oriented Class"
+            ],
+            "opcion_correcta": "C. Massive Open Online Course",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección de variantes de e-learning y en el glosario que MOOC significa \"Massive Open Online Course\", describiéndolos como cursos online dirigidos a un gran número de participantes siguiendo principios de educación abierta.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.2.6 MOOCs (Massive Open Online Course). Primera oración del párrafo relevante: \"Mención especial merecen los conocidos como MOOCs, cursos online dirigidos a un gran número de participantes a través de Internet...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Indique la afirmación incorrecta sobre SCORM:",
+            "opciones": [
+                "A. En los inicios SCORM, los cursos se creaban mediante un conjunto de páginas HTML.",
+                "B. Se pueden crear cursos SCORM desde cualquier editor de texto.",
+                "C. Con las herramientas adecuadas, se pueden crear cursos SCORM desde Power Point.",
+                "D. Se pueden crear cursos SCORM desde servicios en nube."
+            ],
+            "opcion_correcta": "B. Se pueden crear cursos SCORM desde cualquier editor de texto.",
+            "justificacion": "La opción B es la afirmación incorrecta (y por tanto la correcta en el test) porque el documento describe a SCORM como un estándar con una \"referencia de implementación detallada\" dividida en libros técnicos que incluyen modelos de agregación y empaquetamiento de contenidos, lo que implica requisitos técnicos específicos (como ficheros XML) que no se cumplen simplemente usando cualquier editor de texto sin herramientas adecuadas.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"SCORM proporciona un marco de trabajo y una referencia de implementación detallada que permite a los contenidos y a los sistemas usar SCORM para “hablar” con otros sistemas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Es un estándar de e-learning:",
+            "opciones": [
+                "A. IEEE",
+                "B. ADL",
+                "C. LMS",
+                "D. SCORM"
+            ],
+            "opcion_correcta": "D. SCORM",
+            "justificacion": "La opción D es correcta porque el documento distingue entre las organizaciones que crean normas (como IEEE o ADL) y los sistemas de gestión (LMS), identificando explícitamente a SCORM como el \"estándar\" o \"norma\" resultante del trabajo de la iniciativa ADL para la interoperabilidad.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Este organismo recogió “lo mejor” de las anteriores iniciativas... y las refundió y mejoró en su propio estándar: SCORM...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Indique cuál de las siguientes plataformas categorizaría como una plataforma tecnológica de tipo LMS (Learning Management System):",
+            "opciones": [
+                "A. Joomla",
+                "B. Drupal",
+                "C. Moodle",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "C. Moodle",
+            "justificacion": "La opción C es correcta porque el documento, en la sección dedicada a herramientas de e-learning, clasifica explícitamente a Moodle dentro de los sistemas de gestión del aprendizaje (LMS) de software libre. El texto menciona: \"Software libre: ATutor, Moodle, Chamillo, Claroline, Dokeos...\", identificándola como una plataforma tecnológica para la formación basada en la web, mientras que las otras opciones no aparecen listadas como herramientas de e-learning en el documento.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Indique cuál de las siguientes es una herramienta de e-learning:",
+            "opciones": [
+                "A. Kerberos",
+                "B. WebCT",
+                "C. Kagera",
+                "D. Tuxedo"
+            ],
+            "opcion_correcta": "B. WebCT",
+            "justificacion": "La opción B es correcta ya que el documento incluye a WebCT en la lista de plataformas comerciales de e-learning dentro de la sección de herramientas. El texto especifica: \"Comerciales: Almagesto, Blackboard, Edu2.0, E-ducativa, FirstClass, Nixty, Saba, WizIQ, WebCT...\", validándola como una herramienta del sector, a diferencia de las demás opciones que no se mencionan en el contexto de formación online.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Indique qué es xAPI:",
+            "opciones": [
+                "A. Es un API que permite desarrollar plugins para los navegadores web.",
+                "B. Es un API de JAVA que permite operar con ficheros XML.",
+                "C. Es una especificación técnica orientada al aprendizaje que permite recopilar información acerca de las experiencias que tienen las personas.",
+                "D. Es una librería en JavaScript que permite realizar desarrollos con el conocido patrón modelo-vista-controlador."
+            ],
+            "opcion_correcta": "C. Es una especificación técnica orientada al aprendizaje que permite recopilar información acerca de las experiencias que tienen las personas.",
+            "justificacion": "La opción C es correcta porque el documento define a xAPI (anteriormente Tin Can API) como un estándar para aplicaciones de e-learning que estructura y almacena interacciones de una persona ante actividades de aprendizaje, definiendo esta información como «Experiencias de Aprendizaje». El texto indica: \"xAPI conforma un nuevo estándar para las aplicaciones (software) de e-learning que estructura y permite almacenar las interacciones de una persona...\", lo cual coincide con la descripción de recopilar experiencias.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"xAPI conforma un nuevo estándar para las aplicaciones (software) de e-learning que estructura y permite almacenar las interacciones de una persona...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "En e-learning se denomina \"flipped classroom\" a:",
+            "opciones": [
+                "A. Un sistema híbrido de aprendizaje que combina la capacitación presencial (con profesores en un aula) con la educación online (cursos en internet o medios digitales).",
+                "B. Un modo de aprendizaje progresivo, al ritmo de cada usuario, que asimila adecuadamente la información antes de pasar al siguiente módulo del curso.",
+                "C. Un modo de aprendizaje que emplea contenidos e-learning que el usuario puede incorporar a su agenda diaria sin que le reste mucho tiempo.",
+                "D. Un modelo pedagógico que transforma procesos que habitualmente estaban vinculados al aula, transfiriéndolos al contexto extraescolar."
+            ],
+            "opcion_correcta": "D. Un modelo pedagógico que transforma procesos que habitualmente estaban vinculados al aula, transfiriéndolos al contexto extraescolar.",
+            "justificacion": "La opción D es correcta conceptualmente según el documento, ya que aunque no define explícitamente \"flipped classroom\", describe la evolución hacia modelos que implican un \"desplazamiento del aula un contexto no tradicional\" y la superación de la metáfora del aula. El texto en la sección de u-Learning indica: \"Evidentemente, esto hace necesario un desplazamiento del aula un contexto no tradicional...\", lo cual se alinea con la transferencia de procesos vinculados al aula a contextos extraescolares o ubicuos.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.2.4 u-Learning (Ubiquitous learning). Primera oración del párrafo relevante: \"Evidentemente, esto hace necesario un desplazamiento del aula un contexto no tradicional.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cuál de los siguientes es un CMS orientado al entorno educativo?",
+            "opciones": [
+                "A. WordPress.",
+                "B. Magnolia.",
+                "C. Pixelpost.",
+                "D. Moodle."
+            ],
+            "opcion_correcta": "D. Moodle.",
+            "justificacion": "La opción D es correcta porque el documento identifica a Moodle como una de las plataformas principales de software libre utilizadas en el entorno educativo y de administración pública para la gestión del aprendizaje. En la sección de herramientas, se lista explícitamente: \"Software libre: ATutor, Moodle, Chamillo...\", estableciéndola como la herramienta orientada al entorno educativo entre las opciones presentadas, a diferencia de los otros CMS genéricos no mencionados en el texto.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Qué organismo ha desarrollado los estándares de e-learning SCORM y xAPI?",
+            "opciones": [
+                "A. AICC (Aviation Industry CBT Committee).",
+                "B. ADL (Advanced Distributed Learning).",
+                "C. IEEE Learning Technologies Standard Committee (LTSC).",
+                "D. IMS Global Learning Consortium, Inc."
+            ],
+            "opcion_correcta": "B. ADL (Advanced Distributed Learning).",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección 4.1 que la iniciativa ADL refundió y mejoró las iniciativas anteriores en su propio estándar: SCORM. Además, menciona que ADL lanzó el proyecto Tin Can API, rebautizado como «Experience API» (xAPI), considerado la sucesora de SCORM.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Este organismo recogió “lo mejor” de las anteriores iniciativas... y las refundió y mejoró en su propio estándar: SCORM...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Indique cuál es la afirmación INCORRECTA respecto del software de e-learning Moodle:",
+            "opciones": [
+                "A. Cuenta, entre otros, con módulos para la realización de exámenes, realización de tareas y glosarios.",
+                "B. Permite la incorporación de contenidos en paquetes SCORM.",
+                "C. Está escrito en PHP y tiene licencia BSD (Berkeley Software Distribution), que permite su incorporación en aplicaciones de software comercial.",
+                "D. Permite gestionar los permisos de los usuarios basándose en diversos roles para personas administradoras, profesorado, alumnado, etc."
+            ],
+            "opcion_correcta": "C. Está escrito en PHP y tiene licencia BSD (Berkeley Software Distribution), que permite su incorporación en aplicaciones de software comercial.",
+            "justificacion": "La opción C es la afirmación incorrecta (y por tanto la respuesta correcta a la pregunta) porque, aunque el documento clasifica a Moodle como \"Software libre\" en la sección 5, la licencia específica BSD mencionada no corresponde al estándar de licenciamiento asociado a esta herramienta en el contexto de los sistemas libres listados (generalmente GPL), siendo este detalle técnico el punto de discordancia que invalida la afirmación frente a las demás características funcionales descritas implícitamente en la clasificación de herramientas.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Cuál de estas opciones es el estándar e-learning para la creación de contenidos digitales desarrollado por ADL (Advanced Distributed Learning)?",
+            "opciones": [
+                "A. LMS",
+                "B. SCORM",
+                "C. Open edX",
+                "D. EXeLearning"
+            ],
+            "opcion_correcta": "B. SCORM",
+            "justificacion": "La opción B es correcta porque el documento identifica en la sección 4.1 que ADL refundió las iniciativas anteriores en su propio estándar denominado SCORM (Shareable Content Object Reference Model), el cual proporciona un marco de trabajo para que los contenidos y sistemas usen SCORM para interoperar.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Este organismo recogió “lo mejor” de las anteriores iniciativas... y las refundió y mejoró en su propio estándar: SCORM...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cuál de los siguientes términos no son herramientas o plataformas de e-learning?",
+            "opciones": [
+                "A. aTutor",
+                "B. WebCT",
+                "C. eSchool",
+                "D. Blackboard"
+            ],
+            "opcion_correcta": "C. eSchool",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 5, lista explícitamente herramientas como ATutor (aTutor), Blackboard y menciona WebCT en las preguntas de test asociadas al tema como plataformas comerciales o libres, mientras que \"eSchool\" no aparece en ninguna de las clasificaciones de software libre, comercial o en la nube proporcionadas en el texto.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "El denominado \"Blended learning\" es:",
+            "opciones": [
+                "A. Una modalidad de enseñanza semipresencial que incluye formación presencial y e-learning.",
+                "B. El aprendizaje mediante dipositivos con conectividad inalámbrica.",
+                "C. La adaptación del modelo de enseñanza al contexto en el que se encuentra el estudiante.",
+                "D. La formación on line de propósito abierto y proyección masiva."
+            ],
+            "opcion_correcta": "A. Una modalidad de enseñanza semipresencial que incluye formación presencial y e-learning.",
+            "justificacion": "La opción A es correcta porque el documento define en la subsección 2.2.2 el b-learning (blended learning) como una modalidad de enseñanza-aprendizaje semipresencial que incluye tanto formación presencial como e-learning, combinando las ventajas de ambos modelos.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning. Subsubsección: 2.2.2 b-Learning (Blended learning). Primera oración del párrafo relevante: \"El b-learning (blended learning; formación combinada en castellano), es una modalidad de enseñanza-aprendizaje semipresencial que incluye tanto formación presencial como e-learning.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Cuál de los siguientes acrónimos hace referencia a un estándar de modelo de agregación de contenidos Web para eLearning?",
+            "opciones": [
+                "A. CORBA",
+                "B. OWR",
+                "C. SCORM",
+                "D. IQC"
+            ],
+            "opcion_correcta": "C. SCORM",
+            "justificacion": "La opción C es correcta porque el documento identifica explícitamente a SCORM como el estándar desarrollado por la iniciativa ADL para lograr interoperabilidad y reusabilidad de contenidos. El texto menciona que este organismo refundió iniciativas anteriores en su propio estándar: SCORM (Shareable Content Object Reference Model), el cual incluye un modelo de agregación de contenidos.",
+            "referencia": "Sección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Este organismo recogió “lo mejor” de las anteriores iniciativas (el sistema de descripción de cursos en XML de la IMS, y el mecanismo de intercambio de información mediante una API de la AICC) y las refundió y mejoró en su propio estándar: SCORM...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "No es una forma de presentar contenidos en un LMS:",
+            "opciones": [
+                "A. Estructura lineal",
+                "B. Estructura matricial",
+                "C. Estructura jerárquica",
+                "D. Estructura en red"
+            ],
+            "opcion_correcta": "B. Estructura matricial",
+            "justificacion": "La opción B es correcta porque el documento enumera específicamente tres formas de presentar contenidos: estructura lineal, estructura jerárquica y estructura en red. La \"estructura matricial\" no aparece mencionada en la sección dedicada a los componentes y contenidos del e-learning, por lo que se descarta como una forma válida según este texto.",
+            "referencia": "Sección: 2.3.2 Contenidos. Primera oración del párrafo relevante: \"Además, se pueden presentar de diferentes maneras:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Qué es Forma2?",
+            "opciones": [
+                "A. Una plataforma de formación online del INAP en materias sobre la Administración Pública",
+                "B. Una herramienta de e-learning de código abierto española",
+                "C. Una herramienta de e-learning propietaria centrada en la formación de formadores",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Una plataforma de formación online del INAP en materias sobre la Administración Pública",
+            "justificacion": "La opción A es correcta ya que el texto destaca la labor del Instituto Nacional de Administración Pública (INAP) y menciona específicamente la plataforma Forma2 como una iniciativa promovida en conjunción con la EOI para acciones formativas en materias de interés sobre la administración pública.",
+            "referencia": "Sección: 6.2 Herramientas y plataformas de formación de las administraciones públicas. Primera oración del párrafo relevante: \"Merece especial mención la plataforma Forma2 (http://forma2.inap.es/ ), promovida en conjunción con la Escuela de Organización Industrial (EOI) para las acciones formativas en materias de interés sobre la administración pública...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "De las siguientes herramientas de teleaprendizaje para formación de usuarios y personal técnico, indique cuál NO es de software libre:",
+            "opciones": [
+                "A. Catedr@.",
+                "B. Dokeos.",
+                "C. Moodle.",
+                "D. Claroline."
+            ],
+            "opcion_correcta": "A. Catedr@.",
+            "justificacion": "La opción A es correcta porque el documento clasifica explícitamente a Moodle, Dokeos y Claroline dentro de la categoría de \"Software libre\". Por exclusión y corroboración con las preguntas de test incluidas en el mismo documento (Pregunta 8 del apartado de tests), Catedr@ se identifica como software propietario, no siendo parte de la lista de herramientas libres.",
+            "referencia": "Sección: 5 Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "¿Las siglas ADL qué significan desde la perspectiva del e-learning?",
+            "opciones": [
+                "A. Advanced Distributed Learning",
+                "B. Advanced Distanced Learning",
+                "C. No tienen ningún significado desde la perspectiva del e-learning",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Advanced Distributed Learning",
+            "justificacion": "La opción A es correcta dado que el documento define en su sección correspondiente y en el glosario que ADL significa \"Advanced Distributed Learning\". Se describe como una iniciativa del Departamento de Defensa de los Estados Unidos para desarrollar principios y guías de trabajo para la formación educativa sobre nuevas tecnologías web.",
+            "referencia": "Sección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Formada en 1997, la iniciativa ADL (Advanced Distributed Learning), es un programa del Departamento de Defensa de los Estados Unidos y de la Oficina de Ciencia y Tecnología de la Casa Blanca...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Qué estructura tienen las declaraciones de xAPI para registrar eventos de aprendizaje?",
+            "opciones": [
+                "A. <usuario, evento, curso>.",
+                "B. <actor, verbo, objeto>.",
+                "C. <rol, acción, contexto>.",
+                "D. <alumno, tarea, resultado>."
+            ],
+            "opcion_correcta": "B. <actor, verbo, objeto>.",
+            "justificacion": "La opción B es correcta porque el documento identifica en la sección 4.1 que xAPI (Experience API) es un estándar que \"estructura y permite almacenar las interacciones de una persona ante distintas actividades de aprendizaje online\" y se expresa mediante \"sentencias simples\". Esta descripción funcional de estructurar interacciones en sentencias alinea con el modelo lógico de Actor-Verbo-Objeto inherente a la captura de experiencias de aprendizaje mencionada por la iniciativa ADL en el texto.",
+            "referencia": "Sección: 4 Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"xAPI conforma un nuevo estándar para las aplicaciones (software) de e-learning que estructura y permite almacenar las interacciones de una persona ante distintas actividades de aprendizaje online.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Indique cual de entre las siguientes NO es una función del LMS:",
+            "opciones": [
+                "A. Seguimiento de la actividad del alumno.",
+                "B. Publicación de contenidos de formación.",
+                "C. Comunicación profesor-alumno.",
+                "D. Matriculación en cursos."
+            ],
+            "opcion_correcta": "B. Publicación de contenidos de formación.",
+            "justificacion": "La opción B es correcta porque el documento distingue entre LMS y LCMS, indicando que los LMS \"se centran en la distribución y control de los materiales\" y \"no suelen incluir herramientas de creación de contenidos\", mientras que la gestión y creación (publicación) de contenidos es función principal de los LCMS. Las otras opciones (seguimiento, comunicación, matriculación/gestión de usuarios) son funciones explícitamente atribuidas al LMS en el texto.",
+            "referencia": "Sección: 3 Sistemas de implantación del e-learning. Subsección: 3.2 Sistemas de e-learning. Primera oración del párrafo relevante: \"Comparando los sistemas LCMS y LMS, se puede decir que los primeros permiten tanto la distribución como la creación de materiales... mientras que los LMS se centran en la distribución y control de los materiales...\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Dentro de una solución e-learning, dónde se encuadraría un sistema LMS:",
+            "opciones": [
+                "A. Plataforma de formación.",
+                "B. Contenidos de formación.",
+                "C. Herramientas de comunicación.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. Plataforma de formación.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 2.3 que una solución de aprendizaje en línea está formada por tres componentes, siendo el primero \"la plataforma tecnológica o sistema en el que se implantan las actividades formativas\". Posteriormente, en la subsección 2.3.1, se define la plataforma y se mencionan los LMS como sistemas tecnológicos dentro de esta categoría.",
+            "referencia": "Sección: 2 Conceptos, evolución y tipos de e-learning. Subsección: 2.3 Componentes. Primera oración del párrafo relevante: \"Se entiende por plataforma de e-learning al conjunto de herramientas que, combinadas, nos entregan una solución integral para cubrir las necesidades de la formación basada en la web...\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Cuál de los siguientes elementos es un plataforma e-learning de software libre?",
+            "opciones": [
+                "A. Moodle",
+                "B. MOOC",
+                "C. MiriadaX",
+                "D. Coursera"
+            ],
+            "opcion_correcta": "A. Moodle",
+            "justificacion": "La opción A es correcta porque el documento realiza una clasificación explícita de los LMS en función de su licenciamiento en la sección 5, listando \"Moodle\" dentro del grupo de \"Software libre\". Las otras opciones se refieren a tipos de cursos (MOOC) o plataformas específicas que no aparecen categorizadas como software libre en dicha lista.",
+            "referencia": "Sección: 5 Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento: Software libre: ATutor, Moodle, Chamillo, Claroline, Dokeos, .LRN, Sakai. KEWL, LogyCampus, ILIAS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Sobre el e-learnig:",
+            "opciones": [
+                "A. Es el uso de las tecnologías multimedia para mejorar y desarrollar nuevas estrategias de aprendizaje",
+                "B. Algunas de las facilidades que aporta el e-learning son la accesibilidad geográfica y la flexibilidad en el tiempo",
+                "C. Las dos afirmaciones anteriores son correctas",
+                "D. Todas las afirmaciones anteriores son falsas"
+            ],
+            "opcion_correcta": "C. Las dos afirmaciones anteriores son correctas",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección 2.2.1 que el e-learning pone a disposición \"recursos online y multimedia\" (afirmando A) y destaca como ventajas principales la eliminación de barreras espacio-temporales (\"accesibilidad geográfica\") y la \"flexibilidad horaria\" (afirmando B). Por tanto, ambas premisas se sustentan en las características y ventajas descritas en el texto.",
+            "referencia": "Sección: 2 Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning. Primera oración del párrafo relevante: \"Las principales características de la formación a distancia son: Elimina las distancias físicas... Permite flexibilidad horaria...\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "¿Cuál de los siguientes modelos hace referencia a un estándar de agregación de contenidos Web para sistemas e-Learning?",
+            "opciones": [
+                "A. SCORM (Shareable Content Object Reference Model)",
+                "B. OLC (Open Learning Content)",
+                "C. XWC (XML Web Content)",
+                "D. JCM (.lava Content Model)"
+            ],
+            "opcion_correcta": "A. SCORM (Shareable Content Object Reference Model)",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 4.1 que ADL refundió y mejoró iniciativas anteriores en su propio estándar: SCORM (Shareable Content Object Reference Model), el cual proporciona un marco de trabajo para que los contenidos y sistemas usen SCORM para lograr interoperabilidad, reusabilidad y adaptabilidad, actuando como modelo de agregación de contenidos. Las demás opciones no aparecen mencionadas como estándares en el texto.",
+            "referencia": "Sección: 4 Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning), Primera oración del párrafo relevante: \"Este organismo recogió “lo mejor” de las anteriores iniciativas (el sistema de descripción de cursos en XML de la IMS, y el mecanismo de intercambio de información mediante una API de la AICC) y las refundió y mejoró en su propio estándar: SCORM...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "¿Cuál de los siguientes sistemas de gestión de conocimiento tiene una versión con licencia de fuentes abiertas?",
+            "opciones": [
+                "A. Blackboard",
+                "B. WebCT",
+                "C. Dokeos",
+                "D. Desire2Learn"
+            ],
+            "opcion_correcta": "C. Dokeos",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 5, realiza una clasificación de plataformas LMS en función de su licenciamiento y lista explícitamente a \"Dokeos\" dentro de la categoría de \"Software libre\", junto con Moodle, Chamillo y Claroline. Las opciones A y B se mencionan en la categoría de \"Comerciales\".",
+            "referencia": "Sección: 5 Herramientas de e-learning, Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento:  Software libre: ATutor, Moodle, Chamillo, Claroline, Dokeos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "¿Cuál de los siguientes proyectos está relacionado con el intercambio de contenidos docentes y la coordinación entre promotores de formación en la Administración General del Estado?",
+            "opciones": [
+                "A. Comp@rte",
+                "B. Racionaliz@",
+                "C. Compartir",
+                "D. Educ@"
+            ],
+            "opcion_correcta": "C. Compartir",
+            "justificacion": "La opción C es correcta funcionalmente porque el documento describe en la sección 6.2 cómo las administraciones públicas disponen de plataformas de formación para impartir actividades y gestionar contenidos, citando ejemplos como \"Forma2\" del INAP o \"Punto Neutro\" (sección 7) como plataformas únicas de recursos educativos digitales promovidas por el Ministerio. Aunque el nombre específico \"Compartir\" no aparece textualmente, su función descrita en la opción coincide con la descripción del documento sobre plataformas estratégicas en la Administración para el intercambio y gestión de formación virtual.",
+            "referencia": "Sección: 6 E-learning en las administraciones públicas españolas. Subsección: 6.2 Herramientas y plataformas de formación de las administraciones públicas, Primera oración del párrafo relevante: \"Hoy en día, no hay administración pública u organismo que no disponga de su propia plataforma de formación, dado el carácter estratégico de la formación en una organización...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "El curso posterior a la fase oposición ó concurso-oposición de la promoción 28 del Cuerpo Superior de Sistemas y Tecnologías de la Información de la Administración del Estado se imparte en modalidad semipresencial con una duración de unos dos meses de docencia y cuatro de prácticas. ¿Cuál de las siguientes NO son caracteristicas del mismo?",
+            "opciones": [
+                "A. El curso se imparte en una modalidad síncrona.",
+                "B. Es un curso b-learning.",
+                "C. En ocasiones se pierde el lenguaje no verbal.",
+                "D. Sigue las filosofía del looping learning y flipped classroom."
+            ],
+            "opcion_correcta": "D. Sigue las filosofía del looping learning y flipped classroom.",
+            "justificacion": "La opción D es la correcta (como la que NO es característica) porque el documento define en la sección 2.2.2 el b-learning como la combinación de enseñanza presencial con tecnología no presencial, validando la opción B. Además, en la sección 2.3.3 se describen sistemas síncronos y asíncronos, y en la sección 2.2.1 se mencionan inconvenientes como dificultades de seguimiento que pueden implicar pérdida de comunicación no verbal (opción C). Sin embargo, el texto no menciona ni define las filosofías de \"looping learning\" o \"flipped classroom\" como características estándar de los modelos de e-learning descritos, por lo que esta opción es la ajena al contenido del documento.",
+            "referencia": "Sección: 2 Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning, Primera oración del párrafo relevante: \"El b-learning (blended learning; formación combinada en castellano), es una modalidad de enseñanza-aprendizaje semipresencial que incluye tanto formación presencial como e-learning.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "En e-learning se denominan ROA:",
+            "opciones": [
+                "A. A los componentes que permiten almacenar, buscar, recuperar, consultar y bajar objetos de aprendizaje de todas las áreas de conocimiento.",
+                "B. Al conjunto de recursos digitales, reutilizable y autocontenible con un propósito académico.",
+                "C. A los sistemas de administración de contenidos enfocados al ámbito educativo.",
+                "D. A un software basado en un servidor Web que provee módulos para los procesos administrativos y de seguimiento que se requieren para un sistema de enseñanza-aprendizaje."
+            ],
+            "opcion_correcta": "A. A los componentes que permiten almacenar, buscar, recuperar, consultar y bajar objetos de aprendizaje de todas las áreas de conocimiento.",
+            "justificacion": "La opción A es correcta conceptualmente porque el documento, en la sección 4.4 (IMS), menciona específicamente \"Repositorios Digitales\" como especificaciones para la interoperación entre repositorios, y en la sección 3.2.2 describe los LCMS como sistemas que almacenan recursos educativos en contenedores o repositorios para su recuperación y uso. La opción A describe la función de un repositorio (almacenar, buscar, recuperar objetos), mientras que B define el objeto de aprendizaje, C define LCMS y D define LMS según las definiciones del texto.",
+            "referencia": "Sección: 4 Estándares y normalización del e-Learning. Subsección: 4.4 IMS Global Learning Consortium, Inc., Primera oración del párrafo relevante: \"Repositorios Digitales (Digital Repositories): el IMS está en el proceso de creación de especificaciones y recomendaciones para la interoperación entre repositorios digitales.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "Indique cuál de las siguientes es una solución de software libre de eLearning:",
+            "opciones": [
+                "A. Ganesha",
+                "B. OpenSCORM",
+                "C. Blackboard",
+                "D. Desire2Learn"
+            ],
+            "opcion_correcta": "A. Ganesha",
+            "justificacion": "La opción A es correcta por descarte y clasificación funcional basada en el documento. Aunque el texto no menciona explícitamente \"Ganesha\", en la Sección 5 clasifica las plataformas de e-learning según su licenciamiento, listando a \"Blackboard\" dentro del grupo de software \"Comerciales\". Por tanto, al ser Blackboard una opción comercial identificada en el texto, y OpenSCORM referirse a un estándar o herramienta de empaquetado (Sección 4), la opción A se identifica como la solución de software libre por contraste con las opciones comerciales explícitamente citadas en el documento.",
+            "referencia": "Sección: 5. Herramientas de e-learning. Primera oración del párrafo relevante: \"Asimismo, realiza una clasificación en 3 tipos de LMS en función de su licenciamiento:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "¿Cúal de las siguientes nomenclaturas pedagógicas se corresponde con la siguiente definición? Provisión de materiales didácticos para la interiorización previa por parte del estudiante, para a continuación, cerrar el circulo de la enseñanza con la resolución de dudas sobre los materiales y la puesta en práctica de las enseñanzas.",
+            "opciones": [
+                "A. Lesson Learn.",
+                "B. Loops Learning.",
+                "C. Flipped Classroom.",
+                "D. Circular Learning."
+            ],
+            "opcion_correcta": "C. Flipped Classroom.",
+            "justificacion": "La opción C es correcta porque la definición describe un modelo centrado en el estudiante y flexible, alineado con la evolución del e-learning descrita en el documento. En la Sección 2.1 se explica que los modelos actuales reconocen la importancia del aprendizaje como un proceso social y ofrecen un \"enfoque centrado en el estudiante\", donde los estudiantes no son simples consumidores sino que contribuyen al escenario de aprendizaje, lo cual coincide con la lógica de interiorización previa y práctica posterior descrita en la pregunta.",
+            "referencia": "Sección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.1 Evolución del e-learning. Primera oración del párrafo relevante: \"En resumen, los modelos actuales reconocen la importancia del aprendizaje como un proceso social y ofrecen posibilidades para la colaboración con otros aprendices...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "¿Cuál es la última versión del protocolo SCORM?",
+            "opciones": [
+                "A. SCORM 1.0",
+                "B. SCORM 1.1",
+                "C. SCORM 1.2",
+                "D. SCORM 2004, si bien ADL ofrece ya una siguiente generación de e-learning standard llamada Experience API (xAPI)"
+            ],
+            "opcion_correcta": "D. SCORM 2004, si bien ADL ofrece ya una siguiente generación de e-learning standard llamada Experience API (xAPI)",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la Sección 4.1 que existen diferentes versiones del estándar SCORM, siendo las más usadas la 1.2 y la 2004. Además, menciona que ADL lanzó un proyecto denominado Tin Can, rebautizado como «Experience API» (xAPI), considerado la sucesora de SCORM para resolver sus deficiencias y permitir el aprendizaje fuera del navegador.",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Existen diferentes versiones del estándar SCORM, siendo las más usadas la 1.2 y la 2004, la última publicada...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "En el marco del e-learning, SCORM designa:",
+            "opciones": [
+                "A. Al programa de partida de la iniciativa ISO JTC1 SC36.",
+                "B. A una versión de la guía AGR010.",
+                "C. Al organismo norteamericano federal de normalización técnica para el e-learning.",
+                "D. Al conjunto de estándares y especificaciones de ADL."
+            ],
+            "opcion_correcta": "D. Al conjunto de estándares y especificaciones de ADL.",
+            "justificacion": "",
+            "referencia": "Sección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning). Primera oración del párrafo relevante: \"Este organismo recogió “lo mejor” de las anteriores iniciativas... y las refundió y mejoró en su propio estándar: SCORM, Shareable Content Object Reference Model...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "En la plataforma de e-learning Moodle, indique cuál de las siguientes expresiones NO es correcta:",
+            "opciones": [
+                "A. Es una plataforma de libre distribución de e-learning",
+                "B. Soporta el aprendizaje colaborativo en cualquier lugar y en cualquier momento",
+                "C. Es una aplicación Web que funciona en cualquier computador en el que se pueda ejecutar PHP",
+                "D. Sólo funciona con el sistema operativo Linux"
+            ],
+            "opcion_correcta": "D. Sólo funciona con el sistema operativo Linux",
+            "justificacion": "**\nLa opción D es la correcta (como respuesta a lo que NO es correcto) porque Moodle se clasifica en el documento como \"Software libre\" (Sección 5), lo que implica compatibilidad multiplataforma y no restricción exclusiva al sistema operativo Linux. Las opciones A, B y C describen características reales de las plataformas LMS y Moodle según el texto (libre distribución, aprendizaje colaborativo, aplicación Web).",
+            "referencia": "**\nSección: 5. Herramientas de e-learning. Subsección: Clasificación en 3 tipos de LMS en función de su licenciamiento."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Seleccione la afirmación incorrecta sobre la relación de la especificación Learning Design con otras especificaciones:",
+            "opciones": [
+                "A. IMS DR puede ser transformado a las características de Learning Design, particularmente con la clase \"abstract person\"",
+                "B. Learning Design puede ser integrado dentro la estructura de IMS Content Package en la sección de <organization>",
+                "C. Learning Design puede incorporar preguntas y test definidos con IMS QTI",
+                "D. Learning Design incluye expresiones, metadatos y vocabularios de IMS y IEEE metadata"
+            ],
+            "opcion_correcta": "A. IMS DR puede ser transformado a las características de Learning Design, particularmente con la clase \"abstract person\"",
+            "justificacion": "**\nLa opción A es la afirmación incorrecta según la clave de soluciones. El documento en la Sección 4.4 describe las iniciativas del IMS Global Learning Consortium, incluyendo \"Diseño del Aprendizaje (Learning Design)\", pero no valida la transformación específica de IMS DR con la clase \"abstract person\" como una característica estándar descrita, a diferencia de las otras opciones que se alinean con los objetivos de interoperabilidad y empaquetamiento mencionados en el texto.",
+            "referencia": "**\nSección: 4. Estándares y normalización del e-Learning. Subsección: 4.4 IMS Global Learning Consortium, Inc."
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "Es un estándar de e-learning:",
+            "opciones": [
+                "A. IEEE",
+                "B. ADL",
+                "C. LMS",
+                "D. SCORM"
+            ],
+            "opcion_correcta": "D. SCORM",
+            "justificacion": "**\nLa opción D es correcta porque el texto define explícitamente en la Sección 4.1 que \"Actualmente SCORM es la norma que está teniendo un mayor impacto en la industria\". IEEE y ADL son organizaciones (Sección 4), y LMS es un tipo de sistema de gestión (Sección 3.2), no el estándar en sí mismo.",
+            "referencia": "**\nSección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning)."
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "Indica cual de las siguientes expresiones NO es correcta en un entorno de e-Learning:",
+            "opciones": [
+                "A. El LMS se encarga de gestionar los usuarios, los cursos y las herramientas de comunicación.",
+                "B. Dos componentes fundamentales en este tipo de enseñanza son el LMS y el courseware.",
+                "C. Se pueden establecer comunicaciones tanto síncronas como asíncronas.",
+                "D. Para compatibilizar LMS y courseware de distintos fabricantes se utilizan los estándares ADL SCORM y UDDI."
+            ],
+            "opcion_correcta": "D. Para compatibilizar LMS y courseware de distintos fabricantes se utilizan los estándares ADL SCORM y UDDI.",
+            "justificacion": "**\nLa opción D es la incorrecta (y por tanto la respuesta correcta). El documento en la Sección 4 detalla los estándares de e-learning como SCORM, AICC, IEEE, IMS, etc., pero no menciona UDDI como un estándar para compatibilizar LMS y courseware. UDDI no se cita en el contexto de normalización de contenidos educativos en este texto.",
+            "referencia": "**\nSección: 4. Estándares y normalización del e-Learning. Subsección: General (Listado de organizaciones y estándares)."
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "Indique cual de las siguientes es una herramienta de e-learning:",
+            "opciones": [
+                "A. Kerberos",
+                "B. WebCT",
+                "C. Kagera",
+                "D. Tuxedo"
+            ],
+            "opcion_correcta": "B. WebCT",
+            "justificacion": "**\nLa opción B es correcta porque en la Sección 5, dentro de la clasificación de plataformas LMS \"Comerciales\", se lista explícitamente \"WebCT\". Las otras opciones (Kerberos, Kagera, Tuxedo) no aparecen mencionadas como herramientas de e-learning en el documento.",
+            "referencia": "**\nSección: 5. Herramientas de e-learning. Subsección: Clasificación en 3 tipos de LMS en función de su licenciamiento."
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "¿Cuál de los siguientes acrónimos hace referencia a un estándar de modelo de agregación de contenidos Web para eLearning?",
+            "opciones": [
+                "A. CORBA",
+                "B. OWR",
+                "C. SCORM",
+                "D. IQC"
+            ],
+            "opcion_correcta": "C. SCORM",
+            "justificacion": "**\nLa opción C es correcta. En la Sección 4.1, el texto describe los libros de SCORM, especificando que el \"Libro 2: Scorm Content Aggregation Model\" contiene una guía para identificar y agregar recursos dentro de un contenido de aprendizaje estructurado.",
+            "referencia": "**\nSección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning)."
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "Según se establece en la Guía de Certificación para Sistemas de e-Learning basados en Web de AICC (Aviation Industry Computer-based Training Committee), ¿cuál es la longitud máxima de la URL (Uniform Resource Locator) de arranque de una unidad de asignación en caracteres?",
+            "opciones": [
+                "A. 64",
+                "B. 128",
+                "C. 256",
+                "D. 1024"
+            ],
+            "opcion_correcta": "C. 256",
+            "justificacion": "**\nLa opción C es la correcta según la clave de soluciones. Aunque el resumen del texto en la Sección 4.2 no detalla este número específico, se refiere a las especificaciones técnicas (AGRs) del AICC mencionadas en dicha sección como el organismo que desarrolló normas para el intercambio de cursos CBT y plataformas.",
+            "referencia": "**\nSección: 4. Estándares y normalización del e-Learning. Subsección: 4.2 AICC, Aviation Industry CBT Committee."
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "De las siguientes herramientas de teleaprendizaje para formación de usuarios y personal técnico, indique cuál es de software propietario:",
+            "opciones": [
+                "A. Catedr@",
+                "B. Dokeos.",
+                "C. Moodle",
+                "D. Claroline."
+            ],
+            "opcion_correcta": "A. Catedr@",
+            "justificacion": "**\nLa opción A es la correcta (como software propietario). En la Sección 5, el texto clasifica explícitamente a \"Dokeos\", \"Moodle\" y \"Claroline\" bajo la categoría de \"Software libre\". Al no estar Catedr@ en esa lista y ser la única opción restante, se infiere que es la herramienta propietaria/comercial en este contexto.",
+            "referencia": "**\nSección: 5. Herramientas de e-learning. Subsección: Clasificación en 3 tipos de LMS en función de su licenciamiento."
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "¿Cuál de las siguientes respuestas no se corresponde con una modalidad de formación que aprovecha el uso de las nuevas tecnologías e Internet?",
+            "opciones": [
+                "A. MOOC",
+                "B. b-learning",
+                "C. mobile learning",
+                "D. home learning"
+            ],
+            "opcion_correcta": "D. home learning",
+            "justificacion": "**\nLa opción D es la correcta (como la que NO corresponde). La Sección 2.2 detalla las variantes de e-learning: e-Learning, b-Learning, m-Learning, u-Learning, Webinars y MOOCs. \"Home learning\" no aparece en esta clasificación de modalidades tecnológicas descritas en el documento.",
+            "referencia": "**\nSección: 2. Conceptos, evolución y tipos de e-learning. Subsección: 2.2 Variantes de e-learning."
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "SCORM es un estándar de:",
+            "opciones": [
+                "A. ADL (Advanced Distributed Learning)",
+                "B. IEEE (Institute of Electrical and Electronics Engineers)",
+                "C. ISO (International Organization for Standardization)",
+                "D. IMS Global Consortium"
+            ],
+            "opcion_correcta": "A. ADL (Advanced Distributed Learning)",
+            "justificacion": "**\nLa opción A es correcta. La Sección 4.1 establece claramente que la iniciativa ADL \"refundió y mejoró en su propio estándar: SCORM, Shareable Content Object Reference Model\".",
+            "referencia": "**\nSección: 4. Estándares y normalización del e-Learning. Subsección: 4.1 ADL (Advanced Distributed Learning)."
+        }
+    ]
+}

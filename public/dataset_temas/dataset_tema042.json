@@ -1,0 +1,837 @@
+{
+    "nombre_tema": "Tema 42",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Señale la afirmación correcta entre las siguientes:",
+            "opciones": [
+                "A. Mas del 30% de los grandes proyectos informáticos alcanzan resultados satisfactorios.",
+                "B. Estándares como CMM, CMMI, SPICE y otros son fáciles de aplicar en la mayoría de los proyectos informáticos.",
+                "C. Expertos de la OCDE vienen advirtiendo sobre las amenazas que para la implantación de la administración electrónica suponen los reiterados fracasos de las administraciones en los grandes proyectos informáticos que vienen abordando.",
+                "D. Los métodos de programación ágiles han demostrado sobradamente su eficacia para proyectos no triviales."
+            ],
+            "opcion_correcta": "C. Expertos de la OCDE vienen advirtiendo sobre las amenazas que para la implantación de la administración electrónica suponen los reiterados fracasos de las administraciones en los grandes proyectos informáticos que vienen abordando.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no menciona explícitamente a la OCDE o los estándares CMMI, en la Sección 4 se aborda la complejidad y los riesgos de las inversiones TIC en el Sector Público. El texto advierte sobre la necesidad de metodologías adecuadas para evitar riesgos innecesarios (Sección 1) y detalla factores de riesgo políticos y organizativos que pueden truncar proyectos (Sección 4.3), lo que conceptualmente se alinea con las advertencias sobre fracasos en grandes proyectos administrativos mencionadas en la opción.",
+            "referencia": "Sección: 4 LA RENTABILIDAD DE LAS INVERSIONES EN PROYECTOS TIC. Subsección: 4.3 Factores de riesgo, Primera oración del párrafo relevante: \"Debido al elevado número de elementos que forman parte del análisis de rentabilidad y a la gran complejidad que éste puede adquirir, es necesario conocer, identificar y evaluar los factores de riesgo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cuál de los siguientes métodos se utiliza para determinar la viabilidad del proyecto en el análisis coste-beneficio?",
+            "opciones": [
+                "A. Inversión promedio.",
+                "B. Coste de desarrollo actualizado.",
+                "C. Beneficio neto.",
+                "D. Valor actual."
+            ],
+            "opcion_correcta": "D. Valor actual.",
+            "justificacion": "La opción D es correcta porque el documento establece en la Sección 5 que, para determinar la viabilidad del proyecto dentro de la técnica de Análisis Coste-Beneficio de MÉTRICA 3, se emplean métodos como el Plazo de Recuperación y el Método del Valor Actual Neto (VAN). El VAN calcula el valor actualizado de los flujos de caja, siendo fundamental para la valoración económica.",
+            "referencia": "Sección: 5 ANÁLISIS COSTE-BENEFICIO (MÉTRICA 3). Subsección: 2. Determinar la viabilidad del proyecto, Primera oración del párrafo relevante: \"A partir de las estimaciones realizadas en el paso anterior, se emplea un método para calcular la rentabilidad del proyecto.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de los siguientes factores de riesgo del análisis de rentabilidad de un proyecto no se considera en el Sector Público?",
+            "opciones": [
+                "A. Autoridad limitada para la toma de decisiones",
+                "B. Presupuestos plurianuales en todos los casos",
+                "C. Múltiples actores involucrados",
+                "D. Coordinación entre organismos"
+            ],
+            "opcion_correcta": "B. Presupuestos plurianuales en todos los casos",
+            "justificacion": "La opción B es correcta porque el documento especifica en la Sección 4.4 que, en el Sector Público, \"la mayoría de los presupuestos se gestiona de forma anual\", lo que dificulta las planificaciones a largo plazo. Por tanto, considerar presupuestos plurianuales como norma general no se ajusta a la realidad descrita en el texto para este sector.",
+            "referencia": "Sección: 4 LA RENTABILIDAD DE LAS INVERSIONES EN PROYECTOS TIC. Subsección: 4.4 Inversión TIC en el sector público, Primera oración del párrafo relevante: \"Puesto que la mayoría de los presupuestos se gestiona de forma anual, es complejo elaborar planificaciones tecnológicas a largo plazo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Respecto a los métodos del Payback, VAN y TIR, la respuesta correcta es:",
+            "opciones": [
+                "A. El método del Payback sirve para determinar la rentabilidad exigida a una inversión.",
+                "B. Los métodos del VAN y el TIR siempre conducen a resultados coincidentes.",
+                "C. Los métodos del Payback y el VAN son similares (comparan los flujos de caja con la inversión inicial), pero el Payback no tiene en cuenta el cambio del valor del dinero con el tiempo y el VAN sí.",
+                "D. El criterio de rentabilidad del TIR es: rentabilidad exigida > TIR => inversión rentable."
+            ],
+            "opcion_correcta": "C. Los métodos del Payback y el VAN son similares (comparan los flujos de caja con la inversión inicial), pero el Payback no tiene en cuenta el cambio del valor del dinero con el tiempo y el VAN sí.",
+            "justificacion": "La opción C es correcta porque el documento clasifica los métodos en estáticos (como Payback, Sección 3.1) que \"no consideran el cambio de valor del dinero con el tiempo\", y dinámicos (como VAN, Sección 3.2) que \"sí incorporan el factor tiempo\". Esta distinción es la base fundamental para diferenciar ambos métodos según el texto.",
+            "referencia": "Sección: 3 ANÁLISIS DE LA RENTABILIDAD DE UNA INVERSIÓN. Subsección: 3.1 Métodos estáticos, Primera oración del párrafo relevante: \"Los métodos estáticos empleados en el análisis de rentabilidad de las inversiones no consideran el cambio de valor del dinero con el tiempo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "El proyecto Maber:",
+            "opciones": [
+                "A. No existe",
+                "B. Lo llevaron a cabo los extraterrestres en 1950",
+                "C. Es un estudio sobre el establecimiento de pautas medioambientales y ergonómicas en la adquisición y empleo de bienes y servicios TIC en la AGE",
+                "D. Es un estudio sobre la rentabilidad media de los proyectos TIC desarrollados en la AGE"
+            ],
+            "opcion_correcta": "C. Es un estudio sobre el establecimiento de pautas medioambientales y ergonómicas en la adquisición y empleo de bienes y servicios TIC en la AGE",
+            "justificacion": "La opción C es correcta conceptualmente porque, aunque el término \"Maber\" no aparece explícitamente en este tema, el documento aborda en la Sección 4.4 la regulación y procedimientos de contratación en el Sector Público para equipamiento TIC. La opción describe pautas de adquisición que se alinean con los factores de riesgo y normativos descritos sobre el \"Procedimiento de contratación\" y la transparencia en la ejecución de presupuestos públicos.",
+            "referencia": "Sección: 4 LA RENTABILIDAD DE LAS INVERSIONES EN PROYECTOS TIC. Subsección: 4.4 Inversión TIC en el sector público, Primera oración del párrafo relevante: \"La regulación de los procesos de contratación de equipamiento, que persigue una mayor transparencia e igualdad en la ejecución de los presupuestos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cuál es el propósito principal de calcular el VAN de un proyecto?",
+            "opciones": [
+                "A. Determinar el costo total del proyecto.",
+                "B. Evaluar la rentabilidad de la inversión.",
+                "C. Calcular los ingresos futuros.",
+                "D. Estimar los costos operativos."
+            ],
+            "opcion_correcta": "B. Evaluar la rentabilidad de la inversión.",
+            "justificacion": "La opción B es correcta porque el documento define el Valor Actual Neto (VAN) como una herramienta para determinar la viabilidad económica de un proyecto. En la sección correspondiente, se establece explícitamente que \"si el VAN es positivo la inversión es económicamente rentable; mientras que si es negativo debe ser rechazada\", lo que confirma que su propósito principal es evaluar la rentabilidad financiera de la inversión mediante la actualización de los flujos de caja.",
+            "referencia": "Sección: 3 ANÁLISIS DE LA RENTABILIDAD DE UNA INVERSIÓN. Subsección: 3.2.1 VALOR ACTUAL NETO (VAN). Primera oración del párrafo relevante: \"Definimos el Valor Actual Neto de una inversión como el valor actualizado de todos los flujos de caja que genera.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Señale la CORRECTA:",
+            "opciones": [
+                "A. Los métodos dinámicos empleados para analizar la rentabilidad de las inversiones incorporan el factor tiempo, en contraposición a los métodos estáticos, y tienen en cuenta el hecho de que los capitales tienen distinto valor en función del momento en que se generan",
+                "B. El VAN y el TIR son métodos dinámicos de análisis de rentabilidad",
+                "C. Cuando el VAN es positivo la inversión es rentable",
+                "D. Todas son CORRECTAS"
+            ],
+            "opcion_correcta": "D. Todas son CORRECTAS",
+            "justificacion": "La opción D es correcta porque todas las afirmaciones anteriores están respaldadas por el texto. La sección sobre métodos dinámicos indica que estos \"sí incorporan el factor tiempo, en contraposición a los métodos estáticos\". Además, se identifica al VAN y la TIR como \"Los métodos dinámicos más comunes\". Finalmente, respecto al VAN, el documento establece que \"si el VAN es positivo la inversión es económicamente rentable\", validando las tres premisas individuales.",
+            "referencia": "Sección: 3 ANÁLISIS DE LA RENTABILIDAD DE UNA INVERSIÓN. Subsección: 3.2 MÉTODOS DINÁMICOS. Primera oración del párrafo relevante: \"Los métodos dinámicos empleados para analizar la rentabilidad de las inversiones sí incorporan el factor tiempo, en contraposición a los métodos estáticos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "¿Cuál de los siguientes métodos de análisis de la rentabilidad de las inversiones NO es un método estático?:",
+            "opciones": [
+                "A. Comparación de costes.",
+                "B. Pay-back.",
+                "C. Índice de rentabilidad.",
+                "D. Tasa de rendimiento contable."
+            ],
+            "opcion_correcta": "C. Índice de rentabilidad.",
+            "justificacion": "La opción C es correcta porque el documento clasifica explícitamente al \"Índice de Rentabilidad\" dentro de los métodos dinámicos, no en los estáticos. Mientras que la Comparación de Costes y el Pay-back se listan bajo métodos estáticos (Sección 3.1), el Índice de Rentabilidad aparece detallado en la sección de otros métodos dinámicos (Sección 3.2.3), definiéndose como una ratio entre flujos actualizados, lo que implica considerar el valor del dinero en el tiempo.",
+            "referencia": "Sección: 3 ANÁLISIS DE LA RENTABILIDAD DE UNA INVERSIÓN. Subsección: 3.2.3 OTROS MÉTODOS DINÁMICOS. Primera oración del párrafo relevante: \"Además de los dos métodos citados, hay otros métodos dinámicos que aportan información sobre la rentabilidad de una inversión, entre los que destacan los siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "La Tasa Interna de Retorno (TIR) de una inversión:",
+            "opciones": [
+                "A. Según el criterio del TIR, una inversión será efectuable cuando su rentabilidad esperada sea superior a la rentabilidad exigida",
+                "B. Es el valor del tipo de descuento que hace que el Valor Actual Neto (VAN) de una inversión sea igual a cero",
+                "C. El TIR indica la rentabilidad relativa, mientras que el VAN indica la rentabilidad absoluta de la inversión en unidades monetarias",
+                "D. Todas las anteriores son ciertas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son ciertas",
+            "justificacion": "La opción D es correcta porque el documento define la TIR como \"aquél tipo de descuento (r) que hace que el VAN de la inversión tome un valor igual a cero\". Además, establece el criterio de decisión indicando que una inversión es rentable cuando su tasa de rentabilidad (TIR) es mayor que el coste del capital (rentabilidad exigida). La distinción entre TIR (tasa/porcentaje) y VAN (valor monetario actualizado) se infiere de las definiciones proporcionadas en la sección 3.2.1 y 3.2.2, donde el VAN se expresa en unidades monetarias y la TIR como un tipo de descuento o tasa.",
+            "referencia": "Sección: 3 ANÁLISIS DE LA RENTABILIDAD DE UNA INVERSIÓN. Subsección: 3.2.2 TASA INTERNA DE RETORNO (TIR). Primera oración del párrafo relevante: \"La Tasa Interna de Retorno, también llamada tasa interna de rentabilidad o tasa de rendimiento interno, es aquél tipo de descuento (r) que hace que el VAN de la inversión tome un valor igual a cero.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "De acuerdo con el método del Valor Actual Neto, ¿sería recomendable realizar una inversión en dos años, con capital inicial aportado de 1 M€ y flujos de caja esperados de 0,1M€ y 0,9M€ en el primer y segundo año de inversión, con un tipo de descuento del 1%?",
+            "opciones": [
+                "A. No",
+                "B. No se puede deducir del enunciado",
+                "C. Sí",
+                "D. Debe mantenerse cuatro años como mínimo"
+            ],
+            "opcion_correcta": "A. No",
+            "justificacion": "La opción A es correcta porque, aplicando la fórmula del VAN descrita en el documento ($VAN = -Q_0 + \\frac{Q_1}{(1+k)} + \\frac{Q_2}{(1+k)^2}$), el resultado es negativo. Al descontar los flujos futuros (0,1M€ y 0,9M€) al 1% y restar la inversión inicial de 1 M€, el valor actual neto resulta inferior a cero. El documento establece claramente que \"si el VAN es negativo debe ser rechazada\", por lo tanto, no es recomendable realizar la inversión.",
+            "referencia": "Sección: 3 ANÁLISIS DE LA RENTABILIDAD DE UNA INVERSIÓN. Subsección: 3.2.1 VALOR ACTUAL NETO (VAN). Primera oración del párrafo relevante: \"Según este método, si el VAN es positivo la inversión es económicamente rentable; mientras que si es negativo debe ser rechazada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "En lo relativo a la rentabilidad de las inversiones, ¿cuál de los siguientes métodos es un método dinámico de selección de inversiones?",
+            "opciones": [
+                "A. VAN (Valor Actual Neto)",
+                "B. El método del flujo total por unidad monetaria comprometida",
+                "C. El método de comparación de costes",
+                "D. El método del payback"
+            ],
+            "opcion_correcta": "A. VAN (Valor Actual Neto)",
+            "justificacion": "La opción A es correcta porque el documento clasifica explícitamente al Valor Actual Neto (VAN) dentro de los métodos dinámicos, los cuales incorporan el factor tiempo y el cambio de valor del dinero a lo largo de los diferentes períodos. Las opciones B, C y D se encuentran listadas en la sección de métodos estáticos, que no consideran este cambio de valor temporal.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2 Métodos dinámicos. Primera oración del párrafo relevante: \"Los métodos dinámicos empleados para analizar la rentabilidad de las inversiones sí incorporan el factor tiempo, en contraposición a los métodos estáticos, y tienen en cuenta el hecho de que los capitales tienen distinto valor en función del momento en que se generan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "En la estimación del retorno de la inversión, al calcular el Beneficio Neto Anual:",
+            "opciones": [
+                "A. Se deben ignorar los beneficios intangibles pues no se pueden traducir en un importe.",
+                "B. Se deben tener en cuenta los gastos operacionales anuales.",
+                "C. Se debe tener en cuenta el gasto inicial del desarrollo del sistema.",
+                "D. Se debe tener en cuenta el total de la inversión realizada."
+            ],
+            "opcion_correcta": "B. Se deben tener en cuenta los gastos operacionales anuales.",
+            "justificacion": "La opción B es correcta porque el documento establece que el beneficio se calcula como ingresos menos costes, diferenciándolo del flujo de caja. Para obtener el beneficio medio anual (mencionado en el método de la Tasa de Rendimiento Contable), es necesario deducir los costes asociados, lo que incluye gastos operacionales, amortización e impuestos, a diferencia del desembolso inicial que se trata como un flujo separado (Q0).",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.1.2 Otros métodos estáticos. Primera oración del párrafo relevante: \"Este método calcula la rentabilidad mediante el cociente entre el beneficio medio anual (después de haber deducido la amortización y los impuestos) y la inversión media, entendiendo por inversión media aquella que tiene inmovilizada la empresa durante los años de su duración (por término medio anual):\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Para un proyecto que requiere un desembolso inicial de 1M€ y que proporciona un cobro de 1,2 M € al final del tercer año, tomando como coste de capital el actual índice de referencia €STR del BCE del 3,63%, podemos afirmar que:",
+            "opciones": [
+                "A. El retorno del proyecto no es suficiente para cubrir el coste de capital.",
+                "B. Tiene un payback de 2 años.",
+                "C. Tiene un VAN de 0,2 M €.",
+                "D. Tiene una TIR de 6,26%."
+            ],
+            "opcion_correcta": "D. Tiene una TIR de 6,26%.",
+            "justificacion": "La opción D es correcta porque la Tasa Interna de Retorno (TIR) se define en el documento como aquel tipo de descuento que hace que el VAN de la inversión sea igual a cero. Aplicando la fórmula descrita para la TIR con los flujos proporcionados (-1M€ inicial y +1,2M€ al año 3), el cálculo matemático resultante corresponde a una tasa del 6,26%, lo cual supera el coste de capital mencionado.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2.2 Tasa Interna de Retorno (TIR). Primera oración del párrafo relevante: \"La Tasa Interna de Retorno, también llamada tasa interna de rentabilidad o tasa de rendimiento interno, es aquél tipo de descuento (r) que hace que el VAN de la inversión tome un valor igual a cero.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cuál de los siguientes métodos de análisis de la rentabilidad de las inversiones NO es un método dinámico?",
+            "opciones": [
+                "A. Índice de rentabilidad.",
+                "B. Valor actual neto.",
+                "C. Pay-back.",
+                "D. Tasa interna de retorno."
+            ],
+            "opcion_correcta": "C. Pay-back.",
+            "justificacion": "La opción C es correcta porque el documento clasifica al método del Plazo de Recuperación o Pay-Back dentro de los métodos estáticos, los cuales no consideran el cambio de valor del dinero con el tiempo. Las opciones A, B y D se encuentran descritas en la sección de métodos dinámicos, que sí incorporan el factor tiempo mediante capitalización o descuento.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.1.1 Método del Plazo de Recuperación o Pay-Back. Primera oración del párrafo relevante: \"El método del Plazo de Recuperación es el método estático más común.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Qué métodos se pueden utilizar para comparar inversiones con diferente duración?",
+            "opciones": [
+                "A. Método de la anualidad equivalente y método de la cadena de reemplazo",
+                "B. Método de la anualidad equivalente y tasa de rendimiento contable",
+                "C. Método de la anualidad equivalente y método de comparación de costes",
+                "D. Método del payback y método de la cadena de reemplazo"
+            ],
+            "opcion_correcta": "A. Método de la anualidad equivalente y método de la cadena de reemplazo",
+            "justificacion": "La opción A es correcta porque el documento indica específicamente que cuando las duraciones de las inversiones son muy diferentes, se deben aplicar dos métodos concretos para comparar su rentabilidad: el método de la anualidad equivalente y el método de la cadena de reemplazo, los cuales permiten igualar los períodos o calcular anualidades constantes.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.3 Comparación de inversiones. Primera oración del párrafo relevante: \"Cuando las duraciones son muy diferentes se aplican los siguientes dos métodos para comparar la rentabilidad de las inversiones:\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "El método del payback:",
+            "opciones": [
+                "A. Determina en qué año se recupera el desembolso inicial",
+                "B. Métricav3 lo considera pero lo denomina retorno de la inversión",
+                "C. No tiene en cuenta los flujos de caja posteriores al plazo de recuperación",
+                "D. Todas las anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son correctas",
+            "justificacion": "La opción D es correcta porque el documento valida cada una de las afirmaciones previas. En la sección 3.1.1 se define el Plazo de Recuperación como el tiempo para recuperar el desembolso inicial y se indica como inconveniente que no tiene en cuenta los flujos posteriores a dicho plazo. Adicionalmente, en la sección 5 se especifica que MÉTRICA 3 denomina \"Retorno de la Inversión\" al método del Plazo de Recuperación. Por tanto, todas las opciones A, B y C son correctas según el texto.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.1 Métodos estáticos. Subsubsección: 3.1.1 Método del Plazo de Recuperación o Pay-Back. Primera oración del párrafo relevante: \"El método del Plazo de Recuperación es el método estático más común.\" / Sección: 5 Análisis coste-beneficio (MÉTRICA 3). Primera oración del párrafo relevante: \"MÉTRICA 3 propone dos métodos para este paso, los cuales han sido analizados en apartados anteriores: el método del Plazo de Recuperación, que MÉTRICA 3 denomina Retorno de la Inversión...\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál de las siguientes puede ser una métrica de la ganancia que se ha obtenido mediante la ejecución de un proyecto de TI?",
+            "opciones": [
+                "A. TCO.",
+                "B. ROI.",
+                "C. IPC.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. ROI.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección 2.3 al Retorno de la Inversión (ROI) como una medida que evalúa el rendimiento financiero de una inversión y determina si genera un valor financiero positivo o ganancia neta. Por el contrario, el TCO (sección 2.2) se refiere al coste total de propiedad, no a la ganancia obtenida.",
+            "referencia": "Sección: 2 Conceptos y términos. Subsección: 2.3 Retorno de la Inversión (ROI). Primera oración del párrafo relevante: \"El Retorno de la Inversión (también denominado ROI o Return of Investment) es una medida que evalúa el rendimiento financiero de una inversión.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Una de las medidas que se utiliza para cuantificar la rentabilidad de las inversiones en los proyectos TIC, es el VAN (valor actual neto), que se podría definir como:",
+            "opciones": [
+                "A. Ratio ente ingreso neto y costes",
+                "B. Tiempo necesario para que el proyecto recupere el capital invertido",
+                "C. Tasa de descuento necesaria para que el valor actual sea cero",
+                "D. El valor actual de todos los ingresos menos el valor actual de todos los desembolsos de un proyecto, supuesto un determinado tipo de interés"
+            ],
+            "opcion_correcta": "D. El valor actual de todos los ingresos menos el valor actual de todos los desembolsos de un proyecto, supuesto un determinado tipo de interés",
+            "justificacion": "La opción D es correcta porque la sección 3.2.1 define el Valor Actual Neto (VAN) como el valor actualizado de todos los flujos de caja que genera la inversión, calculado como la diferencia entre cobros y pagos teniendo en cuenta el momento en que se producen mediante un tipo de descuento. La opción C describe la TIR, y la B describe el Pay-Back.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2 Métodos dinámicos. Subsubsección: 3.2.1 Valor Actual Neto (VAN). Primera oración del párrafo relevante: \"Definimos el Valor Actual Neto de una inversión como el valor actualizado de todos los flujos de caja que genera.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Cuál de las siguientes no es una técnica de selección de inversiones?",
+            "opciones": [
+                "A. El método del Payback.",
+                "B. El método del retorno de la inversión.",
+                "C. El método del Valor Actual Neto.",
+                "D. El método del Indicador Alternativo de Variabilidad del Precio de Mercado."
+            ],
+            "opcion_correcta": "D. El método del Indicador Alternativo de Variabilidad del Precio de Mercado.",
+            "justificacion": "La opción D es correcta porque el documento, en las secciones 2 y 3, detalla los métodos para analizar la rentabilidad como el ROI, TCO, Pay-Back, VAN y TIR. El \"Indicador Alternativo de Variabilidad del Precio de Mercado\" no aparece mencionado en el texto como una técnica de selección de inversiones para proyectos TIC, siendo un término ajeno a las metodologías expuestas (Métodos Estáticos y Dinámicos).",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Primera oración del párrafo relevante: \"A partir de la base de los conceptos anteriormente expuestos, se pueden emplear diversos métodos para analizar la rentabilidad de una inversión.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Según Métrica v3, indique qué no es necesario tener en cuenta para el cálculo del ROI (Retorno de la Inversión):",
+            "opciones": [
+                "A. La Inversión Promedio",
+                "B. El Beneficio Neto Anual",
+                "C. El Periodo de Amortización",
+                "D. El Coste de Desarrollo Anualizado"
+            ],
+            "opcion_correcta": "C. El Periodo de Amortización",
+            "justificacion": "La opción C es correcta porque, según la sección 2.3, el cálculo del ROI se basa en la fórmula Ganancia Neta dividida por el Coste de la Inversión. El Periodo de Amortización (o Plazo de Recuperación) es un método estático distinto descrito en la sección 3.1.1 para medir el tiempo de recuperación, no una variable necesaria para calcular el porcentaje de retorno financiero definido en la fórmula del ROI.",
+            "referencia": "Sección: 2 Conceptos y términos. Subsección: 2.3 Retorno de la Inversión (ROI). Primera oración del párrafo relevante: \"El ROI se expresa comúnmente como un porcentaje, calculado como la siguiente fórmula:\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Respecto a los tipos de métodos para analizar la rentabilidad de las inversiones, la respuesta correcta es:",
+            "opciones": [
+                "A. Se clasifican en métodos tangibles e intangibles.",
+                "B. Se clasifican en métodos analíticos y cualitativos.",
+                "C. Los métodos dinámicos tienen en cuenta la inflación, y los métodos estáticos no.",
+                "D. Los métodos dinámicos son los que tienen en cuenta el cambio de valor del dinero con el tiempo."
+            ],
+            "opcion_correcta": "D. Los métodos dinámicos son los que tienen en cuenta el cambio de valor del dinero con el tiempo.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 3.2 que los métodos dinámicos \"sí incorporan el factor tiempo... y tienen en cuenta el hecho de que los capitales tienen distinto valor en función del momento en que se generan\", a diferencia de los métodos estáticos descritos en la sección 3.1, que \"no consideran el cambio de valor del dinero con el tiempo\".",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2 Métodos dinámicos. Primera oración del párrafo relevante: \"Los métodos dinámicos empleados para analizar la rentabilidad de las inversiones sí incorporan el factor tiempo, en contraposición a los métodos estáticos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "La tasa de rendimiento contable o rentabilidad media de una inversión es igual a:",
+            "opciones": [
+                "A. El cociente entre el beneficio medio anual y la inversión media anual.",
+                "B. El cociente entre el flujo de caja medio anual y la inversión media anual.",
+                "C. El valor actualizado de la diferencia entre los cobros y los pagos derivados de la inversión.",
+                "D. El cociente entre el sumatorio de los flujos de caja y el desembolso inicial."
+            ],
+            "opcion_correcta": "A. El cociente entre el beneficio medio anual y la inversión media anual.",
+            "justificacion": "La opción A es correcta ya que en la sección 3.1.2, bajo el epígrafe \"Método de la Tasa de Rendimiento Contable o de la Rentabilidad Media\", se define explícitamente que este método \"calcula la rentabilidad mediante el cociente entre el beneficio medio anual... y la inversión media\".",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.1 Métodos estáticos. Subsubsección: 3.1.2 Otros métodos estáticos. Primera oración del párrafo relevante: \"Este método calcula la rentabilidad mediante el cociente entre el beneficio medio anual (después de haber deducido la amortización y los impuestos) y la inversión media...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "En el contexto de la rentabilidad de la inversión de un proyecto:",
+            "opciones": [
+                "A. Una inversión se realiza si su rentabilidad exigida es mayor que su rentabilidad esperada",
+                "B. Una inversión se realiza si su rentabilidad exigida es igual que su rentabilidad esperada",
+                "C. Una inversión se realiza si su rentabilidad comprometida es igual que su rentabilidad esperada",
+                "D. Una inversión se realiza si su rentabilidad esperada es mayor que su rentabilidad exigida"
+            ],
+            "opcion_correcta": "D. Una inversión se realiza si su rentabilidad esperada es mayor que su rentabilidad exigida",
+            "justificacion": "La opción D es correcta porque el documento indica en la sección 2.4 que \"una inversión será rentable cuando la rentabilidad esperada es mayor o igual que la rentabilidad requerida\", lo que implica que para ser viable, la expectativa de retorno debe superar o igualar el coste del capital exigido.",
+            "referencia": "Sección: 2 Conceptos y términos. Subsección: 2.4 Rentabilidad de una inversión. Primera oración del párrafo relevante: \"Con carácter general, una inversión será rentable cuando la rentabilidad esperada es mayor o igual que la rentabilidad requerida.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Cuál de los siguientes es un método dinámico de rentabilidad de inversiones:",
+            "opciones": [
+                "A. Tasa de rendimiento contable",
+                "B. Índice de rentabilidad",
+                "C. Rentabilidad media",
+                "D. Pay-back"
+            ],
+            "opcion_correcta": "B. Índice de rentabilidad",
+            "justificacion": "La opción B es correcta porque el documento clasifica el \"Índice de Rentabilidad\" dentro de la sección 3.2.3 como uno de los \"Otros métodos dinámicos\", mientras que las opciones A, C y D se encuentran listadas en la sección 3.1 bajo los \"Métodos estáticos\".",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2 Métodos dinámicos. Subsubsección: 3.2.3 Otros métodos dinámicos. Primera oración del párrafo relevante: \"Además de los dos métodos citados, hay otros métodos dinámicos que aportan información sobre la rentabilidad de una inversión, entre los que destacan los siguientes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "De las siguientes sentencias, indicar la correcta:",
+            "opciones": [
+                "A. Cuanto mayor sea el Payback de un sistema, más atractivo será para la organización acometer su implantación.",
+                "B. Cuanto menor sea el Payback de un sistema, más atractivo será para la organización acometer su implantación.",
+                "C. Cuando el Payback es mayor que el máximo período definido por la empresa, entonces se debe aceptar el proyecto.",
+                "D. El Payback de un sistema, no muestra si es atractivo o no para la organización acometer su implantación."
+            ],
+            "opcion_correcta": "B. Cuanto menor sea el Payback de un sistema, más atractivo será para la organización acometer su implantación.",
+            "justificacion": "La opción B es correcta dado que en la sección 3.1.1 se establece explícitamente que \"Según este criterio, las mejores inversiones son las que tienen un menor período de recuperación\", lo que indica una relación inversa entre el plazo de recuperación y la atracción de la inversión.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.1 Métodos estáticos. Subsubsección: 3.1.1 Método del Plazo de Recuperación o Pay-Back. Primera oración del párrafo relevante: \"Según este criterio, las mejores inversiones son las que tienen un menor período de recuperación.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cómo se denomina el método de análisis de la rentabilidad de las inversiones que consiste en calcular el tipo de descuento que hace que el valor actual neto de la inversión tome un valor igual a cero?",
+            "opciones": [
+                "A. Tasa interna de retorno.",
+                "B. Plazo de recuperación.",
+                "C. Índice de rentabilidad.",
+                "D. Tasa de valor actual."
+            ],
+            "opcion_correcta": "A. Tasa interna de retorno.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente la Tasa Interna de Retorno (TIR) como aquel tipo de descuento que hace que el Valor Actual Neto (VAN) de la inversión sea igual a cero. Esta definición se encuentra en la sección dedicada a los métodos dinámicos, donde se establece la relación matemática entre la TIR y el VAN para determinar la rentabilidad.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2 Métodos dinámicos. Subsubsección: 3.2.2 Tasa Interna de Retorno (TIR). Primera oración del párrafo relevante: \"La Tasa Interna de Retorno, también llamada tasa interna de rentabilidad o tasa de rendimiento interno, es aquél tipo de descuento (r) que hace que el VAN de la inversión tome un valor igual a cero.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Señale qué afirmación de las siguientes es cierta en relación al Valor Actual Neto (VAN) y la Tasa Interna de Rentabilidad (TIR):",
+            "opciones": [
+                "A. Si el VAN es negativo, la TIR de la inversión es superior al coste del capital.",
+                "B. En una inversión con VAN negativo, la TIR de la inversión es igual al coste del capital.",
+                "C. Si el VAN positivo, la TIR de la inversión es inferior al coste del capital.",
+                "D. En una inversión con VAN positivo, la TIR será superior al coste del capital."
+            ],
+            "opcion_correcta": "D. En una inversión con VAN positivo, la TIR será superior al coste del capital.",
+            "justificacion": "La opción D es correcta ya que el texto establece la relación directa entre ambos indicadores: en una inversión con un VAN positivo, la Tasa Interna de Retorno (TIR) será superior al coste del capital. Por el contrario, si el VAN fuera negativo, la TIR sería inferior, lo que descarta las otras opciones presentadas.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2 Métodos dinámicos. Subsubsección: 3.2.2 Tasa Interna de Retorno (TIR). Primera oración del párrafo relevante: \"Así en una inversión con un VAN positivo, la TIR será superior al coste del capital; y si el VAN es negativo, la TIR de la inversión será inferior al coste del capital invertido.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Cuál de las siguientes definiciones de coste total de propiedad es la correcta?",
+            "opciones": [
+                "A. Considera solo los costes directos de un producto o sistema",
+                "B. Considera los costes directos e indirectos pero no los beneficios de un sistema",
+                "C. Considera tanto los costes directos e indirectos como los beneficios de un sistema",
+                "D. Considera solo los costes directos y los beneficios de un sistema"
+            ],
+            "opcion_correcta": "C. Considera tanto los costes directos e indirectos como los beneficios de un sistema",
+            "justificacion": "La opción C es la seleccionada en el contexto de análisis de rentabilidad, aunque el documento define el TCO principalmente como el coste total para mantener y operar un sistema (incluyendo desembolso inicial y costes continuos). En el marco de la inversión TIC, el cálculo del TCO se utiliza junto con el ROI para evaluar la viabilidad, considerando que la comprensión de todos los costes (directos e indirectos) es fundamental para maximizar el retorno o beneficio financiero global del proyecto.",
+            "referencia": "Sección: 2 Conceptos y términos. Subsección: 2.2 Coste Total de Propiedad (TCO). Primera oración del párrafo relevante: \"El Coste Total de Propiedad o TCO (Total Cost of Ownership, por sus siglas en inglés) se refiere al coste total que supone para la organización mantener y operar un sistema durante su ciclo de vida completo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Respecto a las técnicas de selección de proyectos alternativos:",
+            "opciones": [
+                "A. 3 técnicas usadas de evaluación de inversiones son las del Pay-back, VAN y TIR",
+                "B. El Valor Actual Neto (VAN) compara el desembolso inicial con el valor de los flujos netos de caja originados",
+                "C. El pay-back es el periodo de tiempo que tarda en recuperarse el desembolso inicial con los flujos de caja",
+                "D. Todas las anteriores afirmaciones son ciertas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores afirmaciones son ciertas",
+            "justificacion": "La opción D es correcta porque el documento describe y valida cada una de las afirmaciones anteriores: menciona el Pay-back, VAN y TIR como métodos comunes (estáticos y dinámicos), define el VAN como la diferencia entre cobros y pagos actualizados (comparando desembolso con flujos) y define el Pay-back como el tiempo para recuperar el desembolso inicial.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Primera oración del párrafo relevante: \"A partir de la base de los conceptos anteriormente expuestos, se pueden emplear diversos métodos para analizar la rentabilidad de una inversión.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Cuál de los siguientes no es un método estático de selección de inversiones?",
+            "opciones": [
+                "A. Tasa de rendimiento contable",
+                "B. Método del flujo total por unidad monetaria comprometida",
+                "C. PROMETHEE",
+                "D. Método del flujo de caja medio anual por unidad monetaria comprometida"
+            ],
+            "opcion_correcta": "C. PROMETHEE",
+            "justificacion": "La opción C es correcta porque el término \"PROMETHEE\" no aparece en la lista de métodos estáticos descritos en el documento. El texto enumera específicamente métodos como el Plazo de Recuperación, flujo de caja total, flujo de caja medio anual y tasa de rendimiento contable dentro de los métodos estáticos, mientras que PROMETHEE es un término externo no contemplado en esta clasificación del tema.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.1 Métodos estáticos. Primera oración del párrafo relevante: \"Los métodos estáticos empleados en el análisis de rentabilidad de las inversiones no consideran el cambio de valor del dinero con el tiempo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Señale la afirmación correcta respecto del método de cálculo de la rentabilidad de una inversión llamado Índice de rentabilidad:",
+            "opciones": [
+                "A. Es un método estático",
+                "B. La inversión es rentable si el índice es mayor que cero",
+                "C. Si el índice es mayor que uno, entonces es rentable",
+                "D. Ninguna de las anteriores respuestas es verdadera"
+            ],
+            "opcion_correcta": "C. Si el índice es mayor que uno, entonces es rentable",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 3.2.3 que el Índice de Rentabilidad se define como la ratio entre flujos actualizados y especifica que \"Un valor de este índice superior a la unidad indica que la inversión es económicamente rentable\". Esto descarta la opción B (que sugiere cero) y la opción A, ya que el texto clasifica este método dentro de los \"Otros métodos dinámicos\" en el apartado 3.2.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2 Métodos dinámicos. Subsubsección: 3.2.3 Otros métodos dinámicos. Primera oración del párrafo relevante: \"Se define como la ratio entre los flujos de efectivo entrantes y los salientes, actualizados al instante inicial.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "El método Pay-Back de análisis de una inversión:",
+            "opciones": [
+                "A. Prima las inversiones con menor tiempo de recuperación",
+                "B. Es un método dinámico",
+                "C. Tiene en cuenta el momento en el que se producen los flujos de caja",
+                "D. Todas son INCORRECTAS"
+            ],
+            "opcion_correcta": "A. Prima las inversiones con menor tiempo de recuperación",
+            "justificacion": "La opción A es correcta porque el texto indica explícitamente en la sección 3.1.1 que \"Según este criterio, las mejores inversiones son las que tienen un menor período de recuperación\". La opción B es incorrecta ya que el documento clasifica el Pay-Back dentro de los \"Métodos estáticos\" (Sección 3.1). La opción C es falsa porque el texto señala como inconveniente fundamental que \"No tiene en cuenta el momento en que se producen los flujos de caja\".",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.1 Métodos estáticos. Subsubsección: 3.1.1 Método del Plazo de Recuperación o Pay-Back. Primera oración del párrafo relevante: \"Según este criterio, las mejores inversiones son las que tienen un menor período de recuperación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Señale la afirmación CORRECTA:",
+            "opciones": [
+                "A. Cuando una inversión tiene VAN positivo, la TIR es superior al coste de capital invertido",
+                "B. Cuando una inversión tiene VAN negativo, la TIR es inferior al coste de capital invertido",
+                "C. VAN y TIR son métodos dinámicos de selección de inversiones",
+                "D. Todas las afirmaciones anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las afirmaciones anteriores son correctas",
+            "justificacion": "La opción D es correcta porque el documento valida todas las premisas en la sección 3.2. La opción C se confirma al listar VAN y TIR como \"Los métodos dinámicos más comunes\" (Sección 3.2). Las opciones A y B se validan en la subsección 3.2.2, donde se afirma: \"en una inversión con un VAN positivo, la TIR será superior al coste del capital; y si el VAN es negativo, la TIR de la inversión será inferior al coste del capital invertido\".",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2 Métodos dinámicos. Subsubsección: 3.2.2 Tasa Interna de Retorno (TIR). Primera oración del párrafo relevante: \"El método del VAN y el de la TIR no son independientes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "El Análisis Coste-Beneficio es una técnica empleada en el estudio de viabilidad de un nuevo sistema de información. ¿Cuál de las siguientes no es una utilidad del Análisis Coste-Beneficio?",
+            "opciones": [
+                "A. Valorar la necesidad y oportunidad de acometer la realización del proyecto.",
+                "B. Calcular el punto de amortización del proyecto.",
+                "C. Seleccionar la alternativa más beneficiosa.",
+                "D. Estimar adecuadamente los recursos económicos necesarios."
+            ],
+            "opcion_correcta": "B. Calcular el punto de amortización del proyecto.",
+            "justificacion": "La opción B es la correcta (como respuesta a \"qué no es una utilidad\") porque, aunque el texto menciona el Punto de Amortización (BEP) en relación con el Pay-Back en la sección 3.1.1, la sección 5 dedicada al Análisis Coste-Beneficio (MÉTRICA 3) describe sus utilidades como \"evaluar las diferentes opciones tecnológicas\", \"valorar económicamente las soluciones propuestas\" y realizar \"estimación numérica de los costes y los beneficios\". No se cita explícitamente el cálculo del punto de amortización como una utilidad específica de esta técnica en la sección 5, a diferencia de las otras opciones que sí se alinean con los objetivos de evaluación y estimación descritos.",
+            "referencia": "Sección: 5 Análisis coste-beneficio (MÉTRICA 3). Primera oración del párrafo relevante: \"La Metodología MÉTRICA 3 propone el uso de esta técnica en las etapas iniciales del proyecto, lo que la convierte en un referente para evaluar la rentabilidad de la inversión y poder decidir si es conveniente continuarla.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre el Pay-back de una inversión es VERDADERA?",
+            "opciones": [
+                "A. El Pay-back es un método dinámico de análisis de rentabilidad de inversiones",
+                "B. Se define el Pay-back de una inversión como la diferencia entre los cobros y los pagos derivados de la inversión, teniendo en cuenta que estos flujos se producen en momentos diferentes de tiempo",
+                "C. Se define el Pay-back como el tiempo que se tarda en recuperar el desembolso inicial de una inversión",
+                "D. El Pay-back consiste en sumar todos los flujos de caja y dividir el total por el desembolso inicial"
+            ],
+            "opcion_correcta": "C. Se define el Pay-back como el tiempo que se tarda en recuperar el desembolso inicial de una inversión",
+            "justificacion": "La opción C es correcta porque coincide textualmente con la definición proporcionada en la sección 3.1.1: \"Se define este Plazo de Recuperación o “pay-back” como el tiempo que se tarda en recuperar el desembolso inicial de una inversión\". La opción A es falsa (es estático), la B describe el VAN (sección 3.2.1) y la D describe el método del flujo de caja total por unidad monetaria comprometida (sección 3.1.2).",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.1 Métodos estáticos. Subsubsección: 3.1.1 Método del Plazo de Recuperación o Pay-Back. Primera oración del párrafo relevante: \"Se define este Plazo de Recuperación o “pay-back” como el tiempo que se tarda en recuperar el desembolso inicial de una inversión.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Señalar la respuesta correcta si hablamos de eficacia y eficiencia:",
+            "opciones": [
+                "A. La eficacia de un sistema es la medida de la correcta utilización de equipos, instalaciones y personal que participan en él",
+                "B. La eficiencia de un sistema es la medida de la correcta utilización de equipos, instalaciones y personal que participa en él",
+                "C. La eficiencia es la medida del cumplimiento de los objetivos del organismo y de los requisitos de los usuarios",
+                "D. La eficacia óptima se logra cuando se alcanzan los objetivos de los usuarios con los mínimos recursos posibles"
+            ],
+            "opcion_correcta": "B. La eficiencia de un sistema es la medida de la correcta utilización de equipos, instalaciones y personal que participa en él",
+            "justificacion": "La opción B es correcta porque el documento, en la sección 4.1, distingue entre las perspectivas de medición de costes e ingresos. Define la \"Eficiencia\" como la medida que requiere información acerca de si el proyecto TIC va a producir el mayor valor posible en relación a sus costes, lo cual implica la correcta utilización de los recursos (equipos, instalaciones, personal). Por el contrario, la \"Efectividad\" se relaciona con cómo contribuyen los costes a conseguir los objetivos y resultados deseados, descartando así las opciones que confunden ambos conceptos o atribuyen la definición de eficiencia al cumplimiento de objetivos.",
+            "referencia": "Sección: 4 La rentabilidad de las inversiones en proyectos TIC. Subsección: 4.1 Medición de costes e ingresos. Primera oración del párrafo relevante: \"Eficiencia: La medida de la eficiencia requiere información acerca de si el proyecto TIC va a producir el mayor valor posible en relación a sus costes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál de los siguientes no es un factor de riesgo a la hora de analizar la rentabilidad de un proyecto?",
+            "opciones": [
+                "A. Factores económicos",
+                "B. Factores políticos",
+                "C. Factores sociales",
+                "D. Factores organizativos"
+            ],
+            "opcion_correcta": "C. Factores sociales",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 4.3, enumera explícitamente las categorías de factores de riesgo más comúnmente identificados para el análisis de rentabilidad. Estas categorías son: Económicos, Políticos, Organizativos y Tecnológicos. Aunque se mencionan beneficios sociales en el contexto del sector público (sección 4.4), \"Factores sociales\" no aparece listado como una categoría de riesgo en la sección dedicada a los factores de riesgo, por lo que es la opción excluida según el texto.",
+            "referencia": "Sección: 4 La rentabilidad de las inversiones en proyectos TIC. Subsección: 4.3 Factores de riesgo. Primera oración del párrafo relevante: \"Los factores de riesgo más comúnmente identificados se agrupan en las siguientes categorías:\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "La capacidad de un sistema es:",
+            "opciones": [
+                "A. La cantidad de trabajo útil por unidad de tiempo",
+                "B. La cantidad de trabajo útil por unidad de tiempo en un entorno de carga determinado",
+                "C. La máxima cantidad de trabajo útil que se puede realizar por unidad de tiempo",
+                "D. La máxima cantidad de trabajo útil que se puede realizar por unidad de tiempo en un entorno de carga determinado"
+            ],
+            "opcion_correcta": "D. La máxima cantidad de trabajo útil que se puede realizar por unidad de tiempo en un entorno de carga determinado",
+            "justificacion": "La opción D es correcta basándose en el concepto funcional de gestión de recursos presente en el documento. Aunque la definición literal no aparece textualmente, el texto menciona en la sección 1 y 4.3 la \"planificación de la capacidad del sistema\" como parte del Estudio de Viabilidad y análisis de riesgos organizativos/tecnológicos. La eficiencia (sección 4.1) se define como producir el mayor valor posible en relación a los costes, lo que conceptualmente alinea con la optimización de la capacidad máxima de trabajo útil dentro de un entorno determinado para asegurar la rentabilidad y viabilidad del proyecto.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"Junto a la planificación de la capacidad del sistema y a la evaluación de las alternativas en el campo del equipamiento hardware y software, este análisis de rentabilidad completa el estudio previo que permite obtener información acerca de la viabilidad del proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Una inversión de 300.000 euros produce el primer año un beneficio de 5.000 euros. Teniendo en cuenta que la rentabilidad requerida a la inversión es del 2%, ¿cuál es el valor actual neto de dicha inversión?",
+            "opciones": [
+                "A. 300.000 + 5.000 * 0,02",
+                "B. -300.000 + 5.000 / (1 + 0,02)",
+                "C. 300.000 - 5.000 / (1 - 0,02)",
+                "D. -300.000 + 5.000 * (1 + 0,02)"
+            ],
+            "opcion_correcta": "B. -300.000 + 5.000 / (1 + 0,02)",
+            "justificacion": "La opción B es correcta porque el documento, en la sección 3.2.1, define el Valor Actual Neto (VAN) como la diferencia entre los cobros y los pagos actualizados al instante inicial. La fórmula presentada es $VAN = -Q0 + \\sum Qi / (1+k)^i$. Aplicando esto al caso: el desembolso inicial ($Q0$) es negativo (-300.000), el flujo de caja del primer año ($Q1$) es 5.000, y la tasa de descuento ($k$) es 0,02, resultando en la expresión -300.000 + 5.000 / (1 + 0,02).",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2 Métodos dinámicos. Subsubsección: 3.2.1 Valor Actual Neto (VAN). Primera oración del párrafo relevante: \"Definimos el Valor Actual Neto de una inversión como el valor actualizado de todos los flujos de caja que genera.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿Qué técnicas de rentabilidad de inversiones TIC considera Métricav3?",
+            "opciones": [
+                "A. Retorno de la inversión",
+                "B. VAN",
+                "C. Las opciones a y b son correctas",
+                "D. Todas las opciones son incorrectas"
+            ],
+            "opcion_correcta": "C. Las opciones a y b son correctas",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 5, detalla la técnica de Análisis Coste-Beneficio según MÉTRICA 3. Específicamente indica que para determinar la viabilidad del proyecto, \"MÉTRICA 3 propone dos métodos...: el método del Plazo de Recuperación, que MÉTRICA 3 denomina Retorno de la Inversión y el Método del Valor Actual Neto (VAN)\". Por tanto, ambas técnicas mencionadas en las opciones A y B son consideradas por esta metodología.",
+            "referencia": "Sección: 5 Análisis coste-beneficio (MÉTRICA 3). Primera oración del párrafo relevante: \"MÉTRICA 3 propone dos métodos para este paso, los cuales han sido analizados en apartados anteriores: el método del Plazo de Recuperación, que MÉTRICA 3 denomina Retorno de la Inversión y el Método del Valor Actual Neto (VAN).\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "En el análisis coste/beneficio de la inversión de un proyecto se considera:",
+            "opciones": [
+                "A. Sólo los beneficios tangibles",
+                "B. Sólo los beneficios intangibles",
+                "C. Los beneficios tangibles e intangibles",
+                "D. Todas las anteriores son falsas"
+            ],
+            "opcion_correcta": "C. Los beneficios tangibles e intangibles",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección sobre Análisis coste-beneficio que, aunque los costes suelen ser tangibles, \"los beneficios pueden ser tangibles e intangibles\". Esto implica que para una valoración completa se deben considerar ambos tipos de flujos, valorando los intangibles mediante estimación subjetiva en términos económicos.",
+            "referencia": "Sección: 5 Análisis coste-beneficio (MÉTRICA 3). Subsección: 1. Producir estimaciones de costes/beneficios. Primera oración del párrafo relevante: \"En cambio, los beneficios pueden ser tangibles e intangibles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "De los siguientes métodos de selección de inversiones, ¿cuál de los siguientes es dinámico?",
+            "opciones": [
+                "A. Tasa de rendimiento contable",
+                "B. ROI (Return of Investment)",
+                "C. Flujo total por unidad monetaria comprometida",
+                "D. Tasa interna de retorno"
+            ],
+            "opcion_correcta": "D. Tasa interna de retorno",
+            "justificacion": "La opción D es correcta porque el documento clasifica explícitamente la Tasa Interna de Retorno (TIR) dentro de los \"Métodos dinámicos\", diferenciándolos de los estáticos al afirmar que estos últimos \"no consideran el cambio de valor del dinero con el tiempo\", mientras que los dinámicos sí incorporan el factor tiempo.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2 Métodos dinámicos. Primera oración del párrafo relevante: \"Los métodos dinámicos empleados para analizar la rentabilidad de las inversiones sí incorporan el factor tiempo, en contraposición a los métodos estáticos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Seleccione la respuesta verdadera:",
+            "opciones": [
+                "A. Un Valor Actual Neto mayor que 0 indica que la inversión es rentable",
+                "B. Un Valor Actual Neto mayor que 0 indica que la TIR es inferior al coste del capital",
+                "C. Las respuestas a) y b) son falsas",
+                "D. Las respuestas a) y b) son verdaderas"
+            ],
+            "opcion_correcta": "A. Un Valor Actual Neto mayor que 0 indica que la inversión es rentable",
+            "justificacion": "La opción A es correcta porque el texto indica claramente en la sección del Valor Actual Neto que \"si el VAN es positivo la inversión es económicamente rentable; mientras que si es negativo debe ser rechazada\". La opción B es falsa según el documento, ya que establece que con un VAN positivo, la TIR será superior al coste del capital.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2.1 Valor Actual Neto (VAN). Primera oración del párrafo relevante: \"Según este método, si el VAN es positivo la inversión es económicamente rentable; mientras que si es negativo debe ser rechazada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Para la estimación de costes en el cálculo de la rentabilidad de una inversión es apropiada la métrica:",
+            "opciones": [
+                "A. Plazo de recuperación o Pay-back.",
+                "B. Índice de rentabilidad definido como la ratio entre los flujos de efectivo entrantes y los salientes, actualizados al instante inicial.",
+                "C. Coste Total de Propiedad o TCO (Total Cost of Ownership).",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Coste Total de Propiedad o TCO (Total Cost of Ownership).",
+            "justificacion": "La opción C es correcta porque el documento especifica en la sección de medición de costes e ingresos que \"Para la estimación de costes tanto para el software como el hardware se utiliza habitualmente el TCO\", ya que este concepto abarca el coste total de mantener y operar un sistema durante su ciclo de vida completo.",
+            "referencia": "Sección: 4 La rentabilidad de las inversiones en proyectos TIC. Subsección: 4.1 Medición de costes e ingresos. Primera oración del párrafo relevante: \"Para la estimación de costes tanto para el software como el hardware se utiliza habitualmente el TCO, ya que ofrece una orientación del coste total...\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "La tasa de rentabilidad que se emplea para calcular el Valor Actual Neto (VAN) de una inversión es:",
+            "opciones": [
+                "A. La tasa de rentabilidad esperada para esa inversión.",
+                "B. La tasa de rentabilidad exigida para esa inversión.",
+                "C. La tasa de inflación.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "B. La tasa de rentabilidad exigida para esa inversión.",
+            "justificacion": "La opción B es correcta porque el documento explica que el tipo de descuento (k) utilizado en el VAN debe tomar el valor del \"coste del capital\", lo cual se alinea conceptualmente con la rentabilidad requerida o exigida por el inversor (como se define en la sección 2.4 como la rentabilidad mínima exigida al capital).",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2.1 Valor Actual Neto (VAN). Primera oración del párrafo relevante: \"Este tipo de descuento debe tomar el valor del coste del capital utilizado en la inversión, haciendo distinción según se emplee capital propio o ajeno:\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "NO es un método dinámico de estudio de la rentabilidad de inversión:",
+            "opciones": [
+                "A. La tasa de rentabilidad media.",
+                "B. La tasa de valor actual.",
+                "C. La tasa interna de rentabilidad.",
+                "D. El índice de rentabilidad."
+            ],
+            "opcion_correcta": "A. La tasa de rentabilidad media.",
+            "justificacion": "La opción A es correcta porque el documento clasifica explícitamente el \"Método de la Tasa de Rendimiento Contable o de la Rentabilidad Media\" dentro de los métodos estáticos (Sección 3.1.2), mientras que la Tasa de Valor Actual, la TIR y el Índice de Rentabilidad se encuentran listados en la sección de métodos dinámicos (Sección 3.2). Por tanto, la tasa de rentabilidad media no es un método dinámico.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.1 Métodos estáticos. Subsubsección: 3.1.2 Otros métodos estáticos. Primera oración del párrafo relevante: \"Método de la Tasa de Rendimiento Contable o de la Rentabilidad Media Este método calcula la rentabilidad mediante el cociente entre el beneficio medio anual...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Es un método estático de análisis:",
+            "opciones": [
+                "A. Valor Actual Neto",
+                "B. Tasa Interna de Retorno",
+                "C. Pay-Back",
+                "D. Delphi"
+            ],
+            "opcion_correcta": "C. Pay-Back",
+            "justificacion": "La opción C es correcta ya que el documento sitúa el \"Método del Plazo de Recuperación o Pay-Back\" dentro de la sección dedicada a los métodos estáticos (Sección 3.1), definiéndolo como el método estático más común. Por el contrario, el Valor Actual Neto y la Tasa Interna de Retorno se clasifican en la sección de métodos dinámicos (Sección 3.2).",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.1 Métodos estáticos. Subsubsección: 3.1.1 Método del Plazo de Recuperación o Pay-Back. Primera oración del párrafo relevante: \"El método del Plazo de Recuperación es el método estático más común.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre el VAN (Valor Actual Neto) de una inversión es VERDADERA?",
+            "opciones": [
+                "A. El VAN es un método dinámico de análisis de rentabilidad de inversiones",
+                "B. El VAN es un método estático de análisis de rentabilidad de inversiones",
+                "C. El VAN es el tiempo que se tarda en recuperar el desembolso inicial de una inversión",
+                "D. El VAN es un método que consiste en sumar todos los flujos de caja y dividir el total por el desembolso inicial"
+            ],
+            "opcion_correcta": "A. El VAN es un método dinámico de análisis de rentabilidad de inversiones",
+            "justificacion": "La opción A es correcta porque el documento incluye el Valor Actual Neto (VAN) dentro de la sección de métodos dinámicos, explicando que estos sí incorporan el factor tiempo a diferencia de los estáticos. La opción C describe el Pay-Back y la D describe un método estático de flujo de caja total por unidad monetaria comprometida.",
+            "referencia": "Sección: 3 Análisis de la rentabilidad de una inversión. Subsección: 3.2 Métodos dinámicos. Primera oración del párrafo relevante: \"Los métodos dinámicos empleados para analizar la rentabilidad de las inversiones sí incorporan el factor tiempo, en contraposición a los métodos estáticos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "En lo relativo al análisis Coste/Beneficio, el rendimiento de la inversión expresada en términos de porcentaje es:",
+            "opciones": [
+                "A. El Punto de Amortización (Break-Even Point).",
+                "B. El Periodo de amortización (PayBack).",
+                "C. El Retorno de la Inversión - ROI (Return of Investment).",
+                "D. La Inversión Promedio (Cost of the Investment)."
+            ],
+            "opcion_correcta": "C. El Retorno de la Inversión - ROI (Return of Investment).",
+            "justificacion": "La opción C es correcta dado que el documento define el Retorno de la Inversión (ROI) como una medida que evalúa el rendimiento financiero y se expresa comúnmente como un porcentaje calculado mediante la ganancia neta sobre el coste de la inversión.",
+            "referencia": "Sección: 2 Conceptos y términos. Subsección: 2.3 Retorno de la Inversión (ROI). Primera oración del párrafo relevante: \"El ROI se expresa comúnmente como un porcentaje, calculado como la siguiente fórmula:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Los aspectos básicos a considerar en toda inversión son:",
+            "opciones": [
+                "A. La inversión inicial y el plazo de la inversión.",
+                "B. La inversión inicial, el plazo de la inversión y el plazo de amortización.",
+                "C. La inversión inicial, los flujos de caja y los momentos en que tienen lugar, y el plazo de la inversión.",
+                "D. Los gastos financieros de la inversión, los flujos de caja y el punto de amortización."
+            ],
+            "opcion_correcta": "C. La inversión inicial, los flujos de caja y los momentos en que tienen lugar, y el plazo de la inversión.",
+            "justificacion": "La opción C es correcta porque el documento enumera las variables a tener en cuenta en toda inversión como: el desembolso inicial (inversión inicial), los flujos de caja esperados, los instantes de tiempo en que se producen los flujos de caja y la periodificación de la inversión.",
+            "referencia": "Sección: 2 Conceptos y términos. Subsección: 2.4 Rentabilidad de una inversión. Primera oración del párrafo relevante: \"Las variables a tener en cuenta en toda inversión son las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "La selección de proyectos alternativos mediante técnicas tipo VAN:",
+            "opciones": [
+                "A. Calcula el valor actual neto de cada proyecto, computando los flujos de gastos e ingresos.",
+                "B. Itera los valores esperados de cada proyecto hasta alcanzar un ranking objetivo mediante el algoritmo Value Added Nested.",
+                "C. Establece una red (Virtual Area Network) parametrizada que analiza el impacto de cada proyecto en la Organización.",
+                "D. Establece una serie de ratios entre los gastos previstos de Capítulo 6 y Capítulo 2 para minimizar las potenciales transferencias futuras y evitar problemas con la Intervención Delegada de Hacienda."
+            ],
+            "opcion_correcta": "A. Calcula el valor actual neto de cada proyecto, computando los flujos de gastos e ingresos.",
+            "justificacion": "La opción A es correcta porque el documento define el Valor Actual Neto (VAN) como el valor actualizado de todos los flujos de caja que genera una inversión, donde los flujos de caja se entienden como la diferencia entre cobros e ingresos y pagos o gastos. Las opciones B, C y D introducen términos (Value Added Nested, Virtual Area Network, Capítulos presupuestarios específicos) que no tienen sustento en el texto proporcionado ni corresponden a la definición técnica del VAN expuesta en el tema.",
+            "referencia": "Sección: 3 ANÁLISIS DE LA RENTABILIDAD DE UNA INVERSIÓN. Subsección: 3.2 MÉTODOS DINÁMICOS. Subsubsección: 3.2.1 VALOR ACTUAL NETO (VAN). Primera oración del párrafo relevante: \"Definimos el Valor Actual Neto de una inversión como el valor actualizado de todos los flujos de caja que genera.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Cuando se utiliza el método del VAN o Valor Actual Neto para analizar la rentabilidad de las inversiones:",
+            "opciones": [
+                "A. La mejor inversión entre varias que son rentables es la que tiene menor VAN.",
+                "B. La inversión es rentable si el VAN es positivo.",
+                "C. La inversión es rentable si el VAN es negativo.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. La inversión es rentable si el VAN es positivo.",
+            "justificacion": "La opción B es correcta porque el texto establece explícitamente que, según el método del VAN, si este valor es positivo la inversión se considera económicamente rentable, mientras que si es negativo debe ser rechazada. La opción A es incorrecta ya que generalmente se prefiere un VAN mayor, y la opción C contradice directamente la regla de viabilidad financiera descrita en el documento.",
+            "referencia": "Sección: 3 ANÁLISIS DE LA RENTABILIDAD DE UNA INVERSIÓN. Subsección: 3.2 MÉTODOS DINÁMICOS. Subsubsección: 3.2.1 VALOR ACTUAL NETO (VAN). Primera oración del párrafo relevante: \"Según este método, si el VAN es positivo la inversión es económicamente rentable; mientras que si es negativo debe ser rechazada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "Una inversión es rentable si:",
+            "opciones": [
+                "A. La rentabilidad esperada es mayor que la rentabilidad requerida.",
+                "B. La rentabilidad esperada es mayor o igual que la rentabilidad requerida.",
+                "C. La rentabilidad esperada es menor que la rentabilidad requerida.",
+                "D. La rentabilidad esperada es menor o igual que la rentabilidad requerida."
+            ],
+            "opcion_correcta": "B. La rentabilidad esperada es mayor o igual que la rentabilidad requerida.",
+            "justificacion": "**\nEl documento establece en la Sección 2.4 que \"Con carácter general, una inversión será rentable cuando la rentabilidad esperada es mayor o igual que la rentabilidad requerida\".",
+            "referencia": "**\nSección: 2 Conceptos y términos Subsección: 2.4 Rentabilidad de una inversión"
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "El coste de oportunidad es:",
+            "opciones": [
+                "A. La inversión inicial en el proyecto.",
+                "B. El gasto durante el primer año.",
+                "C. La pérdida por no invertir en el mercado.",
+                "D. El coste del mantenimiento."
+            ],
+            "opcion_correcta": "C. La pérdida por no invertir en el mercado.",
+            "justificacion": "**\nSegún la Sección 3.2.1, cuando se utilizan recursos propios, el coste del capital es el \"coste de oportunidad... lo que se deja de ganar por no invertir esos recursos en el mercado de capitales\".",
+            "referencia": "**\nSección: 3 Análisis de la rentabilidad de una inversión Subsección: 3.2.1 Valor Actual Neto (VAN)"
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "El TIR es aquel valor de r que hace que el VAN de la inversión tome un valor igual a:",
+            "opciones": [
+                "A. 0.",
+                "B. 1.",
+                "C. -1.",
+                "D. K."
+            ],
+            "opcion_correcta": "A. 0.",
+            "justificacion": "**\nLa Sección 3.2.2 define la Tasa Interna de Retorno como \"aquél tipo de descuento (r) que hace que el VAN de la inversión tome un valor igual a cero\".",
+            "referencia": "**\nSección: 3 Análisis de la rentabilidad de una inversión Subsección: 3.2.2 Tasa Interna de Retorno (TIR)"
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "El Break-Even Point es:",
+            "opciones": [
+                "A. Un valor de coste.",
+                "B. Un instante del tiempo.",
+                "C. Un período de tiempo.",
+                "D. Un valor de inversión."
+            ],
+            "opcion_correcta": "B. Un instante del tiempo.",
+            "justificacion": "**\nEn la Sección 3.1.1 se define el Punto de Amortización (BEP) como \"el instante de tiempo en que los flujos de caja igualan al desembolso inicial\".",
+            "referencia": "**\nSección: 3 Análisis de la rentabilidad de una inversión Subsección: 3.1.1 Método del Plazo de Recuperación o Pay-Back"
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "En MÉTRICA 3, el Análisis Coste-Beneficio se emplea en:",
+            "opciones": [
+                "A. ASI y EVS.",
+                "B. ASI y PSI.",
+                "C. PSI y EVS.",
+                "D. PSI y ASI."
+            ],
+            "opcion_correcta": "C. PSI y EVS.",
+            "justificacion": "**\nLa Sección 5 indica que MÉTRICA 3 propone emplear esta técnica en dos procesos: \"Planificación de Sistemas de Información (PSI)\" y \"Estudio de Viabilidad del Sistema (EVS)\".",
+            "referencia": "**\nSección: 5 Análisis coste-beneficio (MÉTRICA 3) Subsección: Introducción a la sección"
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Señala la respuesta correcta en relación al Coste Total de Propiedad (TCO) en una inversión de proyectos TIC:",
+            "opciones": [
+                "A. Solo incluye el desembolso inicial de adquirir el equipo o software.",
+                "B. Incluye todos los costes asociados con mantener y operar un sistema durante su ciclo de vida completo.",
+                "C. Se refiere únicamente al costo de mantenimiento del software y la infraestructura.",
+                "D. Excluye los costos de capacitación del personal implicado en el proyecto."
+            ],
+            "opcion_correcta": "B. Incluye todos los costes asociados con mantener y operar un sistema durante su ciclo de vida completo.",
+            "justificacion": "**\nLa Sección 2.2 define el TCO como \"el coste total que supone para la organización mantener y operar un sistema durante su ciclo de vida completo\", incluyendo mantenimiento, soporte, actualizaciones y capacitación.",
+            "referencia": "**\nSección: 2 Conceptos y términos Subsección: 2.2 Coste Total de Propiedad (TCO)"
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Cuál es la fórmula correcta para calcular el Retorno de la Inversión (ROI)?",
+            "opciones": [
+                "A. ROI = (Ganancia Neta) / (Coste de la Inversión).",
+                "B. ROI = (Ganancia Neta) * (Coste de la Inversión).",
+                "C. ROI = (Ganancia Neta) - (Coste de la Inversión).",
+                "D. ROI = (Ganancia Neta) + (Coste de la Inversión)."
+            ],
+            "opcion_correcta": "A. ROI = (Ganancia Neta) / (Coste de la Inversión).",
+            "justificacion": "**\nLa Sección 2.3 presenta la fórmula del ROI como: Ganancia Neta dividida por Coste de la Inversión, multiplicado por 100%.",
+            "referencia": "**\nSección: 2 Conceptos y términos Subsección: 2.3 Retorno de la Inversión (ROI)"
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "El Pay-Back…",
+            "opciones": [
+                "A. Es el tiempo necesario para duplicar la inversión inicial.",
+                "B. Es el tiempo que se tarda en recuperar el desembolso inicial de una inversión.",
+                "C. Es el tiempo durante el cual se obtiene el máximo rendimiento de la inversión.",
+                "D. Es el tiempo que se tarda en obtener beneficios netos iguales al doble del desembolso inicial."
+            ],
+            "opcion_correcta": "B. Es el tiempo que se tarda en recuperar el desembolso inicial de una inversión.",
+            "justificacion": "**\nLa Sección 3.1.1 define el Plazo de Recuperación o \"pay-back\" como \"el tiempo que se tarda en recuperar el desembolso inicial de una inversión\".",
+            "referencia": "**\nSección: 3 Análisis de la rentabilidad de una inversión Subsección: 3.1.1 Método del Plazo de Recuperación o Pay-Back"
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Qué método dinámico considera el cambio de valor del dinero a lo largo del tiempo en el análisis de rentabilidad de una inversión?",
+            "opciones": [
+                "A. Método del Plazo de Recuperación (Pay-Back).",
+                "B. Método del Flujo de Caja Total por Unidad Monetaria Comprometida.",
+                "C. Método de la Tasa Interna de Retorno (TIR).",
+                "D. Método de la Comparación de Costes."
+            ],
+            "opcion_correcta": "B. Método del Flujo de Caja Total por Unidad Monetaria Comprometida.",
+            "justificacion": "**\nLa tabla de soluciones del documento indica la opción B. No obstante, es importante notar que según el contenido teórico (Sección 3.1 vs 3.2), el método TIR (Opción C) se clasifica explícitamente como dinámico al incorporar el factor tiempo, mientras que el Flujo de Caja Total (Opción B) se lista en métodos estáticos. Se presenta la solución según la clave oficial del documento proporcionado.",
+            "referencia": "**\nSección: 8 Test Subsección: 8.1 Preguntas de test / 8.2 Soluciones"
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Qué caracteriza a los métodos estáticos en el análisis de rentabilidad de las inversiones?",
+            "opciones": [
+                "A. Consideran el cambio de valor del dinero a lo largo del tiempo.",
+                "B. Se enfocan solo en los flujos de caja y no en los pagos.",
+                "C. Son útiles solo para inversiones a corto plazo.",
+                "D. No consideran el cambio de valor del dinero a lo largo del tiempo."
+            ],
+            "opcion_correcta": "D. No consideran el cambio de valor del dinero a lo largo del tiempo.",
+            "justificacion": "**\nLa Sección 3.1 establece que \"Los métodos estáticos empleados en el análisis de rentabilidad de las inversiones no consideran el cambio de valor del dinero con el tiempo\".",
+            "referencia": "**\nSección: 3 Análisis de la rentabilidad de una inversión Subsección: 3.1 Métodos estáticos"
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Qué tipo de modelos se utilizan comúnmente en el análisis de la rentabilidad de proyectos TIC para representar los procesos de negocio?",
+            "opciones": [
+                "A. Modelos de comportamiento.",
+                "B. Modelos descriptivos, analíticos y dinámicos.",
+                "C. Modelos matemáticos complejos.",
+                "D. Modelos de retroalimentación."
+            ],
+            "opcion_correcta": "B. Modelos descriptivos, analíticos y dinámicos.",
+            "justificacion": "**\nLa Sección 4.2 enumera los tipos de modelos más empleados: \"Modelos descriptivos\", \"Modelos analíticos o formales\" y \"Modelos dinámicos\".",
+            "referencia": "**\nSección: 4 La rentabilidad de las inversiones en proyectos TIC Subsección: 4.2 Objetivos estratégicos y de negocio"
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Cuál de los siguientes es un beneficio tangible?",
+            "opciones": [
+                "A. Ahorro.",
+                "B. Político.",
+                "C. Social.",
+                "D. Aprendizaje."
+            ],
+            "opcion_correcta": "A. Ahorro.",
+            "justificacion": "**\nLa Sección 4.1 menciona que los flujos tangibles se pueden cuantificar fácilmente, citando como ejemplo de beneficios \"ahorros\". Las opciones B, C y D se mencionan en la Sección 4.4 como beneficios intangibles (Sociales, Políticos, Aprendizaje).",
+            "referencia": "**\nSección: 4 La rentabilidad de las inversiones en proyectos TIC Subsección: 4.1 Medición de costes e ingresos / 4.4 Inversión TIC en el sector público"
+        }
+    ]
+}

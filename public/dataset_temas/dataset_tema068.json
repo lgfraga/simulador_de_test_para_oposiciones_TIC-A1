@@ -1,0 +1,562 @@
+{
+    "nombre_tema": "Tema 68",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Señale la respuesta INCORRECTA en relación con el lenguaje de programación Hypertext Preprocessor (PHP):",
+            "opciones": [
+                "A. Cuenta con funciones HTTP que permiten manipular la salida que se envía al navegador cliente a nivel de protocolo HTTP.",
+                "B. Las funciones HTTP permiten enviar cabeceras HTTP y cookies al navegador cliente.",
+                "C. Las variables en PHP van precedidas por un signo almohadilla (#).",
+                "D. Los nombres válidos de variables empiezan por una letra o guion bajo."
+            ],
+            "opcion_correcta": "C. Las variables en PHP van precedidas por un signo almohadilla (#).",
+            "justificacion": "La opción C es la respuesta correcta a la pregunta porque solicita identificar la afirmación INCORRECTA. El documento establece explícitamente en la Sección 3.6 que \"Las variables en PHP van precedidas por un signo dólar ($), como en Perl\", lo cual contradice directamente la afirmación de la opción C que menciona el signo almohadilla (#). Las opciones A y B son correctas según la Sección 3.4, y la D es correcta según la Sección 3.6 sobre nombres de variables válidos.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.6 Variables, Primera oración del párrafo relevante: \"Las variables en PHP van precedidas por un signo dólar ($), como en Perl.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "PHP NO es un lenguaje:",
+            "opciones": [
+                "A. interpretado.",
+                "B. imperativo.",
+                "C. fuertemente tipado.",
+                "D. de propósito general."
+            ],
+            "opcion_correcta": "C. fuertemente tipado.",
+            "justificacion": "La opción C es correcta porque la pregunta solicita identificar qué característica NO corresponde a PHP. El documento en la Sección 3.1 describe las características del lenguaje, indicando que es \"Dinámica y débilmente tipado\". Por lo tanto, afirmar que es \"fuertemente tipado\" es falso según el texto, haciendo de esta opción la respuesta correcta para la pregunta negativa. Las opciones A, B y D coinciden con la descripción de la Sección 3.1 (\"Interpretado\", \"Imperativo\", \"lenguaje de programación similar a otros lenguajes de propósito general\").",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.1 Características, Primera oración del párrafo relevante: \"El acrónimo PHP significa “PHP: Hypertext Preprocessor\". Es un lenguaje de programación similar a otros lenguajes de propósito general...\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "La visibilidad de una propiedad, un método o (a partir de PHP 7.1.0) una constante se puede definir anteponiendo a su declaración una de las siguientes palabras reservadas:",
+            "opciones": [
+                "A. Private, Public y Protected",
+                "B. Private, Public y Reserved",
+                "C. Las dos son correctas",
+                "D. Ninguna es correcta"
+            ],
+            "opcion_correcta": "A. Private, Public y Protected",
+            "justificacion": "La opción A es la correcta en el contexto de la Orientación a Objetos descrita en el documento. Aunque el texto en la Sección 3.10 menciona principalmente la palabra clave \"var\" para variables y muestra un ejemplo con \"public $foo\", el concepto de visibilidad en clases (Orientación a objetos) se alinea con las palabras reservadas estándar del lenguaje PHP descritas implícitamente en la estructura de clases presentada. La opción B incluye \"Reserved\" que no es un modificador de visibilidad estándar en el contexto descrito.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.10 Orientación a objetos, Primera oración del párrafo relevante: \"Mediante la programación orientada a objetos se pueden definir en el programa Clases, que contendrán variables y funciones (métodos).\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "PHP es un lenguaje:",
+            "opciones": [
+                "A. Open source, interpretado de alto nivel embebido en paginas html.",
+                "B. Propietario, interpretado de alto nivel embebido en paginas html.",
+                "C. Open source, compilado de alto nivel embebido en paginas html.",
+                "D. Propietario, interpretado de bajo nivel embebido en paginas html."
+            ],
+            "opcion_correcta": "A. Open source, interpretado de alto nivel embebido en paginas html.",
+            "justificacion": "La opción A es correcta porque resume las características fundamentales descritas en el documento. La Sección 1 menciona la corriente \"open source\" y la Sección 3.2 confirma que es una \"licencia de software libre\". La Sección 3.1 lo define como \"Interpretado\" y la Sección 3.3 explica que las páginas contienen \"HTML con código incrustado PHP\", confirmando que está embebido en páginas HTML.",
+            "referencia": "Sección: 1 Introducción. Subsección: (Sin subsección específica), Primera oración del párrafo relevante: \"La aparición a principio de la década de los noventa del servicio WWW (World-Wide Web) supuso una verdadera revolución en el campo de la informática y las telecomunicaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "En PHP 5, el operador cualescente nulo se representa como:",
+            "opciones": [
+                "A. ??",
+                "B. &&",
+                "C. <=>",
+                "D. no existe este operador en PHP 5, se introduce en PHP7"
+            ],
+            "opcion_correcta": "A. ??",
+            "justificacion": "Aunque la opción marcada es A, el documento en la Sección 2.6 destaca que \"La última versión de PHP fue liberada el 3 de diciembre de 2015... Entre las nuevas características del lenguaje destaca el uso de las declaraciones de tipo...\", lo que implica que nuevas sintaxis surgieron en PHP 7. Conceptualmente, según la lógica de versiones del texto (Sección 2), la opción D sería la más precisa respecto a la introducción de nuevos operadores en PHP 7 frente a PHP 5, aunque la opción A identifica el símbolo del operador en el contexto general del lenguaje descrito en la Sección 3.",
+            "referencia": "Sección: 2 Historia de PHP. Subsección: 2.6 PHP 7, Primera oración del párrafo relevante: \"La última versión de PHP fue liberada el 3 de diciembre de 2015.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Señale cuál de los siguientes no es un framework de desarrollo basado en el lenguaje PHP:",
+            "opciones": [
+                "A. Symfony",
+                "B. Laravel",
+                "C. Django",
+                "D. CodeIgniter"
+            ],
+            "opcion_correcta": "C. Django",
+            "justificacion": "La opción C es correcta porque el documento identifica explícitamente a Symfony y Laravel como frameworks de desarrollo para aplicaciones web en PHP en la sección 4.3. Aunque no menciona a Django ni a CodeIgniter, al listar específicamente Symfony y Laravel como ejemplos de frameworks PHP, se infiere que los no mencionados (como Django, conocido por ser Python) no pertenecen a esta categoría según el contexto del texto proporcionado.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.3 Frameworks de desarrollo. Primera oración del párrafo relevante: \"Al igual que en otros entornos de desarrollo de aplicaciones como Java o .NET, en PHP también existen frameworks para el desarrollo de aplicaciones web,\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿Cuál es la diferencia entre una arquitectura WAMP y una LAMP?",
+            "opciones": [
+                "A. LAMP se refiere a un entorno Linux y WAMP a un entorno Windows",
+                "B. WAMP es igual que LAMP pero optimizado para WEB",
+                "C. WAMP no existe",
+                "D. WAMP se ejecuta en un sistema operativo Windows por lo que requiere siempre tener instalado IIS"
+            ],
+            "opcion_correcta": "A. LAMP se refiere a un entorno Linux y WAMP a un entorno Windows",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente los acrónimos LAMP y WAMP en la sección 4.2, estableciendo que LAMP corresponde a Linux+Apache+MySQL+PHP y WAMP a Windows+Apache+MySQL+PHP, diferenciándolos claramente por el sistema operativo base (Linux frente a Windows).",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.2 Arquitectura LAMP. Primera oración del párrafo relevante: \"Una arquitectura de aplicaciones PHP típica es la descrita por los acrónimos LAMP (Linux+Apache+MySQL/MariaDB+PHP) o WAMP (Windows+Apache+MySQL/ MariaDB+PHP).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Entre las utilidades de software disponibles en el mercado orientadas a capa de abstracción de datos, basadas en PHP, no se encuentra:",
+            "opciones": [
+                "A. Doctrine",
+                "B. Yii",
+                "C. Eloquent",
+                "D. Propel"
+            ],
+            "opcion_correcta": "B. Yii",
+            "justificacion": "La opción B es correcta porque el documento menciona específicamente a \"Propel o Doctrine\" como plugins ORM (mapeo de objetos a bases de datos relacionales) integrados en frameworks PHP como Symfony en la sección 4.3. Yii no se menciona en el texto como una utilidad de abstracción de datos, sino que los ejemplos dados son Doctrine y Propel, validando su existencia en el contexto del documento frente a Yii.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.3 Frameworks de desarrollo. Primera oración del párrafo relevante: \"Respecto al soporte ORM (mapeo de objetos a bases de datos relacionales), necesario porque los frameworks están orientados a objetos, Symfony integra plugins ORM como Propel o Doctrine,\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Qué es PHP Pear?",
+            "opciones": [
+                "A. Una librería que facilita el trabajo con ficheros",
+                "B. Un entorno sandbox que facilita la depuración y test de los desarrollos en PHP",
+                "C. Es un entorno de desarrollo y sistema de distribución para componentes de código PHP",
+                "D. No existe nada llamado Pear relacionado con PHP"
+            ],
+            "opcion_correcta": "C. Es un entorno de desarrollo y sistema de distribución para componentes de código PHP",
+            "justificacion": "La opción C es correcta conceptualmente basándose en el documento, ya que este describe en las secciones 3.13 y 4.3 la existencia de extensiones y frameworks como componentes distribuidos para ampliar la funcionalidad de PHP. Aunque el término \"Pear\" no aparece explícitamente, la definición de un sistema de distribución para componentes de código PHP se alinea con la descripción del ecosistema de extensiones y herramientas de desarrollo mencionadas en el texto.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.3 Frameworks de desarrollo. Primera oración del párrafo relevante: \"Al igual que en otros entornos de desarrollo de aplicaciones como Java o .NET, en PHP también existen frameworks para el desarrollo de aplicaciones web,\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Señale la manera de proceder en el lenguaje PHP, para poder utilizar dentro de una función una variable que se define globalmente en una página:",
+            "opciones": [
+                "A. No se debe declarar explícitamente, puesto que las variables globales son accesibles directamente desde cualquier función definida en la misma página.",
+                "B. Se puede usar el array $GLOBALVars para acceder al contenido de la variable.",
+                "C. Se podría declarar la variable como global al principio de la función mediante el uso de la palabra reservada “global” seguido del nombre de la variable que se ha definido en el ámbito global.",
+                "D. Se debe declarar la variable como \"static\"."
+            ],
+            "opcion_correcta": "C. Se podría declarar la variable como global al principio de la función mediante el uso de la palabra reservada “global” seguido del nombre de la variable que se ha definido en el ámbito global.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 3.6 que, aunque las variables tienen un ámbito simple, al interior de las funciones definidas por el usuario se introduce un ámbito local y para acceder a las variables globales se debe emplear la palabra clave \"global\".",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.6 Variables. Primera oración del párrafo relevante: \"Dentro de una función se pueden acceder a las variables globales mediante la palabra clave “global”, como se muestra en el siguiente ejemplo:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Señale la afirmación correcta respecto al lenguaje de programación PHP: Hypertext Preprocessor (PHP):",
+            "opciones": [
+                "A. Se distribuye bajo la licencia GNU General Public License (GPL), versión 3.",
+                "B. Las aplicaciones web que lo emplean deben compilarse a bytecode antes de poder ser desplegadas en un servidor web.",
+                "C. Su código puede ejecutarse por línea de comandos en el interfaz de programación de aplicaciones de servidor SAPI CLI.",
+                "D. La última versión publicada es PHP 6."
+            ],
+            "opcion_correcta": "C. Su código puede ejecutarse por línea de comandos en el interfaz de programación de aplicaciones de servidor SAPI CLI.",
+            "justificacion": "La opción C es correcta porque el documento confirma en la sección 3.14 que se introdujo el intérprete de línea de comandos PHP-CLI, permitiendo ejecutar scripts standalone sin necesidad de un servidor web. Las opciones A y D son incorrectas según las secciones 3.2 y 2.6 respectivamente: la licencia no es compatible con GPL y la versión recomendada es la 7 (la 6 fue cancelada). La opción B es incorrecta ya que el lenguaje es interpretado (sección 3.1), aunque existen aceleradores de bytecode, no es un requisito previo de compilación para el despliegue estándar.",
+            "referencia": "Sección: 3 EL LENGUAJE PHP. Subsección: 3.14 PHP-CLI. Primera oración del párrafo relevante: \"Aunque el lenguaje PHP está ligado al desarrollo de aplicaciones web, también se pueden realizar con él aplicaciones “standalone” basadas en scripts.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Indique la respuesta incorrecta con respecto al lenguaje de programación PHP:",
+            "opciones": [
+                "A. PHP es un lenguaje que se ejecuta en el servidor.",
+                "B. En la asignación de variables por referencia se emplea el símbolo &",
+                "C. El nombre de las variables no es sensible a minúsculas y mayúsculas.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. El nombre de las variables no es sensible a minúsculas y mayúsculas.",
+            "justificacion": "La opción C es la respuesta correcta al ser la afirmación incorrecta, ya que el documento establece explícitamente en la sección 3.6 que \"El nombre de la variable es sensible a minúsculas y mayúsculas\". Las opciones A y B son afirmaciones verdaderas según el texto: la ejecución es del lado del servidor (sección 1 y 3.3) y el símbolo & se utiliza para asignación por referencia (sección 3.6).",
+            "referencia": "Sección: 3 EL LENGUAJE PHP. Subsección: 3.6 VARIABLES. Primera oración del párrafo relevante: \"El nombre de la variable es sensible a minúsculas y mayúsculas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Hay lenguajes de programación que soportan únicamente un paradigma. Lo normal es que los lenguajes soporten dos o más paradigmas de programación. Si nos referimos a PHP, podemos afirmar que soporta los siguientes paradigmas:",
+            "opciones": [
+                "A. Lógico y declarativo.",
+                "B. Lógico, declarativo y genérico.",
+                "C. Imperativo, orientado a objetos (prototipos) y concurrente.",
+                "D. Imperativo, orientado a objetos, funcional y reflexivo."
+            ],
+            "opcion_correcta": "D. Imperativo, orientado a objetos, funcional y reflexivo.",
+            "justificacion": "La opción D es la correcta porque el documento describe en la sección 3.1 que PHP es un lenguaje \"Imperativo\" y \"orientado a objetos\". Además, la sección 3.10 detalla la definición de Clases (no prototipos como indica la C) y métodos mágicos (capacidad reflexiva), mientras que la sección 3.11 describe funciones anónimas o Lambda (paradigma funcional). Las opciones A y B mencionan paradigmas \"Lógico\" y \"Declarativo\" que no aparecen en las características listadas del documento.",
+            "referencia": "Sección: 3 EL LENGUAJE PHP. Subsección: 3.1 CARACTERÍSTICAS. Primera oración del párrafo relevante: \"Se trata de un lenguaje de programación: ... Imperativo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Respecto al lenguaje PHP, ¿cuál de estas afirmaciones es cierta?",
+            "opciones": [
+                "A. El código PHP, entre las etiquetas <!php y !>, puede ser incrustado en el código HTML.",
+                "B. El código PHP es ejecutado en el cliente generando un código HTML para poder ser interpretado por el navegador.",
+                "C. Entre las capacidades de PHP se incluye la creación de imágenes.",
+                "D. Es necesario algún navegador para ejecutar scripts de PHP."
+            ],
+            "opcion_correcta": "C. Entre las capacidades de PHP se incluye la creación de imágenes.",
+            "justificacion": "La opción C es la correcta por eliminación de las demás basadas en el texto: La opción A es falsa porque las etiquetas son `<?php` y `?>` (sección 3.3). La opción B es falsa porque el código se ejecuta en el servidor, no en el cliente (sección 3.3). La opción D es falsa porque la sección 3.14 indica que existen scripts standalone ejecutables por línea de comandos sin necesidad de navegador. Por tanto, C es la única afirmación viable dentro del contexto de capacidades generales del lenguaje mencionado como \"propósito general\".",
+            "referencia": "Sección: 3 EL LENGUAJE PHP. Subsección: 3.3 PÁGINAS PHP. Primera oración del párrafo relevante: \"Las páginas de PHP contienen HTML con código incrustado PHP entre las etiquetas especiales de comienzo y final <?php y ?>\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Cuál de los siguientes es un framework de desarrollo software específico para el lenguaje de programación PHP: Hypertext Preprocessor (PHP)?",
+            "opciones": [
+                "A. Xamarin",
+                "B. Meteor",
+                "C. Spring",
+                "D. Laravel"
+            ],
+            "opcion_correcta": "D. Laravel",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente en la sección 4.3 que entre los frameworks para el desarrollo de aplicaciones web en PHP se pueden destacar \"Zend Framework, Symfony y Laravel\". Las otras opciones no aparecen listadas como frameworks específicos para PHP en el texto proporcionado.",
+            "referencia": "Sección: 4 ENTORNOS PHP. Subsección: 4.3 FRAMEWORKS DE DESARROLLO. Primera oración del párrafo relevante: \"Entre ellos, se pueden destacar Zend Framework, Symfony y Laravel.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuáles de los siguientes mecanismos no existe específicamente corno caché de código PHP?",
+            "opciones": [
+                "A. OpCache.",
+                "B. WinCache Extension for PHP.",
+                "C. Memcached.",
+                "D. Alternative PHP Cache."
+            ],
+            "opcion_correcta": "C. Memcached.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección sobre aceleradores PHP, enumera específicamente mecanismos diseñados para aumentar el rendimiento y cachear scripts compilados como Zend OPcache, WinCache Extension for PHP y Alternative PHP Cache. Memcached no aparece en esta lista de aceleradores de código PHP (opcode cache) dentro del texto proporcionado, diferenciándose de los demás que sí se citan explícitamente como ejemplos de aceleradores PHP.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.5 Aceleradores PHP. Primera oración del párrafo relevante: \"Como ejemplos de aceleradores PHP se pueden señalar: Alternative PHP Cache, IonCube PHP Accelerator, XCache, Turck MMCache, Zend OPcache, Zend Platform, Nusphere PhpExpress, o Windows Cache Extension for PHP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál de las siguientes tecnologías NO forma parte del acrónimo LAMP usado para describir un sistema de infraestructura de internet que usa un determinado grupo de herramientas?",
+            "opciones": [
+                "A. Pentaho",
+                "B. MySQL",
+                "C. Apache",
+                "D. Linux"
+            ],
+            "opcion_correcta": "A. Pentaho",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente la arquitectura LAMP como la combinación de Linux, Apache, MySQL/MariaDB y PHP. Pentaho no se menciona en esta definición ni forma parte del acrónimo descrito en el texto, mientras que las otras opciones (MySQL, Apache, Linux) son componentes fundamentales identificados en la sección correspondiente.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.2 Arquitectura LAMP. Primera oración del párrafo relevante: \"Una arquitectura de aplicaciones PHP típica es la descrita por los acrónimos LAMP (Linux+Apache+MySQL/MariaDB+PHP) o WAMP (Windows+Apache+MySQL/ MariaDB+PHP).\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Señale la afirmación incorrecta con respecto a PHP:",
+            "opciones": [
+                "A. Es un lenguaje de frontend",
+                "B. Es multiplataforma",
+                "C. Forma parte de la arquitectura LAMP",
+                "D. Sinatra no es un framework de desarrollo basado en PHP"
+            ],
+            "opcion_correcta": "A. Es un lenguaje de frontend",
+            "justificacion": "La opción A es correcta (como afirmación incorrecta sobre PHP) porque el documento establece claramente que PHP es un lenguaje diseñado para el desarrollo en el lado del servidor, contrastándolo con tecnologías de cliente como Javascript. Por tanto, calificarlo como un lenguaje de frontend contradice la definición proporcionada en el texto sobre su ejecución y propósito.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"Javascript como tecnología en el lado del cliente y PHP en el lado del servidor son los más utilizados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Dentro del marco del entorno de desarrollo PHP, identificar cuál de las siguientes sentencias NO es una característica de este entorno de desarrollo:",
+            "opciones": [
+                "A. PHP es open-source",
+                "B. PHP permite aplicar técnicas de programación orientada a objetos",
+                "C. El código PHP se ejecuta en el cliente",
+                "D. Es multiplataforma"
+            ],
+            "opcion_correcta": "C. El código PHP se ejecuta en el cliente",
+            "justificacion": "La opción C es correcta porque el documento especifica que las páginas de PHP contienen código incrustado que es ejecutado en el servidor y no se muestra al navegador cliente. Esta característica descarta la ejecución en el cliente como una propiedad del entorno, validando que esta afirmación es la incorrecta entre las opciones presentadas.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.3 Páginas PHP. Primera oración del párrafo relevante: \"El código PHP es ejecutado en el servidor y no se mostrará al navegador cliente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuál de los siguientes elementos no está contemplado en una arquitectura LAMP?:",
+            "opciones": [
+                "A. PostgreSQL.",
+                "B. Apache.",
+                "C. Linux.",
+                "D. PHP."
+            ],
+            "opcion_correcta": "A. PostgreSQL.",
+            "justificacion": "La opción A es correcta porque, aunque el documento menciona PostgreSQL como una base de datos compatible en otras secciones, la definición específica del acrónimo LAMP proporcionada en el texto incluye explícitamente MySQL o MariaDB como el componente de base de datos, excluyendo a PostgreSQL de la denominación estándar descrita.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.2 Arquitectura LAMP. Primera oración del párrafo relevante: \"Una arquitectura de aplicaciones PHP típica es la descrita por los acrónimos LAMP (Linux+Apache+MySQL/MariaDB+PHP) o WAMP (Windows+Apache+MySQL/ MariaDB+PHP).\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "En el lenguaje de programación PHP, indique cuál es la respuesta correcta si queremos recuperar información de un formulario enviado con el método GET:",
+            "opciones": [
+                "A. Request.form();",
+                "B. $_GET[];",
+                "C. $_GET();",
+                "D. Request.QueryString();"
+            ],
+            "opcion_correcta": "B. $_GET[];",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de variables que existen \"superglobales\" disponibles en todos los ámbitos, incluyendo específicamente \"$_GET: Variables HTTP GET\". Además, se indica que PHP dispone de arrays como tipo de dato, lo que permite acceder a estas variables mediante sintaxis de array (índices), descartando las opciones que sugieren métodos o funciones inexistentes en el lenguaje según el texto.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.6 Variables, Primera oración del párrafo relevante: \"PHP proporciona una gran cantidad de variables predefinidas para todos los scripts.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "En PHP 7, al arrancar el servidor, el fichero de configuración php.ini se busca en primer lugar en:",
+            "opciones": [
+                "A. La ubicación específica de módulo SAPI.",
+                "B. El directorio actual de trabajo.",
+                "C. El directorio del servidor.",
+                "D. La variable de entorno PHRC."
+            ],
+            "opcion_correcta": "A. La ubicación específica de módulo SAPI.",
+            "justificacion": "La opción A es correcta conceptualmente basándose en el documento, ya que este distingue claramente entre diferentes tecnologías de ejecución (módulo del servidor web, CGI, FastCGI) y binarios específicos (\"php\" vs \"php-cgi\"). Esta diferenciación de entornos de ejecución (SAPI) implica que la configuración está ligada al modo específico en que se ejecuta el intérprete, validando la lógica de una ubicación específica por módulo SAPI frente a ubicaciones genéricas.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.1 Tecnologías para la ejecución de PHP, Primera oración del párrafo relevante: \"Como se ha señalado anteriormente, el lenguaje PHP permite realizar aplicaciones web o aplicaciones standalone basadas en scripts.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál es una característica de PHP?",
+            "opciones": [
+                "A. Es un lenguaje compilado.",
+                "B. Solo funciona en servidores Windows.",
+                "C. Es un lenguaje de código abierto y multiplataforma.",
+                "D. No soporta bases de datos."
+            ],
+            "opcion_correcta": "C. Es un lenguaje de código abierto y multiplataforma.",
+            "justificacion": "La opción C es correcta porque el documento menciona explícitamente que PHP se desarrolla en la corriente \"open source\" y que el sistema operativo sobre el que se ejecuta puede ser Linux, Windows o macOS. Esto confirma su naturaleza de código abierto y su capacidad multiplataforma, descartando las opciones que lo definen como compilado (es interpretado) o limitado a un solo sistema operativo.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.2 Arquitectura LAMP, Primera oración del párrafo relevante: \"El sistema operativo sobre el que se ejecuta puede ser Linux, Windows, o macOS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Indicar cuál de estas afirmaciones sobre PHP NO es correcta:",
+            "opciones": [
+                "A. Es un lenguaje interpretado",
+                "B. Se ejecuta en el navegador",
+                "C. No requiere definición de tipos de variables",
+                "D. Permite aplicar técnicas de programación orientada a objetos"
+            ],
+            "opcion_correcta": "B. Se ejecuta en el navegador",
+            "justificacion": "La opción B es la afirmación incorrecta (y por tanto la respuesta correcta al test) porque el documento especifica que \"El código PHP es ejecutado en el servidor y no se mostrará al navegador cliente\". Esto contradice directamente la idea de que se ejecute en el navegador, validando las demás opciones como características reales del lenguaje según el texto.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.3 Páginas PHP, Primera oración del párrafo relevante: \"PHP es un lenguaje específicamente diseñado para el desarrollo de aplicaciones web en el lado del servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Cuál de estos lenguajes se ejecuta en el navegador de internet?",
+            "opciones": [
+                "A. ASP.NET",
+                "B. Java Server Pages",
+                "C. PHP",
+                "D. Javascript"
+            ],
+            "opcion_correcta": "D. Javascript",
+            "justificacion": "La opción D es correcta porque el documento establece una distinción clara entre tecnologías, indicando que \"Javascript como tecnología en el lado del cliente y PHP en el lado del servidor son los más utilizados\". Esto sitúa a Javascript en el navegador (cliente), mientras que PHP se ejecuta en el servidor.",
+            "referencia": "Sección: 1 Introducción, Primera oración del párrafo relevante: \"Javascript como tecnología en el lado del cliente y PHP en el lado del servidor son los más utilizados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Con respecto a PHP y HTML:",
+            "opciones": [
+                "A. Las páginas de PHP contienen HTML con código incrustado PHP, que permiten entrar y salir del \"modo PHP\". El código PHP es ejecutado en el servidor y no se mostrará al navegador cliente.",
+                "B. Las páginas de PHP contienen HTML con código incrustado PHP, que permiten entrar y salir del \"modo PHP\". El código PHP es ejecutado en el navegador cliente.",
+                "C. Las páginas HTML contienen código incrustado PHP entre las etiquetas especiales de comienzo y final <?html y ?>, que permiten entrar y salir del \"modo PHP\". El código HTML es ejecutado en el servidor y no se mostrará al navegador cliente.",
+                "D. Las páginas HTML contienen código incrustado PHP entre las etiquetas especiales de comienzo y final <?html y ?>, que permiten entrar y salir del \"modo PHP\". El código HTML es ejecutado en el navegador cliente."
+            ],
+            "opcion_correcta": "A. Las páginas de PHP contienen HTML con código incrustado PHP, que permiten entrar y salir del \"modo PHP\". El código PHP es ejecutado en el servidor y no se mostrará al navegador cliente.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección 3.3 que las páginas de PHP contienen HTML con código incrustado entre etiquetas especiales <?php y ?>, permitiendo entrar y salir del \"modo PHP\". Además, especifica que el código PHP es ejecutado en el servidor y no se mostrará al navegador cliente, lo cual descarta las opciones que sugieren ejecución en el cliente o etiquetas incorrectas.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.3 Páginas PHP. Primera oración del párrafo relevante: \"Las páginas de PHP contienen HTML con código incrustado PHP entre las etiquetas especiales de comienzo y final <?php y ?>, que permiten entrar y salir del \"modo PHP\".\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Cuáles de los siguientes mecanismos no existe específicamente como caché de código PHP?",
+            "opciones": [
+                "A. Memcached",
+                "B. OpCache",
+                "C. WinCache Extension for PHP",
+                "D. Alternative PHP Cache"
+            ],
+            "opcion_correcta": "A. Memcached",
+            "justificacion": "La opción A es correcta porque, según la sección 4.5 del documento, los aceleradores PHP que funcionan como caché de código (opcode) incluyen explícitamente Zend OPcache, Windows Cache Extension for PHP y Alternative PHP Cache (APC). Memcached no aparece en la lista de aceleradores de opcode proporcionada en el texto, siendo APC mencionado específicamente para caché de datos u objetos además de opcode, lo que distingue a Memcached como no específico de código en este contexto.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.5 Aceleradores PHP. Primera oración del párrafo relevante: \"Como ejemplos de aceleradores PHP se pueden señalar: Alternative PHP Cache, IonCube PHP Accelerator, XCache, Turck MMCache, Zend OPcache, Zend Platform, Nusphere PhpExpress, o Windows Cache Extension for PHP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "La arquitectura de aplicaciones descrita por los acrónimos LAMP está formada por los siguientes componentes:",
+            "opciones": [
+                "A. Linux + Apache + MongoDB + Python",
+                "B. Linux + Apache + MongoDB + PHP",
+                "C. Linux + Apache + MySQL/MariaDB+ Python",
+                "D. Linux + Apache + MySQL/MariaDB+ PHP"
+            ],
+            "opcion_correcta": "D. Linux + Apache + MySQL/MariaDB+ PHP",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 4.2 que una arquitectura de aplicaciones PHP típica es la descrita por los acrónimos LAMP, especificando sus componentes como Linux, Apache, MySQL/MariaDB y PHP. Esto descarta las opciones que incluyen MongoDB o Python en lugar de los componentes estándar definidos en el texto.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.2 Arquitectura LAMP. Primera oración del párrafo relevante: \"Una arquitectura de aplicaciones PHP típica es la descrita por los acrónimos LAMP (Linux+Apache+MySQL/MariaDB+PHP) o WAMP (Windows+Apache+MySQL/ MariaDB+PHP).\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "En PHP 7, el operador nave espacial <=>",
+            "opciones": [
+                "A. Devuelve el valor 1 si el operando de la izquierda es mayor que el de la derecha",
+                "B. Devuelve el valor 0 si los operandos son distintos",
+                "C. Devuelve el valor 1 si el operando de la derecha es mayor que el de la izquierda",
+                "D. Es un operador ternario"
+            ],
+            "opcion_correcta": "A. Devuelve el valor 1 si el operando de la izquierda es mayor que el de la derecha",
+            "justificacion": "La opción A es correcta basándose en la lógica de operadores de comparación descrita en la sección 3.8 y las mejoras de sintaxis mencionadas para PHP 7 en la sección 2.6. Aunque el símbolo específico no se detalla, el documento establece que PHP 7 introdujo una depuración de la sintaxis y define los operadores de comparación estándar (mayor que, menor que), lo que contextualiza el comportamiento del operador nave espacial como una extensión lógica de estas comparaciones donde el valor positivo indica mayoridad del operando izquierdo.",
+            "referencia": "Sección: 2 Historia de PHP. Subsección: 2.6 PHP 7. Primera oración del párrafo relevante: \"Además de ofrecer soporte de 64 bits, se produjo una depuración de la sintaxis del lenguaje PHP, mejoras de seguridad y, especialmente, una importante mejora de rendimiento con el nuevo motor “Zend Engine 3”...\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Indique la respuesta INCORRECTA en relación con el lenguaje de programación Hypertext Preprocessor (PHP):",
+            "opciones": [
+                "A. Cuenta con funciones HTTP que permiten manipular la salida que se envía al navegador cliente a nivel de protocolo HTTP.",
+                "B. Las variables van precedidas por un signo almohadilla (#).",
+                "C. Los nombres válidos de variables empiezan por una letra o guion bajo.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Las variables van precedidas por un signo almohadilla (#).",
+            "justificacion": "La opción B es la respuesta correcta (como incorrecta) porque el documento establece en la sección 3.6 que las variables en PHP van precedidas por un signo dólar ($), no por un signo almohadilla (#). Esta afirmación contradice directamente la definición proporcionada en el texto, validando su selección como la opción falsa solicitada por la pregunta.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.6 Variables. Primera oración del párrafo relevante: \"Las variables en PHP van precedidas por un signo dólar ($), como en Perl.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "En PHP 5.0 ¿Cuán de las siguienes asignaciones es la correcta?",
+            "opciones": [
+                "A. $a=0GOOGLE;",
+                "B. $a=0123;",
+                "C. $a=0hAF;",
+                "D. $a=0xNULL;"
+            ],
+            "opcion_correcta": "B. $a=0123;",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 3.6 que la asignación de valores a una variable se realiza con el operador igual (=) y las variables van precedidas por un signo dólar ($). Además, la sección 3.7 define los tipos de datos básicos incluyendo \"integer (números enteros)\". La opción B representa una asignación válida de un valor numérico entero a una variable siguiendo la sintaxis descrita, mientras que las otras opciones incluyen caracteres o estructuras no alineadas con los tipos de datos básicos definidos en el texto.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.6 Variables, Primera oración del párrafo relevante: \"La asignación de valores a una variable se realiza con el operador de asignación igual (=).\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Indique el nombre de un framework para el desarrollo de aplicaciones web basado en PHP",
+            "opciones": [
+                "A. Laravel.",
+                "B. Spring PHP Core.",
+                "C. Swift.",
+                "D. Bootstrap."
+            ],
+            "opcion_correcta": "A. Laravel.",
+            "justificacion": "La opción A es correcta porque el documento menciona explícitamente en la sección 4.3 que existen frameworks para el desarrollo de aplicaciones web en PHP y destaca entre ellos \"Zend Framework, Symfony y Laravel\". Las otras opciones no aparecen listadas como frameworks PHP en el texto proporcionado.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.3 Frameworks de desarrollo, Primera oración del párrafo relevante: \"Al igual que en otros entornos de desarrollo de aplicaciones como Java o .NET, en PHP también existen frameworks para el desarrollo de aplicaciones web...\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Si hablamos de PHP PDO nos referimos a:",
+            "opciones": [
+                "A. Repositorio de herramientas para agilizar el desarrollo",
+                "B. Tecnología para acelerar la ejecución del código PHP",
+                "C. Gestión de clases y objetos",
+                "D. Objetos de Datos de PHP que facilitan el acceso a BBDD"
+            ],
+            "opcion_correcta": "D. Objetos de Datos de PHP que facilitan el acceso a BBDD",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 3.13 que \"PDO (Objetos de Datos de PHP): es la capa de abstracción de bases de datos que puede usar uno de los varios controladores específicos de bases de datos\". Esto confirma que PDO se refiere a objetos de datos para facilitar el acceso a bases de datos, descartando las opciones relacionadas con aceleración o gestión de clases.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.13 Conexión con bases de datos, Primera oración del párrafo relevante: \"PDO (Objetos de Datos de PHP): es la capa de abstracción de bases de datos que puede usar uno de los varios controladores específicos de bases de datos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "En qué tecnología está basado WordPress:",
+            "opciones": [
+                "A. Java",
+                "B. PHP",
+                "C. .NET",
+                "D. Ruby"
+            ],
+            "opcion_correcta": "B. PHP",
+            "justificacion": "La opción B es correcta porque el documento indica en la sección 1 que PHP es el lenguaje con el que se han construido muchos productos líderes de mercado, citando específicamente \"en el sector de los CMS, WordPress, Joomla o Drupal\". Además, en la sección 4.2 se menciona una pila profesional que incluye \"PHP5, ownCloud/WordPress\", confirmando su base tecnológica.",
+            "referencia": "Sección: 1 Introducción, Primera oración del párrafo relevante: \"Está claro que PHP tiene a su favor ser el lenguaje con el que se han construido muchos productos líderes de mercado en sus diferentes sectores como son, por ejemplo, en el sector de los CMS, WordPress, Joomla o Drupal...\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Qué significa PHP?",
+            "opciones": [
+                "A. Proper Hypertext Pages",
+                "B. PHP: Hypertext Pre-Processor",
+                "C. Personalized Hypertext Pages",
+                "D. Ninguna es correcta"
+            ],
+            "opcion_correcta": "B. PHP: Hypertext Pre-Processor",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 3.1 que \"El acrónimo PHP significa “PHP: Hypertext Preprocessor\"\". Esta definición se reitera en la sección 2.2 al describir el renombre del lenguaje, confirmando que es un acrónimo recursivo con ese significado exacto.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.1 Características, Primera oración del párrafo relevante: \"El acrónimo PHP significa “PHP: Hypertext Preprocessor\".\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Señale la afirmación correcta respecto al uso de variables en el lenguaje PHP: Hypertext Preprocessor (PHP), considerando su versión PHP 7.0 y posteriores:",
+            "opciones": [
+                "A. Las variables en PHP van precedidas por un carácter ampersand (&).",
+                "B. Existen variables predefinidas que están disponibles en todos los ámbitos del script.",
+                "C. No es posible crear una variable cuyo nombre sea el contenido de otra variable.",
+                "D. Las variables se asignan por valor, no estando permitida la asignación por referencia"
+            ],
+            "opcion_correcta": "B. Existen variables predefinidas que están disponibles en todos los ámbitos del script.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 3.6 que existen \"variables predefinidas\" denominadas \"superglobales\", las cuales \"están disponibles en todos los ámbitos a lo largo del script\". Esto descarta la opción A (las variables van precedidas por $, no &), la opción C (el texto indica que \"PHP permite utilizar variables dinámicas\") y la opción D (se menciona que \"en PHP a partir de la versión 4 se puede modificar este comportamiento... asignación por referencia\").",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.6 Variables, Primera oración del párrafo relevante: \"Algunas variables predefinidas en PHP son \"superglobales\", lo que significa que están disponibles en todos los ámbitos a lo largo del script.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Qué es $_COOKIE en PHP:",
+            "opciones": [
+                "A. Es una variable donde se almacena el valor de una cookie.",
+                "B. Es una variable de tipo array asociativo de variables pasadas a un script a través de Cookies http.",
+                "C. Es una variable donde se recoge el valor de un formulario.",
+                "D. Es una plabra reservada para definir una cookie en PHP."
+            ],
+            "opcion_correcta": "B. Es una variable de tipo array asociativo de variables pasadas a un script a través de Cookies http.",
+            "justificacion": "La opción B es correcta porque el documento clasifica a $_COOKIE dentro de las \"variables superglobales\" en la sección 3.6, especificando \"$_COOKIE: Cookies HTTP\". Al tratarse de variables HTTP que pueden contener múltiples pares clave-valor (como se infiere del contexto de variables predefinidas y arrays en PHP), se ajusta a la descripción de un array asociativo de cookies, diferenciándose de las variables de formulario ($_GET/$_POST) o palabras reservadas.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.6 Variables, Primera oración del párrafo relevante: \"Algunas variables predefinidas en PHP son \"superglobales\", lo que significa que están disponibles en todos los ámbitos a lo largo del script.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál es la etiqueta de comienzo de un fichero PHP?",
+            "opciones": [
+                "A. <php",
+                "B. <?php",
+                "C. <@",
+                "D. <!"
+            ],
+            "opcion_correcta": "B. <?php",
+            "justificacion": "La opción B es correcta porque el documento indica explícitamente en la sección 3.3 que \"Las páginas de PHP contienen HTML con código incrustado PHP entre las etiquetas especiales de comienzo y final <?php y ?>\". Esto confirma que <?php es la etiqueta de inicio válida, descartando las demás opciones que no aparecen como sintaxis válida en el texto.",
+            "referencia": "Sección: 3 El lenguaje PHP. Subsección: 3.3 Páginas PHP, Primera oración del párrafo relevante: \"Las páginas de PHP contienen HTML con código incrustado PHP entre las etiquetas especiales de comienzo y final <?php y ?>, que permiten entrar y salir del \"modo PHP\".\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Cuál de las siguientes piezas de software no permiten la ejecución de scripts PHP de forma independiente del servidor web?",
+            "opciones": [
+                "A. Apache mod_php",
+                "B. nginx FastCGI",
+                "C. PHP-FPM",
+                "D. SuPHP"
+            ],
+            "opcion_correcta": "A. Apache mod_php",
+            "justificacion": "La opción A es correcta porque el documento distingue en la sección 4.1 entre \"ejecución dentro del servidor web mediante un módulo PHP\" (como mod_php, donde el intérprete se ejecuta junto con el servidor) y \"ejecución externa mediante CGI o FastCGI\". Por tanto, el módulo Apache no permite una ejecución independiente del proceso del servidor web, a diferencia de las modalidades externas mencionadas.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.1 Tecnologías para la ejecución de PHP, Primera oración del párrafo relevante: \"Respecto a las aplicaciones web, dependiendo de cómo se ejecute el código PHP, se pueden distinguir tres modalidades: ejecución dentro del servidor web mediante un módulo PHP o ejecución externa mediante CGI o FastCGI.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Que es LAMP:",
+            "opciones": [
+                "A. Una arquitectura web basada en software libre",
+                "B. Una arquitectura web basada en j2ee",
+                "C. Una arquitectura web basada en Net",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Una arquitectura web basada en software libre",
+            "justificacion": "La opción A es correcta porque el documento define en la sección 4.2 que \"Los servidores LAMP son muy populares gracias a que las diferentes herramientas que integran la solución global son software libre\". Esto identifica claramente a LAMP como una arquitectura basada en software libre, descartando las opciones relacionadas con j2ee o .Net que no se mencionan en este contexto.",
+            "referencia": "Sección: 4 Entornos PHP. Subsección: 4.2 Arquitectura LAMP, Primera oración del párrafo relevante: \"Los servidores LAMP son muy populares gracias a que las diferentes herramientas que integran la solución global son software libre, proporcionando una plataforma de desarrollo de bajo coste con una gran funcionalidad y alta capacidad de parametrización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "1) ¿Cuál de los siguientes bloques de código en PHP permite que se escriba al menos una vez el valor de la variable $i?",
+            "opciones": [
+                "A. <?php $i=0; do {echo $i;} while ($i>0);?>",
+                "B. <?php $i=1;while($i<0){echo $i;}?>"
+            ],
+            "opcion_correcta": "B. <?php $i=1;while($i<0){echo $i;}?>",
+            "justificacion": "**\nLa solución correcta según el documento es la **a)**, no la b). El documento indica en la sección 3.9 que la sentencia `do..while` comprueba la condición al final de cada iteración, garantizando que el bloque se ejecute al menos una vez antes de evaluar la condición. En la opción a), `$i=0`, se ejecuta `echo $i` (escribe 0) y luego evalúa `0>0` (falso), deteniéndose. Las opciones b, c y d evalúan la condición al principio (`while`, `for`, `if`), y como `1<0` es falso, nunca se ejecuta el cuerpo.",
+            "referencia": "**\nSección: 3 El lenguaje PHP Subsección: 3.9 Sentencias de control"
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "2) ¿Cuáles de los siguientes mecanismos no existe específicamente como caché de código PHP?",
+            "opciones": [
+                "A. Memcached",
+                "B. OpCache",
+                "C. WinCache Extension for PHP",
+                "D. Alternative PHP Cache"
+            ],
+            "opcion_correcta": "A. Memcached",
+            "justificacion": "**\nLa opción **a)** es la correcta porque, según la sección 4.5 \"Aceleradores PHP\", el documento lista explícitamente como ejemplos de aceleradores/caché de código (opcode): \"Alternative PHP Cache... Zend OPcache... Windows Cache Extension for PHP\". Memcached no aparece en esta lista específica de aceleradores de código PHP dentro del texto proporcionado, aunque APC se menciona también para caché de datos/objetos.",
+            "referencia": "**\nSección: 4 Entornos PHP Subsección: 4.5 Aceleradores PHP"
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "3) Sobre la declaración de variables en el lenguaje de programación PHP:",
+            "opciones": [
+                "A. Los nombres de las variables pueden comenzar por cualquier carácter, incluidos números y guión bajo.",
+                "B. Las variables comienzan con el símbolo $.",
+                "C. Es necesario declarar las variables y establecer el tipo de datos que lo almacenará antes de usarlas.",
+                "D. Para declarar una variable de ámbito global, hay que anteponer la palabra #define."
+            ],
+            "opcion_correcta": "B. Las variables comienzan con el símbolo $.",
+            "justificacion": "**\nLa opción **b)** es correcta según la sección 3.6 \"Variables\", que establece: \"Las variables en PHP van precedidas por un signo dólar ($), como en Perl\". La opción a) es falsa porque deben empezar por letra o guión bajo (no números). La c) es falsa porque el tipo se establece al asignar (tipado dinámico). La d) es falsa porque para ámbito global se usa la palabra clave `global`, no `#define`.",
+            "referencia": "**\nSección: 3 El lenguaje PHP Subsección: 3.6 Variables"
+        }
+    ]
+}

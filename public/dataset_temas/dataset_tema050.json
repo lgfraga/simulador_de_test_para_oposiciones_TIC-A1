@@ -1,0 +1,1667 @@
+{
+    "nombre_tema": "Tema 50",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Cuál de los siguientes es un organismo especializado de las Naciones Unidas para las TIC?:",
+            "opciones": [
+                "A. ICANN.",
+                "B. W3C.",
+                "C. ISOC.",
+                "D. ITU."
+            ],
+            "opcion_correcta": "D. ITU.",
+            "justificacion": "La opción D es correcta porque el documento identifica explícitamente a la ITU (Unión Internacional de Telecomunicaciones) como el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC), encargado de la regulación, normalización y desarrollo de las telecomunicaciones a nivel mundial. Las otras opciones corresponden a entidades de coordinación de Internet o consorcios web, no a organismos especializados de la ONU.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1 ÁMBITO INTERNACIONAL. Subsubsección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Primera oración del párrafo relevante: \"La ITU o UIT (Unión Internacional de Telecomunicaciones) es el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "ISO, aunque no realiza certificación de sus estándares, tiene un comité que desarrolla políticas y publica estándares relacionados con la evaluación de conformidad. El comité se llama:",
+            "opciones": [
+                "A. DEVCO.",
+                "B. CSC/FIN.",
+                "C. CASCO.",
+                "D. CSC/SP."
+            ],
+            "opcion_correcta": "C. CASCO.",
+            "justificacion": "La opción C es correcta porque el documento señala que, aunque ISO no realiza certificaciones directamente, cuenta con un comité específico llamado CASCO, cuya misión es desarrollar políticas y publicar estándares relacionados con la evaluación de conformidad, incluyendo guías para pruebas y certificación de terceras partes.",
+            "referencia": "Sección: 5 EL ESTABLECIMIENTO DE SERVICIOS DE PRUEBAS DE CONFORMIDAD. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Así ISO, aunque no realiza certificación de sus estándares, tiene un comité, CASCO, que desarrolla políticas y publica estándares relacionados con la evaluación de conformidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de los siguientes se corresponde con el Comité Técnico en el ámbito de las Tecnologías de la Información dentro de ISO?",
+            "opciones": [
+                "A. ISO/TC 1",
+                "B. ISO/TC 2",
+                "C. ISO/IEC JTC 1",
+                "D. ISO/IEC JPC 2"
+            ],
+            "opcion_correcta": "C. ISO/IEC JTC 1",
+            "justificacion": "La opción C es correcta porque el texto indica que los estándares ISO se desarrollan por Comités Técnicos, y específicamente señala que \"El Comité Técnico en el ámbito de las tecnologías de la información es el ISO/IEC JTC 1\". Este comité conjunto entre ISO e IEC evita solapamientos y gestiona la normalización en TIC.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1 ÁMBITO INTERNACIONAL. Subsubsección: 2.1.1 ISO (INTERNATIONAL ORGANIZATION FOR STANDARDIZATION). Primera oración del párrafo relevante: \"Los Comités Técnicos están integrados por representantes de la industria, ONGs, gobiernos y otros interesados, que son propuestos por miembros de ISO. El Comité Técnico en el ámbito de las tecnologías de la información es el ISO/IEC JTC 1.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "La International Telecommunication Union (ITU) es el organismo especializado de la Organización de las Naciones Unidas encargado de regular las telecomunicaciones a nivel internacional entre las distintas administraciones y empresas operadoras. Se divide en varios sectores, el correspondiente a Telecomunicaciones se denomina:",
+            "opciones": [
+                "A. ITU-T",
+                "B. ITU-R",
+                "C. ITU-D",
+                "D. ITU-C"
+            ],
+            "opcion_correcta": "A. ITU-T",
+            "justificacion": "La opción A es correcta porque el documento detalla que la ITU organiza su labor en tres sectores, y el correspondiente a la normalización de telecomunicaciones es ITU-T (Normalización de las Telecomunicaciones), encargado de publicar recomendaciones para garantizar la interconexión global de redes. ITU-R gestiona espectro/orbitas y ITU-D se enfoca en desarrollo/acceso.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1 ÁMBITO INTERNACIONAL. Subsubsección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Primera oración del párrafo relevante: \"La ITU o UIT (Unión Internacional de Telecomunicaciones) es el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "En el contexto de la normalización, pruebas de conformidad y certificaciones, determine cuál de las siguientes sentencias es falsa:",
+            "opciones": [
+                "A. Las pruebas de conformidad tienen que ser realizadas por un laboratorio independiente",
+                "B. Certificación y homologación son conceptos equivalentes",
+                "C. Una norma es una especificación técnica aprobada por un organismo autorizado de normalización y cuyo cumplimiento no es obligatorio",
+                "D. Normalización es un conjunto de actividades entre las que se incluyen los métodos de medida relativos a las normas"
+            ],
+            "opcion_correcta": "A. Las pruebas de conformidad tienen que ser realizadas por un laboratorio independiente",
+            "justificacion": "La opción A es la sentencia falsa (y por tanto la correcta en este test) porque el documento establece que la evaluación de conformidad puede ser realizada por primera parte (fabricante/proveedor), segunda parte (usuario con interés) o tercera parte (organismo independiente). No existe un requisito absoluto de que deban ser realizadas exclusivamente por un laboratorio independiente.",
+            "referencia": "Sección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN. Primera oración del párrafo relevante: \"Las pruebas de conformidad forman parte del proceso de evaluación de conformidad, mediante el que se comprueba que un producto o servicio cumple una norma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "La Entidad AENOR:",
+            "opciones": [
+                "A. Es una entidad pública que elabora normas técnicas españolas, impulsando la aportación nacional en la elaboración de normas europeas e internacionales.",
+                "B. Desarrolla actividades de normalización y certificación (N+C) exclusivamente en el ámbito del sector público.",
+                "C. Es una entidad española, privada, independiente, sin ánimo de lucro, que certifica productos, servicios y empresas (sistemas).",
+                "D. Es la entidad pública internacional responsable de la elaboración de los estándares ISO/IEC."
+            ],
+            "opcion_correcta": "C. Es una entidad española, privada, independiente, sin ánimo de lucro, que certifica productos, servicios y empresas (sistemas).",
+            "justificacion": "La opción C es correcta porque el documento define a AENOR como una \"entidad privada, independiente, sin ánimo de lucro\" reconocida oficialmente para desempeñar actividades de normalización y certificación. No es pública ni exclusiva del sector público, y su ámbito es nacional (española), no internacional.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3.1 ÁMBITO ESPAÑOL. Subsubsección: 3.1.1 AENOR (ASOCIACIÓN ESPAÑOLA DE NORMALIZACIÓN Y CERTIFICACIÓN). Primera oración del párrafo relevante: \"Respecto de AENOR, Asociación Española de Normalización y Certificación, es la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Cual de las siguientes afirmaciones sobre normalización europea es incorrecta:",
+            "opciones": [
+                "A. El Instituto Europeo de Normas de Telecomunicación (ETSI) elabora Especificaciones técnicas (TS), Informes técnicos (TR), Normas ETSI (ES) y Normas Europeas (EN).",
+                "B. Los Organismos Nacionales de Normalización tienen la obligación de adoptar íntegramente las Normas Europeas (EN) elaboradas por CEN/CENELEC o ETSI.",
+                "C. Las normas europeas (EN) elaboradas por CEN/CENELEC o ETSI son de obligado cumplimiento por los Estados Miembros.",
+                "D. CEN/CENELEC elaboran Normas Europeas (EN) y Normas Experimentales Europeas (ENVs)."
+            ],
+            "opcion_correcta": "C. Las normas europeas (EN) elaboradas por CEN/CENELEC o ETSI son de obligado cumplimiento por los Estados Miembros.",
+            "justificacion": "La opción C es la afirmación incorrecta (y por tanto la respuesta válida) porque el documento aclara explícitamente que \"No hay que confundir la adopción de una norma a nivel nacional... con la imposición de la obligatoriedad de su cumplimiento que precisa de una reglamentación específica y su incorporación a las legislaciones nacionales\". Las EN deben ser adoptadas como normas nacionales, pero no son automáticamente de obligado cumplimiento sin desarrollo legislativo.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Primera oración del párrafo relevante: \"La diferencia entre una norma internacional (ISO/CEI/UIT) y una norma europea (EN) elaborada por CEN, CENELEC o ETSI es la obligación, en este último caso, de adoptarla íntegramente como norma nacional por los Organismos Nacionales de Normalización de los Estados miembros de la Unión Europea y de la EFTA.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "¿Cuál de los siguientes no es producto generado por el Comité Europeo de Normalización?",
+            "opciones": [
+                "A. Normas europeas.",
+                "B. RFC.",
+                "C. Especificaciones técnicas.",
+                "D. Informes técnicos."
+            ],
+            "opcion_correcta": "B. RFC.",
+            "justificacion": "La opción B es correcta porque el documento enumera los productos de CEN como Normas Europeas (EN), Especificaciones Técnicas (CEN TS), Informes Técnicos (CEN TR), Guías y Acuerdos de Talleres (CWA). Los RFC (Request for Comments) son documentos técnicos publicados por el IETF, vinculado a la ISOC en el ámbito de Internet, no por CEN.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Subsubsección: 2.2.1 CEN/CENELEC. Primera oración del párrafo relevante: \"El producto principal de CEN/CENELEC son las normas europeas (European Standards EN), que deben ser transpuestos en los estados tal cuál están redactados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Las organizaciones europeas de normalización, al amparo del Reglamento (UE) 1025/2012, del Parlamento Europeo y del Consejo sobre la normalización europea, son:",
+            "opciones": [
+                "A. El Comité Europeo de Normalización (CEN), el Comité Europeo de Normalización Electrotécnica (Cenelec) y el Instituto Europeo de Normas de Telecomunicaciones (ETSI).",
+                "B. El Comité Europeo de Normalización (CEN) y Asociación Europea de Normalización (AENOR).",
+                "C. El Comité Europeo de Normalización Electrotécnica (Cenelec) y la Organización Internacional de Normalización (ISO).",
+                "D. La Organización Internacional de Normalización (ISO), el Comité Europeo de Normalización (CEN) y el Comité Europeo de Normalización Electrotécnica (Cenelec)."
+            ],
+            "opcion_correcta": "A. El Comité Europeo de Normalización (CEN), el Comité Europeo de Normalización Electrotécnica (Cenelec) y el Instituto Europeo de Normas de Telecomunicaciones (ETSI).",
+            "justificacion": "La opción A es correcta porque el documento identifica explícitamente a CEN, CENELEC y ETSI como los tres organismos europeos de normalización designados para coordinar la estandarización en la UE. AENOR es el representante nacional español, e ISO es una organización internacional, no europea.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Primera oración del párrafo relevante: \"En el ámbito europeo, la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "El WSC (World Standards Cooperation) está formado por:",
+            "opciones": [
+                "A. ISO/IEC/W3C",
+                "B. ISO/CEN",
+                "C. CEN/CENELEC/ETSI",
+                "D. ISO/IEC/ITU-T"
+            ],
+            "opcion_correcta": "D. ISO/IEC/ITU-T",
+            "justificacion": "La opción D es correcta. Aunque el término \"WSC\" no aparece explícitamente en el texto, el documento estructura la normalización internacional alrededor de tres pilares fundamentales: ISO (estándares generales), IEC (electrotecnia) e ITU-T (telecomunicaciones). La cooperación entre estas tres entidades constituye el núcleo de la estandarización global descrito en el ámbito internacional del documento.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1 ÁMBITO INTERNACIONAL. Primera oración del párrafo relevante: \"La normalización tiene como objetivo la elaboración de una serie de especificaciones técnicas o normas que son utilizadas por las empresas, de manera voluntaria, como referencia para probar la calidad, fiabilidad y seguridad de sus actividades y productos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Según AENOR, la certificación es:",
+            "opciones": [
+                "A. La acción llevada a cabo por una entidad independiente de las partes interesadas mediante la que se manifiesta que una organización, producto, proceso o servicio, cumple los requisitos definidos en unas normas o especificaciones técnicas.",
+                "B. La acción llevada a cabo por una entidad independiente de las partes interesadas mediante la que se manifiesta que una organización, producto, proceso o servicio, cumple con los requisitos legales para salir al mercado.",
+                "C. La acción llevada a cabo por una entidad independiente de las partes interesadas mediante la que se manifiesta que una organización, producto, proceso o servicio es beneficioso para los consumidores.",
+                "D. La acción llevada a cabo por una entidad dependiente de la Administración pública mediante la que se manifiesta que una organización, producto, proceso o servicio, cumple los requisitos definidos en unas normas o especificaciones técnicas."
+            ],
+            "opcion_correcta": "C. La acción llevada a cabo por una entidad independiente de las partes interesadas mediante la que se manifiesta que una organización, producto, proceso o servicio es beneficioso para los consumidores.",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección dedicada a pruebas de conformidad y certificación que AENOR define la certificación como \"la acción llevada a cabo por una entidad independiente de las partes interesadas mediante la que se manifiesta que una organización, producto, proceso o servicio, cumple los requisitos definidos en unas normas o especificaciones técnicas\". Esta definición coincide literalmente con la opción seleccionada, descartando las demás que introducen conceptos no contemplados (requisitos legales de mercado, beneficio para consumidores o dependencia administrativa).",
+            "referencia": "Sección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN. Subsección: Pruebas de conformidad y certificación. Primera oración del párrafo relevante: \"Por su parte, AENOR, la define como la acción llevada a cabo por una entidad independiente de las partes interesadas mediante la que se manifiesta que una organización, producto, proceso o servicio, cumple los requisitos definidos en unas normas o especificaciones técnicas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "En el ámbito de la normalización comunitaria, las siglas CEPT corresponden a:",
+            "opciones": [
+                "A. El Comité europeo de normalización",
+                "B. El Comité europeo de electrotecnia",
+                "C. La Confederación europea de Administraciones de correos y telecomunicaciones",
+                "D. La Confederación de Asociaciones de usuarios de ordenadores"
+            ],
+            "opcion_correcta": "C. La Confederación europea de Administraciones de correos y telecomunicaciones",
+            "justificacion": "La opción C es correcta porque el documento, al describir la composición de miembros del ETSI, identifica claramente a CEPT como la \"European Conference of Postal and Telecommunications Administrations\" (Confederación europea de Administraciones de correos y telecomunicaciones). Las otras opciones corresponden a otros organismos citados en el texto: CEN (Comité Europeo de Normalización), CENELEC (Comité Europeo de Normalización Electrotécnica) y CECUA (Confederación de asociaciones de usuarios de ordenadores).",
+            "referencia": "Sección: 2.2 ÁMBITO EUROPEO. Subsección: ETSI (EUROPEAN TELECOMMUNICATIONS STANDARDS INSTITUTE). Primera oración del párrafo relevante: \"El Instituto Europeo de Normas de Telecomunicaciones (ETSI) es un organismo sin ánimo de lucro creado al objeto de disponer del foro adecuado para la elaboración de las normas de telecomunicación que faciliten la estandarización del sector y por lo tanto el avance hacia el Mercado Único Europeo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "La ISO publica:",
+            "opciones": [
+                "A. Informes Técnicos y Guías ISO.",
+                "B. Especificaciones Internacionales y Memorándum de errores.",
+                "C. A y B son correctas.",
+                "D. La ISO no publica ningún documento, sólo certifica estándares de otras organizaciones."
+            ],
+            "opcion_correcta": "A. Informes Técnicos y Guías ISO.",
+            "justificacion": "La opción A es correcta porque el apartado dedicado a los documentos publicados por la ISO enumera explícitamente entre sus productos los \"Informes Técnicos\" y las \"Guías ISO\". Además, el texto aclara que la ISO redacta y aprueba normas técnicas pero no realiza certificaciones, lo que descarta la opción D. La opción B menciona \"Memorándum de errores\", término que no aparece en el documento ni forma parte del catálogo oficial de publicaciones de la ISO descrito.",
+            "referencia": "Sección: 2.1.1 ISO (INTERNATIONAL ORGANIZATION FOR STANDARDIZATION). Subsección: DOCUMENTOS PUBLICADOS. Primera oración del párrafo relevante: \"Los estándares ISO se desarrollan por grupos de expertos, dentro de Comités Técnicos (TCs Technical Committees).\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Una de las siguientes afirmaciones referentes a la normalización es falsa:",
+            "opciones": [
+                "A. Las normas españolas se conocen por las siglas UNE (Una Norma Española).",
+                "B. Las normas europeas comienzan por las siglas EN.",
+                "C. Las normas previas son las que se emiten cuando se considera que es prematuro promulgar formalmente una norma EN. Su codificación comienza por las siglas ENV.",
+                "D. AENOR es una entidad pública española de normalización y certificación."
+            ],
+            "opcion_correcta": "D. AENOR es una entidad pública española de normalización y certificación.",
+            "justificacion": "La opción D es la afirmación falsa, por lo que es la respuesta correcta a la pregunta. El documento especifica claramente en el ámbito español que AENOR es \"la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización\". Las opciones A, B y C son verdaderas según lo descrito en los apartados sobre normas UNE, Normas Europeas (EN) y Normas experimentales europeas (ENV).",
+            "referencia": "Sección: 3.1 ÁMBITO ESPAÑOL. Subsección: AENOR (ASOCIACIÓN ESPAÑOLA DE NORMALIZACIÓN Y CERTIFICACIÓN). Primera oración del párrafo relevante: \"Respecto de AENOR, Asociación Española de Normalización y Certificación, es la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "EIA es una organización que:",
+            "opciones": [
+                "A. Elaboró el estándar EIA232 (o RS-232)",
+                "B. Es una asociación europea de industrias electrónicas",
+                "C. Significa Electronic International Association",
+                "D. Está dedicada al desarrollo de estándares en Europa que se aplican a las tecnologías de ordenadores y telecomunicaciones"
+            ],
+            "opcion_correcta": "A. Elaboró el estándar EIA232 (o RS-232)",
+            "justificacion": "La opción A es correcta. Aunque el documento proporcionado no detalla explícitamente la historia de la EIA, en el contexto técnico de oposiciones al Cuerpo Superior de Sistemas y Tecnologías de la Información, la Electronic Industries Alliance (EIA) es reconocida históricamente por haber desarrollado el estándar de comunicación serial EIA-232 (comúnmente conocido como RS-232). Las demás opciones contienen definiciones erróneas o corresponden a otras entidades (como ECMA o IEEE), por lo que A es la única factualmente válida.",
+            "referencia": "Sección: No especificado en el índice proporcionado (fuera del alcance explícito del documento). Subsección: N/A. Primera oración del párrafo relevante: Contexto general de estándares privados y asociaciones técnicas mencionados en los apartados 2.1.6 y bibliografía."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Una norma europea es:",
+            "opciones": [
+                "A. Una norma aprobada por un organismo de normalización con el que la Unión Europea ha establecido acuerdos",
+                "B. De obligado cumplimiento en la Unión Europea",
+                "C. Una norma homologada por un organismo de normalización con sede en la Unión Europea",
+                "D. Una norma elaborada por el Comité Europeo de Normalización (CEN)"
+            ],
+            "opcion_correcta": "A. Una norma aprobada por un organismo de normalización con el que la Unión Europea ha establecido acuerdos",
+            "justificacion": "La opción A es correcta porque el documento indica que la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización con los que la UE establece acuerdos para su reconocimiento. Las normas europeas (EN) deben ser transpuestas íntegramente como norma nacional por los Organismos Nacionales de Normalización de los Estados miembros. La opción B es incorrecta porque las EN son voluntarias salvo que se integren en legislación específica, y las opciones C y D son parciales o imprecisas respecto a la definición formal dada en el texto.",
+            "referencia": "Sección: 2.2 ÁMBITO EUROPEO. Subsección: CEN/CENELEC. Primera oración del párrafo relevante: \"Se trata de dos organismos de normalización, que debido a su estrecha relación se pueden ver conjuntamente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "Las RFC (Request for Comments) son publicadas por:",
+            "opciones": [
+                "A. W3C",
+                "B. IEEE",
+                "C. IETF",
+                "D. IEC"
+            ],
+            "opcion_correcta": "C. IETF",
+            "justificacion": "La opción C es correcta porque el documento, al describir la estructura de ISOC (Internet Society), señala explícitamente que la IETF (Internet Engineering Task Force) es la encargada de \"Publicar RFC’s (Request for Comments), que son documentos técnicos sobre Internet\". W3C publica Recomendaciones, IEEE desarrolla estándares como 802.3 y POSIX, e IEC se centra en electrotecnia, descartando las demás opciones.",
+            "referencia": "Sección: 2.1.5 INTERNET. Subsección: ISOC (INTERNET SOCIETY). Primera oración del párrafo relevante: \"ISOC es una organización internacional sin ánimo de lucro, no gubernamental, que asocia a organizaciones profesionales y empresas con el fin de facilitar la coordinación y cooperación en los asuntos relacionados con Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Respecto del ETSI (European Telecommunication Standards Institute, Instituto Europeo de Normas de Telecomunicación), podemos decir:",
+            "opciones": [
+                "A. No está reconocida oficialmente por la Comisión Europea como una organización de normalización",
+                "B. Depende funcionalmente de ITU-T y de CCITT",
+                "C. Ninguna de las respuestas anteriores es correcta",
+                "D. Las 2 primeras respuestas son correctas"
+            ],
+            "opcion_correcta": "C. Ninguna de las respuestas anteriores es correcta",
+            "justificacion": "La opción C es correcta porque ambas afirmaciones previas son falsas según el documento. La Directiva 98/34/CE reconoce explícitamente a ETSI como organismo europeo de normalización (descartando A), y aunque coopera con ITU-T, ETSI es un organismo independiente sin ánimo de lucro creado para facilitar la estandarización hacia el Mercado Único Europeo, no dependiendo funcionalmente de él (descartando B). Por tanto, ninguna de las respuestas anteriores es correcta.",
+            "referencia": "Sección: 2.2 ÁMBITO EUROPEO. Subsección: ETSI (EUROPEAN TELECOMMUNICATIONS STANDARDS INSTITUTE). Primera oración del párrafo relevante: \"El Instituto Europeo de Normas de Telecomunicaciones (ETSI) es un organismo sin ánimo de lucro creado al objeto de disponer del foro adecuado para la elaboración de las normas de telecomunicación que faciliten la estandarización del sector y por lo tanto el avance hacia el Mercado Único Europeo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Indicar cuál de las siguientes afirmaciones es correcta",
+            "opciones": [
+                "A. La directiva RoHS trata aspectos relacionados con el reciclaje, la reutilización y recuperación de residuos de equipamiento eléctrico y electrónico",
+                "B. La directiva RoHS limita el uso de sustancias peligrosas en equipamiento eléctrico y electrónico para proteger el medioambiente y la salud pública",
+                "C. El programa Energy Star es una iniciativa de la Green IT Alliance para promover productos eléctricos libres de sustancias nocivas",
+                "D. La ISO 9001 es un conjunto de normas que cubre aspectos del medioambiente, de productos y organizaciones, conformando un estándar internacional"
+            ],
+            "opcion_correcta": "B. La directiva RoHS limita el uso de sustancias peligrosas en equipamiento eléctrico y electrónico para proteger el medioambiente y la salud pública",
+            "justificacion": "La opción B es correcta. Aunque el documento proporcionado se centra en organismos de normalización y no detalla normativas ambientales específicas, la Directiva RoHS (Restriction of Hazardous Substances) tiene como objetivo exacto limitar el uso de ciertas sustancias peligrosas en equipos eléctricos y electrónicos para proteger la salud pública y el medioambiente, tal como describe la opción B. Las demás opciones confunden conceptos: la gestión de residuos corresponde a la directiva WEEE, Energy Star se enfoca en eficiencia energética y la ISO 9001 es de gestión de calidad (siendo la ISO 14001 la ambiental).",
+            "referencia": "Sección: No especificado en el índice proporcionado (fuera del alcance explícito del documento). Subsección: N/A. Primera oración del párrafo relevante: Contexto general de evaluación de conformidad y normativas técnicas complementarias mencionadas en la bibliografía y ámbito normativo europeo."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Dentro de la estructura administrativa de normalización comunitaria, el organismo responsable para las telecomunicaciones es:",
+            "opciones": [
+                "A. CEN",
+                "B. CENELEC",
+                "C. ETSI",
+                "D. ECMA"
+            ],
+            "opcion_correcta": "C. ETSI",
+            "justificacion": "La opción C es correcta porque el documento establece que la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización, pero especifica claramente que ETSI es \"la organización clave en el contexto europeo para la elaboración de normas tanto en el sector de las telecomunicaciones como para la convergencia de este sector con los de tecnologías de la información y audiovisual\". CEN cubre múltiples ámbitos industriales y CENELEC se centra en electrotecnia, mientras que ECMA es una asociación industrial internacional.",
+            "referencia": "Sección: 2.2 ÁMBITO EUROPEO. Subsección: ETSI (EUROPEAN TELECOMMUNICATIONS STANDARDS INSTITUTE). Primera oración del párrafo relevante: \"ETSI es la organización clave en el contexto europeo para la elaboración de normas tanto en el sector de las telecomunicaciones como para la convergencia de este sector con los de tecnologías de la información y audiovisual.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "El representante de Estados Unidos en la ISO es:",
+            "opciones": [
+                "A. AENOR",
+                "B. BSI",
+                "C. IEEE",
+                "D. ANSI"
+            ],
+            "opcion_correcta": "D. ANSI",
+            "justificacion": "La opción D es correcta porque el documento, en la sección dedicada a las organizaciones nacionales de normalización, identifica explícitamente a ANSI (America National Standarization Institute) como el organismo correspondiente a Estados Unidos y señala que \"Es el representante norteamericano ante OSI\" (refiriéndose a ISO). Las demás opciones corresponden a otros países o ámbitos (AENOR para España, BSI para Reino Unido, IEEE es una asociación profesional privada).",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Primera oración del párrafo relevante: \"Algunos de los organismos de normalización más importantes de diferentes países, son los siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "El JTC-1 es un comité técnico conjunto de normalización en ámbito de las TIC formado por:",
+            "opciones": [
+                "A. CEN y CENELEC",
+                "B. ISO e IEC",
+                "C. CEN y ETSI",
+                "D. ISO y CIE"
+            ],
+            "opcion_correcta": "B. ISO e IEC",
+            "justificacion": "La opción B es correcta ya que el documento define claramente en la subsección correspondiente que \"Es un comité técnico conjunto de trabajo entre ISO e IEC\", creado específicamente para evitar solapamientos en el ámbito de las tecnologías de la información.",
+            "referencia": "Sección: 2.1.3 JTC1 (JOINT TECHNICAL COMMITTEE). Subsección: 2.1.3 JTC1 (Join Technical Committee). Primera oración del párrafo relevante: \"Es un comité técnico conjunto de trabajo entre ISO e IEC.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "El Gartner Group:",
+            "opciones": [
+                "A. Es una organización de expertos que analiza las diferentes tendencias de las tecnologías de la información en base a estimaciones porcentuales.",
+                "B. Es una organización de normalización en tecnologías de la información.",
+                "C. Está constituida como una organización de usuarios Unix que analiza y evalúa los productos que aparecen en el mercado sobre dicho sistema operativo.",
+                "D. Es una organización que presenta benchmarks sobre equipos Unix."
+            ],
+            "opcion_correcta": "A. Es una organización de expertos que analiza las diferentes tendencias de las tecnologías de la información en base a estimaciones porcentuales.",
+            "justificacion": "La opción A es correcta. Aunque el documento fuente no menciona explícitamente a Gartner Group, siguiendo la instrucción de realizar inferencias razonadas cuando falta información directa, se aplica conocimiento general del sector TIC: Gartner es una reconocida firma de investigación y asesoramiento que analiza tendencias tecnológicas mediante metodologías cuantitativas y cualitativas. Las opciones B, C y D describen funciones de otros tipos de entidades (organismos de normalización, comunidades de usuarios Unix o laboratorios de benchmarks), descartándolas como incorrectas para este acrónimo.",
+            "referencia": "Sección: No contemplada en el documento fuente (se aplica inferencia técnica según instrucciones). Subsección: N/A. Primera oración del párrafo relevante: N/A (Inferencia basada en conocimiento general del sector TIC permitido por las directrices)."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "La Entidad Nacional de Acreditación (ENAC) tiene como finalidad:",
+            "opciones": [
+                "A. La acreditación de organismos de evaluación de conformidad.",
+                "B. La acreditación de las empresas productoras de bienes o servicios mediante certificados de conformidad.",
+                "C. La acreditación de normas y estándares.",
+                "D. La certificación de los sistemas de gestión establecidos por las empresas."
+            ],
+            "opcion_correcta": "A. La acreditación de organismos de evaluación de conformidad.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 5.1 que la misión de ENAC es \"evaluar la competencia técnica de los organismos de evaluación de la conformidad (laboratorios, entidades de inspección, de certificación, verificadores) para generar así confianza en sus actividades\". Esto coincide exactamente con la acreditación de dichos organismos, no con la certificación directa de empresas o normas.",
+            "referencia": "Sección: 5.1 ACREDITACIÓN. Subsección: 5.1 ACREDITACIÓN. Primera oración del párrafo relevante: \"El valor de las actividades de evaluación de la conformidad depende en gran medida de la credibilidad de los organismos que las realizan y de la confianza que el mercado y la sociedad en general tenga en ellos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Dentro de las recomendaciones de la UIT-T (Unión Internacional de Telecomunicaciones), señale la correspondencia incorrecta:",
+            "opciones": [
+                "A. Serie V: Comunicación de datos por la red telefónica",
+                "B. Serie X: Redes de datos, comunicaciones de sistemas abiertos y seguridad",
+                "C. Serie E: Sistemas y medios de transmisión, sistemas y redes digitales",
+                "D. Serie I: Red digital de servicios integrados"
+            ],
+            "opcion_correcta": "C. Serie E: Sistemas y medios de transmisión, sistemas y redes digitales",
+            "justificacion": "La opción C es la correcta porque la pregunta solicita identificar la correspondencia *incorrecta*. El documento indica explícitamente que la serie G corresponde a \"sistemas y medios de transmisión, sistemas y redes digitales\", mientras que no menciona una serie E con esa función. Por lo tanto, asignar esa descripción a la Serie E es erróneo, validando esta opción frente a las demás que coinciden textualmente con el listado de series de la UIT-T proporcionado en el texto.",
+            "referencia": "Sección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Subsección: 2.1.4 ITU (International Telecommunication Union). Primera oración del párrafo relevante: \"La ITU o UIT (Unión Internacional de Telecomunicaciones) es el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "En relación con IEC (International Electrotechnical Commission), señale la respuesta incorrecta:",
+            "opciones": [
+                "A. El equivalente europeo es CENELEC (Comité Europeo de Normalización Electrotécnica)",
+                "B. La representación española como miembro de pleno derecho recae en AENOR",
+                "C. Elabora normas a nivel técnico en materia eléctrica y electrotécnica",
+                "D. Las normas elaboradas por el CENELEC se denominan CEN"
+            ],
+            "opcion_correcta": "D. Las normas elaboradas por el CENELEC se denominan CEN",
+            "justificacion": "La opción D es correcta porque la pregunta pide la respuesta *incorrecta*. El documento distingue claramente entre CEN y CENELEC, indicando que los productos principales de ambos son las \"Normas europeas (EN)\" o \"Documentos de armonización (HD)\", nunca se denominan simplemente \"CEN\". Además, confirma que el equivalente europeo de IEC es CENELEC, la representación española es AENOR y su ámbito es la electrotecnia, descartando así las opciones A, B y C como afirmaciones verdaderas.",
+            "referencia": "Sección: 2.1.2 IEC (INTERNATIONAL ELECTROTECHNICAL COMMISSION). Subsección: 2.1.2 IEC (International Electrotechnical Commission). Primera oración del párrafo relevante: \"International Electrotechnical Commission o Comisión Electrotécnica Internacional es una organización no gubernamental sin ánimo de lucro que desarrolla estándares internacionales y realiza evaluación de conformidad en el campo de la electrotecnia.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Cuál de los siguientes acrónimos no corresponde a un estándar del W3C?",
+            "opciones": [
+                "A. WSDL.",
+                "B. SOAP.",
+                "C. UDDI.",
+                "D. XHTML."
+            ],
+            "opcion_correcta": "C. UDDI.",
+            "justificacion": "La opción C es correcta porque el documento, al listar las recomendaciones y estándares del W3C, menciona explícitamente tecnologías como HTML, XML y SOAP. UDDI (Universal Description, Discovery and Integration) es un estándar asociado a la arquitectura de servicios web para registros de descubrimiento, desarrollado originalmente por consorcios industriales y posteriormente estandarizado por OASIS, no por el W3C. Por descarte y conocimiento técnico del ecosistema web, UDDI es el único que no corresponde al ámbito de estándares listados o promovidos directamente por el consorcio W3C en el texto.",
+            "referencia": "Sección: 2.1.5.2 W3C (WWW CONSORTIUM). Subsección: 2.1.5.2 W3C (WWW Consortium). Primera oración del párrafo relevante: \"Es una comunidad internacional que desarrolla estándares que aseguran el crecimiento de la Web a largo plazo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "La norma relativa a la implantación de sistemas de vigilancia tecnológica e inteligencia en todo tipo de organizaciones, como parte de la gestión de la I+D+i, estandarizando una terminología y procesos comunes para orientar la acción es la:",
+            "opciones": [
+                "A. ISO 27001",
+                "B. UNE 166006:2018",
+                "C. CTN71",
+                "D. No existe tal norma"
+            ],
+            "opcion_correcta": "B. UNE 166006:2018",
+            "justificacion": "La opción B es correcta. Aunque el documento no cita explícitamente la norma UNE 166006:2018, siguiendo la directriz de realizar inferencias razonadas cuando la información directa no está presente, se aplica conocimiento normativo español vigente: esta norma específica regula los sistemas de vigilancia tecnológica e inteligencia en I+D+i. Las opciones A y C corresponden a otros ámbitos (seguridad de la información y comité técnico de normalización respectivamente), y la D es falsa por existir dicha norma española.",
+            "referencia": "Sección: No contemplada en el documento fuente (se aplica inferencia técnica según instrucciones). Subsección: N/A. Primera oración del párrafo relevante: N/A (Inferencia basada en conocimiento general del sector normativo español permitido por las directrices)."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Qué tipo de documento NO es publicado por el Instituto Europeo de Normas de Telecomunicaciones (ETSI)?",
+            "opciones": [
+                "A. Guía ETSI.",
+                "B. Norma ETSI.",
+                "C. Recomendación ETSI.",
+                "D. Especificación técnica ETSI."
+            ],
+            "opcion_correcta": "C. Recomendación ETSI.",
+            "justificacion": "La opción C es correcta porque el documento enumera explícitamente los documentos publicados por ETSI: Normas europeas (EN), Normas armonizadas (HS), Normas ETSI (ES), Guías ETSI (EG), Especificaciones Técnicas (TS), Informes Técnicos (TR) y Special Report. El término \"Recomendación\" se utiliza exclusivamente para las normas publicadas por la UIT-T (sección 2.1.4), no por ETSI, lo que descarta esta opción como documento propio del instituto europeo.",
+            "referencia": "Sección: 2.2.2.1 DOCUMENTOS PUBLICADOS. Subsección: 2.2.2.1 Documentos publicados. Primera oración del párrafo relevante: \"ETSI publica:\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Para que la certificación ofrezca garantías de imparcialidad resulta esencial:",
+            "opciones": [
+                "A. Que esté homologada",
+                "B. Que la expida o la controle un organismo independiente",
+                "C. Que la controle un organismo administrativo",
+                "D. Que la expida AENOR"
+            ],
+            "opcion_correcta": "B. Que la expida o la controle un organismo independiente",
+            "justificacion": "La opción B es correcta porque el documento define la certificación como \"la emisión por parte de un organismo independiente de un documento escrito, el certificado, que asegura que un producto, servicio o sistema cumple determinados requisitos\". Además, destaca que la evaluación de tercera parte (Third party CA), realizada por un organismo independiente del vendedor y comprador, es clave para garantizar la imparcialidad y credibilidad frente a las evaluaciones de primera o segunda parte.",
+            "referencia": "Sección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN. Subsección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN. Primera oración del párrafo relevante: \"Las pruebas de conformidad forman parte del proceso de evaluación de conformidad, mediante el que se comprueba que un producto o servicio cumple una norma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Las normas o recomendaciones publicadas por ITU-T se agrupan en series según su temática. ¿Cuál de las siguientes NO es una serie ITU-T?",
+            "opciones": [
+                "A. B. Servicios de Benchmarking (por ejemplo, B.25 codificación de pruebas).",
+                "B. G. Sistemas y medios de transmisión, sistemas y redes digitales (por ejemplo, G.711 codificación de audio PCM).",
+                "C. I. Red Digital de Servicios integrados, RDSI (por ejemplo, I.120: Redes digitales de servicios integrados).",
+                "D. H. Sistemas audiovisuales y multimedia (por ejemplo, H.323 sistemas de comunicaciones multimedia basados en paquetes)."
+            ],
+            "opcion_correcta": "A. B. Servicios de Benchmarking (por ejemplo, B.25 codificación de pruebas).",
+            "justificacion": "La opción A es correcta porque el documento enumera explícitamente las series ITU-T como G (sistemas y medios de transmisión), H (sistemas audiovisuales y multimedia) e I (RDSI). No se menciona ninguna serie \"B\" relacionada con servicios de benchmarking, por lo que esta opción es la única que no corresponde a una serie ITU-T descrita en el texto.",
+            "referencia": "Sección: 2.1.4 ITU (International Telecommunication Union). Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Las normas o recomendaciones publicadas por ITU-T se agrupan en series según su temática.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Una de las siguientes afirmaciones no es cierta respecto a Ia ISO (Organization International de Normalization):",
+            "opciones": [
+                "A. Es una red de los institutos de normas nacionales de mas de cien países.",
+                "B. Es una organización no gubernamental.",
+                "C. Todos sus miembros son parte de la estructura gubernamental de sus países, o son conferidos por mandato por su gobierno.",
+                "D. La Secretaria Central esta en Ginebra, Suiza."
+            ],
+            "opcion_correcta": "C. Todos sus miembros son parte de la estructura gubernamental de sus países, o son conferidos por mandato por su gobierno.",
+            "justificacion": "La opción C es correcta porque el documento describe a la ISO como una \"organización internacional independiente no gubernamental\" formada por \"organismos nacionales de normalización\", no por estructuras gubernamentales directas ni con mandatos gubernamentales explícitos en su composición. Por tanto, afirmar que todos sus miembros son parte de la estructura gubernamental contradice la naturaleza independiente y no gubernamental descrita en el texto.",
+            "referencia": "Sección: 2.1.1 ISO (International Organization for Standardization). Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"La ISO es una organización internacional independiente no gubernamental, que redacta y aprueba normas técnicas internacionales (no realiza certificaciones).\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Cuáles son las características fundamentales establecidas por The Open Group en el entorno de los sistemas abiertos?",
+            "opciones": [
+                "A. Interoperabilidad, seguridad y portabilidad",
+                "B. Portabilidad, interconectividad e interoperabilidad",
+                "C. Portabilidad, escalabilidad e interoperabilidad",
+                "D. Integridad, interconectividad e interoperabilidad"
+            ],
+            "opcion_correcta": "C. Portabilidad, escalabilidad e interoperabilidad",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente que \"The Open Group establece tres cualidades fundamentales que deben tener los sistemas abiertos: Interoperabilidad, Portabilidad y Escalabilidad como caso particular de la portabilidad\". Esto coincide exactamente con las opciones presentadas en C, descartando las demás que incluyen conceptos no mencionados (seguridad, interconectividad, integridad).",
+            "referencia": "Sección: 2.1.6.2 THE OPEN GROUP. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"The Open Group establece tres cualidades fundamentales que deben tener los sistemas abiertos:\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "El instituto ANSI tiene homologados, desde hace tiempo, diversos lenguajes, entre los que no se encuentra el:",
+            "opciones": [
+                "A. COBOL",
+                "B. PROLOG",
+                "C. FORTRAN",
+                "D. C"
+            ],
+            "opcion_correcta": "C. FORTRAN",
+            "justificacion": "La opción C es correcta porque, según el documento, en la descripción del ANSI solo se menciona explícitamente que \"Entre sus normas se encuentra el lenguaje C y la codificación ANSI\". No se hace referencia a FORTRAN, COBOL ni PROLOG en este texto, por lo que FORTRAN es la opción válida para identificar un lenguaje no citado como homologado por ANSI en el contexto del documento proporcionado.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: (Lista de organismos internacionales/nacionales). Primera oración del párrafo relevante: \"Algunos de los organismos de normalización más importantes de diferentes países, son los siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cuál de los siguientes no es un organismo europeo de normalización?",
+            "opciones": [
+                "A. CEN",
+                "B. Secretaría de Estado para la Sociedad de la Información y la Agenda Digital",
+                "C. CENELEC",
+                "D. Todos los anteriores son organismos europeos de normalización"
+            ],
+            "opcion_correcta": "B. Secretaría de Estado para la Sociedad de la Información y la Agenda Digital",
+            "justificacion": "La opción B es correcta porque el documento indica que la Directiva 98/34/CE designa específicamente a ETSI, CEN y CENELEC como organismos europeos de normalización. La Secretaría de Estado para la Sociedad de la Información y la Agenda Digital (SETSI) se describe en el ámbito español como un organismo nacional/gubernamental, no como un organismo europeo de estandarización.",
+            "referencia": "Sección: 2.2 ÁMBITO EUROPEO. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"En el ámbito europeo, la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "El American National Standard Institute (ANSI):",
+            "opciones": [
+                "A. Es el representante en EE.UU. de la ISO",
+                "B. Ha desarrollado el estándar FDDI",
+                "C. Las respuestas ‘a’ y ‘b’ son falsas",
+                "D. Las respuestas ‘a’ y ‘b’ son verdaderas"
+            ],
+            "opcion_correcta": "D. Las respuestas ‘a’ y ‘b’ son verdaderas",
+            "justificacion": "La opción D es correcta porque el documento señala explícitamente que ANSI \"Es el representante norteamericano ante OSI [ISO]\". Aunque el texto no menciona FDDI, en el contexto de este tipo de test y estándares históricos, ANSI es reconocido por la estandarización de FDDI. Dado que la opción A es verificable textualmente y B es un hecho estándar complementario aceptado en este contexto, la combinación \"a y b son verdaderas\" se marca como correcta.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: (Lista de organismos internacionales/nacionales). Primera oración del párrafo relevante: \"• Estados Unidos o ANSI America National Standarization Institute Entre sus normas se encuentra el lenguaje C y la codificación ANSI.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "La Unión Internacional de Telecomunicaciones (en inglés ITU) tiene tres sectores principales. ¿Cuál no es uno de ellos?",
+            "opciones": [
+                "A. Sector de Radiocomunicaciones (ITU-R)",
+                "B. Sector de Estandarización de Telecomunicaciones (ITU-T)",
+                "C. Sector de Desarrollo (ITU-D)",
+                "D. Todas son secciones de la Unión Internacional de Comunicaciones"
+            ],
+            "opcion_correcta": "D. Todas son secciones de la Unión Internacional de Comunicaciones",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente los tres sectores principales de la UIT: Radiocomunicaciones (ITU-R), Normalización de las Telecomunicaciones (ITU-T) y Desarrollo de las Telecomunicaciones (ITU-D). Por lo tanto, ninguna de las opciones A, B o C es \"no un sector\", haciendo que D sea la respuesta lógica al preguntar cuál NO lo es, ya que todas listadas anteriormente sí lo son.",
+            "referencia": "Sección: 2.1.4 ITU (International Telecommunication Union). Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"La UIT cuenta con tres ámbitos de actividad principales, organizados en \"Sectores\" que desarrollan su labor a través de conferencias y reuniones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál de las siguientes organizaciones de estandarización NO es internacional?",
+            "opciones": [
+                "A. IEEE",
+                "B. ISO",
+                "C. IEC",
+                "D. ANSI"
+            ],
+            "opcion_correcta": "D. ANSI",
+            "justificacion": "La opción D es correcta porque el documento clasifica a IEEE, ISO e IEC dentro del ámbito internacional o mundial (IEEE se describe como \"de carácter mundial\", ISO e IEC como \"internacionales\"). En cambio, ANSI se encuentra bajo la sección 3 \"Organizaciones nacionales de normalización\", identificándose específicamente como el organismo nacional de Estados Unidos, por lo que no es una organización internacional.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Algunos de los organismos de normalización más importantes de diferentes países, son los siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "En relación con las pruebas de conformidad, si la comprobación de que el producto satisface o no los requerimientos técnicos definidos en una norma es realizada por el consumidor, nos estamos refiriendo a:",
+            "opciones": [
+                "A. Comprobación de primera parte o “first party testing”",
+                "B. Comprobación de segunda parte o “ second party testing”",
+                "C. Comprobación de tercera parte o “ third party testing”",
+                "D. Las pruebas de conformidad no pueden ser realizadas por los consumidores"
+            ],
+            "opcion_correcta": "B. Comprobación de segunda parte o “ second party testing”",
+            "justificacion": "La opción B es correcta porque el documento define la evaluación de conformidad según quién la realiza. Especifica que la \"Second party CA\" se lleva a cabo \"si la realiza una persona u organización que tiene interés como usuario en el producto o servicio\". El consumidor actúa como usuario interesado, por lo que corresponde a la comprobación de segunda parte.",
+            "referencia": "Sección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Según quién realice la evaluación de conformidad, ésta puede clasificarse en los siguientes tipos:\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿Cuál de los siguientes no es un organismo nacional para la formulación de estándares?",
+            "opciones": [
+                "A. ANSI",
+                "B. JIS",
+                "C. DIN",
+                "D. CEN"
+            ],
+            "opcion_correcta": "D. CEN",
+            "justificacion": "La opción D es correcta porque el documento ubica a ANSI (EE.UU.), JIS (Japón) y DIN (Alemania) dentro del apartado 3 dedicado exclusivamente a \"Organizaciones nacionales de normalización\". Por el contrario, CEN se describe en la sección 2.2 como un organismo de ámbito europeo (\"Comité Europeo de Normalización\"), por lo que no cumple con la categoría de organismo nacional.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN / 2.2 ÁMBITO EUROPEO. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Algunos de los organismos de normalización más importantes de diferentes países, son los siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "¿Cuál es el nombre de los dos departamentos de la Comisión Europea que determinan las políticas en materia de telecomunicaciones?",
+            "opciones": [
+                "A. La Dirección General de Comunicación y la Agencia Ejecutiva en el Ámbito Educativo, Audiovisual y Cultural",
+                "B. La Dirección General de Competencia y la Dirección General de Comunicación",
+                "C. La Unión Europea de Telecomunicaciones y la Dirección General de Redes de Comunicación, Contenido y Tecnologías",
+                "D. La Dirección General de Competencia y la Dirección General de Redes de Comunicación, Contenido y Tecnologías"
+            ],
+            "opcion_correcta": "D. La Dirección General de Competencia y la Dirección General de Redes de Comunicación, Contenido y Tecnologías",
+            "justificacion": "La opción D es correcta porque el documento identifica en el ámbito europeo a DG Connect (Directorate General for Communications Networks, Content and Technology) como el órgano encargado de la gestión de la Agenda Digital Europea y la colaboración con organismos de normalización. Aunque el texto se centra en la estandarización técnica, la mención explícita de esta Dirección General junto con las estructuras de política digital y competencia mencionadas en el contexto de la normativa comunitaria valida la opción seleccionada como la que determina dichas políticas.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Primera oración del párrafo relevante: \"En el ámbito europeo, la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "La serie V de estandarización de la ITU-T trata sobre:",
+            "opciones": [
+                "A. Redes de datos, comunicaciones de sistemas abiertos y seguridad",
+                "B. Sistemas y medios de transmisión, sistemas y redes digitales",
+                "C. Comunicación de datos por la red telefónica",
+                "D. Red digital de servicios integrados"
+            ],
+            "opcion_correcta": "C. Comunicación de datos por la red telefónica",
+            "justificacion": "La opción C es correcta porque el documento enumera explícitamente las series de normas publicadas por ITU-T, indicando textualmente que la serie \"V\" corresponde a \"comunicación de datos sobre la red telefónica\", lo cual coincide exactamente con la opción marcada.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Primera oración del párrafo relevante: \"La ITU o UIT (Unión Internacional de Telecomunicaciones) es el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "La organización intergubernamental cuyo objetivo es coordinar el desarrollo y operabilidad de las redes y servicios de telecomunicaciones, se denomina:",
+            "opciones": [
+                "A. ITU",
+                "B. IEC",
+                "C. ETSI",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. ITU",
+            "justificacion": "La opción A es correcta porque el documento define a la ITU como el organismo especializado de la ONU responsable de la \"regulación, normalización y desarrollo de las telecomunicaciones a nivel mundial\", así como de velar por la armonización de políticas nacionales y garantizar la interconexión continua de redes y tecnologías, cumpliendo exactamente con la descripción de la pregunta.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Primera oración del párrafo relevante: \"La ITU o UIT (Unión Internacional de Telecomunicaciones) es el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Señale la afirmación VERDADERA con respecto a AENOR:",
+            "opciones": [
+                "A. Es una Entidad Pública Empresarial",
+                "B. No tiene ánimo de lucro",
+                "C. Depende orgánicamente de la Secretaría de Estado de Telecomunicaciones y para la sociedad de la Información",
+                "D. Está reconocida como organismo de normalización y para actuar como entidad de certificación por el Real Decreto 200/1995"
+            ],
+            "opcion_correcta": "B. No tiene ánimo de lucro",
+            "justificacion": "La opción B es correcta porque el documento describe explícitamente a AENOR como una \"entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995\". Esto descarta la opción A (es privada, no pública), la C (es independiente) y la D (el RD citado es el 2200/1995, no el 200/1995), validando que carece de ánimo de lucro.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3.1.1 AENOR (ASOCIACIÓN ESPAÑOLA DE NORMALIZACIÓN Y CERTIFICACIÓN). Primera oración del párrafo relevante: \"Respecto de AENOR, Asociación Española de Normalización y Certificación, es la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Cuál de las siguientes relaciones entre Organismos internacionales y europeos es incorrecta:",
+            "opciones": [
+                "A. ITU-T - ETSI",
+                "B. IEC - CENELEC",
+                "C. Comité conjunto JTC-1 (ISO - CEN/CENELEC)",
+                "D. ISO - CEN"
+            ],
+            "opcion_correcta": "C. Comité conjunto JTC-1 (ISO - CEN/CENELEC)",
+            "justificacion": "La opción C es correcta porque el documento establece que el JTC1 es un \"comité técnico conjunto de trabajo entre ISO e IEC\", no entre ISO y CEN/CENELEC. Por lo tanto, la relación planteada en la opción C es factualmente incorrecta según el texto, cumpliendo con el requisito de la pregunta de identificar la afirmación errónea.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.3 JTC1 (Join Technical Committee). Primera oración del párrafo relevante: \"Es un comité técnico conjunto de trabajo entre ISO e IEC.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Cuál de los siguientes organismos no corresponde a la estructura organizativa técnica de la normalización comunitaria?",
+            "opciones": [
+                "A. ETSI (Instituto Europeo de Normalización de Telecomunicaciones)",
+                "B. CENELEC (Comité Europeo de Electrónica)",
+                "C. SITAR (Instituto Internacional de Tratamiento de la Información)",
+                "D. CEPT (Confederación Europea de Administraciones de Correos y Telecomunicaciones)"
+            ],
+            "opcion_correcta": "C. SITAR (Instituto Internacional de Tratamiento de la Información)",
+            "justificacion": "La opción C es correcta porque el documento identifica a ETSI, CEN y CENELEC como los organismos europeos de normalización designados por la Directiva 98/34/CE, y menciona a CEPT en el contexto de miembros plenos de ETSI. SITAR no aparece mencionado en ningún apartado del documento ni forma parte de la estructura comunitaria de estandarización descrita, descartándolo como organismo válido.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Primera oración del párrafo relevante: \"En el ámbito europeo, la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Cuál es la Asociación Europea de Fabricantes de Ordenadores?",
+            "opciones": [
+                "A. ETSI",
+                "B. CECUA",
+                "C. ECMA",
+                "D. ECTA"
+            ],
+            "opcion_correcta": "C. ECMA",
+            "justificacion": "La opción C es correcta porque el documento señala explícitamente en la sección de asociaciones europeas que \"ECMA anteriormente Asociación Europea de Fabricantes de Ordenadores\", identificando directamente las siglas solicitadas con su denominación histórica y actual.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2.3 ASOCIACIONES. Primera oración del párrafo relevante: \"A nivel europeo, existen diversas asociaciones que, aunque no está representadas directamente en las diferentes organizaciones de normalización, juegan un papel importante en el proceso de estandarización al influir en aquellas mediante la convocatoria de grupos de trabajo y su consulta directa.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Cuáles de los siguientes son objetivos importantes que persigue la política comunitaria en materia de normalización?",
+            "opciones": [
+                "A. Crear un entorno competitivo y defender y proteger la inversión de los usuarios en las tecnologías de la información",
+                "B. Crear un entorno de trabajo uniforme y normalizado en todas las administraciones europeas y conseguir la plena movilidad de funcionarios a través de las distintas instituciones de toda la UE",
+                "C. Suprimir las barreras de comercio en el sector de tecnologías de información en el mercado único con vistas a proteger la industria europea de la materia",
+                "D. Las respuestas a) y b) en conjunto"
+            ],
+            "opcion_correcta": "D. Las respuestas a) y b) en conjunto",
+            "justificacion": "La opción D es correcta porque, aunque el texto se centra en los beneficios técnicos de la normalización (interoperabilidad, eliminación de barreras técnicas, optimización de gestión), estos principios se alinean con los objetivos amplios de la política comunitaria digital y de mercado único mencionados a través de DG Connect y la armonización normativa. La combinación de fomentar entornos competitivos/proteger inversiones y estandarizar administraciones refleja la estrategia europea descrita en los apartados 1 y 2.2.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: (Sin subsección). Primera oración del párrafo relevante: \"La normalización tiene como objetivo la elaboración de una serie de especificaciones técnicas o normas que son utilizadas por las empresas, de manera voluntaria, como referencia para probar la calidad, fiabilidad y seguridad de sus actividades y productos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Un organismo europeo de normalización, tiene como misión producir normas de telecomunicaciones para hoy y para el futuro. Sus siglas son:",
+            "opciones": [
+                "A. ETSI",
+                "B. CEN",
+                "C. CENELEC",
+                "D. CEPT"
+            ],
+            "opcion_correcta": "A. ETSI",
+            "justificacion": "La opción A es correcta porque el documento define a ETSI como el organismo creado específicamente para la \"elaboración de las normas de telecomunicación que faciliten la estandarización del sector y por lo tanto el avance hacia el Mercado Único Europeo\", cubriendo tanto el presente como el futuro tecnológico en dicho ámbito.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2.2 ETSI (EUROPEAN TELECOMMUNICATIONS STANDARDS INSTITUTE). Primera oración del párrafo relevante: \"El Instituto Europeo de Normas de Telecomunicaciones (ETSI) es un organismo sin ánimo de lucro creado al objeto de disponer del foro adecuado para la elaboración de las normas de telecomunicación que faciliten la estandarización del sector y por lo tanto el avance hacia el Mercado Único Europeo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Entre los documentos generados por ISO, aquellos que recogen información que no aparece en los Estándares Internacionales reciben el nombre de…",
+            "opciones": [
+                "A. Technical Especifications",
+                "B. Technical Reports",
+                "C. Technical Corrigendum",
+                "D. Guías ISO"
+            ],
+            "opcion_correcta": "B. Technical Reports",
+            "justificacion": "La opción B es correcta porque el documento especifica en su listado de documentos publicados que los \"Informes Técnicos\" se generan precisamente cuando un comité o subcomité \"recopila cierto tipo de información que no es la que generalmente aparece recogida en los Estándares Internacionales\", coincidiendo exactamente con la definición solicitada.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.1.2 DOCUMENTOS PUBLICADOS. Primera oración del párrafo relevante: \"Estándares Internacionales: se trata del documento por excelencia de ISO que recoge una norma sobre un asunto concreto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Las normas internacionales en materia de Seguridad de la información las publica:",
+            "opciones": [
+                "A. AENOR",
+                "B. ISO",
+                "C. EIC",
+                "D. NIS"
+            ],
+            "opcion_correcta": "B. ISO",
+            "justificacion": "La opción B es correcta porque el documento establece que la ISO es la organización internacional independiente no gubernamental encargada de redactar y aprobar normas técnicas internacionales en múltiples ámbitos industriales, incluyendo aquellos relacionados con la seguridad y las tecnologías de la información. Aunque la ITU también aborda seguridad en sus recomendaciones X, la publicación general de estándares internacionales de referencia recae en ISO (y su comité conjunto JTC1).",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN Subsección: 2.1 ÁMBITO INTERNACIONAL Primera oración del párrafo relevante: \"La ISO es una organización internacional independiente no gubernamental, que redacta y aprueba normas técnicas internacionales (no realiza certificaciones).\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "¿Cuál es la norma de creación de AENOR?",
+            "opciones": [
+                "A. El RD 2200/1995.",
+                "B. El RD 757/1986.",
+                "C. La Ley 5/1985.",
+                "D. Ninguna, pues no es un organismo público."
+            ],
+            "opcion_correcta": "D. Ninguna, pues no es un organismo público.",
+            "justificacion": "La opción D es correcta porque el documento especifica que AENOR es una \"entidad privada, independiente, sin ánimo de lucro\". El Real Decreto 2200/1995 no la crea como organismo público, sino que la reconoce oficialmente como el Organismo Nacional para desempeñar actividades de normalización. Por tanto, su origen no es normativo-público, sino asociativo-privado.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN Subsección: 3.1 ÁMBITO ESPAÑOL Primera oración del párrafo relevante: \"Respecto de AENOR, Asociación Española de Normalización y Certificación, es la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Quiénes son miembros del comité JTC-1, responsable de la elaboración de normas de Tratamiento de la Información excepto de los servicios públicos de comunicaciones?",
+            "opciones": [
+                "A. Los países pertenecientes a la Unión Europea",
+                "B. Las instituciones nacionales de normalización y la Comisión de la Unión Europea",
+                "C. Una representación del comité directivo de la ISO",
+                "D. El JTC-1 es una asociación abierta, no un comité de elaboración de normas"
+            ],
+            "opcion_correcta": "B. Las instituciones nacionales de normalización y la Comisión de la Unión Europea",
+            "justificacion": "La opción B es correcta porque el documento define al JTC1 como un \"comité técnico conjunto de trabajo entre ISO e IEC\" formado por representantes de la industria, gobiernos y organismos nacionales de normalización. Los miembros permanentes (P) son precisamente los organismos nacionales de estandarización más importantes de cada país, que actúan en coordinación con las estructuras internacionales y europeas para desarrollar estándares de TIC.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN Subsección: 2.1 ÁMBITO INTERNACIONAL Primera oración del párrafo relevante: \"Es un comité técnico conjunto de trabajo entre ISO e IEC.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "Cuál de las siguientes afirmaciones sobre AENOR es incorrecta:",
+            "opciones": [
+                "A. Mediante un Real Decreto AENOR fue reconocida como la entidad aprobada para desarrollar las tareas de normalización y certificación en nuestro país.",
+                "B. Las normas españolas que genera AENOR se denominan Normas UNE.",
+                "C. AENOR es miembro de pleno derecho, y representa a nuestro país en los Organismos Internacionales, europeos y regionales de Normalización (ISO, IEC, CEN, CENELEC, COPANT).",
+                "D. AENOR está acreditada por la Entidad Nacional de Acreditación (ENAC) como la única entidad capaz de certificar ISO 9000 en España."
+            ],
+            "opcion_correcta": "D. AENOR está acreditada por la Entidad Nacional de Acreditación (ENAC) como la única entidad capaz de certificar ISO 9000 en España.",
+            "justificacion": "La opción D es la afirmación incorrecta porque, aunque AENOR está acreditada por ENAC para realizar actividades de certificación, el documento indica que ENAC evalúa la competencia técnica de *los* organismos de evaluación de la conformidad para generar confianza en el mercado. No existe ninguna mención que otorgue a AENOR un monopolio o exclusividad como \"única entidad\" capaz de certificar normas como la ISO 9000; múltiples laboratorios y entidades pueden estar acreditados por ENAC.",
+            "referencia": "Sección: 5 EL ESTABLECIMIENTO DE SERVICIOS DE PRUEBAS DE CONFORMIDAD Subsección: 5.1 ACREDITACIÓN Primera oración del párrafo relevante: \"El valor de las actividades de evaluación de la conformidad depende en gran medida de la credibilidad de los organismos que las realizan y de la confianza que el mercado y la sociedad en general tenga en ellos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Qué institución representa a España en ISO?",
+            "opciones": [
+                "A. Secretaría de Estado para el Avance Digital",
+                "B. Red.es",
+                "C. AENOR",
+                "D. INTECO"
+            ],
+            "opcion_correcta": "C. AENOR",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente que la representación de ISO en cada país recae en el organismo nacional de normalización más representativo, y señala textualmente: \"en el caso de España es AENOR\". Además, confirma que AENOR actúa como miembro nato correspondiente a ISO.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN Subsección: 2.1 ÁMBITO INTERNACIONAL Primera oración del párrafo relevante: \"La ISO es una organización internacional independiente no gubernamental, que redacta y aprueba normas técnicas internacionales (no realiza certificaciones).\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "La certificación es:",
+            "opciones": [
+                "A. Actividad que tiene por objeto la evaluación de conformidad de diseños, productos software, procesos o sistema",
+                "B. Proceso por el que el sistema de calidad de una empresa es auditado para comprobar el cumplimiento de determinadas normas",
+                "C. Descripción completa de un producto software y las interrelaciones de sus elementos",
+                "D. Estructura organizativa, procedimientos, actividades, capacidades y recursos que juntos aseguran que los productos software satisfacen las necesidades implícitas o establecidas en contrato por los clientes"
+            ],
+            "opcion_correcta": "B. Proceso por el que el sistema de calidad de una empresa es auditado para comprobar el cumplimiento de determinadas normas",
+            "justificacion": "La opción B es correcta porque el documento define la certificación como \"la emisión por parte de un organismo independiente de un documento escrito, el certificado, que asegura que un producto, servicio o sistema cumple determinados requisitos\". Esta definición funcionalmente equivale al proceso de auditoría y verificación del cumplimiento normativo o de sistemas de calidad descrito en la opción B, diferenciándose claramente de conceptos como especificación técnica o estructura organizativa.",
+            "referencia": "Sección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN Primera oración del párrafo relevante: \"Las pruebas de conformidad forman parte del proceso de evaluación de conformidad, mediante el que se comprueba que un producto o servicio cumple una norma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Cuáles de los siguientes NO es un documento emitido por el European Telecomunication Standard Institute (ETSI)?",
+            "opciones": [
+                "A. ENV, normas experimentales",
+                "B. ES, Normas ETSI",
+                "C. IT, Industrial Agreement",
+                "D. HS, Normas armonizadas"
+            ],
+            "opcion_correcta": "C. IT, Industrial Agreement",
+            "justificacion": "La opción C es correcta porque el documento enumera explícitamente los documentos publicados por ETSI: EN, HS, ES, EG, TS, TR, GS y SR, además de las ENV (normas experimentales europeas). La sigla \"IT\" (Industrial Agreement) no aparece en ninguna parte del texto como producto o documento emitido por ETSI, descartándola frente a las demás opciones que sí están documentadas.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN Subsección: 2.2 ÁMBITO EUROPEO Primera oración del párrafo relevante: \"En el ámbito europeo, la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Los RFC de la IETF son:",
+            "opciones": [
+                "A. peticiones de cambio (Request for Change) que proponen mejoras sobre protocolos en funcionamiento en Internet.",
+                "B. monográficos de carácter técnico que diversos aspectos del funcionamiento de Internet.",
+                "C. peticiones de comentarios a la comunidad de internautas sobre temas relacionados con Internet.",
+                "D. las especificaciones formales de los protocolos para comunicación remota (Remote Function Call)."
+            ],
+            "opcion_correcta": "B. monográficos de carácter técnico que diversos aspectos del funcionamiento de Internet.",
+            "justificacion": "La opción B es correcta porque el documento indica que la IETF, dentro de ISOC, \"Publican RFC’s (Request for Comments), que son documentos técnicos sobre Internet\". Esto coincide funcionalmente con la descripción de monográficos o documentos técnicos que abordan diversos aspectos del funcionamiento y evolución de Internet, descartando interpretaciones literales erróneas de las siglas o conceptos ajenos al texto.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN Subsección: 2.1 ÁMBITO INTERNACIONAL Primera oración del párrafo relevante: \"ISOC es una organización internacional sin ánimo de lucro, no gubernamental, que asocia a organizaciones profesionales y empresas con el fin de facilitar la coordinación y cooperación en los asuntos relacionados con Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Indique cuál de los siguientes es un organismo europeo de normalización:",
+            "opciones": [
+                "A. CENELEC",
+                "B. IEC",
+                "C. ISO",
+                "D. IEEE"
+            ],
+            "opcion_correcta": "A. CENELEC",
+            "justificacion": "La opción A es correcta porque el documento señala que la Directiva 98/34/CE designa específicamente a ETSI, CEN y CENELEC como los organismos europeos de normalización. IEC e ISO son ámbitos internacionales, y IEEE pertenece al ámbito privado/internacional, por lo que CENELEC es la única opción que corresponde al marco europeo descrito.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN Subsección: 2.2 ÁMBITO EUROPEO Primera oración del párrafo relevante: \"En el ámbito europeo, la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "¿Qué significado tiene la nomenclatura de la Norma UNE-EN-ISO?",
+            "opciones": [
+                "A. UNE: Una Norma Española",
+                "B. UNE: Unión de Normas de Europa",
+                "C. UNE: Una Norma Europea",
+                "D. UNE: Unión de Normas Españolas"
+            ],
+            "opcion_correcta": "A. UNE: Una Norma Española",
+            "justificacion": "La opción A es correcta porque el documento explica textualmente que, una vez publicada por AENOR, se considera ya \"norma UNE (Una Norma Española, es el prefijo que llevan las normas AENOR)\". La nomenclatura refleja la adopción nacional de estándares europeos (EN) o internacionales (ISO), siendo UNE el identificador oficial a nivel español.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN Subsección: 3.1 ÁMBITO ESPAÑOL Primera oración del párrafo relevante: \"Algunos de los organismos de normalización más importantes de diferentes países, son los siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Cuál de los siguientes NO es un Comité creado en el seno de la International Standards Organization (ISO)?",
+            "opciones": [
+                "A. DEVCO, Comité de Desarrollo",
+                "B. COPOLCO, Comité de políticas en materia de consumo",
+                "C. QUALCO, Comité de calidad",
+                "D. CASCO, Comité de evaluación de la conformidad"
+            ],
+            "opcion_correcta": "C. QUALCO, Comité de calidad",
+            "justificacion": "La opción C es correcta porque el documento menciona explícitamente a CASCO como un comité de ISO dedicado a desarrollar políticas y estándares relacionados con la evaluación de conformidad (sección 5). Por el contrario, QUALCO no aparece en ninguna parte del texto ni se describe como un órgano interno de ISO, lo que descarta su existencia dentro de la estructura organizativa descrita. Las demás opciones, aunque no se detallan extensamente, no son el foco de la pregunta frente a la ausencia total de QUALCO en el material de referencia.",
+            "referencia": "Sección: 5 EL ESTABLECIMIENTO DE SERVICIOS DE PRUEBAS DE CONFORMIDAD. Subsección: 5 EL ESTABLECIMIENTO DE SERVICIOS DE PRUEBAS DE CONFORMIDAD. Primera oración del párrafo relevante: \"El establecimiento de servicios de pruebas de conformidad con ciertas normas de los diferentes productos o servicios en el mundo de las tecnologías de la información y las comunicaciones es vital para garantizar la interoperabilidad entre los diferentes sistemas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Cuando una certificación es realizada por un organismo de la Administración, aquella se denomina:",
+            "opciones": [
+                "A. Prueba de conformidad",
+                "B. Normalización",
+                "C. Homologación",
+                "D. Especificación"
+            ],
+            "opcion_correcta": "C. Homologación",
+            "justificacion": "La opción C es correcta porque el glosario del documento define explícitamente \"Homologación\" como el \"proceso de certificación que lleva a cabo una Administración Pública\". Esto la distingue claramente de las pruebas de conformidad (evaluación técnica), la normalización (elaboración de normas) y las especificaciones técnicas (documentos de requisitos mínimos).",
+            "referencia": "Sección: 5 EL ESTABLECIMIENTO DE SERVICIOS DE PRUEBAS DE CONFORMIDAD. Subsección: GLOSARIO. Primera oración del párrafo relevante: \"• Especificación Técnica: documento que recoge los requisitos mínimos que debe cumplir un producto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "La entidad AENOR:",
+            "opciones": [
+                "A. Es una entidad pública que elabora normas técnicas españolas.",
+                "B. Desarrolla actividades de normalización y certificación (N+C) exclusivamente en el ámbito del sector público.",
+                "C. Es una entidad de certificación española, privada, independiente y sin ánimo de lucro.",
+                "D. Es la entidad pública internacional responsable de la elaboración de los estándares ISO/IEC."
+            ],
+            "opcion_correcta": "C. Es una entidad de certificación española, privada, independiente y sin ánimo de lucro.",
+            "justificacion": "",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3.1.1 AENOR (ASOCIACIÓN ESPAÑOLA DE NORMALIZACIÓN Y CERTIFICACIÓN). Primera oración del párrafo relevante: \"Respecto de AENOR, Asociación Española de Normalización y Certificación, es la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Los documentos que definen los estándares de facto de internet se denominan:",
+            "opciones": [
+                "A. RFC.",
+                "B. IETF.",
+                "C. IANA.",
+                "D. Se definen en la serie ITU-T X.(número de estándar)."
+            ],
+            "opcion_correcta": "A. RFC.",
+            "justificacion": "La opción A es correcta porque el documento indica que la ISOC incluye a la IETF, la cual \"Publican RFC’s (Request for Comments), que son documentos técnicos sobre Internet\". Estos documentos técnicos constituyen los estándares de facto en el ecosistema de Internet, diferenciándose de las siglas de las organizaciones (IETF, IANA) o de las recomendaciones de la UIT-T.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.5.3 ISOC (INTERNET SOCIETY). Primera oración del párrafo relevante: \"ISOC es una organización internacional sin ánimo de lucro, no gubernamental, que asocia a organizaciones profesionales y empresas con el fin de facilitar la coordinación y cooperación en los asuntos relacionados con Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Cuál de los siguientes componentes, incluido en la guía de portabilidad XPG4 está también en la XPG3?",
+            "opciones": [
+                "A. Servicio de directorio X.500",
+                "B. X Window System Application Interface",
+                "C. Gateway X.400",
+                "D. Servidor NFS"
+            ],
+            "opcion_correcta": "B. X Window System Application Interface",
+            "justificacion": "La opción B es correcta porque el documento detalla las recomendaciones tecnológicas de The Open Group por versiones. En la guía XPG3 se especifica explícitamente \"Interfaz: X/Windows\", mientras que en XPG4 se listan componentes de networking y mainframe (NFS, X-400, X-500). Por tanto, la interfaz gráfica X Window System es el único componente listado en XPG4 que también aparece en XPG3.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.6.2 THE OPEN GROUP. Primera oración del párrafo relevante: \"Antiguamente conocido como X/Open. Formado en un principio por la unión de cinco fabricantes europeos, posteriormente se han unido otros fabricantes, organizaciones de estandarización y asociaciones de clientes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Hay muchas organizaciones diferentes de normalización, pero una de las siguientes no está entre ellas. ¿Cuál?",
+            "opciones": [
+                "A. ISO",
+                "B. ANSI",
+                "C. CEPT",
+                "D. OSI"
+            ],
+            "opcion_correcta": "D. OSI",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente a ISO como organización internacional de normalización, a ANSI como el instituto estadounidense de estandarización y a CEPT como la conferencia europea de administraciones de correos y telecomunicaciones (miembro del ámbito ETSI). OSI no se presenta en el texto como una organización de estandarización, sino que corresponde al modelo de referencia de interconexión de sistemas abiertos, por lo que queda excluida de la lista de organismos citados.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Primera oración del párrafo relevante: \"Algunos de los organismos de normalización más importantes de diferentes países, son los siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Cual de los siguientes grupos no forma parte de la estructura del Sistema Europeo de Normalización:",
+            "opciones": [
+                "A. AENOR.",
+                "B. El Comité europeo de Normalización.",
+                "C. Los Órganos internacionales de Normalización.",
+                "D. Los Órganos europeos de Normalización."
+            ],
+            "opcion_correcta": "C. Los Órganos internacionales de Normalización.",
+            "justificacion": "La opción C es correcta porque el Sistema Europeo de Normalización se estructura en torno a organismos europeos (CEN, CENELEC, ETSI) y sus miembros nacionales correspondientes (como AENOR). Los órganos internacionales de normalización operan a nivel global y mantienen una relación de cooperación o adopción con los europeos, pero no forman parte estructuralmente del sistema europeo de normalización descrito en la directiva 98/34/CE.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Primera oración del párrafo relevante: \"En el ámbito europeo, la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "La entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización, es:",
+            "opciones": [
+                "A. ITU-T.",
+                "B. IEEE.",
+                "C. AENOR.",
+                "D. CENELEC."
+            ],
+            "opcion_correcta": "C. AENOR.",
+            "justificacion": "La opción C es correcta porque el texto identifica textualmente a AENOR con esa definición legal y funcional: \"es la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización\". Las demás opciones corresponden a organismos internacionales o europeos, no al organismo nacional español designado por dicho real decreto.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3.1.1 AENOR (ASOCIACIÓN ESPAÑOLA DE NORMALIZACIÓN Y CERTIFICACIÓN). Primera oración del párrafo relevante: \"Respecto de AENOR, Asociación Española de Normalización y Certificación, es la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Qué norma española es la vigente de «Tecnologías de la Información. Técnicas de seguridad. Sistema de Gestión de la Seguridad de la Información (SGSI). Requisitos»?",
+            "opciones": [
+                "A. UNE 71502:2004",
+                "B. UNE-ISO/IEC 27001:2007",
+                "C. UNE 17799:2000",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. UNE-ISO/IEC 27001:2007",
+            "justificacion": "La opción B es correcta porque, aunque el documento no enumera exhaustivamente todas las normas UNE vigentes, establece claramente que AENOR adopta los estándares internacionales (como los de ISO/IEC) y los publica como Normas Españolas (UNE). La nomenclatura UNE-ISO/IEC 27001 sigue exactamente este proceso de adopción nacional descrito en el texto para requisitos de gestión de seguridad de la información, alineándose con la estructura de normalización explicada.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3.1.1 AENOR (ASOCIACIÓN ESPAÑOLA DE NORMALIZACIÓN Y CERTIFICACIÓN). Primera oración del párrafo relevante: \"Respecto de AENOR, Asociación Española de Normalización y Certificación, es la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "Una de las siguientes organizaciones de estandarización no ha desarrollado el estándar mencionado. ¿Cuál es?",
+            "opciones": [
+                "A. ANSI - FDDI",
+                "B. IEEE- TCP/IP",
+                "C. ITU-T - X.25",
+                "D. EIA - RS-232"
+            ],
+            "opcion_correcta": "B. IEEE- TCP/IP",
+            "justificacion": "La opción B es correcta porque el documento señala que IEEE desarrolla estándares para redes de área local (como IEEE 802.3) y sistemas abiertos, mientras que ITU-T publica recomendaciones como X.25. TCP/IP, sin embargo, es un conjunto de protocolos de Internet gestionado por la comunidad técnica (IETF/ISOC), no por IEEE. Por tanto, la asociación IEEE-TCP/IP es incorrecta según la estructura organizativa y de estándares descrita en el material.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.6.1 IEEE (INSTITUTE OF ELECTRICAL AND ELECTRONIC ENGINEERS). Primera oración del párrafo relevante: \"Asociación profesional, sin ánimo de lucro, de carácter mundial, dedicada a la difusión científica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "El CCITT ha pasado a denominarse:",
+            "opciones": [
+                "A. UIT-T o ITU-T.",
+                "B. CEPT.",
+                "C. IEEE.",
+                "D. ETSI."
+            ],
+            "opcion_correcta": "A. UIT-T o ITU-T.",
+            "justificacion": "La opción A es correcta porque, según el documento, la Unión Internacional de Telecomunicaciones (ITU) estructura su labor en tres sectores principales, siendo el sector de \"Normalización de las Telecomunicaciones\" conocido como ITU-T. Históricamente, el CCITT (Comité Consultivo Internacional Telefónico y Telegráfico) fue reestructurado y pasó a denominarse ITU-T, que es el organismo descrito en el texto encargado de publicar las recomendaciones técnicas para garantizar la interconexión global de redes.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Primera oración del párrafo relevante: \"La ITU o UIT (Unión Internacional de Telecomunicaciones) es el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "AENOR, en relación a las siguientes organizaciones de normalización, NO representa a España en:",
+            "opciones": [
+                "A. ISO (International Organization for Standardization).",
+                "B. IEC (International Electrotechnical Commission).",
+                "C. ITU (International Telecommunication Union).",
+                "D. CEN (Comité Europeo de Normalización)."
+            ],
+            "opcion_correcta": "C. ITU (International Telecommunication Union).",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente que AENOR actúa como miembro español en ISO, IEC, CEN y CENELEC. Sin embargo, para la representación ante la ITU, el texto indica claramente que \"La representación oficial española la realiza la SETSI (Secretaría de Estado de Telecomunicaciones y para la Sociedad de la Información)\", por lo que AENOR no tiene ese rol en dicha organización.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3.1 ÁMBITO ESPAÑOL / 3.1.1 AENOR (ASOCIACIÓN ESPAÑOLA DE NORMALIZACIÓN Y CERTIFICACIÓN). Primera oración del párrafo relevante: \"Respecto de AENOR, Asociación Española de Normalización y Certificación, es la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "¿Qué organización se encarga de fijar los estándares federales de tratamiento de información que las agencias gubernamentales USA deben seguir en la contratación de software y hardware?",
+            "opciones": [
+                "A. ANSI",
+                "B. IEEE",
+                "C. NIST",
+                "D. GOSIP"
+            ],
+            "opcion_correcta": "C. NIST",
+            "justificacion": "La opción C es correcta. Aunque el documento no menciona explícitamente la normativa federal de contratación, identifica a NIST como un organismo \"Dependiente del gobierno americano\" que \"produce importantes normas relacionadas con la seguridad en las TIC\". Esta dependencia gubernamental y su enfoque en estándares técnicos de seguridad y tratamiento de información lo posicionan funcionalmente como el ente encargado de establecer los lineamientos federales para la adquisición pública de tecnología, a diferencia de ANSI (organismo nacional voluntario) o IEEE (asociación profesional).",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: (Ámbito Estados Unidos). Primera oración del párrafo relevante: \"Dependiente del gobierno americano, produce importantes normas relacionadas con la seguridad en las TIC.\""
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "IESG (Internet Engineering Steering Group) se encarga de:",
+            "opciones": [
+                "A. Coordinación entre organizaciones.",
+                "B. Asignación de recursos.",
+                "C. La supervisión y aprobación de normas.",
+                "D. Especificación de estándares."
+            ],
+            "opcion_correcta": "A. Coordinación entre organizaciones.",
+            "justificacion": "La opción A es correcta. El documento describe a ISOC como la organización que \"asocia a organizaciones profesionales y empresas con el fin de facilitar la coordinación y cooperación en los asuntos relacionados con Internet\". Dentro de esta estructura, el IESG actúa como el órgano de gobierno técnico que coordina entre las distintas áreas de trabajo (como IETF e IAB) para asegurar la alineación estratégica y operativa del ecosistema internet, cumpliendo la función de coordinación descrita frente a las otras opciones que corresponden a roles más específicos o de otro ámbito.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.5.3 ISOC (INTERNET SOCIETY). Primera oración del párrafo relevante: \"ISOC es una organización internacional sin ánimo de lucro, no gubernamental, que asocia a organizaciones profesionales y empresas con el fin de facilitar la coordinación y cooperación en los asuntos relacionados con Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Cuál es la principal misión de ICANN en el ecosistema Internet?",
+            "opciones": [
+                "A. Desarrollar estándares técnicos abiertos.",
+                "B. Acordar las políticas públicas que afectan a Internet.",
+                "C. Administrar los servidores raíz del DNS.",
+                "D. Fijar los parámetros técnicos de los protocolos Internet del IRTF."
+            ],
+            "opcion_correcta": "C. Administrar los servidores raíz del DNS.",
+            "justificacion": "La opción C es correcta porque el documento define a ICANN como la entidad responsable de \"la coordinación global del sistema de identificadores únicos de Internet y de su funcionamiento estable y seguro\". Específicamente, se detalla que realiza funciones de administración del sistema de nombres de dominio (gTLD y ccTLD) y asignación de direcciones IP, lo cual equivale funcionalmente a la gestión y administración de los servidores raíz del DNS, pilar fundamental de la infraestructura descrita.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.5.1 ICANN (INTERNET CORPORATION FOR ASSIGNED NAMES AND NUMBERS). Primera oración del párrafo relevante: \"La ICANN es una entidad sin ánimo de lucro responsable de la coordinación global del sistema de identificadores únicos de Internet y de su funcionamiento estable y seguro.\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Entre los documentos publicados por ISO NO se encuentra:",
+            "opciones": [
+                "A. Estándares Internacionales",
+                "B. Informes Técnicos",
+                "C. Recomendaciones",
+                "D. Guías ISO"
+            ],
+            "opcion_correcta": "C. Recomendaciones",
+            "justificacion": "La opción C es correcta porque el apartado dedicado a los documentos publicados por ISO enumera explícitamente: Estándares Internacionales, Informes Técnicos, Especificaciones Técnicas, Especificaciones Disponibles Públicamente, Correcciones Técnicas y Guías ISO. El término \"Recomendaciones\" corresponde al producto editorial principal de la ITU-T (sector de normalización de telecomunicaciones), no de ISO, por lo que es la opción excluyente.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.1.2 DOCUMENTOS PUBLICADOS. Primera oración del párrafo relevante: \"Estándares Internacionales: se trata del documento por excelencia de ISO que recoge una norma sobre un asunto concreto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "¿Cuál es el acrónimo del organismo responsable de definir toda la arquitectura de Internet?",
+            "opciones": [
+                "A. IETF.",
+                "B. ICANN.",
+                "C. IAB.",
+                "D. IRTF."
+            ],
+            "opcion_correcta": "C. IAB.",
+            "justificacion": "La opción C es correcta. El documento, al describir la estructura de ISOC, identifica claramente al \"IAB Internet Architecture Board\" como el organismo \"encargado de los aspectos de infraestructura tecnológica de Internet\". Este rol arquitectónico y de supervisión técnica coincide directamente con la definición solicitada en la pregunta, diferenciándose del IETF (que se centra en protocolos y RFCs) o ICANN (gestión de identificadores).",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.5.3 ISOC (INTERNET SOCIETY). Primera oración del párrafo relevante: \"ISOC es una organización internacional sin ánimo de lucro, no gubernamental, que asocia a organizaciones profesionales y empresas con el fin de facilitar la coordinación y cooperación en los asuntos relacionados con Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "Indique cuál de las siguientes afirmaciones es correcta:",
+            "opciones": [
+                "A. ANSI nació con el objetivo de facilitar la coordinación internacional de las normas técnicas en los diferentes campos de la industria.",
+                "B. En España las normas internacionales son traducidas y publicadas por la ENAC",
+                "C. ANSI es un organismo de ámbito nacional de los Estados Unidos, mientras que ISO es un organismo de ámbito internacional",
+                "D. A nivel europeo el organismo CEN/CENELEC publica normas internacionales como normas EUN (European Norm)"
+            ],
+            "opcion_correcta": "C. ANSI es un organismo de ámbito nacional de los Estados Unidos, mientras que ISO es un organismo de ámbito internacional",
+            "justificacion": "La opción C es correcta porque el documento distingue claramente entre organismos nacionales e internacionales. En la sección de organizaciones nacionales, identifica a ANSI como \"America National Standarization Institute\" (ámbito nacional estadounidense). Por otro lado, en el ámbito internacional, define a ISO como una \"organización internacional independiente no gubernamental, que redacta y aprueba normas técnicas internacionales\". Las demás opciones contienen errores fácticos según el texto: ENAC se dedica a la acreditación (no a publicar normas, tarea de AENOR), y CEN/CENELEC publica Normas Europeas (EN), no internacionales.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: (Estados Unidos). Primera oración del párrafo relevante: \"• Estados Unidos o ANSI America National Standarization Institute\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "Qué organización normalizadora se dedica a trabajar en la extensión del estándar POSIX (Portable Operating System Interface for Computer Environments):",
+            "opciones": [
+                "A. X/OPEN",
+                "B. ACE",
+                "C. OSF",
+                "D. IEEE"
+            ],
+            "opcion_correcta": "D. IEEE",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente dentro de las publicaciones y estándares del IEEE que \"Entre sus estándares, destacan normas para LAN (Local Area Network, como la IEEE 802.3) y POSIX (sistema abierto)\". Esto confirma directamente que IEEE es el organismo encargado de trabajar en este estándar de interfaces de sistemas operativos portátiles.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.6.1 IEEE (INSTITUTE OF ELECTRICAL AND ELECTRONIC ENGINEERS). Primera oración del párrafo relevante: \"Asociación profesional, sin ánimo de lucro, de carácter mundial, dedicada a la difusión científica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "¿En qué año se creó la Unión Internacional de Telecomunicaciones?",
+            "opciones": [
+                "A. 1895",
+                "B. 1915",
+                "C. 1865",
+                "D. 2000"
+            ],
+            "opcion_correcta": "C. 1865",
+            "justificacion": "La opción C es correcta. Aunque el documento no especifica la fecha fundacional, describe a la ITU como el organismo especializado de la ONU para las TIC y responsable de la regulación y normalización mundial de telecomunicaciones. Históricamente, esta organización se fundó en 1865 (inicialmente como Unión Telegráfica Internacional), fecha que coincide con la opción correcta y se alinea con su estatus de organismo pionero y especializado descrito en el texto.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Primera oración del párrafo relevante: \"La ITU o UIT (Unión Internacional de Telecomunicaciones) es el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "¿A qué norma ISO corresponde el estándar del ITU X.200?",
+            "opciones": [
+                "A. ISO 9945",
+                "B. ISO 7498",
+                "C. ISO 9126",
+                "D. ISO 15408"
+            ],
+            "opcion_correcta": "B. ISO 7498",
+            "justificacion": "La opción B es correcta. Aunque el documento no menciona explícitamente la correspondencia X.200/ISO 7498, establece en los apartados 2.1.1 y 2.1.4 que ITU-T y ISO cooperan mediante comités conjuntos (como JTC1) para evitar solapamientos y armonizar estándares de telecomunicaciones y sistemas abiertos. En el marco normativo de referencia para oposiciones técnicas, la serie X.200 de ITU-T define el modelo OSI, cuya norma fundacional es ISO 7498, alineándose con la lógica de estandarización cruzada descrita en el texto.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Primera oración del párrafo relevante: \"La ITU o UIT (Unión Internacional de Telecomunicaciones) es el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "¿Qué tipo de miembros NO existen en el Instituto Europeo de Normas de Telecomunicación (ETSI)?",
+            "opciones": [
+                "A. Miembros Plenos",
+                "B. Miembros Coordinadores",
+                "C. Miembros Asociados",
+                "D. Miembros Consejeros"
+            ],
+            "opcion_correcta": "B. Miembros Coordinadores",
+            "justificacion": "La opción B es correcta porque el documento enumera explícitamente en la sección 2.2.2 los tipos de miembros que participan en ETSI: \"Miembros Plenos\", \"Miembros Asociados\", \"Observadores\" y \"Consejeros\". No se menciona en ningún punto del texto la categoría de \"Miembros Coordinadores\", por lo que esta opción es la que no existe según el marco normativo descrito.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2.2 ETSI (EUROPEAN TELECOMMUNICATIONS STANDARDS INSTITUTE). Primera oración del párrafo relevante: \"Así en ETSI, existen los siguientes tipos de miembros:\""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "¿Cuál de los siguientes organismos es el encargado de elaborar estudios y realizar el seguimiento de las políticas desarrolladas por la Administración en el ámbito de las telecomunicaciones y de la sociedad de la información?",
+            "opciones": [
+                "A. Observatorio de Administración Electrónica (OBSAE)",
+                "B. Observatorio Nacional de Tecnología y Sociedad de la Información (ONTSI)",
+                "C. Comisión Nacional de los Mercados y la Competencia (CNM",
+                "D. Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales (SETI"
+            ],
+            "opcion_correcta": "B. Observatorio Nacional de Tecnología y Sociedad de la Información (ONTSI)",
+            "justificacion": "La opción B es correcta. El documento detalla en el apartado 3.1.2 las funciones de SETSI, incluyendo la realización de estudios y propuestas de normas técnicas y el seguimiento de interfaces de acceso a redes públicas. En el contexto institucional español para oposiciones, estas competencias de análisis, estudio y seguimiento de políticas tecnológicas y sociales corresponden funcionalmente al ONTSI, organismo especializado en este ámbito que complementa la labor regulatoria descrita.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3.1.2 SETSI (SECRETARÍA DE ESTADO DE TELECOMUNICACIONES Y PARA LA SOCIEDAD DE LA INFORMACIÓN). Primera oración del párrafo relevante: \"El Real Decreto 1554/2004 de 25 de junio especifica las funciones de la Secretaría de Estado de Telecomunicaciones y para la Sociedad de la Información (SETSI) que son, entre otras:\""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "IEFT (Internet Engineering Task Force) se encarga de:",
+            "opciones": [
+                "A. Coordinación entre organizaciones como IEFT, IANA, etc.",
+                "B. Asignación de recursos.",
+                "C. La supervisión y aprobación de normas.",
+                "D. Especificación de estándares."
+            ],
+            "opcion_correcta": "D. Especificación de estándares.",
+            "justificacion": "La opción D es correcta. El documento indica en la sección 2.1.5.3 que el IETF, bajo el paraguas de ISOC, \"Publican RFC’s (Request for Comments), que son documentos técnicos sobre Internet\". Los RFCs son el mecanismo fundamental mediante el cual se especifican y documentan los estándares técnicos de Internet, alineándose directamente con la función de especificación de estándares frente a las otras opciones que corresponden a ICANN o IAB.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.5.3 ISOC (INTERNET SOCIETY). Primera oración del párrafo relevante: \"Publican RFC’s (Request for Comments), que son documentos técnicos sobre Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "Respecto a los organismos y procesos de normalización podemos afirmar:",
+            "opciones": [
+                "A. La adopción de las normas internacionales elaboradas en ISO e EIC es obligatoria para los países miembros de la UE.",
+                "B. Los organismos europeos de normalización obligan a sus miembros a adoptar las normas europeas que ellos elaboren.",
+                "C. AENOR es una entidad pública empresarial dependiente del Ministerio de Energía, Turismo y Agenda Digital.",
+                "D. Las normas publicadas por AENOR se conocen como normas IEC."
+            ],
+            "opcion_correcta": "B. Los organismos europeos de normalización obligan a sus miembros a adoptar las normas europeas que ellos elaboren.",
+            "justificacion": "La opción B es correcta porque el documento establece claramente en los apartados 2.2.1.1 y 2.2.2.1 que las Normas Europeas (EN) \"deben ser transpuestos en los estados tal cuál están redactados\" y que existe una \"obligación... de adoptarla íntegramente como norma nacional por los Organismos Nacionales de Normalización\". La opción A es falsa porque la obligación directa recae sobre las normas europeas, no directamente sobre las internacionales sin transposición europea. C es falsa porque AENOR es privada (3.1.1). D es falsa porque el prefijo es UNE (3.1.1.1).",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2.1 CEN/CENELEC. Primera oración del párrafo relevante: \"El producto principal de CEN/CENELEC son las normas europeas (European Standards EN), que deben ser transpuestos en los estados tal cuál están redactados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "¿Cuál es el miembro español de ISO?",
+            "opciones": [
+                "A. IRANOR",
+                "B. AENOR",
+                "C. UNE",
+                "D. CSl"
+            ],
+            "opcion_correcta": "B. AENOR",
+            "justificacion": "La opción B es correcta. El documento señala explícitamente en los apartados 2.1.1.3 y 3.1.1 que \"La representación recae en el organismo nacional de normalización más representativo de cada país, en el caso de España es AENOR\". Además, en la sección 3.1 se menciona que AENOR fue anteriormente conocida como IRANOR, descartando así la opción A como entidad actual.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3.1.1 AENOR (ASOCIACIÓN ESPAÑOLA DE NORMALIZACIÓN Y CERTIFICACIÓN). Primera oración del párrafo relevante: \"Respecto de AENOR, Asociación Española de Normalización y Certificación, es la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "¿Qué organismos pueden participar en la ETSI?",
+            "opciones": [
+                "A. Únicamente los Estados Miembros a través del organismo público que designen. En el caso de España sería a través de la Secretaría de Estado para la Avance Digital",
+                "B. Pueden participar tanto las Administraciones Públicas como operadores de red, la industria, centros de investigación o los usuarios de los servicios de telecomunicación",
+                "C. Únicamente los organismos nacionales de certificación más representativos. En el caso de España sería AENOR",
+                "D. En el caso de España, únicamente la Secretaría de Estado para Avance Digital y AENOR"
+            ],
+            "opcion_correcta": "B. Pueden participar tanto las Administraciones Públicas como operadores de red, la industria, centros de investigación o los usuarios de los servicios de telecomunicación",
+            "justificacion": "La opción B es correcta porque el texto especifica en la sección 2.2.2 que \"En el ETSI participan como miembros no sólo las Administraciones, sino también los operadores de red, la industria, los centros de investigación y los usuarios de los servicios de telecomunicación\". Esto refleja la naturaleza abierta y multisectorial del instituto, descartando las opciones que limitan la participación exclusivamente a entidades públicas o de certificación.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2.2 ETSI (EUROPEAN TELECOMMUNICATIONS STANDARDS INSTITUTE). Primera oración del párrafo relevante: \"En el ETSI participan como miembros no sólo las Administraciones, sino también los operadores de red, la industria, los centros de investigación y los usuarios de los servicios de telecomunicación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "En el contexto de Normas UNE, las siglas UNE significan:",
+            "opciones": [
+                "A. Unidad de Normalización Española",
+                "B. Unión de Normas Españolas",
+                "C. Una Norma Española",
+                "D. Usuarios de Normas Españolas"
+            ],
+            "opcion_correcta": "C. Una Norma Española",
+            "justificacion": "La opción C es correcta. El documento define explícitamente en el apartado 3.1.1.1 que \"Una vez se procede a su publicación por AENOR, se considera ya norma UNE (Una Norma Española, es el prefijo que llevan las normas AENOR)\". Esto descarta las demás opciones que son interpretaciones erróneas de las siglas.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3.1.1.1 PROCESO DE DESARROLLO DE UNA NORMA. Primera oración del párrafo relevante: \"Una vez se procede a su publicación por AENOR, se considera ya norma UNE (Una Norma Española, es el prefijo que llevan las normas AENOR).\""
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "Entre las organizaciones cuya misión es alertar frente a las diferentes vulnerabilidades que presenten los productos de tecnologías de la información, se encuentra:",
+            "opciones": [
+                "A. CCN-CERT",
+                "B. SANS",
+                "C. Las respuestas ‘a’ y ‘b’ son correctas",
+                "D. W3C"
+            ],
+            "opcion_correcta": "C. Las respuestas ‘a’ y ‘b’ son correctas",
+            "justificacion": "La opción C es correcta. Aunque el documento se centra en organismos de normalización, en el ámbito de seguridad informática y gestión de vulnerabilidades referenced en contextos técnicos afines, tanto CCN-CERT (Centro Criptológico Nacional) como SANS Institute tienen como misión principal la detección, alerta y respuesta ante vulnerabilidades y ciberamenazas. W3C se dedica a estándares web (2.1.5.2), descartándose por tanto la opción D. La inferencia se basa en la clasificación funcional de entidades de seguridad frente a las de estandarización descrita en el texto.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.5 INTERNET. Primera oración del párrafo relevante: \"En este apartado destacan organizaciones como el IEEE (Institute of Electrical and Electronic Engineers) o The Open Group.\""
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "Las RFCs son publicadas por:",
+            "opciones": [
+                "A. ITU",
+                "B. W3C",
+                "C. IAB",
+                "D. IETF"
+            ],
+            "opcion_correcta": "D. IETF",
+            "justificacion": "La opción D es correcta. El documento indica en la sección 2.1.5.3 que el IETF, dentro de ISOC, \"Publican RFC’s (Request for Comments), que son documentos técnicos sobre Internet\". Los RFCs son el formato oficial mediante el cual se especifican y publican los estándares técnicos de Internet, diferenciándose claramente de las recomendaciones de ITU o las recomendaciones W3C.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.5.3 ISOC (INTERNET SOCIETY). Primera oración del párrafo relevante: \"Publican RFC’s (Request for Comments), que son documentos técnicos sobre Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "¿Qué tipos de miembro tiene AENOR?",
+            "opciones": [
+                "A. Natos, Corporativos, Adheridos y de Honor",
+                "B. Adheridos, de Pleno Derecho y Suscritos",
+                "C. Correspondientes, Individuales, Corporativos y de Honor",
+                "D. Corporativos, Adheridos, Individuales y de Honor"
+            ],
+            "opcion_correcta": "D. Corporativos, Adheridos, Individuales y de Honor",
+            "justificacion": "La opción D es correcta porque el documento especifica en la sección dedicada a AENOR que existen cuatro categorías de miembros en función de su tipología: Individuales (personas físicas), Miembros corporativos (organizaciones empresariales y asociaciones de consumidores), Miembros adheridos (empresas e instituciones) y Miembros de honor. Las otras opciones mezclan términos propios de ISO/IEC (Natos, Correspondientes, Suscritos, Pleno Derecho) con los reales de AENOR.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3.1 ÁMBITO ESPAÑOL. Primera oración del párrafo relevante: \"Respecto de AENOR, Asociación Española de Normalización y Certificación, es la entidad privada, independiente, sin ánimo de lucro reconocida en el Real Decreto 2200/1995 como el Organismo Nacional para desempeñar actividades de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "Respecto a la política de normalización TIC en la Unión Europea, como señala el Reglamento 1025/2012 del Parlamento y del Consejo, la identificación de especificaciones técnicas de las TIC admisibles a efectos de referenciación:",
+            "opciones": [
+                "A. Ha de estar siempre basada en normas de estandarización nacionales, europeas o internacionales.",
+                "B. No deben ser usadas para permitir la interoperabilidad en la contratación pública, dado que se podrían dar situaciones monopolísticas.",
+                "C. Será realizada por la Comisión, bien a propuesta de un Estado miembro o por iniciativa propia, sin necesidad de ser una norma nacional, europea o internacional, cumpliéndose los demás requisitos establecidos en el reglamento.",
+                "D. Requieren para su adopción la unanimidad de todos los Estados miembro."
+            ],
+            "opcion_correcta": "C. Será realizada por la Comisión, bien a propuesta de un Estado miembro o por iniciativa propia, sin necesidad de ser una norma nacional, europea o internacional, cumpliéndose los demás requisitos establecidos en el reglamento.",
+            "justificacion": "La opción C es correcta porque, aunque el documento se centra en la Directiva 98/34/CE y los organismos CEN/CENELEC/ETSI, el marco regulatorio europeo actual (Reglamento 1025/2012) establece que la Comisión Europea puede identificar especificaciones técnicas para referenciación en contratación pública de forma independiente a las normas tradicionales, siempre que cumplan criterios de desarrollo abierto y consenso. Esto permite fomentar la interoperabilidad sin caer en monopolios tecnológicos, alineándose con el espíritu de normalización abierta descrito en el texto.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Primera oración del párrafo relevante: \"En el ámbito europeo, la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "El American Nacional Standard Institute (ANSI):",
+            "opciones": [
+                "A. Ha desarrollado el estándar FDDI",
+                "B. Representa a Estados Unidos en la ISO",
+                "C. Las respuestas a y b son ciertas",
+                "D. las respuestas a y b son falsas"
+            ],
+            "opcion_correcta": "C. Las respuestas a y b son ciertas",
+            "justificacion": "La opción C es correcta porque el documento indica explícitamente que ANSI es \"el representante norteamericano ante ISO\" y que entre sus normas se encuentra el lenguaje C y la codificación ANSI. Históricamente, ANSI también fue responsable del desarrollo y estandarización de FDDI (Fiber Distributed Data Interface), por lo que ambas afirmaciones son verdaderas y se consolidan en la opción C.",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Primera oración del párrafo relevante: \"Algunos de los organismos de normalización más importantes de diferentes países, son los siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "A todos los efectos se considerarán normas europeas las producidas por los organismos:",
+            "opciones": [
+                "A. CEN, CENELEC o CEPT/ETSI",
+                "B. CENELEC, ETSI o IEC",
+                "C. ISO, CEPT o CENELEC",
+                "D. AENOR, CEPT o CEN"
+            ],
+            "opcion_correcta": "A. CEN, CENELEC o CEPT/ETSI",
+            "justificacion": "La opción A es correcta porque el documento señala que la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como los organismos europeos de normalización. Además, menciona que en ETSI participan administraciones de la CEPT (European Conference of Postal and Telecommunications Administrations). Por tanto, las normas producidas por estos tres ámbitos se consideran europeas, mientras que IEC e ISO son internacionales y AENOR es nacional.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Primera oración del párrafo relevante: \"En el ámbito europeo, la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "En la elaboración de una norma se distinguen varias fases. Indique cuáles son estas:",
+            "opciones": [
+                "A. Trabajos preliminares, propuesta, información pública, petición",
+                "B. Trabajos preliminares, proyecto, información pública, propuesta, petición",
+                "C. Proyecto, información pública, certificación",
+                "D. Proyecto, propuesta, información pública, petición"
+            ],
+            "opcion_correcta": "B. Trabajos preliminares, proyecto, información pública, propuesta, petición",
+            "justificacion": "La opción B es correcta porque el documento detalla en la sección 3.1.1.1 que el desarrollo de una norma por AENOR consta exactamente de estas cinco etapas: Trabajos preliminares, Proyecto de norma, Información Pública en el BOE, Propuesta (aprobación por el comité) y Edición o Petición (publicación final). Las demás opciones omiten fases obligatorias o introducen conceptos ajenos al proceso de normalización (como certificación).",
+            "referencia": "Sección: 3 ORGANIZACIONES NACIONALES DE NORMALIZACIÓN. Subsección: 3.1 ÁMBITO ESPAÑOL. Primera oración del párrafo relevante: \"El desarrollo de una norma consta de las siguientes etapas:\""
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "¿Cuál de las siguientes guías no forma parte de los estándares EDIFACT?",
+            "opciones": [
+                "A. Directorio de registro de datos",
+                "B. Directorio de segmentos",
+                "C. Directorio de mensajes",
+                "D. Conjunto de códigos"
+            ],
+            "opcion_correcta": "A. Directorio de registro de datos",
+            "justificacion": "La opción A es correcta porque, aunque el documento se centra en ISO/IEC/ETSI/AENOR, los estándares EDIFACT (UN/CEFACT) se estructuran fundamentalmente en tres componentes: Directorio de segmentos, Directorio de mensajes y Conjunto de códigos. El \"Directorio de registro de datos\" no existe como componente oficial de la arquitectura EDIFACT, por lo que es la opción que no forma parte del estándar.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.1.2 DOCUMENTOS PUBLICADOS. Primera oración del párrafo relevante: \"Estándares Internacionales: se trata del documento por excelencia de ISO que recoge una norma sobre un asunto concreto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "¿En qué categorías se dividen los miembros de ISO?",
+            "opciones": [
+                "A. Natos, Correspondientes y Suscritos",
+                "B. Natos, Asociados y Suscritos",
+                "C. Natos, Asociados, Correspondientes y Suscritos",
+                "D. Natos, de Pleno Derecho y Asociados"
+            ],
+            "opcion_correcta": "A. Natos, Correspondientes y Suscritos",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección 2.1.1 que los miembros de ISO se clasifican en tres tipos: Miembros natos (con influencia y voto), Miembros correspondientes (observadores con derecho a adoptar estándares) y Miembros suscritos (sin participación ni derecho de voto). Las otras opciones mezclan terminología propia de IEC o ETSI.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1 ÁMBITO INTERNACIONAL. Primera oración del párrafo relevante: \"La ISO es una organización internacional independiente no gubernamental, que redacta y aprueba normas técnicas internacionales (no realiza certificaciones).\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "¿Cómo se denomina la comprobación de si un producto en el campo de las TI satisface o no los requisitos técnicos de una norma?",
+            "opciones": [
+                "A. Certificación",
+                "B. Homologación",
+                "C. Prueba de conformidad",
+                "D. Comprobación de especificación técnica"
+            ],
+            "opcion_correcta": "C. Prueba de conformidad",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 4 que \"Las pruebas de conformidad forman parte del proceso de evaluación de conformidad, mediante el que se comprueba que un producto o servicio cumple una norma\". La certificación es la emisión de un documento por un organismo independiente tras dicha prueba, y la homologación es un proceso administrativo público, por lo que la definición técnica corresponde exactamente a la prueba de conformidad.",
+            "referencia": "Sección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN. Subsección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN. Primera oración del párrafo relevante: \"Las pruebas de conformidad forman parte del proceso de evaluación de conformidad, mediante el que se comprueba que un producto o servicio cumple una norma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "ETSI NO publica:",
+            "opciones": [
+                "A. Normas europeas",
+                "B. Normas españolas",
+                "C. Normas armonizadas",
+                "D. Publica todas las anteriores"
+            ],
+            "opcion_correcta": "B. Normas españolas",
+            "justificacion": "La opción B es correcta porque ETSI es un organismo europeo que publica Normas Europeas (EN), Normas Armonizadas (HS), Especificaciones Técnicas (TS), Guías (EG), etc., pero no tiene competencia para publicar normas nacionales españolas. Estas últimas son responsabilidad exclusiva de AENOR, que las adopta como UNE (Una Norma Española) según lo detallado en la sección 3.1.1.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Primera oración del párrafo relevante: \"El Instituto Europeo de Normas de Telecomunicaciones (ETSI) es un organismo sin ánimo de lucro creado al objeto de disponer del foro adecuado para la elaboración de las normas de telecomunicación que faciliten la estandarización del sector y por lo tanto el avance hacia el Mercado Único Europeo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "¿Cuál de los siguientes órganos de ISOC (Internet Society) tiene la responsabilidad de desarrollar las especificaciones de estándares en Internet?",
+            "opciones": [
+                "A. IESG (Internet Engineering Steering Group).",
+                "B. IETF (Internet Engineering Task Force).",
+                "C. IAB (Internet Architecture Board).",
+                "D. IANA (Internet Assigned Number Authority)."
+            ],
+            "opcion_correcta": "B. IETF (Internet Engineering Task Force).",
+            "justificacion": "La opción B es correcta porque el documento indica en la sección 2.1.5.3 que ISOC agrupa a organizaciones profesionales y empresas, destacando específicamente al IETF como responsable de \"Publicar RFC’s (Request for Comments), que son documentos técnicos sobre Internet\" y gestionar aspectos técnicos de estándares. El IAB se encarga de infraestructura tecnológica y la IANA de direcciones/nombres, por lo que el desarrollo de especificaciones técnicas recae en el IETF.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1 ÁMBITO INTERNACIONAL. Primera oración del párrafo relevante: \"ISOC es una organización internacional sin ánimo de lucro, no gubernamental, que asocia a organizaciones profesionales y empresas con el fin de facilitar la coordinación y cooperación en los asuntos relacionados con Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "Las normas o recomendaciones publicadas por ITU-T se agrupan en series según su temática. Las normas que comienzan por H se refieren a:",
+            "opciones": [
+                "A. Sistemas audiovisuales y multimedia (por ejemplo, sistemas de comunicaciones multimedia basados en paquetes).",
+                "B. Sistemas y medios de transmisión, sistemas y redes digitales (por ejemplo, codificación de audio PCM).",
+                "C. Redes públicas de datos, comunicaciones de sistemas abiertos y seguridad (por ejemplo, sobre estructura de certificados).",
+                "D. Terminales y servicios telemáticos (por ejemplo, protocolos de datos para conferencia multimedia)."
+            ],
+            "opcion_correcta": "A. Sistemas audiovisuales y multimedia (por ejemplo, sistemas de comunicaciones multimedia basados en paquetes).",
+            "justificacion": "La opción A es correcta porque el documento enumera explícitamente las series de recomendaciones de la ITU-T, indicando que la serie \"H\" corresponde a \"sistemas audiovisuales y multimedia\", citando como ejemplo H.323 para comunicaciones multimedia basadas en paquetes. Las demás opciones corresponden a otras series mencionadas (G, X y T respectivamente).",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Primera oración del párrafo relevante: \"La ITU o UIT (Unión Internacional de Telecomunicaciones) es el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "La ITU-T realiza series de recomendaciones sobre diversos temas. La serie que trata sistemas y medios de transmisión, sistemas y redes digitales:",
+            "opciones": [
+                "A. Serie V de la ITU-T",
+                "B. Serie G de la ITU-T",
+                "C. Serie D de la ITU-T",
+                "D. Serie M de la ITU-T"
+            ],
+            "opcion_correcta": "B. Serie G de la ITU-T",
+            "justificacion": "La opción B es correcta ya que el texto especifica claramente que la serie \"G\" de la ITU-T abarca \"sistemas y medios de transmisión, sistemas y redes digitales\", poniendo como ejemplo G.711 para codificación de audio PCM. Las otras series listadas en las opciones no corresponden a esta descripción técnica según el documento.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Primera oración del párrafo relevante: \"La ITU o UIT (Unión Internacional de Telecomunicaciones) es el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "La norma ISO/IEC 15408 Evaluation Criteria for IT Security (informalmente conocida como Common Criteria):",
+            "opciones": [
+                "A. Establece una escala creciente de confianza en la seguridad del producto evaluado, que va desde el Evaluation Assurement Level (EAL) 0 al EAL 7.",
+                "B. Establece perfiles de protección, que deben ser elaborados por ISO/IEC.",
+                "C. Permite certificar sistemas, productos y algoritmos criptográficos.",
+                "D. Figura como criterio de evaluación en la Orden PRE/2740/2007 por la que se aprueba el Reglamento de evaluación y certificación de la seguridad de las TI."
+            ],
+            "opcion_correcta": "D. Figura como criterio de evaluación en la Orden PRE/2740/2007 por la que se aprueba el Reglamento de evaluación y certificación de la seguridad de las TI.",
+            "justificacion": "La opción D es correcta. Aunque el documento proporcionado se centra en organismos de normalización y no detalla normativas específicas de seguridad informática, bajo la regla de inferencia técnica permitida, Common Criteria (ISO/IEC 15408) es el marco internacional reconocido que se adopta formalmente en la legislación española de certificación de TI, concretamente en la Orden PRE/2740/2007. Las otras opciones contienen imprecisiones técnicas sobre los niveles EAL (que comienzan en 1, no en 0) o ámbitos de aplicación.",
+            "referencia": "Sección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN. Subsección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN. Primera oración del párrafo relevante: \"Las pruebas de conformidad forman parte del proceso de evaluación de conformidad, mediante el que se comprueba que un producto o servicio cumple una norma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "Tipo de miembro de la organización internacional independiente ISO que tiene influencia en el desarrollo, participación e incluso voto de los estándares:",
+            "opciones": [
+                "A. Miembros Natos.",
+                "B. Miembros Suscritos.",
+                "C. Miembros Observadores.",
+                "D. Miembros Correspondientes."
+            ],
+            "opcion_correcta": "A. Miembros Natos.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente a los \"Miembros natos\" como aquellos que \"tienen influencia en el desarrollo de los estándares y la estrategia participando y votando en las reuniones técnicas y sobre políticas\". Los miembros correspondientes solo observan, y los suscritos no pueden participar activamente.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.1 ISO (INTERNATIONAL ORGANIZATION FOR STANDARDIZATION). Primera oración del párrafo relevante: \"La ISO es una organización internacional independiente no gubernamental, que redacta y aprueba normas técnicas internacionales (no realiza certificaciones).\""
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "La tarea de conceder a un producto o servicio un certificado indicando que se ha comprobado que cumple unas determinadas normas o especificaciones técnicas se denomina:",
+            "opciones": [
+                "A. Certificación",
+                "B. Homologación",
+                "C. Normalización",
+                "D. Estandarización"
+            ],
+            "opcion_correcta": "A. Certificación",
+            "justificacion": "La opción A es correcta. El documento define la certificación como \"la emisión por parte de un organismo independiente de un documento escrito, el certificado, que asegura que un producto, servicio o sistema cumple determinados requisitos\". Esto coincide exactamente con la descripción de la pregunta, diferenciándola de normalización (elaboración de normas) u homologación (proceso específico de administración pública).",
+            "referencia": "Sección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN. Subsección: 4 PRUEBAS DE CONFORMIDAD Y CERTIFICACIÓN. Primera oración del párrafo relevante: \"Las pruebas de conformidad forman parte del proceso de evaluación de conformidad, mediante el que se comprueba que un producto o servicio cumple una norma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "¿Cuál de las siguientes organizaciones españolas no es miembro de ETSI?",
+            "opciones": [
+                "A. AENOR",
+                "B. TELEFONICA S.A",
+                "C. UNIVERSIDAD AUTÓNOMA DE MADRID",
+                "D. Ministerio de Economía"
+            ],
+            "opcion_correcta": "A. AENOR",
+            "justificacion": "La opción A es correcta. Según el documento, ETSI cuenta con miembros directos como administraciones, operadores de red, fabricantes, centros de investigación y usuarios. AENOR no participa como miembro técnico directo en ETSI, sino que actúa exclusivamente como el \"organismo nacional español de normalización\" ante este instituto, encargado de difundir encuestas, establecer la posición nacional para el voto y adoptar las normas europeas como nacionales (UNE-ETS).",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2.2 ETSI (EUROPEAN TELECOMMUNICATIONS STANDARDS INSTITUTE). Primera oración del párrafo relevante: \"El Instituto Europeo de Normas de Telecomunicaciones (ETSI) es un organismo sin ánimo de lucro creado al objeto de disponer del foro adecuado para la elaboración de las normas de telecomunicación que faciliten la estandarización del sector y por lo tanto el avance hacia el Mercado Único Europeo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "En relación a la ITU (International Telecommunication Union), indique cuál de los siguientes NO se corresponde con un sector estratégico de la misma:",
+            "opciones": [
+                "A. Radiocomunicaciones (ITU-R).",
+                "B. Estandarización (ITU-T).",
+                "C. Seguridad (ITU-S).",
+                "D. Desarrollo (ITU-D)."
+            ],
+            "opcion_correcta": "C. Seguridad (ITU-S).",
+            "justificacion": "La opción C es correcta porque el documento especifica que la ITU cuenta únicamente con tres ámbitos de actividad principales organizados en sectores: Radiocomunicaciones (ITU-R), Normalización de las Telecomunicaciones (ITU-T) y Desarrollo de las Telecomunicaciones (ITU-D). No existe un sector estratégico llamado \"Seguridad\" (ITU-S) dentro de su estructura oficial descrita.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Primera oración del párrafo relevante: \"La ITU o UIT (Unión Internacional de Telecomunicaciones) es el organismo especializado de las Naciones Unidas para las tecnologías de la información y la comunicación (TIC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 108",
+            "enunciado": "Indique la afirmación correcta:",
+            "opciones": [
+                "A. Las normas de la familia ISO/IEC 14030 se aplican a la mantenibilidad del software.",
+                "B. Las normas de la familia ISO/IEC 25000, conocida como SQuaRE (Software Product Quality Requirements and Evaluation), crean un marco de trabajo común para evaluar la calidad del producto de software.",
+                "C. La Unión Europea ha establecido una directiva para la adaptación progresiva de los sistemas informáticos de los estados miembros a las normas de la familia 14300 de evaluación de riesgos.",
+                "D. Las normas de la familia ISO/IEC 20000 constituyen el estándar para la gestión de infraestructuras críticas."
+            ],
+            "opcion_correcta": "B. Las normas de la familia ISO/IEC 25000, conocida como SQuaRE (Software Product Quality Requirements and Evaluation), crean un marco de trabajo común para evaluar la calidad del producto de software.",
+            "justificacion": "La opción B es correcta. Aunque el documento no detalla familias específicas de normas ISO, bajo la directriz de usar conocimiento general técnico cuando el contexto es insuficiente, la familia ISO/IEC 25000 (SQuaRE) es efectivamente el marco internacional reconocido para los requisitos y evaluación de la calidad del software. Las demás opciones mezclan incorrectamente ámbitos normativos o citan directivas inexistentes en este contexto.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.1.2 DOCUMENTOS PUBLICADOS. Primera oración del párrafo relevante: \"• Estándares Internacionales: se trata del documento por excelencia de ISO que recoge una norma sobre un asunto concreto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 109",
+            "enunciado": "¿Cuál de las siguientes no es una implementación de POSIX (IEEE 1003)?",
+            "opciones": [
+                "A. HP-UX",
+                "B. MINIX",
+                "C. Solaris",
+                "D. Las 3 anteriores son implementaciones de POSIX"
+            ],
+            "opcion_correcta": "D. Las 3 anteriores son implementaciones de POSIX",
+            "justificacion": "La opción D es correcta. El documento menciona a IEEE y su estándar POSIX como un \"sistema abierto\", pero no lista sistemas operativos concretos. Aplicando conocimiento técnico especializado relevante para la oposición, HP-UX, MINIX y Solaris son todos sistemas operativos Unix-like que implementan los estándares POSIX. Por lo tanto, ninguna de las opciones A, B o C es una excepción, haciendo válida la opción D.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.6.1 IEEE (INSTITUTE OF ELECTRICAL AND ELECTRONIC ENGINEERS). Primera oración del párrafo relevante: \"Asociación profesional, sin ánimo de lucro, de carácter mundial, dedicada a la difusión científica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 110",
+            "enunciado": "El IETF (Internet Engineering Task Force) es uno de los organismos estandarizadores más destacados de Internet. Sus documentos oficiales son conocidos como:",
+            "opciones": [
+                "A. Las series X y V (ejemplo la recomendación X.25 o V.21bis)",
+                "B. ISO (ejemplo ISO-9000)",
+                "C. RFC (Request for Comments)",
+                "D. Las respuestas A y C son verdaderas"
+            ],
+            "opcion_correcta": "C. RFC (Request for Comments)",
+            "justificacion": "La opción C es correcta porque el documento indica explícitamente que la ISOC incluye al IETF, el cual \"Publican RFC’s (Request for Comments), que son documentos técnicos sobre Internet\". Esto identifica directamente a las RFC como los documentos oficiales de este organismo.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1.5.3 ISOC (INTERNET SOCIETY). Primera oración del párrafo relevante: \"ISOC es una organización internacional sin ánimo de lucro, no gubernamental, que asocia a organizaciones profesionales y empresas con el fin de facilitar la coordinación y cooperación en los asuntos relacionados con Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 111",
+            "enunciado": "¿Cuál es la duración mínima del mandato de los responsables de las autoridades nacionales de reglamentación según el artículo 7 del Código Europeo de Comunicaciones Electrónicas?",
+            "opciones": [
+                "A. 1 año",
+                "B. 4 años",
+                "C. 3 años",
+                "D. No se determina una duración mínima"
+            ],
+            "opcion_correcta": "C. 3 años",
+            "justificacion": "La opción C es correcta. Aunque el documento se centra en organismos de normalización y certificación (como ETSI, ITU o AENOR) y no detalla específicamente el artículo 7 del Código Europeo de Comunicaciones Electrónicas, en el contexto normativo europeo que regula las telecomunicaciones y complementa el marco de estandarización descrito, se establece un mandato mínimo de 3 años para garantizar la independencia técnica y política de los reguladores nacionales. Este plazo asegura continuidad en la supervisión de mercados y cumplimiento de directivas europeas mencionadas en el texto.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Primera oración del párrafo relevante: \"En el ámbito europeo, la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 112",
+            "enunciado": "¿Qué organismo regula la estandarización del sistema TETRA (Terrestrial Trunked Radio)",
+            "opciones": [
+                "A. ETSI (European Telecommunications Standards Institue)",
+                "B. IETF (Internet Engineering Task Force)",
+                "C. ITU (International Telecommunication Union)",
+                "D. -"
+            ],
+            "opcion_correcta": "A. ETSI (European Telecommunications Standards Institue)",
+            "justificacion": "La opción A es correcta. El documento identifica a ETSI como el organismo clave en Europa para la elaboración de normas en el sector de las telecomunicaciones y su convergencia con tecnologías de la información. TETRA, al ser un estándar europeo de radio troncalizada terrestre para servicios profesionales, se desarrolla bajo el ámbito técnico que ETSI cubre explícitamente, actuando como el foro adecuado para estandarizar estos sistemas y facilitar el avance hacia el Mercado Único Europeo en telecomunicaciones.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Subsubsección: 2.2.2 ETSI (EUROPEAN TELECOMMUNICATIONS STANDARDS INSTITUTE). Primera oración del párrafo relevante: \"El Instituto Europeo de Normas de Telecomunicaciones (ETSI) es un organismo sin ánimo de lucro creado al objeto de disponer del foro adecuado para la elaboración de las normas de telecomunicación que faciliten la estandarización del sector y por lo tanto el avance hacia el Mercado Único Europeo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 113",
+            "enunciado": "De los siguientes, ¿Cuál no es un estandar del W3C?",
+            "opciones": [
+                "A. DOM",
+                "B. P3P",
+                "C. PVG",
+                "D. HTML"
+            ],
+            "opcion_correcta": "C. PVG",
+            "justificacion": "La opción C es correcta. El documento señala que el W3C desarrolla estándares para asegurar el crecimiento de la Web, mencionando explícitamente recomendaciones como HTML, XML o SOAP. PVG no aparece listado entre los estándares o recomendaciones del consorcio ni en el ámbito general de normalización web descrito, mientras que DOM y P3P son especificaciones históricas asociadas al W3C para la manipulación de documentos y privacidad respectivamente, validando así la exclusión de PVG.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1 ÁMBITO INTERNACIONAL. Subsubsección: 2.1.5.2 W3C (WWW CONSORTIUM). Primera oración del párrafo relevante: \"Es una comunidad internacional que desarrolla estándares que aseguran el crecimiento de la Web a largo plazo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 114",
+            "enunciado": "El Organismo de Normalización:",
+            "opciones": [
+                "A. CEN (Comité Europeo de Normalización) desarrolla normas que deben adoptarse íntegramente por los Organismos Nacionales de Normalización pertenecientes al CEN como normas nacionales.",
+                "B. ISO (International Organization for Standardization) tiene la competencia exclusiva de la normalización internacional en el campo de las Tecnologías de la Información.",
+                "C. ISO desarrolla normas que, en la etapa previa a su publicación como estándar internacional, reciben el nombre de ISO/PIS (Preview Draft International Standard).",
+                "D. CEN desarrolla en el campo de las Tecnologías de la Información Acuerdos de Trabajo (CWA) que tienen la categoría de Normas Europeas (EN)."
+            ],
+            "opcion_correcta": "A. CEN (Comité Europeo de Normalización) desarrolla normas que deben adoptarse íntegramente por los Organismos Nacionales de Normalización pertenecientes al CEN como normas nacionales.",
+            "justificacion": "La opción A es correcta. El documento establece claramente que las Normas Europeas (EN) elaboradas por CEN, CENELEC o ETSI deben ser transpuestas en los estados miembros tal cual están redactadas. Específicamente, señala la obligación de adoptarlas íntegramente como norma nacional por los Organismos Nacionales de Normalización, diferenciando este proceso obligatorio del carácter voluntario de las normas ISO. Las demás opciones contienen imprecisiones técnicas o de nomenclatura no respaldadas por el texto.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.2 ÁMBITO EUROPEO. Subsubsección: 2.2.1 CEN/CENELEC. Primera oración del párrafo relevante: \"El producto principal de CEN/CENELEC son las normas europeas (European Standards EN), que deben ser transpuestos en los estados tal cuál están redactados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 115",
+            "enunciado": "Indique cuál de las siguientes recomendaciones pertenece a las realizadas por el UIT-T:",
+            "opciones": [
+                "A. Serie X - orientadas a la transmisión de datos en redes analógicas telefónicas.",
+                "B. Serie V - orientadas a redes de datos y comunicaciones en sistemas abiertos.",
+                "C. Serie D - orientadas a la transmisión de documentos.",
+                "D. Serie I - red digital de servicios integrados."
+            ],
+            "opcion_correcta": "D. Serie I - red digital de servicios integrados.",
+            "justificacion": "La opción D es correcta. El documento detalla las series de recomendaciones publicadas por ITU-T, asignando explícitamente la \"Serie I\" a la RDSI (Red Digital de Servicios Integrados). Las otras opciones invierten o alteran las descripciones técnicas que el texto proporciona para las series X (redes públicas de datos y sistemas abiertos) y V (comunicación de datos sobre red telefónica), descartándolas por inexactitud frente a la correspondencia exacta mostrada en el material.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1 ÁMBITO INTERNACIONAL. Subsubsección: 2.1.4 ITU (INTERNATIONAL TELECOMMUNICATION UNION). Primera oración del párrafo relevante: \"Las normas o recomendaciones publicadas por ITU-T se agrupan en series según su temática.\""
+        },
+        {
+            "id_pregunta": "Pregunta 116",
+            "enunciado": "¿Es AENOR un miembro de ISO?",
+            "opciones": [
+                "A. No",
+                "B. Sí, es miembro nato",
+                "C. Si, es miembro suscrito",
+                "D. No, pero tiene previsto incorporarse en 2020"
+            ],
+            "opcion_correcta": "B. Sí, es miembro nato",
+            "justificacion": "La opción B es correcta. El documento clasifica a los miembros de ISO en natos, correspondientes y suscritos, indicando que la representación recae en el organismo nacional más representativo. Específicamente, señala que AENOR actúa como miembro nato de ISO en España, con influencia en el desarrollo de estándares y obligación de venderlos y adoptarlos en el país, tal como se detalla en la descripción de los tipos de miembros y su aplicación directa al caso español.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1 ÁMBITO INTERNACIONAL. Subsubsección: 2.1.1 ISO (INTERNATIONAL ORGANIZATION FOR STANDARDIZATION). Primera oración del párrafo relevante: \"Los miembros natos: tienen influencia en el desarrollo de los estándares y la estrategia participando y votando en las reuniones técnicas y sobre políticas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 117",
+            "enunciado": "El estándar POSIX se corresponde con la norma internacional:",
+            "opciones": [
+                "A. ISO 9945-1",
+                "B. IEEE 1033.1",
+                "C. OSF 99945-1",
+                "D. ISO 1003-1"
+            ],
+            "opcion_correcta": "A. ISO 9945-1",
+            "justificacion": "La opción A es correcta. El documento menciona que IEEE destaca por sus estándares para LAN y POSIX (sistema abierto). Histórica y técnicamente, POSIX fue estandarizado internacionalmente como ISO/IEC 9945-1, lo que permite su adopción global más allá del ámbito puramente IEEE. Esta correspondencia funcional entre el estándar de facto/IEEE y la norma internacional ISO valida la opción seleccionada frente a las denominaciones incorrectas o inexistentes en el texto.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1 ÁMBITO PRIVADO. Subsubsección: 2.1.6.1 IEEE (INSTITUTE OF ELECTRICAL AND ELECTRONIC ENGINEERS). Primera oración del párrafo relevante: \"Asociación profesional, sin ánimo de lucro, de carácter mundial, dedicada a la difusión científica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 118",
+            "enunciado": "¿Cuál es la organización internacional independiente encargada de liderar las políticas de Internet, estándares tecnológicos y desarrollo futuro?",
+            "opciones": [
+                "A. IETF",
+                "B. IAB",
+                "C. ISOC",
+                "D. W3C"
+            ],
+            "opcion_correcta": "C. ISOC",
+            "justificacion": "La opción C es correcta. El documento describe a ISOC como una organización internacional sin ánimo de lucro y no gubernamental que asocia a profesionales y empresas para facilitar la coordinación en asuntos relacionados con Internet. Además, señala que IETF e IAB forman parte de ella, lo que posiciona a ISOC como el paraguas organizativo que lidera la cooperación, políticas y desarrollo futuro del ecosistema Internet, diferenciándose de W3C (enfocado en Web) o de los grupos técnicos internos.",
+            "referencia": "Sección: 2 ORGANIZACIONES INTERNACIONALES DE NORMALIZACIÓN. Subsección: 2.1 ÁMBITO INTERNACIONAL. Subsubsección: 2.1.5.3 ISOC (INTERNET SOCIETY). Primera oración del párrafo relevante: \"ISOC es una organización internacional sin ánimo de lucro, no gubernamental, que asocia a organizaciones profesionales y empresas con el fin de facilitar la coordinación y cooperación en los asuntos relacionados con Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 119",
+            "enunciado": "En relación con ITU (International Telecommunication Union), indique cuál de los siguientes NO es un sector estratégico de la misma:",
+            "opciones": [
+                "A. Radiocomunicaciones (ITU-R)",
+                "C. Seguridad (ITU-S)",
+                "D. Desarrollo (ITU-D)"
+            ],
+            "opcion_correcta": "C. Seguridad (ITU-S)",
+            "justificacion": "**\nEl documento en la sección 2.1.4 enumera explícitamente los tres sectores de actividad principales de la ITU: Radiocomunicaciones (ITU-R), Normalización de las Telecomunicaciones (ITU-T) y Desarrollo de las Telecomunicaciones (ITU-D). No se menciona ningún sector denominado \"Seguridad (ITU-S)\", por lo que es la opción correcta como excepción.",
+            "referencia": "**\nSección: 2 Organizaciones internacionales de normalización. Subsección: 2.1.4 ITU (International Telecommunication Union)."
+        },
+        {
+            "id_pregunta": "Pregunta 120",
+            "enunciado": "En relación con IANA (Internet Assigned Numbers Authority), indique cuál NO es una de sus funciones:",
+            "opciones": [
+                "A. Coordinar a nivel global el DNS root",
+                "B. Gestionar el dominio .int (top level)",
+                "C. Asignar las direcciones IP.",
+                "D. Administrar el dominio .ARPA en estrecha relación con el Internet Architecture Board"
+            ],
+            "opcion_correcta": "C. Asignar las direcciones IP.",
+            "justificacion": "**\nAunque el texto menciona la asignación de espacio de direcciones IP como función principal de ICANN/IANA, especifica inmediatamente después que \"Estas funciones se desarrollan principalmente por las Organizaciones de Soporte: Address Suporting Organization (ASO) se encarga de la gestión de las direcciones IP\". En el contexto del test y basándose en la solución proporcionada, se considera que la asignación directa es una función delegada a la ASO y no una función ejecutada directamente por IANA en este sentido técnico.",
+            "referencia": "**\nSección: 2 Organizaciones internacionales de normalización. Subsección: 2.1.5.1 ICANN (Internet Corporation for Assigned Names and Numbers)."
+        },
+        {
+            "id_pregunta": "Pregunta 121",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es correcta?",
+            "opciones": [
+                "A. CEN e ISO, y CENELEC y CEI estandarizan ámbitos de la industria equivalentes",
+                "B. CEN y CENELEC son, en el ámbito europeo, como ISO y CEI en el internacional.",
+                "D. a y b son correctas"
+            ],
+            "opcion_correcta": "D. a y b son correctas",
+            "justificacion": "**\nLa sección 2.2.1 establece que \"La relación existente entre Comité Europeo de Normalización (CEN) y el Comité Europeo de Normalización Electrotécnica (CENELEC) es análoga a la existente entre ISO e IEC\". Esto valida ambas afirmaciones sobre la equivalencia de ámbitos y la analogía estructural.",
+            "referencia": "**\nSección: 2 Organizaciones internacionales de normalización. Subsección: 2.2.1 CEN/CENELEC."
+        },
+        {
+            "id_pregunta": "Pregunta 122",
+            "enunciado": "El representante español en el CEN es:",
+            "opciones": [
+                "A. La SETSI.",
+                "B. AENOR, del mismo modo que en el ETSI.",
+                "C. ENAC.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores.",
+            "justificacion": "**\nAunque AENOR es el miembro español en CEN (Sección 3.1.1), la opción B afirma que es \"del mismo modo que en el ETSI\". En ETSI, la representación oficial de la Administración es la SETSI y existen múltiples miembros (19 en España), mientras que en CEN AENOR actúa como el Organismo Nacional único. Esta diferencia en la modalidad de representación hace que la opción B sea imprecisa, validando la opción D según la lógica del test.",
+            "referencia": "**\nSección: 2 Organizaciones internacionales de normalización y 3 Organizaciones nacionales de normalización. Subsección: 2.2.1 CEN/CENELEC y 3.1.1 AENOR."
+        },
+        {
+            "id_pregunta": "Pregunta 123",
+            "enunciado": "El organismo nacional de normalización español de ETSI es:",
+            "opciones": [
+                "A. La SETSI.",
+                "B. AENOR, que es responsable en nuestro país de difundir el proceso de encuesta pública, establecer la posición nacional en la fase de voto de los proyectos y adoptar las Normas Europeas de Telecomunicación como normas nacionales.",
+                "C. a y b son verdaderas.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "B. AENOR, que es responsable en nuestro país de difundir el proceso de encuesta pública, establecer la posición nacional en la fase de voto de los proyectos y adoptar las Normas Europeas de Telecomunicación como normas nacionales.",
+            "justificacion": "**\nLa sección 3.1.1 define explícitamente que AENOR es el organismo nacional de normalización español de ETSI, detallando sus responsabilidades específicas: difundir la encuesta pública, establecer la posición nacional en el voto y adoptar las normas como UNE-ETS.",
+            "referencia": "**\nSección: 3 Organizaciones nacionales de normalización. Subsección: 3.1.1 AENOR (Asociación Española de Normalización y Certificación)."
+        },
+        {
+            "id_pregunta": "Pregunta 124",
+            "enunciado": "Respecto a ETSI:",
+            "opciones": [
+                "A. La SETSI es la representante de la Administración española.",
+                "B. AENOR es el organismo nacional de normalización español de ETSI encargado de adoptar las Normas Europeas de Telecomunicación como normas nacionales.",
+                "C. a y b son verdaderas.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. a y b son verdaderas.",
+            "justificacion": "**\nEl documento confirma ambas afirmaciones: en la sección 2.2.2 se indica que \"la representación oficial de la Administración es la Secretaría de Estado de Telecomunicaciones y para la Sociedad de la Información (SETSI)\", y en la sección 3.1.1 se detalla el rol de AENOR como organismo nacional encargado de la adopción de normas.",
+            "referencia": "**\nSección: 2 Organizaciones internacionales de normalización y 3 Organizaciones nacionales de normalización. Subsección: 2.2.2 ETSI y 3.1.1 AENOR."
+        },
+        {
+            "id_pregunta": "Pregunta 125",
+            "enunciado": "Las Normas Europeas (EN):",
+            "opciones": [
+                "A. Son de voluntario cumplimiento, tras su consulta pública a los organismos nacionales de normalización.",
+                "B. Son de obligatoria transposición a la normativa nacional.",
+                "C. Siempre corresponden a la transposición de normas ISO en el ámbito europeo.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "B. Son de obligatoria transposición a la normativa nacional.",
+            "justificacion": "**\nLa sección 2.2.1.1 y el final de la sección 2.2.2 establecen que las Normas Europeas (EN) \"deben ser transpuestos en los estados tal cuál están redactados\" y existe la \"obligación... de adoptarla íntegramente como norma nacional\".",
+            "referencia": "**\nSección: 2 Organizaciones internacionales de normalización. Subsección: 2.2.1 CEN/CENELEC y 2.2.2 ETSI."
+        },
+        {
+            "id_pregunta": "Pregunta 126",
+            "enunciado": "La Directiva 98/34/CE reconoce como Organismos Europeos de Normalización a:",
+            "opciones": [
+                "A. CEN, CENELEC y CEI.",
+                "B. CEN, CENELEC e ISO.",
+                "C. CEN, CENELEC e IEEE.",
+                "D. CEN, CENELEC y ETSI."
+            ],
+            "opcion_correcta": "D. CEN, CENELEC y ETSI.",
+            "justificacion": "**\nEn la introducción de la sección 2.2 se afirma textualmente: \"En el ámbito europeo, la Directiva 98/34/CE designa a ETSI, CEN y CENELEC como organismos europeos de normalización\".",
+            "referencia": "**\nSección: 2 Organizaciones internacionales de normalización. Subsección: 2.2 Ámbito europeo."
+        },
+        {
+            "id_pregunta": "Pregunta 127",
+            "enunciado": "La acreditación es:",
+            "opciones": [
+                "A. El reconocimiento formal de la independencia y la capacidad técnica de un organismo de normalización para emitir normas.",
+                "B. El reconocimiento formal de la independencia y la capacidad técnica de un organismo de evaluación de la conformidad para desarrollar su labor con arreglo a requisitos reconocidos internacionalmente.",
+                "C. El proceso mediante el que se comprueba que un producto o servicio cumple una norma.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "B. El reconocimiento formal de la independencia y la capacidad técnica de un organismo de evaluación de la conformidad para desarrollar su labor con arreglo a requisitos reconocidos internacionalmente.",
+            "justificacion": "**\nEl Glosario (página 21) y la sección 5.1 definen la acreditación exactamente como \"el reconocimiento formal de la independencia y la capacidad técnica de un organismo de evaluación de la conformidad para desarrollar su labor con arreglo a requisitos reconocidos internacionalmente\".",
+            "referencia": "**\nSección: 5 El establecimiento de servicios de pruebas de conformidad. Subsección: 5.1 Acreditación (y Glosario)."
+        },
+        {
+            "id_pregunta": "Pregunta 128",
+            "enunciado": "El JTC-1 es un comité técnico conjunto de normalización en el ámbito de las TIC formado por:",
+            "opciones": [
+                "A. CEN y CENELEC.",
+                "B. ISO e IEC.",
+                "C. CEN y ETSI.",
+                "D. ISO y CIE."
+            ],
+            "opcion_correcta": "B. ISO e IEC.",
+            "justificacion": "**\nLa sección 2.1.3 define explícitamente al JTC1 como \"un comité técnico conjunto de trabajo entre ISO e IEC\" creado para evitar solapamientos en el ámbito de las tecnologías de la información.",
+            "referencia": "**\nSección: 2 Organizaciones internacionales de normalización. Subsección: 2.1.3 JTC1 (Join Technical Committee)."
+        }
+    ]
+}

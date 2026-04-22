@@ -1,0 +1,1225 @@
+{
+    "nombre_tema": "Tema 71",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "De acuerdo a los ejes en los que se estructura el Plan España Digital 2026, seleccione en cual encuadría mejor el Big Data:",
+            "opciones": [
+                "A. Eje 4.",
+                "B. Eje 5.",
+                "C. Eje 6.",
+                "D. Eje 7."
+            ],
+            "opcion_correcta": "A. Eje 4.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección de normativa estatal que el \"Eje estratégico 4 de España Digital 2026\" se centra en la \"Economía del dato e Inteligencia Artificial\", impulsando procesos de Big Data junto con otros objetivos. Las demás opciones no corresponden a los ejes estratégicos mencionados en el texto para esta temática.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.3 Órganos y organismos. Normativa relevante. Subsubsección: 1.3.5 Normativa y órganos estatales. Primera oración del párrafo relevante: \"Eje estratégico 4 de España Digital 2026: Economía del dato e Inteligencia Artificial.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Entre las técnicas usadas en minería de datos se encuentran las redes neuronales artificiales, ¿cuál de los siguientes es uno de sus modelos?",
+            "opciones": [
+                "A. Redes de Shelman.",
+                "B. Redes de Coperfield.",
+                "C. Redes ART.",
+                "D. Máquina de Gauss."
+            ],
+            "opcion_correcta": "C. Redes ART.",
+            "justificacion": "La opción C es correcta porque el documento valida las \"Redes neuronales o Neural Networks\" como una técnica fundamental en ciencia de datos para detectar patrones y realizar aprendizaje automático (Sección 1.1). Aunque el término específico \"ART\" no se detalla, pertenece a la categoría funcional de redes neuronales artificiales descritas en el texto (como perceptrones o deep learning), mientras que las otras opciones no tienen sustento conceptual en el marco de inteligencia artificial presentado en el documento.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"Redes neuronales o Neural Networks. Se definen un conjunto de neuronas artificiales conectadas entre sí mediante envío de señales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿En qué tipo de técnica de minería de datos se utiliza el algoritmo IK-medoids?",
+            "opciones": [
+                "A. Predicción.",
+                "B. Categorización.",
+                "C. Clustering.",
+                "D. Estadísticas."
+            ],
+            "opcion_correcta": "C. Clustering.",
+            "justificacion": "La opción C es correcta porque el documento clasifica los algoritmos de ciencia de datos bajo \"Aprendizaje no supervisado\" e incluye explícitamente el \"Clustering\" y menciona el \"Algoritmo de k-medias (k-means)\" como ejemplo de partición de observaciones en grupos (Sección 3.1). El algoritmo K-medoids es una variante funcional del clustering para agrupar datos similares, alineándose con la definición de reducción y agrupación descrita en el texto.",
+            "referencia": "Sección: 3 Fundamentos estadísticos. Subsección: 3.1 Fundamentos matemáticos y estadísticos. Primera oración del párrafo relevante: \"➔ Aprendizaje no supervisado: • Clustering\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Qué técnica es usada para el modelado de datos en un proyecto de data science?",
+            "opciones": [
+                "A. Análisis Bayesiano.",
+                "B. Regresión Lineal.",
+                "C. SVM.",
+                "D. Todas las respuestas anteriores son ciertas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son ciertas.",
+            "justificacion": "La opción D es correcta porque el documento menciona todas estas técnicas como herramientas válidas para el modelado y análisis predictivo. En la sección de fundamentos y modelado se cita el \"Análisis bayesiano\" y los modelos de \"Regresión\" (lineal simple, múltiple) en el apartado de análisis predictivo (Sección 2.4.2), y las \"Máquinas de soporte vectorial o Support Vector Machines (SVM)\" en la introducción a la inteligencia artificial (Sección 1.1).",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.4 Modelado. Subsubsección: 2.4.2 Análisis predictivo. Primera oración del párrafo relevante: \"Modelos que implementan el análisis predictivo:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Existen distintos tipos de algoritmos que se aplican en DataMining. ¿A qué categoría pertenece el algoritmo de Bayes Naive?",
+            "opciones": [
+                "A. Algoritmos de clasificación.",
+                "B. Algoritmos de regresión.",
+                "C. Algoritmos de segmentación.",
+                "D. Algoritmos de asociación."
+            ],
+            "opcion_correcta": "A. Algoritmos de clasificación.",
+            "justificacion": "La opción A es correcta porque el documento asocia el \"Análisis bayesiano\" con técnicas de inferencia y predicción donde se busca determinar la probabilidad de que una hipótesis sea cierta o una instancia pertenezca a una clase (Sección 2.4.2). Esto se alinea conceptualmente con los \"Modelos de clasificación\" descritos en el mismo apartado, que utilizan aprendizaje supervisado para predecir categorías, siendo Bayes Naive un algoritmo clásico dentro de esta categoría funcional.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.4 Modelado. Subsubsección: 2.4.2 Análisis predictivo. Primera oración del párrafo relevante: \"Algunas técnicas para el análisis predictivo: ◆ Análisis bayesiano.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Dentro de un cluster HDFS (Hadoop Distributed File System), una de las funcionalidades del elemento software llamado \"NameNode\" es:",
+            "opciones": [
+                "A. Regular el acceso a los ficheros por los clientes.",
+                "B. Servir las peticiones de lectura del sistema de fichero de los clientes.",
+                "C. Servir las peticiones de escritura del sistema de fichero de los clientes.",
+                "D. Este elemento software no existe dentro de la arquitectura HDFS."
+            ],
+            "opcion_correcta": "A. Regular el acceso a los ficheros por los clientes.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 4.1.2 a Apache Hadoop como un framework para el procesamiento distribuido que incluye HDFS (Sistema de ficheros distribuido). Aunque el término \"NameNode\" no se detalla explícitamente, la arquitectura de HDFS implica la gestión y seguridad del almacenamiento distribuido, alineándose con los principios de \"Seguridad de los datos\" y \"Gestión y trabajo colaborativo\" descritos en las secciones 1.4 y 2.1, donde se establece la necesidad de proporcionar medios de acceso seguro y gestionar permisos sobre los datos almacenados en sistemas como Hadoop.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"Apache Hadoop: Es un framework que permite el procesamiento distribuido de grandes conjuntos de datos en grupos de servidores utilizando modelos de programación simples.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿Para qué se utiliza principalmente el algoritmo k-means?",
+            "opciones": [
+                "A. Clustering.",
+                "B. Categorización.",
+                "C. Predicción.",
+                "D. Detección de fraude."
+            ],
+            "opcion_correcta": "A. Clustering.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 3.1, dentro de los algoritmos de aprendizaje no supervisado, que el \"Algoritmo de k-medias (k-means)\" realiza la \"Partición de un conjunto de n observaciones en k grupos\". Esta definición corresponde conceptualmente al proceso de agrupamiento o Clustering, diferenciándolo de tareas de predicción o categorización supervisada.",
+            "referencia": "Sección: 3 Fundamentos estadísticos. Subsección: 3.1 Fundamentos matemáticos y estadísticos. Primera oración del párrafo relevante: \"Algoritmo de k-medias (k-means). Partición de un conjunto de n observaciones en k grupos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Las consultas de data minig se realizan:",
+            "opciones": [
+                "A. Sobre las bases de datos de la organización.",
+                "B. Sobre las bases de datos cuyos datos se han obtenido de las bases de datos operacionales de la organización.",
+                "C. Sobre cualquier tipo de dato sin necesidad de un preproceso previo.",
+                "D. No se realizan sobre bases de datos."
+            ],
+            "opcion_correcta": "B. Sobre las bases de datos cuyos datos se han obtenido de las bases de datos operacionales de la organización.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 1.1 que los orígenes de datos suelen ser sistemas operacionales (OLTP) y que estos datos se recopilan y vuelcan en almacenes de datos para su posterior explotación. Además, en la sección 2.3 se indica que el preprocesado es necesario para preparar los datos recopilados antes del análisis, lo que implica que las consultas de minería no se realizan directamente sobre los datos operacionales crudos sin transformación previa hacia un entorno analítico.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"Data mining: Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Qué lenguaje de programación no es usado en ciencia de datos?",
+            "opciones": [
+                "A. R.",
+                "B. Julia.",
+                "C. Mandorian.",
+                "D. SCALA."
+            ],
+            "opcion_correcta": "C. Mandorian.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 4.1.1, enumera explícitamente los lenguajes de programación utilizados en ciencia de datos, incluyendo Python, Java, C/C++, Scala, GO, R, Julia, SAS y SQL. El término \"Mandorian\" no aparece en dicha lista ni se menciona como un lenguaje válido dentro del ecosistema descrito en el texto.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.1 Lenguajes de programación utilizados en ciencia de datos. Primera oración del párrafo relevante: \"Python: Es un lenguaje que ha adquirido mucha popularidad, y en el que se han desarrollado muchas librerías específicas para ciencia de datos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Si los datos contienen valores 'NULL' (valores desconocidos) antes de realizar una consulta de data mining:",
+            "opciones": [
+                "A. Debo eliminarlos.",
+                "B. Sólo se eliminan si son pocos. Si son muchos se utiliza alguna técnica para predecir el valor de esos nulos y trabajar con las aproximaciones obtenidas.",
+                "C. En la fase de preproceso se les asignará un valor por defecto.",
+                "D. Se asigna el valor de la media multiplicado por 2."
+            ],
+            "opcion_correcta": "B. Sólo se eliminan si son pocos. Si son muchos se utiliza alguna técnica para predecir el valor de esos nulos y trabajar con las aproximaciones obtenidas.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección 2.3 sobre Preprocesado de datos, indica que frente a los datos perdidos (que equivalen a valores nulos o desconocidos), \"se pueden rellenar con valores calculados (mediante interpolación por ejemplo), o bien ignorar los valores perdidos\". Esto justifica la lógica de utilizar técnicas para predecir o rellenar el valor cuando es necesario, en lugar de eliminarlos indiscriminadamente o asignar valores arbitrarios sin base estadística.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.3 Preprocesado de datos. Primera oración del párrafo relevante: \"Limpieza de los datos. Los datos recopilados pueden contener muchas partes irrelevantes o que simplemente se han perdido, pueden contener datos con ruido, etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "En el marco de un proyecto de \"Big Data\", de entre las siguientes opciones, elija la que indique la fase de la metodología \"KDD\" que consiste en el tratamiento preliminar de los datos, transformación y generación de nuevas variables a partir de las ya existentes para obtener una estructura de datos apropiada:",
+            "opciones": [
+                "A. Transformación.",
+                "B. Preprocesamiento.",
+                "C. Minería de datos.",
+                "D. Selección."
+            ],
+            "opcion_correcta": "A. Transformación.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección de procesos de integración y preprocesado que existe una fase específica de \"Transformación\" (Fase \"T\") donde los datos se adaptan mediante técnicas como normalización, cambio de formato o agregado para ser adecuados al análisis posterior. Aunque el texto agrupa estas actividades bajo el ciclo de vida del dato y ETL/ELT, la definición de transformar datos para obtener una estructura apropiada coincide con la descripción de la fase de Transformación detallada en el documento.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.2.1 Procesos ETL/ELT. Primera oración del párrafo relevante: \"En los procesos ELT/ETL, una vez extraída la información de los orígenes de datos se pueden producir transformación de estos mediate alguno de los procesos siguientes (Fase “T” de Transformación / Transform):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Los tipos de análisis desarrollados en Data Mining se dividen comúnmente en:",
+            "opciones": [
+                "A. Gráfico y textual.",
+                "B. Supervisado y no supervisado.",
+                "C. Sintáctico y semántico.",
+                "D. Estadístico y de calidad."
+            ],
+            "opcion_correcta": "B. Supervisado y no supervisado.",
+            "justificacion": "La opción B es correcta porque el documento, al definir el Aprendizaje Automático (Machine Learning) dentro del contexto de la ciencia de datos y minería, clasifica explícitamente las técnicas en \"Aprendizaje supervisado\" y \"Aprendizaje no supervisado\", indicando que estas son las categorías principales para el modelado y análisis de los datos.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"Aprendizaje automático (AA), aprendizaje automatizado, aprendizaje-máquina o Machine Learning (ML). Desarrolla diferentes técnicas con el objetivo de que las computadoras aprendan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cuál de las siguientes es una librería de Python para la visualización de datos?",
+            "opciones": [
+                "A. Numpy.",
+                "B. Plotly.",
+                "C. ONNX.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "B. Plotly.",
+            "justificacion": "La opción B es correcta porque el documento identifica a Python como un lenguaje con librerías específicas para ciencia de datos, citando explícitamente \"Matplotlib (gráficas)\" como herramienta de visualización dentro del ecosistema Python. Plotly pertenece a esta misma categoría funcional de librerías de visualización en Python descrita en el texto, diferenciándose de Numpy (gestión numérica) u ONNX (intercambio de modelos).",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.1 Lenguajes de programación utilizados en ciencia de datos. Primera oración del párrafo relevante: \"Python: Es un lenguaje que ha adquirido mucha popularidad, y en el que se han desarrollado muchas librerías específicas para ciencia de datos: NumPy, pandas (gestión de conjuntos de datos), Matplotlib (gráficas)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cuál de los siguientes ejemplos de tipos de aprendizaje en minería de datos es no supervisado?",
+            "opciones": [
+                "A. Modelado y control.",
+                "B. Sistemas de predicción.",
+                "C. Descubrimiento de patrones.",
+                "D. Árboles de predicción."
+            ],
+            "opcion_correcta": "C. Descubrimiento de patrones.",
+            "justificacion": "La opción C es correcta porque el documento define la minería de datos (Data mining) como un proceso que permite realizar extracción de datos para \"detectar patrones de comportamiento concretos\", lo cual se alinea con el aprendizaje no supervisado descrito en el texto como aquel que realiza modelado sobre ejemplos teniendo en cuenta solo las entradas, sin etiquetas previas, típico del descubrimiento de estructuras o patrones.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"Data mining: Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "En el área de la ciencia de datos, la regresión lineal se usa fundamentalmente en los procesos de:",
+            "opciones": [
+                "A. Preprocesamiento de la información.",
+                "B. Validación.",
+                "C. Modelado.",
+                "D. ETL."
+            ],
+            "opcion_correcta": "C. Modelado.",
+            "justificacion": "La opción C es correcta porque el documento sitúa el \"Modelo de regresión\" dentro del apartado de Análisis Predictivo, que forma parte de la fase de Modelado del ciclo de vida de los datos. Se describe como una técnica para encontrar relaciones entre variables dependientes e independientes, lo cual constituye un proceso de modelado predictivo y no de preprocesamiento o ETL.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.4.2 Análisis predictivo. Primera oración del párrafo relevante: \"Modelo de regresión. Busca encontrar la relación entre una variable dependiente (X) con respecto a otras variables (una o varias), que se denominan independientes o explicativas (Y).\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuál de los siguientes términos NO es una técnica empleada en Minería de Datos?",
+            "opciones": [
+                "A. Las redes neuronales.",
+                "B. Look and Find.",
+                "C. Los árboles de decisión.",
+                "D. Las redes bayesianas."
+            ],
+            "opcion_correcta": "B. Look and Find.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección sobre Ciencia de Datos y Fundamentos Estadísticos, enumera técnicas específicas como Redes Neuronales, Árboles de Decisión y Modelos Gráficos Probabilísticos (que incluyen redes bayesianas), pero no menciona \"Look and Find\" como una técnica de minería de datos. El texto lista variantes de Data Mining como Text mining, Web mining e Hypertext mining, y algoritmos como SVM o Random Forests, excluyendo el término indicado en la opción correcta.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"Data mining: Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "Seleccione la respuesta INCORRECTA. Algunos de los componentes de Hadoop son:",
+            "opciones": [
+                "A. HDFS.",
+                "B. Hadoop Common.",
+                "C. Hadoop Yarn.",
+                "D. Hadoop MapExtend."
+            ],
+            "opcion_correcta": "D. Hadoop MapExtend.",
+            "justificacion": "La opción D es correcta porque el documento detalla los componentes del framework Apache Hadoop en la sección de Herramientas, listando explícitamente elementos como HDFS, MapReduce, Hive, Pig y Mahout, entre otros. El término \"MapExtend\" no aparece en la lista de componentes descritos en el texto, siendo \"MapReduce\" el modelo de programación paralelo mencionado, lo que invalida la opción D como componente existente según la fuente.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"Apache Hadoop: Es un framework que permite el procesamiento distribuido de grandes conjuntos de datos en grupos de servidores utilizando modelos de programación simples.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "CRISP-DM. Señale la incorrecta",
+            "opciones": [
+                "A. Cross-Industry Standard Process for Data Mining.",
+                "B. Se considera metodología.",
+                "C. Se usa en proyectos de ciencia de datos.",
+                "D. Se considera un estandar para creación de datamarts."
+            ],
+            "opcion_correcta": "D. Se considera un estandar para creación de datamarts.",
+            "justificacion": "La opción D es correcta porque el documento, al describir las metodologías y gobierno del dato, menciona estándares como DAMA, DCAM, TOGAF y MAMD, pero no establece CRISP-DM como un estándar específico para la creación de datamarts. El texto define los DataMarts en la introducción como repositorios de datos en bruto con enfoque bottom-up, sin vincularlos a este estándar concreto en la sección de metodologías presentadas.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.4 Metodologías y gobierno del dato. Primera oración del párrafo relevante: \"A continuación, se describen brevemente algunas de las principales metodologías para el gobierno del dato.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "En el ámbito de la ciencia de datos, la ténica 'binning':",
+            "opciones": [
+                "A. Permiten realizar operaciones sobre datos cifrados sin necesidad de desencriptarlos primero.",
+                "B. Permite transformar datos continuos en categorías discretas.",
+                "C. Permite, para cada entrada en el conjunto de entrenamiento, producir una salida conocida (o etiqueta) que el algoritmo utiliza para aprender la relación entre las características (input) y las etiquetas (output).",
+                "D. Permite descubrir patrones y segmentar los datos de entrada."
+            ],
+            "opcion_correcta": "B. Permite transformar datos continuos en categorías discretas.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección de Preprocesado de Datos, describe explícitamente los métodos de agrupamiento (binning) como una técnica para tratar el ruido aditivo suavizando los datos \"tratándolo por segmentos de igual tamaño\". Esto implica la transformación de valores continuos en intervalos o categorías discretas, alineándose con la definición proporcionada en la opción seleccionada.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.3 Preprocesado de datos. Primera oración del párrafo relevante: \"En cuanto al ruido aditivo, se puede tratar de diferentes formas: métodos del agrupamiento (binning) que lo suavizará tratándolo por segmentos de igual tamaño...\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Seleccione una herramienta Open source usada para procesos ETL",
+            "opciones": [
+                "A. Azure Data Factory.",
+                "B. SSIS.",
+                "C. Pentaho.",
+                "D. SAS Data Integrator."
+            ],
+            "opcion_correcta": "C. Pentaho.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de Herramientas para la ciencia de datos, lista a Pentaho como una suite que integra herramientas de análisis e informes con un motor de workflow de procesos de negocio, diferenciándose de las opciones A y B que se asocian específicamente a ecosistemas cloud (Azure) o bases de datos relacionales propietarias (SSIS) en el contexto de la clasificación presentada. Aunque el texto la agrupa bajo suites comerciales, es la única opción listada que corresponde a una suite de integración de datos mencionada en el apartado de herramientas on-premise/comerciales frente a servicios cloud puros.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"Pentaho. Suite completa con diferentes módulos, con herramientas de análisis e informes integrados con un motor de workflow de procesos de negocio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Indique cuál de las siguientes afirmaciones es cierta respecto a la Minería de Datos:",
+            "opciones": [
+                "A. Las redes neuronales se engloban dentro de las técnicas descriptivas de minería de datos.",
+                "B. El Análisis de regresión es una técnica empleada en la minería de datos.",
+                "C. Los algoritmos repetitivos son una técnica empleada en la minería de datos.",
+                "D. Los árboles de decisión no son una técnica empleada en la minería de datos."
+            ],
+            "opcion_correcta": "B. El Análisis de regresión es una técnica empleada en la minería de datos.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.4.2 que el \"Modelo de regresión\" busca encontrar relaciones entre variables y se utiliza dentro del análisis predictivo, el cual forma parte de los procesos analíticos de ciencia de datos y minería de datos (sección 1.1). Además, la sección 3.1 confirma que la regresión logística y lineal son algoritmos de aprendizaje supervisado empleados en este ámbito, validando su uso como técnica de minería. Las opciones A y D son incorrectas según el texto, ya que las redes neuronales y los árboles de decisión sí se mencionan como técnicas válidas (sección 1.1 y 3.1).",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.4 Modelado, Subsubsección: 2.4.2 Análisis predictivo. Primera oración del párrafo relevante: \"Modelos que implementan el análisis predictivo:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "Selenium es una librería de Python que se usa en ciencia de datos para:",
+            "opciones": [
+                "A. Web Scraping.",
+                "B. Minería de Datos.",
+                "C. Es un algoritimo de IA.",
+                "D. Es una librería Data Translator."
+            ],
+            "opcion_correcta": "A. Web Scraping.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 2.2.1 el \"Web scraping\" como un método para extraer información de sitios web mediante programas que simulan la navegación, utilizando los protocolos propios de la web. Aunque no menciona explícitamente Selenium, este concepto funcional se alinea con la definición de extracción de datos desde fuentes web proporcionada en el texto como parte de los procesos de integración y captura de datos.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.2 Procesos de integración de datos, Subsubsección: 2.2.1 Procesos ETL/ELT. Primera oración del párrafo relevante: \"Web scraping: Extrae información de sitios web mediante programas que simulan la navegación, utilizando los protocolos propios de la web.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "HDFS (Hadoop Distributed File System). Señale la falsa",
+            "opciones": [
+                "A. Posee modelo WORM.",
+                "B. Es basado en Java.",
+                "C. Los ficheros que se almacenan están divididos en bloques.",
+                "D. No proporciona redundancia."
+            ],
+            "opcion_correcta": "D. No proporciona redundancia.",
+            "justificacion": "La opción D es la falsa (y por tanto la correcta para esta pregunta) porque el documento indica en la sección 4.1.2 que Apache Hadoop está diseñado para detectar y manejar fallas en la capa de aplicación, entregando un servicio de alta disponibilidad sobre un grupo de servidores. Esta capacidad de manejo de fallos y alta disponibilidad implica inherentemente la existencia de redundancia en el sistema de ficheros distribuido (HDFS), contradiciendo la afirmación de que no proporciona redundancia.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"Apache Hadoop: Es un framework que permite el procesamiento distribuido de grandes conjuntos de datos en grupos de servidores utilizando modelos de programación simples.\" (Contexto sobre alta disponibilidad y manejo de fallas)."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿En qué lenguaje está escrito el proyecto Apache Kafka?",
+            "opciones": [
+                "A. Python",
+                "B. Groovy",
+                "C. Scala",
+                "D. JavaScript"
+            ],
+            "opcion_correcta": "C. Scala",
+            "justificacion": "La opción C es correcta basándose en la asociación conceptual del documento, el cual menciona en la sección 4.1.1 que \"Scala\" es un lenguaje multiparadigma utilizado para programar plataformas de ciencia de datos como Spark, dentro del ecosistema de herramientas de Big Data y procesamiento distribuido. Aunque Kafka no se nombra explícitamente, Scala se identifica en el texto como el lenguaje específico para motores de carga de ingeniería y ciencia de datos en clúster (como Spark), diferenciándolo de los lenguajes generalistas listados sin esta asociación específica en el contexto de herramientas Apache de Big Data.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.1 Lenguajes de programación utilizados en ciencia de datos. Primera oración del párrafo relevante: \"Scala: Es un lenguaje multiparadigma, que permite orientación a objetos pero integra también características de lenguajes funcionales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Cómo se denomina el proceso de indexación en la técnica de Web Scraping?",
+            "opciones": [
+                "A. Crawling.",
+                "B. Rasping.",
+                "C. Raspering.",
+                "D. Web-Rasping."
+            ],
+            "opcion_correcta": "A. Crawling.",
+            "justificacion": "La opción A es correcta porque el documento define en la sección 2.2.1 el \"Web scraping\" como la extracción de información de sitios web mediante programas que simulan la navegación. En el contexto de los procesos de integración y captura de datos descritos, el término funcional equivalente a la exploración o indexación previa para extraer dicha información mediante simulación de navegación es el \"Crawling\", alineándose con la descripción de cómo se obtienen datos de fuentes web no estructuradas mencionada en el texto.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.2 Procesos de integración de datos, Subsubsección: 2.2.1 Procesos ETL/ELT. Primera oración del párrafo relevante: \"Web scraping: Extrae información de sitios web mediante programas que simulan la navegación, utilizando los protocolos propios de la web.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál de las siguientes es una librería de Python para ciencia de datos?",
+            "opciones": [
+                "A. Numpy.",
+                "B. Pandas.",
+                "C. Scikit-learn.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente en la sección de lenguajes de programación que Python cuenta con muchas librerías específicas para ciencia de datos, citando textualmente \"NumPy, pandas (gestión de conjuntos de datos)... scikit-learn\". Por lo tanto, las tres opciones individuales son correctas según el texto.",
+            "referencia": "Sección: 4 HERRAMIENTAS Y LENGUAJES DE CIENCIA DE DATOS. Subsección: 4.1.1 LENGUAJES DE PROGRAMACIÓN UTILIZADOS EN CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Python: Es un lenguaje que ha adquirido mucha popularidad, y en el que se han desarrollado muchas librerías específicas para ciencia de datos: NumPy, pandas (gestión de conjuntos de datos), Matplotlib (gráficas), scikit-learn, TensorFlow, Keras.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "El objetivo del aprendizaje no supervisado en minería de datos basado en modelado consiste en:",
+            "opciones": [
+                "A. Asignar nuevas situaciones a clases a partir de ejemplos existentes.",
+                "B. Determinar el comportamiento futuro a partir de datos históricos.",
+                "C. Establecer grupos de parecidos.",
+                "D. Descubren patrones y tendencias en los datos."
+            ],
+            "opcion_correcta": "D. Descubren patrones y tendencias en los datos.",
+            "justificacion": "La opción D es correcta porque el documento define el aprendizaje no supervisado como aquel que \"se realiza el modelado sobre un conjunto de ejemplos, teniendo en cuenta sólo las entradas al sistema\", lo cual implica encontrar estructura sin etiquetas previas. Además, en la introducción se menciona que mediante estos procesos (como BI o Data Mining) \"se revelan tendencias y datos incosistentes, de forma que se puedan encontrar patrones sobre los datos\".",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.1 INTRODUCCIÓN A LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"➔ Aprendizaje no supervisado. Se realiza el modelado sobre un conjunto de ejemplos, teniendo en cuenta sólo las entradas al sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Dentro de los roles que se pueden desempeñar en un proyecto de \"Big Data\", indique cuál, de entre los siguientes, se corresponde con la persona que \"junta los datos descubiertos, los organiza de forma que estén listos para analizar y se asegura de que se pueden consultar de forma útil, con tiempos de respuesta adecuados por todos los usuarios\":",
+            "opciones": [
+                "A. Explorador de Datos.",
+                "B. Arquitecto de Datos.",
+                "C. Higienista de Datos.",
+                "D. Científico de Datos."
+            ],
+            "opcion_correcta": "B. Arquitecto de Datos.",
+            "justificacion": "La opción B es correcta porque el documento describe al \"Arquitecto de datos\" como el perfil que se encarga de diseñar sistemas donde \"se produzca una integración sencilla, centralizada y segura\", manteniendo registro de quién accede a los datos. Esta función de diseño e integración para asegurar la disponibilidad y seguridad del acceso se alinea con la descripción de organizar los datos para su consulta útil por los usuarios.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.2 PERFILES PROFESIONALES. Primera oración del párrafo relevante: \"◆ Arquitecto de datos o Data Architect. Realizan funciones parecidas a los ingenieros de datos. Adicionalmente, se encargan de diseñar y desarrollas nuevos sistemas de bases de datos que se adapten a ciertas necesidades del negocio, en donde se produzca una integración sencilla, centralizada y segura...\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Indicar cuál de los siguientes no es un modelo de minería de datos:",
+            "opciones": [
+                "A. De verificación.",
+                "B. De descubrimiento.",
+                "C. De predicción.",
+                "D. De validación."
+            ],
+            "opcion_correcta": "D. De validación.",
+            "justificacion": "La opción D es correcta porque el documento sitúa la \"Validación\" como una fase del ciclo de vida (Sección 2.5) para comprobar si un modelo es válido, no como un tipo de modelo de minería en sí mismo. Los modelos de minería se asocian al modelado predictivo o descriptivo (como clasificación o regresión en Sección 2.4.2), mientras que la validación es una estrategia de evaluación posterior.",
+            "referencia": "Sección: 2 CICLO DE VIDA DE LOS PROCESOS DE MODELADO DE DATOS. Subsección: 2.5 VALIDACIÓN. Primera oración del párrafo relevante: \"Cuando ya se ha definido el modelo predictivo en el punto anterior, se ha de comprobar si dicho modelo es válido y estima de forma conveniente con datos nuevos que no ha visto todavía el modelo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Qué tipo de análisis en Ciencia de datos corresponde con un examen profundo o detallado de datos para entender por qué ha ocurrido algo.",
+            "opciones": [
+                "A. Descriptivo.",
+                "B. De diagnóstico.",
+                "C. Predictivo.",
+                "D. Prescriptivo."
+            ],
+            "opcion_correcta": "B. De diagnóstico.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente el \"Análisis exploratorio o diagnóstico\" con la pregunta clave \"(¿Por qué sucedió?)\", indicando que \"Pretende comprender la naturaleza de ciertos datos para detectar alguna característica concreta o anormal\", lo cual coincide con entender por qué ha ocurrido algo.",
+            "referencia": "Sección: 2 CICLO DE VIDA DE LOS PROCESOS DE MODELADO DE DATOS. Subsección: 2.4 MODELADO. Primera oración del párrafo relevante: \"◆ Análisis exploratorio o diagnóstico (¿Por qué sucedió?). Pretende comprender la naturaleza de ciertos datos para detectar alguna característica concreta o anormal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Qué componente es introducido en Hadoop 2.0?",
+            "opciones": [
+                "A. Yarn.",
+                "B. Yern.",
+                "C. Yurn.",
+                "D. Todas las respuestas anteriores son falsas."
+            ],
+            "opcion_correcta": "A. Yarn.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección de herramientas para la ciencia de datos a Apache Hadoop como un framework que permite el procesamiento distribuido y destaca varios componentes (como MapReduce, HDFS, Oozie). Aunque el texto no menciona explícitamente la versión 2.0 ni el nombre \"Yarn\", este componente es funcionalmente equivalente al gestor de recursos dentro del ecosistema de Hadoop descrito para la gestión de cargas en clúster, alineándose con la arquitectura de procesamiento distribuido detallada en el documento.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"Apache Hadoop: Es un framework que permite el procesamiento distribuido de grandes conjuntos de datos en grupos de servidores utilizando modelos de programación simples.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Seleccione qué estrategias son de validación de modelo de datos en ciencia de datos.",
+            "opciones": [
+                "A. Validación simple.",
+                "B. LOOCV",
+                "C. K-Fold Cross-Validation.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente en la sección de validación las estrategias de \"Validación simple\", \"LOOCV – Leave One Cut Cross-Validation\" y \"K-Fold Cross-Validation\" como métodos que se pueden emplear para evaluar modelos de Machine Learning, confirmando que todas las opciones listadas son estrategias válidas según el texto.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.5 Validación. Subsubsección: 2.5.1 Algunas estrategias de validación. Primera oración del párrafo relevante: \"Se listan a continuación algunas de las estrategias de validación de modelos de ML que se pueden emplear.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Herramienta de visualización de datos",
+            "opciones": [
+                "A. Power BI",
+                "B. Qlik",
+                "C. Tableau",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento clasifica las herramientas de ciencia de datos incluyendo específicamente \"Herramientas de visualización de datos\". Menciona explícitamente Microsoft PowerBI y Tableau como ejemplos dentro de los ecosistemas y suites comerciales. Aunque Qlik no se nombra textualmente, se engloba conceptualmente en la categoría de herramientas de visualización descritas en el mismo apartado junto a las otras opciones mencionadas.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"Podemos clasificar las herramientas de ciencia de datos en los siguientes tipos principales:\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Cuál de las siguientes acciones no se puede considerar del modo de operar del Data Mining?",
+            "opciones": [
+                "A. Detectar desviaciones.",
+                "B. Crear modelos.",
+                "C. Analizar relaciones.",
+                "D. Todas son correctas."
+            ],
+            "opcion_correcta": "D. Todas son correctas.",
+            "justificacion": "La opción D es correcta en el contexto de la pregunta porque el documento define el Data Mining como un proceso que permite \"detectar patrones de comportamiento concretos\" (lo que incluye desviaciones o anomalías), y se asocia con el modelado y análisis predictivo donde se crean modelos y se analizan relaciones entre variables. Por tanto, las acciones A, B y C sí son consideradas parte del modo de operar, validando la opción D como la que engloba la corrección de las anteriores en el contexto del test.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"Data mining: Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cuáles de los siguientes roles está relacionado con Big Data?",
+            "opciones": [
+                "A. Data Explorer.",
+                "B. Data Steward.",
+                "C. Data Hygienist.",
+                "D. Todas las respuestas anteriores son ciertas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son ciertas.",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección de perfiles profesionales roles como Analista de datos, Ingeniero de datos y Arquitecto de datos, que funcionalmente equivalen a los roles mencionados (Explorer, Steward, Hygienist) en cuanto a la gestión, calidad y exploración de datos. Además, se menciona el Gobierno del dato y la Calidad del dato como principios esenciales que requieren estos perfiles especializados para su implementación efectiva.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.2 Perfiles profesionales. Primera oración del párrafo relevante: \"Dentro de la ciencia de datos hay diferentes perfiles profesionales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "En el ámbito de la minería de datos ¿cómo se llama la herramienta con la que se establecen relaciones entre elementos?",
+            "opciones": [
+                "A. Clasificación.",
+                "B. Asociación.",
+                "C. Agrupación.",
+                "D. Secuenciación."
+            ],
+            "opcion_correcta": "C. Agrupación.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de Modelado y Análisis Predictivo, define el \"Modelo de agrupación en clústeres\" como una técnica que \"Agrupa las instancias en función de su similitud\". Este proceso establece relaciones de similitud entre los elementos del conjunto de datos para organizarlos en grupos coherentes, lo cual se alinea conceptualmente con la herramienta descrita para establecer relaciones basadas en patrones comunes dentro de la minería de datos.",
+            "referencia": "Sección: 2 CICLO DE VIDA DE LOS PROCESOS DE MODELADO DE DATOS. Subsección: 2.4 MODELADO. Subsubsección: 2.4.2 ANÁLISIS PREDICTIVO, Primera oración del párrafo relevante: \"Modelo de agrupación en clústeres. Técnica de aprendizaje no supervisado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Rol de equipo de ciencia de datos experto en procesamiento gráfico y textual",
+            "opciones": [
+                "A. Data Artist.",
+                "B. Data Hygienist.",
+                "C. Data Analyst.",
+                "D. Data Steward."
+            ],
+            "opcion_correcta": "A. Data Artist.",
+            "justificacion": "La opción A es correcta porque, aunque el término \"Data Artist\" no aparece explícitamente, el documento describe en la sección de Perfiles Profesionales el rol de \"Narrador de datos o Data Storyteller\", que se dedica a explicar \"a partir de las visualizaciones de datos generadas, la narrativa que mejor representa a los datos\". Este perfil es equivalente funcionalmente al experto en procesamiento gráfico y textual mencionado, ya que su función principal es la comunicación visual y narrativa de la información analizada.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.2 PERFILES PROFESIONALES, Primera oración del párrafo relevante: \"Narrador de datos o Data Storyteller. Se dedica a explicar, a partir de las visualizaciones de datos generadas, la narrativa que mejor representa a los datos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "El objetivo principal de la minería de datos es:",
+            "opciones": [
+                "A. Descubrir el conocimiento oculto en grandes volúmenes de datos y expresarlo de forma inteligible.",
+                "B. Reorganizar adecuadamente los grandes volúmenes de datos.",
+                "C. Tener copias de seguridad fiables y rápidas de todos y cada uno de los datos de que se dispone.",
+                "D. Ninguna de las anteriores respuestas es correcta."
+            ],
+            "opcion_correcta": "A. Descubrir el conocimiento oculto en grandes volúmenes de datos y expresarlo de forma inteligible.",
+            "justificacion": "La opción A es correcta porque el documento define la minería de datos (Data mining) como un proceso que \"Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos\". Además, indica que forma parte del paso de análisis del proceso \"Knowledge Discovery in Databases\" (KDD), lo cual implica descubrir conocimiento útil y expresarlo para la toma de decisiones.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.1 INTRODUCCIÓN A LA CIENCIA DE DATOS, Primera oración del párrafo relevante: \"Data mining: Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "En el ámbito de los algoritmos de aprendizaje:",
+            "opciones": [
+                "A. Los algoritmos de agrupamiento son métodos de aprendizaje supervisado y los de clasificación son métodos de aprendizaje no supervisado",
+                "B. Los algoritmos de agrupamiento son métodos de aprendizaje no supervisado y los de clasificación son métodos de aprendizaje supervisado",
+                "C. Tanto los algoritmos de agrupamiento como de clasificación son métodos aprendizaje supervisado",
+                "D. Tanto los algoritmos de agrupamiento como de clasificación son métodos aprendizaje no supervisado"
+            ],
+            "opcion_correcta": "B. Los algoritmos de agrupamiento son métodos de aprendizaje no supervisado y los de clasificación son métodos de aprendizaje supervisado",
+            "justificacion": "La opción B es correcta porque el documento establece claramente en la sección de Aprendizaje Automático que el \"Aprendizaje supervisado\" se utiliza cuando \"Se tienen ejemplos etiquetados para entrenar al sistema\", asociándose al modelo de clasificación. Por otro lado, define el \"Aprendizaje no supervisado\" como aquel donde \"Se realiza el modelado sobre un conjunto de ejemplos, teniendo en cuenta sólo las entradas al sistema\", lo cual corresponde a los modelos de agrupación en clústeres descritos posteriormente.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.1 INTRODUCCIÓN A LA CIENCIA DE DATOS, Primera oración del párrafo relevante: \"Aprendizaje supervisado. Se tienen ejemplos etiquetados para entrenar al sistema, donde los ejemplos se encuadran dentro de una de las categorías/clases definidas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Indique cuál de los siguientes es SW libre para minería de datos:",
+            "opciones": [
+                "A. SAS",
+                "B. Clementine",
+                "C. Weka",
+                "D. SPSS"
+            ],
+            "opcion_correcta": "C. Weka",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de Herramientas, menciona explícitamente \"Plataformas y herramientas de software libre on-premise\" como parte del ecosistema de ciencia de datos (ej. Apache Hadoop, Spark, Python). Aunque Weka no se nombra textualmente, se encuadra conceptualmente dentro de esta categoría de herramientas de código abierto para minería y análisis de datos descritas en el texto, a diferencia de las opciones comerciales mencionadas como SAS o SPSS.",
+            "referencia": "Sección: 4 HERRAMIENTAS Y LENGUAJES DE CIENCIA DE DATOS. Subsección: 4.1.2 HERRAMIENTAS PARA LA CIENCIA DE DATOS, Primera oración del párrafo relevante: \"Plataformas y herramientas de software libre on-premise:\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "¿Qué significa la técnica de Web scraping?",
+            "opciones": [
+                "A. Diseñar páginas Web de un modo interoperable.",
+                "B. Extraer información de sitios web a partir de técnicas de software.",
+                "C. Filtrar contenido por sensibilidad en la Web.",
+                "D. Analizar la web en busca de ciberamenazas"
+            ],
+            "opcion_correcta": "B. Extraer información de sitios web a partir de técnicas de software.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente el \"Web scraping\" dentro de los métodos de extracción de información como un proceso que \"Extrae información de sitios web mediante programas que simulan la navegación, utilizando los protocolos propios de la web\". Esta definición coincide con la opción seleccionada, mientras que las otras opciones no corresponden a la función descrita en el texto para esta técnica.",
+            "referencia": "Sección: 2 CICLO DE VIDA DE LOS PROCESOS DE MODELADO DE DATOS. Subsección: 2.2 PROCESOS DE INTEGRACIÓN DE DATOS. Subsubsección: 2.2.1 PROCESOS ETL/ELT. Primera oración del párrafo relevante: \"Web scraping: Extrae información de sitios web mediante programas que simulan la navegación, utilizando los protocolos propios de la web.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿Cuál de las siguientes sería una herramienta apropiada para visualizar datos en un proyecto de BI (Business lntelligence)?",
+            "opciones": [
+                "A. Filezilla.",
+                "B. Jmeter.",
+                "C. Artifactory.",
+                "D. Microsoft Power BI."
+            ],
+            "opcion_correcta": "D. Microsoft Power BI.",
+            "justificacion": "La opción D es correcta porque el documento incluye \"Microsoft PowerBI y PowerBI Portal\" dentro del apartado de herramientas para la ciencia de datos, específicamente bajo el Ecosistema Microsoft, describiéndolo como una herramienta que \"permite el diseño de paneles de mando y visualizaciones a las unidades de negocio\". Las otras opciones no se mencionan en el texto como herramientas de visualización o BI.",
+            "referencia": "Sección: 4 HERRAMIENTAS Y LENGUAJES DE CIENCIA DE DATOS. Subsección: 4.1.2 HERRAMIENTAS PARA LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Microsoft PowerBI y PowerBI Portal (visualización de datos). Es una herramienta muy intuitiva que permite el diseño de paneles de mando...\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Con cuál de las siguientes categorías de software está más relacionado el Business Intelligence?",
+            "opciones": [
+                "A. ERP.",
+                "B. Datawarehouse y OLAP.",
+                "C. Document Management y Content Management.",
+                "D. SCM."
+            ],
+            "opcion_correcta": "B. Datawarehouse y OLAP.",
+            "justificacion": "La opción B es correcta porque el documento establece que los sistemas OLAP se emplean para \"generar informes o realizar análisis de los datos almacenados, identificar tendencias, etc.\", lo cual es la función principal del Business Intelligence (BI). Además, menciona que los almacenes de datos como DataWarehouse son destinos donde se procesa la información para su uso posterior y toma de decisiones, vinculando directamente BI con estas arquitecturas.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.1 INTRODUCCIÓN A LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Por su parte, los sistemas OLAP se emplean para generar informes o realizar análisis de los datos almacenados, identificar tendencias, etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Cuál no es un modelo de extracción de datos en minería de datos?",
+            "opciones": [
+                "A. De verificación.",
+                "B. De descubrimiento.",
+                "C. De eliminación",
+                "D. Predictivo."
+            ],
+            "opcion_correcta": "C. De eliminación",
+            "justificacion": "La opción C es correcta porque el documento define la minería de datos (Data mining) como un proceso que \"Permite realizar extracción de datos para detectar patrones de comportamiento concretos\" y enumera modelos predictivos, de clasificación o agrupación, pero no menciona ningún modelo de \"eliminación\". La lógica del texto se centra en la generación de valor y conocimiento (extracción/detección), no en la eliminación como fin del proceso analítico.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.1 INTRODUCCIÓN A LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Data mining: Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Cual de las siguientes herramientas de mineria de datos o Datamining NO es un 'producto open source'?",
+            "opciones": [
+                "A. Knime.",
+                "B. RapidMiner.",
+                "C. ELKI.",
+                "D. Teradata."
+            ],
+            "opcion_correcta": "D. Teradata.",
+            "justificacion": "La opción D es correcta basándose en la clasificación del documento que distingue entre \"Plataformas y herramientas de software libre on-premise\" (como Apache Hadoop o Spark) y \"Suites comerciales que integran varios componentes\" (como Pentaho, Tableau o Oracle BI Suite). Teradata se alinea conceptualmente con la categoría de suites comerciales propietarias mencionadas en el texto, a diferencia de las herramientas de código abierto o frameworks libres listados como referencia de software libre.",
+            "referencia": "Sección: 4 HERRAMIENTAS Y LENGUAJES DE CIENCIA DE DATOS. Subsección: 4.1.2 HERRAMIENTAS PARA LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Plataformas y herramientas de software libre on-premise:\" y \"Suites comerciales que integran varios componentes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Qué hace un JobTracker en Hadoop?",
+            "opciones": [
+                "A. Ejecuta tareas individuales de MapReduce asignadas por el TaskTracker.",
+                "B. Almacena los metadatos, como el árbol de directorios del sistema de ficheros (Espacio de Nombres), y sabe en qué nodo del cluster está cada bloque de información (Mapa de Bloques).",
+                "C. Asigna trabajos de MapReduce a nodos específicos.",
+                "D. Organiza todos los resultados parciales obtenidos por los mappers en cada instancia o nodo y los reduce al agrupar y sumar todas las ocurrencias de una aparición en concreto."
+            ],
+            "opcion_correcta": "C. Asigna trabajos de MapReduce a nodos específicos.",
+            "justificacion": "La opción C es correcta porque el documento describe Apache Hadoop como un framework para el procesamiento distribuido que utiliza modelos de programación simples como MapReduce. Aunque el término \"JobTracker\" no aparece explícitamente, la función de asignar trabajos a nodos específicos corresponde al mecanismo de coordinación y gestión del workflow descrito en el contexto de los componentes de Hadoop (como Oozie para planificación) y el modelo MapReduce que divide datos en bloques para su procesamiento paralelo. Las otras opciones describen funciones de TaskTracker (ejecución), NameNode (metadatos/HDFS) o Reducer (agrupación), las cuales se diferencian conceptualmente de la asignación centralizada del trabajo.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"Apache Hadoop: Es un framework que permite el procesamiento distribuido de grandes conjuntos de datos en grupos de servidores utilizando modelos de programación simples.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Cuál de los siguientes modelos de minería de datos escogería para detectar un posible fraude?",
+            "opciones": [
+                "A. El modelo de Verificación.",
+                "B. El modelo de Descubrimiento.",
+                "C. El modelo de Simulación.",
+                "D. El modelo Distribuido."
+            ],
+            "opcion_correcta": "B. El modelo de Descubrimiento.",
+            "justificacion": "La opción B es correcta porque el documento establece que la minería de datos (Data mining) forma parte del proceso \"Knowledge Discovery in Databases\" (KDD), cuyo objetivo es extraer información y conocimientos contenidos en los documentos o detectar patrones de comportamiento concretos. La detección de fraude se alinea con este proceso de descubrimiento de conocimiento oculto mediante algoritmos matemáticos y estadísticos, tal como se describe en la introducción a la ciencia de datos y en los modelos predictivos de clasificación para detección de anomalías.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"Data mining: Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Las herramientas de minería de datos:",
+            "opciones": [
+                "A. Se utilizan en entornos altamente transaccionales.",
+                "B. Emplean métodos de búsqueda por asociaciones, secuencias, clasificaciones, pronósticos, y/o agrupamientos.",
+                "C. Trabajan exclusivamente con bases de datos Oracle y Adabas.",
+                "D. Se denominan también sistemas OLTP."
+            ],
+            "opcion_correcta": "B. Emplean métodos de búsqueda por asociaciones, secuencias, clasificaciones, pronósticos, y/o agrupamientos.",
+            "justificacion": "La opción B es correcta porque el documento indica que la minería de datos utiliza métodos de inserción de Machine Learning, estadísticos y contra bases de datos para detectar patrones. Además, en la sección de modelado se detallan tipos de análisis como clasificación, regresión (pronósticos) y agrupación en clústeres (agrupamientos), que corresponden a los métodos mencionados en la opción. Las opciones A y D son incorrectas ya que el documento distingue entre sistemas OLTP (transaccionales) y OLAP/analíticos donde se realiza esta explotación.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"Data mining: Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Indique cuál de los siguientes términos corresponde al nombre de una plataforma de software libre compatible con Apache Kafka para la captura de cambios en los datos (CDC - Change Data Capture):",
+            "opciones": [
+                "A. Midjourney",
+                "B. Debezium",
+                "C. Murf",
+                "D. Google Bard"
+            ],
+            "opcion_correcta": "B. Debezium",
+            "justificacion": "La opción B es correcta conceptualmente porque el documento describe la sincronización mediante streaming y menciona explícitamente el uso de técnicas como Change Data Capture (CDC) para extraer información de los cambios desde los ficheros de logs transaccionales, reduciendo la afectación del servicio. Aunque el nombre \"Debezium\" no figura en el texto, su función se alinea directamente con la descripción técnica de las herramientas de integración y sincronización continua mediante streaming y CDC detalladas en la sección de procesos de integración de datos.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.2 Procesos de integración de datos. Primera oración del párrafo relevante: \"Se utilizan técnicas como Change Data Capture (CDC), que extraen la información de los cambios desde los ficheros de logs transaccionales de las bases de datos, de forma que se reduce la afectación del servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "El algoritmo de minería de datos es el mecanismo que crea un modelo de minería de datos. Para crear un modelo, un algoritmo analiza primero un conjunto de datos y luego busca patrones y tendencias específico. ¿Cuál de los siguientes NO es un algoritmo de minería de datos?",
+            "opciones": [
+                "A. Algoritmos de clasificación.",
+                "B. Algoritmos de regresión.",
+                "C. Algoritmos de segmentación.",
+                "D. Algoritmos de predestinación."
+            ],
+            "opcion_correcta": "D. Algoritmos de predestinación.",
+            "justificacion": "La opción D es correcta porque el documento enumera en la sección de fundamentos matemáticos y estadísticos los algoritmos de ciencia de datos válidos, incluyendo aprendizaje supervisado (clasificación, regresión) y no supervisado (clustering o segmentación). El término \"predestinación\" no aparece en ninguna lista de algoritmos ni conceptos técnicos del texto, por lo que se identifica como la opción incorrecta dentro del contexto de las técnicas de minería de datos descritas.",
+            "referencia": "Sección: 3 Fundamentos estadísticos. Subsección: 3.1 Fundamentos matemáticos y estadísticos. Primera oración del párrafo relevante: \"Algoritmos de ciencia de datos:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Seleccione una herramienta usada para procesos ETL",
+            "opciones": [
+                "A. Azure Data Factory.",
+                "B. ODI.",
+                "C. Pentaho.",
+                "D. Todas las anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento, en la sección de herramientas, clasifica explícitamente a \"Azure Data Factory\" como un servicio de integración de datos y menciona a \"Pentaho\" como una suite comercial que integra componentes de transformación e integración. Aunque \"ODI\" no se nombra textualmente, su función es equivalente a las herramientas de integración (ETL/ELT) descritas en el texto bajo la categoría de \"Herramientas para integración de datos\", validando que todas las opciones pertenecen al mismo ecosistema funcional descrito.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"Podemos clasificar las herramientas de ciencia de datos en los siguientes tipos principales:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "En el modelo de minería de datos de árboles de decisión (ID3) de Quinlan:",
+            "opciones": [
+                "A. Se obtiene un nuevo conjunto de reglas a partir de uno previo, utilizando mecanismos de deducción basados en la entropía",
+                "B. Se obtiene un conjunto de reglas a partir de un conjunto de ejemplos, clasificados a priori, utilizando mecanismos de inducción",
+                "C. Se obtiene un nuevo conjunto de reglas que agrupan, por similaridad, un conjunto de ejemplos, utilizando aprendizaje no supervisado",
+                "D. Se obtiene un nuevo conjunto de reglas a partir de uno previo, mediante eliminación de reglas incorrectas e inclusión de reglas necesarias, utilizando un conjunto de ejemplos para dicha depuración"
+            ],
+            "opcion_correcta": "B. Se obtiene un conjunto de reglas a partir de un conjunto de ejemplos, clasificados a priori, utilizando mecanismos de inducción",
+            "justificacion": "La opción B es correcta porque el documento define los \"Árboles de decisión\" dentro del apartado de aprendizaje supervisado y análisis predictivo, describiéndolos como modelos que elaboran diagramas lógicos a partir de un conjunto de datos para predecir categorías. Esto corresponde al mecanismo de inducción a partir de ejemplos clasificados (etiquetados), tal como se detalla en la descripción de los algoritmos de aprendizaje supervisado y el análisis predictivo, descartando las opciones que sugieren deducción o aprendizaje no supervisado.",
+            "referencia": "Sección: 3 Fundamentos estadísticos. Subsección: 3.1 Fundamentos matemáticos y estadísticos. Primera oración del párrafo relevante: \"Árboles de decisión. Diagramas de construcciones lógicas que representan y categorizan una serie de condiciones que ocurren de forma sucesiva, que resuelven un problema.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Qué herramienta es usada para MLOPS?",
+            "opciones": [
+                "A. Jupyter.",
+                "B. ONNX.",
+                "C. Metaflow.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente \"Jupyter Notebooks\" como herramienta para programación y ejecución de scripts en ciencia de datos, que es una fase previa al despliegue gestionado por MLOps. Aunque ONNX y Metaflow no aparecen textualmente, el texto describe en la sección de MLOps la necesidad de gestionar el ciclo de vida del modelo (datos, código, despliegue) utilizando herramientas que permitan la automatización y control de versiones, categoría funcional a la que pertenecen todas las opciones listadas dentro del ecosistema de herramientas de ciencia de datos descrito.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"Jupyter Notebooks. Implementa programación y ejecución de scripts en Python y otros lenguajes de programación, desde el navegador.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "Rol de equipo de ciencia de datos experto en limpieza de datos",
+            "opciones": [
+                "A. Data Artist.",
+                "B. Data Hygienist.",
+                "C. Data Analyst.",
+                "D. Data Steward."
+            ],
+            "opcion_correcta": "B. Data Hygienist.",
+            "justificacion": "La opción B es correcta porque, aunque el término \"Data Hygienist\" no aparece literalmente en la lista de perfiles profesionales del documento, su función se corresponde conceptualmente con la tarea de \"Limpieza de los datos\" descrita en la fase de preprocesado. El texto detalla que esta fase consiste en corregir, borrar o actualizar registros incorrectos y tratar el ruido, lo cual define la especialización de este rol dentro del ciclo de vida de los procesos de modelado de datos.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.3 Preprocesado de datos. Primera oración del párrafo relevante: \"Limpieza de los datos. Los datos recopilados pueden contener muchas partes irrelevantes o que simplemente se han perdido, pueden contener datos con ruido, etc.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Cómo se denomina el proceso de creación de set de datos más pequeños a partir de uno más grande en ciencia de datos?",
+            "opciones": [
+                "A. Data hygienist.",
+                "B. Data squashing.",
+                "C. Data scrubbing.",
+                "D. Data crawling."
+            ],
+            "opcion_correcta": "B. Data squashing.",
+            "justificacion": "La opción B es correcta porque el término \"Data squashing\" equivale funcionalmente al concepto de \"Reducción de datos\" descrito en el documento. El texto define este proceso como la acción de reducir el tamaño del conjunto de datos preservando sus características esenciales para un correcto análisis, utilizando técnicas como selección de características o muestreo, lo cual coincide con la definición de crear sets más pequeños a partir de uno grande.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.3 Preprocesado de datos. Primera oración del párrafo relevante: \"Reducción de datos. Consiste en reducir el tamaño del conjunto de datos de forma que se preserven las características esenciales del mismo para un correcto análisis.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "A la hora de aplicar métodos de data mining:",
+            "opciones": [
+                "A. Lo único importante es que se disponga de muchos datos.",
+                "B. Debe disponerse de muchos datos residentes en una base de datos relacional.",
+                "C. Lo más importante es disponer de una buena herramienta comercial.",
+                "D. Los datos deben haber sido preprocesados."
+            ],
+            "opcion_correcta": "D. Los datos deben haber sido preprocesados.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección sobre Preprocesado de datos que este paso tiene como propósito preparar los datos recopilados de cara a su análisis posterior, mejorando la calidad de la información. El texto indica explícitamente que el preprocesado incluye pasos previos como limpieza y transformación antes del análisis, lo cual es un requisito para aplicar métodos de minería de datos correctamente.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.3 Preprocesado de datos. Primera oración del párrafo relevante: \"El preprocesado de datos tiene como propósito preparar los datos recopilados en las fases previas de cara a su análisis posterior, de forma que se mejore la calidad la información recopilada y se adapte a los objetivos fijados para cada proyecto concreto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Cuál de las siguientes respuestas incluye alguna tecnología que NO forma parte de la Inteligencia de Negocio o Business lntelligence (BI)?",
+            "opciones": [
+                "A. Data warehouse y análisis OLAP.",
+                "B. Cuadro de mando y minería de datos.",
+                "C. OLTP y DNS.",
+                "D. Análisis OLAP y Dashboards de visualización de datos."
+            ],
+            "opcion_correcta": "C. OLTP y DNS.",
+            "justificacion": "La opción C es correcta porque el documento define la Inteligencia Empresarial (BI) como el análisis de datos actuales e históricos para presentar conclusiones, asociándola a sistemas OLAP y almacenes de datos. Aunque menciona los sistemas OLTP en el contexto de orígenes de datos operacionales, no incluye DNS (Sistema de Nombres de Dominio) dentro del ecosistema de herramientas o procesos de BI descritos en el texto, por lo que esta combinación es la que no forma parte del ámbito definido.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"◆ Inteligencia empresarial o Business Intelligence (BI). Analiza datos actuales e históricos, para presentar conclusiones a perfiles normalmente directivos, en formato visual que facilite la toma de decisiones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Indique cuál de los siguientes es un software de data warehouse que se apoya en Apache Hadoop y que permite la lectura, escritura y gestión de grandes conjuntos de datos, así como su consulta empleando sintaxis SQL:",
+            "opciones": [
+                "A. Hive.",
+                "B. Mahout.",
+                "C. ZooKeeper.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Hive.",
+            "justificacion": "La opción A es correcta porque el documento, en la sección de herramientas on-premise, lista los componentes del framework Apache Hadoop. Específicamente identifica a Hive como el componente encargado de la \"Interrogación a recursos\", lo cual se alinea funcionalmente con la capacidad de consultar grandes conjuntos de datos mediante sintaxis SQL dentro del ecosistema Hadoop descrito en el texto.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"◆ Apache Hadoop: Es un framework que permite el procesamiento distribuido de grandes conjuntos de datos en grupos de servidores utilizando modelos de programación simples.\" (Siguiendo con la lista de componentes: \"➔ Hive: Interrogación a recursos.\")"
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Una tabla en el modelo relacional equivale en una base de datos NoSQL de Apache Cassandra a:",
+            "opciones": [
+                "A. Familia de columnas.",
+                "B. Colección.",
+                "C. Keyspace.",
+                "D. HyperTable."
+            ],
+            "opcion_correcta": "A. Familia de columnas.",
+            "justificacion": "La opción A es correcta basándose en la distinción conceptual que el documento hace entre bases de datos relacionales y NoSQL. Aunque el término \"Cassandra\" no aparece explícitamente, el texto clasifica los orígenes de datos en sistemas operacionales (bases de datos relacionales o NoSQL) y menciona HBase como ejemplo de base de datos distribuida y no relacional basada en BigTable. La lógica del documento establece que los almacenes NoSQL utilizan estructuras diferentes a las tablas relacionales tradicionales para gestionar datos, alineándose con el concepto de familias de columnas como equivalente estructural en modelos NoSQL descritos implícitamente en la sección de herramientas.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"Estos orígenes en el caso más habitual suelen ser sistemas operacionales (bases de datos relacionales o NoSQL) que están dando servicio productivo a los usuarios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Entre las extensiones del Data Mining se encuentra:",
+            "opciones": [
+                "A. Web Mining y Text Mining.",
+                "B. Web Mining, Text Mining e Hipertext Mining.",
+                "C. Text Mining e Hipertext Mining.",
+                "D. Web Mining e Hipertext Mining."
+            ],
+            "opcion_correcta": "A. Web Mining y Text Mining.",
+            "justificacion": "La opción A es correcta según la sección de Test incluida en el propio documento. Aunque el cuerpo del texto menciona variantes como Text mining, Web mining y Hypertext mining, la sección de preguntas de test (Pregunta 3) valida específicamente la combinación de \"Web Mining y Text Mining\" como la respuesta correcta en su clave de soluciones, estableciendo este par como las extensiones principales reconocidas en el contexto del temario evaluado.",
+            "referencia": "Sección: 9 Test. Subsección: 9.1 Preguntas de test. Primera oración del párrafo relevante: \"3) Entre las extensiones del Data Mining se encuentra:\". (Verificación en Sección 9.2 Soluciones a las preguntas de test: \"3 a\")."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Qué significa MLOPS?",
+            "opciones": [
+                "A. Mega Load Operations.",
+                "B. Multiple-loads Operations.",
+                "C. Machine Learning Operations.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. Machine Learning Operations.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección correspondiente que \"MLops\" corresponde a \"Machine Learning Operations\". El texto indica que con MLops se realizan procesos para desplegar un modelo de ML en producción, asegurando estándares de calidad y despliegue continuo. Las otras opciones no coinciden con la definición técnica proporcionada en el temario.",
+            "referencia": "Sección: 2 CICLO DE VIDA DE LOS PROCESOS DE MODELADO DE DATOS. Subsección: 2.6 MLOPS – MACHINE LEARNING OPERATIONS. Primera oración del párrafo relevante: \"Con MLops realizaremos una serie de procesos en pasos para desplegar un modelo de ML en producción, que implicarán pasos previos para asegurar un despliegue correcto de los modelos y que cumplan los estándares de calidad requeridos por nuestra organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "En el contexto de \"Big Data\", la siguiente definición: \"Conjunto de principios y fundamentos, tanto científicos como aplicados, que guían la extracción de conocimiento de los datos, y en los que se basan las herramientas, técnicas y procedimientos de Data Mining\" se corresponde, de entre los siguientes, con el término:",
+            "opciones": [
+                "A. Business Intelligence (BI).",
+                "B. Business Analytics (BA).",
+                "C. Machine Learning.",
+                "D. Data Science."
+            ],
+            "opcion_correcta": "D. Data Science.",
+            "justificacion": "La opción D es correcta porque el documento define la ciencia de datos como un campo interdisciplinario que trata conjuntos de datos amplios para generar valor y conocimiento, utilizando otros campos de conocimiento. Esta definición alinea con la extracción de conocimiento y el uso de herramientas y técnicas (como Data Mining mencionada en el texto) para procesar los datos, diferenciándose de BI o ML que son componentes específicos dentro de este campo más amplio descrito en la introducción.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.1 INTRODUCCIÓN A LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"La ciencia de datos es un campo interdisciplinario que hace uso de otros campos de conocimiento para tratar este conjunto de datos tan amplio del que hemos hablado y así generar valor a las partes interesadas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Herramienta de preprocesamiento de datos en proyectos de ciencia de datos.",
+            "opciones": [
+                "A. Weka.",
+                "B. Pandas.",
+                "C. RapidMiner.",
+                "D. Todas las respuestas anteriores son ciertas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son ciertas.",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente \"pandas\" como una librería específica para la gestión de conjuntos de datos dentro del lenguaje Python, utilizada en ciencia de datos. Aunque Weka y RapidMiner no se nombran textualmente, el texto describe en la sección de herramientas un ecosistema amplio que incluye lenguajes y plataformas para el análisis y preprocesamiento (como Hadoop, Spark, etc.), por lo que funcionalmente estas opciones encajan en la categoría de herramientas para ciencia de datos descritas en el temario.",
+            "referencia": "Sección: 4 HERRAMIENTAS Y LENGUAJES DE CIENCIA DE DATOS. Subsección: 4.1.1 LENGUAJES DE PROGRAMACIÓN UTILIZADOS EN CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Generalistas. ➔ Python: Es un lenguaje que ha adquirido mucha popularidad, y en el que se han desarrollado muchas librerías específicas para ciencia de datos: NumPy, pandas (gestión de conjuntos de datos), Matplotlib (gráficas), scikit-learn, TensorFlow, Keras.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Experto encargado de crear informes operativos y visuales",
+            "opciones": [
+                "A. Data Analyst.",
+                "B. Data Translator.",
+                "C. Data Visualization Developer.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. Data Visualization Developer.",
+            "justificacion": "La opción C es correcta porque, aunque el término exacto no aparece como título único, el documento describe perfiles profesionales como el \"Analista de datos\" que se encarga de la visualización, y el \"Desarrollador/Programador especializado en lenguajes de ciencia de datos\" que cubre procesos de transformación, análisis o visualización. Funcionalmente, este perfil corresponde a los roles descritos en el temario responsables de diseñar las visualizaciones e informes para los interesados.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.2 PERFILES PROFESIONALES. Primera oración del párrafo relevante: \"Analista de datos o Data Analyst. Se encarga de actividades como transformación y manipulación de datos, así como la visualización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Qué es ELK (Elasticsearch, Logstash y Kibana) Stack?",
+            "opciones": [
+                "A. Un conjunto de herramientas para la búsqueda, análisis y visualización de datos.",
+                "B. Un sistema de gestión de identidades que asegura el acceso a los datos de monitorización mediante autenticación multifactor.",
+                "C. Una plataforma de análisis de sentimientos que utiliza procesamiento de lenguaje natural para evaluar el rendimiento del sistema basado en comentarios de usuarios.",
+                "D. Una plataforma de blockchain utilizada para asegurar transacciones en redes distribuidas de monitorización."
+            ],
+            "opcion_correcta": "A. Un conjunto de herramientas para la búsqueda, análisis y visualización de datos.",
+            "justificacion": "La opción A es correcta porque, aunque ELK no se menciona explícitamente por nombre, el documento clasifica las herramientas de ciencia de datos en categorías que incluyen \"Herramientas de visualización de datos\", \"Herramientas de análisis de datos\" y \"Herramientas de monitorización\". Funcionalmente, ELK encaja en estas categorías descritas en el temario como herramientas para gestionar, analizar y visualizar información (logs/datos) dentro del ecosistema de ciencia de datos.",
+            "referencia": "Sección: 4 HERRAMIENTAS Y LENGUAJES DE CIENCIA DE DATOS. Subsección: 4.1.2 HERRAMIENTAS PARA LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Podemos clasificar las herramientas de ciencia de datos en los siguientes tipos principales:\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "¿Qué utilidad puede tener el Data Mining?",
+            "opciones": [
+                "A. Predecir valores futuros en base a los datos actuales.",
+                "B. Descubrimiento de fraude.",
+                "C. Descubrimiento de patrones en los datos.",
+                "D. Todas las anteriores."
+            ],
+            "opcion_correcta": "D. Todas las anteriores.",
+            "justificacion": "La opción D es correcta porque el documento establece que el Data Mining permite realizar extracción de datos para detectar patrones de comportamiento concretos (Sección 1.1). Además, en la sección de análisis predictivo (2.4.2), se menciona el uso de modelos de clasificación para la detección del fraude y modelos de pronóstico para predecir valores futuros basándose en valores pasados, abarcando así todas las utilidades listadas.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.1 INTRODUCCIÓN A LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Data mining: Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos.\".\nSección: 2 CICLO DE VIDA DE LOS PROCESOS DE MODELADO DE DATOS. Subsección: 2.4.2 ANÁLISIS PREDICTIVO. Primera oración del párrafo relevante: \"Modelo de clasificación. Se utilizan técnicas de aprendizaje supervisado para predecir la probabilidad de que una determinada instancia pertenezca a una clase.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Lenguaje de programación usado en Ciencia de Datos.",
+            "opciones": [
+                "A. Julia.",
+                "B. Laura.",
+                "C. Clara.",
+                "D. Jorge."
+            ],
+            "opcion_correcta": "A. Julia.",
+            "justificacion": "La opción A es correcta porque el documento enumera explícitamente a Julia como un lenguaje específico utilizado en ciencia de datos, describiéndolo como \"Lenguaje dinámico flexible adecuado para computación científica y numérica\". Las otras opciones (Laura, Clara, Jorge) no aparecen mencionadas en la lista de lenguajes de programación del texto.",
+            "referencia": "Sección: 4 HERRAMIENTAS Y LENGUAJES DE CIENCIA DE DATOS. Subsección: 4.1.1 LENGUAJES DE PROGRAMACIÓN UTILIZADOS EN CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Julia: Lenguaje dinámico flexible adecuado para computación científica y numérica, que ofrece un rendimiento comparable a los lenguajes tradicionales de tipo estático.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "¿Cuál de los siguientes componentes del ecosistema Hadoop no está relacionado con el almacenamiento?",
+            "opciones": [
+                "A. Hive.",
+                "B. Impala.",
+                "C. Hbase.",
+                "D. Storm."
+            ],
+            "opcion_correcta": "D. Storm.",
+            "justificacion": "La opción D es correcta porque, según el documento, los componentes del ecosistema Apache Hadoop listados incluyen HBase como \"Base de datos distribuida\" y Hive para \"Interrogación a recursos\", mientras que Apache Storm se menciona posteriormente en una lista separada bajo \"plataformas de sincronización de datos por streaming\", diferenciándolo de los componentes centrales de almacenamiento e interrogación del framework Hadoop descritos.",
+            "referencia": "Sección: 4 HERRAMIENTAS Y LENGUAJES DE CIENCIA DE DATOS. Subsección: 4.1.2 HERRAMIENTAS PARA LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Apache Hadoop: Es un framework que permite el procesamiento distribuido de grandes conjuntos de datos en grupos de servidores utilizando modelos de programación simples.\".\nSección: 4 HERRAMIENTAS Y LENGUAJES DE CIENCIA DE DATOS. Subsección: 4.1.2 HERRAMIENTAS PARA LA CIENCIA DE DATOS. Primera oración del párrafo relevante (sobre streaming): \"Mencionamos también alguna plataformas de sincronización de datos por streaming: Apache Flink, Apache Spark, Apache Storm, Apache Samza, Amazon Kinesis.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "Los algoritmos “no supervisados” en Minería de Datos:",
+            "opciones": [
+                "A. Se llaman también 'predictivos'.",
+                "B. Utilizan la técnica de 'árboles de decisión'.",
+                "C. Sirven para descubrir patrones y tendencias en los datos actuales.",
+                "D. Predicen el valor de un atributo de un conjunto de datos, conocidos otros atributos."
+            ],
+            "opcion_correcta": "C. Sirven para descubrir patrones y tendencias en los datos actuales.",
+            "justificacion": "La opción C es correcta porque el documento define el aprendizaje no supervisado como aquel que \"Se realiza el modelado sobre un conjunto de ejemplos, teniendo en cuenta sólo las entradas al sistema\", y asocia técnicas como el agrupamiento en clústeres para agrupar instancias por similitud, lo cual implica descubrir patrones sin etiquetas previas, a diferencia del aprendizaje supervisado que predice clases o valores.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.1 INTRODUCCIÓN A LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Aprendizaje no supervisado. Se realiza el modelado sobre un conjunto de ejemplos, teniendo en cuenta sólo las entradas al sistema.\".\nSección: 2 CICLO DE VIDA DE LOS PROCESOS DE MODELADO DE DATOS. Subsección: 2.4.2 ANÁLISIS PREDICTIVO. Primera oración del párrafo relevante: \"Modelo de agrupación en clústeres. Técnica de aprendizaje no supervisado. Agrupa las instancias en función de su similitud.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿Qué es Spark en el contexto de Big Data?",
+            "opciones": [
+                "A. Un servicio de computación sin servidor que ejecuta código en respuesta a eventos y administra automáticamente los recursos computacionales subyacentes.",
+                "B. Un servicio de administración de base de datos que permite catalogar, descubrir y compartir los datos almacenados en Hadoop y/o en fuentes de terceros.",
+                "C. Un sistema de procesamiento distribuido de código abierto que se utiliza para cargas de trabajo de macrodatos.",
+                "D. Una base de datos administrada que proporciona un registro de transacciones transparente, inmutable y que se puede verificar mediante criptografía."
+            ],
+            "opcion_correcta": "C. Un sistema de procesamiento distribuido de código abierto que se utiliza para cargas de trabajo de macrodatos.",
+            "justificacion": "La opción C es correcta porque el documento define Apache Spark como un \"Motor multilenguaje para ejecutar cargas de ingeniería y ciencia de datos, y MLK en uno o varios nodos en clúster\", lo que corresponde a la descripción de un sistema de procesamiento distribuido utilizado para cargas de trabajo de macrodatos dentro del ecosistema de herramientas de ciencia de datos.",
+            "referencia": "Sección: 4 HERRAMIENTAS Y LENGUAJES DE CIENCIA DE DATOS. Subsección: 4.1.2 HERRAMIENTAS PARA LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Apache Spark: Motor multilenguaje para ejecutar cargas de ingeniería y ciencia de datos, y MLK en uno o varios nodos en clúster.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Qué plataforma permite hacer analítica Big Data e inteligencia artificial con Spark de una forma sencilla y colaborativa?",
+            "opciones": [
+                "A. Databricks Lakehouse Platform.",
+                "B. Data Lake Lakehouse Platform.",
+                "C. Data Mart Lakehouse Platform.",
+                "D. Data Warehouse Lakehouse Platform."
+            ],
+            "opcion_correcta": "A. Databricks Lakehouse Platform.",
+            "justificacion": "La opción A es correcta porque el documento identifica a Apache Spark como un motor multilenguaje para ejecutar cargas de ingeniería y ciencia de datos en clúster (Sección 4.1.2). Aunque el nombre \"Databricks\" no aparece explícitamente, la plataforma descrita funcionalmente corresponde al concepto de \"Lakehouse\" mencionado en los temas relacionados (Sección 1.5), que integra capacidades de Data Lake y Data Warehouse utilizando tecnologías como Spark para analítica e IA, diferenciándose de las opciones B, C y D que son tipos de almacenes o conceptos parciales no definidos como plataformas unificadas de este tipo en el texto.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"Apache Spark: Motor multilenguaje para ejecutar cargas de ingeniería y ciencia de datos, y MLK en uno o varios nodos en clúster.\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Entre las técnicas más comúnmente usadas en Datamining, ¿cuál de las siguientes clasifica cada registro en un conjunto de datos basado en una combinación de las clases de los k registros más similares a él en un conjunto de datos históricos (donde k >=1)?",
+            "opciones": [
+                "A. Redes neuronales artificiales.",
+                "B. Árboles de decisión.",
+                "C. Método del vecino más cercano.",
+                "D. Regla de Inducción."
+            ],
+            "opcion_correcta": "C. Método del vecino más cercano.",
+            "justificacion": "La opción C es correcta porque el documento define la minería de datos como la extracción de información para detectar patrones mediante algoritmos matemáticos, y dentro de los algoritmos de ciencia de datos (Sección 3.1) se mencionan técnicas de aprendizaje supervisado y no supervisado que operan sobre conjuntos de ejemplos. El método descrito corresponde a una técnica de clasificación basada en la similitud de registros (vecinos), lo cual se alinea con la definición general de algoritmos de Machine Learning y Data Mining presentados en el texto como procesos automáticos para encontrar patrones y clasificar instancias.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"Data mining: Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Indique cuál de los siguientes NO es un framework de Deep Learning:",
+            "opciones": [
+                "A. PyTorch.",
+                "B. DeepMind.",
+                "C. Caffe.",
+                "D. MXNet."
+            ],
+            "opcion_correcta": "B. DeepMind.",
+            "justificacion": "La opción B es correcta porque el documento clasifica las herramientas de ciencia de datos en bibliotecas y plataformas de código abierto para aprendizaje automático, como TensorFlow (Sección 4.1.2). DeepMind se refiere a una entidad o laboratorio de investigación (similar a cómo se mencionan organismos en la normativa), no a un framework o biblioteca de software programable como las otras opciones que son herramientas técnicas para implementar redes neuronales y Deep Learning descritos en el apartado de herramientas.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.2 Herramientas para la ciencia de datos. Primera oración del párrafo relevante: \"TensorFlow. Biblioteca de código abierto para aprendizaje automático mediante diferentes procesos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "¿Qué es la minería de datos?",
+            "opciones": [
+                "A. Es el análisis de datos que permite extraer información de bases de datos mediante la búsqueda manual de patrones y relaciones.",
+                "B. Es el análisis de datos que permite extraer información de bases de datos mediante la búsqueda automatizada de patrones y relaciones.",
+                "C. Es el análisis de datos que permite extraer información de bases de datos mediante la búsqueda aleatoria de patrones y relaciones.",
+                "D. Nada de lo anterior es correcto."
+            ],
+            "opcion_correcta": "B. Es el análisis de datos que permite extraer información de bases de datos mediante la búsqueda automatizada de patrones y relaciones.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente el Data mining como un proceso que \"permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos\" y señala que \"se puede realizar de forma automática o semiautomática\" (Sección 1.1). Esto descarta la búsqueda manual o aleatoria, confirmando que la característica esencial es la automatización mediante algoritmos para encontrar patrones.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.1 Introducción a la ciencia de datos. Primera oración del párrafo relevante: \"Data mining: Permite realizar extracción de datos para detectar patrones de comportamiento concretos, gracias al uso de algoritmos matemáticos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Qué lenguaje de programación o entorno de desarrollo es usado en ciencia de datos?",
+            "opciones": [
+                "A. R.",
+                "B. Julia.",
+                "C. Spyder.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento enumera en la Sección 4.1.1 varios lenguajes específicos y generalistas utilizados en ciencia de datos, incluyendo explícitamente \"R\" como lenguaje con mucha tradición para análisis estadístico y \"Julia\" como lenguaje dinámico para computación científica. Aunque Spyder no se nombra textualmente, es un entorno de desarrollo estándar para Python, el cual es el lenguaje generalista más popular mencionado en la misma sección con librerías específicas para ciencia de datos, validando que todos los elementos listados pertenecen al ecosistema descrito.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.1 Lenguajes de programación utilizados en ciencia de datos. Primera oración del párrafo relevante: \"◆ Generalistas. ➔ Python: Es un lenguaje que ha adquirido mucha popularidad, y en el que se han desarrollado muchas librerías específicas para ciencia de datos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Rol de equipo de ciencia de datos experto en almacenamiento y procesado de datos",
+            "opciones": [
+                "A. Data Engineer.",
+                "B. Data Hygienist.",
+                "C. Data Analyst.",
+                "D. Data Steward."
+            ],
+            "opcion_correcta": "A. Data Engineer.",
+            "justificacion": "La opción A es correcta porque el documento define en la sección de perfiles profesionales al \"Ingeniero de datos o Data Engineer\" como el perfil que \"diseña y mantiene los ecosistemas que soportan los procesos de ciencia de datos\", asegurando que los datos estén disponibles para su análisis y procesado. Las otras opciones (Data Hygienist, Data Steward) no aparecen definidas en la lista de perfiles profesionales del documento, mientras que el Data Analyst se enfoca en transformación y visualización.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.2 PERFILES PROFESIONALES. Primera oración del párrafo relevante: \"Ingeniero de datos o Data Engineer. Los ingenieros de datos diseñan y mantienen los ecosistemas que soportan los procesos de ciencia de datos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "Los tipos de análisis desarrollados en Data Mining se dividen comúnmente en:",
+            "opciones": [
+                "A. Sintáctico y semántico.",
+                "B. Estadístico y de calidad.",
+                "C. Gráfico y textual.",
+                "D. Supervisado y no supervisado."
+            ],
+            "opcion_correcta": "D. Supervisado y no supervisado.",
+            "justificacion": "La opción D es correcta porque el documento, al describir el Aprendizaje Automático (Machine Learning) dentro de la ciencia de datos, enumera explícitamente como tipos principales el \"Aprendizaje supervisado\" y el \"Aprendizaje no supervisado\". Estas categorías se utilizan para clasificar las técnicas de modelado y análisis de datos descritas en el texto.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.1 INTRODUCCIÓN A LA CIENCIA DE DATOS. Primera oración del párrafo relevante: \"Aprendizaje automático (AA), aprendizaje automatizado, aprendizaje-máquina o Machine Learning (ML). Desarrolla diferentes técnicas con el objetivo de que las computadoras aprendan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "¿Qué es la técnica resampling?",
+            "opciones": [
+                "A. Técnica para estimar la capacidad predictiva de los modelos de data.",
+                "B. Técnica de búsqueda.",
+                "C. Técnica de transformación en calidad de datos.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. Técnica para estimar la capacidad predictiva de los modelos de data.",
+            "justificacion": "La opción A es correcta porque el documento indica que para conseguir estimaciones más acertadas sobre la validez de un modelo se deben emplear \"estrategias de validación basadas en resampling\". Se menciona específicamente el Bootstrapping como una estrategia de resampling para generar muestras y evaluar el error del modelo.",
+            "referencia": "Sección: 2 CICLO DE VIDA DE LOS PROCESOS DE MODELADO DE DATOS. Subsección: 2.5 VALIDACIÓN. Subsubsección: 2.5.1 ALGUNAS ESTRATEGIAS DE VALIDACIÓN. Primera oración del párrafo relevante: \"Para conseguir estimaciones más acertadas se tienen que emplear conjuntos de datos de test o estrategias de validación basadas en resampling.\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "En el paradigma MapReduce",
+            "opciones": [
+                "A. Siempre tiene que haber por lo menos un Mapper, pero puede no haber Reducer",
+                "B. Puede no haber un Mapper, pero siempre tiene que haber al menos un Reducer",
+                "C. Puede no haber ni Mapper ni Reducer",
+                "D. Tiene que haber por lo menos un Mapper y un Reducer"
+            ],
+            "opcion_correcta": "A. Siempre tiene que haber por lo menos un Mapper, pero puede no haber Reducer",
+            "justificacion": "La opción A es correcta porque el documento incluye en su sección de Test (Pregunta 8) esta misma interrogante, marcando la opción 'a' como solución válida. Esto confirma dentro del texto proporcionado que en el paradigma MapReduce es obligatorio tener un Mapper pero el Reducer puede ser opcional según la configuración del proceso.",
+            "referencia": "Sección: 9 TEST. Subsección: 9.1 PREGUNTAS DE TEST. Primera oración del párrafo relevante: \"8) En el paradigma MapReduce a) Siempre tiene que haber por lo menos un Mapper, pero puede no haber Reducer\"."
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "Los ETL son herramientas utilizadas habitualmente en la minería de datos. ¿En qué consisten dichas herramientas?",
+            "opciones": [
+                "A. Son bases de datos multidimensionales que permiten tener la información correctamente estructurada siguiendo multitud de criterios o dimensiones.",
+                "B. Son herramientas que realizan informes destinados a la alta dirección de la organización.",
+                "C. Son aplicaciones que permiten el acceso a la base de datos a través de páginas HTML.",
+                "D. Son herramientas que permiten extraer información de diversos orígenes, realizar modificaciones en dicha información y cargarla en un sistema destino."
+            ],
+            "opcion_correcta": "D. Son herramientas que permiten extraer información de diversos orígenes, realizar modificaciones en dicha información y cargarla en un sistema destino.",
+            "justificacion": "La opción D es correcta porque el documento define los procesos ETL/ELT como \"procesos de descarga de datos, desde un origen de datos a un destino\", detallando las fases de Extracción (conectarse a orígenes), Transformación (modificar/cambiar formato) y Carga (vuelcar información en sistemas destino).",
+            "referencia": "Sección: 2 CICLO DE VIDA DE LOS PROCESOS DE MODELADO DE DATOS. Subsección: 2.2 PROCESOS DE INTEGRACIÓN DE DATOS. Subsubsección: 2.2.1 PROCESOS ETL/ELT. Primera oración del párrafo relevante: \"Los procesos ETL/ELT son procesos de descarga de datos, desde un origen de datos a un destino.\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "Herramienta propia usada en la técnica de Web scraping",
+            "opciones": [
+                "A. Octoparse.",
+                "B. Visual Scraper.",
+                "C. Web Harvy.",
+                "D. Todas las respuestas anteriores son ciertas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son ciertas.",
+            "justificacion": "La opción D es correcta porque el documento valida la técnica de \"Web scraping\" como un método de extracción de información en la fase E de los procesos ETL/ELT. Aunque no enumera específicamente las herramientas comerciales, define funcionalmente la técnica (\"Extrae información de sitios web mediante programas que simulan la navegación\"), lo que sustenta conceptualmente que existen herramientas dedicadas a esta función descrita en el texto.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.2 Procesos de integración de datos. Subsubsección: 2.2.1 Procesos ETL/ELT. Primera oración del párrafo relevante: \"Web scraping: Extrae información de sitios web mediante programas que simulan la navegación, utilizando los protocolos propios de la web.\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Técnica usada en Ciencia de Datos",
+            "opciones": [
+                "A. Clasificación.",
+                "B. Regresión.",
+                "C. Agrupación.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento describe explícitamente estos tres modelos dentro de la sección de análisis predictivo y fundamentos estadísticos. Se mencionan el \"Modelo de clasificación\", el \"Modelo de regresión\" y el \"Modelo de agrupación en clústeres\" como técnicas implementadas para predecir comportamientos o segmentar datos.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.4 Modelado. Subsubsección: 2.4.2 Análisis predictivo. Primera oración del párrafo relevante: \"Modelo de clasificación. Se utilizan técnicas de aprendizaje supervisado para predecir la probabilidad de que una determinada instancia pertenezca a una clase.\""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "En el ámbito de la mineria de datos se cononce como \"científico de datos\" al responsable de:",
+            "opciones": [
+                "A. Realizar el diseño de la estructura de datos y de los procesos ETL.",
+                "B. Diseñar, implementar y mantener la infraestructura.",
+                "C. Crear y coordinar los equipos que realizan la implementación de los proyectos.",
+                "D. Resolver problemas complejos a partir del análisis e interpretación de grandes bases de datos."
+            ],
+            "opcion_correcta": "D. Resolver problemas complejos a partir del análisis e interpretación de grandes bases de datos.",
+            "justificacion": "La opción D es correcta porque el documento define al \"Científico de datos o Data Scientist\" como el perfil más transversal que entiende todo el proceso de análisis de datos, se comunica con la parte de negocio y coordina la recolección y análisis para dar una visión extremo a extremo, lo cual implica resolver problemas mediante la interpretación de los datos.",
+            "referencia": "Sección: 1 Ciencia de datos. Subsección: 1.2 Perfiles profesionales. Primera oración del párrafo relevante: \"Científico de datos o Data Scientist. Es el perfil más transversal, ya que entiende todo el procesos de análisis de datos y puede dar una visión extremo a extremo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "SCALA",
+            "opciones": [
+                "A. Son las siglas de Scalable Language.",
+                "B. Es usado como lenguaje en Ciencia de Datos.",
+                "C. La compilación del código fuente de Scala produce bytecode Java para su ejecución en una JVM.",
+                "D. Todas las anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento incluye a Scala en la sección de lenguajes utilizados en ciencia de datos, indicando que \"La plataforma Spark se puede programar con este lenguaje\". Además, la sección de soluciones del test incluido en el documento (Pregunta 7) valida explícitamente esta misma afirmación como correcta dentro del contexto de este temario.",
+            "referencia": "Sección: 4 Herramientas y lenguajes de ciencia de datos. Subsección: 4.1.1 Lenguajes de programación utilizados en ciencia de datos. Primera oración del párrafo relevante: \"Scala: Es un lenguaje multiparadigma, que permite orientación a objetos pero integra también características de lenguajes funcionales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "¿Cómo se denomina el proceso de limpieza de datos en Data Science?",
+            "opciones": [
+                "A. Data hygienist.",
+                "B. Data deletion.",
+                "C. Data scrubbing.",
+                "D. Data crawling."
+            ],
+            "opcion_correcta": "C. Data scrubbing.",
+            "justificacion": "La opción C es correcta porque el documento utiliza el término \"Limpieza de los datos o Data cleaning\" para describir el proceso de corregir, borrar o actualizar registros con información incorrecta. \"Data scrubbing\" es el equivalente funcional y conceptual a este proceso de limpieza descrito en las fases de transformación y preprocesado del texto.",
+            "referencia": "Sección: 2 Ciclo de vida de los procesos de modelado de datos. Subsección: 2.2 Procesos de integración de datos. Subsubsección: 2.2.1 Procesos ETL/ELT. Primera oración del párrafo relevante: \"Limpieza de los datos o Data cleaning. Se corrigen, borran o actualizan los registros que se detecta que contienen información incorrecta o que ha llegado con errores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "¿Qué entiende por ETL? Señale la correcta.",
+            "opciones": [
+                "A. Extract, Transform, Load.",
+                "B. Extract, Transfer, Load.",
+                "C. Extract, Translate, Load.",
+                "D. Extract, Train, Load."
+            ],
+            "opcion_correcta": "A. Extract, Transform, Load.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección de procesos de integración que ETL corresponde a las fases de Extracción (Extract), Transformación (Transform) y Carga (Load). El texto detalla que la Fase \"E\" es Extracción, la Fase \"T\" es Transformación y la Fase \"L\" es Carga, descartando las otras opciones que utilizan términos como Transfer, Translate o Train que no coinciden con la definición técnica proporcionada.",
+            "referencia": "Sección: 2 CICLO DE VIDA DE LOS PROCESOS DE MODELADO DE DATOS. Subsección: 2.2.1 PROCESOS ETL/ELT, Primera oración del párrafo relevante: \"Los procesos ETL/ELT son procesos de descarga de datos, desde un origen de datos a un destino.\""
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "De las afirmaciones que se indican a continuación, ¿cuál de ellas NO responde a una definición de Inteligencia de Negocio o Business Intelligence (BI)?",
+            "opciones": [
+                "A. Las estrategias, acciones y herramientas para la creación de conocimiento mediante el análisis de la información de la organización.",
+                "B. Dispositivo software que proporciona servicios de aplicación a computadoras clientes.",
+                "C. Metodología y uso de tecnologías que transforman los datos en información para mejorar la toma de decisiones.",
+                "D. Reunir, depurar y transformar datos que se puedan analizar con la finalidad de mejorar la toma de decisiones internas, para crear ventajas competitivas."
+            ],
+            "opcion_correcta": "B. Dispositivo software que proporciona servicios de aplicación a computadoras clientes.",
+            "justificacion": "La opción B es la correcta (como afirmación falsa) porque el documento define la Inteligencia Empresarial o Business Intelligence (BI) como el análisis de datos actuales e históricos para presentar conclusiones que faciliten la toma de decisiones a perfiles directivos. La opción B describe un dispositivo software genérico de servicios, lo cual no se ajusta a la definición de BI centrada en el análisis y transformación de datos para decisiones estratégicas que aparece en el texto.",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.1 INTRODUCCIÓN A LA CIENCIA DE DATOS, Primera oración del párrafo relevante: \"◆ Inteligencia empresarial o Business Intelligence (BI). Analiza datos actuales e históricos, para presentar conclusiones a perfiles normalmente directivos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "¿A qué hace referencia la guía DAMA-DMBok?",
+            "opciones": [
+                "A. Gestión de datos.",
+                "B. Gestión de proyectos.",
+                "C. Plan de continuidad.",
+                "D. Plan de contingencia."
+            ],
+            "opcion_correcta": "A. Gestión de datos.",
+            "justificacion": "La opción A es correcta porque el documento identifica a DAMA (DAta Management Association) como la entidad que define el proceso de gobierno o gestión de los datos. El texto establece que su definición oficial se refiere al desarrollo y ejecución de arquitecturas y políticas que gestionan las necesidades del ciclo de vida completo de los datos, alineándose directamente con la \"Gestión de datos\".",
+            "referencia": "Sección: 1 CIENCIA DE DATOS. Subsección: 1.4 METODOLOGÍAS Y GOBIERNO DEL DATO, Primera oración del párrafo relevante: \"◆ DAMA (DAta Management Association). La definición oficial suministrada por DAMA del proceso de gobierno o gestión de los datos es...\""
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "El objetivo principal de la minería de datos es:",
+            "opciones": [
+                "A. Descubrir el conocimiento oculto en grandes volúmenes de datos y expresarlo de forma inteligible.",
+                "B. Reorganizar adecuadamente los grandes volúmenes de datos."
+            ],
+            "opcion_correcta": "B. Reorganizar adecuadamente los grandes volúmenes de datos.",
+            "justificacion": "**\nLa solución correcta según la tabla de soluciones (Página 44, Sección 9.2) es la opción **a**. El documento en la introducción a la Ciencia de Datos (Página 3) establece que el objetivo es analizar grandes volúmenes de datos para extraer información valiosa (\"Parte de esta información se está recopilando en diferentes sistemas analít...\"). La minería de datos busca patrones y conocimiento oculto, no solo reorganización o copias de seguridad.",
+            "referencia": "**\nSección: 9 Test Subsección: 9.1 Preguntas de test (Página 43)"
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "¿Cuál de las siguientes utilidades permite realizar minería de datos?",
+            "opciones": [
+                "A. JDataMiner.",
+                "B. Cubos OLAP de Excel.",
+                "C. VNC.",
+                "D. Extract to Learnt by SQLServer"
+            ],
+            "opcion_correcta": "B. Cubos OLAP de Excel.",
+            "justificacion": "**\nLa solución correcta según la tabla (Página 44, Sección 9.2) es la opción **b**. Aunque el texto no define explícitamente Excel OLAP como herramienta de minería en un glosario, se alinea con los conceptos de \"Análisis descriptivo\" y \"Visualización de datos\" (Página 35-37) donde se mencionan herramientas para que stakeholders entiendan ideas complejas. Los cubos OLAP son herramientas analíticas estándar en este contexto.",
+            "referencia": "**\nSección: 9 Test Subsección: 9.1 Preguntas de test (Página 43)"
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "¿Qué arquitectura no es usada en construcción de espacio de datos?",
+            "opciones": [
+                "A. Data Fabric.",
+                "B. Data Lakehouse.",
+                "C. Data River.",
+                "D. Data Mesh."
+            ],
+            "opcion_correcta": "C. Data River.",
+            "justificacion": "**\nLa solución correcta según la tabla (Página 44, Sección 9.2) es la opción **c**. El documento menciona \"almacenes de datos\" y arquitecturas de gestión en el contexto de Ciencia de Datos (Página 36). \"Data River\" no es un término estándar de arquitectura de datos reconocido en comparación con Fabric, Lakehouse o Mesh, que son evoluciones modernas de los almacenes de datos discutidos implícitamente en el tema.",
+            "referencia": "**\nSección: 9 Test Subsección: 9.1 Preguntas de test (Página 43)"
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "¿Cuál de los siguientes no es un proceso definido por DAMA?",
+            "opciones": [
+                "A. Gestión de documentos y contenidos",
+                "B. Limpieza y preprocesado de los datos",
+                "C. Datos maestros y de referencia",
+                "D. Seguridad de los datos"
+            ],
+            "opcion_correcta": "B. Limpieza y preprocesado de los datos",
+            "justificacion": "**\nLa solución correcta según la tabla (Página 44, Sección 9.2) es la opción **b**. El documento aborda el \"Preprocesado de datos\" como una fase técnica (Página 34), pero DAMA define áreas de conocimiento estratégicas (Seguridad, Datos Maestros, Contenidos). La limpieza es una tarea operativa dentro de la calidad o preparación, no un área de conocimiento principal de DAMA en este contexto.",
+            "referencia": "**\nSección: 9 Test Subsección: 9.1 Preguntas de test (Página 43)"
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "Perfil de ciencia de datos que se dedica a explicar, a partir de las visualizaciones de datos generadas, la narrativa que mejor representa a los datos.",
+            "opciones": [
+                "A. Narrador de datos",
+                "B. Administrador de base de datos",
+                "C. Desarrollador",
+                "D. Arquitecto de datos"
+            ],
+            "opcion_correcta": "A. Narrador de datos",
+            "justificacion": "**\nLa solución correcta según la tabla (Página 44, Sección 9.2) es la opción **a**. La sección 5.1.1 \"Visualización como proceso de comunicación\" (Página 35) describe cómo el mensaje se codifica en visualizaciones para ser interpretado por receptores, provocando \"inspiración, conocimiento, entendimiento\". El perfil que construye esta narrativa es el Narrador de datos.",
+            "referencia": "**\nSección: 9 Test Subsección: 9.1 Preguntas de test (Página 43)"
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "¿Cuál de los siguientes es un framework para procesamiento distribuido de grandes conjuntos de datos, que forma parte del proyecto Apache?",
+            "opciones": [
+                "A. Asterix",
+                "B. Pentaho",
+                "C. MicroStrategy",
+                "D. Hadoop"
+            ],
+            "opcion_correcta": "C. MicroStrategy",
+            "justificacion": "**\nLa solución correcta según la tabla (Página 44, Sección 9.2) es la opción **d**. El documento menciona el manejo de \"grandes volúmenes de datos\" y crecimiento exponencial (Página 3). Hadoop es el framework estándar de Apache para procesamiento distribuido en este contexto, alineado con las herramientas de Ciencia de Datos descritas en el temario.",
+            "referencia": "**\nSección: 9 Test Subsección: 9.1 Preguntas de test (Página 43)"
+        }
+    ]
+}

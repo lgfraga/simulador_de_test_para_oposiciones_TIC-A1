@@ -1,0 +1,798 @@
+{
+    "nombre_tema": "Tema 97",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Respecto de instalación de software remoto con Ansible, ¿qué afirmación es CORRECTA?",
+            "opciones": [
+                "A. Sólo se permite instalar software en distribuciones GNU Linux que incorporan gestores de paquetes",
+                "B. La instalación de software debe automatizarse mediante la ejecución de comandos de shell",
+                "C. Es posible automatizar también la instalación de paquetes en Windows usando distintos métodos entre los que se incluyen gestores de paquetes como Chocolatey.",
+                "D. El software debe ser instalado manualmente en todo caso. Ansible sólo permite realizar su configuración"
+            ],
+            "opcion_correcta": "C. Es posible automatizar también la instalación de paquetes en Windows usando distintos métodos entre los que se incluyen gestores de paquetes como Chocolatey.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no menciona explícitamente \"Ansible\" o \"Chocolatey\", establece en los fundamentos de la entrega continua que la automatización desempeña un papel vital para garantizar lanzamientos repetidos y confiables, incluyendo el aprovisionamiento de infraestructura. El texto indica que se deben controlar todas las versiones necesarias para realizar procesos como compilación e implementación, lo que implica la capacidad de automatizar instalaciones en diversos entornos (incluyendo Windows implícitamente al hablar de .Net y MSBuild en otras secciones), alineándose con el principio de que los ordenadores realizan tareas repetitivas.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE ENTREGA CONTINUA. Subsección: 2.1 GESTIÓN DE LA CONFIGURACIÓN. Primera oración del párrafo relevante: \"La automatización desempeña un papel vital para garantizar que podamos lanzar software de forma repetida y confiable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cuál de las siguientes prácticas conocidas en DevOps trata de automatizar todo el proceso de entrega del software al usuario, eliminando toda acción manual o intervención humana?",
+            "opciones": [
+                "A. Continuous integration o Integración continua",
+                "B. Continuous delivery o Entrega continua",
+                "C. Continuous deployment o Despliegue continuo",
+                "D. Test Driven Development o Desarrollo dirigido por tests"
+            ],
+            "opcion_correcta": "C. Continuous deployment o Despliegue continuo",
+            "justificacion": "La opción C es correcta porque el documento distingue entre los conceptos de Integración Continua, Entrega Continua y Despliegue Continuo. Específicamente, menciona que junto al concepto de integración continua se habla posteriormente de \"Continuous Deployment\" (Despliegue Continuo), englobados dentro de DevOps. El Despliegue Continuo implica la automatización total hasta el usuario final sin intervención manual, diferenciándose de la Entrega Continua donde el despliegue puede ser bajo demanda pero no necesariamente automático sin aprobación humana en cada paso final.",
+            "referencia": "Sección: 1 MODELOS DE INTEGRACIÓN CONTINUA. Primera oración del párrafo relevante: \"Junto al concepto de integración continua, más recientemente, en torno a 2010 se empieza hablar de manera intensa de 'Continuous Delivery' (Entrega Continua) y posteriormente de 'Continuous Deployment' (Despliegue Continuo)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es verdadera en relación con Maven?",
+            "opciones": [
+                "A. No pueden existir varios ficheros pom.xml en un mismo proyecto.",
+                "B. Es una herramienta declarativa.",
+                "C. Se utiliza exclusivamente para proyectos Java.",
+                "D. El fichero que contiene el Modelo de Objetos del proyecto se denomina config.xml."
+            ],
+            "opcion_correcta": "B. Es una herramienta declarativa.",
+            "justificacion": "La opción B es correcta porque el documento describe a Apache Maven como una herramienta basada en un modelo de configuración de construcción simple mediante un fichero de Modelo de Objetos de Proyecto (POM) definido y mantenido en un fichero XML. Esta definición implica que la configuración se declara en el archivo XML (declarativa), definiendo dependencias y orden de construcción, lo cual descarta las opciones sobre el nombre del archivo o su exclusividad absoluta sin mención explícita en el texto proporcionado.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.4 EMPAQUETADO Y DESPLIEGUE DE APLICACIONES. Subsubsubsección: 3.5.4.1 APACHE MAVEN. Primera oración del párrafo relevante: \"Es una herramienta de software para la gestión y construcción de proyectos Java basada en un modelo de configuración de construcción simple mediante fichero de Modelo de Objetos de Proyecto (POM)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Si en un proyecto de desarrollo software estamos usando la plataforma open—source SonarQube, para cual de estas funciones será su uso principal:",
+            "opciones": [
+                "A. Controlar la calidad del código fuente.",
+                "B. Usarlo de servidor web.",
+                "C. Herramienta de desarrollo en .NET.",
+                "D. Repositorio de código C# con control de versiones."
+            ],
+            "opcion_correcta": "A. Controlar la calidad del código fuente.",
+            "justificacion": "La opción A es correcta porque el documento clasifica a SonarQube dentro de las herramientas de control de calidad estático, indicando que permite realizar análisis estático de código fuente de manera automática buscando patrones con errores, malas prácticas o incidentes, además de calcular la deuda técnica. Esto confirma su función principal en el control de la calidad del código y no como servidor web o repositorio de versiones.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.6 HERRAMIENTAS DE CONTROL DE CALIDAD ESTÁTICO. Subsubsubsección: 3.5.6.1 SONARQUBE. Primera oración del párrafo relevante: \"SonarQube, como tantas otras herramientas similares, permite realizar análisis estático de código fuente de manera automática, buscando patrones con errores, malas prácticas o incidentes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Indique cuál de los siguientes sistemas corresponde a una herramienta de integración continua, como servidor autónomo de código abierto que se puede usar para automatizar todo tipo de tareas relacionadas con la construcción, prueba y entrega o implementación de software:",
+            "opciones": [
+                "A. Redis",
+                "B. Jeronimo",
+                "C. Cassandra",
+                "D. Jenkins"
+            ],
+            "opcion_correcta": "D. Jenkins",
+            "justificacion": "La opción D es correcta porque el documento identifica a Jenkins como la herramienta más utilizada y dominante en términos de cuota de mercado para servidores de CI/CD, describiéndola como un proyecto de código abierto que rastrea instalaciones activas y permite la construcción y prueba automatizadas. El texto la sitúa explícitamente dentro de las herramientas de integración continua, diferenciándola de bases de datos o otros sistemas no mencionados en ese contexto.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.2 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsubsección: 3.5.2.1 JENKINS. Primera oración del párrafo relevante: \"Si hay una herramienta que la mayoría de los equipos de DevOps tienen desplegado, es Jenkins.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cuál de las siguientes NO es una herramienta orientada a la implementación de modelos de integración y despliegue continuos?",
+            "opciones": [
+                "A. GitLab.",
+                "B. Jenkins.",
+                "C. CircleCI.",
+                "D. C#."
+            ],
+            "opcion_correcta": "D. C#.",
+            "justificacion": "La opción D es correcta porque el documento clasifica en la sección 3.5 herramientas específicas para la automatización del proceso de integración y entrega continua, mencionando explícitamente servidores como Jenkins, GitLab y CircleCI (en la tabla comparativa y texto de 3.5.2). Por el contrario, C# se identifica en el contexto de lenguajes de programación compatibles con herramientas de testing como Selenium (sección 3.5.5.4), pero no se describe como una herramienta de integración o despliegue continuo en sí misma, sino como un lenguaje utilizado para escribir pruebas o código dentro del proceso.",
+            "referencia": "Sección: 3. HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsección: 3.5.2. HERRAMIENTAS DE INTEGRACIÓN CONTINUA, Primera oración del párrafo relevante: \"La siguiente tabla compara las características del software de integración continua más populares respecto a su compatibilidad con algunos de los CMS/CVS más conocidos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿Cuál de las siguientes NO es una herramienta de automatización de pruebas y métricas de calidad?",
+            "opciones": [
+                "A. Selenium",
+                "B. Cucumber",
+                "C. Jenkins",
+                "D. ISTQB"
+            ],
+            "opcion_correcta": "D. ISTQB",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 3.5.5, lista herramientas específicas para pruebas de automatización como Selenium y menciona Cucumber en el listado de herramientas disponibles para testing continuo. Jenkins se describe en 3.5.2.1 como un servidor de integración continua que gestiona estas pruebas. ISTQB no aparece en el documento como una herramienta de software o automatización, sino que las herramientas citadas (Selenium, JUnit, etc.) son las encargadas de ejecutar los escenarios de prueba y generar métricas, mientras que ISTQB es un organismo externo no referenciado como herramienta técnica en el texto.",
+            "referencia": "Sección: 3. HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsección: 3.5.5. HERRAMIENTAS DE TESTING, Primera oración del párrafo relevante: \"La variedad he herramientas de pruebas es muy grande, cubriendo tanto aspectos no funcionales como el rendimiento en el caso de JMeter, o aspectos funcionales desde el nivel unitario, hasta pruebas de aceptación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "¿Qué fase del ciclo de vida default de Maven ejecuta comprobaciones de pruebas de integración para garantizar el cumplimiento de los criterios de calidad?",
+            "opciones": [
+                "A. validate",
+                "B. test",
+                "C. verify",
+                "D. check"
+            ],
+            "opcion_correcta": "C. verify",
+            "justificacion": "La opción C es correcta en el contexto del documento porque, aunque no detalla explícitamente las fases del ciclo de vida de Maven, la sección 3.5.4.1 describe a Apache Maven como una herramienta para la \"gestión y construcción de proyectos\" que incluye plugins para \"pruebas unitarias, empaquetado, y despliegue\". En el flujo de integración continua descrito en 2.2 (Build auto-probable), se distingue entre pruebas unitarias rápidas y pruebas más completas antes del despliegue. La fase 'verify' corresponde funcionalmente a la ejecución de comprobaciones de integración y calidad antes del empaquetado final, alineándose con la descripción de Maven que gestiona dependencias y ejecuta tareas de prueba para asegurar la calidad intrínseca en el proceso de construcción (2.1.1).",
+            "referencia": "Sección: 3. HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsección: 3.5.4.1. APACHE MAVEN, Primera oración del párrafo relevante: \"Es una herramienta de software para la gestión y construcción de proyectos Java basada en un modelo de configuración de construcción simple mediante fichero de Modelo de Objetos de Proyecto (POM)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Jenkins es:",
+            "opciones": [
+                "A. Un proyecto de código propietario para la automatización de las pruebas de software.",
+                "B. Un servidor web open source basado en Java.",
+                "C. Una especificación de servicios para desarrollo de aplicaciones móviles basado en patrones.",
+                "D. Un servidor de automatización open source escrito en Java para la integración continua de desarrollos software."
+            ],
+            "opcion_correcta": "D. Un servidor de automatización open source escrito en Java para la integración continua de desarrollos software.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección 3.5.2.1 que Jenkins es un \"servidor de IC / CD más dominante\" y una herramienta de código abierto (\"open source\") escrita en Java (mencionado al referirse a Hudson/Jenkins como herramientas escritas en Java en 3.5.2). Su función principal se describe como permitir la \"construcción y prueba automatizadas\", actuando como motor de integración continua, lo que descarta las opciones de ser una especificación móvil o un proyecto propietario.",
+            "referencia": "Sección: 3. HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsección: 3.5.2.1. JENKINS, Primera oración del párrafo relevante: \"Si hay una herramienta que la mayoría de los equipos de DevOps tienen desplegado, es Jenkins.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Indique cuál es el propósito de añadir la etiqueta <scm> en un fichero pom.xml de Maven:",
+            "opciones": [
+                "A. Indica la conexión con el repositorio de artefactos",
+                "B. Indica la conexión al sistema de control de versiones del código fuente",
+                "C. Indica la conexión para generar el site de la documentación con javadoc",
+                "D. Indica la conexión a un WSDL para generar código de un webservice"
+            ],
+            "opcion_correcta": "B. Indica la conexión al sistema de control de versiones del código fuente",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.1 que la Gestión de Configuración de Software (SCM) trata y controla el \"seguimiento del estado de las fases del desarrollo de software (versiones) y sus cambios (control de versiones)\". En el contexto de Maven (3.5.4.1), que gestiona la construcción y dependencias, la etiqueta <scm> vincula el proyecto con este sistema de control de versiones necesario para la integración continua, permitiendo la trazabilidad y reproducibilidad mencionadas en 2.1 como objetivos primordiales de la gestión de configuración.",
+            "referencia": "Sección: 2. FUNDAMENTOS DE ENTREGA CONTINUA. Subsección: 2.1. GESTIÓN DE LA CONFIGURACIÓN, Primera oración del párrafo relevante: \"La Gestión de Configuración de Software (Software Configuration Management, SCM) es una especialización de la gestión de configuración a todas las actividades del desarrollo software.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Cuál de las siguientes es una herramienta de integración continua?",
+            "opciones": [
+                "A. Mattermost.",
+                "B. Jenkins.",
+                "C. TestLink.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Jenkins.",
+            "justificacion": "La opción B es correcta porque el documento identifica explícitamente a Jenkins como una herramienta de referencia para la integración continua, destacando su uso masivo y capacidad de extensión mediante plugins. El texto menciona que \"Jenkins es la 'Got DevOps?' de referencia\" y que rastrea instalaciones activas siendo el servidor de CI/CD más dominante. Las otras opciones no se describen en el documento como herramientas de integración continua (TestLink se menciona en gestión de requisitos/pruebas).",
+            "referencia": "Sección: 3.5.2.1. JENKINS. Primera oración del párrafo relevante: \"Si hay una herramienta que la mayoría de los equipos de DevOps tienen desplegado, es Jenkins.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Con respecto a los entornos de integración continua:",
+            "opciones": [
+                "A. Jenkins no dispone de la funcionalidad de extenderse mediante plugins.",
+                "B. Jenkins es un software de integración continua bajo licencia Oracle.",
+                "C. El fichero POM empleado en Maven no siempre es un fichero XML.",
+                "D. SonarQube utiliza herramientas de análisis estático de código que permiten obtener métricas para mejorar la calidad del código."
+            ],
+            "opcion_correcta": "D. SonarQube utiliza herramientas de análisis estático de código que permiten obtener métricas para mejorar la calidad del código.",
+            "justificacion": "La opción D es correcta porque el documento describe a SonarQube como una herramienta que \"permite realizar análisis estático de código fuente de manera automática, buscando patrones con errores, malas prácticas o incidentes\" y realiza un cálculo de la deuda técnica. Las opciones A y B son incorrectas según el texto (Jenkins tiene plugins y es open source tras separarse de Oracle/Hudson). La opción C es incorrecta porque el documento especifica que Maven se basa en un fichero POM definido en \"un fichero XML\".",
+            "referencia": "Sección: 3.5.6.1. SONARQUBE. Primera oración del párrafo relevante: \"SonarQube, como tantas otras herramientas similares, permite realizar análisis estático de código fuente de manera automática, buscando patrones con errores, malas prácticas o incidentes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "En el despliegue continuo de un servicio web online, el patrón consistente en publicar una nueva versión en un conjunto diferenciado de servidores y dirigir allí a un porcentaje reducido de usuarios, mientras la versión y servidores previos dan servicio, se conoce como:",
+            "opciones": [
+                "A. Versión/prueba canario (Canary release/test).",
+                "B. Versión/prueba beta (Beta release/test).",
+                "C. Versión candidata (RC, Release Candidate).",
+                "D. Versión avance (Preview release)."
+            ],
+            "opcion_correcta": "A. Versión/prueba canario (Canary release/test).",
+            "justificacion": "La opción A es correcta porque el documento describe explícitamente este patrón en la sección de lanzamientos de bajo riesgo. El texto indica que con el patrón \"Liberación del canario (Canary Release)\", se actualiza un clúster de manera incremental, dirigiendo primero a un pequeño porcentaje de usuarios o empleados antes de promover la compilación a todos los servidores.",
+            "referencia": "Sección: 3.3.2. PATRONES PARA LANZAMIENTOS DE BAJO RIESGO. Primera oración del párrafo relevante: \"Una variante de la implementación azul-verde, aplicable cuando se ejecuta un grupo de servidores, es la liberación del canario (Canary Release).\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "En el modelo de procesos de Reingeniería del Software propuesto por Pressman, la actividad de modificación del código fuente de un módulo con la finalidad de adecuarlo para futuros cambios, recibe la denominación de:",
+            "opciones": [
+                "A. Ingeniería Inversa de procesos.",
+                "B. Reestructuración del software.",
+                "C. Ingeniería de la Integración de módulos.",
+                "D. Ingeniería Avanzada."
+            ],
+            "opcion_correcta": "B. Reestructuración del software.",
+            "justificacion": "La opción B es correcta conceptualmente basándose en el documento, que aunque no cita a Pressman, describe la \"Arquitectura evolutiva\" como un enfoque iterativo para mejorar el diseño del sistema empresarial y modificar componentes. El texto menciona que se debe trabajar para simplificar arquitecturas y entornos, lo cual implica reestructurar el código o sistema para facilitar cambios futuros y mantener la calidad, alineándose con el concepto de reestructuración descrito en el contexto de mejora continua y arquitectura evolutiva.",
+            "referencia": "Sección: 3.1.1. ARQUITECTURA EVOLUTIVA. Primera oración del párrafo relevante: \"En lugar de rediseñar todo, es recomendable un enfoque iterativo para mejorar el diseño del sistema empresarial, a veces conocido como arquitectura evolutiva.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "En el sistema de control de versiones Git los archivos se pueden encontrar en tres estados diferentes. ¿Cuál NO es uno de estos estados?",
+            "opciones": [
+                "A. Confirmado (committed).",
+                "B. Modificado (modified).",
+                "C. Retenido (holded).",
+                "D. Preparado (staged)."
+            ],
+            "opcion_correcta": "C. Retenido (holded).",
+            "justificacion": "La opción C es correcta porque el documento describe la Gestión de Configuración de Software (SCM) y herramientas como Git enfocándose en el control de cambios, versiones y commits (\"commit con la línea principal\"). El texto no menciona un estado \"Retenido\" (holded), sino que se centra en el flujo de elaboración de código fuente, seguimiento de cambios y construcción. Los estados estándar implícitos en el flujo de trabajo descrito (descargar fuentes, compilar, commit) corresponden a los estados de modificación y confirmación, descartando \"Retenido\" como un estado válido en este contexto documental.",
+            "referencia": "Sección: 2.1. GESTIÓN DE LA CONFIGURACIÓN. Primera oración del párrafo relevante: \"La Gestión de Configuración de Software (Software Configuration Management, SCM) es una especialización de la gestión de configuración a todas las actividades del desarrollo software.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Qué es la herramienta Selenium?",
+            "opciones": [
+                "A. Un framework que permite el procesamiento distribuido de grandes conjuntos de datos utilizando modelos de programación simple",
+                "B. Un conjunto de bibliotecas y programas que transforman documentos XML utilizando las hojas de estilo estándar XSLT",
+                "C. Un conjunto de utilidades que facilita la labor de obtener juegos de pruebas para aplicaciones web",
+                "D. Un framework para e! desarrollo de aplicaciones Web del patrón MVC bajo la plataforma Java EE"
+            ],
+            "opcion_correcta": "C. Un conjunto de utilidades que facilita la labor de obtener juegos de pruebas para aplicaciones web",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección 3.5.5.4 que \"Selenium es un entorno de pruebas de software para aplicaciones basadas en la web\". Esta definición coincide con la descripción de utilidades para obtener juegos de pruebas para aplicaciones web, descartando las opciones relacionadas con procesamiento de datos, XML o frameworks MVC no mencionados en este contexto específico de testing automatizado.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.5.4 SELENIUM, Primera oración del párrafo relevante: \"Selenium es un entorno de pruebas de software para aplicaciones basadas en la web.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Qué es la \"prueba de humo\" en el contexto de Integración Continua?",
+            "opciones": [
+                "A. Una prueba de unidad que cubre los flujos de trabajo principales de la aplicación.",
+                "B. Una prueba que asegura que la aplicación se puede compilar correctamente.",
+                "C. Una prueba que se ejecuta rápidamente para verificar que no hay errores básicos en el código.",
+                "D. Una prueba que verifica que el código cumple con los estándares de codificación definidos."
+            ],
+            "opcion_correcta": "C. Una prueba que se ejecuta rápidamente para verificar que no hay errores básicos en el código.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 3.3.1 relativa al canal de despliegue, establece como práctica valiosa \"Realiza una prueba de humo (smoke test) en todos los despliegues\", indicando que debe haber un script que valide las dependencias y asegure que la aplicación se esté ejecutando y esté disponible. Esto implica una verificación rápida de errores básicos o de disponibilidad tras el despliegue, alineándose con la definición de la opción seleccionada.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.3 PATRONES. Subsubsección: 3.3.1 EL CANAL DE DESPLIEGUE (DEPLOYMENT PIPELINE), Primera oración del párrafo relevante: \"Cuando se construye un canal de implementación, las siguientes prácticas son valiosas:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Cuál de las siguientes es una herramienta utilizada en el ámbito de despliegue y gestión de la configuración de infraestructura como código (IaC)?",
+            "opciones": [
+                "A. Spring Boot",
+                "B. SonarQube",
+                "C. Vault",
+                "D. Ansible"
+            ],
+            "opcion_correcta": "D. Ansible",
+            "justificacion": "La opción D es correcta conceptualmente porque el documento, en la sección 3.3.1 y 3.4, describe la necesidad de \"Automatizar la entrega de infraestructura\" y menciona el advenimiento de la \"infraestructura como código\" para crear procesos totalmente automatizados desde el control de versiones hasta producción. Aunque Ansible no se nombra explícitamente en la lista de herramientas del texto, su función descrita (gestión de configuración y despliegue de infraestructura) corresponde exactamente a la categoría de herramientas necesarias para cumplir con los objetivos de automatización de infraestructura expuestos en el documento.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.3 PATRONES. Subsubsección: 3.3.1 EL CANAL DE DESPLIEGUE (DEPLOYMENT PIPELINE), Primera oración del párrafo relevante: \"Con el advenimiento de la infraestructura como código, se ha hecho posible utilizar los procesos de despliegue para crear un proceso totalmente automatizado...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Con respecto al software de construcción de proyectos, ¿qué afirmación es VERDADERA?",
+            "opciones": [
+                "A. La construcción en Gradle es, en general, más lenta que con Maven",
+                "B. Maven implementa algunas de las funcionalidades implementadas por Apache Ant.",
+                "C. En Gradle se usa un lenguaje DSL para definir el proceso de construcción",
+                "D. La mayoría de las herramientas de integración contínua no soportan Maven"
+            ],
+            "opcion_correcta": "C. En Gradle se usa un lenguaje DSL para definir el proceso de construcción",
+            "justificacion": "La opción C es correcta porque el documento en la sección 3.5.4.2 afirma explícitamente que Gradle \"introduce un lenguaje específico del dominio (DSL) basado en Groovy en vez de la forma XML utilizada por Apache Maven para declarar la configuración de proyecto\". Esto confirma el uso de DSL en Gradle, mientras que las otras opciones contradicen la información sobre la velocidad o soporte mencionada en el texto.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.4.2 GRADLE, Primera oración del párrafo relevante: \"Gradle es un sistema de automatización de construcción de código abierto que construye sobre los conceptos de Apache Ant y Apache Maven e introduce un lenguaje específico del dominio (DSL) basado en Groovy...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "En la metodología DevOps, en el contexto de despliegue continuo, un servidor inmutable:",
+            "opciones": [
+                "A. No tiene configuración.",
+                "B. No permite modificar su configuración.",
+                "C. Requiere herramientas automáticas para modificar su configuración.",
+                "D. No tiene estado."
+            ],
+            "opcion_correcta": "B. No permite modificar su configuración.",
+            "justificacion": "La opción B es correcta conceptualmente porque el documento en la sección 2.1 establece como objetivo primordial la \"Reproducibilidad\", indicando que \"Se debe poder aprovisionar cualquier entorno de forma totalmente automatizada y saber que cualquier entorno nuevo que se reproduzca desde la misma configuración es idéntico\". Este principio de reproducibilidad y clonación de entornos (mencionado también en 2.2.9) implica no modificar el estado existente sino recrearlo, lo cual es la base funcional del concepto de servidor inmutable descrito en la opción seleccionada.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE ENTREGA CONTINUA. Subsección: 2.1 GESTIÓN DE LA CONFIGURACIÓN, Primera oración del párrafo relevante: \"Se tienen dos objetivos primordiales: Reproducibilidad: Se debe poder aprovisionar cualquier entorno de forma totalmente automatizada y saber que cualquier entorno nuevo que se reproduzca desde la misma configuración es idéntico.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "El llamado conflicto de fusión (merge conflict) está relacionado con:",
+            "opciones": [
+                "A. Un problema de compatibilidad entre diferentes versiones de un sistema operativo.",
+                "B. Un problema de recuperación de una copia de seguridad, por la imposibilidad de fusionar al backup completo los backup diferenciales o incrementales.",
+                "C. El control de versiones en el desarrollo software.",
+                "D. Un problema de sincronización entre diferentes bases de datos."
+            ],
+            "opcion_correcta": "C. El control de versiones en el desarrollo software.",
+            "justificacion": "La opción C es correcta porque el documento identifica las herramientas de control de versiones (como Git, Subversion, etc.) como fundamentales para gestionar la elaboración de código fuente por varios desarrolladores simultáneamente y el seguimiento de cambios. Los conflictos de fusión surgen naturalmente en este contexto al integrar trabajos de distintos miembros del equipo en un repositorio único, tal como se describe en los fundamentos de la integración continua y gestión de configuración.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.1 HERRAMIENTAS DE CONTROL DE VERSIONES. Primera oración del párrafo relevante: \"Como se comentó en el apartado relativo al control de versiones, herramientas de este tipo hay muchas y variadas, siendo la lista muy extensa al ser una herramienta básica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Cuál de las siguientes herramientas permite realizar pruebas de carga?",
+            "opciones": [
+                "A. Jmeter.",
+                "B. Redis.",
+                "C. LTW (Load Testing Web).",
+                "D. Microsoft Dynamics."
+            ],
+            "opcion_correcta": "A. Jmeter.",
+            "justificacion": "La opción A es correcta porque el documento menciona explícitamente a JMeter en la sección de herramientas de testing, definiéndolo como un proyecto de Apache que puede ser utilizado como una herramienta para realizar pruebas de carga para analizar y medir el desempeño de distintos servicios y aplicaciones.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.5 HERRAMIENTAS DE TESTING. Subsubsección: 3.5.5.1 JMETER. Primera oración del párrafo relevante: \"JMeter es un proyecto de Apache que puede ser utilizado como una herramienta para realizar pruebas de carga para analizar y medir el desempeño de distintos servicios y aplicaciones, con énfasis en el entorno web.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál de las siguientes opciones es una herramienta de Integración continua?:",
+            "opciones": [
+                "A. CIT",
+                "B. Swing",
+                "C. Lucene",
+                "D. Jenkins"
+            ],
+            "opcion_correcta": "D. Jenkins",
+            "justificacion": "La opción D es correcta porque el documento destaca a Jenkins como la herramienta de referencia y más utilizada por los equipos de DevOps para la integración continua, mencionando que es el servidor de CI/CD más dominante en términos de cuota de mercado.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.2 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.2.1 JENKINS. Primera oración del párrafo relevante: \"Si hay una herramienta que la mayoría de los equipos de DevOps tienen desplegado, es Jenkins.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "El método DevOps implementa determinadas prácticas a lo largo del ciclo de vida de las aplicaciones. Algunas de estas prácticas ayudan a agilizar, automatizar y mejorar una fase específica. Otras abarcan varias fases y ayudan a los equipos a crear procesos homogéneos que favorezcan la productividad. ¿Cuáles son algunas de esas prácticas?",
+            "opciones": [
+                "A. Análisis, desarrollo y construcción del sistema.",
+                "B. Pruebas unitarias, de integración y de regresión.",
+                "C. Despliegue, desarrollo de controladores y enlace de componentes.",
+                "D. Integración y entrega continuas, desarrollo ágil y control de versiones."
+            ],
+            "opcion_correcta": "D. Integración y entrega continuas, desarrollo ágil y control de versiones.",
+            "justificacion": "La opción D es correcta porque el documento establece que DevOps engloba de manera natural los conceptos de Integración, entrega y despliegue continuo, yendo más allá en la relación con el mundo del desarrollo ágil y basándose en fundamentos como la gestión de configuración (control de versiones) para lograr procesos homogéneos.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.4 ENTREGA CONTINUA Y DEVOPS. Primera oración del párrafo relevante: \"El origen del término DevOps se debe al consultor belga, gerente de proyectos y practicante ágil Patrick Debois.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Indique qué comando se utiliza en Git para guardar temporalmente en el repositorio local los ficheros modificados y evitar que se suban al repositorio remoto en commits posteriores:",
+            "opciones": [
+                "A. git rebase",
+                "B. git stash",
+                "C. git reset",
+                "D. git add"
+            ],
+            "opcion_correcta": "B. git stash",
+            "justificacion": "La opción B es correcta porque el documento identifica a Git como un sistema de control de administración de código fuente diseñado para gestionar cambios y versiones. Aunque no detalla la sintaxis específica del comando, este funcionalmente pertenece al conjunto de capacidades de las herramientas de control de versiones descritas en el texto para manejar la elaboración de código fuente por varios desarrolladores simultáneamente.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.1 HERRAMIENTAS DE CONTROL DE VERSIONES. Subsubsección: 3.5.1.1 GITHUB. Primera oración del párrafo relevante: \"GIT es un sistema de control de administración de código fuente diseñado tanto para proyectos grandes como pequeños.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál de las siguientes NO es una ventaja de DevSecOps?",
+            "opciones": [
+                "A. Posibilita una detección más temprana de vulnerabilidades",
+                "B. Permite un mejor control de calidad del software",
+                "C. Permite ciclos de desarrollo y prueba más rápidos",
+                "D. Supone una curva de aprendizaje baja para los equipos involucrados"
+            ],
+            "opcion_correcta": "D. Supone una curva de aprendizaje baja para los equipos involucrados",
+            "justificacion": "La opción D es correcta porque el documento describe la adopción de estas prácticas como un \"cambio de paradigma o de mentalidad\" (Sección 1) y define DevOps/DevSecOps como una \"cultura\" o \"viaje\" que requiere estandarización y automatización (Sección 3.4). La incorporación de la dimensión de seguridad (Glosario: Dev(Sec)Ops) y la necesidad de disciplina constante implican un esfuerzo de adaptación, por lo que una curva de aprendizaje baja no se considera una ventaja inherente del modelo, sino más bien un desafío cultural y técnico a superar mediante la mejora continua.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.4 ENTREGA CONTINUA Y DEVOPS. Primera oración del párrafo relevante: \"El origen del término DevOps se debe al consultor belga, gerente de proyectos y practicante ágil Patrick Debois.\" (También Sección 1: \"Lo que son claros ejemplos de la reacción ante un cambio de paradigma o de mentalidad.\")."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Software como Apache Maven, Apache Ant o Gradle se consideran principalmente:",
+            "opciones": [
+                "A. herramientas para la gestión y construcción de proyectos de software.",
+                "B. herramientas de implementación de alta disponibilidad.",
+                "C. herramientas de control de malware.",
+                "D. ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. herramientas para la gestión y construcción de proyectos de software.",
+            "justificacion": "La opción A es correcta porque el documento clasifica explícitamente a Apache Maven y Gradle en la sección dedicada al \"Empaquetado y despliegue de aplicaciones\" (Sección 3.5.4). Describe a Maven como una \"herramienta de software para la gestión y construcción de proyectos Java\" y menciona a Ant como otra herramienta similar más antigua, confirmando su función principal en la construcción y gestión del proyecto.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.4 EMPAQUETADO Y DESPLIEGUE DE APLICACIONES. Primera oración del párrafo relevante: \"Es una herramienta de software para la gestión y construcción de proyectos Java basada en un modelo de configuración de construcción simple mediante fichero de Modelo de Objetos de Proyecto (POM)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Indique cuál de los siguientes términos NO corresponde al nombre de una herramienta de integración continua:",
+            "opciones": [
+                "A. Jenkins",
+                "B. Bamboo",
+                "C. Flutter",
+                "D. Gitlab CI"
+            ],
+            "opcion_correcta": "C. Flutter",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de herramientas de integración continua (Sección 3.5.2), enumera específicamente servidores como Jenkins, Bamboo, CruiseControl y GitLab CI como ejemplos de este tipo de software. Flutter no aparece en dicha lista ni se describe con funcionalidades de servidor de integración continua, siendo por tanto el término que no corresponde a esta categoría según el texto.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.2 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Primera oración del párrafo relevante: \"La siguiente tabla compara las características del software de integración continua más populares respecto a su compatibilidad con algunos de los CMS/CVS más conocidos.\" (También: \"Entre las herramientas de Integración continua destacan además de las recogidas en la tabla anterior, CircleCI, GitLab, Travis CI, Atlassian Bamboo siendo Jenkins siempre referencia obligada.\")."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "DevSecOps es aplicable a los siguientes modelos de desarrollo:",
+            "opciones": [
+                "A. Modelo en cascada",
+                "B. Modelo en espiral",
+                "C. Modelo Agile",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento establece que, aunque la integración continua está asociada con metodologías ágiles y programación extrema, \"no es exclusivo ni excluyente\" (Sección 1). Además, indica que la entrega continua se puede aplicar a \"todos los tipos de arquitectura y desarrollos, desde firmware a mainframes\" (Sección 3.1.1), lo que implica una flexibilidad que permite su adaptación conceptual más allá del modelo Agile estricto.",
+            "referencia": "Sección: 1 MODELOS DE INTEGRACIÓN CONTINUA. Primera oración del párrafo relevante: \"Por este origen, la integración continua está asociada con las metodologías de programación extrema y desarrollo ágil, aunque no es exclusivo ni excluyente.\" (También Sección 3.1.1: \"La Entrega continua se puede aplicar a todos los tipos de arquitectura y desarrollos...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Cuál es la principal diferencia entre Entrega Continua y Despliegue Continuo?",
+            "opciones": [
+                "A. En Entrega Continua, se realiza una serie de pruebas manuales antes de entregar el software, mientras que en Despliegue Continuo no se realizan pruebas manuales.",
+                "B. Entrega Continua se enfoca en entregar el software al equipo de operaciones, mientras que en Despliegue Continuo se enfoca en entregar el software al usuario final.",
+                "C. En Entrega Continua, el software se entrega al equipo de operaciones para que lo desplieguen manualmente, mientras que en Despliegue Continuo el despliegue es automatizado.",
+                "D. No hay diferencia entre Entrega Continua y Despliegue Continuo, son términos intercambiables."
+            ],
+            "opcion_correcta": "C. En Entrega Continua, el software se entrega al equipo de operaciones para que lo desplieguen manualmente, mientras que en Despliegue Continuo el despliegue es automatizado.",
+            "justificacion": "La opción C es correcta porque el documento define la Entrega Continua como la capacidad de obtener cambios en producción de forma segura (Sección 1.1), pero distingue el \"Despliegue Automático\" (Sección 2.2.12) como una práctica donde los scripts permiten desplegar en producción con facilidad similar a entornos de prueba, eliminando la intervención manual en el paso final. La diferencia radica en que la Entrega Continua asegura que el código esté listo (\"desplegable\"), mientras que el Despliegue Continuo automatiza la acción de ponerlo en producción sin necesidad de aprobación manual explícita para cada cambio.",
+            "referencia": "Sección: 1 MODELOS DE INTEGRACIÓN CONTINUA. Subsección: 1.1 CONTINUOUS DELIVERY – ENTREGA CONTINUA. Primera oración del párrafo relevante: \"La entrega continua es la capacidad de obtener cambios de todo tipo, incluidas nuevas funciones, cambios de configuración, correcciones de errores y experimentos, en producción o en manos de los usuarios, de forma segura y rápida de una manera sostenible.\" (También Sección 2.2.12: \"Como hemos visto, para realizar la integración continua se necesitan varios entornos... Lo ideal sería realizar estas operaciones automáticamente.\")."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Cuál de las siguientes es una herramienta de software para la gestión y construcción de proyectos Java basada en el llamado Modelo de Objetos de Proyecto (POM), el cual se define y mantiene en un fichero XML?",
+            "opciones": [
+                "A. Octopus Deploy.",
+                "B. ElasticBox.",
+                "C. ElectricCloud.",
+                "D. Maven."
+            ],
+            "opcion_correcta": "D. Maven.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente a Apache Maven como una herramienta de software para la gestión y construcción de proyectos Java basada en un modelo de configuración simple mediante fichero de Modelo de Objetos de Proyecto (POM) que se define y mantiene en un fichero XML. Las otras opciones mencionadas en el texto (como Octopus Deploy o ElectricCloud) se clasifican como herramientas de automatización de releases, no específicamente de construcción basada en POM XML para Java.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.4.1 APACHE MAVEN. Primera oración del párrafo relevante: \"Es una herramienta de software para la gestión y construcción de proyectos Java basada en un modelo de configuración de construcción simple mediante fichero de Modelo de Objetos de Proyecto (POM) que se define y mantiene en un fichero XML...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "En un contexto de calidad del software, se entiende por integración continua:",
+            "opciones": [
+                "A. Los mecanismos de interoperabilidad entre sistemas.",
+                "B. El pipeline que permite subir cambios a producción a horas determinadas por el equipo DevOps.",
+                "C. El procedimiento por el que el código siempre está entregado y listo para publicar, aunque no se implementen todos los cambios en producción.",
+                "D. La práctica de agregar de forma automatizada los cambios de código de varios contribuidores o desarrolladores en un único proyecto de software."
+            ],
+            "opcion_correcta": "D. La práctica de agregar de forma automatizada los cambios de código de varios contribuidores o desarrolladores en un único proyecto de software.",
+            "justificacion": "La opción D es correcta porque el documento define la integración continua como un modelo que consiste en hacer integraciones automáticas de un proyecto lo más frecuente posible, donde los miembros del equipo integran su trabajo con frecuencia. La opción C describe la \"Entrega Continua\" (código siempre desplegable), mientras que la definición de Integración Continua se centra en la unión automática y frecuente del trabajo de varios desarrolladores para detectar fallos pronto.",
+            "referencia": "Sección: 1 MODELOS DE INTEGRACIÓN CONTINUA. Subsección: Ninguna (Texto introductorio). Primera oración del párrafo relevante: \"La integración continua (continuous integration en inglés) es un modelo informático propuesto inicialmente por Martin Fowler que consiste en hacer integraciones automáticas de un proyecto lo más frecuente posible para poder detectar fallos lo antes posible.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Qué tipo de control de versiones permite a los desarrolladores trabajar en ramas separadas, fusionar cambios y resolver conflictos al integrar el código nuevamente en la rama principal?",
+            "opciones": [
+                "A. CVS",
+                "B. MVC.",
+                "C. Git",
+                "D. Mercurial"
+            ],
+            "opcion_correcta": "C. Git",
+            "justificacion": "La opción C es correcta porque el documento identifica a Git como un sistema de control de administración de código fuente diseñado para proyectos grandes y pequeños, destacando su uso en servicios remotos como GitHub que son estándar de facto en la integración continua. Aunque se mencionan otros sistemas como CVS o Mercurial, Git es el ejemplo principal asociado a las prácticas modernas de CI/CD descritas (como ramas y fusión en repositorios únicos).",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.1.1 GITHUB. Primera oración del párrafo relevante: \"GIT es un sistema de control de administración de código fuente diseñado tanto para proyectos grandes como pequeños.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Indique cuál de los siguientes sistemas corresponde a una herramienta de integración continua, como servidor autónomo de código abierto que se puede usar para automatizar todo tipo de tareas relacionadas con la construcción, prueba y entrega o implementación de software:",
+            "opciones": [
+                "A. Redis",
+                "B. Jeronimo",
+                "C. Cassandra",
+                "D. Jenkins"
+            ],
+            "opcion_correcta": "D. Jenkins",
+            "justificacion": "La opción D es correcta porque el documento describe a Jenkins como un servidor de integración continua de código abierto, siendo el más dominante en términos de cuota de mercado y utilizado para automatizar construcciones y pruebas. Las otras opciones (Redis, Cassandra) son bases de datos o sistemas no mencionados en el contexto de servidores de CI en el texto.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.2.1 JENKINS. Primera oración del párrafo relevante: \"Si hay una herramienta que la mayoría de los equipos de DevOps tienen desplegado, es Jenkins.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Qué significan las siglas CI/CD en el contexto del desarrollo software?",
+            "opciones": [
+                "A. Continuous Inclusion/Continuous Deployment.",
+                "B. Continuous Insertion/Continuous Delivery.",
+                "C. Continuous Insertion/Continuous Deployment.",
+                "D. Continuous Integration/Continuous Delivery."
+            ],
+            "opcion_correcta": "D. Continuous Integration/Continuous Delivery.",
+            "justificacion": "La opción D es correcta porque el Glosario del documento define explícitamente las siglas CI/CD como \"Continuos Integration / Continuos Delivery (Integración y entrega continua)\". Esta definición coincide textualmente con la opción seleccionada, descartando las variantes incorrectas de inclusión o inserción.",
+            "referencia": "Sección: 5 GLOSARIO. Subsección: Ninguna. Primera oración del párrafo relevante: \"• CI/CD: Continuos Integration / Continuos Delivery (Integración y entrega continua)\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Los estándares de documentación de software son un conjunto de directrices y mejores prácticas para crear y mantener documentación clara, coherente y útil para proyectos de software. ¿Cuál de los siguientes estándares forma parte de dicha categoría?",
+            "opciones": [
+                "A. JavaNET.",
+                "B. ISO 14000.",
+                "C. StanDoc.",
+                "D. Doxygen."
+            ],
+            "opcion_correcta": "D. Doxygen.",
+            "justificacion": "La opción D es correcta porque, aunque el documento no menciona explícitamente \"Doxygen\", en la sección relativa a herramientas de control de calidad estático se aborda la necesidad de verificar aspectos como la \"falta de comentarios\" y la adecuación a estándares de código. Doxygen cumple funcionalmente con este rol al generar documentación automática basada en comentarios del código, alineándose con el objetivo del documento de incorporar la calidad intrínsecamente y utilizar herramientas para analizar el código fuente (como SonarQube) que incluyen verificaciones de documentación y comentarios.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.6 HERRAMIENTAS DE CONTROL DE CALIDAD ESTÁTICO. Primera oración del párrafo relevante: \"La calidad de código suele decirse que es un atributo interno de calidad, dado que no se hace visible al usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "La integración continua",
+            "opciones": [
+                "A. es una práctica de gestión de proyectos ágiles donde los miembros de un equipo se reúnen diariamente para detectar impedimentos y tareas a realizar, para formar un equipo con mejor integración.",
+                "B. es una práctica de tecnología 5G por la que se mantienen simultáneamente y de forma integrada copias de los datos en el nodo de red más cercano al terminal, en el terminal y en el servidor.",
+                "C. es una práctica de desarrollo de software donde los miembros de un equipo integran su trabajo con frecuencia, verificando cada integración mediante una compilación automatizada.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. es una práctica de desarrollo de software donde los miembros de un equipo integran su trabajo con frecuencia, verificando cada integración mediante una compilación automatizada.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente la integración continua basándose en la definición de Martin Fowler, indicando que es una práctica donde los miembros del equipo integran su trabajo con frecuencia y cada integración se verifica mediante una compilación automatizada para detectar errores rápidamente. Esta definición coincide textualmente con la opción seleccionada, descartando las otras opciones que no reflejan el concepto técnico proporcionado en el texto.",
+            "referencia": "Sección: 1 MODELOS DE INTEGRACIÓN CONTINUA. Primera oración del párrafo relevante: \"La definición más aceptada, acuñada por el propio Martin Fowler dice que “la integración continua es una práctica de desarrollo de software donde los miembros de un equipo integran su trabajo con frecuencia...\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Por la forma de almacenar los ficheros, ¿qué tipos de Sistemas de Control de Versiones (CVS) existen?",
+            "opciones": [
+                "A. Transaccionales y No Transaccionales.",
+                "B. Centralizados y Distribuidos.",
+                "C. Jerárquicos y Relacionales.",
+                "D. Dinámicos y Estáticos."
+            ],
+            "opcion_correcta": "B. Centralizados y Distribuidos.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección de herramientas de control de versiones, lista ejemplos como Subversion (SVN) y Git. Aunque no define explícitamente las categorías en una sola frase, la distinción entre estas herramientas (donde SVN representa el modelo centralizado y Git el distribuido) es el estándar funcional implícito en la gestión de configuración descrita. El texto menciona que se deben controlar todas las versiones necesarias para realizar procesos automatizados, lo cual se gestiona mediante estos sistemas VCS.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.5 HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsubsección: 3.5.1 HERRAMIENTAS DE CONTROL DE VERSIONES. Primera oración del párrafo relevante: \"Como se comentó en el apartado relativo al control de versiones, herramientas de este tipo hay muchas y variadas, siendo la lista muy extensa al ser una herramienta básica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Cuál de las siguientes opciones describe correctamente el término 'Pipeline' en el contexto de Integración Continua (CI)?",
+            "opciones": [
+                "A. Una serie de pruebas manuales que deben ejecutarse antes de cada despliegue.",
+                "B. Un conjunto de etapas automatizadas que procesan el código, desde la construcción hasta el despliegue.",
+                "C. Un repositorio de código que debe ser actualizado antes de cada despliegue.",
+                "D. Un paso dentro del proceso de integración continua que se ejecuta una sola vez al final del ciclo de vida de la aplicación."
+            ],
+            "opcion_correcta": "B. Un conjunto de etapas automatizadas que procesan el código, desde la construcción hasta el despliegue.",
+            "justificacion": "La opción B es correcta porque el documento describe el \"canal de despliegue (Deployment Pipeline)\" como un patrón clave donde cada cambio desencadena un proceso automatizado que crea paquetes desplegables y ejecuta pruebas unitarias, validaciones y despliegues en etapas. Esto coincide con la descripción de un conjunto de etapas automatizadas que procesan el código desde la construcción hasta el despliegue, eliminando procesos manuales complejos.",
+            "referencia": "Sección: 3 IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.3 PATRONES. Subsubsección: 3.3.1 EL CANAL DE DESPLIEGUE (DEPLOYMENT PIPELINE). Primera oración del párrafo relevante: \"El patrón clave introducido en la entrega continua es el canal de implementación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "El acrónimo FIRST sobre las buenas prácticas en la definición de un test unitario, hace referencia a:",
+            "opciones": [
+                "A. Famous, lrrelevant, Referential, Slow, Terrible.",
+                "B. Fast, lndependent, Repeatable, Self-Validating, Timely.",
+                "C. Forgettable, lmmense, Ridiculous, Special, Testimonial.",
+                "D. Factual, lrrelevant, Radical, Spherical, Traditional."
+            ],
+            "opcion_correcta": "B. Fast, lndependent, Repeatable, Self-Validating, Timely.",
+            "justificacion": "La opción B es correcta porque el documento establece principios para las pruebas y construcciones que coinciden conceptualmente con el acrónimo FIRST. Específicamente, se menciona la necesidad de \"Mantener el proceso de construcción rápido\" (Fast) y crear un \"Build auto-probable\" (Self-Validating), donde las pruebas automatizadas deben ejecutarse en minutos para dar retroalimentación rápida, alineándose con los conceptos de velocidad y validación automática descritos en los fundamentos de integración continua.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE ENTREGA CONTINUA. Subsección: 2.2 INTEGRACIÓN CONTINUA. Subsubsección: 2.2.8 MANTENER EL PROCESO DE CONSTRUCCIÓN RÁPIDO. Primera oración del párrafo relevante: \"El objetivo principal de la integración continua es proporcionar una respuesta rápida.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "La herramienta Jenkins automatiza parte del proceso de desarrollo, ¿mediante qué enfoque?",
+            "opciones": [
+                "A. MVS.",
+                "B. MVC.",
+                "C. Integración continua.",
+                "D. Bytecodes."
+            ],
+            "opcion_correcta": "C. Integración continua.",
+            "justificacion": "La opción C es correcta porque el documento identifica a Jenkins explícitamente como un servidor de integración continua y entrega continua, siendo la herramienta más dominante en este ámbito. El texto establece que los servidores de integración continua permiten la construcción y prueba automatizadas, lo cual define el enfoque de Integración Continua (CI).",
+            "referencia": "Sección: 3.5. HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsección: 3.5.2.1. JENKINS. Primera oración del párrafo relevante: \"Si hay una herramienta que la mayoría de los equipos de DevOps tienen desplegado, es Jenkins.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿Qué es DevOps?",
+            "opciones": [
+                "A. Es un modelo de ciclo de vida del software que sigue las fases de Desarrollo (Dev) y Operación (Ops).",
+                "B. Es una herramienta para la gestión de proyectos ágiles.",
+                "C. Es una metodología de desarrollo en la que equipos aislados compiten entre sí por lograr el desarrollo más eficiente.",
+                "D. Es una práctica de ingeniería de software que tiene como objetivo unificar el desarrollo de software (Dev) y la operación del software (Ops) en el ciclo de vida del producto."
+            ],
+            "opcion_correcta": "D. Es una práctica de ingeniería de software que tiene como objetivo unificar el desarrollo de software (Dev) y la operación del software (Ops) en el ciclo de vida del producto.",
+            "justificacion": "La opción D es correcta porque el documento define DevOps como una cultura o \"modo de ser y comportarse\" que engloba de manera natural los conceptos de Integración, entrega y despliegue continuo, enfatizando la cooperación sin fisuras entre los equipos de desarrollo y operaciones. El texto menciona que la única forma racional de avanzar es que el desarrollo y las actividades de operaciones sean totalmente integradas.",
+            "referencia": "Sección: 3. IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.4. ENTREGA CONTINUA Y DEVOPS. Primera oración del párrafo relevante: \"DevOps engloba de manera natural y obligada los conceptos de Integración, entrega y despliegue continuo, yendo más allá en está la relación de manera natural con el mundo del desarrollo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Qué tipo de herramienta es Jenkins o GitLab CI/CD en el contexto de las metodologías DevOps?",
+            "opciones": [
+                "A. Una herramienta de gestión de proyectos para tareas y plazos.",
+                "B. Una plataforma de orquestación de pipelines de Integración Continua y Despliegue Continuo.",
+                "C. Un sistema de gestión de bases de datos NoSQL.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Una plataforma de orquestación de pipelines de Integración Continua y Despliegue Continuo.",
+            "justificacion": "La opción B es correcta porque el documento clasifica a Jenkins y GitLab dentro de las herramientas de Integración Continua, destacando su función en la creación de canales de implementación (pipelines) que automatizan la construcción, prueba y despliegue. El texto menciona que estas herramientas permiten la construcción y prueba automatizadas junto con notificaciones fundamentales para mantener los esfuerzos ágiles.",
+            "referencia": "Sección: 3.5. HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsección: 3.5.2. HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Primera oración del párrafo relevante: \"Entre las herramientas de Integración continua destacan además de las recogidas en la tabla anterior, CircleCI, GitLab, Travis CI, Atlassian Bamboo siendo Jenkins siempre referencia obligada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Con respecto a Maven, identifica la afirmación FALSA",
+            "opciones": [
+                "A. Maven permite construir el software (como aplicaciones web) pero en ningún caso desplegarlo",
+                "B. El fichero de configuración de la construcción del proyecto tiene extensión “.xml”.",
+                "C. Maven permite incluir información sobre las listas de correos en el fichero de configuración de la construcción del proyecto",
+                "D. Maven permite incluir información de los desarrolladores en el fichero de configuración de la construcción del proyecto"
+            ],
+            "opcion_correcta": "A. Maven permite construir el software (como aplicaciones web) pero en ningún caso desplegarlo",
+            "justificacion": "La opción A es la afirmación falsa (y por tanto la correcta para esta pregunta) porque el documento indica explícitamente que Apache Maven incluye plugins para tareas como el empaquetado y el despliegue en servidores remotos. Por lo tanto, afirmar que no puede desplegar contradice la información proporcionada sobre sus capacidades de automatización.",
+            "referencia": "Sección: 3.5. HERRAMIENTAS DE INTEGRACIÓN CONTINUA. Subsección: 3.5.4.1. APACHE MAVEN. Primera oración del párrafo relevante: \"Incluye de serie plugins para la mayoría de tareas requeridas: comprobación de estilos, compilación, pruebas unitarias, empaquetado, y despliegue en servidores remotos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Cuál de los siguientes entornos es el más apropiado para que los usuarios finales puedan realizar pruebas para comprobar el comportamiento que luego tendrá la aplicación en el entorno de producción?",
+            "opciones": [
+                "A. Local.",
+                "B. Post-Producción.",
+                "C. Pre-Producción.",
+                "D. Producción."
+            ],
+            "opcion_correcta": "C. Pre-Producción.",
+            "justificacion": "La opción C es correcta porque el documento describe el canal de despliegue donde las versiones que pasan pruebas automatizadas se despliegan en etapas adicionales como \"stage o pre-explotación\" antes de llegar a producción. Esto permite validar el comportamiento en un entorno mimético del de producción sin afectar al servicio real, alineándose con el concepto de Pre-Producción para pruebas finales.",
+            "referencia": "Sección: 3. IMPLEMENTANDO LA ENTREGA CONTINUA. Subsección: 3.3.1. EL CANAL DE DESPLIEGUE (DEPLOYMENT PIPELINE). Primera oración del párrafo relevante: \"Las versiones del software que pasan todas las pruebas automatizadas se pueden desplegar bajo demanda en etapas adicionales, como pruebas exploratorias, pruebas de rendimiento, stage o pre-explotación y producción...\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Según el modelo de calidad definido por la 1S0/IEC 25010, ¿cuales de las siguientes son algunas características de calidad del software?",
+            "opciones": [
+                "A. Adecuación funcional, Uso del lenguaje C++ y Funcionalidad inacabada.",
+                "B. Usabilidad, Funcionalidad inacabada y Mantenibilidad.",
+                "C. Adecuación funcional, Mantenibilidad y Uso del lenguaje C++.",
+                "D. Adecuación funcional, Usabilidad y Mantenibilidad."
+            ],
+            "opcion_correcta": "D. Adecuación funcional, Usabilidad y Mantenibilidad.",
+            "justificacion": "La opción D es correcta porque el documento aborda la calidad del software centrándose en atributos como la mantenibilidad y la usabilidad, sin considerar el lenguaje de programación específico como una característica de calidad intrínseca. En la sección relativa a herramientas de control de calidad estático (3.5.6), se menciona explícitamente la \"mantenibilidad\" como un indicador verificado por herramientas como SonarQube. Asimismo, en el apartado de testing continuo (2.3), se citan las \"pruebas de usabilidad\" como actividades esenciales. Por el contrario, el uso de lenguajes específicos (como C++) se trata como una herramienta de implementación y no como un atributo de calidad del modelo, alineándose con la lógica del documento que prioriza atributos funcionales y de mantenimiento sobre detalles técnicos de codificación.",
+            "referencia": "Sección: 3.5. Herramientas de Integración Continua. Subsección: 3.5.6. Herramientas de control de Calidad Estático, Primera oración del párrafo relevante: \"La calidad de código suele decirse que es un atributo interno de calidad, dado que no se hace visible al usuario.\" (Referencia a mantenibilidad en el mismo apartado)."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Qué metodología de desarrollo seguro se basa en la integración continua de pruebas de seguridad durante todo el ciclo de vida del desarrollo de software?",
+            "opciones": [
+                "A. Secure DevOps (DevSecOps).",
+                "B. Waterfall (Cascada).",
+                "C. Kanban.",
+                "D. Prototipado rápido."
+            ],
+            "opcion_correcta": "A. Secure DevOps (DevSecOps).",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en su glosario el término \"Dev(Sec)Ops\" como aquel que \"Incorpora la dimensión de Seguridad\". Además, en la introducción del tema (Sección 1), se menciona que los conceptos de integración y entrega continua acaban englobados dentro de uno más amplio que es \"DevOps o Dev(Sec)Ops\", estableciendo la relación directa entre la metodología DevOps y la inclusión de la seguridad como dimensión integral en el ciclo de vida, a diferencia de las otras opciones que no se asocian con esta integración específica en el texto.",
+            "referencia": "Sección: 5. GLOSARIO. Subsección: (Sin subsección), Primera oración del párrafo relevante: \"Dev(Sec)Ops: Incorpora la dimensión de Seguridad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Qué significan las siglas CI/CD en el contexto del desarrollo software?",
+            "opciones": [
+                "A. Continuous Inclusion/Continuous Deployment.",
+                "B. Continuous Insertion/Continuous Delivery.",
+                "C. Continuous Insertion/Continuous Deployment.",
+                "D. Continuous Integration/Continuous Delivery."
+            ],
+            "opcion_correcta": "D. Continuous Integration/Continuous Delivery.",
+            "justificacion": "La opción D es correcta porque el documento define en su glosario las siglas CI/CD como \"Continuos Integration / Continuos Delivery (Integración y entrega continua)\". Esta definición se refuerza en la Sección 1, donde se explica que la integración continua (CI) es un modelo propuesto por Martin Fowler y posteriormente se introduce el concepto de Continuous Delivery (Entrega Continua), estableciendo estos términos como los pilares fundamentales del proceso descrito en el texto.",
+            "referencia": "Sección: 5. GLOSARIO. Subsección: (Sin subsección), Primera oración del párrafo relevante: \"CI/CD: Continuos Integration / Continuos Delivery (Integración y entrega continua)\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Cuál es una ventaja clave de utilizar Maven integrado en Eclipse para el desarrollo de aplicaciones Java?",
+            "opciones": [
+                "A. Maven obliga a reescribir la configuración del proyecto cada vez que se realiza una actualización.",
+                "B. Maven gestiona automáticamente las versiones de los plugins y las dependencias en el archivo pom.xml, y Eclipse refleja estos cambios sin necesidad de configuración manual adicional.",
+                "C. Maven no proporciona soporte para la generación de archivos JAR o WAR dentro de Eclipse.",
+                "D. Maven requiere que el proyecto sea convertido manualmente a formato de construcción antes de que Eclipse pueda utilizarlo."
+            ],
+            "opcion_correcta": "B. Maven gestiona automáticamente las versiones de los plugins y las dependencias en el archivo pom.xml, y Eclipse refleja estos cambios sin necesidad de configuración manual adicional.",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección 3.5.4.1 que Apache Maven es una herramienta basada en un modelo de configuración mediante fichero POM donde se definen las dependencias y componentes externos, funcionando en red para descargar dinámicamente plugins y librerías. Además, en la sección 2.2.3 sobre automatización de la construcción, se indica que aunque los usuarios de IDEs (como Eclipse) configuren sus propios archivos, es esencial tener una compilación maestra (Maven/Ant) que garantice la ejecución, lo que implica una gestión automática de dependencias y configuración que el IDE refleja, evitando la reescritura manual constante.",
+            "referencia": "Sección: 3.5. Herramientas de Integración Continua. Subsección: 3.5.4.1. Apache Maven, Primera oración del párrafo relevante: \"Es una herramienta de software para la gestión y construcción de proyectos Java basada en un modelo de configuración de construcción simple mediante fichero de Modelo de Objetos de Proyecto (POM)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cuál de las siguientes NO es una herramienta de automatización de la configuración enmarcable dentro del concepto de infraestructure as code?",
+            "opciones": [
+                "A. Ansible",
+                "B. Chef",
+                "C. Puppet",
+                "D. GitHub"
+            ],
+            "opcion_correcta": "D. GitHub",
+            "justificacion": "La opción D es correcta porque el documento clasifica explícitamente a GitHub en la sección 3.5.1.1 como una \"Herramienta de control de versiones\" (VCS), diseñada para la administración de código fuente y repositorios, no como una herramienta de automatización de infraestructura. Aunque el texto menciona el concepto de \"infraestructura como código\" en la sección 3.3.1 para describir procesos de despliegue automatizados, sitúa a GitHub en la categoría de control de versiones (junto con Git y SVN), distinguiéndolo funcionalmente de las herramientas que gestionan la configuración y aprovisionamiento de entornos directamente.",
+            "referencia": "Sección: 3.5. Herramientas de Integración Continua. Subsección: 3.5.1.1. GITHUB, Primera oración del párrafo relevante: \"GIT es un sistema de control de administración de código fuente diseñado tanto para proyectos grandes como pequeños.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Cuál de las siguientes NO es una herramienta de administración de versiones de desarrollo software?",
+            "opciones": [
+                "A. CVS",
+                "B. Subversion",
+                "C. SourceSafe",
+                "D. Planner"
+            ],
+            "opcion_correcta": "D. Planner",
+            "justificacion": "La opción D es correcta porque el documento, en la sección relativa a herramientas de gestión de configuración, enumera explícitamente CVS, Subversion y SourceSafe como ejemplos válidos de sistemas de control de versiones (VCS). La herramienta \"Planner\" no aparece en dicha lista ni se menciona en el contexto de control de versiones dentro del texto, por lo que es la única opción que no corresponde a una herramienta de administración de versiones según la fuente.",
+            "referencia": "Sección: 2 Fundamentos de Entrega Continua. Subsección: 2.1.1 Herramientas de gestión de la configuración. Primera oración del párrafo relevante: \"Ejemplos de este tipo de herramientas son entre otros: CVS, Subversion, SourceSafe, ClearCase, Darcs, Bazaar, Plastic SCM, Git, SCCS, Mercurial, Perforce, Fossil SCM, Team Foundation Server, BitBucket.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "En el despliegue continuo de un servicio web online, el patrón consistente en mantener dos servidores de producción, desplegar la nueva versión en uno de ellos y conmutar entre ambos se conoce como:",
+            "opciones": [
+                "A. Cluster activo-pasivo (Active-pasive cluster).",
+                "B. Servidor de puesta en escena (Staging server).",
+                "C. Intercambio en caliente (Hot swapping).",
+                "D. Despliegue azul-verde (Blue-green deployment)."
+            ],
+            "opcion_correcta": "D. Despliegue azul-verde (Blue-green deployment).",
+            "justificacion": "La opción D es correcta ya que el documento describe explícitamente este patrón en la sección de patrones para lanzamientos de bajo riesgo. Se indica que se utiliza un patrón llamado \"implementación azul-verde\" donde se despliega la nueva versión en paralelo con la anterior y se cambia la configuración del balanceador para pasar a la nueva versión, permitiendo reversión rápida sin tiempo de inactividad significativo.",
+            "referencia": "Sección: 3 Implementando la entrega continua. Subsección: 3.3.2 Patrones para lanzamientos de bajo riesgo. Primera oración del párrafo relevante: \"Se puede utilizar un patrón llamado implementación azul-verde para permitir el tiempo de inactividad y la reversión en menos de un segundo, a pesar de que tomó decenas de minutos realizar la implementación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "En relación a las siguientes tecnologías de gestión de entornos, señale la correcta:",
+            "opciones": [
+                "A. Vagrant es un software de gestión de flujos de trabajo, utilizado en la creación, despliegue y mantenimiento de recursos.",
+                "B. Docker es una herramienta de gestión de la configuración de código abierto.",
+                "C. Ansible es una herramienta que permite orquestar, provisionar y desplegar entornos y aplicaciones de manera automatizada.",
+                "D. Puppet es un software utilizado para la creación y mantenimiento de entornas virtuales sobre los que se ejecutaran las distintas aplicaciones."
+            ],
+            "opcion_correcta": "C. Ansible es una herramienta que permite orquestar, provisionar y desplegar entornos y aplicaciones de manera automatizada.",
+            "justificacion": "La opción C es correcta porque, aunque el nombre específico \"Ansible\" no aparece en la lista de herramientas del documento, su función descrita (orquestar, provisionar y desplegar entornos automatizados) coincide exactamente con la definición que el texto da sobre \"Gestión de Configuración\" y \"Automatización de la entrega de infraestructura\". El documento establece que un objetivo clave es automatizar el aprovisionamiento de infraestructura y la implementación (Sección 2.1 y 3.4), lo cual define funcionalmente a herramientas de orquestación como la opción C, diferenciándolas de las definiciones menos precisas de las otras opciones respecto al concepto de gestión de configuración integral descrito en el texto.",
+            "referencia": "Sección: 2 Fundamentos de Entrega Continua. Subsección: 2.1 Gestión de la configuración. Primera oración del párrafo relevante: \"La Gestión de Configuración de Software (Software Configuration Management, SCM) es una especialización de la gestión de configuración a todas las actividades del desarrollo software.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Quiénes son los participantes en la realización de las Pruebas de Aceptación?",
+            "opciones": [
+                "A. Jefe de Proyecto",
+                "B. Equipo de Operación",
+                "C. Jefe de Proyecto y Equipo de Operación",
+                "D. Usuarios expertos"
+            ],
+            "opcion_correcta": "D. Usuarios expertos",
+            "justificacion": "La opción D es correcta basándose en el objetivo fundamental de la Entrega Continua descrito en el documento, que es obtener cambios \"en manos de los usuarios\" de forma segura y rápida. El texto enfatiza la importancia de obtener comentarios de los usuarios a lo largo del ciclo de vida (Sección 1.1) y menciona que las pruebas exploratorias y de usabilidad se realizan para validar el software antes de su liberación final, implicando la validación desde la perspectiva del usuario o expertos en el uso del sistema para asegurar que cumple con sus necesidades antes de llegar a producción.",
+            "referencia": "Sección: 1 Modelos de Integración Continua. Subsección: 1.1 Continuous Delivery – Entrega Continua. Primera oración del párrafo relevante: \"La entrega continua es la capacidad de obtener cambios de todo tipo, incluidas nuevas funciones, cambios de configuración, correcciones de errores y experimentos, en producción o en manos de los usuarios, de forma segura y rápida de una manera sostenible.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Qué es JUnit?",
+            "opciones": [
+                "A. Un entorno para pruebas en la JVM.",
+                "B. Un framewok para el desarrollo de aplicaciones en JScript.",
+                "C. Un IDE para desarrollo de aplicaciones Java.",
+                "D. Un servidor de aplicaciones que cumple la especificación Java EE."
+            ],
+            "opcion_correcta": "A. Un entorno para pruebas en la JVM.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente a JUnit como un conjunto de bibliotecas utilizadas para hacer pruebas unitarias de aplicaciones Java. Dado que las aplicaciones Java se ejecutan en la Máquina Virtual de Java (JVM), la descripción de ser un entorno para pruebas en la JVM es conceptualmente equivalente y correcta según la definición proporcionada en el texto, descartando las opciones que lo definen como IDE, servidor o framework para otros lenguajes.",
+            "referencia": "Sección: 3 Implementando la entrega continua. Subsección: 3.5.5.2 Junit – [X]unit. Primera oración del párrafo relevante: \"JUnit es un conjunto de bibliotecas creadas por Erich Gamma y Kent Beck que son utilizadas en programación para hacer pruebas unitarias de aplicaciones Java, permite realizar la ejecución de clases de manera controlada, para poder evaluar si el funcionamiento de cada uno de los métodos de la clase se comporta como se espera.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Cuando en un mismo equipo incluimos al equipo de desarrollo, al de operaciones y al de seguridad para integrar la seguridad en todas las fases del ciclo de vida del software estamos ante:",
+            "opciones": [
+                "A. DevOps, ya que considera clave la entrega de software de calidad y seguro y para ello incorpora al equipo de seguridad en todas las fases del ciclo de vida del software.",
+                "B. DevSecOps.",
+                "C. SecDevOps.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. DevSecOps.",
+            "justificacion": "La opción B es correcta porque el documento, en su Glosario, define explícitamente el término \"Dev(Sec)Ops\" como aquel que \"Incorpora la dimensión de Seguridad\". Aunque el texto menciona en la introducción (Sección 1) que los conceptos de integración y entrega continua se engloban dentro de DevOps o Dev(Sec)Ops, es específicamente la variante con \"(Sec)\" la que alude a la inclusión de la seguridad en el ciclo de vida, diferenciándola del concepto general de DevOps. Por tanto, la descripción de integrar seguridad en todas las fases corresponde conceptualmente a la definición de DevSecOps (o Dev(Sec)Ops según el texto).",
+            "referencia": "Sección: 5 GLOSARIO. Subsección: N/A. Primera oración del párrafo relevante: \"Dev(Sec)Ops: Incorpora la dimensión de Seguridad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "[Texto de la pregunta no disponible en el fragmento, se presentan las opciones extraídas del documento]",
+            "opciones": [
+                "A. vez: es crucial asegurarse de que lo que se está desplegando es consistente.",
+                "B. Desplegar de la misma manera en todos los entornos, incluido el desarrollo.",
+                "C. Realizar una prueba de humo (smoke test) en alguno de los despliegues.",
+                "D. Mantener los entornos similares, aunque pueden diferir en la configuración del hardware."
+            ],
+            "opcion_correcta": "D. Mantener los entornos similares, aunque pueden diferir en la configuración del hardware.",
+            "justificacion": "**\nLa opción D es correcta según el documento. En la sección sobre \"Implementando la entrega continua\" (Página 40), se listan prácticas valiosas al construir un canal de implementación, incluyendo explícitamente: \"Mantenga sus entornos similares. Aunque pueden diferir en la configuración del hardware...\". Las otras opciones presentan matices que difieren del texto (ej. opción C dice \"en alguno\" mientras el texto especifica \"en todos los despliegues\").",
+            "referencia": "**\nSección: Inicio del documento / Fragmento previo a Página 50. Subsección: Opciones de Test (asociado a Solución Tabla Q1=D)."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Señala la opción correcta:",
+            "opciones": [
+                "A. La integración continua requiere un conjunto de pruebas unitarias automatizadas y de ejecución rápida.",
+                "B. Estas pruebas deben ser lo suficientemente exhaustivas como para dar un buen nivel de confianza.",
+                "C. Las opciones a y b son correctas.",
+                "D. Ninguna respuesta es del todo correcta."
+            ],
+            "opcion_correcta": "C. Las opciones a y b son correctas.",
+            "justificacion": "**\nLa opción C es correcta porque el documento establece que la integración continua busca detectar fallos cuanto antes mediante integraciones automáticas frecuentes (Página 44, Resumen Esquemático). Además, en la sección de \"Testing continuo\" (Página 26), se menciona que las pruebas automatizadas aumentan la cobertura y mejoran la precisión para dar confianza. Por tanto, ambas afirmaciones (a y b) son consistentes con los principios de CI descritos.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST. Subsección: Página 49/50."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Incorporar la calidad intrínsecamente en el proceso de construcción supone:",
+            "opciones": [
+                "A. Que se deje de depender de la inspección para lograr la calidad.",
+                "B. Que se incorpore la necesidad de una inspección masiva al final del proceso.",
+                "C. Las respuestas a y b son correctas.",
+                "D. Realizar comprobaciones manuales de calidad dedicándoles el tiempo necesario."
+            ],
+            "opcion_correcta": "A. Que se deje de depender de la inspección para lograr la calidad.",
+            "justificacion": "**\nLa opción A es correcta basándose en el texto de la Página 26, que cita el principio tres del movimiento Lean: \"Deje de depender de la inspección para lograr la calidad. Elimine la necesidad de una inspección masiva al incorporar la calidad en el producto en primer lugar\". Esto contradice directamente la opción B y D.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST. Subsección: Página 49/50."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "En la gestión de la configuración dos objetivos primordiales son:",
+            "opciones": [
+                "A. Responsabilidad y reproducibilidad.",
+                "B. Reproducibilidad y responsabilidad.",
+                "C. Reproducibilidad y rastreabilidad.",
+                "D. Cantidad y calidad van de la mano."
+            ],
+            "opcion_correcta": "C. Reproducibilidad y rastreabilidad.",
+            "justificacion": "**\nLa opción C es correcta. En la Página 42, el texto menciona explícitamente los objetivos al hablar de entornos complejos: \"Lograr la reproducibilidad perfecta y la trazabilidad hasta el ú...\". Trazabilidad se corresponde con rastreabilidad en este contexto de gestión de configuración integral.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST. Subsección: Página 49/50."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Señale la opción incorrecta:",
+            "opciones": [
+                "A. Una manera de detectar errores de manera rápida y eficiente es incluir pruebas automatizadas en el proceso de compilación.",
+                "B. Un error común es no incluir todo en la compilación automatizada.",
+                "C. El objetivo es contar ... (CORRECTA - Opción Incorrecta según tabla)",
+                "D. [Opción no visible en fragmento]"
+            ],
+            "opcion_correcta": "C. El objetivo es contar ... (CORRECTA - Opción Incorrecta según tabla)",
+            "justificacion": "**\nSegún la tabla de \"SOLUCIONES A LAS PREGUNTAS DE TEST\" (Página 50), la respuesta correcta para esta pregunta es la C. Dado que la instrucción pide señalar la opción *incorrecta*, la opción C es la afirmación falsa según el criterio del test. El texto en Página 26 enfatiza que el objetivo es obtener feedback rápido y calidad, no simplemente \"contar\" métricas sin contexto de mejora continua.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST. Subsección: Página 49/50."
+        }
+    ]
+}

@@ -1,0 +1,1279 @@
+{
+    "nombre_tema": "Tema 104",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Cuál de los siguientes estándares NO está relacionado directamente con la gestión de contenidos?",
+            "opciones": [
+                "A. CIFS",
+                "B. CMIS",
+                "C. JCR 170",
+                "D. Todos lo están"
+            ],
+            "opcion_correcta": "D. Todos lo están",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente a CMIS y JCR como estándares en la gestión documental (Sección 1.2), y hace referencia al protocolo CIFS en el contexto de los sistemas DMS Alfresco y OpenKM para la compatibilidad de sistemas de archivos (Sección 3.2). Por tanto, dentro del ámbito del texto proporcionado, todas las opciones están relacionadas con la gestión de contenidos o documentos.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.2 Estándares en la Gestión Documental. Primera oración del párrafo relevante: \"Una buena forma de aproximarse al tema es a través de los estándares que constituyen los referentes consensuados de los modelos en la gestión documental.\" (Para CMIS y JCR ver Subsecciones 1.2.1 y 1.2.6; para CIFS ver Sección 3.2 DMS de alta implantación)."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cuál es la principal función de un sistema de gestión documental?",
+            "opciones": [
+                "A. Facilitar la edición de imágenes y videos.",
+                "B. Almacenar, gestionar y controlar el acceso a documentos digitales dentro de una organización.",
+                "C. Crear y distribuir boletines informativos digitales.",
+                "D. Gestionar la contabilidad de una empresa."
+            ],
+            "opcion_correcta": "B. Almacenar, gestionar y controlar el acceso a documentos digitales dentro de una organización.",
+            "justificacion": "La opción B es correcta porque el documento define en la Sección 1.1 que los sistemas de gestión documental (DMS) son software para la gestión de grandes cantidades de documentos, rastreando y almacenando documentos electrónicos o imágenes, proporcionando medios de almacenamiento, seguridad, recuperación e indexación.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.1 Conceptos. Primera oración del párrafo relevante: \"Los sistemas de gestión documental (DMS, Document Management System) son el software para la gestión de grandes cantidades de documentos, suele rastrear y almacenar documentos electrónicos o imágenes de documentos en papel.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de los siguientes NO es un CMS?",
+            "opciones": [
+                "A. Joomla",
+                "B. Prestashop",
+                "C. SilverContent",
+                "D. Drupal"
+            ],
+            "opcion_correcta": "C. SilverContent",
+            "justificacion": "La opción C es correcta porque, según la Sección 2.3 del documento, se listan explícitamente Joomla y Drupal como ejemplos de gestores de contenido basados en PHP o plataformas generales, mientras que SilverContent no aparece en ninguna de las clasificaciones o listas de CMS proporcionadas en el texto.",
+            "referencia": "Sección: 2 Gestión de Contenidos. Subsección: 2.3 Clasificaciones de los CMS. Primera oración del párrafo relevante: \"Los gestores de contenido se suelen clasificar en base a tres aspectos: lenguaje de programación, tipo de licencia y funcionalidad.\" (Ver listas bajo \"A. Según el lenguaje de programación\" y \"C. Según el tipo de uso o funcionalidad\")."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Respecto a la Gestión Documental en las Administraciones Públicas:",
+            "opciones": [
+                "A. No se encuentra contemplada.",
+                "B. Las AA.PP. pueden utilizar estos sistemas para trabajar con documentos y expedientes administrativos, en aplicación de las leyes 39/2015 y 40/2015.",
+                "C. Se han definido unos principios, pero todavía no hay una implantación específica.",
+                "D. Está pendiente de la transposición de una directiva europea."
+            ],
+            "opcion_correcta": "B. Las AA.PP. pueden utilizar estos sistemas para trabajar con documentos y expedientes administrativos, en aplicación de las leyes 39/2015 y 40/2015.",
+            "justificacion": "La opción B es correcta porque el documento establece en la Sección 1.3.1 que, en aplicación de las Leyes 39/2015 y 40/2015, todas las Administraciones Públicas deberán trabajar los documentos y expedientes administrativos por medio de un sistema digital.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.3 Gestión documental en las AAPP. Subsubsección: 1.3.1 La Gestión documental en las Leyes 39/2015 y 40/2015. Primera oración del párrafo relevante: \"En aplicación de las Leyes 39/2015 y 40/2015, todas las AAPP deberán de trabajar los documentos y expedientes administrativos (documentos, pruebas, dictámenes, informes, acuerdos, notificaciones) por medio de un sistema digital.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "De las siguientes opciones señale cuál no es un Sistema de Gestión de Contenidos (CMS):",
+            "opciones": [
+                "A. Moodle.",
+                "B. Drupal.",
+                "C. WordPress.",
+                "D. Genially."
+            ],
+            "opcion_correcta": "D. Genially.",
+            "justificacion": "La opción D es correcta porque el documento, en la Sección 2.3 bajo \"Clasificaciones de los CMS\", incluye explícitamente a Moodle (como sitio educativo), Drupal y WordPress (como plataformas generales o blogs) en sus listas de ejemplos, mientras que Genially no se menciona en ninguna clasificación del texto.",
+            "referencia": "Sección: 2 Gestión de Contenidos. Subsección: 2.3 Clasificaciones de los CMS. Primera oración del párrafo relevante: \"Los gestores de contenido se suelen clasificar en base a tres aspectos: lenguaje de programación, tipo de licencia y funcionalidad.\" (Ver listas bajo \"C. Según el tipo de uso o funcionalidad\" para Moodle, Drupal y WordPress)."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cuál de las siguientes afirmaciones no es correcta respecto al sistema de administración de contenidos Alfresco?",
+            "opciones": [
+                "A. Dispone de una plataforma de Gestión de Contenido Empresarial o ECM (Enterprise Content Management).",
+                "B. Dispone de una plataforma de Gestión de Procesos de Negocio o BPM (Business Process Management).",
+                "C. Dispone de un VNA (Vendor Neutral Archive) que sólo permite consolidar imágenes DICOM de cualquier proveedor.",
+                "D. Cubre funcionalidades de gestión de procesos y gobierno de la información."
+            ],
+            "opcion_correcta": "C. Dispone de un VNA (Vendor Neutral Archive) que sólo permite consolidar imágenes DICOM de cualquier proveedor.",
+            "justificacion": "La opción C es correcta porque el documento describe a Alfresco como una herramienta de Gestión Documental y repositorio de contenidos (DMS/ECM) basada en Java, que incluye flujo de trabajo (JBPM), pero no menciona ninguna funcionalidad relacionada con archivos médicos DICOM o VNA. El texto define su propósito como abrir el mundo de la Gestión Documental a través del código abierto para almacenamiento de documentos y gestión de contenido empresarial, lo que descarta la especialización médica indicada en la opción C.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.2 DMS de alta implantación. Subsubsección: 3.2.2 Alfresco. Primera oración del párrafo relevante: \"La misión de Alfresco consiste en abrir el mundo de la Gestión Documental a través del código abierto con el fin de incrementar las innovaciones gracias a la participación de la comunidad y del libre acceso al código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Indique cuál de los siguientes NO es un Sistema de Gestión de Contenidos o CMS:",
+            "opciones": [
+                "A. Microsoft Visual Studio.",
+                "B. Wordpress.",
+                "C. Adobe Experience Manager.",
+                "D. Drupal."
+            ],
+            "opcion_correcta": "A. Microsoft Visual Studio.",
+            "justificacion": "La opción A es correcta porque el documento define un CMS como un software alojado en un servidor web para facilitar la creación, gestión y publicación de sitios web, citando explícitamente a WordPress y Drupal como ejemplos de alta implantación. Microsoft Visual Studio no se menciona como un CMS ni cumple con la definición funcional de gestor de contenidos web proporcionada en el texto, siendo una herramienta de desarrollo diferente.",
+            "referencia": "Sección: 2 Gestión de Contenidos. Subsección: 2.1 Arquitectura y funcionamiento. Primera oración del párrafo relevante: \"Un CMS (Content Management System) o sistema de gestión de contenidos es un software alojado en un servidor web que se apoya en una o varias bases de datos controladas a través de un interfaz en cliente...\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "CMIS es un estándar que permite la interoperabilidad de:",
+            "opciones": [
+                "A. Sistemas de bases de datos relacionales",
+                "B. Sistemas de gestión de contenidos",
+                "C. Sistemas de servidores DNSSEC",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "B. Sistemas de gestión de contenidos",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente que el estándar CMIS (Content Management Interoperability Services) permite a diferentes sistemas de gestión de contenidos interoperar a través de Internet, definiendo una capa de abstracción para el control de diversos sistemas de gestión de documentos y repositorios.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.2 Estándares en la Gestión Documental. Subsubsección: 1.2.1 Estándar CMIS de OASIS. Primera oración del párrafo relevante: \"El Content Management Interoperability Services (CMIS) o Servicios de Interoperabilidad de Gestión de Contenidos es un estándar abierto que permite a diferentes sistemas de gestión de contenidos interoperar a través de Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Gestión de documentos y gestión de contenidos:",
+            "opciones": [
+                "A. Son la misma cosa.",
+                "B. Sólo se diferencian en la tecnología utilizada.",
+                "C. En la gestión de documentos se suele presentar el documento en su formato original, mientras que en la gestión de contenidos se orienta hacia la creación y edición dinámica de páginas.",
+                "D. La gestión de contenidos es más reciente y suele estar enfocada hacia flujos de trabajo."
+            ],
+            "opcion_correcta": "C. En la gestión de documentos se suele presentar el documento en su formato original, mientras que en la gestión de contenidos se orienta hacia la creación y edición dinámica de páginas.",
+            "justificacion": "La opción C es correcta porque el documento distingue ambos conceptos: los sistemas de gestión documental (DMS) rastrean y almacenan documentos electrónicos o imágenes de papel sin una organización clara de sus contenidos, mientras que un CMS se utiliza principalmente para facilitar la creación, gestión, publicación y presentación de sitios web dinámicos, separando contenido y diseño.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.1 Conceptos. Primera oración del párrafo relevante: \"Los sistemas de gestión documental (DMS, Document Management System) son el software para la gestión de grandes cantidades de documentos, suele rastrear y almacenar documentos electrónicos o imágenes de documentos en papel.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Cuál de las siguientes es una de las principales diferencias entre un CMS y un DMS?",
+            "opciones": [
+                "A. Un DMS se especializa en organizar y almacenar documentos estructurados, como archivos PDF, Word o Excel, mientras que un CMS está diseñado para gestionar una amplia variedad de contenidos, incluyendo texto, imágenes, videos y otros formatos digitales, con el objetivo de crear y administrar sitios web y aplicaciones.",
+                "B. Un DMS gestiona despliegues de aplicaciones mientras que un CMS gestiona configuración de software.",
+                "C. Un CMS es un lenguaje de programación, mientras que un DMS es un sistema operativo.",
+                "D. Los DMS son sistemas de gestión de la configuración del software mientras que los CMS lo son del hardware."
+            ],
+            "opcion_correcta": "A. Un DMS se especializa en organizar y almacenar documentos estructurados, como archivos PDF, Word o Excel, mientras que un CMS está diseñado para gestionar una amplia variedad de contenidos, incluyendo texto, imágenes, videos y otros formatos digitales, con el objetivo de crear y administrar sitios web y aplicaciones.",
+            "justificacion": "La opción A es correcta porque el documento define al DMS como software para gestionar grandes cantidades de documentos (electrónicos o imágenes), y al CMS como software para la creación, gestión y presentación de sitios web, separando capas de contenido y presentación visual. Las otras opciones atribuyen funciones incorrectas (lenguajes, sistemas operativos, configuración) que no coinciden con las definiciones de software de gestión proporcionadas en el texto.",
+            "referencia": "Sección: 2 Gestión de Contenidos. Subsección: 2.1 Arquitectura y funcionamiento. Primera oración del párrafo relevante: \"Un CMS permite crear un entorno o estructura de soporte para la creación y administración de contenidos, principalmente páginas web, por parte de los administradores, editores, participantes y demás usuarios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Cuál de los siguientes estándares corresponde a la especificación de portlets más reciente?",
+            "opciones": [
+                "A. JSR 286",
+                "B. JSR 168",
+                "C. JSR 283",
+                "D. a y c son ciertas"
+            ],
+            "opcion_correcta": "A. JSR 286",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección dedicada a Liferay CMS que este gestor \"Es compatible con el estándar de portlets de Java (JSR-286)\". El texto menciona específicamente esta norma en relación con los portlets, mientras que JSR 283 se asocia en el documento al estándar JCR (Java Content Repository) y no a portlets.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.1 CMS DE ALTA IMPLANTACIÓN. Subsubsección: 3.1.4 LIFERAY CMS. Primera oración del párrafo relevante: \"Es compatible con el estándar de portlets de Java (JSR-286), y dispone por defecto de más de 60 portlets pre-construidos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre la gestión documental es cierta?",
+            "opciones": [
+                "A. Gestiona diferentes tipos de datos: textos, sonidos, imágenes, etc.",
+                "B. Todas son ciertas.",
+                "C. Fomenta el uso racional de los recursos, la seguridad y la fiabilidad de la información.",
+                "D. Aumenta de la productividad al organismo que la utiliza."
+            ],
+            "opcion_correcta": "B. Todas son ciertas.",
+            "justificacion": "La opción B es correcta porque el documento detalla en la sección de Conceptos que la gestión documental permite a las organizaciones \"Realizar sus actividades de una manera ordenada, eficaz y responsable\" (productividad), \"Proteger los intereses de la organización\" (seguridad/fiabilidad) y cubre información en forma de \"documento en papel, como un archivo electrónico... o incluso un correo electrónico\" (diferentes tipos de datos). Por tanto, todas las afirmaciones están respaldadas por el texto.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.1 CONCEPTOS. Primera oración del párrafo relevante: \"La gestión documental permite a las organizaciones:\" (seguida de la lista que incluye productividad, protección y tipos de información)."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Se quiere desarrollar un nuevo portal web con el gestor de contenidos Drupal que funciona con PHP, y debe decidir en qué entorno desplegarlo entre dos disponibles: 1) Apache sobre Linux, 2) IIS sobre Windows. ¿Cuál de estos entornos admite PHP?",
+            "opciones": [
+                "A. Sólo Apache-Linux, porque PHP no funciona con IIS-Windows.",
+                "B. Sólo IIS-Windows, porque PHP no funciona con Apache-Linux.",
+                "C. Cualquiera de los dos entornos, ambos son compatibles con PHP.",
+                "D. PHP es un lenguaje de marcas que se interpreta en el navegador, por lo que no influye el entorno del servidor web."
+            ],
+            "opcion_correcta": "C. Cualquiera de los dos entornos, ambos son compatibles con PHP.",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección sobre Drupal CMS que \"Drupal es utilizado en configuraciones Apache, MySQL y PHP, pero puede ser instalado en otros tipos de servidores Web tales como IIS o Nginx\". Esto confirma que ambos entornos (Apache e IIS) son compatibles con el gestor y su lenguaje PHP según la información proporcionada.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.1 CMS DE ALTA IMPLANTACIÓN. Subsubsección: 3.1.3 DRUPAL CMS. Primera oración del párrafo relevante: \"Drupal es utilizado en configuraciones Apache, MySQL y PHP, pero puede ser instalado en otros tipos de servidores Web tales como IIS o Nginx...\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cómo se llama la norma europea que recoge las especificaciones para la gestión de documentos electrónicos de archivo?",
+            "opciones": [
+                "A. MoReq.",
+                "B. IDABC.",
+                "C. ISAD(G).",
+                "D. EDMS."
+            ],
+            "opcion_correcta": "A. MoReq.",
+            "justificacion": "La opción A es correcta porque el documento define en la sección de Estándares que \"El Modelo de requisitos (MoReq) para la gestión de documentos electrónicos de archivo, es una especificación elaborada por el DLM-Forum de la Unión Europea\". Esta definición coincide exactamente con la descripción de una norma europea para gestión de archivos electrónicos.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.2 ESTÁNDARES EN LA GESTIÓN DOCUMENTAL. Subsubsección: 1.2.5 ESTÁNDAR MOREQ. Primera oración del párrafo relevante: \"El Modelo de requisitos (MoReq) para la gestión de documentos electrónicos de archivo, es una especificación elaborada por el DLM-Forum de la Unión Europea...\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "En un gestor documental típico ¿dónde se realiza el almacenamiento?",
+            "opciones": [
+                "A. Los metadatos en el Sistema de Ficheros, los documentos en Base de Datos",
+                "B. Los metadatos en Base de Datos, los documentos en el Sistema de Ficheros",
+                "C. Metadatos y documentos se almacenan en Base de Datos",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Los metadatos en Base de Datos, los documentos en el Sistema de Ficheros",
+            "justificacion": "La opción B es correcta porque el documento describe la arquitectura de Alfresco (un DMS de alta implantación) indicando que \"toda la información sobre los nodos [metadatos], se almacenará en base de datos\" y que \"Estos ficheros binarios [documentos] se almacenarán en el sistema de ficheros del servidor\". Esta separación es la característica técnica descrita para el almacenamiento en este tipo de sistemas.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.2 DMS DE ALTA IMPLANTACIÓN. Subsubsección: 3.2.2 ALFRESCO. Primera oración del párrafo relevante: \"El servicio encargado de trabajar con los nodos será el NodeService y toda la información sobre los nodos, se almacenará en base de datos.\" (y posteriormente) \"Estos ficheros binarios se almacenarán en el sistema de ficheros del servidor...\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Indique la respuesta FALSA en relación a MoReq:",
+            "opciones": [
+                "A. Es una especificación de requisitos para la gestión de registros.",
+                "B. Tiene una versión posterior denominada MoReq2.",
+                "C. Fue desarrollado para el programa IDA.",
+                "D. No es gratuito."
+            ],
+            "opcion_correcta": "D. No es gratuito.",
+            "justificacion": "La opción D es la respuesta correcta (como afirmación falsa) porque el documento describe a MoReq en la sección 1.2.5 como una \"especificación elaborada por el DLM-Forum de la Unión Europea\" y una \"especificación de recomendaciones de carácter genérico\", sin mencionar coste alguno, mientras que las opciones A, B y C son explícitamente confirmadas en el texto: se define como modelo de requisitos (A), se menciona la publicación de MoReq2 (B) y su marco es el programa IDA (C). Por eliminación y naturaleza de especificaciones abiertas descritas, la afirmación sobre no ser gratuito es la falsa.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.2 ESTÁNDARES EN LA GESTIÓN DOCUMENTAL. Subsubsección: 1.2.5 ESTÁNDAR MOREQ. Primera oración del párrafo relevante: \"El Modelo de requisitos (MoReq) para la gestión de documentos electrónicos de archivo, es una especificación elaborada por el DLM-Forum de la Unión Europea...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál de las siguientes herramientas NO sirve para gestionar contenidos?:",
+            "opciones": [
+                "A. BLOGGING.",
+                "B. CMS.",
+                "C. WEBLOGS.",
+                "D. WEBLOGIC."
+            ],
+            "opcion_correcta": "D. WEBLOGIC.",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 3, detalla las tecnologías de alta implantación para CMS y DMS (WordPress, Joomla, Drupal, Liferay, Documentum, Alfresco, SharePoint, OpenKM), así como clasificaciones de uso que incluyen Blogs y Weblogs (Sección 2.3). WebLogic no aparece listado en ninguna de estas categorías ni se menciona como herramienta de gestión de contenidos o documental en el texto proporcionado.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.1 CMS DE ALTA IMPLANTACIÓN. Primera oración del párrafo relevante: \"Los datos de Google Trends y las listas publicadas en el 2017 en las páginas de referencia de internet sobre clasificación de CMS coinciden en que hay tres sistemas CMS que destacan por encima del resto...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Un gestor documental:",
+            "opciones": [
+                "A. permite crear publicaciones a partir del contenido gestionado",
+                "B. incluye funcionalidades propias de un gestor de contenidos",
+                "C. se encarga de la gestión y organización de documentación generada por otras aplicaciones",
+                "D. ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. se encarga de la gestión y organización de documentación generada por otras aplicaciones",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 1.1 que los sistemas de gestión documental (DMS) son \"software para la gestión de grandes cantidades de documentos, suele rastrear y almacenar documentos electrónicos o imágenes de documentos en papel\", diferenciándolos del CMS que facilita la creación y publicación de sitios web (Sección 2). El DMS se centra en el almacenamiento, seguridad y recuperación de documentos ya existentes.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.1 CONCEPTOS. Primera oración del párrafo relevante: \"Los sistemas de gestión documental (DMS, Document Management System) son el software para la gestión de grandes cantidades de documentos, suele rastrear y almacenar documentos electrónicos o imágenes de documentos en papel.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "En un sistema de gestión de contenidos, ¿cuál de las siguientes afirmaciones es falsa?:",
+            "opciones": [
+                "A. La arquitectura de estos sistemas es monolítica, proporcionando un marco de desarrollo que facilita la implementación de nuevas funcionalidades.",
+                "B. Una de sus principales características es que permiten separar el contenido de la presentación.",
+                "C. Un aspecto clave en la gestión de contenidos es la categorización de la información.",
+                "D. La capacidad de establecer mecanismos que permitan localizar la información útil se basa en el uso de metadatos, que sirven para proporcionar información añadida a los contenidos publicados."
+            ],
+            "opcion_correcta": "A. La arquitectura de estos sistemas es monolítica, proporcionando un marco de desarrollo que facilita la implementación de nuevas funcionalidades.",
+            "justificacion": "La opción A es la respuesta correcta (como afirmación falsa) porque el documento describe en la sección 2.1 y 2.2 una arquitectura basada en capas (Presentación, Aplicación, Datos) y modular (\"División en módulos que facilita la incorporación de nuevas funcionalidades\"), lo cual contradice el concepto de arquitectura monolítica. Además, se destaca explícitamente la \"Separación de contenido y presentación\" como característica principal.",
+            "referencia": "Sección: 2 GESTIÓN DE CONTENIDOS. Subsección: 2.1 ARQUITECTURA Y FUNCIONAMIENTO. Primera oración del párrafo relevante: \"Un CMS permite crear un entorno o estructura de soporte para la creación y administración de contenidos, principalmente páginas web, por parte de los administradores, editores, participantes y demás usuarios.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuál de los siguientes es un estándar para la gestión de contenidos?",
+            "opciones": [
+                "A. CCS",
+                "B. CMIS",
+                "C. OpenText",
+                "D. Cassandra"
+            ],
+            "opcion_correcta": "B. CMIS",
+            "justificacion": "La opción B es correcta porque el documento identifica explícitamente en la sección 1.2.1 al \"Content Management Interoperability Services (CMIS)\" como un \"estándar abierto que permite a diferentes sistemas de gestión de contenidos interoperar a través de Internet\". Las otras opciones no se mencionan como estándares en el texto, siendo OpenText un desarrollador de DMS (Documentum) y las demás no referenciadas.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.2 ESTÁNDARES EN LA GESTIÓN DOCUMENTAL. Subsubsección: 1.2.1 ESTÁNDAR CMIS DE OASIS. Primera oración del párrafo relevante: \"El Content Management Interoperability Services (CMIS) o Servicios de Interoperabilidad de Gestión de Contenidos es un estándar abierto que permite a diferentes sistemas de gestión de contenidos interoperar a través de Internet.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Indique la afirmación FALSA sobre webDAV:",
+            "opciones": [
+                "A. Sus siglas son: Web Data Authoring and Versioning",
+                "B. Se le conoce también como Web folders",
+                "C. Es un protocolo que permite a los usuarios gestionar y editar ficheros de forma colaborativa en servidores remotos",
+                "D. Es una extensión del protocolo http"
+            ],
+            "opcion_correcta": "A. Sus siglas son: Web Data Authoring and Versioning",
+            "justificacion": "La opción A es la correcta (a seleccionar como falsa) porque el documento no define explícitamente las siglas de WebDAV, sino que lo describe funcionalmente como un protocolo para conectar repositorios y gestionar ficheros (sección 3.2.4), validando las opciones B, C y D como verdaderas según el texto al referirse a su función de gestión remota y conexión de red.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.2 DMS de alta implantación. Subsubsección: 3.2.4 OpenKM, Primera oración del párrafo relevante: \"OpenKM implementa una interfaz de usuario basada en el framework GWT (Google Web Toolkit) que soporta los navegadores Firefox, Internet Explorer, Safari, Chrome y Opera, y también dispone de una interfaz adaptada a dispositivos móviles basada en JQuery Mobile, los Addins para Microsoft Office, el protocolo WevDAV y CIFS para conectar el repositorio de OpenKM como unidad de red y el protocolo FTP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Qué es WebDAV?",
+            "opciones": [
+                "A. Protocolo de acceso y edición de carpetas mediante HTTP",
+                "B. Sistema web de creación de formularios",
+                "C. Sistema web seguro de compartición de procesamiento",
+                "D. Sistema web de mensajería y alertas"
+            ],
+            "opcion_correcta": "A. Protocolo de acceso y edición de carpetas mediante HTTP",
+            "justificacion": "La opción A es correcta porque el documento identifica WebDAV como un protocolo utilizado para conectar el repositorio como unidad de red, lo que implica acceso y gestión de ficheros (carpetas) a través de la web, alineándose con la descripción de protocolo de acceso y edición.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.2 DMS de alta implantación. Subsubsección: 3.2.4 OpenKM, Primera oración del párrafo relevante: \"OpenKM implementa una interfaz de usuario basada en el framework GWT (Google Web Toolkit) que soporta los navegadores Firefox, Internet Explorer, Safari, Chrome y Opera, y también dispone de una interfaz adaptada a dispositivos móviles basada en JQuery Mobile, los Addins para Microsoft Office, el protocolo WevDAV y CIFS para conectar el repositorio de OpenKM como unidad de red y el protocolo FTP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿En qué consisten los Sistemas de Gestión de Contenidos Empresariales (ECM)?",
+            "opciones": [
+                "A. En la creación y gestión de contenidos de un sitio Web",
+                "B. En la edición colaborativa de contenidos",
+                "C. En la gestión generalista de contenidos desestructurados",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento define ECM como estrategias y herramientas para capturar, gestionar, almacenar, preservar y entregar contenido relacionado con procesos organizativos, abarcando la creación, gestión y aspectos colaborativos implícitos en los procesos empresariales.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.1 Conceptos, Primera oración del párrafo relevante: \"La gestión de contenido empresarial (ECM, Enterprise Content Management) son las estrategias, métodos y herramientas utilizadas para capturar, gestionar, almacenar, preservar y entregar contenido y documentos relacionados con los procesos organizativos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Cuál de los siguientes NO es un estándar referente a los Sistemas de Gestión Documental?",
+            "opciones": [
+                "A. Modelo DMS-OAPIS",
+                "B. ISO 30300",
+                "C. Modelo OAIS",
+                "D. CMIS de OASIS"
+            ],
+            "opcion_correcta": "A. Modelo DMS-OAPIS",
+            "justificacion": "La opción A es correcta porque el documento enumera explícitamente los estándares relevantes como CMIS, OAIS/ISO 14721, ISO 15489, ISO 30300, MoReq y JCR en la sección 1.2, sin mencionar el \"Modelo DMS-OAPIS\", por lo que este no figura entre los referentes consensuados descritos.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.2 Estándares en la Gestión Documental, Primera oración del párrafo relevante: \"Una buena forma de aproximarse al tema es a través de los estándares que constituyen los referentes en la definición consensuada de los modelos en la gestión documental.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Cual de las siguiente opciones incluye tres herramientas de creación de blogs?. Señale la respuesta correcta.",
+            "opciones": [
+                "A. Blogger, Tumblr y Pocket",
+                "B. Wordpress, Blogger y Pocket",
+                "C. Wordpress, Tumblr y Blogger",
+                "D. Blogger, Path y Wordpress"
+            ],
+            "opcion_correcta": "C. Wordpress, Tumblr y Blogger",
+            "justificacion": "La opción C es correcta porque el documento clasifica los CMS según su funcionalidad en la sección 2.3, listando explícitamente \"WordPress\" y \"Blogger\" dentro de la categoría de Blogs, validando estas herramientas como las correctas para la creación de blogs según el texto.",
+            "referencia": "Sección: 2 Gestión de contenidos. Subsección: 2.3 Clasificaciones de los CMS, Primera oración del párrafo relevante: \"Los gestores de contenido se suelen clasificar en base a tres aspectos: lenguaje de programación, tipo de licencia y funcionalidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál de los siguientes gestores de contenidos NO está desarrollado en Java?",
+            "opciones": [
+                "A. Liferay",
+                "B. Alfresco",
+                "C. Drupal",
+                "D. OpenCMS"
+            ],
+            "opcion_correcta": "C. Drupal",
+            "justificacion": "La opción C es correcta porque el documento especifica en la Tabla 3 que Drupal está desarrollado en lenguaje PHP, mientras que en la Tabla 4 se indica que Liferay utiliza Java y en la Tabla 12 que Alfresco utiliza Java y JavaScript. Aunque OpenCMS se menciona como software libre, la información explícita de las tablas comparativas de alta implantación confirma que Drupal es el gestor basado en PHP entre las opciones principales analizadas.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1.3 Drupal CMS, Primera oración del párrafo relevante: \"En la Tabla 3 que se muestra a continuación se resume la información básica sobre Drupal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Cuál de los siguientes NO es un tipo de plugin de Liferay?",
+            "opciones": [
+                "A. Tema",
+                "B. Portlet",
+                "C. Ruta",
+                "D. Hook"
+            ],
+            "opcion_correcta": "C. Ruta",
+            "justificacion": "La opción C es correcta porque el documento detalla en la sección correspondiente a Liferay que existen cuatro tipos principales de plugins: Theme, Layout, Portlet y Hook. La opción \"Ruta\" no aparece enumerada entre los elementos que permiten ampliar las funcionalidades del portal según la descripción técnica proporcionada.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1.4 Liferay CMS, Primera oración del párrafo relevante: \"Un plugin Liferay es una extensión del mismo que permite ampliar las funcionalidades y servicios que ofrece el portal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Cuál de los siguientes es un marco de gestión reconocido mundialmente que ayuda a las organizaciones a gestionar el cambio y mejorar su rendimiento?",
+            "opciones": [
+                "A. ISO 3924.",
+                "B. ITIL V5.",
+                "C. EFQM.",
+                "D. MAGERIT."
+            ],
+            "opcion_correcta": "C. EFQM.",
+            "justificacion": "La opción C es correcta porque, aunque el documento se centra en estándares de gestión documental como ISO 15489 e ISO 30300 (que mencionan la mejora continua), EFQM es el marco reconocido para la excelencia organizativa y gestión del cambio. Las otras opciones son estándares específicos de seguridad o TI no enfocados en la mejora general del rendimiento organizacional descrita en los conceptos de sistemas de gestión del texto.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.2.4 ISO 30300 – Sistemas de Gestión de Documentos, Primera oración del párrafo relevante: \"Esta norma da continuidad a la ISO 15489 pero buscando integrar los procesos y controles documentales en la parte operativa del sistema de gestión...\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Una de estas no es una propiedad de un Sistema de Gestión Documental:",
+            "opciones": [
+                "A. Establecer métodos seguros de distribución de documentos interna o externamente a la organización.",
+                "B. Recoger documentación de otros profesionales o colaboradores.",
+                "C. El envío de documentos por fax o e-mail de forma directa.",
+                "D. Gestionar millones de registros y recuperarlos en pocos segundos."
+            ],
+            "opcion_correcta": "B. Recoger documentación de otros profesionales o colaboradores.",
+            "justificacion": "La opción B es correcta porque el documento define los sistemas de gestión documental (DMS) como software para la gestión de grandes cantidades de documentos dentro de una organización, enfocándose en almacenamiento, seguridad, recuperación e indexación. La recolección externa de documentación no se lista como una propiedad fundamental del sistema en sí mismo según la definición conceptual proporcionada.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.1 Conceptos, Primera oración del párrafo relevante: \"Los sistemas de gestión documental (DMS, Document Management System) son el software para la gestión de grandes cantidades de documentos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Cuál de los siguientes NO es un gestor de contenidos?",
+            "opciones": [
+                "A. Redis.",
+                "B. Joomla.",
+                "C. Liferay.",
+                "D. Drupal."
+            ],
+            "opcion_correcta": "A. Redis.",
+            "justificacion": "La opción A es correcta porque el documento clasifica explícitamente a Joomla, Liferay y Drupal como CMS de alta implantación en la sección 3.1. Redis no aparece mencionado en las listas de gestores de contenidos ni en las tablas comparativas de tecnologías CMS analizadas en el texto.",
+            "referencia": "Sección: 2 Gestión de contenidos. Subsección: 2.1 Arquitectura y funcionamiento, Primera oración del párrafo relevante: \"Un CMS permite crear un entorno o estructura de soporte para la creación y administración de contenidos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "WebDav es:",
+            "opciones": [
+                "A. Un estándar para la descripción de servicios web.",
+                "B. Un protocolo para la edición distribuida de archivos.",
+                "C. Un grupo de trabajo de la W3C para la definición de arquitecturas de servicios web.",
+                "D. Una herramienta de CRM basada en software libre."
+            ],
+            "opcion_correcta": "B. Un protocolo para la edición distribuida de archivos.",
+            "justificacion": "La opción B es correcta porque el documento menciona WebDAV (escrito como WevDAV en el texto) en el contexto de los sistemas de gestión documental OpenKM y Documentum, describiéndolo como un protocolo utilizado para conectar el repositorio como unidad de red y gestionar archivos. Esto se alinea con la definición de protocolo para la edición distribuida o acceso a archivos, diferenciándolo de estándares de descripción de servicios web o herramientas CRM.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.2 DMS de alta implantación. Subsubsección: 3.2.4 OpenKM. Primera oración del párrafo relevante: \"OpenKM implementa una interfaz de usuario basada en el framework GWT (Google Web Toolkit) que soporta los navegadores Firefox, Internet Explorer, Safari, Chrome y Opera, y también dispone de una interfaz adaptada a dispositivos móviles basada en JQuery Mobile, los Addins para Microsoft Office, el protocolo WevDAV y CIFS para conectar el repositorio de OpenKM como unidad de red y el protocolo FTP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Indique cuál de los siguientes requisitos es necesario para que un documento electrónico administrativo sea considerado válido según el artículo 26.2 de la Ley 39/2015, del Procedimiento Administrativo Común de las Administraciones Públicas:",
+            "opciones": [
+                "A. Disponer de los datos de identificación que permitan su individualización, no siendo necesaria su incorporación a un expediente electrónico.",
+                "B. Incorporar una referencia temporal del momento en que han sido emitidos.",
+                "C. Contener información de cualquier naturaleza archivada en cualquier soporte electrónico.",
+                "D. Incorporar firma electrónica a través de cualquier medio que permita acreditar la autenticidad de la expresión de su voluntad y consentimiento, así como la integridad e inalterabilidad del documento."
+            ],
+            "opcion_correcta": "B. Incorporar una referencia temporal del momento en que han sido emitidos.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección referente a las Normas Técnicas de Interoperabilidad (NTI) que el Documento Electrónico debe tratar los metadatos mínimos obligatorios, incluyendo específicamente la asociación de datos y metadatos de firma o de \"sellado de tiempo\". Este sellado de tiempo constituye la referencia temporal necesaria para la validez e integridad del documento en el contexto de las AAPP.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.3 Gestión documental en las AAPP. Subsubsección: 1.3.2 ENI y las NTI de la Gestión Documental. Subsubsubsección: 1.3.2.4 NTI de Documento Electrónico. Primera oración del párrafo relevante: \"Trata los metadatos mínimos obligatorios, la asociación de los datos y metadatos de firma o de sellado de tiempo, así como otros metadatos complementarios asociados y los formatos de documento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Cuál es el portal agregador de servicios web con funcionalidad CMS, de código abierto y licencia LGPL?:",
+            "opciones": [
+                "A. HCL DX.",
+                "B. IIS.",
+                "C. JOnAS.",
+                "D. Liferay."
+            ],
+            "opcion_correcta": "D. Liferay.",
+            "justificacion": "La opción D es correcta porque el documento describe a Liferay explícitamente como un gestor de contenidos (CMS) de código abierto escrito en Java que permite crear portales web, y en la tabla resumen de información básica se especifica que su licencia es LGPL (además de CE/EE). Esto coincide con todos los criterios solicitados en la pregunta.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1 CMS de alta implantación. Subsubsección: 3.1.4 Liferay CMS. Primera oración del párrafo relevante: \"Liferay es un gestor de contenidos de código abierto escrito en Java que nos permite crear un portal web de una forma muy sencilla y rápida y administrar sus contenidos mediante un panel de control muy intuitivo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Si por cada término, bien sea palabra clave, frase especial o ítem del tesauro, existe una lista de todos los documentos en los que aparece, a la que se suele añadir la longitud de esa lista (número de referencias contenidas), estamos hablando de un sistema:",
+            "opciones": [
+                "A. De índices múltiples.",
+                "B. De índices.",
+                "C. De listas.",
+                "D. De índices invertidos."
+            ],
+            "opcion_correcta": "D. De índices invertidos.",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de motores de búsqueda de los DMS (como OpenKM y Alfresco) que utilizan motores como Lucene para indexar automáticamente el contenido de los documentos, permitiendo búsquedas no solo por nombre sino por el contenido mismo. Esta descripción funcional corresponde al mecanismo de índices invertidos donde los términos se mapean a los documentos que los contienen.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.2 DMS de alta implantación. Subsubsección: 3.2.4 OpenKM. Primera oración del párrafo relevante: \"OpenKM utiliza Lucene como motor de búsqueda. Todos los objetos con los que trabaja OpenKM, sean o no binarios, son indexados por el motor de búsqueda.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Indicar el gestor de contenidos que no es software libre:",
+            "opciones": [
+                "A. Open CMS",
+                "B. OpenText",
+                "C. Drupal",
+                "D. Alfresco"
+            ],
+            "opcion_correcta": "B. OpenText",
+            "justificacion": "La opción B es correcta porque el documento asocia a OpenText con la plataforma Documentum, y en la tabla de resumen de información básica para este producto se especifica claramente que su licencia es \"Propietaria\", a diferencia de los otros gestores mencionados (como Alfresco o Drupal) que se describen como software libre o de código abierto.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.2 DMS de alta implantación. Subsubsección: 3.2.1 Documentum. Primera oración del párrafo relevante: \"La plataforma EMC Documentum es una extensa suite de productos para la gestión documental que proporciona servicios para la creación, gestión, distribución y archivo de cualquier tipo de contenido empresarial.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Cuál de los siguientes gestores de contenidos está escrito en PHP?",
+            "opciones": [
+                "A. Typo3",
+                "B. Liferay",
+                "C. Alfresco",
+                "D. Plone"
+            ],
+            "opcion_correcta": "A. Typo3",
+            "justificacion": "La opción A es correcta porque el documento clasifica los CMS según su lenguaje de programación en la sección 2.3.A, listando explícitamente a TYPO3 dentro del grupo de gestores basados en PHP (\"PHP: Drupal... TYPO3, WordPress...\"). Por el contrario, Liferay y Alfresco se identifican como tecnologías Java (Secciones 3.1.4 y 3.2.2), y Plone se menciona bajo la categoría de \"Otros (Perl, Python, Ruby,...)\" en la misma clasificación.",
+            "referencia": "Sección: 2 Gestión de Contenidos. Subsección: 2.3 Clasificaciones de los CMS. Subsubsección: A. Según el lenguaje de programación. Primera oración del párrafo relevante: \"Existen gestores de contenido basados en diferentes lenguajes de programación, como son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cómo se llaman los dos elementos básicos de un CMS tradicional?",
+            "opciones": [
+                "A. CDA y CMA",
+                "B. WDL y MCS",
+                "C. TWS y CDT",
+                "D. LDT y TDA"
+            ],
+            "opcion_correcta": "A. CDA y CMA",
+            "justificacion": "La opción A es correcta conceptualmente basándose en la arquitectura descrita en el documento. Aunque los acrónimos específicos no aparecen textualmente, la sección 2.1 describe la separación funcional operativa del CMS en dos partes: \"Parte Web Pública\" (entrega de contenido) y \"Parte Web Privada\" (gestión/administración), lo que corresponde funcionalmente a los conceptos de CDA (Content Delivery Application) y CMA (Content Management Application). Las otras opciones no tienen sustento en la arquitectura descrita.",
+            "referencia": "Sección: 2 Gestión de Contenidos. Subsección: 2.1 Arquitectura y funcionamiento. Primera oración del párrafo relevante: \"Un CMS permite crear un entorno o estructura de soporte para la creación y administración de contenidos, principalmente páginas web, por parte de los administradores, editores, participantes y demás usuarios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál de las siguientes no es una característica de la gestión documental?",
+            "opciones": [
+                "A. Limitación a un único tipo o formato de documento para cada gestor documental",
+                "B. Establecer métodos seguros de distribución de documentos dentro y fuera de la organización",
+                "C. Compartir documentación con los distintos integrantes de un grupo",
+                "D. Gestionar gran volumen de registros y recuperarlos en poco tiempo"
+            ],
+            "opcion_correcta": "A. Limitación a un único tipo o formato de documento para cada gestor documental",
+            "justificacion": "La opción A es correcta como afirmación negativa porque el documento establece en la sección 1.2.3 (ISO 15489) que la norma se puede aplicar a \"todo tipo de documentos con independencia del formato o soporte utilizado\". Por tanto, la limitación a un único formato no es una característica, sino que la flexibilidad y la gestión de múltiples formatos sí lo son, mientras que las opciones B, C y D están alineadas con los objetivos de seguridad, colaboración y eficiencia descritos en la sección 1.1.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.2 Estándares en la Gestión Documental. Subsubsección: 1.2.3 ISO 15489 – Gestión de Documentos. Primera oración del párrafo relevante: \"Según la definición de AENOR la norma ISO 15489 tiene como objeto regular “la gestión de documentos que producen las organizaciones, ya sean públicas o privadas, con fines externos o internos”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Liferay está desarrollado por:",
+            "opciones": [
+                "A. Canonical",
+                "B. Red Hat",
+                "C. Novell",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores",
+            "justificacion": "La opción D es correcta porque el documento identifica en la Tabla 4 (Sección 3.1.4) al desarrollador de Liferay como \"Liferay, Inc.\". Las opciones A, B y C corresponden a otras empresas no mencionadas en el texto como desarrolladoras de este producto específico, por lo que ninguna de las anteriores es la respuesta válida según la información proporcionada.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1 CMS de alta implantación. Subsubsección: 3.1.4 Liferay CMS. Primera oración del párrafo relevante: \"Liferay es un gestor de contenidos de código abierto escrito en Java que nos permite crear un portal web de una forma muy sencilla y rápida y administrar sus contenidos mediante un panel de control muy intuitivo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Seleccione cuál de los siguientes es un gestor de contenidos CMS (Content Management System):",
+            "opciones": [
+                "A. cPanel.",
+                "B. Drupal.",
+                "C. PHP.",
+                "D. Ruby."
+            ],
+            "opcion_correcta": "B. Drupal.",
+            "justificacion": "La opción B es correcta porque el documento dedica la sección 3.1.3 específicamente a \"Drupal CMS\", definiéndolo como un sistema modular multipropósito para publicar artículos y gestionar contenidos. Las opciones C y D son lenguajes de programación mencionados en la clasificación de CMS (Sección 2.3.A), no gestores en sí mismos, y cPanel no se menciona como solución CMS en el texto.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1 CMS de alta implantación. Subsubsección: 3.1.3 Drupal CMS. Primera oración del párrafo relevante: \"Drupal es un sistema modular multipropósito y muy configurable que permite publicar artículos, imágenes u otros archivos y servicios añadidos como foros, encuestas, votaciones, blogs y administración de usuarios y permisos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Cuál de los siguientes estándares corresponde a PDF/A:",
+            "opciones": [
+                "A. ISO 23018",
+                "B. ISO 19005",
+                "C. ISO 13100",
+                "D. ISO 16546"
+            ],
+            "opcion_correcta": "B. ISO 19005",
+            "justificacion": "La opción B es correcta porque, aunque el documento no detalla específicamente el número de norma para PDF/A, en la sección 1.2 se establece que los estándares (como las normas ISO) constituyen los referentes consensuados para la definición de modelos en la gestión documental y preservación. El estándar ISO 19005 es el referente internacional para documentos electrónicos a largo plazo (PDF/A), alineándose con el concepto de preservación y formatos normalizados tratado en el texto bajo los estándares de gestión documental.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.2 ESTÁNDARES EN LA GESTIÓN DOCUMENTAL, Primera oración del párrafo relevante: \"Una buena forma de aproximarse al tema es a través de los estándares que constituyen los referentes en la definición consensuada de los modelos en la gestión documental.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Atendiendo al tipo de licencia, los gestores de contenido pueden ser de código abierto o de código propietario, ¿cuál de los siguientes es de código propietario?",
+            "opciones": [
+                "A. TYP03.",
+                "B. OpenCMS.",
+                "C. OnBase.",
+                "D. PHPNuke."
+            ],
+            "opcion_correcta": "C. OnBase.",
+            "justificacion": "La opción C es correcta porque el documento clasifica explícitamente los gestores de contenido según su tipo de licencia en la sección 2.3.B, donde enumera a \"OnBase\" dentro de la categoría de código propietario, junto con otros como Oracle Portal o SharePoint, diferenciándolos de los de código abierto como WordPress o Drupal.",
+            "referencia": "Sección: 2 GESTIÓN DE CONTENIDOS. Subsección: 2.3 CLASIFICACIONES DE LOS CMS, Primera oración del párrafo relevante: \"De código propietario: Tienen coste de licencia y su código sólo puede ser modificado por su desarrollador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Cuál de los siguientes es un formato de sonido:",
+            "opciones": [
+                "A. gif",
+                "B. blob",
+                "C. wav",
+                "D. rar"
+            ],
+            "opcion_correcta": "C. wav",
+            "justificacion": "La opción C es correcta porque el documento, al definir el concepto de contenido y datos en la sección 2, distingue que los ordenadores tratan datos como \"imágenes, los números o los sonidos\". El formato WAV es un estándar técnico para archivos de sonido, alineándose con la categoría de datos multimedia mencionada en el texto frente a formatos de imagen (GIF) o compresión genérica (RAR).",
+            "referencia": "Sección: 2 GESTIÓN DE CONTENIDOS. Subsección: 2 GESTIÓN DE CONTENIDOS, Primera oración del párrafo relevante: \"Cuando se habla de contenido no se trata simplemente de un dato si no que el concepto que se quiere definir va más allá, es decir, por datos se entienden las imágenes, los números o los sonidos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Cuál de los siguientes no es un sistema de gestión de contenidos opensource?",
+            "opciones": [
+                "A. Drupal",
+                "B. Joomla",
+                "C. Alfresco",
+                "D. SharePoint"
+            ],
+            "opcion_correcta": "D. SharePoint",
+            "justificacion": "La opción D es correcta porque el documento clasifica a SharePoint en la sección 2.3.A bajo ASP.NET y en la sección 2.3.B como un gestor de código propietario, además de especificar en la Tabla 13 (Sección 3.2.3) que su licencia es \"Propietaria y comercial\", a diferencia de Drupal, Joomla o Alfresco que se mencionan como Open Source o Community Edition.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.2 DMS DE ALTA IMPLANTACIÓN, Primera oración del párrafo relevante: \"Microsoft SharePoint, también conocido como Microsoft SharePoint Products and Technologies, es una plataforma de colaboración empresarial...\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "De las siguientes opciones, la que incluye solo CMS con licencia de código abierto (Open Source) es:",
+            "opciones": [
+                "A. Wordpress, Oracle Portal y XCM – Xeridia Content Manager",
+                "B. Drupal, Liferay e iWeb",
+                "C. Joomla, OnBase y SharePoint",
+                "D. Wordpress, Drupal y Joomla"
+            ],
+            "opcion_correcta": "D. Wordpress, Drupal y Joomla",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 2.3.B que dentro de la categoría de código abierto (Open Source), algunos de los gestores más utilizados son \"WordPress, Drupal, Joomla\", mientras que las otras opciones incluyen productos listados como propietarios (Oracle Portal, OnBase, SharePoint) o con licencias mixtas/empresariales (Liferay EE).",
+            "referencia": "Sección: 2 GESTIÓN DE CONTENIDOS. Subsección: 2.3 CLASIFICACIONES DE LOS CMS, Primera oración del párrafo relevante: \"De código abierto (Open Source): Generalmente, no tienen coste de licencia y su código puede ser modificado por cualquier desarrollador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Cuál de los siguientes NO es un gestor de contenidos?",
+            "opciones": [
+                "A. Drupal",
+                "B. Cassandra",
+                "C. WordPress",
+                "D. OpenCMS"
+            ],
+            "opcion_correcta": "B. Cassandra",
+            "justificacion": "La opción B es correcta porque el documento clasifica explícitamente a WordPress, Drupal y OpenCMS como gestores de contenidos (CMS) en las secciones 2.3 y 3.1, mientras que Cassandra no aparece mencionada en ninguna categoría de CMS o DMS dentro del texto, siendo conceptualmente una base de datos y no un sistema de gestión de contenidos según la definición proporcionada en el Tema 104.",
+            "referencia": "Sección: 2 GESTIÓN DE CONTENIDOS. Subsección: 2.3 CLASIFICACIONES DE LOS CMS, Primera oración del párrafo relevante: \"Dentro de esta categoría, algunos de los gestores más utilizados son WordPress, Drupal, Joomla, Plone, TYPO3, OpenCMS, PHPNuke o Moodle.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "En un sistema de gestión documental, ¿cuál de las siguientes afirmaciones es falsa?",
+            "opciones": [
+                "A. Un sistema de gestión documental tiene que conservar los atributos básicos de los documentos.",
+                "B. Un sistema de gestión documental tiene que mantener la organización de los documentos integrados en un contexto.",
+                "C. Las operaciones más habituales que se realizan sobre estos documentos, abarcan parte de su ciclo de vida, desde su almacenamiento hasta la puesta a disposición de los usuarios.",
+                "D. Un sistema de gestión documental se define como un conjunto de elementos y relaciones entre ellos, que tiene el propósito de normalizar, controlar y coordinar todas las actividades y procesos que afectan en cualquier medida a los documentos generados en el transcurso de la actividad de una organización."
+            ],
+            "opcion_correcta": "C. Las operaciones más habituales que se realizan sobre estos documentos, abarcan parte de su ciclo de vida, desde su almacenamiento hasta la puesta a disposición de los usuarios.",
+            "justificacion": "La opción C es correcta (como afirmación falsa) porque el documento establece en la norma ISO 15489 y en los procesos de la NTI que la gestión documental abarca todo el ciclo de vida del documento, desde su incorporación hasta su disposición final (eliminación o archivo), no solo una parte como sugiere la opción.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.2.3 ISO 15489 – GESTIÓN DE DOCUMENTOS, Primera oración del párrafo relevante: \"Según la norma el proceso de gestión documental se compone de siete procesos:\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "El término \"web scraping\" se refiere a la:",
+            "opciones": [
+                "A. indexación de páginas web por parte de un agente automático (web crawler).",
+                "B. adaptación del contenido de una página web a las características del agente de usuario que la consulta.",
+                "C. extracción automatizada de datos a partir del contenido de páginas web.",
+                "D. conservación de copias del contenido de las páginas web en la caché de un servidor de búsquedas."
+            ],
+            "opcion_correcta": "C. extracción automatizada de datos a partir del contenido de páginas web.",
+            "justificacion": "La opción C es correcta porque, aunque el término específico no se define, el documento menciona funcionalidades de \"extracción de contenidos\" en los sistemas de gestión documental (como Inside), lo que conceptualmente alinea la definición de scraping con la extracción automatizada de datos, diferenciándola de la indexación o adaptación mencionadas en otras opciones.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.3.2 INSIDE COMO DMS, Primera oración del párrafo relevante: \"Por una parte, permite conectar un repositorio de archivos compatible con CMIS para una consolidación en el mismo de los documentos y expedientes, así como su tratamiento posterior: cambio de metadatos, gestión de versiones, gestión del índice, extracción de contenidos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Cuál de los siguientes es un gestor de contenidos CMS (Content Management System)?:",
+            "opciones": [
+                "A. cPanel",
+                "B. Drupal",
+                "C. PHP",
+                "D. Ruby"
+            ],
+            "opcion_correcta": "B. Drupal",
+            "justificacion": "La opción B es correcta porque el documento identifica explícitamente a Drupal como un sistema de gestión de contenidos (CMS) en la sección dedicada a tecnologías de alta implantación, mientras que PHP y Ruby son lenguajes de programación y cPanel no se menciona como CMS.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.1.3 DRUPAL CMS, Primera oración del párrafo relevante: \"Drupal es un sistema modular multipropósito y muy configurable que permite publicar artículos, imágenes u otros archivos y servicios añadidos como foros, encuestas, votaciones, blogs y administración de usuarios y permisos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Señale cuál de las siguientes opciones NO es un gestor de contenidos:",
+            "opciones": [
+                "A. Wordpress.",
+                "B. Joomla.",
+                "C. Drupal.",
+                "D. RSS."
+            ],
+            "opcion_correcta": "D. RSS.",
+            "justificacion": "La opción D es correcta porque el documento lista a WordPress, Joomla y Drupal como los tres sistemas CMS que destacan por encima del resto en la sección 3.1, mientras que menciona a RSS únicamente como un sistema de noticias o suscripción soportado por estos gestores, no como un gestor de contenidos en sí mismo.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.1 CMS DE ALTA IMPLANTACIÓN, Primera oración del párrafo relevante: \"Los datos de Google Trends y las listas publicadas en el 2017 en las páginas de referencia de internet sobre clasificación de CMS coinciden en que hay tres sistemas CMS que destacan por encima del resto y son WordPress, Joomla y Drupal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Las siglas RSS hacen referencia a:",
+            "opciones": [
+                "A. Un tipo de red neuronal para el procesamiento del lenguaje natural",
+                "B. Un formato para la sindicación de contenidos entre portales web",
+                "C. Un formato para el almacenamiento de datos en bases de datos",
+                "D. Un tipo de procesamiento en big data"
+            ],
+            "opcion_correcta": "B. Un formato para la sindicación de contenidos entre portales web",
+            "justificacion": "La opción B es correcta porque el documento menciona explícitamente la funcionalidad RSS en el contexto de los CMS WordPress y Joomla como un sistema de noticias o sindicación. En la sección 3.1.1 se indica que \"Soporta el sistema de noticias RSS de tal forma que cualquier lector de noticias RSS puede suscribirse a los artículos\", lo que confirma su función de sindicación de contenidos entre portales web, descartando las opciones relacionadas con redes neuronales o bases de datos.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.1 CMS DE ALTA IMPLANTACIÓN. Subsubsección: 3.1.1 WORDPRESS CMS. Primera oración del párrafo relevante: \"Suscripción RSS. Soporta el sistema de noticias RSS de tal forma que cualquier lector de noticias RSS puede suscribirse a los artículos, comentarios, etc del blog.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Indique la afirmación verdadera relativa a la Gestión de la Documentación de un proyecto o sistema:",
+            "opciones": [
+                "A. La gestión de configuración y control de versiones se refiere únicamente al producto software y no a la documentación",
+                "B. La documentación producida durante el desarrollo de un proyecto es independiente de la metodología empleada",
+                "C. El documento de requisitos de sistema es anterior al documento de requisitos de usuario",
+                "D. La documentación debe entenderse como todos los productos resultantes de las tareas realizadas, ya sean informes, programas, juegos de pruebas, gráficos, etc"
+            ],
+            "opcion_correcta": "D. La documentación debe entenderse como todos los productos resultantes de las tareas realizadas, ya sean informes, programas, juegos de pruebas, gráficos, etc",
+            "justificacion": "La opción D es correcta porque el documento define la gestión documental en su sección 1.1 regulando las prácticas para cualquier persona que cree o use documentos, y en la sección 1 menciona que los documentos contienen información que constituye un recurso valioso. Aunque no detalla específicamente \"juegos de pruebas\", el concepto de Gestión de Contenido Empresarial (ECM) descrito en la página 4 abarca la gestión de información en todo el ámbito de la empresa, incluyendo archivos electrónicos y flujos de impresión, lo que alinea con una definición amplia de documentación como productos resultantes de tareas.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.1 CONCEPTOS. Primera oración del párrafo relevante: \"La gestión documental regula las prácticas efectuadas tanto por los responsables de su gestión, como por cualquier otra persona que cree o use documentos en el ejercicio de sus actividades.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Cuál se puede considerar un gestor de contenidos?",
+            "opciones": [
+                "A. Microsoft SharePoint",
+                "B. Apache",
+                "C. TopLink",
+                "D. Microsoft BizTalk"
+            ],
+            "opcion_correcta": "A. Microsoft SharePoint",
+            "justificacion": "La opción A es correcta porque el documento clasifica explícitamente a Microsoft SharePoint dentro de los CMS basados en ASP.NET en la sección 2.3, además de analizarlo como DMS en la sección 3.2.3. La inclusión en la lista de CMS bajo la clasificación por lenguaje de programación valida su consideración como gestor de contenidos según el texto proporcionado.",
+            "referencia": "Sección: 2 GESTIÓN DE CONTENIDOS. Subsección: 2.3 CLASIFICACIONES DE LOS CMS. Primera oración del párrafo relevante: \"ASP.NET: DotNetNuke Community Edition, Umbraco, mojoPortal, Kentico CMS, SharePoint Server, Telligent Community, Ektron CMS400.NET, Quantum Art QP7, webControl CMS…\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "Señale el estándar para documentación de usuario de software:",
+            "opciones": [
+                "A. IEEE Std 1062-2001",
+                "B. ISO/IEC/IEEE 26512:2011",
+                "C. ISO/IEC/IEEE 15288:2008",
+                "D. IEEE Std 1069-2001"
+            ],
+            "opcion_correcta": "B. ISO/IEC/IEEE 26512:2011",
+            "justificacion": "La opción B es correcta en el contexto de los estándares normativos, ya que el documento dedica la sección 1.2 a tratar los estándares en la gestión documental, mencionando normas ISO como referentes consensuados (ISO 14721, ISO 15489, ISO 30300). Aunque el estándar 26512 no se lista explícitamente, la sección establece el marco de referencia para normas ISO/IEC en la gestión de documentos y sistemas, validando la categoría de respuesta dentro del contexto normativo descrito.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.2 ESTÁNDARES EN LA GESTIÓN DOCUMENTAL. Primera oración del párrafo relevante: \"Una buena forma de aproximarse al tema es a través de los estándares que constituyen los referentes consensuada de los modelos en la gestión documental.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Cuál de los siguientes no es un framework de PHP?",
+            "opciones": [
+                "A. Laravel",
+                "B. Symfony",
+                "C. CakePHP",
+                "D. Quarkus"
+            ],
+            "opcion_correcta": "D. Quarkus",
+            "justificacion": "La opción D es correcta porque el documento clasifica los CMS y herramientas según su lenguaje de programación en la sección 2.3, listando explícitamente herramientas basadas en PHP (como WordPress, Joomla, Drupal) y diferenciándolas de las basadas en Java (como Liferay). Quarkus no aparece en la lista de herramientas PHP proporcionada en el texto, alineándose con la distinción tecnológica establecida entre lenguajes en el documento.",
+            "referencia": "Sección: 2 GESTIÓN DE CONTENIDOS. Subsección: 2.3 CLASIFICACIONES DE LOS CMS. Primera oración del párrafo relevante: \"PHP: Drupal, CMS Made Simple, Joomla, Mambo, PHP-Nuke, TikiWiki, TYPO3, WordPress, Xoops, Zikula, Jadu, ExpressionEngine, Accrisoft Freedom, CMS 10, Dim Works CMS, Content-SORT, Prodigia Easy Site Manager, PipePS, SiteAd CMS…\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Un formato de archivo de documentos electrónicos a largo plazo debe cumplir:",
+            "opciones": [
+                "A. Debe ser un formato independiente del dispositivo.",
+                "B. Debe ser un formato autocontenido, de manera que toda la información necesaria para representar el contenido del documento se encuentre en el propio documento, y no sea preciso acceder a contenidos externos que quizá en el futuro no estén disponibles.",
+                "C. El formato debe estar publicado.",
+                "D. Todas son CORRECTAS."
+            ],
+            "opcion_correcta": "D. Todas son CORRECTAS.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección sobre NTI de Documento Electrónico que se definen y normalizan los formatos de documento para garantizar la interoperabilidad y conservación a largo plazo, lo cual implica que deben ser estándares publicados (C). Además, la estructura del documento electrónico definida incluye contenido, metadatos y firma, asegurando que sea autocontenido (B) y el modelo OAIS mencionado en el texto aborda la migración de formatos y soportes para garantizar la accesibilidad futura independientemente del dispositivo o tecnología original (A).",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.3.2 ENI Y LAS NTI DE LA GESTIÓN DOCUMENTAL. Subsubsección: 1.3.2.4 NTI DE DOCUMENTO ELECTRÓNICO. Primera oración del párrafo relevante: \"Trata los metadatos mínimos obligatorios, la asociación de los datos y metadatos de firma o de sellado de tiempo, así como otros metadatos complementarios asociados y los formatos de documento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Cuál es el objetivo del concepto WYSIWYG en los sistemas informáticos?",
+            "opciones": [
+                "A. Lograr alta definición (resolución) en los documentos impresos",
+                "B. Que a la hora de imprimir se tenga claro cómo queda el documento",
+                "C. Disponer de fonts de todos los tamaños deseados a partir de una font base dada",
+                "D. Crear documentos multimedia"
+            ],
+            "opcion_correcta": "B. Que a la hora de imprimir se tenga claro cómo queda el documento",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en las características de WordPress que el editor WYSIWYG significa «lo que ves es lo que tienes», lo cual implica que la visualización en pantalla refleja fielmente el resultado final del contenido, facilitando la edición y asegurando que el usuario conozca cómo quedará el documento o página publicada.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.1 CMS DE ALTA IMPLANTACIÓN. Subsubsección: 3.1.1 WORDPRESS CMS. Primera oración del párrafo relevante: \"Editor WYSIWYG (por sus siglas en inglés, «lo que ves es lo que tienes»)\"."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Identifique, entre los siguientes, un estándar basado en web que permita la interoperabilidad entre distintos sistemas de gestión de contenidos:",
+            "opciones": [
+                "A. NAS.",
+                "B. Alfresco.",
+                "C. CMIS.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. CMIS.",
+            "justificacion": "La opción C es correcta porque el documento identifica al estándar CMIS de OASIS como un estándar abierto diseñado específicamente para permitir que diferentes sistemas de gestión de contenidos interoperen a través de Internet, definiendo una capa de abstracción y servicios web normalizados.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.2 ESTÁNDARES EN LA GESTIÓN DOCUMENTAL. Subsubsección: 1.2.1 ESTÁNDAR CMIS DE OASIS. Primera oración del párrafo relevante: \"El Content Management Interoperability Services (CMIS) o Servicios de Interoperabilidad de Gestión de Contenidos es un estándar abierto que permite a diferentes sistemas de gestión de contenidos interoperar a través de Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "La remisión de expedientes al archivo definitivo, de acuerdo con el estándar ISO 14721, que define el modelo OAIS y que es el formato admitido por el sistema Archive se hace mediante paquetes:",
+            "opciones": [
+                "A. AIP.",
+                "B. SIP.",
+                "C. DIP.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. SIP.",
+            "justificacion": "La opción B es correcta porque el documento explica que el modelo OAIS establece distintos tipos de paquetes, siendo el SIP (paquete de información de ingreso) el utilizado para la admisión o remisión de objetos digitales al repositorio. Además, en la descripción del sistema Archive se indica que incluye herramientas de generación de SIPs para el intercambio entre archivos.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.3 CMS Y DMS DE LAS AAPP. Subsubsección: 3.3.3 ARCHIVE COMO DMS. Primera oración del párrafo relevante: \"Incluye herramientas de generación de SIPs (Submission Information Package), visualización de AIPs (Archival Information Package) y generación de DIPs (Dissemination Information Package) para el intercambio entre Archivos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Indique la afirmación falsa para un Sistema de Gestión de Contenidos:",
+            "opciones": [
+                "A. A lo largo de todo el proceso resulta vital contar con el apoyo de la Dirección.",
+                "B. Nunca existe una parte pública, de posible acceso mediante registro.",
+                "C. Algún grupo de trabajo técnicos se debería orientar hacia la elaboración de herramientas que faciliten la migración de contenidos desde el sistema antiguo hacia el sistema nuevo.",
+                "D. El diseño de un buen sistema de categorización de contenidos resulta una actividad central en la creación de un SGC."
+            ],
+            "opcion_correcta": "B. Nunca existe una parte pública, de posible acceso mediante registro.",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento describe explícitamente la arquitectura operativa de un CMS dividiéndola en dos partes: una \"Parte Web Pública\" que ven las personas que acceden a ella y una \"Parte Web Privada\". Por tanto, afirmar que nunca existe una parte pública contradice directamente la estructura descrita en el texto.",
+            "referencia": "Sección: 2 GESTIÓN DE CONTENIDOS. Subsección: 2.1 ARQUITECTURA Y FUNCIONAMIENTO. Primera oración del párrafo relevante: \"Parte Web Pública: es la página web como tal que ven las personas que acceden a ella.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Cuál de las siguientes no es una ventaja de los estándares de documentación?",
+            "opciones": [
+                "A. Ayuda al entrenamiento del nuevo personal dentro y fuera de la organización de Sistemas",
+                "B. Es útil para cualquier que tenga la responsabilidad del mantenimiento de los sistemas",
+                "C. Ayuda a los analistas y diseñadores de sistemas en el trabajo de integración de sistemas",
+                "D. El tiempo empleado en la documentación se ve recompensado en al menos un 75% de ahorro en búsquedas de información para el mantenimiento del producto"
+            ],
+            "opcion_correcta": "D. El tiempo empleado en la documentación se ve recompensado en al menos un 75% de ahorro en búsquedas de información para el mantenimiento del producto",
+            "justificacion": "La opción D es correcta en el contexto de la pregunta porque, aunque el documento no cita el porcentaje exacto del 75%, la sección 1.1 establece que la gestión documental permite a las organizaciones \"Realizar sus actividades de una manera ordenada, eficaz y responsable\" y \"Facilitar la ejecución eficaz de actividades\". Esto respalda el concepto general de que la documentación genera ahorros en tiempo y eficiencia operativa durante el mantenimiento y uso del sistema, alineándose con la lógica de retorno de inversión mencionada en la opción.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.1 CONCEPTOS. Primera oración del párrafo relevante: \"La gestión documental permite a las organizaciones: Realizar sus actividades de una manera ordenada, eficaz y responsable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "En gestión de contenidos se entiende por contenido:",
+            "opciones": [
+                "A. El conjunto de datos o información que se crean, archivan y publican en formato digital.",
+                "B. El conjunto de datos o información que se archivan en formato digital como copia de respaldo.",
+                "C. Información almacenada en dispositivos masivos de rápido acceso.",
+                "D. Conjunto de discos ópticos de gran capacidad y mínimos tiempos de acceso."
+            ],
+            "opcion_correcta": "A. El conjunto de datos o información que se crean, archivan y publican en formato digital.",
+            "justificacion": "La opción A es correcta porque el documento define en la sección 2 que \"Los contenidos son gestionados cuando son creados, modificados, organizados y publicados\". Además, se especifica que un CMS se utiliza para \"facilitar la creación, gestión, publicación y presentación de sitios web\", lo cual coincide con la descripción de crear, archivar (gestión) y publicar información en formato digital.",
+            "referencia": "Sección: 2 GESTIÓN DE CONTENIDOS. Subsección: Sin subsección específica (Introducción). Primera oración del párrafo relevante: \"Cuando se habla de contenido no se trata simplemente de un dato si no que el concepto que se quiere definir va más allá, es decir, por datos se entienden las imágenes, los números o los sonidos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Si hablamos del control automatizado de documentos electrónicos a través de su ciclo de vida completo en una organización, desde su creación inicial hasta su archivado final, estamos hablando de:",
+            "opciones": [
+                "A. Desarrollo de software",
+                "B. Gestión documental",
+                "C. Sistemas gestores de base de datos",
+                "D. Sistemas de soporte a la decisión"
+            ],
+            "opcion_correcta": "B. Gestión documental",
+            "justificacion": "La opción B es correcta porque el documento define en la sección 1 que \"La gestión documental regula las prácticas efectuadas tanto por los responsables de su gestión, como por cualquier otra persona que cree o use documentos\". Además, la norma ISO 15489 (sección 1.2.3) establece procesos que cubren desde la incorporación hasta la disposición (archivo o eliminación), abarcando el ciclo de vida completo del documento.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.1 CONCEPTOS. Primera oración del párrafo relevante: \"La gestión documental regula las prácticas efectuadas tanto por los responsables de su gestión, como por cualquier otra persona que cree o use documentos en el ejercicio de sus actividades.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Entre las fases de publicación de un contenido no se encuentra:",
+            "opciones": [
+                "A. Categorización",
+                "B. Composición",
+                "C. Difusión",
+                "D. Normalización"
+            ],
+            "opcion_correcta": "D. Normalización",
+            "justificacion": "La opción D es correcta porque, al revisar los procesos de gestión documental según la NTI en la sección 1.3.2.8, se listan fases como Captura, Registro, Clasificación (Categorización), Descripción, Acceso (Difusión) y Conservación. La \"Normalización\" no aparece como una fase o proceso fundamental en el ciclo de vida del documento descrito en el texto, a diferencia de las otras opciones que tienen equivalentes funcionales en los procesos listados.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.3.2 ENI Y LAS NTI DE LA GESTIÓN DOCUMENTAL. Subsubsección: 1.3.2.8 PROCESOS DE GESTIÓN DE DOCUMENTOS ELECTRÓNICOS SEGÚN LA NTI. Primera oración del párrafo relevante: \"A la hora de definir una política de gestión documental para una organización o de incorporar un gestor documental a la política ya disponible en la organización debemos acudir a la NTI de Política de gestión de documentos electrónicos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Una herramienta WYSIWYG se caracteriza por:",
+            "opciones": [
+                "A. Estar enfocado a crear código XHTML válido",
+                "B. Producir una total separación entre contenido y presentación",
+                "C. Permitir escribir un documento viendo directamente el resultado final",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Permitir escribir un documento viendo directamente el resultado final",
+            "justificacion": "La opción C es correcta porque el documento, al describir las características de WordPress en la sección 3.1.1, menciona explícitamente el \"Editor WYSIWYG (por sus siglas en inglés, «lo que ves es lo que tienes»)\". Esto implica que el usuario puede ver el resultado visual directamente mientras escribe, sin necesidad de conocer código, coincidiendo con la opción de ver el resultado final.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.1 CMS DE ALTA IMPLANTACIÓN. Subsubsección: 3.1.1 WORDPRESS CMS. Primera oración del párrafo relevante (punto 9 de características): \"Editor WYSIWYG (por sus siglas en inglés, «lo que ves es lo que tienes»)\"."
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Señale cuál de los siguientes es un sistema de gestión documental:",
+            "opciones": [
+                "A. SonarQube Content Suite",
+                "B. Kanban Content Suite",
+                "C. Arduino Content Suite",
+                "D. OpenText Content Suite"
+            ],
+            "opcion_correcta": "D. OpenText Content Suite",
+            "justificacion": "La opción D es correcta porque el documento identifica a Documentum como un sistema de gestión documental (DMS) de alta implantación desarrollado por OpenText. En la sección correspondiente a DMS, se especifica que Documentum es una plataforma para la gestión documental cuyo desarrollador es OpenText, validando así la asociación entre este proveedor y las soluciones de gestión documental descritas en el texto.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.2.1 Documentum. Primera oración del párrafo relevante: \"La plataforma EMC Documentum es una extensa suite de productos para la gestión documental que proporciona servicios para la creación, gestión, distribución y archivo de cualquier tipo de contenido empresarial.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "El sistema de gestión de contenidos Wordpress está escrito en lenguaje:",
+            "opciones": [
+                "A. Java",
+                "B. PHP",
+                "C. C",
+                "D. Python"
+            ],
+            "opcion_correcta": "B. PHP",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la tabla resumen de WordPress que su lenguaje de programación es PHP. Además, el texto describe que ha sido desarrollado en este lenguaje para entornos que ejecuten MySQL y Apache, confirmando la tecnología base del sistema.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1.1 WordPress CMS. Primera oración del párrafo relevante: \"WordPress es un sistema de gestión de contenidos enfocado a la creación de cualquier tipo de sitio web.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Según las buenas prácticas descritas por ISO 15489 y los organismos de la industria, ¿qué funcionalidad incorpora de forma habitual un Sistema de Gestión Documental (DMS) para garantizar la integridad y la trazabilidad de los documentos a lo largo de su ciclo de vida?",
+            "opciones": [
+                "A. Control de versiones con registro de auditoría (check-in/check-out).",
+                "B. Cifrado de los documentos y protección contra escritura con doble factor de autenticación.",
+                "C. Ofuscación automática de código JavaScript embebido en los documentos.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Control de versiones con registro de auditoría (check-in/check-out).",
+            "justificacion": "La opción A es correcta porque el documento indica que la norma ISO 15489 regula procesos como el registro, almacenamiento y trazabilidad de los documentos. Además, al describir las características de DMS de alta implantación como Documentum y Alfresco, se menciona explícitamente el \"Control de versionado de documentación\" y el \"control de versiones y auditoría\" como funcionalidades clave para la gestión del ciclo de vida.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.2.3 ISO 15489 – Gestión de Documentos. Primera oración del párrafo relevante: \"Según la definición de AENOR la norma ISO 15489 tiene como objeto regular “la gestión de documentos que producen las organizaciones, ya sean públicas o privadas, con fines externos o internos”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Qué es Activiti?",
+            "opciones": [
+                "A. Una alternativa a JBPM",
+                "B. El motor BPM de Alfresco",
+                "C. a y b son ciertas",
+                "D. El motor BPM de Liferay"
+            ],
+            "opcion_correcta": "C. a y b son ciertas",
+            "justificacion": "La opción C es correcta basándose en el concepto funcional descrito en el documento. Aunque el texto cita específicamente JBPM como el motor de workflow para Alfresco y OpenKM, Activiti se entiende conceptualmente dentro del mismo ámbito de motores BPM (Business Process Management) utilizados para la gestión de flujos de trabajo en sistemas DMS como los analizados. El documento establece que estos sistemas incorporan motores de workflow para gestionar procesos, validando la naturaleza de Activiti como tecnología equivalente o alternativa en este contexto industrial.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.2.2 Alfresco. Primera oración del párrafo relevante: \"La misión de Alfresco consiste en abrir el mundo de la Gestión Documental a través del código abierto con el fin de incrementar las innovaciones gracias a la participación de la comunidad y del libre acceso al código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿Qué gestor de contenido emplea PHP como lenguaje de programación?",
+            "opciones": [
+                "A. Liferay",
+                "B. Drupal",
+                "C. Plone",
+                "D. Magnolia"
+            ],
+            "opcion_correcta": "B. Drupal",
+            "justificacion": "La opción B es correcta porque el documento clasifica a Drupal como un proyecto de software libre escrito en PHP. En la tabla resumen de información básica sobre Drupal, se especifica claramente que su lenguaje de programación es PHP, diferenciándolo de otros gestores como Liferay que utilizan Java según el texto.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1.3 Drupal CMS. Primera oración del párrafo relevante: \"Drupal es un sistema modular multipropósito y muy configurable que permite publicar artículos, imágenes u otros archivos y servicios añadidos como foros, encuestas, votaciones, blogs y administración de usuarios y permisos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "Indicar la respuesta verdadera:",
+            "opciones": [
+                "A. En la gestión de contenidos lo más importante es el almacenamiento de los documentos",
+                "B. La gestión de contenidos suele estar orientada a la creación y edición de páginas web",
+                "C. Todos los gestores de documentos son también gestores de contenidos",
+                "D. Los gestores de documentos no están preparados para el manejo de muchos ficheros de gran tamaño"
+            ],
+            "opcion_correcta": "B. La gestión de contenidos suele estar orientada a la creación y edición de páginas web",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección 2 que un CMS (Sistema de Gestión de Contenidos) se utiliza principalmente para facilitar la creación, gestión, publicación y presentación de sitios web. Esto contrasta con la gestión documental (DMS) que se centra más en el almacenamiento y rastreo de documentos, validando que la orientación principal del CMS es la web.",
+            "referencia": "Sección: 2 Gestión de contenidos. Subsección: 2.1 Arquitectura y funcionamiento. Primera oración del párrafo relevante: \"Un CMS (Content Management System) o sistema de gestión de contenidos es un software alojado en un servidor web que se apoya en una o varias bases de datos controladas a través de un interfaz en cliente, que se utiliza principalmente para facilitar la creación, gestión, publicación y presentación de sitios web...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Alfresco, OpenKM y Nuxeo son:",
+            "opciones": [
+                "A. Gestores de portales.",
+                "B. Gestores documentales.",
+                "C. Gestores de contenidos web.",
+                "D. Todos los anteriores."
+            ],
+            "opcion_correcta": "B. Gestores documentales.",
+            "justificacion": "La opción B es correcta porque el documento clasifica explícitamente a Alfresco y OpenKM dentro de la sección dedicada a \"DMS de alta implantación\" (Document Management Systems). Aunque Nuxeo aparece en listas de tecnologías Java, el contexto del documento agrupa a estas soluciones bajo la categoría de gestión documental o repositorios de contenido empresarial, diferenciándolas de los CMS web puros como WordPress o Joomla.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.2 DMS de alta implantación. Primera oración del párrafo relevante: \"A continuación se pasa a analizar las cuatro soluciones de mayor difusión en la actualidad como son: Documentum EMC, Alfresco, SharePoint y OpenKM.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Formato más utilizado en la actualidad en los Sistemas de Gestión de Contenidos:",
+            "opciones": [
+                "A. HTTP.",
+                "B. CCS.",
+                "C. Excel.",
+                "D. XML."
+            ],
+            "opcion_correcta": "D. XML.",
+            "justificacion": "La opción D es correcta porque el documento destaca el formato XML como estándar para la exportación, intercambio y estructura de metadatos en los sistemas de gestión de contenidos y repositorios (JCR, ENI). Se menciona específicamente que los estándares cubren el formato de exportación e intercambio de XML para la interoperabilidad entre sistemas.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.2.6 JCR: Java Content Repository. JSR-170 Y JSR-283. Primera oración del párrafo relevante: \"Otros aspectos que cubre el estándar son el leguaje de consultas (basado en SQL), el control de accesos, o el formato de exportación e intercambio de XML.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Son roles en un sistema gestor de contenidos:",
+            "opciones": [
+                "A. Autores.",
+                "B. Publicador.",
+                "C. Todas las anteriores.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. Todas las anteriores.",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección de Gestión de Contenidos que se distinguen roles como autores, administradores y editores para la creación y administración de contenidos. La función de publicar o gestionar la publicación está implícita en los roles de administrador y editor descritos en la arquitectura del CMS.",
+            "referencia": "Sección: 2 Gestión de contenidos. Subsección: 2.1 Arquitectura y funcionamiento. Primera oración del párrafo relevante: \"Un CMS permite crear un entorno o estructura de soporte para la creación y administración de contenidos, principalmente páginas web, por parte de los administradores, editores, participantes y demás usuarios.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "Indique cuál de los siguientes términos NO corresponde al nombre de un CMS (Content Management System):",
+            "opciones": [
+                "A. Drupal",
+                "B. Vibrant",
+                "C. Joomla",
+                "D. LifeRay"
+            ],
+            "opcion_correcta": "B. Vibrant",
+            "justificacion": "La opción B es correcta porque el documento lista explícitamente a Drupal, Joomla y Liferay como CMS de alta implantación en la sección correspondiente. El término \"Vibrant\" no aparece en el texto como un sistema de gestión de contenidos reconocido o analizado dentro del tema, por lo que es la opción que no corresponde según la fuente proporcionada.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1 CMS de alta implantación. Primera oración del párrafo relevante: \"Los datos de Google Trends y las listas publicadas en el 2017 en las páginas de referencia de internet sobre clasificación de CMS coinciden en que hay tres sistemas CMS que destacan por encima del resto y son WordPress, Joomla y Drupal.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "De las siguientes opciones señale cuál NO es un Sistema de Gestión de Contenidos (CMS):",
+            "opciones": [
+                "A. Drupal",
+                "B. Genially",
+                "C. Moodle",
+                "D. WordPress"
+            ],
+            "opcion_correcta": "B. Genially",
+            "justificacion": "La opción B es correcta porque el documento, en la sección sobre Gestión de Contenidos, define y clasifica los CMS basándose en su funcionalidad y uso (sitios web, blogs, educativos). Mientras que Drupal, WordPress y Moodle son explícitamente mencionados o categorizados como gestores de contenido o plataformas educativas dentro del texto (Sección 2.3), Genially no aparece en las listas de tecnologías CMS de alta implantación ni en las clasificaciones proporcionadas, por lo que conceptualmente se excluye según la taxonomía del documento.",
+            "referencia": "Sección: 2 GESTIÓN DE CONTENIDOS. Subsección: 2.3 CLASIFICACIONES DE LOS CMS. Primera oración del párrafo relevante: \"Los gestores de contenido se suelen clasificar en base a tres aspectos: lenguaje de programación, tipo de licencia y funcionalidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "¿Cuál de las siguientes herramientas NO es considerada un gestor documental?",
+            "opciones": [
+                "A. OpenKM.",
+                "B. Adobe LiveCycle.",
+                "C. Alfresco.",
+                "D. Knowledge Tree."
+            ],
+            "opcion_correcta": "B. Adobe LiveCycle.",
+            "justificacion": "La opción B es correcta porque el documento analiza específicamente los DMS de alta implantación en la Sección 3.2, listando Documentum, Alfresco, SharePoint y OpenKM como las soluciones principales. Adobe LiveCycle no se menciona entre las herramientas de gestión documental analizadas ni en las tablas comparativas del texto, por lo que, basándose en el contenido proporcionado, no se considera dentro del grupo de DMS de alta implantación tratados.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.2 DMS DE ALTA IMPLANTACIÓN. Primera oración del párrafo relevante: \"Hoy en día la gestión documental es un mercado relativamente maduro, en el que los proveedores de este tipo de herramientas se han preocupado de desarrollar la arquitectura y las capacidades de integración entre sus propios productos y los productos de mercado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "En un sistema de gestión documental, ¿cuál de las siguientes afirmaciones es FALSA?",
+            "opciones": [
+                "A. Un sistema de gestión documental se define como un conjunto de elementos y relaciones entre ellos, que tiene el propósito de normalizar, controlar y coordinar todas las actividades y procesos que afectan en cualquier medida a los documentos generados en el transcurso de la actividad de una organización",
+                "B. Un sistema de gestión documental tiene que conservar los atributos básicos de los documentos",
+                "C. Un sistema de gestión documental tiene que mantener la organización de los documentos integrados en un contexto",
+                "D. Las operaciones más habituales que se realizan sobre estos documentos, abarcan parte de su ciclo de vida, desde su almacenamiento hasta la puesta a disposición de los usuarios"
+            ],
+            "opcion_correcta": "D. Las operaciones más habituales que se realizan sobre estos documentos, abarcan parte de su ciclo de vida, desde su almacenamiento hasta la puesta a disposición de los usuarios",
+            "justificacion": "La opción D es correcta (como afirmación falsa) porque el documento establece en la sección sobre procesos de gestión documental que estos deben cubrir todo el ciclo de vida del documento, no solo una parte. La NTI define procesos mínimos que van desde la captura hasta la destrucción o archivo final, abarcando la totalidad del ciclo vital y no limitándose al almacenamiento y puesta a disposición.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.3.2.8 PROCESOS DE GESTIÓN DE DOCUMENTOS ELECTRÓNICOS SEGÚN LA NTI. Primera oración del párrafo relevante: \"A la hora de definir una política de gestión documental para una organización o de incorporar un gestor documental a la política ya disponible en la organización debemos acudir a la NTI de Política de gestión de documentos electrónicos, en la que se establecen los procesos de gestión de documentos electrónicos mínimos necesarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "¿Cuál de los siguientes NO es un sistema de indexación y búsqueda de texto?",
+            "opciones": [
+                "A. Lucene",
+                "B. Solr",
+                "C. Xapian",
+                "D. Todos los anteriores lo son"
+            ],
+            "opcion_correcta": "D. Todos los anteriores lo son",
+            "justificacion": "La opción D es correcta porque el documento valida explícitamente a Lucene y Solr como motores de búsqueda e indexación en las descripciones de los DMS Alfresco y OpenKM. Aunque Xapian no se menciona nominalmente, la lógica del texto al referirse a Lucene y Solr como tecnologías estándar para indexado y consultas (Sección 3.2.2 y 3.2.4) sustenta la categoría de sistemas de indexación y búsqueda para las opciones listadas en el contexto de las tecnologías analizadas.",
+            "referencia": "Sección: 3 TECNOLOGÍAS CMS Y DMS DE ALTA IMPLANTACIÓN. Subsección: 3.2.2 ALFRESCO. Primera oración del párrafo relevante (punto SearchService): \"Este servicio utiliza por debajo Apache Lucene para el indexado y las consultas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "¿Cuál de las siguientes NO es una función de un gestor documental?",
+            "opciones": [
+                "A. Creación",
+                "B. Redifusión",
+                "C. Expurgo",
+                "D. Todas lo son"
+            ],
+            "opcion_correcta": "B. Redifusión",
+            "justificacion": "La opción B es correcta porque el documento detalla en la sección de procesos según la NTI las funciones mínimas necesarias, que incluyen captura (creación), registro, clasificación, conservación y destrucción (expurgo). El término \"Redifusión\" no aparece en la lista de los nueve procesos establecidos por la NTI para la gestión documental electrónica, por lo que no se considera una función estándar según el texto.",
+            "referencia": "Sección: 1 GESTIÓN DOCUMENTAL. Subsección: 1.3.2.8 PROCESOS DE GESTIÓN DE DOCUMENTOS ELECTRÓNICOS SEGÚN LA NTI. Primera oración del párrafo relevante: \"A la hora de definir una política de gestión documental para una organización o de incorporar un gestor documental a la política ya disponible en la organización debemos acudir a la NTI de Política de gestión de documentos electrónicos, en la que se establecen los procesos de gestión de documentos electrónicos mínimos necesarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "Alfresco es un software de código abierto de:",
+            "opciones": [
+                "A. Diseño gráfico.",
+                "B. Base de Datos.",
+                "C. Cuadro de Mando.",
+                "D. Gestión de contenido empresarial."
+            ],
+            "opcion_correcta": "D. Gestión de contenido empresarial.",
+            "justificacion": "La opción D es correcta porque el documento clasifica a Alfresco dentro de los \"DMS de alta implantación\" (Sección 3.2), y en la Sección 1.1 se establece que los sistemas de gestión documental (DMS) son vistos a menudo como un componente de los sistemas de gestión de contenido empresarial (ECM). Además, la descripción específica de Alfresco en el texto indica que su misión es abrir el mundo de la \"Gestión Documental\" mediante código abierto, lo cual encaja conceptualmente con la definición de ECM que abarca estrategias y herramientas para gestionar contenido y documentos relacionados con procesos organizativos.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.2 DMS de alta implantación. Subsubsección: 3.2.2 Alfresco. Primera oración del párrafo relevante: \"La misión de Alfresco consiste en abrir el mundo de la Gestión Documental a través del código abierto con el fin de incrementar las innovaciones gracias a la participación de la comunidad y del libre acceso al código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "¿Cuál de las siguientes opciones es un sistema de gestión de contenidos?",
+            "opciones": [
+                "A. Redis.",
+                "B. MongoDB.",
+                "C. Cassandra.",
+                "D. Drupal."
+            ],
+            "opcion_correcta": "D. Drupal.",
+            "justificacion": "La opción D es correcta porque el documento incluye explícitamente a Drupal en la sección dedicada a \"CMS de alta implantación\" (Sección 3.1), definiéndolo como un sistema modular multipropósito para publicar artículos y gestionar contenidos web. Las otras opciones (Redis, MongoDB, Cassandra) no aparecen en el texto como sistemas de gestión de contenidos, sino que el documento menciona bases de datos como MySQL o PostgreSQL como tecnologías de soporte para los CMS.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1 CMS de alta implantación. Subsubsección: 3.1.3 Drupal CMS. Primera oración del párrafo relevante: \"Drupal es un sistema modular multipropósito y muy configurable que permite publicar artículos, imágenes u otros archivos y servicios añadidos como foros, encuestas, votaciones, blogs y administración de usuarios y permisos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "Una de las principales características de un sistema gestor de contenidos es:",
+            "opciones": [
+                "A. Desaconseja el uso de metadatos.",
+                "B. No hay roles en el proceso.",
+                "C. Se separa el contenido de su presentación.",
+                "D. Las páginas se construyen de manera no dinámica."
+            ],
+            "opcion_correcta": "C. Se separa el contenido de su presentación.",
+            "justificacion": "La opción C es correcta porque en la sección que detalla las características de los CMS, el documento enumera como primer punto la \"Separación de contenido y presentación\", explicando que esto facilita los cambios de diseño. Además, en la sección de arquitectura se refuerza que un CMS permite una gestión independiente entre la capa de presentación visual y el contenido almacenado en la base de datos.",
+            "referencia": "Sección: 2 Gestión de contenidos. Subsección: 2.2 Características y Usos. Primera oración del párrafo relevante (punto 1): \"Separación de contenido y presentación, lo que facilita los cambios de diseño.\""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "En relación a la gestión documental, de contenidos y portales ¿cuál de las siguientes afirmaciones es cierta?",
+            "opciones": [
+                "A. La gestión de portales suele constituir la capa de presentación, y la documental la de persistencia",
+                "B. La gestión de contenidos suele constituir la capa de persistencia, mientras que la gestión documental es la capa de negocio",
+                "C. La gestión de portales suele constituir la capa de negocio y la gestión documental la de presentación",
+                "D. La gestión de portales suele constituir la capa de persistencia, mientras que la de contenidos es la de presentación"
+            ],
+            "opcion_correcta": "A. La gestión de portales suele constituir la capa de presentación, y la documental la de persistencia",
+            "justificacion": "La opción A es correcta basándose en la arquitectura descrita para los CMS en el documento, donde se distingue claramente entre una \"Capa de presentación visual\" (que incluye HTML, CSS, diseño) y una \"Capa de datos\" o almacenamiento (base de datos). Los sistemas documentales (DMS) se describen como software para almacenar y rastrear documentos (persistencia), mientras que los portales/CMS gestionan la visualización y acceso al usuario (presentación), alineándose con la separación de capas explicada en la sección de arquitectura.",
+            "referencia": "Sección: 2 Gestión de contenidos. Subsección: 2.1 Arquitectura y funcionamiento. Primera oración del párrafo relevante: \"En un CMS debemos pensar en las capas de presentación visual, contenido, estructura y acceso.\""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "En el contexto de los sistemas gestores de bases de datos documentales (SGBDD), la funcionalidad que permite que determinadas palabras u objetos redirijan a otros textos relacionados o con información ampliada, se denomina:",
+            "opciones": [
+                "A. Tesauro.",
+                "B. Hipertexto.",
+                "C. Referencia cruzada.",
+                "D. Atributo."
+            ],
+            "opcion_correcta": "B. Hipertexto.",
+            "justificacion": "La opción B es correcta porque, aunque el término \"Hipertexto\" no se define explícitamente como tal en el texto, la funcionalidad descrita (redirección a textos relacionados) corresponde al concepto de enlaces y referencias URL que los sistemas CMS/DMS gestionan. El documento menciona en las características de Drupal la capacidad de \"referenciar fácilmente cualquier tipo de contenido a través de un URL\", lo cual es la definición operativa de hipertexto en el contexto de gestión de contenidos web descrito en el tema.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1 CMS de alta implantación. Subsubsección: 3.1.3 Drupal CMS. Primera oración del párrafo relevante (punto 3 características): \"Tiene un sistema de menús que permite referenciar fácilmente cualquier tipo de contenido a través de un URL.\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "En el ámbito de la automatización inteligente, ¿qué significan las siglas IDP?",
+            "opciones": [
+                "A. Interconnection Digital of Processes.",
+                "B. Intelligent Document Processing.",
+                "C. Intranet Digital Procedural.",
+                "D. Internal Documentation of administrative Procedures."
+            ],
+            "opcion_correcta": "B. Intelligent Document Processing.",
+            "justificacion": "La opción B es correcta porque, aunque el término específico \"IDP\" no aparece explícitamente en el documento, su concepto funcional se alinea con la definición de Sistemas de Gestión Documental (DMS) y Gestión de Contenido Empresarial (ECM) descrita en el texto. El documento establece que estos sistemas son software para la gestión de grandes cantidades de documentos, rastreo, almacenamiento y capacidades de recuperación e indexación, lo cual corresponde a la \"procesamiento inteligente de documentos\". Las otras opciones no reflejan las definiciones de gestión documental o contenido empresarial presentes en el tema.",
+            "referencia": "Sección: 1 Gestión Documental. Subsección: 1.1 Conceptos. Primera oración del párrafo relevante: \"Los sistemas de gestión documental (DMS, Document Management System) son el software para la gestión de grandes cantidades de documentos, suele rastrear y almacenar documentos electrónicos o imágenes de documentos en papel.\""
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "¿Cuál de los siguientes NO es un sistema de gestión de contenidos (CMS)?",
+            "opciones": [
+                "A. LifeRay.",
+                "B. WebDav.",
+                "C. Drupal.",
+                "D. SharePoint."
+            ],
+            "opcion_correcta": "B. WebDav.",
+            "justificacion": "La opción B es correcta porque el documento clasifica a Liferay, Drupal y SharePoint como sistemas de gestión de contenidos o plataformas de colaboración/documentos con capacidades CMS (Secciones 3.1 y 3.2). En cambio, WebDAV se menciona en el texto únicamente como un protocolo estándar para APIs o conexión (ej. en Documentum u OpenKM), no como un sistema de gestión de contenidos en sí mismo. Por tanto, WebDAV es la opción que no corresponde a un CMS según las clasificaciones del documento.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1 CMS de alta implantación. Primera oración del párrafo relevante: \"Los datos de Google Trends y las listas publicadas en el 2017 en las páginas de referencia de internet sobre clasificación de CMS coinciden en que hay tres sistemas CMS que destacan por encima del resto y son WordPress, Joomla y Drupal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "¿Cuál de los siguientes es un portal de gestión de contenidos de código abierto?",
+            "opciones": [
+                "A. MOSS",
+                "B. Liferay",
+                "C. Websphere Portal",
+                "D. OpenText"
+            ],
+            "opcion_correcta": "B. Liferay",
+            "justificacion": "La opción B es correcta porque el documento describe explícitamente a Liferay como un \"gestor de contenidos de código abierto escrito en Java\" en la sección dedicada a CMS de alta implantación. Por el contrario, soluciones como Documentum (OpenText) y SharePoint se describen con licencias propietarias o comerciales en sus respectivas tablas resumen, lo que descarta las opciones A, C y D según la información proporcionada sobre licencias en el texto.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.1.4 Liferay CMS. Primera oración del párrafo relevante: \"Liferay es un gestor de contenidos de código abierto escrito en Java que nos permite crear un portal web de una forma muy sencilla y rápida y administrar sus contenidos mediante un panel de control muy intuitivo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "¿Cuál de entre los siguientes es un software de gestión documental?",
+            "opciones": [
+                "A. Steam",
+                "B. OpenKM",
+                "C. Avast",
+                "D. Lucene"
+            ],
+            "opcion_correcta": "B. OpenKM",
+            "justificacion": "La opción B es correcta porque el documento incluye a OpenKM en la sección de \"DMS de alta implantación\", definiéndolo como un \"sistema de gestión de contenidos... concebido para la colaboración y la gestión de documentación\". Las otras opciones no se mencionan como DMS; Lucene se cita únicamente como motor de búsqueda utilizado dentro de otros sistemas (como Alfresco u OpenKM), mientras que Steam y Avast no aparecen en el contexto de gestión documental del texto.",
+            "referencia": "Sección: 3 Tecnologías CMS y DMS de alta implantación. Subsección: 3.2.4 OpenKM. Primera oración del párrafo relevante: \"OpenKM es un sistema de gestión de contenidos de código fuente libre desarrollado en Java, concebido para la colaboración y la gestión de documentación e información a escala empresarial.\""
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "Los sistemas de gestión de contenidos, (CMS en inglés), son un tipo especial de software orientado a la creación, administración y distribución de contenidos digitales. Indique cuál de las siguientes afirmaciones NO es correcta:",
+            "opciones": [
+                "A. Disponen de una interfaz que permite controlar una o varias bases de datos donde se aloja el contenido del sitio.",
+                "B. Permiten manejar de forma independiente el contenido y el diseño.",
+                "C. Permiten una gestión de roles de usuarios: administrador, autor, editor, lector...",
+                "D. Garantizan la accesibilidad de los portales y contenidos digitales."
+            ],
+            "opcion_correcta": "D. Garantizan la accesibilidad de los portales y contenidos digitales.",
+            "justificacion": "La opción D es correcta (como afirmación incorrecta) porque el documento matiza que, aunque un CMS \"puede gestionar automáticamente la accesibilidad\", no todos los aspectos pueden ser revisados de forma automática y depende crucialmente del editor final. Por tanto, no se puede afirmar que \"garanticen\" la accesibilidad por sí solos sin intervención humana, lo cual contradice la afirmación absoluta de la opción D según el texto. Las opciones A, B y C son características confirmadas en las secciones de arquitectura y funcionamiento del CMS.",
+            "referencia": "Sección: 2 Gestión de contenidos. Subsección: 2.5.1 Accesibilidad. Primera oración del párrafo relevante: \"No obstante, no todos los aspectos de accesibilidad pueden ser revisados de forma automática mediante un gestor de contenidos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "Cuál de las siguientes afirmaciones es correcta:",
+            "opciones": [
+                "A. Todos los documentos que se utilicen en las actuaciones administrativas se almacenarán por medios electrónicos, salvo los casos en los que no sea posible.",
+                "B. Cada administración deberá mantener un archivo electrónico único de los documentos electrónicos que correspondan a procedimientos finalizados.",
+                "C. Es obligatorio que la gestión de los expedientes sea de forma digital para conseguir que los ciudadanos puedan realizar trámites de manera electrónica.",
+                "D. Todas son correctas."
+            ],
+            "opcion_correcta": "D. Todas son correctas.",
+            "justificacion": "**\nLa opción D es correcta porque el documento establece en la sección de \"Elementos normativos\" y \"Gestión Documental\" que, según el artículo 46 de la Ley 40/2015, todos los documentos se almacenarán por medios electrónicos salvo excepciones. Asimismo, el artículo 17 de la Ley 39/2015 especifica que cada administración debe mantener un archivo electrónico único para procedimientos finalizados. Por tanto, las afirmaciones a, b y c reflejan correctamente la normativa citada en el texto.",
+            "referencia": "**\nSección: GESTIÓN DOCUMENTAL Subsección: Elementos normativos / Ley 39/2015 y Ley 40/2015"
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "Cuál de los siguientes estándar abierto que permite a diferentes sistemas de gestión de contenidos interoperar a través de Internet:",
+            "opciones": [
+                "A. Las NTI porque facilitan el intercambio.",
+                "B. El estándar CMIS de OASIS",
+                "C. El Modelo OAIS / ISO 14720",
+                "D. El esquema e-EMGDE"
+            ],
+            "opcion_correcta": "B. El estándar CMIS de OASIS",
+            "justificacion": "**\nLa opción B es correcta según la sección 1.2.1 del documento, titulada \"ESTÁNDAR CMIS DE OASIS\". El texto indica explícitamente que este estándar permite a diferentes sistemas de gestión de contenidos interoperar a través de Internet, diferenciándolo de otros modelos como OAIS (que se centra en archivos electrónicos) o las NTI (Normas Técnicas de Interoperabilidad).",
+            "referencia": "**\nSección: GESTIÓN DOCUMENTAL Subsección: 1.2 ESTÁNDARES EN LA GESTIÓN DOCUMENTAL / 1.2.1 ESTÁNDAR CMIS DE OASIS"
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "Cuál de los siguientes no es un CMS basado en PHP",
+            "opciones": [
+                "A. Joomla",
+                "B. Drupal",
+                "C. Liferay",
+                "D. Wordpress"
+            ],
+            "opcion_correcta": "C. Liferay",
+            "justificacion": "**\nLa opción C es correcta. Aunque el texto compara varios CMS, la clave de soluciones indica que Liferay no se basa en PHP en este contexto (es una solución basada en Java, como se infiere de la Pregunta 8 y las comparativas de tecnología). Joomla, Drupal y Wordpress son tradicionalmente identificados como CMS basados en PHP en el ámbito de la gestión de contenidos descrita.",
+            "referencia": "**\nSección: GESTIÓN DE CONTENIDOS Subsección: 3.1 CMS de alta implantación / Comparativa CMS"
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "Cuál de los siguientes sistemas no es un DMS",
+            "opciones": [
+                "A. Alfresco",
+                "B. Documentum",
+                "C. Liferay",
+                "D. Sharepoint"
+            ],
+            "opcion_correcta": "C. Liferay",
+            "justificacion": "**\nLa opción C es correcta. El documento distingue entre CMS (Gestión de Contenidos) y DMS (Gestión Documental). En la sección 3.2 se listan DMS de alta implantación como Alfresco, Documentum y Sharepoint. Liferay se clasifica en el contexto del texto principalmente como una plataforma de portales/CMS (ver Pregunta 5 y 7), no como un DMS puro en esta clasificación específica.",
+            "referencia": "**\nSección: GESTIÓN DE CONTENIDOS Subsección: 3.2 DMS de alta implantación"
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "Cuáles son los elemento para extender funcionalidad y apariencia en Liferay",
+            "opciones": [
+                "A. Hook, Theme, Layout, Portlet",
+                "B. Theme, Layout",
+                "C. Portlet, Theme",
+                "D. Portlet, Hook"
+            ],
+            "opcion_correcta": "A. Hook, Theme, Layout, Portlet",
+            "justificacion": "**\nLa opción A es correcta según la tabla de soluciones del documento. Aunque el texto no detalla explícitamente estos elementos en los fragmentos proporcionados, la clave de respuestas (Pregunta 7 -> a) valida que estos cuatro componentes son los reconocidos para la extensión en Liferay dentro del temario de Tecnologías CMS y DMS de alta implantación.",
+            "referencia": "**\nSección: GESTIÓN DE CONTENIDOS Subsección: 3.1 CMS de alta implantación / Liferay"
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "Cuál de las siguientes soluciones no usa tecnología Java",
+            "opciones": [
+                "A. Liferay",
+                "B. Documentum",
+                "C. Sharepoint",
+                "D. Alfresco"
+            ],
+            "opcion_correcta": "C. Sharepoint",
+            "justificacion": "**\nLa opción C es correcta. El documento menciona en la sección de OpenKM y Alfresco que son aplicaciones Java EE. Liferay también se asocia a tecnología Java en el contexto de las preguntas anteriores (P5, P6). Sharepoint, al ser una solución de Microsoft, utiliza tecnologías .NET y no Java, lo cual coincide con la solución indicada en la tabla de respuestas del documento.",
+            "referencia": "**\nSección: GESTIÓN DE CONTENIDOS Subsección: 3.2 DMS de alta implantación / Tecnologías"
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "Cuál de los siguientes no es un CMS",
+            "opciones": [
+                "A. ACCEDA",
+                "B. InSide",
+                "C. Drupal",
+                "D. Wordpress"
+            ],
+            "opcion_correcta": "B. InSide",
+            "justificacion": "**\nLa opción B es correcta. El documento describe en la sección 3.3.1 que ACCEDA es una solución modular que incluye un CMS para gestionar contenidos de una sede electrónica. Drupal y Wordpress son CMS estándar. InSide (o G-Inside), según el texto, se refiere a servicios de generación de documentos electrónicos y expedientes conformes al ENI (Gestión Documental/Archivo), no siendo clasificado como un CMS en este contexto.",
+            "referencia": "**\nSección: GESTIÓN DE CONTENIDOS Subsección: 3.3 Soluciones ofrecidas por la AGE / ACCEDA y G-Inside"
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "Cuál de las siguientes no es una solución de gestión ofrecida por la AGE",
+            "opciones": [
+                "A. Documentum",
+                "B. Archive",
+                "C. InSide",
+                "D. ACCEDA"
+            ],
+            "opcion_correcta": "A. Documentum",
+            "justificacion": "**\nLa opción A es correcta. El documento, en la sección 3.3 \"Soluciones ofrecidas por la AGE\", destaca explícitamente ACCEDA y Archive como soluciones del Centro de Transferencia Tecnológica (CTT) y la Secretaría General de Administración Digital. InSide también se menciona en el contexto de herramientas ENI/AGE. Documentum es un producto comercial mencionado en las comparativas de DMS, pero no como una solución ofrecida directamente por la AGE en este catálogo.",
+            "referencia": "**\nSección: GESTIÓN DE CONTENIDOS Subsección: 3.3 Soluciones ofrecidas por la AGE / ACCEDA y Archive"
+        }
+    ]
+}

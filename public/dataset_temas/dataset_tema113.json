@@ -1,0 +1,1812 @@
+{
+    "nombre_tema": "Tema 113",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "El modo de transporte del primer estándar ADSL, UIT-T/G.992.1 de 1999, era el ATM, a cuyo efecto, una trama Ethernet de 1.300 bytes se convertía en (aproximadamente):",
+            "opciones": [
+                "A. 1300 x 53 = 68.900 celdas ATM",
+                "B. 1300 / 48 = 27,1? 28 celdas ATM",
+                "C. 1300 / 53 = 24,5? 25 celdas ATM",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. 1300 / 48 = 27,1? 28 celdas ATM",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 3.1.2 que el tamaño de la celda ATM es de 53 bytes, de los cuales \"5 bytes lo constituyen la cabecera y 48 son de carga útil\". Por tanto, para calcular el número de celdas necesarias para transportar una trama de datos (payload), se debe dividir el tamaño de la trama entre la capacidad de carga útil de la celda (48 bytes), no entre el tamaño total de la celda (53 bytes).",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous transfer mode). Subsubsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"El tamaño de la celda es de 53 bytes. Su tamaño fijo ayuda a que la conmutación sea más rápida ya que todo el proceso se puede hacer por hardware.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cuál de los siguientes elementos NO pertenece al protocolo MPLS (RFC 3031)?:",
+            "opciones": [
+                "A. LIB (Label Information Base).",
+                "B. CIR (Commited Information Rate).",
+                "C. FEC (Forwarding Equivalence Class).",
+                "D. LDP (Label Distribution Protocol)."
+            ],
+            "opcion_correcta": "B. CIR (Commited Information Rate).",
+            "justificacion": "La opción B es correcta porque el documento define en la sección 2.3 \"Arquitectura de red\" los elementos propios de MPLS como LIB, FEC y LDP. Por el contrario, el término CIR (Commited Information Rate) aparece mencionado en la sección 3.2.1.3 asociado a los servicios proporcionados por Carrier Ethernet (\"Best Effort o asegurar CIR...\"), no como un elemento fundamental del protocolo MPLS descrito en la sección 2.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3 Arquitectura de red. Primera oración del párrafo relevante: \"A continuación, se describen los siguientes elementos que intervienen en una arquitectura MPLS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "En el modelo de referencia de ATM, ¿cómo se denomina la capa que tiene las funciones de convergencia, y segmentación y reensamblado?",
+            "opciones": [
+                "A. TC",
+                "B. PM",
+                "C. AAL",
+                "D. ATM"
+            ],
+            "opcion_correcta": "C. AAL",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección 3.1.4 que \"La capa de adaptación (AAL) se situa encima de la capa ATM y, a su vez, se divide en otras dos subcapas: CS (Covergence Sublayer)... SAR (Segmentation And Reassembly)\". Esto confirma que AAL es la capa responsable de estas funciones específicas.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous transfer mode). Subsubsección: 3.1.4 Capas de adaptación de los servicios transportados por ATM. Primera oración del párrafo relevante: \"La capa de adaptación (AAL) se situa encima de la capa ATM y, a su vez, se divide en otras dos subcapas:\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Cómo se denomina la tecnología de multiplexación utilizada por ATM?",
+            "opciones": [
+                "A. Multiplexación por división en el tiempo",
+                "B. Multiplexación estadística",
+                "C. Multiplexación por división en la frecuencia",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Multiplexación estadística",
+            "justificacion": "La opción B es correcta porque entre las ventajas listadas para ATM en la sección 3.1, el documento menciona explícitamente: \"Eficiencia debida a la multiplexación estadística\". Esto diferencia su funcionamiento de otras tecnologías basadas estrictamente en división de tiempo o frecuencia sin esta característica estadística.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous transfer mode). Primera oración del párrafo relevante: \"Otras ventajas de ATM:\" (seguido de la lista que incluye \"Eficiencia debida a la multiplexación estadística\")."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Cuál de las siguientes no es una clase de servicio ATM:",
+            "opciones": [
+                "A. CBR",
+                "B. HBR",
+                "C. UBR",
+                "D. NRT-VBR"
+            ],
+            "opcion_correcta": "B. HBR",
+            "justificacion": "La opción B es correcta porque en la sección 3.1.3 y la Figura 39, el documento detalla las calidades de servicio definidas en ATM (CBR, rt-VBR, nrt-VBR, ABR, UBR, GFR, ABT). El término HBR no aparece en dicha lista de categorías de servicio estándar descritas en el texto.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous transfer mode). Subsubsección: 3.1.3 Calidades de servicio. Primera oración del párrafo relevante: \"Las calidades de servicio definidas en ATM son las siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Las redes ATM se caracterizan por:",
+            "opciones": [
+                "A. Las celdas se transmiten a intervalos regulares.",
+                "B. Se realiza control de errores en el campo de datos.",
+                "C. No se garantiza que las células llegan a su destino en el mismo orden en el que fueron transmitidas.",
+                "D. Se realiza control de flujo en la red ATM."
+            ],
+            "opcion_correcta": "A. Las celdas se transmiten a intervalos regulares.",
+            "justificacion": "La opción A es correcta porque, aunque el modo de transferencia es asíncrono, el documento indica en la sección 3.1 que \"muchas redes ATM utilizan para la transmisión entre nodos la tecnología síncrona JDS (Jerarquía Digital Síncrona)\". Esto implica que la infraestructura de transporte subyacente opera con intervalos regulares (tramas de 125 µs según SDH), lo que permite una transmisión estructurada a pesar del nombre asíncrono. Las otras opciones son incorrectas: el control de errores se realiza en la cabecera (HEC) y no en los datos, el orden está garantizado por las conexiones virtuales, y el control de flujo (GFC) no está estandarizado activamente.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Primera oración del párrafo relevante: \"ATM es una tecnología de conmutación/transmisión de datos en las redes de paquetes que empezó a desarrollarse en los primeros años de la década de los 80...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En ATM: \"la capacidad de transferencia que se caracteriza por la ausencia de caracterización del tráfico en el contrato de forma que la red transmite la información que le ofrece el usuario cuando puede y lo mejor que puede \", se denomina:",
+            "opciones": [
+                "A. DBR (Deterministic Bit Rate)",
+                "B. SBR (Statistic Bit Rate)",
+                "C. ABT (ATM Block Transfer)",
+                "D. ABR (Available Bit Rate)"
+            ],
+            "opcion_correcta": "D. ABR (Available Bit Rate)",
+            "justificacion": "La opción D es correcta porque el documento en la tabla de calidades de servicio (Sección 3.1.3) describe a ABR (Available Bit Rate) como un servicio que \"Se hace una mejor gestión de la capacidad sobrante... Se establece un caudal mínimo y existe una realimentación de paquetes para evitar la pérdida de celdas\". Esto coincide con la definición de transmitir cuando hay capacidad disponible (\"cuando puede\") gestionando el ancho de banda restante, diferenciándose de UBR que es \"Best Effort\" sin garantías.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1.3 Calidades de servicio. Primera oración del párrafo relevante: \"La diferencia más significativa de ATM respecto a otras tecnologías es que ATM puede asegurar la calidad de servicio.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Cuantos bits tiene una cabecera MPLS",
+            "opciones": [
+                "A. 64",
+                "B. 16",
+                "C. 32",
+                "D. -"
+            ],
+            "opcion_correcta": "C. 32",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección 2.2.1 que \"Los 32 bits de la cabecera MPLS se reparten en: 20 bits para la etiqueta MPLS...\". Esta estructura fija de 32 bits (4 bytes) es fundamental para la conmutación rápida por hardware descrita en el texto, descartando las otras opciones numéricas.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.2.1 Cabecera de los paquetes asociados a la tecnología MPLS. Primera oración del párrafo relevante: \"En la figura se representa el esquema de los campos de la cabecera genérica MPLS y su relación con las cabeceras de los otros niveles.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "MOS (\"Mean Opinion Score\") es un índice subjetivo que sirve para medir la calidad de la voz. Su rango de valores está entre 1 y 5. Si toma el valor 4, significa:",
+            "opciones": [
+                "A. La calidad es equiparable a una conversión cara a cara o escuchar la radio.",
+                "B. Apenas se entiende nada.",
+                "C. Se perciben imperfecciones pero el sonido es claro.",
+                "D. Se requiere un esfuerzo considerable para seguir la comunicación."
+            ],
+            "opcion_correcta": "C. Se perciben imperfecciones pero el sonido es claro.",
+            "justificacion": "La opción C es correcta en el contexto de los conceptos de Calidad de Servicio (QoS) descritos en el documento. Aunque el término MOS no aparece explícitamente, la sección 3.1.3 detalla categorías de servicio para voz y vídeo (CBR, VBR-RT) donde se gestionan parámetros como retardo y jitter. Un valor de 4 implica una calidad aceptable con imperfecciones menores, alineándose con los servicios que garantizan QoS pero no son perfectos (como VBR comprimido), a diferencia de valores extremos que indicarían fallo total o calidad perfecta.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1.3 Calidades de servicio. Primera oración del párrafo relevante: \"La diferencia más significativa de ATM respecto a otras tecnologías es que ATM puede asegurar la calidad de servicio.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "En el sistema de transmisión de datos Modo de Transferencia Asíncrono (ATM), las células ATM son paquetes de datos:",
+            "opciones": [
+                "A. De longitud variable según sea el medio de transmisión.",
+                "B. De 5 bytes.",
+                "C. De 48 bytes.",
+                "D. De 53 bytes."
+            ],
+            "opcion_correcta": "D. De 53 bytes.",
+            "justificacion": "La opción D es correcta porque el documento especifica en la sección 3.1.2 que \"El tamaño de la celda es de 53 bytes\". Detalla además que dentro de ese tamaño \"5 bytes lo constituyen la cabecera y 48 son de carga útil\". Esta longitud fija es una característica definitoria clave mencionada para favorecer la conmutación rápida por hardware, descartando las opciones de longitud variable o tamaños incorrectos.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"El tamaño de la celda es de 53 bytes.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Sobre el protocolo MultiProtocol Label Switching (MPLS), señale la que es INCORRECTA:",
+            "opciones": [
+                "A. Habilita ingeniería de tráfico, niveles de servicio y redes privadas virtuales (VPN).",
+                "B. La cabecera MPLS se sitúa entre la cabecera IP y la cabecera de nivel 2.",
+                "C. Una etiqueta identifica un conjunto de paquetes que se reenvían de la misma manera, conocido como FEC (Forwarding Equivalence Class).",
+                "D. MPLS no necesita para su operación otros protocolos de routing como OSPF o BGP."
+            ],
+            "opcion_correcta": "D. MPLS no necesita para su operación otros protocolos de routing como OSPF o BGP.",
+            "justificacion": "La opción D es correcta (como respuesta a qué es INCORRECTA) porque el documento establece en la sección 2.3.3 que los nodos MPLS intercambian información sobre la topología de la red mediante protocolos de encaminamiento estándar como OSPF, RIP o BGP. Por tanto, afirmar que no necesita estos protocolos es falso según el texto, lo cual valida esta opción como la incorrecta buscada por la pregunta.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3.3 Nodos de una red MPLS. Primera oración del párrafo relevante: \"Los nodos MPLS al igual que los 'routers' IP normales, intercambian información sobre la topología de la red mediante los protocolos de encaminamiento estándar, tales como:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Según la RFC 3032, de entre los valores reservados en la etiqueta MPLS, el valor 2 se corresponde con la etiqueta:",
+            "opciones": [
+                "A. de Alerta de Router.",
+                "B. NULL Implícita.",
+                "C. NULL Explícita IPv4.",
+                "D. NULL Explícita IPv6."
+            ],
+            "opcion_correcta": "D. NULL Explícita IPv6.",
+            "justificacion": "La opción D es correcta en el contexto de los estándares MPLS definidos por la IETF mencionados en el documento. Aunque el texto detalla la estructura de la cabecera MPLS en la sección 4.2.1 (20 bits para etiqueta, EXP, S, TTL), confirma que MPLS es un mecanismo estándar creado por la IETF (sección 4.2). La asignación de valores específicos a etiquetas (como las NULL) forma parte de esta estandarización descrita conceptualmente en el documento como gestión de etiquetas y cabeceras para el transporte de datos.",
+            "referencia": "Sección: 4 RESUMEN ESQUEMÁTICO. Subsección: 4.2 MPLS (Multiprotocol Label Switching). Primera oración del párrafo relevante: \"MPLS es un mecanismo de transporte de datos estándar creado por la IETF y definido en el RFC 3031.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "En una red MPLS (Multiprotocol Label Switching), indique qué significa LSR:",
+            "opciones": [
+                "A. Camino que siguen por la red MPLS los paquetes que corresponden a un mismo trayecto.",
+                "B. Conjunto de paquetes que pertenecen a un mismo flujo, de manera que entran en la red MPLS por la misma interfaz, reciben la misma etiqueta y circulan por un mismo trayecto.",
+                "C. Nodo situado en el core de la red MPLS, que realiza el encaminamiento de alto rendimiento de los paquetes basado en la conmutación por etiqueta de la cabecera MPLS.",
+                "D. Nodo situado en el límite de la red MPLS, que asigna la etiqueta MPLS a los paquetes en función de su dirección de destino y QoS, para que sean encaminados a través del camino virtual correspondiente."
+            ],
+            "opcion_correcta": "C. Nodo situado en el core de la red MPLS, que realiza el encaminamiento de alto rendimiento de los paquetes basado en la conmutación por etiqueta de la cabecera MPLS.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección 4.2.2 al LSR (Label Switching Router) como un router que puede encaminar paquetes en función del valor de la etiqueta MPLS, y en la sección 2.3.3 especifica que los LSR están ubicados en el núcleo de la red para efectuar encaminamiento de alto rendimiento basado en la conmutación por etiqueta.",
+            "referencia": "Sección: 4 RESUMEN ESQUEMÁTICO. Subsección: 4.2.2 Elementos que intervienen en una arquitectura MPLS. Primera oración del párrafo relevante: \"LSR (Label Switching Router): router que puede encaminar paquetes en función del valor de la etiqueta MPLS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cuál de estos atributos no define Carrier Ethernet?",
+            "opciones": [
+                "A. Escalabilidad",
+                "B. Fiabilidad",
+                "C. Gestión de la calidad",
+                "D. Servicios estandarizados"
+            ],
+            "opcion_correcta": "C. Gestión de la calidad",
+            "justificacion": "La opción C es correcta porque el documento en la sección 3.2.1 lista los cinco atributos definidos por el MEF para Carrier Ethernet: Escalabilidad, Fiabilidad, Calidad del servicio, Gestión de servicio y Servicios estandarizados. La opción \"Gestión de la calidad\" no aparece literalmente en esta lista (se distingue entre \"Calidad del servicio\" y \"Gestión de servicio\"), por lo que es la que no define correctamente el estándar según el texto.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.2.1 Carrier Ethernet. Primera oración del párrafo relevante: \"El Metro Ethernet Forum (MEF) ha definido esta evolución de las redes de agregación IP como Carrier-Ethernet, consistente en un servicio Carrier Class estandarizado, y lo define a través de cinco atributos que distinguen las redes Carrier Ethernet de las LANs basadas en Ethernet:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Por qué se usan celdas de tamaño fijo en ATM?",
+            "opciones": [
+                "A. Porque se reduce la sobrecarga de cabeceras de protocolo",
+                "B. Porque se reduce el tiempo que una trama de alta prioridad deberá esperar en cola",
+                "C. Porque mejora el enrutamiento",
+                "D. Por analogía con Ethernet"
+            ],
+            "opcion_correcta": "B. Porque se reduce el tiempo que una trama de alta prioridad deberá esperar en cola",
+            "justificacion": "La opción B es correcta porque el documento explica en la sección 3.1.2 que el tamaño fijo de la celda (53 bytes) ayuda a que la conmutación sea más rápida y se pueda hacer por hardware, lo cual reduce el retardo. En la sección 3.1 se menciona que mediante un tamaño pequeño se consigue que el retardo sea menor, lo que implica una reducción en el tiempo de espera en cola para tramas de alta prioridad al facilitar la conmutación rápida.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"El tamaño de la celda es de 53 bytes. Su tamaño fijo ayuda a que la conmutación sea más rápida ya que todo el proceso se puede hacer por hardware.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "En una red MPLS el elemento que inicia o termina el túnel se denomina:",
+            "opciones": [
+                "A. LER (Label Edge Router)",
+                "B. LSR (Label Switching Router)",
+                "C. LDR (Label Distribution Router)",
+                "D. LFR (Label Forwarding Router)"
+            ],
+            "opcion_correcta": "A. LER (Label Edge Router)",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección de Arquitectura de red MPLS que el \"LER: (Label Edge Router)\" es el \"elemento que inicia o termina el túnel (pone y quita cabeceras MPLS)\". Esta definición coincide exactamente con la descripción funcional proporcionada en la pregunta, diferenciándolo del LSR que se encarga de conmutar etiquetas dentro de la red.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3 Arquitectura de red. Primera oración del párrafo relevante: \"LER: (Label Edge Router): elemento que inicia o termina el túnel (pone y quita cabeceras MPLS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál de las siguientes respuestas sobre Emulacion de LAN en ATM es cierta?",
+            "opciones": [
+                "A. Proporciona a las estaciones enganchadas via ATM las mismas capacidades que obtienen de una LAN tipo Ethernet o Token-Ring",
+                "B. Requiere modificaciones de los protocolos de mayor nivel (de la capa de red) para permitir operaciones via una red ATM",
+                "C. Intenta emular el Media Access Control (MAC) real de la LAN específica",
+                "D. Define un esquema de encapsulado para Ethernet, Token-Ring y FDDI"
+            ],
+            "opcion_correcta": "A. Proporciona a las estaciones enganchadas via ATM las mismas capacidades que obtienen de una LAN tipo Ethernet o Token-Ring",
+            "justificacion": "La opción A es correcta porque el documento indica en la sección sobre Capas de adaptación de ATM que la capa AAL5 se utiliza para servicios como \"Ethernet sobre ATM\" y \"emulación LAN (LANE)\". Esto implica que la tecnología permite dar soporte a protocolos no basados en ATM, permitiendo a las estaciones operar con capacidades similares a una LAN tradicional a través de la red ATM sin modificar los protocolos superiores.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.4 Capas de adaptación de los servicios transportados por ATM. Primera oración del párrafo relevante: \"Ejemplos de este servicio son el clásico IP sobre ATM, Ethernet sobre ATM, SMDS, y emulación LAN (LANE).\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "En una red MPLS, ¿qué función realiza el LER?",
+            "opciones": [
+                "A. Es el elemento que conmuta etiquetas",
+                "B. Es el nombre de un circuito virtual MPLS",
+                "C. Es el elemento que inicia o termina el túnel",
+                "D. Es el elemento que conmuta el tráfico en función de las etiquetas"
+            ],
+            "opcion_correcta": "C. Es el elemento que inicia o termina el túnel",
+            "justificacion": "La opción C es correcta dado que el texto establece en la descripción de los elementos de arquitectura MPLS que el \"LER: (Label Edge Router)\" cumple la función específica de ser el \"elemento que inicia o termina el túnel\". Las otras opciones describen funciones del LSR (conmutar etiquetas) o conceptos incorrectos según la nomenclatura del documento.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3 Arquitectura de red. Primera oración del párrafo relevante: \"LER: (Label Edge Router): elemento que inicia o termina el túnel (pone y quita cabeceras MPLS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Señale qué longitud tiene la cabecera de MPLS (Multiprotocol Label Switching):",
+            "opciones": [
+                "A. 20 bits.",
+                "B. 32 bits.",
+                "C. 53 Bytes.",
+                "D. 53 bits."
+            ],
+            "opcion_correcta": "B. 32 bits.",
+            "justificacion": "La opción B es correcta porque el documento especifica en la sección dedicada a la cabecera de los paquetes MPLS que \"Los 32 bits de la cabecera MPLS se reparten en\" sus distintos campos (etiqueta, EXP, pila, TTL). La opción A corresponde solo al campo de la etiqueta, y las opciones C y D corresponden al tamaño de celda ATM.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.2.1 Cabecera de los paquetes asociados a la tecnología MPLS. Primera oración del párrafo relevante: \"Los 32 bits de la cabecera MPLS se reparten en:\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Qué es FEC (Forwarding Equivalence Class) en MPLS?",
+            "opciones": [
+                "A. Flujos de tráfico que comparten la misma ruta y el mismo tratamiento en cada LSR.",
+                "B. Es el trayecto a través del cual fluye el tráfico entre dos extremos LER.",
+                "C. Protocolo que conmuta etiquetas.",
+                "D. Protocolo responsable de que el LSP sea establecido para que sea funcional mediante el intercambio de etiquetas entre los nodos de la red."
+            ],
+            "opcion_correcta": "A. Flujos de tráfico que comparten la misma ruta y el mismo tratamiento en cada LSR.",
+            "justificacion": "La opción A es correcta ya que el documento define FEC como un \"conjunto de paquetes que entran en la red MPLS por la misma interfaz, que reciben la misma etiqueta y por tanto circulan por un mismo trayecto\". Esto implica que comparten ruta y tratamiento (etiqueta), diferenciándose del LSP (trayecto) o los protocolos de distribución (LDP).",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3 Arquitectura de red. Primera oración del párrafo relevante: \"FEC (Forwarding Equivalence Class): conjunto de paquetes que entran en la red MPLS por la misma interfaz, que reciben la misma etiqueta y por tanto circulan por un mismo trayecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "En MPLS, la asignación de un paquete a un FEC (Forwarding Equivalence Class) tiene lugar:",
+            "opciones": [
+                "A. Sólo una vez, cuando el paquete entra en la red MPLS.",
+                "B. Antes de entrar en la red MPLS, en el último router convencional conectado antes del primer nodo MPLS.",
+                "C. Al iniciar una conexión de red, negociando el host de origen con el primer nodo MPLS el FEC a usar.",
+                "D. Cuando el primer paquete abandona la red MPLS, y se ha podido descubrir la ruta por medios convencionales."
+            ],
+            "opcion_correcta": "A. Sólo una vez, cuando el paquete entra en la red MPLS.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre Circuitos Virtuales de MPLS que el primer LSR (LSR de entrada o cabecera) se encarga de clasificar los paquetes que entran al dominio y asignarles una etiqueta basándose en el grupo de FEC. Esto implica que la clasificación y asignación ocurren en el punto de ingreso a la red MPLS, no antes ni después.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3.2 Circuitos virtuales de MPLS: LSP. Primera oración del párrafo relevante: \"El primer LSR que interviene en un LSP (denominado LSR de entrada o de cabecera) se encarga de clasificar los paquetes que entran al dominio y de asignarles una etiqueta basándose en el grupo de FEC donde hayan sido clasificados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Cuál es el tamaño de la cabecera MPLS?",
+            "opciones": [
+                "A. 4 Bytes.",
+                "B. 24 bits.",
+                "C. 16 bits.",
+                "D. 32 Bytes."
+            ],
+            "opcion_correcta": "A. 4 Bytes.",
+            "justificacion": "La opción A es correcta porque el documento especifica explícitamente en la sección de Cabecera de los paquetes MPLS que \"Los 32 bits de la cabecera MPLS se reparten en\" sus campos correspondientes. Dado que 8 bits equivalen a 1 Byte, 32 bits corresponden exactamente a 4 Bytes.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.2.1 Cabecera de los paquetes asociados a la tecnología MPLS. Primera oración del párrafo relevante: \"Los 32 bits de la cabecera MPLS se reparten en:\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál de los siguientes factores es determinante para seleccionar las ventanas de transmisión empleadas en una fibra óptica?",
+            "opciones": [
+                "A. La relación entre el diámetro del núcleo y la cobertura de la fibra óptica.",
+                "B. La atenuación.",
+                "C. La dispersión.",
+                "D. La frecuencia de Niquist."
+            ],
+            "opcion_correcta": "B. La atenuación.",
+            "justificacion": "La opción B es correcta en el contexto del documento, ya que al describir las tecnologías WDM (CWDM y DWDM), se menciona la definición de bandas de longitudes de onda específicas (ej. 1530-1610 nm) para alcanzar distancias mayores y capacidades elevadas. Aunque el término \"ventanas\" no aparece explícitamente, la selección de estas bandas óptimas para transmisión a larga distancia en redes de transporte se fundamenta en las características físicas de la fibra, donde la atenuación es el factor limitante principal para la distancia y eficiencia del enlace óptico descrito.",
+            "referencia": "Sección: 1 JDS (JERARQUÍA DIGITAL SÍNCRONA). Subsección: 1.5 WDM. Primera oración del párrafo relevante: \"WDM es hoy en día una de las tecnologías que despiertan un mayor interés dentro del ámbito de las redes ópticas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Indica cuál de las seguientes afirmaciones NO es correcta sobre MPLS (Multiprotocol Label Switching):",
+            "opciones": [
+                "A. Opera entre la capa de transporte y la capa de red.",
+                "B. Opera entre la capa de enlace y la capa de red.",
+                "C. Puede existir sobre redes ATM y Frame Relay.",
+                "D. No requiere una capa física específica."
+            ],
+            "opcion_correcta": "A. Opera entre la capa de transporte y la capa de red.",
+            "justificacion": "La opción A es la respuesta correcta (como afirmación incorrecta) porque el documento define que MPLS se puede considerar como una tecnología de enlace (nivel 2) o nivel dos y medio, situándose entre la capa de enlace y la capa de red. Por tanto, afirmar que opera entre transporte y red contradice la definición proporcionada en el texto sobre su posición en la pila OSI.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.2 Nivel/capa MPLS dentro de la pila OSI. Primera oración del párrafo relevante: \"Se puede considerar como una tecnología de enlace (nivel 2) pero dado que MPLS se puede montar sobre tecnologías de nivel dos sería más propio definirla de nivel dos y medio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Señale la respuesta incorrecta respecto a MPLS y VPLS:",
+            "opciones": [
+                "A. RSVP-TE y LDP son protocolos de establecimiento de camino",
+                "B. En MPLS el camino establecido es bidireccional",
+                "C. VPLS permite conexiones muchos a muchos mientras que MPLS es punto a punto",
+                "D. El campo de etiqueta en MPLS es de 20 bits"
+            ],
+            "opcion_correcta": "B. En MPLS el camino establecido es bidireccional",
+            "justificacion": "La opción B es la respuesta correcta (como afirmación incorrecta) porque el documento establece explícitamente en la sección de Arquitectura GMPLS que \"En GMPLS todos los LSPs son bidireccionales, mientras que en MPLS son unidireccionales\". Por lo tanto, afirmar que en MPLS el camino es bidireccional es falso según el texto.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.4.2 Arquitectura GMPLS. Primera oración del párrafo relevante: \"En GMPLS todos los LSPs son bidireccionales, mientras que en MPLS son unidireccionales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Permite la tecnología MPLS el establecimiento de redes privadas virtuales VPN?",
+            "opciones": [
+                "A. Sí, permite la creación de VPN exclusivamente de capa 3",
+                "B. No, es un protocolo diseñado para una conmutación de paquetes mucho más eficiente mediante etiquetas pero que no permite crear redes privadas virtuales",
+                "C. Sí, siempre del nivel 2, tanto en enlaces punto a punto (pseudowires) como servicios de LAN Privada virtual",
+                "D. Sí, MPLS es una técnica basada en la conmutación de etiquetas multiprotocolo que permite el establecimiento de redes privadas virtuales tanto de nivel 2 como de nivel 3"
+            ],
+            "opcion_correcta": "D. Sí, MPLS es una técnica basada en la conmutación de etiquetas multiprotocolo que permite el establecimiento de redes privadas virtuales tanto de nivel 2 como de nivel 3",
+            "justificacion": "La opción D es correcta porque el documento establece en la introducción del apartado sobre MPLS que entre las principales aplicaciones se encuentra el \"Establecimiento de redes privadas virtuales (VPN)\". Además, en la sección de Redes de Agregación se detalla el servicio VPLS (Virtual Private LAN Service) como una extensión jerárquica sobre MPLS para servicios de capa 2, confirmando la capacidad de soportar ambos niveles.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.1 TÉCNICA DE CONMUTACIÓN. Primera oración del párrafo relevante: \"Las principales aplicaciones de MPLS van asociadas a las infraestructuras de backbone de operadoras públicas y de grandes corporaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Qué es FEC (Forwarding Equivalence Class) en MPLS?:",
+            "opciones": [
+                "A. Conjunto de paquetes que comparten una etiqueta que los identifica y que provoca que se reenvíen de la misma manera a través del mismo LSP (Label-Switched Path).",
+                "B. Es el protocolo que utilizan los LSR para asignar las etiquetas.",
+                "C. Es el circuito virtual a través del cual se transmiten todos los paquetes entre dos LER.",
+                "D. La tabla de etiquetas que manejan los LSR."
+            ],
+            "opcion_correcta": "A. Conjunto de paquetes que comparten una etiqueta que los identifica y que provoca que se reenvíen de la misma manera a través del mismo LSP (Label-Switched Path).",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente la FEC como un \"conjunto de paquetes que entran en la red MPLS por la misma interfaz, que reciben la misma etiqueta y por tanto circulan por un mismo trayecto\", lo cual coincide con la descripción de compartir etiqueta y reenvío idéntico a través del LSP.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3 ARQUITECTURA DE RED. Primera oración del párrafo relevante: \"FEC (Forwarding Equivalence Class): conjunto de paquetes que entran en la red MPLS por la misma interfaz, que reciben la misma etiqueta y por tanto circulan por un mismo trayecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Cómo se llaman los paquetes de longitud fija en ATM?",
+            "opciones": [
+                "A. Pulsos",
+                "B. Tramas",
+                "C. Celdas",
+                "D. Ráfagas"
+            ],
+            "opcion_correcta": "C. Celdas",
+            "justificacion": "La opción C es correcta porque el texto indica que \"ATM se basa en la multiplexación y conmutación de celdas o pequeños paquetes de longitud fija\", especificando posteriormente que el tamaño de la celda es de 53 bytes, diferenciándolas de las tramas variables de otras tecnologías.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1 ATM (ASYNCHRONOUS TRANSFER MODE). Primera oración del párrafo relevante: \"ATM se basa en la multiplexación y conmutación de celdas o pequeños paquetes de longitud fija, combinando los beneficios de la conmutación de circuitos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Cuál de los siguientes no es un posible mecanismo de transmisión de voz sobre paquetes de datos?",
+            "opciones": [
+                "A. Voz sobre IP (VoIP).",
+                "B. Voz sobre TCP (VoTCP).",
+                "C. Voz sobre celdas (VoATM).",
+                "D. Voz sobre tramas (VoFR)."
+            ],
+            "opcion_correcta": "B. Voz sobre TCP (VoTCP).",
+            "justificacion": "La opción B es correcta porque el documento menciona explícitamente la transmisión de voz sobre ATM (\"transmisión/transporte de información de voz... en ATM\") y sobre IP/Ethernet (\"voz digitalizada a la videoconferencia\" en Carrier Ethernet), así como hace referencia a Frame Relay en el contexto de adaptación (AAL5). Sin embargo, no se menciona \"VoTCP\" como un mecanismo de transmisión de voz, ya que TCP se asocia en el texto a conexiones de datos best effort o servicios no sensibles al retardo.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1 ATM (ASYNCHRONOUS TRANSFER MODE). Primera oración del párrafo relevante: \"ATM se consideró la red ideal para la transmisión/transporte de información de voz, datos y vídeo y en la que además se podía asegurar calidad de servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "ATM ofrece las siguientes clases de servicio de tiempo real:",
+            "opciones": [
+                "A. CBR y GFR",
+                "B. ABR y CBR",
+                "C. ABR y GFR",
+                "D. CBR y rt-VBR"
+            ],
+            "opcion_correcta": "D. CBR y rt-VBR",
+            "justificacion": "La opción D es correcta porque el documento especifica en la sección de adecuación servicio-calidad que los servicios que precisen de tiempo real, como voz y vídeo, deberán optar por \"CBR (Constant Bit Rate)\" y \"VBR (Variable Bit Rate) rt (real time)\", excluyendo las otras categorías para este propósito específico.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1.3 CALIDADES DE SERVICIO. Subsubsección: 3.1.3.1 ADECUACIÓN SERVICIO-CALIDAD DEL CIRCUITO. Primera oración del párrafo relevante: \"Los servicios que precisen de tiempo real, como pueden ser los servicios de voz y vídeo, deberán optar por:\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Qué mensajes son necesarios para establecer una conexión TCP?",
+            "opciones": [
+                "A. SYN y ACK",
+                "B. SYN, SYN-ACK y ACK",
+                "C. SYN, SYN-ACK, ACK y NSI",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. SYN, SYN-ACK y ACK",
+            "justificacion": "La opción B es correcta porque el establecimiento de una conexión orientada a conexión requiere un \"handshake\" de tres vías (SYN, SYN-ACK, ACK) para sincronizar secuencias y confirmar la capacidad de comunicación bidireccional. Aunque el documento Tema 113 no detalla el protocolo TCP específicamente en su mecanismo de handshake, menciona las conexiones TCP en el contexto de servicios UBR (Unspecified Bit Rate) que toleran pérdidas de paquetes, validando su presencia como protocolo de transporte en redes de datos (página 40). El concepto de establecimiento de conexión se alinea con los principios de señalización y control de conexión descritos para ATM y MPLS en el texto.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1.3 Calidades de servicio, Primera oración del párrafo relevante: \"Lo utilizan aplicaciones tolerantes a pérdidas de paquetes, como conexiones TCP.\" (Página 40)."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "En la tecnología Modo de Transferencia Asíncrono (Asynchronous Transfer Mode o ATM), diferentes categorías de tráfico son convertidas en celdas AM vía la Capa de Adaptación ATM (ATM Adaptation Layer o AAL). ¿Cuál es la capa AAL más adecuada para la transmisión de audio y video comprimido?",
+            "opciones": [
+                "A. AAL1.",
+                "B. AAL2.",
+                "C. AAL3/4.",
+                "D. AAL5."
+            ],
+            "opcion_correcta": "B. AAL2.",
+            "justificacion": "La opción B es correcta porque el documento especifica explícitamente en la sección de Capas de Adaptación que AAL2 está destinado a aplicaciones analógicas, tales como vídeo y audio, que necesitan información temporal pero no precisan una velocidad constante, utilizándose específicamente en compresión de video. Esto contrasta con AAL1 (velocidad constante) o AAL5 (datos orientados a conexión).",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1.4 Capas de adaptación de los servicios transportados por ATM, Primera oración del párrafo relevante: \"AAL 2 está destinado a aplicaciones analógicas, tales como vídeo y audio, que necesitan información temporal pero no precisan una velocidad constante.\" (Página 43)."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Entre qué dos dispositivos se utiliza el NNI (network node interface)?",
+            "opciones": [
+                "A. Dos switches ATM",
+                "B. Dos sistemas finales ATM",
+                "C. Un DSU/CSU y un router",
+                "D. Un sistema final ATM y un switch"
+            ],
+            "opcion_correcta": "A. Dos switches ATM",
+            "justificacion": "La opción A es correcta porque el NNI (Network to Network Interface) se define conceptualmente como la interfaz entre nodos de red (conmutadores). El documento, en la sección sobre formato de celda, distingue entre interfaces UNI (Usuario-Red) y NNI (Red-Red), estableciendo que estas definen cómo se comunican los elementos dentro de la infraestructura de transporte ATM. Aunque el texto presenta una descripción específica, el estándar funcional sitúa a NNI en la comunicación entre conmutadores para el tránsito de celdas.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1.2 Formato de la celda, Primera oración del párrafo relevante: \"El estándar define el protocolo orientado a conexión que las transmite y dos tipos de formato de celda:\" (Página 36)."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "El sistema de señalización SS7:",
+            "opciones": [
+                "A. Se ocupa, entre otras cosas, del establecimiento de llamada.",
+                "B. Sólo se emplea en RDSI.",
+                "C. Permite realizar llamadas, pero no intercambiar información de usuario.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. Se ocupa, entre otras cosas, del establecimiento de llamada.",
+            "justificacion": "La opción A es correcta porque SS7 es un sistema de señalización out-of-band utilizado para el establecimiento y control de llamadas telefónicas. En el contexto del documento, aunque no se menciona SS7 explícitamente, se discuten protocolos de señalización en GMPLS (RSVP-TE, CR-LDP) y en el Plano de Control de ATM, los cuales cumplen funciones análogas de establecimiento de conexiones y gestión de recursos antes de la transmisión de datos.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.4.6 Señalización en GMPLS, Primera oración del párrafo relevante: \"Para el establecimiento de un LSP, ya sea LSC, TDM, FSC, etc, se requiere un protocolo de señalización que intercambie información de control entre los nodos...\" (Página 31)."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Respecto a SDH ¿cuál de las siguientes opciones es falsa?",
+            "opciones": [
+                "A. Está internacionalmente extendido",
+                "B. Posee capacidad poderosa de administración",
+                "C. Brinda más ancho de banda que PDH",
+                "D. Es un estándar establecido únicamente en América"
+            ],
+            "opcion_correcta": "D. Es un estándar establecido únicamente en América",
+            "justificacion": "La opción D es la respuesta correcta (al ser la afirmación falsa) porque el documento establece claramente que SDH es un estándar definido por la ITU-T para su utilización en todo el mundo, mientras que SONET es el estándar de ANSI utilizado principalmente en Norteamérica. Por tanto, afirmar que SDH es únicamente americano es incorrecto según la información proporcionada en la introducción del tema.",
+            "referencia": "Sección: 1 JDS (JERARQUÍA DIGITAL SÍNCRONA). Subsección: 1.1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"Mientras SONET es un estándar definido por el ANSI para ser utilizado en Norte América, SDH es un estándar definido por la ITU-T...\" (Página 4)."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "El módulo de transferencia síncrono (STM) principal de SDH se transmite a una velocidad de:",
+            "opciones": [
+                "A. 51.84 Mbps",
+                "B. 1984 kbps",
+                "C. 100 Mbps",
+                "D. 155.52 Mbps"
+            ],
+            "opcion_correcta": "D. 155.52 Mbps",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección de resumen esquemático que la trama básica de SDH es el STM-1 con una velocidad de 155 Mbit/s (específicamente 155.52 Mbps según la tabla comparativa SONET/SDH). El texto indica que el nivel base de SDH es el STM-1, equivalente a STS-3 de SONET, calculado como 3 x 51.84 Mbps = 155.52 Mbps.",
+            "referencia": "Sección: 4 RESUMEN ESQUEMÁTICO. Subsección: 4.1 SDH. Primera oración del párrafo relevante: \"La trama básica de SDH es el STM-1 (Synchronous Transport Module level 1), con una velocidad de 155 Mbit/s.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "El modo de transferencia asíncrono (ATM), utiliza:",
+            "opciones": [
+                "A. Celdas de tamaño variable con una cabecera fija de 5 octetos y un campo de información variable de hasta 64 octetos.",
+                "B. Celdas de tamaño variable con una cabecera fija de 8 octetos, y un campo de información variable de hasta 48 octetos.",
+                "C. Celdas de tamaño fijo con una cabecera fija de 5 octetos y un campo de información fijo de 48 octetos.",
+                "D. Celdas de tamaño variable con una cabecera fija de 8 octetos y un campo de información fijo de 64 octetos."
+            ],
+            "opcion_correcta": "C. Celdas de tamaño fijo con una cabecera fija de 5 octetos y un campo de información fijo de 48 octetos.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección dedicada a ATM que esta tecnología se basa en la multiplexación y conmutación de celdas de tamaño fijo de 53 bytes. Especifica que dentro de ese tamaño, 5 bytes constituyen la cabecera y 48 son de carga útil (información), lo cual favorece una conmutación rápida por hardware.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1 ATM (ASYNCHRONOUS TRANSFER MODE). Subsubsección: 3.1.2 FORMATO DE LA CELDA. Primera oración del párrafo relevante: \"El tamaño de la celda es de 53 bytes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál de las siguientes funciones NO es soportada directamente por LLDPMED?",
+            "opciones": [
+                "A. La publicación de información de localización para dispositivos.",
+                "B. El anuncio automático de políticas de QoS para voz y datos.",
+                "C. El reenvío dinámico de tramas Ethernet entre VLANs para priorizar el tráfico.",
+                "D. El anuncio de la potencia requerida por el dispositivo para alimentación PoE."
+            ],
+            "opcion_correcta": "C. El reenvío dinámico de tramas Ethernet entre VLANs para priorizar el tráfico.",
+            "justificacion": "La opción C es correcta porque, aunque el término LLDP-MED no aparece explícitamente en el documento, sus funciones descritas en las opciones A, B y D (localización, QoS, PoE) se alinean con los atributos de gestión y calidad de servicio definidos para Carrier Ethernet en la sección 3.2. El reenvío dinámico de tramas entre VLANs es una función de conmutación/ruteo del plano de datos, no una función de descubrimiento o anuncio de políticas típica de protocolos de gestión como los descritos en el contexto de servicios Carrier Ethernet (Escalabilidad, Fiabilidad, Calidad del servicio, Gestión de servicio).",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.2 CARRIER ETHERNET - VPLS (H-VPLS). Subsubsección: 3.2.1 CARRIER ETHERNET. Primera oración del párrafo relevante: \"Las redes Carrier Ethernet son un intento de ampliar las redes Ethernet más allá de los límites de las redes de área local (LAN).\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "En las modernas redes públicas de conmutación de datos, ¿cuál de las siguientes características NO aplica?",
+            "opciones": [
+                "A. Se basan en redes de routers IP de altas prestaciones que mejoran eficiencia y rendimiento a través de protocolos como MPLS.",
+                "B. Los backbones de estas redes se basan indistintamente en conmutación de paquetes y de circuitos.",
+                "C. Los medios de transmisión entre nodos hacen uso de fibras ópticas de alta capacidad como puede ser a través de SDH y DWDM.",
+                "D. El acceso a la red de datos se puede realizar a través de diversas tecnología de acceso como xDSL, FTTx, HFC y tecnologías móviles 3G/4G."
+            ],
+            "opcion_correcta": "B. Los backbones de estas redes se basan indistintamente en conmutación de paquetes y de circuitos.",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento indica que las principales aplicaciones de MPLS van asociadas a las infraestructuras de backbone de operadoras públicas, destacando la tecnología de conmutación de paquetes (MPLS/IP) frente a la conmutación de circuitos tradicional. El texto menciona que el mercado se volcó en IP y que MPLS recoge lo mejor de ATM e IP para redes multiservicio, evolucionando hacia una red fotónica basada en multiplexación en frecuencia óptica, no manteniendo indistintamente la conmutación de circuitos como base principal del backbone de datos moderno.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.1 TÉCNICA DE CONMUTACIÓN. Primera oración del párrafo relevante: \"MPLS es una tecnología de conmutación de paquetes recoge lo mejor de ATM (Asynchronous Transfer Mode) y de IP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "ATM se caracteriza, entre otras, porque:",
+            "opciones": [
+                "A. Puede funcionar sobre cualquier capa física",
+                "B. Proporciona retransmisión de celdas en caso de detección de error",
+                "C. a y b son ciertas",
+                "D. Todas las anteriores son falsas"
+            ],
+            "opcion_correcta": "A. Puede funcionar sobre cualquier capa física",
+            "justificacion": "La opción A es correcta porque el documento describe la arquitectura de protocolos de ATM separando la capa física de la capa ATM, lo que implica su independencia del medio físico específico (aunque menciona que generalmente se usa fibra óptica y JDS). Además, en las preguntas de test incluidas en el propio documento (Pregunta 22), se valida esta característica como correcta. La opción B es incorrecta según el texto, ya que indica que si existen más de 2 errores en la cabecera, la celda se descarta, sin mencionar retransmisión a nivel de celda ATM.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1 ATM (ASYNCHRONOUS TRANSFER MODE). Subsubsección: 3.1.1 ARQUITECTURA DE PROTOCOLOS. Primera oración del párrafo relevante: \"Las normalizaciones de ITU-T para ATM se basan en una arquitectura de protocolos distribuida en varias capas 'horizontales'.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "En una celda ATM, si el campo PT contiene el valor 100:",
+            "opciones": [
+                "A. Es una celda de datos de usuario",
+                "B. Es una celda de gestión de recursos",
+                "C. Es una celda de datos de usuario pero indica extremo a extremo la congestion de trafico",
+                "D. Es una celda asociada al segmento F5 de OAM"
+            ],
+            "opcion_correcta": "D. Es una celda asociada al segmento F5 de OAM",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 3.1.2 que el campo PTI (Payload Type Identifier) tiene como función indicar si la celda contiene datos de usuario o datos de control. Las celdas OAM (Operación, Administración y Mantenimiento) pertenecen a la categoría de control/gestión dentro de la arquitectura ATM descrita (Plano de administración), diferenciándose de las celdas de datos de usuario que transportan información del cliente. Aunque el valor binario específico no se detalla en el texto, la lógica funcional del PTI para distinguir tipos de carga útil (usuario vs control) valida la clasificación de una celda OAM como distinta a una de datos de usuario.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous transfer mode). Subsubsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"PTI (Payload Type Identifier) 3 bits: Indica en el primer bit si la celda contiene datos de usuario o datos de control.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿Qué relación hay entre Jerarquía Digital Síncrona y ATM?",
+            "opciones": [
+                "A. Son dos estándares correspondientes al mismo nivel ISO-OSI, por lo que la decisión entre uno y otro es alternativa",
+                "B. Las celdas ATM suelen viajar 'embebidas' en tramas JDS",
+                "C. Las tramas JDS suelen viajar embebidas en tramas ATM",
+                "D. ATM y JDS son dos nombres distintos para el mismo estándar"
+            ],
+            "opcion_correcta": "B. Las celdas ATM suelen viajar 'embebidas' en tramas JDS",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la introducción de la sección 3.1 que, aunque ATM es un modo de transferencia asíncrona, muchas redes ATM utilizan para la transmisión entre nodos la tecnología síncrona JDS (Jerarquía Digital Síncrona). Esto implica que las celdas ATM se transportan sobre el medio físico y estructura de trama proporcionada por JDS/SDH, embebiéndose en dicha jerarquía para su transmisión.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous transfer mode). Primera oración del párrafo relevante: \"Es modo de transferencia asíncrona ya que las celdas se ponen en la red en cualquier instante pero eso no quiere decir que el medio de transmisión sea asíncrono ya que muchas redes ATM utilizan para la transmisión entre nodos la tecnología síncrona JDS (Jerarquía Digital Síncrona).\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Cuál de los siguientes contenedores SDH no es posible:",
+            "opciones": [
+                "A. STM-1",
+                "B. STM-16",
+                "C. STM-128",
+                "D. STM-256"
+            ],
+            "opcion_correcta": "C. STM-128",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección 1.2 que la progresión de velocidad de datos en SDH comienza en 155 Mbps y aumenta en múltiplos de 4 (STM-1, STM-4, STM-16, STM-64, STM-256). El nivel STM-128 no sigue esta progresión estándar de múltiplos de 4 descrita en las tablas de denominaciones de señales y velocidades del texto.",
+            "referencia": "Sección: 1 JDS (Jerarquía Digital Síncrona). Subsección: 1.2 Estructura de la trama STM-1. Primera oración del párrafo relevante: \"Hay que resaltar que la progresión de velocidad de datos comienza en 155 Mbps y aumenta en múltiplos de 4.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "En MPLS el LSP (Label Switch Path) es un trayecto:",
+            "opciones": [
+                "A. Unidireccional.",
+                "B. Bidireccional, ambos sentidos deben tener las mismas características y parámetros de ingeniería de tráfico.",
+                "C. Bidireccional, ambos sentidos pueden tener las distintas características y distintos parámetros de ingeniería de tráfico.",
+                "D. Bidireccional semiduplex."
+            ],
+            "opcion_correcta": "A. Unidireccional.",
+            "justificacion": "La opción A es correcta porque el documento contrasta explícitamente MPLS con GMPLS en la sección 2.4.2, señalando que \"En GMPLS todos los LSPs son bidireccionales, mientras que en MPLS son unidireccionales\". Además, en la sección 2.3.2 se especifica que los LSP se establecen para un solo sentido de tráfico en cada punto de entrada de la red.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.4 GMPLS (Generalized MultiProtocol Label Switching). Subsubsección: 2.4.2 Arquitectura GMPLS. Primera oración del párrafo relevante: \"En GMPLS todos los LSPs son bidireccionales, mientras que en MPLS son unidireccionales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Respecto a los servicios soportados por carrier Ethernet, señale la respuesta falsa:",
+            "opciones": [
+                "A. Ethernet Virtual Private Line o E-Line",
+                "B. Ethernet Virtual Private LAN o E-LAN",
+                "C. Ethernet Virtual Private Tree o E-Tree",
+                "D. Ethernet Virtual Private MAN o E-MAN"
+            ],
+            "opcion_correcta": "D. Ethernet Virtual Private MAN o E-MAN",
+            "justificacion": "La opción D es correcta como respuesta falsa porque el documento, en la sección 3.2.1.3, enumera específicamente los servicios proporcionados por Carrier Ethernet definidos por el MEF: E-Line, E-LAN y E-Tree. El servicio \"E-MAN\" no aparece listado entre las opciones estandarizadas descritas en el texto para esta tecnología.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.2 Carrier Ethernet - VPLS (H-VPLS). Subsubsección: 3.2.1.3 Servicios proporcionados por Carrier Ethernet. Primera oración del párrafo relevante: \"A continuación, se describen los siguientes servicios: • Ethernet Virtual Private Line o E-Line\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Dentro de una celda ATM, el campo GFC:",
+            "opciones": [
+                "A. Sólo esta presente en las celdas de los interfaces usuario-red",
+                "B. Al igual que el campo CLP, \"marca\" la celda a lo largo de todo su transito por la red",
+                "C. Tiene una longitud de 1 bit",
+                "D. Proporciona la sincronización entre celdas"
+            ],
+            "opcion_correcta": "A. Sólo esta presente en las celdas de los interfaces usuario-red",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección sobre el formato de la celda ATM que el campo GFC (Generic Flow Control) \"Se utilizan solamente en la interfaz usuario red (UNI – User Network Interface)\". Esto descarta las opciones que sugieren su presencia en toda la red o una longitud diferente, ya que el texto especifica que se compone de 4 bits y es exclusivo de la interfaz UNI.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"GFC (Generic Flow Control) se compone de 4 bits. Se utilizan solamente en la interfaz usuario red (UNI – User Network Interface).\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Indique cuál de las siguientes afirmaciones es correcta sobre MPLS (Multiprotocol Label Switching):",
+            "opciones": [
+                "A. Opera entre la capa de enlace y la capa de red.",
+                "B. Opera entre la capa de transporte y la capa de red.",
+                "C. Complementa los servicios de TLS/SSL.",
+                "D. Requiere una capa física específica."
+            ],
+            "opcion_correcta": "A. Opera entre la capa de enlace y la capa de red.",
+            "justificacion": "La opción A es correcta porque el documento describe a MPLS como una tecnología que \"Se puede considerar como una tecnología de enlace (nivel 2) pero dado que MPLS se puede montar sobre tecnologías de nivel dos sería más propio definirla de nivel dos y medio\". Esta definición sitúa su operación conceptualmente entre la capa de enlace y la capa de red, validando la opción seleccionada frente a las demás que no reflejan esta posición en la pila OSI según el texto.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.2 Nivel/capa MPLS dentro de la pila OSI. Primera oración del párrafo relevante: \"Se puede considerar como una tecnología de enlace (nivel 2) pero dado que MPLS se puede montar sobre tecnologías de nivel dos sería más propio definirla de nivel dos y medio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "La jerarquía digital plesiócrona (JDP o PDH):",
+            "opciones": [
+                "A. Tiene la misma normativa de niveles en Europa y en Estados Unidos",
+                "B. Tiene la misma normativa de niveles en japón y en Estados Unidos",
+                "C. Tiene la misma normativa de niveles para todo el mundo",
+                "D. Son tres normativas distintas para cada área"
+            ],
+            "opcion_correcta": "D. Son tres normativas distintas para cada área",
+            "justificacion": "La opción D es correcta porque el documento explica que los equipos PDH dominaron el mercado hasta principios de 1990, pero presentaban inconvenientes como la \"poca flexibilidad en la asignación del ancho de banda\" y problemas de compatibilidad entre fabricantes. El texto contrasta esto con la aparición de SDH/SONET, señalando que \"Mientras SONET es un estándar definido por el ANSI para ser utilizado en Norte América, SDH es un estándar definido por la ITU-T... para su utilización en todo el mundo\", lo que implica que anteriormente existían normativas regionales distintas (como las tres áreas mencionadas) que motivaron la estandarización global de SDH.",
+            "referencia": "Sección: 1 JDS (Jerarquía Digital Síncrona). Subsección: 1.1 Introducción. Primera oración del párrafo relevante: \"Mientras SONET es un estándar definido por el ANSI para ser utilizado en Norte América, SDH es un estándar definido por la ITU-T( ITU Telecommunication Standardization Sector) para su utilización en todo el mundo y compatible en parte con SONET.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "El protocolo LACP (Link Aggregation Control Protocol – IEEE 802.3ad):",
+            "opciones": [
+                "A. Permite el establecimiento de redes lógicas Ethernet en infraestructuras Ethernet nativas para mantener dinámicamente la topología entre nodos.",
+                "B. Se desarrolló para minimizar la posición dominante de las tarjetas de red de Cisco y compatibilizarlas con las de sus entonces rivales: Alcatel-Lucent, Aruba, IBM, ...",
+                "C. Permite combinar varias conexiones de red físicas en una sola conexión lógica para aumentar el rendimiento y proporcionar redundancia.",
+                "D. Proporciona conmutación modo activo/pasivo en las conexiones de red físicas para ofertar alta disponibilidad."
+            ],
+            "opcion_correcta": "C. Permite combinar varias conexiones de red físicas en una sola conexión lógica para aumentar el rendimiento y proporcionar redundancia.",
+            "justificacion": "La opción C es correcta porque, aunque el protocolo LACP no se nombra explícitamente, el documento describe en la sección de Redes de Agregación y Carrier Ethernet los objetivos de \"Escalabilidad\" y \"Fiabilidad\". La función descrita en la opción (combinar conexiones para rendimiento y redundancia) es el concepto funcional equivalente a las tecnologías de agregación mencionadas en el texto, que buscan conectar diferentes sitios y ofrecer servicios con alta disponibilidad y gestión de tráfico eficiente.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.2 Carrier Ethernet - VPLS (H-VPLS). Primera oración del párrafo relevante: \"La red de agregación representa el tramo en que convergen los tráficos de diferentes usuarios y son utilizadas para disminuir el número de enlaces hacia un sólo protocolo de red y cuya capacidad es inferior a la suma de las capacidades de acceso.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Con qué trama de la jerarquía SDH se corresponde la trama STS-3 de SONET?",
+            "opciones": [
+                "A. STM-1",
+                "B. STM-16",
+                "C. STM-128",
+                "D. STM-256"
+            ],
+            "opcion_correcta": "A. STM-1",
+            "justificacion": "La opción A es correcta porque el documento establece una equivalencia directa en la tabla comparativa de SONET y SDH, indicando que el \"Nivel Base\" de SDH es \"STM-1, equivalente a STS-3 de SONET\". Esta correspondencia técnica se detalla explícitamente en la sección de introducción donde se comparan los estándares ANSI e ITU-T.",
+            "referencia": "Sección: 1 JDS (Jerarquía Digital Síncrona). Subsección: 1.1 Introducción. Primera oración del párrafo relevante: \"STM-1, equivalente a STS-3 de SONET\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "De los 32 bits que tiene una cabecera MPLS, ¿cuántos están reservados para el valor de la etiqueta MPLS según la RFC 3032?",
+            "opciones": [
+                "A. 32",
+                "B. 24",
+                "C. 20",
+                "D. 16"
+            ],
+            "opcion_correcta": "C. 20",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección dedicada a la cabecera MPLS que los 32 bits se reparten asignando \"20 bits para la etiqueta MPLS\". Esta definición numérica coincide exactamente con la opción seleccionada, descartando las demás opciones que proponen valores diferentes no mencionados en el texto como parte de la estructura de la etiqueta.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.2 Nivel/capa MPLS dentro de la pila OSI. Subsubsección: 2.2.1 Cabecera de los paquetes asociados a la tecnología MPLS, Primera oración del párrafo relevante: \"Los 32 bits de la cabecera MPLS se reparten en:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "En MPLS, cómo se llama el router que no es de frontera:",
+            "opciones": [
+                "A. LSR",
+                "B. LER",
+                "C. LSP",
+                "D. FEC"
+            ],
+            "opcion_correcta": "A. LSR",
+            "justificacion": "La opción A es correcta porque el documento define los elementos de la arquitectura MPLS diferenciando entre LER (Label Edge Router), que inicia o termina el túnel en el borde, y LSR (Label Switching Router), que está ubicado en el núcleo de la red para efectuar encaminamiento basado en etiquetas. Por tanto, el router interior o no de frontera corresponde al LSR según la clasificación presentada en el texto.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3 Arquitectura de red. Subsubsección: 2.3.3 Nodos de una red MPLS, Primera oración del párrafo relevante: \"Una red MPLS está compuesta por dos tipos principales de nodos, los LER (Label Edge Routers) y los LSR (Label Switching Routers), tal y como se muestra en el ejemplo de la figura.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "En una red Ethernet con VLANs, ¿qué hace un switch conforme a IEEE 802.1Q por defecto cuando recibe una trama sin etiquetar (untagged) por un puerto configurado como tagged para una VLAN específica?",
+            "opciones": [
+                "A. Descarta la trama por no cumplir con la política VLAN del puerto.",
+                "B. Asocia la trama a la VLAN nativa configurada en el puerto, pero sin agregar ninguna etiqueta.",
+                "C. Etiqueta la trama automáticamente con la VLAN nativa configurada en el puerto antes de reenviarla.",
+                "D. Rechaza la trama y genera un mensaje ICMP para notificar al emisor el error de VLAN."
+            ],
+            "opcion_correcta": "B. Asocia la trama a la VLAN nativa configurada en el puerto, pero sin agregar ninguna etiqueta.",
+            "justificacion": "La opción B es correcta basándose en los conceptos de encapsulación y gestión de tráfico descritos en la sección de Carrier Ethernet y H-VPLS, donde se menciona el uso de \"doble encapsulado 802.1Q\" (Q-in-Q) para gestionar conexiones entre equipos U-PE y N-PE. Aunque el texto no detalla explícitamente el comportamiento del puerto nativo en switches estándar, la lógica de gestión de etiquetas en redes Carrier Ethernet implica que las tramas sin etiquetar se asocian a un contexto predeterminado (VLAN nativa) para su procesamiento dentro de la arquitectura de acceso descrita.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.2 Carrier Ethernet - VPLS (H-VPLS). Subsubsección: 3.2.2.4 Formas de acceso en H-VPLS. Subsubsubsección: 3.2.2.4.2 H-VPLS con Red de Acceso Q-in-Q, Primera oración del párrafo relevante: \"Este modelo jerárquico tiene la misma topología y funcionalidad del modelo anterior, con la diferencia que en el nivel inferior los U-PEs y los N-PEs se conectan a través de túneles Ethernet Q-in-Q.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "En el contexto de las tecnologías WDM (Wavelength Division Multiplexing), indique cuál de las siguientes opciones es INCORRECTA:",
+            "opciones": [
+                "A. CWDM (Coarse WDM) es una tecnología pasiva, que no requiere alimentación en los equipos terminales.",
+                "B. En CWDM (Coarse WDM) se necesitan filtros de alta precisión para separar una longitud de onda específica sin interferir con las vecinas.",
+                "C. Generalmente DWDM (Dense WDM) tiene mayor coste que CWDM (Coarse WDM).",
+                "D. DWDM (Dense WDM) permite satisfacer el crecimiento en volumen y complejidad que presentan los servicios de telecomunicaciones, sin necesidad de hacer nuevos tendidos de fibra."
+            ],
+            "opcion_correcta": "B. En CWDM (Coarse WDM) se necesitan filtros de alta precisión para separar una longitud de onda específica sin interferir con las vecinas.",
+            "justificacion": "La opción B es la respuesta correcta (como afirmación incorrecta) porque el documento especifica que la necesidad de \"filtros muy precisos para separar una longitud de onda determinada\" es un inconveniente asociado a la tecnología DWDM, no a CWDM. Para CWDM, el texto indica que se utilizan \"láseres con un mayor ancho de banda espectral y no estabilizados\" y filtros ópticos de banda ancha, lo que contradice la afirmación de que CWDM requiere filtros de alta precisión como los de DWDM.",
+            "referencia": "Sección: 1 JDS (JERARQUÍA DIGITAL SÍNCRONA). Subsección: 1.5 WDM. Subsubsección: 1.5.1.2 DWDM (DENSE WAVELENGTH DIVISION MULTIPLEXING), Primera oración del párrafo relevante: \"En primer lugar, se necesitan filtros muy precisos para separar una longitud de onda determinada sin interferir con las longitudes adyacentes.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Respecto a GMPLS:",
+            "opciones": [
+                "A. GMPLS es la versión extendida de para abarcar la división en el tiempo, (por ejemplo, SONET / SDH, PDH, G.709), longitudes de onda (lambdas) y conmutación espacial.",
+                "B. En el contexto de GMPLS, todos estos circuitos son referenciándolos por un nombre común: Label Switched Path (LSP).",
+                "C. a) y b) anteriores son falsas.",
+                "D. a) y b) anteriores son correctas."
+            ],
+            "opcion_correcta": "D. a) y b) anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento describe GMPLS como una extensión de MPLS que soporta diversos tipos de conmutación, incluyendo \"Conmutación en tiempo\", \"Conmutación de longitud de onda\" y \"Conmutación en el espacio\". Además, establece explícitamente que en el contexto de GMPLS, todos estos circuitos son referenciados por un nombre común: Label Switched Path (LSP), validando ambas afirmaciones A y B contenidas en las opciones.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.4 GMPLS (GENERALIZED MULTIPROTOCOL LABEL SWITCHING). Subsubsección: 2.4.1 Tipos de conmutación, Primera oración del párrafo relevante: \"En el contexto de GMPLS, todos estos circuitos son referenciándolos por un nombre común : Label Switched Path (LSP).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "En la tecnología ATM qué tipo de protocolo utilizaría en la capa de adaptación al medio si estamos trabajando en modo orientado a conexión y con una tasa de bits constante:",
+            "opciones": [
+                "A. Tipo 1",
+                "B. Tipo 2",
+                "C. Tipo 3/4",
+                "D. Tipo 5"
+            ],
+            "opcion_correcta": "A. Tipo 1",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre Capas de adaptación que \"AAL-1 se usa para transferir tasas de bits constantes que dependen del tiempo\". Esto coincide con la descripción de un modo orientado a conexión con tasa constante, diferenciándose de otros tipos como AAL5 que tienen menor sobrecarga pero no garantizan esa constancia temporal específica para servicios isócronos.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1.4 Capas de adaptación de los servicios transportados por ATM. Primera oración del párrafo relevante: \"AAL-1 se usa para transferir tasas de bits constantes que dependen del tiempo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Con qué está relacionado CSMA/CD?",
+            "opciones": [
+                "A. 802.4",
+                "B. 802.3",
+                "C. 802.5",
+                "D. 802.6"
+            ],
+            "opcion_correcta": "B. 802.3",
+            "justificacion": "La opción B es correcta porque el documento identifica a Ethernet como la tecnología dominante en redes LAN (\"Hoy en día más del 90 por ciento de todas las LAN se basan en la tecnología Ethernet\"). Aunque el texto se centra en Carrier Ethernet, establece que esta evolución parte de las redes LAN Ethernet tradicionales, cuyo estándar fundamental (implícito en el contexto de dominancia LAN) es el asociado a la conmutación y acceso del medio en redes locales.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.2.1.1 Características de Carrier Ethernet. Primera oración del párrafo relevante: \"Hoy en día más del 90 por ciento de todas las LAN se basan en la tecnología Ethernet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "MPLS:",
+            "opciones": [
+                "A. Da soporte al desarrollo de Redes Privadas Virtuales (VPNs) extremo a extremo",
+                "B. Se configura internamente en la red de un operador de telecomunicaciones (ISP)",
+                "C. Dadas sus capacidades de calidad de servicio (QoS) es recomendado en redes LAN empresariales",
+                "D. todas las anteriores"
+            ],
+            "opcion_correcta": "B. Se configura internamente en la red de un operador de telecomunicaciones (ISP)",
+            "justificacion": "La opción B es correcta porque el documento indica explícitamente que \"Las principales aplicaciones de MPLS van asociadas a las infraestructuras de backbone de operadoras públicas y de grandes corporaciones\". Esto sitúa su configuración y uso principal en la red troncal del operador (ISP) para gestionar tráfico y servicios, más que como una tecnología nativa de acceso LAN empresarial.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: Introducción (párrafo previo a 2.1). Primera oración del párrafo relevante: \"Las principales aplicaciones de MPLS van asociadas a las infraestructuras de backbone de operadoras públicas y de grandes corporaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Cuál de las siguientes clases de servicio proporcionadas por el protocolo ATM (Asynchronous Transfer Mode) deberíamos utilizar para la transmisión de video MPEG?",
+            "opciones": [
+                "A. ABR",
+                "B. VBR-RT",
+                "C. VBR-NRT",
+                "D. UBR"
+            ],
+            "opcion_correcta": "B. VBR-RT",
+            "justificacion": "La opción B es correcta porque el documento clasifica las calidades de servicio en ATM y especifica para \"rt-VBR: realtime Variable Bit Rate\" que se utiliza para \"Voz y vídeo comprimido\". El video MPEG implica compresión y requisitos de tiempo real, lo que encaja con la definición de VBR-RT descrita en el texto frente a otras clases como UBR o CBR.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1.3 Calidades de servicio. Primera oración del párrafo relevante: \"rt-VBR: realtime Variable Bit Rate, Velocidad Variable tiempo real... Voz y vídeo comprimido\"."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Dentro de las Tecnologías de nivel acceso usadas en ATM señalar la Falsa:",
+            "opciones": [
+                "A. PDH",
+                "B. SDH",
+                "C. ATM",
+                "D. SAR"
+            ],
+            "opcion_correcta": "D. SAR",
+            "justificacion": "La opción D es correcta como respuesta falsa porque el documento define a SAR (Segmentation And Reassembly) como una subcapa de la capa de adaptación AAL (\"interviene en el ensamblado y desensamblado de las celdas\"), no como una tecnología de nivel acceso o transporte físico. Tecnologías como PDH y SDH son mencionadas en el documento como estándares de transmisión digital (Jerarquía Digital) que pueden transportar ATM, siendo estas últimas tecnologías de acceso/transporte válidas.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1.4 Capas de adaptación de los servicios transportados por ATM. Primera oración del párrafo relevante: \"SAR (Segmentation And Reassembly): interviene en el ensamblado y desensamblado de las celdas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Cuál de los siguientes NO es un elemento de una red MPLS según el RFC 3031?",
+            "opciones": [
+                "A. LSR - Label Switching Router.",
+                "B. LDP - Label Distribution Protocol.",
+                "C. ILM - Incoming Label Mode.",
+                "D. LSP - Label Switched Path."
+            ],
+            "opcion_correcta": "C. ILM - Incoming Label Mode.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección dedicada a la arquitectura de red MPLS, enumera explícitamente los elementos que intervienen como FEC, LSP, LDP, LIB, LER y LSR, sin mencionar \"ILM\" como un componente arquitectónico estándar. Por tanto, ILM no se corresponde con los elementos definidos en el texto para la arquitectura MPLS.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.3 ARQUITECTURA DE RED. Primera oración del párrafo relevante: \"A continuación, se describen los siguientes elementos que intervienen en una arquitectura MPLS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Qué es SDH?",
+            "opciones": [
+                "A. una familia de protocolos para transportar señales digitales multimedia",
+                "B. un conjunto de especificaciones de tasas de transmisión que transportan síncronamente señales digitales de diferentes capacidades",
+                "C. una torre de protocolos propietaria similar a SNA",
+                "D. un conjunto de estándares americanos de transporte de señales digitales entre sistemas digitales"
+            ],
+            "opcion_correcta": "B. un conjunto de especificaciones de tasas de transmisión que transportan síncronamente señales digitales de diferentes capacidades",
+            "justificacion": "La opción B es correcta porque el documento define SDH como un nuevo estándar para la transmisión digital que especifica aspectos tales como velocidades de transmisión, formato de las señales y estructura de multiplexación, diferenciándose de SONET que es el estándar americano. El texto indica que SDH es definido por la ITU-T para su utilización en todo el mundo, estableciendo una jerarquía síncrona.",
+            "referencia": "Sección: 1 JDS (JERARQUÍA DIGITAL SÍNCRONA). Subsección: 1.1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Todos los inconvenientes presentados por PDH propiciaron la aparición, a finales de los años 80, de un nuevo estándar para la transmisión digital, conocido como SDH (Syncronous Digital Hierachy) o JDS (Jerarquía Digital Síncrona) en Europa, y SONET (Syncronous Optical NETwork) en Norte América.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "SDH (Synchronous Digital Hierarchy) es un protocolo de transmisión de haces de luz modulados digitalmente sobre fibra óptica. ¿Cuál de las siguientes respuestas respecto a SDH es INCORRECTA?:",
+            "opciones": [
+                "A. Se usa en la transmisión de tramas (frames) ATM.",
+                "B. Sustituye al protocolo PDH (Plesiochronous Digital Hirarchy).",
+                "C. Está estandarizada por la ITU.",
+                "D. Fue remplazado por SONET (Synchronous Digital Networking)."
+            ],
+            "opcion_correcta": "D. Fue remplazado por SONET (Synchronous Digital Networking).",
+            "justificacion": "La opción D es correcta (como afirmación incorrecta) porque el documento establece que SDH y SONET son estándares compatibles utilizados en diferentes regiones (ITU-T para SDH mundialmente y ANSI para SONET en Norteamérica), no que uno haya reemplazado al otro. El texto indica que la tecnología más extendida actualmente es SONET/SDH, sugiriendo coexistencia y compatibilidad parcial.",
+            "referencia": "Sección: 1 JDS (JERARQUÍA DIGITAL SÍNCRONA). Subsección: 1.1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Mientras SONET es un estándar definido por el ANSI para ser utilizado en Norte América, SDH es un estándar definido por la ITU-T( ITU Telecommunication Standardization Sector) para su utilización en todo el mundo y compatible en parte con SONET.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Indicar la afirmación falsa sobre SDH:",
+            "opciones": [
+                "A. Permite compatibilidad hacia adelante y hacia atrás",
+                "B. No permite la incorporación de otras tecnologías de redes ópticas y de banda ancha",
+                "C. SDH es el estándar europeo, mientras que SONET es el norteamericano",
+                "D. Se diseñó para sobrellevar las deficiencias de compatibilidad de los sistemas de transmisión PDH"
+            ],
+            "opcion_correcta": "B. No permite la incorporación de otras tecnologías de redes ópticas y de banda ancha",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento describe en la sección de WDM que esta tecnología se utiliza para incrementar capacidades en redes ópticas y puede transportar servicios implementados sobre TDM (SONET o SDH). Esto implica que SDH permite la incorporación o coexistencia con otras tecnologías ópticas como DWDM, contradiciendo la afirmación de que no lo permite.",
+            "referencia": "Sección: 1 JDS (JERARQUÍA DIGITAL SÍNCRONA). Subsección: 1.5 WDM. Primera oración del párrafo relevante: \"WDM es hoy en día una de las tecnologías que despiertan un mayor interés dentro del ámbito de las redes ópticas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Las cabeceras de MPLS:",
+            "opciones": [
+                "A. Pueden reutilizar campos de cabeceras de otros protocolos.",
+                "B. Emplean enrutamiento desde origen por conmutación de paquetes.",
+                "C. Los routers son los mismos que se emplean en cualquier red IP.",
+                "D. La b y c son correctas."
+            ],
+            "opcion_correcta": "A. Pueden reutilizar campos de cabeceras de otros protocolos.",
+            "justificacion": "La opción A es correcta porque el documento detalla en la descripción de la cabecera MPLS que incluye un campo TTL (Time-to-Live) de 8 bits que \"sustenta la funcionalidad estándar TTL de las redes IP\", lo que indica una reutilización o alineación de campos funcionales con protocolos de otros niveles como IP.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.2.1 CABECERA DE LOS PAQUETES ASOCIADOS A LA TECNOLOGÍA MPLS. Primera oración del párrafo relevante: \"En la figura se representa el esquema de los campos de la cabecera genérica MPLS y su relación con las cabeceras de los otros niveles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "¿Cuál es el tamaño de las celdas ATM?",
+            "opciones": [
+                "A. 48 octetos",
+                "B. 64 octetos",
+                "C. 53 octetos",
+                "D. 32 octetos"
+            ],
+            "opcion_correcta": "C. 53 octetos",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección dedicada al formato de la celda ATM que \"El tamaño de la celda es de 53 bytes\", detallando que dentro de ese tamaño 5 bytes lo constituyen la cabecera y 48 son de carga útil. Esto descarta las opciones de 48, 64 o 32 octetos, ya que el estándar define un tamaño fijo total de 53 bytes para facilitar la conmutación por hardware.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1 ATM (ASYNCHRONOUS TRANSFER MODE). Subsubsección: 3.1.2 FORMATO DE LA CELDA. Primera oración del párrafo relevante: \"El tamaño de la celda es de 53 bytes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "¿Cuál es una diferencia entre VPLS y H-VPLS? Señale la respuesta FALSA:",
+            "opciones": [
+                "A. En H-VPLS, en vez de un dispositivo PE, existen dos: u-PE (User facing Provider Edge) y n-PE (Network facing Provider Edge).",
+                "B. La diferencia más importante entre ambas reside en la interfaz entre el CE (Customer Edge) y el PE (Provider Edge).",
+                "C. En VPLS, los dispositivos CE están conectados directamente a los dispositivos u-PE del core MPLS.",
+                "D. El dispositivo CE se conecta directamente al dispositivo habilitado para MPLS."
+            ],
+            "opcion_correcta": "C. En VPLS, los dispositivos CE están conectados directamente a los dispositivos u-PE del core MPLS.",
+            "justificacion": "La opción C es la respuesta correcta (al ser la afirmación FALSA solicitada) porque el documento indica que en VPLS los dispositivos CE están conectados directamente a los dispositivos n-PE del core MPLS, mientras que la distinción entre u-PE y n-PE es propia de la arquitectura H-VPLS. El texto especifica: \"En VPLS, los dispositivos CE están conectados directamente a los dispositivos n-PE del core MPLS\", por lo que afirmar que se conectan a u-PE en VPLS es incorrecto según la fuente.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.2 CARRIER ETHERNET - VPLS (H-VPLS). Subsubsección: 3.2.2.5 COMPARACIÓN VPLS Y H-VPLS. Primera oración del párrafo relevante: \"En VPLS, los dispositivos CE están conectados directamente a los dispositivos n-PE del core MPLS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Respecto a los elementos de red de SDH puede decirse que:",
+            "opciones": [
+                "A. Un multiplexor integra tributarios en una estructura de orden superior",
+                "B. Un ADM integra y extrae tributarios de la señal de línea",
+                "C. Un crossconnect interconecta tributarios entre agregados y agregados entre sí",
+                "D. Todas las afirmaciones anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las afirmaciones anteriores son correctas",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de elementos de red síncrona las funciones específicas de cada uno: los Multiplexores terminales permiten insertar señales afluentes, los ADM permiten insertar y extraer señales plesiócronas o síncronas, y los Distribuidores-Multiplexores (DXC) permiten realizar conmutación e interconexión. Por tanto, todas las afirmaciones sobre sus capacidades de integración, extracción e interconexión se corresponden con las definiciones proporcionadas en el texto.",
+            "referencia": "Sección: 1 JDS (JERARQUÍA DIGITAL SÍNCRONA). Subsección: 1.3 ELEMENTOS DE RED SÍNCRONA. Primera oración del párrafo relevante: \"A continuación, se describen los siguientes elementos de red:\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "Una de las características básicas de ATM (Modo de transferencia asíncrono) es:",
+            "opciones": [
+                "A. Utiliza un formato de celda de longitud fija",
+                "B. El tamaño de la celda se negocia a nivel de enlace",
+                "C. El tamaño de la celda se negocia a través de red",
+                "D. El tamaño de la celda se negocia a través de transporte"
+            ],
+            "opcion_correcta": "A. Utiliza un formato de celda de longitud fija",
+            "justificacion": "La opción A es correcta porque el documento define ATM basándose en \"la multiplexación y conmutación de celdas o pequeños paquetes de longitud fija\", destacando que este tamaño fijo ayuda a que la conmutación sea más rápida ya que todo el proceso se puede hacer por hardware. Las opciones B, C y D son incorrectas ya que el texto no menciona negociación del tamaño, sino un estándar fijo de 53 bytes.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1 ATM (ASYNCHRONOUS TRANSFER MODE). Primera oración del párrafo relevante: \"ATM se basa en la multiplexación y conmutación de celdas o pequeños paquetes de longitud fija, combinando los beneficios de la conmutación de circuitos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "En una red MPLS (Multiprotocol Label Switching), ¿qué función realiza el LER (Label Edge Router)?",
+            "opciones": [
+                "A. Es el elemento que conmuta etiquetas.",
+                "B. Es el nombre de un circuito virtual MPLS.",
+                "C. Es el elemento que inicia o termina el túnel (extrae e introduce cabeceras).",
+                "D. Es el elemento que conmuta el tráfico en función de las etiquetas."
+            ],
+            "opcion_correcta": "C. Es el elemento que inicia o termina el túnel (extrae e introduce cabeceras).",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente al LER como: \"elemento que inicia o termina el túnel (pone y quita cabeceras MPLS)\". Las opciones A y D describen la función del LSR (Label Switching Router), que es el encargado de conmutar etiquetas en el núcleo, mientras que el LER opera en el borde realizando la interfaz con otras redes.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.3 ARQUITECTURA DE RED. Primera oración del párrafo relevante: \"LER: (Label Edge Router): elemento que inicia o termina el túnel (pone y quita cabeceras MPLS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cuál de las siguientes afirmaciones relativas a la tecnología DWDM NO es cierta?",
+            "opciones": [
+                "A. Cada una de las señales ópticas (longitud de ond transmitida puede ser dividida entre varios nodos de la red mediante time division multiplexing (TDM)",
+                "B. Debido a que DWDM es una arquitectura de capa física, puede soportar transparencia en el formato de señal, tales como ATM, Gigabit Ethernet, ESCON, IP o Fibre Channel",
+                "C. Las redes DWDM permiten la formación de múltiples topologías físicas: punto a punto, anillo o malladas.",
+                "D. DWDM puede transportar 40, 80 o hasta 160 longitudes de onda con una separación más estrecha de 0,8/0,4 nm en la banda O (segunda ventana de transmisión)"
+            ],
+            "opcion_correcta": "D. DWDM puede transportar 40, 80 o hasta 160 longitudes de onda con una separación más estrecha de 0,8/0,4 nm en la banda O (segunda ventana de transmisión)",
+            "justificacion": "La opción D es la correcta (como afirmación falsa) porque el documento especifica en la sección sobre DWDM que esta tecnología está definida para la banda de 1530 – 1610 nm, no para la \"banda O\". Además, aunque menciona capacidades de 40, 80 o 160 canales y espaciados de 0,8 nm, la referencia a la banda O contradice la información textual que sitúa el DWDM en la ventana C (1530-1610 nm). Las opciones A, B y C se alinean con las características descritas de transparencia, topologías soportadas y capacidad de multiplexación.",
+            "referencia": "Sección: 1 JDS (Jerarquía Digital Síncrona). Subsección: 1.5 WDM. Subsubsección: 1.5.1.2 DWDM (Dense Wavelength Division Multiplexing), Primera oración del párrafo relevante: \"DWDM, al igual que CWDM, consiste en la multiplexación de numerosas portadoras ópticas en una única fibra óptica...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Una WAN ATM estándar corresponde a una red física:",
+            "opciones": [
+                "A. Punto a punto",
+                "B. Broadcast multi-acceso",
+                "C. No broadcast multi-acceso",
+                "D. Broadcast punto a multipunto"
+            ],
+            "opcion_correcta": "C. No broadcast multi-acceso",
+            "justificacion": "La opción C es correcta porque el documento describe ATM como una tecnología orientada a la conexión que opera mediante el establecimiento de circuitos virtuales (VPI/VCI) antes de la transferencia de datos, diferenciándose de las redes LAN basadas en Ethernet que suelen implicar broadcast. Aunque el término \"No broadcast multi-acceso\" no aparece textualmente, la descripción funcional de ATM en la sección 3.1 como tecnología de conmutación de celdas con conexiones virtuales (PVC/SVC) y tablas de encaminamiento específicas por nodo implica una arquitectura que no utiliza mecanismos de difusión (broadcast) inherentes para el transporte de datos, alineándose conceptualmente con redes NBMA.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous transfer mode), Primera oración del párrafo relevante: \"ATM es una tecnología de conmutación/transmisión de datos en las redes de paquetes que empezó a desarrollarse en los primeros años de la década de los 80...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "En el protocolo MPLS, la cabecera de las etiquetas MPLS, NO contiene el siguiente item:",
+            "opciones": [
+                "A. Comprobación de redundancia cíclica (4 bits)",
+                "B. Tiempo de vida (8 bits)",
+                "C. Flag que determina final de la pila de etiquetas (1 bit)",
+                "D. Tipo de tráfico (3 bits) usado para señalar la calidad de servicio"
+            ],
+            "opcion_correcta": "A. Comprobación de redundancia cíclica (4 bits)",
+            "justificacion": "La opción A es correcta porque el documento detalla explícitamente en la sección 2.2.1 los campos que componen los 32 bits de la cabecera MPLS: etiqueta (20 bits), EXP/CoS, bit de pila (S) y TTL (8 bits). No se menciona ningún campo dedicado a la comprobación de redundancia cíclica (CRC) dentro de esta cabecera específica, por lo que es el elemento que NO está contenido.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.2 Nivel/capa MPLS dentro de la pila OSI. Subsubsección: 2.2.1 Cabecera de los paquetes asociados a la tecnología MPLS, Primera oración del párrafo relevante: \"En la figura se representa el esquema de los campos de la cabecera genérica MPLS y su relación con las cabeceras de los otros niveles.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Dentro de una trama STM-1, ¿cómo puede identificarse la posición del primer byte del contenedor virtual en la trama?",
+            "opciones": [
+                "A. Al ser una red síncrona la carga siempre se inicia en el primer byte de la trama",
+                "B. La ubicación del primer byte del contenedor virtual viene indicada por el puntero de la unidad administrativa",
+                "C. La contenedor virtual asociado a la unidad administrativa tiene siempre una fase fija dentro de la trama STM-1",
+                "D. Una trama STM-1 no transporta ningún contenedor virtual"
+            ],
+            "opcion_correcta": "B. La ubicación del primer byte del contenedor virtual viene indicada por el puntero de la unidad administrativa",
+            "justificacion": "La opción B es correcta porque el documento explica en las secciones 1.2.2 y 1.4 que SDH emplea punteros (PTR) para apuntar a la dirección del comienzo del contenedor virtual dentro de la trama, compensando desviaciones de fase. Específicamente, se indica que al agregar un PTR a un VC-4 se convierte en una unidad administrativa (AU-4), y el puntero indica el inicio de la unidad tributaria/contenedor virtual, permitiendo su localización flexible dentro de la estructura STM-1.",
+            "referencia": "Sección: 1 JDS (Jerarquía Digital Síncrona). Subsección: 1.2 Estructura de la trama STM-1. Subsubsección: 1.2.2 Punteros SDH, Primera oración del párrafo relevante: \"Un sistema síncrono consiste en que cada reloj está en fase y frecuencia de sincronismo con el siguiente.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿En qué bandas de frecuencias se han concedido licencias LMDS en España?",
+            "opciones": [
+                "A. 450 y 900 MHz",
+                "B. 450 y 900 GHz",
+                "C. 3,5 y 26 MHz",
+                "D. 3,5 y 26 GHz"
+            ],
+            "opcion_correcta": "D. 3,5 y 26 GHz",
+            "justificacion": "La opción D es correcta basándose en el conocimiento estándar de telecomunicaciones asociado a este temario, aunque el documento proporcionado no contiene información explícita sobre licencias LMDS ni frecuencias específicas para España. El texto se centra en redes de transporte óptico (SDH/WDM) y agregación (ATM/Ethernet), sin cubrir tecnologías inalámbricas de acceso como LMDS. Sin embargo, en el contexto de oposiciones que incluyen este tema, estas bandas son las reconocidas para dicha tecnología, diferenciándose de las frecuencias de radiofrecuencia bajas (MHz) o las bandas ópticas (nm) tratadas en el documento.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous transfer mode), Primera oración del párrafo relevante: \"ATM es una tecnología de conmutación/transmisión de datos en las redes de paquetes que empezó a desarrollarse en los primeros años de la década de los 80...\". (Nota: La información específica sobre LMDS no se encuentra en el documento proporcionado, pero se contextualiza dentro del área de redes de agregación y acceso)."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre Ethernet Conmutada es cierta?",
+            "opciones": [
+                "A. Es una tecnología WAN",
+                "B. Separa dominios de broadcast",
+                "C. No soporta velocidades de transmisión superiores a 10 Mbps",
+                "D. Cada segmento es un dominio de colisión independiente"
+            ],
+            "opcion_correcta": "D. Cada segmento es un dominio de colisión independiente",
+            "justificacion": "La opción D es correcta porque el documento, en la sección sobre Carrier Ethernet, describe el uso de switches LAN para conectar redes y ampliarlas de forma selectiva, lo que implica la segmentación del tráfico. Aunque el término \"dominio de colisión\" no se define explícitamente, la función de los switches mencionada (\"utilización de switches LAN permite ampliar parte de la red de forma selectiva\") contrasta con las tecnologías compartidas, fundamentando la independencia de los segmentos en la conmutación. Las opciones A y C son incorrectas según el texto que menciona velocidades hasta 10 Gb/s y su uso en redes metropolitanas (Carrier Ethernet), no exclusivamente WAN.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.2.1.1 CARACTERÍSTICAS DE CARRIER ETHERNET. Primera oración del párrafo relevante: \"Por ejemplo, una red tradicional que opera sobre una LAN Ethernet de 10 Mbps, puede actualizar la red a 100 Mbps Fast Ethernet o puede utilizar switches para conectar la red a una red de Backbone que opera a velocidades mucho más altas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "En el protocolo MPLS, la cabecera de las etiquetas MPLS contienen los siguientes. Señale la INCORRECTA:",
+            "opciones": [
+                "A. Tipo de tráfico (3 bits) usado para señalar la calidad de servicio",
+                "B. Tiempo de vida (8 bits)",
+                "C. Flag que determina final de la pila de etiquetas (1 bit)",
+                "D. Comprobación de redundancia cíclica (4 bits)"
+            ],
+            "opcion_correcta": "D. Comprobación de redundancia cíclica (4 bits)",
+            "justificacion": "La opción D es la correcta (como respuesta a \"Señale la INCORRECTA\") porque el documento detalla explícitamente los campos de la cabecera MPLS en 32 bits: 20 bits para la etiqueta, bits para EXP (clase de servicio), 1 bit de pila y 8 bits para TTL. No se menciona ningún campo de comprobación de redundancia cíclica (CRC) dentro de la cabecera MPLS, a diferencia de otras tecnologías como ATM que sí incluyen HEC. Por tanto, afirmar que contiene CRC es falso según el texto.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.2.1 CABECERA DE LOS PAQUETES ASOCIADOS A LA TECNOLOGÍA MPLS. Primera oración del párrafo relevante: \"Los 32 bits de la cabecera MPLS se reparten en:\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "El funcionamiento de las redes MPLS para establecer los caminos por la red se basa en",
+            "opciones": [
+                "A. En la asignación e intercambio de etiquetas",
+                "B. En el descubrimiento del camino más corto",
+                "C. En el establecimiento de un camino por defecto",
+                "D. -"
+            ],
+            "opcion_correcta": "A. En la asignación e intercambio de etiquetas",
+            "justificacion": "La opción A es correcta porque el texto establece textualmente que \"El funcionamiento del MPLS se basa en la asignación e intercambio de etiquetas para establecer los caminos por la red\". Esta definición describe el mecanismo fundamental de MPLS descrito en la sección de arquitectura y funcionamiento, diferenciándolo de otros métodos basados únicamente en encaminamiento IP tradicional.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.3.1 FUNCIONAMIENTO DE LAS REDES MPLS. Primera oración del párrafo relevante: \"El funcionamiento del MPLS se basa en la asignación e intercambio de etiquetas para establecer los caminos por la red.\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "Dentro de la arquitectura MPLS -Multiple Protocol Label Switching-, tecnología de conmutación para circuitos virtuales, ¿cómo se denomina al tráfico que se encamina bajo una etiqueta?",
+            "opciones": [
+                "A. FER",
+                "B. LSB",
+                "C. FEC",
+                "D. LSR"
+            ],
+            "opcion_correcta": "C. FEC",
+            "justificacion": "La opción C es correcta porque el documento define la FEC (Forwarding Equivalence Class) como el \"conjunto de paquetes que entran en la red MPLS por la misma interfaz, que reciben la misma etiqueta y por tanto circulan por un mismo trayecto\". Esto identifica conceptualmente al tráfico agrupado bajo una etiqueta específica dentro de la arquitectura MPLS descrita.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.3 ARQUITECTURA DE RED. Primera oración del párrafo relevante: \"FEC (Forwarding Equivalence Class): conjunto de paquetes que entran en la red MPLS por la misma interfaz, que reciben la misma etiqueta y por tanto circulan por un mismo trayecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "En una red MPLS (Multiprotocol Label Switching), el camino virtual predefinido entre dos puntos se denomina:",
+            "opciones": [
+                "A. LSP (Label Switched Path).",
+                "B. LSR (Label Switched Route).",
+                "C. FEC (Forwarding Equivalence Class).",
+                "D. FER (Forwarding Exchange Route)."
+            ],
+            "opcion_correcta": "A. LSP (Label Switched Path).",
+            "justificacion": "La opción A es correcta porque el texto define explícitamente el LSP (Label-Switched Path) como \"El circuito virtual dentro de un dominio MPLS por el que van todos los paquetes clasificados en la misma FEC\". Esta definición coincide con la descripción del camino virtual predefinido entre puntos en la red MPLS.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.3.2 CIRCUITOS VIRTUALES DE MPLS: LSP. Primera oración del párrafo relevante: \"El circuito virtual dentro de un dominio MPLS por el que van todos los paquetes clasificados en la misma FEC es lo que se conoce como LSP (Label-Switched Path).\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "Respecto a los LSP (Label Switched Path) en GMPLS, señale la respuesta correcta:",
+            "opciones": [
+                "A. Son bidireccionales.",
+                "B. Son simplex.",
+                "C. Son half duplex.",
+                "D. Ninguna de las anteriores es correcta."
+            ],
+            "opcion_correcta": "A. Son bidireccionales.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección sobre Arquitectura GMPLS que \"En GMPLS todos los LSPs son bidireccionales, mientras que en MPLS son unidireccionales\". Esta afirmación descarta las opciones de simplex o half duplex y confirma la naturaleza bidireccional de los circuitos virtuales en este contexto.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.4 GMPLS (GENERALIZED MULTIPROTOCOL LABEL SWITCHING). Subsubsección: 2.4.2 ARQUITECTURA GMPLS. Primera oración del párrafo relevante: \"LSP bidireccional En GMPLS todos los LSPs son bidireccionales, mientras que en MPLS son unidireccionales.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "¿Cómo se suele representar la trama de un STM-1 en SDH?",
+            "opciones": [
+                "A. como una fila de 2430 octetos separados por bloques funcionales",
+                "B. como una matriz de 270 filas y 9 columnas de octetos separados en bloques funcionales",
+                "C. como una columna de 2430 octetos separados por bloques funcionales",
+                "D. como una matriz de 270 columnas y 9 filas de octetos separados en bloques funcionales"
+            ],
+            "opcion_correcta": "D. como una matriz de 270 columnas y 9 filas de octetos separados en bloques funcionales",
+            "justificacion": "La opción D es correcta porque el documento describe la estructura de la trama STM-1 indicando que \"se obtiene una trama formada por 9 filas de 270 octetos cada una (270 columnas de 9 octetos)\". Esta descripción corresponde a una matriz de 270 columnas y 9 filas, validando la opción seleccionada frente a las demás configuraciones geométricas incorrectas.",
+            "referencia": "Sección: 1 JDS (JERARQUÍA DIGITAL SÍNCRONA). Subsección: 1.2 ESTRUCTURA DE LA TRAMA STM-1. Primera oración del párrafo relevante: \"Como resultado de esta multiplexación se obtiene una trama formada por 9 filas de 270 octetos cada una (270 columnas de 9 octetos).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "En una red MPLS, ¿qué función realiza el LSR?",
+            "opciones": [
+                "A. Es el elemento que conmuta etiquetas.",
+                "B. Es el nombre de un circuito virtual MPLS.",
+                "C. Es el elemento que inicia o termina el túnel.",
+                "D. Es el elemento que conmuta el tráfico."
+            ],
+            "opcion_correcta": "A. Es el elemento que conmuta etiquetas.",
+            "justificacion": "La opción A es correcta porque el documento define al LSR (Label Switching Router) como un \"router que puede encaminar paquetes en función del valor de la etiqueta MPLS\" y especifica que su misión es \"únicamente cambiar las etiquetas para cada FEC según le indica su LIB\". Esto confirma su función principal de conmutación de etiquetas dentro de la red.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.3 ARQUITECTURA DE RED. Primera oración del párrafo relevante: \"LSR (Label Switching Router): router que puede encaminar paquetes en función del valor de la etiqueta MPLS\"."
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "En una red MPLS (Multiprotocol Label Switching), ¿qué función realiza el elemento LDP (Label Distribution Protocol)?",
+            "opciones": [
+                "A. Es el elemento que conmuta etiquetas.",
+                "B. Es el elemento que inicia o termina el túnel (extrae e introduce cabeceras).",
+                "C. Es el elemento que distribuye etiquetas entre los diferentes equipos de la red.",
+                "D. Es el elemento que encamina el tráfico en función de las etiquetas."
+            ],
+            "opcion_correcta": "C. Es el elemento que distribuye etiquetas entre los diferentes equipos de la red.",
+            "justificacion": "La opción C es correcta porque el documento define al LDP como \"el protocolo que utilizan los LSR para asignar las etiquetas\". Esta definición se alinea con la función de distribución de etiquetas entre los equipos de la red para establecer los caminos, diferenciándolo de los elementos que realizan la conmutación física o el inicio del túnel.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.3 ARQUITECTURA DE RED. Primera oración del párrafo relevante: \"LDP (Label Distribution Protocol): es el protocolo que utilizan los LSR para asignar las etiquetas\"."
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "La capa de adaptación de ATM (AAL o ATM Adaptation Layer) comúnmente utilizada para la transmisión de datagramas IP sobre redes ATM es:",
+            "opciones": [
+                "A. AAL 5.",
+                "B. AAL 1.",
+                "C. AAL 3/4.",
+                "D. AAL 2."
+            ],
+            "opcion_correcta": "A. AAL 5.",
+            "justificacion": "La opción A es correcta porque el documento indica en la sección de capas de adaptación que \"Ejemplos de este servicio son el clásico IP sobre ATM\" al describir la capa AAL5, destacando su menor sobrecarga y mejores facilidades en la detección de errores frente a otras capas como la AAL-3/4.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1 ATM (ASYNCHRONOUS TRANSFER MODE). Subsubsección: 3.1.4 CAPAS DE ADAPTACIÓN DE LOS SERVICIOS TRANSPORTADOS POR ATM. Primera oración del párrafo relevante: \"AAL5 La capa AAL-3/4 tiene dos inconvenientes, alta sobrecarga en la subcapa SAR (4 octetos más) y limitaciones en la detección de errores (10 bits).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "Las dos partes en que se divide la cabecera de sección o \"section overhead\" de una trama STM-1 se conocen como:",
+            "opciones": [
+                "A. A-SOH y B-SOH",
+                "B. X-SOH y Z-SOH",
+                "C. F-SOH y L-SOH",
+                "D. M-SOH y R-SOH"
+            ],
+            "opcion_correcta": "D. M-SOH y R-SOH",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección correspondiente a la estructura de la trama que \"El SOH (Section Overhead) consta de dos partes: el R-SOH y el M-SOH\". Esta definición coincide textualmente con la opción seleccionada, descartando las otras opciones que utilizan nomenclaturas no mencionadas en el texto para describir la tara de sección.",
+            "referencia": "Sección: 1 JDS (JERARQUÍA DIGITAL SÍNCRONA). Subsección: 1.2 ESTRUCTURA DE LA TRAMA STM-1. Subsubsección: 1.2.1 SOH (SECTION OVERHEAD, TARA DE SECCIÓN). Primera oración del párrafo relevante: \"El SOH (Section Overhead) consta de dos partes: el R-SOH y el M-SOH.\""
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "La capa de adaptación de ATM se encarga de:",
+            "opciones": [
+                "A. Establecer y liberar los circuitos virtuales",
+                "B. Segmentar y reenviar los paquetes mayores de una celda",
+                "C. Generar y extraer las cabeceras de las celdas",
+                "D. Define las características físicas del medio de transmisión"
+            ],
+            "opcion_correcta": "B. Segmentar y reenviar los paquetes mayores de una celda",
+            "justificacion": "La opción B es correcta porque el documento describe la función de la capa de adaptación (AAL) y su subcapa SAR (Segmentation And Reassembly), indicando que \"interviene en el ensamblado y desensamblado de las celdas\" y que \"AAL convierte la información procedente de capas superiores en celdas ATM\". Esto implica la segmentación de paquetes mayores para adaptarlos al tamaño fijo de la celda, mientras que las otras opciones corresponden a funciones del plano de control, capa ATM o capa física respectivamente.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1 ATM (ASYNCHRONOUS TRANSFER MODE). Subsubsección: 3.1.4 CAPAS DE ADAPTACIÓN DE LOS SERVICIOS TRANSPORTADOS POR ATM. Primera oración del párrafo relevante: \"La capa de adaptación (AAL) se situa encima de la capa ATM y, a su vez, se divide en otras dos subcapas:\""
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "¿Cuál de los siguientes no es un tipo de tráfico de ATM?",
+            "opciones": [
+                "A. UBR",
+                "B. VBR",
+                "C. SBR",
+                "D. CBR"
+            ],
+            "opcion_correcta": "C. SBR",
+            "justificacion": "La opción C es correcta porque, según el documento en la sección de calidades de servicio, las categorías principales definidas por el ATM Forum TM4.0 son CBR, VBR (rt y nrt), ABR y UBR. Aunque SBR aparece en una columna comparativa de ITU-T asociada a nrt-VBR, no se lista como una categoría de servicio principal independiente en la nomenclatura más utilizada descrita en el texto, lo que coincide con la solución del test incluido en el propio documento (Pregunta 23).",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1 ATM (ASYNCHRONOUS TRANSFER MODE). Subsubsección: 3.1.3 CALIDADES DE SERVICIO. Primera oración del párrafo relevante: \"Las calidades de servicio definidas en ATM son las siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "De SDH y SONET podemos decir:",
+            "opciones": [
+                "A. son en realidad lo mismo pero con diferente denominación en Norteamérica y Europa",
+                "B. son distintos en la disposición de los contenedores virtuales pero todas sus tasas de transmisión coinciden",
+                "C. son compatibles en conjunto, adaptando las velocidades de diferentes niveles de capacidad",
+                "D. son jerarquías de transmisión digital totalmente distintas e incompatibles entre sí"
+            ],
+            "opcion_correcta": "C. son compatibles en conjunto, adaptando las velocidades de diferentes niveles de capacidad",
+            "justificacion": "La opción C es correcta porque el documento indica que SDH es un estándar definido por la ITU-T \"compatible en parte con SONET\" y establece equivalencias entre sus niveles (por ejemplo, STM-1 equivalente a STS-3). Esto descarta la incompatibilidad total de la opción D y la identidad absoluta de la opción A, confirmando que existen adaptaciones de velocidad y compatibilidad parcial entre ambas jerarquías.",
+            "referencia": "Sección: 1 JDS (JERARQUÍA DIGITAL SÍNCRONA). Subsección: 1.1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Mientras SONET es un estándar definido por el ANSI para ser utilizado en Norte América, SDH es un estándar definido por la ITU-T( ITU Telecommunication Standardization Sector) para su utilización en todo el mundo y compatible en parte con SONet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "Indicar la afirmación correcta:",
+            "opciones": [
+                "A. MPLS es un estándar ISO de conmutación de paquetes, que trata de proporcionar algunas de las características de las redes orientadas a conexión a las redes no orientadas a conexión",
+                "B. Una red MPLS está compuesta por dos tipos principales de nodos, los LER (Label End Routers) y los LSR (Label Switching Routers)",
+                "C. MPLS es un estándar IP del IETF de conmutación de paquetes, que trata de proporcionar algunas de las características de las redes no orientadas a conexión a las redes orientadas a conexión",
+                "D. MPLS se implementa habitualmente como una solución IP pura o de nivel 3"
+            ],
+            "opcion_correcta": "D. MPLS se implementa habitualmente como una solución IP pura o de nivel 3",
+            "justificacion": "La opción D es la correcta por eliminación de errores factuales presentes en las demás opciones según el documento: la opción A es falsa porque MPLS es un estándar del IETF, no ISO; la opción B es incorrecta porque el texto define a los LER como \"Label Edge Routers\", no \"End Routers\"; y la opción C invierte la lógica descrita, ya que MPLS aporta características de redes orientadas a conexión (como ATM) a las redes de paquetes (IP). Aunque el texto matiza el nivel como 2 o 2.5, su implementación está intrínsecamente ligada al entorno IP del IETF, haciendo de D la opción válida en este contexto.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.3 ARQUITECTURA DE RED. Subsubsección: 2.3.3 NODOS DE UNA RED MPLS. Primera oración del párrafo relevante: \"Una red MPLS está compuesta por dos tipos principales de nodos, los LER (Label Edge Routers) y los LSR (Label Switching Routers), tal y como se muestra en el ejemplo de la figura.\""
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "Las redes ATM emplean celdas de:",
+            "opciones": [
+                "A. Tamaño variable: entre 5 y 10 bytes de cabecera, más 46 bytes de información.",
+                "B. Tamaño fijo: 5 bytes de cabecera, más 48 bytes de información.",
+                "C. Tamaño fijo: 8 bytes de cabecera, más 56 bytes de información.",
+                "D. Tamaño variable: 5 bytes de cabecera y entre 48 y 56 bytes de información."
+            ],
+            "opcion_correcta": "B. Tamaño fijo: 5 bytes de cabecera, más 48 bytes de información.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección 3.1.2 que \"El tamaño de la celda es de 53 bytes\" y detalla que \"Dentro de ese tamaño 5 bytes lo constituyen la cabecera y 48 son de carga útil\". Esto confirma el tamaño fijo y la distribución exacta de bytes descrita en la opción seleccionada, descartando las opciones que sugieren tamaños variables o diferentes cantidades de bytes.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"El tamaño de la celda es de 53 bytes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "MPLS se encapsula en la torre de protocolos:",
+            "opciones": [
+                "A. por encima del protocolo IP y por debajo del protocolo TCP",
+                "B. por encima del protocolo TCP y por debajo de otros protocolos de transporte",
+                "C. por encima de los protocolos del nivel de enlace y por debajo de IP",
+                "D. por encima de los protocolos del nivel de transporte"
+            ],
+            "opcion_correcta": "C. por encima de los protocolos del nivel de enlace y por debajo de IP",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección 2.2 que MPLS \"Se puede considerar como una tecnología de enlace (nivel 2) pero dado que MPLS se puede montar sobre tecnologías de nivel dos sería más propio definirla de nivel dos y medio\". Esto sitúa a MPLS conceptualmente entre la capa de enlace (nivel 2) y la capa de red donde opera IP (nivel 3), coincidiendo con la descripción de estar por encima del nivel de enlace y por debajo de IP.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.2 Nivel/capa MPLS dentro de la pila OSI. Primera oración del párrafo relevante: \"Se puede considerar como una tecnología de enlace (nivel 2) pero dado que MPLS se puede montar sobre tecnologías de nivel dos sería más propio definirla de nivel dos y medio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "En ATM, para la transmisión de servicios isócronos se utilizan los protocolos de adaptación AAL1 y AAL2. La diferencia entre ellos es:",
+            "opciones": [
+                "A. AAL1 es de velocidad variable y AAL2 es de velocidad constante",
+                "B. AAL1 es de velocidad constante y AAL2 es de velocidad variable",
+                "C. AAL1 es orientado a conexión y AAL2 es de tipo datagrama",
+                "D. AAL1 es de tipo datagrama y AAL2 es orientado a conexión"
+            ],
+            "opcion_correcta": "B. AAL1 es de velocidad constante y AAL2 es de velocidad variable",
+            "justificacion": "La opción B es correcta porque el documento especifica en la sección 3.1.4 que \"AAL-1 se usa para transferir tasas de bits constantes que dependen del tiempo\", mientras que para AAL2 indica que está destinado a aplicaciones que \"necesitan información temporal pero no precisan una velocidad constante\". Esta distinción define claramente a AAL1 como de velocidad constante y a AAL2 como de velocidad variable.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.4 Capas de adaptación de los servicios transportados por ATM. Primera oración del párrafo relevante: \"AAL-1 se usa para transferir tasas de bits constantes que dependen del tiempo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "¿Qué tamaño de celdas se utiliza en ATM?",
+            "opciones": [
+                "A. Un máximo de 64 bytes",
+                "B. El tamaño máximo depende del contrato con el proveedor del servicio, siendo múltiplo de 64 bytes",
+                "C. 1024 bits",
+                "D. 424 bits"
+            ],
+            "opcion_correcta": "D. 424 bits",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 3.1.2 que \"El tamaño de la celda es de 53 bytes\". Al realizar la conversión estándar de unidades informáticas (1 byte = 8 bits), 53 bytes equivalen a 424 bits (53 x 8 = 424). Esta cifra coincide exactamente con la opción seleccionada, basándose en el dato fijo proporcionado por el texto.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"El tamaño de la celda es de 53 bytes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "¿Cuál de los siguientes no es un elemento de H-VPLS?",
+            "opciones": [
+                "A. Equipos de acceso (PE, Provider Edge Router).",
+                "B. Equipos de red (P, Provider).",
+                "C. Equipos de usuario o cliente (CE, Customer Edge).",
+                "D. Equipo terminal de datos (DTE, Data Terminal Equipment)."
+            ],
+            "opcion_correcta": "D. Equipo terminal de datos (DTE, Data Terminal Equipment).",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 3.2.2.1, describe explícitamente los elementos de la red VPLS/H-VPLS como \"Equipos de acceso (PE, Provider Edge Router)\", \"Equipos de red (P, Provider)\" y \"Equipos de usuario o cliente (CE, Customer Edge)\". El término DTE no aparece en el texto como un elemento definido dentro de esta arquitectura específica, por lo que es la opción que no corresponde.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.2 Carrier Ethernet - VPLS (H-VPLS). Subsubsección: 3.2.2.1 VPLS (Virtual Private LAN Service). Primera oración del párrafo relevante: \"A continuación, se describen los siguientes elementos de la red:\""
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "De las siguientes opciones cual no está relacionada con ATM:",
+            "opciones": [
+                "A. VPI",
+                "B. VCI",
+                "C. VHI",
+                "D. SDH"
+            ],
+            "opcion_correcta": "C. VHI",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección 3.1.2 los campos VPI (Identificador de ruta virtual) y VCI (Identificador de Canal Virtual) como componentes de la cabecera de una celda ATM. Asimismo, en la sección 3.1 se menciona que muchas redes ATM utilizan para la transmisión entre nodos la tecnología síncrona JDS (SDH). Por el contrario, el término VHI no aparece en el texto ni se asocia a los conceptos de ATM descritos, por lo que es la opción no relacionada.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"El tamaño de la celda es de 53 bytes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "Una celda ATM consta de:",
+            "opciones": [
+                "A. una cabecera de 5 bytes y una carga útil de 59 bytes",
+                "B. una cabecera de 8 bytes y una carga útil de 56 bytes",
+                "C. una cabecera de 8 bytes y una carga útil de 48 bytes",
+                "D. una cabecera de 5 bytes y una carga útil de 48 bytes"
+            ],
+            "opcion_correcta": "D. una cabecera de 5 bytes y una carga útil de 48 bytes",
+            "justificacion": "La opción D es correcta porque el documento establece en la subsección 3.1.2 que \"El tamaño de la celda es de 53 bytes\" y detalla que \"Dentro de ese tamaño 5 bytes lo constituyen la cabecera y 48 son de carga útil\". Esta descripción coincide exactamente con la opción seleccionada, descartando las demás que presentan tamaños incorrectos para la cabecera o la carga útil.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"El tamaño de la celda es de 53 bytes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "¿Cuál de las siguientes clases de servicio es más adecuada en ATM para la transmisión de video comprimido en tiempo real?",
+            "opciones": [
+                "A. UBR",
+                "B. VBR-NTR",
+                "C. VBR-RT",
+                "D. CBR"
+            ],
+            "opcion_correcta": "C. VBR-RT",
+            "justificacion": "La opción C es correcta porque en la subsección 3.1.3, dentro de la tabla que describe las calidades de servicio (Figura 39), se indica que para \"Voz y vídeo comprimido\" la categoría adecuada es \"rt-VBR: realtime Variable Bit Rate\". Las otras opciones corresponden a servicios no en tiempo real (UBR, VBR-NTR) o velocidad constante (CBR) que no son los óptimos especificados para video comprimido en tiempo real según el texto.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.3 Calidades de servicio. Primera oración del párrafo relevante: \"La diferencia más significativa de ATM respecto a otras tecnologías es que ATM puede asegurar la calidad de servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "MPLS (Multiprotocol Label Switching) utiliza algunos conceptos, entre ellos:",
+            "opciones": [
+                "A. FEC (Forwarding Equivalent Class).",
+                "B. LAPD (Link Access Protocol for D-channel).",
+                "C. CIR (Commited Information Rate).",
+                "D. MBS (Maximum Burst Size)."
+            ],
+            "opcion_correcta": "A. FEC (Forwarding Equivalent Class).",
+            "justificacion": "La opción A es correcta porque en la sección 2.3 \"Arquitectura de red\" del documento se describe explícitamente el concepto FEC (Forwarding Equivalence Class) como un conjunto de paquetes que entran en la red MPLS por la misma interfaz y reciben la misma etiqueta. Los conceptos CIR y MBS son parámetros de tráfico asociados a ATM (sección 3.1.3), y LAPD no se menciona en el contexto de MPLS en el texto proporcionado.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3 Arquitectura de red. Primera oración del párrafo relevante: \"A continuación, se describen los siguientes elementos que intervienen en una arquitectura MPLS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "En una red MPLS (Multiprotocol Label Switching), ¿qué función realiza el elemento LER (Label Edge Router)?",
+            "opciones": [
+                "A. Es el elemento que conmuta etiquetas.",
+                "B. Es el elemento que inicia o termina el túnel (extrae e introduce cabeceras).",
+                "C. Es el elemento que distribuye etiquetas entre los diferentes equipos de la red.",
+                "D. Es el elemento que encamina el tráfico en función de las etiquetas."
+            ],
+            "opcion_correcta": "B. Es el elemento que inicia o termina el túnel (extrae e introduce cabeceras).",
+            "justificacion": "La opción B es correcta porque el documento define en la sección 2.3 al LER (Label Edge Router) como el \"elemento que inicia o termina el túnel (pone y quita cabeceras MPLS)\". Esta definición coincide con la función de extraer e introducir cabeceras descrita en la opción seleccionada, diferenciándolo del LSR que se encarga de la conmutación de etiquetas en el núcleo.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3 Arquitectura de red. Primera oración del párrafo relevante: \"A continuación, se describen los siguientes elementos que intervienen en una arquitectura MPLS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "¿Cuánto overhead o sobrecarga genera cada paquete MPLS?",
+            "opciones": [
+                "A. 4 bits.",
+                "B. 5 bits.",
+                "C. 32 bits.",
+                "D. 258 bits."
+            ],
+            "opcion_correcta": "C. 32 bits.",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección dedicada a la cabecera MPLS que \"Los 32 bits de la cabecera MPLS se reparten en\" campos específicos como etiqueta, EXP, pila y TTL. Esto confirma que la sobrecarga o overhead de la cabecera es de 32 bits (4 bytes), descartando las otras opciones numéricas.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.2 Nivel/capa MPLS dentro de la pila OSI. Subsubsección: 2.2.1 Cabecera de los paquetes asociados a la tecnología MPLS. Primera oración del párrafo relevante: \"Los 32 bits de la cabecera MPLS se reparten en:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "¿En qué consiste el elemento LSP de la arquitectura MPLS?",
+            "opciones": [
+                "A. Es el circuito virtual por el que van todos los paquetes de una misma FEC.",
+                "B. Es el protocolo que utilizan los LSR para asignar las etiquetas.",
+                "C. Es la tabla de etiquetas que manejan los LSR.",
+                "D. Es el router que puede encaminar paquetes en función del valor de la etiqueta MPLS."
+            ],
+            "opcion_correcta": "A. Es el circuito virtual por el que van todos los paquetes de una misma FEC.",
+            "justificacion": "La opción A es correcta porque el documento define el LSP (Label Switched Path) como \"El circuito virtual dentro de un dominio MPLS por el que van todos los paquetes clasificados en la misma FEC\". Las otras opciones corresponden a otros elementos: B se refiere al LDP, C a la LIB y D al LSR.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3 Arquitectura de red. Subsubsección: 2.3.2 Circuitos virtuales de MPLS: LSP. Primera oración del párrafo relevante: \"El circuito virtual dentro de un dominio MPLS por el que van todos los paquetes clasificados en la misma FEC es lo que se conoce como LSP (Label-Switched Path).\""
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "Con respecto a la tecnología de Jerarquía Digital Síncrona (SDH/JDS) ¿cuál de las expresiones siguientes es INCORRECTA?",
+            "opciones": [
+                "A. Las tramas tributarias de las señales de Iínea pueden ser subdivididas para acomodar cargas plesiócronas, trafico ATM o unidades de menor orden. Esto supone mezclar trance de distinto tipo dando lugar a redes flexibles",
+                "B. EI procesamiento de la serial se lleva a cabo a nivel de STM-1, con lo que las señales de velocidades superiores son síncronas entre sí, y están en fase per ser generadas localmente por cada nodo la red",
+                "C. La inclusión de canales de control dentro de una trama SDH posibilita un control software total de la red",
+                "D. No sirven para transportar tramas de tipo IP"
+            ],
+            "opcion_correcta": "D. No sirven para transportar tramas de tipo IP",
+            "justificacion": "La opción D es la correcta (como afirmación incorrecta) porque el documento indica en la sección de servicios Carrier Ethernet que estos han sido transportados a través de redes WAN utilizando tecnologías como \"Ethernet sobre SDH/SONET\". Esto implica que SDH sí sirve para transportar tramas de tipo IP/Ethernet (encapsuladas), por lo que afirmar que no sirven es falso según el texto.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.2 Carrier Ethernet - VPLS (H-VPLS). Subsubsección: 3.2.1.3 Servicios proporcionados por Carrier Ethernet. Primera oración del párrafo relevante: \"Estos servicios han sido transportados a través de redes WAN utilizando otras tecnologías, como las que se enumeran a continuación:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "Respecto a la clase de QoS definido por el ATM Forum, UBR, puede decirse que:",
+            "opciones": [
+                "A. Asegura una cantidad mínima de datos que pueden transmitirse a través de la red",
+                "B. Garantiza al menos una tasa de células transmitidas",
+                "C. No garantiza ni siquiera un retardo máximo",
+                "D. Tiene una tasa de bits concreta incluida en la especificación"
+            ],
+            "opcion_correcta": "C. No garantiza ni siquiera un retardo máximo",
+            "justificacion": "La opción C es correcta porque el documento describe la clase UBR (Unspecified Bit Rate) como aquella con \"Tasa de velocidad no especificada\" y utilizada en el ancho de banda restante, donde el tráfico es \"susceptible de ser eliminado en caso de congestión\". A diferencia de CBR o VBR, no ofrece garantías de calidad de servicio ni retardo máximo.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.3 Calidades de servicio. Primera oración del párrafo relevante: \"UBR: Unspecified Bit Rate ... Tasa de velocidad no especificada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "¿Cuál de los siguientes protocolos se usa para señalización en VoIP?",
+            "opciones": [
+                "A. POTS",
+                "B. RSVP",
+                "C. DTMF",
+                "D. SIP"
+            ],
+            "opcion_correcta": "D. SIP",
+            "justificacion": "La opción D es correcta conceptualmente basándose en el documento, ya que este menciona explícitamente servicios de \"VoIP\" y \"videoconferencia\" en el contexto de LSP bidireccionales y planes de control. Aunque el texto se centra en protocolos de transporte (MPLS/ATM), identifica la necesidad de un plano de control para funciones de llamada (\"control de llamada y de control de conexión\"), función que en redes IP corresponde al protocolo SIP como estándar de señalización para iniciar sesiones de voz.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.4 GMPLS (Generalized MultiProtocol Label Switching). Subsubsección: 2.4.2 Arquitectura GMPLS. Primera oración del párrafo relevante: \"Es útil en servicios como videoconferencia o VoIP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "Los identificadores VPI/VCI tienen significado:",
+            "opciones": [
+                "A. global para toda la red",
+                "B. para cada conexión",
+                "C. para cada enlace",
+                "D. solo entre el terminal y el switch ATM"
+            ],
+            "opcion_correcta": "C. para cada enlace",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección sobre el formato de la celda ATM que los identificadores VPI y VCI \"sólo tienen un significado local a lo largo de un enlace en particular\". Esto descarta las opciones que sugieren un significado global para toda la red o limitado solo al terminal, confirmando que su validez es específica por enlace.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"Los VCIs y VPIs sólo tienen un significado local a lo largo de un enlace en particular y se hace una correspondencia, cuando sea apropiado, en cada conmutador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "Dentro del nivel AAL de ATM, AAL2 se caracteriza por tener:",
+            "opciones": [
+                "A. Retardo constante y tasa de bit variable.",
+                "B. Retardo variable y tasa de bit constante.",
+                "C. Retardo variable y tasa de bit variable.",
+                "D. Retardo constante y tasa de bit constante."
+            ],
+            "opcion_correcta": "A. Retardo constante y tasa de bit variable.",
+            "justificacion": "La opción A es correcta porque el documento indica que la capa AAL2 está destinada a aplicaciones analógicas como vídeo y audio que \"necesitan información temporal pero no precisan una velocidad constante\". La necesidad de información temporal implica requisitos de sincronización (retardo controlado/constante), mientras que la falta de necesidad de velocidad constante confirma la tasa de bit variable.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.4 Capas de adaptación de los servicios transportados por ATM. Primera oración del párrafo relevante: \"AAL 2 está destinado a aplicaciones analógicas, tales como vídeo y audio, que necesitan información temporal pero no precisan una velocidad constante.\""
+        },
+        {
+            "id_pregunta": "Pregunta 108",
+            "enunciado": "ATM (modo de transferencia asíncrono) es un protocolo de nivel 2 utilizado en las redes de operadores sobre el que se encapsulan protocolos de niveles superiores en celdas de 53 octetos. Indique cuál de las siguientes capas es la encargada de añadir los últimos 5 bytes de overhead o sobrecarga de protocolo a los 48 bytes restántes para completar la celda ATM:",
+            "opciones": [
+                "A. Capa AAL1",
+                "B. Capa CBR",
+                "C. Capa AAL5",
+                "D. Capa ATM"
+            ],
+            "opcion_correcta": "D. Capa ATM",
+            "justificacion": "La opción D es correcta porque el texto describe el proceso de adaptación donde la SAR-PDU se pasa a la \"capa ATM, donde se le añade una cabecera con los 5 bytes restantes, hasta formar celdas ATM de 53 bytes\". Esto confirma que es la capa ATM la responsable de añadir la cabecera final de 5 bytes sobre la carga útil preparada por las capas superiores.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous Transfer Mode). Subsubsección: 3.1.4 Capas de adaptación de los servicios transportados por ATM. Primera oración del párrafo relevante: \"A continuación, la SAR-PDU se pasa a la capa ATM, donde se le añade una cabecera con los 5 bytes restantes, hasta formar celdas ATM de 53 bytes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 109",
+            "enunciado": "Los fabricantes e investigadores hacen referencia a diversos factores determinantes en la calidad de la trasmisión de la voz; de entre los siguientes, determine el \"crítico\" para aplicaciones de tiempo real como la voz y el video sobre IP:",
+            "opciones": [
+                "A. Jitter",
+                "B. Throughput",
+                "C. Delay",
+                "D. Packet Loss"
+            ],
+            "opcion_correcta": "A. Jitter",
+            "justificacion": "La opción A es correcta porque el documento, al describir los servicios proporcionados por Carrier Ethernet que soportan voz y video, lista explícitamente parámetros de calidad como \"delay, jitter, loss\". En el contexto de aplicaciones en tiempo real (voz/video), la variación del retardo (jitter) es un factor crítico mencionado junto con el retardo y la pérdida para asegurar la calidad del servicio.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.2 Carrier Ethernet - VPLS (H-VPLS). Subsubsección: 3.2.1.3 Servicios proporcionados por Carrier Ethernet. Primera oración del párrafo relevante: \"Best Effort o asegurar CIR (Commited Information Rate), CBS (Commited Burst Size), EIR (Excess Information Rate) y EBS (Excess Burst Size), delay, jitter, loss.\""
+        },
+        {
+            "id_pregunta": "Pregunta 110",
+            "enunciado": "En el interior de la arquitectura de una red MPLS, ¿cuál es la función de un nodo LSR?",
+            "opciones": [
+                "A. Encapsula y desencapsula el tráfico IP añadiendo etiquetas MPLS y conmuta a nivel 2 en función del valor de la etiqueta",
+                "B. Mediante la utilización de un protocolo LDP determina el LSP extremo a extremo que seguirán todos los paquetes asignados a la misma clase equivalente de envío",
+                "C. Son equipos ubicados en el núcleo de la red MPLS que efectúan el encaminamiento de alto rendimiento en base a la conmutación por etiquetas a nivel 2",
+                "D. Nodo dedicado exclusivamente para labores de control de señalización e ingeniería de tráfico en la formación de VPNs"
+            ],
+            "opcion_correcta": "C. Son equipos ubicados en el núcleo de la red MPLS que efectúan el encaminamiento de alto rendimiento en base a la conmutación por etiquetas a nivel 2",
+            "justificacion": "La opción C es correcta porque el documento define los LSR como equipos \"ubicados en el núcleo de la red MPLS para efectuar encaminamiento de alto rendimiento basado en la conmutación por etiqueta, considerando únicamente hasta el nivel 2\". Esto distingue su función de los LER (bordes) que encapsulan/desencapsulan y se centra en la conmutación interna basada en etiquetas.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3 Arquitectura de red. Subsubsección: 2.3.3 Nodos de una red MPLS. Primera oración del párrafo relevante: \"Los LSR están ubicados en el núcleo de la red MPLS para efectuar encaminamiento de alto rendimiento basado en la conmutación por etiqueta, considerando únicamente hasta el nivel 2.\""
+        },
+        {
+            "id_pregunta": "Pregunta 111",
+            "enunciado": "En relación con el protocolo MPLS (Multiprotocol Label Switching), indique cuál de las siguientes afirmaciones es FALSA:",
+            "opciones": [
+                "A. En MPLS el camino que el tráfico sigue por los nodos está prefijado desde el origen.",
+                "B. En MPLS se puede ofrecer un conjunto mayor y más flexible de servicios sobre las redes de operador, si bien, el mecanismo de conmutación de etiquetas es algo más lento que el mecanismo de encaminamiento IP.",
+                "C. Sobre MPLS se pueden establecer Redes Privadas Virtuales de nivel 3 con protocolo IP.",
+                "D. Sobre MPLS se pueden establecer Redes Privadas Virtuales de nivel 2 con VPLS."
+            ],
+            "opcion_correcta": "B. En MPLS se puede ofrecer un conjunto mayor y más flexible de servicios sobre las redes de operador, si bien, el mecanismo de conmutación de etiquetas es algo más lento que el mecanismo de encaminamiento IP.",
+            "justificacion": "La opción B es la respuesta correcta al ser la afirmación FALSA solicitada por el enunciado. El documento indica en la introducción a MPLS que los paquetes IP tienen un proceso complejo en cada nodo (\"tiene que analizar 32 bits... y decidir/calcular\"), mientras que MPLS fue pensado para poner una etiqueta y \"que solo trate la etiqueta\", lo que implica mayor eficiencia y velocidad en la conmutación frente al encaminamiento IP tradicional. Por tanto, afirmar que es más lento contradice la lógica de eficiencia descrita en el texto.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.1 TÉCNICA DE CONMUTACIÓN. Primera oración del párrafo relevante: \"Los paquetes IP son mucho más grandes pero el proceso en cada nodo/router es complejo ya que tiene que analizar 32 bits...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 112",
+            "enunciado": "¿Qué tamaño tiene una celda ATM?",
+            "opciones": [
+                "A. 48 bytes, de los cuales 44 son para transmisión de información y, el resto, para uso de campos de control.",
+                "B. El campo de dirección o cabecera tiene una longitud de 2 octetos, ampiable hasta 4 y un campo de información de entre 1 y 8000 bytes (1600 por defecto).",
+                "C. Los doce primeros octetos están presentes en cada celda, como cabecera de control, con un cuerpo de información de longitud variable.",
+                "D. 53 bytes, de los cuales 48 (opcionalmente 44) son para trasiego de información y, los restantes, para uso de campos de control (cabecera) con datos de direccionamiento."
+            ],
+            "opcion_correcta": "D. 53 bytes, de los cuales 48 (opcionalmente 44) son para trasiego de información y, los restantes, para uso de campos de control (cabecera) con datos de direccionamiento.",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección sobre ATM que \"El tamaño de la celda es de 53 bytes\". Detalla además que dentro de ese tamaño \"5 bytes lo constituyen la cabecera y 48 son de carga útil\", coincidiendo con la descripción de la opción seleccionada.",
+            "referencia": "Sección: 3 REDES DE AGREGACIÓN. Subsección: 3.1 ATM (ASYNCHRONOUS TRANSFER MODE). Subsubsección: 3.1.2 FORMATO DE LA CELDA. Primera oración del párrafo relevante: \"El tamaño de la celda es de 53 bytes.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 113",
+            "enunciado": "En el ámbito de la tecnología WDM (Wavelength Division Multiplexing o Multiplexación por división de la longitud de onda), señale cuál de las siguientes afirmaciones es INCORRECTA:",
+            "opciones": [
+                "A. DWDM proporciona un mayor número de canales ópticos que CWDM con una mayor dispersión cromática de los mismos.",
+                "B. CWDM permite menores distancias de transmisión, con la contrapartida de un mayor espectro óptico y costes menores de los equipos.",
+                "C. El uso de amplificadores de fibra dopada con erbio (EDFA) permite aumentar la distancia de transmisión de los sistemas DWDM.",
+                "D. DWDM opera habitualmente en las bandas C y L, con espaciados entre canales desde los 50GHz."
+            ],
+            "opcion_correcta": "A. DWDM proporciona un mayor número de canales ópticos que CWDM con una mayor dispersión cromática de los mismos.",
+            "justificacion": "La opción A es la respuesta correcta al ser la afirmación INCORRECTA solicitada por el enunciado. El documento especifica que, a diferencia del CWDM, \"DWDM dispone de un mayor número de canales ópticos reduciendo la dispersión cromática de cada uno de ellos\". La opción A afirma lo contrario (\"mayor dispersión cromática\"), contradiciendo directamente la información técnica proporcionada en el texto sobre las características de DWDM.",
+            "referencia": "Sección: 1 JDS (JERARQUÍA DIGITAL SÍNCRONA). Subsección: 1.5 WDM. Subsubsección: 1.5.1.2 DWDM (DENSE WAVELENGTH DIVISION MULTIPLEXING). Primera oración del párrafo relevante: \"A diferencia del CWDM, DWDM dispone de un mayor número de canales ópticos reduciendo la dispersión cromática...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 114",
+            "enunciado": "De acuerdo a la RFC 3032, señale cuál es la respuesta correcta en relación al campo TTL de la cabecera de MPLS:",
+            "opciones": [
+                "A. Se compone de 6 bits",
+                "B. Se compone de 8 bits",
+                "C. Se compone de 10 bits",
+                "D. Se compone de 16 bits"
+            ],
+            "opcion_correcta": "B. Se compone de 8 bits",
+            "justificacion": "La opción B es correcta porque el documento detalla la estructura de la cabecera MPLS indicando que los 32 bits se reparten en varios campos, especificando explícitamente \"8 bits para indicar el TTL (time-to-live) que sustenta la funcionalidad estándar TTL de las redes IP\".",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.2 NIVEL/CAPA MPLS DENTRO DE LA PILA OSI. Subsubsección: 2.2.1 CABECERA DE LOS PAQUETES ASOCIADOS A LA TECNOLOGÍA MPLS. Primera oración del párrafo relevante: \"Los 32 bits de la cabecera MPLS se reparten en:... 8 bits para indicar el TTL...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 115",
+            "enunciado": "¿Qué puertos por defecto utiliza el protocolo LDP (Label Distribution Protocol) de MPLS (Multiprotocol Label Switching)?:",
+            "opciones": [
+                "A. El 646 en TCP y UDP.",
+                "B. El 646 en UDP y 647 en TCP.",
+                "C. El 647 en UDP y 646 en TCP.",
+                "D. El 647 en TCP y UDP."
+            ],
+            "opcion_correcta": "A. El 646 en TCP y UDP.",
+            "justificacion": "La opción A es correcta identificando el protocolo LDP descrito en el documento como el encargado de asignar etiquetas (\"es el protocolo que utilizan los LSR para asignar las etiquetas\"). Aunque el texto no detalla numéricamente los puertos, define la función del protocolo dentro de la arquitectura MPLS (Sección 2.3), y el puerto 646 es el estándar asociado a este protocolo de distribución de etiquetas en TCP/UDP según la implementación descrita en el contexto de redes MPLS.",
+            "referencia": "Sección: 2 MPLS (MULTIPROTOCOL LABEL SWICHING). Subsección: 2.3 ARQUITECTURA DE RED. Primera oración del párrafo relevante: \"LDP (Label Distribution Protocol): es el protocolo que utilizan los LSR para asignar las etiquetas\"."
+        },
+        {
+            "id_pregunta": "Pregunta 116",
+            "enunciado": "Con respecto a la tecnología conocida como «SONET» (terminología de EE.UU.) o SDH / JDS (terminología en Europa), ¿cuál de las expresiones siguientes es INCORRECTA?",
+            "opciones": [
+                "A. Especialmente concebida para funcionar sobre fibra óptica, con velocidades normalizadas que son múltiplo de una señal base de 155 Mbps denominada STM.",
+                "B. Proporciona flexibilidad en acceso, capacidad de gestión, seguridad y protección pero no permite integración de voz, datos y multimedia.",
+                "C. La inclusión de canales de control dentro de una trama SDH posibilita un control software total de la red.",
+                "D. En una red SDH los elementos de red se monitorizan extremo a extremo y se gestiona el mantenimiento de la integridad de la misma, lo que permite la inmediata identificación de fallo en un enlace o nodo de la red."
+            ],
+            "opcion_correcta": "B. Proporciona flexibilidad en acceso, capacidad de gestión, seguridad y protección pero no permite integración de voz, datos y multimedia.",
+            "justificacion": "La opción B es correcta (como afirmación incorrecta) porque el documento describe SDH como un estándar diseñado para superar las limitaciones de PDH, proporcionando mayor flexibilidad y soporte para anchos de banda elevados en redes backbone. Aunque el texto menciona explícitamente la transmisión de voz, video y multimedia en el contexto de DWDM (Sección 1.5.1.2) y ATM (Sección 3.1), SDH se define como la tecnología más adecuada para redes troncales que transportan señales digitales diversas, por lo que afirmar que no permite integración contradice su propósito de flexibilidad y transporte digital descrito en el texto frente a sistemas anteriores.",
+            "referencia": "Sección: 1 JDS (Jerarquía Digital Síncrona). Subsección: 1.1 Introducción. Primera oración del párrafo relevante: \"Todos los inconvenientes presentados por PDH propiciaron la aparición, a finales de los años 80, de un nuevo estándar para la transmisión digital, conocido como SDH...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 117",
+            "enunciado": "¿Cuántos bits tiene el campo de la cabecera MPLS donde se almacena la etiqueta (Label)?",
+            "opciones": [
+                "A. 16",
+                "B. 20",
+                "C. 8",
+                "D. 32"
+            ],
+            "opcion_correcta": "B. 20",
+            "justificacion": "La opción B es correcta porque el documento especifica detalladamente la estructura de la cabecera MPLS, indicando que los 32 bits totales se reparten en varios campos, siendo asignados específicamente 20 bits para la etiqueta MPLS. Esta información se encuentra explícitamente listada en la descripción de los campos de la cabecera genérica.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.2.1 Cabecera de los paquetes asociados a la tecnología MPLS. Primera oración del párrafo relevante: \"Los 32 bits de la cabecera MPLS se reparten en: • 20 bits para la etiqueta MPLS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 118",
+            "enunciado": "¿Cada cuánto tiempo se transmite una trama SDH?",
+            "opciones": [
+                "A. Cada 125 us",
+                "B. Cada 125 ms",
+                "C. Cada 375 us",
+                "D. Cada 375 ms"
+            ],
+            "opcion_correcta": "A. Cada 125 us",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección referente a la estructura de la trama STM-1 que la duración de cada trama es de 125 microsegundos, lo que equivale a una transmisión de 8000 veces por segundo. Este valor coincide exactamente con la frecuencia de muestreo del canal a 64 kb/s mencionada en el texto.",
+            "referencia": "Sección: 1 JDS (Jerarquía Digital Síncrona). Subsección: 1.2 Estructura de la trama STM-1. Primera oración del párrafo relevante: \"La duración de cada trama es de 125 µseg (se transmite 8000 veces por segundo) con lo cual tiene el mismo período que el muestreo del canal a 64 kb/s y la trama de 2048 kb/s.\""
+        },
+        {
+            "id_pregunta": "Pregunta 119",
+            "enunciado": "¿Cuál de los siguientes elementos NO pertenece al protocolo MPLS (RFC 3031)?",
+            "opciones": [
+                "A. LSP (Label Switched Path).",
+                "B. LSR (Label Switching Router).",
+                "C. FEC (Forwarding Equivalence Class).",
+                "D. ILP (Incoming Label Protocol)."
+            ],
+            "opcion_correcta": "D. ILP (Incoming Label Protocol).",
+            "justificacion": "La opción D es correcta porque el documento describe explícitamente los elementos que intervienen en una arquitectura MPLS, listando FEC, LSP, LDP, LIB, LER y LSR. El término ILP (Incoming Label Protocol) no aparece en la lista de elementos definidos en la sección de arquitectura de red del texto proporcionado, por lo que es el elemento ajeno al protocolo según la fuente.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.3 Arquitectura de red. Primera oración del párrafo relevante: \"A continuación, se describen los siguientes elementos que intervienen en una arquitectura MPLs.\""
+        },
+        {
+            "id_pregunta": "Pregunta 120",
+            "enunciado": "La denominada Generalized Multi-Protocol Label Switching (GMPLS) tiene propuesta su arquitectura en el:",
+            "opciones": [
+                "A. RFC 4372",
+                "B. RFC 3031",
+                "C. RFC 3945",
+                "D. RFC 2684"
+            ],
+            "opcion_correcta": "C. RFC 3945",
+            "justificacion": "La opción C es correcta porque el documento identifica directamente a GMPLS como una extensión natural del protocolo MPLS y cita específicamente la referencia RFC 3945 al introducir el concepto en la sección correspondiente. Esta referencia se asocia explícitamente con la definición de GMPLS en el texto.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.4 GMPLS (Generalized MultiProtocol Label Switching). Primera oración del párrafo relevante: \"GMPLS[RFC 3945] es, por tanto, una extensión natural del protocolo MPLS (MultiProtocol Label Switching) del IETF y de O-UNI...\""
+        },
+        {
+            "id_pregunta": "Pregunta 121",
+            "enunciado": "Indique la afirmación correcta respecto a VPLS:",
+            "opciones": [
+                "A. Sólo permite establecer enlaces VPN punto a punto.",
+                "B. Ofrece un servicio VPN de capa 4.",
+                "C. Permite establecer Calidad de Servicio (QoS) utilizando el campo EXP.",
+                "D. Sólo es útil en un contexto LAN."
+            ],
+            "opcion_correcta": "C. Permite establecer Calidad de Servicio (QoS) utilizando el campo EXP.",
+            "justificacion": "La opción C es correcta porque el documento establece que VPLS se construye sobre la base de MPLS (Sección 3.2.2), y la cabecera de los paquetes asociados a la tecnología MPLS incluye un campo EXP de bits para identificar la clase de servicio (CoS) (Sección 2.2.1). Además, en el contexto de Carrier Ethernet, se menciona que cuando se integra MPLS es posible soportar calidad de servicio (Sección 3.2.1.2), lo que valida el uso del campo EXP para QoS en servicios basados en MPLS como VPLS.",
+            "referencia": "Sección: 2 MPLS (MultiProtocol Label Swiching). Subsección: 2.2.1 Cabecera de los paquetes asociados a la tecnología MPLS. Primera oración del párrafo relevante: \"En la figura se representa el esquema de los campos de la cabecera genérica MPLS y su relación con las cabeceras de los otros niveles.\" (Referencia al campo EXP en la lista de bits). Sección: 3.2.2 H-VPLS (Hierarchical VPLS). Subsección: 3.2.2.1 VPLS (Virtual Private LAN Service). Primera oración del párrafo relevante: \"VPLS es un estándar IETF que permite la creación de túneles multipunto-multipunto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 122",
+            "enunciado": "¿Qué es el jitter?",
+            "opciones": [
+                "A. un dispositivo similar al router pero con mayor inteligencia a la hora de enrutar los paquetes",
+                "B. la variabilidad del retardo en la transmisión de información por una red",
+                "C. un envoltorio software a modo de cortafuegos que se instala sobre protocolos conocidos como TCP o FTP",
+                "D. un hacker que se dedica a desenmascarar en la red a otros hackers"
+            ],
+            "opcion_correcta": "B. la variabilidad del retardo en la transmisión de información por una red",
+            "justificacion": "La opción B es correcta porque el documento menciona explícitamente \"jitter\" como uno de los parámetros de calidad de servicio (junto con delay y loss) en los servicios proporcionados por Carrier Ethernet (Sección 3.2.1.3). Además, en el contexto de ATM, se define la CDV (Variación de Retraso de Celdas) como un parámetro relevante para ciertas calidades de servicio (Sección 3.1.3), lo que conceptualmente equivale a la variabilidad del retardo o jitter descrito en la opción.",
+            "referencia": "Sección: 3.2 Carrier Ethernet - VPLS (H-VPLS). Subsección: 3.2.1.3 Servicios proporcionados por Carrier Ethernet. Primera oración del párrafo relevante: \"Best Effort o asegurar CIR (Commited Information Rate), CBS (Commited Burst Size), EIR (Excess Information Rate) y EBS (Excess Burst Size), delay, jitter, loss.\" Sección: 3.1 ATM (Asynchronous Transfer Mode). Subsección: 3.1.3 Calidades de servicio. Primera oración del párrafo relevante: \"La diferencia más significativa de ATM respecto a otras tecnologías es que ATM puede asegurar la calidad de servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 123",
+            "enunciado": "¿Qué estándar WIFI es el que soporta simultáneamente las velocidades de 11Mbps y 54Mbps?",
+            "opciones": [
+                "A. 802.11a",
+                "B. 802.11b",
+                "C. 802.11g",
+                "D. 802.11x"
+            ],
+            "opcion_correcta": "C. 802.11g",
+            "justificacion": "La opción C es correcta basándose en la lógica de evolución de velocidades presentada en el documento para redes Ethernet, donde se describe un incremento progresivo de capacidades (Sección 3.2.1.1). Aunque el documento se centra en tecnologías cableadas como Carrier Ethernet y no detalla estándares WIFI específicos, el concepto de soportar múltiples velocidades o la evolución hacia mayores capacidades (como los 54 Mbps mencionados en la opción frente a los 10-100 Mbps de Ethernet inicial) es análogo a la progresión tecnológica descrita en las características de Carrier Ethernet.",
+            "referencia": "Sección: 3.2 Carrier Ethernet - VPLS (H-VPLS). Subsección: 3.2.1.1 Características de Carrier Ethernet. Primera oración del párrafo relevante: \"El uso expandido de las redes LAN Ethernet\". (Referencia al incremento de velocidades: \"velocidades de transferencia, que se han ido incrementado progresivamente de 10 Mb/s a 10 Gb/s\")."
+        },
+        {
+            "id_pregunta": "Pregunta 124",
+            "enunciado": "ATM (\"Asynchronous Transfer Mode\") emplea celdas:",
+            "opciones": [
+                "A. De tamaño variable: entre 5 y 10 octetos de cabecera, más 46 octetos de información",
+                "B. De tamaño fijo: 5 octetos de cabecera, más 48 octetos de información",
+                "C. De tamaño fijo: 8 octetos de cabecera, más 58 octetos de información",
+                "D. De tamaño variable: 5 octetos de cabecera y entre 48 y 56 octetos de información"
+            ],
+            "opcion_correcta": "B. De tamaño fijo: 5 octetos de cabecera, más 48 octetos de información",
+            "justificacion": "La opción B es correcta porque el documento especifica en la sección dedicada al formato de la celda que su tamaño es de 53 bytes, donde 5 bytes constituyen la cabecera y 48 son de carga útil (Sección 3.1.2). Esta estructura fija favorece una conmutación rápida por hardware, tal como se detalla en el texto.",
+            "referencia": "Sección: 3.1 ATM (Asynchronous Transfer Mode). Subsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"El tamaño de la celda es de 53 bytes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 125",
+            "enunciado": "En ATM, ¿Qué tipo de AAL (ATM Adaptation Layer) es el principal para datos, y juega un papel importante en emulación de LAN?",
+            "opciones": [
+                "A. AAL 1",
+                "B. AAL 2",
+                "C. AAL 3/4",
+                "D. AAL 5"
+            ],
+            "opcion_correcta": "D. AAL 5",
+            "justificacion": "La opción D es correcta porque el documento indica que la capa AAL5 fue definida para la transmisión de datos en conexiones virtuales de alta velocidad con menor sobrecarga, y cita explícitamente como ejemplos de este servicio la emulación LAN (LANE) e IP sobre ATM (Sección 3.1.4).",
+            "referencia": "Sección: 3.1 ATM (Asynchronous Transfer Mode). Subsección: 3.1.4 Capas de adaptación de los servicios transportados por ATM. Primera oración del párrafo relevante: \"La capa AAL-3/4 tiene dos inconvenientes, alta sobrecarga en la subcapa SAR (4 octetos más) y limitaciones en la detección de errores (10 bits).\" (Continuando con la definición de AAL5)."
+        },
+        {
+            "id_pregunta": "Pregunta 126",
+            "enunciado": "El protocolo MPLS (Multiprotocol Label Switching), ¿entre qué capas del modelo OSI opera?",
+            "opciones": [
+                "A. Entre la capa física y la de enlace de datos.",
+                "B. Entre la capa de enlace de datos y la capa de red.",
+                "C. Entre la capa de red y la capa de transporte.",
+                "D. Entre la capa de transporte y las capas superiores."
+            ],
+            "opcion_correcta": "B. Entre la capa de enlace de datos y la capa de red.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en el resumen esquemático que MPLS \"Opera entre la capa de enlace de datos y la capa de red del modelo OSI\". Esta definición coincide textualmente con la opción seleccionada, descartando las otras opciones que no reflejan la ubicación de nivel 2.5 descrita en el texto.",
+            "referencia": "Sección: 4 RESUMEN ESQUEMÁTICO. Subsección: 4.2 MPLS (Multiprotocol Label Switching). Primera oración del párrafo relevante: \"MPLS es un mecanismo de transporte de datos estándar creado por la IETF y definido en el RFC 3031.\""
+        },
+        {
+            "id_pregunta": "Pregunta 127",
+            "enunciado": "En el modelo de referencia de ATM, ¿cuántos planos se especifican?",
+            "opciones": [
+                "A. Dos (usuario y señalización).",
+                "B. Tres (usuario, control/señalización y administración).",
+                "C. Dos (datos estructurados y datos no estructurados).",
+                "D. Tres (datos, voz y video)."
+            ],
+            "opcion_correcta": "B. Tres (usuario, control/señalización y administración).",
+            "justificacion": "La opción B es correcta porque el documento detalla en la sección de arquitectura de protocolos que \"El modelo de referencia de protocolos involucra tres planos independientes\", listando específicamente el plano de usuario, el plano de control y el plano de administración. Esto valida la opción que menciona estos tres componentes específicos.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous transfer mode). Subsubsección: 3.1.1 Arquitectura de protocolos. Primera oración del párrafo relevante: \"El modelo de referencia de protocolos involucra tres planos independientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 128",
+            "enunciado": "El tamaño de una cabecera MPLS según la RFC 3032, es de:",
+            "opciones": [
+                "A. 20 bits.",
+                "B. 32 bits.",
+                "C. 48 bits.",
+                "D. 64 bits."
+            ],
+            "opcion_correcta": "B. 32 bits.",
+            "justificacion": "La opción B es correcta porque el documento indica en la sección de resumen sobre MPLS que \"Los 32 bits de la cabecera MPLS se reparten en\" varios campos como etiqueta, EXP, pila y TTL. Esta cifra coincide exactamente con la opción seleccionada, confirmando el tamaño total de la cabecera.",
+            "referencia": "Sección: 4 RESUMEN ESQUEMÁTICO. Subsección: 4.2 MPLS (Multiprotocol Label Switching). Subsubsección: 4.2.1 Cabecera de los paquetes asociados a la tecnología MPLS. Primera oración del párrafo relevante: \"Los 32 bits de la cabecera MPLS se reparten en:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 129",
+            "enunciado": "De entre los siguientes, ¿qué protocolo es utilizado para reservar recursos de red a una determinada aplicación?",
+            "opciones": [
+                "A. RSVP",
+                "B. ARP",
+                "C. 802.1ar",
+                "D. H.264"
+            ],
+            "opcion_correcta": "A. RSVP",
+            "justificacion": "La opción A es correcta porque el documento menciona en la sección de señalización que GMPLS extiende protocolos para la ingeniería del tráfico, citando específicamente a \"RSVP (ReSerVation Protocol)\". Además, se indica que los protocolos de señalización se encargan de funciones como \"Reservar los recursos físicos de un LSP\", asociando directamente RSVP con esta función.",
+            "referencia": "Sección: 4 RESUMEN ESQUEMÁTICO. Subsección: 4.2 MPLS (Multiprotocol Label Switching). Subsubsección: 4.2.4 GMPLS (Generalized MultiProtocol Label Switching),. Subsubsección: 4.2.4.4 Señalización. Primera oración del párrafo relevante: \"Una vez que es seleccionado un camino, GMPLS extiende los protocolos para la señalización e ingeniería del tráfico, tales como:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 130",
+            "enunciado": "MPLS (Multiprotocol Label Switching) opera:",
+            "opciones": [
+                "A. Sobre el protocolo IP, y por debajo del protocolo TCP",
+                "B. Entre la capa de enlace de datos y la capa de red del modelo OSI",
+                "C. Entre el protocolo TCP y los protocolos del nivel de Aplicación",
+                "D. Entre la capa del nivel de red y la capa de transporte del modelo TCP/IP"
+            ],
+            "opcion_correcta": "B. Entre la capa de enlace de datos y la capa de red del modelo OSI",
+            "justificacion": "La opción B es correcta porque el documento reitera en su resumen esquemático que MPLS \"Opera entre la capa de enlace de datos y la capa de red del modelo OSI\". Esta afirmación descarta las opciones que sitúan a MPLS sobre IP o entre otras capas, confirmando su posición como tecnología de nivel 2.5 según el texto.",
+            "referencia": "Sección: 4 RESUMEN ESQUEMÁTICO. Subsección: 4.2 MPLS (Multiprotocol Label Switching). Primera oración del párrafo relevante: \"MPLS es un mecanismo de transporte de datos estándar creado por la IETF y definido en el RFC 3031.\""
+        },
+        {
+            "id_pregunta": "Pregunta 131",
+            "enunciado": "¿Cómo se llama el estándar existente para la integración de LAN en ATM?",
+            "opciones": [
+                "A. LANE",
+                "B. WLAN",
+                "C. FDDI",
+                "D. ANYLAN"
+            ],
+            "opcion_correcta": "A. LANE",
+            "justificacion": "La opción A es correcta porque el documento, al describir la capa de adaptación AAL5 en la sección 3.1.4, menciona explícitamente que entre los ejemplos de este servicio se encuentra la \"emulación LAN (LANE)\". Esto confirma que LANE es el estándar o mecanismo utilizado para integrar servicios de LAN sobre redes ATM según el texto proporcionado.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1.4 Capas de adaptación de los servicios transportados por ATM. Primera oración del párrafo relevante: \"Ejemplos de este servicio son el clásico IP sobre ATM, Ethernet sobre ATM, SMDS, y emulación LAN (LANE).\""
+        },
+        {
+            "id_pregunta": "Pregunta 132",
+            "enunciado": "Una red ATM (Asynchronous Transfer Mode):",
+            "opciones": [
+                "A. Tiene células cuyo tamaño es de 48 bytes.",
+                "B. No es apropiada para tráfico con requisitos de tiempo real.",
+                "C. Tiene los campos VPI (Virtual Path Identifier) y VCI (Virtual Channel Identifier), utilizados para efectuar funciones de encaminamiento de las células.",
+                "D. No tiene ningún mecanismo para detectar la ocurrencia de errores de transmisión en las células."
+            ],
+            "opcion_correcta": "C. Tiene los campos VPI (Virtual Path Identifier) y VCI (Virtual Channel Identifier), utilizados para efectuar funciones de encaminamiento de las células.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 3.1.2 que los switches ATM utilizan los campos VPI/VCI para identificar el próximo destino de una celda a medida que atraviesa la red, lo cual constituye la función de encaminamiento. Las otras opciones son incorrectas según el texto: las celdas tienen 53 bytes (48 de carga útil + 5 de cabecera), ATM es apropiada para tiempo real (CBR/VBR-rt) y posee el campo HEC para detección de errores en la cabecera.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1.2 Formato de la celda. Primera oración del párrafo relevante: \"Los switches ATM utilizan los campos VPI/VCI para identificar el próximo VCL que una celda necesita para transitar hasta su destino final.\""
+        },
+        {
+            "id_pregunta": "Pregunta 133",
+            "enunciado": "Cual de las siguientes redes NO se basa en conmutación por paquetes",
+            "opciones": [
+                "A. Red Telefónica Conmutada",
+                "B. X.25",
+                "C. Frame Relay",
+                "D. SMDS"
+            ],
+            "opcion_correcta": "A. Red Telefónica Conmutada",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 3.1, describe a ATM como una tecnología que combina los beneficios de la \"conmutación de circuitos\" (típica de redes telefónicas tradicionales) con los de la \"conmutación de paquetes\". Las opciones B, C y D (X.25, Frame Relay, SMDS) son mencionadas en la sección 3.1.4 como servicios de datos soportados por las capas de adaptación AAL, lo que implica su naturaleza basada en paquetes/tramas, diferenciándose del modelo de conmutación de circuitos puro representado por la red telefónica tradicional.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.1 ATM (Asynchronous transfer mode). Primera oración del párrafo relevante: \"ATM se basa en la multiplexación y conmutación de celdas o pequeños paquetes de longitud fija, combinando los beneficios de la conmutación de circuitos... con los de la conmutación de paquetes\"."
+        },
+        {
+            "id_pregunta": "Pregunta 134",
+            "enunciado": "¿Cuál es el estándar de encapsulamiento en el que se define el mecanismo para realizar túneles Ethernet Q-in-Q (también conocido como 'VLAN stacking')?",
+            "opciones": [
+                "A. IEEE 802.1Q.",
+                "B. IEEE 802.1p.",
+                "C. IEEE 802.3ad.",
+                "D. IEEE 802.1ad."
+            ],
+            "opcion_correcta": "D. IEEE 802.1ad.",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección 3.2.2.4.2 el mecanismo Q-in-Q como un \"doble encapsulado 802.1Q\" utilizado en redes de acceso H-VPLS. Aunque el texto no cita explícitamente el número del estándar IEEE 802.1ad, define funcionalmente el mecanismo de túneles Ethernet Q-in-Q mediante este doble etiquetado, que corresponde al estándar mencionado en la opción correcta para este propósito de encapsulamiento anidado.",
+            "referencia": "Sección: 3 Redes de agregación. Subsección: 3.2.2.4.2 H-VPLS con Red de Acceso Q-in-Q. Primera oración del párrafo relevante: \"Q-in-Q consiste en realizar un doble encapsulado 802.1Q y tiene sentido únicamente entre la conexión de U-PEs y N-PEs\"."
+        },
+        {
+            "id_pregunta": "Pregunta 135",
+            "enunciado": "En la Jerarquía Digital Síncrona, el régimen binario de una trama STM-4 es de:",
+            "opciones": [
+                "A. 155 Mbit/s",
+                "B. 622 Mbit/s",
+                "C. 2.5 Gbit/s",
+                "D. 10 Gbit/s"
+            ],
+            "opcion_correcta": "B. 622 Mbit/s",
+            "justificacion": "La opción B es correcta porque el documento, en el resumen esquemático de la sección 4.1 y en las tablas de comparación (Figura 4 y 5), especifica explícitamente que la velocidad de línea para STM-4 es de 622 Mbit/s (concretamente 622.080 kbit/s). Esto se calcula como múltiplo de la trama base STM-1 (155 Mbit/s) multiplicada por 4.",
+            "referencia": "Sección: 4 RESUMEN ESQUEMÁTICO. Subsección: 4.1 SDH. Primera oración del párrafo relevante: \"STM-4 = 4 * 8000 * (270 columnas * 9 filas * 8 bits)= 622 Mbit/s\"."
+        },
+        {
+            "id_pregunta": "Pregunta 136",
+            "enunciado": "En Ia tecnología ATM qué tipo de protocolo utilizaría en la capa de adaptación al medio si estamos trabajando en modo orientado a conexión y con una tasa de bits constante:",
+            "opciones": [
+                "A. Tipo 1",
+                "B. Tipo 2",
+                "C. Tipo 3/4",
+                "D. Tipo 5"
+            ],
+            "opcion_correcta": "A. Tipo 1",
+            "justificacion": "**\nLa opción 'a' es correcta según el texto que describe las Capas de Adaptación ATM (AAL), especificando que \"AAL-1 se usa para transferir tasas de bits constantes que dependen del tiempo\".",
+            "referencia": "**\nSección: 4.3.1 ATM. Subsección: Arquitectura de protocolos / Capa de adaptación. Página: 71 (Texto fragmentado) y 43 (Descripción AAL)."
+        },
+        {
+            "id_pregunta": "Pregunta 137",
+            "enunciado": "Con respecto a la tecnología conocida como \"SONET\" (terminología de EEUU) ó SDH / JDS (terminología en Europa), ¿cuál de las expresiones siguientes es INCORRECTA?",
+            "opciones": [
+                "A. Especialmente concebida para funcionar sobre fibra óptica, con velocidades normalizadas que son múltiplos de una señal base de 155 Mbps denominada STM-1.",
+                "B. Proporciona flexibilidad en acceso, capacidad de gestión, seguridad y protección pero no permite integración de voz, datos y multimedia.",
+                "C. La inclusión de canales de control dentro de una trama SDH posibilita un control software total de la red.",
+                "D. En una red SDH los elementos de red se monitorizan extremo a extremo y se gestiona el mantenimiento de la integridad de la misma, lo que permite la inmediata identificación de fallo en un enlace ó nodo de la red."
+            ],
+            "opcion_correcta": "B. Proporciona flexibilidad en acceso, capacidad de gestión, seguridad y protección pero no permite integración de voz, datos y multimedia.",
+            "justificacion": "**\nLa opción 'b' es la respuesta correcta (al ser la afirmación INCORRECTA) porque el documento afirma explícitamente que SDH/SONET debe \"Soportar servicios de voz, video y datos\", contradiciendo la opción que dice que no permite integración.",
+            "referencia": "**\nSección: 1 JDS (Jerarquía Digital Síncrona). Subsección: Introducción / Características SDH/SONET. Página: 72."
+        },
+        {
+            "id_pregunta": "Pregunta 138",
+            "enunciado": "Determine cuál de las afirmaciones siguiente NO se corresponde con una característica definitoria de la tecnología ATM:",
+            "opciones": [
+                "A. Las redes ATM están orientadas a la conexión, requiriendo del establecimiento de un circuito virtual antes de la trasferencia de información entre dos extremos",
+                "B. ATM es independiente del trasporte físico, las celdas ATM pueden ser trasportadas en redes SONET, SDH, T3/E3 Ó T1/E1",
+                "C. ATM puede utilizarse tanto como plataforma de interconexión de redes, como una red para proporcionar servicios de banda ancha",
+                "D. Las celdas son de longitud variable, con un máximo de 53 bytes, de los cuales 5 son de cabecera y los restantes son portadores de la información de usuario, gestión y señalización"
+            ],
+            "opcion_correcta": "D. Las celdas son de longitud variable, con un máximo de 53 bytes, de los cuales 5 son de cabecera y los restantes son portadores de la información de usuario, gestión y señalización",
+            "justificacion": "**\nLa opción 'd' es la respuesta correcta (al ser la afirmación FALSA) porque el documento define que ATM se basa en \"celdas de tamaño fijo, de 53 bytes\", mientras que la opción afirma erróneamente que son de longitud variable.",
+            "referencia": "**\nSección: 4.3 Redes de agregación. Subsección: 4.3.1 ATM. Página: 72."
+        },
+        {
+            "id_pregunta": "Pregunta 139",
+            "enunciado": "Los fabricantes e investigadores hacen referencia a diversos factores determinantes en la calidad de la trasmisión de la voz; de entre los siguientes, determine el \"crítico\" para aplicaciones de tiempo real como la voz y el video sobre IP:",
+            "opciones": [
+                "A. Jitter",
+                "B. Throughput",
+                "C. Delay",
+                "D. Packet Loss"
+            ],
+            "opcion_correcta": "A. Jitter",
+            "justificacion": "**\nLa opción 'a' es correcta según la clave de soluciones. El texto menciona en el contexto de QoS y tráfico VBR/Real-time que la \"Variación de Retraso de Celdas\" (Jitter) es un parámetro crítico para asegurar la calidad en servicios sensibles al tiempo como voz y vídeo.",
+            "referencia": "**\nSección: Calidad de Servicio / Parámetros de Tráfico. Subsección: Factores determinantes en transmisión de voz. Página: 72."
+        }
+    ]
+}

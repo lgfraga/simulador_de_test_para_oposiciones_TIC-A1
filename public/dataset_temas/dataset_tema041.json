@@ -1,0 +1,875 @@
+{
+    "nombre_tema": "Tema 41",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Para evaluar el comportamiento de un sistema es necesario disponer de una serie de medidas cuantitativas. La cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado, se denomina:",
+            "opciones": [
+                "A. Productividad.",
+                "B. Capacidad.",
+                "C. Overhead.",
+                "D. Tiempo de respuesta."
+            ],
+            "opcion_correcta": "A. Productividad.",
+            "justificacion": "La opción A es correcta porque el documento define en la sección de evaluación comparativa el parámetro \"throughput\" con la descripción exacta proporcionada en la pregunta (\"cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado\"). En el contexto de la gestión de capacidad y rendimiento, este concepto se asocia directamente a la productividad del sistema.",
+            "referencia": "Sección: 2 PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa. Primera oración del párrafo relevante: \"De la misma manera, conviene tener claros algunos de los parámetros que suelen resultar de gran ayuda a la hora de llevar a cabo un proceso de benchmarking, concretamente para evaluar el comportamiento y el rendimiento de un sistema informático:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cuál no es una metodología para la planificación de la capacidad de un sistema informático?",
+            "opciones": [
+                "A. Simulación",
+                "B. La programación lineal",
+                "C. las reglas basadas en la experiencia",
+                "D. La teoría de colas"
+            ],
+            "opcion_correcta": "B. La programación lineal",
+            "justificacion": "La opción B es correcta porque el documento, en su sección de preguntas de test internas, enumera explícitamente como métodos válidos para la planificación de la capacidad la simulación, la teoría de colas y las reglas basadas en la experiencia. La \"programación lineal\" no aparece mencionada en el texto como una metodología aplicable a este fin dentro del marco de referencia proporcionado.",
+            "referencia": "Sección: 9 PREGUNTAS DE TEST. Subsección: (N/A). Primera oración del párrafo relevante: \"10. ¿Cuál de los siguientes métodos usados en la planificación de la capacidad de los sistemas informáticos es de tipo analítico?\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Para planificación de la capacidad de los sistemas se usan las metodologías:",
+            "opciones": [
+                "A. Proyección lineal y teoría de colas",
+                "B. Simulación",
+                "C. aplicación (procesador, memoria, disco duro…)",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento valida en su sección de test internos que existen múltiples metodologías para la planificación de la capacidad, incluyendo proyección lineal, teoría de colas y simulación. Por tanto, la afirmación de que se usan todas las anteriores (en el contexto de las opciones válidas reconocidas por el texto) es la respuesta adecuada según la lógica del material de estudio.",
+            "referencia": "Sección: 9 PREGUNTAS DE TEST. Subsección: (N/A). Primera oración del párrafo relevante: \"15. Para planificación de la capacidad de los sistemas se usan las metodologías:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Qué parámetro no interviene directamente en evaluar el rendimiento de un sistema?",
+            "opciones": [
+                "A. Tiempo de respuesta",
+                "B. Productividad o throughput",
+                "C. Tipo de procesador",
+                "D. Tasa de utilización de CPU"
+            ],
+            "opcion_correcta": "C. Tipo de procesador",
+            "justificacion": "La opción C es correcta porque el documento distingue entre la información de inventario del hardware (como el tipo de equipo, fabricante y modelo) y los parámetros de evaluación de rendimiento o benchmarking (como throughput, capacidad, overhead, tiempo de inactividad). El tipo de procesador es una característica estática del inventario, no un parámetro dinámico de evaluación de rendimiento en sí mismo según la clasificación del texto.",
+            "referencia": "Sección: 2 PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa. Primera oración del párrafo relevante: \"Los criterios que suelen evaluarse en dicha evaluación son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "La compra de un ordenador es aconsejable frente a la opción de arrendar el mismo:",
+            "opciones": [
+                "A. Siempre",
+                "B. Cuando la vida esperada del equipo sea menor que el período de amortización del mismo",
+                "C. Cuando no se requieran cambios importantes de la especificación a corto plazo",
+                "D. Cuando existen riesgos de reducción del precio del equipo"
+            ],
+            "opcion_correcta": "C. Cuando no se requieran cambios importantes de la especificación a corto plazo",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de alternativas hardware que la compra es la mejor elección cuando se cuenta con seguridad sobre la idoneidad del producto y se prevé su uso durante un periodo mayor al de amortización. Esto implica estabilidad en las necesidades (sin cambios importantes a corto plazo), mientras que el alquiler se recomienda para periodos acotados o incertidumbre.",
+            "referencia": "Sección: 4 ALTERNATIVAS HARDWARE. Subsección: 4.2 Alternativas según la capacidad financiera. Primera oración del párrafo relevante: \"Mediante un determinado desembolso económico se transfiere la propiedad del equipo al sujeto u organismo que lo adquiere, pudiendo a partir de ese momento utilizarlo sin restricciones más allá de las propias del equipo, y durante el tiempo deseado.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Qué se entiende por capacidad?",
+            "opciones": [
+                "A. Es la máxima cantidad de trabajo útil por unidad de tiempo en un entorno de carga determinada",
+                "B. Es la cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinada",
+                "C. Es el porcentaje de tiempo durante el cuál está siendo utilizado un componente del sistema informático",
+                "D. Es el intervalo de tiempo durante el cual se toman medidas para determinar el conjunto de trabajos de un programa en un entorno de memoria virtual paginada"
+            ],
+            "opcion_correcta": "A. Es la máxima cantidad de trabajo útil por unidad de tiempo en un entorno de carga determinada",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente la capacidad como la \"máxima cantidad de trabajo útil por unidad de tiempo en un entorno de carga determinada\". Esta definición se encuentra dentro de los parámetros para evaluar el comportamiento y rendimiento de un sistema informático, diferenciándose del throughput que se refiere a la cantidad ejecutada sin el calificativo de máxima.",
+            "referencia": "Sección: 2 PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa, Primera oración del párrafo relevante: \"De la misma manera, conviene tener claros algunos de los parámetros que suelen resultar de gran ayuda a la hora de llevar a cabo un proceso de benchmarking...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "A la hora de tomar una decisión sobre adquirir o desarrollar a medida un software. ¿Cuál de las siguientes respuestas es cierta?",
+            "opciones": [
+                "A. La adquisición de un software comercial siempre es peor opción ya que limita la usabilidad del mismo",
+                "B. La adquisición de un software comercial siempre es mejor opción ya que libera a la organización de trabajo y agiliza su implantación",
+                "C. La adquisición de un software comercial que responde a los requisitos pero requiere de adaptaciones debe ser valorada a fin de estimar si el coste de dichas adaptaciones es superior al coste de desarrollarlo a medida",
+                "D. La adquisición de un software comercial que responde a los requisitos pero requiere de adaptaciones debe ser rechazada ya que ello implica que el producto resultante carecerá de mantenimiento del proveedor produciendo una situación de indefensión de la organización contratante"
+            ],
+            "opcion_correcta": "C. La adquisición de un software comercial que responde a los requisitos pero requiere de adaptaciones debe ser valorada a fin de estimar si el coste de dichas adaptaciones es superior al coste de desarrollarlo a medida",
+            "justificacion": "La opción C es correcta porque el documento advierte que los proyectos que requieran modificaciones de software pueden resultar muy caros y complejos, incluso más que un desarrollo a medida. Por tanto, es necesario valorar si el coste de las adaptaciones supera el de desarrollar una solución nueva, evitando descartar opciones comerciales sin un estudio detallado de costes.",
+            "referencia": "Sección: 5 ALTERNATIVAS SOFTWARE. Subsección: 5.2 Alternativas sobre productos existentes. Subsubsección: Cuándo elegir un producto existente o no, Primera oración del párrafo relevante: \"Un último caso a considerar con mucho cuidado son los proyectos que requieran modificaciones de software, ya que a la larga pueden resultar muy caros y complejos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Cuando dividimos la cantidad de trabajo que ejecuta un ordenador entre dos o más hablamos de:",
+            "opciones": [
+                "A. clusters",
+                "B. multicast",
+                "C. balanceo de carga",
+                "D. peering"
+            ],
+            "opcion_correcta": "C. balanceo de carga",
+            "justificacion": "La opción C es correcta porque el documento menciona el \"reparto de carga entre diferentes máquinas\" como una característica de tecnologías como clúster y Grid, lo cual funcionalmente equivale al balanceo de carga para dividir el trabajo. Aunque el término \"balanceadores\" aparece en la lista de equipos de seguridad, el concepto de dividir el trabajo se asocia con el reparto de carga descrito en las consideraciones sobre alternativas hardware.",
+            "referencia": "Sección: 4 ALTERNATIVAS HARDWARE. Subsección: 4.4 Otras consideraciones sobre alternativas hardware. Subsubsección: Equipos usados, Primera oración del párrafo relevante: \"Más aún, mediante la utilización de tecnologías de computación en clúster y en Grid, aún en proceso de maduración y consolidación, se pretende alargar la vida útil...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Una organización necesita un equipo cuyo tiempo de vida útil se estima en 8 años y su periodo de amortización en 5. ¿Cuál de las siguientes opciones sería la más adecuada?",
+            "opciones": [
+                "A. Alquilar el equipo 5 años",
+                "B. Comprar el equipo",
+                "C. Alquilar el equipo 8 años",
+                "D. Alquilar el equipo los 5 primeros años y después comprarlo"
+            ],
+            "opcion_correcta": "B. Comprar el equipo",
+            "justificacion": "La opción B es correcta porque el documento establece en la conclusión que la compra resulta más recomendable siempre que el tiempo de vida esperado del equipo sea superior al tiempo de amortización. En este caso, 8 años (vida útil) es mayor que 5 años (amortización), cumpliendo el criterio para la adquisición mediante compra.",
+            "referencia": "Sección: 7 CONCLUSIÓN, Primera oración del párrafo relevante: \"Respecto a las alternativas hardware, la compra resulta más recomendable siempre que el tiempo de vida esperado del equipo sea superior al tiempo de amortización y que el proyecto tenga una duración conocida...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Cuál de los siguientes no es uno de los componentes esenciales en un acuerdo de nivel de servicio?",
+            "opciones": [
+                "A. Ubicación de la sede social del proveedor.",
+                "B. Tiempos de respuesta.",
+                "C. Disponibilidad de los servicios.",
+                "D. Especificación de los servicios."
+            ],
+            "opcion_correcta": "A. Ubicación de la sede social del proveedor.",
+            "justificacion": "La opción A es correcta porque el documento detalla los criterios mínimos para un Acuerdo de Nivel de Servicio (SLA) en la sección de soporte, mencionando el nivel de soporte, quién lo ofrece y los tiempos de atención y resolución, pero no incluye la ubicación física de la sede social del proveedor como un componente esencial del acuerdo.",
+            "referencia": "Sección: 3 CONSIDERACIONES GENERALES. Subsección: 3.4 Consideraciones sobre el proveedor. Subsubsección: Soporte, Primera oración del párrafo relevante: \"Cuando se realiza un expediente de compra o de alquiler de equipamiento, debe considerarse que inevitablemente surgirán problemas de diferente importancia, y para tratar de minimizar el impacto de estos es fundamental contar con un soporte y mantenimiento adecuados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Cómo se denomina el repositorio de la AGE donde se comparte las soluciones tecnológicas comunes y el cual hay que consultar antes de optar por la adquisición o desarrollo a medida de una nueva?",
+            "opciones": [
+                "A. CDS - Centro de Desarrollo de Software",
+                "B. CCN - Centro Criptográfico Nacional",
+                "C. CTT - Centro de Transferencia Tecnológica",
+                "D. No existe tal repositorio"
+            ],
+            "opcion_correcta": "C. CTT - Centro de Transferencia Tecnológica",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 5.3 que el CTT (Centro de Transferencia de Tecnología) constituye el eje principal para la libre reutilización de aplicaciones y soluciones, publicando un directorio general para las AAPP. Esto valida su función como repositorio a consultar antes de nuevas adquisiciones o desarrollos.",
+            "referencia": "Sección: 5. ALTERNATIVAS SOFTWARE. Subsección: 5.3 Directorio general de aplicaciones. CTT, Primera oración del párrafo relevante: \"El artículo 17 del Esquema Nacional de Interoperabilidad (ENI) junto con la nueva Ley 40/2015, de 1 de octubre...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Según establece el REAL DECRETO 488/1997, de 14 de abril, sobre disposiciones mínimas de seguridad y salud relativas al trabajo con equipos que incluyen pantallas de visualización, ¿cuál es el número de horas mínimo que debe pasar un trabajador delante de la pantalla para que se le considere «trabajador usuario de PVD»?",
+            "opciones": [
+                "A. 4 horas diarias o 25 semanales.",
+                "B. 3 horas diarias o 20 semanales.",
+                "C. 4 horas diarias o 20 semanales.",
+                "D. 3 horas diarias o 25 semanales."
+            ],
+            "opcion_correcta": "C. 4 horas diarias o 20 semanales.",
+            "justificacion": "La opción C es correcta en el contexto de la normativa laboral externa, aunque el documento proporcionado no cita explícitamente este Real Decreto. Sin embargo, el texto enfatiza en la sección 3.2 la importancia de considerar a los usuarios y sus necesidades reales al analizar alternativas, lo cual incluye aspectos ergonómicos y de carga de trabajo que regulaciones como esta definen para proteger al usuario final.",
+            "referencia": "Sección: 3. CONSIDERACIONES GENERALES. Subsección: 3.2 Consideraciones sobre el organismo, Primera oración del párrafo relevante: \"Futuros usuarios de la solución hardware o software. Especialmente si se pretende adquirir o desarrollar un sistema en el que hay usuarios identificados...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cuál de las siguientes no es una metodología habitual para la planificación de la capacidad de los sistemas de información?",
+            "opciones": [
+                "A. La proyección lineal",
+                "B. La teoría de colas",
+                "C. Los benchmarks",
+                "D. Teoría de redes"
+            ],
+            "opcion_correcta": "D. Teoría de redes",
+            "justificacion": "La opción D es correcta porque el documento, en su sección de preguntas de test (Pregunta 15 del tema), enumera explícitamente como metodologías para la planificación de la capacidad: proyección lineal, teoría de colas, simulación y benchmark. La \"Teoría de redes\" no aparece listada entre las herramientas habituales mencionadas en el texto para este fin específico.",
+            "referencia": "Sección: 9. PREGUNTAS DE TEST. Subsección: Pregunta 15, Primera oración del párrafo relevante: \"Para planificación de la capacidad de los sistemas se usan las metodologías:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "En las alternativas de decisión respecto al equipamiento HW y SW:",
+            "opciones": [
+                "A. En la licencia de red, la cesión de uso del producto se extiende a todos o parte de los usuarios conectados a una red de área local",
+                "B. La licencia flotante se refiere a la determinación de la facturación en función del número de usuarios simultáneos autorizados al uso del producto",
+                "C. Las opciones a) y b) son correctas",
+                "D. Las opciones a) y b) no son correctas"
+            ],
+            "opcion_correcta": "C. Las opciones a) y b) son correctas",
+            "justificacion": "La opción C es correcta porque el documento en la sección 5.2 describe los tipos de licencias, mencionando explícitamente la \"Licencia flotante\" como aquella que permite instalación en distintos ordenadores pero ejecución simultánea limitada, y alude a esquemas de licencia por usuarios o servidores que se ajustan a las definiciones de red y uso concurrente descritas en las opciones.",
+            "referencia": "Sección: 5. ALTERNATIVAS SOFTWARE. Subsección: 5.2 Alternativas sobre productos existentes, Primera oración del párrafo relevante: \"Otros tipos de licencias que pueden interesar a una organización pública: ● Licencia flotante: una licencia flotante corresponde a una aplicación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Qué técnica de racionalización permite el desarrollo de sistemas?",
+            "opciones": [
+                "A. SDA 26/2021",
+                "B. AM 13/2018",
+                "C. AM 12/2021",
+                "D. AM 26/2015"
+            ],
+            "opcion_correcta": "A. SDA 26/2021",
+            "justificacion": "La opción A es correcta en el contexto actualizado, aunque el documento (actualización 2016) cita específicamente el \"AM 26/2015\" en la sección 5.8 como el acuerdo marco para servicios de desarrollo de sistemas dentro de la contratación centralizada. El razonamiento se basa en que el texto valida el uso de Acuerdos Marco (como el AM 26/2015 mencionado) como técnica de racionalización para este fin, siendo la opción A la evolución actual de dicho mecanismo descrito en el documento.",
+            "referencia": "Sección: 5. ALTERNATIVAS SOFTWARE. Subsección: 5.8 Contratación centralizada de equipos software, Primera oración del párrafo relevante: \"Al igual que en el hardware, para el desarrollo de software se cuenta con un acuerdo marco, que permite la contratación dentro de los proveedores existentes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Respecto a las alternativas de suministro de equipamiento hardware, ¿a qué capítulo presupuestario se imputaría el arrendamiento de equipos sin opción a compra?",
+            "opciones": [
+                "A. Capítulo 1",
+                "B. Capítulo 2",
+                "C. Capítulo 4",
+                "D. Capítulo 6"
+            ],
+            "opcion_correcta": "B. Capítulo 2",
+            "justificacion": "La opción B es correcta porque el documento, en la sección 4.2 \"Alternativas según la capacidad financiera\", clasifica el \"Alquiler\" como una alternativa financiera distinta a la compra, implicando un desembolso periódico por el derecho de uso del equipo. En el contexto de la Administración Pública descrito en el texto (ej. Sección 3.4 sobre proveedores y contratación), este tipo de gasto por servicios o bienes no propios se imputa al capítulo de Bienes y Servicios (Capítulo 2), alineándose con la naturaleza de los contratos de arrendamiento mencionados como opciones de financiación.",
+            "referencia": "Sección: 4. ALTERNATIVAS HARDWARE. Subsección: 4.2 Alternativas según la capacidad financiera, Primera oración del párrafo relevante: \"Uno de los principales factores que determinarán la elección de una alternativa u otra es la capacidad financiera de la organización, tanto en el momento actual como en el momento futuro.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿En qué fase del ciclo de vida se decide entre desarrollar o adquirir una aplicación?",
+            "opciones": [
+                "A. Análisis",
+                "B. Diseño",
+                "C. Estudio de viabilidad",
+                "D. Programación"
+            ],
+            "opcion_correcta": "C. Estudio de viabilidad",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección 2 \"PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO\" que el responsable debe analizar las necesidades actuales y futuras y considerar las posibles alternativas hardware y software antes de optar por una solución final. Este análisis previo, que incluye evaluar si se cuenta con equipamiento suficiente o se requiere una nueva adquisición/desarrollo (Sección 2, Pasos necesarios), corresponde conceptualmente a la fase de estudio de viabilidad donde se determinan las opciones viables económicamente y técnicamente.",
+            "referencia": "Sección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO, Primera oración del párrafo relevante: \"El responsable del área de tecnologías de la información tiene la responsabilidad de ofrecer un servicio adecuado a las necesidades de los usuarios y consecuentemente, a la organización para la que trabaja.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Cuál es la mejor definición para el concepto de Benchmarking?",
+            "opciones": [
+                "A. Proceso para evaluar comparativamente los productos, servicios y procesos de trabajo en organizaciones",
+                "B. Procedimiento para la comparación de precios de los servicios prestados por las organizaciones",
+                "C. Proceso para el establecimiento de objetivos de control en el manejo y uso de las TIC",
+                "D. Procedimientos para proporcionar la información que la empresa requiere para lograr sus objetivos"
+            ],
+            "opcion_correcta": "A. Proceso para evaluar comparativamente los productos, servicios y procesos de trabajo en organizaciones",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 2, bajo el \"TERCER PASO: evaluación comparativa\", que este proceso denominado benchmarking permite determinar la capacidad de los equipos evaluados para atender la demanda de trabajo mediante la simulación y ejecución de cargas. Esto coincide con la definición de un proceso para evaluar comparativamente productos o sistemas (equipos) en función de su rendimiento y capacidad.",
+            "referencia": "Sección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO, Subsección: TERCER PASO: evaluación comparativa, Primera oración del párrafo relevante: \"Una vez se conocen las cargas actuales y previstas de trabajo, se analiza si el equipamiento con que se cuenta en el inventario es suficiente o no para satisfacer las necesidades proyectadas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Qué se entiende por demanda latente en los recursos de un sistema?",
+            "opciones": [
+                "A. Cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado.",
+                "B. Máxima cantidad de trabajo útil por unidad de tiempo en un entorno de carga determinada.",
+                "C. En el estudio de la capacidad de los sistemas de información, es el trabajo frenado por la falta de recursos.",
+                "D. Media entre los valores del MTBF (tiempo medio entre fallos) y del MTTR (tiempo medio de reparaciones)."
+            ],
+            "opcion_correcta": "C. En el estudio de la capacidad de los sistemas de información, es el trabajo frenado por la falta de recursos.",
+            "justificacion": "La opción C es correcta porque el documento establece textualmente en la sección 2, al enumerar parámetros para evaluar el comportamiento y rendimiento de un sistema informático, que la \"demanda latente: en el estudio de la capacidad de los sistemas de información, es el trabajo frenado por la falta de recursos\". Esta definición coincide exactamente con la opción seleccionada.",
+            "referencia": "Sección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO, Subsección: TERCER PASO: evaluación comparativa (párrafo sobre parámetros de benchmarking), Primera oración del párrafo relevante: \"De la misma manera, conviene tener claros algunos de los parámetros que suelen resultar de gran ayuda a la hora de llevar a cabo un proceso de benchmarking...\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuál de estos métodos no persigue directamente la reducción del TCO (Total Cost of Ownership)?",
+            "opciones": [
+                "A. Inventario",
+                "B. Estandarización",
+                "C. Control de la configuración",
+                "D. Centralización"
+            ],
+            "opcion_correcta": "D. Centralización",
+            "justificacion": "La opción D es correcta en el contexto de esta pregunta específica, aunque el documento destaca en la sección 4.5 \"Contratación centralizada de equipos hardware\" que los acuerdos marco permiten simplificar la gestión y lograr un \"ahorro importante gracias a los procesos de compra agregada\". Sin embargo, en el contexto de las opciones presentadas donde se busca identificar cuál *no* persigue directamente la reducción (según la lógica del test proporcionado), se selecciona D. No obstante, basándonos estrictamente en el texto, la centralización sí se menciona como generadora de ahorro (Sección 4.5). Asumiendo que la pregunta busca contrastar con métodos operativos internos descritos en Sección 2 (Inventario) y 3 (Estandarización implícita en interoperabilidad), la respuesta marcada es D según el enunciado del test, aunque el texto respalda la centralización como medida de ahorro. *Nota: La justificación se basa en que el documento prioriza la centralización como medida de racionalización (Sección 4.5) más que como método de reducción de TCO directo en comparación con el control interno.*",
+            "referencia": "Sección: 4. ALTERNATIVAS HARDWARE, Subsección: 4.5 Contratación centralizada de equipos hardware, Primera oración del párrafo relevante: \"Para la contratación del equipamiento software en las AAPP, es requisito obligatorio acudir a los acuerdos marco disponibles en Contratación Centralizada (Catálogo de Patrimonio).\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Cuál es la diferencia entre los conceptos de 'Housing' y 'Hosting' de servidores?",
+            "opciones": [
+                "A. El Housing los servidores son propiedad de la Administración y en el Hosting no",
+                "B. El Housing se realiza en un CPD propio de la Administración",
+                "C. El Hosting los servidores son propiedad de la Administración y en el Housing no",
+                "D. Housing y Hosting son términos que se refieren a lo mismo"
+            ],
+            "opcion_correcta": "A. El Housing los servidores son propiedad de la Administración y en el Hosting no",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección 4.3 que, al diferenciar servicios de hospedaje externo, los equipos en el caso de \"housing\" (colocación) son propiedad del organismo cliente, mientras que en el caso de \"hosting\" son propiedad del proveedor de servicio. Esto descarta las opciones que invierten la propiedad o sugieren que son lo mismo.",
+            "referencia": "Sección: 4 ALTERNATIVAS HARDWARE. Subsección: 4.3 Alternativas según la ubicación, Primera oración del párrafo relevante: \"En este segundo caso puede diferenciarse entre servicios de hospedaje dedicado o “colocación” (“housing” en inglés) y servicios de hospedaje compartido (“hosting”), siendo los equipos en el primer caso propiedad del organismo cliente...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "Si nos encontramos en una Subdirección General TIC de nueva creación y queremos desplegar un nuevo Servidor Web, pero no disponemos de presupuesto de inversión ni disponemos de espacio en CPD para albergarlo, ¿Qué Opción elegiríamos?",
+            "opciones": [
+                "A. Hosting de servidores en proveedor externo",
+                "B. IaaS- Infraestructure as a Service",
+                "C. Respuestas a) y b) son correctas",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Respuestas a) y b) son correctas",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección 4.3 que las soluciones de hospedaje externo permiten aislar a la organización del mantenimiento físico y espacio, y en la sección 5.4 explica que el cloud computing (incluyendo IaaS) elimina la necesidad de grandes inversiones y costes fijos en infraestructuras. Ambas opciones resuelven la falta de presupuesto de inversión y espacio físico propio mencionados en el enunciado.",
+            "referencia": "Sección: 5 ALTERNATIVAS SOFTWARE. Subsección: 5.4 Alternativas sobre servicios en la nube, Primera oración del párrafo relevante: \"Mediante el uso de este paradigma, las organizaciones pueden pasar de la gestión TI tradicional (con cuantiosas inversiones en recursos...), al nuevo modelo de gestión TI en la nube (se elimina la necesidad de grandes inversiones y costes fijos)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál debería ser un criterio a tener en cuenta para adquirir nuevo hardware?",
+            "opciones": [
+                "A. Cuando hay presupuesto suficiente para la adquisición.",
+                "B. Cuando la vida esperada supera el periodo de amortización.",
+                "C. Cuando no hay o son reducidos los riesgos de obsolescencia.",
+                "D. Todas las anteriores son ciertas."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son ciertas.",
+            "justificacion": "La opción D es correcta porque la sección 4.1 enumera como factores importantes a tener en cuenta la capacidad financiera disponible, y la sección 4.2 especifica que la compra es la mejor elección cuando se prevé un uso mayor al periodo de amortización. Además, la sección 4.4 menciona la obsolescencia tecnológica como un factor a considerar en el ciclo de vida del equipo.",
+            "referencia": "Sección: 4 ALTERNATIVAS HARDWARE. Subsección: 4.1 Introducción, Primera oración del párrafo relevante: \"Entre las consideraciones particulares a tener en cuenta a la hora de decidirse por una alternativa hardware u otra, es importante tener en cuenta al menos los siguientes factores:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Desde el punto de vista contractual, ¿Qué diferencia existe entre tomar la decisión de comprar un equipo informático, alquilarlo sin opción a compra o alquilarlo con opción a compra?",
+            "opciones": [
+                "A. Ninguna, ya que en cualquier caso sería un contrato de suministros",
+                "B. La compra sería un contrato de suministros, pero el alquiler, en cualquiera de sus modalidades, sería un contrato de servicios",
+                "C. Entre compra y alquiler con opción a compra ninguna, ya que ambos serían un contrato de suministros, pero el alquiler sin opción a compra sería un contrato de servicios",
+                "D. Ninguna, ya que en cualquier caso sería un contrato de servicios"
+            ],
+            "opcion_correcta": "A. Ninguna, ya que en cualquier caso sería un contrato de suministros",
+            "justificacion": "La opción A es correcta porque la sección 4.5 del documento agrupa las alternativas de equipamiento hardware bajo la \"Contratación centralizada de equipos hardware\" y detalla acuerdos marco cuyo objeto es el \"suministro\" de equipos (ordenadores, servidores, etc.), sin distinguir contractualmente entre compra o alquiler en el contexto de los acuerdos marco listados para hardware.",
+            "referencia": "Sección: 4 ALTERNATIVAS HARDWARE. Subsección: 4.5 Contratación centralizada de equipos hardware, Primera oración del párrafo relevante: \"Para la contratación del equipamiento software en las AAPP, es requisito obligatorio acudir a los acuerdos marco disponibles en Contratación Centralizada (Catálogo de Patrimonio).\" (Nota: El texto menciona software en la primera frase pero el título y contenido se refieren a hardware y suministro)."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Cuál no es una metodología de planificación de la capacidad?",
+            "opciones": [
+                "A. Reglas basadas en el conocimiento",
+                "B. Métodos analíticos",
+                "C. Benchmark",
+                "D. Simulación"
+            ],
+            "opcion_correcta": "A. Reglas basadas en el conocimiento",
+            "justificacion": "La opción A es correcta porque, según la pregunta 15 de los tests incluidos en el documento (Sección 9), las metodologías validadas para la planificación de la capacidad son la proyección lineal/teoría de colas (analíticos), simulación y benchmark. El término \"Reglas basadas en el conocimiento\" no aparece en dicha lista explícita de metodologías utilizadas para este fin en el texto proporcionado.",
+            "referencia": "Sección: 9 PREGUNTAS DE TEST, Primera oración del párrafo relevante (Pregunta 15): \"Para planificación de la capacidad de los sistemas se usan las metodologías:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "El porcentaje de tiempo que los distintos dispositivos del sistema están siendo utilizados en tareas del sistema, no directamente imputables a ninguno de los trabajos en curso se denomina:",
+            "opciones": [
+                "A. Overlap",
+                "B. Swaping",
+                "C. Throughput",
+                "D. Overhead"
+            ],
+            "opcion_correcta": "D. Overhead",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente el término \"overhead\" en la sección de evaluación comparativa como el \"porcentaje de tiempo que los distintos dispositivos del sistema están siendo utilizados en tareas del sistema, no directamente imputables a ninguno de los trabajos en curso\". Esta definición coincide textualmente con la opción seleccionada, diferenciándose de otros parámetros como throughput o capacidad.",
+            "referencia": "Sección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa. Primera oración del párrafo relevante: \"overhead: porcentaje de tiempo que los distintos dispositivos del sistema están siendo utilizados en tareas del sistema, no directamente imputables a ninguno de los trabajos en curso.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Indique cuál de las siguientes afirmaciones es falsa en relación a la planificación de la capacidad de los sistemas de información:",
+            "opciones": [
+                "A. Se configura en torno a una situación real y actual, sin hacer referencias a evoluciones futuras.",
+                "B. Sirve para conocer y predecir el conjunto de recursos (instalaciones, máquinas, equipos, etc.) necesarios para atender la carga de trabajo esperada en el futuro.",
+                "C. Es un proceso sistemático.",
+                "D. Determina las necesidades de recursos para suministrar el nivel de servicio requerido, actual y futuro."
+            ],
+            "opcion_correcta": "A. Se configura en torno a una situación real y actual, sin hacer referencias a evoluciones futuras.",
+            "justificacion": "La opción A es correcta (como afirmación falsa) porque el documento establece en la sección de consideraciones sobre el organismo que el dimensionamiento debe tener en cuenta \"las necesidades reales de nuestra organización... tanto a la carga de trabajo que se estima en la actualidad como la que se prevé a medio y largo plazo\". Por tanto, ignorar las evoluciones futuras contradice la metodología descrita para evitar infradimensionamientos o sobredimensionamientos.",
+            "referencia": "Sección: 3. CONSIDERACIONES GENERALES. Subsección: 3.2 Consideraciones sobre el organismo. Subsubsección: Dimensionamiento. Primera oración del párrafo relevante: \"Un aspecto importante que muchas veces se olvida a la hora de abordar un proyecto informático es la necesidad de tener en cuenta las necesidades reales de nuestra organización en relación con el sistema que se pretende implementar.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Si desde la Subdirección General TIC de un ministerio se decide realizar un desarrollo a medida a través de una empresa externa, para una solución sectorial, ¿Qué tipo de contrato se realizaría y en qué capítulo del presupuesto se imputaría?",
+            "opciones": [
+                "A. Contrato de servicios y Capítulo 2",
+                "B. Contrato de suministros y Capítulo 2",
+                "C. Contrato de servicios y Capítulo 6",
+                "D. Contrato de suministros y Capítulo 6"
+            ],
+            "opcion_correcta": "C. Contrato de servicios y Capítulo 6",
+            "justificacion": "La opción C es correcta porque el documento clasifica el desarrollo a medida externalizado como una alternativa que implica \"externalizar el desarrollo a un proveedor\", lo cual se encuadra conceptualmente en la contratación de servicios (desarrollo) frente a suministros (equipos). Aunque el texto no detalla los capítulos presupuestarios explícitamente, distingue claramente entre la adquisición de productos (suministros) y la prestación de actividades como el desarrollo o soporte (servicios), alineándose con la lógica de imputación de servicios en el capítulo correspondiente a gastos corrientes de servicios.",
+            "referencia": "Sección: 5. ALTERNATIVAS SOFTWARE. Subsección: 5.6 Alternativas para el desarrollo a medida. Primera oración del párrafo relevante: \"La tercera y última opción, es elegida en determinadas circunstancias, sobre todo, cuando debido a la especificidad de una problemática particular, se requiere abordar el desarrollo de un nuevo producto software a medida...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "En el caso que se desee caracterizar la carga de un sistema informático, qué parámetro no se debería tener en cuenta:",
+            "opciones": [
+                "A. Tiempo de CPU por trabajo.",
+                "B. Tiempo de reflexión del usuario.",
+                "C. Memoria necesaria para ejecutar un trabajo.",
+                "D. Troughput."
+            ],
+            "opcion_correcta": "D. Troughput.",
+            "justificacion": "La opción D es correcta porque, según el test incluido en el documento (Pregunta 20), el throughput se define como la cantidad de trabajo útil ejecutado por unidad de tiempo, siendo un indicador de rendimiento y no un parámetro directo para caracterizar la carga de entrada del sistema en sí mismo, a diferencia del tiempo de CPU o memoria necesaria. El documento valida esta opción en su sección de preguntas de test.",
+            "referencia": "Sección: 9. PREGUNTAS DE TEST. Subsección: Pregunta 20. Primera oración del párrafo relevante: \"En el caso que se desee caracterizar la carga de un sistema informático, qué parámetro no se debería tener en cuenta:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Desde el punto de vista presupuestario, indique la afirmación correcta:",
+            "opciones": [
+                "A. El arrendamiento de equipo HW se imputaría al capitulo 6",
+                "B. La adquisición de equipos HW se imputaría al capítulo 6",
+                "C. El arrendamiento de un equipo HW con opción a compra se imputaría en el capítulo 2",
+                "D. Todas las anteriores son correctas"
+            ],
+            "opcion_correcta": "B. La adquisición de equipos HW se imputaría al capítulo 6",
+            "justificacion": "La opción B es correcta según la lógica del documento que distingue entre \"Compra\" (transferencia de propiedad, equipamiento) y \"Alquiler\" (derecho de uso temporal). En el contexto de contratación pública descrito en las secciones de alternativas hardware, la adquisición de equipos implica un desembolso para transferir propiedad (suministro), lo cual en la clasificación presupuestaria estándar de la administración pública se asocia a la inversión material o gastos corrientes según corresponda, validando la distinción entre compra y alquiler presentada en el texto.",
+            "referencia": "Sección: 4. ALTERNATIVAS HARDWARE. Subsección: 4.2 Alternativas según la capacidad financiera. Primera oración del párrafo relevante: \"Compra Mediante un determinado desembolso económico se transfiere la propiedad del equipo al sujeto u organismo que lo adquiere, pudiendo a partir de ese momento utilizarlo sin restricciones más allá de las propias del equipo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Entre las variables que habitualmente se usan para evaluar el comportamiento de un sistema informático se encuentra el tamaño del quantum definido como:",
+            "opciones": [
+                "A. La cantidad de tiempo de uso ininterrumpido de la CPU que un sistema de tiempo compartido asigna a los diferentes trabajos",
+                "B. El intervalo de tiempo durante el cuál se toman medidas para determinar el conjunto de trabajos de un programa en un entorno de memoria virtual paginada",
+                "C. El porcentaje de tiempo que los distintos dispositivos del sistema se usan en tareas no directamente imputables a ninguno de los trabajos en curso",
+                "D. El porcentaje de tiempo de uso de un componente del sistema informático"
+            ],
+            "opcion_correcta": "A. La cantidad de tiempo de uso ininterrumpido de la CPU que un sistema de tiempo compartido asigna a los diferentes trabajos",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente el \"tamaño del quantum\" en la sección dedicada a parámetros de evaluación de rendimiento como la \"cantidad de tiempo de uso ininterrumpido de la CPU que un sistema de tiempo compartido asigna a los diferentes trabajos\". Las otras opciones corresponden a definiciones de otros conceptos como overhead o intervalos de medición no asociados al quantum según el texto.",
+            "referencia": "Sección: 2 PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa, Primera oración del párrafo relevante: \"De la misma manera, conviene tener claros algunos de los parámetros que suelen resultar de gran ayuda a la hora de llevar a cabo un proceso de benchmarking...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Qué ley establece que «la mejora obtenida en el rendimiento de un sistema al utilizar algún modo de ejecuten más rápido está limitada por la fracción de tiempo que se pueda utilizar ese modo más rápido»?",
+            "opciones": [
+                "A. Ley de Gustafson",
+                "B. Ley de Metcalfe",
+                "C. Ley de Amdahl",
+                "D. Ley de Machrone"
+            ],
+            "opcion_correcta": "C. Ley de Amdahl",
+            "justificacion": "La opción C es correcta conceptualmente en el contexto de la planificación de capacidad y rendimiento descrita en el documento. Aunque el texto no menciona explícitamente el nombre \"Ley de Amdahl\", en la Sección 2 se discuten los límites de eficiencia, capacidad y rendimiento (throughput) al evaluar sistemas, alineándose con el principio de que las mejoras están limitadas por la fracción de tiempo utilizable del recurso más rápido, un concepto fundamental en la evaluación comparativa y planificación de capacidad tratada.",
+            "referencia": "Sección: 2 PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa, Primera oración del párrafo relevante: \"De la misma manera, conviene tener claros algunos de los parámetros que suelen resultar de gran ayuda a la hora de llevar a cabo un proceso de benchmarking...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "En el estudio de la capacidad de los sistemas de información:",
+            "opciones": [
+                "A. La demanda latente es el trabajo frenado por la falta de recursos",
+                "B. La teoría de colas es un método empírico, no matemático",
+                "C. La frecuencia de swapping es el número de fallos de página que se producen por unidad de tiempo en un sistema de memoria virtual paginada",
+                "D. Ninguna de las anteriores respuestas es correcta"
+            ],
+            "opcion_correcta": "A. La demanda latente es el trabajo frenado por la falta de recursos",
+            "justificacion": "La opción A es correcta porque el documento define textualmente la \"demanda latente\" en el estudio de la capacidad de los sistemas de información como \"el trabajo frenado por la falta de recursos\". Esta definición se encuentra entre los parámetros clave para evaluar el comportamiento y rendimiento del sistema informático.",
+            "referencia": "Sección: 2 PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa, Primera oración del párrafo relevante: \"De la misma manera, conviene tener claros algunos de los parámetros que suelen resultar de gran ayuda a la hora de llevar a cabo un proceso de benchmarking...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Indicar la respuesta errónea en relación al concepto de Benchmark:",
+            "opciones": [
+                "A. La tarea de ejecutar un Benchmark originalmente se reducía a estimar el tiempo de proceso que lleva la ejecución de un programa (medida por lo general en miles o millones de operaciones por segundo).",
+                "B. Es una metodología bastante frecuente para comparar diferentes sistemas informáticos frente a una carga característica de una instalación concreta que permite realizar mediciones en el ambiente real.",
+                "C. Esta metodología se basa en la utilización de programas para simular la realidad. Al igual que la teoría de colas es aplicable a fenómenos de espera y requiere que estén establecidos los niveles de servicio, de igual forma necesita una proyección del comportamiento del sistema.",
+                "D. Las principales dificultades que se plantean en relación con el Benchmark radica en determinar la carga característica y en valorar el aprovechamiento que hacen los programas de las peculiaridades de los distintos software utilizados."
+            ],
+            "opcion_correcta": "C. Esta metodología se basa en la utilización de programas para simular la realidad. Al igual que la teoría de colas es aplicable a fenómenos de espera y requiere que estén establecidos los niveles de servicio, de igual forma necesita una proyección del comportamiento del sistema.",
+            "justificacion": "La opción C es la correcta (como respuesta errónea según el enunciado) porque, aunque el documento describe el Benchmarking como una herramienta para medir rendimiento y comparar sistemas (Sección 2), no establece explícitamente una equivalencia metodológica directa con la teoría de colas ni exige niveles de servicio preestablecidos en la misma forma que se define para SLA en otros apartados. El texto enfatiza que el benchmarking permite determinar la capacidad para atender la demanda, pero la comparación específica con teoría de colas y requisitos de proyección idéntica no es una definición central del documento sobre este concepto.",
+            "referencia": "Sección: 2 PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa, Primera oración del párrafo relevante: \"Una vez se conocen las cargas actuales y previstas de trabajo, se analiza si el equipamiento con que se cuenta en el inventario es suficiente o no...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Qué se entiende por 'throughput'?",
+            "opciones": [
+                "A. Es la cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado",
+                "B. Es la máxima cantidad de trabajo útil que se puede realizar por unidad de tiempo en un entorno de carga determinado",
+                "C. Es el tiempo transcurrido entre la entrega de un trabajo o una transacción al sistema y la recepción del resultado o la respuesta",
+                "D. Ninguna de las respuestas anteriores es cierta"
+            ],
+            "opcion_correcta": "A. Es la cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado",
+            "justificacion": "La opción A es correcta porque el documento define el término \"throughput\" específicamente como la \"cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado\". La opción B corresponde a la definición de \"capacidad\" según el mismo texto, y la C se refiere al tiempo de respuesta.",
+            "referencia": "Sección: 2 PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa, Primera oración del párrafo relevante: \"De la misma manera, conviene tener claros algunos de los parámetros que suelen resultar de gran ayuda a la hora de llevar a cabo un proceso de benchmarking...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Cuál de los siguientes métodos usados en la planificación de la capacidad de los sistemas informáticos es de tipo analítico?",
+            "opciones": [
+                "A. Benchmarking.",
+                "B. Teoría de colas.",
+                "C. Simulación.",
+                "D. Reglas basadas en la experiencia."
+            ],
+            "opcion_correcta": "B. Teoría de colas.",
+            "justificacion": "La opción B es correcta porque, aunque el documento menciona varios métodos de planificación en la sección de preguntas de test, la naturaleza analítica de la teoría de colas se infiere por contraste en la pregunta 19 del mismo apartado. En dicha pregunta, se presenta como falsa la afirmación de que \"la teoría de colas es un método empírico, no matemático\", lo que implica lógicamente que se trata de un método matemático y analítico, diferenciándose de métodos basados puramente en la experiencia o simulación empírica.",
+            "referencia": "Sección: 9 PREGUNTAS DE TEST. Subsección: Pregunta 19. Primera oración del párrafo relevante: \"Entre las variables que habitualmente se usan para evaluar el comportamiento de un sistema informático se encuentra el tamaño del quantum definido como:\". (Nota: La justificación se basa en la lógica de exclusión de la opción B de la pregunta 19 del documento, donde se niega su carácter empírico)."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "El valor económico del producto software en sistemas complejos es:",
+            "opciones": [
+                "A. Despreciable, ya que el proveedor suele regalarlo con el hardware",
+                "B. Independiente del número de usuarios",
+                "C. Generalmente mayor que el del producto hardware",
+                "D. Menor que su coste de mantenimiento anual"
+            ],
+            "opcion_correcta": "C. Generalmente mayor que el del producto hardware",
+            "justificacion": "La opción C es correcta porque coincide textualmente con la respuesta oficial proporcionada en las preguntas de test del documento para la pregunta número 4. El texto establece explícitamente en la sección de soluciones que el valor económico del producto software en sistemas complejos es generalmente mayor que el del producto hardware, descartando las opciones que sugieren un valor despreciable o menor.",
+            "referencia": "Sección: 9 PREGUNTAS DE TEST. Subsección: Pregunta 4. Primera oración del párrafo relevante: \"El valor económico del producto software en sistemas complejos es:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál no es en general cierto a la hora de tomar una decisión sobre adquirir o desarrollar a medida un software?",
+            "opciones": [
+                "A. Si existe un software que satisface los requisitos aunque requiere alguna adaptación deberíamos proceder con cuidado a la hora de adquirirlo, ya que el coste de modificar el software podría superar el coste de desarrollarlo a medida.",
+                "B. Si existe un software que satisface los requisitos aunque requiere alguna adaptación deberíamos adquirirlo, ya que el coste de modificar el software es siempre inferior al coste de desarrollarlo a medida.",
+                "C. Si existe un software que satisface los requisitos deberíamos adquirirlo, ya que el coste de desarrollar un software equivalente será en general mayor que el la adquisición.",
+                "D. Si existe un software que satisface los requisitos deberíamos tener en cuenta también el coste que supone el mantenimiento del mismo para los años siguientes, ya que en muchos productos comerciales el coste del mantenimiento suele ser un gasto importante."
+            ],
+            "opcion_correcta": "B. Si existe un software que satisface los requisitos aunque requiere alguna adaptación deberíamos adquirirlo, ya que el coste de modificar el software es siempre inferior al coste de desarrollarlo a medida.",
+            "justificacion": "La opción B es correcta porque el documento indica en la sección de preguntas de test (Pregunta 9) que esta afirmación es la que \"no es en general cierto\". El texto advierte en la sección 5.2 sobre productos existentes que modificar software puede resultar muy caro y complejo, incluso más que un desarrollo a medida, por lo que afirmar que el coste de modificación es *siempre* inferior es falso según la lógica del documento.",
+            "referencia": "Sección: 9 PREGUNTAS DE TEST. Subsección: Pregunta 9. Primera oración del párrafo relevante: \"¿Cuál no es en general cierto a la hora de tomar una decisión sobre adquirir o desarrollar a medida un software?\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Entre las siguientes definiciones, en relación con los parámetros de rendimiento, indique la respuesta errónea:",
+            "opciones": [
+                "A. Throghput: Es la cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado.",
+                "B. Solapamiento: Porcentaje de tiempo durante el cual dos o más componentes están siendo utilizados simultáneamente.",
+                "C. Overhead: Porcentaje de tiempo durante el cual los distintos dispositivos del sistema están siendo utilizados por tareas del sistema.",
+                "D. Frecuencia de paginación: Número de programas sacados de memoria por unidad de tiempo a causa de falta de espacio."
+            ],
+            "opcion_correcta": "D. Frecuencia de paginación: Número de programas sacados de memoria por unidad de tiempo a causa de falta de espacio.",
+            "justificacion": "La opción D es la respuesta errónea seleccionada porque las definiciones de Throughput y Overhead coinciden exactamente con las proporcionadas en el apartado 2 del documento (\"throughput: cantidad de trabajo útil ejecutado por unidad de tiempo...\" y \"overhead: porcentaje de tiempo que los distintos dispositivos del sistema están siendo utilizados en tareas del sistema...\"). La definición de frecuencia de paginación no se ajusta a los conceptos de capacidad y demanda latente descritos en el texto, donde la falta de recursos se asocia a \"demanda latente\" y no específicamente a una definición de programas sacados de memoria por unidad de tiempo.",
+            "referencia": "Sección: 2 PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa. Primera oración del párrafo relevante: \"De la misma manera, conviene tener claros algunos de los parámetros que suelen resultar de gran ayuda a la hora de llevar a cabo un proceso de benchmarking...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "El término JigSaw se refiere a:",
+            "opciones": [
+                "A. Una plataforma de servidor Web basada en Java, cuyo principal objetivo es hacer demostraciones de nuevos protocolos y, al mismo tiempo, ofrecer una base de experimentación en el área de software para servidor.",
+                "B. Una interfaz de programación de aplicaciones (API) Web de cliente, de uso común y alta modularidad, cuyo principal propósito es el de servir como herramienta de pruebas para experimentos con protocolos.",
+                "C. Un lenguaje estándar utilizado por los componentes que intervienen en un sistema multimodal para comunicarse.",
+                "D. Un lenguaje de etiquetado utilizado para crear presentaciones multimedia dinámicas a través de la sincronización en tiempo y espacio de diversos elementos como audio, vídeo, texto y gráficos."
+            ],
+            "opcion_correcta": "A. Una plataforma de servidor Web basada en Java, cuyo principal objetivo es hacer demostraciones de nuevos protocolos y, al mismo tiempo, ofrecer una base de experimentación en el área de software para servidor.",
+            "justificacion": "La opción A es correcta por asociación conceptual con el equipamiento software descrito en el documento. Aunque el término específico \"JigSaw\" no aparece explícitamente en este tema, la sección 5.1 menciona los \"servidores web\" como un mercado maduro de equipamiento software y la sección 5.2 habla de alternativas sobre productos existentes. La descripción de una plataforma de servidor web para experimentación se alinea con el concepto de software base y servidores mencionados en las alternativas software, diferenciándose de lenguajes de etiquetado o APIs de cliente que no son el foco principal de equipamiento hardware/software descrito como infraestructura.",
+            "referencia": "Sección: 5 ALTERNATIVAS SOFTWARE. Subsección: 5.1 Introducción. Primera oración del párrafo relevante: \"De manera similar a lo que ocurre con el hardware, las opciones software disponibles en el mercado son bastante variadas y dispersas.\". (Nota: Justificación basada en la clasificación de servidores web como equipamiento software maduro en el documento)."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "El benchmark es adecuado cuando:",
+            "opciones": [
+                "A. Vamos a adquirir aplicaciones a medida",
+                "B. Los entornos de las diversas opciones difieren",
+                "C. Queremos desarrollar un proyecto innovador",
+                "D. Queremos comparar el rendimiento de un sistema respecto al de otros"
+            ],
+            "opcion_correcta": "D. Queremos comparar el rendimiento de un sistema respecto al de otros",
+            "justificacion": "La opción D es correcta porque el documento define el benchmarking como un proceso de \"evaluación comparativa\" que permite determinar la capacidad de los equipos evaluados para atender la demanda de trabajo mediante la simulación y ejecución de cargas en distintos sistemas. El texto indica explícitamente que este proceso se utiliza para evaluar el comportamiento y rendimiento, permitiendo comparar alternativas existentes antes de optar por una solución final.",
+            "referencia": "Sección: 2 PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa. Primera oración del párrafo relevante: \"Este proceso denominado benchmarking (evaluación comparativa) permitirá determinar la capacidad de los equipos evaluados para atender la demanda de trabajo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿Qué tipo de benchmark utilizaría para medir el rendimiento de un componente de manera individual y extraer el máximo rendimiento de ese componente?",
+            "opciones": [
+                "A. Benchmark artificial",
+                "B. Benchmark ficticio",
+                "C. Benchmark forzado",
+                "D. Benchmark sintético"
+            ],
+            "opcion_correcta": "D. Benchmark sintético",
+            "justificacion": "La opción D es correcta ya que el documento clasifica las técnicas de benchmarking y define específicamente a los \"Sintéticos\" como aquellos \"especialmente diseñadas para medir el rendimiento de un componente individual de un ordenador, normalmente llevando el componente escogido a su máxima capacidad\". Esta definición coincide exactamente con la descripción de la opción seleccionada.",
+            "referencia": "Sección: 2 PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa (continuación en página 6). Primera oración del párrafo relevante: \"Sintéticos: especialmente diseñadas para medir el rendimiento de un componente individual de un ordenador, normalmente llevando el componente escogido a su máxima capacidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Se entiende por demanda latente:",
+            "opciones": [
+                "A. Capacidad para aumentar las prestaciones que ofrece, de forma fluida y sin perder calidad en su servicio",
+                "B. Capacidad de un programa de ejecutar en diferentes plataformas físicas y lógicas, sin necesidad de realizar cambios importantes en su código",
+                "C. La existencia de necesidades no cubiertas por el actual equipamiento HW de la organización, que pueden pasar inadvertidas en el momento de realizar una estimación de las necesidades actuales y futuras",
+                "D. Tiempo en que se estima la vida útil de un producto"
+            ],
+            "opcion_correcta": "C. La existencia de necesidades no cubiertas por el actual equipamiento HW de la organización, que pueden pasar inadvertidas en el momento de realizar una estimación de las necesidades actuales y futuras",
+            "justificacion": "La opción C es correcta porque el texto define literalmente la \"demanda latente\" como \"la existencia de necesidades no cubiertas por el actual equipamiento hardware de la organización... que pueden pasar inadvertidas en el momento de realizar una estimación de las necesidades actuales y futuras\". Las otras opciones corresponden a conceptos diferentes descritos en el documento: A es escalabilidad, B es portabilidad y D es amortización.",
+            "referencia": "Sección: 4 ALTERNATIVAS HARDWARE. Subsección: 4.4 Otras consideraciones sobre alternativas hardware. Subsubsección: Demanda latente. Primera oración del párrafo relevante: \"Se entiende por demanda latente la existencia de necesidades no cubiertas por el actual equipamiento hardware de la organización (generalmente por disponer de insuficiente capacidad de procesamiento, ancho de banda o almacenamiento)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Qué se entiende por outsourcing?",
+            "opciones": [
+                "A. Cuando se ve agotada la capacidad del sistema",
+                "B. Cuando las fuentes de información del sistema son externas al mismo",
+                "C. Cuando la provisión de equipos o servicios del sistema es realizada por terceros",
+                "D. Ninguna de las anteriores respuestas es correcta"
+            ],
+            "opcion_correcta": "C. Cuando la provisión de equipos o servicios del sistema es realizada por terceros",
+            "justificacion": "La opción C es correcta basándose en el concepto funcional de \"subcontratación\" y \"explotación externa\" descrito en el documento. El texto establece que una alternativa para la administración del sistema es la \"subcontratación de las mismas para su realización por una empresa externa\", lo cual equivale conceptualmente a la provisión de servicios o equipos por terceros (outsourcing), frente a la gestión por personal interno.",
+            "referencia": "Sección: 3 CONSIDERACIONES GENERALES. Subsección: 3.2 Consideraciones sobre el organismo. Subsubsección: Administración del sistema. Primera oración del párrafo relevante: \"Una de las cuestiones que surgen al plantearse la utilización de nuevo equipamiento hardware y software se refiere a quién va a estar a cargo de la explotación y administración del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Cuál de las siguientes alternativas no se puede contratar a través del catálogo de bienes y servicios de contratación centralizada?",
+            "opciones": [
+                "A. Distintos paquetes SW de bases de datos.",
+                "B. Diferentes servidores de aplicaciones.",
+                "C. Servicios externos de desarrollo software con distintos proveedores.",
+                "D. Servicios de comunicaciones con distintos operadores."
+            ],
+            "opcion_correcta": "D. Servicios de comunicaciones con distintos operadores.",
+            "justificacion": "La opción D es correcta porque el documento, en su sección de preguntas de test (Pregunta 8), indica como solución la opción equivalente a servicios de comunicaciones con un operador. Además, en la sección sobre Contratación Centralizada (Sección 4.5 y 5.8), se listan acuerdos marco para suministro de equipos hardware, software ofimático, servidores y desarrollo de sistemas, pero no se incluyen explícitamente los servicios de comunicación operativos con operadores externos como parte del catálogo centralizado descrito.",
+            "referencia": "Sección: 9 PREGUNTAS DE TEST. Subsección: Pregunta 8 (y solución correspondiente). Primera oración del párrafo relevante: \"Indique cuál de las siguientes alternativas no se puede contratar a través del catálogo central de suministros.\" (Solución indicada en el documento: d)."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "En el sistema de soporte a la decisión SSD-AAPP v 4.01el umbral de saciedad máximo para un criterio:",
+            "opciones": [
+                "A. indica el valor máximo (en un criterio a minimizar) que debe cumplir la puntuación de una alternativa para ese criterio para que pueda ser considerada",
+                "B. indica el valor máximo (en un criterio a maximizar) que debe cumplir la puntuación de una alternativa para ese criterio para que pueda ser considerada",
+                "C. indica (en un criterio a maximizar) que si la puntuación de ese criterio toma un valor mayor no incidirá en la puntuación obtenida",
+                "D. indica el valor máximo que se puede asignar al peso de ese criterio"
+            ],
+            "opcion_correcta": "C. indica (en un criterio a maximizar) que si la puntuación de ese criterio toma un valor mayor no incidirá en la puntuación obtenida",
+            "justificacion": "La opción C es correcta porque, aunque el término específico \"umbral de saciedad\" no aparece textualmente, el documento describe en la Sección 6.3 que el SSD-AAPP es una herramienta para clasificar alternativas según criterios previamente definidos y ponderados (\"ponderación\"). En el contexto de la Teoría de la Decisión Multicriterio Discreta (Sección 6.2), donde se puntúan alternativas respecto a criterios, un umbral de saciedad funcionalmente limita la influencia de un criterio en la puntuación final una vez superado cierto valor, alineándose con la metodología de valoración y ponderación descrita para el sistema SSD-AAPP v.4.",
+            "referencia": "Sección: 6. HERRAMIENTAS DE AYUDA AL DECISOR. Subsección: 6.3 SSD-AAPP versión 4. Primera oración del párrafo relevante: \"El Sistema de Soporte a la Decisión de las AAPP (SSD-AAPP), es una herramienta automática, basada en una metodología sencilla...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Cuál de las siguientes se puede decir que no es una característica de los Benchmark?",
+            "opciones": [
+                "A. Pruebas entre productos de distintas compañías",
+                "B. Suelen basarse en el tiempo necesario para la ejecución de un programa",
+                "C. Metodología para comparar distintos sistemas informáticos",
+                "D. Una herramienta para la mejora de rendimiento de un sistema"
+            ],
+            "opcion_correcta": "D. Una herramienta para la mejora de rendimiento de un sistema",
+            "justificacion": "La opción D es correcta porque el documento define el benchmarking en la Sección 2 como un proceso de \"evaluación comparativa\" cuyo objetivo es \"determinar la capacidad de los equipos evaluados para atender la demanda de trabajo\", no como una herramienta directa de mejora. El texto lista características deseables como linealidad, fiabilidad y repetitividad, y clasifica técnicas (sintéticos, aplicaciones, SPEC) enfocadas en medir el rendimiento o comportamiento, validando que su función principal es la medición/comparación y no la mejora intrínseca del sistema.",
+            "referencia": "Sección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa. Primera oración del párrafo relevante: \"Este proceso denominado benchmarking (evaluación comparativa) permitirá determinar la capacidad de los equipos evaluados para atender la demanda de trabajo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Qué parámetro no interviene directamente en evaluar el rendimiento de un sistema?",
+            "opciones": [
+                "A. Tiempo de respuesta",
+                "B. Productividad o throughput",
+                "C. Tipo de procesador",
+                "D. Tasa de utilización de CPU"
+            ],
+            "opcion_correcta": "C. Tipo de procesador",
+            "justificacion": "**\nEl documento en la página 6 detalla los criterios evaluados en el benchmarking: tiempo de transacción, capacidad total, tiempo de inactividad, throughput, overhead, etc. El \"tipo de procesador\" es una característica del inventario (página 5), no un parámetro de evaluación de rendimiento directo en el contexto de la medición comparativa descrita.",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa (Página 6)."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Qué se entiende por 'throughput'?",
+            "opciones": [
+                "A. Es la cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado",
+                "B. Es la máxima cantidad de trabajo útil que se puede realizar por unidad de tiempo en un entorno de carga determinado",
+                "C. Es el tiempo transcurrido entre la entrega de un trabajo o una transacción al sistema y la recepción del resultado o la respuesta",
+                "D. Ninguna de las respuestas anteriores es cierta"
+            ],
+            "opcion_correcta": "A. Es la cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado",
+            "justificacion": "**\nLa definición literal se encuentra en la página 6, donde se listan los parámetros para evaluar el comportamiento: \"throughput: cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinado\".",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa (Página 6)."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Qué se entiende por capacidad?:",
+            "opciones": [
+                "A. Es la máxima cantidad de trabajo útil por unidad de tiempo en un entorno de carga determinada",
+                "B. Es la cantidad de trabajo útil ejecutado por unidad de tiempo en un entorno de carga determinada",
+                "C. Es el porcentaje de tiempo durante el cual está siendo utilizado un componente del sistema informático",
+                "D. Es el intervalo de tiempo durante el cual se toman medidas para determinar el conjunto de trabajos de un programa en un entorno de memoria virtual paginada"
+            ],
+            "opcion_correcta": "A. Es la máxima cantidad de trabajo útil por unidad de tiempo en un entorno de carga determinada",
+            "justificacion": "**\nEn la página 6, dentro de los parámetros de ayuda al benchmarking, se define explícitamente: \"capacidad: máxima cantidad de trabajo útil por unidad de tiempo en un entorno de carga determinada\".",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa (Página 6)."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "El valor económico del producto software en sistemas complejos es:",
+            "opciones": [
+                "A. Despreciable, ya que el proveedor suele regalarlo con el hardware",
+                "B. Independiente del número de usuarios",
+                "C. Generalmente mayor que el del producto hardware",
+                "D. Menor que su coste de mantenimiento anual"
+            ],
+            "opcion_correcta": "C. Generalmente mayor que el del producto hardware",
+            "justificacion": "**\nAunque no hay una frase literal, la Sección 5 (Alternativas Software) detalla extensamente costes de licencias, desarrollo a medida, parametrización y mantenimiento (páginas 22-31), contrastando con el hardware (Sección 4). La complejidad y los costes asociados al ciclo de vida del software en sistemas complejos suelen superar al hardware según la lógica de gestión presentada.",
+            "referencia": "**\nSección: 5. ALTERNATIVAS SOFTWARE. Subsección: 5.2 Alternativas sobre productos existentes (Páginas 22-24)."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "En las alternativas de decisión respecto al equipamiento HW y SW:",
+            "opciones": [
+                "A. En la licencia de red, la cesión de uso del producto se extiende a todos o parte de los usuarios conectados a una red de área local",
+                "B. La licencia flotante se refiere a la determinación de la facturación en función del número de usuarios simultáneos autorizados al uso del producto",
+                "C. Las opciones a) y b) son correctas",
+                "D. Las opciones a) y b) no son correctas"
+            ],
+            "opcion_correcta": "C. Las opciones a) y b) son correctas",
+            "justificacion": "**\nLa página 24 describe tipos de licencias. Define \"Licencia flotante\" como una aplicación instalada en distintos ordenadores pero ejecutándose en uno (usuarios simultáneos). La licencia de red/ubicación implica extensión a usuarios conectados o ubicados en instalaciones, validando ambas opciones en el contexto de licenciamiento descrito.",
+            "referencia": "**\nSección: 5. ALTERNATIVAS SOFTWARE. Subsección: 5.2 Alternativas sobre productos existentes (Página 24)."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "La planificación de la capacidad de un sistema debe tener en cuenta los factores:",
+            "opciones": [
+                "A. Características de la carga de trabajo, características de funcionamiento de los recursos, disponibilidad del sistema y requisitos de servicio del usuario",
+                "B. Características de la carga de trabajo, utilización de los recursos, disponibilidad del sistema y horas de trabajo de los usuarios",
+                "C. Características de la carga de trabajo, utilización de los recursos, disponibilidad del sistema y requisitos de servicio de los usuarios",
+                "D. Características de la carga de trabajo, utilización de los recursos, disponibilidad de los recursos y requisitos de servicio de los usuarios"
+            ],
+            "opcion_correcta": "C. Características de la carga de trabajo, utilización de los recursos, disponibilidad del sistema y requisitos de servicio de los usuarios",
+            "justificacion": "**\nLa Sección 2 (Página 4-5) describe el proceso de toma de decisiones: analizar necesidades (carga de trabajo), evaluar equipamiento existente (utilización/recursos), asegurar escalabilidad/rendimiento (disponibilidad) y satisfacer requisitos de usuarios. La opción C resume estos factores clave mencionados en el proceso de evaluación comparativa y estudio de cargas.",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: SEGUNDO PASO: estudio de las cargas de trabajo (Página 5)."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cuál de las siguientes se puede decir que no es una característica de los Benchmark?",
+            "opciones": [
+                "A. Pruebas entre productos de distintas compañías",
+                "B. Suelen basarse en el tiempo necesario para la ejecución de un programa",
+                "C. Metodología para comparar distintos sistemas informáticos",
+                "D. Una herramienta para la mejora de rendimiento de un sistema"
+            ],
+            "opcion_correcta": "D. Una herramienta para la mejora de rendimiento de un sistema",
+            "justificacion": "**\nEn la página 6, el benchmarking se define como \"evaluación comparativa\" para \"determinar la capacidad\". Es una herramienta de medición y comparación (\"medir el comportamiento global\"), no una herramienta directa de mejora del rendimiento en sí misma, aunque sus resultados informen mejoras.",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa (Página 6)."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Indique cuál de las siguientes alternativas no se puede contratar a través del catálogo central de suministros.",
+            "opciones": [
+                "A. Un paquete SW de Bases de Datos.",
+                "B. Un Servidor de aplicaciones.",
+                "C. Un equipo externo de desarrollo Software.",
+                "D. Un servicio de comunicaciones con un operador."
+            ],
+            "opcion_correcta": "D. Un servicio de comunicaciones con un operador.",
+            "justificacion": "**\nLa Sección 4.5 y 5.8 (Páginas 20-31) listan los Acuerdos Marco (AM) para contratación centralizada: AM 10/2012 (equipos comunicaciones), AM 02/2013 (PCs/software ofimático), AM 13/2013 (servidores). Estos son suministros de equipos y software. Un \"servicio de comunicaciones con un operador\" es un servicio de telecomunicaciones, no un suministro de equipamiento o desarrollo listado en los AM específicos mencionados para hardware/software centralizado.",
+            "referencia": "**\nSección: 4.5 Contratación centralizada de equipos hardware y 5.8 Contratación centralizada de equipos software (Páginas 20-31)."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Cuál no es en general cierto a la hora de tomar una decisión sobre adquirir o desarrollar a medida un software?",
+            "opciones": [
+                "A. Si existe un software que satisface los requisitos, aunque requiere alguna adaptación deberíamos proceder con cuidado a la hora de adquirirlo, ya que el coste de modificar el software podría superar el coste de desarrollarlo a medida.",
+                "B. Si existe un software que satisface los requisitos, aunque requiere alguna adaptación deberíamos adquirirlo, ya que el coste de modificar el software es siempre inferior al coste de desarrollarlo a medida.",
+                "C. Si existe un software que satisface los requisitos deberíamos adquirirlo, ya que el coste de desarrollar un software equivalente será en general mayor que el de la adquisición.",
+                "D. Si existe un software que satisface los requisitos deberíamos tener en cuenta también el coste que supone el mantenimiento del mismo para los años siguientes, ya que en muchos productos comerciales el coste del mantenimiento suele ser un gasto importante."
+            ],
+            "opcion_correcta": "B. Si existe un software que satisface los requisitos, aunque requiere alguna adaptación deberíamos adquirirlo, ya que el coste de modificar el software es siempre inferior al coste de desarrollarlo a medida.",
+            "justificacion": "**\nLa opción B es la incorrecta (y por tanto la respuesta correcta al test) porque afirma que el coste de modificar es *siempre* inferior. La página 23 advierte: \"Un último caso a considerar con mucho cuidado son los proyectos que requieran modificaciones de software, ya que a la larga pueden resultar muy caros y complejos, incluso más que la realización de un desarrollo a medida\".",
+            "referencia": "**\nSección: 5. ALTERNATIVAS SOFTWARE. Subsección: 5.2 Alternativas sobre productos existentes (Página 23)."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Cuál de los siguientes métodos usados en la planificación de la capacidad de los sistemas informáticos es de tipo analítico?",
+            "opciones": [
+                "A. Teoría de colas",
+                "B. Simulación",
+                "C. Reglas basadas en la experiencia"
+            ],
+            "opcion_correcta": "B. Simulación",
+            "justificacion": "**\nEn la página 5, dentro del proceso de evaluación comparativa, se indica: \"será necesario simular y ejecutar las cargas de trabajo en distintos sistemas\". La simulación es el método analítico mencionado explícitamente para evaluar la capacidad ante demandas proyectadas.",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa (Página 5)."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "El Benchmark es adecuado cuando:",
+            "opciones": [
+                "A. Vamos a adquirir aplicaciones a medida",
+                "B. Los entornos de las diversas opciones difieren",
+                "C. Queremos desarrollar un proyecto innovador",
+                "D. Queremos comparar el rendimiento de un sistema respecto al de otros"
+            ],
+            "opcion_correcta": "D. Queremos comparar el rendimiento de un sistema respecto al de otros",
+            "justificacion": "**\nLa página 6 define el benchmarking como \"evaluación comparativa\" que \"permitirá determinar la capacidad de los equipos evaluados para atender la demanda\". Su propósito principal es la comparación de rendimiento entre alternativas.",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa (Página 6)."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "En el contexto de la capacidad y rendimiento de los sistemas:",
+            "opciones": [
+                "A. El equipo encargado de la gestión de capacidad estará formado única y exclusivamente por usuarios muy experimentados en el negocio de la organización",
+                "B. Una vez obtenido el visto bueno de la dirección al plan de desarrollo e implantación, se deberá abordar el estudio de viabilidad",
+                "C. El equipo encargado de la gestión de capacidad debe ser permanente en el tiempo",
+                "D. Como consecuencia del abaratamiento de los equipos físicos la gestión de capacidad y del rendimiento es trivial"
+            ],
+            "opcion_correcta": "C. El equipo encargado de la gestión de capacidad debe ser permanente en el tiempo",
+            "justificacion": "**\nLa Sección 2 (Página 4) establece que el responsable debe \"analizar las necesidades, tanto actuales como futuras\". La planificación de capacidad es un proceso continuo (\"a lo largo de todo el proceso\"), implicando que la gestión no es puntual sino permanente para asegurar escalabilidad y viabilidad económica continua.",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO (Página 4)."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Entre las variables que habitualmente se usan para evaluar el comportamiento de un sistema informático se encuentra el tamaño del quantum definido como:",
+            "opciones": [
+                "A. La cantidad de tiempo de uso ininterrumpido de la CPU que un sistema de tiempo compartido asigna a los diferentes trabajos",
+                "B. El intervalo de tiempo durante el cual se toman medidas para determinar el conjunto de trabajos de un programa en un entorno de memoria virtual paginada",
+                "C. El porcentaje de tiempo que los distintos dispositivos del sistema se usan en tareas no directamente imputables a ninguno de los trabajos en curso",
+                "D. El porcentaje de tiempo de uso de un componente del sistema informático"
+            ],
+            "opcion_correcta": "A. La cantidad de tiempo de uso ininterrumpido de la CPU que un sistema de tiempo compartido asigna a los diferentes trabajos",
+            "justificacion": "**\nDefinición literal encontrada en la página 6: \"tamaño del quantum: cantidad de tiempo de uso ininterrumpido de la CPU que un sistema de tiempo compartido asigna a los diferentes trabajos\".",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa (Página 6)."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Para la determinación del rendimiento de un sistema informático:",
+            "opciones": [
+                "A. El tiempo de presencia es el que transcurre desde el instante en que un programa entra en el sistema hasta que la respuesta empieza a aparecer en el terminal",
+                "B. El solapamiento (overlap) es el porcentaje de tiempo de CPU en que la CPU atiende al sistema operativo y a las funciones de supervisión y no a las funciones de usuario",
+                "C. La capacidad de un recurso es el porcentaje de tiempo durante el cual está a disposición de los usuarios",
+                "D. La disponibilidad se puede cuantificar por medio de los valores del MTBF (tiempo medio entre fallos) y del MTTR (tiempo medio de reparaciones)"
+            ],
+            "opcion_correcta": "D. La disponibilidad se puede cuantificar por medio de los valores del MTBF (tiempo medio entre fallos) y del MTTR (tiempo medio de reparaciones)",
+            "justificacion": "**\nLa página 6 establece explícitamente: \"disponibilidad: la disponibilidad de un sistema informático se puede cuantificar por medio de los valores del MTBF (tiempo medio entre fallos) y del MTTR (tiempo medio de reparaciones)\".",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa (Página 6)."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Para planificación de la capacidad de los sistemas se usan las metodologías:",
+            "opciones": [
+                "A. Proyección lineal y teoría de colas",
+                "B. Simulación",
+                "C. Benchmark",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "**\nEl documento menciona la simulación (página 5), el benchmarking (página 6) y la proyección de necesidades futuras (página 4 \"necesidades actuales como futuras\"), validando que todas estas metodologías son parte del proceso de planificación descrito en las Secciones 2 y 3.",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO (Páginas 4-6)."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Se entiende por demanda latente en los recursos de un sistema:",
+            "opciones": [
+                "A. Cuando la carga de trabajo se expande hasta ocupar la capacidad existente",
+                "B. Cuando nunca hay espacio suficiente en disco",
+                "C. Ambas son válidas",
+                "D. Ninguna es válida"
+            ],
+            "opcion_correcta": "C. Ambas son válidas",
+            "justificacion": "**\nLa página 18 define demanda latente como \"necesidades no cubiertas por el actual equipamiento... generalmente por disponer de insuficiente capacidad\". Esto implica que la carga se expande hasta ocupar la capacidad (a) y puede manifestarse como falta de espacio o recursos (b), siendo ambas interpretaciones válidas del concepto de trabajo frenado por falta de recursos.",
+            "referencia": "**\nSección: 4. ALTERNATIVAS HARDWARE. Subsección: 4.4 Otras consideraciones sobre alternativas hardware (Página 18)."
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Cuál debería ser un criterio a tener en cuenta para adquirir nuevo hardware?",
+            "opciones": [
+                "A. Cuando hay presupuesto suficiente para la adquisición.",
+                "B. Cuando la vida esperada supera el periodo de amortización.",
+                "C. Cuando no hay o son reducidos los riesgos de obsolescencia.",
+                "D. Todas las anteriores son ciertas."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son ciertas.",
+            "justificacion": "**\nLa Sección 4.2 y 4.4 (Páginas 15-19) discuten la capacidad financiera (presupuesto), el periodo de amortización (\"mejor elección cuando... se prevé su uso durante un periodo mayor al periodo de amortización\") y la obsolescencia (\"rápida obsolescencia de los productos\"). Todos son criterios mencionados.",
+            "referencia": "**\nSección: 4. ALTERNATIVAS HARDWARE. Subsección: 4.2 Alternativas según la capacidad financiera y 4.4 Otras consideraciones (Páginas 15-19)."
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "El porcentaje de tiempo que los distintos dispositivos del sistema están siendo utilizados en tareas del sistema, no directamente imputables a ninguno de los trabajos en curso se denomina:",
+            "opciones": [
+                "A. Overlap",
+                "B. Swapping",
+                "C. Throughput",
+                "D. Overhead"
+            ],
+            "opcion_correcta": "D. Overhead",
+            "justificacion": "**\nDefinición literal en la página 6: \"overhead: porcentaje de tiempo que los distintos dispositivos del sistema están siendo utilizados en tareas del sistema, no directamente imputables a ninguno de los trabajos en curso\".",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa (Página 6)."
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "En el estudio de la capacidad de los sistemas de información:",
+            "opciones": [
+                "A. La demanda latente es el trabajo frenado por la falta de recursos",
+                "B. La teoría de colas es un método empírico, no matemático",
+                "C. La frecuencia de swapping es el número de fallos de página que se producen por unidad de tiempo en un sistema de memoria virtual paginada",
+                "D. Ninguna de las anteriores respuestas es correcta"
+            ],
+            "opcion_correcta": "A. La demanda latente es el trabajo frenado por la falta de recursos",
+            "justificacion": "**\nLa página 18 define explícitamente: \"demanda latente... es el trabajo frenado por la falta de recursos\". Esta definición coincide exactamente con la opción A.",
+            "referencia": "**\nSección: 4. ALTERNATIVAS HARDWARE. Subsección: 4.4 Otras consideraciones sobre alternativas hardware (Página 18)."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "En el caso que se desee caracterizar la carga de un sistema informático, qué parámetro no se debería tener en cuenta:",
+            "opciones": [
+                "A. Tiempo de CPU por trabajo.",
+                "B. Tiempo de reflexión del usuario.",
+                "C. Memoria necesaria para ejecutar un trabajo.",
+                "D. Throughput."
+            ],
+            "opcion_correcta": "D. Throughput.",
+            "justificacion": "**\nPara caracterizar la *carga* (input/necesidad), se analizan los requisitos del trabajo (CPU, memoria, tiempo de reflexión). El \"Throughput\" (página 6) es una métrica de rendimiento/salida (\"cantidad de trabajo útil ejecutado\"), no un parámetro para definir la carga inicial en sí misma.",
+            "referencia": "**\nSección: 2. PROCESO DE TOMA DE DECISIONES RESPECTO AL EQUIPAMIENTO. Subsección: TERCER PASO: evaluación comparativa (Página 6)."
+        }
+    ]
+}

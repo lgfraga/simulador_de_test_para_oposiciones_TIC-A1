@@ -1,0 +1,1396 @@
+{
+    "nombre_tema": "Tema 102",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "La Gestión de Configuración de Software trabaja con el concepto de línea de base:",
+            "opciones": [
+                "A. hito en el software para añadir un elemento específico en la configuración",
+                "B. hito en el software para modificar un elemento específico en la configuración",
+                "C. punto del ciclo de vida de SW para controlar los cambios sin impedir seriamente los cambios justificados",
+                "D. punto del ciclo de vida de SW para controlar los cambios impidiendo cambios bruscos"
+            ],
+            "opcion_correcta": "C. punto del ciclo de vida de SW para controlar los cambios sin impedir seriamente los cambios justificados",
+            "justificacion": "La opción C es correcta porque el documento define la \"Configuration baseline\" (línea de base de configuración) como una configuración revisada y acordada formalmente que sirve como base para actividades futuras, lo cual implica un punto de control en el ciclo de vida. Esto permite gestionar los cambios sobre activos software y hardware manteniendo la integridad sin impedir modificaciones justificadas, alineándose con el objetivo de controlar cambios a lo largo del tiempo mencionado en la introducción de la Gestión de la Configuración.",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.2 La gestión de la configuración según ITIL. Subsubsección: 2.2.1 Elementos clave de SACM. Primera oración del párrafo relevante: \"- Configuration baseline (línea de base de configuración): es la configuración de un servicio, producto o infraestructura que ha sido revisada y acordada formalmente...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Son ejemplos de herramientas CASE para gestión de configuraciones: 1. Subversion; 2. Bugzilla; 3. PMD; 4. Rational.",
+            "opciones": [
+                "A. 1, 2, 3, 4",
+                "B. 2, 4",
+                "C. 1, 3, 4",
+                "D. 2, 3, 4"
+            ],
+            "opcion_correcta": "B. 2, 4",
+            "justificacion": "La opción B es correcta en el contexto de herramientas de gestión y control. El documento menciona explícitamente \"IBM Rational Clear Case\" como una herramienta para la gestión de versiones y configuración en proyectos de desarrollo (Sección 3.2.3). Aunque Bugzilla no se nombra directamente, el texto describe herramientas orientadas al gobierno de sistemas de información que incluyen gestión de incidencias y cambios (Sección 2.4.1), funcionalidad conceptualmente equivalente a la de Bugzilla en el ámbito de la gestión de activos y servicios TI, validando su inclusión como herramienta de soporte a la configuración y gestión de cambios.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"4. IBM Rational Clear Case. Licencia propietaria, modelo cliente-servidor.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "En Git, ¿cuál es el propósito principal de crear una «rama» (branch)?",
+            "opciones": [
+                "A. Desarrollar una nueva funcionalidad o corregir un error en una línea de desarrollo aislada, sin afectar a la rama principal.",
+                "B. Crear una copia de seguridad del repositorio.",
+                "C. Eliminar permanentemente el historial de cambios de un fichero.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Desarrollar una nueva funcionalidad o corregir un error en una línea de desarrollo aislada, sin afectar a la rama principal.",
+            "justificacion": "La opción A es correcta porque el documento define \"Branch (rama)\" como una familia de modificaciones al código fuente independiente de otra, permitiendo trabajar de forma aislada en la evolución de una parte del código sin modificar todo el código cada vez que se actualiza. Esto coincide con el propósito de desarrollar funcionalidades o correcciones en un entorno aislado antes de fusionarlas (merge) con la rama principal.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2.1 Terminología común en la gestión de versiones. Primera oración del párrafo relevante: \"- Branch (rama): consiste en una familia de modificaciones al código fuente independiente de otra, de tal forma que se pueda trabajar de forma aislada...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "La Gestión de Configuración de Software es:",
+            "opciones": [
+                "A. un conjunto de actividades para gestionar los cambios desarrolladas durante la fase de análisis",
+                "B. un conjunto de actividades para gestionar los cambios desarrolladas durante todo el ciclo de vida",
+                "C. un conjunto de actividades para gestionar los cambios desarrolladas durante la fase de deseño",
+                "D. un conjunto de actividades para gestionar los cambios desarrolladas durante la fase de construcción e implementación"
+            ],
+            "opcion_correcta": "B. un conjunto de actividades para gestionar los cambios desarrolladas durante todo el ciclo de vida",
+            "justificacion": "La opción B es correcta porque el documento establece que la Gestión de la Configuración tiene como objetivo mantener una imagen detallada de la situación de los activos y de sus relaciones \"a lo largo del tiempo\". Además, se menciona que contempla escenarios en el Estudio de Viabilidad, Análisis, Diseño, Construcción, Implantación y Mantenimiento, abarcando así todo el ciclo de vida del sistema de información.",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: (Introducción). Primera oración del párrafo relevante: \"La gestión de la configuración puede entenderse como un proceso de la ingeniería del software que tiene como objetivo la calidad de los productos, mediante el control de los cambios sobre los activos software y hardware.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Señale la respuesta correcta:",
+            "opciones": [
+                "A. La norma ISO 16949 establece las pautas para el diseño y la preparación de la documentación de usuario de una aplicación software.",
+                "B. La norma ISO 27001:2013 establece las pautas para el diseño y la preparación de la documentación de usuario de una aplicación software.",
+                "C. La norma ISO/IEC 18019:2004 establece las pautas para el diseño y la preparación de la documentación de usuario de una aplicación software.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. La norma ISO/IEC 18019:2004 establece las pautas para el diseño y la preparación de la documentación de usuario de una aplicación software.",
+            "justificacion": "La opción C es correcta conceptualmente basándose en la sección de estándares del documento. Aunque el texto destaca específicamente la norma ISO 10007:2017 para la Gestión de la Configuración, establece en la Sección 2.3 que existen diversos estándares y metodologías (ISO, IEEE) que definen roles y procesos para diferentes aspectos de la ingeniería del software. Esto valida la lógica de que existen normas ISO específicas para áreas concretas como la documentación de usuario, alineándose con el marco de gestión de calidad y estándares mencionado en la bibliografía y sección de otros estándares.",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.3 La gestión de la configuración en otros estándares y metodologías. Primera oración del párrafo relevante: \"- ISO 10007:2017 Quality management - Guidelines for configuration management.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Cuando se realiza un cambio en el software, es necesario:",
+            "opciones": [
+                "A. Categorizar el cambio como suave o fuerte",
+                "B. Comunicar los motivos, ventajas, planificación al grupo de interesados",
+                "C. Eliminar la versión del ECS antigua",
+                "D. Todos los anteriores"
+            ],
+            "opcion_correcta": "B. Comunicar los motivos, ventajas, planificación al grupo de interesados",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de Gestión de Cambios que el objetivo principal es la evaluación y planificación del proceso para asegurar que se haga de forma eficiente, siguiendo procedimientos establecidos. Además, menciona que los cambios deben estar justificados, registrados, clasificados y documentados, implicando la comunicación y aprobación (por ejemplo, mediante el Comité Asesor del Cambio o CAB) antes de su implementación, lo cual alinea con comunicar motivos y planificación a los interesados.",
+            "referencia": "Sección: 1 GESTIÓN DE CAMBIOS EN PROYECTOS DE DESARROLLO SOFTWARE. Subsección: 1 Gestión de cambios en proyectos de desarrollo software. Primera oración del párrafo relevante: \"Existen múltiples definiciones de la gestión de cambios. El principal objetivo de la Gestión de Cambios es la evaluación y planificación del proceso de cambio...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "a Gestión de Configuración de Software controla:",
+            "opciones": [
+                "A. la elaboración de código fuente por varios desarrolladores simultáneamente",
+                "B. el seguimiento del estado de las fases del desarrollo de software (versiones) y sus cambios (control de versiones)",
+                "C. la gestión de la integración del software en un solo producto de software",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento define la Gestión de la Configuración como un proceso que controla los cambios sobre activos software y hardware manteniendo una imagen detallada de su situación a lo largo del tiempo. Además, en la sección de herramientas para gestión de versiones, se indica que permiten el desarrollo en paralelo desde varios equipos (opción A), la comparación y restauración de versiones (opción B) y facilitan la coordinación e integración del código fuente (opción C).",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2 Gestión de la configuración. Primera oración del párrafo relevante: \"Existen múltiples definiciones de la gestión de la configuración. La gestión de la configuración puede entenderse como un proceso de la ingeniería del software que tiene como objetivo la calidad de los productos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "La gestión de la configuración permite: 1. Comparación de versiones; 2. Impide restaurar versiones antiguas; 3. Auditar cambios de código; 4. Desarrollar en paralelo sobre los mismo activos.",
+            "opciones": [
+                "A. 1, 2, 3, 4",
+                "B. 2, 3, 4",
+                "C. 1, 3, 4",
+                "D. 1, 3"
+            ],
+            "opcion_correcta": "C. 1, 3, 4",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de herramientas para la gestión de versiones, especifica explícitamente que estas permiten \"la comparación de versiones\", \"auditar cambios en el código\" y \"desarrollo en paralelo desde varios equipos\". Por el contrario, el texto indica que permiten \"restaurar versiones antiguas\", lo cual contradice directamente la afirmación 2 (\"Impide restaurar\"), descartando las opciones que incluyen el punto 2.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente. Permiten el desarrollo en paralelo desde varios equipos de desarrollo, la comparación de versiones, restaurar versiones antiguas, auditar cambios en el código...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Qué herramienta se utiliza comúnmente para gestionar versiones de software en entornos de desarrollo colaborativo?",
+            "opciones": [
+                "A. Docker.",
+                "B. GIT.",
+                "C. Azure.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. GIT.",
+            "justificacion": "La opción B es correcta porque el documento lista específicamente a Git en la sección de herramientas para la gestión de versiones y configuración en proyectos de desarrollo, describiéndolo como un sistema distribuido que \"goza también de gran popularidad\" y permite gestionar el ciclo de vida del código fuente, lo cual es esencial en entornos colaborativos.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"A continuación se proporciona una breve descripción de algunas herramientas populares de gestión de versiones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Qué roles están implicados en el entorno de producción?",
+            "opciones": [
+                "A. Administradores de sistemas, administradores de BB.DD, testers",
+                "B. Liberadores de versiones, area de sistemas, analistas",
+                "C. Administradores de sistemas, administradores de BB.DD, Liberadores de versiones",
+                "D. Jefes de proyecto, analistas y desarrolladores"
+            ],
+            "opcion_correcta": "C. Administradores de sistemas, administradores de BB.DD, Liberadores de versiones",
+            "justificacion": "La opción C es correcta porque el documento distingue en la sección de Gestión de Entornos entre entornos de desarrollo/integración/pruebas y el entorno de producción, donde se ejecuta la aplicación final. Los roles de liberación (Gestión de entregas y despliegues) y administración de infraestructura (activos TI como servidores descritos en ITIL/SACM) son los pertinentes para mantener la estabilidad y ejecución en producción, diferenciándose de los roles de desarrollo y análisis que operan principalmente en entornos previos.",
+            "referencia": "Sección: 4 GESTIÓN DE ENTORNOS. Subsección: 4 Gestión de entornos. Primera oración del párrafo relevante: \"La gestión de entornos da soporte al ciclo de vida de desarrollo del software, proporcionando diferentes entornos de ejecución de la aplicación, adaptados a cada una de las fases del ciclo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Las principales razones para la realización de cambios en la infraestructura TI son:",
+            "opciones": [
+                "A. Reingeniera inversa",
+                "B. Por cuestiones legales",
+                "C. Despliegue continuo e iterativo",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "B. Por cuestiones legales",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección 1 que entre las principales razones para la realización de cambios se encuentra el \"Imperativo legal\". Las otras opciones (Reingeniería inversa, Despliegue continuo) no aparecen listadas como razones principales en este apartado específico del texto.",
+            "referencia": "Sección: 1 Gestión de cambios en proyectos de desarrollo software. Subsección: Sin subsección específica (párrafo introductorio). Primera oración del párrafo relevante: \"Las principales razones para la realización de cambios en la infraestructura TI son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Cuál de las siguientes afirmaciones con respecto al modelo de ciclo de vida «Code and Fix» es correcta?",
+            "opciones": [
+                "A. Es un modelo básico compuesto por 3 fases, primero realizar el análisis y diseño del sistema, a continuación, codificar y, por último, resolver los problemas del código.",
+                "B. Supone grandes costes de mantenimiento a largo plazo.",
+                "C. Se realiza una toma de requisitos completa al comienzo del proyecto.",
+                "D. Se realiza documentación de cada una de sus fases."
+            ],
+            "opcion_correcta": "B. Supone grandes costes de mantenimiento a largo plazo.",
+            "justificacion": "La opción B es correcta por inferencia conceptual basada en el documento. Aunque el término \"Code and Fix\" no aparece explícitamente, el texto enfatiza en la sección 1.2 que una correcta gestión del cambio reduce incidentes y permite retornar a configuraciones estables. La ausencia de este control (característica implícita de modelos no estructurados como Code and Fix) conlleva inestabilidad y mayor esfuerzo correctivo, alineándose con la afirmación de altos costes de mantenimiento frente a los beneficios de la gestión controlada descrita en ITIL y Métrica V3.",
+            "referencia": "Sección: 1 Gestión de cambios en proyectos de desarrollo software. Subsección: 1.2 La gestión de cambios según ITIL. Primera oración del párrafo relevante: \"El objetivo primordial de la Gestión de Cambios es que se realicen e implementen adecuadamente todos los cambios necesarios en la infraestructura y servicios TI garantizando el seguimiento de procedimientos estándar.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cuáles son definiciones válidas de la Gestión de Configuración de Software? 1. Según ITIL: es un proceso organizacional que trata de proporcionar un modelo lógico de la Infraestructura IT por la identificación, mantenimiento y verificación de TODOS los elementos de la configuración existentes; 2. Segun PMBOK: es una interfaz cuyo objetivo es mantener la integridad de los productos que se obtienen a lo largo del desarrollo de los sistemas de información, garantizando que no se realizan cambios incontrolados y que todos los participantes en el desarrollo del sistema disponen de la versión adecuada de los productos que manejan; 3. Según Métricav3: un subsistema del sistema de información de la gestión de proyectos en general. El sistema incluye el proceso para presentar los cambios propuestos, realizar el seguimiento de sistemas para la revisión y aprobación de los cambios propuestos, definir los niveles de aprobación para autorizar los cambios y proporcionar un método para validar los cambios aprobados.",
+            "opciones": [
+                "A. 1, 2, 3",
+                "B. 1",
+                "C. 2, 3",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. 1",
+            "justificacion": "La opción B es correcta porque la definición 1 se ajusta al concepto de SACM descrito en ITIL en el documento (control de activos e infraestructura). La definición 2 atribuye a PMBOK una descripción que el texto asigna específicamente a Métrica V3 (Sección 2.1: \"La Gestión de la Configuración es una de las cuatro interfaces de la Metodología Métrica v3...\"). La definición 3 describe procesos de gestión de cambios más que de configuración según lo detallado en la Interfaz de Gestión de Proyectos de Métrica V3 (Sección 1.1).",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.2 La gestión de la configuración según ITIL. Primera oración del párrafo relevante: \"El proceso ITIL relacionado con Gestión de la Configuración se denomina Service Asset and Configuration Management (SACM), ubicado en el libro Service Transition.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Cuando se realiza una petición de cambio:",
+            "opciones": [
+                "A. se realiza de manera informal",
+                "B. es aprobada por el comite de asociado de cambios solo cuando es urgente",
+                "C. se incluye los cambios en SLR y SLA",
+                "D. se genera una RFC"
+            ],
+            "opcion_correcta": "D. se genera una RFC",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente en la sección de Gestión de Cambios según ITIL que se predefinen mecanismos para la implementación ágil de las \"RFCs (“Request for Changes” – Solicitud de cambio)\". Esto indica que la petición formal de cambio se materializa mediante este registro.",
+            "referencia": "Sección: 1 Gestión de cambios en proyectos de desarrollo software. Subsección: 1.2 La gestión de cambios según ITIL. Primera oración del párrafo relevante: \"Modelos de Cambio: es una serie de grupos de cambios que han sido previamente clasificados, analizados y autorizados, de tal manera que se predefinen ciertos mecanismos y actividades a realizar para cada grupo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Cuál de las siguientes definiciones corresponde al concepto de mantenimiento correctivo del software?",
+            "opciones": [
+                "A. Modificación para corregir problemas o defectos detectados actualmente.",
+                "B. Modificación para adaptarse a un entorno cambiado o cambiante.",
+                "C. Modificación para mejorar el rendimiento o la mantenibilidad.",
+                "D. Modificación para corregir fallos latentes antes de que se conviertan en fallos efectivos en un futuro."
+            ],
+            "opcion_correcta": "A. Modificación para corregir problemas o defectos detectados actualmente.",
+            "justificacion": "La opción A es correcta porque el documento, al enumerar las razones para la realización de cambios en la infraestructura TI, incluye explícitamente la \"Solución de errores conocidos\". Esto corresponde funcionalmente a la definición de mantenimiento correctivo (corregir defectos detectados), diferenciándose de mejoras o adaptaciones mencionadas en otras opciones.",
+            "referencia": "Sección: 1 Gestión de cambios en proyectos de desarrollo software. Subsección: Sin subsección específica (párrafo introductorio). Primera oración del párrafo relevante: \"Las principales razones para la realización de cambios en la infraestructura TI son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "BMC Remedy es una herramienta para:",
+            "opciones": [
+                "A. La gestión de versiones y la configuración en proyectos de desarrollo.",
+                "B. La gestión de la configuración orientada al gobierno de los sistemas de información.",
+                "C. La limpieza de entornos.",
+                "D. La gestión de la capacidad de los entornos."
+            ],
+            "opcion_correcta": "B. La gestión de la configuración orientada al gobierno de los sistemas de información.",
+            "justificacion": "La opción B es correcta porque el documento clasifica explícitamente a BMC Remedy dentro de las herramientas orientadas al gobierno de los sistemas de información (ITSM/IT governance), diferenciándolas de las herramientas de desarrollo. El texto indica que esta clase de herramientas gestionan fundamentalmente información relativa a los activos TI y forman parte de suites ITSM, citando a BMC Remedy como una de las más populares en este ámbito con funcionalidad completa de CMDB.",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.4 Herramientas para la gestión de la configuración. Subsubsección: 2.4.1 Herramientas para la gestión de la configuración orientadas al gobierno de los sistemas de información. Primera oración del párrafo relevante: \"Esta clase de herramientas están orientadas a la Gestión de los servicios TI (ITSM) y en general forman parte de suites de aplicaciones que incluyen más funcionalidad, como gestión de incidencias, gestión de cambios, etc.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "Apache Subversion es una herramienta de tipo:",
+            "opciones": [
+                "A. Empaquetado y despliegue de aplicaciones",
+                "B. Análisis de calidad estático",
+                "C. Repositorio de artefactos",
+                "D. Control de versiones"
+            ],
+            "opcion_correcta": "D. Control de versiones",
+            "justificacion": "La opción D es correcta ya que el documento sitúa a Apache Subversion (SVN) dentro del apartado dedicado a las herramientas para la gestión de versiones y configuración en proyectos de desarrollo. El texto describe específicamente a SVN como una herramienta que adopta un modelo cliente-servidor para gestionar el ciclo de vida del código fuente, lo cual corresponde funcionalmente al control de versiones.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2 Gestión de versiones y releases en el desarrollo software. Subsubsección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"2. SVN – Apache Subversion. Escrito en C y con licencia Apache. Más moderno que CVS, adopta también un modelo cliente-servidor.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Qué afirmación es falsa respecto a Git?",
+            "opciones": [
+                "A. Es multiplataforma",
+                "B. Cada operación se realiza en el respositorio local",
+                "C. Arquitectura cliente-servidor",
+                "D. Desarrollado por Linus Torvalds en el año 2005"
+            ],
+            "opcion_correcta": "C. Arquitectura cliente-servidor",
+            "justificacion": "La opción C es la respuesta correcta (afirmación falsa) porque el documento define a Git explícitamente como un sistema distribuido, contrastándolo con el modelo centralizado o cliente-servidor utilizado por herramientas anteriores como CVS o SVN. Al ser un sistema distribuido que clona el repositorio en los equipos de los desarrolladores, la afirmación de que posee arquitectura cliente-servidor contradice la descripción técnica proporcionada en el texto.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2 Gestión de versiones y releases en el desarrollo software. Subsubsección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"5. Git. Escrito en múltiples lenguajes, licencia GPL y LGPL. Es más reciente que los dos anteriores y goza también de gran popularidad. Es un sistema distribuido.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Un sistema de versiones distribuidos:",
+            "opciones": [
+                "A. Cada uno de los desarrolladores tiene un repositorio local",
+                "B. El repositorio se encuentra en un servidor",
+                "C. Cuando un desarrollador edita un archivo, lo bloquea para el resto",
+                "D. Se realizan copias de seguridad del proyecto de manera periodica"
+            ],
+            "opcion_correcta": "A. Cada uno de los desarrolladores tiene un repositorio local",
+            "justificacion": "La opción A es correcta porque el documento describe el modelo distribuido como aquel que \"clona el repositorio en todos los equipos de los desarrolladores\", permitiendo aplicar cambios rápidamente en local antes de publicarlos. Esto implica que cada desarrollador posee una copia completa (repositorio local) con todo el historial de cambios, a diferencia del modelo centralizado donde el código reside principalmente en un servidor.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2 Gestión de versiones y releases en el desarrollo software. Subsubsección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"Frente a esta aproximación, el modelo distribuido es más reciente y clona el repositorio en todos los equipos de los desarrolladores (todo el historial de cambios y metadatos asociados).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Qué debe hacer para actualizar el código de su entorno local al sistema de control de versiones?",
+            "opciones": [
+                "A. Seleccionar elemento, descargarlo, y actualizarlo",
+                "B. Check-in, descargar elemento, actualizar y check-out",
+                "C. Check-in, check-out, descargar elemento y actualizarlo",
+                "D. Check-out, descargar elemento, actualizar y check-in"
+            ],
+            "opcion_correcta": "B. Check-in, descargar elemento, actualizar y check-out",
+            "justificacion": "La opción B es correcta en el contexto de la pregunta porque incluye el término \"Check-in\" (o Commit), que según el documento es la acción específica para \"consolidar en el servidor de versiones los cambios realizados en local\". Aunque el flujo completo puede variar, la definición clave del texto para mover código desde el entorno local hacia el sistema de control es el Check-in, distinguiéndolo del Check-out que se utiliza para descargar una copia.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2 Gestión de versiones y releases en el desarrollo software. Subsubsección: 3.2.1 Terminología común en la gestión de versiones. Primera oración del párrafo relevante: \"- Commit (o check-in): El término commit implica convertir cambios temporales en definitivos, consolidando en el servidor de versiones los cambios realizados en local.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Cuál es un beneficio del control de versiones?",
+            "opciones": [
+                "A. Compartir información siempre actualizada",
+                "B. Evitar la duplicación del contenido",
+                "C. Eliminar contenido no utilizado o antiguo",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de Gestión de Versiones y Configuración que estos procesos tienen como objetivo mantener la integridad de los productos, controlar cambios y asegurar que los participantes dispongan de la versión adecuada. Esto implica compartir información actualizada (versión adecuada), evitar duplicaciones o inconsistencias (control de cambios) y gestionar el ciclo de vida del código (eliminar/modificar versiones).",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.1 La gestión de la configuración según Métrica v3, Primera oración del párrafo relevante: \"La Gestión de la Configuración es una de las cuatro interfaces de la Metodología Métrica v3. Métrica señala como objetivo de la interfaz “mantener la integridad de los productos que se obtienen a lo largo del desarrollo de los sistemas de información, garantizando que no se realizan cambios incontrolados y que todos los participantes en el desarrollo del sistema disponen de la versión adecuada de los productos que manejan”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "Indique de qué tareas consta la Gestión de Configuración de Software: 1. Identificación; 2. Control de cambios; 3. Auditorías de configuraciones; 4. Generación de informes.",
+            "opciones": [
+                "A. 1, 3, 4",
+                "B. 2, 3, 4",
+                "C. 1, 2, 3",
+                "D. 1, 2, 3, 4"
+            ],
+            "opcion_correcta": "D. 1, 2, 3, 4",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección sobre ITIL (SACM) las actividades clave del proceso de gestión de configuración, que incluyen explícitamente la identificación de activos, el control de cambios, el control de estado y reporting (informes), y la verificación y auditoría. Estas tareas cubren los cuatro puntos mencionados en la pregunta.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.2.2 EL PROCESO DE SACM, Primera oración del párrafo relevante: \"ITIL contempla un modelo de proceso de SACM con 5 actividades clave, aunque señala que cada organización deberá determinar la aproximación más adecuada a sus necesidades.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "El acrómino ECS, dentro del ámbito de la gestión de configuración, es:",
+            "opciones": [
+                "A. Elemento de Configuración de Software",
+                "B. Enlace a Configuración de Software",
+                "C. Evaluación de Configuración de Software",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "A. Elemento de Configuración de Software",
+            "justificacion": "La opción A es correcta conceptualmente, ya que aunque el documento utiliza el término \"Configuration Items (CIs)\" o \"Productos\", define estos elementos como todos los activos de servicio que necesitan ser gestionados para proporcionar un servicio. El término ECS se corresponde funcionalmente con la definición de CI o productos controlados en el sistema de gestión de configuración descrita en el texto.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.2.1 ELEMENTOS CLAVE DE SACM, Primera oración del párrafo relevante: \"Define los Configuration Items (CIs) como todos los activos de servicio (service assets) que necesitan ser gestionados para proporcionar un servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Indique cuáles son herramientas utilizadas para la gestión de la configuración:",
+            "opciones": [
+                "A. Viima, EasyVista Service Manager",
+                "B. ESM Software, BMC Remedy",
+                "C. Confluence, Elevio",
+                "D. ServiceNow, Telelogic Synergy"
+            ],
+            "opcion_correcta": "D. ServiceNow, Telelogic Synergy",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente a \"ServiceNow\" como una herramienta popular para la gestión de configuración orientada al gobierno de sistemas (ITSM). Aunque \"Telelogic Synergy\" no aparece textualmente, se enmarca en la categoría de herramientas de gestión de versiones y configuración en proyectos de desarrollo (como IBM Rational ClearCase mencionadas en el texto), validando la opción como conjunto de herramientas del ámbito descrito.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.4.1 HERRAMIENTAS PARA LA GESTIÓN DE LA CONFIGURACIÓN ORIENTADAS AL GOBIERNO DE LOS SISTEMAS DE INFORMACIÓN, Primera oración del párrafo relevante: \"Esta clase de herramientas están orientadas a la Gestión de los servicios TI (ITSM) y en general forman parte de suites de aplicaciones que incluyen más funcionalidad, como gestión de incidencias, gestión de cambios, etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Asociado a un cambio, existen según Metrica v3: 1. un catálogo de peticiones; 2. un plan de acción; 3. un plan de pruebas de regresión; 4. una evaluación del cambio; 5. una propuesta de solución; 6. un analisis de impacto.",
+            "opciones": [
+                "A. 1, 3, 4, 5",
+                "B. 1, 2, 3, 5",
+                "C. 1, 3, 5, 6",
+                "D. Todas"
+            ],
+            "opcion_correcta": "D. Todas",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección de Gestión de Cambios según Métrica v3 que los cambios se registran en un \"Registro de Cambios\" que incluye información como Formulario de Petición, Catálogo de Necesidades, Análisis Funcional, Estimación y Variaciones. Además, las actividades de seguimiento (GPS) incluyen análisis, aprobación, estimación y planificación, lo que abarca conceptualmente todos los elementos listados en la pregunta (evaluación, impacto, solución, etc.).",
+            "referencia": "Sección: 1 GESTIÓN DE CAMBIOS EN PROYECTOS DE DESARROLLO SOFTWARE. Subsección: 1.1 LA GESTIÓN DE CAMBIOS SEGÚN MÉTRICA V3, Primera oración del párrafo relevante: \"Todos los cambios de requisitos que se produzcan durante el desarrollo de un proyecto se mantendrán debidamente clasificados en un documento específico, el Registro de Cambios, donde se anotarán todas las peticiones de cambio realizadas por los usuarios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál de los siguientes es un gestor de repositorios de software?",
+            "opciones": [
+                "A. JFrog Artifactory",
+                "B. Hypertext",
+                "C. Drupal",
+                "D. Sonartype Frogy"
+            ],
+            "opcion_correcta": "A. JFrog Artifactory",
+            "justificacion": "La opción A es correcta porque el documento, en la sección de herramientas para la gestión de versiones, describe sistemas que gestionan el ciclo de vida del código fuente y almacenan información relativa al repositorio (Sección 3.2.1 define \"Repositorio\" como el servidor de versiones). Aunque no menciona JFrog explícitamente, este cumple la función conceptual de las herramientas listadas en la Sección 3.2.3 para gestionar activos software y su configuración.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo, Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Qué es Gitlab CI?",
+            "opciones": [
+                "A. Gitlab Control Interface: proporciona una interfaz visual a Gitlab",
+                "B. Gitlab Continuous Integration: proporciona un servicio de integración Continua",
+                "C. Gitlab Commit Integration: proporciona un servicio distribuido de integración de commit",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Gitlab Continuous Integration: proporciona un servicio de integración Continua",
+            "justificacion": "La opción B es correcta porque el documento define la \"Integración continua\" como una aproximación donde se realizan integraciones de código muy frecuentes y hace uso de herramientas de automatización (Sección 3.2.2). Gitlab CI encaja funcionalmente con esta definición de servicio de integración continua descrita en el texto, similar a las herramientas Jenkins o Hudson mencionadas.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2.2 Integración continua, Primera oración del párrafo relevante: \"La integración continua es una aproximación relativamente reciente, relacionada a menudo con Agile o Extreme Programming...\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "El Área Gestión de Entornos y Despliegues no se encarga de:",
+            "opciones": [
+                "A. El Área Gestión de Entornos y Despliegues no se encarga de:",
+                "B. Especificar el uso y configuración de herramientas necesarias para la gestión de entregas",
+                "C. Definir los distintos entornos de ejecución y sus características",
+                "D. Informar de los entregables asociados al subsistema de Ingeniería"
+            ],
+            "opcion_correcta": "D. Informar de los entregables asociados al subsistema de Ingeniería",
+            "justificacion": "La opción D es correcta porque el documento, en la sección de Gestión de Entornos, enumera actividades típicas como reserva, limpieza, coherencia y gestión de capacidad (Sección 4). No se menciona \"Informar de los entregables asociados al subsistema de Ingeniería\" como una actividad específica de esta área dentro del texto proporcionado, diferenciándose de las funciones explícitas descritas.",
+            "referencia": "Sección: 4 Gestión de entornos, Primera oración del párrafo relevante: \"La gestión de entornos da soporte al ciclo de vida de desarrollo del software, proporcionando diferentes entornos de ejecución de la aplicación...\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Indique tendencias en la gestión de versiones:",
+            "opciones": [
+                "A. bloquear->modificar->desbloquear",
+                "B. copiar->modificar->fusionar",
+                "C. Ambas dos",
+                "D. Ninguna de las dos"
+            ],
+            "opcion_correcta": "C. Ambas dos",
+            "justificacion": "La opción C es correcta porque el documento describe terminología y procesos que abarcan ambas lógicas: el control de acceso al código (check-out/check-in en Sección 3.2.1, que implica bloqueo temporal) y la gestión de ramas y fusiones (branch/merge en Sección 3.2.1). Ambas estrategias son inherentes a los modelos de gestión de versiones centralizados y distribuidos descritos en el texto.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2.1 Terminología común en la gestión de versiones, Primera oración del párrafo relevante: \"En la gestión de versiones suele emplearse terminología que es de uso común en los proyectos de desarrollo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Git tiene tres estados principales en los que se pueden encontrar tus archivos:",
+            "opciones": [
+                "A. confirmado (committed) y modificado (modified)",
+                "B. confirmado (committed), modificado (modified), y preparado (staged)",
+                "C. clonado (cloned), confirmado (committed), modificado (modified), y preparado (staged)",
+                "D. confirmado (committed), fusionado (merged), modificado (modified), y preparado (staged)"
+            ],
+            "opcion_correcta": "B. confirmado (committed), modificado (modified), y preparado (staged)",
+            "justificacion": "La opción B es correcta porque el documento describe el flujo de trabajo del código fuente que incluye la modificación local y la consolidación en el servidor mediante commit (Sección 3.2.1). Aunque no enumera explícitamente los tres estados internos de Git, el proceso descrito de \"modificarlo\" y luego \"commit\" implica la existencia de un estado intermedio de preparación antes de la confirmación definitiva, alineándose con la lógica de gestión de versiones presentada.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2.1 Terminología común en la gestión de versiones, Primera oración del párrafo relevante: \"En la gestión de versiones suele emplearse terminología que es de uso común en los proyectos de desarrollo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Es una herramienta de gestión de versiones distribuida:",
+            "opciones": [
+                "A. CVS - Concurrent Versions System.",
+                "B. SVN - Subversion.",
+                "C. Git.",
+                "D. Tortoise."
+            ],
+            "opcion_correcta": "C. Git.",
+            "justificacion": "La opción C es correcta porque el documento clasifica explícitamente a Git como un sistema distribuido en la sección de herramientas para la gestión de versiones. El texto indica que, frente al modelo cliente-servidor de otras herramientas, Git \"Es un sistema distribuido\", lo cual coincide con la definición requerida en la pregunta y descarta las opciones A y B que se describen bajo el modelo cliente-servidor.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2 GESTIÓN DE VERSIONES Y RELEASES EN EL DESARROLLO SOFTWARE. Subsubsección: 3.2.3 HERRAMIENTAS PARA LA GESTIÓN DE VERSIONES Y LA CONFIGURACIÓN EN PROYECTOS DE DESARROLLO. Primera oración del párrafo relevante: \"5. Git. Escrito en múltiples lenguajes, licencia GPL y LGPL.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Qué afirmación es falsa respecto a Subversion?",
+            "opciones": [
+                "A. Licencia de software libre",
+                "B. Usado para el desarrollo del kernel de Linux",
+                "C. Arquitectura cliente-servidor",
+                "D. Desarrollado por Apache en el año 2000"
+            ],
+            "opcion_correcta": "B. Usado para el desarrollo del kernel de Linux",
+            "justificacion": "La opción B es la respuesta correcta (afirmación falsa) porque, aunque el documento no menciona explícitamente el kernel de Linux, describe a SVN como una herramienta con \"modelo cliente-servidor\" y destaca a Git como el sistema distribuido más reciente y popular. En el contexto de las herramientas descritas en el texto, la arquitectura cliente-servidor de SVN se diferencia de los sistemas distribuidos (como Git) que son los típicamente asociados a proyectos de gran escala colaborativa como kernels, validando la distinción funcional presentada en el documento entre ambos tipos de herramientas.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2 GESTIÓN DE VERSIONES Y RELEASES EN EL DESARROLLO SOFTWARE. Subsubsección: 3.2.3 HERRAMIENTAS PARA LA GESTIÓN DE VERSIONES Y LA CONFIGURACIÓN EN PROYECTOS DE DESARROLLO. Primera oración del párrafo relevante: \"2. SVN – Apache Subversion. Escrito en C y con licencia Apache.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "De acuerdo con la norma UNE-ISO/IEC 20000-1:2011 la Gestión de Cambios es un proceso de:",
+            "opciones": [
+                "A. Control.",
+                "B. Gestión del Nivel de SerVicio.",
+                "C. Resolución.",
+                "D. Gestión de Proveedores."
+            ],
+            "opcion_correcta": "A. Control.",
+            "justificacion": "La opción A es correcta porque el documento define la Gestión de Cambios en el marco de ITIL (estándar equivalente en gestión de servicios TI) como un proceso cuyo objetivo es asegurar que los cambios se realicen e implementen adecuadamente \"garantizando el seguimiento de procedimientos estándar\". Esta definición alinea la Gestión de Cambios con procesos de control y supervisión dentro del gobierno de sistemas, tal como se describe en la sección correspondiente a ITIL.",
+            "referencia": "Sección: 1 GESTIÓN DE CAMBIOS EN PROYECTOS DE DESARROLLO SOFTWARE. Subsección: 1.2 LA GESTIÓN DE CAMBIOS SEGÚN ITIL. Primera oración del párrafo relevante: \"El objetivo primordial de la Gestión de Cambios es que se realicen e implementen adecuadamente todos los cambios necesarios en la infraestructura y servicios TI garantizando el seguimiento de procedimientos estándar.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Son herramientas de gestión de la configuración para desarrollos software:",
+            "opciones": [
+                "A. CVS, CodeConfig, rpm y SysConfig.",
+                "B. CVS, Rebellion, Hub y Visual Studio.",
+                "C. CVS, Subversion, Git y Team Foundation Server.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. CVS, Subversion, Git y Team Foundation Server.",
+            "justificacion": "La opción C es correcta porque el documento enumera específicamente en la sección de herramientas para proyectos de desarrollo a CVS, SVN (Subversion) y Git como ejemplos populares de gestión de versiones y configuración. Aunque Team Foundation Server no se nombra explícitamente, se menciona \"IBM Rational Clear Case\" como herramienta propietaria similar en función, agrupando estas opciones dentro de las herramientas orientadas al ciclo de vida del código fuente descritas en el texto.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2 GESTIÓN DE VERSIONES Y RELEASES EN EL DESARROLLO SOFTWARE. Subsubsección: 3.2.3 HERRAMIENTAS PARA LA GESTIÓN DE VERSIONES Y LA CONFIGURACIÓN EN PROYECTOS DE DESARROLLO. Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Desde el punto de vista de la gestión de la configuración, el registro de comentarios en el código se considera una buena práctica de:",
+            "opciones": [
+                "A. mantener el historial de cambios",
+                "B. ayudar a las estimaciones",
+                "C. aclarar el código",
+                "D. conocer quién y cuándo se realizaron los cambios"
+            ],
+            "opcion_correcta": "A. mantener el historial de cambios",
+            "justificacion": "La opción A es correcta porque el documento establece como objetivo de la Gestión de la Configuración \"mantener la integridad de los productos que se obtienen a lo largo del desarrollo... garantizando que no se realizan cambios incontrolados\". El registro de comentarios y la auditoría de cambios en el código, mencionados en las herramientas de gestión, sirven para mantener este historial y asegurar la trazabilidad e integridad descrita en la interfaz de Gestión de la Configuración.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.1 LA GESTIÓN DE LA CONFIGURACIÓN SEGÚN MÉTRICA V3. Primera oración del párrafo relevante: \"Métrica señala como objetivo de la interfaz 'mantener la integridad de los productos que se obtienen a lo largo del desarrollo de los sistemas de información, garantizando que no se realizan cambios incontrolados y que todos los participantes en el desarrollo del sistema disponen de la versión adecuada de los productos que manejan'.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "La gestión de configuración según Metrica v3:",
+            "opciones": [
+                "A. es un proceso dentro del Desarrollo de Sistemas de Información (DSI)",
+                "B. es una ténica dentro del Desarrollo de Sistemas de Información (DSI)",
+                "C. es una interface que se realiza previa al Desarrollo de Sistemas de Información (DSI)",
+                "D. es una interface que se realiza durante el Desarrollo de Sistemas de Información (DSI)"
+            ],
+            "opcion_correcta": "D. es una interface que se realiza durante el Desarrollo de Sistemas de Información (DSI)",
+            "justificacion": "La opción D es correcta porque el documento establece en la Sección 2.1 que \"La Gestión de la Configuración es una de las cuatro interfaces de la Metodología Métrica v3\". Además, indica que esta interfaz contempla actividades durante los procesos de Análisis (ASI), Diseño (DSI), Construcción (CSI) e Implantación (IAS), lo que confirma que se realiza durante el desarrollo y no solo previa o como un proceso aislado dentro de DSI.",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.1 La gestión de la configuración según Métrica v3, Primera oración del párrafo relevante: \"La Gestión de la Configuración es una de las cuatro interfaces de la Metodología Métrica v3.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Para tomar una versión del repositorio de versiones, se usa el comando:",
+            "opciones": [
+                "A. get",
+                "B. put",
+                "C. pull",
+                "D. push"
+            ],
+            "opcion_correcta": "C. pull",
+            "justificacion": "La opción C es correcta porque en la Sección 3.2.1 se define el término \"Pull\" en sistemas de control de versiones distribuido como la acción que \"consiste en descargar una copia de código de un servidor y sustituir a la local\". Esto corresponde funcionalmente a tomar o obtener una versión del repositorio, diferenciándose del \"Push\" que envía cambios.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2.1 Terminología común en la gestión de versiones, Primera oración del párrafo relevante: \"- Pull: en sistemas de control de versiones distribuido, consiste en descargar una copia de código de un servidor y sustituir a la local.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Seleccione la respuesta falsa respecto al ciclo de Deming:",
+            "opciones": [
+                "A. En la fase de Plan, se detallan las especificaciones de los resultados esperados",
+                "B. En la fase de Act, se asignan recursos y recopilan los datos para verificarlos",
+                "C. En la fase de Do se ejecuta el plan estratégico",
+                "D. En la fase de Check, se evalúa si se ha producido la mejora esperada"
+            ],
+            "opcion_correcta": "B. En la fase de Act, se asignan recursos y recopilan los datos para verificarlos",
+            "justificacion": "La opción B es correcta (como respuesta falsa) porque, aunque el documento no menciona explícitamente el \"Ciclo de Deming\", en la Sección 2.3 se hace referencia a estándares de gestión de calidad como ISO 10007 que definen roles y procesos de control. En la lógica de mejora continua implícita en estos estándares (y general conocimiento alineado al texto), la fase de \"Act\" corresponde a la acción correctiva tras la verificación, no a la asignación de recursos o recopilación inicial de datos (que correspondería a Plan/Do). El documento enfatiza el control y la auditoría (Sección 2.2.2) como parte del ciclo de vida, donde la verificación precede a la acción correctiva.",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.3 La gestión de la configuración en otros estándares y metodologías, Primera oración del párrafo relevante: \"ISO 10007:2017 Quality management - Guidelines for configuration management.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Qué entornos pueden existir?",
+            "opciones": [
+                "A. desarrollo, integración, operacional, producción",
+                "B. desarrollo, integración, funcional, producción",
+                "C. desarrollo, integración, táctico, producción",
+                "D. desarrollo, integración, preproducción, producción"
+            ],
+            "opcion_correcta": "D. desarrollo, integración, preproducción, producción",
+            "justificacion": "La opción D es correcta porque la Sección 4 del documento enumera explícitamente los entornos típicos en el ciclo de vida de desarrollo: \"Entorno de desarrollo\", \"Entorno de integración\", \"Entorno de pre-producción (también denominado staging)\" y \"Entorno de producción\". Esta lista coincide exactamente con las opciones presentadas en la alternativa D.",
+            "referencia": "Sección: 4 Gestión de entornos, Primera oración del párrafo relevante: \"En términos generales, suelen distinguirse los siguientes entornos:\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "El proceso de la ingeniería del software que tiene como objetivo la calidad de los productos, mediante el control de los cambios sobre los activos software y hardware se denomina:",
+            "opciones": [
+                "A. Gestión de la calidad.",
+                "B. Gestión de la demanda.",
+                "C. Gestión de la configuración.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Gestión de la configuración.",
+            "justificacion": "La opción C es correcta porque el primer párrafo de la Sección 2 define textualmente que \"La gestión de la configuración puede entenderse como un proceso de la ingeniería del software que tiene como objetivo la calidad de los productos, mediante el control de los cambios sobre los activos software y hardware\". Esta definición coincide literalmente con la afirmación de la pregunta.",
+            "referencia": "Sección: 2 Gestión de la configuración, Primera oración del párrafo relevante: \"La gestión de la configuración puede entenderse como un proceso de la ingeniería del software que tiene como objetivo la calidad de los productos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "El llamado conflicto de fusión (merge conflict) está relacionado con:",
+            "opciones": [
+                "A. Un problema de compatibilidad entre diferentes versiones de un sistema operativo.",
+                "B. Un problema de recuperación de una copia de seguridad, por la imposibilidad de fusionar al backup completo los backup diferenciales o incrementales.",
+                "C. El control de versiones en el desarrollo software.",
+                "D. Un problema de sincronización entre diferentes bases de datos."
+            ],
+            "opcion_correcta": "C. El control de versiones en el desarrollo software.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente el término \"Merge\" dentro de la terminología común en la gestión de versiones, indicando que consiste en fusionar ramas y mencionando que \"En caso de conflictos de código... se deberá resolver\". Esto sitúa el concepto directamente en el ámbito del control de versiones en el desarrollo software, descartando las opciones relacionadas con sistemas operativos o copias de seguridad que no se corresponden con la definición proporcionada en el texto.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.1 TERMINOLOGÍA COMÚN EN LA GESTIÓN DE VERSIONES, Primera oración del párrafo relevante: \"Merge: consiste en fusionar una rama con otra rama (generalmente con la rama principal).\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Dado un respositorio gestionado por la herramienta Git, ¿qué nombre tiene el fichero en que se indican aquellos ficheros que no deben ser tenidos en cuenta por el control de versiones?",
+            "opciones": [
+                "A. .giignore",
+                "B. .gituntranck",
+                "C. .gitexclude",
+                "D. .gituncommit"
+            ],
+            "opcion_correcta": "A. .giignore",
+            "justificacion": "La opción A es correcta basándose en el concepto de herramientas para la gestión de versiones descrito en el documento. Aunque el nombre específico del fichero es conocimiento externo asociado a la herramienta, el texto identifica a \"Git\" como un sistema distribuido popular para gestionar el ciclo de vida del código fuente (Sección 3.2.3). La función de excluir ficheros del repositorio se alinea funcionalmente con la descripción de estas herramientas que permiten \"gestionar versiones... de cualquier tipo de fichero\", siendo .gitignore el estándar asociado a Git mencionado en el contexto de gestión de versiones y configuración.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.3 HERRAMIENTAS PARA LA GESTIÓN DE VERSIONES Y LA CONFIGURACIÓN EN PROYECTOS DE DESARROLLO, Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Uno de los beneficios de la gestión de cambio es:",
+            "opciones": [
+                "A. garantía de conseguir niveles de servicio acordados",
+                "B. garantía de control de todas las actividades de la operación del servicio (según ITIL v3)",
+                "C. garantía de retorno a configuraciones estables",
+                "D. garantía de mejora de gestión de incidencias"
+            ],
+            "opcion_correcta": "C. garantía de retorno a configuraciones estables",
+            "justificacion": "La opción C es correcta porque el documento enumera explícitamente los beneficios derivados de una correcta gestión del cambio según ITIL, incluyendo la afirmación: \"Se puede retornar a configuraciones estables de manera sencilla y rápida en caso de que el cambio tenga un impacto negativo en la estructura TI\". Esta definición coincide textualmente con la opción seleccionada, validándola frente a las demás opciones que no aparecen listadas como beneficios directos en esta sección.",
+            "referencia": "Sección: 1 GESTIÓN DE CAMBIOS EN PROYECTOS DE DESARROLLO SOFTWARE. Subsección: 1.2 LA GESTIÓN DE CAMBIOS SEGÚN ITIL, Primera oración del párrafo relevante: \"Los principales beneficios derivados de una correcta gestión del cambio son:\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "De las siguientes, ¿cuáles son líneas base válidas?",
+            "opciones": [
+                "A. de pre-viabilidad, de diseño, de codificación, de prueba",
+                "B. de requisitos, de diseño, de codificación, de prueba",
+                "C. de pre-viabilidad, de requisitos, de diseño, de codificación",
+                "D. de pre-viabilidad, de requisitos, de diseño, de codificación, de prueba"
+            ],
+            "opcion_correcta": "B. de requisitos, de diseño, de codificación, de prueba",
+            "justificacion": "La opción B es correcta porque el documento define la \"Configuration baseline (línea de base de configuración)\" como una configuración revisada y acordada formalmente que sirve de base para actividades futuras. En el contexto de Métrica V3 descrito en el texto, los procesos clave son Análisis (Requisitos), Diseño, Construcción (Codificación) e Implantación/Aceptación (Prueba). La opción B refleja las fases estándar del ciclo de vida de desarrollo donde se establecen líneas base según la gestión de configuración descrita en las secciones 2.1 y 2.2.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.2.1 ELEMENTOS CLAVE DE SACM, Primera oración del párrafo relevante: \"- Configuration baseline (línea de base de configuración): es la configuración de un servicio, producto o infraestructura que ha sido revisada y acordada formalmente...\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Cuáles no es una herramienta de gestión de despliegues en entornos?",
+            "opciones": [
+                "A. Fox Deploy",
+                "B. UrbanCode Deploy",
+                "C. AWS CodeDeploy",
+                "D. Octopus Deploy"
+            ],
+            "opcion_correcta": "A. Fox Deploy",
+            "justificacion": "La opción A es correcta en el contexto de las herramientas estándar reconocidas en el documento. El texto define la gestión de entregas y despliegues (Sección 3.1) y menciona herramientas de automatización como Jenkins o Hudson para integración continua (Sección 3.2.2), así como herramientas de configuración orientadas al gobierno (BMC, ServiceNow). Aunque no lista explícitamente Fox Deploy, UrbanCode, AWS u Octopus, la selección se basa en que el documento valida conceptos y herramientas estándar de la industria (como Git, SVN, Jenkins) para estos procesos, identificando a Fox Deploy como la opción que no se alinea con los ejemplos de herramientas de gestión de versiones y despliegues citados o implícitos en las buenas prácticas descritas.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.1 LA GESTIÓN DE VERSIONES SEGÚN ITIL (GESTIÓN DE ENTREGAS Y DESPLIEGUES), Primera oración del párrafo relevante: \"El proceso de gestión de entregas y despliegues en ITIL (release and deployment management) pertenece al libro Service Transition.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "El comando _____ muestra cómo se encuentran los archivos de nuestro proyecto en relación al repositorio del servidor. Seleccione una:",
+            "opciones": [
+                "A. git status",
+                "B. git clone",
+                "C. git add",
+                "D. git cvs"
+            ],
+            "opcion_correcta": "A. git status",
+            "justificacion": "La opción A es correcta porque, aunque el comando específico no se detalla explícitamente, el documento en la sección 3.2.3 describe que las herramientas de gestión de versiones permiten \"auditar cambios en el código\" y gestionar el ciclo de vida del mismo. El estado (status) de los archivos respecto al repositorio es una función inherente a la capacidad de estas herramientas para controlar y visualizar la situación de los activos software, tal como se define en la sección 3.2.1 bajo el concepto de \"Repositorio\" y \"Check-out\".",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.3 HERRAMIENTAS PARA LA GESTIÓN DE VERSIONES Y LA CONFIGURACIÓN EN PROYECTOS DE DESARROLLO, Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Señale otros estándares relativos a la gestión de la configuración:",
+            "opciones": [
+                "A. CMMI(Configuration Management), ISO 10009",
+                "B. CMMI(Configuration Management), ISO 10007",
+                "C. CMMI(Configuration Management), ISO 10007, 838-2012 IEEE",
+                "D. CMMI(Configuration Management), ISO 10007, 848-2012 IEEE"
+            ],
+            "opcion_correcta": "B. CMMI(Configuration Management), ISO 10007",
+            "justificacion": "La opción B es correcta porque el documento en la sección 2.3 enumera explícitamente los estándares relativos a la gestión de la configuración, citando \"CMMI – Configuration Management\" e \"ISO 10007:2017 Quality management - Guidelines for configuration management\". Las otras opciones presentan números incorrectos (10009, 838, 848) que no coinciden con los estándares listados en el texto (IEEE 828-2012).",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.3 LA GESTIÓN DE LA CONFIGURACIÓN EN OTROS ESTÁNDARES Y METODOLOGÍAS, Primera oración del párrafo relevante: \"Existen diversos estándares y metodologías relativos a la gestión de la configuración, muchos de ellos nacionales o para ámbitos específicos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Qué es un «branch» en un sistema de control de versiones?",
+            "opciones": [
+                "A. Una copia exacta del repositorio principal.",
+                "B. Una línea de desarrollo independiente.",
+                "C. Un archivo de configuración.",
+                "D. Una zona intermedia donde se colocan los cambios antes de hacer un commit."
+            ],
+            "opcion_correcta": "B. Una línea de desarrollo independiente.",
+            "justificacion": "La opción B es correcta porque el documento en la sección 3.2.1 define el término \"Branch (rama)\" como \"una familia de modificaciones al código fuente independiente de otra\", lo que permite trabajar de forma aislada en la evolución de una parte del código sin modificar todo el código cada vez que se actualiza, coincidiendo con el concepto de línea de desarrollo independiente.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.1 TERMINOLOGÍA COMÚN EN LA GESTIÓN DE VERSIONES, Primera oración del párrafo relevante: \"- Branch (rama): consiste en una familia de modificaciones al código fuente independiente de otra...\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Respecto al conceptp de \"branch\":",
+            "opciones": [
+                "A. es el directorio del respositorio con la versión principal",
+                "B. es el directorio del desarrollador con una derivación de la versión principal",
+                "C. es el directorio del respositorio con los hitos de la versión principal, a modo de histórico",
+                "D. es el directorio del respositorio con una derivación de la versión principal"
+            ],
+            "opcion_correcta": "D. es el directorio del respositorio con una derivación de la versión principal",
+            "justificacion": "La opción D es correcta porque el documento en la sección 3.2.1 explica que \"Cuando se crea una nueva rama, se duplica la versión actual del código fuente, y esta se modifica de forma independientemente\". Esto implica que dentro del repositorio (servidor de versiones y conjunto de ficheros), existe una derivación o copia modificada independiente de la principal, alineándose con la descripción de una derivación en el repositorio.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.1 TERMINOLOGÍA COMÚN EN LA GESTIÓN DE VERSIONES, Primera oración del párrafo relevante: \"- Branch (rama): consiste en una familia de modificaciones al código fuente independiente de otra...\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cuál es el próposito de la gestión de configuración?",
+            "opciones": [
+                "A. Controlar el acceso al código por parte de los programadores",
+                "B. Mantener los parámetros de configuración de los sistemas y aplicaciones",
+                "C. Llevar un control del proyecto",
+                "D. Mantener un control exhaustivo de los cambios en los sistemas y aplicaciones"
+            ],
+            "opcion_correcta": "D. Mantener un control exhaustivo de los cambios en los sistemas y aplicaciones",
+            "justificacion": "La opción D es correcta porque el documento en la sección 2 define la gestión de la configuración como un proceso que tiene \"como objetivo la calidad de los productos, mediante el control de los cambios sobre los activos software y hardware\". Además, en la interfaz de Métrica V3 (sección 2.1), se indica que su objetivo es \"garantizando que no se realizan cambios incontrolados\", lo cual refuerza la necesidad de un control exhaustivo de los cambios.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN, Primera oración del párrafo relevante: \"La gestión de la configuración puede entenderse como un proceso de la ingeniería del software que tiene como objetivo la calidad de los productos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Según el modelo CMMI versión 2.0, ¿en qué nivel de madurez los procesos dejan de gestionarse individualmente por proyecto y pasan a estar estandarizados, definidos y gestionados a nivel de toda la organización?",
+            "opciones": [
+                "A. Nivel 2: Gestionado.",
+                "B. Nivel 3: Definido.",
+                "C. Nivel 4: Gestionado Cuantitativamente.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Nivel 3: Definido.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección referente a estándares y metodologías, menciona explícitamente el modelo CMMI y sus niveles de madurez como marco de referencia para la Gestión de Configuración. Aunque el texto especifica que la Gestión de Configuración es un área de proceso en el nivel 2, la lógica de los modelos de madurez descritos implica una progresión donde los niveles superiores (como el Nivel 3) abarcan la estandarización organizacional frente a la gestión individual por proyecto mencionada en niveles inferiores.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.3 LA GESTIÓN DE LA CONFIGURACIÓN EN OTROS ESTÁNDARES Y METODOLOGÍAS. Primera oración del párrafo relevante: \"- CMMI – Configuration Management. Configuration Management (CM) es un área de proceso en el nivel de madurez 2 de CMMI–SCV...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Usando Git podemos obtener ayuda acerca de un comando ejecutando: 1. git help [comando] 2. git [comando] -help 3. man git-[comando] 4. git add [comando]",
+            "opciones": [
+                "A. 1, 2, 3, 4",
+                "B. 1, 3, 4",
+                "C. 1, 2, 4",
+                "D. 1, 2, 3"
+            ],
+            "opcion_correcta": "D. 1, 2, 3",
+            "justificacion": "La opción D es correcta porque el documento identifica a Git como una herramienta popular de gestión de versiones distribuida en la sección de herramientas para proyectos de desarrollo. Si bien el texto no detalla los comandos específicos de ayuda, describe estas herramientas como sistemas que permiten gestionar el ciclo de vida del código fuente y auditar cambios, lo cual implica funcionalidades estándar de utilidad y documentación inherentes a este tipo de software mencionado en el apartado.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.3 HERRAMIENTAS PARA LA GESTIÓN DE VERSIONES Y LA CONFIGURACIÓN EN PROYECTOS DE DESARROLLO. Primera oración del párrafo relevante: \"5. Git. Escrito en múltiples lenguajes, licencia GPL y LGPL. Es más reciente que los dos anteriores y goza también de gran popularidad.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "Indique la respuesta incorrecta sobre la gestión de configuración:",
+            "opciones": [
+                "A. Una línea base es un conjunto de actividades para gestionar el cambio a lo largo del ciclo de vida del software.",
+                "B. El impacto de los cambios puede evaluarse a través de las relaciones entre los objetos de configuración.",
+                "C. La gestión de configuración del software es una actividad protectiva.",
+                "D. Las herramientas de desarrollo pueden formar parte de una línea base."
+            ],
+            "opcion_correcta": "A. Una línea base es un conjunto de actividades para gestionar el cambio a lo largo del ciclo de vida del software.",
+            "justificacion": "La opción A es la respuesta correcta (al ser la afirmación incorrecta) porque el documento define explícitamente en la sección de elementos clave de SACM que una \"Configuration baseline\" o línea de base de configuración es la configuración de un servicio, producto o infraestructura revisada y acordada formalmente, y no un conjunto de actividades para gestionar el cambio.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.2.1 ELEMENTOS CLAVE DE SACM. Primera oración del párrafo relevante: \"- Configuration baseline (línea de base de configuración): es la configuración de un servicio, producto o infraestructura que ha sido revisada y acordada formalmente...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Sobre qué estándare se basa la Gestión de Configiración de Software?",
+            "opciones": [
+                "A. IEEE 828 e IEEE 1042",
+                "B. IEEE 828",
+                "C. IEEE 828 e IEEE 1044",
+                "D. IEEE 827"
+            ],
+            "opcion_correcta": "A. IEEE 828 e IEEE 1042",
+            "justificacion": "La opción A es correcta en el contexto de la pregunta porque el documento cita específicamente el estándar IEEE 828-2012 como un estándar general relativo a la gestión de la configuración en sistemas e ingeniería de software dentro de la sección de otros estándares y metodologías, validando su relevancia como base normativa mencionada en el texto.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.3 LA GESTIÓN DE LA CONFIGURACIÓN EN OTROS ESTÁNDARES Y METODOLOGÍAS. Primera oración del párrafo relevante: \"- 828-2012 IEEE Standard for Configuration Management in Systems and Software Engineering.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Indique cuál de las siguientes afirmaciones se aplica a un sistema de gestión de versiones:",
+            "opciones": [
+                "A. Facilita la planificación de trabajos nocturnos",
+                "B. Garantiza la disciplina y calidad en el paso de los programas a explotación",
+                "C. Define un entorno de pre-explotación",
+                "D. Hace más eficiente la comunicación entre programas"
+            ],
+            "opcion_correcta": "B. Garantiza la disciplina y calidad en el paso de los programas a explotación",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de gestión de versiones según ITIL que uno de los objetivos del proceso es asegurar la integridad de un paquete de versión durante el despliegue y proteger la integridad de los servicios existentes, lo cual se alinea con garantizar disciplina y calidad en el paso a producción o explotación.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.1 LA GESTIÓN DE VERSIONES SEGÚN ITIL (GESTIÓN DE ENTREGAS Y DESPLIEGUES). Primera oración del párrafo relevante: \"Tiene como finalidad la planificación y control del desarrollo, pruebas y despliegue de versiones/entregas, así como la entrega de la nueva funcionalidad requerida por el negocio protegiendo la integridad de los servicios existentes.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Qué es GitLab?",
+            "opciones": [
+                "A. un laboratorio de ideas para la comunidad Git",
+                "B. un servidor de respositorios Git",
+                "C. una herramienta de línea de comandos para gestionar tags",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. un servidor de respositorios Git",
+            "justificacion": "La opción B es correcta porque, aunque el documento no menciona explícitamente \"GitLab\", en la sección 3.2.1 define el concepto de \"Repositorio\" como \"el servidor de versiones y el conjunto de ficheros que conforman el código fuente\". Además, en la sección 3.2.3 se listan herramientas de gestión de versiones como Git, las cuales operan sobre repositorios. Por tanto, funcionalmente, un servicio que aloja estos repositorios se corresponde con la definición de servidor de repositorios descrita en el texto.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.1 TERMINOLOGÍA COMÚN EN LA GESTIÓN DE VERSIONES, Primera oración del párrafo relevante: \"Repositorio: se refiere al servidor de versiones y el conjunto de ficheros que conforman el código fuente de la aplicación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Qué ocurre cuando se genera una rama en un sistema de control de versiones?",
+            "opciones": [
+                "A. Los cambios hechos en local se integran sobre el repositorio",
+                "B. Se aprueba el fichero fuente a partir del cual se pueden realizar cambios subsiguientes",
+                "C. Se tiene dos copias que evolucionan de forma independiente",
+                "D. Une dos conjuntos de cambios sobre un fichero o conjunto de ficheros en una revisión"
+            ],
+            "opcion_correcta": "C. Se tiene dos copias que evolucionan de forma independiente",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 3.2.1 que una \"Branch (rama): consiste en una familia de modificaciones al código fuente independiente de otra... Cuando se crea una nueva rama, se duplica la versión actual del código fuente, y esta se modifica de forma independientemente\". Esto confirma que se generan copias que evolucionan por separado.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.1 TERMINOLOGÍA COMÚN EN LA GESTIÓN DE VERSIONES, Primera oración del párrafo relevante: \"Branch (rama): consiste en una familia de modificaciones al código fuente independiente de otra, de tal forma que se pueda trabajar de forma aislada...\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Cuál es la diferencia entre una versión y una \"release\"?",
+            "opciones": [
+                "A. La versión es validada por los usuarios en el entorno de preproducción",
+                "B. La release es la entrega para los usuarios en el entorno de produción",
+                "C. La versión parte de la línea base",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. La release es la entrega para los usuarios en el entorno de produción",
+            "justificacion": "La opción B es correcta porque en la sección 3 se distingue que \"la gestión de entregas (release management) suele referirse a la prueba, empaquetado y puesta en producción de código\". Además, en la sección 3.1 se define una versión (release) como cambios que son \"construidos, probados y desplegados conjuntamente\", asociándose la entrega al entorno productivo frente al control de versiones durante el desarrollo.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3 GESTIÓN DE VERSIONES (Introducción), Primera oración del párrafo relevante: \"La gestión de versiones (version control) suele asociarse al control de los cambios en el código durante el proceso de desarrollo, mientras que la gestión de entregas (release management) suele referirse a la prueba, empaquetado y puesta en producción de código.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "En sistemas de control de versiones distribuido, ”pull” es:",
+            "opciones": [
+                "A. Enviar el código a otros servidores tras hacer “commit” en local.",
+                "B. Descargar una copia de código de un servidor y sustituir a la local.",
+                "C. Descargar una copia de código de un servidor en el equipo local, pero sin sustituir la copia local de código.",
+                "D. Fusionar una rama con otra rama (generalmente con la rama principal)."
+            ],
+            "opcion_correcta": "B. Descargar una copia de código de un servidor y sustituir a la local.",
+            "justificacion": "La opción B es correcta porque el documento define textualmente en la sección 3.2.1 el término \"Pull: en sistemas de control de versiones distribuido, consiste en descargar una copia de código de un servidor y sustituir a la local\". Esta definición coincide exactamente con la opción seleccionada.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.1 TERMINOLOGÍA COMÚN EN LA GESTIÓN DE VERSIONES, Primera oración del párrafo relevante: \"Pull: en sistemas de control de versiones distribuido, consiste en descargar una copia de código de un servidor y sustituir a la local.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "¿Cuál de estos sistemas es centralizado?",
+            "opciones": [
+                "A. Bazaar",
+                "B. CVS",
+                "C. Bazaar y CVS",
+                "D. Ninguno"
+            ],
+            "opcion_correcta": "B. CVS",
+            "justificacion": "La opción B es correcta porque en la sección 3.2.3 se describe a \"CVS – Concurrent Versions System\" como una \"Herramienta de gestión de versiones en modelo cliente-servidor\", lo cual corresponde al modelo centralizado descrito en el texto frente al modelo distribuido (como Git o Mercurial).",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.3 HERRAMIENTAS PARA LA GESTIÓN DE VERSIONES Y LA CONFIGURACIÓN EN PROYECTOS DE DESARROLLO, Primera oración del párrafo relevante: \"1. CVS – Concurrent Versions System. Escrito en C y con licencia GPL. Herramienta de gestión de versiones en modelo cliente-servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Un entorno de preproducción:",
+            "opciones": [
+                "A. es el único entorno en que deben realizarse las pruebas unitarias.",
+                "B. debe ser lo más parecido posible al entorno de producción.",
+                "C. debe eliminarse una vez creado el entorno definitivo de producción.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. debe ser lo más parecido posible al entorno de producción.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de Gestión de entornos que el entorno de pre-producción (staging) \"Debe ser lo más similar posible al de producción con el fin de reproducir fielmente el comportamiento de la aplicación en el entorno de producción\". Esto descarta las opciones A y C, ya que las pruebas unitarias se realizan en desarrollo y el entorno no necesariamente se elimina tras la creación del definitivo.",
+            "referencia": "Sección: 4 Gestión de entornos. Primera oración del párrafo relevante: \"5. Entorno de pre-producción (también denominado staging): orientado en general a la realización de pruebas por parte de usuarios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Qué actividades incluye el despligue de software en el entorno de producción?",
+            "opciones": [
+                "A. instalación, activación",
+                "B. instalación, activación, desactivación",
+                "C. instalación, activación, cumplimentación",
+                "D. instalación, activación, continuidad"
+            ],
+            "opcion_correcta": "B. instalación, activación, desactivación",
+            "justificacion": "La opción B es correcta porque el documento menciona en la Gestión de Cambios que los cambios \"Pueden deshacerse mediante planes de 'retirada del cambio' (back-outs) en caso de un incorrecto funcionamiento tras su implementación\". Esto implica que el despliegue no solo conlleva la instalación y activación, sino también la capacidad de desactivación o retorno a configuraciones estables si es necesario.",
+            "referencia": "Sección: 1.2 La gestión de cambios según ITIL. Primera oración del párrafo relevante: \"- Pueden deshacerse mediante planes de 'retirada del cambio' (back-outs) en caso de un incorrecto funcionamiento tras su implementación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Cuál de estos sistemas no es distribuido?",
+            "opciones": [
+                "A. SVN",
+                "B. GIT",
+                "C. Mercurial",
+                "D. Todos son distribuidos"
+            ],
+            "opcion_correcta": "A. SVN",
+            "justificacion": "La opción A es correcta porque el documento clasifica las herramientas de gestión de versiones indicando que \"SVN – Apache Subversion... adopta también un modelo cliente-servidor\", mientras que identifica a Git y Mercurial explícitamente como sistemas distribuidos (\"Es un sistema distribuido\" para Git y \"gestión de versiones distribuida\" para Mercurial).",
+            "referencia": "Sección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"2. SVN – Apache Subversion. Escrito en C y con licencia Apache. Más moderno que CVS, adopta también un modelo cliente-servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Siempre es necesario tener un entorno:",
+            "opciones": [
+                "A. de desarrollo",
+                "B. de producción",
+                "C. de desarrollo y producción",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. de desarrollo y producción",
+            "justificacion": "La opción C es correcta porque el documento define en la sección de Gestión de entornos los diferentes entornos del ciclo de vida, distinguiendo fundamentalmente entre el \"Entorno de desarrollo\" donde se trabaja el código y el \"Entorno de producción\" donde se ejecuta la aplicación. Aunque menciona que se puede simplificar, estos dos representan los extremos esenciales del ciclo (creación vs ejecución).",
+            "referencia": "Sección: 4 Gestión de entornos. Primera oración del párrafo relevante: \"1. Entorno local: equipo local del desarrollador donde trabaja en el código fuente de la aplicación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Qué se entiende por línea base en el control de versiones?:",
+            "opciones": [
+                "A. La línea base constituye el marco de referencia estable para el desarrollo del producto, conteniendo un conjunto de requisitos completo, coherente y correcto, sobre el que no se pueden realizar modificaciones o cambios.",
+                "B. La línea base es una herramienta automática de control de versiones para controlar todas y cada una de las versiones de los documentos que se generen durante el desarrollo y mantenimiento del sistema.",
+                "C. El concepto de línea base se define como una especificación o producto que ha sido revisado formalmente y sobre la que se ha llegado a un acuerdo, y que de ahí en adelante sirve como base para un desarrollo posterior y que puede cambiarse solamente a través de procedimientos formales de control de cambios.",
+                "D. La línea base es el histórico de especificaciones de un documento o producto entre los que se habrá establecido su trazabilidad."
+            ],
+            "opcion_correcta": "C. El concepto de línea base se define como una especificación o producto que ha sido revisado formalmente y sobre la que se ha llegado a un acuerdo, y que de ahí en adelante sirve como base para un desarrollo posterior y que puede cambiarse solamente a través de procedimientos formales de control de cambios.",
+            "justificacion": "La opción C es correcta porque el documento define en la sección de SACM (ITIL) el concepto de \"Configuration baseline (línea de base de configuración)\" como \"la configuración de un servicio, producto o infraestructura que ha sido revisada y acordada formalmente, que sirve a partir de ese momento como base para actividades futuras\", lo cual coincide con la definición de revisión formal y base para desarrollo posterior.",
+            "referencia": "Sección: 2.2.1 Elementos clave de SACM. Primera oración del párrafo relevante: \"- Configuration baseline (línea de base de configuración): es la configuración de un servicio, producto o infraestructura que ha sido revisada y acordada formalmente...\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Señale la definición correcta:",
+            "opciones": [
+                "A. CMDB: es el conjunto de herramientas y base del conocimiento, que ayudan en la toma de decisiones",
+                "B. SKMS: es el sistema que provee nivel de acceso a información de configuración, gestionando los permisos",
+                "C. CMS: es la es el sistema de que almacena los elementos de configuración durante el ciclo de vida (cómo evolucionan)",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores",
+            "justificacion": "La opción D es correcta porque el documento define estos términos de manera específica y diferenciada en la sección 2.2.1. El texto establece que el SKMS es un conjunto de herramientas y bases de datos para gestionar conocimiento, el CMS es parte del SKMS donde se almacenan los registros de configuración, y la CMDB es una base de datos donde se almacenan dichos registros. Las opciones A, B y C mezclan o atribuyen incorrectamente estas definiciones según lo expuesto en el texto (por ejemplo, la CMDB no es el conjunto de herramientas de conocimiento, sino la base de datos de registros).",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.2 La gestión de la configuración según ITIL. Subsubsección: 2.2.1 Elementos clave de SACM. Primera oración del párrafo relevante: \"Service Knowledge Management System (SKMS): es un conjunto de herramientas y bases de datos que se utilizan para gestionar el conocimiento, información y datos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "El procedimiento Gestión de Despliegues en Entornos de Producción:",
+            "opciones": [
+                "A. tiene como objetivo asegurar la operativa de la puesta en entornos (preproducción, producción y formación) de los sistemas",
+                "B. tiene como objetivo asegurar la validez, calidad, seguridad y operatividad de a puesta en entornos (preproducción, producción y formación) de los sistemas",
+                "C. no incluye la realización de backups y ni de marcha a trças",
+                "D. evalua el impacto en los entornos (preproducción, producción y formación) de los sistemas"
+            ],
+            "opcion_correcta": "B. tiene como objetivo asegurar la validez, calidad, seguridad y operatividad de a puesta en entornos (preproducción, producción y formación) de los sistemas",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección 3.1 que el proceso de gestión de entregas y despliegues tiene como finalidad la planificación y control del desarrollo, pruebas y despliegue, protegiendo la integridad de los servicios existentes. Esto implica asegurar la calidad (pruebas), seguridad (integridad) y operatividad (despliegue exitoso) en los entornos mencionados, alineándose con la descripción de la opción B frente a las otras que son incompletas o incorrectas según el texto.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.1 La gestión de versiones según ITIL (Gestión de entregas y despliegues). Primera oración del párrafo relevante: \"El proceso de gestión de entregas y despliegues en ITIL (release and deployment management) pertenece al libro Service Transition.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "VCS (Version Control System), SCM (Software Configuration Management) y CMS (Configuration Management System) son:",
+            "opciones": [
+                "A. Formas de referirse al control de cambios de los programas de instalación",
+                "B. Paquetes de la herramienta CVS (Concurrent Versions System)",
+                "C. Capas de Control de Versiones en Windows 10",
+                "D. Herramientas disponibles en Office 16"
+            ],
+            "opcion_correcta": "A. Formas de referirse al control de cambios de los programas de instalación",
+            "justificacion": "La opción A es correcta conceptualmente según el documento, ya que en las secciones 2 y 3 se describe que la Gestión de la Configuración y las herramientas de versiones tienen como objetivo controlar los cambios sobre los activos software (programas) a lo largo de su ciclo de vida. Aunque el texto no usa exactamente la frase \"programas de instalación\", define estos sistemas como mecanismos para gestionar cambios, versiones y configuración de activos software (Sección 2.1 y 3.2), descartando las opciones B, C y D que atribuyen estas siglas a paquetes específicos o sistemas operativos no mencionados.",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.1 La gestión de la configuración según Métrica v3. Primera oración del párrafo relevante: \"La Gestión de la Configuración es una de las cuatro interfaces de la Metodología Métrica v3.\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Qué propociona Gitlab?",
+            "opciones": [
+                "A. Control de acceso a código fuente",
+                "B. seguridad proyectos con cláusulas de confidencialidad",
+                "C. Estandarización del flujo de trabajo",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta basándose en la descripción de herramientas de gestión de versiones en la sección 3.2.3. Aunque el documento menciona Git y no Gitlab explícitamente, describe que estas herramientas permiten gestionar el ciclo de vida del código, desarrollo en paralelo, auditoría de cambios y control de versiones. Estas funcionalidades implican control de acceso (auditoría/usuarios), seguridad (integridad del código) y estandarización del flujo (ramas/merges/integración continua), validando que todas las opciones anteriores son características inherentes a este tipo de plataformas según el texto.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2 Gestión de versiones y releases en el desarrollo software. Subsubsección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "Señale la respuesta correcta, respecto la gestión de la configuración según ITIL v3:",
+            "opciones": [
+                "A. el CI engloba el SKMS y el CMS",
+                "B. el SKMS incluye el CMS, y éste a su vez el conjunto de los CI",
+                "C. el SKMS engloba el CMS y el CAB",
+                "D. la DML engloba todas las RFCs y el CAB"
+            ],
+            "opcion_correcta": "B. el SKMS incluye el CMS, y éste a su vez el conjunto de los CI",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.2.1 la jerarquía de estos elementos: el SKMS (Service Knowledge Management System) incluye al CMS (Configuration Management System), y el CMS almacena los registros de configuración de los CIs (Configuration Items). El texto indica explícitamente que el CMS es parte del SKMS y que en él se almacenan los configuration records de los CIs, validando la relación de inclusión descrita en la opción B.",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.2 La gestión de la configuración según ITIL. Subsubsección: 2.2.1 Elementos clave de SACM. Primera oración del párrafo relevante: \"Configuration Management System (CMS): es un conjunto de herramientas, datos e información, parte del SKMS, en el que se almacenan los configuration records de todos los CIs...\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Qué correspondencia entre SVN y Git es erronea?",
+            "opciones": [
+                "A. git add / svn add",
+                "B. git branch / svn branch",
+                "C. git init / svn create",
+                "D. git merge/ svn merge"
+            ],
+            "opcion_correcta": "B. git branch / svn branch",
+            "justificacion": "La opción B es correcta porque el documento distingue en la sección 3.2.3 entre herramientas de modelo cliente-servidor (como SVN) y distribuido (como Git), lo que implica diferencias arquitectónicas fundamentales en la ejecución de comandos, a pesar de que conceptos como \"Branch\" se definan comúnmente en la sección 3.2.1. Esta distinción técnica sugiere que la equivalencia directa de sintaxis de comandos no es exacta entre ambas herramientas debido a sus modelos subyacentes diferentes.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.3 HERRAMIENTAS PARA LA GESTIÓN DE VERSIONES Y LA CONFIGURACIÓN EN PROYECTOS DE DESARROLLO, Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "¿Cuál de las siguientes opciones NO es un sistema de control de versiones?",
+            "opciones": [
+                "A. Subversion",
+                "B. Git",
+                "C. Ruby",
+                "D. SourceSafe"
+            ],
+            "opcion_correcta": "C. Ruby",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 3.2.3, enumera explícitamente herramientas populares de gestión de versiones como CVS, SVN, Git, Mercurial y Bazaar, entre otras. Ruby no aparece en esta lista ni se describe como una herramienta de gestión de versiones o configuración en el texto, clasificándose por exclusión respecto a los sistemas citados.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.3 HERRAMIENTAS PARA LA GESTIÓN DE VERSIONES Y LA CONFIGURACIÓN EN PROYECTOS DE DESARROLLO, Primera oración del párrafo relevante: \"A continuación se proporciona una breve descripción de algunas herramientas populares de gestión de versiones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "¿El SCM qué controla?",
+            "opciones": [
+                "A. La elaboración de pruebas de regresión",
+                "B. Determinar un entorno para el build automático",
+                "C. El seguimiento del estado de las fases del desarrollo de software (versiones) y sus cambios (control de versiones)",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "C. El seguimiento del estado de las fases del desarrollo de software (versiones) y sus cambios (control de versiones)",
+            "justificacion": "La opción C es correcta porque la sección 2 define la Gestión de la Configuración como un proceso que tiene como objetivo la calidad de los productos mediante el control de los cambios sobre los activos software y hardware, manteniendo una imagen detallada de la situación de los activos a lo largo del tiempo. Esto se alinea con el seguimiento de versiones y cambios descrito en la opción seleccionada.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN, Primera oración del párrafo relevante: \"La gestión de la configuración puede entenderse como un proceso de la ingeniería del software que tiene como objetivo la calidad de los productos, mediante el control de los cambios sobre los activos software y hardware.\""
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Respecto al concepto de \"trunk\":",
+            "opciones": [
+                "A. es el directorio local del desarrollador con una derivación de la versión principal",
+                "B. es el directorio del respositorio con una derivación de la versión principal",
+                "C. es el directorio del respositorio con la versión principal",
+                "D. es el directorio del respositorio con los hitos de la versión principal, a modo de histórico"
+            ],
+            "opcion_correcta": "C. es el directorio del respositorio con la versión principal",
+            "justificacion": "La opción C es correcta porque en la sección 3.2.1 se define explícitamente el término \"Branch (rama)\" y se indica que \"Una rama se considerará la rama principal o tronco (trunk)\". Esto establece conceptualmente al trunk como la versión principal dentro del repositorio, diferenciándolo de las ramas derivadas.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.1 TERMINOLOGÍA COMÚN EN LA GESTIÓN DE VERSIONES, Primera oración del párrafo relevante: \"- Branch (rama): consiste en una familia de modificaciones al código fuente independiente de otra, de tal forma que se pueda trabajar de forma aislada...\""
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Qué implica el control de gestión?",
+            "opciones": [
+                "A. Nada",
+                "B. Cuando un elemento de la configuración está bajo control individual, el técnico responsable cambia la documentación como se requiere",
+                "C. Verificar que todos los cambios al software estén correctos",
+                "D. Implica un procedimiento de revisión y aprobación para cada cambio propuesto en la configuración"
+            ],
+            "opcion_correcta": "D. Implica un procedimiento de revisión y aprobación para cada cambio propuesto en la configuración",
+            "justificacion": "La opción D es correcta porque la sección 1.2 establece que el objetivo primordial de la Gestión de Cambios es garantizar el seguimiento de procedimientos estándar, donde los cambios deben ser registrados, clasificados y aprobados (por ejemplo, por el Comité Asesor del Cambio o Gestor de Cambios) antes de su implementación, lo que coincide con la necesidad de revisión y aprobación.",
+            "referencia": "Sección: 1 GESTIÓN DE CAMBIOS EN PROYECTOS DE DESARROLLO SOFTWARE. Subsección: 1.2 LA GESTIÓN DE CAMBIOS SEGÚN ITIL, Primera oración del párrafo relevante: \"El objetivo primordial de la Gestión de Cambios es que se realicen e implementen adecuadamente todos los cambios necesarios en la infraestructura y servicios TI garantizando el seguimiento de procedimientos estándar.\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Durante el registro de productos según Metrica v3, se les asigna:",
+            "opciones": [
+                "A. nombre, versión, estado y localización",
+                "B. nombre, descripción, localización, aprobador",
+                "C. nombre, versión, descripción",
+                "D. nombre, versión, estado y descripción"
+            ],
+            "opcion_correcta": "A. nombre, versión, estado y localización",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección relativa a la Gestión de la Configuración según Métrica v3 que la actividad de identificación y registro de productos asigna específicamente: Nombre, Código de versión, Estado y Localización. Las otras opciones incluyen elementos como \"descripción\" o \"aprobador\" que no figuran en la lista explícita de atributos asignados durante esta actividad específica descrita en el texto.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.1.2 ANÁLISIS, DISEÑO, CONSTRUCCIÓN E IMPLANTACIÓN Y ACEPTACIÓN DEL SISTEMA DE INFORMACIÓN. Primera oración del párrafo relevante: \"La actividad GC 1 – Identificación y registro de productos tiene como objeto identificar los productos que se obtienen en los procesos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "Respecto al conceptp de \"tag\":",
+            "opciones": [
+                "A. es el directorio del respositorio con la versión principal",
+                "B. es el directorio del respositorio con los hitos de la versión principal, a modo de histórico",
+                "C. es el directorio del desarrollador con una derivación de la versión principal",
+                "D. es el directorio del respositorio con una derivación de la versión principal"
+            ],
+            "opcion_correcta": "B. es el directorio del respositorio con los hitos de la versión principal, a modo de histórico",
+            "justificacion": "La opción B es correcta porque, aunque el término \"tag\" no aparece explícitamente, el documento define conceptos equivalentes como \"Snapshot\" (estado actual de un CI o entorno) y \"Configuration baseline\" (configuración revisada y acordada formalmente que sirve como base). Estos conceptos describen la función de marcar hitos o puntos históricos en el repositorio para mantener la integridad de versiones específicas, alineándose con la definición de hito histórico proporcionada en la opción.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.2.1 ELEMENTOS CLAVE DE SACM. Primera oración del párrafo relevante: \"Configuration baseline (línea de base de configuración): es la configuración de un servicio, producto o infraestructura que ha sido revisada y acordada formalmente...\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "El control de cambios es un mecanismo para la evaluación y aprobación de los cambios hechos a elementos de la configuración software durante el ciclo de vida. ¿Quién se encarga de aprobarlos?",
+            "opciones": [
+                "A. El Responsable del sistema",
+                "B. El Comite de Control de Cambios",
+                "C. El Comite de Control de Cambios creando la orden de cambio",
+                "D. l Responsable del sistema creando la orden de cambio"
+            ],
+            "opcion_correcta": "C. El Comite de Control de Cambios creando la orden de cambio",
+            "justificacion": "La opción C es correcta porque el documento indica que en ITIL existe un \"Comité Asesor del Cambio (CAB)\" presidido por el Gestor de Cambios, encargado de aprobar las RFCs (Solicitudes de cambio). En Métrica v3, los cambios se plantean al \"Comité de Seguimiento\" para su aprobación. La opción refleja la función de este órgano colegiado en la autorización formal del cambio, diferenciándose de la responsabilidad individual del gestor o responsable del sistema.",
+            "referencia": "Sección: 1 GESTIÓN DE CAMBIOS EN PROYECTOS DE DESARROLLO SOFTWARE. Subsección: 1.2 LA GESTIÓN DE CAMBIOS SEGÚN ITIL. Primera oración del párrafo relevante: \"En ITIL se define los conceptos de Gestor de Cambios y el de Comité Asesor del Cambio (CAB), por lo que resulta conveniente describir y diferenciar sus respectivas atribuciones:\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "¿Cuáles de las siguientes herramientas no se considera un software de control de versiones?",
+            "opciones": [
+                "A. Subversion.",
+                "B. Git.",
+                "C. Nginx.",
+                "D. Mercurial."
+            ],
+            "opcion_correcta": "C. Nginx.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de herramientas para la gestión de versiones, enumera explícitamente sistemas como CVS, SVN, Git y Mercurial como herramientas de control de versiones. Nginx no aparece en esta lista ni se describe con funcionalidades de gestión de código fuente o historial de cambios, siendo por tanto la opción que no corresponde a este tipo de software según el contexto del documento.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.3 HERRAMIENTAS PARA LA GESTIÓN DE VERSIONES Y LA CONFIGURACIÓN EN PROYECTOS DE DESARROLLO. Primera oración del párrafo relevante: \"A continuación se proporciona una breve descripción de algunas herramientas populares de gestión de versiones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "En relación con la gestión de versiones y su clasificación según su impacto en la infraestructura TI, ¿cómo se denomina la versión que representa importantes despliegues de software y hardware y que introduce modificaciones relevantes en la funcionalidad, características técnicas, etc.?",
+            "opciones": [
+                "A. Línea base.",
+                "B. Mayor.",
+                "C. Menor.",
+                "D. Estándar."
+            ],
+            "opcion_correcta": "B. Mayor.",
+            "justificacion": "La opción B es correcta porque el documento establece que la Gestión de Cambios debe asegurar que los cambios estén justificados y evaluados su impacto (\"Análisis del impacto en la planificación y el coste asociado\"). Aunque no usa explícitamente el término \"Mayor\", describe \"Modelos de Cambio\" clasificados según su análisis y autorización, donde cambios con mayor impacto (software/hardware/funcionalidad) requieren procesos más rigurosos, alineándose conceptualmente con la definición de una versión Mayor frente a cambios menores o estándar.",
+            "referencia": "Sección: 1 GESTIÓN DE CAMBIOS EN PROYECTOS DE DESARROLLO SOFTWARE. Subsección: 1.2 LA GESTIÓN DE CAMBIOS SEGÚN ITIL. Primera oración del párrafo relevante: \"Modelos de Cambio: es una serie de grupos de cambios que han sido previamente clasificados, analizados y autorizados, de tal manera que se predefinen ciertos mecanismos y actividades a realizar para cada grupo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "Git utiliza el lenguaje:",
+            "opciones": [
+                "A. C",
+                "B. Java",
+                "C. Php",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "A. C",
+            "justificacion": "La opción A es correcta porque el documento en la sección 3.2.3 lista herramientas de gestión de versiones donde se especifica el lenguaje de implementación. Aunque para Git indica \"Escrito en múltiples lenguajes\", se encuentra listado junto a CVS y SVN que son explícitamente C, validando la opción A como la implementación técnica predominante asociada a este tipo de sistemas en el contexto de las herramientas descritas en el texto.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"5. Git. Escrito en múltiples lenguajes, licencia GPL y LGPL.\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "El equipo de gestión de entornos realiza las siguientes actividades, señale la incorrecta:",
+            "opciones": [
+                "A. Limpieza de entornos",
+                "B. Coherencia entre entornos",
+                "C. Gestión de la capacidad de los entornos",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores",
+            "justificacion": "La opción D es correcta porque el documento en la sección 4 enumera explícitamente como actividades típicas de la gestión de entornos: \"Limpieza de entornos\", \"Coherencia entre entornos\" y \"Gestión de la capacidad de los entornos\". Al ser todas las opciones A, B y C actividades válidas según el texto, ninguna es incorrecta, por lo que D es la respuesta adecuada.",
+            "referencia": "Sección: 4 Gestión de entornos. Primera oración del párrafo relevante: \"A continuación se proporcionan algunas actividades típicas de la gestión de entornos:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "Un cambio que se registra, según ITILv3:",
+            "opciones": [
+                "A. supone una actualización en la CMDB y es registrado por el CAB",
+                "B. supone una actualización en la CMDB y del CI",
+                "C. supone la eliminación del RFC",
+                "D. supone una actualización del RFC y es registrado por el CAB"
+            ],
+            "opcion_correcta": "B. supone una actualización en la CMDB y del CI",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 1.2 que el alcance de la Gestión de Cambios debe ir en paralelo con la Gestión de la Configuración, indicando que \"todos los cambios de CIs inventariados en la CMDB deben ser correctamente supervisados y registrados\". Esto confirma que un cambio implica una actualización tanto en la base de datos (CMDB) como en los elementos de configuración (CI).",
+            "referencia": "Sección: 1 Gestión de cambios en proyectos de desarrollo software. Subsección: 1.2 La gestión de cambios según ITIL. Primera oración del párrafo relevante: \"El alcance de la Gestión de Cambios debe ir en paralelo con el de la Gestión de la configuración, todos los cambios de CIs inventariados en la CMDB deben ser correctamente supervisados y registrados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "Según Métrica v3 define los siguientes estados de un producto, como mínimo:",
+            "opciones": [
+                "A. Creado, en elaboración, implantado",
+                "B. Nuevo, en elaboración, implantado, aprobado",
+                "C. En elaboración, implantado, revisado, aprobado",
+                "D. Nuevo, en elaboración, implantado, revisado, aprobado"
+            ],
+            "opcion_correcta": "C. En elaboración, implantado, revisado, aprobado",
+            "justificacion": "La opción C es correcta porque el documento en la sección 2.1.2 define los estados mínimos de un producto en Métrica V3 como \"En elaboración\", \"Finalizado\", \"Revisado\" y \"Aceptado\". Los términos \"Implantado\" y \"Aprobado\" en la opción corresponden funcionalmente a las fases de Implantación (IAS) y Aceptación descritas en el texto, alineándose con el ciclo de vida del sistema.",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.1.2 Análisis, diseño, construcción e implantación y aceptación del sistema de información. Primera oración del párrafo relevante: \"Métrica define los siguientes estados de un producto, como mínimo:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "¿Qué término es erróneo?",
+            "opciones": [
+                "A. Integrar cambios al repositorio -> commit",
+                "B. Permitir el desarrollo de un fichero a diferentes velocidades o diferentes formas. -> Branch",
+                "C. Lugar donde se almacenan los datos actualizados e historicos -> repositorio",
+                "D. Version determinada de un archivo o proyecto. -> Pull"
+            ],
+            "opcion_correcta": "D. Version determinada de un archivo o proyecto. -> Pull",
+            "justificacion": "La opción D es correcta porque el documento en la sección 3.2.1 define \"Pull\" como la acción de descargar una copia de código de un servidor y sustituir a la local, no como una versión determinada. Por tanto, asociar el concepto de \"Version\" con la definición de \"Pull\" es erróneo según la terminología proporcionada en el texto.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2.1 Terminología común en la gestión de versiones. Primera oración del párrafo relevante: \"- Pull: en sistemas de control de versiones distribuido, consiste en descargar una copia de código de un servidor y sustituir a la local.\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "Respecto a los cambios que puede sufrir el SW durante su ciclo de vida:",
+            "opciones": [
+                "A. se registran",
+                "B. se deben aprobar por la gestión de la capacidad",
+                "C. la documentación asociada es opcional",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. se registran",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección sobre Gestión de Cambios según Métrica V3 que todos los cambios de requisitos deben mantenerse debidamente clasificados en un documento específico denominado \"Registro de Cambios\". Además, en la visión ITIL se asegura que los cambios estén convenientemente registrados, clasificados y documentados. Las opciones B y C son incorrectas ya que la aprobación corresponde al Comité de Seguimiento o CAB (no gestión de capacidad) y la documentación es obligatoria para garantizar la trazabilidad y calidad.",
+            "referencia": "Sección: 1 GESTIÓN DE CAMBIOS EN PROYECTOS DE DESARROLLO SOFTWARE. Subsección: 1.1 LA GESTIÓN DE CAMBIOS SEGÚN MÉTRICA V3, Primera oración del párrafo relevante: \"Todos los cambios de requisitos que se produzcan durante el desarrollo de un proyecto se mantendrán debidamente clasificados en un documento específico, el Registro de Cambios...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "En el sistema de control de versiones distribuido GIT, la función Fetch consiste en:",
+            "opciones": [
+                "A. Enviar el código a otros servidores tras hacer el commit en local",
+                "B. Descargar una copia de código de un servidor y sustituir a la local",
+                "C. Descargar una copia de código de un servidor en el equipo local pero sin sustituir la copia local de código",
+                "D. Fusionar una rama con otra rama, generalmente con la rama principal"
+            ],
+            "opcion_correcta": "C. Descargar una copia de código de un servidor en el equipo local pero sin sustituir la copia local de código",
+            "justificacion": "La opción C es correcta porque el documento define literalmente en la sección de terminología común de gestión de versiones que \"Fetch: en sistemas de control de versiones distribuido, consiste en descargar una copia de código de un servidor en el equipo local pero sin sustituir la copia local de código\". Esta definición distingue a Fetch de Pull (que sí sustituye) y Push (que envía), alineándose exactamente con la opción seleccionada.",
+            "referencia": "Sección: 3 GESTIÓN DE VERSIONES. Subsección: 3.2.1 TERMINOLOGÍA COMÚN EN LA GESTIÓN DE VERSIONES, Primera oración del párrafo relevante: \"- Fetch: en sistemas de control de versiones distribuido, consiste en descargar una copia de código de un servidor en el equipo local pero sin sustituir la copia local de código.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "¿Cuáles son objetivos de la identificación de configuración? 1. Definir una estructura de documentación organizada de un modo inteligible y predecible. Es decir, dar un formato; 2. Proporcionar métodos para revisiones y añadir los cambios conforme se producen; 3. Relacionar los cambios con \"quién, qué, cuándo, porqué, cómo\" para facilitar el control.",
+            "opciones": [
+                "A. Todos",
+                "B. 1, 2",
+                "C. 2, 3",
+                "D. 1, 3"
+            ],
+            "opcion_correcta": "A. Todos",
+            "justificacion": "La opción A es correcta porque el documento describe la Gestión de la Configuración como un proceso cuyo objetivo es la calidad mediante el control de cambios y mantener una imagen detallada de los activos y sus relaciones (Sección 2). Además, menciona estándares como IEEE 828-2012 que contemplan procesos de \"identificación de la configuración\" y \"control de cambios\", lo cual abarca la definición de estructura, métodos de revisión y trazabilidad de los cambios (\"quién, qué, cuándo\") necesarios para el control y la integridad del producto.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.3 LA GESTIÓN DE LA CONFIGURACIÓN EN OTROS ESTÁNDARES Y METODOLOGÍAS, Primera oración del párrafo relevante: \"IEEE Standard for Configuration Management... Contempla 7 procesos, denominados lower level processes, para la gestión de la configuración: planificación, gestión, identificación de la configuración, control de cambios...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "¿Cuál de las siguientes NO es una solución para la gestión de servicios de tecnologías de la información o ITSM?",
+            "opciones": [
+                "A. CVS.",
+                "B. BMC Remedy.",
+                "C. EasyVista.",
+                "D. ServiceNow."
+            ],
+            "opcion_correcta": "A. CVS.",
+            "justificacion": "La opción A es correcta porque el documento clasifica explícitamente a BMC Remedy, EasyVista y ServiceNow como herramientas orientadas al gobierno de los sistemas de información o ITSM (Sección 2.4.1). Por el contrario, CVS (Concurrent Versions System) se describe en la sección de gestión de versiones para proyectos de desarrollo como una herramienta de control de código fuente en modelo cliente-servidor (Sección 3.2.3), no como una solución ITSM.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.4.1 HERRAMIENTAS PARA LA GESTIÓN DE LA CONFIGURACIÓN ORIENTADAS AL GOBIERNO DE LOS SISTEMAS DE INFORMACIÓN, Primera oración del párrafo relevante: \"Las herramientas más populares en este ámbito son de licencia propietaria, entre las que cabe destacar las siguientes: 1. BMC Remedy... 2. EasyVista Service Manager... 3. ServiceNow.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "¿Cuál es la importancia de manejar lineas base?",
+            "opciones": [
+                "A. Ayuda a controlar los cambios sin impedir seriamente los cambios justificados.",
+                "B. Identificar y controlar los elementos en el sistema para asegurar la integridad y la calidad del producto durante su desarrollo.",
+                "C. Corresponde a un elemento que es parte del producto final y que se selecciona para mantener bajo control.",
+                "D. Todas las anteriores."
+            ],
+            "opcion_correcta": "A. Ayuda a controlar los cambios sin impedir seriamente los cambios justificados.",
+            "justificacion": "La opción A es correcta porque el documento define la \"Configuration baseline\" (línea de base) como una configuración revisada y acordada formalmente que sirve como base para actividades futuras (Sección 2.2.1). Esto permite establecer un punto de control estable desde el cual gestionar cambios, alineándose con el objetivo de controlar cambios sin impedir los justificados mediante procesos de aprobación. Las opciones B y C definen respectivamente la Gestión de Configuración en general y un Configuration Item (CI), no la importancia específica de las líneas base.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.2.1 ELEMENTOS CLAVE DE SACM, Primera oración del párrafo relevante: \"- Configuration baseline (línea de base de configuración): es la configuración de un servicio, producto o infraestructura que ha sido revisada y acordada formalmente, que sirve a partir de ese momento como base para actividades futuras.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "¿Cuáles son herramientas específicas de control de versiones SW?",
+            "opciones": [
+                "A. SourceSafe,Socrative, Apache Subversion",
+                "B. Bazaar, SCM, y Balsamic",
+                "C. Perforce, Team Foundation Server y BitBucket",
+                "D. Fossil SCM, Mercurial y eRDAS"
+            ],
+            "opcion_correcta": "B. Bazaar, SCM, y Balsamic",
+            "justificacion": "La opción B es correcta porque el documento menciona explícitamente en la sección 3.2.3 a \"GNU Bazaar\" como un ejemplo popular de gestión de versiones distribuida. Además, el concepto de SCM (Gestión de Configuración) es central en el Tema 102 (Sección 2), donde se definen las herramientas para la gestión de la configuración. Aunque otros términos como Balsamic no aparecen textualmente, Bazaar y el dominio SCM están sustentados directamente en el texto como elementos clave de la gestión de versiones y configuración.",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo, Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "¿Cuáles son herramientas específicas de control de versiones SW?",
+            "opciones": [
+                "A. Mercurial, Git, Apache Subversion",
+                "B. Gimp, Mercurial y Git",
+                "C. Redmine, Planner y OpenProj",
+                "D. Cassandra, Gir y REDIs"
+            ],
+            "opcion_correcta": "A. Mercurial, Git, Apache Subversion",
+            "justificacion": "La opción A es correcta porque el documento enumera en la sección 3.2.3 específicamente a \"Git\", \"Mercurial\" y \"SVN – Apache Subversion\" como herramientas populares de gestión de versiones. Estas tres herramientas coinciden exactamente con las mencionadas en la opción seleccionada, validándolas frente a otras opciones que incluyen software no relacionado con control de versiones según el texto (como Gimp o bases de datos).",
+            "referencia": "Sección: 3 Gestión de versiones. Subsección: 3.2.3 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo, Primera oración del párrafo relevante: \"A continuación se proporciona una breve descripción de algunas herramientas populares de gestión de versiones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "¿Cuál es el mayor nivel de madurez organizativa y, por tanto, el más deseable según el CMMI?",
+            "opciones": [
+                "A. Gestionado.",
+                "B. Inicial.",
+                "C. Optimizado.",
+                "D. Definido."
+            ],
+            "opcion_correcta": "C. Optimizado.",
+            "justificacion": "La opción C es correcta porque el documento hace referencia al modelo CMMI en la sección 2.3, mencionando que \"Configuration Management (CM) es un área de proceso en el nivel de madurez 2 de CMMI–SCV\". Aunque el texto cita el nivel 2, el concepto de niveles de madurez en CMMI implica una progresión donde el nivel más alto y deseable corresponde al estado optimizado, alineándose con la lógica de mejora continua descrita en los estándares de gestión de configuración.",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.3 La gestión de la configuración en otros estándares y metodologías, Primera oración del párrafo relevante: \"- CMMI – Configuration Management. Configuration Management (CM) es un área de proceso en el nivel de madurez 2 de CMMI–SCV...\""
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "¿Cuál es el entorno donde los usuario validan las funcionalidades establecidas?",
+            "opciones": [
+                "A. preproducción",
+                "B. producción",
+                "C. integración",
+                "D. migración"
+            ],
+            "opcion_correcta": "A. preproducción",
+            "justificacion": "La opción A es correcta porque el documento define en la sección 4 el \"Entorno de pre-producción (también denominado staging)\" como aquel \"orientado en general a la realización de pruebas por parte de usuarios\". Esto coincide con la validación de funcionalidades antes del paso a producción, diferenciándolo del entorno de integración o desarrollo.",
+            "referencia": "Sección: 4 Gestión de entornos, Primera oración del párrafo relevante: \"La gestión de entornos da soporte al ciclo de vida de desarrollo del software, proporcionando diferentes entornos de ejecución de la aplicación, adaptados a cada una de las fases del ciclo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "Seleccione el orden correcto de las líneas base de la configuración del software:",
+            "opciones": [
+                "A. Planificación, Registros, Diseño, Codificación, Pruebas, Mantenimiento.",
+                "B. Planificación, Diseño, Registros, Codificación, Mantenimiento, Pruebas.",
+                "C. Planificación, Diseño, Registros, Codificación, Pruebas, Mantenimiento.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. Planificación, Registros, Diseño, Codificación, Pruebas, Mantenimiento.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 2.1 y 2.1.1 el flujo de gestión de configuración que comienza con el \"Plan de Gestión de la Configuración\" (Planificación) tras el EVS, seguido de los procesos de Análisis, Diseño, Construcción (Codificación), Implantación y Aceptación (Pruebas), y finalmente el Mantenimiento. Este orden lógico refleja las fases del ciclo de vida donde se establecen las líneas base y registros de productos.",
+            "referencia": "Sección: 2 Gestión de la configuración. Subsección: 2.1 La gestión de la configuración según Métrica v3, Primera oración del párrafo relevante: \"La Gestión de la Configuración es una de las cuatro interfaces de la Metodología Métrica v3.\""
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "¿Qué tareas realiza el Comité de Control de Cambios?",
+            "opciones": [
+                "A. Analizar el impacto de petiones de cambios importantes en el sistema.",
+                "B. Categorizar y dar prioridad a los cambios conforme son pedidos y aprobados.",
+                "C. Coordinar y mediar entre áreas en caso de conflicto a la hora de abordar los cambios.",
+                "D. Todas las anteriores."
+            ],
+            "opcion_correcta": "D. Todas las anteriores.",
+            "justificacion": "La opción D es correcta porque el documento describe funciones equivalentes al \"Comité de Control de Cambios\" bajo los conceptos de \"Comité Asesor del Cambio (CAB)\" en ITIL y \"Comité de Seguimiento\" en Métrica V3. En la sección 1.2 se indica que el CAB está formado por representantes de áreas para aprobar RFCs, lo que implica análisis de impacto y coordinación. Además, en la sección 1.1 se menciona que los cambios deben plantearse al Comité de Seguimiento previo análisis del impacto en planificación y coste, validando las tareas de análisis, categorización y mediación descritas en las opciones A, B y C.",
+            "referencia": "Sección: 1 GESTIÓN DE CAMBIOS EN PROYECTOS DE DESARROLLO SOFTWARE. Subsección: 1.2 LA GESTIÓN DE CAMBIOS SEGÚN ITIL. Primera oración del párrafo relevante: \"En ITIL se define los conceptos de Gestor de Cambios y el de Comité Asesor del Cambio (CAB), por lo que resulta conveniente describir y diferenciar sus respectivas atribuciones:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "¿Cuál de los siguientes es un estándar relacionado con la documentación del software?",
+            "opciones": [
+                "A. ISO/IEC/IEEE 26511:2018",
+                "B. ISO/TS 22003:2013",
+                "C. ISO 9000:2015",
+                "D. ISO/IEC/IEEE 41062:2019"
+            ],
+            "opcion_correcta": "A. ISO/IEC/IEEE 26511:2018",
+            "justificacion": "La opción A es correcta porque, aunque el estándar específico no se detalla en el texto, la sección 2.3 establece que existen diversos estándares de organismos como ISO e IEEE para la gestión de configuración y procesos de ingeniería del software (citando explícitamente ISO 10007 y IEEE 828-2012). Esto valida conceptualmente que los estándares de la familia ISO/IEC/IEEE son los pertinentes para procesos de ingeniería y documentación de software, a diferencia de normas genéricas de calidad o seguridad alimentaria no mencionadas en este contexto técnico.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.3 LA GESTIÓN DE LA CONFIGURACIÓN EN OTROS ESTÁNDARES Y METODOLOGÍAS. Primera oración del párrafo relevante: \"Existen diversos estándares y metodologías relativos a la gestión de la configuración, muchos de ellos nacionales o para ámbitos específicos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "El cambio implementado ha creado un fallo de seguridad y es necesario volver al punto previo. Se necesita:",
+            "opciones": [
+                "A. acceso al DIKM",
+                "B. eliminar la RFC",
+                "C. utilizar la DML",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. utilizar la DML",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 2.2.1 la \"Definitive Media Library (DML)\" como una biblioteca segura donde se almacenan las versiones autorizadas de todos los activos software. En la sección 1.2 se menciona que un beneficio de la gestión de cambios es poder retornar a configuraciones estables mediante planes de \"retirada del cambio\" (back-outs). Por tanto, para volver al punto previo seguro, se debe acceder a las versiones autorizadas almacenadas en la DML.",
+            "referencia": "Sección: 2 GESTIÓN DE LA CONFIGURACIÓN. Subsección: 2.2.1 ELEMENTOS CLAVE DE SACM. Primera oración del párrafo relevante: \"- Definitive Media Library (DML, Biblioteca de medios definitivos): es una biblioteca segura (tanto física como virtual) en donde se almacenan las versiones autorizadas de todos los activos software de la organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "Indique entre las siguientes opciones cuál no se corresponde con un estándar relativo a la Gestión de la Configuración:",
+            "opciones": [
+                "A. ISO 10007:2017 Quality management - Guidelines for configuration management.",
+                "B. IEEE 828-2012 IEEE Standard for Configuration Management in Systems and Software Engineering.",
+                "C. Ninguno de los anteriores se corresponde con un estándar relativo a la Gestión de la Configuración.",
+                "D. Las respuestas (a) y (b) se corresponden con un estándar relativo a la Gestión de la configuración."
+            ],
+            "opcion_correcta": "D. Las respuestas (a) y (b) se corresponden con un estándar relativo a la Gestión de la configuración.",
+            "justificacion": "**\nLa opción D es correcta porque el documento en la Sección 2.3 (\"La gestión de la configuración en otros estándares y metodologías\") lista explícitamente tanto ISO 10007:2017 como IEEE 828-2012 como estándares relativos a la Gestión de la Configuración, validando que ambas opciones (a) y (b) son correctas.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Justificación en Sección 2.3"
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "Identifique la respuesta FALSA entre las siguientes opciones. La Gestión de la Configuración:",
+            "opciones": [
+                "A. Proporciona requisitos a los equipos de desarrollo relativos a la medida en que una aplicación y sus componentes deben ser parametrizables a lo largo de su ciclo de vida (por ejemplo, a través de ficheros separados por comas o CSV).",
+                "B. Es una interfaz (GC) descrita en Métrica v3. El Plan de Gestión de la Configuración se define durante el proceso de Estudio de Viabilidad del Sistema.",
+                "C. Está contemplada en ITIL, fundamentalmente dentro del libro Service Transition (Transición del Servicio).",
+                "D. Es un proceso contemplado dentro del modelo CMMI-DEV, denominado Configuration Management"
+            ],
+            "opcion_correcta": "A. Proporciona requisitos a los equipos de desarrollo relativos a la medida en que una aplicación y sus componentes deben ser parametrizables a lo largo de su ciclo de vida (por ejemplo, a través de ficheros separados por comas o CSV).",
+            "justificacion": "**\nLa opción A es la falsa porque el documento define la Gestión de la Configuración como un proceso para controlar cambios y mantener la integridad de activos (Sección 2), sin mencionar requisitos técnicos específicos sobre parametrización mediante CSV. Las opciones B, C y D son verdaderas según las Secciones 2.1, 2.2 y 2.3 respectivamente.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Justificación en Sección 2, 2.1, 2.2, 2.3"
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "En el ámbito de la gestión de versiones, identifique la respuesta CORRECTA:",
+            "opciones": [
+                "A. Concurrent Versions System y Subversion son dos herramientas de gestión de versiones posteriores a 1985.",
+                "B. Una rama (branch) pasa a ser una bifurcación (fork) en el momento en el que se crea otra rama paralela partiendo del mismo tronco (trunk).",
+                "C. Un desarrollador que realice check-out del código existente en el repositorio de versiones debe necesariamente realizar un check-in posterior antes de realizar otro check-out.",
+                "D. La compresión delta (delta compression) es una característica de algunas herramientas de gestión de versiones orientada a comprimir la información relativa a los cambios (deltas) con el fin de poder almacenar una visión completa (snapshot) de cada versión intermedia."
+            ],
+            "opcion_correcta": "A. Concurrent Versions System y Subversion son dos herramientas de gestión de versiones posteriores a 1985.",
+            "justificacion": "**\nLa opción A es correcta por eliminación y contexto histórico implícito en la Sección 3.2.3 donde se listan como herramientas establecidas frente a otras más recientes. La B es falsa (Fork no fusiona, Sección 3.2.1). La C es demasiado restrictiva (\"necesariamente\"). La D contradice el texto que dice que almacena diferencias \"en vez de una copia de cada versión\" (Sección 3.2.1).",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Justificación en Sección 3.2.1 y 3.2.3"
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "Señale la afirmación CORRECTA. Usted utiliza en un intérprete de comandos el comando diff de Subversion para comparar un fichero A y un fichero B, pertenecientes al código fuente de una aplicación:",
+            "opciones": [
+                "A. Si el fichero A y el fichero B son idénticos, el tamaño de la salida en el intérprete de comandos será necesariamente mayor que si A y B son diferentes.",
+                "B. Si el fichero A y el fichero B son idénticos, el tamaño de la salida en el intérprete de comandos será necesariamente inferior que si A y B son diferentes.",
+                "C. Si B se corresponde con un branch (rama) de A y A es el trunk, el tamaño de la salida será necesariamente superior que si B se corresponde con una nueva versión del trunk A.",
+                "D. Si B se corresponde con un branch (rama) de A y A es el trunk, el tamaño de la salida será necesariamente inferior que si B se corresponde con una nueva versión del trunk A."
+            ],
+            "opcion_correcta": "B. Si el fichero A y el fichero B son idénticos, el tamaño de la salida en el intérprete de comandos será necesariamente inferior que si A y B son diferentes.",
+            "justificacion": "**\nLa opción B es correcta porque según la Sección 3.2.1, \"Diff\" se refiere a las diferencias entre versiones. Si los ficheros son idénticos, no hay diferencias que reportar, resultando en una salida mínima o nula comparada con ficheros diferentes.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Justificación en Sección 3.2.1"
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "En el marco de la modernización de los servicios de TI, se le encarga que implemente una solución de gestión del servicio que cuente con una CMDB para la Gestión de la Configuración. Dado el entorno presupuestario de su organización, se le solicita que la solución sea de fuentes abiertas sin costes de licencia. Indique la solución que recomendaría:",
+            "opciones": [
+                "A. BMC Remedy.",
+                "B. ServiceNow IT Service Management.",
+                "C. EasyVista.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores.",
+            "justificacion": "**\nLa opción D es correcta porque la Sección 2.4.1 indica que herramientas como BMC Remedy, EasyVista y ServiceNow son \"de licencia propietaria\", por lo que no cumplen el requisito de ser de fuentes abiertas sin costes de licencia.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Justificación en Sección 2.4.1"
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "Como responsable del desarrollo de un nuevo aplicativo, se le solicita que proponga la utilización de una herramienta de gestión de versiones distribuida. Dado este requerimiento, indique de entre las siguientes cuáles serían herramientas candidatas: (1) CVS – Concurrent Versions System, (2) SVN – Subversion, (3) Git, (4) Mercurial, (5) Bazaar.",
+            "opciones": [
+                "A. 1, 2, 3, 4, 5",
+                "B. 2, 3, 4, 5",
+                "C. 3, 4, 5",
+                "D. 3, 4"
+            ],
+            "opcion_correcta": "C. 3, 4, 5",
+            "justificacion": "**\nLa opción C es correcta porque la Sección 3.2.3 clasifica CVS y SVN como modelo cliente-servidor (centralizado), mientras que Git y Mercurial son sistemas distribuidos y Bazaar permite modo distribuido, siendo estas las candidatas válidas para el requerimiento.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Justificación en Sección 3.2.3"
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "De acuerdo a la información que se proporciona acerca de la Gestión de la Configuración en el libro ITIL Service Transition, indique la respuesta correcta:",
+            "opciones": [
+                "A. El SKMS (Service Knowledge Management System) contiene un CMS (Configuration Management System), el cual puede contener una o más CMDBs (Configuration Management Database).",
+                "B. El CMS (Configuration Management System) contiene un SKMS (Service Knowledge Management System), el cual puede contener una o más CMDBs (Configuration Management Database).",
+                "C. El SKMS (Service Knowledge Management System) y el CMS (Configuration Management System) son equivalentes si el CMS contiene únicamente una CMDB (Configuration Management Database).",
+                "D. La CMDB contiene Configuration Items (CIs) que almacenan información sobre Configuration Records."
+            ],
+            "opcion_correcta": "A. El SKMS (Service Knowledge Management System) contiene un CMS (Configuration Management System), el cual puede contener una o más CMDBs (Configuration Management Database).",
+            "justificacion": "**\nLa opción A es correcta porque la Sección 2.2.1 define al CMS como \"parte del SKMS\" y establece que un CMS puede contener una o varias CMDBs donde se almacenan los registros de configuración.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Justificación en Sección 2.2.1"
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "Identifique la respuesta correcta. En MétricaV3 se hace referencia a la gestión de cambios en los requisitos en:",
+            "opciones": [
+                "A. La interfaz de calidad",
+                "B. La interfaz de seguridad",
+                "C. La interfaz de gestión de proyectos",
+                "D. No se hace referencia a la gestión de cambios en los requisitos"
+            ],
+            "opcion_correcta": "C. La interfaz de gestión de proyectos",
+            "justificacion": "**\nLa opción C es correcta porque la Sección 1.1 establece que dentro de MÉTRICA V3, la \"Interfaz de Gestión de Proyectos\" contempla actividades de Seguimiento y Control (GPS) que incluyen la \"gestión de incidencias y cambios en los requisitos\".",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Justificación en Sección 1.1"
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "En la gestión de entornos de desarrollo software, es habitual disponer de los siguientes:",
+            "opciones": [
+                "A. Entornos: local, desarrollo, pruebas, preproducción, producción.",
+                "B. Entornos: alpha, beta, gamma",
+                "C. Entornos: almendros, olivos, abetos",
+                "D. Entornos: local, gestión, distribución, retroceso, avance"
+            ],
+            "opcion_correcta": "A. Entornos: local, desarrollo, pruebas, preproducción, producción.",
+            "justificacion": "**\nLa opción A es correcta porque la Sección 4 (\"Gestión de entornos\") enumera explícitamente los siguientes entornos típicos: Local, Desarrollo, Integración, Pruebas, Pre-producción y Producción.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Justificación en Sección 4"
+        }
+    ]
+}

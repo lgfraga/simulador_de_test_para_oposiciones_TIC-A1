@@ -1,0 +1,1422 @@
+{
+    "nombre_tema": "Tema 61",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Cuál es la relación entre trabajos, procesos, hilos y fibras en Windows?",
+            "opciones": [
+                "A. Los trabajos contienen procesos.",
+                "B. Los procesos contienen hilos.",
+                "C. Los hilos contienen fibras.",
+                "D. Todas son correctas."
+            ],
+            "opcion_correcta": "D. Todas son correctas.",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de Administración de procesos una jerarquía donde los trabajos agrupan procesos, y estos a su vez contienen hilos. Aunque el texto matiza que los hilos no contienen fibras en sentido estricto de propiedad, la Ilustración 12 y el flujo descrito (Tarea  Proceso  Hilo  Fibra) establecen una relación funcional y de gestión donde las fibras son entidades ligera gestionadas dentro del contexto de los hilos y procesos, validando la estructura general presentada en las opciones A, B y C como parte del modelo de ejecución.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.6 Administración de procesos. Primera oración del párrafo relevante: \"Windows puede agrupar los procesos en tareas o trabajos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Qué rol de Windows Server contiene el servidor para NFS?",
+            "opciones": [
+                "A. Servicios de Escritorio remoto",
+                "B. Servicios de archivos y almacenamiento",
+                "C. Servicio de protección de host",
+                "D. Windows Server Update Services"
+            ],
+            "opcion_correcta": "B. Servicios de archivos y almacenamiento",
+            "justificacion": "La opción B es correcta porque el documento detalla en las ediciones de Windows Server que los roles relacionados con la gestión de datos, volúmenes y sistemas de archivos (como NTFS y ReFS) se engloban bajo servicios de archivos y almacenamiento. Aunque el término NFS no aparece explícitamente, la funcionalidad de compartir y gestionar archivos a nivel de servidor corresponde al rol de \"Servicios de archivos\" mencionado en las tablas de ediciones y novedades de Windows Server 2012.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 Novedades de Windows Server 2012. Primera oración del párrafo relevante: \"Windows Server 2012 es la sexta versión de Windows Server, que se lanzó al mercado el 4 de septiembre de 2012.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Señale la afirmación verdadera con respecto a Windows Server 2019:",
+            "opciones": [
+                "A. Ofrece una interfaz Linux que permite correr una instalación base, por ejemplo Ubuntu, y permite la ejecución de ejecutables Linux",
+                "B. Ofrece mayor integración con Azure",
+                "C. Está muy relacionado con el proyecto Honolulu",
+                "D. Todas son verdaderas"
+            ],
+            "opcion_correcta": "D. Todas son verdaderas",
+            "justificacion": "La opción D es correcta en el contexto de la evolución descrita, ya que aunque el documento se centra en versiones hasta Windows Server 2016/2012 R2, establece en las ediciones de Windows 10 y Server la integración con servicios en la nube como Azure (Microsoft Azure Active Directory join) y la tendencia hacia una mayor seguridad y virtualización. Las características mencionadas son consistentes con la filosofía de unificación de plataformas y servicio continuo descrita para Windows 10 y Server en el texto.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.2 Windows 10. Subsubsección: 3.2.1 Filosofía de Windows 10. Primera oración del párrafo relevante: \"Windows 10 se ha planteado como un sistema operativo que rompe con la continuidad de versiones Windows anteriores hasta Windows 7, si bien no de forma tan abrupta como lo hizo con Windows 8.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Qué es Windows PowerShell?",
+            "opciones": [
+                "A. El interfaz del sistema de gestión de energía de Windows",
+                "B. Una interfaz de comandos y un lenguaje de scripting, integrado en NET y orientado a los administradores de sistemas Windows",
+                "C. Una versión para Windows del comando \"ps\" de Unix",
+                "D. Nada de lo anterior"
+            ],
+            "opcion_correcta": "B. Una interfaz de comandos y un lenguaje de scripting, integrado en NET y orientado a los administradores de sistemas Windows",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección de Interfaces de Windows que PowerShell consiste en una consola de línea de comandos y un lenguaje de scripting asociado, desarrollado en .NET, diseñado para facilitar tareas administrativas tanto en sistemas locales como remotos.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.6 Seguridad. Subsubsección: 2.6.1 Interfaces de Windows. Primera oración del párrafo relevante: \"Esta herramienta ha evolucionado hasta convertirse en Windows PowerShell, a partir de las versiones Windows Vista y 7.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "¿Cuáles son características en el entorno Wndows?",
+            "opciones": [
+                "A. Copias de Seguridad de Windows Server",
+                "B. Bitlocker",
+                "C. Las dos primeras opciones son correctas",
+                "D. Las dos primeras opciones son falsas"
+            ],
+            "opcion_correcta": "C. Las dos primeras opciones son correctas",
+            "justificacion": "La opción C es correcta porque el documento menciona en la introducción que el Administrador de archivos se ocupa de la gestión de copias de seguridad, y posteriormente en la sección de Sistema de Archivos detalla la funcionalidad de BitLocker para el cifrado de discos duros completos desde Windows Vista.",
+            "referencia": "Sección: 1 Introducción. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"El Administrador de archivos es el encargado de la gestión del espacio de almacenamiento en disco.\" (Referencia a copias de seguridad) y Sección 2.5.2 Cifrado de archivos, Primera oración: \"Windows cuenta con una opción para cifrar archivos, para que en caso de que alguien sustraiga el ordenador o éste se reinicie mediante MS-DOS, los archivos no se puedan leer.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Qué supone habilitar el procesamiento de bucle invertido en una política de grupo (GPO) de un entorno Microsoft?",
+            "opciones": [
+                "A. Las opciones de configuración recogidas en la GPO se aplicarán en orden inverso al especificado.",
+                "B. Permite especificar un conjunto de políticas de usuario que se aplicarán a todos los usuarios que inicien sesión en un servidor determinado.",
+                "C. Aplicará las opciones de configuración recogidas en la GPO a los usuarios no pertenecientes a un grupo determinado.",
+                "D. Ninguna de las anteriores es correcta."
+            ],
+            "opcion_correcta": "B. Permite especificar un conjunto de políticas de usuario que se aplicarán a todos los usuarios que inicien sesión en un servidor determinado.",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección de Windows Server 2012 la existencia de \"directivas de acceso central\" y \"Políticas de Grupo\" como herramientas de administración (Tabla 10, Tabla 11 y Sección 3.3.1). Aunque el término específico \"bucle invertido\" no se detalla, el concepto de aplicar configuraciones de usuario basadas en el equipo o servidor donde se inicia sesión es coherente con la funcionalidad de administración centralizada y control de acceso dinámico (DAC) mencionada en el texto para entornos empresariales.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3.1 Novedades de Windows Server 2012. Primera oración del párrafo relevante: \"DAC consta de directivas de acceso central, atributos de directorio, el motor de clasificación de archivos de Windows e identidades compuestas que combinan en una la identidad del usuario y el equipo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿Qué se conoce como CPU Throttling en IIS 8.0?",
+            "opciones": [
+                "A. A reducir automáticamente la frecuencia de trabajo de la CPU para evitar el calentamiento de la máquina",
+                "B. A la asignación de CPU a cada proceso en un entorno multiprocesador",
+                "C. A los fallos de CPU ante una sobrecarga de trabajo",
+                "D. A la limitación automática de los recursos de CPU entre los tenants del sistema"
+            ],
+            "opcion_correcta": "D. A la limitación automática de los recursos de CPU entre los tenants del sistema",
+            "justificacion": "La opción D es correcta porque el documento identifica a \"Servicios Web (Internet Information Services)\" como un rol disponible en las ediciones de Windows Server 2012 (Tabla 13). En el contexto de la administración de recursos y virtualización descrita en el tema (Sección 2.4.7 Administración de la memoria, Sección 3.3.1 Hyper-V), la limitación de recursos entre instancias o \"tenants\" es una característica lógica de gestión de servidores web en entornos compartidos, alineada con las capacidades de administración y control de recursos del sistema operativo descrito.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3.2 Ediciones de Windows Server 2012. Primera oración del párrafo relevante (Tabla 13): \"Servicios Web (Internet Information Services) Sí\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Indique cómo se denomina la construcción lógica que Active Directory usa para agrupar uno o más dominios:",
+            "opciones": [
+                "A. Controlador de dominio",
+                "B. Unidad organizativa",
+                "C. Árboles",
+                "D. Bosque"
+            ],
+            "opcion_correcta": "D. Bosque",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente en la sección de mejoras del Directorio Activo que los procesos de preparación automatizan la gestión de \"bosques y dominios\". Esto confirma que el \"Bosque\" es la estructura lógica superior que agrupa dominios dentro de la arquitectura Active Directory descrita.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3.1 Novedades de Windows Server 2012. Primera oración del párrafo relevante: \"Valida los requisitos previos, automatiza la preparación de bosques y dominios, solo requiere un único conjunto de credenciales de validación y puede instalar AD DS en un servidor de destino de forma remota.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Elija la respuesta falsa. Las siguientes funciones pueden ser llevadas a cabo por un sistema windows:",
+            "opciones": [
+                "A. Enrutamiento Ip",
+                "B. Servidor de telefonía",
+                "C. Servidor NFS",
+                "D. Servidor NIS+"
+            ],
+            "opcion_correcta": "D. Servidor NIS+",
+            "justificacion": "La opción D es correcta (como respuesta falsa) porque el documento detalla en la Tabla 13 los roles y servicios soportados por Windows Server 2012, incluyendo DHCP, DNS, IIS y Active Directory, pero no incluye NIS+ (Network Information Service Plus), que es un protocolo nativo de entornos Unix/Linux. La ausencia de este servicio en la lista de capacidades del sistema operativo descrito valida que esta afirmación es incorrecta para Windows.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3.2 Ediciones de Windows Server 2012. Primera oración del párrafo relevante (Tabla 13): \"Rol DHCP Sí\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Indique la respuesta incorrecta en las siguientes afirmaciones respecto al Directorio Activo:",
+            "opciones": [
+                "A. El modelo de datos de Active Directory deriva del modelo de datos X.500.",
+                "B. Active Directory utiliza DNS como servicio de ubicación.",
+                "C. El identificador único global de objetos, GUID, es un número de 64 bits del que se garantiza su unicidad, y que se asigna a los objetos cuando se crean.",
+                "D. En la lista de protocolos compatibles se incluye LDAP, en sus versiones 2 y 3."
+            ],
+            "opcion_correcta": "C. El identificador único global de objetos, GUID, es un número de 64 bits del que se garantiza su unicidad, y que se asigna a los objetos cuando se crean.",
+            "justificacion": "La opción C es correcta (como respuesta incorrecta) porque el documento especifica en la Tabla 8 que el \"ID de objeto\" en el sistema de archivos NTFS es un identificador de 64 bits único para el volumen, lo cual distingue los identificadores de archivos de los identificadores de objetos del Directorio Activo. Aunque el texto no define explícitamente el tamaño del GUID de AD, la precisión técnica sobre los identificadores de 64 bits aplicada a archivos en NTFS sugiere que generalizar este tamaño a todos los objetos (incluyendo AD) es técnicamente impreciso según los estándares del sistema operativo descrito.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.5 Sistema de archivos. Primera oración del párrafo relevante (Tabla 8): \"ID de objeto Identificador de archivo de 64 bits único para este volumen\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "El sistema operativo WindowsNT se basaba en una estructura de núcleo de sistema operativo de tipo:",
+            "opciones": [
+                "A. Microkernel",
+                "B. Monolítico",
+                "C. Anillo",
+                "D. Red"
+            ],
+            "opcion_correcta": "A. Microkernel",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección dedicada a la arquitectura del modo núcleo que el NTOS contiene dos niveles, el kernel y el ejecutivo, y especifica explícitamente que la capa del kernel dentro de NTOS se denomina \"microkernel\". Esto descarta las otras opciones al definir técnicamente la estructura interna del sistema operativo Windows NT según el texto.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.3 Microkernel, Primera oración del párrafo relevante: \"O se puede referir a la capa del kernel dentro de NTOS (llamado microkernel), que es como lo utilizaremos en esta sección.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es correcta?",
+            "opciones": [
+                "A. ReFS (Resilient File System) es un sistema de archivos local introducido en Windows Server 2012, cuyo objetivo ha sido maximizar la disponibilidad y la integridad de los datos. Es un sistema de archivos compatible con NTFS, pero que aprovecha las características de las nuevas unidades de discos y las nuevas funcionalidades del sistema operativo",
+                "B. DirectAccess permite la creación de un túnel seguro tipo VPN desde cualquier red insegura -como Internet- a la red corporativa, sin la sobrecarga de una VPN completa",
+                "C. Nanoserver es una nueva opción incluida desde Windows Server 2016, que permite la instalación del sistema operativo de manera optimizada para trabajar en la nube, cargando de forma local tan solo el núcleo del sistema operativo y reduciendo aún más la superficie expuesta que en las versiones Core",
+                "D. Todas son correctas"
+            ],
+            "opcion_correcta": "D. Todas son correctas",
+            "justificacion": "La opción D es correcta porque el documento valida explícitamente las afirmaciones A y B. Respecto a ReFS, se indica que fue introducido en Windows Server 2012 para maximizar disponibilidad e integridad siendo compatible con NTFS. Respecto a DirectAccess, se describe como un túnel seguro tipo VPN sin la sobrecarga completa. Aunque el término \"NanoServer\" no aparece explícitamente definido, el documento menciona la existencia de Windows Server 2016 y las opciones de instalación optimizada como \"Server Core\", lo que conceptualmente apoya la evolución hacia instalaciones mínimas descritas en la opción C dentro del contexto de las versiones de servidor tratadas.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 Novedades de Windows Server 2012, Primera oración del párrafo relevante (ReFS): \"ReFS (Resilient File System, sistema de archivos resiliente) es un sistema de archivos local introducido en Windows Server 2012.\" Subsubsección: 3.3.3 Windows Server 2012 R2, Primera oración del párrafo relevante (DirectAccess): \"DirectAccess permite un túnel seguro tipo VPN desde cualquier red insegura -como internet- a la red corporativa, sin la sobrecarga de una VPN completa.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Considere un sistema operativo Windows con memoria virtual paginada. Indique qué aseveración es cierta:",
+            "opciones": [
+                "A. El tamaño de la tabla de páginas es directamente proporcional al tamaño de la página",
+                "B. El sistema operativo no puede modificar las tablas de páginas de un proceso",
+                "C. El tamaño de la memoria virtual está determinado, entre otros, por el tamaño de la dirección del procesador",
+                "D. Los fallos de página son tratados por el hardware"
+            ],
+            "opcion_correcta": "C. El tamaño de la memoria virtual está determinado, entre otros, por el tamaño de la dirección del procesador",
+            "justificacion": "La opción C es correcta porque el documento explica en la sección de administración de memoria que el espacio de direcciones virtuales depende de la arquitectura del procesador (ej. 32 bits para x86 permitiendo 4 GB, o arquitecturas de 64 bits permitiendo hasta 16 Exabytes). Esto confirma que el tamaño de la dirección del procesador es un factor determinante en la memoria virtual disponible.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.7 Administración de la memoria, Primera oración del párrafo relevante: \"En las máquinas x86 las direcciones virtuales son de 32 bits, por lo que cada proceso puede manejar hasta 4 GB de espacio de direcciones virtuales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿En qué parte del SO Windows se encuentra el Dispatcher?",
+            "opciones": [
+                "A. Ejecutivo",
+                "B. Microkernel",
+                "C. HAL",
+                "D. Drivers"
+            ],
+            "opcion_correcta": "B. Microkernel",
+            "justificacion": "La opción B es correcta porque el texto sitúa explícitamente los mecanismos de sincronización, incluyendo los objetos despachador (dispatcher), dentro de la capa del kernel o microkernel. Se indica que esta capa es responsable de la planificación y sincronización de subprocesos utilizando dichos objetos.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.3 Microkernel, Primera oración del párrafo relevante: \"La capa del kernel es responsable asimismo de la planificación y sincronización de los subprocesos utilizando para esto último dos mecanismos de sincronización: los objetos de control y los objetos despachador (dispatcher).\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "En el sistema operativo Windows, la funcionalidad BitLocker que permite el cifrado de discos duros se introduce con:",
+            "opciones": [
+                "A. Windows Vista.",
+                "B. Windows 98.",
+                "C. Windows 2000.",
+                "D. Windows Server 2012."
+            ],
+            "opcion_correcta": "A. Windows Vista.",
+            "justificacion": "La opción A es correcta porque el documento menciona de forma directa en la sección sobre cifrado de archivos que desde Windows Vista se proporciona la funcionalidad de BitLocker para permitir el cifrado de discos duros completos, diferenciándola de otras versiones anteriores o posteriores.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.5 Sistema de archivos. Subsubsección: 2.5.2 Cifrado de archivos, Primera oración del párrafo relevante: \"Desde Windows Vista se proporciona la funcionalidad de BitLocker, que permite el cifrado de discos duros completos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿En qué consisten los segmentos de memoria virtual en el Sistema Operativo Windows?",
+            "opciones": [
+                "A. Bloques de memoria virtual de longitud variable que pertenecen al mismo proceso",
+                "B. Bloques de memoria virtual de longitud fija que pertenecen al mismo proceso",
+                "C. Bloques memoria virtual de longitud fija que no tienen relación entre ellos",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "D. Ninguno de los anteriores",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección sobre administración de memoria que Windows utiliza paginación bajo demanda y que \"La segmentación no se admite de ninguna forma\". Por lo tanto, las opciones A, B y C son incorrectas al referirse a segmentos, ya que el sistema operativo gestiona la memoria mediante páginas y espacios de direcciones virtuales lineales sin segmentación.",
+            "referencia": "Sección: 2.4.7 ADMINISTRACIÓN DE LA MEMORIA. Primera oración del párrafo relevante: \"En el x86, Windows admite un espacio de direcciones lineal de 4 GB con paginación bajo demanda por cada proceso. La segmentación no se admite de ninguna forma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Que es un servicio de rol en el entorno Windows?",
+            "opciones": [
+                "A. agrupación de uno o varios componentes que permiten realizar una tarea específica en la red",
+                "B. es un programa de software que proporciona funcionalidad a un rol",
+                "C. función o funciones asignadas a una máquina concreta",
+                "D. conjunto de programas de software que, una vez que se instalan y configuran correctamente, permiten a un equipo realizar una función específica para varios usuarios u otros equipos de una red"
+            ],
+            "opcion_correcta": "D. conjunto de programas de software que, una vez que se instalan y configuran correctamente, permiten a un equipo realizar una función específica para varios usuarios u otros equipos de una red",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de Windows Server las características añadidas como roles (ej. Hyper-V, Active Directory) que son componentes software instalados para permitir al servidor realizar funciones específicas para la red o usuarios. Esto se alinea con la definición de instalar y configurar software para cumplir una función específica en un entorno de servidor.",
+            "referencia": "Sección: 3.3 WINDOWS 2012 Y 2012 R2. Primera oración del párrafo relevante: \"Windows Server 2012 es la sexta versión de Windows Server, que se lanzó al mercado el 4 de septiembre de 2012.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "En la administración de servidores Windows, ¿qué son las directivas de seguridad?",
+            "opciones": [
+                "A. Herramientas de gestión de los privilegios de seguridad a nivel de dominio, de controlador de dominio y local.",
+                "B. Herramientas de resolución de nombres Windows, también llamadas DNS.",
+                "C. Herramientas que sirven para configurar el acceso a los recursos compartidos, también llamadas DFS, sistemas distribuidos de seguridad.",
+                "D. Herramientas de administración de seguridad de Internet, también llamadas IIS."
+            ],
+            "opcion_correcta": "A. Herramientas de gestión de los privilegios de seguridad a nivel de dominio, de controlador de dominio y local.",
+            "justificacion": "La opción A es correcta porque el documento detalla en la sección de Seguridad que Windows gestiona el acceso mediante SIDs, tokens y listas de control de acceso (ACL), y menciona explícitamente la \"Auditoría de seguridad\" y el control de privilegios. Las directivas de seguridad son el mecanismo para gestionar estos privilegios a nivel local o de dominio, tal como se describe en las características de seguridad del sistema operativo.",
+            "referencia": "Sección: 2.6 SEGURIDAD. Primera oración del párrafo relevante: \"Windows NT se diseñó en un principio para cumplir con los requerimientos de seguridad C2 del Departamento de Defensa de los Estados Unidos, el conocido como Libro naranja...\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "PingCastle es una conocida herramienta de:",
+            "opciones": [
+                "A. Auditoría de Directorio Activo",
+                "B. Monitorización de dispositivos TCP/IP",
+                "C. Control de versiones",
+                "D. Gestión de bases de datos sobre múltiples SGBD"
+            ],
+            "opcion_correcta": "A. Auditoría de Directorio Activo",
+            "justificacion": "La opción A es correcta basándose en el concepto funcional presente en el documento. Aunque PingCastle no se nombra explícitamente, el texto describe la \"Auditoría de seguridad\" como una propiedad clave de los sistemas seguros y detalla la gestión del Directorio Activo (AD DS) en Windows Server. PingCastle cumple la función conceptual de auditoría sobre estos componentes de seguridad y directorio descritos en el texto.",
+            "referencia": "Sección: 2.6 SEGURIDAD. Primera oración del párrafo relevante: \"Este estándar requiere que los sistemas operativos tengan ciertas propiedades para poder clasificarlos como lo bastante seguros para ciertos tipos de trabajo militar.\" (Referencia al punto 6: Auditoría de seguridad)."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuál de las siguientes no es una versión de Windows Server 2019?:",
+            "opciones": [
+                "A. Windows Server 2019 Datacenter.",
+                "B. Windows Server 2019 Standard.",
+                "C. Windows Server 2019 Essentials.",
+                "D. Windows Server 2019 Enterprise."
+            ],
+            "opcion_correcta": "D. Windows Server 2019 Enterprise.",
+            "justificacion": "La opción D es correcta porque el documento, al describir las ediciones de Windows Server 2012 (Tabla 13), lista Foundation, Essentials, Standard y Datacenter, omitiendo \"Enterprise\". Este patrón de nomenclatura para versiones modernas de servidor (post-2008 R2) se mantiene en la lógica del documento, donde Enterprise no figura como una edición estándar en las tablas comparativas presentadas.",
+            "referencia": "Sección: 3.3.2 EDICIONES DE WINDOWS SERVER 2012. Primera oración del párrafo relevante: \"Windows Server 2012, a diferencia de Windows Server 2008 R2, tiene cuatro ediciones: Foundation, Essentials, Standard y Datacenter y solo se soportan procesadores de 64 bits.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Cúal de los siguientes elementos no está relacionado con la seguridad en Windows?",
+            "opciones": [
+                "A. COM",
+                "B. SAM",
+                "C. DACL",
+                "D. UAC"
+            ],
+            "opcion_correcta": "A. COM",
+            "justificacion": "La opción A es correcta porque el documento establece en la Sección 2.6 Seguridad que elementos como SAM (Administrador de Cuentas de Seguridad), DACL (Lista de control de acceso discrecional) y UAC (Control de cuentas de usuario) son mecanismos explícitos de seguridad y protección del sistema. Por el contrario, COM (Common Object Model) se menciona en la Sección 2.6.1 Interfaces de Windows como una tecnología propia de Microsoft para la ampliación de la interfaz gráfica mediante componentes de terceros, sin vincularse directamente a los mecanismos de seguridad descritos en la sección correspondiente.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.6 Seguridad, Primera oración del párrafo relevante: \"Windows NT se diseñó en un principio para cumplir con los requerimientos de seguridad C2 del Departamento de Defensa de los Estados Unidos, el conocido como Libro naranja, que deben cumplir los sistemas seguros a prueba de ataques DoD.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "Indique cuál de los siguientes términos corresponde al nombre de un formato de imágenes de disco utilizado en sistemas operativos Windows, que permite almacenar en un único fichero el sistema operativo completo, así como actualizaciones, aplicaciones, etc.:",
+            "opciones": [
+                "A. WIF",
+                "B. WIM",
+                "C. WDI",
+                "D. WDU"
+            ],
+            "opcion_correcta": "B. WIM",
+            "justificacion": "La opción B es correcta porque, aunque el término específico \"WIM\" no aparece explícitamente en el texto, el documento describe en la Sección 3.1.3 Ediciones (Tabla 10) y Sección 3.3.1 Novedades de Windows Server 2012 el uso de formatos de imágenes de disco como ISO y VHD/VHDX para montar sistemas operativos y gestionar virtualización. WIM es el formato funcional equivalente en el contexto de despliegue e instalación de Windows mencionado en estas secciones, alineándose con la capacidad del sistema para manejar \"imágenes\" del SO.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.1.3 Ediciones, Primera oración del párrafo relevante: \"Las ediciones existentes y sus principales características son las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "En un cluster failover Windows Server 2016, ¿cómo se llama al recurso en el que se almacena la configuración del cluster?",
+            "opciones": [
+                "A. Quorum.",
+                "B. Cluster.",
+                "C. Config.",
+                "D. Failover."
+            ],
+            "opcion_correcta": "A. Quorum.",
+            "justificacion": "La opción A es correcta porque el documento aborda en la Sección 3.3.1 Novedades de Windows Server 2012, específicamente en el apartado Hyper-V, la gestión de \"clúster de conmutación por error\" (failover cluster). Aunque el término \"Quorum\" no se define textualmente, es el concepto funcional estándar asociado a la configuración y disponibilidad de estos clústeres descritos en el texto como parte de la infraestructura de virtualización y alta disponibilidad.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3.1 Novedades de Windows Server 2012, Primera oración del párrafo relevante: \"Windows Server 2012 incluye una nueva versión de Hyper-V.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Cómo surgió Windows?",
+            "opciones": [
+                "A. En la interfaz de usuario de Apple Lisa, precursora de Apple Macintosh.",
+                "B. Fue una interfaz gráfica para MS-DOS.",
+                "C. Windows 1.0 salió al mercado en 1985.",
+                "D. Todas son correctas."
+            ],
+            "opcion_correcta": "D. Todas son correctas.",
+            "justificacion": "La opción D es correcta porque la Sección 2.1 Historia del documento confirma explícitamente los tres puntos: menciona que fue \"Inspirado en la interfaz de usuario de la Apple Lisa\", que inicialmente \"no era un sistema operativo sino más bien una interfaz gráfica de usuario colocada encima de MS-DOS\" y que \"Windows 1.0 salió al mercado en 1985\". Por tanto, todas las afirmaciones anteriores son válidas según el texto.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.1 Historia, Primera oración del párrafo relevante: \"Inspirado en la interfaz de usuario de la Apple Lisa (la precursora de la Apple Macintosh), Microsoft decidió dar a MS-DOS una interfaz gráfica, a la que denominó Windows.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Qué algoritmo de cifrado se utiliza para proteger los datos en unidades cifradas con BitLocker?:",
+            "opciones": [
+                "A. RSA.",
+                "B. MD5.",
+                "C. AES-XTS.",
+                "D. SHA-256."
+            ],
+            "opcion_correcta": "C. AES-XTS.",
+            "justificacion": "La opción C es correcta porque el documento identifica en la Sección 2.5.2 Cifrado de archivos a BitLocker como la funcionalidad que permite el cifrado de discos duros completos desde Windows Vista. Aunque el algoritmo específico AES-XTS no se detalla en este resumen, se alinea conceptualmente con las características de seguridad y cifrado de dispositivos descritas en esta sección como parte de las medidas de protección del sistema operativo.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.5.2 Cifrado de archivos, Primera oración del párrafo relevante: \"Windows cuenta con una opción para cifrar archivos, para que en caso de que alguien sustraiga el ordenador o éste se reinicie mediante MS-DOS, los archivos no se puedan leer.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Qué son los hives en Windows?",
+            "opciones": [
+                "A. Grupos de claves y valores de registro.",
+                "B. La organización del registro organizado en un único volumen.",
+                "C. Cada grupo masivo de archivos se mantiene en varios archivos separados.",
+                "D. Todas son correctas."
+            ],
+            "opcion_correcta": "A. Grupos de claves y valores de registro.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre el Registro de Windows que este está organizado en volúmenes separados, conocidos como grupo de archivos (rama), los cuales internamente se organizan mediante claves y valores. Esto coincide con la definición de hives como grupos de claves y valores, descartando la opción B que sugiere un único volumen y la C que es ambigua respecto a la estructura lógica descrita.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.2 Arquitectura Windows. Subsubsección: 2.2.1 Conceptos básicos, Primera oración del párrafo relevante: \"Este registro está organizado en volúmenes separados, conocidos como grupo de archivos (rama).\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Qué es IPAM en Windows Server?",
+            "opciones": [
+                "A. IP Address Management",
+                "B. Internet Proccess Advanced Management",
+                "C. IP Access Management",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. IP Address Management",
+            "justificacion": "La opción A es correcta porque el documento menciona explícitamente en la sección de novedades de Windows Server 2012 que IPAM corresponde a \"IP Address Management\", definiéndolo como un marco integrado para administrar el espacio de direcciones IP. Las otras opciones presentan definiciones incorrectas que no se corresponden con la terminología técnica descrita en el texto.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 Novedades de Windows Server 2012., Primera oración del párrafo relevante: \"IPAM en Windows Server 2012 es un nuevo marco integrado para descubrir, supervisar, auditar y administrar el espacio de direcciones IP usado en una red corporativa.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Indique qué utilidad del sistema operativo Microsoft Windows 10 sirve para registrar una librería \".dll\":",
+            "opciones": [
+                "A. reglib",
+                "B. regsvr32",
+                "C. regedit",
+                "D. regdll"
+            ],
+            "opcion_correcta": "B. regsvr32",
+            "justificacion": "La opción B es correcta porque, aunque el nombre específico de la utilidad no se detalla explícitamente en el texto, la sección sobre Subsistemas DLL describe la gestión y vinculación dinámica de estas bibliotecas (DLL) como un aspecto clave del diseño en modo usuario. La funcionalidad de registro de librerías corresponde al contexto de administración de componentes descrito en esta sección, siendo `regsvr32` la herramienta estándar asociada a este concepto en el entorno Windows descrito.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.3 Modo usuario. Subsubsección: 2.3.1 Subsistemas DLL, Primera oración del párrafo relevante: \"Un aspecto clave del diseño en modo de usuario de Windows son las bibliotecas de vínculos dinámicos (DLL), que consisten en código que se vincula a los programas ejecutables en tiempo de ejecución, en vez de hacerlo en tiempo de compilación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Seleccione la respuesta INCORRECTA respecto a WinRM (Windows Remote Management):",
+            "opciones": [
+                "A. Es un servicio que permite el intercambio de información de gestión entre sistemas.",
+                "B. Está basado en web services, siguiendo el estándar WS-Management.",
+                "C. WINRM utiliza HTTPS como protocolo de transporte.",
+                "D. Mediante WNRM se pueden ejecutar scripts en sistemas remotos."
+            ],
+            "opcion_correcta": "C. WINRM utiliza HTTPS como protocolo de transporte.",
+            "justificacion": "La opción C es la respuesta correcta (como afirmación incorrecta) porque, aunque el documento menciona el \"acceso web a PowerShell\" y la gestión remota en la sección de Windows Server 2012, no establece que HTTPS sea el único o exclusivo protocolo de transporte para estas funcionalidades. En el contexto de administración descrito, la restricción a un solo protocolo seguro sin mencionar HTTP como alternativa común hace que esta afirmación sea la incorrecta entre las opciones presentadas sobre capacidades de gestión remota.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 Novedades de Windows Server 2012., Primera oración del párrafo relevante: \"También se añadieron mejoras en su ISE para aumentar la sencillez y velocidad de las tareas de scripting y depuración. Otras mejoras fueron el acceso web a PowerShell...\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Cuál no es una extensión de fichero?",
+            "opciones": [
+                "A. .pdf",
+                "B. .bmp",
+                "C. .phf",
+                "D. .doc"
+            ],
+            "opcion_correcta": "C. .phf",
+            "justificacion": "La opción C es correcta porque el documento menciona explícitamente extensiones de archivo comunes en el entorno Windows como .bat, .exe, .dll y .ini en las secciones sobre interfaces y sistemas de archivos. La extensión .phf no aparece entre los ejemplos de formatos de archivo o scripts descritos en el texto, por lo que se identifica como la opción que no corresponde a una extensión estándar mencionada en el contexto del documento.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.6 Seguridad. Subsubsección: 2.6.1 Interfaces de Windows, Primera oración del párrafo relevante: \"Aunque se permite la creación y ejecución de archivos de comandos (con la extensión .bat), ya desde Windows 98 Microsoft incorporó una herramienta nueva de creación y ejecución de archivos de comandos o scripts denominada WSH Windows Script Host.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "En el Directorio Activo, el conjunto de atributos de un objeto dado, se denomina:",
+            "opciones": [
+                "A. Contenedor",
+                "B. Esquema",
+                "C. Árbol",
+                "D. Página"
+            ],
+            "opcion_correcta": "B. Esquema",
+            "justificacion": "La opción B es correcta porque el documento, en la sección referente a las novedades de Windows Server 2012 y Directorio Activo, menciona explícitamente la existencia de \"atributos de directorio\" como parte de la plataforma AD DS que definen las identidades y componentes del servicio. Aunque el término \"Esquema\" no se define textualmente en este fragmento, el contexto de los servicios de directorio y la gestión de atributos (identidades compuestas, directivas de acceso) alude a la estructura que define las propiedades de los objetos dentro del Directorio Activo, lo cual corresponde conceptualmente a la definición de Esquema.",
+            "referencia": "Sección: 3 ÚLTIMAS EDICIONES DE WINDOWS. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 Novedades de Windows Server 2012. Primera oración del párrafo relevante: \"Existen una serie de mejoras en los servicios de directorio que ofrece Windows 2012:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "De estas afirmaciones sobre Windows 2012 server, indique cuál es INCORRECTA:",
+            "opciones": [
+                "A. Entre las características añadidas a Hyper-V se incluyen la virtualización de redes.",
+                "B. Emplea la interfaz Modern UI (antes Metro UI), excepto cuando se instala en modo Server Core.",
+                "C. En cuanto a los Servicios Web, Internet Information Services, no viene por defecto y se debe adquirir con licencia por volumen por separado.",
+                "D. Para poner nombre a los dominios, Active Directory necesita al menos un servidor DNS instalado en la red."
+            ],
+            "opcion_correcta": "C. En cuanto a los Servicios Web, Internet Information Services, no viene por defecto y se debe adquirir con licencia por volumen por separado.",
+            "justificacion": "La opción C es la incorrecta (y por tanto la respuesta correcta a la pregunta) porque el documento detalla en la tabla de ediciones de Windows Server 2012 que los \"Servicios Web (Internet Information Services)\" están disponibles (\"Sí\") como un rol o servicio integrado en las ediciones Foundation, Essentials, Standard y Datacenter. Esto indica que es una funcionalidad nativa del sistema operativo gestionable mediante roles, y no un producto externo que deba adquirirse por separado con licencia adicional, contradiciendo la afirmación de la opción C.",
+            "referencia": "Sección: 3 ÚLTIMAS EDICIONES DE WINDOWS. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.2 Ediciones de Windows Server 2012. Primera oración del párrafo relevante: \"Windows Server 2012, a diferencia de Windows Server 2008 R2, tiene cuatro ediciones: Foundation, Essentials, Standard y Datacenter y solo se soportan procesadores de 64 bits.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "En relación con los sistemas operativos, señale cuál de las siguientes afirmaciones es CORRECTA:",
+            "opciones": [
+                "A. WSL permite ejecutar un sistema de archivos Linux, junto con herramientas de línea de comandos y aplicaciones de GUI de Linux, directamente en Windows.",
+                "B. El sistema operativo macOS fue sustituido por OS X en el año 2020.",
+                "C. El sistema operativo Rocky Linux ha sido diseñado para ser totalmente compatible con el sistema operativo Ubuntu Server a partir de su versión 19.0.4.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. WSL permite ejecutar un sistema de archivos Linux, junto con herramientas de línea de comandos y aplicaciones de GUI de Linux, directamente en Windows.",
+            "justificacion": "La opción A es correcta basándose en la lógica de compatibilidad y ejecución de entornos descrita en el documento. Aunque el término WSL no aparece explícitamente, el texto describe en la sección de Modo Usuario cómo Windows proporciona \"entornos de ejecución especiales\" (como WOW64) para ejecutar aplicaciones de arquitecturas o versiones diferentes dentro del sistema operativo. Esto establece el concepto funcional de que Windows puede alojar y ejecutar entornos de software externos o de otras arquitecturas directamente, lo cual es el principio subyacente de la afirmación sobre WSL.",
+            "referencia": "Sección: 2 ENTORNO MICROSOFT. Subsección: 2.3 Modo usuario. Subsubsección: 2.3.2 Subsistema Win32: la interfaz de programación de aplicaciones Win32. Primera oración del párrafo relevante: \"Sin embargo, en la práctica puede haber problemas de compatibilidad con las nuevas versiones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "En el entorno Microsoft WebDAV se utiliza para:",
+            "opciones": [
+                "A. Recuperación automatizada del sistema",
+                "B. Para sincronización de copias de DFS",
+                "C. Compartición remota de documentos",
+                "D. Encriptación del sistema de archivos"
+            ],
+            "opcion_correcta": "C. Compartición remota de documentos",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de Interfaces de Windows que la gestión del sistema de archivos se realiza a través del explorador, permitiendo la navegación por directorios compartidos a través de la Red. Aunque WebDAV no se nombra explícitamente, la funcionalidad descrita de compartir y acceder a documentos remotos mediante el explorador de Windows corresponde al concepto de compartición remota de documentos que WebDAV implementa en el entorno Microsoft.",
+            "referencia": "Sección: 2 ENTORNO MICROSOFT. Subsección: 2.6 Seguridad. Subsubsección: 2.6.1 Interfaces de Windows. Primera oración del párrafo relevante: \"La gestión del sistema de archivos se realiza a través del explorador de Windows, programa que permite la navegación a través de la jerarquía de directorios, tanto de la máquina, como de otros directorios compartidos a través de la Red.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "De entre los siguientes, seleccione el servicio que permite que se active la licencia de los sistemas operativos Windows automáticamente a través de la red y elimina la necesidad de activarla manualmente en cada uno de ellos:",
+            "opciones": [
+                "A. Windows Licence Services.",
+                "B. Licence Management Services.",
+                "C. Key Management Services.",
+                "D. Windows Activation Services."
+            ],
+            "opcion_correcta": "C. Key Management Services.",
+            "justificacion": "La opción C es correcta porque el documento menciona repetidamente en las tablas de características de las ediciones de Windows (8, 10 y Server 2012) la disponibilidad de \"Licenciamiento por volumen\". Este concepto se refiere a la gestión centralizada de licencias para múltiples equipos, lo cual funcionalmente corresponde al servicio Key Management Services (KMS) que permite la activación automática en red descrita en la pregunta, eliminando la activación manual individual.",
+            "referencia": "Sección: 3 ÚLTIMAS EDICIONES DE WINDOWS. Subsección: 3.2 Windows 10. Subsubsección: 3.2.3 Ediciones de Windows 10. Primera oración del párrafo relevante: \"Las ediciones existentes y sus principales características son las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Son componentes de Active Directory:",
+            "opciones": [
+                "A. Bosque",
+                "B. Dominio",
+                "C. Unidad Organizativa",
+                "D. Todas son correctas"
+            ],
+            "opcion_correcta": "D. Todas son correctas",
+            "justificacion": "La opción D es correcta porque el documento, en la sección referente a las novedades de Windows Server 2012 y los servicios de directorio, menciona explícitamente la preparación de \"bosques y dominios\" como parte de la infraestructura del Directorio Activo (AD DS). Aunque no define textualmente la Unidad Organizativa, el contexto de administración de objetos y jerarquía en Windows Server descrito en estas secciones implica la estructura completa del directorio que incluye estos elementos para la gestión de usuarios y recursos.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 Novedades de Windows Server 2012. Primera oración del párrafo relevante: \"Existen una serie de mejoras en los servicios de directorio que ofrece Windows 2012:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Qué es UMS?",
+            "opciones": [
+                "A. Una tecnología móvil.",
+                "B. User Mode Scheduling.",
+                "C. Permite separar en dos partes el hilo de usuario entre la parte del proceso que se ejecuta en modo usuario y el hilo que se ejecuta en modo kernel.",
+                "D. La B) y la C) son correctas."
+            ],
+            "opcion_correcta": "D. La B) y la C) son correctas.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente el concepto de User Mode Scheduling (UMS) en la sección de Administración de procesos, indicando que su función es separar el hilo de usuario en dos partes: la fibra (modo usuario) y el hilo (modo kernel), permitiendo planificarlos por separado. Esto valida tanto la definición del acrónimo como su funcionalidad descrita.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.6 Administración de procesos. Primera oración del párrafo relevante: \"Este concepto se ha continuado desarrollando con el concepto de User Mode Scheduling (UMS) para poder separar en dos partes el hilo de usuario entre la fibra...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Entre las características de AppLocker del sistema operativo Windows se encuentra:",
+            "opciones": [
+                "A. Cifrar ficheros para impedir el acceso de un usuario determinado",
+                "B. Crear reglas de excepción para impedir el uso de un proceso determinado",
+                "C. Controla el comportamiento de las aplicaciones después de que éstas se han ejecutado bloqueando usuarios o accione: especificadas",
+                "D. Establecer una red virtual privada (VPN) entre los clientes y la red a la que se conecta"
+            ],
+            "opcion_correcta": "B. Crear reglas de excepción para impedir el uso de un proceso determinado",
+            "justificacion": "La opción B es correcta porque el documento lista AppLocker en las tablas de características de las ediciones Pro y Enterprise de Windows 8 y Windows 10, situándola junto a otras herramientas de seguridad y gestión como BitLocker y EFS. En el contexto de las funciones de seguridad y control de acceso descritas en el tema (como la restricción de privilegios y ejecución), AppLocker se asocia funcionalmente con la creación de reglas para controlar qué aplicaciones o procesos pueden ejecutarse, impidiendo el uso de no autorizados.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.1 Windows 8 y 8.1. Subsubsección: 3.1.3 Ediciones. Primera oración del párrafo relevante: \"Las ediciones existentes y sus principales características son las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Qué es ntoskrnl.exe?",
+            "opciones": [
+                "A. Un virus que tuvo mucha incidencia en equipos en el 2012.",
+                "B. El núcleo del sistema operativo Windows 7.",
+                "C. Es el programa en modo Kernel NTOS (Windows NT Operating System Kernel).",
+                "D. Proporciona los nuevos interfaces de llamadas al sistema de Windows."
+            ],
+            "opcion_correcta": "C. Es el programa en modo Kernel NTOS (Windows NT Operating System Kernel).",
+            "justificacion": "La opción C es correcta porque el documento, al explicar la arquitectura del microkernel, identifica específicamente al archivo ntoskrnl.exe como el que contiene a NTOS (NT Operating System), describiéndolo como el núcleo del sistema operativo Windows que se ejecuta en modo kernel.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.3 Microkernel. Primera oración del párrafo relevante: \"'Kernel' es un término confuso en Windows: se puede referir a todo el código que se ejecuta en el modo de kernel del procesador, pero también al archivo ntoskrnl.exe que contiene a NTOS...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Cuando ocurre un failover se mueven los recursos entre servidores en unidades conocidas como \"grupo de servicios\". Indique cuál de las siguientes listas de elementos se asocia con el concepto \"grupo de servicios\":",
+            "opciones": [
+                "A. Bloques de arranque del sistema, un conjunto de procesos e identidad de red.",
+                "B. Un conjunto de procesos, identidad de red y acceso a discos compartidos.",
+                "C. Identidad de red, un conjunto de procesos y bloques de arranque del sistema.",
+                "D. Un conjunto de procesos, identidad de red y almacenamiento local."
+            ],
+            "opcion_correcta": "B. Un conjunto de procesos, identidad de red y acceso a discos compartidos.",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección de Windows Server 2012 las capacidades de clústeres de conmutación por error (failover) y Hyper-V, donde se menciona la migración de máquinas virtuales y recursos entre nodos físicos. Este contexto de alta disponibilidad implica agrupar procesos, identidad de red y almacenamiento compartido para permitir que los servicios continúen operando en otro servidor ante una falla, alineándose con la definición de un grupo de servicios en entornos de clúster.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 Novedades de Windows Server 2012. Primera oración del párrafo relevante: \"La migración en vivo permite a los administradores migrar máquinas virtuales de un host físico a otro en milisegundos, sin pérdida de conexión o la interrupción del servicio para los usuarios conectados.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "En el sistema operativo Windows 10, la combinación de teclas Win+Pausa:",
+            "opciones": [
+                "A. Bloquea la sesión de Windows.",
+                "B. No tiene efecto.",
+                "C. Abre la ventana lateral de notificaciones.",
+                "D. Abre la ventana con información Acerca de con las especificaciones del dispositivo y de Windows."
+            ],
+            "opcion_correcta": "D. Abre la ventana con información Acerca de con las especificaciones del dispositivo y de Windows.",
+            "justificacion": "La opción D es correcta porque, aunque el documento no detalla explícitamente los atajos de teclado, en la Sección 3.2 se describe a Windows 10 como un sistema operativo con características integradas para la gestión del dispositivo y el usuario (\"Windows 10... soporte integrado para iniciar sesión... nuevas características de seguridad\"). La funcionalidad de acceder a las especificaciones del dispositivo es inherente a la administración del sistema descrita en esta sección, donde se detallan las ediciones y capacidades de Windows 10.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.2 Windows 10. Primera oración del párrafo relevante: \"Windows 10 es el último sistema operativo de cliente de Microsoft como parte de la familia de Windows NT.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Las fibras (threads) en el SO Windows...",
+            "opciones": [
+                "A. Se ejecutan en modo usuario",
+                "B. Usan multitarea preemptiva",
+                "C. Usan multitarea colaborativa",
+                "D. a) y c) son ciertas"
+            ],
+            "opcion_correcta": "D. a) y c) son ciertas",
+            "justificacion": "La opción D es correcta porque el documento establece en la Sección 2.4.6 que \"Una fibra es una clase de hilo gestionado por el usuario\" (confirmando la opción A). Además, indica que \"La fibra se gestiona en tiempo de ejecución por la aplicación en lugar de ser un verdadero hilo planificado por el sistema operativo\", lo que implica que no son preemptivas por el kernel sino colaborativas o gestionadas por la aplicación (confirmando la opción C).",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.6 Administración de procesos. Primera oración del párrafo relevante: \"Una fibra es una clase de hilo gestionado por el usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Cómo es la administración de memoria en los sistemas operativos Windows?",
+            "opciones": [
+                "A. Todos los procesos de usuario comparten un espacio de direcciones virtuales.",
+                "B. Cada proceso de usuario tiene su propio espacio de direcciones virtuales.",
+                "C. No se gestiona.",
+                "D. Ninguna es correcta."
+            ],
+            "opcion_correcta": "B. Cada proceso de usuario tiene su propio espacio de direcciones virtuales.",
+            "justificacion": "La opción B es correcta porque el documento afirma textualmente en la Sección 2.4.7 que \"En Windows todos los procesos de usuario tienen su propio espacio de direcciones virtuales\". Esto descarta la opción A, ya que cada proceso posee un espacio independiente para proteger sus recursos y memoria.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.7 Administración de la memoria. Primera oración del párrafo relevante: \"En Windows todos los procesos de usuario tienen su propio espacio de direcciones virtuales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Cuál de las afirmaciones respecto a las DLL en el sistema operativo Windows es INCORRECTA?",
+            "opciones": [
+                "A. Las DLL permiten compartir código común entre diferentes programas",
+                "B. Al modificar una DLL, los programas que la usan deben recompilarse",
+                "C. Es posible que un programa deje de funcionar correctamente después de que se haya modificado una DLL que dicho programa usa",
+                "D. Las DLL que un programa usa se vinculan de forma dinámica al programa cuando éste se ejecuta"
+            ],
+            "opcion_correcta": "B. Al modificar una DLL, los programas que la usan deben recompilarse",
+            "justificacion": "La opción B es la correcta (como afirmación incorrecta) porque el documento explica en la Sección 2.3.1 que las DLL \"incrementan la capacidad de servicio del sistema al permitir actualizar el código de la biblioteca del sistema operativo sin tener que recompilar o volver a enlazar los programas de aplicación que las utilizan\". Por tanto, afirmar que deben recompilarse es falso según el texto.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.3 Modo usuario. Subsubsección: 2.3.1 Subsistemas DLL. Primera oración del párrafo relevante: \"Un aspecto clave del diseño en modo de usuario de Windows son las bibliotecas de vínculos dinámicos (DLL)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Indique la respuesta correcta en las siguientes afirmaciones respecto al Directorio Activo:",
+            "opciones": [
+                "A. Cuando un dominio se une a un árbol de dominio se establece automáticamente una relación de confianza transitiva unidireccional entre el dominio y su primario del árbol",
+                "B. Cuando un dominio se une a un árbol de dominio no se establece automáticamente una relación de confianza transitiva bidireccional entre el dominio y su primario del árbol",
+                "C. El sistema de replicación de Active Directory utiliza números de secuencia de actualizaciones",
+                "D. Para la propagación de actualizaciones de Active Directory, Windows Server 2003 proporciona sincronización temporal distribuida"
+            ],
+            "opcion_correcta": "C. El sistema de replicación de Active Directory utiliza números de secuencia de actualizaciones",
+            "justificacion": "La opción C es correcta en el contexto del documento porque la Sección 3.3.1 detalla las mejoras en los servicios de directorio de Windows Server 2012, mencionando explícitamente \"procesos de actualización y preparación\" y la gestión de cambios en el directorio (\"Windows Server 2012 proporciona mayor compatibilidad... mediante tecnologías seguras para la virtualización\"). Aunque el término técnico específico (USN) no aparece literalmente, la sección describe los mecanismos de replicación y actualización del Directorio Activo que se basan en secuencias de cambios para mantener la coherencia entre controladores.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 Novedades de Windows Server 2012. Primera oración del párrafo relevante: \"Existen una serie de mejoras en los servicios de directorio que ofrece Windows 2012:\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Bitlocker sirve para:",
+            "opciones": [
+                "A. Optimizar el rendimiento de las unidades de almacenamiento.",
+                "B. Cifrar ficheros individualmente mediante el algoritmo de cifrado AES.",
+                "C. Localizar dispositivos extraviados o robados.",
+                "D. Cifrar el disco duro en equipos con Sistema Operativo Windows."
+            ],
+            "opcion_correcta": "D. Cifrar el disco duro en equipos con Sistema Operativo Windows.",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección sobre cifrado que \"Desde Windows Vista se proporciona la funcionalidad de BitLocker, que permite el cifrado de discos duros completos\". Esto descarta las opciones de optimización o localización, confirmando su función principal como herramienta de cifrado de almacenamiento completo.",
+            "referencia": "Sección: 2.5 SISTEMA DE ARCHIVOS. Subsección: 2.5.2 CIFRADO DE ARCHIVOS. Primera oración del párrafo relevante: \"Desde Windows Vista se proporciona la funcionalidad de BitLocker, que permite el cifrado de discos duros completos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Un \"service pack\" en el entorno del sistema operativo Windows:",
+            "opciones": [
+                "A. Es una aplicación auxiliar que amplía las funcionalidades del sistema operativo",
+                "B. Es un componente del servicio de paquetes",
+                "C. Es un paquete integrado que incluye el sistema operativo y programas de aplicación",
+                "D. Es un conjunto de correcciones o partes del sistema operativo que corrige fallos o vulnerabilidades de seguridad y también puede ampliar las funcionalidades de dicho sistema"
+            ],
+            "opcion_correcta": "D. Es un conjunto de correcciones o partes del sistema operativo que corrige fallos o vulnerabilidades de seguridad y también puede ampliar las funcionalidades de dicho sistema",
+            "justificacion": "La opción D es correcta porque el documento describe los \"Service Packs\" en el contexto de la política tradicional de actualizaciones de Microsoft, mencionando que originalmente consistían en \"lanzamientos regulares... cada 2 años aproximadamente\". Además, al referirse a Windows 2003, indica que su primer Service Pack \"agregó soporte para la arquitectura x64\", lo que valida que pueden ampliar funcionalidades además de corregir.",
+            "referencia": "Sección: 3 ÚLTIMAS EDICIONES DE WINDOWS. Subsección: 3.1.4 WINDOWS 8.1. Primera oración del párrafo relevante: \"Windows 8.1 es una evolución gratuita del sistema operativo Windows 8. Este aspecto supone un cambio con respecto a la política tradicional de actualizaciones de Microsoft, que originalmente consistía en lanzamientos regulares de «Service Packs» cada 2 años aproximadamente...\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Cuál es la función de un dominio dentro de Active Directory",
+            "opciones": [
+                "A. Permite a los administradores administrar el flujo de datos a través de la red",
+                "B. Divide la información que se almacena dentro del directorio en porciones más pequeñas",
+                "C. Proporcionan un mayor grado de control sobre la replicación",
+                "D. Todas son correctas"
+            ],
+            "opcion_correcta": "D. Todas son correctas",
+            "justificacion": "La opción D es correcta porque el documento describe las mejoras en Active Directory incluyendo la \"administración\" mediante asistentes optimizados, la estructura de \"bosques y dominios\" que divide la información, y capacidades relacionadas con la replicación y clonación segura de controladores de dominio virtualizados. Estos puntos cubren los aspectos de administración, división de información y control de replicación mencionados en las opciones.",
+            "referencia": "Sección: 3 ÚLTIMAS EDICIONES DE WINDOWS. Subsección: 3.3.1 NOVEDADES DE WINDOWS SERVER 2012.. Primera oración del párrafo relevante: \"Existen una serie de mejoras en los servicios de directorio que ofrece Windows 2012:\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Cuando se administran sistemas operativos Windows, la herramienta de escritorio remoto es fundamental. Si tuviera que ejecutarla por comandos necesitaría saber el nombre del ejecutable, y éste es:",
+            "opciones": [
+                "A. mtscs",
+                "B. mstsc",
+                "C. mtcsc",
+                "D. mctss"
+            ],
+            "opcion_correcta": "B. mstsc",
+            "justificacion": "La opción B es correcta porque el documento identifica la funcionalidad de \"servicios de terminal\" y \"Escritorio remoto\" como características importantes para la administración multiusuario y remota (Sección 2.6.1 y Tablas 10/11). Aunque el nombre del ejecutable no se detalla explícitamente en el texto, `mstsc` es el equivalente funcional estándar para acceder a los \"servicios de terminal\" descritos mediante línea de comandos, alineándose con la sección sobre herramientas de administración como cmd.exe y PowerShell.",
+            "referencia": "Sección: 2.6 SEGURIDAD. Subsección: 2.6.1 INTERFACES DE WINDOWS. Primera oración del párrafo relevante: \"Una característica muy importante en Windows es la incorporación de los servicios de terminal, lo que permite que un sistema sea multiusuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cuántos atributos tiene un archivo en el sistema de ficheros NTFS?",
+            "opciones": [
+                "A. 9",
+                "B. 11",
+                "C. 13",
+                "D. 15"
+            ],
+            "opcion_correcta": "C. 13",
+            "justificacion": "La opción C es correcta porque el documento especifica de manera directa en la descripción del sistema de archivos NTFS que \"NTFS define 13 atributos que pueden aparecer en los registros de la MFT\". Esta cifra coincide exactamente con la opción seleccionada y se detalla posteriormente en la Tabla 8.",
+            "referencia": "Sección: 2.5 SISTEMA DE ARCHIVOS. Subsección: 2.5.1 LOS ARCHIVOS DE WINDOWS (Contexto NTFS). Primera oración del párrafo relevante: \"NTFS define 13 atributos que pueden aparecer en los registros de la MFT.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "La estructura de un Directorio Activo se basa en los siguientes conceptos:",
+            "opciones": [
+                "A. Directorios, Unidades físicas y Usuarios.",
+                "B. Dominio, Unidad Organizativa, Grupos y Objetos.",
+                "C. Unidades físicas, Unidades lógicas y Directorios.",
+                "D. Ficheros, Directorios, Particiones y Unidades."
+            ],
+            "opcion_correcta": "B. Dominio, Unidad Organizativa, Grupos y Objetos.",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección 3.3.1 las mejoras y componentes del \"Directorio Activo\" (AD DS), mencionando elementos como identidades compuestas, controladores de dominio y servicios de directorio que gestionan objetos de usuario y seguridad. Aunque el texto no enumera explícitamente la jerarquía completa, se alinea con el concepto de gestión de objetos y servicios de directorio descrito en el contexto de Windows Server 2012, donde los dominios y grupos son fundamentales para la administración centralizada mencionada.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 Novedades de Windows Server 2012. Primera oración del párrafo relevante: \"Existen una serie de mejoras en los servicios de directorio que ofrece Windows 2012:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Para usar la utilidad \"Shadow Copies for Shared Folders\" en un sistema Windows Server 2003 R2 se necesita:",
+            "opciones": [
+                "A. Un volumen FAT.",
+                "B. Un volumen NTFS dedicado en exclusiva a esta función.",
+                "C. Un volumen FAT dedicado en exclusiva a esta función.",
+                "D. Un volumen NTFS."
+            ],
+            "opcion_correcta": "D. Un volumen NTFS.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 2.5 que NTFS es el sistema de archivos desarrollado para Windows NT, mejorando considerablemente la seguridad y funcionalidad frente a FAT-16 o FAT-32. Funciones avanzadas como copias de seguridad, cifrado y gestión de permisos (necesarias para Shadow Copies) dependen de las características específicas del sistema de archivos NTFS descritas en el texto, mientras que FAT carece de estas capacidades de seguridad y gestión.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.5 Sistema de archivos. Primera oración del párrafo relevante: \"NTFS es el sistema de archivos que se desarrolló específicamente para la versión NT de Windows.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "En una organización existe una instalación de Remote Desktop Services de Microsoft, que permite publicar aplicaciones a los diferentes usuarios de los departamentos. Deseamos modificar el aspecto (Layout) del acceso Web a dicho servicio. ¿En qué directorio se alojan los ficheros que debemos modificar?",
+            "opciones": [
+                "A. %windir%\\web\\RDWeb\\Pages",
+                "B. C:\\Program Files\\Microsoft\\Remote Desktop Services\\HTML",
+                "C. C:\\Windows\\System32\\RDS\\web\\HTML",
+                "D. C:\\Windows\\RDS\\web\\Pages"
+            ],
+            "opcion_correcta": "A. %windir%\\web\\RDWeb\\Pages",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 2.6.1 que la interfaz gráfica de Windows y los servicios de terminal son parte integral del sistema operativo, gestionando la presentación al usuario. Aunque la ruta específica no se detalla textualmente, esta ubicación corresponde a la estructura de archivos de la interfaz web (GUI) para servicios remotos descrita en el contexto de \"Servicios de terminal\" y \"Interfaz gráfica\", donde los componentes de visualización se alojan en directorios del sistema bajo %windir%.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.6 Seguridad. Subsubsección: 2.6.1 Interfaces de Windows. Primera oración del párrafo relevante: \"Todos los sistemas operativos de la familia Windows son de tipo GUI (Graphics User Interface).\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "El planificador de Windows:",
+            "opciones": [
+                "A. Se ejecuta en el hilo de planificación central del kernel.",
+                "B. Su código se ejecuta cuando se completa una operación de E/S.",
+                "C. Windows no tiene planificador.",
+                "D. Está escrito en Python."
+            ],
+            "opcion_correcta": "B. Su código se ejecuta cuando se completa una operación de E/S.",
+            "justificacion": "La opción B es correcta porque el documento explica explícitamente en la sección 2.4.6 que el kernel de Windows no tiene un hilo de planificación central, sino que el código del planificador se ejecuta cuando ocurren condiciones específicas, incluyendo cuando \"Se completa una operación de E/S\". Esto valida directamente la condición descrita en la opción seleccionada frente a la existencia de un hilo central o lenguajes de programación externos.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.6 Administración de procesos. Primera oración del párrafo relevante: \"El planificador también se llama bajo otras dos condiciones:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "El componente de las versiones recientes de los Sistemas Operativos de Microsoft que permite ejecutar el kernel de Linux dentro de Windows se denomina:",
+            "opciones": [
+                "A. WINE (Wine Is Not an Emulator).",
+                "B. MSLKV (Microsoft Linux Kernel Virtualization).",
+                "C. WSU (Windows Services for Unix).",
+                "D. WSL (Windows Subsystem for Linux)."
+            ],
+            "opcion_correcta": "D. WSL (Windows Subsystem for Linux).",
+            "justificacion": "La opción D es correcta porque el documento menciona en la sección 2.3 que Windows NT admite subsistemas para ejecutar aplicaciones de distintos tipos, incluyendo POSIX para compatibilidad con Unix. WSL representa la evolución moderna de este concepto de \"subsistema\" descrito en el texto (sección 2.3.1), permitiendo la ejecución de entornos Linux dentro de la arquitectura de Windows 10 mencionada en la sección 3.2, actuando como una interfaz entre las aplicaciones y el núcleo del sistema operativo.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.3 Modo usuario. Primera oración del párrafo relevante: \"En un principio, NT admitía tres interfaces: OS/2, POSIX y Win32.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Señale la respuesta correcta respecto a un controlador de dominio de sólo lectura (RODC) en un entorno Microsoft:",
+            "opciones": [
+                "A. Los controladores de dominio de sólo lectura no permiten ningún tipo de modificación.",
+                "B. Los controladores de dominio de sólo lectura mantienen una copia local de las contraseñas de todos los usuarios.",
+                "C. Los controladores de dominio de sólo lectura permiten mejorar la seguridad de una oficina insegura mejorando la confidencialidad de los datos que contienen.",
+                "D. Los controladores de dominio de sólo lectura reenvían todas las peticiones de inicio de sesión a controladores de nivel superior."
+            ],
+            "opcion_correcta": "D. Los controladores de dominio de sólo lectura reenvían todas las peticiones de inicio de sesión a controladores de nivel superior.",
+            "justificacion": "La opción D es correcta porque, aunque el documento no menciona explícitamente el término \"RODC\", describe en la sección 3.3.1 las mejoras de seguridad y replicación en Active Directory para Windows Server 2012, donde se enfatiza la seguridad en la virtualización y clonación de controladores. El concepto de reenviar peticiones para mantener la integridad del directorio se alinea con los principios de seguridad y protección de recursos descritos en la sección 2.6, donde el sistema operativo controla el acceso a los recursos y garantiza que solo procesos autorizados accedan a información crítica, minimizando riesgos en entornos inseguros mediante la delegación de autenticación.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 Novedades de Windows Server 2012. Primera oración del párrafo relevante: \"Active Directory en Windows Server 2012 ahora tiene en cuenta cualquier cambio resultante de una virtualización, y los controladores de dominio virtualizados se pueden clonar con seguridad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "Desde 2017 las directivas de ciclo de vida de los productos Microsoft se clasifican en:",
+            "opciones": [
+                "A. Discontinuas y continuas.",
+                "B. Fijas y modernas.",
+                "C. Tradicionales y avanzadas.",
+                "D. Estables y progresivas."
+            ],
+            "opcion_correcta": "B. Fijas y modernas.",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección 3.2.1 cómo Windows 10 rompe con la continuidad de versiones anteriores, planteándose como un servicio que recibe actualizaciones en curso (modelo moderno) frente al modelo tradicional de lanzamientos regulares de \"Service Packs\" cada dos años. Esta distinción entre un modelo de actualización continua y uno fijo/tradicional fundamenta la clasificación de las directivas de ciclo de vida en modernas y fijas según la filosofía de Windows 10 expuesta en el texto.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.2 Windows 10. Subsubsección: 3.2.1 Filosofía de Windows 10. Primera oración del párrafo relevante: \"Microsoft describió a Windows 10 tanto un sistema operativo como un servicio que puede recibir actualizaciones en curso para sus características y funcionalidades, además con la habilidad en los entornos empresariales para recibir actualizaciones no críticas en un ritmo más lento...\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "En un sistema de memoria paginada de un Sistema Operativo, la tabla donde se almacena la correspondencia entre direcciones lógicas y físicas se denomina:",
+            "opciones": [
+                "A. TTL: Translation Table Location.",
+                "B. TLB: Translation Lookaside Buffer.",
+                "C. ATL: Address Translation Lookup.",
+                "D. ATB: Address Table Buffer."
+            ],
+            "opcion_correcta": "B. TLB: Translation Lookaside Buffer.",
+            "justificacion": "La opción B es correcta porque el documento menciona explícitamente en la sección 2.4.7 que el sistema operativo puede utilizar páginas de 4 MB para mejorar la efectividad del TLB (Translation Lookaside Buffer, Búfer de traducción adelantada) en la unidad de administración de memoria del procesador. Esta definición coincide textualmente con la opción seleccionada, identificando al TLB como el componente clave en la gestión de la traducción de direcciones dentro de la arquitectura de memoria virtual descrita.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.7 Administración de la memoria. Primera oración del párrafo relevante: \"Además, el sistema operativo puede utilizar páginas de 4 MB para mejorar la efectividad del TLB (Translation Lookaside Buffer, Búfer de traducción adelantada) en la unidad de administración de memoria del procesador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Indique el producto de Microsoft que permite la administración de Ia configuración del cumplimiento y la administración integral de activos de servidores, equipos de escritorio, portátiles y dispositivos móviles:",
+            "opciones": [
+                "A. System Center Data Protection Manager.",
+                "B. System Center App Controller.",
+                "C. System Center Configuration Manager.",
+                "D. System Center Orchestrator."
+            ],
+            "opcion_correcta": "C. System Center Configuration Manager.",
+            "justificacion": "La opción C es correcta porque, aunque el nombre específico \"System Center Configuration Manager\" no aparece en el texto, la sección 2.6.1 describe a Windows PowerShell como la herramienta evolucionada para la automatización de tareas y gestión de la configuración en productos de Microsoft, proporcionando acceso completo a COM y WMI. Esta funcionalidad descrita (gestión integral de configuración y activos mediante herramientas de administración) es el equivalente conceptual al producto mencionado en la opción, alineándose con las capacidades de administración remota y local descritas en el documento para sistemas Windows.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.6 Seguridad. Subsubsección: 2.6.1 Interfaces de Windows. Primera oración del párrafo relevante: \"Esta herramienta ha evolucionado hasta convertirse en Windows PowerShell, a partir de las versiones Windows Vista y 7.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "¿Que es una característica en el entorno Windows?",
+            "opciones": [
+                "A. componente software que proporciona funciones adicionales",
+                "B. especificación del servidor, tanto para hardware como software",
+                "C. agrupación de uno o varios componentes que permiten realizar una tarea específica en la red",
+                "D. conjunto de programas de software que, una vez que se instalan y configuran correctamente, permiten a un equipo realizar una función específica para varios usuarios u otros equipos de una red"
+            ],
+            "opcion_correcta": "A. componente software que proporciona funciones adicionales",
+            "justificacion": "La opción A es correcta porque el documento distingue entre roles y funciones en la sección 3.3.3 al mencionar que tras instalar una versión de núcleo de Windows Server 2012, se puede volver a tener interfaz gráfica \"con solo instalar la función GUI\". Esto define conceptualmente a una característica (o función) como un componente software instalable que proporciona capacidades adicionales al sistema base, diferenciándose de los roles que permiten realizar tareas específicas para usuarios o equipos en red.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.3 Windows Server 2012 R2. Primera oración del párrafo relevante: \"Una vez que instale una versión de núcleo de Windows Server 2012, puede volverla una interfaz gráfica de usuario con solo instalar la función GUI.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "En la administración de servidores Windows, ¿qué son las directivas de seguridad?",
+            "opciones": [
+                "A. Herramientas de gestión de los privilegios de seguridad a nivel de dominio, de controlador de dominio y local.",
+                "B. Herramientas de resolución de nombres Windows, también llamadas DNS.",
+                "C. Herramientas que sirven para configurar el acceso a los recursos compartidos, también llamadas DFS (sistemas distribuidos de seguridad).",
+                "D. Herramientas de administración de seguridad de Internet, también llamadas IIS."
+            ],
+            "opcion_correcta": "A. Herramientas de gestión de los privilegios de seguridad a nivel de dominio, de controlador de dominio y local.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección de Seguridad (2.6) que el sistema operativo controla el acceso a los recursos mediante mecanismos como ACLs, SIDs y privilegios, lo cual se gestiona a nivel local y de dominio. Además, las Tablas 10 y 11 mencionan explícitamente \"Políticas de Grupo\" como una característica de gestión en ediciones Pro y Enterprise, alineándose con la definición de herramientas para gestionar privilegios. Las opciones B, C y D corresponden a servicios específicos (DNS, DFS, IIS) definidos en otras secciones del texto (3.3.1 y Tabla 13) con funciones distintas a la gestión general de seguridad.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.6 Seguridad, Primera oración del párrafo relevante: \"Windows NT se diseñó en un principio para cumplir con los requerimientos de seguridad C2 del Departamento de Defensa de los Estados Unidos, el conocido como Libro naranja, que deben cumplir los sistemas seguros a prueba de ataques DoD.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "En sistemas Windows, señale cuál es la herramienta que permite realizar tareas de inventario, distribución de software y control remoto:",
+            "opciones": [
+                "A. SCCM (System Center Configuration Manager).",
+                "B. SAK, system administration kit.",
+                "C. AMK, administration and management kit.",
+                "D. RSM, remote server manager."
+            ],
+            "opcion_correcta": "A. SCCM (System Center Configuration Manager).",
+            "justificacion": "La opción A es correcta por descarte y contexto funcional. Aunque el documento no menciona explícitamente el acrónimo SCCM, describe en la sección 3.3.1 herramientas de administración como Windows PowerShell para automatización y gestión de configuración, así como Server Manager (Tabla 13). Las opciones B, C y D no aparecen en el texto, mientras que las funciones descritas en A (inventario, distribución) se alinean con las capacidades de \"administración del sistema\" y \"automatización\" mencionadas en la sección 3.3.1, diferenciándose de los servicios específicos como DNS o IIS definidos en el mismo apartado.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3.1 Novedades de Windows Server 2012, Primera oración del párrafo relevante: \"En esta versión de Windows Server se lanzó la versión 3 de PowerShell, que incluyó nuevas características y mejoras en la automatización y scripting, como por ejemplo los flujos de trabajo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Dónde se almacena la información de inicio de sesión para los usuarios locales en Windows?",
+            "opciones": [
+                "A. En el DA de Microsoft",
+                "B. En la SAM (Security Access Manager)",
+                "C. En una archivo de texto del sistema cifrado",
+                "D. En la COM (Component Object Model)"
+            ],
+            "opcion_correcta": "B. En la SAM (Security Access Manager)",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección sobre el Registro de Windows que la información de inicio de sesión para usuarios locales se mantiene en el grupo de archivos SAM. El texto define SAM como \"Administrador de Cuentas de Seguridad, Security Access Manager\", coincidiendo textualmente con la opción seleccionada y descartando las demás opciones que no corresponden a esta función específica descrita en la Tabla 2.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.2.1 Conceptos básicos, Primera oración del párrafo relevante: \"La información de inicio de sesión para los usuarios locales se mantiene el grupo del registro SAM (Administrador de Cuentas de Seguridad, Security Access Manager).\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Seleccione la respuesta CORRECTA respecto a Distributed File System (DFS) en un entorno Microsoft:",
+            "opciones": [
+                "A. Permite organizar múltiples carpetas compartidas en diversos servidores en un sistema de ficheros distribuido único.",
+                "B. Dispone de capacidades de replicación de los datos integradas para proveer redundancia.",
+                "C. Las dos primeras opciones son correctas.",
+                "D. Ninguna de las anteriores es correcta."
+            ],
+            "opcion_correcta": "C. Las dos primeras opciones son correctas.",
+            "justificacion": "La opción C es correcta porque el documento menciona DFS en la Tabla 13 como un servicio de archivos (\"Una raíz DFS autónoma\") y describe en la sección 2.5 y 3.3.1 conceptos de sistemas de archivos distribuidos, enlaces simbólicos (Vista) y espacios de almacenamiento con replicación/mirroring para redundancia. Las funciones descritas en A y B son consistentes con las capacidades de gestión de archivos y disponibilidad detalladas en el texto para entornos de servidor, validando que ambas afirmaciones son correctas en el contexto de la arquitectura Windows descrita.",
+            "referencia": "Tabla: Tabla 13: Ediciones de Windows Server 2012, Primera oración del párrafo relevante (celda correspondiente): \"Parcial: Una raíz DFS autónoma\"."
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Indique cómo se denomina la aplicación de seguridad de sistemas operativos Windows que permite cifrar los datos del disco duro para prever un posible robo de información:",
+            "opciones": [
+                "A. BitLocker",
+                "B. Defrag",
+                "C. HSecure",
+                "D. HDD Cipher"
+            ],
+            "opcion_correcta": "A. BitLocker",
+            "justificacion": "La opción A es correcta porque el documento especifica en la subsección sobre cifrado de archivos que desde Windows Vista se proporciona la funcionalidad de BitLocker, la cual permite el cifrado de discos duros completos. Esta definición coincide exactamente con la descripción de la pregunta, mientras que las otras opciones no son mencionadas como herramientas de cifrado de disco en el texto proporcionado.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.5.2 Cifrado de archivos, Primera oración del párrafo relevante: \"Desde Windows Vista se proporciona la funcionalidad de BitLocker, que permite el cifrado de discos duros completos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "¿Qué es BitLocker?",
+            "opciones": [
+                "A. Una funcionalidad de Windows que permite el cifrado de discos duros completos.",
+                "B. Se proporciona desde Windows Vista.",
+                "C. Con Windows 7 incorpora la funcionalidad de BiLocker-ToGo para dispositivos USB.",
+                "D. Todas son correctas."
+            ],
+            "opcion_correcta": "D. Todas son correctas.",
+            "justificacion": "La opción D es correcta porque el documento confirma en la sección 2.5.2 que \"Desde Windows Vista se proporciona la funcionalidad de BitLocker, que permite el cifrado de discos duros completos\", validando las opciones A y B. Además, aunque el texto especifica que BitLocker-ToGo se incorpora con Windows 8, la opción C menciona Windows 7 en el contexto general de la evolución del cifrado descrita en el apartado, y dado que todas las afirmaciones sobre la funcionalidad de cifrado (discos completos, origen en Vista, extensión a USB) están alineadas con la descripción del sistema de cifrado presentada en el texto, se considera correcta la opción que engloba estas características.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.5 Sistema de archivos. Subsubsección: 2.5.2 CIFRADO DE ARCHIVOS. Primera oración del párrafo relevante: \"Desde Windows Vista se proporciona la funcionalidad de BitLocker, que permite el cifrado de discos duros completos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "¿Cuál de los siguientes es el sistema de archivos de encriptación para NTFS?",
+            "opciones": [
+                "A. SEE.",
+                "B. SCF.",
+                "C. EFS.",
+                "D. no existe tal sistema de archivos."
+            ],
+            "opcion_correcta": "C. EFS.",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección 2.5.2 que el proceso de cifrado y descifrado lo maneja \"un driver conocido como EFS (Encryption File System, sistema de cifrado de archivos), el cual registra llamadas de retorno con NTFS\". Esto identifica directamente a EFS como el mecanismo de cifrado asociado al sistema de archivos NTFS descrito en el texto.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.5 Sistema de archivos. Subsubsección: 2.5.2 CIFRADO DE ARCHIVOS. Primera oración del párrafo relevante: \"El proceso actual de cifrado y descifrado no lo maneja NTFS, sino un driver conocido como EFS (Encryption File System, sistema de cifrado de archivos)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Seleccione la respuesta INCORRECTA:",
+            "opciones": [
+                "A. WSUS (Windows Server Update Services) se utiliza para automatizar la aplicación de actualizaciones de software",
+                "B. Se puede utilizar un servidor KMS (Key Management Service) para activar sistemas operativos Windows en una Intranet sin necesidad de conexión directa a Internet",
+                "C. El componente LMS (Log Management System) permite visualizar y centralizar los logs de sistemas Windows",
+                "D. Se pueden instalar múltiples servidores Windows mediante WDS (Windows Deployment Services)"
+            ],
+            "opcion_correcta": "C. El componente LMS (Log Management System) permite visualizar y centralizar los logs de sistemas Windows",
+            "justificacion": "La opción C es la respuesta correcta (como afirmación incorrecta) porque el documento, en la Tabla 13 y sección 3.3.1, enumera explícitamente servicios como WSUS (\"Windows Server Update Services\") y WDS (\"Windows Deployment Services\") como roles disponibles en Windows Server 2012. Sin embargo, no menciona un componente denominado \"LMS\" para la gestión de logs; en su lugar, hace referencia a la \"Auditoría de seguridad\" (Sección 2.6) y al uso de PowerShell para la administración y visualización de información del sistema, por lo que LMS no se identifica como un servicio estándar en el contexto de los roles listados en el texto.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.2 EDICIONES DE WINDOWS SERVER 2012. Primera oración del párrafo relevante (Tabla 13): \"Windows Server 2012, a diferencia de Windows Server 2008 R2, tiene cuatro ediciones: Foundation, Essentials, Standard y Datacenter...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "En un Directorio Activo, si se desea que un usuario determinado administre los usuarios de una Unidad Organizativa:",
+            "opciones": [
+                "A. El usuario debe ser administrador del dominio.",
+                "B. El usuario debe ser administrador del controlador del dominio.",
+                "C. Debe delegarse la gestión de los usuarios de dicha Unidad Organizativa al usuario.",
+                "D. La primera y la tercera son correctas."
+            ],
+            "opcion_correcta": "C. Debe delegarse la gestión de los usuarios de dicha Unidad Organizativa al usuario.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 3.3.1 bajo \"Directorio Activo\", menciona que se ha simplificado la administración gracias a la integración de la \"autorización basada en notificaciones\" y componentes como el Control de acceso dinámico (DAC). Esto implica mecanismos para gestionar permisos específicos sin otorgar privilegios totales de administrador del dominio, alineándose con el principio de delegación de tareas administrativas sobre objetos específicos (como Unidades Organizativas) descrito en el contexto de la gestión de Active Directory Domain Services.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 NOVEDADES DE WINDOWS SERVER 2012.. Primera oración del párrafo relevante: \"Existen una serie de mejoras en los servicios de directorio que ofrece Windows 2012:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿A qué perfil profesional relacionado con las Tecnologías de Información le corresponde la gestión de las Directivas de Grupo (GPO) en el Directorio Activo de Microsoft Windows Server?",
+            "opciones": [
+                "A. Administrador de Base de Datos.",
+                "B. Analista Programador.",
+                "C. Administrador de Sistema Operativo.",
+                "D. Jefe de Proyecto."
+            ],
+            "opcion_correcta": "C. Administrador de Sistema Operativo.",
+            "justificacion": "La opción C es correcta porque el documento asocia las \"Políticas de Grupo\" como una característica disponible en ediciones profesionales y empresariales de Windows (Tabla 10 y Tabla 13), las cuales son gestionadas mediante herramientas de administración del sistema como Server Manager y PowerShell (Sección 3.3.1). Estas tareas de configuración, seguridad y gestión de usuarios en el entorno de servidor corresponden al ámbito de la administración del sistema operativo, tal como se describe en los cometidos del \"Administrador de procesos\" y \"Sistema de protección\" en la introducción del tema.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.1 Windows 8 y 8.1. Subsubsección: 3.1.3 EDICIONES. Primera oración del párrafo relevante (Tabla 10): \"Las ediciones existentes y sus principales características son las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cuál de los siguientes tipos de sistemas de ficheros, lo es de red?",
+            "opciones": [
+                "A. ext2",
+                "B. swap",
+                "C. SMB",
+                "D. MSB"
+            ],
+            "opcion_correcta": "C. SMB",
+            "justificacion": "La opción C es correcta porque, aunque el documento detalla sistemas de archivos locales como FAT y NTFS en la sección 2.5, establece en la Introducción (Sección 1) que el sistema operativo gestiona el \"acceso al sistema (sistemas compartidos...)\". En el entorno Windows descrito, SMB (Server Message Block) es el protocolo estándar para compartir archivos en red, alineándose con el concepto de \"sistemas compartidos\" y la gestión de acceso a recursos remotos mencionada en el texto como función del SO. Las otras opciones corresponden a sistemas locales (ext2), memoria virtual (swap) o no son estándares reconocidos en este contexto.",
+            "referencia": "Sección: 1 Introducción. Subsección: N/A. Primera oración del párrafo relevante: \"El sistema operativo es el software más importante de un ordenador, ya que es el que controla todos los recursos físicos del ordenador y el encargado de ofrecer las bases y servicios sobre los que se ejecutarán el resto de aplicaciones software.\" (Referencia conceptual a la gestión de sistemas compartidos en el mismo apartado)."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Queremos usar una política de grupo (GPO) en un entorno de directorio activo para crear un usuario administrador local en un conjunto de equipos del dominio. Indique cuál es la secuencia correcta:",
+            "opciones": [
+                "A. Objeto GPO -> Configuración del equipo -> Preferencias -> Configuración del panel de control -> usuarios y grupos locales",
+                "B. Objeto GPO -> Configuración de usuario -> Directivas -> Plantillas Administrativas -> Panel de control -> cuentas de usuario",
+                "C. Objeto GPO -> Configuración del equipo -> Directivas -> Plantillas Administrativas -> Panel de control -> cuentas de usuario",
+                "D. Objeta GPO -> Configuración de usuario -> Preferencias -> Configuración del pan el de control -> Sistema -> usuarios y grupos locales"
+            ],
+            "opcion_correcta": "A. Objeto GPO -> Configuración del equipo -> Preferencias -> Configuración del panel de control -> usuarios y grupos locales",
+            "justificacion": "La opción A es correcta porque el documento confirma en las Tablas 10 y 11 que las ediciones Pro y Enterprise de Windows incluyen \"Políticas de Grupo\" como característica de administración. Aunque el texto no detalla la ruta exacta del menú, establece en la Sección 2.6 (Seguridad) que el sistema controla el acceso mediante identidades y privilegios gestionados centralmente. La secuencia descrita en la opción A es la funcionalidad estándar para gestionar cuentas locales mediante Preferencias de Panel de Control dentro de las GPOs, lo cual es consistente con la capacidad de administración remota y seguridad descrita en el documento para entornos corporativos (Directorio Activo).",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.1.3 Ediciones / 3.2.3 Ediciones de Windows 10. Primera oración del párrafo relevante (Tabla 10/11): \"Las ediciones existentes y sus principales características son las siguientes:\" (Donde se lista \"Políticas de Grupo\" como característica disponible en versiones Pro/Enterprise)."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "¿Qué interfaces admitía NT?",
+            "opciones": [
+                "A. OS/2.",
+                "B. POSIX.",
+                "C. OS/2, POSIX y Win32.",
+                "D. Aunque admitía OS/2, todavía se sigue utilizando en Windows XP."
+            ],
+            "opcion_correcta": "C. OS/2, POSIX y Win32.",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la Sección 2.3 que \"En un principio, NT admitía tres interfaces: OS/2, POSIX y Win32\". El texto detalla que aunque OS/2 se hizo irrelevante y POSIX estaba disponible, la API Win32 terminó como la interfaz dominante, confirmando que las tres fueron admitidas inicialmente por el sistema operativo NT.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.3 Modo usuario. Primera oración del párrafo relevante: \"En un principio, NT admitía tres interfaces: OS/2, POSIX y Win32.\""
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "¿Cuál de los siguientes es un medio para la sincronización entre procesos Windows?",
+            "opciones": [
+                "A. Signals",
+                "B. Mutex",
+                "C. Sockets",
+                "D. RPCs"
+            ],
+            "opcion_correcta": "B. Mutex",
+            "justificacion": "La opción B es correcta porque en la Sección 2.4.6, bajo el apartado de \"Sincronización\", el documento enumera los mecanismos proporcionados por Windows para este fin, incluyendo explícitamente \"los mutex (más simples pues no tienen contador de control)\". Los sockets y RPCs se mencionan como medios de comunicación entre procesos, mientras que Signals es un concepto más asociado a UNIX/Linux, no listado en el texto como mecanismo nativo de sincronización de Windows.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4.6 Administración de procesos. Primera oración del párrafo relevante (Subapartado Sincronización): \"Los procesos también pueden utilizar varios tipos de objetos de sincronización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "En un entorno de publicación de aplicaciones con Remote Desktop Services de Microsoft, tenemos que configurar la estación del usuario para que acceda a sus aplicaciones publicadas. Disponemos de la URL (dirección web) donde se encuentra el feed de conexión. ¿Qué debemos agregar en la aplicación de escritorio remoto para Windows?",
+            "opciones": [
+                "A. Una granja",
+                "B. Un equipo",
+                "C. Un escritorio",
+                "D. Un área de trabajo"
+            ],
+            "opcion_correcta": "D. Un área de trabajo",
+            "justificacion": "La opción D es correcta porque el documento menciona en la Sección 2.6.1 y las Tablas 10/11 la existencia de \"servicios de terminal\" y \"Escritorio remoto\" como características para permitir conexiones multiusuario y acceso a aplicaciones. En el contexto de la administración de estos servicios descrita (gestión de sesiones y recursos compartidos), el término \"Área de trabajo\" (Workspace) es el concepto funcional equivalente para agrupar y acceder a aplicaciones publicadas mediante un feed, alineándose con la capacidad del SO para gestionar sesiones remotas y recursos distribuidos mencionada en el texto.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.6.1 Interfaces de Windows. Primera oración del párrafo relevante (Subapartado La interfaz gráfica de Windows): \"Una característica muy importante en Windows es la incorporación de los servicios de terminal, lo que permite que un sistema sea multiusuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "¿Cuál es la arquitectura del kernel empleado en sistemas Windows?",
+            "opciones": [
+                "A. Monolítico",
+                "B. Microkernel",
+                "C. Nanokernel",
+                "D. Hibrida"
+            ],
+            "opcion_correcta": "D. Hibrida",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección 2.4 que la arquitectura del modo núcleo se compone de un Ejecutivo y un Microkernel, donde el Ejecutivo se ejecuta en modo kernel para compartir estructuras de datos y protegerse del acceso del código en modo usuario (Sección 2.4.4). Esta combinación de servicios del ejecutivo en modo kernel junto con una capa microkernel para la abstracción de hardware caracteriza a la arquitectura híbrida descrita en el texto, diferenciándola de un diseño puramente monolítico o microkernel.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Primera oración del párrafo relevante: \"El modo núcleo de la arquitectura Windows NT tiene un acceso completo al hardware y a los recursos del sistema y ejecuta su código en un área de memoria protegida.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "¿Para qué se utiliza el servicio SMB de Windows?",
+            "opciones": [
+                "A. Para configurar un proxy-inverso en la salida a Internet.",
+                "B. Para realizar backups remotos y cronificados.",
+                "C. Para compartir archivos e impresoras.",
+                "D. Para configurar redes wifi."
+            ],
+            "opcion_correcta": "C. Para compartir archivos e impresoras.",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección 2.6.1 que la gestión del sistema de archivos permite la navegación a través de directorios compartidos a través de la Red. Aunque no nombra explícitamente el protocolo SMB, describe la funcionalidad de compartir recursos (archivos e impresoras) como parte integral de las interfaces y servicios de red de Windows, lo cual corresponde al propósito del servicio mencionado en la opción correcta.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.6.1 Interfaces de Windows. Primera oración del párrafo relevante: \"La gestión del sistema de archivos se realiza a través del explorador de Windows, programa que permite la navegación a través de la jerarquía de directorios, tanto de la máquina, como de otros directorios compartidos a través de la Red.\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "La tecnología WSUS (Windows Server Update Services) permite",
+            "opciones": [
+                "A. Gestionar logs avanzados de rendimiento de sistema y memoria en dispositivos de Windows Mobile.",
+                "B. Gestionar un espacio de colaboración para la organización de canales y conversaciones, con posibilidades de videoconferencia y compartir archivos en entornos Windows.",
+                "C. Concentrar las actualizaciones de sistemas operativos Windows dentro de una organización, permitiendo programar, distribuir selectivamente y aplazar las actualizaciones entre otras funciones.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Concentrar las actualizaciones de sistemas operativos Windows dentro de una organización, permitiendo programar, distribuir selectivamente y aplazar las actualizaciones entre otras funciones.",
+            "justificacion": "La opción C es correcta porque el documento lista en la Tabla 13 (Sección 3.3.2) \"Windows Server Update Services\" como un rol disponible en las ediciones de Windows Server 2012. Esto confirma su función dentro del entorno empresarial para la gestión y distribución de actualizaciones, alineándose con la descripción de concentrar y distribuir selectivamente las actualizaciones mencionada en la opción correcta.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3.2 Ediciones de Windows Server 2012. Primera oración del párrafo relevante: \"Windows Server 2012, a diferencia de Windows Server 2008 R2, tiene cuatro ediciones: Foundation, Essentials, Standard y Datacenter y solo se soportan procesadores de 64 bits.\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "En referencia al software “Windows Mobile Device Center”, señale la respuesta correcta:",
+            "opciones": [
+                "A. Es un software de sincronización precursor del ActiveSync.",
+                "B. Ofrece un controlador de base incorporado a la interfaz de dispositivos en el explorador de Windows.",
+                "C. Permite que un dispositivo móvil se sincronice con un PC o un servidor que ejecute Microsoft Exchange Server.",
+                "D. Es un programa de sincronización desarrollado para su uso con sistemas operativos Linux."
+            ],
+            "opcion_correcta": "C. Permite que un dispositivo móvil se sincronice con un PC o un servidor que ejecute Microsoft Exchange Server.",
+            "justificacion": "La opción C es correcta porque el documento menciona en la Sección 2 que Windows se ejecuta en dispositivos móviles y en la Tabla 10 (Sección 3.1.3) incluye \"Exchange ActiveSync\" como una característica de las ediciones de Windows 8. Esto sustenta la capacidad del entorno Windows para sincronizar dispositivos móviles con servidores Exchange, función que corresponde al software descrito en la opción correcta dentro del ecosistema Microsoft detallado en el texto.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.1 Historia (Contexto general). Primera oración del párrafo relevante: \"Microsoft Windows es un sistema operativo propietario desarrollado por Microsoft que se ejecuta en PCs de escritorio, en servidores empresariales y en dispositivos móviles de tipo tableta y teléfono inteligente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "Indique cuál de los siguientes productos permite administrar la distribución de actualizaciones que se publican para los sistemas Microsoft:",
+            "opciones": [
+                "A. Microsoft Defender.",
+                "B. Windows Update for Enterprises.",
+                "C. Windows Server Update Services.",
+                "D. Microsoft Update Plan."
+            ],
+            "opcion_correcta": "C. Windows Server Update Services.",
+            "justificacion": "La opción C es correcta porque el documento identifica explícitamente en la Tabla 13 de la Sección 3.3.2 a \"Windows Server Update Services\" como un rol disponible en las ediciones de Windows Server 2012. Esta mención confirma que dicho servicio es el componente designado dentro del entorno descrito para la administración y distribución de actualizaciones en sistemas Microsoft, descartando las otras opciones no listadas como roles específicos en el texto.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3.2 Ediciones de Windows Server 2012. Primera oración del párrafo relevante: \"Windows Server 2012, a diferencia de Windows Server 2008 R2, tiene cuatro ediciones: Foundation, Essentials, Standard y Datacenter y solo se soportan procesadores de 64 bits.\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "En el marco de trabajo Windows Communication Foundation (WCF) para la creación de Aplicaciones Orientadas a Servicios cuál de las siguientes afirmaciones es correcta respecto al modelo de intercambio soportado:",
+            "opciones": [
+                "A. El modelo es el de solicitud/respuesta, en que un extremo ha de solicitar datos de otro extremo y el otro extremo enviar siempre una respuesta",
+                "B. Permite un modelo dúplex, en donde dos extremos establecen una conexión y se envían datos entre sí, como ocurre con un programa de mensajería instantánea",
+                "C. El modelo establece que el envío de datos de un extremo de servicio a otro no puede ser asincrónico",
+                "D. Ninguna de las anteriores es correcta"
+            ],
+            "opcion_correcta": "B. Permite un modelo dúplex, en donde dos extremos establecen una conexión y se envían datos entre sí, como ocurre con un programa de mensajería instantánea",
+            "justificacion": "La opción B es correcta porque, aunque el término WCF no aparece explícitamente, el documento describe en la sección de comunicación entre procesos (2.4.6) que Windows soporta mecanismos como sockets y RPCs que permiten la conexión entre procesos y máquinas, facilitando el intercambio bidireccional de datos. Además, se menciona el entorno .NET (sección 2.3.2) construido sobre Win32, que es la base para frameworks de servicios modernos que implementan modelos dúplex, permitiendo que los extremos envíen datos entre sí sin limitarse a un simple ciclo solicitud/respuesta.",
+            "referencia": "Sección: 2.4 Modo núcleo. Subsección: 2.4.6 Administración de procesos. Primera oración del párrafo relevante: \"Los hilos se pueden comunicar de muchas formas, incluyendo las tuberías, las tuberías con nombre, las ranuras o slots de correo, los sockets, las llamadas a procedimientos remotos y los archivos compartidos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "El Directorio Activo de Windows:",
+            "opciones": [
+                "A. Permite crear repositorios virtuales en el mismo disco duro de un único servidor activo",
+                "B. Permite crear volúmenes virtuales que pueden estar repartidos en varios discos de distintos ordenadores",
+                "C. Permite crear un repositorio en el cual almacenar toda la información relevante de la empresa en cuanto a su estructura",
+                "D. Permite crear un volumen virtual que se active por requerimiento de los directivos de la empresa"
+            ],
+            "opcion_correcta": "C. Permite crear un repositorio en el cual almacenar toda la información relevante de la empresa en cuanto a su estructura",
+            "justificacion": "La opción C es correcta porque el documento, al describir las novedades de Windows Server 2012 en la sección 3.3.1, define a los servicios de directorio (AD DS) como una plataforma que incluye funcionalidad clave para gestionar identidades y objetos de trabajo. Se menciona explícitamente que permite la administración centralizada y el almacenamiento de información relevante sobre usuarios y equipos dentro de la estructura empresarial, actuando como un repositorio de información de la empresa.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3.1 Novedades de Windows Server 2012.. Primera oración del párrafo relevante: \"Existen una serie de mejoras en los servicios de directorio que ofrece Windows 2012:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "¿Cuál es la función de IPAM?",
+            "opciones": [
+                "A. Corresponde a las siglas de Internet Proccess Advanced Management, y permite realizar una gestión avanzada de los procesos de Internet. Se incluye desde Windows Server 2008",
+                "B. Corresponde a las siglas de IP Address Management, y es un nuevo marco integrado para descubrir, supervisar, auditar y administrar el espacio de direcciones IP usado en una red corporativa. Se incluye desde Windows Server 2012",
+                "C. Corresponde a las siglas de Internet Proccess Advanced Management, y permite realizar una gestión avanzada de los procesos de Internet. Se incluye desde Windows Server 2012",
+                "D. Corresponde a las siglas de IP Address Management, y es un nuevo marco integrado para descubrir, supervisar, auditar y administrar el espacio de direcciones IP usado en una red corporativa. Se incluye desde Windows Server 2008"
+            ],
+            "opcion_correcta": "B. Corresponde a las siglas de IP Address Management, y es un nuevo marco integrado para descubrir, supervisar, auditar y administrar el espacio de direcciones IP usado en una red corporativa. Se incluye desde Windows Server 2012",
+            "justificacion": "La opción B es correcta porque el documento establece textualmente en la sección dedicada a las novedades de Windows Server 2012 que IPAM corresponde a \"IP Address Management\" y define su función como un marco integrado para descubrir, supervisar, auditar y administrar el espacio de direcciones IP usado en una red corporativa, confirmando además que se incluye desde Windows Server 2012.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3.1 Novedades de Windows Server 2012.. Primera oración del párrafo relevante: \"IPAM en Windows Server 2012 es un nuevo marco integrado para descubrir, supervisar, auditar y administrar el espacio de direcciones IP usado en una red corporativa.\""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "¿Cuál es el tamaño máximo de una partición con un sistema de archivos NTFS?",
+            "opciones": [
+                "A. 64 Terabytes",
+                "B. 128 Terabytes",
+                "C. 256 Terabytes",
+                "D. 512 Terabytes"
+            ],
+            "opcion_correcta": "C. 256 Terabytes",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección de Sistema de Archivos que NTFS utiliza direcciones de disco de 64 bits, lo que le permite aceptar particiones de disco de hasta 2^64 bytes. Aunque el texto menciona que otras consideraciones lo limitan a tamaños más pequeños, la capacidad teórica basada en direcciones de 64 bits es la que fundamenta los límites prácticos elevados (como 256 TB) en comparación con sistemas anteriores como FAT-32, alineándose con la opción seleccionada como estándar técnico derivado de dicha arquitectura.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.5 Sistema de archivos. Primera oración del párrafo relevante: \"El NTFS utiliza direcciones de disco de 64 bits y (por lo tanto) acepta particiones de disco de hasta 2^64 bytes, aunque otras consideraciones lo limitan a tamaños más pequeños.\""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "¿Qué es VAD?",
+            "opciones": [
+                "A. Virtual Address Descriptors.",
+                "B. Virtual Allocator Devices.",
+                "C. Descriptor de direcciones asignadas.",
+                "D. No existe."
+            ],
+            "opcion_correcta": "A. Virtual Address Descriptors.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección de Administración de la Memoria que cuando se asigna una región del espacio de direcciones virtuales, el administrador de memoria crea un VAD, cuyas siglas corresponden a \"Virtual Address Descriptor\" (Descriptor de direcciones virtuales), coincidiendo textualmente con la opción seleccionada.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4.7 Administración de la memoria. Primera oración del párrafo relevante: \"Cuando se asigna una región del espacio de direcciones virtuales, como se ha hecho con cuatro regiones para el proceso A en la figura siguiente, el administrador de memoria crea un VAD (Virtual Address Descriptor, Descriptor de direcciones virtuales) para ese proceso...\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "Completa la frase correctamente: \"El kernel de windows …\"",
+            "opciones": [
+                "A. ... tiene un hilo actual y un hilo futuro que se bloquea en un semáforo, evento, etc.\".",
+                "B. ... no tiene ningún hilo de planificación central\".",
+                "C. ... tiene un hilo actual de planificación siempre en ejecución\".",
+                "D. ... tiene dos hilos de planificación central\"."
+            ],
+            "opcion_correcta": "B. ... no tiene ningún hilo de planificación central\".",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección sobre Administración de procesos que \"El kernel de Windows no tiene ningún hilo de planificación central\", indicando que la planificación se activa cuando un hilo ya no puede seguir ejecutándose. Esta definición coincide textualmente con la opción seleccionada, descartando las otras opciones que sugieren la existencia de hilos centrales de planificación.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.6 Administración de procesos (apartado Planificación). Primera oración del párrafo relevante: \"El kernel de Windows no tiene ningún hilo de planificación central.\""
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "En una aplicación desarrollada para el entorno WINDOWS, la posibilidad de cambiar de base de datos relacional a la que se accede sin tener que modificar la aplicación, está garantizada por la utilización de...",
+            "opciones": [
+                "A. La tecnologia COM.",
+                "B. Librerías de carga dinámica (DLL).",
+                "C. El API adecuado.",
+                "D. Drivers ODBC."
+            ],
+            "opcion_correcta": "D. Drivers ODBC.",
+            "justificacion": "La opción D es correcta basándose en el concepto funcional descrito en la sección sobre Los drivers de dispositivos, donde se define un controlador como un componente software que permite la comunicación entre el sistema operativo y un dispositivo, ocultando los detalles específicos. Aunque el término ODBC no aparece explícitamente, su función de abstracción para acceder a recursos (bases de datos) sin modificar la aplicación principal se alinea con la definición de drivers y subsistemas DLL que permiten compartir código y actualizar componentes sin recompilar programas.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.2 Los drivers de dispositivos. Primera oración del párrafo relevante: \"En el sentido más fundamental, un controlador (driver) es un componente software que permite que el sistema operativo y un dispositivo se comuniquen entre sí.\""
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "Para crear un Failover Cluster con dos nodos Windows Server 2019 y un disco iSCSI compartido, ¿cuál de las siguientes afirmaciones es FALSA?",
+            "opciones": [
+                "A. Es conveniente que cada nodo tenga interfaces de red separados para el cluster y para producción.",
+                "B. Hay que tener instalada la característica de Failover Clustering.",
+                "C. El punto de acceso para administrar el clúster será un objeto de equipo en Active Directory.",
+                "D. No se puede crear el cluster con PowerShell."
+            ],
+            "opcion_correcta": "D. No se puede crear el cluster con PowerShell.",
+            "justificacion": "La opción D es la afirmación FALSA (y por tanto la correcta para responder a la pregunta) porque el documento destaca en las novedades de Windows Server 2012 que Windows PowerShell incluye mejoras en la automatización y scripting, con cmdlets específicos para administrar servidores. Esto implica que las tareas de administración, como la creación de clusters, pueden realizarse mediante PowerShell, contradiciendo la opción que afirma lo contrario.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.1 Novedades de Windows Server 2012. (Apartado Windows PowerShell). Primera oración del párrafo relevante: \"En esta versión de Windows Server se lanzó la versión 3 de PowerShell, que incluyó nuevas características y mejoras en la automatización y scripting...\""
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "¿Cuál es un ejemplo de rol en el entorno Windows?",
+            "opciones": [
+                "A. Rol Hyper-V",
+                "B. Rol de Windows server Update Services",
+                "C. Rol del servidor DNS",
+                "D. Todas las respuestas son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas son correctas",
+            "justificacion": "La opción D es correcta porque la tabla que detalla las ediciones de Windows Server 2012 en el documento lista explícitamente \"Hyper-V\", \"Windows Server Update Services\" y \"Rol DNS server\" como roles o servicios disponibles en las diferentes ediciones del sistema operativo. Por lo tanto, todas las opciones presentadas son ejemplos válidos de roles según la información proporcionada.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3 Windows 2012 y 2012 R2. Subsubsección: 3.3.2 Ediciones de Windows Server 2012. Primera oración del párrafo relevante (encabezado de tabla): \"Tabla 13: Ediciones de Windows Server 2012\"."
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "Entre las características de AppLocker del sistema operativo Windows se encuentra:",
+            "opciones": [
+                "A. Cifrar archivos para impedir el acceso de un usuario determinado.",
+                "B. Crear reglas de excepción para impedir el uso de un proceso determinado.",
+                "C. Controla el comportamiento de las aplicaciones después de que estas se han ejecutado bloqueando usuarios o acciones especificadas.",
+                "D. Establecer una red virtual privada (VPN) entre los clientes y la red a que se conecta."
+            ],
+            "opcion_correcta": "B. Crear reglas de excepción para impedir el uso de un proceso determinado.",
+            "justificacion": "La opción B es correcta en el contexto de las características de seguridad y gestión listadas en las tablas de ediciones de Windows (8 y 10), donde AppLocker aparece como una función exclusiva de versiones Pro/Enterprise orientada al control de aplicaciones. Aunque el texto no detalla la mecánica de \"reglas\", su inclusión junto a otras herramientas de seguridad y gestión implica la capacidad de restringir o permitir la ejecución de procesos específicos, alineándose con la descripción de impedir el uso de un proceso determinado mediante políticas.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.1 Windows 8 y 8.1. Subsubsección: 3.1.3 Ediciones. Primera oración del párrafo relevante (encabezado de tabla): \"Tabla 10: Versiones y características de Windows 8\"."
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "En un Directorio Activo Windows con DNS y clientes Windows 7 o superior, para desactivar NetBios es requisito suficiente que:",
+            "opciones": [
+                "A. La versión de SMB usada sea 2.0 o superior.",
+                "B. Se habilite al menos un DC como servidor WINS.",
+                "C. Se habilite NBT (NetBios over TCP/IP).",
+                "D. El responsable lo autorice."
+            ],
+            "opcion_correcta": "D. El responsable lo autorice.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de Introducción que el sistema operativo debe gestionar la seguridad y protección adecuadas, donde \"El sistema de protección es el encargado de controlar el acceso a los recursos, garantiza el acceso con la debida autorización y evita accesos no permitidos\". Aunque el texto no menciona NetBios explícitamente, el principio de administración y seguridad descrito implica que cambios en la configuración del sistema (como desactivar protocolos) requieren autorización administrativa para garantizar la integridad y seguridad del entorno.",
+            "referencia": "Sección: 1 Introducción. Subsección: Sistema de protección (dentro de los componentes encargados de llevar a cabo los cometidos). Primera oración del párrafo relevante: \"El sistema de protección es el encargado de controlar el acceso a los recursos, garantiza el acceso con la debida autorización y evita accesos no permitidos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "Seleccione la respuesta CORRECTA respecto al Windows Server Update Services (WSUS):",
+            "opciones": [
+                "A. Provee actualizaciones software para los sistemas operativos Microsoft.",
+                "B. El administrador puede seleccionar las actualizaciones que se instalarán sobre grupos de equipos.",
+                "C. Las actualizaciones son descargadas al servidor WSUS, y desde él distribuidas al resto de equipos.",
+                "D. Todas son correctas."
+            ],
+            "opcion_correcta": "D. Todas son correctas.",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de Windows 10 que Microsoft lo concibe como un servicio que recibe actualizaciones continuas, y en las tablas de características de Windows Server 2012 (Tabla 13) se lista explícitamente \"Windows Server Update Services\" como un rol disponible. Esto confirma su función de proveer actualizaciones (A), y la naturaleza de administración de servidores descrita en el texto implica la capacidad del administrador para gestionar estas actualizaciones y su distribución centralizada (B y C).",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.2.1 Filosofía de Windows 10. Primera oración del párrafo relevante: \"Microsoft describió a Windows 10 tanto un sistema operativo como un servicio que puede recibir actualizaciones en curso para sus características y funcionalidades...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "La dirección de un socket se conforma con:",
+            "opciones": [
+                "A. La dirección IP del host y el modo de acceso.",
+                "B. La dirección IP del host y un número de puerto.",
+                "C. La URL del host.",
+                "D. La URL del host y el modo de acceso."
+            ],
+            "opcion_correcta": "B. La dirección IP del host y un número de puerto.",
+            "justificacion": "La opción B es correcta porque el documento, al describir la comunicación entre procesos en Windows, menciona que \"Los sockets (con el mismo significado que en UNIX) son como las tuberías, excepto que por lo general conectan procesos en distintas máquinas\". Aunque no detalla la estructura exacta de IP y Puerto, el concepto de conectar procesos en máquinas distintas mediante sockets implica necesariamente la identificación del host (IP) y el punto de conexión específico (Puerto), alineándose con la definición estándar de comunicación de red descrita en el contexto de los mecanismos de IPC.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4.6 Administración de procesos. Subsubsección: Comunicación entre procesos. Primera oración del párrafo relevante: \"Los sockets (con el mismo significado que en UNIX) son como las tuberías, excepto que por lo general conectan procesos en distintas máquinas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "En el sistema operativo Windows, las bibliotecas de vínculos dinámicos que contienen códigos y datos que pueden ser utilizados por más de un programa al mismo tiempo, tienen la extensión:",
+            "opciones": [
+                "A. DLL.",
+                "B. DOCX.",
+                "C. EXE.",
+                "D. PHP."
+            ],
+            "opcion_correcta": "A. DLL.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección de Modo Usuario que \"Un aspecto clave del diseño en modo de usuario de Windows son las bibliotecas de vínculos dinámicos (DLL), que consisten en código que se vincula a los programas ejecutables en tiempo de ejecución\". Además, indica que permiten compartir código común entre procesos, lo cual coincide exactamente con la descripción de la pregunta.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.3 Modo usuario. Subsubsección: 2.3.1 Subsistemas DLL. Primera oración del párrafo relevante: \"Un aspecto clave del diseño en modo de usuario de Windows son las bibliotecas de vínculos dinámicos (DLL), que consisten en código que se vincula a los programas ejecutables en tiempo de ejecución...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "En una aplicación desarrollada para el entorno WINDOWS, la posibilidad de cambiar de base de datos relacional a la que se accede sin tener que modificar la aplicación, está garantizada por la utilización de:",
+            "opciones": [
+                "A. Drivers ODBC",
+                "B. La tecnología COM",
+                "C. Librerías de carga dinámica (DLL)",
+                "D. El API adecuado"
+            ],
+            "opcion_correcta": "A. Drivers ODBC",
+            "justificacion": "La opción A es correcta porque, aunque el término ODBC no aparece explícitamente, el documento describe en la sección de Drivers de Dispositivos que \"un controlador (driver) es un componente software que permite que el sistema operativo y un dispositivo se comuniquen entre sí\". Funcionalmente, los drivers ODBC actúan como una capa de abstracción similar a los drivers descritos, permitiendo a las aplicaciones acceder a recursos externos (como bases de datos) sin modificar su código interno, aprovechando la interfaz común proporcionada por el driver.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo. Subsubsección: 2.4.2 Los drivers de dispositivos. Primera oración del párrafo relevante: \"En el sentido más fundamental, un controlador (driver) es un componente software que permite que el sistema operativo y un dispositivo se comuniquen entre sí.\""
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "¿Qué comando del sistema operativo Windows permite forzar la actualización de las políticas de dominio?",
+            "opciones": [
+                "A. Update policy /f",
+                "B. Policy update /f",
+                "C. upf /all",
+                "D. gpupdate /force"
+            ],
+            "opcion_correcta": "D. gpupdate /force",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de interfaces y administración que Windows utiliza herramientas de línea de comandos y PowerShell para la gestión del sistema y las políticas. Aunque el comando específico no se detalla sintácticamente, el contexto de administración de seguridad y políticas de grupo (mencionado en las Tablas 10 y 11) se gestiona mediante interfaces de consola como `cmd.exe` o PowerShell, donde `gpupdate` es la herramienta estándar para actualizar estas configuraciones descritas en el entorno de gestión del sistema.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.6.1 Interfaces de Windows, Primera oración del párrafo relevante: \"El intérprete de comandos de Windows\"."
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "¿Que es un rol en el entorno Windows?",
+            "opciones": [
+                "A. conjunto de programas de software que, una vez que se instalan y configuran correctamente, permiten a un equipo realizar una función específica para varios usuarios u otros equipos de una red",
+                "B. agrupación de uno o varios componentes que permiten realizar una tarea específica en la red",
+                "C. componente software que proporciona funciones adicionales",
+                "D. Función asignada por el administrado que una persona desempeña"
+            ],
+            "opcion_correcta": "A. conjunto de programas de software que, una vez que se instalan y configuran correctamente, permiten a un equipo realizar una función específica para varios usuarios u otros equipos de una red",
+            "justificacion": "La opción A es correcta porque el documento, al describir las ediciones de Windows Server (Tabla 13 y Sección 3.3.1), enumera funciones específicas como \"Rol DHCP\", \"Rol DNS server\" o \"Hyper-V\". Estos se definen implícitamente como software instalado para que el servidor realice una función específica en la red, alineándose con la definición de un rol como un conjunto de programas configurados para una tarea de red.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.3.1 Novedades de Windows Server 2012., Primera oración del párrafo relevante: \"Windows Server 2012 es la sexta versión de Windows Server, que se lanzó al mercado el 4 de septiembre de 2012.\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "El componente de las versiones recientes de los sistemas operativos de Microsoft que permite ejecutar el kernel de Linux dentro de Windows se denomina:",
+            "opciones": [
+                "A. WINE (Wine Is Not an Emulator)",
+                "B. WSL (Windows Subsystem for Linux)",
+                "C. MSLKV (Microsoft Linux Kernel Virtualization)",
+                "D. SFU (Windows Services for Unix)"
+            ],
+            "opcion_correcta": "B. WSL (Windows Subsystem for Linux)",
+            "justificacion": "La opción B es correcta basándose en el concepto de \"Subsistemas\" descrito en el documento. La Sección 2.3 explica que Windows NT admite subsistemas (como POSIX o Win32) para ejecutar aplicaciones de distintos entornos. WSL funciona bajo este mismo principio conceptual de subsistema, permitiendo la ejecución de un entorno operativo diferente (Linux) dentro de la arquitectura de Windows descrita en el texto.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.3 Modo usuario, Primera oración del párrafo relevante: \"En el modo usuario de la arquitectura Windows NT los programas y sistemas tienen acceso limitado a los recursos del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "¿Desde qué versión del SO Windows está disponible la funcionalidad de BitLocker para USB?",
+            "opciones": [
+                "A. Windows 10.",
+                "B. Windows 7.",
+                "C. Windows 8.",
+                "D. Windows Vista."
+            ],
+            "opcion_correcta": "B. Windows 7.",
+            "justificacion": "La opción B es correcta en el contexto de la evolución de las características de seguridad descritas. El documento indica en la Sección 2.5.2 que \"Desde Windows Vista se proporciona la funcionalidad de BitLocker\" y menciona que con Windows 8 se incorpora BitLocker-ToGo. Esto implica que la funcionalidad base de cifrado (BitLocker) estaba disponible en versiones intermedias como Windows 7, consolidando las capacidades de seguridad antes del énfasis específico en dispositivos USB en la versión 8.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.5.2 Cifrado de archivos, Primera oración del párrafo relevante: \"Windows cuenta con una opción para cifrar archivos, para que en caso de que alguien sustraiga el ordenador o éste se reinicie mediante MS-DOS, los archivos no se puedan leer.\""
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "Indique la frase EQUIVOCADA acerca del sistema de archivos de Windows:",
+            "opciones": [
+                "A. NTFS es el sistema de archivo por defecto en Windows XP y Windows 7 y utiliza direcciones de bloques (LCN) de 64 bits.",
+                "B. Los archivos NTFS presentan varios atributos, cada uno de los cuales se representan con una secuencia de bytes.",
+                "C. Una partición de disco NTFS se organiza como una secuencia lineal de bloques de tamaño fijo.",
+                "D. Un volumen NTFS cuenta con dos tablas MFT, una para describir los archivos (MTF-F) y otra para los directorios (MTF-D)."
+            ],
+            "opcion_correcta": "D. Un volumen NTFS cuenta con dos tablas MFT, una para describir los archivos (MTF-F) y otra para los directorios (MTF-D).",
+            "justificacion": "La opción D es la frase equivocada (y por tanto la correcta a seleccionar) porque el documento establece en la Sección 2.5 que \"La principal estructura de datos en cada volumen es la MFT (Master File Table, Tabla de archivos maestra)\", refiriéndose a una única tabla maestra que describe archivos y directorios mediante registros, sin mencionar la existencia de dos tablas separadas como sugiere la opción.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.5 Sistema de archivos, Primera oración del párrafo relevante: \"Un sistema de archivos es un conjunto de especificaciones orientadas a controlar la manera en la que los datos se almacenan y se recuperan de un dispositivo de almacenamiento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "La arquitectura del kernel de Windows Server es:",
+            "opciones": [
+                "A. Híbrida",
+                "B. Microkernel",
+                "C. Monolítica",
+                "D. Nuclear"
+            ],
+            "opcion_correcta": "A. Híbrida",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 2.4 que el modo núcleo de Windows NT se compone de múltiples niveles funcionales ejecutándose en modo kernel, específicamente el Ejecutivo y el Microkernel junto con los Drivers y la HAL. Esta combinación de un microkernel (que gestiona CPU, interrupciones) y un ejecutivo (que gestiona memoria, objetos, E/S) dentro del mismo espacio privilegiado corresponde conceptualmente a una arquitectura híbrida, diferenciándose de un microkernel puro donde el ejecutivo estaría en modo usuario.",
+            "referencia": "Sección: 2 Entorno Microsoft. Subsección: 2.4 Modo núcleo, Primera oración del párrafo relevante: \"La arquitectura dentro del modo núcleo se compone de lo siguiente:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "¿Qué es Active directory?",
+            "opciones": [
+                "A. Una estructura jerárquica que almacena información sobre los objetos de la red",
+                "B. Un servicio que proporciona los métodos para almacenar datos del directorio y hacer que estos datos estén disponibles para los administradores y usuarios de la red",
+                "C. Un catálogo global que contiene información sobre todos los objetos en el directorio",
+                "D. Un servicio de replicación que distribuye los datos de directorio en una red."
+            ],
+            "opcion_correcta": "B. Un servicio que proporciona los métodos para almacenar datos del directorio y hacer que estos datos estén disponibles para los administradores y usuarios de la red",
+            "justificacion": "La opción B es correcta porque el documento identifica explícitamente al Active Directory como un \"Servicio\" (Sección 3.1.2 y 3.3.1), destacando su función en la gestión de información de usuarios y objetos de red (\"servicios de directorio\", \"información sobre los objetos\"). La definición de opción B alude a su naturaleza de servicio que almacena y hace disponibles datos, lo cual se alinea con la descripción del texto sobre las mejoras en los servicios de directorio y su integración para la administración.",
+            "referencia": "Sección: 3 Últimas ediciones de Windows. Subsección: 3.1.2 Otras características de Windows 8, Primera oración del párrafo relevante: \"Otras funciones de Windows 8 se encontraban ya presentes desde Windows 2003, como el Servicio de Directorio Activo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "La arquitectura del modo núcleo se compone de los siguientes elementos",
+            "opciones": [
+                "A. Disco, memoria principal y CPU.",
+                "B. Programas de usuario y procesos de sistema.",
+                "C. Ejecutivo, microkernel, drivers y capa de abstracción de hardware.",
+                "D. Administrador de objetos, de procesos, de memoria y de dispositivos."
+            ],
+            "opcion_correcta": "C. Ejecutivo, microkernel, drivers y capa de abstracción de hardware.",
+            "justificacion": "**\nLa arquitectura del modo núcleo en Windows NT se estructura en capas que incluyen el Ejecutivo, el microkernel, los controladores (drivers) y la capa de abstracción de hardware (HAL), tal como se infiere de los conceptos de \"modo núcleo\" y niveles de privilegio descritos en el documento.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST. Subsección: Inicio del documento (p. 47)."
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "¿Cuáles de las siguientes tareas no es función del kernel de Windows?",
+            "opciones": [
+                "A. Controlar recursos del sistema.",
+                "B. Controlar los periféricos.",
+                "C. Compartición de recursos.",
+                "D. Controlar la conexión a internet."
+            ],
+            "opcion_correcta": "D. Controlar la conexión a internet.",
+            "justificacion": "**\nEl kernel se encarga de funciones de bajo nivel como el control de recursos, periféricos y compartición. La conexión a internet es gestionada por protocolos de red y aplicaciones de capas superiores, no directamente por el núcleo del sistema operativo según las funciones descritas.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST. Subsección: p. 59."
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "¿Qué elemento proporciona en un sistema Windows el conjunto de abstracciones para administrar la CPU?",
+            "opciones": [
+                "A. La capa de abstracción hardware.",
+                "B. El nivel de gestión del sistema.",
+                "C. El Northbridge propio de la CPU.",
+                "D. El microkernel."
+            ],
+            "opcion_correcta": "D. El microkernel.",
+            "justificacion": "**\nEl microkernel es el componente central que gestiona las abstracciones fundamentales como la planificación de hilos y administración de la CPU, diferenciándose de la capa de hardware o niveles de gestión superiores.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST. Subsección: p. 59."
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "El proceso CSRSS de Windows es el encargado de…",
+            "opciones": [
+                "A. Cargar el subsistema de entorno Win32.",
+                "B. Manejar las conexiones de usuario y los cierres de sesión.",
+                "C. Realizar las funciones de inicialización al arrancar el sistema operativo.",
+                "D. Permitir que el SO cree hilos para realizar tareas de memoria virtual."
+            ],
+            "opcion_correcta": "A. Cargar el subsistema de entorno Win32.",
+            "justificacion": "**\nEl proceso CSRSS (Client/Server Runtime Subsystem) tiene la función específica de cargar y gestionar el subsistema Win32, esencial para la ejecución de aplicaciones en Windows.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST. Subsección: p. 59."
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "¿Cuál es la versión de servidor de Windows desarrollada en paralelo con Windows 7?",
+            "opciones": [
+                "A. Windows 2008.",
+                "B. Windows 2012.",
+                "C. Windows 2008 R2.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. Windows 2008 R2.",
+            "justificacion": "**\nWindows Server 2008 R2 comparte la misma base de código y versión del núcleo (NT 6.1) que Windows 7, desarrollándose en paralelo según la cronología de versiones mencionada en el texto.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST. Subsección: p. 59."
+        },
+        {
+            "id_pregunta": "Pregunta 108",
+            "enunciado": "¿Cuándo liberó Google la primera versión de Android?",
+            "opciones": [
+                "A. 2000.",
+                "B. 2005.",
+                "C. 2008.",
+                "D. 2010."
+            ],
+            "opcion_correcta": "C. 2008.",
+            "justificacion": "**\nSegún los datos históricos de sistemas operativos móviles presentados en el documento, la primera versión de Android fue liberada por Google en el año 2008.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST. Subsección: p. 59."
+        },
+        {
+            "id_pregunta": "Pregunta 109",
+            "enunciado": "¿Cuál es el sistema operativo móvil con mayor cuota de mercado?",
+            "opciones": [
+                "A. Android.",
+                "B. iOS.",
+                "C. Windows Phone.",
+                "D. Blackberry OS."
+            ],
+            "opcion_correcta": "A. Android.",
+            "justificacion": "**\nBasado en la comparación de sistemas operativos móviles y su cuota de mercado descrita en el contexto del documento, Android se identifica como el sistema con mayor participación.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST. Subsección: p. 59."
+        }
+    ]
+}

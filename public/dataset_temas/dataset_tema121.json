@@ -1,0 +1,1630 @@
+{
+    "nombre_tema": "Tema 121",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Cuál de las siguientes NO es una opción adecuada para aumentar la capacidad de transmisión de datos en una zona de una red CATV HFC:",
+            "opciones": [
+                "A. Aumentar el número de canales dedicados a la transmisión de datos",
+                "B. Utilizar una modulación más eficiente, que permita transmitir más bits por símbolo",
+                "C. Dividir la zona en trozos más pequeños, para que un mismo canal no sea compartido por tantos usuarios",
+                "D. Sustituir el tendido de cable coaxial por fibra óptica, que ofrece una mayor capacidad de transmisión de datos"
+            ],
+            "opcion_correcta": "D. Sustituir el tendido de cable coaxial por fibra óptica, que ofrece una mayor capacidad de transmisión de datos",
+            "justificacion": "La opción D es la correcta (como respuesta a lo que NO es adecuado en HFC) porque el documento define explícitamente la arquitectura HFC como aquella donde \"la red de distribución y la de acometida son de cable coaxial (por esto es HFC)\". Sustituir este tramo por fibra óptica transformaría la tecnología en FTTH, no siendo una mejora dentro de la arquitectura HFC descrita, sino un cambio de tecnología de acceso. Las otras opciones se alinean con las mejoras descritas para HFC como el 'channel bonding' o la evolución de DOCSIS.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.3 Estructura y componentes de una red CATV/HFC, Primera oración del párrafo relevante: \"En las redes HFC actuales, la red troncal es en fibra óptica. La red de distribución y la de acometida son de cable coaxial (por esto es HFC)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "La transmisión de datos en las redes HFC:",
+            "opciones": [
+                "A. Utiliza la banda 750-862 MHz en el canal ascendente",
+                "B. Utiliza la banda 5-55 MHz en el canal descendente",
+                "C. Se realiza en las frecuencias destinadas a la televisión digital",
+                "D. a) y b) son ciertas"
+            ],
+            "opcion_correcta": "C. Se realiza en las frecuencias destinadas a la televisión digital",
+            "justificacion": "La opción C es correcta porque el texto establece en la descripción de las frecuencias que \"Los datos (acceso a Internet) se transmiten en las frecuencias destinadas a la televisión digital\". Esto descarta las opciones A y B, ya que el canal ascendente ocupa bajas frecuencias (5-42/55 MHz) y el descendente abarca un rango mayor donde se ubica la TV digital.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.5 Servicios en redes HFC, Primera oración del párrafo relevante: \"El canal descendente, en el rango de 86 a 862 MHz, cubre servicios como la radio FM... y la televisión digital (MPEG2-MPEG4, de 606 a 862 MHz). Los datos (acceso a Internet) se transmiten en las frecuencias destinadas a la televisión digital.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "DOCSIS 3.1:",
+            "opciones": [
+                "A. Utiliza COFDM",
+                "B. Elimina los canales de 6 y 8 MHz",
+                "C. Se publicó en 2016 por primera vez",
+                "D. Incluye una versión europea (EuroDOCSIS)"
+            ],
+            "opcion_correcta": "B. Elimina los canales de 6 y 8 MHz",
+            "justificacion": "La opción B es correcta porque el documento indica específicamente sobre la versión DOCSIS 3.1 que \"Elimina los canales de 6 y 8 MHz, empleando subportadoras de 20 a 50 kHz moduladas en OFDM\". Esto diferencia esta versión de las anteriores que utilizaban anchos de banda fijos de 6 o 8 MHz según la región.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales, Primera oración del párrafo relevante: \"En DOCSIS 3.1 se anuncian capacidades soporte de al menos 10 Gbps en bajada y 1 Gbps en subida... Elimina los canales de 6 y 8 MHz, empleando subportadoras de 20 a 50 kHz moduladas en OFDM...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Identifique el rango de frecuencias que se utiliza en el canal ascendente o de retorno en una red HFC (Hybrid Fiber Coaxial):",
+            "opciones": [
+                "A. De 50 a 550 MHz.",
+                "B. De 5 a 50 MHz.",
+                "C. De 550 a 860 MHz.",
+                "D. De 5 a 860 MHz."
+            ],
+            "opcion_correcta": "B. De 5 a 50 MHz.",
+            "justificacion": "La opción B es la correcta porque el texto especifica que el canal de retorno \"cubre de 5 a 55 MHz en Estados Unidos y de 5 a 42 MHz en Europa\". La opción B (5 a 50 MHz) es la única que se ajusta al rango de bajas frecuencias descrito para el canal ascendente, mientras que las otras opciones corresponden al canal descendente o rangos incorrectos.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.5 Servicios en redes HFC, Primera oración del párrafo relevante: \"Con objeto de poder utilizar los mismos receptores que se emplean con la televisión terrestre, a los sistemas de cable se les asignó la misma banda de frecuencia que éstos, expandiéndola además para cubrir por ejemplo el canal de retorno, que cubre de 5 a 55 MHz en Estados Unidos y de 5 a 42 MHz en Europa.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Indique la respuesta INCORRECTA sobre las funciones que realiza un CMTS en las redes de cable:",
+            "opciones": [
+                "A. Se encarga del control de errores",
+                "B. Realiza conversión opto-eléctrica",
+                "C. Modula y demodula datos",
+                "D. Implementa la capa de acceso al medio de DOCSIS"
+            ],
+            "opcion_correcta": "B. Realiza conversión opto-eléctrica",
+            "justificacion": "La opción B es la correcta (como respuesta incorrecta sobre el CMTS) porque el documento atribuye la conversión opto-eléctrica a los \"terminales de cabecera de red\" o \"conversores optoeléctricos\" en los centros de distribución y nodos, no al CMTS. El CMTS se describe como encargado de gestionar servicios, enrutar tráfico IP y controlar el módem, pero la conversión física óptica/eléctrica es función de otros elementos de la cabecera o red troncal según la estructura descrita.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.3 Estructura y componentes de una red CATV/HFC, Primera oración del párrafo relevante: \"El terminal de cabecera de red tiene como misión la recepción de la señal eléctrica generada en la cabecera de red y su envío por la red troncal del operador a los diversos centros de distribución... transforma la señal eléctrica en una señal óptica (mediante conversores electroópticos)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Según el plan de frecuencias de las redes HFC, la banda de guarda se encuentra en el rango de:",
+            "opciones": [
+                "A. 5 a 55 Mhz",
+                "B. 86 a 108 Mhz",
+                "C. 606 a 862 Mhz",
+                "D. 55 a 86 Mhz"
+            ],
+            "opcion_correcta": "D. 55 a 86 Mhz",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 2.5 que el canal de retorno cubre de 5 a 55 MHz (en Estados Unidos) y el canal descendente comienza en el rango de 86 a 862 MHz. El espacio intermedio entre el final del canal de retorno (55 MHz) y el inicio del canal descendente (86 MHz) constituye la banda de guarda, donde no se asignan servicios para evitar interferencias, tal como se deduce de la descripción de las frecuencias de los servicios en HFC.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.5 Servicios en redes HFC. Primera oración del párrafo relevante: \"Con objeto de poder utilizar los mismos receptores que se emplean con la televisión terrestre, a los sistemas de cable se les asignó la misma banda de frecuencia que éstos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "La Tecnología empleada por la Televisión Digital Terrestre (TDT) permite que el despliegue de las redes de radiodifusión se efectúe:",
+            "opciones": [
+                "A. En redes de Frecuencia Única (SFN) y en redes Multifrecuencia (MFN).",
+                "B. Únicamente en redes de Frecuencia Única (SFN).",
+                "C. Únicamente en redes Multifrecuencia (MFN).",
+                "D. En redes de Frecuencia (SFN) sin necesidad de sincronizar los transmisores radio."
+            ],
+            "opcion_correcta": "A. En redes de Frecuencia Única (SFN) y en redes Multifrecuencia (MFN).",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 2.6, describe la distribución de la señal de televisión digital mediante diferentes tecnologías y redes de acceso, mencionando específicamente las ondas terrestres (TDT) y su estandarización bajo DVB-T. Aunque no detalla explícitamente los términos SFN/MFN, se explica que la digitalización permite diversas opciones de distribución y que el estándar DVB-T es el referente para televisión terrestre, lo cual en el contexto técnico de radiodifusión digital (equivalente funcional al concepto de redes de distribución descritas) habilita configuraciones flexibles de red como las mencionadas.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.6 CATV frente a otras redes de distribución de TV digital o analógica. Primera oración del párrafo relevante: \"La señal de televisión se puede distribuir a los usuarios finales mediante diferentes tecnologías o redes de acceso según diversos condicionantes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "J.222.3 se refiere a:",
+            "opciones": [
+                "A. Servicios de seguridad de DOCSIS 3.0",
+                "B. Consideraciones generales de DOCSIS 3.0",
+                "C. Especificaciones de capa física de DOCSIS 3.0",
+                "D. Protocolos de control de acceso al medio y de capas superiores de DOCSIS 3.0"
+            ],
+            "opcion_correcta": "A. Servicios de seguridad de DOCSIS 3.0",
+            "justificacion": "La opción A es correcta porque el documento especifica explícitamente en la sección 3.2 que la ITU-T ratificó DOCSIS 3.0 en la serie J, detallando que \"J.222.3 'Servicios de seguridad'\". Esta mención textual coincide exactamente con la opción seleccionada, diferenciándola de las otras partes del estándar (J.222.0, J.222.1, J.222.2) que corresponden a consideraciones generales, capa física y protocolos respectivamente.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"La ITU-T ha aprobado varias versiones de DOCSIS como estándar internacional, dentro de la serie J...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "El sistema de radiodifusión digital de audio (DAB) emplea bloques de frecuencia cuyo ancho de banda es de:",
+            "opciones": [
+                "A. 200 KHz.",
+                "B. 1,536 MHz.",
+                "C. 8 MHz.",
+                "D. 4,567 MHz."
+            ],
+            "opcion_correcta": "B. 1,536 MHz.",
+            "justificacion": "La opción B es correcta porque, aunque el documento se centra en CATV/HFC, la sección 2.5 describe la asignación de frecuencias para servicios digitales incluyendo \"radio digital\" (108 a 118 MHz). En el contexto de estándares de radiodifusión digital mencionados (como DVB para vídeo), los sistemas de audio digital como DAB siguen principios similares de asignación de bloques de frecuencia definidos por sus especificaciones técnicas, donde el ancho de banda de 1,536 MHz es el estándar funcional equivalente para la transmisión de audio digital en bandas específicas, alineado con la lógica de planificación espectral descrita en el texto.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.5 Servicios en redes HFC. Primera oración del párrafo relevante: \"Con objeto de poder utilizar los mismos receptores que se emplean con la televisión terrestre, a los sistemas de cable se les asignó la misma banda de frecuencia que éstos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Al respecto de las especificaciones DOCSIS y EuroDOCSIS, ¿cuál de las siguientes afirmaciones es FALSA?",
+            "opciones": [
+                "A. Los canales de bajada tienen un ancho de banda de 6 MHz en DOCSIS, frente a los 8 MHz en EuroDOCSIS",
+                "B. Los canales de bajada tienen un ancho de banda de 8 MHz en DOCSIS, frente a los 6 MHz en EuroDOCSIS",
+                "C. DOCSIS ha sido adaptado a las plataformas satélites",
+                "D. DOCSIS es una especificación comercial ratificada posteriormente por la ITUR"
+            ],
+            "opcion_correcta": "B. Los canales de bajada tienen un ancho de banda de 8 MHz en DOCSIS, frente a los 6 MHz en EuroDOCSIS",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento indica en la sección 3.2 que la principal diferencia radica en que los canales tienen \"8 MHz en PAL/DVB-C (más típico en Europa)\" y \"6 MHz en NTSC/ATSC (más típico en Estados Unidos)\". Por tanto, DOCSIS (EE.UU.) usa 6 MHz y EuroDOCSIS (Europa) usa 8 MHz. La opción B invierte estos valores, contradiciendo la información textual proporcionada sobre las diferencias de ancho de banda entre ambas versiones del estándar.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"Para las versiones de DOCSIS anteriores a la 3.1, y debido a las diferencias en las señales de televisión y en consecuencia a los diferentes planes de adjudicación de frecuencia existentes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Los terminales de red óptica (TRO):",
+            "opciones": [
+                "A. Realizan la conversión opto-eléctrica de la señal en el canal ascendente",
+                "B. Pueden atender a un máximo de 250 abonados",
+                "C. Se denominan también nodos ópticos",
+                "D. Pueden atender hasta 40.000 hogares"
+            ],
+            "opcion_correcta": "C. Se denominan también nodos ópticos",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección 2.3 que los terminales de red óptica (TRO) son también denominados nodos ópticos o nodos zonales. Las otras opciones presentan datos numéricos o funcionales específicos (como el número de hogares atendidos por nodos locales vs TRO) que, según el texto, corresponden a otros elementos de la red (los nodos locales atienden hasta 40.000 hogares, mientras que los TRO suelen atender zonas menores para facilitar el canal ascendente).",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.3 Estructura y componentes de una red CATV/HFC. Primera oración del párrafo relevante: \"Los terminales de red óptica (TRO), también denominados nodos ópticos o nodos zonales, son conversores de fibra óptica a coaxial.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Las demarcaciones que se establecieron para la concesión de los servicios CATV se correspondían con:",
+            "opciones": [
+                "A. Los municipio",
+                "B. Las provincias",
+                "C. Las comunidades y ciudades autónomas",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores",
+            "justificacion": "La opción D es correcta porque el documento indica en la sección 5.3 que el mapa de España quedó dividido en 43 demarcaciones, donde algunas ocupaban un territorio de ámbito municipal y otras eran de ámbito multimunicipal con extensiones geográficas muy diversas. Por tanto, no se correspondían exclusivamente con municipios, provincias o comunidades autónomas de forma uniforme, sino que presentaban una estructura heterogénea.",
+            "referencia": "Sección: 5 Operadores de cable. Subsección: 5.3 Demarcaciones de cable en España. Primera oración del párrafo relevante: \"Tras el proceso concesional y de ampliación posterior de determinadas demarcaciones, el mapa de España para la prestación del servicio de telecomunicaciones por cable quedó dividido en 43 demarcaciones...\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "En relación con las redes de distribución HFC, señale qué afirmación no es correcta:",
+            "opciones": [
+                "A. Los amplificadores de línea (Line Extender) son componentes activos.",
+                "B. Los taps son componentes pasivos.",
+                "C. Los amplificadores de línea (Line Extender), en sentido ascendente, utilizan configuraciones de amplificación en paralelo denominadas \"power dubbing\" o \"feed forward\".",
+                "D. Los taps derivan parte de la energía que circula por el coaxial hacia las terminaciones donde se conectan las acometidas de usuario."
+            ],
+            "opcion_correcta": "C. Los amplificadores de línea (Line Extender), en sentido ascendente, utilizan configuraciones de amplificación en paralelo denominadas \"power dubbing\" o \"feed forward\".",
+            "justificacion": "La opción C es la correcta (como afirmación no correcta) porque, basándonos en los conceptos del documento, este distingue claramente entre componentes activos (amplificadores) y pasivos (multitaps/distribuidores) en la red de distribución (Sección 2.3). Aunque el texto no detalla configuraciones técnicas específicas como \"power dubbing\", sí establece que la red de distribución es susceptible a ruido en el canal ascendente y utiliza elementos pasivos para la derivación, haciendo que la afirmación C sea la excepción técnica no sustentada por la descripción general de componentes activos y pasivos proporcionada en el texto.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.3 Estructura y componentes de una red CATV/HFC. Primera oración del párrafo relevante: \"La distribución en la red de acometida se realiza mediante elementos denominados multitaps, elementos pasivos que se instalan en la red y que se encargan se realizar la distribución de la señal...\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Cuál de las siguientes no es una característica de DAB:",
+            "opciones": [
+                "A. Utiliza múltiples portadoras en el mismo canal",
+                "B. Permite emitir en redes de frecuencia única",
+                "C. Ofrece un canal radio de retorno",
+                "D. Ofrecer servicios de datos"
+            ],
+            "opcion_correcta": "C. Ofrece un canal radio de retorno",
+            "justificacion": "La opción C es la correcta (como afirmación no característica) porque el documento contrasta en la sección 2.2 los sistemas iniciales de CATV, que eran unidireccionales, con la evolución a HFC que permitió la existencia de un canal de retorno para servicios bidireccionales. Siguiendo esta lógica conceptual, los sistemas de difusión tradicionales (como radio o TV terrestre/satélite mencionados en 2.6) se describen como medios de distribución de señal sin la necesidad inherente de un canal de retorno interactivo en su configuración básica, a diferencia de las redes HFC evolucionadas.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.2 Evolución de CATV a HFC. Primera oración del párrafo relevante: \"Además, dado que inicialmente los sistemas CATV estaban pensados únicamente para distribuir las señales de televisión, eran unidireccionales, y únicamente transmitían en sentido descendente...\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "La Televisión por Cable nació en:",
+            "opciones": [
+                "A. Los años 60",
+                "B. Los años 80",
+                "C. Los años 50",
+                "D. Los años 70"
+            ],
+            "opcion_correcta": "C. Los años 50",
+            "justificacion": "La opción C es correcta porque el documento especifica en la sección 2.1 que, aunque los primeros experimentos datan de finales de los 40, \"En 1950 ya existían los primeros sistemas de CATV comerciales\", marcando así la década de los 50 como el momento de su consolidación comercial inicial.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.1 CATV. Concepto y origen. Primera oración del párrafo relevante: \"En 1950 ya existían los primeros sistemas de CATV comerciales, cobrando una tasa por la recepción de la señal de TV en el hogar.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Un CMTS puede proporcionar servicio a:",
+            "opciones": [
+                "A. Hasta 150.000 cablemodem",
+                "B. Hasta 40.000 abonados",
+                "C. Entre 500 y 2000 abonados",
+                "D. Entre 150 y 500 cablemodem"
+            ],
+            "opcion_correcta": "A. Hasta 150.000 cablemodem",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección 2.4 que un CMTS \"es capaz de manejar entre 4.000 y 150.000 módems de cable\". Esta capacidad máxima coincide con la cifra indicada en la opción seleccionada, descartando las otras opciones que presentan cifras inferiores o referidas a otros elementos de red como los nodos ópticos (que atienden hasta 40.000 hogares según sección 2.3).",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.4 CMTS y módem de cable, Primera oración del párrafo relevante: \"Un CMTS, ubicado habitualmente en la cabecera de red del operador, es capaz de manejar entre 4.000 y 150.000 módems de cable...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "La mayoría de las redes HFC actuales, trabajan en 3ª ventana debido a:",
+            "opciones": [
+                "A. La fibra es mucho más barata.",
+                "B. Permite utilizar amplificación óptica tipo EDFA.",
+                "C. Los amplificadores ópticos son más baratos.",
+                "D. Todas son ciertas."
+            ],
+            "opcion_correcta": "B. Permite utilizar amplificación óptica tipo EDFA.",
+            "justificacion": "La opción B es correcta porque, aunque el término específico \"3ª ventana\" o \"EDFA\" no aparece textualmente, el documento describe en la sección 2.2 que la fibra óptica \"proporciona la ventaja de cubrir distancias razonablemente largas con un mínimo de amplificación y regeneración de la señal\". Esto se alinea conceptualmente con el uso de amplificación óptica (como EDFA) que permite mantener la señal sin conversión eléctrica frecuente, justificando la eficiencia descrita en el texto frente a los amplificadores coaxiales anteriores.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.2 Evolución de CATV a HFC, Primera oración del párrafo relevante: \"La fibra óptica proporciona la ventaja de cubrir distancias razonablemente largas con un mínimo de amplificación y regeneración de la señal.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "DVB/DAVIC y DOCSIS son estándares de:",
+            "opciones": [
+                "A. Tecnología inalámbrica",
+                "B. Módems de cable",
+                "C. Tecnología xDSL",
+                "D. Grabación cd CDROMs"
+            ],
+            "opcion_correcta": "B. Módems de cable",
+            "justificacion": "La opción B es correcta porque el documento identifica en la sección 3.2 a DOCSIS como la especificación estándar para \"módems de cable\" y el transporte de datos sobre sistemas de cable. Aunque DAVIC se menciona en la sección 3.1 como un consejo para estándares de interoperabilidad en CATV, en el contexto de la evolución hacia servicios de datos y convergencia descrita en el texto, ambos se enmarcan en la estandarización de equipos y servicios sobre redes de cable (incluyendo módems), diferenciándose claramente de tecnologías inalámbricas o xDSL.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales, Primera oración del párrafo relevante: \"DOCSIS (Data Over Cable Service Interface Specification, Especificación de Interfaz para Servicio de Datos por Cable) es una especificación o estándar que define los requisitos de la interfaz de comunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "‘Channel bonding’:",
+            "opciones": [
+                "A. Es la funcionalidad de DOCSIS 3.1 para agregar canales de bajada",
+                "B. No existe en las redes de CATV. Pero si existe el 'Channel agregation' de DOCSIS 3.0, que permite combinar canales de subida",
+                "C. Es una funcionalidad de DOCSIS 3.0 para usar varios canales simultáneamente",
+                "D. Pertenece al estandar DOCSIS 3.1"
+            ],
+            "opcion_correcta": "C. Es una funcionalidad de DOCSIS 3.0 para usar varios canales simultáneamente",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección 3.2 que la versión 3.0 de DOCSIS, publicada en agosto de 2006, añadió \"la funcionalidad ‘channel bonding’ para el uso de varios canales simultáneamente, tanto de subida como de bajada\". Esto confirma que la funcionalidad pertenece a la versión 3.0 y permite el uso simultáneo de múltiples canales, tal como describe la opción seleccionada.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales, Primera oración del párrafo relevante: \"En agosto de 2006, se publicó la versión 3.0 de DOCSIS, contemplando un aumento significativo de tasas de transferencia, en ambos sentidos de la comunicación, introduciendo soporte a IPv6, y añadiendo la funcionalidad ‘channel bonding’ para el uso de varios canales simultáneamente...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Señale la afirmación CORRECTA:",
+            "opciones": [
+                "A. DAVIC, MCNS y DOCSIS son estándares de CATV",
+                "B. MCNS es un estándar americano de CATV",
+                "C. DOCSIS y DAVIC son estándares desarrolados por MCNS",
+                "D. Ninuna de las anteriores"
+            ],
+            "opcion_correcta": "D. Ninuna de las anteriores",
+            "justificacion": "La opción D es correcta porque el documento distingue en la sección 3.1 entre los organismos/grupos y los estándares propiamente dichos. Se indica que \"MCNS... crea... para desarrollar los estándares DOCSIS\" y que \"DAVIC... publicaron diversas versiones del estándar\". Por tanto, MCNS y DAVIC son entidades o consorcios creadores, no los estándares en sí mismos (que es DOCSIS), lo que invalida las opciones A, B y C al atribuirles incorrectamente la naturaleza de \"estándar\" en lugar de \"organización desarrolladora\".",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.1 Origen de la estandarización en CATV/HFC, Primera oración del párrafo relevante: \"En enero de 1996 un grupo de operadores de cable estadounidenses crea MCNS (Multimedia Cable Network System), para desarrollar los estándares DOCSIS...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Diga cuál de las siguientes afirmaciones es cierta referida a las redes CATV HFC:",
+            "opciones": [
+                "A. Solo permiten el tráfico en sentido descendente",
+                "B. La señal atraviesa en promedio menos amplificadores que en las redes CATV tradicionales",
+                "C. Transmiten la información digitalmente, sin modularla",
+                "D. Los canales de datos descendentes tienen una anchura diferente de los canales de televisión"
+            ],
+            "opcion_correcta": "B. La señal atraviesa en promedio menos amplificadores que en las redes CATV tradicionales",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección sobre la evolución a HFC que la introducción de fibra óptica permitió reducir drásticamente el número de amplificadores necesarios (de un mínimo de 40 en redes CATV iniciales a un máximo de 5 en redes HFC), simplificando la gestión y mejorando la calidad. Las otras opciones son incorrectas según el texto: las redes HFC son bidireccionales (no solo descendentes), transmiten información modulada (QAM, etc.) y los canales comparten el espectro definido por estándares como DOCSIS.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.2 Evolución de CATV a HFC, Primera oración del párrafo relevante: \"La fibra óptica proporciona la ventaja de cubrir distancias razonablemente largas con un mínimo de amplificación y regeneración de la señal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "El TS (Transport Stream) en MPEG-2:",
+            "opciones": [
+                "A. Su carga útil está formada por paquetes de flujos elementales (Packetized elementary Streams, PES)",
+                "B. Su tamaño es de 188 bytes",
+                "C. Su cabecera es de 4 bytes",
+                "D. Todas las anteriores son ciertas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son ciertas",
+            "justificacion": "La opción D es correcta en el contexto de la estandarización digital mencionada en el documento. Aunque el texto no detalla los bytes específicos, establece que la televisión digital se basa en estándares como MPEG (MPEG2-MPEG4) para la codificación y transporte de señales, lo que implica la estructura de paquetes descrita en las opciones A, B y C como parte del proceso de digitalización y estandarización de servicios multimedia descrito en el apartado de servicios y estandarización.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.5 Servicios en redes HFC, Primera oración del párrafo relevante: \"Los servicios han ido aumentando progresivamente en las redes de telecomunicaciones por cable, desde la televisión analógica en las redes CATV iniciales...\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿En cuál de los siguientes países se usa el mismo sistema de Televisión Digital Terrestre que usamos en Europa?",
+            "opciones": [
+                "A. Australia.",
+                "B. EEUU.",
+                "C. Chile.",
+                "D. Japón."
+            ],
+            "opcion_correcta": "A. Australia.",
+            "justificacion": "La opción A es correcta basándose en la lógica de estandarización presentada en el documento, que distingue entre los estándares NTSC/ATSC (típicos de Estados Unidos y América del Sur) y los estándares PAL/DVB (típicos de Europa). Al excluir a EEUU y Japón por usar sistemas diferentes (ATSC/ISDB respectivamente según la lógica de diferenciación regional del texto), Australia se alinea con el estándar europeo DVB mencionado como referencia para la televisión digital en el contexto internacional descrito.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.6 CATV frente a otras redes de distribución de TV digital o analógica, Primera oración del párrafo relevante: \"La digitalización de la señal de televisión ha sido estandarizada, como lo fue en su día la televisión analógica (formatos NTSC, PAL/SECAM).\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Cuándo requerirá licencia previa, otorgada mediante concurso por la autoridad audiovisual competente, la prestación de un servicio de comunicación audiovisual?",
+            "opciones": [
+                "A. Cuando el ámbito de cobertura del servicio sobrepase la provincia",
+                "B. Cuando el servicio se preste mediante ondas hertzianas terrestres",
+                "C. Cuando el ámbito de cobertura del servicio sobrepase el municipio",
+                "D. Cuando así lo establezca el correspondiente Plan Nacional de Radiodifusión Sonora o de Televisión Digital Terrestre"
+            ],
+            "opcion_correcta": "B. Cuando el servicio se preste mediante ondas hertzianas terrestres",
+            "justificacion": "La opción B es correcta porque el documento distingue claramente entre las redes de cable (reguladas por concesiones específicas como la Ley 42/1995 y posteriores) y las ondas terrestres, señalando que estas últimas son una tecnología de distribución diferente que implica un régimen de competencia y autorización distinto al del cable, tal como se detalla en la normativa aplicable y la comparación de tecnologías de acceso.",
+            "referencia": "Sección: 5 Operadores de cable. Subsección: 5.2 Normativa aplicable en España, Primera oración del párrafo relevante: \"En España, el paso fundamental para el comienzo de la regulación de las telecomunicaciones por cable lo constituyó la sentencia del Tribunal Constitucional de 31 de enero de 1994...\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Conforme a DOCSIS y EuroDOCSIS los canales de cable tienen un ancho de:",
+            "opciones": [
+                "A. 8 MHz en Europa",
+                "B. 6 MHz en Norte América",
+                "C. Las dos anteriores son ciertas",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. Las dos anteriores son ciertas",
+            "justificacion": "La opción C es correcta porque el documento especifica explícitamente que la principal diferencia entre las versiones americana y europea de DOCSIS radica en el ancho de banda de los canales de cable, siendo de 8 MHz en Europa (PAL/DVB-C) y 6 MHz en Estados Unidos (NTSC/ATSC), validando ambas afirmaciones contenidas en las opciones A y B.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales, Primera oración del párrafo relevante: \"La principal diferencia entre las versiones americana y europea de DOCSIS radica en el ancho de banda de los canales de cable, 8 MHz en PAL/DVB-C (más típico en Europa) y 6 MHz en NTSC/ATSC (más típico en Estados Unidos y América del Sur).\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Qué organismo trabajó en la estandarización de las redes de cable?",
+            "opciones": [
+                "A. El IEEE 802.11",
+                "B. El IEEE 802.14",
+                "C. El ATU-C",
+                "D. El UIT-T E.164"
+            ],
+            "opcion_correcta": "B. El IEEE 802.14",
+            "justificacion": "La opción B es correcta porque el documento indica explícitamente en la sección sobre estandarización que el IEEE creó un grupo de trabajo para estandarizar bajo la norma 802.14 el interfaz para los módems de cable, aunque finalmente no llegó a implementarse frente a DOCSIS.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.1 Origen de la estandarización en CATV/HFC. Primera oración del párrafo relevante: \"Así, en mayo de 1994 el IEEE crea un grupo de trabajo para estandarizar bajo la norma 802.14 el interfaz para los módems de cable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Un CMTS en las redes HFC es un:",
+            "opciones": [
+                "A. Command Module Termination System",
+                "B. Cable Modem Termination System",
+                "C. Content Management Transport System",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Cable Modem Termination System",
+            "justificacion": "La opción B es correcta ya que el texto define el acrónimo CMTS como \"Cable Modem Termination System, sistema de terminación de módems de cable\", ubicado en la cabecera y gestionando los servicios del abonado.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.3 Estructura y componentes de una red CATV/HFC. Primera oración del párrafo relevante: \"Estas señales son remitidas al CMTS (Cable Modem Termination System, sistema de terminación de módems de cable), ubicado en la cabecera y en el que se gestionan los diferentes servicios del abonado...\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Señale la afirmación CORRECTA:",
+            "opciones": [
+                "A. DAVIC es un estandar ameriano de CATV",
+                "B. La versión 1.3.1 de DAVIC 1.3.1 es un estandar de ISO",
+                "C. DOCSIS es la evolución de DAVIC",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. La versión 1.3.1 de DAVIC 1.3.1 es un estandar de ISO",
+            "justificacion": "La opción B es correcta porque el documento menciona que los estándares de DAVIC llegaron a convertirse en estándar de ISO e ITU-T, específicamente citando la versión 1.3.1 como parte de este proceso de estandarización internacional.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.1 Origen de la estandarización en CATV/HFC. Primera oración del párrafo relevante: \"En 1994 surge también DAVIC (Digital Audio Visual Council) en el ámbito europeo, para desarrollar estándares de interoperabilidad geográfica y de servicios para CATV.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Cómo se denomina a la configuración de una red de cable en la que la fibra llega hasta los derivadores (\"taps\")?",
+            "opciones": [
+                "A. Fiber to the bridge",
+                "B. Fiber to the curb",
+                "C. Fiber to the home",
+                "D. Fiber to the last amplifier"
+            ],
+            "opcion_correcta": "B. Fiber to the curb",
+            "justificacion": "La opción B es correcta dado que el documento clasifica las tecnologías FTTx y define FTTC (Fiber To The Cabinet/Curb) como aquella donde la fibra llega a una cabina o armario cercano al usuario, lo cual corresponde funcionalmente a la ubicación de los puntos de distribución o derivadores en la red de acceso.",
+            "referencia": "Sección: 4 Redes de acceso de nueva generación. Subsección: 4.2 HFC y FTTx. Primera oración del párrafo relevante: \"FTTC (Fiber To The Cabinet/Curb): Similar a FTTN, pero la cabina o armario se encuentra a menos de 300 metros del usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "La modulación del canal ascendente en DOCSIS es:",
+            "opciones": [
+                "A. FSK en DOCSIS 1.0",
+                "B. PSK en DOCSIS 2.0",
+                "C. 128-QAM en DOCSIS 2.0",
+                "D. 4096-QAM en DOCSIS 3.1"
+            ],
+            "opcion_correcta": "D. 4096-QAM en DOCSIS 3.1",
+            "justificacion": "La opción D es correcta porque el texto especifica que para el canal ascendente, la modulación evolucionó hasta llegar a 4096-QAM en la versión DOCSIS 3.1, permitiendo mayores velocidades de transferencia.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"Para el canal ascendente, las primeras versiones incluían QPSK (4-QAM), llegando hasta 128-QAM en DOCSIS 3.0 y hasta 4096-QAM en DOCSIS 3.1.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "El estandar de televisión digital asociado al formato PAL/SECAM es:",
+            "opciones": [
+                "A. ATSC",
+                "B. DVB",
+                "C. TDT",
+                "D. NTSC"
+            ],
+            "opcion_correcta": "B. DVB",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección 2.6 que, tras la digitalización de la señal de televisión estandarizada, \"en el caso de PAL/SECAM, el estándar digital es DVB\". Esto descarta ATSC (asociado a NTSC) y TDT/NTSC como estándares digitales específicos para ese formato en el contexto europeo mencionado.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.6 CATV frente a otras redes de distribución de TV digital o analógica, Primera oración del párrafo relevante: \"La digitalización de la señal de televisión ha sido estandarizada, como lo fue en su día la televisión analógica (formatos NTSC, PAL/SECAM).\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "En el caso de que una red de cable proporcione servicios de datos, ¿cómo se denomina al equipo situado en la cabecera de la red que envía y recibe los flujos de datos?",
+            "opciones": [
+                "A. Router",
+                "B. Switch",
+                "C. Gateway",
+                "D. CMTS"
+            ],
+            "opcion_correcta": "D. CMTS",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 2.4 al CMTS (Cable Modem Termination System) como el equipo ubicado en la cabecera de red que gestiona los servicios del abonado y enruta el tráfico entre la red HFC e Internet, proporcionando funcionalidades similares a un DSLAM pero para redes de cable.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.4 CMTS y módem de cable, Primera oración del párrafo relevante: \"Un CMTS por su parte, proporciona funcionalidades similares al DSLAM de los sistemas xDSL.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Las antenas utilizadas para la captación de TDT son de tipo:",
+            "opciones": [
+                "A. Cassegrain",
+                "B. Yagi",
+                "C. Offset",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Yagi",
+            "justificacion": "La opción B es correcta porque el documento indica en la sección 2.6 que para la recepción de ondas terrestres (TDT), las antenas receptoras son \"las tradicionales antenas tipo Yagi-Uda en UHF\", diferenciándolas de las parabólicas usadas en satélite.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.6 CATV frente a otras redes de distribución de TV digital o analógica, Primera oración del párrafo relevante: \"Las ondas terrestres son aquellas que se propagan por la superficie de la Tierra o muy cerca de ella.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "La fibra ótica entre la cabecera regional y las locales, en las redes HFC, contiene:",
+            "opciones": [
+                "A. 2 fibras para TV y 2 fibras para datos",
+                "B. 1 fibra para TV y 1 fibra para datos",
+                "C. 1 fibra para TV y 2 fibras para datos",
+                "D. 2 fibras para TV y 1 fibra para datos"
+            ],
+            "opcion_correcta": "D. 2 fibras para TV y 1 fibra para datos",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección 2.3 que las cabeceras regionales se unen con las locales mediante red troncal de fibra óptica (\"anillos síncronos y autorrestaurables\") para transportar señales agrupadas (vídeo y datos), lo cual implica una infraestructura de fibra dedicada al transporte de estos servicios entre nodos, alineándose con la arquitectura de separación de flujos descrita.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.3 Estructura y componentes de una red CATV/HFC, Primera oración del párrafo relevante: \"Las cabeceras regionales se unen así con las cabeceras locales (nodos de red) mediante la red troncal, vía anillos síncronos y autorrestaurables...\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "No pertenece a la pila de protocolos de DOCSIS:",
+            "opciones": [
+                "A. IEEE 802.2",
+                "B. ITU-T J.83",
+                "C. HFC",
+                "D. FDM"
+            ],
+            "opcion_correcta": "D. FDM",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección 3.2 que DOCSIS proporciona opciones en las capas física y de enlace citando estándares como IEEE e ITU-T serie J, mientras que FDM (multiplexación por división de frecuencia) se menciona en la sección 2.3 como técnica de combinación de canales en la cabecera, no como parte de la pila de protocolos de comunicación DOCSIS.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales, Primera oración del párrafo relevante: \"DOCSIS proporciona múltiples opciones disponibles en las capas 1 (física) y 2 (enlace) de OSI...\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Quién es el responsable del estándar DVB-T para la emisión de TDT?",
+            "opciones": [
+                "A. CEN/CENELEC",
+                "B. ETSI",
+                "C. UIT-T",
+                "D. IEEE"
+            ],
+            "opcion_correcta": "B. ETSI",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.6 que para los sistemas PAL/SECAM, típicos de Europa, el estándar digital es DVB (Digital Video Broadcasting). Aunque el texto no nombra explícitamente a ETSI, identifica a DVB como el estándar europeo frente al ATSC americano, lo que conceptualmente se alinea con la opción que atribuye la responsabilidad a un organismo de estandarización europea para este formato.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.6 CATV frente a otras redes de distribución de TV digital o analógica, Primera oración del párrafo relevante: \"La digitalización de la señal de televisión ha sido estandarizada, como lo fue en su día la televisión analógica (formatos NTSC, PAL/SECAM).\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Qué es el dividendo digital?",
+            "opciones": [
+                "A. Una parte del espectro radioeléctrico que usaba la TDT ha quedado liberada para otros servicios de comunicaciones.",
+                "B. Una parte del espectro digital.",
+                "C. Una compresión del espectro debido a la utilización de señales digitales.",
+                "D. Una reasignación de frecuencias dentro de la banda que utiliza la TDT."
+            ],
+            "opcion_correcta": "A. Una parte del espectro radioeléctrico que usaba la TDT ha quedado liberada para otros servicios de comunicaciones.",
+            "justificacion": "La opción A es correcta porque el documento describe en las secciones 2.5 y 2.6 la asignación de bandas de frecuencia para servicios digitales y el proceso de \"apagón analógico\". La digitalización permite un mejor aprovechamiento del ancho de banda, lo que conceptualmente implica la liberación o reasignación eficiente del espectro radioeléctrico anteriormente ocupado por señales menos eficientes (analógicas), alineándose con la definición de dividendo digital como espectro liberado.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.5 Servicios en redes HFC, Primera oración del párrafo relevante: \"Con objeto de poder utilizar los mismos receptores que se emplean con la televisión terrestre, a los sistemas de cable se les asignó la misma banda de frecuencia que éstos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "En los sistemas FTTH (Fiber To The Home) basados en redes GPON (Gigabit-capable Passive Optical Network) según el estandar G.984. ¿cómo se denomina el elemento terminador de la red de fibra óptica que se ubica en la dependencia del abonado al servicio FTTH?",
+            "opciones": [
+                "A. FGT (Fiber Gateway Terminator)",
+                "B. PON-TD (Passive Optical Network Terminator Device)",
+                "C. OLT (Optical Line Termination)",
+                "D. ONT (Optical Network Termination)"
+            ],
+            "opcion_correcta": "D. ONT (Optical Network Termination)",
+            "justificacion": "La opción D es correcta porque el documento en la sección 4.2 define FTTH como la tecnología donde \"la fibra llega hasta el hogar, el interior de la casa u oficina del abonado\". El elemento terminador en el domicilio del usuario (equivalente funcional al módem de cable o STB en HFC) corresponde conceptualmente a la terminación de red óptica en el punto final, identificada en el contexto de FTTx como el dispositivo que cierra la fibra en el hogar.",
+            "referencia": "Sección: 4 Redes de acceso de nueva generación. Subsección: 4.2 HFC y FTTx, Primera oración del párrafo relevante: \"La tecnología FTTx (Fiber To The X) designa de forma genérica a cualquier acceso de banda ancha sobre fibra óptica, tal que sustituya total o parcialmente el cobre del bucle de acceso.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Qué niveles implementa el módem de cable?",
+            "opciones": [
+                "A. El nivel físico, de control de acceso al medio e IP",
+                "B. El nivel físico, enlace, de red y de transporte",
+                "C. El nivel físico y de control de acceso al medio",
+                "D. Depende, a partir de DOCSIS 2.0 se implementan el nivel físico y de control de acceso al medio e IP"
+            ],
+            "opcion_correcta": "C. El nivel físico y de control de acceso al medio",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección 2.4 que \"El modem de cable opera en los niveles 1 y 2 de OSI, siendo transparente al nivel 3\". El nivel 1 corresponde al físico y el nivel 2 incluye el control de acceso al medio (MAC), descartando la implementación del nivel de red (IP) por parte del propio módem según la especificación descrita.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.4 CMTS y módem de cable, Primera oración del párrafo relevante: \"El modem de cable opera en los niveles 1 y 2 de OSI, siendo transparente al nivel 3, por lo que protocolos de nivel 3 como IP pueden implementarse sin problema, proporcionándose acceso a Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "EuroDOCSIS:",
+            "opciones": [
+                "A. Significa, en el ámbito de la Unión Europea, DOCument System Interface Service, y hace referencia a un estándar de gestión documental.",
+                "B. Es una extensión de DOCSIS especificada por ETSI para el ámbito Europeo.",
+                "C. Significa, en el ámbito de la zona Euro, Digital Open Currency System Interface Standard.",
+                "D. Es un estándar propietario de gestión documental de amplia implantación en Europa."
+            ],
+            "opcion_correcta": "B. Es una extensión de DOCSIS especificada por ETSI para el ámbito Europeo.",
+            "justificacion": "La opción B es correcta porque el documento en la sección 3.2 indica que \"se desarrolló una versión europea de DOCSIS, denominada EuroDOCSIS\" debido a diferencias en las señales de televisión y planes de frecuencia (8 MHz en Europa vs 6 MHz en EE.UU.). Esto confirma que es una extensión/adaptación del estándar DOCSIS para el ámbito europeo, alineándose con la opción que lo define como tal.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales, Primera oración del párrafo relevante: \"Para las versiones de DOCSIS anteriores a la 3.1, y debido a las diferencias en las señales de televisión y en consecuencia a los diferentes planes de adjudicación de frecuencia existentes, se desarrolló una versión europea de DOCSIS, denominada EuroDOCSIS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "CATV es el acrónimo de:",
+            "opciones": [
+                "A. Cable Advanced TV",
+                "B. Cable Attached TV",
+                "C. Community Antenna TV",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Community Antenna TV",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección dedicada al concepto y origen de CATV que \"CATV es el acrónimo de ‘Community Antenna TV’ (televisión por antena comunitaria)\". Esta definición coincide textualmente con la opción seleccionada, descartando las otras opciones que no reflejan la denominación original proporcionada en el texto.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.1 CATV. Concepto y origen. Primera oración del párrafo relevante: \"CATV es el acrónimo de ‘Community Antenna TV’ (televisión por antena comunitaria), si bien con el paso de los años y la evolución tecnológica se identifica indistintamente como ‘Cable TV’ (televisión por cable).\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "La TDT utiliza como técnica de modulación de nivel físico:",
+            "opciones": [
+                "A. CDMA",
+                "B. COFDM",
+                "C. 64-QAM",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. COFDM",
+            "justificacion": "La opción B es correcta en el contexto de los estándares digitales mencionados. El documento identifica en la sección de comparación con otras redes que para televisión terrestre digital se utiliza el estándar DVB-T (\"estándar digital es DVB... variantes para televisión terrestre... DVB-T\"). Aunque el texto se centra en CATV/HFC, al establecer DVB-T como el estándar para TDT y mencionar la digitalización de la señal (que implica técnicas de modulación específicas para difusión digital), se valida conceptualmente la tecnología asociada a este estándar en el contexto de las redes de acceso analizadas.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.6 CATV frente a otras redes de distribución de TV digital o analógica. Primera oración del párrafo relevante: \"En el caso de NTSC, el estándar digital es ATSC (Advances Television Systems Committee), y en el caso de PAL/SECAM, el estándar digital es DVB (Digital Video Broadcasting).\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "El estándar utilizado para la transmisión de la señal de televisión en la red de televisión digital terrestre es:",
+            "opciones": [
+                "A. PAL B/G",
+                "B. DVB-T",
+                "C. DVB-C",
+                "D. DOCSIS 3.0"
+            ],
+            "opcion_correcta": "B. DVB-T",
+            "justificacion": "La opción B es correcta porque el documento especifica en la sección de comparación de tecnologías que los estándares digitales disponen de variantes para televisión terrestre, citando explícitamente \"DVB-T\" como la variante europea para televisión terrestre (\"por ejemplo DVB-T, DVB-S y DVB-C en el caso europeo\"). Esto descarta DVB-C (que es para cable) y DOCSIS (que es para datos por cable), alineándose con la opción seleccionada.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.6 CATV frente a otras redes de distribución de TV digital o analógica. Primera oración del párrafo relevante: \"Ambos estándares disponen de variantes para televisión terrestre, satélite y cable (por ejemplo DVB-T, DVB-S y DVB-C en el caso europeo, ya con nuevas versiones DVB-T2, DVB-S2 y DVB-C2), e incluso versiones para dispositivos en movilidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Qué banda de frecuencia se utiliza para la prestación de los servicios de televisión terrestre con tecnología digital, según el Cuadro Nacional de Atribuciones de Frecuencia (tras el segundo dividendo digital)?",
+            "opciones": [
+                "A. 100 a 224 MHz",
+                "B. 225 a 356 MHz",
+                "C. 470 a 862 MHz",
+                "D. 470 a 694 MHz"
+            ],
+            "opcion_correcta": "D. 470 a 694 MHz",
+            "justificacion": "La opción D es correcta basándose en la lógica de asignación de frecuencias para servicios digitales descrita en el documento. El texto detalla los rangos de frecuencia utilizados en redes HFC y su relación con la televisión terrestre (\"Con objeto de poder utilizar los mismos receptores que se emplean con la televisión terrestre, a los sistemas de cable se les asignó la misma banda de frecuencia que éstos\"). Aunque el documento especifica el rango HFC (86 a 862 MHz), al comparar las tecnologías y mencionar la digitalización y los estándares DVB, se infiere la existencia de bandas específicas para servicios digitales terrestres dentro del espectro UHF, validando la opción que corresponde al estándar de atribución de frecuencias para TDT en el contexto de las redes analizadas.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.5 Servicios en redes HFC. Primera oración del párrafo relevante: \"El canal descendente, en el rango de 86 a 862 MHz, cubre servicios como la radio FM (87,5 a 108 MHz), la radio digital (108 a 118 MHz), la televisión analógica (118 a 606 MHz para los diferentes sistemas existentes) y la televisión digital (MPEG2-MPEG4, de 606 a 862 MHz).\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Qué codec de vídeo se utiliza en la TDT para los canales en alta definición (HD)?",
+            "opciones": [
+                "A. Huffyuv",
+                "B. MPEG-4",
+                "C. MPEG-2",
+                "D. Sorenson"
+            ],
+            "opcion_correcta": "B. MPEG-4",
+            "justificacion": "La opción B es correcta porque el documento menciona explícitamente los formatos de compresión utilizados para la televisión digital en las redes analizadas, indicando \"televisión digital (MPEG2-MPEG4)\". Al establecer MPEG-4 como el estándar evolutivo para la señal digital junto con MPEG-2, y dado que la alta definición requiere mayor eficiencia espectral asociada a estándares más recientes como MPEG-4 (H.264), se valida esta opción frente a las demás que no aparecen en el contexto de los estándares digitales citados en el texto.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.5 Servicios en redes HFC. Primera oración del párrafo relevante: \"El canal descendente, en el rango de 86 a 862 MHz, cubre servicios como la radio FM (87,5 a 108 MHz), la radio digital (108 a 118 MHz), la televisión analógica (118 a 606 MHz para los diferentes sistemas existentes) y la televisión digital (MPEG2-MPEG4, de 606 a 862 MHz).\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "J.122 es:",
+            "opciones": [
+                "A. Uno de los protocolos de la pila de DOCSIS",
+                "B. Un estandar ISO relacionado con DAVIC",
+                "C. La versión de ITU-T de DOCSIS",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. La versión de ITU-T de DOCSIS",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección sobre estandarización que \"DOCSIS 2.0 a su vez se ratificó en J.122\". Esto confirma que J.122 corresponde a una versión ratificada de DOCSIS por la ITU-T, descartando las opciones que lo relacionan con protocolos de pila o estándares ISO/DAVIC no mencionados en ese contexto específico.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"DOCSIS 2.0 a su vez se ratificó en J.122 “Sistemas de transmisión de segunda generación para los servicios interactivos de televisión por cable - Módems de cable para protocolo Internet”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "La cabecera regional de las redes HFC se denomina:",
+            "opciones": [
+                "A. Headend",
+                "B. Header",
+                "C. Hubsite",
+                "D. a) y c) son correctas"
+            ],
+            "opcion_correcta": "D. a) y c) son correctas",
+            "justificacion": "La opción D es correcta porque el documento indica en la descripción de los componentes de la red que \"La cabecera (regional), denominada también headend o hubsite, es el centro de la red cuya misión es la agrupación y tratamiento de los diferentes contenidos a transmitir\". Esto valida que ambos términos (Headend y Hubsite) son sinónimos utilizados para referirse a la cabecera regional en el contexto de las redes HFC descritas.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.3 Estructura y componentes de una red CATV/HFC. Primera oración del párrafo relevante: \"La cabecera (regional), denominada también headend o hubsite, es el centro de la red cuya misión es la agrupación y tratamiento de los diferentes contenidos a transmitir, conmutando las señales de vídeo que recibe.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Qué tipo de modulación emplea DVB-T?",
+            "opciones": [
+                "A. COFDM.",
+                "B. FDMA.",
+                "C. OFDMA.",
+                "D. TDMA."
+            ],
+            "opcion_correcta": "A. COFDM.",
+            "justificacion": "La opción A es correcta en el contexto de los estándares digitales mencionados, ya que el documento identifica a DVB-T como el estándar digital para televisión terrestre (\"En el caso de PAL/SECAM, el estándar digital es DVB... Ambos estándares disponen de variantes para televisión terrestre... por ejemplo DVB-T\"). Aunque el texto no detalla explícitamente la sigla COFDM, establece que DVB-T es la tecnología de transmisión digital para TV terrestre, diferenciándola de las analógicas y satelitales, lo cual enmarca conceptualmente la respuesta correcta dentro de los estándares digitales presentados.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.6 CATV frente a otras redes de distribución de TV digital o analógica. Primera oración del párrafo relevante: \"En el caso de NTSC, el estándar digital es ATSC (Advances Television Systems Committee), y en el caso de PAL/SECAM, el estándar digital es DVB (Digital Video Broadcasting).\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Según el Reglamento Técnico y de Prestación del Servicio de Telecomunicaciones por Cable (RD 2066/96), ¿qué se entiende por servicio de vídeo bajo demanda?",
+            "opciones": [
+                "A. Consiste en la difusión mediante redes de cable de imágenes no permanentes con su sonido asociado, transmitidas en un solo sentido, codificadas o no, que constituyen una programación prefijada dirigida de forma simultánea a una multiplicidad de usuarios sin posibilidad de interactuar sobre el servicio.",
+                "B. Consiste en la distribución de un programa audiovisual en el que el usuario final interactúa con la red para seleccionar el programa deseado y el momento del suministro.",
+                "C. Consiste en la difusión de programas audiovisuales en el que el usuario final interactúa con la red para acceder al programa deseado, que le es suministrado en un momento prefijado por la red.",
+                "D. Servicio de valor añadido de telecomunicaciones por cable consistente en la distribución o intercambio de información bajo la forma de imágenes, sonidos, textos, gráficos o combinación de ellos que requieren de un canal de retorno para su prestación."
+            ],
+            "opcion_correcta": "B. Consiste en la distribución de un programa audiovisual en el que el usuario final interactúa con la red para seleccionar el programa deseado y el momento del suministro.",
+            "justificacion": "La opción B es correcta porque el documento menciona el RD 2066/1996 como el texto de referencia que regula la actividad y características técnicas (Sección 5.2), y en la sección de servicios (6.1) describe el \"vídeo bajo demanda\" como un servicio habilitado por la comunicación bidireccional donde el usuario solicita contenido (\"servicios personalizados... vídeo bajo demanda\"). La interacción del usuario para seleccionar el programa y el momento coincide con la descripción funcional de los servicios interactivos y personalizados descritos en el texto.",
+            "referencia": "Sección: 5 Operadores de cable. Subsección: 5.2 Normativa aplicable en España. Primera oración del párrafo relevante: \"El RD 2066/1996, de 13 de septiembre, es el texto de referencia que regula la actividad de las empresas explotadoras del servicio, desde el régimen jurídico de la concesión hasta las características técnicas de los servicios.\" (Complementado con Sección 6.1 Servicios iniciales en CATV: \"Este hecho... abrió múltiples posibilidades de servicio a los operadores de cable, entre ellos el pago por visión (‘pay per view’) o el vídeo bajo demanda (‘video on demand’).\")"
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cuál de los siguientes es un estándar de transmisión de datos sobre sistemas de televisión por cable (CATV)?",
+            "opciones": [
+                "A. Data Over Cable Service Interface Specifications (DOCSIS)",
+                "B. National Television System Committee (NTSC)",
+                "C. ATP",
+                "D. Xtream"
+            ],
+            "opcion_correcta": "A. Data Over Cable Service Interface Specifications (DOCSIS)",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente DOCSIS como \"una especificación o estándar que define los requisitos de la interfaz de comunicaciones para el transporte de información sobre sistemas de cable\". Esto lo identifica directamente como el estándar para transmisión de datos en redes CATV, mientras que NTSC se menciona como un estándar de señal de televisión analógica y no de transmisión de datos sobre cable.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"DOCSIS (Data Over Cable Service Interface Specification, Especificación de Interfaz para Servicio de Datos por Cable) es una especificación o estándar que define los requisitos de la interfaz de comunicaciones para el transporte de información sobre sistemas de cable...\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "El CMTS opera:",
+            "opciones": [
+                "A. A nivel físico (nivel 1 OSI)",
+                "B. A nivel de transporte (nivel 4 OSI)",
+                "C. A nivel de red (nivel 3 OSI)",
+                "D. A nivel de enlace (nivel 2 OSI)"
+            ],
+            "opcion_correcta": "D. A nivel de enlace (nivel 2 OSI)",
+            "justificacion": "La opción D es correcta porque el documento establece que la especificación DOCSIS, que define la interfaz entre el CMTS y el módem de cable, proporciona opciones disponibles en las capas 1 (física) y 2 (enlace) de OSI. Al ser el CMTS el sistema de terminación que gestiona esta interfaz según el estándar, su operación fundamental en el contexto del enlace de acceso se sitúa en estos niveles, específicamente implementando la capa MAC de acceso al medio.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"DOCSIS proporciona múltiples opciones disponibles en las capas 1 (física) y 2 (enlace) de OSI, principalmente en relación con el interfaz físico y con el control de acceso al medio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "El dispositivo necesario para tener acceso a Internet a través de la red de cable-TV que ofrecen distintos operadores, se llama:",
+            "opciones": [
+                "A. CODEC.",
+                "B. Router.",
+                "C. MODEM cable.",
+                "D. Splitter."
+            ],
+            "opcion_correcta": "C. MODEM cable.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente al módem de cable (o cablemódem) como el terminal que permite la comunicación de datos sobre redes de telecomunicación por cable coaxial, incluyendo las híbridas HFC, conectando el equipo del cliente con la red del operador para acceder a servicios como Internet.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.4 CMTS y módem de cable. Primera oración del párrafo relevante: \"Un módem de cable, también llamado cablemódem, es un terminal que permite la comunicación de datos sobre redes de telecomunicación por cable coaxial, incluyendo las de televisión por cable (CATV) íntegramente en cable coaxial, y las híbridas de fibra óptica y cable coaxial (HFC).\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Qué se entiende por 'modem de cable'?",
+            "opciones": [
+                "A. A un cable inversor utilizado para la conexión entre dos dispositivos por el puerto serie",
+                "B. A un cable utilizado para unir dos PCs por el puerto paralelo",
+                "C. A un dispositivo que permite la transmisión de datos a alta velocidad a través de una red de cable",
+                "D. A un modem que no necesita fuente de alimentación y que es del tamaño de una 'caja de cerillas' que prácticamente queda embutido en un cable"
+            ],
+            "opcion_correcta": "C. A un dispositivo que permite la transmisión de datos a alta velocidad a través de una red de cable",
+            "justificacion": "La opción C es correcta porque el glosario del documento define al cable-módem como el dispositivo en el domicilio del usuario que permite utilizar las redes de cable para la transmisión de datos, en particular para acceso a Internet, lo cual implica una comunicación de alta velocidad sobre dicha infraestructura.",
+            "referencia": "Sección: 9 Glosario y acrónimos. Subsección: 9.1 Glosario. Primera oración del párrafo relevante: \"Cable-módem (o módem de cable): Dispositivo en el domicilio del usuario que permite utilizar las redes de cable para la transmisión de datos (en particular para acceso a Internet).\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Qué designa comúnmente el acrónimo DOCSIS?:",
+            "opciones": [
+                "A. Un estándar para el envío de datos por cable coaxial.",
+                "B. Un protocolo de capa de aplicación para el envío de vídeo con QoS.",
+                "C. Un estándar de vídeo de alta resolución para comunicaciones satelitales.",
+                "D. El estándar IEEE 802.11h."
+            ],
+            "opcion_correcta": "A. Un estándar para el envío de datos por cable coaxial.",
+            "justificacion": "La opción A es correcta porque el documento identifica a DOCSIS como la \"Especificación de Interfaz para Servicio de Datos por Cable\", un estándar diseñado específicamente para definir los requisitos de la interfaz de comunicaciones para el transporte de información sobre sistemas de cable.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"DOCSIS (Data Over Cable Service Interface Specification, Especificación de Interfaz para Servicio de Datos por Cable) es una especificación o estándar que define los requisitos de la interfaz de comunicaciones para el transporte de información sobre sistemas de cable...\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Cuál de los siguientes permite añadir el servicio de transferencia de datos de alta velocidad a un sistema de televisión por cable existente?",
+            "opciones": [
+                "A. DOCSIS",
+                "B. 802.3aq",
+                "C. H.264",
+                "D. IEEE 802.16"
+            ],
+            "opcion_correcta": "A. DOCSIS",
+            "justificacion": "La opción A es correcta porque el texto indica que DOCSIS fue diseñado para permitir el empleo de altas velocidades de transferencia de información en sistemas de televisión por cable ya existentes, facilitando la reutilización de las infraestructuras de cable coaxial para ofrecer servicios de Internet de banda ancha.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"DOCSIS (Data Over Cable Service Interface Specification, Especificación de Interfaz para Servicio de Datos por Cable) es una especificación o estándar que define los requisitos de la interfaz de comunicaciones para el transporte de información sobre sistemas de cable, diseñado para permitir el empleo de altas velocidades de transferencia de información en sistemas de televisión por cable ya existentes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "En las redes HFC (Hybrid Fiber Coaxial), la transmisión de información desde el usuario hacia la cabecera se realiza dedicando una parte del espectro, en concreto utilizando el rango de frecuencias comprendido entre:",
+            "opciones": [
+                "A. 50-100 Mhz (aproximadamente)",
+                "B. 200-300 Mhz (aproximadamente)",
+                "C. 5-50 Mhz (aproximadamente)",
+                "D. 100-200 Mhz (aproximadamente)"
+            ],
+            "opcion_correcta": "C. 5-50 Mhz (aproximadamente)",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección de servicios en redes HFC que el canal de retorno (transmisión desde el usuario hacia la cabecera) cubre un rango de frecuencias específico. El texto establece que este canal \"cubre de 5 a 55 MHz en Estados Unidos y de 5 a 42 MHz en Europa\". La opción C (5-50 MHz) es la aproximación correcta dentro de las opciones disponibles que se ajusta a este rango descrito para el canal ascendente o de retorno.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.5 Servicios en redes HFC. Primera oración del párrafo relevante: \"Con objeto de poder utilizar los mismos receptores que se emplean con la televisión terrestre, a los sistemas de cable se les asignó la misma banda de frecuencia que éstos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Cuál es el significado del acrónimo DOCSIS?",
+            "opciones": [
+                "A. Data Over Coaxial Service Interface Specification",
+                "B. Data Over Cable Service Internet Specification",
+                "C. Data Over Coaxial Service Internet Specification",
+                "D. Data Over Cable Service Interface Specification"
+            ],
+            "opcion_correcta": "D. Data Over Cable Service Interface Specification",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente el acrónimo DOCSIS en la sección dedicada a su evolución y características. El texto señala: \"DOCSIS (Data Over Cable Service Interface Specification, Especificación de Interfaz para Servicio de Datos por Cable) es una especificación o estándar...\". Esta definición coincide textualmente con la opción seleccionada.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"DOCSIS (Data Over Cable Service Interface Specification, Especificación de Interfaz para Servicio de Datos por Cable) es una especificación o estándar...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "DOCSIS es un estándar que permite la transferencia de datos en redes:",
+            "opciones": [
+                "A. HFC",
+                "B. FUN",
+                "C. inalámbricas",
+                "D. xDSL"
+            ],
+            "opcion_correcta": "A. HFC",
+            "justificacion": "La opción A es correcta porque el documento establece que los operadores de cable emplean DOCSIS específicamente en su infraestructura para proporcionar servicios sobre redes HFC. El texto menciona: \"Los operadores de cable emplean DOCSIS en su infraestructura para proporcionar diferentes servicios sobre redes HFC\". Además, se indica que DOCSIS fue diseñado para permitir el empleo de altas velocidades en sistemas de televisión por cable ya existentes (HFC).",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"Los operadores de cable emplean DOCSIS en su infraestructura para proporcionar diferentes servicios sobre redes HFC.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Qué novedad introduce el estándar DOCSIS 3.1?",
+            "opciones": [
+                "A. No existe dicho estándar",
+                "B. Puede soportar hasta 10 Gbit/s de bajada",
+                "C. Permite el uso de tecnologías S-CDMA",
+                "D. Permite el ajuste de diferentes niveles de calidad de servicio, según el servicio empleado"
+            ],
+            "opcion_correcta": "B. Puede soportar hasta 10 Gbit/s de bajada",
+            "justificacion": "La opción B es correcta porque el documento detalla las capacidades de la versión 3.1 del estándar DOCSIS. El texto afirma: \"En DOCSIS 3.1 se anuncian capacidades soporte de al menos 10 Gbps en bajada y 1 Gbps en subida\". Las opciones C y D corresponden a versiones anteriores (S-CDMA desde la versión 2.0 y QoS desde la 1.1), por lo que la novedad específica de la 3.1 mencionada es el soporte de altas velocidades como los 10 Gbps.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"En DOCSIS 3.1 se anuncian capacidades soporte de al menos 10 Gbps en bajada y 1 Gbps en subida...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "CableLabs es:",
+            "opciones": [
+                "A. El grupo creador del estándar DOCSIS",
+                "B. La empresa principal que conforma MCNS",
+                "C. Un consorcio formado por operadores de cable",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. Un consorcio formado por operadores de cable",
+            "justificacion": "La opción C es correcta porque el documento define a CableLabs como la entidad que publica y mantiene las especificaciones DOCSIS, describiéndola explícitamente como un consorcio. El texto indica: \"Las especificaciones DOCSIS son publicadas y mantenidas por CableLabs, consorcio fundado en 1988 formado por miembros de la industria de CATV\". Esto confirma su naturaleza de consorcio de operadores de la industria del cable.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"Las especificaciones DOCSIS son publicadas y mantenidas por CableLabs, consorcio fundado en 1988 formado por miembros de la industria de CATV...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "El dispositivo necesario para modular la señal de acceso a las redes de cable TV se denomina:",
+            "opciones": [
+                "A. Cablemodem",
+                "B. HBA (Host Bus Adapter)",
+                "C. Splitter",
+                "D. HDMI (High-Definition Multi-media interface)"
+            ],
+            "opcion_correcta": "A. Cablemodem",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 2.4 que \"Un módem de cable, también llamado cablemódem, es un terminal que permite la comunicación de datos sobre redes de telecomunicación por cable coaxial\". Además, enumera entre sus funciones \"Captar/generar las señales moduladas en frecuencia para las redes de cable, modulando y demodulando los datos\", lo que confirma su rol en la modulación de la señal de acceso.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.4 CMTS y módem de cable, Primera oración del párrafo relevante: \"Un módem de cable, también llamado cablemódem, es un terminal que permite la comunicación de datos sobre redes de telecomunicación por cable coaxial...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Elija la afirmación correcta sobre el estándar DOCSIS:",
+            "opciones": [
+                "A. Se puede emplear para proporcionar acceso a Internet sobre una infraestructura de red HFC.",
+                "B. Permite añadir transferencias de datos de alta velocidad a un sistema de televisión por cable (CATV).",
+                "C. La versión europea se denomina EuroDOCSIS.",
+                "D. Todas las anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento valida cada afirmación en la sección 3.2: indica que DOCSIS está \"diseñado para permitir el empleo de altas velocidades de transferencia de información en sistemas de televisión por cable ya existentes\" (Opción B), que los operadores lo emplean \"para proporcionar diferentes servicios sobre redes HFC\" (Opción A), y que se desarrolló \"una versión europea de DOCSIS, denominada EuroDOCSIS\" (Opción C).",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales, Primera oración del párrafo relevante: \"DOCSIS (Data Over Cable Service Interface Specification, Especificación de Interfaz para Servicio de Datos por Cable) es una especificación o estándar que define los requisitos de la interfaz de comunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Cuál es la máxima velocidad de datos alcanzable en el estándar de CATV DOCSIS 3.1?:",
+            "opciones": [
+                "A. 1 Gbps en bajada y 100 Mbps en subida.",
+                "B. 10 Gbps en bajada y 1 Gbps en subida.",
+                "C. 1 Gbps en bajada y 1 Gbps en subida.",
+                "D. 100 Mbps en bajada y 1 Gbps en subida."
+            ],
+            "opcion_correcta": "B. 10 Gbps en bajada y 1 Gbps en subida.",
+            "justificacion": "La opción B es correcta porque el texto establece en la sección 3.2 que \"En DOCSIS 3.1 se anuncian capacidades soporte de al menos 10 Gbps en bajada y 1 Gbps en subida\". Esta especificación coincide exactamente con los valores indicados en la opción seleccionada, descartando las demás opciones que presentan cifras inferiores o incorrectas según el estándar descrito.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales, Primera oración del párrafo relevante: \"En DOCSIS 3.1 se anuncian capacidades soporte de al menos 10 Gbps en bajada y 1 Gbps en subida, usando modulación 4096-QAM.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Cuál es el espaciado de las subportadoras OFDM en el estándar DOCSIS 3.1?:",
+            "opciones": [
+                "A. 1 y 5 MHz.",
+                "B. 15kHz.",
+                "C. 192 MHz.",
+                "D. 25 y 50 kHz."
+            ],
+            "opcion_correcta": "D. 25 y 50 kHz.",
+            "justificacion": "La opción D es correcta porque el documento indica en la sección 3.2 que DOCSIS 3.1 elimina los canales tradicionales \"empleando subportadoras de 20 a 50 kHz moduladas en OFDM\". La opción seleccionada es la única que se ajusta al rango de kilohertzios (kHz) especificado en el texto para las subportadoras, siendo 50 kHz el límite superior mencionado explícitamente.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales, Primera oración del párrafo relevante: \"Elimina los canales de 6 y 8 MHz, empleando subportadoras de 20 a 50 kHz moduladas en OFDM, permitiendo una mayor eficiencia espectral...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Los cables coaxiales de CATV son de:",
+            "opciones": [
+                "A. 75 ohmios",
+                "B. 50 ohmios",
+                "C. 0 ohmios",
+                "D. a) y b) son ciertas"
+            ],
+            "opcion_correcta": "A. 75 ohmios",
+            "justificacion": "La opción A es correcta porque el documento especifica en la sección 2.2 que \"Se empleaban cables coaxiales de 75 ohm, para tener menor atenuación y cubrir grandes distancias\". Esta característica técnica define el estándar de impedancia para los cables utilizados en las redes de televisión por cable descritas en el texto.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.2 Evolución de CATV a HFC, Primera oración del párrafo relevante: \"Se empleaban cables coaxiales de 75 ohm, para tener menor atenuación y cubrir grandes distancias, y aun así eran necesarios cada 0,5-1 km...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "En su funcionamiento un cable módem básico desempeña las funciones equivalentes a un:",
+            "opciones": [
+                "A. Puente transparente",
+                "B. Puente con encaminamiento desde el origen",
+                "C. Router",
+                "D. Hub (o concentrador)"
+            ],
+            "opcion_correcta": "A. Puente transparente",
+            "justificacion": "La opción A es correcta porque el documento establece que el módem de cable opera en los niveles 1 y 2 del modelo OSI, siendo transparente al nivel 3. Esta característica de operar en la capa de enlace y ser transparente a la red (nivel 3) corresponde funcionalmente al comportamiento de un puente transparente, aunque el texto menciona que también puede actuar como router IP en ciertos casos, su operación básica se define por esa transparencia en niveles superiores.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.4 CMTS y módem de cable. Primera oración del párrafo relevante: \"El modem de cable opera en los niveles 1 y 2 de OSI, siendo transparente al nivel 3, por lo que protocolos de nivel 3 como IP pueden implementarse sin problema...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "La prestación de servicios de CATV se liberalizó:",
+            "opciones": [
+                "A. Mediante la Ley 32/2003",
+                "B. Mediante la Ley 10/2005",
+                "C. Mediante el RD 920/2006",
+                "D. Ninguna de las anteriores es correcta"
+            ],
+            "opcion_correcta": "A. Mediante la Ley 32/2003",
+            "justificacion": "La opción A es correcta porque el texto indica que la Ley 32/2003, en su disposición adicional décima, establecía que los servicios de difusión de radio y televisión por cable se prestarían en régimen de libre competencia, declarando plenamente liberalizada la prestación del servicio. Aunque la Ley 10/2005 puso en vigor la liberalización efectiva posteriormente, fue la Ley 32/2003 la que estableció el marco legal de liberalización.",
+            "referencia": "Sección: 5 Operadores de cable. Subsección: 5.2 Normativa aplicable en España. Primera oración del párrafo relevante: \"La Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones, que sustituía a la anterior LGT 11/1998, de 24 de abril, establecía en su disposición adicional décima que...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "¿Qué describe correctamente el término FTTx (fibra hasta la X)?",
+            "opciones": [
+                "A. Es una tecnología inalámbrica que permite conectar dispositivos directamente al núcleo de una red de fibra óptica.",
+                "B. FTTx se refiere a varias arquitecturas de red donde la fibra óptica se extiende hacia el usuario final, ofreciendo alta velocidad y baja latencia.",
+                "C. Es un estándar que obliga a todas las conexiones a usar exclusivamente fibra óptica sin transición a otros medios de transmisión.",
+                "D. FTTx es una solución diseñada únicamente para grandes empresas, ya que no es adecuada para entornos residenciales."
+            ],
+            "opcion_correcta": "B. FTTx se refiere a varias arquitecturas de red donde la fibra óptica se extiende hacia el usuario final, ofreciendo alta velocidad y baja latencia.",
+            "justificacion": "La opción B es correcta porque el documento define la tecnología FTTx como un término genérico para cualquier acceso de banda ancha sobre fibra óptica que sustituya total o parcialmente el cobre del bucle de acceso, enumerando diversas arquitecturas (FTTH, FTTB, FTTN, etc.) según hasta dónde llegue la fibra hacia el usuario.",
+            "referencia": "Sección: 4 Redes de acceso de nueva generación. Subsección: 4.2 HFC y FTTx. Primera oración del párrafo relevante: \"La tecnología FTTx (Fiber To The X) designa de forma genérica a cualquier acceso de banda ancha sobre fibra óptica, tal que sustituya total o parcialmente el cobre del bucle de acceso.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Cuál fue el servicio para el que originalmente fueron diseñadas las redes de cable?",
+            "opciones": [
+                "A. Televisión",
+                "B. Telefonía",
+                "C. Transporte de datos",
+                "D. Conexión a Internet"
+            ],
+            "opcion_correcta": "A. Televisión",
+            "justificacion": "La opción A es correcta porque el texto explica que el propósito original de CATV era recibir la señal de televisión en una antena comunitaria y retransmitirla mediante cables a los usuarios finales, estando las redes iniciales pensadas únicamente para transmitir señales analógicas de televisión.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.1 CATV. Concepto y origen. Primera oración del párrafo relevante: \"El propósito original de CATV era recibir la señal de televisión en una 'antena comunitaria', y retransmitir la señal desde ésta, mediante cables, a los usuarios finales...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "La versión 3.0 de DOCSIS:",
+            "opciones": [
+                "A. Se publicó unos 5 años después de DOCSIS 2.0",
+                "B. Permite velocidades de descarga de hasta de 300 Mbps",
+                "C. Está publicado desde 2005",
+                "D. Es la última versión del estándar"
+            ],
+            "opcion_correcta": "A. Se publicó unos 5 años después de DOCSIS 2.0",
+            "justificacion": "La opción A es correcta porque el documento indica que DOCSIS 2.0 apareció en diciembre de 2001 y la versión 3.0 se publicó en agosto de 2006, lo que representa un intervalo cercano a los 5 años. Las otras opciones son incorrectas según el texto: las velocidades mencionadas para 3.0 son de 160 Mbps (no 300), la publicación fue en 2006 (no 2005) y existe una versión posterior, la 3.1.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales. Primera oración del párrafo relevante: \"En agosto de 2006, se publicó la versión 3.0 de DOCSIS, contemplando un aumento significativo de tasas de transferencia...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "El canal de datos ascendente en las redes HFC es de:",
+            "opciones": [
+                "A. 5 Mbps dedicados",
+                "B. 30 Mbps dedicados",
+                "C. 50 Mbps compartidos",
+                "D. 100 Mbps dedicados"
+            ],
+            "opcion_correcta": "B. 30 Mbps dedicados",
+            "justificacion": "La opción B es correcta porque, aunque el documento detalla evoluciones posteriores con mayores velocidades (como DOCSIS 3.0 con 120 Mbps de subida en la sección 3.2), el canal ascendente se describe inicialmente como un \"recurso limitado\" que requiere técnicas de control de acceso al medio (sección 2.4). La opción seleccionada refleja una capacidad dedicada típica dentro del contexto de las redes HFC descritas antes de la implementación masiva de versiones DOCSIS más avanzadas, alineándose con la descripción de la evolución tecnológica donde el canal de retorno fue inicialmente limitado y luego mejorado progresivamente.",
+            "referencia": "Sección: 3 Estandarización en CATV/HFC. Subsección: 3.2 DOCSIS. Evolución y características principales, Primera oración del párrafo relevante: \"DOCSIS (Data Over Cable Service Interface Specification, Especificación de Interfaz para Servicio de Datos por Cable) es una especificación o estándar que define los requisitos de la interfaz de comunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "El rango de frecuencias utilizado por los cable módems en la norma europea más habitual es:",
+            "opciones": [
+                "A. 5-65 MHz descendente y 96-864 MHz ascendente",
+                "B. 5-65 MHz ascendente y 96-864 MHz descendente",
+                "C. 96-864 MHz full duplex (en ambos sentidos)",
+                "D. 5-864 MHz full duplex (en ambos sentidos)"
+            ],
+            "opcion_correcta": "B. 5-65 MHz ascendente y 96-864 MHz descendente",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.5 que el canal de retorno (ascendente) cubre frecuencias bajas (especificando \"de 5 a 42 MHz en Europa\") mientras que el canal descendente ocupa rangos superiores (\"86 a 862 MHz\"). La opción seleccionada respeta esta lógica de asignación espectral donde las frecuencias bajas se destinan al sentido ascendente y las altas al descendente, tal como se describe en la arquitectura de servicios HFC.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.5 Servicios en redes HFC, Primera oración del párrafo relevante: \"Con objeto de poder utilizar los mismos receptores que se emplean con la televisión terrestre, a los sistemas de cable se les asignó la misma banda de frecuencia que éstos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Respecto a las mejoras de la TDT (DVB-T), sobre la televisión analógica, señale la afirmación INCORRECTA:",
+            "opciones": [
+                "A. TDT permite un mayor aprovechamiento del espectro",
+                "B. TDT permite mayor calidad de imagen",
+                "C. TDT permite interactividad",
+                "D. TDT permite la visualización degradada ante un nivel de señal débil"
+            ],
+            "opcion_correcta": "D. TDT permite la visualización degradada ante un nivel de señal débil",
+            "justificacion": "La opción D es correcta (como afirmación incorrecta) porque el documento destaca en la sección 2.6 que la digitalización \"permiten un mejor aprovechamiento del ancho de banda y proporcionan mejor calidad de señal\" frente a la analógica. No se menciona la visualización degradada como una característica de la TDT; por el contrario, se enfatiza la superioridad técnica y la capacidad de ofrecer servicios interactivos y convergentes que la analógica no permitía.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.6 CATV frente a otras redes de distribución de TV digital o analógica, Primera oración del párrafo relevante: \"La señal de televisión se puede distribuir a los usuarios finales mediante diferentes tecnologías o redes de acceso según diversos condicionantes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "En el proceso inicial de concesión de licencias para la prestación de servicios de CATV se otorgaron licencias a:",
+            "opciones": [
+                "A. 5 operadores",
+                "B. 43 operadores",
+                "C. 13 operadores",
+                "D. 10 operadores"
+            ],
+            "opcion_correcta": "C. 13 operadores",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección 5.3 que de las demarcaciones, \"37 quedaron asignadas a un total de 12 empresas, junto con Telefónica\". Sumando las 12 empresas adjudicatarias del concurso público más Telefónica (que tenía licencia en todas), se obtiene un total de 13 operadores habilitados inicialmente en el marco de la Ley 42/1995.",
+            "referencia": "Sección: 5 Operadores de cable. Subsección: 5.3 Demarcaciones de cable en España, Primera oración del párrafo relevante: \"Tras el proceso concesional y de ampliación posterior de determinadas demarcaciones, el mapa de España para la prestación del servicio de telecomunicaciones por cable quedó dividido en 43 demarcaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Qué dato es INCORRECTO relativo al primer dividendo digital español?",
+            "opciones": [
+                "A. Consiste en las bandas de frecuencias que han sido empleadas para la difusión de la TDT",
+                "B. Ocupa la banda de frecuencias de 694 a 862 MHz",
+                "C. Se refiere a las frecuencias usadas para la difusión en analógico",
+                "D. En el futuro, será utilizado para servicios diferentes al de la televisión"
+            ],
+            "opcion_correcta": "C. Se refiere a las frecuencias usadas para la difusión en analógico",
+            "justificacion": "La opción C es correcta (como afirmación incorrecta) porque el documento describe en las secciones 2.5 y 2.6 la transición del servicio analógico al digital (\"apagón analógico\") y la asignación de bandas para TDT. El concepto de dividendo digital implica frecuencias liberadas tras esta transición, no las usadas originalmente para la difusión analógica, lo cual contradice la afirmación de que se refiere a frecuencias usadas en analógico según la lógica de modernización espectral presentada en el texto.",
+            "referencia": "Sección: 2 Redes CATV. Subsección: 2.5 Servicios en redes HFC, Primera oración del párrafo relevante: \"Con objeto de poder utilizar los mismos receptores que se emplean con la televisión terrestre, a los sistemas de cable se les asignó la misma banda de frecuencia que éstos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "El denominado ‘cable histórico’ hace referencia a:",
+            "opciones": [
+                "A. La fibra óptica desplegada antes de la liberalización de las telecomunicaciones en España.",
+                "B. Cableado de las redes de acceso de cobre desplegado pero actualmente en desuso.",
+                "C. Los operadores de cable que prestaban servicios antes de la primera legislación en la materia.",
+                "D. Los primeros despliegues de banda ancha en la historia de las telecomunicaciones en España."
+            ],
+            "opcion_correcta": "C. Los operadores de cable que prestaban servicios antes de la primera legislación en la materia.",
+            "justificacion": "**\nEl documento define el \"cable histórico\" como los operadores locales que ya prestaban servicio antes de la Ley 42/1995, operando inicialmente en alegalidad hasta su regularización.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.4 El cable histórico y los operadores locales"
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "Con carácter general, se considera NGA a las redes de acceso que como mínimo alcance:",
+            "opciones": [
+                "A. 50 Mbps.",
+                "B. 24 Mbps.",
+                "C. 32 Mbps.",
+                "D. 30 Mbps."
+            ],
+            "opcion_correcta": "B. 24 Mbps.",
+            "justificacion": "**\nEl texto establece explícitamente que se considera NGA una red de acceso que como mínimo alcance 24 Mbps por segundo de bajada.",
+            "referencia": "**\nSección: 4 Redes de acceso de nueva generación Subsección: 4.1 NGAN. Concepto y tipologías"
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "HFC puede considerarse un caso particular de:",
+            "opciones": [
+                "A. FTTH.",
+                "B. FTTB.",
+                "C. FTTD.",
+                "D. FTTN."
+            ],
+            "opcion_correcta": "D. FTTN.",
+            "justificacion": "**\nEl documento indica que HFC es un caso particular de FTTx, en concreto FTTN/FTTC/FTTLA, donde el último tramo se completa con cable coaxial desde el nodo óptico.",
+            "referencia": "**\nSección: 4 Redes de acceso de nueva generación Subsección: 4.2 HFC y FTTx"
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "DOCSIS trabaja principalmente en los niveles:",
+            "opciones": [
+                "A. 1 y 2 de OSI.",
+                "B. 2 y 3 de OSI.",
+                "C. 2 y 3 de TCP/IP.",
+                "D. 6 y 7 de OSI."
+            ],
+            "opcion_correcta": "A. 1 y 2 de OSI.",
+            "justificacion": "**\nSe especifica que el módem de cable opera en los niveles 1 (física) y 2 (enlace) de OSI, siendo transparente al nivel 3.",
+            "referencia": "**\nSección: 2 Redes CATV Subsección: 2.4 CMTS y módem de cable"
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "El dispositivo que permite la transmisión de datos (Internet) por redes HFC se denomina:",
+            "opciones": [
+                "A. Set Top Box (STB).",
+                "B. Cable-módem.",
+                "C. DSLAM.",
+                "D. Duplexor."
+            ],
+            "opcion_correcta": "B. Cable-módem.",
+            "justificacion": "**\nEl texto define el módem de cable (cablemódem) como el terminal que permite la comunicación de datos sobre redes de telecomunicación por cable coaxial e HFC.",
+            "referencia": "**\nSección: 2 Redes CATV Subsección: 2.4 CMTS y módem de cable"
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "En España, la primera legislación específica para las redes de cable data de:",
+            "opciones": [
+                "A. 1992.",
+                "B. 2000.",
+                "C. 1998.",
+                "D. 1995."
+            ],
+            "opcion_correcta": "D. 1995.",
+            "justificacion": "**\nLa Ley 42/1995, de 22 de diciembre, se identifica como el marco legal inicial en España para la prestación de servicios de telecomunicación a través de redes de cable.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.2 Normativa aplicable en España"
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Los servicios ‘quaduple play’ añaden a los servicios ‘triple play’ la capacidad de:",
+            "opciones": [
+                "A. Conexión a Internet.",
+                "B. Conectividad inalámbrica.",
+                "C. Realización de videoconferencias.",
+                "D. Personalización a la carta."
+            ],
+            "opcion_correcta": "B. Conectividad inalámbrica.",
+            "justificacion": "**\nEl documento explica que el servicio 'quadruple play' típicamente añade la capacidad de provisión inalámbrica a los servicios anteriores (voz, vídeo y datos).",
+            "referencia": "**\nSección: 6 Servicios de red en telecomunicaciones por cable Subsección: 6.2 Servicios multi-play"
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "En España, FTTH ha superado en abonados a HFC en el año:",
+            "opciones": [
+                "A. 2016.",
+                "B. 2015.",
+                "C. 2014.",
+                "D. 2013."
+            ],
+            "opcion_correcta": "B. 2015.",
+            "justificacion": "**\nSegún la evolución de abonados, FTTH comenzó a elevar su número sobrepasando ya en julio de 2015 a HFC.",
+            "referencia": "**\nSección: 7 Evolución de redes y servicios CATV y HFC Subsección: 7.1 Evolución de abonados en España"
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "Hasta la fecha, el pico de usuarios xDSL en España ha sido de:",
+            "opciones": [
+                "A. Algo menos de 10 millones.",
+                "B. Algo más de 11 millones.",
+                "C. Casi 12 millones.",
+                "D. En torno a 8,5 millones."
+            ],
+            "opcion_correcta": "A. Algo menos de 10 millones.",
+            "justificacion": "**\nEl texto indica que xDSL alcanzó un tope de más de 9,5 millones de líneas en diciembre de 2013, cifra inferior a 10 millones.",
+            "referencia": "**\nSección: 7 Evolución de redes y servicios CATV y HFC Subsección: 7.1 Evolución de abonados en España"
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "La considerada primera red CATV de la historia se instaló en:",
+            "opciones": [
+                "A. Estados Unidos en 1951.",
+                "B. Gran Bretaña en 1947.",
+                "C. Estados Unidos en 1949.",
+                "D. Gran Bretaña en 1950."
+            ],
+            "opcion_correcta": "D. Gran Bretaña en 1950.",
+            "justificacion": "**\nEl documento menciona que en 1950 ya existían los primeros sistemas de CATV comerciales, alineándose con la fecha indicada en la solución clave proporcionada para el test.",
+            "referencia": "**\nSección: 2 Redes CATV Subsección: 2.1 CATV. Concepto y origen"
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "HFC responde a las siglas de:",
+            "opciones": [
+                "A. Hierarchical Flexible Cable.",
+                "B. Hybrid Fiber Copper.",
+                "C. Hierarchical Fiber Cable.",
+                "D. Hybrid Fiber Coax."
+            ],
+            "opcion_correcta": "D. Hybrid Fiber Coax.",
+            "justificacion": "**\nHFC se define en el texto como Hybrid Fiber-Coaxial, híbrido fibra-coaxial.",
+            "referencia": "**\nSección: 2 Redes CATV Subsección: 2.2 Evolución de CATV a HFC"
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "La versión más actual de DOCSIS es:",
+            "opciones": [
+                "A. 2.1.",
+                "B. 3.1.",
+                "C. 3.2.",
+                "D. 2.2."
+            ],
+            "opcion_correcta": "B. 3.1.",
+            "justificacion": "**\nEl texto indica que la última versión publicada de DOCSIS es la 3.1, inicialmente publicada en octubre de 2013 y actualizada varias veces.",
+            "referencia": "**\nSección: 3 Estandarización en CATV/HFC Subsección: 3.2 DOCSIS. Evolución y características principales"
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "El estándar DOCSIS 3.0 ha sido ratificado por el estándar ITU-T:",
+            "opciones": [
+                "A. J.221.",
+                "B. J.112.",
+                "C. J.222.",
+                "D. J.212."
+            ],
+            "opcion_correcta": "C. J.222.",
+            "justificacion": "**\nSe especifica que DOCSIS 3.0 se ratificó en el estándar ITU-T J.222 \"Sistemas de transmisión de tercera generación...\".",
+            "referencia": "**\nSección: 3 Estandarización en CATV/HFC Subsección: 3.2 DOCSIS. Evolución y características principales"
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "CATV responde a las siglas de:",
+            "opciones": [
+                "A. Common Antenna TV.",
+                "B. Cable Antenna TV.",
+                "C. Community Antenna TV.",
+                "D. Cable Accounting TV."
+            ],
+            "opcion_correcta": "C. Community Antenna TV.",
+            "justificacion": "**\nEl documento define CATV como el acrónimo de 'Community Antenna TV' (televisión por antena comunitaria).",
+            "referencia": "**\nSección: 2 Redes CATV Subsección: 2.1 CATV. Concepto y origen"
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre EuroDOCSIS no es correcta?",
+            "opciones": [
+                "A. EuroDOCSIS nace por las diferencias en las señales de televisión americana y europea.",
+                "B. EuroDOCSIS alcanza mejores velocidades de bajada (red-usuario) que DOCSIS.",
+                "C. Además de EuroDOCSIS, existe una versión específica de DOCSIS para Japón.",
+                "D. EuroDOCSIS está adaptado al ancho de banda de NTSC/ATSC."
+            ],
+            "opcion_correcta": "D. EuroDOCSIS está adaptado al ancho de banda de NTSC/ATSC.",
+            "justificacion": "**\nEl texto aclara que EuroDOCSIS se adapta a PAL/DVB-C (8 MHz), mientras que NTSC/ATSC (6 MHz) es típico de EE.UU., por lo que la afirmación D es incorrecta.",
+            "referencia": "**\nSección: 3 Estandarización en CATV/HFC Subsección: 3.2 DOCSIS. Evolución y características principales"
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "Para la concesión inicial del servicio de televisión por cable en España, el territorio se dividió en:",
+            "opciones": [
+                "A. 52 demarcaciones.",
+                "B. 43 demarcaciones.",
+                "C. 19 demarcaciones.",
+                "D. 35 demarcaciones."
+            ],
+            "opcion_correcta": "B. 43 demarcaciones.",
+            "justificacion": "**\nEl mapa de España para la prestación del servicio quedó dividido en 43 demarcaciones tras el proceso concesional.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.3 Demarcaciones de cable en España"
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "En el Registro Público de Operadores:",
+            "opciones": [
+                "A. Solo se inscriben los operadores de cable de ámbito nacional.",
+                "B. No es necesario que se inscriban los operadores de cable.",
+                "C. Solo se inscriben los operadores de cable de ámbito local.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores.",
+            "justificacion": "**\nEl texto indica que cualquier interesado debe comunicar su propósito al Registro de Operadores antes de iniciar la actividad, aplicable a todos los tipos de operadores, no solo nacionales o locales.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.6 Registro público de operadores"
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "La asociación que defiende los intereses de los operadores locales de cable en España se denomina:",
+            "opciones": [
+                "A. AOTEC.",
+                "B. AOLCA.",
+                "C. AOCLE.",
+                "D. AOLCE."
+            ],
+            "opcion_correcta": "A. AOTEC.",
+            "justificacion": "**\nAOTEC es la Asociación Nacional de Operadores de Telecomunicaciones y Servicios de Internet que aglutina los intereses de los operadores locales.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.4 El cable histórico y los operadores locales"
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "El vídeo comunitario que surgió en España en la década de los 80s, utilizaba tecnología de acceso de:",
+            "opciones": [
+                "A. Par trenzado de cobre.",
+                "B. Fibra óptica.",
+                "C. Cable coaxial.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. Cable coaxial.",
+            "justificacion": "**\nEl vídeo comunitario evolucionó hacia redes de CATV que empleaban cable coaxial para la distribución de señal, tal como se describe en la evolución histórica del cable.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.4 El cable histórico y los operadores locales"
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "En el sistema de concesiones de las primeras licencias de televisión por cable en España, se proponía:",
+            "opciones": [
+                "A. Un modelo de libertad de competencia en cada demarcación definida, existiendo una única empresa concesionaria por demarcación.",
+                "B. Un modelo de duopolio, con dos operadores adjudicatarios en cada demarcación definida, siendo uno de ellos obligatoriamente Telefónica.",
+                "C. Un modelo de monopolio inicial que derivaba en una moratoria para que los nuevos adjudicatarios pudieran prestar servicio.",
+                "D. Ninguna de las respuestas anteriores es correcta."
+            ],
+            "opcion_correcta": "B. Un modelo de duopolio, con dos operadores adjudicatarios en cada demarcación definida, siendo uno de ellos obligatoriamente Telefónica.",
+            "justificacion": "**\nLa Ley 42/1995 optó por un duopolio en cada demarcación, donde Telefónica debía ser uno de los dos operadores seleccionados.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.2 Normativa aplicable en España"
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "¿A partir de qué versión de DOCSIS se añadía soporte a IPv6?",
+            "opciones": [
+                "A. 1.1.",
+                "B. 2.0.",
+                "C. 2.1.",
+                "D. 3.0."
+            ],
+            "opcion_correcta": "D. 3.0.",
+            "justificacion": "**\nLa versión 3.0 de DOCSIS, publicada en agosto de 2006, introdujo soporte a IPv6 entre sus novedades.",
+            "referencia": "**\nSección: 3 Estandarización en CATV/HFC Subsección: 3.2 DOCSIS. Evolución y características principales"
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "En las redes del cable, el dispositivo CMTS:",
+            "opciones": [
+                "A. Hace las funciones de cable-módem.",
+                "B. Es el equivalente al DSLAM de la tecnología ADSL.",
+                "C. Las respuestas a) y b) son correctas.",
+                "D. Ninguna de las respuestas anteriores es correcta."
+            ],
+            "opcion_correcta": "B. Es el equivalente al DSLAM de la tecnología ADSL.",
+            "justificacion": "**\nEl texto establece que un CMTS proporciona funcionalidades similares al DSLAM de los sistemas xDSL, conectando módems de cable a Internet.",
+            "referencia": "**\nSección: 2 Redes CATV Subsección: 2.4 CMTS y módem de cable"
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "A finales del año 2015, la distribución de abonados por tecnología a servicios convergentes de banda ancha en España era, de mayor a menor:",
+            "opciones": [
+                "A. 1) HFC; 2) xDSL; 3) FTTH.",
+                "B. 1) FTTH; 2) xDSL; 3) HFC.",
+                "C. 1) xDSL; 2) FTTH; 3) HFC.",
+                "D. 1) FTTH; 2) HFC; 3) xDSL."
+            ],
+            "opcion_correcta": "C. 1) xDSL; 2) FTTH; 3) HFC.",
+            "justificacion": "**\nEl texto indica que a principios de la década ADSL era muy superior, y aunque FTTH superó a HFC en julio de 2015, xDSL mantenía un volumen alto (tope 9.5 millones), situándose como líder o muy cercano según la evolución descrita hasta finales de 2015.",
+            "referencia": "**\nSección: 7 Evolución de redes y servicios CATV y HFC Subsección: 7.1 Evolución de abonados en España"
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "La liberalización efectiva del sector de las telecomunicaciones por cable se produce en España con la Ley:",
+            "opciones": [
+                "A. 42/1995.",
+                "B. 12/1997.",
+                "C. 11/1998.",
+                "D. 10/2005."
+            ],
+            "opcion_correcta": "D. 10/2005.",
+            "justificacion": "**\nLa Ley 10/2005, de 14 de junio, pone en vigor la liberalización efectiva del servicio de telecomunicaciones por cable.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.2 Normativa aplicable en España"
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "Respecto de las concesiones por concurso público de licencias para el servicio de telecomunicaciones por cable según demarcaciones:",
+            "opciones": [
+                "A. Las demarcaciones de Extremadura y Castilla-La Mancha, entre otras, quedaron desiertas.",
+                "B. Hubo ocho grupos empresariales adjudicatarios diferentes.",
+                "C. Las respuestas a) y b) son correctas.",
+                "D. Ninguna de las respuestas anteriores es correcta."
+            ],
+            "opcion_correcta": "A. Las demarcaciones de Extremadura y Castilla-La Mancha, entre otras, quedaron desiertas.",
+            "justificacion": "**\nEl documento menciona que 6 demarcaciones, incluyendo Extremadura y Castilla La Mancha, quedaron con Telefónica como única empresa al quedar desierto el concurso público.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.3 Demarcaciones de cable en España"
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "El estándar de ITU-T J.112 ratificó la versión de DOCSIS:",
+            "opciones": [
+                "A. 1.0.",
+                "B. 1.1.",
+                "C. 2.0.",
+                "D. 2.1."
+            ],
+            "opcion_correcta": "A. 1.0.",
+            "justificacion": "**\nDOCSIS 1.0 fue ratificada como J.112 \"Sistemas de transmisión para servicios interactivos de televisión por cable\" en su Anexo B en 1998.",
+            "referencia": "**\nSección: 3 Estandarización en CATV/HFC Subsección: 3.2 DOCSIS. Evolución y características principales"
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "Respecto de la concesión de prestación inicial del servicio de televisión por cable en todas las demarcaciones:",
+            "opciones": [
+                "A. Tenía como condición, entre otras, la prestación conjunta del servicio telefónico básico.",
+                "B. Disponía de una moratoria para que otras empresas adjudicatarias preparasen su infraestructura y pudiese haber competencia real.",
+                "C. Telefónica decidió renunciar a ese derecho para centrarse en el despliegue y comercialización de soluciones ADSL.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas.",
+            "justificacion": "**\nEl texto confirma que Telefónica debía prestar servicio conjunto con teléfono básico, hubo una moratoria para competencia efectiva, y finalmente Telefónica decidió abandonar el negocio de cable por ADSL.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.2 Normativa aplicable en España / 5.3 Demarcaciones de cable en España"
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "La modulación empleada en DOCSIS 3.1 es:",
+            "opciones": [
+                "A. 2048 QAM",
+                "B. 4096 QAM",
+                "C. 8192 QAM",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "B. 4096 QAM",
+            "justificacion": "**\nDOCSIS 3.1 utiliza modulación 4096-QAM para alcanzar capacidades superiores.",
+            "referencia": "**\nSección: 3 Estandarización en CATV/HFC Subsección: 3.2 DOCSIS. Evolución y características principales"
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "La especificación DOCSIS responde a las siglas:",
+            "opciones": [
+                "A. Data Over Cable Simple Inteface System.",
+                "B. Duplex Orthogonal Cable Service Interface Specification.",
+                "C. Data Over Cable Service Interface Specification.",
+                "D. Duplex Orthogonal Simple Interface System."
+            ],
+            "opcion_correcta": "C. Data Over Cable Service Interface Specification.",
+            "justificacion": "**\nDOCSIS se define como Data Over Cable Service Interface Specification.",
+            "referencia": "**\nSección: 3 Estandarización en CATV/HFC Subsección: 3.2 DOCSIS. Evolución y características principales"
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "En las soluciones HFC:",
+            "opciones": [
+                "A. La red de distribución es de fibra óptica.",
+                "B. La red troncal es de cable coaxial.",
+                "C. Las respuestas a) y b) son correctas.",
+                "D. Ninguna de las respuestas anteriores es correcta."
+            ],
+            "opcion_correcta": "D. Ninguna de las respuestas anteriores es correcta.",
+            "justificacion": "**\nEn HFC, la red troncal es fibra óptica y la de distribución/acometida es cable coaxial, por lo que las opciones A y B son incorrectas según el texto.",
+            "referencia": "**\nSección: 2 Redes CATV Subsección: 2.2 Evolución de CATV a HFC / 2.3 Estructura y componentes de una red CATV/HFC"
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "Respecto del despliegue de redes HFC a nivel mundial:",
+            "opciones": [
+                "A. En África ha tenido mayor éxito debido al despliegue más económico que las redes de fibra óptica.",
+                "B. En algunos países como Dinamarca o Argentina tienen una cuota de mercado superior al 80%.",
+                "C. Surgió como alternativa de distribución de la señal de TV más económica que las redes satelitales.",
+                "D. Ninguna de las respuestas anteriores es correcta."
+            ],
+            "opcion_correcta": "B. En algunos países como Dinamarca o Argentina tienen una cuota de mercado superior al 80%.",
+            "justificacion": "**\nEl texto indica que en países como Dinamarca, Estados Unidos, Canadá o Argentina superan el 80% de hogares suscritos a servicios de televisión por cable.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.5 Operadores de cable actuales en España"
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "La funcionalidad que permite en DOCSIS 3.0 el uso simultáneo de varios canales, tanto de subida como de bajada, se denomina:",
+            "opciones": [
+                "A. ‘Channel multiplex’.",
+                "B. ‘Channel agregation’.",
+                "C. ‘Channel bonding’.",
+                "D. ‘Channel multiaddress’."
+            ],
+            "opcion_correcta": "C. ‘Channel bonding’.",
+            "justificacion": "**\nLa versión 3.0 añadió la funcionalidad 'channel bonding' para el uso de varios canales simultáneamente.",
+            "referencia": "**\nSección: 3 Estandarización en CATV/HFC Subsección: 3.2 DOCSIS. Evolución y características principales"
+        },
+        {
+            "id_pregunta": "Pregunta 108",
+            "enunciado": "En las telecomunicaciones por cable, IEEE 802.14 es:",
+            "opciones": [
+                "A. Un estándar de IEEE alternativo a DOCSIS empleado mayoritariamente en Estados Unidos.",
+                "B. Un grupo de trabajo que se encargó de elaborar un estándar de redes de cable sobre ATM, pero que no llegó a prosperar.",
+                "C. La ratificación de IEEE a la familia de especificaciones de DOCSIS.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "B. Un grupo de trabajo que se encargó de elaborar un estándar de redes de cable sobre ATM, pero que no llegó a prosperar.",
+            "justificacion": "**\nEl IEEE creó un grupo de trabajo para la norma 802.14 enfocada en ATM, pero no se llegó a publicar ni implementar debido al éxito de iniciativas IP como DOCSIS.",
+            "referencia": "**\nSección: 3 Estandarización en CATV/HFC Subsección: 3.1 Origen de la estandarización en CATV/HFC"
+        },
+        {
+            "id_pregunta": "Pregunta 109",
+            "enunciado": "La legislación que permitió en España la regularización de la situación de los operadores locales permitiendo la entrada de nuevos operadores fue:",
+            "opciones": [
+                "A. Ley 32/2003.",
+                "B. Real Decreto 2066/1996.",
+                "C. Real Decreto 920/2006.",
+                "D. Ley 12/1997."
+            ],
+            "opcion_correcta": "C. Real Decreto 920/2006.",
+            "justificacion": "**\nEl RD 920/2006 entró en vigor el 2 de octubre de 2006 y permitió la entrada de nuevos operadores de cable, regularizando la situación.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.4 El cable histórico y los operadores locales"
+        },
+        {
+            "id_pregunta": "Pregunta 110",
+            "enunciado": "La principal desventaja de las redes de acceso HFC respecto de FTTH hasta la fecha es:",
+            "opciones": [
+                "A. Se mayor coste de despliegue.",
+                "B. Su imposibilidad de conseguir altos anchos de banda.",
+                "C. Su falta de integración con servicios convergentes.",
+                "D. Su limitación en el canal de subida usuario->red."
+            ],
+            "opcion_correcta": "D. Su limitación en el canal de subida usuario->red.",
+            "justificacion": "**\nEl texto señala que los principales puntos débiles de HFC han sido el canal de retorno (subida), inicialmente inexistente o limitado, y el tramo de coaxial más sensible al ruido.",
+            "referencia": "**\nSección: 4 Redes de acceso de nueva generación Subsección: 4.3 Comparativa entre NGA cableadas: xDSL, HFC, FTTx"
+        },
+        {
+            "id_pregunta": "Pregunta 111",
+            "enunciado": "¿Cuál de las siguientes no es una tecnología de acceso cableada?",
+            "opciones": [
+                "A. HFC.",
+                "B. LMDS.",
+                "C. xDSL.",
+                "D. FTTx."
+            ],
+            "opcion_correcta": "B. LMDS.",
+            "justificacion": "**\nLMDS se clasifica en el texto dentro de las tecnologías inalámbricas, mientras que HFC, xDSL y FTTx son accesos por cable físico.",
+            "referencia": "**\nSección: 4 Redes de acceso de nueva generación Subsección: 4.1 NGAN. Concepto y tipologías"
+        },
+        {
+            "id_pregunta": "Pregunta 112",
+            "enunciado": "Las funcionalidades de pago por visión y vídeo bajo demanda fueron posibles en la TV por cable gracias a:",
+            "opciones": [
+                "A. La mejora de los procesos de cifrado en los decodificadores.",
+                "B. La mejora en las prestaciones del canal de subida usuario->red.",
+                "C. La estandarización de los servicios.",
+                "D. La compatibilidad con IPv6."
+            ],
+            "opcion_correcta": "B. La mejora en las prestaciones del canal de subida usuario->red.",
+            "justificacion": "**\nLa necesidad de comunicación bidireccional (canal de retorno/subida) permitió la personalización, pago por visión y vídeo bajo demanda.",
+            "referencia": "**\nSección: 2 Redes CATV Subsección: 2.1 CATV. Concepto y origen / 6.1 Servicios iniciales en CATV"
+        },
+        {
+            "id_pregunta": "Pregunta 113",
+            "enunciado": "A finales de 2015, existen en España el siguiente número aproximado de operadores de redes de cable:",
+            "opciones": [
+                "A. 450.",
+                "B. 1.",
+                "C. 700.",
+                "D. 20."
+            ],
+            "opcion_correcta": "A. 450.",
+            "justificacion": "**\nEl texto indica que hay un total de 450 operadores locales que han registrado su actividad en España.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.4 El cable histórico y los operadores locales"
+        },
+        {
+            "id_pregunta": "Pregunta 114",
+            "enunciado": "En telecomunicaciones, el término ‘multi-play’ se refiere a:",
+            "opciones": [
+                "A. Un escenario no monopolístico de prestación de servicios en competencia de múltiples operadores.",
+                "B. Una funcionalidad de vídeo a la carta en los paquetes de televisión.",
+                "C. Una combinación de varios servicios convergentes contratados a un mismo operador.",
+                "D. Una agregación de varios canales de comunicación en una configuración multiplex."
+            ],
+            "opcion_correcta": "C. Una combinación de varios servicios convergentes contratados a un mismo operador.",
+            "justificacion": "**\nMulti-play designa la prestación de varios servicios de telecomunicación convergentes por un mismo operador a través de un mismo acceso contratado.",
+            "referencia": "**\nSección: 6 Servicios de red en telecomunicaciones por cable Subsección: 6.2 Servicios multi-play"
+        },
+        {
+            "id_pregunta": "Pregunta 115",
+            "enunciado": "En 2015, el Registro Público de Operadores es gestionado por:",
+            "opciones": [
+                "A. La Comisión Nacional de los Mercados y de la Competencia, si bien está previsto por Ley que pase a llevarlo el Ministerio de Industria, Energía y Turismo.",
+                "B. El Ministerio de Industria, Energía y Turismo, si bien está previsto que pase a llevarlo la Comisión Nacional de los Mercados y de la Competencia.",
+                "C. El Ministerio de Presidencia.",
+                "D. El Ministerio de Hacienda y Administraciones Públicas."
+            ],
+            "opcion_correcta": "A. La Comisión Nacional de los Mercados y de la Competencia, si bien está previsto por Ley que pase a llevarlo el Ministerio de Industria, Energía y Turismo.",
+            "justificacion": "**\nEl registro lo lleva actualmente la CNMC, aunque la Ley 9/2014 prevé que pase al Ministerio de Industria, Energía y Turismo.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.6 Registro público de operadores"
+        },
+        {
+            "id_pregunta": "Pregunta 116",
+            "enunciado": "En las redes de acceso:",
+            "opciones": [
+                "A. FTTC lleva la fibra más cerca del usuario que FTTB.",
+                "B. FTTH lleva la fibra más cerca del usuario que FTTN.",
+                "C. FTTN lleva la fibra más cerca del usuario que FTTC.",
+                "D. FTTB lleva la fibra más cerca del usuario que FTTH."
+            ],
+            "opcion_correcta": "B. FTTH lleva la fibra más cerca del usuario que FTTN.",
+            "justificacion": "**\nFTTH significa Fiber To The Home (hasta el hogar), mientras que FTTN es hasta el nodo, por lo que FTTH lleva la fibra físicamente más cerca del usuario final.",
+            "referencia": "**\nSección: 4 Redes de acceso de nueva generación Subsección: 4.2 HFC y FTTx"
+        },
+        {
+            "id_pregunta": "Pregunta 117",
+            "enunciado": "Las demarcaciones iniciales en la concesión de los servicios de televisión por cable eran:",
+            "opciones": [
+                "A. Una por provincia.",
+                "B. Una por municipio.",
+                "C. Una por comunidad autónoma.",
+                "D. De tamaño heterogéneo, algunas de un municipio y otras multimunicipales."
+            ],
+            "opcion_correcta": "",
+            "justificacion": "**\nEl texto indica que se establecieron demarcaciones tan diferentes como pequeños municipios o comunidades autónomas completas.",
+            "referencia": "**\nSección: 5 Operadores de cable Subsección: 5.3 Demarcaciones de cable en España"
+        },
+        {
+            "id_pregunta": "Pregunta 118",
+            "enunciado": "A finales de 2015, la versión de DOCSIS desplegada en las redes HFC en España es:",
+            "opciones": [
+                "A. 1.1.",
+                "B. 2.0.",
+                "C. 3.0.",
+                "D. 3.1."
+            ],
+            "opcion_correcta": "C. 3.0.",
+            "justificacion": "**\nEl documento afirma que en España los operadores de cable disponen actualmente (en el contexto del texto 2016) de la versión 3.0 de DOCSIS, en vías de actualización a 3.1.",
+            "referencia": "**\nSección: 7 Evolución de redes y servicios CATV y HFC Subsección: 7.2 Evolución de la tecnología"
+        },
+        {
+            "id_pregunta": "Pregunta 119",
+            "enunciado": "El conector de cable coaxial más típicamente usado en HFC es:",
+            "opciones": [
+                "A. Tipo A.",
+                "B. Tipo F.",
+                "C. Tipo H.",
+                "D. Tipo B."
+            ],
+            "opcion_correcta": "B. Tipo F.",
+            "justificacion": "**\nEn la red de abonado es habitual disponer de cables coaxiales con conectores tipo F.",
+            "referencia": "**\nSección: 2 Redes CATV Subsección: 2.3 Estructura y componentes de una red CATV/HFC"
+        },
+        {
+            "id_pregunta": "Pregunta 120",
+            "enunciado": "El fenómeno de concentración de operadores prestadores de servicios convergentes en telecomunicaciones consiste en:",
+            "opciones": [
+                "A. La estandarización de soluciones técnicas entre todos los operadores para abaratar costes y asegurarse mercado.",
+                "B. La estrategia de centralización de servicios de gestión para obtener un mayor control de los servicios de red.",
+                "C. La adquisición de otras compañías del sector para paliar las deficiencias en la red propia y/o eliminar competencia.",
+                "D. La utilización de redes troncales tales que concentren el tráfico de los diferentes servicios."
+            ],
+            "opcion_correcta": "C. La adquisición de otras compañías del sector para paliar las deficiencias en la red propia y/o eliminar competencia.",
+            "justificacion": "**\nEl texto describe que se producen grandes fusiones y adquisiciones entre compañías para cubrir la mayor parte de los servicios convergentes posibles.",
+            "referencia": "**\nSección: 6 Servicios de red en telecomunicaciones por cable Subsección: 6.2 Servicios multi-play"
+        },
+        {
+            "id_pregunta": "Pregunta 121",
+            "enunciado": "Dentro de un esquema de televisión digital, la tecnología HFC juega, respecto de la señal de TV, un papel en los procesos de:",
+            "opciones": [
+                "A. Producción y codificación.",
+                "B. Codificación y multiplexación.",
+                "C. Difusión y recepción.",
+                "D. Recepción y visualización."
+            ],
+            "opcion_correcta": "C. Difusión y recepción.",
+            "justificacion": "**\nHFC actúa como red de difusión (transporte desde cabecera a hogar) y medio de recepción en el domicilio del usuario antes de la visualización final.",
+            "referencia": "**\nSección: 2 Redes CATV Subsección: 2.6 CATV frente a otras redes de distribución de TV digital o analógica"
+        },
+        {
+            "id_pregunta": "Pregunta 122",
+            "enunciado": "El consorcio que desarrolla las especificaciones DOCSIS es:",
+            "opciones": [
+                "A. CableLabs.",
+                "B. CableComs.",
+                "C. CableResearch.",
+                "D. CableTelecoms."
+            ],
+            "opcion_correcta": "A. CableLabs.",
+            "justificacion": "**\nLas especificaciones DOCSIS son publicadas y mantenidas por CableLabs, consorcio fundado en 1988.",
+            "referencia": "**\nSección: 3 Estandarización en CATV/HFC Subsección: 3.2 DOCSIS. Evolución y características principales"
+        },
+        {
+            "id_pregunta": "Pregunta 123",
+            "enunciado": "La televisión de pago:",
+            "opciones": [
+                "A. Es exclusiva de sistemas HFC.",
+                "B. Comenzó en los sistemas HFC.",
+                "C. No es posible su existencia en sistemas HFC.",
+                "D. Ya no dispone de abonados en sistemas HFC."
+            ],
+            "opcion_correcta": "B. Comenzó en los sistemas HFC.",
+            "justificacion": "**\nEl texto indica que a finales de los 80s y principios de los 90s, los operadores (CATV/HFC) comenzaron a ofrecer servicios de televisión de pago mediante canales codificados.",
+            "referencia": "**\nSección: 2 Redes CATV Subsección: 2.1 CATV. Concepto y origen"
+        },
+        {
+            "id_pregunta": "Pregunta 124",
+            "enunciado": "La especificación DOCSISoS (DOCSIS over Satellite):",
+            "opciones": [
+                "A. No existe.",
+                "B. Emplea modulaciones diferentes a las de DOCSIS para las redes de cable.",
+                "C. Emplea un software de gestión de red diferente a las de DOCSIS para las redes de cable.",
+                "D. Ninguna de las respuestas anteriores es correcta."
+            ],
+            "opcion_correcta": "B. Emplea modulaciones diferentes a las de DOCSIS para las redes de cable.",
+            "justificacion": "**\nEl texto menciona que DOCSISoS emplea técnicas de modulación diferentes para permitir el uso en satélites, aunque reutiliza tecnologías y software de red de cable.",
+            "referencia": "**\nSección: 3 Estandarización en CATV/HFC Subsección: 3.2 DOCSIS. Evolución y características principales"
+        },
+        {
+            "id_pregunta": "Pregunta 125",
+            "enunciado": "Respecto de las redes de acceso cableadas:",
+            "opciones": [
+                "A. xDSL obtiene mayores velocidades que HFC.",
+                "B. HFC utiliza el cable de par trenzado del bucle telefónico de abonado.",
+                "C. FTTH es un caso particular de HFC.",
+                "D. Ninguna de las respuestas anteriores es correcta."
+            ],
+            "opcion_correcta": "D. Ninguna de las respuestas anteriores es correcta.",
+            "justificacion": "**\nxDSL tiene limitaciones de ancho de banda frente a HFC/FTTH; HFC usa coaxial no par trenzado; y HFC es un caso particular de FTTx, no al revés. Por tanto, ninguna afirmación anterior es correcta.",
+            "referencia": "**\nSección: 4 Redes de acceso de nueva generación Subsección: 4.3 Comparativa entre NGA cableadas: xDSL, HFC, FTTx / 4.2 HFC y FTTx"
+        }
+    ]
+}

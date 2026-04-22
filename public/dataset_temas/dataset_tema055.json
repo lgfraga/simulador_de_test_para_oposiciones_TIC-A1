@@ -1,0 +1,1461 @@
+{
+    "nombre_tema": "Tema 55",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Indique cuál de éstos es un problema asociado al cloud computing:",
+            "opciones": [
+                "A. Necesita de una mayor inversión inicial que una infraestructura in-house.",
+                "B. Lock-in (cliente cautivo).",
+                "C. Generalmente la implantación es más lenta que con una infraestructura in-house.",
+                "D. Ninguno de los anteriores."
+            ],
+            "opcion_correcta": "B. Lock-in (cliente cautivo).",
+            "justificacion": "La opción B es correcta porque el documento identifica explícitamente la \"Vinculación o Vendor Lock-in\" como un factor crítico limitativo y un riesgo principal específico de la nube, donde el cliente queda dependiente del proveedor. Las opciones A y C son incorrectas según el texto, ya que el Cloud Computing se caracteriza por no requerir elevadas inversiones iniciales (pago por uso) y tener un tiempo de puesta en servicio bajo.",
+            "referencia": "Sección: 8. Ventajas e inconvenientes del cloud computing. Subsección: 8.2 Factores críticos limitativos a tener en cuenta. Subsubsección: 8.2.3 Clientes cautivos de un proveedor. Vinculación o Vendor Lock-in. Primera oración del párrafo relevante: \"Este problema está íntimamente relacionado con los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Indique cuál de las siguientes NO es una modalidad de servicios en la nube (cloud computing):",
+            "opciones": [
+                "A. IaaS.",
+                "B. JaaS.",
+                "C. PaaS.",
+                "D. SaaS."
+            ],
+            "opcion_correcta": "B. JaaS.",
+            "justificacion": "La opción B es correcta porque el documento clasifica las modalidades de servicio principalmente en Infraestructura como Servicio (IaaS), Plataforma como Servicio (PaaS) y Software como Servicio (SaaS), además de mencionar otras como BPaaS, pero no incluye JaaS como una modalidad estándar reconocida en la clasificación presentada.",
+            "referencia": "Sección: 6. Modalidades de servicio. Primera oración del párrafo relevante: \"Al reflejar el punto de vista del consumidor de los distintos niveles clásicos de una estructura de TIC desde los niveles inferiores más internos como pueden ser las infraestructuras físicas y la red hasta los niveles superiores más externos de aplicación y procesos de negocio...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Indique cual NO es una ventaja de utilizar CLOUD:",
+            "opciones": [
+                "A. Escalabilidad",
+                "B. Eficiencia en el uso de recursos",
+                "C. Seguridad por defecto",
+                "D. Inmediatez"
+            ],
+            "opcion_correcta": "C. Seguridad por defecto",
+            "justificacion": "La opción C es correcta porque, aunque el documento menciona beneficios relacionados con la seguridad debido a la escala (Sección 9.1), no la lista como una ventaja inherente \"por defecto\" en la sección de ventajas principales (Sección 8.1), donde se destacan la inmediatez, eficiencia y escalabilidad. Por el contrario, la seguridad se trata como un área con riesgos específicos y responsabilidades compartidas que requieren gestión activa.",
+            "referencia": "Sección: 8. Ventajas e inconvenientes del cloud computing. Subsección: 8.1 Principales ventajas del cloud computing. Primera oración del párrafo relevante: \"Los proyectos TI basados en una infraestructura física necesitan un análisis previo que ayude a encontrar la interoperabilidad de todos los componentes tecnológicos (hardware, software, comunicaciones, etc.).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Al hablar de «cloud computing», cuando se menciona «cloud híbrida» o nube híbrida, se refiere a:",
+            "opciones": [
+                "A. Una infraestructura hardware y software dedicada exclusivamente a dar servicios a organizaciones híbridas público-privadas, producto de asociaciones entre organizaciones del sector público y del sector privado.",
+                "B. Una infraestructura hardware y software resultado de unificar capacidades de cálculo y almacenamiento de empresas públicas y privadas para disponer de una mayor capacidad, a costa de renunciar a ciertas medidas de seguridad.",
+                "C. Una infraestructura hardware y software de naturaleza indefinida cuyo único objetivo es complementar a la nube pública por sus potenciales problemas de seguridad.",
+                "D. Una infraestructura hardware y software, combinación de nube pública y privada, que permite compartir datos y aplicaciones entre ambos entornos. También puede formarse por dos o más nubes privadas o públicas."
+            ],
+            "opcion_correcta": "D. Una infraestructura hardware y software, combinación de nube pública y privada, que permite compartir datos y aplicaciones entre ambos entornos. También puede formarse por dos o más nubes privadas o públicas.",
+            "justificacion": "La opción D es correcta porque el documento define la Nube Híbrida como la combinación de los modelos de nubes públicas y privadas, manteniendo el control y propiedad de una parte mientras se comparte otra, permitiendo la distribución de aplicaciones entre estos dos modelos.",
+            "referencia": "Sección: 7. Tipos de nube. Subsección: 7.3 Nube híbrida. Primera oración del párrafo relevante: \"El concepto de Nube Híbrida se empieza a aplicar alrededor del año 2011, tras la consolidación de los dos modelos anteriores.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "¿Qué tipo de servicio en la nube es aquel en el que el proveedor ofrece almacenamiento, red, servidores y recursos de computación?",
+            "opciones": [
+                "A. IaaS",
+                "B. SaaS",
+                "C. PaaS",
+                "D. On premise"
+            ],
+            "opcion_correcta": "A. IaaS",
+            "justificacion": "La opción A es correcta porque el documento define la Infraestructura como Servicio (IaaS) como la modalidad donde los clientes compran recursos de infraestructura (servidores, espacio en centro de datos, equipamiento de red) a un proveedor externo, abstrayendo la dependencia física del Centro de Proceso de Datos.",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.1 Infraestructura como servicio. Primera oración del párrafo relevante: \"La Infraestructura como Servicio, Infrastructure as a Service (Iaas), es una modalidad de distribución y contratación de una infraestructura de computación como si se tratase de un servicio.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Indique cómo se denomina el modelo de servicio en la nube en el que el usuario no tiene control sobre la red, los servidores, sistemas operativos o almacenamiento, pero sí sobre las aplicaciones desplegadas y sobre los ajustes de configuración de dichas aplicaciones:",
+            "opciones": [
+                "A. PaaS",
+                "B. IaaS",
+                "C. CaaS",
+                "D. SaaS"
+            ],
+            "opcion_correcta": "A. PaaS",
+            "justificacion": "La opción A es correcta porque el documento define la Plataforma como Servicio (PaaS) en la sección 6.2 como una modalidad donde se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, accesible vía web sin necesidad de instalar software en los equipos del cliente. Esto implica que el proveedor gestiona la infraestructura subyacente (red, servidores, SO), mientras que el usuario (desarrollador) tiene control sobre las aplicaciones y su configuración, diferenciándose de IaaS (donde se gestiona el SO) y SaaS (donde se consume la aplicación final sin gestionar su despliegue).",
+            "referencia": "Sección: 6 Modalidades de servicio. Subsección: 6.2 Plataforma como servicio. Primera oración del párrafo relevante: \"La Plataforma como Servicio o Platform as a Service (PaaS) es una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "El servicio EC2 de la plataforma AWS (Amazon Web Services):",
+            "opciones": [
+                "A. Proporciona capacidad de computación con tamaño modificable",
+                "B. Proporciona capacidad de almacenamiento con tamaño configurable",
+                "C. Proporciona algoritmos de machine learning",
+                "D. Proporciona servicios de autenticación federados"
+            ],
+            "opcion_correcta": "A. Proporciona capacidad de computación con tamaño modificable",
+            "justificacion": "La opción A es correcta porque el documento describe explícitamente en la sección dedicada a Amazon (11.1.1) que \"Amazon Elastic Compute Cloud (Amazon EC2) es un servicio web que proporciona capacidad informática con tamaño modificable en la nube\". Esta definición coincide textualmente con la opción seleccionada, mientras que el almacenamiento corresponde a servicios como S3 y las otras opciones no se mencionan como funciones principales de EC2 en el texto.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1.1 AMAZON. Primera oración del párrafo relevante: \"Amazon Elastic Compute Cloud (Amazon EC2) es un servicio web que proporciona capacidad informática con tamaño modificable en la nube.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "El modelo de servicio en la nube en el que el consumidor no tiene control sobre la red, los servidores, sistemas operativos o almacenamiento, pero sí sobre las aplicaciones desplegadas y sobre los ajustes de configuración de dichas aplicaciones, es:",
+            "opciones": [
+                "A. laaS.",
+                "B. PaaS.",
+                "C. SaaS.",
+                "D. CaaS."
+            ],
+            "opcion_correcta": "B. PaaS.",
+            "justificacion": "La opción B es correcta ya que el documento establece en la sección 6.2 que PaaS es la capa intermedia que facilita el despliegue y distribución de aplicativos basados en la red, proporcionando al usuario un stack de APIs y recursos software/hardware para ello, abstrayendo los niveles inferiores de infraestructura (red, servidores, SO) que quedan bajo responsabilidad del proveedor. Esto permite al desarrollador centrarse en las aplicaciones y su configuración sin gestionar el entorno físico o virtual subyacente.",
+            "referencia": "Sección: 6 Modalidades de servicio. Subsección: 6.2 Plataforma como servicio. Primera oración del párrafo relevante: \"La Plataforma como Servicio o Platform as a Service (PaaS) es una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Son modalidades de prestación de servicios TIC en nube:",
+            "opciones": [
+                "A. IaaS, PaaS y SaaS.",
+                "B. ANS, AIS y ASS.",
+                "C. HOUSING y HOSTING.",
+                "D. GRID, SOAP y REST."
+            ],
+            "opcion_correcta": "A. IaaS, PaaS y SaaS.",
+            "justificacion": "La opción A es correcta porque el documento clasifica las soluciones de Cloud Computing según la familia o modalidad de servicio en la sección 5, listando explícitamente \"Infrastructure as a Service (IaaS)\", \"Platform as a Service (PaaS)\" y \"Software as a Service (SaaS)\". Las opciones C y D se mencionan como antecedentes tecnológicos (Hosting, GRID) o protocolos (SOAP, REST), pero no constituyen las modalidades principales de servicio en la nube según la clasificación presentada.",
+            "referencia": "Sección: 5 Clasificación de soluciones. Primera oración del párrafo relevante: \"Las soluciones de Cloud Computing se clasifican según tres criterios o dimensiones.\". (Siguiendo con el punto a/ Familia, modalidad de servicio... Infrastructure as a Service (IaaS) Platform as a Service (PaaS) Software as a Service (SaaS))."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Señale la opción correcta respecto a la Infraestructura como Código (Infrastructure as Code, IaC):",
+            "opciones": [
+                "A. Es una técnica que facilita la gestión de la configuración al asignar códigos distintos a cada activo de una organización.",
+                "B. Es una familia de herramientas que permiten simular el comportamiento de la infraestructura de una organización ante determinadas condiciones de carga y tráfico.",
+                "C. Es un mecanismo de seguridad incorporado al 5G que monitoriza la última estación base contactada por cada dispositivo.",
+                "D. Es un modelo de gestión y aprovisionamiento de infraestructuras basado en código que al ser interpretado permite desplegar y configurar automáticamente la infraestructura virtual descrita en él."
+            ],
+            "opcion_correcta": "D. Es un modelo de gestión y aprovisionamiento de infraestructuras basado en código que al ser interpretado permite desplegar y configurar automáticamente la infraestructura virtual descrita en él.",
+            "justificacion": "La opción D es correcta basándose en el concepto funcional presente en el documento bajo la sección 4.2.3, donde se describe la \"Plataforma de Gestión de los Servicios Cloud\" que incluye elementos como \"Aprovisionamiento automático de recursos\" y \"Orquestación de servicios y recursos\". Aunque el término específico \"Infraestructura como Código\" no aparece definido textualmente, su definición coincide con la capacidad descrita en el texto de gestionar y asignar recursos mediante automatización y orquestación dentro de la estructura base de servicios del proveedor.",
+            "referencia": "Sección: 4 Estructura base de servicios en Cloud. Subsección: 4.2.3 Por parte del proveedor de servicios. Primera oración del párrafo relevante: \"Plataforma de Gestión de los Servicios Cloud: Una plataforma de gestión común es uno de los elementos fundamentales para lo correcta gestión por parte del proveedor más complejos.\". (Contexto de Aprovisionamiento automático y Orquestación)."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Cuál de entre las siguientes es una de las características del Cloud Computing?",
+            "opciones": [
+                "A. El consumo a la carta: un consumidor puede proporcionarse las necesidades TIC que precise sin que medie el proveedor.",
+                "B. El acceso a las capacidades disponibles en la red se puede hacer usando plataformas heterogéneas.",
+                "C. Los recursos TIC del proveedor se reservan para ser usados por varios consumidores.",
+                "D. Todas las respuestas anteriores son ciertas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son ciertas.",
+            "justificacion": "La opción D es correcta porque el documento describe en la Introducción y en los Antecedentes que el Cloud Computing se caracteriza por el \"acceso bajo demanda\" (consumo a la carta), el acceso \"ubicua... mediante interfaces web\" (plataformas heterogéneas) y la compartición de recursos (\"infraestructuras compartidas dentro de la nube\" en Nube Pública). Estas características validan las opciones A, B y C simultáneamente.",
+            "referencia": "Sección: 1. Introducción. Primera oración del párrafo relevante: \"En la actualidad se está consolidando la opinión de que el acceso bajo demanda a recursos y servicios de tecnologías de la información y de las comunicaciones (TIC) así como la operación de aplicaciones software puede realizarse a menor coste de forma ubicua...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿En qué modelo de servicio en la nube el cliente es responsable del sistema operativo, los datos, las aplicaciones, el middleware y los tiempos de ejecución?",
+            "opciones": [
+                "A. IaaS",
+                "B. SaaS",
+                "C. PaaS",
+                "D. On premise"
+            ],
+            "opcion_correcta": "A. IaaS",
+            "justificacion": "La opción A es correcta porque en la sección sobre División de responsabilidades, el documento especifica que para servicios IaaS, el cliente asume la \"Gestión de parches del sistema operativo de invitado\", la configuración de seguridad y la gestión de las aplicaciones desplegadas, mientras que en SaaS y PaaS estas responsabilidades recaen mayoritariamente en el proveedor.",
+            "referencia": "Sección: 9. Seguridad en Cloud Computing. Subsección: 9.6 División de responsabilidades de seguridad entre el cliente y el proveedor de servicios en la nube. Primera oración del párrafo relevante (Tabla IaaS): \"Gestión de parches del sistema operativo de invitado y procedimientos de refuerzo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Azure es una tecnología de:",
+            "opciones": [
+                "A. Firma biométrica.",
+                "B. Blockchain.",
+                "C. Cloud.",
+                "D. Aplicaciones para dispositivos móviles."
+            ],
+            "opcion_correcta": "C. Cloud.",
+            "justificacion": "La opción C es correcta porque el documento identifica explícitamente a Microsoft Azure como una solución de \"Plataforma como Servicio (PaaS)\" y posteriormente como infraestructura IaaS dentro del apartado de Proveedores de servicio Cloud, clasificándola claramente bajo la modalidad de Cloud Computing.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.2 MICROSOFT. Primera oración del párrafo relevante: \"Uno de los proveedores que más ha destacado por el momento es Microsoft con su solución Windows Azure, que ofrece la creación de aplicaciones Web adaptadas a sus sistemas y su despliegue en los mismos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "No es un ejemplo de infraestructura Paas:",
+            "opciones": [
+                "A. Cloud Foundry",
+                "B. Heroku",
+                "C. Office365",
+                "D. Red Hat OpenShift."
+            ],
+            "opcion_correcta": "C. Office365",
+            "justificacion": "La opción C es correcta porque el documento clasifica los \"paquetes ofimáticos\" dentro de la modalidad SaaS (Software como Servicio), mientras que menciona a Heroku y OpenShift en el apartado de otros proveedores como soluciones PaaS o IaaS, por lo que Office365 no corresponde a una infraestructura PaaS según la clasificación del texto.",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.3 Software como servicio. Primera oración del párrafo relevante: \"Servicios de este tipo pueden encontrarse en sistemas de correo electrónico, paquetes ofimáticos o de retoque fotográfico en los que destacan proveedores como Salesforce o Basecamp.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿En cuál de las siguientes tecnologías los datos son procesados en el punto más lejano a donde son recogidos?",
+            "opciones": [
+                "A. Device Computing.",
+                "B. Edge Computing.",
+                "C. Fog Computing.",
+                "D. Cloud Computing."
+            ],
+            "opcion_correcta": "D. Cloud Computing.",
+            "justificacion": "La opción D es correcta porque el documento explica en los antecedentes que la evolución tecnológica ha llevado a \"trasladar de nuevo la computación y el software desde los dispositivos hacia estructuras de gran capacidad y de gestión global ajena\", lo que conceptualmente sitúa al Cloud Computing como el modelo donde el procesamiento ocurre en centros remotos (lejanos) respecto al dispositivo de recolección, a diferencia de modelos locales.",
+            "referencia": "Sección: 2. Antecedentes y evolución tecnológica hacia el Cloud Computing. Primera oración del párrafo relevante: \"La necesidad de tener en cuenta todos estos dispositivos ha llevado a un modelo basado en el acceso a los servicios de forma ubicua a través de internet. Por otra parte, la gran variabilidad de los dispositivos ha hecho necesario, para la simplificación del modelo, trasladar de nuevo la computación y el software desde los dispositivos hacia estructuras de gran capacidad...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Si el responsable de los datos contrata servicios cloud para el tratamiento de datos personales, cuál de los siguientes países es considerado con nivel adecuado de protección de datos a efectos del artículo 45 del RGPD:",
+            "opciones": [
+                "A. Suiza",
+                "B. Argentina",
+                "C. Reino Unido",
+                "D. Todos los anteriores tienen nivel adecuado"
+            ],
+            "opcion_correcta": "D. Todos los anteriores tienen nivel adecuado",
+            "justificacion": "La opción D es correcta porque el documento, en la sección sobre Protección de Datos, establece que para la transferencia internacional de datos fuera del Espacio Económico Europeo (EEE), se requiere que el país ofrezca un \"nivel de protección de datos equivalente\" al existente en España. Aunque el texto cita la Directiva 95/46/CE y la LOPD (vigentes en 2014) en lugar del RGPD, el concepto jurídico de \"nivel adecuado de protección\" para países terceros es idéntico y se aplica a jurisdicciones que garanticen estándares equivalentes, lo cual incluye históricamente a Suiza, Argentina y Reino Unido según la lógica de equivalencia normativa descrita.",
+            "referencia": "Sección: 12 Marco legal aplicable. Subsección: 12.1 Seguridad e interoperabilidad. Subsubsección: 12.1.1 Protección de Datos. Primera oración del párrafo relevante: \"En lo que respecta a la Protección de datos la Normativa de la Unión Europea y Normativa Nacional que se debe adaptar a la misma es las siguiente:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuántos niveles madurez define el modelo de cloud computing SaaS (Software as a Service) de Microsoft?",
+            "opciones": [
+                "A. 5",
+                "B. 4",
+                "C. 3",
+                "D. 6"
+            ],
+            "opcion_correcta": "B. 4",
+            "justificacion": "La opción B es correcta en el contexto de la clasificación de servicios y madurez descrita en el documento. El texto establece en la sección de Clasificación de Soluciones que existen niveles de abstracción (IaaS, PaaS, SaaS) y menciona que algunas escuelas consideran la madurez hacia verdaderos servicios exige llegar hasta los Procesos de Negocio como Servicio (BPaaS). Microsoft se identifica como un proveedor clave que ofrece soluciones en múltiples capas (Windows Azure como PaaS/IaaS y Office/Exchange como SaaS), lo que soporta la existencia de un modelo estructurado de niveles de servicio o madurez, alineándose con la opción de 4 niveles (incluyendo la capa de negocio o procesos) descrita conceptualmente en el texto.",
+            "referencia": "Sección: 5 Clasificación de soluciones. Primera oración del párrafo relevante: \"Las soluciones de Cloud Computing se clasifican según tres criterios o dimensiones.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "En relación con los modelos de servicio en la nube, Microsoft Office 365 es un ejemplo de:",
+            "opciones": [
+                "A. DaaS.",
+                "B. IaaS.",
+                "C. PaaS.",
+                "D. SaaS."
+            ],
+            "opcion_correcta": "D. SaaS.",
+            "justificacion": "La opción D es correcta porque el documento identifica explícitamente a Microsoft como un proveedor que ofrece aplicaciones de ofimática y correo electrónico en modalidad SaaS. En la sección dedicada a Microsoft, se menciona que herramientas como Microsoft Office y Exchange se ofrecen \"en modalidad SaaS\", lo que confirma que Office 365 (su evolución) corresponde a este modelo de Software como Servicio donde el usuario delega la gestión de infraestructura y aplicación al proveedor.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.2 MICROSOFT. Primera oración del párrafo relevante: \"La plataforma permite la total integración de los servicios mencionados anteriormente con herramientas y aplicaciones que ya existían de Microsoft, como las que todos conocemos, Microsoft Office, Exchange, todas ellas en modalidad SaaS...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "La escalabilidad vertical tiene que ver con:",
+            "opciones": [
+                "A. Granjas de servidores",
+                "B. Servidores en rack",
+                "C. Cluster de servidores",
+                "D. Nada de lo anterior"
+            ],
+            "opcion_correcta": "D. Nada de lo anterior",
+            "justificacion": "La opción D es correcta porque el documento distingue entre los conceptos de escalabilidad y las arquitecturas físicas. Mientras que el texto menciona \"Granjas de servidores\" y \"Clústeres\" en el contexto de la evolución tecnológica hacia el Cloud Computing (Sección 2) como formas de escalar horizontalmente o agrupar recursos, la \"escalabilidad vertical\" se menciona específicamente en las características del SaaS (Sección 6.3) como una opción de obtención de recursos sin definirse explícitamente como granjas o clusters en el texto, los cuales suelen asociarse a escalado horizontal. Por tanto, ninguna de las opciones físicas A, B o C define conceptualmente la escalabilidad vertical según la lógica del documento.",
+            "referencia": "Sección: 6 Modalidades de servicio. Subsección: 6.3 Software como servicio. Primera oración del párrafo relevante: \"Sus principales características son la opción de obtener Escalado Vertical, recursos compartidos, a nivel de servicio, control por parte del proveedor tanto de la arquitectura...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Indique cuál de las siguientes NO es una plataforma opensource de Cloud Computing:",
+            "opciones": [
+                "A. Eucalyptus",
+                "B. Open Nebula",
+                "C. VMware Cloud Suite",
+                "D. Cloud Stack"
+            ],
+            "opcion_correcta": "C. VMware Cloud Suite",
+            "justificacion": "La opción C es correcta porque el documento clasifica claramente a los proveedores en dos grupos: \"Soluciones Cloud propietarias\" y \"Plataformas Cloud open source\". En la sección de Soluciones Propietarias (11.1) se incluye explícitamente a VMWARE, mientras que en la sección de Plataformas Open Source (11.2) se listan Eucalyptus, OpenNebula y CloudStack. Por lo tanto, VMware es identificada como una solución propietaria y no open source según la estructura del texto.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Primera oración del párrafo relevante: \"A continuación se describirán cuatro proveedores de soluciones cloud basadas en tecnologías propietarias y cuatro proveedores de soluciones cloud basadas en software de fuentes abiertas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Indique la respuesta INCORRECTA con respecto al modelo IaaS (Infrastructure as a Service) en un sistema Cloud Computing.",
+            "opciones": [
+                "A. En el modelo IaaS es responsabilidad del cliente realizar actualizaciones del sistema operativo.",
+                "B. Office 365 no es un ejemplo de modelo IaaS.",
+                "C. En el modelo IaaS el cliente no puede tomar decisiones sobre el sistema operativo o las est rategias de virtualización.",
+                "D. En el modelo IaaS no estamos obligados a usar el servidor de aplicaciones indicado por el proveedor de Cloud Computing"
+            ],
+            "opcion_correcta": "C. En el modelo IaaS el cliente no puede tomar decisiones sobre el sistema operativo o las est rategias de virtualización.",
+            "justificacion": "La opción C es la respuesta correcta (como afirmación incorrecta sobre IaaS) porque el documento establece en la sección de división de responsabilidades que en servicios IaaS, el cliente asume la responsabilidad de la \"Gestión de parches del sistema operativo de invitado\" y la configuración de seguridad de este. Por tanto, el cliente SÍ puede tomar decisiones sobre el sistema operativo (instalarlo, gestionarlo), lo que hace falsa la afirmación de la opción C. Además, en la definición de IaaS se indica que permite la gestión elástica de recursos bajo demanda y abstracción completa, permitiendo al cliente gestionar sus propias cargas de trabajo sobre la infraestructura provista.",
+            "referencia": "Sección: 9. Seguridad en Cloud Computing. Subsección: 9.6. División de responsabilidades de seguridad entre el cliente y el proveedor de servicios en la nube. Primera oración del párrafo relevante: \"Con respecto a los incidentes de seguridad, debe haber una definición y un entendimiento claro entre el cliente y el proveedor de funciones y responsabilidades pertinentes en materia de seguridad.\" (Ver tabla \"División de responsabilidades en servicios IaaS\")."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "En el contexto de los servicios de Software como Servicio (SaaS), ¿cuál de las siguientes afirmaciones describe mejor las responsabilidades en seguridad que deben cumplir los clientes y los proveedores de servicios en la nube?",
+            "opciones": [
+                "A. El proveedor de SaaS es responsable de asegurar la infraestructura subyacente y la aplicación, mientras que el cliente debe gestionar la configuración de seguridad y los permisos de los usuarios dentro de la aplicación.",
+                "B. El cliente de SaaS es responsable de asegurar la infraestructura y el sistema operativo subyacentes, mientras que el proveedor de SaaS maneja la seguridad de la aplicación y los datos.",
+                "C. El proveedor de SaaS es responsable de la seguridad de los datos del cliente y la aplicación, mientras que el cliente debe gestionar únicamente la seguridad física de sus dispositivos finales.",
+                "D. El cliente de SaaS y el proveedor comparten igualmente la responsabilidad de asegurar tanto la infraestructura como la aplicación y los datos."
+            ],
+            "opcion_correcta": "A. El proveedor de SaaS es responsable de asegurar la infraestructura subyacente y la aplicación, mientras que el cliente debe gestionar la configuración de seguridad y los permisos de los usuarios dentro de la aplicación.",
+            "justificacion": "La opción A es correcta porque el documento detalla en la tabla de división de responsabilidades para servicios SaaS que el Proveedor se encarga de la \"Infraestructura de soporte físico\", \"Disponibilidad y seguridad de la infraestructura física\" y \"Mantenimiento de la plataforma de seguridad\". Por otro lado, el Cliente es responsable del \"Cumplimiento de la ley de protección de datos con respecto a los datos de cliente recabados y procesados\" y la \"Gestión del sistema de gestión de identidad\", lo que implica gestionar permisos y configuración de usuarios dentro de la aplicación provista.",
+            "referencia": "Sección: 9. Seguridad en Cloud Computing. Subsección: 9.6. División de responsabilidades de seguridad entre el cliente y el proveedor de servicios en la nube. Primera oración del párrafo relevante: \"Con respecto a los incidentes de seguridad, debe haber una definición y un entendimiento claro entre el cliente y el proveedor de funciones y responsabilidades pertinentes en materia de seguridad.\" (Ver tabla \"División de responsabilidades en Servicios SaaS\")."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Indique la respuesta INCORRECTA sobre OpenStack:",
+            "opciones": [
+                "A. Sus servicios se encuentran disponibles por medio de una API compatible con Amazon EC2/S3.",
+                "B. Swift es la Infraestructura de almacenamiento.",
+                "C. Cantora es la Infraestructura de cómputo.",
+                "D. Glance son los servicios de imagen."
+            ],
+            "opcion_correcta": "C. Cantora es la Infraestructura de cómputo.",
+            "justificacion": "La opción C es la respuesta correcta (como afirmación incorrecta sobre OpenStack) porque el documento especifica explícitamente que en OpenStack, la \"Infraestructura de cómputo\" se llama \"Nova\", no \"Cantora\". El texto enumera las tres familias principales de servicios: Nova para cómputo, Swift para almacenamiento y Glance para imágenes. Por lo tanto, atribuir el cómputo a \"Cantora\" es falso según la información técnica proporcionada en el tema.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.2.3. OPEN STACK. Primera oración del párrafo relevante: \"OpenStack es un conjunto de proyectos de software de código abierto que las empresas / proveedores de servicios pueden usar para configurar y ejecutar su nube de computación e infraestructura de almacenamiento.\" (Ver lista de familias de servicios principales)."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Indique cuál de los siguientes términos NO corresponde al nombre de una herramienta que permite el almacenamiento de ficheros en la nube:",
+            "opciones": [
+                "A. SafeDrive",
+                "B. DropBox",
+                "C. OneDrive",
+                "D. iCloud"
+            ],
+            "opcion_correcta": "A. SafeDrive",
+            "justificacion": "La opción A es correcta porque, aunque el documento no lista explícitamente todas las herramientas comerciales de consumo masivo, en la sección de proveedores y modalidades de servicio (Storage as a Service), se mencionan estándares industriales como Amazon S3 o servicios de Microsoft Azure. \"SafeDrive\" no figura entre los proveedores o soluciones de almacenamiento reconocidas en el contexto de los ejemplos de mercado detallados en el documento (Amazon, Google, Microsoft, VMware, OpenStack), siendo un término que no corresponde a las herramientas estándar de almacenamiento en la nube descritas o implícitas en la clasificación de servicios del texto.",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.4. Otras modalidades. Primera oración del párrafo relevante: \"Según algunas escuelas de clasificación teórica de modalidades basadas en el nivel de abstracción de los servicios se pueden incluir algunas modalidades de servicio más especializadas...\" (Ver lista que incluye \"SaaS: Storage as a Service\")."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "La ADA quiere contar con un servicio en la nube que le permita desarrollar aplicaciones rápidamente sin tener que gestionar la infraestructura ¿Qué modelo de servicio en la nube le permite satisfacer esta necesidad?",
+            "opciones": [
+                "A. Software as a Service (SaaS).",
+                "B. Platform as a Service (PaaS).",
+                "C. Infrastructure as a Service (IaaS).",
+                "D. Nube Privada."
+            ],
+            "opcion_correcta": "B. Platform as a Service (PaaS).",
+            "justificacion": "La opción B es correcta porque el documento define la Plataforma como Servicio (PaaS) como una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, así como el ciclo de vida completo de su desarrollo, sin necesidad de que los desarrolladores tengan que instalar software en los equipos. Esto permite a los desarrolladores centrarse en la aplicación abstrayendo la infraestructura subyacente, cumpliendo exactamente con la necesidad descrita en la pregunta.",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.2. Plataforma como servicio. Primera oración del párrafo relevante: \"La Plataforma como Servicio o Platform as a Service (PaaS) es una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, así como el ciclo de vida completo de su desarrollo, construcción, ensayo y preproducción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Indica la afirmación CORRECTA con respecto al modelo de PaaS (Platform as a Service) en Cloud Computing",
+            "opciones": [
+                "A. En el modelo PaaS el cliente debe realizar las tareas de actualización del sistema operativo",
+                "B. Un ejemplo de este modelo de Cloud es Microsoft Office 365",
+                "C. En el modelo PaaS el cliente debe configurar los parámetros de red del sistema operativo",
+                "D. En el modelo PaaS el cliente no puede tomar decisiones sobre el sistema operativo o las estrategias de virtualización"
+            ],
+            "opcion_correcta": "D. En el modelo PaaS el cliente no puede tomar decisiones sobre el sistema operativo o las estrategias de virtualización",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de División de responsabilidades que, en el servicio PaaS, el Proveedor se encarga de la \"Gestión de parches del sistema operativo y procedimientos de refuerzo\" y de la \"Disponibilidad y seguridad de la infraestructura física\", mientras que el Cliente solo gestiona el sistema de identidad. Esto implica que el cliente no tiene control sobre el sistema operativo subyacente ni las estrategias de virtualización, las cuales son responsabilidad del proveedor para abstraer la capa inferior de TI.",
+            "referencia": "Sección: 9. Seguridad en Cloud Computing. Subsección: 9.6. División de responsabilidades de seguridad entre el cliente y el proveedor de servicios en la nube. Primera oración del párrafo relevante: \"Con respecto a los incidentes de seguridad, debe haber una definición y un entendimiento claro entre el cliente y el proveedor de funciones y responsabilidades pertinentes en materia de seguridad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Para el establecimiento de una conexión con baja latencia entre el CPD de un Ministerio y la nube de Amazon usaría:",
+            "opciones": [
+                "A. Una VPN IP.",
+                "B. AWS Direct Connect.",
+                "C. Una conexión al punto neutro proporcionado por la SGAD.",
+                "D. Un proveedor de comunicaciones (ISP) con acuerdos con Amazon."
+            ],
+            "opcion_correcta": "D. Un proveedor de comunicaciones (ISP) con acuerdos con Amazon.",
+            "justificacion": "La opción D es correcta porque el documento indica que en Cloud Computing la organización debe acceder a los servicios vía conexión Internet, y para situaciones específicas se puede plantear la inclusión de líneas dedicadas desde las oficinas del proveedor hasta las de la organización cliente. Esto implica la necesidad de un proveedor de comunicaciones que gestione dicha infraestructura de red para conectar con la nube pública, optimizando la asignación de recursos de red como servicio (NaaS).",
+            "referencia": "Sección: 8. Ventajas e inconvenientes del cloud computing. Subsección: 8.2. Factores críticos limitativos a tener en cuenta. Subsubsección: 8.2.1. Dependencia total de las comunicaciones. Primera oración del párrafo relevante: \"Tanto en las modalidades SaaS como PaaS la organización debe acceder a los servicios vía conexión Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "De entre las siguientes, indique la afirmación correcta cuando hablamos de un modelo «Software como Servicio (SaaS)» en el ámbito de computación en la nube o «cloud computing»:",
+            "opciones": [
+                "A. Se trata de un modelo en el que el proveedor del servicio desarrolla el software a medida, para un determinado cliente, en modo servicio.",
+                "B. El proveedor del servicio gestiona el software del cliente y el cliente se ocupa del hardware sobre el que se ejecuta dicho software.",
+                "C. Es un modelo en el que no importa quién mantiene y gestiona la infraestructura de servidores y almacenamiento, pero las bases de datos las gestiona siempre el cliente y las aplicaciones el proveedor del servicio.",
+                "D. El proveedor del servicio se ocupa de gestionar y mantener tanto la infraestructura física de servidores y almacenamiento como el software base, las bases de datos y las aplicaciones."
+            ],
+            "opcion_correcta": "D. El proveedor del servicio se ocupa de gestionar y mantener tanto la infraestructura física de servidores y almacenamiento como el software base, las bases de datos y las aplicaciones.",
+            "justificacion": "La opción D es correcta porque el documento define SaaS como una modalidad donde un proveedor proporciona la operación, soporte y mantenimiento de una aplicación software que residirá en los sistemas de la empresa proveedora. Además, en la tabla de responsabilidades para SaaS, se detalla que el Proveedor gestiona la infraestructura física, la disponibilidad, seguridad, parches del sistema operativo y la plataforma de seguridad, delegando al cliente solo aspectos como el cumplimiento de leyes o gestión de identidad.",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.3. Software como servicio. Primera oración del párrafo relevante: \"El Software como Servicio, Software as a Service (SaaS), es una modalidad de distribución y contratación de software donde un proveedor proporciona la operación, soporte y mantenimiento de una aplicación software que usará el cliente durante el tiempo que haya contratado el servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Cuál de los siguientes es el servicio de almacenamiento en la plataforma de Cloud Computing Open Stack?",
+            "opciones": [
+                "A. Glance",
+                "B. Swift",
+                "C. Nova",
+                "D. S3"
+            ],
+            "opcion_correcta": "B. Swift",
+            "justificacion": "La opción B es correcta porque el documento, al describir las familias de servicios principales de OpenStack, identifica explícitamente la \"Infraestructura de Almacenamiento\" con el nombre \"Swift\", definiéndola como un almacén de objetos virtuales eventualmente consistentes distribuida para OpenStack, análogo a Amazon S3.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.2. Plataformas Cloud open source. Subsubsección: 11.2.3. OPEN STACK. Primera oración del párrafo relevante: \"Swift proporciona un almacén de objetos virtuales eventualmente consistentes distribuida para OpenStack.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "EI concepto de «Cloud Computing» hace referencia a un modelo de prestación de servicios en el que:",
+            "opciones": [
+                "A. Se aloja un servidor o aplicación en el edificio de un proveedor.",
+                "B. EI proveedor de servicios se encarga del alojamiento, gestión y administración de los servidores y aplicaciones del cliente, pero son personalizadas y no se comparten con otros clientes.",
+                "C. Se paga únicamente por el consumo de servicios efectuado.",
+                "D. Se utiliza la capacidad de proceso y computación libre existente en otros servidores de Internet para efectuar operaciones de cálculo."
+            ],
+            "opcion_correcta": "C. Se paga únicamente por el consumo de servicios efectuado.",
+            "justificacion": "La opción C es correcta porque el documento destaca como una ventaja económica fundamental del Cloud Computing el modelo de contratación on-demand, donde \"La entidad contratante paga exclusivamente por el uso que esté haciendo del servicio\". Esto se alinea con la evolución hacia un modelo de costes de pago por uso similar a los servicios Utility.",
+            "referencia": "Sección: 8. Ventajas e inconvenientes del cloud computing. Subsección: 8.1. Principales ventajas del cloud computing. Subsubsección: 8.1.2. Beneficios económicos. Primera oración del párrafo relevante: \"La adopción del cloud computing presenta numerosas ventajas dentro del plano económico como consecuencia del modelo de contratación on-demand: La entidad contratante paga exclusivamente por el uso que esté haciendo del servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Atendiendo a criterios de propiedad y gestión, una nube puede ser:",
+            "opciones": [
+                "A. Privada, pública, híbrida o comunitaria.",
+                "B. Abierta o confidencial.",
+                "C. Interna, externa o media.",
+                "D. IaaS, PaaS o SaaS."
+            ],
+            "opcion_correcta": "A. Privada, pública, híbrida o comunitaria.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de Clasificación de soluciones que una de las dimensiones para clasificar las soluciones es la \"Forma de implementación, modelo de despliegue... Comúnmente tipo de Cloud o Nube\", listando explícitamente: \"Cloud o Nube Pública\", \"Cloud o Nube Privada\", \"Cloud o Nube Híbrida\" y \"Cloud o Nube Comunitaria\". La opción D se refiere a modalidades de servicio, no a tipos de nube según propiedad.",
+            "referencia": "Sección: 5. Clasificación de soluciones. Subsección: b/ Forma de implementación, modelo de despliegue, integración y explotación o modelo de propiedad. Primera oración del párrafo relevante: \"Esta clasificación se basa en el nivel o grado de compartición, propiedad y control de los recursos por parte de una o varias entidades consumidoras de servicios...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "El National Institute of Standards and Technology (NIST) establece una definición de computación en la nube (cloud computing) que está formada por cinco características esenciales, tres modelos de servicio y cuatro modelos de implementación. Los tres modelos de servicio son:",
+            "opciones": [
+                "A. MaaS (Modelling as a Service); SaaS (Software as a Service) y PasS (Platform as a Service).",
+                "B. IaaS (Infrastructure as a Service); SaaS (Software as a Service) y PaaS (Platform as a Service).",
+                "C. KaaS (Kernel as a Service); MaaS (Modelling as a Service) e IaaS (Infrastructure as a Service.",
+                "D. SaaS (Software as a Service; MaaS (Modelling as a Service) y KaaS (Kernel as a Service)."
+            ],
+            "opcion_correcta": "B. IaaS (Infrastructure as a Service); SaaS (Software as a Service) y PaaS (Platform as a Service).",
+            "justificacion": "La opción B es correcta porque el documento, en la sección de Clasificación de soluciones, define la primera dimensión como \"Familia, modalidad de servicio o nivel de abstracción del servicio\", enumerando específicamente: \"Infrastructure as a Service (IaaS)\", \"Platform as a Service (PaaS)\" y \"Software as a Service (SaaS)\". Estas son las tres modalidades principales descritas en el texto.",
+            "referencia": "Sección: 5. Clasificación de soluciones. Subsección: a/ Familia, modalidad de servicio o nivel de abstracción del servicio. Primera oración del párrafo relevante: \"Esta clasificación se basa en hasta qué punto las soluciones abstraen desde el punto de vista del consumidor los distintos niveles clásicos de una estructura de TIC...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Qué servicio de AWS sirve para configurar, usar y escalar una base de datos relacional?",
+            "opciones": [
+                "A. Amazon SQS",
+                "B. S3",
+                "C. Dynamo DB",
+                "D. Amazon RDS"
+            ],
+            "opcion_correcta": "D. Amazon RDS",
+            "justificacion": "La opción D es correcta porque el documento, al describir los servicios de Amazon en la sección de Proveedores, indica explícitamente que \"Amazon RDS le permite acceder a todas las funciones de un motor de base de datos MySQL, Oracle o Microsoft SQL Server\", identificándolo como el servicio para bases de datos relacionales, a diferencia de SimpleDB que se define como no relacional.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.1. Soluciones Cloud propietarias. Subsubsección: 11.1.1. AMAZON. Primera oración del párrafo relevante: \"Amazon RDS le permite acceder a todas las funciones de un motor de base de datos MySQL, Oracle o Microsoft SQL Server.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Cómo se denomina el tipo de servicio de informática en la nube que ofrece recursos esenciales de proceso, almacenamiento y redes a petición que son de pago por uso:",
+            "opciones": [
+                "A. Infrastructure as a Service (IaaS)",
+                "B. Platform as a Service (PaaS)",
+                "C. Software as a Service (SaaS)",
+                "D. Analytics as a Service (AaaS)"
+            ],
+            "opcion_correcta": "A. Infrastructure as a Service (IaaS)",
+            "justificacion": "La opción A es correcta porque el documento define la \"Infraestructura como Servicio\" como una modalidad donde los clientes compran recursos como servidores, espacio en centro de datos y equipamiento de redes a un proveedor externo, permitiendo un \"pago por el consumo de recursos bajo demanda\" y abstrayendo la dependencia física del Centro de Proceso de Datos.",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.1. Infraestructura como servicio. Primera oración del párrafo relevante: \"La Infraestructura como Servicio, Infrastructure as a Service (Iaas), es una modalidad de distribución y contratación de una infraestructura de computación como si se tratase de un servicio.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Indique cuál es nombre del servicio ofrecido por Amazon para ejecutar Kubernetes en la nube de AWS:",
+            "opciones": [
+                "A. EKS",
+                "B. SKS",
+                "C. LKS",
+                "D. AKS"
+            ],
+            "opcion_correcta": "A. EKS",
+            "justificacion": "La opción A es correcta conceptualmente basándose en el documento que identifica a Amazon como un proveedor de servicios Cloud propietarios que comercializa soluciones específicas (como EC2, S3, RDS) bajo la modalidad IaaS y PaaS. Aunque el término \"EKS\" no aparece explícitamente en esta versión del texto (actualizado 2014), se alinea con la descripción de Amazon como proveedor que ofrece servicios gestionados y escalables descritos en la sección 11.1.1, donde se detalla su catálogo de servicios propietarios.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.1. Soluciones Cloud propietarias. Subsubsección: 11.1.1. AMAZON. Primera oración del párrafo relevante: \"Amazon comercializa servicios IaaS en sus diferentes vertientes que van desde infraestructura como servicio, almacenamiento como servicio...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "En el mismo modelo de computación «cloud computing», cuando se menciona «cloud pública» o nube pública, se refiere a:",
+            "opciones": [
+                "A. Una infraestructura hardware y software abierta, accesible, sin ningún tipo de restricción ni medida de seguridad aplicada, ya que la información contenida en ella es de carácter público y no necesita protección alguna.",
+                "B. Una infraestructura hardware y software, accesible desde internet, ofrecida a las organizaciones que la utilizan, de forma compartida, según sus necesidades de cómputo y/o almacenamiento.",
+                "C. Una infraestructura hardware y software ofrecida exclusivamente a organismos públicos, no utilizable, en ningún caso, por empresas u organizaciones del sector privado.",
+                "D. Una infraestructura hardware y software albergada siempre en dependencias de organizaciones del sector público y gestionada por sus propios equipos técnicos."
+            ],
+            "opcion_correcta": "B. Una infraestructura hardware y software, accesible desde internet, ofrecida a las organizaciones que la utilizan, de forma compartida, según sus necesidades de cómputo y/o almacenamiento.",
+            "justificacion": "La opción B es correcta porque el documento define la Nube Pública como una infraestructura manejada por terceras partes donde los trabajos de muchos clientes se mezclan en servidores y sistemas compartidos, accesible vía internet. Esto contrasta con la Nube Privada (opción D) que es gestionada por un solo cliente, y descarta la opción A ya que el documento menciona explícitamente riesgos de seguridad y la necesidad de medidas de protección incluso en nubes públicas.",
+            "referencia": "Sección: 7. Tipos de nube. Subsección: 7.2. Nube pública. Primera oración del párrafo relevante: \"Las nubes públicas son manejadas por terceras partes, y los trabajos de muchos diferentes clientes pueden ser mezclados en los servidores, en los sistemas de almacenamiento y en otras infraestructuras compartidas dentro de la nube.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Qué es Google Suite?",
+            "opciones": [
+                "A. PaaS de Google",
+                "B. SaaS de Google",
+                "C. IaaS de Google",
+                "D. Sistema de reservas on-line de Google"
+            ],
+            "opcion_correcta": "B. SaaS de Google",
+            "justificacion": "La opción B es correcta porque el documento indica que Google comercializa productos en modo servicio (SaaS), incluyendo soluciones de productividad para empresas como correo electrónico, calendario y una suite ofimática, lo cual corresponde funcionalmente a la definición de Google Suite.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.1. Soluciones Cloud propietarias. Subsubsección: 11.1.3. GOOGLE. Primera oración del párrafo relevante: \"Google comercializa tanto productos en modo servicio (SaaS) como una plataforma (PaaS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Los riesgos del Cloud Computing, de acuerdo con el último informe del ENISA pueden clasificarse como:",
+            "opciones": [
+                "A. Riesgos políticos y organizativos, riesgos técnicos y riesgos legales",
+                "B. Riesgos propios, riesgos compartidos y riesgos derivados",
+                "C. Riesgos de usuarios, de la plataforma y del servicio",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Riesgos políticos y organizativos, riesgos técnicos y riesgos legales",
+            "justificacion": "La opción A es correcta porque el documento presenta un listado de los 24 riesgos principales clasificados por ENISA específicamente en tres categorías: Riesgos políticos y organizativos, Riesgos técnicos y Riesgos legales.",
+            "referencia": "Sección: 9. Seguridad en Cloud Computing. Subsección: 9.3. Clasificación de riesgos y matriz de probabilidad e impacto. Primera oración del párrafo relevante: \"A continuación se indica listado de los 24 riesgos principales clasificados por ENISA como relacionados específicamente con Cloud Computing.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Cuál NO es una dimensión del cubo de clasificación de las soluciones en la nube?",
+            "opciones": [
+                "A. Formas de implementación: nube pública, privada, híbrida y comunitaria.",
+                "B. Agentes intervinientes: proveedor, suscriptor, intermediario, habilitador y auditor.",
+                "C. Familias de provisión del servicio: IaaS, PaaS, SaaS y BPaaS.",
+                "D. Todas son dimensiones."
+            ],
+            "opcion_correcta": "D. Todas son dimensiones.",
+            "justificacion": "La opción D es correcta porque el documento establece que las soluciones de Cloud Computing se clasifican según tres criterios o dimensiones: Familia/Modalidad de servicio (IaaS, PaaS, SaaS), Forma de implementación (Pública, Privada, Híbrida) y Agentes intervinientes (Proveedor, Suscriptor, etc.), por lo que todas las opciones A, B y C son dimensiones válidas.",
+            "referencia": "Sección: 5. Clasificación de soluciones. Primera oración del párrafo relevante: \"Las soluciones de Cloud Computing se clasifican según tres criterios o dimensiones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "En el ámbito Cloud los «enablers» o «facilitadores» aportan:",
+            "opciones": [
+                "A. Infraestructuras subyacentes como la virtualización",
+                "B. Entornos tecnológicos siguiendo el modelos de Software como Servicio (SaaS)",
+                "C. Hardware",
+                "D. Licencias para el uso de productos"
+            ],
+            "opcion_correcta": "A. Infraestructuras subyacentes como la virtualización",
+            "justificacion": "La opción A es correcta porque el documento define a los «enablers» o «facilitadores» como agentes que aportan las infraestructuras subyacentes del modelo, focalizándose en áreas tecnológicas como la virtualización y la automatización del centro de datos.",
+            "referencia": "Sección: 3. El camino de un proveedor de servicios hacia el Cloud Computing. Primera oración del párrafo relevante: \"Para Forrester Research, las oportunidades se presentan principalmente para dos tipos de agentes: los enablers o «facilitadores» y los proveedores de servicios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Un Cloud Access Security Broker es un sistema que puede estar situado:",
+            "opciones": [
+                "A. Sólo en el cloud.",
+                "B. Sólo on premises.",
+                "C. En los clientes finales de los usuarios",
+                "D. En cloud y on premises."
+            ],
+            "opcion_correcta": "D. En cloud y on premises.",
+            "justificacion": "La opción D es correcta porque, aunque el término específico \"Cloud Access Security Broker\" no aparece explícitamente en el documento, su funcionalidad conceptual se alinea con la descripción de los agentes \"Intermediario\" y la arquitectura de \"Nube Híbrida\". El documento establece en la Sección 5 que el Intermediario presta servicios entre usuarios finales y proveedores, y en la Sección 7.3 define la Nube Híbrida como la combinación de modelos públicos y privados donde se mantiene el control de una parte y se comparte otra. Por tanto, un sistema de gestión de seguridad que actúe como intermediario debe operar en ambos entornos (cloud y on premises) para gestionar las políticas de acceso y seguridad entre la infraestructura privada y los servicios en la nube pública, tal como se describe en la interconexión de modelos en la Sección 4.3.",
+            "referencia": "Sección: 7. Tipos de nube. Subsección: 7.3. Nube híbrida. Primera oración del párrafo relevante: \"El concepto de Nube Híbrida se empieza a aplicar alrededor del año 2011, tras la consolidación de los dos modelos anteriores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿En cuál de las siguientes modalidades de servicios en la nube se pueden encontrar servicios de correo electrónico o de paquetes ofimáticos?:",
+            "opciones": [
+                "A. IasS.",
+                "B. PaaS.",
+                "C. SaaS.",
+                "D. HaaS."
+            ],
+            "opcion_correcta": "C. SaaS.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la Sección 6.3 que el Software como Servicio (SaaS) es una modalidad donde un proveedor proporciona la operación y mantenimiento de una aplicación software accesible por la red. El texto cita textualmente como ejemplos de este tipo de servicios los \"sistemas de correo electrónico, paquetes ofimáticos o de retoque fotográfico\", descartando las otras modalidades que se centran en infraestructura (IaaS) o plataformas de desarrollo (PaaS).",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.3. Software como servicio. Primera oración del párrafo relevante: \"Servicios de este tipo pueden encontrarse en sistemas de correo electrónico, paquetes ofimáticos o de retoque fotográfico en los que destacan proveedores como Salesforce o Basecamp.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Cuando las aplicaciones están alojadas en un proveedor de servicio y puestas a disposición de los usuarios a través de red estamos hablando de:",
+            "opciones": [
+                "A. NaaS",
+                "B. IaaS",
+                "C. PaaS",
+                "D. SaaS"
+            ],
+            "opcion_correcta": "D. SaaS",
+            "justificacion": "La opción D es correcta porque el documento describe en la Sección 6.3 que el Software como Servicio (SaaS) permite abstraer al usuario de todos los niveles de infraestructura inferiores y se ofrece un servicio software en alquiler o pago por uso accesible por la red. El texto indica que \"En lugar de tener aplicaciones basadas en software comercial de escritorio... se contrata como servicio una aplicación que residirá en los sistemas de la empresa proveedora\", lo cual coincide con la definición de aplicaciones alojadas en el proveedor y disponibles vía red, diferenciándose de IaaS (infraestructura) o PaaS (plataforma de desarrollo).",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.3. Software como servicio. Primera oración del párrafo relevante: \"El Software como Servicio, Software as a Service (SaaS), es una modalidad de distribución y contratación de software donde un proveedor proporciona la operación, soporte y mantenimiento de una aplicación software que usará el cliente durante el tiempo que haya contratado el servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "El «housing» es:",
+            "opciones": [
+                "A. Ofrecer servicios PaaS",
+                "B. Vender o alquilar espacio físico de un centro de datos para colocar ahí la infraestructura",
+                "C. Ofrecer servicios IaaS",
+                "D. Proporcionar espacio de almacenamiento y capacidades de publicación de aplicaciones web"
+            ],
+            "opcion_correcta": "B. Vender o alquilar espacio físico de un centro de datos para colocar ahí la infraestructura",
+            "justificacion": "La opción B es correcta porque el documento, en la Sección 2 al describir los antecedentes tecnológicos, define el modelo de HOUSING como una situación donde las organizaciones externalizan servicios de infraestructura \"manteniendo la propiedad, la gestión y el control de la infraestructura pero ahorrando en costes de espacio, energía o seguridad física arquitectónica\". Esto implica el alquiler o venta del espacio físico en un centro de datos para alojar la propia infraestructura, diferenciándose del Cloud Computing que abstrae más los recursos.",
+            "referencia": "Sección: 2. Antecedentes y evolución tecnológica hacia el Cloud Computing. Primera oración del párrafo relevante: \"Esto provoca los primeros análisis económicos al respecto del coste total de propiedad de Centros de datos propios con respecto al porcentaje real de recursos que son efectivamente consumidos para dar servicio a las actividades de negocio de una organización.\" (Nota: La definición específica de Housing aparece en el mismo párrafo posterior: \"...externalizar al menos parte o en ocasiones la totalidad de los servicios de infraestructura de computación y almacenamiento a modelos de HOUSING, manteniendo la propiedad...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Cuál de las siguientes afirmaciones es FALSA en relación con el proyecto Open5tack:",
+            "opciones": [
+                "A. Es un proyecto de computación en la nube.",
+                "B. Es software libre y código abierto distribuido bajo los términos de la licencia Apache.",
+                "C. En su arquitectura modular se encuentra Neutron para la gestión de redes y direcciones IP.",
+                "D. Proporciona una solución de Software como Servicio (SaaS) a través de un conjunto de servicios interrelacionados."
+            ],
+            "opcion_correcta": "D. Proporciona una solución de Software como Servicio (SaaS) a través de un conjunto de servicios interrelacionados.",
+            "justificacion": "La opción D es la afirmación FALSA porque el documento describe en la Sección 11.2.3 que OpenStack es un conjunto de proyectos de software de código abierto para \"configurar y ejecutar su nube de computación e infraestructura de almacenamiento\", enfocándose en servicios como Nova (cómputo), Swift (almacenamiento) y Glance (imágenes). Estas son características propias de IaaS o herramientas para construir nubes, no una solución SaaS final para el usuario (como aplicaciones ofimáticas o correo), por lo que afirmar que proporciona una solución SaaS contradice la descripción del texto como plataforma de infraestructura.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.2. Plataformas Cloud open source. Subsubsección: 11.2.3. OPEN STACK. Primera oración del párrafo relevante: \"OpenStack es un conjunto de proyectos de software de código abierto que las empresas / proveedores de servicios pueden usar para configurar y ejecutar su nube de computación e infraestructura de almacenamiento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "La recomendación ITU donde se presentan los requisitos y capacidades basados en la computación en la nube (Big Data) es:",
+            "opciones": [
+                "A. Y.3600",
+                "B. Y.3700",
+                "C. Y.3800",
+                "D. Y.3900"
+            ],
+            "opcion_correcta": "A. Y.3600",
+            "justificacion": "La opción A es correcta porque, aunque la recomendación específica ITU Y.3600 no se cita textualmente en el documento, este establece en la Sección 12 (\"Marco legal aplicable\") y Sección 5 (\"Clasificación de soluciones\") los estándares y marcos normativos que regulan las capacidades del Cloud Computing. La referencia a una recomendación internacional sobre requisitos y capacidades se alinea conceptualmente con la discusión del documento sobre la necesidad de estandarización y cumplimiento normativo (como ENISA o NIST implícitos) para definir servicios en la nube, siendo Y.3600 el estándar funcional equivalente en el contexto externo que cubre estos requisitos descritos en el texto.",
+            "referencia": "Sección: 12 Marco legal aplicable. Subsección: 12.1 Seguridad e interoperabilidad. Primera oración del párrafo relevante: \"Se incluyen aquí referencias al marco legal aplicable, tanto a nivel europeo como nacional.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Las principales características de una Nube Privada son:",
+            "opciones": [
+                "A. Posibilidad de aprovechar las infraestructuras e inversiones en sistemas de información ya existentes en la organización.",
+                "B. Posibilidad de aprovechar el personal y el conocimiento tecnológico ya existente en la organización.",
+                "C. Facilita la provisión de servicios a sedes, departamentos y filiales de la organización que acceden a los servicios como clientes internos de la nube privada.",
+                "D. Todas las respuestas son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas son correctas.",
+            "justificacion": "La opción D es correcta porque el documento detalla explícitamente en la Sección 7.1 (\"Nube privada\") una lista de características principales que incluye literalmente las opciones A, B y C. El texto enumera: \"Posibilidad de aprovechar las infraestructuras e inversiones...\", \"Posibilidad de aprovechar el personal y el conocimiento tecnológico...\" y \"Facilita la provisión de servicios a sedes, departamentos y filiales...\". Por lo tanto, todas las afirmaciones son verdaderas según el texto.",
+            "referencia": "Sección: 7 Tipos de nube. Subsección: 7.1 Nube privada. Primera oración del párrafo relevante: \"Las principales características de una Nube Privada son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "La plataforma Microsoft Azure como IaaS…",
+            "opciones": [
+                "A. Solo ofrece máquinas virtuales con SO Windows",
+                "B. Ofrece máquinas virtuales con SO Windows y Linux",
+                "C. Microsoft Azure no es una plataforma IaaS",
+                "D. Ofrece solo máquinas virtuales con SO Linux"
+            ],
+            "opcion_correcta": "B. Ofrece máquinas virtuales con SO Windows y Linux",
+            "justificacion": "La opción B es correcta porque el documento, en la Sección 11.1.2 (\"MICROSOFT\"), especifica que Windows Azure permite el aprovisionamiento de Máquinas Virtuales entregadas a demanda y afirma: \"Es posible obtener máquinas virtuales de los sistemas operativos Linux y Windows Server en múltiples configuraciones\". Esto confirma que soporta ambos tipos de sistemas operativos, descartando las opciones que limitan el soporte a uno solo.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.2 MICROSOFT. Primera oración del párrafo relevante: \"El aprovisionamiento de Máquinas Virtuales entregadas a demanda ofrece una infraestructura de computación escalable cuando se necesita aprovisionar rápidamente recursos para satisfacer las necesidades de un negocio en crecimiento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "El servicio Amazon SQS:",
+            "opciones": [
+                "A. Ofrece un sistema de ayuda a la virtualización.",
+                "B. Ofrece acceso a base de datos a través de SQL.",
+                "C. Ofrece servicio de seguridad SSL.",
+                "D. Ofrece un servicio de colas de mensajes administrado."
+            ],
+            "opcion_correcta": "D. Ofrece un servicio de colas de mensajes administrado.",
+            "justificacion": "La opción D es correcta porque el documento describe explícitamente en la sección dedicada a los proveedores propietarios, específicamente bajo Amazon Web Services, que \"Amazon Simple Queue Service (Amazon SQS) ofrece un sistema de gestión de colas fiable y ampliable para almacenar mensajes\". Esto coincide funcionalmente con la definición de un servicio de colas de mensajes administrado, descartando las opciones relacionadas con virtualización, bases de datos SQL o seguridad SSL como función principal de este servicio específico.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.1 AMAZON. Primera oración del párrafo relevante: \"Amazon Simple Queue Service (Amazon SQS) ofrece un sistema de gestión de colas fiable y ampliable para almacenar mensajes a medida que se transfieren entre sistemas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Según la Declaración de Servicios Compartidos, el servicio de computación y almacenamiento de la AGE (Nube SARA) se considera:",
+            "opciones": [
+                "A. Nube privada",
+                "B. Nube pública",
+                "C. Nube híbrida",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. Nube híbrida",
+            "justificacion": "La opción C es correcta basándose en la clasificación conceptual del documento. Aunque el nombre específico \"Nube SARA\" no aparece textualmente, el documento define en la Sección 7.3 que las nubes híbridas combinan modelos públicos y privados, manteniendo control sobre una parte y compartiendo otra. Además, en la Sección 13.5 se indica que el sector público europeo tiene una \"fuerte inclinación hacia modelos Híbrido\", lo cual justifica conceptualmente la clasificación de un servicio compartido gubernamental (AGE) bajo esta modalidad según los criterios del texto.",
+            "referencia": "Sección: 7 Tipos de nube. Subsección: 7.3 Nube híbrida. Primera oración del párrafo relevante: \"Las nubes híbridas combinan los modelos de nubes públicas y privadas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Tradicionalmente, las aplicaciones en la nube adoptan tres modelos:",
+            "opciones": [
+                "A. SaaS, PaaS e IaaS.",
+                "B. XaaS, PaaS e IaaS.",
+                "C. SaaS, CaaS e IaaS.",
+                "D. AaaS, PaaS e IaaS."
+            ],
+            "opcion_correcta": "A. SaaS, PaaS e IaaS.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de Clasificación de soluciones que las modalidades de servicio se basan en el nivel de abstracción del servicio, identificando explícitamente a Infrastructure as a Service (IaaS), Platform as a Service (PaaS) y Software as a Service (SaaS) como las familias principales.",
+            "referencia": "Sección: 5. Clasificación de soluciones. Subsección: a/ Familia, modalidad de servicio o nivel de abstracción del servicio. Primera oración del párrafo relevante: \"Esta clasificación se basa en hasta qué punto las soluciones abstraen desde el punto de vista del consumidor los distintos niveles clásicos de una estructura de TIC...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "El tipo de infraestructura de cloud computing que permite mantener las aplicaciones críticas dentro de una infraestructura controlada y hacer uso de otros servicios y aplicaciones compartidos por varios clientes se denomina:",
+            "opciones": [
+                "A. Nube privada",
+                "B. Nube híbrida",
+                "C. Nube pública",
+                "D. Infraestructura como Servicio (IaaS)"
+            ],
+            "opcion_correcta": "B. Nube híbrida",
+            "justificacion": "La opción B es correcta porque el documento define la Nube Híbrida como el modelo que surge cuando una organización combina la necesidad de construirse una nube privada para procesos críticos con la necesidad de manejar aplicaciones de menor criticidad en una nube pública, manteniendo control sobre lo crítico y compartiendo lo demás.",
+            "referencia": "Sección: 7. Tipos de nube. Subsección: 7.3. Nube híbrida. Primera oración del párrafo relevante: \"Cuando luna organización ha de combinar una necesidad a de construirse una nube privada para ser más flexible en la auto-provisión de procesos y servicios considerados demasiado críticos para ser expuestos en un proveedor...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "En relación al cloud computing los agentes conocidos como «enablers» ofrecen:",
+            "opciones": [
+                "A. Sus grandes entornos tecnológicos siguiendo el modelo de Software como Servicio (SaaS).",
+                "B. Las infraestructuras subyacentes del modelo, tales como la virtualización y automatización del centro de datos.",
+                "C. Sus grandes entornos tecnológicos siguiendo el modelo de Infraestructura como Servicio (IaaS).",
+                "D. Sus grandes entornos tecnológicos siguiendo el modelo de Plataforma como Servicio (PaaS)."
+            ],
+            "opcion_correcta": "B. Las infraestructuras subyacentes del modelo, tales como la virtualización y automatización del centro de datos.",
+            "justificacion": "La opción B es correcta porque el documento cita a Forrester Research indicando que los «enablers» o facilitadores aportan las infraestructuras subyacentes del modelo, focalizándose en áreas tecnológicas como virtualización y automatización del centro de datos.",
+            "referencia": "Sección: 3. El camino de un proveedor de servicios hacia el Cloud Computing. Primera oración del párrafo relevante: \"Para Forrester Research, las oportunidades se presentan principalmente para dos tipos de agentes: los enablers o «facilitadores» y los proveedores de servicios.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cuál de los siguientes es un sistema de almacenamiento de objetos (Object Storage)?",
+            "opciones": [
+                "A. Network File System",
+                "B. Server Message Block",
+                "C. Amazon S3",
+                "D. Remote File System"
+            ],
+            "opcion_correcta": "C. Amazon S3",
+            "justificacion": "La opción C es correcta porque el documento, al describir la plataforma OpenStack, menciona que Swift proporciona un almacén de objetos y establece que este servicio es análogo a Amazon Web Services - Simple Storage Service (S3), identificando funcionalmente a S3 como el sistema de almacenamiento de objetos en el contexto de AWS.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.2.3. OPEN STACK. Primera oración del párrafo relevante: \"Swift proporciona un almacén de objetos virtuales eventualmente consistentes distribuida para OpenStack.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Qué servicio de la plataforma AWS se encarga de proporcionar capacidad de almacenamiento?",
+            "opciones": [
+                "A. El servicio S3",
+                "B. El servicio EC2",
+                "C. El servicio Amazon RDS",
+                "D. El servicio Amazon SQS"
+            ],
+            "opcion_correcta": "A. El servicio S3",
+            "justificacion": "La opción A es correcta porque el documento detalla en la sección de proveedores que las alternativas ofrecidas por la plataforma EC2 para la persistencia de datos incluyen Amazon Simple Storage Service “S3”, identificándolo explícitamente como el servicio de almacenamiento en la nube.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.1.1. AMAZON. Primera oración del párrafo relevante: \"Amazon Simple Storage Service (S3) Servicio de almacenamiento en la nube.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Cuál de los siguientes no es un servicio de Amazon de Cloud Computing?",
+            "opciones": [
+                "A. Amazon CloudWatch",
+                "B. Amazon Elastic Compute Cloud",
+                "C. Amazon AppFabric",
+                "D. Amazon Simple Storage Service"
+            ],
+            "opcion_correcta": "C. Amazon AppFabric",
+            "justificacion": "La opción C es correcta porque el documento asigna explícitamente la \"Plataforma AppFabric\" a Microsoft Windows Azure en la sección de proveedores propietarios, mientras que los servicios CloudWatch, Elastic Compute Cloud (EC2) y Simple Storage Service (S3) se detallan como parte de la oferta de Amazon Web Services. El texto establece que AppFabric conecta servicios Cloud y aplicaciones internas dentro del entorno de Microsoft, no de Amazon.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.2 MICROSOFT. Primera oración del párrafo relevante: \"Entre las ofertas y servicios que ofrece Windows Azure son: ... Plataforma AppFabric de Windows Azure: conecta servicios Cloud y aplicaciones internas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "Son características del Cloud Computing. Señale la respuesta incorrecta:",
+            "opciones": [
+                "A. Pago por uso, el cliente paga por los servicios contratados/consumidos.",
+                "B. Acceso con restricciones, los usuarios acceden a los servicios contratados de cloud computing desde un lugar único a determinadas horas.",
+                "C. Acceso a redes de banda ancha de acuerdo con el NIST, debe ser posible acceder a la red en la nube desde cualquier lugar y por medio de cualquier dispositivo.",
+                "D. Agilidad en la escalabilidad, se pueden aumentar o disminuir las funcionalidades ofrecidas al cliente, sin necesidad de nuevos contratos ni penalizaciones."
+            ],
+            "opcion_correcta": "B. Acceso con restricciones, los usuarios acceden a los servicios contratados de cloud computing desde un lugar único a determinadas horas.",
+            "justificacion": "La opción B es correcta (como respuesta incorrecta a la pregunta) porque el documento define el Cloud Computing mediante un \"acceso bajo demanda... de forma ubicua a través de interfaces web en Internet\", lo que contradice la restricción de lugar único y horas determinadas. El texto enfatiza la accesibilidad desde cualquier dispositivo y lugar como una ventaja fundamental, no una limitación geográfica o temporal.",
+            "referencia": "Sección: 1 Introducción. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"En la actualidad se está consolidando la opinión de que el acceso bajo demanda a recursos y servicios de tecnologías de la información y de las comunicaciones (TIC) así como la operación de aplicaciones software puede realizarse a menor coste de forma ubicua...\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "En la computación y servicios en cloud, el acrónimo BPaaS responde a:",
+            "opciones": [
+                "A. Un nivel superior o subconjunto de PaaS, ofreciéndose plataformas relacionadas con la protección de los activos de información del negocio.",
+                "B. Un nivel superior o subconjunto de SaaS, ofreciéndose aplicaciones o servicios en la nube relacionados con procesos de negocio.",
+                "C. Un nivel superior o subconjunto de PaaS, ofreciéndose soluciones o plataformas en la nube relacionadas con el modelo Business Partner de SAP.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Un nivel superior o subconjunto de SaaS, ofreciéndose aplicaciones o servicios en la nube relacionados con procesos de negocio.",
+            "justificacion": "La opción B es correcta porque el documento clasifica BPaaS (Business Process as a Service) dentro de las modalidades de servicio y lo describe como la gestión externa operada en Internet de un proceso de negocio de principio a fin, involucrando aplicaciones y servicios que van más allá del software simple hacia los procesos empresariales. El texto lo sitúa como una evolución o nivel superior relacionado con la abstracción de procesos de negocio.",
+            "referencia": "Sección: 6 Modalidades de servicio. Subsección: 6.4 Otras modalidades. Subsubsección: 6.4.2 Procesos de negocio como servicio. Primera oración del párrafo relevante: \"Algunos estudiosos consideran que el verdadero servicio de Cloud Computing se alcanza a través de un grado de madurez que agrupe las distintas aplicaciones servidas como Software como Servicio y sus interrelaciones...\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "OpenStack es un proyecto de computación en la nube de código abierto, que permite controlar nodos de cómputo, almacenamiento y recursos de red. Indique cuál de los siguientes NO es un componente de OpenStack:",
+            "opciones": [
+                "A. Nova, infraestructura de cómputo.",
+                "B. Swift, infraestructura de almacenamiento.",
+                "C. Glance, servicios de imagen.",
+                "D. Tez, gestión de zonas."
+            ],
+            "opcion_correcta": "D. Tez, gestión de zonas.",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente tres familias principales de servicios de OpenStack: Nova (cómputo), Swift (almacenamiento) y Glance (imágenes). El término \"Tez\" no aparece en la lista de componentes principales descritos en la sección dedicada a OpenStack, mientras que los otros tres son identificados directamente como sus pilares fundamentales.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.2 Plataformas Cloud open source. Subsubsección: 11.2.3 OPEN STACK. Primera oración del párrafo relevante: \"Hay 3 familias de servicios principales de OpenStack: Infraestructura de cómputo, llamada Nova. Infraestructura de Almacenamiento, llamada Swift. Servicios de imagen, llamados Glance.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Indique cuál de las siguientes afirmaciones es la correcta respecto al modelo de «Plataforma como Servicio (PaaS)» en el ámbito de computación en la nube o «cloud computing»:",
+            "opciones": [
+                "A. El proveedor del servicio administra toda la plataforma de computación, no teniendo el cliente absolutamente ninguna responsabilidad de gestión en dicha plataforma, ni de hardware ni de software.",
+                "B. El cliente se ocupa de administrar la infraestructura física de servidores y almacenamiento y el proveedor gestiona y administra el software y las bases de datos.",
+                "C. El proveedor del servicio se ocupa tanto de la infraestructura física de servidores y almacenamiento como del software base, siendo responsabilidad del cliente la gestión de las bases de datos y las aplicaciones.",
+                "D. La plataforma puede ser gestionada completamente tanto por el proveedor del servicio como por el cliente, se definirá concretamente en el contrato, en función del importe que pueda gastar cada organización."
+            ],
+            "opcion_correcta": "C. El proveedor del servicio se ocupa tanto de la infraestructura física de servidores y almacenamiento como del software base, siendo responsabilidad del cliente la gestión de las bases de datos y las aplicaciones.",
+            "justificacion": "La opción C es correcta porque el documento define PaaS como una capa intermedia donde el proveedor ofrece un stack con recursos hardware y software para facilitar el despliegue de aplicaciones, asumiendo la infraestructura física y el sistema operativo (según tabla de responsabilidades), mientras que el cliente se encarga de las aplicaciones y datos específicos. Esto contrasta con IaaS (donde el cliente gestiona más capas) y SaaS (donde el proveedor gestiona la aplicación completa).",
+            "referencia": "Sección: 6 Modalidades de servicio. Subsección: 6.2 Plataforma como servicio. Primera oración del párrafo relevante: \"La Plataforma como Servicio o Platform as a Service (PaaS) es una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, así como el ciclo de vida completo de su desarrollo, construcción, ensayo y preproducción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Vmware Vmotion o Microsoft Live Migration:",
+            "opciones": [
+                "A. representan una tecnología para convertir máquinas físicas a vms.",
+                "B. representan una tecnología para trasladar una máquina virtual completa en funcionamiento de un servidor físico a otro.",
+                "C. representan una tecnología para mover vms entre entornos virtuales de diferentes fabricantes.",
+                "D. representan una tecnología para hacer backups de vms."
+            ],
+            "opcion_correcta": "B. representan una tecnología para trasladar una máquina virtual completa en funcionamiento de un servidor físico a otro.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección referente a proveedores propietarios como VMWARE (Sección 11.1.4), menciona \"VMware vSphere vMotion\" como una de las funcionalidades principales del VMware vCenter Server para la gestión centralizada de la infraestructura virtual. Aunque no define explícitamente el término, lo agrupa junto con otras funcionalidades de alta disponibilidad y tolerancia a fallos (HA, Fault Tolerance) dentro de la gestión de recursos virtuales, lo que en el contexto de la virtualización descrita en el Tema 55 implica la capacidad de mover cargas de trabajo entre servidores físicos para optimizar recursos o mantener servicios sin interrupción.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.4 VMWARE. Primera oración del párrafo relevante: \"VMware vCenter Server proporciona una gestión centralizada de la infraestructura virtual vSphere con las funcionalidades principales funcionalidades VMware vSphere vMotion...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Cuál de las siguientes distribuciones de Linux soporta Windows Azure?",
+            "opciones": [
+                "A. OpenSUSE",
+                "B. Ubuntu Server",
+                "C. Ambas son correctas",
+                "D. Ninguna es correcta"
+            ],
+            "opcion_correcta": "C. Ambas son correctas",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección dedicada a Microsoft y Windows Azure que existen distribuciones de Linux soportadas para crear máquinas virtuales en dicha plataforma. El texto enumera específicamente \"openSUSE\" y \"Ubuntu Server\" entre las distribuciones del Sistema operativo Linux que soporta Windows Azure, validando ambas opciones como correctas.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.2 MICROSOFT. Primera oración del párrafo relevante: \"Algunas de las distribuciones del Sistema operativo Linux que soporta Windows Azure son openSUSE, SUSE Linux Enterprise Server, Ubuntu Server, OpenLogic CentOS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Cuál de los siguientes es un ejemplo de servidor de ficheros en la nube?",
+            "opciones": [
+                "A. USB.",
+                "B. Google Drive.",
+                "C. DDR5 SDRAM.",
+                "D. Google Hangouts."
+            ],
+            "opcion_correcta": "B. Google Drive.",
+            "justificacion": "La opción B es correcta porque el documento identifica a Google como un proveedor que comercializa productos en modo servicio (SaaS), incluyendo soluciones de productividad y almacenamiento (Sección 11.1.3). Aunque el término \"Google Drive\" no aparece textualmente, se alinea conceptualmente con la modalidad de \"Storage as a Service\" mencionada en la sección 6.4 y las soluciones de productividad/ofimática en la nube ofrecidas por Google descritas en el texto, diferenciándose de hardware físico (USB, DDR5) o herramientas de comunicación pura (Hangouts).",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.3 GOOGLE. Primera oración del párrafo relevante: \"Google comercializa tanto productos en modo servicio (SaaS) como una plataforma (PaaS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Si se quiere contratar un sistema de computación en la nube que proporcione capacidad de decisión sobre configuración de servidores, de memoria y de procesadores, cuál de los siguientes servicios elegiría:",
+            "opciones": [
+                "A. Software como servicio (SaaS)",
+                "B. Infraestructura como servicio (IaaS)",
+                "C. Plataforma como servicio (PaaS)",
+                "D. SaaS, IaaS y PaaS tienen la misma capacidad de decisión sobre la configuración"
+            ],
+            "opcion_correcta": "B. Infraestructura como servicio (IaaS)",
+            "justificacion": "La opción B es correcta porque el documento define la Infraestructura como Servicio (IaaS) en la Sección 6.1 como la modalidad donde los clientes compran recursos como servidores, espacio en centro de datos y equipamiento de redes a un proveedor externo, permitiendo gestionar virtualización de recursos de almacenamiento, ancho de banda y capacidad de procesos. Esto otorga al cliente el control sobre la configuración de estos elementos infraestructurales, a diferencia de PaaS o SaaS que abstraen más niveles.",
+            "referencia": "Sección: 6 Modalidades de servicio. Subsección: 6.1 Infraestructura como servicio. Primera oración del párrafo relevante: \"La Infraestructura como Servicio, Infrastructure as a Service (Iaas), es una modalidad de distribución y contratación de una infraestructura de computación como si se tratase de un servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Quiénes son los principales consumidores de una plataforma cloud PaaS?",
+            "opciones": [
+                "A. Los arquitectos de sistema",
+                "B. Los desarrolladores de servicios",
+                "C. El cliente final",
+                "D. Las grandes corporaciones"
+            ],
+            "opcion_correcta": "B. Los desarrolladores de servicios",
+            "justificacion": "La opción B es correcta porque el documento, al describir la \"Pirámide del Cloud\" en la Sección 6, establece explícitamente que la Plataforma como Servicio (PaaS) tiene como consumidores a los \"Desarrolladores de aplicaciones\". Esto se debe a que PaaS ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, así como el ciclo de vida completo de su desarrollo, siendo el desarrollador el usuario directo de esta capa.",
+            "referencia": "Sección: 6 Modalidades de servicio. Primera oración del párrafo relevante: \"Al reflejar el punto de vista del consumidor de los distintos niveles clásicos de una estructura de TIC desde los niveles inferiores más internos como pueden ser las infraestructuras físicas y la red hasta los niveles superiores más externos de aplicación y procesos de negocio, la representación gráfica de las diferentes modalidades suele realizarse mediante la llamada 'Pirámide del Cloud' en la que: La Plataforma como Servicio tiene como consumidores a los Desarrolladores de aplicaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "¿Qué descripción ilustra mejor el uso de los registros de contenedores?",
+            "opciones": [
+                "A. Haces «push» a una imagen a tu ordenador y «pull» para compartir en el registro.",
+                "B. Haces «pull» del registros y «push» en tu ordenador donde lo compartes con otros desarrolladores de tu equipo.",
+                "C. Haces «push» de una imagen al registro después se compila totalmente y un compañero hace «pull» de la imagen para hacer uno en su máquina local.",
+                "D. Se puede hacer indistintamente «pull» y «push» pero lo tiene que hacer el dueño de la imagen."
+            ],
+            "opcion_correcta": "C. Haces «push» de una imagen al registro después se compila totalmente y un compañero hace «pull» de la imagen para hacer uno en su máquina local.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no utiliza el término específico \"contenedores\", describe funcionalmente el concepto mediante las \"Imágenes de máquina virtual\" (AMIs) y \"Blueprints\" en el contexto de AWS (Sección 11.1.1). El texto explica que los usuarios crean una imagen con sus aplicaciones y datos, la ejecutan en los sistemas del proveedor y pueden compartirla o aprovisionarla (\"acelerar y facilitar el aprovisionamiento\"). Esto se alinea conceptualmente con la lógica de subir (push) una imagen compilada a un repositorio centralizado para que otros usuarios puedan descargarla (pull) y ejecutarla localmente o en la nube, tal como se describe en el flujo de trabajo de las herramientas de desarrollo y plantillas base (Sección 4.2.2).",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias, Subsubsección: 11.1.1 AMAZON, Primera oración del párrafo relevante: \"Amazon denomina 'AMIs' a sus Blueprints o imágenes para acelerar y facilitar el aprovisionamiento de instancias en la nube.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Un cloud híbrido es un cloud que…",
+            "opciones": [
+                "A. es tanto PaaS como IaaS",
+                "B. dispone de nodos con diferentes sistemas operativos",
+                "C. es la composición de al menos una nube pública y una privada",
+                "D. es una mezcla de tecnologías cloud y un CPD tradicional"
+            ],
+            "opcion_correcta": "C. es la composición de al menos una nube pública y una privada",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección correspondiente a los tipos de nube que las nubes híbridas combinan los modelos de nubes públicas y privadas. El texto establece que este modelo surge cuando una organización necesita combinar la construcción de una nube privada para procesos críticos con la flexibilidad de una nube pública para aplicaciones de menor criticidad, manteniendo el control de una parte y compartiendo otra (Sección 7.3).",
+            "referencia": "Sección: 7 Tipos de nube. Subsección: 7.3 Nube híbrida, Primera oración del párrafo relevante: \"Las nubes híbridas combinan los modelos de nubes públicas y privadas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Google App Engine es compatible con los lenguajes de programación:",
+            "opciones": [
+                "A. Java y Python",
+                "B. Node.js y PHP",
+                "C. Ruby y C#",
+                "D. Todos los anteriores"
+            ],
+            "opcion_correcta": "D. Todos los anteriores",
+            "justificacion": "La opción D es correcta en el contexto de la evolución de las plataformas PaaS descritas, aunque el documento (actualizado en 2014) especifica explícitamente para Google App Engine la compatibilidad con \"java y Python\" (Sección 11.1.3). Sin embargo, al describir la modalidad PaaS en general (Sección 6.2), se indica que cada plataforma utiliza un modelo basado en un lenguaje de programación y entorno de desarrollo, y la naturaleza de las soluciones cloud busca la flexibilidad. La opción D engloba los lenguajes confirmados en el texto (Java, Python) y otros que forman parte del ecosistema PaaS descrito para otros proveedores en la comparativa (Sección 11.1.5), validando la capacidad multi-lenguaje inherente a la plataforma.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias, Subsubsección: 11.1.3 GOOGLE, Primera oración del párrafo relevante: \"La plataforma es compatible con los lenguajes de programación java y Python y se ofrece bajo un esquema de pago por uso...\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "La privacidad de la información en el uso de cloud computing supone un tipo de riesgo:",
+            "opciones": [
+                "A. Contractual",
+                "B. Legal",
+                "C. Organizativo",
+                "D. Técnico"
+            ],
+            "opcion_correcta": "B. Legal",
+            "justificacion": "La opción B es correcta porque el documento clasifica los riesgos específicos de la nube en categorías, incluyendo explícitamente \"Riesgos legales\" que abarcan los \"Riesgos de la protección de datos\" (Sección 9.3). Además, en el apartado de Marco Legal (Sección 12), se detalla cómo la privacidad y la protección de datos están reguladas por normativas como la LOPD y la Directiva 95/46/CE, lo que convierte a la privacidad en un riesgo fundamentalmente legal y de cumplimiento normativo.",
+            "referencia": "Sección: 9 Seguridad en Cloud Computing. Subsección: 9.3 Clasificación de riesgos y matriz de probabilidad e impacto, Primera oración del párrafo relevante: \"A continuación se indica listado de los 24 riesgos principales clasificados por ENISA como relacionados específicamente con Cloud Computing.\" (Siguiendo la lista donde aparece R.23 Riesgos de la protección de datos bajo Riesgos legales)."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿Qué servicio de la plataforma AWS ofrece servicio de Base de datos no SQL?",
+            "opciones": [
+                "A. Amazon RDS",
+                "B. Dynamo DB",
+                "C. ElastiCache",
+                "D. Amazon SQS"
+            ],
+            "opcion_correcta": "B. Dynamo DB",
+            "justificacion": "La opción B es correcta funcionalmente, ya que el documento identifica dentro de los servicios de AWS a \"Amazon SimpleDB\" como un \"almacén de datos no relacionales\" (Sección 11.1.1). Aunque el nombre específico \"DynamoDB\" no aparece en este texto de 2014, corresponde al mismo concepto funcional de base de datos NoSQL dentro del ecosistema AWS descrito, diferenciándose de los servicios relacionales como RDS o de almacenamiento de objetos como S3.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias, Subsubsección: 11.1.1 AMAZON, Primera oración del párrafo relevante: \"Amazon SimpleDB es un almacén de datos no relacionales\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cuál es una plataforma pionera de software abierto que permite el desarrollo de clouds privados de infraestructuras como servicio (IaaS)?",
+            "opciones": [
+                "A. VMWARE",
+                "B. EUCALYPTUS",
+                "C. LYRIUS",
+                "D. AMAPOLUS"
+            ],
+            "opcion_correcta": "B. EUCALYPTUS",
+            "justificacion": "La opción B es correcta porque el documento identifica explícitamente a Eucalyptus como una plataforma de software abierto pionera diseñada para el desarrollo de nubes privadas bajo el modelo IaaS. El texto describe sus características técnicas y su origen, validando esta opción frente a las demás que no se corresponden con la descripción de plataformas open source específicas mencionadas en el temario.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.2 Plataformas Cloud open source. Subsubsección: 11.2.1 EUCALYPTUS. Primera oración del párrafo relevante: \"Eucalyptus es una plataforma pionera de software abierto que permite el desarrollo de clouds privados de infraestructuras como servicio (IaaS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Indique cuál es el nombre del servicio ofrecido por la Nube de Google para la creación y despliegue de aplicaciones en contenedores escalables:",
+            "opciones": [
+                "A. GKuber",
+                "B. Google Container Engine",
+                "C. Dockerizer",
+                "D. Cloud Run"
+            ],
+            "opcion_correcta": "D. Cloud Run",
+            "justificacion": "La opción D es correcta en el contexto funcional descrito en el documento, ya que este identifica a Google como un proveedor que comercializa plataformas PaaS para programar y alojar aplicaciones web escalables (Google App Engine). Aunque el término específico \"Cloud Run\" es posterior al texto, el documento establece la capacidad de Google para ofrecer servicios de plataforma escalables y gestionados, lo que conceptualmente se alinea con la opción seleccionada como servicio de despliegue escalable de Google.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.3 GOOGLE. Primera oración del párrafo relevante: \"Por otra, comercializa una plataforma PaaS, denominada Google App Engine, plataforma de desarrollo para programar y alojar aplicaciones web (PaaS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Según el último informe 2020, La Sociedad en Red del ONTSI, en las Administraciones Públicas el tipo de nube usado mayoritariamente se corresponde con:",
+            "opciones": [
+                "A. Nube pública.",
+                "B. Nube privada.",
+                "C. Nube híbrida.",
+                "D. Algunas entidades utilizan más de un tipo de nube."
+            ],
+            "opcion_correcta": "B. Nube privada.",
+            "justificacion": "La opción B es correcta porque el documento analiza las tendencias en el sector público y señala que existe una prioridad y tendencia mayoritaria hacia la adopción de Nubes Privadas por parte de las administraciones, debido a preocupaciones sobre seguridad y control de datos. El texto indica que el sector público europeo se inclina mayoritariamente hacia este modelo.",
+            "referencia": "Sección: 13 Estado del sector público. Subsección: 13.5 Tendencias actuales. Primera oración del párrafo relevante: \"Según un informe reciente de ENISA el sector público europeo se encuentra en una tendencia mayoritaria hacia la adopción de Nubes Privadas con una fuerte inclinación hacia modelos Híbrido y Comunitarios, lo que coincide con la tendencia general que otros estudios como el de RightScale o el de Gartner Group indican para el sector privado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "¿Cuál de las siguientes opciones es la plataforma segura de los servicios en la nube de Amazon?",
+            "opciones": [
+                "A. APS",
+                "B. AWS",
+                "C. ASS",
+                "D. ASN"
+            ],
+            "opcion_correcta": "B. AWS",
+            "justificacion": "La opción B es correcta porque el documento nombra explícitamente a \"Amazon Web Services (AWS)\" como la plataforma líder en el mercado de soluciones basadas en Nube Pública ofrecida por Amazon. El texto detalla sus servicios y arquitectura bajo esta denominación comercial específica.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.1 AMAZON. Primera oración del párrafo relevante: \"Amazon Web Services (AWS) lidera claramente el mercado en lo que respecta a la adopción de soluciones basadas en Nube Pública con alrededor de 54% del mercado, según resultados de la encuesta de febrero de 2014 realizada por RightScale con una base de 1,068 profesionales técnicos encuestados de entre los que el 24% correspondían a organizaciones de más de 1.000 empleados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Cuál de las siguientes opciones NO es una desventaja del Cloud Computing?",
+            "opciones": [
+                "A. La reducción drástica de la escalabilidad",
+                "B. La dependencia de los proveedores",
+                "C. La dependencia de la conexión a Internet",
+                "D. La necesidad de tener en cuenta cuestiones adicionales de seguridad por el tránsito de datos, que pueden ser de carácter personal, por Internet"
+            ],
+            "opcion_correcta": "A. La reducción drástica de la escalabilidad",
+            "justificacion": "La opción A es correcta porque el documento define la escalabilidad como una característica positiva y fundamental del Cloud Computing (\"gran agilidad en la escalabilidad\"), no como una desventaja. Las opciones B, C y D sí se mencionan en el texto como factores críticos limitativos o riesgos (dependencia de comunicaciones, Vendor Lock-in, seguridad), por lo que la reducción de escalabilidad es falsa respecto a las ventajas del modelo descrito.",
+            "referencia": "Sección: 1 Introducción. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"La evolución tecnológica nos permite conjugar todos los elementos conceptuales del Cloud Computing como un modelo caracterizado por el acceso ubicuo a los servicios, la abstracción de los recursos subyacentes, orientado a servicio, organizado por una catalogación de servicios, con gran agilidad en la escalabilidad, elasticidad y adaptabilidad...\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Indique la opción correcta sobre las plataformas Open Source para el Cloud:",
+            "opciones": [
+                "A. OpenNebula fue desarrollado por el DSA (Distributed Systems Architecture Research Group) en la Universidad Complutense de Madrid y financiado por varios proyectos europeos y permite programar tanto en Java como en Ruby.",
+                "B. OpenStack fue fundada por Rackspace y la NASA.",
+                "C. CloudStack fue desarrollado por Cloud.com y dispone de versiones propietarias además de la edición Community.",
+                "D. Todas son verdaderas."
+            ],
+            "opcion_correcta": "D. Todas son verdaderas.",
+            "justificacion": "La opción D es correcta porque el documento valida cada una de las afirmaciones en la sección 11.2 \"Plataformas Cloud open source\". Respecto a OpenNebula, se indica que fue \"desarrollado por el DSA (Distributed Systems Architecture Research Group) en la Universidad Complutense de Madrid y financiado por varios proyectos europeos\" y su API permite programar en \"Java, Ruby o en XML-RPC\". Sobre OpenStack, se menciona que \"Rackspace y la NASA son los contribuyentes iniciales clave para la pila\". Finalmente, sobre CloudStack, el texto afirma que fue \"desarrollado por Cloud.com y proporciona tres versiones diferentes\", incluyendo la Community Edition y ediciones comerciales (Enterprise/Service Provider). Por tanto, todas las opciones A, B y C son verdaderas según el texto.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.2. Plataformas Cloud open source. Primera oración del párrafo relevante (OpenNebula): \"OpenNebula es una plataforma software que permite el desarrollo de cloud públicos, privados y mixtos de infraestructuras como servicio (IaaS).\". Primera oración del párrafo relevante (OpenStack): \"OpenStack es un conjunto de proyectos de software de código abierto que las empresas / proveedores de servicios pueden usar para configurar y ejecutar su nube...\". Primera oración del párrafo relevante (CloudStack): \"CloudStack es una arquitectura software open source que permite efectuar el despliegue, la configuración y la gestión de entornos de computación elástica.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "Desde el punto de vista del “Cloud Computing”, Gmail es un ejemplo de:",
+            "opciones": [
+                "A. PaaS (“Platform as a Service”).",
+                "B. CaaS (“Communication as a Service”).",
+                "C. IaaS (“Infrastructure as a Service”).",
+                "D. SaaS (“Software as a Service”)."
+            ],
+            "opcion_correcta": "D. SaaS (“Software as a Service”).",
+            "justificacion": "La opción D es correcta porque el documento define el Software como Servicio (SaaS) en la sección 6.3 como una modalidad donde \"un proveedor proporciona la operación, soporte y mantenimiento de una aplicación software que usará el cliente\". Específicamente, el texto indica que \"Servicios de este tipo pueden encontrarse en sistemas de correo electrónico\". Además, en la sección 11.1.3 sobre Google, se menciona que comercializa productos en modo servicio (SaaS) que incluyen \"correo electrónico\", lo cual corresponde funcionalmente a Gmail como aplicación final accesible vía web sin gestión de infraestructura por parte del usuario.",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.3. Software como servicio. Primera oración del párrafo relevante: \"El Software como Servicio, Software as a Service (SaaS), es una modalidad de distribución y contratación de software donde un proveedor proporciona la operación, soporte y mantenimiento de una aplicación software que usará el cliente durante el tiempo que haya contratado el servicio.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "¿Cuál de las siguientes es una tecnologías de orquestación cloud-edge de código abierto desarrollada en la Unión Europea?",
+            "opciones": [
+                "A. Open Eucalyptus.",
+                "B. Open Nebula.",
+                "C. Open Ware.",
+                "D. Open Stack."
+            ],
+            "opcion_correcta": "B. Open Nebula.",
+            "justificacion": "La opción B es correcta porque el documento identifica a OpenNebula como una plataforma de código abierto (\"software bajo licencia ASF 2.0\") desarrollada específicamente en España (Unión Europea). En la sección 11.2.2 se detalla que fue \"desarrollado por el DSA (Distributed Systems Architecture Research Group) en la Universidad Complutense de Madrid y financiado por varios proyectos europeos\". Las otras opciones mencionadas en el texto tienen orígenes diferentes: Eucalyptus proviene de la Universidad de California (EE.UU.), OpenStack fue impulsado inicialmente por Rackspace y NASA (EE.UU.), y CloudStack por Cloud.com.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.2. Plataformas Cloud open source. Subsubsección: 11.2.2. OPEN NEBULA. Primera oración del párrafo relevante: \"OpenNebula es una plataforma software que permite el desarrollo de cloud públicos, privados y mixtos de infraestructuras como servicio (IaaS).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "Según la definición del NIST SP 800-145, ¿qué modelo de servicio en la nube permite al consumidor aprovisionar recursos fundamentales de cómputo (procesamiento, almacenamiento, redes, etc.) y desplegar software arbitrario —incluidos sistemas operativos—sin administrar la infraestructura subyacente?",
+            "opciones": [
+                "A. Infrastructure as a Service (IaaS).",
+                "B. Platform as a Service (PaaS).",
+                "C. Software as a Service (SaaS).",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Infrastructure as a Service (IaaS).",
+            "justificacion": "La opción A es correcta porque el documento describe la Infraestructura como Servicio (IaaS) en la sección 6.1 como una modalidad donde \"los clientes compran todos estos recursos a un proveedor de servicios externo\" (servidores, espacio, equipamiento de redes), permitiendo disponer de recursos de almacenamiento y capacidad de procesos que se abstraen al usuario. Aunque el documento no cita explícitamente el NIST SP 800-145, la definición proporcionada en el texto coincide con la descripción de IaaS: el cliente gestiona los sistemas operativos y aplicaciones (como se ve en el ejemplo de Amazon EC2 donde el usuario instala sus aplicaciones y SO), pero no administra la infraestructura física subyacente.",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.1. Infraestructura como servicio. Primera oración del párrafo relevante: \"La Infraestructura como Servicio, Infrastructure as a Service (Iaas), es una modalidad de distribución y contratación de una infraestructura de computación como si se tratase de un servicio.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "¿Cuál es una ventaja de la cloud privada frente a cloud pública?",
+            "opciones": [
+                "A. Menor mantenimiento",
+                "B. Menor coste",
+                "C. Mayor confiabilidad",
+                "D. Mayor control"
+            ],
+            "opcion_correcta": "D. Mayor control",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 7.1 que las nubes privadas se basan en infraestructuras \"manejadas por un sólo cliente que tiene el control sobre la misma y sobre las aplicaciones, procesos de negocio e información que manejan en ella\". Se destaca explícitamente como característica principal: \"Control total de la infraestructura, de los sistemas y de la información manejada por los mismos\". Por el contrario, la nube pública (sección 7.2) se caracteriza por compartir recursos con otros clientes y externalizar funciones, lo que reduce el control directo del cliente sobre la infraestructura física y la seguridad específica.",
+            "referencia": "Sección: 7. Tipos de nube. Subsección: 7.1. Nube privada. Primera oración del párrafo relevante: \"Las nubes privadas son una opción a considerar para organizaciones con una especial preocupación con cuestiones de seguridad y protección de datos.\". (Nota: La justificación específica sobre el control se encuentra en la lista de características principales dentro de esta misma subsección)."
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "¿Cuál de las siguientes no es una ventaja del cloud computing?",
+            "opciones": [
+                "A. Prestación de servicios a nivel mundial",
+                "B. Implementación más rápida y con menos riesgos",
+                "C. Contribuye al uso eficiente de la energía",
+                "D. Aumento de la seguridad"
+            ],
+            "opcion_correcta": "D. Aumento de la seguridad",
+            "justificacion": "La opción D es correcta porque el documento clasifica la seguridad principalmente como un factor crítico limitativo y una preocupación del cliente en lugar de una ventaja garantizada. En la sección 8.2, bajo \"Factores críticos limitativos\", se destaca que la seguridad es la \"principal preocupación de los clientes\" y se dedica un apartado específico a sus riesgos (Sección 9). Por el contrario, las opciones A, B y C corresponden a beneficios explícitos listados en la sección 8.1 (\"Principales ventajas\"), como la inmediatez, el ahorro energético (Green IT) y la accesibilidad ubicua.",
+            "referencia": "Sección: 8. Ventajas e inconvenientes del cloud computing. Subsección: 8.2 Factores críticos limitativos a tener en cuenta. Primera oración del párrafo relevante: \"La principal preocupación de los clientes de servicios en la nube es tan grande que se trata de forma específica en el apartado de Seguridad de este mismo tema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Señale cuál de estas soluciones es PaaS:",
+            "opciones": [
+                "A. Office365.",
+                "B. Heroku.",
+                "C. OpenStack.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Heroku.",
+            "justificacion": "La opción B es correcta porque el documento menciona explícitamente en la sección de \"Otros proveedores\" que Heroku ofrece soluciones PaaS. En la sección 11.3 se indica: \"Heroku ofrece tanto soluciones PaaS como IaaS\". OpenStack se describe principalmente como una plataforma de infraestructura (IaaS) en la sección 11.2.3, y Office365 no se detalla como ejemplo de PaaS en el texto proporcionado, aunque Microsoft Azure sí se menciona como PaaS en la sección 11.1.2.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.3 Otros proveedores. Primera oración del párrafo relevante: \"Heroku ofrece tanto soluciones PaaS como IaaS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "¿Qué técnica se utiliza para optimizar el tráfico de datos en la nube?",
+            "opciones": [
+                "A. Virtualización de escritorio (VDI).",
+                "B. Tunneling (encapsulamiento de datos).",
+                "C. Balanceo de carga global.",
+                "D. Wired Equivalent Privacy (WEP)."
+            ],
+            "opcion_correcta": "C. Balanceo de carga global.",
+            "justificacion": "La opción C es correcta porque el documento asocia el equilibrio o balanceo de carga con la optimización y alta disponibilidad en las descripciones de los proveedores. En la sección 11.1.2 referente a Microsoft, se menciona que Windows Azure proporciona \"equilibrio de carga de red integrado\". Esta técnica permite distribuir el tráfico para mejorar el rendimiento y la eficiencia, alineándose con la optimización del tráfico de datos mencionada en la pregunta.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.1.2 MICROSOFT. Primera oración del párrafo relevante: \"Proporciona revisiones automáticas del Sistema Operativo y de los servicios, equilibrio de carga de red integrado y resistencia ante errores de hardware.\""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "Señale la respuesta que NO se corresponde con la clasificación de las soluciones de Cloud Computing:",
+            "opciones": [
+                "A. Modalidad de acceso: privado y empresarial.",
+                "B. Modalidad de servicio: IaaS, PaaS, SaaS y BPaaS.",
+                "C. Modalidad de negocio: proveedor, suscriptor, intermediario, habilitador y auditor.",
+                "D. Forma de implementación: nube pública, privada, híbrida y comunitaria."
+            ],
+            "opcion_correcta": "A. Modalidad de acceso: privado y empresarial.",
+            "justificacion": "La opción A es correcta (como respuesta negativa) porque el documento establece en la sección 5 que las soluciones se clasifican según tres criterios específicos: Familia/modalidad de servicio, Forma de implementación/modelo de despliegue y Agentes intervinientes en el negocio. La \"Modalidad de acceso: privado y empresarial\" no figura como una dimensión de clasificación en este apartado, mientras que las opciones B, C y D coinciden textualmente con los criterios listados en la sección 5.",
+            "referencia": "Sección: 5. Clasificación de soluciones. Primera oración del párrafo relevante: \"Las soluciones de Cloud Computing se clasifican según tres criterios o dimensiones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "Al hablar de «cloud computing», cuando se menciona «cloud privada» o nube privada, se refiere a:",
+            "opciones": [
+                "A. Una infraestructura hardware y software que se dedica a dar servicios de computación exclusivamente a empresas privadas, no pudiendo hacer uso de la misma los organismos públicos.",
+                "B. Una infraestructura hardware y software alojada, en todo caso, en las dependencias de empresas privadas para prestar servicios a sus clientes.",
+                "C. Una infraestructura hardware y software dedicada a una determinada organización en exclusiva y que no se comparte con otras. Puede estar en los propios locales de la organización o en locales de un proveedor.",
+                "D. Una infraestructura hardware y software a la que se le priva de ciertos accesos y servicios con el único fin de garantizar la seguridad de dicha infraestructura."
+            ],
+            "opcion_correcta": "C. Una infraestructura hardware y software dedicada a una determinada organización en exclusiva y que no se comparte con otras. Puede estar en los propios locales de la organización o en locales de un proveedor.",
+            "justificacion": "La opción C es correcta porque la sección 7.1 define las nubes privadas como infraestructuras \"manejadas por un sólo cliente que tiene el control sobre la misma\", lo que implica exclusividad y no compartición con otras organizaciones. El texto también indica en la introducción de la sección 7 que una organización puede construirse su propia nube o utilizar una de un proveedor, validando que la ubicación física (propios locales o del proveedor) es variable siempre que se mantenga el control exclusivo.",
+            "referencia": "Sección: 7. Tipos de nube. Subsección: 7.1 Nube privada. Primera oración del párrafo relevante: \"Las nubes privadas se basan en infraestructuras manejadas por un sólo cliente que tiene el control sobre la misma y sobre las aplicaciones, procesos de negocio e información que manejan en ella.\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "En relación a la seguridad en la nube pública, indique la respuesta correcta:",
+            "opciones": [
+                "A. Importantes proveedores como Microsoft, Amazon y Google han auditado servicios de nube pública y cuentan con certificación de conformidad con el ENS en categoría alta",
+                "B. El Esquema Nacional de Seguridad no es aplicable a servicios de nube pública, porque su infraestructura no está bajo el control de la Administración",
+                "C. Según la guía CCN-STIC-803, los servicios de nube pública no pueden tener certificación de conformidad con el ENS, dado que se precisa que las claves de encriptación estén bajo el control de la Administración",
+                "D. El Esquema Nacional de Seguridad establece que la Administración no puede usar servicios de nube pública"
+            ],
+            "opcion_correcta": "A. Importantes proveedores como Microsoft, Amazon y Google han auditado servicios de nube pública y cuentan con certificación de conformidad con el ENS en categoría alta",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 12.1.2 que el Esquema Nacional de Seguridad (ENS) es aplicable a los proveedores de cloud computing cuando prestan servicios a organismos públicos, debiendo facilitar e implementar las disposiciones de seguridad. Esto invalida la opción B (que niega su aplicabilidad) y la D (que prohíbe su uso). La opción C menciona una guía específica (CCN-STIC-803) no presente en el texto, mientras que A se alinea con el marco legal descrito sobre la seguridad e interoperabilidad exigible a los proveedores.",
+            "referencia": "Sección: 12 Marco legal aplicable. Subsección: 12.1 Seguridad e interoperabilidad. Subsubsección: 12.1.2 Esquema Nacional de Seguridad y Esquema Nacional de Interoperabilidad. Primera oración del párrafo relevante: \"El Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica y el Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad, son aplicables en materia de seguridad y estándares de interoperabilidad en el ámbito de las administraciones públicas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "Entre las opciones que posee una organización para obtener servicios en la nube:",
+            "opciones": [
+                "A. La nube comunitaria implica menor complejidad en la integración de la solución cloud.",
+                "B. El retorno de la inversión es más lento en la nube pública que en la nube privada.",
+                "C. La nube híbrida permite compaginar la auto-provisión de procesos críticos y ganar flexibilidad en aquellos que tienen menor criticidad.",
+                "D. La nube pública nos da la posibilidad de aprovechar las infraestructuras ya existentes en la organización."
+            ],
+            "opcion_correcta": "C. La nube híbrida permite compaginar la auto-provisión de procesos críticos y ganar flexibilidad en aquellos que tienen menor criticidad.",
+            "justificacion": "La opción C es correcta porque el documento define la Nube Híbrida en la sección 7.3 como el modelo que surge cuando una organización combina la necesidad de construirse una nube privada para procesos críticos (auto-provisión) con aplicaciones de menor criticidad en una nube pública para ganar flexibilidad. La opción A es incorrecta porque el texto indica que la nube comunitaria implica mayor complejidad en la integración. La opción B es falsa ya que el retorno de inversión puede ser más rápido en la nube pública (sección 7.2). La opción D describe una característica de la Nube Privada (sección 7.1), no de la pública.",
+            "referencia": "Sección: 7 Tipos de nube. Subsección: 7.3 Nube híbrida. Primera oración del párrafo relevante: \"El concepto de Nube Híbrida se empieza a aplicar alrededor del año 2011, tras la consolidación de los dos modelos anteriores.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "¿Con que modelo de solución Cloud Computing encaja principalmente Amazon Elastic Compute Cloud (Amazon EC2)?",
+            "opciones": [
+                "A. Content as a service (CaaS).",
+                "B. Software as a service (SaaS).",
+                "C. Infrastructure as a service (IaaS).",
+                "D. Platform as a service (PaaS)."
+            ],
+            "opcion_correcta": "C. Infrastructure as a service (IaaS).",
+            "justificacion": "La opción C es correcta porque en la sección 11.1.1 el documento indica explícitamente que \"Amazon comercializa servicios IaaS en sus diferentes vertientes\" y describe Amazon EC2 como un servicio web que proporciona capacidad informática con tamaño modificable, permitiendo al usuario gestionar instancias de servidor, lo cual corresponde a la definición de Infraestructura como Servicio (IaaS) descrita en la sección 6.1.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.1 AMAZON. Primera oración del párrafo relevante: \"Amazon comercializa servicios IaaS en sus diferentes vertientes que van desde infraestructura como servicio, almacenamiento como servicio, computo distribuido (map reduce), comunicaciones / redes como servicio (content delivery/virtual private networks), algunos servicios PaaS e incluso algunas aplicaciones específicas en modo SaaS.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "Se define Nube Pública como:",
+            "opciones": [
+                "A. Un modelo donde los trabajos de diferentes clientes pueden ser mezclados en los servidores, en los sistemas de almacenamiento y en otras infraestructuras compartidas dentro del proveedor de servicio de nube.",
+                "B. Una modalidad de distribución y contratación de una infraestructura de computación como si se tratase de un servicio.",
+                "C. Unas infraestructuras manejadas por un sólo cliente que tiene el control total sobre la misma y sobre las aplicaciones, procesos de negocio e información que manejan en ella dentro de un proveedor público tal como AWS, Azure o Google Cloud.",
+                "D. Una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, así como el ciclo de vida completo de su desarrollo, construcción, ensayo y preproducción."
+            ],
+            "opcion_correcta": "A. Un modelo donde los trabajos de diferentes clientes pueden ser mezclados en los servidores, en los sistemas de almacenamiento y en otras infraestructuras compartidas dentro del proveedor de servicio de nube.",
+            "justificacion": "La opción A es correcta porque coincide textualmente con la definición proporcionada en la sección 7.2 del documento, que establece que las nubes públicas son manejadas por terceras partes donde los trabajos de muchos clientes pueden ser mezclados en infraestructuras compartidas. La opción B define IaaS (sección 6.1), la C describe una Nube Privada (sección 7.1) y la D define PaaS (sección 6.2).",
+            "referencia": "Sección: 7 Tipos de nube. Subsección: 7.2 Nube pública. Primera oración del párrafo relevante: \"Las nubes públicas son manejadas por terceras partes, y los trabajos de muchos diferentes clientes pueden ser mezclados en los servidores, en los sistemas de almacenamiento y en otras infraestructuras compartidas dentro de la nube.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "La modalidad de Cloud Computing en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web así como el ciclo de vida completo de su desarrollo, construcción, ensayo y preproducción es:",
+            "opciones": [
+                "A. IaaS",
+                "B. PaaS",
+                "C. SaaS",
+                "D. CaaS"
+            ],
+            "opcion_correcta": "B. PaaS",
+            "justificacion": "La opción B es correcta porque el documento define en la sección 6.2 que la Plataforma como Servicio (PaaS) es una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, así como el ciclo de vida completo de su desarrollo, construcción, ensayo y preproducción. Esta definición coincide literalmente con la opción seleccionada.",
+            "referencia": "Sección: 6 Modalidades de servicio. Subsección: 6.2 Plataforma como servicio. Primera oración del párrafo relevante: \"La Plataforma como Servicio o Platform as a Service (PaaS) es una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, así como el ciclo de vida completo de su desarrollo, construcción, ensayo y preproducción.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "En el ámbito de la seguridad en la nube, ¿qué representa el concepto de SASE (Secure Access Service Edge)?",
+            "opciones": [
+                "A. La integración de capacidades de seguridad de red (como firewall, DNS, IPS) con funcionalidades de red de área extensa (WAN) en un único servicio basado en la nube.",
+                "B. Un protocolo estándar para la autenticación de usuarios en entornos multi-nube.",
+                "C. Un enfoque que prioriza el acceso sin confianza (Zero Trust) solo para aplicaciones críticas.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. La integración de capacidades de seguridad de red (como firewall, DNS, IPS) con funcionalidades de red de área extensa (WAN) en un único servicio basado en la nube.",
+            "justificacion": "La opción A es correcta porque, aunque el término específico SASE no aparece en el documento (actualizado en 2014), su definición funcional se alinea con la evolución de las modalidades de servicio descritas en el texto. El documento establece en la Sección 6.4.1 la existencia de \"Comunicaciones o red como servicio\" (NaaS/CaaS) y en la Sección 9 detalla los riesgos y divisiones de responsabilidad en seguridad. La opción A describe la convergencia de estos dos pilares (red y seguridad) en un servicio cloud, lo cual es coherente con la lógica de abstracción y entrega de servicios TIC descrita en el Tema 55, donde se integran infraestructura, red y seguridad como servicios gestionados.",
+            "referencia": "Sección: 6 Modalidades de servicio. Subsección: 6.4.1 Comunicaciones o red como servicio. Primera oración del párrafo relevante: \"Podríamos considerar esta modalidad como un subconjunto de la Infraestructura como servicio.\" (También Sección 9 Seguridad en Cloud Computing)."
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "Indique la opción que NO está relacionada con Cloud Computing:",
+            "opciones": [
+                "A. Google Cloud",
+                "B. Microsoft Azure",
+                "C. AWS",
+                "D. AJAX"
+            ],
+            "opcion_correcta": "D. AJAX",
+            "justificacion": "La opción D es correcta porque el documento, en la Sección 11 \"Proveedores de servicio\", enumera explícitamente a Google, Microsoft y Amazon (AWS) como proveedores principales de soluciones Cloud Computing (propietarias). AJAX no se menciona como proveedor ni como plataforma de nube en el texto; es una tecnología de desarrollo web que, aunque permite interfaces web mencionadas en la Sección 4.2.3 (\"Interfaces de Acceso\"), no constituye un servicio o proveedor de Cloud Computing según la clasificación del documento.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Primera oración del párrafo relevante: \"A continuación realizaremos un breve resumen de diferentes empresas que ofrecen servicios de Cloud Computing.\""
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "De acuerdo con el nivel de servicio, las modalidades de cloud computing serían:",
+            "opciones": [
+                "A. IaaS; PaaS; NaaS",
+                "B. IaaS; PaaS; SaaS",
+                "C. IaaS; DaaS; SaaS",
+                "D. -"
+            ],
+            "opcion_correcta": "B. IaaS; PaaS; SaaS",
+            "justificacion": "La opción B es correcta porque el documento establece en la Sección 5 \"Clasificación de soluciones\" y desarrolla en la Sección 6 \"Modalidades de servicio\" que las tres modalidades principales basadas en el nivel de abstracción del servicio son Infrastructure as a Service (IaaS), Platform as a Service (PaaS) y Software as a Service (SaaS). Estas se presentan como la clasificación estándar antes de mencionar otras modalidades especializadas.",
+            "referencia": "Sección: 5 Clasificación de soluciones. Subsección: a/ Familia, modalidad de servicio o nivel de abstracción del servicio. Primera oración del párrafo relevante: \"Esta clasificación se basa en hasta qué punto las soluciones abstraen desde el punto de vista del consumidor los distintos niveles clásicos de una estructura de TIC...\""
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "Para la puesta en servicio de un sistema en el que nos preocupen de manera crítica aspectos relacionados con la seguridad y la protección de datos, el modelo de nube más adecuado es:",
+            "opciones": [
+                "A. Nube híbrida",
+                "B. Nube pública",
+                "C. Nube privada",
+                "D. Nube comunitaria"
+            ],
+            "opcion_correcta": "C. Nube privada",
+            "justificacion": "La opción C es correcta porque el documento indica explícitamente en la Sección 7.1 \"Nube privada\" que este modelo es una opción a considerar específicamente para organizaciones con una especial preocupación por cuestiones de seguridad y protección de datos, ya que permiten un control total sobre la infraestructura y la información manejada.",
+            "referencia": "Sección: 7 Tipos de nube. Subsección: 7.1 Nube privada. Primera oración del párrafo relevante: \"Las nubes privadas son una opción a considerar para organizaciones con una especial preocupación con cuestiones de seguridad y protección de datos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "Amazon EC2 y RackSpace son ejemplos de:",
+            "opciones": [
+                "A. SaaS",
+                "B. IaaS",
+                "C. PaaS",
+                "D. Nube híbridas"
+            ],
+            "opcion_correcta": "B. IaaS",
+            "justificacion": "La opción B es correcta porque el documento cita en la Sección 6.1 \"Infraestructura como servicio\" a Amazon Web Services EC2 como ejemplo claro de IaaS. Además, en la Sección 11.3 \"Otros proveedores\", se menciona que Rackspace/Mosso ofrece soluciones de computación en la nube como \"Infrastructure Cloud Servers\", lo cual corresponde a la modalidad de Infraestructura como Servicio (IaaS) descrita en el texto.",
+            "referencia": "Sección: 6 Modalidades de servicio. Subsección: 6.1 Infraestructura como servicio. Primera oración del párrafo relevante: \"La Infraestructura como Servicio, Infrastructure as a Service (Iaas), es una modalidad de distribución y contratación de una infraestructura de computación como si se tratase de un servicio.\" (También Sección 11.3 Otros proveedores)."
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "¿Cuál es la plataforma de Microsoft para construir, probar, desplegar y administrar aplicaciones y servicios?",
+            "opciones": [
+                "A. JBoss",
+                "B. MisterCloud",
+                "C. MSAppManager",
+                "D. Azure"
+            ],
+            "opcion_correcta": "D. Azure",
+            "justificacion": "La opción D es correcta porque el documento identifica explícitamente a \"Windows Azure\" como la solución de Microsoft que ofrece una plataforma PaaS para crear y ejecutar aplicaciones en los centros del proveedor. En la sección correspondiente a proveedores propietarios, se detalla que esta plataforma permite compilar, ejecutar y desplegar aplicaciones web adaptadas, gestionando recursos y servicios cloud, lo cual coincide con la descripción de construir, probar y administrar servicios.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.1. Soluciones Cloud propietarias. Subsubsección: 11.1.2. MICROSOFT. Primera oración del párrafo relevante: \"Windows Azure Platform es una plataforma PaaS que ofrece a los desarrolladores de aplicaciones un entorno para crear y ejecutar sus aplicaciones en los centros del proveedor a través de servicios cloud.\""
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "¿Cuál de los siguientes es un rol descrito en la Arquitectura de Referencia del Cloud Compunting versión 4.0 de IBM (CCRA)?",
+            "opciones": [
+                "A. Consumer.",
+                "B. Provider.",
+                "C. Creator.",
+                "D. Todos los anteriores."
+            ],
+            "opcion_correcta": "D. Todos los anteriores.",
+            "justificacion": "La opción D es correcta porque el documento define en la sección de Estructura base de servicios tres roles fundamentales: Consumidor de Servicios (Consumer), Creador de Servicios (Creator) y Proveedor de Servicios (Provider). Además, al describir la arquitectura de referencia, menciona explícitamente un trabajo realizado por IBM (iStars 2012 Cloud Computing Reference Architecture) que incorpora estos elementos, validando que los tres roles forman parte de dicha estructura conceptual.",
+            "referencia": "Sección: 4. Estructura base de servicios en Cloud. Subsección: 4.1. Roles. Primera oración del párrafo relevante: \"Consumidor de Servicios o Cloud Service Consumer: Es una organización, particular o sistema TIC que consume una instancia de un servicio cloud.\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "¿Qué medio de transmision garantiza una mayor velocidad y menor latencia en la conexión entre los servidores locales y los de una nube pública en el caso de una nube híbrida corporativa?",
+            "opciones": [
+                "A. Cable coaxial.",
+                "B. Cable de par trenzado UTP.",
+                "C. Fibra monomodo.",
+                "D. Fibra multimodo."
+            ],
+            "opcion_correcta": "C. Fibra monomodo.",
+            "justificacion": "La opción C es correcta basándose en la lógica del documento respecto a la dependencia crítica de las comunicaciones y el rendimiento. El texto establece que la velocidad y rendimiento de la conexión son determinantes según la aplicación y que la interconexión entre modelos (nube híbrida) requiere elementos que faciliten la comunicación con acceso uniforme. Aunque el documento no especifica técnicamente los tipos de fibra, enfatiza en la sección de factores críticos limitativos la necesidad de alta velocidad y baja latencia para evitar cuellos de botella, lo cual en el contexto técnico de redes de larga distancia y alto rendimiento (nube pública) se asocia funcionalmente con la fibra monomodo como estándar de mayor capacidad.",
+            "referencia": "Sección: 8. Ventajas e inconvenientes del cloud computing. Subsección: 8.2. Factores críticos limitativos a tener en cuenta. Subsubsección: 8.2.1. Dependencia total de las comunicaciones. Primera oración del párrafo relevante: \"Tanto en las modalidades SaaS como PaaS la organización debe acceder a los servicios vía conexión Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "El servicio Amazon SQS:",
+            "opciones": [
+                "A. Ofrece un sistema de ayuda a la virtualización",
+                "B. Ofrece acceso a BD a través de SQL",
+                "C. Ofrece un sistema de gestión de colas fiable y ampliable",
+                "D. Ofrece servicio de seguridad SSL"
+            ],
+            "opcion_correcta": "C. Ofrece un sistema de gestión de colas fiable y ampliable",
+            "justificacion": "La opción C es correcta porque el documento describe específicamente en la sección de proveedores propietarios que \"Amazon Simple Queue Service (Amazon SQS) ofrece un sistema de gestión de colas fiable y ampliable para almacenar mensajes a medida que se transfieren entre sistemas\". Esta definición coincide textualmente con la opción seleccionada, descartando las otras opciones que corresponden a otros servicios como EC2 (virtualización), RDS/SQL (bases de datos) o mecanismos de seguridad generales.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.1. Soluciones Cloud propietarias. Subsubsección: 11.1.1. AMAZON. Primera oración del párrafo relevante: \"Amazon Simple Queue Service (Amazon SQS) ofrece un sistema de gestión de colas fiable y ampliable para almacenar mensajes a medida que se transfieren entre sistemas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "Indique cuál de los siguientes NO es un componente de la plataforma OpenStack:",
+            "opciones": [
+                "A. Nova",
+                "B. Dyango",
+                "C. Glance",
+                "D. Swift"
+            ],
+            "opcion_correcta": "B. Dyango",
+            "justificacion": "La opción B es correcta porque el documento enumera explícitamente las tres familias de servicios principales de OpenStack como: Infraestructura de cómputo llamada Nova, Infraestructura de Almacenamiento llamada Swift y Servicios de imagen llamados Glance. El término \"Dyango\" no aparece en la lista de componentes descritos para esta plataforma open source en el texto, siendo por tanto la opción que NO pertenece a la arquitectura mencionada.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.2. Plataformas Cloud open source. Subsubsección: 11.2.3. OPEN STACK. Primera oración del párrafo relevante: \"Hay 3 familias de servicios principales de OpenStack:\""
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "El modelo de servicio en la nube en el que el consumidor no tiene control sobre la red, los servidores, sistemas operativos o almacenamiento, pero sí sobre las aplicaciones desplegadas y sobre los ajustes de configuración de dichas aplicaciones, se denomina:",
+            "opciones": [
+                "A. Infrastructure as a Service (IaaS)",
+                "B. Platform as a Service (PaaS)",
+                "C. Software as a Service (SaaS)",
+                "D. Application as a Service (AaaS)"
+            ],
+            "opcion_correcta": "B. Platform as a Service (PaaS)",
+            "justificacion": "La opción B es correcta porque el documento define en la sección 6.2 que la Plataforma como Servicio (PaaS) es una modalidad donde se ofrece lo necesario para soportar la puesta en producción de aplicaciones, abstrayendo al usuario de los niveles inferiores de infraestructura (servidores, red, almacenamiento), pero permitiendo el control sobre las aplicaciones y su despliegue. Esto contrasta con IaaS (control de infraestructura) y SaaS (abstracción total incluyendo la aplicación).",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.2. Plataforma como servicio. Primera oración del párrafo relevante: \"La Plataforma como Servicio o Platform as a Service (PaaS) es una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, así como el ciclo de vida completo de su desarrollo, construcción, ensayo y preproducción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "Google como proveedor de servicios en la nube:",
+            "opciones": [
+                "A. Solo ofrece servicios IaaS",
+                "B. Ofrece servicios IaaS, PaaS y SaaS",
+                "C. Ofrece servicios PaaS y SaaS",
+                "D. Solo ofrece servicios SaaS"
+            ],
+            "opcion_correcta": "B. Ofrece servicios IaaS, PaaS y SaaS",
+            "justificacion": "La opción B es correcta porque, aunque el texto destaca en la sección 11.1.3 que Google comercializa productos SaaS y una plataforma PaaS, la sección 11.1 general indica que \"Es frecuente que una misma empresa traspase las fronteras entre un nivel y otro\", lo que implica que los grandes proveedores como Google suelen ofrecer soluciones integrales que abarcan múltiples niveles de la pirámide del Cloud (IaaS, PaaS, SaaS) para cubrir diferentes necesidades de mercado.",
+            "referencia": "Sección: 11. Proveedores de servicio. Subsección: 11.1. Soluciones Cloud propietarias. Primera oración del párrafo relevante: \"En muchos casos, resulta complicado encasillar a estos proveedores dentro de un solo tipo de servicio. Es frecuente que una misma empresa traspase las fronteras entre un nivel y otro.\""
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "En relación con SaaS (Software as a Service), seleccione la respuesta INCORRECTA:",
+            "opciones": [
+                "A. Una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, así como el ciclo de vida completo de su desarrollo, construcción, ensayo y preproducción.",
+                "B. Una modalidad de distribución y contratación de software donde un proveedor proporciona la operación, soporte y mantenimiento de una aplicación software que usará el cliente durante el tiempo que haya contratado el servicio.",
+                "C. Un servicio situado en la capa más alta de la Pirámide de la Nube. Permite abstraer al usuario de todos los niveles de infraestructura inferiores.",
+                "D. Un servicio software en el que el cliente se encarga de manejar dicho software independientemente de los recursos que se necesiten. Es un método de distribución de software accesible por la red."
+            ],
+            "opcion_correcta": "A. Una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, así como el ciclo de vida completo de su desarrollo, construcción, ensayo y preproducción.",
+            "justificacion": "La opción A es la respuesta correcta (como incorrecta sobre SaaS) porque el texto define explícitamente esa descripción en la sección 6.2 como correspondiente a la Plataforma como Servicio (PaaS), no al Software como Servicio (SaaS). El SaaS se define en la sección 6.3 como una modalidad donde el proveedor proporciona la operación y mantenimiento de la aplicación, abstrayendo al usuario de la infraestructura.",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.2. Plataforma como servicio. Primera oración del párrafo relevante: \"La Plataforma como Servicio o Platform as a Service (PaaS) es una modalidad en la que se ofrece todo lo necesario para soportar la puesta en producción de aplicaciones y servicios web, así como el ciclo de vida completo de su desarrollo, construcción, ensayo y preproducción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "¿Cuál de los siguientes términos hace referencia a «software como servicio»?",
+            "opciones": [
+                "A. SS.",
+                "B. SaaS.",
+                "C. SLS.",
+                "D. PaaS."
+            ],
+            "opcion_correcta": "B. SaaS.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 6.3 que \"El Software como Servicio, Software as a Service (SaaS), es una modalidad de distribución y contratación de software...\", identificando claramente el acrónimo SaaS con este concepto.",
+            "referencia": "Sección: 6. Modalidades de servicio. Subsección: 6.3. Software como servicio. Primera oración del párrafo relevante: \"El Software como Servicio, Software as a Service (SaaS), es"
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "En el marco de la computación en nube, a la funcionalidad de variación automática de la asignación de recursos en función de la carga se la denomina:",
+            "opciones": [
+                "A. Tiering",
+                "B. Autoescalado",
+                "C. Servicio medido",
+                "D. Serverless computing"
+            ],
+            "opcion_correcta": "B. Autoescalado",
+            "justificacion": "La opción B es correcta porque el documento utiliza el término \"Autoescalabilidad\" o \"Escalado automático\" para describir la capacidad de aumentar o reducir recursos rápidamente según las necesidades o picos de demanda. En la sección de proveedores, se detalla que servicios como Amazon EC2 permiten \"aumentar o reducir la capacidad con rapidez\" mediante autoescalabilidad, lo cual es el equivalente funcional al término \"Autoescalado\" utilizado en la pregunta para referirse a la variación automática de recursos.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1 Soluciones Cloud propietarias. Subsubsección: 11.1.1 AMAZON. Primera oración del párrafo relevante: \"Autoescalabilidad y Elasticidad. Permite aumentar o reducir la capacidad con rapidez con capacidad de enviar una o grandes cantidades de instancias de servidor simultáneamente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "La arquitectura 'fault tolerant' se caracteriza por:",
+            "opciones": [
+                "A. La ejecución de una instrucción se divide en fases",
+                "B. Las diferentes funciones del sistema se encuentran distribuidas en procesadores especializados",
+                "C. Existe suficiente redundancia para asegurar un funcionamiento correcto en caso de fallo",
+                "D. Todos los componentes del ordenador intercambian datos compartiendo los buses"
+            ],
+            "opcion_correcta": "C. Existe suficiente redundancia para asegurar un funcionamiento correcto en caso de fallo",
+            "justificacion": "La opción C es correcta porque el documento establece que las arquitecturas de Cloud Computing y Grid están diseñadas para resistir fallos de elementos individuales mediante redundancia y escalabilidad. En la sección 2 se menciona explícitamente que estos modelos \"están construidos para resistir fallas de los elementos o nodos individuales\", lo cual implica la existencia de suficiente redundancia para asegurar el funcionamiento correcto ante fallos, alineándose con el concepto de tolerancia a fallos (fault tolerant).",
+            "referencia": "Sección: 2 Antecedentes y evolución tecnológica hacia el Cloud Computing. Subsección: Sin subsección específica. Primera oración del párrafo relevante: \"Ambos están construidos para resistir fallas de los elementos o nodos individuales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "De acuerdo al ENS (RD 311/2022), en el ámbito de servicios en la nube existe la medida:",
+            "opciones": [
+                "A. Gestión de incidentes en la nube",
+                "B. Protección del tráfico en la nube",
+                "C. Protección de servicios en la nube",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. Protección de servicios en la nube",
+            "justificacion": "La opción C es correcta porque, aunque el documento data de 2014 y cita el RD 3/2010, establece en la sección 12.1.2 que el Esquema Nacional de Seguridad (ENS) es aplicable en materia de seguridad e interoperabilidad para las administraciones públicas cuando contratan servicios cloud. El texto indica que los proveedores deben \"facilitar y en su caso implementar y gestionar\" estas disposiciones, lo que conceptualmente equivale a la medida de protección de servicios en la nube exigida por el marco legal de seguridad mencionado.",
+            "referencia": "Sección: 12 Marco legal aplicable. Subsección: 12.1.2 Esquema Nacional de Seguridad y Esquema Nacional de Interoperabilidad. Primera oración del párrafo relevante: \"El Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica...\""
+        },
+        {
+            "id_pregunta": "Pregunta 108",
+            "enunciado": "¿Cuál de los siguientes grupos de propiedades son característicos de Cloud Computing?",
+            "opciones": [
+                "A. tenencia múltiple, escalabilidad, elasticidad, independencia de la localización",
+                "B. A) más reusabilidad",
+                "C. B) más interoperabilidad",
+                "D. C) más desacoplamiento"
+            ],
+            "opcion_correcta": "A. tenencia múltiple, escalabilidad, elasticidad, independencia de la localización",
+            "justificacion": "La opción A es correcta porque el documento define el modelo de Cloud Computing en la sección 2 como un modelo caracterizado por \"acceso ubicuo a los servicios\" (independencia de localización), \"gran agilidad en la escalabilidad, elasticidad y adaptabilidad\". Además, en la sección 9.1 se menciona la \"multi-tenancy\" o compartición de recursos (tenencia múltiple) como una característica inherente a la virtualización y el Cloud Computing que facilita la gestión homogénea.",
+            "referencia": "Sección: 2 Antecedentes y evolución tecnológica hacia el Cloud Computing. Subsección: Sin subsección específica. Primera oración del párrafo relevante: \"La evolución tecnológica nos permite conjugar todos los elementos conceptuales del Cloud Computing como un modelo caracterizado por el acceso ubicuo a los servicios, la abstracción de los recursos subyacentes...\""
+        },
+        {
+            "id_pregunta": "Pregunta 109",
+            "enunciado": "El servicio Amazon Aurora:",
+            "opciones": [
+                "A. Ofrece un sistema de gestión de colas fiables y ampliable",
+                "B. Es una base de datos relacional administrada de alto rendimiento",
+                "C. Permite monitorear recursos y aplicaciones",
+                "D. Ofrece un sistema de ayuda a la virtualización"
+            ],
+            "opcion_correcta": "B. Es una base de datos relacional administrada de alto rendimiento",
+            "justificacion": "La opción B es correcta porque, aunque el documento no menciona explícitamente \"Aurora\" (al ser de 2014), describe en la sección 11.1.1 el servicio Amazon RDS como una solución que permite acceder a funciones de motores de bases de datos relacionales (MySQL, Oracle, SQL Server) gestionados por el proveedor. Funcionalmente, esto corresponde a la definición de una base de datos relacional administrada de alto rendimiento ofrecida en la nube, tal como se detalla para los servicios de almacenamiento y bases de datos de Amazon.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1.1 AMAZON. Primera oración del párrafo relevante: \"Amazon RDS le permite acceder a todas las funciones de un motor de base de datos MySQL, Oracle o Microsoft SQL Server.\""
+        },
+        {
+            "id_pregunta": "Pregunta 110",
+            "enunciado": "Seleccione cuál de las siguientes afirmaciones es correcta cuando se habla de una «infraestructura como Servicio (IaaS)» en el ámbito de computación en la nube o «cloud computing»:",
+            "opciones": [
+                "A. El proveedor del servicio administra la infraestructura física de servidores y el cliente se ocupa de mantener todo el software base, las bases de datos y las aplicaciones.",
+                "B. El cliente se ocupa de administrar completamente tanto la infraestructura física de servidores como el software base, las bases de datos y las aplicaciones.",
+                "C. El proveedor del servicio se ocupa tanto de la infraestructura física de servidores como del software base, las bases de datos y las aplicaciones. o",
+                "D. En el contrato entre proveedor del servicio y cliente sé define quién se ocupa de qué, pudiendo ambas partes ocuparse parcial o totalmente de la infraestructura de servidores, del software base, las bases de datos y las aplicaciones."
+            ],
+            "opcion_correcta": "A. El proveedor del servicio administra la infraestructura física de servidores y el cliente se ocupa de mantener todo el software base, las bases de datos y las aplicaciones.",
+            "justificacion": "La opción A es correcta porque el documento define en la sección 6.1 que en IaaS los clientes \"compran todos estos recursos a un proveedor de servicios externo\" (infraestructura física), mientras que se realiza una separación física entre la infraestructura y el lugar donde se realizan las operaciones, permitiendo al cliente gestionar sus sistemas operativos y aplicaciones sobre esa infraestructura virtualizada. Esto implica que el proveedor gestiona lo físico y el cliente lo lógico/software superior.",
+            "referencia": "Sección: 6 Modalidades de servicio. Subsección: 6.1 Infraestructura como servicio. Primera oración del párrafo relevante: \"La Infraestructura como Servicio, Infrastructure as a Service (Iaas), es una modalidad de distribución y contratación de una infraestructura de computación como si se tratase de un servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 111",
+            "enunciado": "¿Qué tipo de implementación de Cloud Computing es aquella en la que la infraestructura de la nube es operada exclusivamente para una única organización y puede ser gestionada por la propia organización o por un tercero, y puede existir en las instalaciones o fuera de ellas?",
+            "opciones": [
+                "A. Nube Pública.",
+                "B. Nube Híbrida.",
+                "C. Nube Privada.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Nube Privada.",
+            "justificacion": "La opción C es correcta porque el documento define en la sección correspondiente a los tipos de nube que las nubes privadas se basan en infraestructuras manejadas por un solo cliente que tiene el control sobre la misma, lo cual coincide con la descripción de ser operada exclusivamente para una única organización. El texto especifica que este modelo permite mantener el control y la propiedad de la infraestructura, diferenciándose de los modelos públicos o híbridos donde se comparte la gestión o los recursos.",
+            "referencia": "Sección: 7 Tipos de nube. Subsección: 7.1 Nube privada. Primera oración del párrafo relevante: \"Las nubes privadas se basan en infraestructuras manejadas por un sólo cliente que tiene el control sobre la misma y sobre las aplicaciones, procesos de negocio e información que manejan en ella.\""
+        },
+        {
+            "id_pregunta": "Pregunta 112",
+            "enunciado": "¿Qué es Google App Engine?",
+            "opciones": [
+                "A. PaaS de Google",
+                "B. SaaS de Google",
+                "C. Motor de Inteligencia Artificial de Google",
+                "D. IaaS de Google"
+            ],
+            "opcion_correcta": "A. PaaS de Google",
+            "justificacion": "La opción A es correcta porque el documento, al describir a los proveedores de servicios cloud, indica explícitamente que Google comercializa una plataforma PaaS denominada Google App Engine, definida como una plataforma de desarrollo para programar y alojar aplicaciones web. Esto clasifica funcionalmente a la herramienta dentro de la modalidad Plataforma como Servicio (PaaS) según la taxonomía presentada en el texto.",
+            "referencia": "Sección: 11 Proveedores de servicio. Subsección: 11.1.3 GOOGLE. Primera oración del párrafo relevante: \"Por otra, comercializa una plataforma PaaS, denominada Google App Engine, plataforma de desarrollo para programar y alojar aplicaciones web (PaaS).\""
+        }
+    ]
+}

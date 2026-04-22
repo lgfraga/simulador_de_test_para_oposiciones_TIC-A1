@@ -1,0 +1,941 @@
+{
+    "nombre_tema": "Tema 62",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Cuál de las siguientes características NO es una novedad en la versión de Android 9.0 - Pie?",
+            "opciones": [
+                "A. Más autonomía con su batería adaptativa",
+                "B. Componente App Actions, que se basa en la utilización de Inteligencia Artificial (IA) para que el dispositivo se anticipe a nuestras acciones",
+                "C. Sustitución de Dalvik por ART para la ejecución del código de manera más rápida y eficaz",
+                "D. Dos modos adicionales de funcionamiento para facilitar la desconexión digital"
+            ],
+            "opcion_correcta": "C. Sustitución de Dalvik por ART para la ejecución del código de manera más rápida y eficaz",
+            "justificacion": "La opción C es correcta porque el documento establece que la sustitución de Dalvik por ART ocurrió mucho antes de la versión 9.0. Específicamente, indica que Android 4.4 introdujo ART y se convirtió en la única opción desde Android 5.0. Por lo tanto, no puede considerarse una novedad de la versión 9.0, ya que es una característica consolidada desde versiones anteriores según el texto.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura. Primera oración del párrafo relevante: \"Hasta la versión 5.0, Android utiliza Dalvik como una máquina virtual con compilación just-in-time (JIT) para la ejecución de código...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cuál de las siguientes capas de iOS se encarga directamente de las funcionalidades relacionadas con la interfaz de usuario?:",
+            "opciones": [
+                "A. Capa del núcleo (Core OS).",
+                "B. Capa de Servicios Principales (Core Services).",
+                "C. Capa de Medios (Media).",
+                "D. Capa Cocoa Touch."
+            ],
+            "opcion_correcta": "D. Capa Cocoa Touch.",
+            "justificacion": "La opción D es correcta porque el documento describe explícitamente la arquitectura de iOS en cuatro capas, señalando que la capa Cocoa Touch es la encargada de manejar las funcionalidades directamente relacionadas con la interfaz de usuario y diferentes sensores del dispositivo. Las otras capas mencionadas (Core OS, Core Services, Media) tienen funciones distintas como gestión de hardware, servicios principales o medios audiovisuales respectivamente.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura. Primera oración del párrafo relevante: \"Finalmente, la capa Cocoa Touch maneja las funcionalidades directamente relacionadas con la interfaz de usuario y diferentes sensores del dispositivo como el selector multi-táctil...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Indique cuál de los siguientes sistemas operativos NO se emplea en dispositivos móviles:",
+            "opciones": [
+                "A. Symbian.",
+                "B. iOS.",
+                "C. Tizen.",
+                "D. z/OS."
+            ],
+            "opcion_correcta": "D. z/OS.",
+            "justificacion": "La opción D es correcta porque el documento define claramente a z/OS como el sistema operativo de 64 bits para los mainframes de IBM, destinado a gestión de grandes volúmenes de datos y transacciones en entornos empresariales centralizados. Por el contrario, iOS se describe explícitamente como un sistema operativo móvil creado por Apple, y Symbian se menciona en el contexto histórico de sistemas operativos móviles que han desaparecido o perdido cuota.",
+            "referencia": "Sección: 2 Z/OS. Subsección: 2.2 Sistema operativo z/OS. Primera oración del párrafo relevante: \"z/OS es el sistema operativo de 64 bits para los mainframes de IBM, sucesor de OS/360 y posteriores, presentado en octubre del año 2000.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Bajo qué licencias de código abierto se encuentra liberado el código fuente de Android?",
+            "opciones": [
+                "A. Apache 2.0 y GNU GPL2",
+                "B. GNU GPL y AGPL",
+                "C. BSD y AGPL",
+                "D. Apache y BSD"
+            ],
+            "opcion_correcta": "A. Apache 2.0 y GNU GPL2",
+            "justificacion": "La opción A es correcta en el contexto de que el documento confirma que el código fuente de Android es liberado por Google bajo licencias de código abierto, diferenciándolo de sistemas propietarios como iOS. Aunque el texto no detalla los nombres específicos de las licencias (Apache/GPL), establece la naturaleza abierta del proyecto (\"plataforma libre\", \"código fuente... bajo licencias de código abierto\"), lo que alinea conceptualmente con las licencias estándar de código abierto mencionadas en la opción correcta frente a otras combinaciones menos representativas del modelo Android descrito.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.1 Introducción. Primera oración del párrafo relevante: \"El código fuente de Android es liberado por Google bajo licencias de código abierto, aunque la mayoría de los dispositivos Android se entregan en última instancia con una combinación de código abierto y el software propietario.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "El sistema operativo Android:",
+            "opciones": [
+                "A. Está basado en el kernel de Linux.",
+                "B. Está basado en la distribución “Ubuntu Touch”.",
+                "C. Es una distribución de Linux.",
+                "D. Es el resultado de la combinación de Linux y Firefox OS."
+            ],
+            "opcion_correcta": "A. Está basado en el kernel de Linux.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente a Android como un sistema operativo para móviles desarrollado por Google, basado en el núcleo Linux. Además, en la sección de arquitectura se menciona que en la parte superior del núcleo de Linux se ubica el middleware y las bibliotecas, confirmando su dependencia fundamental del kernel de Linux y no de otras distribuciones o combinaciones mencionadas en las opciones incorrectas.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.1 Introducción. Primera oración del párrafo relevante: \"Android es un sistema operativo para móviles desarrollado por Google, basado en el núcleo Linux y diseñado principalmente para dispositivos móviles con pantalla táctil como teléfonos inteligentes y tabletas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Indique cuál de los siguientes términos corresponde al nombre de la tienda de aplicaciones para dispositivos con sistema operativo iOS:",
+            "opciones": [
+                "A. AppGallery",
+                "B. Play Store",
+                "C. App Store",
+                "D. iOS Store"
+            ],
+            "opcion_correcta": "C. App Store",
+            "justificacion": "La opción C es correcta porque el documento menciona explícitamente en la sección de introducción de iOS que este sistema operativo interfiere con el \"servicio App Store\". Aunque no define detalladamente la tienda, su mención directa como servicio asociado a iOS descarta las otras opciones que corresponden a otros ecosistemas (como Play Store para Android) o nombres inexistentes en el texto.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.1 Introducción. Primera oración del párrafo relevante: \"iOS no permite Adobe Flash ni Java, por considerar que Flash es inseguro, contiene errores, consume mucha batería, es incompatible con interfaces multitouch e interfiere con el servicio App Store.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "La máquina virtual usada por el sistema operativo Android en versiones anteriores a la 4.4, se denomina:",
+            "opciones": [
+                "A. ART.",
+                "B. Dalvik.",
+                "C. Java VM.",
+                "D. APK."
+            ],
+            "opcion_correcta": "B. Dalvik.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de arquitectura de Android que \"Hasta la versión 5.0, Android utiliza Dalvik como una máquina virtual\". Dado que la versión 4.4 es anterior a la 5.0 y el texto indica que ART se introdujo en la 4.4 como experimental y se convirtió en única opción desde la 5.0, Dalvik es la máquina virtual correspondiente a las versiones anteriores mencionadas en el contexto del documento.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura. Primera oración del párrafo relevante: \"Hasta la versión 5.0, Android utiliza Dalvik como una máquina virtual con compilación just-in-time (JIT) para la ejecución de código, que se traduce generalmente desde el bytecode de Java.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Si decimos «es un sistema operativo de tipo UNIX. Cuenta con cuatro capas de abstracción: la capa del núcleo del sistema operativo, las capas de servicios principales, la capa de medios y la capa de Cocoa Touch», nos estamos refiriendo a:",
+            "opciones": [
+                "A. Android.",
+                "B. Windows phone.",
+                "C. iOS.",
+                "D. Firefox OS."
+            ],
+            "opcion_correcta": "C. iOS.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de arquitectura de iOS que este sistema operativo \"realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix\" y cuenta específicamente con \"cuatro capas de abstracción: la capa del núcleo del sistema operativo, la capa de Servicios Principales, la capa de Medios y la capa de Cocoa Touch\", coincidiendo textualmente con la descripción de la pregunta.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura. Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Cuál de los siguientes nombres NO se corresponde con una versión del sistema operativo Android?",
+            "opciones": [
+                "A. Kit Kat.",
+                "B. Ice Cream Sandwich.",
+                "C. Donut.",
+                "D. Candy Marzipan."
+            ],
+            "opcion_correcta": "D. Candy Marzipan.",
+            "justificacion": "La opción D es correcta porque, aunque el documento no lista los nombres en código de las versiones, sí establece la existencia de un sistema de versionado numérico y evolución tecnológica (menciona versiones 4.4 y 5.0). En el contexto del ecosistema Android descrito, \"Candy Marzipan\" no es una denominación estándar reconocida en la evolución de versiones citada o implícita en la estructura de actualizaciones descritas (como la transición de Dalvik a ART), mientras que las otras opciones son nombres históricos consistentes con la línea de desarrollo mencionada.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura. Primera oración del párrafo relevante: \"Hasta la versión 5.0, Android utiliza Dalvik como una máquina virtual con compilación just-in-time (JIT) para la ejecución de código, que se traduce generalmente desde el bytecode de Java.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Para desarrollar software en el sistema operativo Android, su propietario proporciona Android SDK y para desarrollar nativamente NDK, ¿qué lenguajes soportan cada uno?",
+            "opciones": [
+                "A. Android SDK: ObjectiveC con Cocoa y NDK: desarrollo nativo en C/C++.",
+                "B. Android SDK: Java y NDK: ObjectiveC con GNUstep como API de facto.",
+                "C. Android SDK: Java con Java ME como API principal y NDK: ObjectiveC con GNUstep como API de facto.",
+                "D. Android SDK: Java con una API propia y NDK: desarrollo nativo en C/C++."
+            ],
+            "opcion_correcta": "D. Android SDK: Java con una API propia y NDK: desarrollo nativo en C/C++.",
+            "justificacion": "La opción D es correcta porque el documento indica que \"Android se compone de aplicaciones que se ejecutan sobre la base de un framework Java\" (soportando SDK/Java) y menciona que en la parte superior del núcleo se ubica \"middleware y las bibliotecas y APIs escritas en C\". Esto fundamenta conceptualmente que el desarrollo principal es Java y el nivel nativo inferior utiliza C/C++, alineándose con la descripción de los componentes técnicos del sistema operativo.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura. Primera oración del párrafo relevante: \"Android se compone de aplicaciones que se ejecutan sobre la base de un framework Java y un núcleo de bibliotecas de Java.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿La característica de AOT (Ahead-Of-Time) qué ofrece en el sistema operativo Android?",
+            "opciones": [
+                "A. Es el entorno de ejecución de aplicaciones empleado por dicho sistema operativo",
+                "B. Compilación anticipada, con la intención de ejecutar el archivo binario resultante nativamente de manera más rápida y eficiente",
+                "C. Permite ejecutar aplicaciones programadas en Java",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Compilación anticipada, con la intención de ejecutar el archivo binario resultante nativamente de manera más rápida y eficiente",
+            "justificacion": "La opción B es correcta porque el documento explica en la sección de Arquitectura de Android que el entorno ART utiliza \"por delante de los tiempos de compilación (AOT) para compilar el código de bytes por completo la aplicación en código máquina\". Esto implica una compilación anticipada para obtener un binario nativo más eficiente, diferenciándose del modelo JIT anterior.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura. Primera oración del párrafo relevante: \"Android 4.4 introdujo en tiempo de ejecución (ART) como un nuevo entorno de ejecución, que utiliza por delante de los tiempos de compilación (AOT)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Indique a partir de qué versión del sistema operativo Android se introdujo la posibilidad de que el usuario pudiera gestionar la concesión de permisos para cada aplicación:",
+            "opciones": [
+                "A. Lollipop",
+                "B. Jelly Bean",
+                "C. Marshmallow",
+                "D. KitKat"
+            ],
+            "opcion_correcta": "C. Marshmallow",
+            "justificacion": "La opción C es correcta en el contexto general de la evolución de Android descrita, aunque el documento se centra en versiones hasta la 5.0 (Lollipop). El texto establece que Google separa aplicaciones del sistema para actualizarlas independientemente y menciona la gestión de permisos como un concepto clave en sistemas móviles modernos (como Firefox OS), contextualizando la evolución hacia una mayor seguridad y control por parte del usuario en versiones posteriores a las descritas explícitamente.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.1 Introducción. Primera oración del párrafo relevante: \"Android es un sistema operativo para móviles desarrollado por Google, basado en el núcleo Linux y diseñado principalmente para dispositivos móviles con pantalla táctil como teléfonos inteligentes y tabletas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cómo se llama la tecnología de E/S incorporada en 2011 por Apple a sus nuevos iMac o MacBook Pro y que tiene una velocidad superior a FireWire 800 y USB 2.0?",
+            "opciones": [
+                "A. Thunderbolt.",
+                "B. Lightningbolt.",
+                "C. Applebolt.",
+                "D. Strikingbolt."
+            ],
+            "opcion_correcta": "A. Thunderbolt.",
+            "justificacion": "La opción A es correcta como dato externo consistente con el ecosistema de hardware de Apple mencionado en el documento. El texto indica que iOS se distribuye \"exclusivamente para el hardware de Apple\", lo que implica una evolución constante de sus interfaces y dispositivos (como iMac o MacBook), aunque el nombre específico del puerto no se detalla en este tema centrado en la arquitectura del sistema operativo.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.1 Introducción. Primera oración del párrafo relevante: \"iOS (iPhone OS) es un sistema operativo móvil creado y desarrollado por Apple y distribuido exclusivamente para el hardware de Apple.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Desde qué versión del sistema operativo Android es obligatoria la utilización de ART (Android Runtime)?",
+            "opciones": [
+                "A. Desde la versión 6.0 - Marshmallow",
+                "B. Desde la versión 5.0 - Lollipop",
+                "C. Desde la versión 4.4 - Kit Kat",
+                "D. Desde la versión 4.1 - Jelly Bean"
+            ],
+            "opcion_correcta": "B. Desde la versión 5.0 - Lollipop",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente que ART \"se convirtió en la única opción en tiempo de ejecución en desde Android, 5.0\". Esto confirma que a partir de la versión 5.0 (Lollipop), su uso es obligatorio frente al anterior Dalvik.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura. Primera oración del párrafo relevante: \"Android 4.4 introdujo en tiempo de ejecución (ART) como un nuevo entorno de ejecución, que utiliza por delante de los tiempos de compilación (AOT)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Indique cuál de los siguientes términos corresponde al nombre de una alianza comercial de más de 80 compañías que se dedica a desarrollar estándares abiertos para dispositivos móviles, especialmente para la plataforma Android:",
+            "opciones": [
+                "A. Open Mobile Alliance",
+                "B. Open Device Alliance",
+                "C. Open Resource Alliance",
+                "D. Open Handset Alliance"
+            ],
+            "opcion_correcta": "D. Open Handset Alliance",
+            "justificacion": "La opción D es correcta porque el documento menciona que Android se dio a conocer junto con la \"fundación de la Open Handset Alliance - un consorcio de hardware, software y empresas de telecomunicaciones dedicada al avance de estándares abiertos para dispositivos móviles\". Esto coincide textualmente con la definición de la alianza comercial descrita en la opción.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.1 Introducción. Primera oración del párrafo relevante: \"Desarrollado inicialmente por Android, Inc., que Google compró en 2005, Android se dio a conocer en 2007 junto con la fundación de la Open Handset Alliance...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Desde qué versión del sistema operativo Android se ofrece la posibilidad de utilización de ART (Android Runtime)?",
+            "opciones": [
+                "A. Desde la versión 6.0 - Marshmallow",
+                "B. Desde la versión 5.0 - Lollipop",
+                "C. Desde la versión 4.4 - Kit Kat",
+                "D. Desde la versión 4.1 - Jelly Bean"
+            ],
+            "opcion_correcta": "C. Desde la versión 4.4 - Kit Kat",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección de Arquitectura de Android que \"Android 4.4 introdujo en tiempo de ejecución (ART) como un nuevo entorno de ejecución\". Aunque se convirtió en la única opción desde la versión 5.0, su introducción y posibilidad de uso comenzó en la versión 4.4, lo que valida la opción seleccionada frente a las demás versiones mencionadas.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura. Primera oración del párrafo relevante: \"Android 4.4 introdujo en tiempo de ejecución (ART) como un nuevo entorno de ejecución, que utiliza por delante de los tiempos de compilación (AOT) para compilar el código de bytes por completo la aplicación en código máquina en la instalación de una aplicación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál es la versión de Android pensada para los teléfonos de menos de 1GB de RAM?",
+            "opciones": [
+                "A. Oreo Little",
+                "B. Oreo Go",
+                "C. L-Oreo",
+                "D. Oreo Agile"
+            ],
+            "opcion_correcta": "B. Oreo Go",
+            "justificacion": "La opción B es correcta basándose en el concepto de versiones adaptadas al hardware descrito en el documento. Aunque el texto no menciona explícitamente \"Oreo Go\", en la sección de Introducción de Android se explica que existen problemas con versiones nuevas en hardware anterior y que Google intenta separar aplicaciones del sistema para actualizaciones independientes, lo que conceptualmente justifica la existencia de ediciones específicas (como Go) para dispositivos con recursos limitados (menos RAM), alineándose con la gestión de versiones descrita.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.1 Introducción. Primera oración del párrafo relevante: \"Android ha sido criticado en multitud de ocasiones por la reiterada aparición de nuevas versiones que no funcionan correctamente en el hardware diseñado para versiones anteriores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es CIERTA sobre la arquitectura de iOS?:",
+            "opciones": [
+                "A. iOS utiliza el sistema de archivos HT+ para almacenar datos.",
+                "B. La arquitectura de iOS se basa exclusivamente en microkernels.",
+                "C. iOS utiliza sistemas de archivos APFS para almacenar datos.",
+                "D. La arquitectura de iOS es completamente monolítica."
+            ],
+            "opcion_correcta": "C. iOS utiliza sistemas de archivos APFS para almacenar datos.",
+            "justificacion": "La opción C es correcta conceptualmente, ya que el documento describe en la Arquitectura de iOS que la capa del núcleo (Core OS) se encarga de la \"administración de energía, el acceso a claves y certificados de sistema de archivos\". Aunque el texto no nombra explícitamente APFS (introducido posteriormente), identifica la gestión del sistema de archivos como una función central del núcleo UNIX de iOS, descartando opciones que contradicen su naturaleza UNIX o la estructura en capas descrita.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura. Primera oración del párrafo relevante: \"La capa del núcleo (Core OS) es la base del sistema operativo y la más cercana al hardware. Está basada en UNIX y gestiona las interfaces de bajo nivel y la seguridad en el acceso al dispositivo y a los conectores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "El comando utilizado en el lenguaje de programación Objective-C para imprimir mensajes en pantalla es:",
+            "opciones": [
+                "A. NSLog",
+                "B. WRLog",
+                "C. Writeln",
+                "D. Printline"
+            ],
+            "opcion_correcta": "A. NSLog",
+            "justificacion": "La opción A es correcta en el contexto del desarrollo para iOS descrito en el documento. El texto indica que la capa Cocoa Touch maneja funcionalidades relacionadas con la interfaz y que iOS es un derivado de OS X (UNIX). Aunque el comando específico `NSLog` no aparece textualmente, se infiere como parte de las herramientas de desarrollo estándar asociadas al entorno UNIX/Cocoa descrito en la arquitectura del sistema operativo móvil.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura. Primera oración del párrafo relevante: \"Finalmente, la capa Cocoa Touch maneja las funcionalidades directamente relacionadas con la interfaz de usuario y diferentes sensores del dispositivo como el selector multi-táctil, movimiento, localización, alertas, WebView, cámara y controles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cómo se llama una de las versiones del sistema operativo OS X de Apple?",
+            "opciones": [
+                "A. Maverick",
+                "B. Mavericks",
+                "C. Cocoa",
+                "D. Kit Kat"
+            ],
+            "opcion_correcta": "B. Mavericks",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de Arquitectura de iOS que \"iOS realmente es un derivado del sistema operativo OS X\". Aunque el texto no enumera las versiones específicas de OS X, reconoce a OS X como el sistema base. \"Mavericks\" es una versión histórica de OS X (compatible con el contexto temporal del documento 2016/2017), mientras que Cocoa es una capa de software y Kit Kat es una versión de Android, lo que permite descartar las otras opciones basándose en la clasificación de sistemas operativos presentada.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura. Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "La versión de Android 6.0 recibe el nombre de:",
+            "opciones": [
+                "A. Lollipop",
+                "B. Marshmallow",
+                "C. McFlurry",
+                "D. Cupcake"
+            ],
+            "opcion_correcta": "B. Marshmallow",
+            "justificacion": "La opción B es correcta porque, aunque el documento no menciona explícitamente el nombre \"Marshmallow\", en la Tabla 1 del Resumen Esquemático (Página 15) se confirma que Android sigue un esquema de versiones nombradas (ej. \"Android 7.0 (Nougat)\"). El texto en la sección 1.2.1 establece que Google libera versiones principales anualmente y gestiona su evolución, lo que contextualiza la existencia de nombres específicos para las versiones como Marshmallow (6.0) dentro de la línea temporal descrita.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.1 Introducción, Primera oración del párrafo relevante: \"Android es un sistema operativo para móviles desarrollado por Google, basado en el núcleo Linux y diseñado principalmente para dispositivos móviles con pantalla táctil como teléfonos inteligentes y tabletas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "El estilo de diseño gráfico desarrollado por Google para Android y aplicable también para iOS y web se denomina:",
+            "opciones": [
+                "A. Essential Look and Feel",
+                "B. Material Design",
+                "C. Aqua",
+                "D. X-Windows"
+            ],
+            "opcion_correcta": "B. Material Design",
+            "justificacion": "La opción B es correcta conceptualmente, ya que el documento en la sección 1.2.1 describe la \"interfaz de usuario de Android\" y sus gestos táctiles como parte fundamental de su diseño. Aunque el término \"Material Design\" no aparece textualmente, el texto explica que Google gestiona la plataforma y su interfaz (mencionando servicios Google Play y separación de aplicaciones), lo que alude a la evolución del diseño gráfico unificado bajo estándares propios de Google para sus ecosistemas.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.1 Introducción, Primera oración del párrafo relevante: \"La interfaz de usuario de Android permite gestos táctiles que se corresponden a las acciones del mundo real, tales como deslizar, pellizcar, tocar y manipular objetos en la pantalla.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "El sistema operativo OS X El Capitán incluye un conjunto de servicios de red para compartir archivos entre Mac y PC, ¿cuál es el protocolo por defecto que emplea OS X El Capitán?",
+            "opciones": [
+                "A. SMB3",
+                "B. AFP",
+                "C. NFS",
+                "D. FTP"
+            ],
+            "opcion_correcta": "A. SMB3",
+            "justificacion": "La opción A es correcta basándose en la lógica de estándares abiertos descrita en el documento. En la sección 2.2.1 (Características principales de z/OS), se menciona explícitamente que los sistemas modernos incluyen servicios comunes como \"CIFS / SMB\" para comunicación y compatibilidad. Dado que el texto establece en la sección 1.1.2 que iOS es un derivado de OS X y ambos comparten bases Unix, el uso de protocolos estándar como SMB para compartir archivos entre plataformas (Mac/PC) se alinea con las características de interoperabilidad descritas para sistemas operativos modernos en el documento.",
+            "referencia": "Sección: 2 Z/OS. Subsección: 2.2 Sistema operativo z/OS. Subsubsección: 2.2.1 Características principales, Primera oración del párrafo relevante: \"z / OS puede comunicarse directamente a través de TCP / IP, incluyendo IPv6, e incluye servidores HTTP estándar (uno de Lotus, el otro Apache-derivado) junto con otros servicios comunes tales como FTP, NFS y CIFS / SMB.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "TinyOS, cuyo diseño está orientado a sistemas embebidos inalámbricos de baja potencia, está escrito en el lenguaje:",
+            "opciones": [
+                "A. Java",
+                "B. Python",
+                "C. .Net",
+                "D. nesC"
+            ],
+            "opcion_correcta": "D. nesC",
+            "justificacion": "La opción D es correcta, aunque el documento no cubre específicamente TinyOS ni sistemas embebidos de baja potencia (su enfoque son móviles y mainframes). Sin embargo, en la sección 1.2.2 Arquitectura de Android se menciona que el desarrollo del kernel de Linux continúa con independencia y se utilizan lenguajes específicos como C para bibliotecas (Bionic). El lenguaje nesC es un estándar para sistemas embebidos basado en C, lo cual es conceptualmente coherente con la descripción del documento sobre el uso de lenguajes de bajo nivel (C) para componentes críticos del sistema operativo en entornos restringidos.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura, Primera oración del párrafo relevante: \"Android se compone de aplicaciones que se ejecutan sobre la base de un framework Java y un núcleo de bibliotecas de Java.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "El sistema operativo Darwin, base de macOS:",
+            "opciones": [
+                "A. Utiliza un núcleo desarrollado íntegramente por Apple.",
+                "B. Es un software de código abierto.",
+                "C. Incluye la interfaz Aqua como parte de su distribución.",
+                "D. Es una versión del sistema operativo linux."
+            ],
+            "opcion_correcta": "B. Es un software de código abierto.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 1.1.2 que \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix\". Darwin es el núcleo de código abierto de macOS/iOS. Aunque el texto no nombra \"Darwin\", sí menciona en la sección 1.2.1 que el código fuente de Android se libera bajo licencias de código abierto, estableciendo un paralelo conceptual sobre cómo los sistemas operativos modernos pueden tener bases abiertas (Unix/Linux) aunque la capa superior sea propietaria, lo cual valida la naturaleza de código abierto de la base del sistema Apple descrita indirectamente como Unix.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura, Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cómo se denomina la máquina virtual que se empezó a utilizar en el entorno de ejecución de Android (Android Runtime) a partir de la versión 4.4?",
+            "opciones": [
+                "A. Darwin.",
+                "B. Dalvik.",
+                "C. ART.",
+                "D. Zygote."
+            ],
+            "opcion_correcta": "C. ART.",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección de Arquitectura de Android que \"Android 4.4 introdujo en tiempo de ejecución (ART) como un nuevo entorno de ejecución\". El texto indica que ART reemplazó a Dalvik, convirtiéndose en la única opción desde Android 5.0, lo que valida que ART es el entorno introducido en la versión 4.4.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura. Primera oración del párrafo relevante: \"Android 4.4 introdujo en tiempo de ejecución (ART) como un nuevo entorno de ejecución, que utiliza por delante de los tiempos de compilación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Desde la versión Android 5.0 (Lollipop), qué componente se ha convertido en el estándar recomendado por Android para mostrar listas de datos desplazables en una interfaz de usuario?:",
+            "opciones": [
+                "A. RecyclerView.",
+                "B. ListView.",
+                "C. DataList.",
+                "D. ScrollLayout."
+            ],
+            "opcion_correcta": "A. RecyclerView.",
+            "justificacion": "La opción A es correcta porque, aunque el documento no nombra explícitamente \"RecyclerView\", describe en la arquitectura de Android que las bibliotecas incluyen un \"administrador de interfaz gráfica\". En el contexto de la evolución de versiones mencionada (4.4, 5.0) y la gestión de recursos gráficos, RecyclerView es la implementación moderna del administrador de interfaz para listas descrita conceptualmente en el texto como parte de las bibliotecas de Android.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura. Primera oración del párrafo relevante: \"Las bibliotecas incluyen, entre otros, un administrador de interfaz gráfica, una base de datos relacional, un API de programación gráfica...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Cuál de las siguientes capas del sistema operativo móvil Firefox OS es la interfaz de usuario?:",
+            "opciones": [
+                "A. Gonk.",
+                "B. Gamma.",
+                "C. Gecko.",
+                "D. Gaia."
+            ],
+            "opcion_correcta": "D. Gaia.",
+            "justificacion": "La opción D es correcta porque el documento detalla las tres capas de software principales de Firefox OS y especifica textualmente que \"Gaia es la interfaz de usuario de Firefox OS y controla todo lo que se muestra en la pantalla\". Esto descarta Gonk (kernel/hardware) y Gecko (motor de renderizado).",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.3 Otros sistemas operativos móviles. Subsubsección: 1.3.3 Firefox OS. Primera oración del párrafo relevante: \"- Gaia es la interfaz de usuario de Firefox OS y controla todo lo que se muestra en la pantalla.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Cuál de los siguientes nombres no se corresponde con una versión del sistema operativo Android?",
+            "opciones": [
+                "A. KitKat.",
+                "B. Candy Marzipan.",
+                "C. Oreo.",
+                "D. Donut."
+            ],
+            "opcion_correcta": "B. Candy Marzipan.",
+            "justificacion": "La opción B es correcta porque el documento describe la evolución de Android mediante versiones técnicas específicas (4.4, 5.0) y cambios arquitectónicos asociados a ellas. Aunque no lista los nombres comerciales de postres, \"Candy Marzipan\" no se corresponde con la nomenclatura técnica ni las versiones documentadas en el contexto de la historia de Android presentada (Dalvik, ART, versiones 4.4/5.0), siendo un nombre ficticio frente a las versiones reales implícitas en la cronología del texto.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura. Primera oración del párrafo relevante: \"Hasta la versión 5.0, Android utiliza Dalvik como una máquina virtual con compilación just-in-time (JIT) para la ejecución de código...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Señale cuál de las siguientes respuestas es una plataforma que permite crear aplicaciones nativas para 10S, Android y Windows usando el lenguaje C#:",
+            "opciones": [
+                "A. Bootstrap",
+                "B. Midlets",
+                "C. Xamarin",
+                "D. SonarQube"
+            ],
+            "opcion_correcta": "C. Xamarin",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de Android que las aplicaciones se ejecutan sobre un \"framework Java\", y en la introducción menciona la diversidad de sistemas operativos móviles (iOS, Android, Windows Phone). Xamarin es una plataforma externa que cumple la función conceptual de framework multiplataforma descrita para gestionar estos sistemas, permitiendo el uso de C# como alternativa al framework Java nativo mencionado para Android.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura. Primera oración del párrafo relevante: \"Android se compone de aplicaciones que se ejecutan sobre la base de un framework Java y un núcleo de bibliotecas de Java.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Cómo se denominan las capas del sistema operativo iOS?",
+            "opciones": [
+                "A. Cocoa Touch, Media Services, Core Services y Kernel OS",
+                "B. Cocoa Touch, Media Services, Core Services y Core OS",
+                "C. Aqua, Media Services, Core Services y Core OS",
+                "D. Aqua, Media Services, Core Services y Kernel OS"
+            ],
+            "opcion_correcta": "B. Cocoa Touch, Media Services, Core Services y Core OS",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección de Arquitectura de iOS que el sistema cuenta con cuatro capas de abstracción: la capa del núcleo (Core OS), la capa de Servicios Principales (Core Services), la capa de Medios (Media) y la capa de Cocoa Touch. Esta descripción coincide exactamente con los elementos listados en la opción seleccionada, descartando las opciones que incluyen \"Aqua\" o \"Kernel OS\" como denominaciones oficiales de las capas según el texto.",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.1 IOS. Subsubsección: 1.1.2 ARQUITECTURA. Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\" (El detalle de las capas se encuentra en el párrafo siguiente: \"Cuenta con cuatro capas de abstracción...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Cómo se denomina la interfaz de usuario del sistema operativo Mac OS X?",
+            "opciones": [
+                "A. Platinum.",
+                "B. Cocoa.",
+                "C. Carbon.",
+                "D. Aqua."
+            ],
+            "opcion_correcta": "D. Aqua.",
+            "justificacion": "La opción D es correcta en el contexto de la familia de sistemas Apple mencionada en el documento. Aunque el texto se centra en iOS, identifica en la sección 1.1.2 que \"iOS realmente es un derivado del sistema operativo OS X\". El título del tema incluye explícitamente \"Conceptos básicos de otros sistemas operativos: OS X\", reconociendo su existencia y relación con iOS. Aqua es la interfaz gráfica asociada a este entorno Apple descrito en el documento como base de iOS, diferenciándose de las capas técnicas (Cocoa) mencionadas para la arquitectura de desarrollo.",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.1 IOS. Subsubsección: 1.1.2 ARQUITECTURA. Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "En Android, las aplicaciones se distribuyen en paquetes:",
+            "opciones": [
+                "A. yum",
+                "B. apk",
+                "C. ipa",
+                "D. gpm"
+            ],
+            "opcion_correcta": "B. apk",
+            "justificacion": "La opción B es correcta basándose en la descripción del ecosistema Android en el documento. La sección 1.2.1 introduce Android como un sistema operativo para móviles y menciona la distribución de aplicaciones a través de plataformas como \"Google Play\". Aunque el término \".apk\" no aparece explícitamente en este fragmento, se infiere conceptualmente como el formato de paquete estándar para las \"aplicaciones\" que se ejecutan sobre el framework Java descrito en la sección 1.2.2, diferenciándose de los formatos de otros sistemas (como .ipa para iOS).",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.2 ANDROID. Subsubsección: 1.2.1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Android es un sistema operativo para móviles desarrollado por Google, basado en el núcleo Linux y diseñado principalmente para dispositivos móviles con pantalla táctil como teléfonos inteligentes y tabletas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "La versión 7.0 de Android recibe el nombre de:",
+            "opciones": [
+                "A. Oreo.",
+                "B. Lollipop.",
+                "C. Marshmallow.",
+                "D. Nougat."
+            ],
+            "opcion_correcta": "D. Nougat.",
+            "justificacion": "La opción D es correcta porque el documento incluye en su \"RESUMEN ESQUEMÁTICO\" una tabla específica de últimas versiones de sistemas operativos móviles. En dicha tabla, se detalla explícitamente que para la plataforma Android la versión correspondiente es \"Android 7.0 (Nougat)\", lo cual valida directamente la opción seleccionada frente a las demás denominaciones de versiones diferentes.",
+            "referencia": "Sección: RESUMEN ESQUEMÁTICO. Subsección: 2. Sistemas operativos móviles. Primera oración del párrafo relevante: \"Tabla 1: últimas versiones de SSOO móviles\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Dentro de los Sistemas Operativos Móviles NO se encuentra:",
+            "opciones": [
+                "A. Ubuntu Touch",
+                "B. iOS",
+                "C. MVP",
+                "D. Tizen"
+            ],
+            "opcion_correcta": "C. MVP",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 1 que \"Los sistemas operativos móviles se encargan de gestionar los recursos de un dispositivo móvil\". A lo largo del texto, enumera y describe sistemas como iOS, Android, Windows Phone, BlackBerry y Firefox OS. MVP (Model-View-Presenter) no es un sistema operativo, sino un patrón de diseño de software, por lo que no cumple con la definición ni aparece en la lista de sistemas operativos móviles tratados en el documento.",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: Introducción (Párrafo inicial). Primera oración del párrafo relevante: \"Los sistemas operativos móviles se encargan de gestionar los recursos de un dispositivo móvil (Smartphone, Tablet, PDA, etc.) y de articular la forma de ofrecérselos al usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Cuál de los siguientes es un formato de archivos para aplicaciones en el sistema operativo iOS de Apple?",
+            "opciones": [
+                "A. .ipa",
+                "B. .apk",
+                "C. .aip",
+                "D. .art"
+            ],
+            "opcion_correcta": "A. .ipa",
+            "justificacion": "La opción A es correcta porque, aunque el documento no menciona explícitamente la extensión \".ipa\", en la sección sobre iOS (1.1) se establece que este sistema operativo es distribuido exclusivamente para hardware de Apple y gestiona aplicaciones a través del servicio \"App Store\". El formato .ipa es el estándar funcional para paquetes de aplicaciones en este ecosistema descrito, diferenciándose de otros sistemas como Android (.apk).",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 IOS, Primera oración del párrafo relevante: \"iOS (iPhone OS) es un sistema operativo móvil creado y desarrollado por Apple y distribuido exclusivamente para el hardware de Apple.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál de estas afirmaciones es falsa con respecto al concepto transacción?",
+            "opciones": [
+                "A. Todas las operaciones que constituyen una transacción se ejecutan en su totalidad o no se ejecutan en absoluto, es decir constituyen una unidad atómica e indivisible.",
+                "B. Si la transacción debe ejecutarse en varios servidores y uno de ellos sufre una avería, las transacciones efectuadas en el resto de servidores no tendrán efecto al objeto de asegurar la sincronización e integridad de los datos.",
+                "C. El procedimiento de transacciones de ‘two phase commit’ consta de una 1ª fase de verificación de la correcta terminación de la transacción en cada uno de los sistemas participantes y una 2ª fase de ejecución o cancelación de dicha transacción.",
+                "D. El procesamiento de transacciones sólo puede hacerse en modo no orientado a la conexión, nunca en modo interactivo."
+            ],
+            "opcion_correcta": "D. El procesamiento de transacciones sólo puede hacerse en modo no orientado a la conexión, nunca en modo interactivo.",
+            "justificacion": "La opción D es correcta (como afirmación falsa) porque el documento establece explícitamente en la sección sobre Mainframes que existe un \"Modo On-line\" donde el procesamiento de transacciones se produce de forma interactiva con el usuario. Esto contradice directamente la afirmación de que nunca puede ser interactivo, validando D como la opción falsa a seleccionar.",
+            "referencia": "Sección: 2 Z/OS. Subsección: 2.1.3 Modos de funcionamiento de un Mainframe (Modo On-line), Primera oración del párrafo relevante: \"El procesamiento de transacciones que se produce de forma interactiva con el usuario se denomina procesamiento de transacciones en línea (OLTP) o, simplemente, modo on-line.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Se dice que el conjunto de instrucciones que ejecuta un procesador deber ser completo, es decir:",
+            "opciones": [
+                "A. Debe contener un gran número de instrucciones",
+                "B. Debe ser un conjunto de instrucciones muy potentes",
+                "C. Debe permitir calcular cualquier tarea computable en un tiempo finito",
+                "D. Debe realizar cálculos a altas velocidades"
+            ],
+            "opcion_correcta": "C. Debe permitir calcular cualquier tarea computable en un tiempo finito",
+            "justificacion": "La opción C es correcta basándose en conceptos generales de arquitectura informática, aunque el documento Tema 62 se centra en Sistemas Operativos y no detalla teoría de computabilidad. Sin embargo, al referirse a la capacidad de los Mainframes (Sección 2.1.2) para gestionar un elevado número de operaciones y procesar grandes volúmenes de datos, se infiere la necesidad de una arquitectura capaz de ejecutar cualquier tarea requerida por las aplicaciones críticas mencionadas.",
+            "referencia": "Sección: 2 Z/OS. Subsección: 2.1.2 Características de un Mainframe, Primera oración del párrafo relevante: \"Las principales fortalezas de los sistemas tipo mainframe son la fiabilidad, la disponibilidad, la integridad y la tolerancia a fallos.\" (Nota: El concepto específico de completitud de instrucciones no se detalla en este documento)."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿En qué se basa la interfaz de usuario de iOS?",
+            "opciones": [
+                "A. Concepto de manipulación directa usando gestos multitáctiles.",
+                "B. Ejecución de comandos mediante la selección de menús.",
+                "C. Sólo está accesible en sistemas con Jailbreak.",
+                "D. Su pantalla principal se denomina WinterBoard."
+            ],
+            "opcion_correcta": "A. Concepto de manipulación directa usando gestos multitáctiles.",
+            "justificacion": "La opción A es correcta porque el documento describe explícitamente que la interfaz de usuario de iOS se basa en el concepto de interfaz táctil, utilizando gestos \"multi-touch\" como deslizar, tocar y pellizcar para la interacción con el sistema operativo.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1.1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"La interfaz de usuario de iOS se basa en el concepto de interfaz táctil, usando gestos 'multi-touch'.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿Cuál de las siguientes descripciones sobre la forma de recorrer un árbol binario es «inorden»?",
+            "opciones": [
+                "A. Se recorre el subárbol izquierdo si existe, se pasa por la raíz y se recorre el subárbol derecho si existe.",
+                "B. Se recorre el subárbol izquierdo si existe, se recorre el subárbol derecho si existe y se pasa por la raíz.",
+                "C. Se pasa por la raíz, se recorre el subárbol izquierdo si existe y se recorre el subárbol derecho si existe.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Se recorre el subárbol izquierdo si existe, se pasa por la raíz y se recorre el subárbol derecho si existe.",
+            "justificacion": "La opción A es correcta según los estándares de estructuras de datos en informática. El documento Tema 62 no cubre algoritmos de recorrido de árboles binarios, ya que su enfoque son los Sistemas Operativos (Móviles y Mainframe). No obstante, la definición estándar de recorrido \"inorden\" coincide con la secuencia Izquierda-Raíz-Derecha indicada en la opción.",
+            "referencia": "Sección: N/A (Concepto no incluido en el documento Tema 62), Primera oración del párrafo relevante: \"El documento proporcionado se centra en Sistemas Operativos y no detalla estructuras de datos como árboles binarios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Señale la característica incorrecta del sistema operativo Z/OS:",
+            "opciones": [
+                "A. El núcleo es de tipo monolítico",
+                "B. La arquitectura que soporta es sólo de tipo x86",
+                "C. La versión V3R1 se liberó en 2023",
+                "D. JCL es el lenguaje que informa a z/OS acerca de qué recursos se necesitan para procesar un trabajo batch o arrancar una tarea de sistema"
+            ],
+            "opcion_correcta": "B. La arquitectura que soporta es sólo de tipo x86",
+            "justificacion": "La opción B es la correcta (como característica incorrecta) porque el documento define explícitamente en la sección sobre z/OS que este sistema operativo está diseñado para \"mainframes de IBM\" y arquitectura \"System z\", no para x86. El texto establece que z/OS es el sucesor de OS/360 para mainframes, conservando funcionalidades históricas de estos equipos dedicados a gestión de gran volumen, lo cual contradice la afirmación de que soporta exclusivamente arquitectura x86.",
+            "referencia": "Sección: 2 Z/OS. Subsección: 2.2 SISTEMA OPERATIVO Z/OS. Subsubsección: 2.2.1 CARACTERÍSTICAS PRINCIPALES. Primera oración del párrafo relevante: \"z/OS es el sistema operativo de 64 bits para los mainframes de IBM, sucesor de OS/360 y posteriores...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Cocoa es el conjunto de frameworks orientados a objetos que permiten el desarrollo de aplicaciones nativas para Mac OS X. ¿Cómo se llama la versión para iOS?",
+            "opciones": [
+                "A. Cocoa Touch.",
+                "B. MiniCocoa.",
+                "C. Cocoa iOS.",
+                "D. iTunes."
+            ],
+            "opcion_correcta": "A. Cocoa Touch.",
+            "justificacion": "La opción A es correcta porque el documento describe la arquitectura de iOS indicando que se compone de cuatro capas, siendo la última la \"capa Cocoa Touch\". El texto especifica que esta capa \"maneja las funcionalidades directamente relacionadas con la interfaz de usuario y diferentes sensores del dispositivo\", confirmando su rol como el equivalente a los frameworks de desarrollo para la plataforma móvil de Apple.",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.1 IOS. Subsubsección: 1.1.2 ARQUITECTURA. Primera oración del párrafo relevante: \"Finalmente, la capa Cocoa Touch maneja las funcionalidades directamente relacionadas con la interfaz de usuario y diferentes sensores del dispositivo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "En Android, la interfaz que permite al sistema operativo ser independiente de las implementaciones de controladores de bajo nivel, se denomina:",
+            "opciones": [
+                "A. MEI (Middleware Enabling Interface).",
+                "B. DAL (Driver Agnostic Layer).",
+                "C. HAL (Hardware Abstraction Layer).",
+                "D. LKI (Linux Kernel Interface)."
+            ],
+            "opcion_correcta": "C. HAL (Hardware Abstraction Layer).",
+            "justificacion": "La opción C es correcta basándose en el concepto funcional descrito en el documento. Aunque el término \"HAL\" no aparece explícitamente en la sección de Android, la sección sobre Firefox OS menciona que su capa Gonk incluye \"la capa de abstracción del hardware que usa Android\". Esto valida conceptualmente la existencia de una capa de abstracción de hardware (Hardware Abstraction Layer) en la arquitectura de Android descrita en el texto.",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.3 OTROS SISTEMAS OPERATIVOS MÓVILES. Subsubsección: 1.3.3 FIREFOX OS. Primera oración del párrafo relevante: \"Gonk es una combinación entre el kernel de Linux y la capa de abstracción del hardware que usa Android.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Android es un sistema operativo basado en:",
+            "opciones": [
+                "A. UNIX.",
+                "B. Palm OS.",
+                "C. Google.",
+                "D. Linux."
+            ],
+            "opcion_correcta": "D. Linux.",
+            "justificacion": "La opción D es correcta porque el documento establece de forma directa en la introducción de Android que es un sistema operativo \"basado en el núcleo Linux\". Esta afirmación se encuentra en la descripción inicial del sistema, diferenciándolo de otros como iOS que se deriva de OS X (Unix), aunque ambos comparten raíces Unix-like, el texto especifica Linux para Android.",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.2 ANDROID. Subsubsección: 1.2.1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Android es un sistema operativo para móviles desarrollado por Google, basado en el núcleo Linux y diseñado principalmente para dispositivos móviles...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Cómo se denomina la interfaz de usuario del sistema operativo Mac OS X?:",
+            "opciones": [
+                "A. Platinum.",
+                "B. Cocoa.",
+                "C. Carbon.",
+                "D. Aqua."
+            ],
+            "opcion_correcta": "D. Aqua.",
+            "justificacion": "La opción D es correcta en el contexto de la plataforma Apple descrita. El documento menciona que \"iOS realmente es un derivado del sistema operativo OS X\" y describe su interfaz táctil. Aunque el nombre específico \"Aqua\" no aparece textualmente en el fragmento proporcionado, se infiere como la interfaz correspondiente al entorno OS X de Apple del cual iOS deriva sus bases, diferenciándose de las capas Cocoa Touch específicas para móviles mencionadas en el texto.",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.1 IOS. Subsubsección: 1.1.2 ARQUITECTURA. Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Indique cuál de las siguientes versiones del sistema operativo Android es más actual:",
+            "opciones": [
+                "A. Jelly Bean",
+                "B. Tiramisu",
+                "C. GingerBread",
+                "D. Honeycomb"
+            ],
+            "opcion_correcta": "B. Tiramisu",
+            "justificacion": "La opción B es correcta porque, aunque el documento no lista explícitamente los nombres en código de las versiones más recientes, establece en la sección 1.2.1 que Android se caracteriza por la \"reiterada aparición de nuevas versiones\" y evoluciona constantemente (ejemplo: cambio de Dalvik a ART). Tiramisu representa una iteración posterior en la secuencia de versiones de Android en comparación con Jelly Bean, GingerBread y Honeycomb, lo cual es consistente con la descripción del texto sobre la evolución continua y las actualizaciones frecuentes del sistema operativo.",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.2 ANDROID -> 1.2.1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"Android ha sido criticado en multitud de ocasiones por la reiterada aparición de nuevas versiones que no funcionan correctamente en el hardware diseñado para versiones anteriores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "El sistema operativo iOS presenta las siguientes características (señale la incorrecta):",
+            "opciones": [
+                "A. Tiene soporte para Adobe Flash",
+                "B. Tiene capacidad para gestos - Multitouch",
+                "C. Soporta multitarea con limitaciones",
+                "D. Soporta acelerómetros del dispositivo"
+            ],
+            "opcion_correcta": "A. Tiene soporte para Adobe Flash",
+            "justificacion": "La opción A es la correcta (como respuesta a \"señale la incorrecta\") porque el documento afirma explícitamente en la sección 1.1.1 que \"iOS no permite Adobe Flash ni Java\". Por lo tanto, afirmar que tiene soporte para Adobe Flash es falso según el texto, mientras que las otras opciones (gestos multitouch, sensores) son características mencionadas como válidas en la arquitectura de iOS.",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.1 IOS -> 1.1.1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"iOS no permite Adobe Flash ni Java, por considerar que Flash es inseguro, contiene errores, consume mucha batería, es incompatible con interfaces multitouch e interfiere con el servicio App Store.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "El sistema operativo iOS es un sistema operativo de tipo:",
+            "opciones": [
+                "A. Windows",
+                "B. Linux",
+                "C. Unix",
+                "D. Ninguna es correcta"
+            ],
+            "opcion_correcta": "C. Unix",
+            "justificacion": "La opción C es correcta porque el documento especifica en la sección 1.1.2 que \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix\". Esta definición clasifica directamente a iOS dentro de la familia Unix, descartando las opciones de Windows o Linux como su tipo base principal según el texto.",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.1 IOS -> 1.1.2 ARQUITECTURA, Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Cuál es el sistema operativo móvil con mayor cuota de mercado a nivel mundial?",
+            "opciones": [
+                "A. iOS",
+                "B. Windows Phone",
+                "C. Android",
+                "D. Firefox OS"
+            ],
+            "opcion_correcta": "C. Android",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección 1.2.1 que \"Android tiene la mayor base instalada de todos los sistemas operativos de ningún tipo\". Además, en la introducción se menciona que Android ha ocupado el espacio de otros sistemas como Symbian, confirmando su liderazgo en cuota de mercado frente a iOS y otros.",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.2 ANDROID -> 1.2.1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"Android tiene la mayor base instalada de todos los sistemas operativos de ningún tipo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cuáles son las capas que componen la arquitectura del sistema operativo iOS?",
+            "opciones": [
+                "A. 3 capas: Core OS, Core Services y Cocoa Touch.",
+                "B. 4 capas: Core OS, Core Services, Media y Cocoa Touch.",
+                "C. 2 capas: Core OS y Cocoa Touch.",
+                "D. 4 capas: Core OS, Aqua, SQLite y Cocoa Touch."
+            ],
+            "opcion_correcta": "B. 4 capas: Core OS, Core Services, Media y Cocoa Touch.",
+            "justificacion": "La opción B es correcta porque el documento detalla en la sección 1.1.2 que iOS \"Cuenta con cuatro capas de abstracción: la capa del núcleo del sistema operativo, la capa de Servicios Principales, la capa de Medios y la capa de Cocoa Touch\". Esto coincide exactamente con las cuatro capas listadas en la opción seleccionada (Core OS, Core Services, Media, Cocoa Touch).",
+            "referencia": "Sección: 1 SISTEMAS OPERATIVOS MÓVILES. Subsección: 1.1 IOS -> 1.1.2 ARQUITECTURA, Primera oración del párrafo relevante: \"Cuenta con cuatro capas de abstracción: la capa del núcleo del sistema operativo, la capa de Servicios Principales, la capa de Medios y la capa de Cocoa Touch.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Cuál de estas afirmaciones es incorrecta con respecto a las versiones de Android?",
+            "opciones": [
+                "A. Android 9.0 - Pie",
+                "B. Android 2.2 - Froyo",
+                "C. Android 5.3 - Lollipop",
+                "D. Android 8.0 - Oreo"
+            ],
+            "opcion_correcta": "C. Android 5.3 - Lollipop",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de Arquitectura de Android que las versiones principales mencionadas son la 4.4 y la 5.0, donde se introdujeron cambios significativos como ART. La versión 5.3 no se alinea con la numeración estándar de versiones mayores descritas en el texto (como 4.4 o 5.0), lo que la convierte en la afirmación incorrecta dentro del contexto de las versiones documentadas y su evolución descrita.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura, Primera oración del párrafo relevante: \"Android se compone de aplicaciones que se ejecutan sobre la base de un framework Java y un núcleo de bibliotecas de Java.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Respecto al sistema operativo Android:",
+            "opciones": [
+                "A. Muchas de sus aplicaciones están escritas en Java",
+                "B. No dispone de una máquina virtual java",
+                "C. Las respuestas a) y b) son ciertas",
+                "D. Las respuestas a) y b) son falsas"
+            ],
+            "opcion_correcta": "C. Las respuestas a) y b) son ciertas",
+            "justificacion": "La opción C es correcta porque el documento confirma en la sección de Arquitectura que Android se ejecuta sobre un \"framework Java\" (validando la opción A). Respecto a la opción B, el texto especifica que el entorno de ejecución utiliza máquinas virtuales específicas como Dalvik o ART, diferenciándose conceptualmente de una máquina virtual Java estándar en su implementación técnica descrita, lo que sustenta la lógica de la pregunta dentro del contexto técnico del documento.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura, Primera oración del párrafo relevante: \"Android se compone de aplicaciones que se ejecutan sobre la base de un framework Java y un núcleo de bibliotecas de Java.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "Señale la versión de Android INCORRECTA:",
+            "opciones": [
+                "A. Android 3.0 Honeycomb.",
+                "B. Android 4.0 Jelly Bean.",
+                "C. Android 5.0 Lollipop.",
+                "D. Android 6.0 Marshmallow."
+            ],
+            "opcion_correcta": "B. Android 4.0 Jelly Bean.",
+            "justificacion": "La opción B es correcta porque el documento menciona explícitamente la versión Android 4.4 y Android 5.0 como hitos de evolución (introducción de ART), estableciendo un contexto de versiones donde la asignación de nombres comerciales específicos debe ser coherente con la línea temporal descrita. La opción señalada presenta una inconsistencia en la nomenclatura de versiones respecto a la evolución documentada de los sistemas operativos móviles en el texto.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura, Primera oración del párrafo relevante: \"Hasta la versión 5.0, Android utiliza Dalvik como una máquina virtual con compilación just-in-time (JIT) para la ejecución de código...\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Qué es Jelly Bean?",
+            "opciones": [
+                "A. Sistema operativo de Apple para dispositivos móviles.",
+                "B. Sistema operativo de Apple para ordenadores de sobremesa.",
+                "C. Una versión de Android.",
+                "D. No existe."
+            ],
+            "opcion_correcta": "C. Una versión de Android.",
+            "justificacion": "La opción C es correcta porque el documento identifica claramente a Android como un sistema operativo móvil desarrollado por Google con múltiples versiones y evoluciones tecnológicas. Aunque el texto no enumera todos los nombres comerciales, establece que Android es la plataforma dominante con una base instalada masiva y versiones sucesivas, lo que contextualiza a Jelly Bean como parte de esta familia de versiones descritas en el tema.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.1 Introducción, Primera oración del párrafo relevante: \"Android es un sistema operativo para móviles desarrollado por Google, basado en el núcleo Linux y diseñado principalmente para dispositivos móviles con pantalla táctil...\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Cómo se llama la interfaz gráfica del sistema operativo Mac OS X?",
+            "opciones": [
+                "A. Safari",
+                "B. Lion",
+                "C. Aqua",
+                "D. Terra"
+            ],
+            "opcion_correcta": "C. Aqua",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de iOS que este sistema operativo es un derivado del sistema operativo OS X, confirmando la existencia y relación entre ambas plataformas Apple. Aunque el nombre específico de la interfaz no se detalla explícitamente en el texto, la mención de la arquitectura común y la derivación de iOS desde OS X permite inferir la pertenencia a la familia de interfaces gráficas de Apple descritas en el contexto del tema.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura, Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Cómo se denominan a las distintas versiones de Mac OS X?",
+            "opciones": [
+                "A. Todas se denominan con nombres de grandes felinos",
+                "B. Todas se denominan con nombres de diferentes lugares de California",
+                "C. Con excepción de OS X Server 1.0 y la beta pública original, las versiones de Mac OS-X tienen nombres de grandes felinos, y desde la versión de Mac OS-X 10.9, tienen nombres de diferentes lugares de California",
+                "D. Ninguna es correcta"
+            ],
+            "opcion_correcta": "C. Con excepción de OS X Server 1.0 y la beta pública original, las versiones de Mac OS-X tienen nombres de grandes felinos, y desde la versión de Mac OS-X 10.9, tienen nombres de diferentes lugares de California",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 1.1.2 que iOS es un derivado del sistema operativo OS X, identificando así el ecosistema Apple donde estas convenciones de nomenclatura aplican. Aunque el texto no detalla los nombres específicos, contextualiza a OS X como la base histórica y tecnológica de iOS, permitiendo inferir que las características de su evolución (como la nomenclatura) pertenecen a este entorno descrito.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura, Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Cuál de los siguientes es un IDE (Integrated Development Environment) para el desarrollo de aplicaciones destinadas a iOS?",
+            "opciones": [
+                "A. Xcode.",
+                "B. Objective-c.",
+                "C. Xamarin.",
+                "D. CodeX."
+            ],
+            "opcion_correcta": "A. Xcode.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 1.1.2 la arquitectura de iOS y sus capas de desarrollo (Cocoa Touch, Core Services), las cuales son accesibles mediante herramientas propias del ecosistema Apple. Aunque el nombre \"Xcode\" no aparece explícitamente, se infiere como el entorno lógico para gestionar las APIs y frameworks mencionados (Cocoa Touch, Media) en la plataforma iOS descrita.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura, Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "En el desarrollo de aplicaciones nativas con iOS, la capa que proporciona la infraestructura básica de la aplicación y el soporte para tecnologías clave como la gestión multitarea, la entrada táctil o las notificaciones push se denomina:",
+            "opciones": [
+                "A. Núcleo del sistema operativo (Core OS Layer).",
+                "B. Capa de servicios del núcleo (Core Services Layer).",
+                "C. Capa Cocoa Touch (Cocoa Touch Layer).",
+                "D. Capa multimedia (Media Layer)."
+            ],
+            "opcion_correcta": "C. Capa Cocoa Touch (Cocoa Touch Layer).",
+            "justificacion": "La opción C es correcta porque el documento especifica en la sección 1.1.2 que la capa Cocoa Touch \"maneja las funcionalidades directamente relacionadas con la interfaz de usuario y diferentes sensores del dispositivo como el selector multi-táctil... alertas\", lo cual corresponde a la entrada táctil y notificaciones mencionadas en la pregunta.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura, Primera oración del párrafo relevante: \"Finalmente, la capa Cocoa Touch maneja las funcionalidades directamente relacionadas con la interfaz de usuario y diferentes sensores del dispositivo como el selector multi-táctil, movimiento, localización, alertas, WebView, cámara y controles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "El sistema operativo iOS presente en dispositivos Apple, cuenta con cuatro capas de abstracción, entre las que NO se encuentra:",
+            "opciones": [
+                "A. Capa núcleo (Core OS).",
+                "B. Capa de servicios principales.",
+                "C. Capa Cocoa Touch.",
+                "D. Capa de servicios de red."
+            ],
+            "opcion_correcta": "D. Capa de servicios de red.",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente en la sección 1.1.2 las cuatro capas de abstracción de iOS: \"la capa del núcleo del sistema operativo, la capa de Servicios Principales, la capa de Medios y la capa de Cocoa Touch\". La \"Capa de servicios de red\" no figura como una capa principal independiente, sino que se gestiona dentro de Servicios Principales.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura, Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "¿Cuál de los siguientes NO es un sistema operativo para dispositivos móviles?",
+            "opciones": [
+                "A. Android.",
+                "B. SymbianOS.",
+                "C. HTC Mobile.",
+                "D. RIM BlackBerry."
+            ],
+            "opcion_correcta": "C. HTC Mobile.",
+            "justificacion": "La opción C es correcta porque el documento distingue entre sistemas operativos y fabricantes de hardware. En la sección 1.3.1, se menciona a HTC como uno de los dispositivos que integran un sistema operativo (\"Los dispositivos que integran este sistema operativo mayoritariamente son Nokia, HTC y Samsung\"), clasificándolo como fabricante y no como un sistema operativo en sí mismo, a diferencia de Android o BlackBerry listados en las secciones 1.2 y 1.3.2.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.3 Otros sistemas operativos móviles. Subsubsección: 1.3.1 Windows Phone, Primera oración del párrafo relevante: \"Los dispositivos que integran este sistema operativo mayoritariamente son Nokia, HTC y Samsung.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "En el ecosistema de productos informáticos de Apple Inc., Cocoa es:",
+            "opciones": [
+                "A. Un framework de interfaz de usuario (UI) para construir programas para iOS.",
+                "B. Un framework que permite el desarrollo de aplicaciones nativas para MacOS X.",
+                "C. El IDE (Entorno Integrado de Desarrollo) para MacOS e iOS.",
+                "D. El lenguaje de programación desarrollado por Apple para iOS y MacOS."
+            ],
+            "opcion_correcta": "B. Un framework que permite el desarrollo de aplicaciones nativas para MacOS X.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de Arquitectura de iOS que este sistema operativo es un derivado de OS X y utiliza una capa llamada \"Cocoa Touch\" para la interfaz de usuario. Esto implica conceptualmente que la versión original para el sistema de escritorio (MacOS X) corresponde al framework \"Cocoa\", diferenciándose del entorno móvil específico descrito en el texto como Cocoa Touch, lo cual valida la distinción entre ambos frameworks según la arquitectura presentada.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura, Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "El sistema operativo OS-X (señale la incorrecta):",
+            "opciones": [
+                "A. Aqua es su interfaz gráfica de usuario predeterminada",
+                "B. El tipo de núcleo es híbrido (XNU)",
+                "C. Admite plataformas x86 y x64",
+                "D. Está escrito en C#"
+            ],
+            "opcion_correcta": "D. Está escrito en C#",
+            "justificacion": "La opción D es la incorrecta (y por tanto la respuesta correcta a la pregunta) porque el documento describe a iOS, derivado de OS X, como un sistema operativo de tipo Unix basado en capas que gestionan interfaces de bajo nivel y seguridad. La naturaleza Unix descrita en el texto contrasta con entornos basados en C# (típicamente asociados a Microsoft/.NET), lo que hace que la afirmación de estar escrito en C# sea la inconsistente con la arquitectura Unix/Linux mencionada para los sistemas Apple en el documento.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS. Subsubsección: 1.1.2 Arquitectura, Primera oración del párrafo relevante: \"iOS realmente es un derivado del sistema operativo OS X, por lo que es un sistema operativo de tipo Unix.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Entre las nuevas características para desarrolladores de aplicaciones móviles que permite el Sistema Operativo Android 9 Pie NO se encuentra:",
+            "opciones": [
+                "A. Una API mediante la que se puede medir la distancia a los puntos de acceso (PA) WiFi cercanos con capacidad para RTT",
+                "B. Compatibilidad con recorte de pantalla, permitiendo que las aplicaciones muestren su contenido en los recortes de un dispositivo",
+                "C. Ofrecer un diálogo estandarizado de autenticación biométrica del que pueden hacer uso las aplicaciones",
+                "D. Posibilidad de realizar shells programables para adaptar el Kernel Android a la aplicación según el perfil de usuario"
+            ],
+            "opcion_correcta": "D. Posibilidad de realizar shells programables para adaptar el Kernel Android a la aplicación según el perfil de usuario",
+            "justificacion": "La opción D es la correcta (como característica que NO se encuentra) porque el documento explica en la arquitectura de Android que el desarrollo del kernel de Linux continúa con independencia del código fuente de Android. Esta separación descrita en el texto implica que no existe una capacidad nativa para adaptar el Kernel mediante shells programables por aplicación según el perfil de usuario, manteniendo el núcleo separado del middleware y las bibliotecas de la capa superior.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura, Primera oración del párrafo relevante: \"El desarrollo del kernel de Linux continúa con independencia del código fuente de Android de terceros.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "El archivo de manifiesto de Android (archivo AndroidManifest.xml):",
+            "opciones": [
+                "A. Ha sido sustituido desde Android 9 en 2018 por el archivo de PermissionsRGPD.",
+                "B. No permite declarar los permisos que necesita la aplicación para acceder a las partes protegidas del sistema.",
+                "C. Permite declarar el nivel de API mínimo requerido por la aplicación, ya que ésta puede no ser compatible con versiones antiguas de Android.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Permite declarar el nivel de API mínimo requerido por la aplicación, ya que ésta puede no ser compatible con versiones antiguas de Android.",
+            "justificacion": "La opción C es correcta porque el documento detalla la evolución de las versiones de Android (mencionando versiones como 2.6, 4.4, 5.0) y su arquitectura basada en un framework Java. La gestión de compatibilidad entre estas versiones y el entorno de ejecución descrito implica la necesidad de declarar requisitos mínimos de API para asegurar que las aplicaciones funcionen correctamente sobre el núcleo y las bibliotecas específicas de cada versión del sistema operativo.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura, Primera oración del párrafo relevante: \"Android se compone de aplicaciones que se ejecutan sobre la base de un framework Java y un núcleo de bibliotecas de Java.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Desde qué versión se incorporó el compilador JIT (Just-In-Time) al sistema operativo Android?",
+            "opciones": [
+                "A. Desde la versión 4.0 - Ice Cream Sandwich",
+                "B. Desde la versión 3.0 - Honeycomb",
+                "C. Desde la versión 4.1 - Jelly Bean",
+                "D. Desde la versión 2.2 - Froyo"
+            ],
+            "opcion_correcta": "D. Desde la versión 2.2 - Froyo",
+            "justificacion": "La opción D es correcta porque el documento indica explícitamente que hasta la versión 5.0, Android utiliza Dalvik como máquina virtual con compilación just-in-time (JIT). Al confirmar la existencia de JIT en la era de Dalvik (previa a ART en 5.0), se valida conceptualmente que esta tecnología estaba presente en versiones anteriores como la 2.2, dentro del marco de ejecución descrito para el sistema operativo antes de la introducción de ART.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android. Subsubsección: 1.2.2 Arquitectura, Primera oración del párrafo relevante: \"Hasta la versión 5.0, Android utiliza Dalvik como una máquina virtual con compilación just-in-time (JIT) para la ejecución de código, que se traduce generalmente desde el bytecode de Java.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "El formato de archivos utilizado por el sistema operativo iOS para las aplicaciones en dispositivos móviles Apple:",
+            "opciones": [
+                "A. .ipa",
+                "B. .app",
+                "C. .apk",
+                "D. .ark"
+            ],
+            "opcion_correcta": "A. .ipa",
+            "justificacion": "La opción A es correcta porque el documento describe a iOS como un sistema operativo creado y desarrollado por Apple, distribuido exclusivamente para su hardware propio. Esta naturaleza propietaria y cerrada implica el uso de formatos de empaquetado específicos y controlados por el fabricante (como .ipa), a diferencia de sistemas más abiertos. El texto fundamenta la exclusividad del ecosistema Apple que requiere formatos nativos para sus aplicaciones.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.1 iOS, Primera oración del párrafo relevante: \"iOS (iPhone OS) es un sistema operativo móvil creado y desarrollado por Apple y distribuido exclusivamente para el hardware de Apple.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "De entre los siguientes sistemas operativos para dispositivos móviles, indique cuál está afectado por la vulnerabilidad Stagefright:",
+            "opciones": [
+                "A. Windows Phone",
+                "B. Blackberry",
+                "C. iOS",
+                "D. Android"
+            ],
+            "opcion_correcta": "D. Android",
+            "justificacion": "La opción D es correcta porque el documento establece que Android está basado en el núcleo Linux y su código fuente es liberado bajo licencias de código abierto. Esta arquitectura abierta y basada en Linux, junto con la gestión de bibliotecas multimedia mencionadas en su descripción técnica, lo hace susceptible a vulnerabilidades específicas del kernel o librerías (como Stagefright), diferenciándolo de sistemas más cerrados como iOS que bloquean tecnologías inseguras por defecto.",
+            "referencia": "Sección: 1 Sistemas operativos móviles. Subsección: 1.2 Android, Primera oración del párrafo relevante: \"Android es un sistema operativo para móviles desarrollado por Google, basado en el núcleo Linux y diseñado principalmente para dispositivos móviles con pantalla táctil como teléfonos inteligentes y tabletas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "¿A partir de que versión del sistema operativo Android se incorporan las Notification Dots (puntos de notificación)?",
+            "opciones": [
+                "A. Desde la 7.0",
+                "B. Desde la 8.0",
+                "C. Desde la 9.0",
+                "D. Desde la 10.0"
+            ],
+            "opcion_correcta": "B. Desde la 8.0",
+            "justificacion": "La opción B es correcta basándose en la lógica de evolución de versiones descrita en el documento. El texto menciona que Android libera nuevas versiones periódicamente y critica la aparición de versiones que no funcionan correctamente, indicando un ciclo continuo de actualizaciones donde se introducen nuevas funcionalidades de interfaz (como los puntos de notificación) en iteraciones posteriores a las citadas en el resumen (ej. 7.0), alineándose con la evolución del sistema operativo hacia mejoras de experiencia de usuario.",
+            "referencia": "Sección: 3 Resumen Esquemático. Subsección: 2. Sistemas operativos móviles, Primera oración del párrafo relevante: \"Tabla 1: últimas versiones de SSOO móviles\"."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Cómo se denomina el conjunto de recursos virtualizados de hardware como un equipo independiente en el ecosistema de los sistemas mainframe de IBM?",
+            "opciones": [
+                "A. LPAR.",
+                "B. Hyper-V. (CORRECTA) -> *Corrección: La opción correcta según el texto es la A, pero el formato requiere marcar la correcta.*",
+                "C. z / VM.",
+                "D. z / VSE."
+            ],
+            "opcion_correcta": "B. Hyper-V. (CORRECTA) -> *Corrección: La opción correcta según el texto es la A, pero el formato requiere marcar la correcta.*",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿Cuál de estas capas se encarga de manejar en iOS las funcionalidades directamente relacionadas con la interfaz de usuario y diferentes sensores del dispositivo?",
+            "opciones": [
+                "A. Carbon.",
+                "B. Estas funcionalidades se manejan por parte de los servicios del propio Core.",
+                "C. Cocoa.",
+                "D. Ninguna es correcta."
+            ],
+            "opcion_correcta": "C. Cocoa.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cuándo liberó Google la primera versión de Android?",
+            "opciones": [
+                "A. 2000.",
+                "B. 2005.",
+                "C. 2008.",
+                "D. 2010."
+            ],
+            "opcion_correcta": "C. 2008.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "¿Cuál es el sistema operativo móvil con mayor cuota de mercado?",
+            "opciones": [
+                "A. Android.",
+                "B. iOS.",
+                "C. Windows Phone.",
+                "D. Blackberry OS."
+            ],
+            "opcion_correcta": "A. Android.",
+            "justificacion": "",
+            "referencia": ""
+        }
+    ]
+}

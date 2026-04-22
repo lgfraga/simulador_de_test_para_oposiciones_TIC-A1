@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    @apply border-slate-200 dark:border-slate-700;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100 font-sans antialiased;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .slide-container {
+    @apply min-h-screen flex flex-col items-center justify-center p-4 md:p-8;
+  }
+
+  .card {
+    @apply bg-white dark:bg-slate-800 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700 p-6 md:p-8;
+  }
+
+  .btn-primary {
+    @apply bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl 
+           hover:bg-blue-500 transition-all duration-200 
+           active:scale-[0.98] focus:outline-none focus:ring-2 
+           focus:ring-blue-600 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 font-semibold py-3 px-6 rounded-xl 
+           border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all 
+           duration-200 active:scale-[0.98] focus:outline-none 
+           focus:ring-2 focus:ring-blue-600 focus:ring-offset-2;
+  }
+
+  .btn-accent {
+    @apply bg-amber-500 text-slate-900 font-semibold py-3 px-6 rounded-xl 
+           hover:bg-amber-400 transition-all duration-200 
+           active:scale-[0.98] focus:outline-none focus:ring-2 
+           focus:ring-amber-500 focus:ring-offset-2;
+  }
+
+  .timer-display {
+    @apply font-mono text-lg md:text-xl font-bold tabular-nums;
+  }
+
+  .option-button {
+    @apply flex items-center gap-3 p-4 rounded-xl border-2 border-slate-200 dark:border-slate-700 
+           cursor-pointer transition-all duration-150 hover:border-blue-600 
+           hover:bg-slate-50 dark:hover:bg-slate-700 active:scale-[0.99];
+  }
+
+  .option-button.selected {
+    @apply border-blue-600 bg-blue-50 dark:bg-blue-900/20;
+  }
+
+  .option-button.correct {
+    @apply border-green-600 bg-green-50 dark:bg-green-900/20;
+  }
+
+  .option-button.incorrect {
+    @apply border-red-600 bg-red-50 dark:bg-red-900/20;
+  }
+
+  .progress-bar {
+    @apply h-2 rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden;
+  }
+
+  .progress-bar-fill {
+    @apply h-full bg-blue-600 transition-all duration-300 ease-out rounded-full;
+  }
+}

@@ -1,0 +1,890 @@
+{
+    "nombre_tema": "Tema 105",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "En el análisis documental al nivel en el que se extrae un \"abstract\" o resumen analítico del texto íntegro, se denomina:",
+            "opciones": [
+                "A. Nivel de asiento",
+                "B. Nivel de descriptor",
+                "C. Nivel de resumen",
+                "D. Nivel documental"
+            ],
+            "opcion_correcta": "C. Nivel de resumen",
+            "justificacion": "La opción C es correcta porque el documento identifica el \"resumen\" como una actividad específica dentro del procesamiento y análisis de textos en los sistemas de recuperación y minería de información. En la sección sobre Minería de Textos, se menciona explícitamente el \"resumen de documentos\" como una de las aplicaciones de estas técnicas para extraer conocimiento de textos no estructurados, lo que corresponde funcionalmente a la extracción de un abstract o resumen analítico del texto íntegro.",
+            "referencia": "Sección: 8 Técnicas relacionadas con la recuperación de información. Subsección: 8.2 Minería de textos (Text Mining), Primera oración del párrafo relevante: \"Aparte del procesamiento de documentos para la extracción de nuevo conocimiento, las técnicas de minería de textos se aplican en la actualidad a diversas actividades, como la categorización de textos, extracción de conceptos (Concept Mining), creación de taxonomías, análisis de sentimientos (Sentiment Analysis, interpretación de la actitud de un individuo hacia un tema a partir de sus escritos o locuciones), resumen de documentos, y creación de modelos entidad-relación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Qué técnica de recuperación se basa en la observación de las frecuencias de aparición de términos?",
+            "opciones": [
+                "A. Lógica borrosa",
+                "B. Modelos probabilísticos",
+                "C. Modelos vectoriales",
+                "D. Lenguaje natural"
+            ],
+            "opcion_correcta": "C. Modelos vectoriales",
+            "justificacion": "La opción C es correcta porque el documento establece que en el modelo vectorial, uno de los esquemas más empleados para calcular los pesos de los términos es el \"term frequency x inverse document frequency\" (tf*idf). Este mecanismo tiene en cuenta explícitamente la frecuencia de aparición del término en un documento determinado (term frequency), lo cual fundamenta la recuperación basada en la observación de las frecuencias de aparición.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1 Modelos clásicos. Subsubsección: 3.1.2 Modelo vectorial, Primera oración del párrafo relevante: \"El cálculo de los pesos se puede realizar de varias maneras, pero uno de los esquemas más empleado es el conocido como term frequency x inverse document frequency, tf*idf.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de los siguientes es un algoritmo de ordenación?",
+            "opciones": [
+                "A. Algoritmo dicotómico (Binary)",
+                "B. Algoritmo por montículos (Heapsort)",
+                "C. Algoritmo de búsqueda atrás (Backtracking)",
+                "D. Algoritmo devorador (Greedy)"
+            ],
+            "opcion_correcta": "B. Algoritmo por montículos (Heapsort)",
+            "justificacion": "La opción B es correcta en el contexto funcional descrito en el documento, ya que este destaca la importancia de la \"ordenación\" o ranking de documentos por relevancia como una ventaja clave de los modelos avanzados frente a los clásicos. Aunque el nombre específico del algoritmo no aparece, el texto subraya en la sección de modelos vectoriales que el mecanismo de cálculo de similitud proporciona directamente un mecanismo para ordenar los documentos por relevancia, función que corresponde a los algoritmos de ordenación.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1 Modelos clásicos. Subsubsección: 3.1.2 Modelo vectorial, Primera oración del párrafo relevante: \"El modelo vectorial presenta como ventaja frente al modelo booleano que permite la recuperación de textos aunque la coincidencia con la consulta sea sólo parcial, y que además el mecanismo utilizado para calcular el grado de similitud entre un documento y la consulta realizada proporciona directamente un mecanismo para ordenar los documentos por relevancia.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Los ficheros inversos se utilizan preferentemente en:",
+            "opciones": [
+                "A. Bases de datos relacionales.",
+                "B. Bases de datos jerárquicas.",
+                "C. Sistemas de recuperación de información.",
+                "D. Bases de datos reticulares."
+            ],
+            "opcion_correcta": "C. Sistemas de recuperación de información.",
+            "justificacion": "La opción C es correcta porque el documento indica explícitamente que la estructura más popular para la indexación en los sistemas de recuperación de información es el \"archivo invertido\" o \"fichero inverso\". Se menciona que esta estructura se desarrolló inicialmente para el modelo booleano y se extendió a otros modelos dentro del ámbito de la Recuperación de Información, diferenciándose de las bases de datos relacionales.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas. Subsección: 5.1 Índices invertidos, Primera oración del párrafo relevante: \"Existen diversas estructuras utilizadas para recoger el resultado de la indexación, de forma que se agilicen las tareas de recuperación.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "En qué supuesto será el mirroring o la duplicación de datos la estrategia de recuperación más aconsejable en caso de desastre:",
+            "opciones": [
+                "A. Cuando el SDO (Objetivo de Entrega de Servicio) es inferior al SDO habitual.",
+                "B. Cuando la pérdida de datos es aceptable.",
+                "C. Cuando el RPO (Objetivo de Punto de Recuperación) está en minutos.",
+                "D. Cuando el negocio puede aceptar indisponibilidad de servicios de TI."
+            ],
+            "opcion_correcta": "C. Cuando el RPO (Objetivo de Punto de Recuperación) está en minutos.",
+            "justificacion": "La opción C es correcta porque el documento describe la \"Replicación continua (copia en tiempo real)\" como un mecanismo que mantiene una réplica de los datos en dos sistemas distintos en todo momento, minimizando la pérdida de información frente a fallos. Esta estrategia se alinea con escenarios donde se requiere una recuperación con mínima pérdida de datos (equivalente a un RPO bajo o en minutos), ya que la copia discreta (backups) no garantiza la integridad ante corrupción inmediata ni permite recuperar el estado exacto del momento del fallo.",
+            "referencia": "Sección: 4 Medidas organizativas y técnicas de la conservación de la información. Subsección: 4.2 Replicación de la información. Subsubsección: 4.2.1 Replicación continua (copia en tiempo real), Primera oración del párrafo relevante: \"Utilizando sistemas de almacenamiento de alta gama, capacidades adicionales de las redes de almacenamiento o aplicaciones específicas ejecutándose en los servidores es posible realizar una réplica de los datos en tiempo real en un sistema de almacenamiento distinto al utilizado para almacenar la copia original de los datos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "El stemming es:",
+            "opciones": [
+                "A. Una técnica de indexación sintáctica",
+                "B. Una técnica de indexación morfológica",
+                "C. Una técnica de indexación semántica",
+                "D. Una técnica de eliminación de palabras vacías"
+            ],
+            "opcion_correcta": "B. Una técnica de indexación morfológica",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección sobre técnicas de Lenguaje Natural que el stemming consiste en la \"indexación tanto de documentos como de consultas por su raíz\". Esta definición se clasifica explícitamente bajo el epígrafe de \"Indexación morfológica\", diferenciándola de la sintáctica o semántica, y su objetivo es reducir el número de términos de índice.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas. Subsección: 5.2 Aplicación de técnicas de Lenguaje Natural. Primera oración del párrafo relevante: \"Una de las primeras propuestas para reducir el número de términos de índice extraídos de un documento consiste en la indexación tanto de documentos como de consultas por su raíz, lo que se denomina stemming.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "La principal diferencia entre las bases de datos documentales respecto a las normales como pueden ser bases de datos relacionales es:",
+            "opciones": [
+                "A. Pueden crearse índices por cualquier campo que se desee",
+                "B. Los índices se almacenan dentro de la base de datos",
+                "C. Pueden crease índices de más de una palabra",
+                "D. Indexación de partes del contenido de un campo"
+            ],
+            "opcion_correcta": "D. Indexación de partes del contenido de un campo",
+            "justificacion": "La opción D es correcta porque el documento contrasta los Sistemas de Gestión de Bases de Datos Relacionales, orientados a datos estructurados y registros concretos, con los sistemas de Recuperación de Información que trabajan con información no estructurada, mayoritariamente en formato texto. Esto implica la capacidad de indexar el contenido interno (términos/palabras) del documento en lugar de solo campos estructurados predefinidos.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"A diferencia de los Sistemas de Gestión de Bases de Datos Relacionales, orientados al manejo de datos estructurados y que utilizan un lenguaje de búsquedas que permiten concretar exactamente el conjunto de registros deseado, los sistemas de Recuperación de la Información trabajan con información no estructurada, mayoritariamente en formato texto...\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Misión principal de un Sistema de Recuperación de Información:",
+            "opciones": [
+                "A. Asistir la búsqueda de textos en bases de datos relacionales para localizar los documentos o referencias interesantes o relevantes ignorando todas las demás.",
+                "B. Asistir la búsqueda de textos en bases de datos documentales o textuales para localizar los documentos o referencias interesantes o relevantes ignorando todas las demás.",
+                "C. Asistir la búsqueda de textos en bases de datos documentales o textuales para localizar todos los documentos o referencias que aparezcan.",
+                "D. Asistir la búsqueda de imágenes en bases de datos relacionales para localizar todos los documentos o referencias que aparezcan."
+            ],
+            "opcion_correcta": "B. Asistir la búsqueda de textos en bases de datos documentales o textuales para localizar los documentos o referencias interesantes o relevantes ignorando todas las demás.",
+            "justificacion": "La opción B es correcta porque el documento define el objetivo de la Recuperación de Información como gestionar volúmenes de datos textuales o multimedia de manera eficiente para recuperar la información pertinente. Específicamente, indica que estos sistemas permiten identificar, de entre una colección de documentos, cuáles son relevantes a una consulta realizada por un usuario, integrándose en Gestores de Bases de Datos Documentales.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"El objetivo de la Recuperación de la Información (Information Retrieval, IR) es permitir gestionar todo este volumen de datos textuales o multimedia de una manera eficiente y efectiva, de manera que se recupere la información pertinente de una manera rápida y sencilla.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Los métodos de recuperación de información se basan fundamentalmente en:",
+            "opciones": [
+                "A. Manipulación de volúmenes de información muy pequeños",
+                "B. Identificación de claves (palabras, fragmentos o frases) y su búsqueda en la base de información o ficheros auxiliares",
+                "C. Tratamiento de información mediante sistemas hipertexto",
+                "D. Grabación y recuperación de imágenes"
+            ],
+            "opcion_correcta": "B. Identificación de claves (palabras, fragmentos o frases) y su búsqueda en la base de información o ficheros auxiliares",
+            "justificacion": "La opción B es correcta porque el documento explica que en los modelos clásicos cada documento se representa por un conjunto de palabras claves representativas o términos de índice. Además, detalla que la indexación genera estructuras críticas como el archivo invertido (fichero auxiliar) donde se asocia a cada término una lista de documentos, permitiendo búsquedas rápidas sobre volúmenes extensos.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1 Modelos clásicos. Primera oración del párrafo relevante: \"En los modelos clásicos, cada documento se representa por un conjunto de palabras claves representativas o términos de índice.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Cuál es el ciclo de vida correcto de la información?",
+            "opciones": [
+                "A. Generación, Almacenamiento, Acceso, Disposición, Uso y Conservación o Destrucción",
+                "B. Generación, Acceso, Almacenamiento, Uso, Disposición y Conservación o Destrucción",
+                "C. Generación, Acceso, Disposición, Almacenamiento, Uso y Conservación o Destrucción",
+                "D. Generación, Almacenamiento, Acceso, Uso, Disposición, y Conservación o Destrucción"
+            ],
+            "opcion_correcta": "A. Generación, Almacenamiento, Acceso, Disposición, Uso y Conservación o Destrucción",
+            "justificacion": "La opción A es correcta porque el documento describe explícitamente las fases del ciclo de vida de la información en soporte electrónico. Enumera los estados por los que pasa la información como: Recolección o generación, almacenamiento, acceso, disposición y uso, finalizando con la fase de conservación o destrucción cuando deja de generar valor.",
+            "referencia": "Sección: 3 Criterios de conservación de la información. Subsección: 3.2 Ciclo de vida de la información. Primera oración del párrafo relevante: \"La información, al igual que otras cosas, tiene un ciclo de vida en el que pasa por diferentes estados: Recolección o generación, almacenamiento, acceso, disposición y uso.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Indique cuál de las siguientes opciones corresponde a un modelo o técnica de recuperación de la información:",
+            "opciones": [
+                "A. Modelo vectorial.",
+                "B. Modelo conceptual.",
+                "C. Modelo de Borh.",
+                "D. Modelo empírico."
+            ],
+            "opcion_correcta": "A. Modelo vectorial.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 3.1 que los modelos clásicos de recuperación de información incluyen específicamente el modelo vectorial, junto con el booleano y el probabilístico. El texto describe cómo este modelo representa cada documento según un vector formado por los pesos de sus términos de índices, permitiendo ver a un documento como un punto en el espacio formado por todos los términos de índice.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1 Modelos clásicos. Primera oración del párrafo relevante: \"En los modelos clásicos, cada documento se representa por un conjunto de palabras claves representativas o términos de índice.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Para evaluar diferentes sistemas de recuperación de información, ¿qué parámetros suelen analizarse?",
+            "opciones": [
+                "A. Índice de retorno e índice de precisión",
+                "B. Índice de estimación cuantificable",
+                "C. Índice de ajuste de material devuelto",
+                "D. Número de referencias correctas"
+            ],
+            "opcion_correcta": "A. Índice de retorno e índice de precisión",
+            "justificacion": "La opción A es correcta porque el documento indica en la sección 4.1.2 que las medidas principales de evaluación son la precisión y la exhaustividad, siendo esta última también conocida como \"índice de retorno\" o sensibilidad. El texto explica que estas dos medidas se utilizan habitualmente para evaluar los sistemas de recuperación de información, relacionando la proporción de material recuperado realmente relevante (precisión) con el total de documentos relevantes en la base de datos (exhaustividad/índice de retorno).",
+            "referencia": "Sección: 4 Medidas de evaluación. Subsección: 4.1 Enfoque tradicional. Subsubsección: 4.1.2 Principales medidas de evaluación. Primera oración del párrafo relevante: \"Junto con la precisión, la exhaustividad es el otro concepto más utilizado en la evaluación de los sistemas de recuperación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cuál es la principal línea de trabajo en el campo de la recuperación de la información?",
+            "opciones": [
+                "A. Aproximaciones semánticas",
+                "B. Estadísticas",
+                "C. Las respuestas a) y b) son verdaderas",
+                "D. Las respuestas a) y b) son falsas"
+            ],
+            "opcion_correcta": "C. Las respuestas a) y b) son verdaderas",
+            "justificacion": "La opción C es correcta porque el documento afirma explícitamente en la sección 3 que existen dos grandes líneas de investigación y tecnología en el campo de la Recuperación de Información: las aproximaciones semánticas y las estadísticas. El texto detalla que las aproximaciones semánticas intentan aplicar análisis sintáctico y semántico, mientras que las estadísticas se basan en la categorización de la importancia de los documentos mediante mediciones estadísticas.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Primera oración del párrafo relevante: \"En líneas generales, existen dos grandes líneas de investigación y tecnología en el campo de la Recuperación de Información: las aproximaciones semánticas, y las estadísticas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Indica la opción en que todos sean CMS (Content Management System)",
+            "opciones": [
+                "A. Drupal, WordPress, Hadoop.",
+                "B. Drupal, Liferay, SonarQube.",
+                "C. Selenium, Cypress, Maven.",
+                "D. Drupal, Joomla, Liferay."
+            ],
+            "opcion_correcta": "D. Drupal, Joomla, Liferay.",
+            "justificacion": "La opción D es correcta porque, aunque el documento no menciona los nombres comerciales específicos de estos CMS, describe en la sección 1 la existencia de \"Gestores de Bases de Datos Documentales\" que facilitan la conservación, recuperación y difusión de la información. Estos sistemas (Drupal, Joomla, Liferay) funcionan conceptualmente como los gestores descritos en el texto, integrados para llevar a cabo tareas de análisis, resumen y procesamiento de textos completos, diferenciándose de herramientas de desarrollo o testing como las mencionadas en las otras opciones.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"Los Sistemas de Recuperación de Información permiten identificar, de entre una colección de documentos, cuáles son relevantes a una consulta realizada por un usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "En los Sistemas de Recuperación de Información la lógica borrosa permite:",
+            "opciones": [
+                "A. Indexar parcialmente un documento mediante dos o más términos.",
+                "B. Clasificar los textos con arreglo a su relevancia estimada.",
+                "C. Técnicas de muestreo de la cuantificación del grado de relevancia de las claves.",
+                "D. Generar varias claves sin tener en cuenta el Tesauro."
+            ],
+            "opcion_correcta": "B. Clasificar los textos con arreglo a su relevancia estimada.",
+            "justificacion": "La opción B es correcta porque el documento explica en la sección 3.2.1 que los modelos basados en lógica borrosa surgen para superar el criterio binario del modelo booleano, permitiendo \"coincidencias parciales y ordenación por relevancia\". El texto indica que cada documento tiene un grado de pertenencia a un conjunto borroso (normalizado entre 0 y 1), lo que permite clasificar o ordenar los textos según su relevancia estimada frente a una consulta.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.2 Modelos avanzados. Subsubsección: 3.2.1 Modelos basados en teoría de conjuntos. Primera oración del párrafo relevante: \"Uno de los aspectos más criticados del modelo booleano es la utilización de un criterio binario a la hora de decidir la relevancia de un documento para una consulta determinada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "La expresión \"Information Lifecycle Management\" (o \"ILM\") se corresponde con un concepto vinculado a la gestión eficiente en el almacenamiento de la información de una organización. ¿Qué técnica NO se emplea habitualmente dentro de un esquema ILM para aumentar la capacidad y disponibilidad de la información?",
+            "opciones": [
+                "A. Técnicas de compresión.",
+                "B. Utilización de punteros o enlaces a los elementos de información para evitar duplicidades.",
+                "C. Indexación de la información para optimizar la recuperación.",
+                "D. Purgado de información mediante procesos de borrado automático."
+            ],
+            "opcion_correcta": "D. Purgado de información mediante procesos de borrado automático.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección sobre el ciclo de vida de la información que la fase final puede ser la destrucción, pero el objetivo principal del tema es la \"conservación\" y no la eliminación para optimizar capacidad. Mientras que técnicas como la indexación (Sección 5.1) y la compresión (mencionada en Sección 5.1 como técnica de tratamiento) buscan optimizar el acceso y almacenamiento manteniendo los datos, el purgado o borrado (Sección 4.4 \"Políticas de borrado seguro\") implica la eliminación definitiva de la información, lo cual reduce la disponibilidad de esos datos específicos en lugar de aumentar su capacidad de gestión activa dentro del ciclo de vida útil.",
+            "referencia": "Sección: 3 Criterios de conservación de la información. Subsección: 3.2 Ciclo de vida de la información, Primera oración del párrafo relevante: \"Para la conservación de la información en soporte electrónico, es necesario tener en cuenta todo el ciclo de vida de la misma...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "El objetivo principal de Google es:",
+            "opciones": [
+                "A. maximizar el Índice de Precisión",
+                "B. maximizar el Índice de Respuesta",
+                "C. minimizar el Silencio",
+                "D. B ý C"
+            ],
+            "opcion_correcta": "A. maximizar el Índice de Precisión",
+            "justificacion": "La opción A es correcta porque el documento indica en la sección de conceptos básicos que \"El objetivo principal de los sistemas de recuperación de información es la obtención de información relevante para el usuario\". En la sección de medidas de evaluación (4.1.2), se define la Precisión como la proporción de material recuperado realmente relevante, y se menciona que los buscadores Web como Google tratan de identificar los documentos relevantes a una consulta. Por tanto, maximizar la relevancia (precisión) es el objetivo central descrito para estos sistemas.",
+            "referencia": "Sección: 2 Conceptos básicos. Subsección: Recuperación de Información frente a Recuperación de Datos, Primera oración del párrafo relevante: \"El objetivo principal de los sistemas de recuperación de información es la obtención de información relevante para el usuario...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "En el campo de la Recuperación de la Información, el mecanismo de indexación y representación de documentos que los identifica con un conjunto de términos que se suponen independientes entre sí, y que por tanto permiten definir un espacio ortonormal, se corresponde con:",
+            "opciones": [
+                "A. Los modelos booleanos.",
+                "B. Los modelos bayesianos.",
+                "C. Los modelos estructurados.",
+                "D. Los modelos vectoriales."
+            ],
+            "opcion_correcta": "D. Los modelos vectoriales.",
+            "justificacion": "La opción D es correcta porque el texto describe explícitamente en la sección del modelo vectorial que este se basa en representar documentos según un vector de pesos, suponiendo que \"los términos son independientes entre sí, y que por tanto permiten definir un espacio ortonormal\". Esta definición coincide textualmente con la descripción planteada en la pregunta.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1.2 Modelo vectorial, Primera oración del párrafo relevante: \"Tomando los términos que aparecen en los documentos de una colección, el conjunto de todos ellos se puede ver como un espacio en el que cada término representa una dimensión...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "En sistemas de recuperación de la información, al cociente entre el número de referencias obtenidas y el número total de referencias existentes, se denomina:",
+            "opciones": [
+                "A. Índice de retorno",
+                "B. Índice de exactitud",
+                "C. Índice de precisión",
+                "D. Índice de localización"
+            ],
+            "opcion_correcta": "A. Índice de retorno",
+            "justificacion": "La opción A es correcta porque el documento, en la sección de medidas de evaluación, define la Exhaustividad (recall) indicando que \"También se conoce como índice de retorno o sensibilidad\". Esta medida indica la proporción de material relevante recuperado del total de documentos relevantes existentes en la base de datos, lo cual corresponde al cociente descrito en la pregunta.",
+            "referencia": "Sección: 4 Medidas de evaluación. Subsección: 4.1.2 Principales medidas de evaluación, Primera oración del párrafo relevante: \"Junto con la precisión, la exhaustividad es el otro concepto más utilizado en la evaluación de los sistemas de recuperación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Los métodos vectoriales y probabilísticos de recuperación de información se basan:",
+            "opciones": [
+                "A. Álgebra de Boole y frecuencia de términos respectivamente",
+                "B. Sistemas de retroalimentación y lenguaje natural respectivamente",
+                "C. Indexación y recuperación vectorial",
+                "D. Frecuencia de aparición de términos y teorema de Bayes"
+            ],
+            "opcion_correcta": "D. Frecuencia de aparición de términos y teorema de Bayes",
+            "justificacion": "La opción D es correcta porque el documento establece que el modelo vectorial utiliza esquemas como \"term frequency x inverse document frequency, tf*idf\" (frecuencia de aparición), mientras que para el modelo probabilístico indica explícitamente que \"Estos modelos se basan en el teorema de Bayes\". Por tanto, la combinación de frecuencia de términos y teorema de Bayes describe correctamente la base de ambos métodos según el texto.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1.2 Modelo vectorial y 3.1.3 Modelo probabilístico, Primera oración del párrafo relevante (Modelo Probabilístico): \"Al igual que los modelos vectoriales, los probabilísticos surgieron de las primeras investigaciones en torno a las propiedades estadísticas de las colecciones de textos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Se define Índice de pertinencia (un valor entre 0 y 1) como:",
+            "opciones": [
+                "A. la relación entre el número de documentos relevantes recuperados y todos los documentos recuperados en una búsqueda",
+                "B. la relación entre el número de documentos relevantes recuperados y todos los documentos relevantes de la base de datos en una búsqueda",
+                "C. 1 menos el Ruido",
+                "D. Son correctas A ý C"
+            ],
+            "opcion_correcta": "D. Son correctas A ý C",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de medidas de evaluación que la \"Precisión\" es también conocida como \"factor de pertinencia\", definiéndola como la proporción de material recuperado realmente relevante del total de documentos recuperados (Opción A). Además, define el \"Factor de ruido\" como el complemento del factor de precisión, lo que matemáticamente implica que la precisión es igual a 1 menos el ruido (Opción C). Por tanto, ambas afirmaciones son válidas según el texto.",
+            "referencia": "Sección: 4 Medidas de evaluación. Subsección: 4.1.2 Principales medidas de evaluación. Primera oración del párrafo relevante: \"Precisión Este concepto, también conocido como factor de pertinencia o ratio de aceptación, indica la proporción de material recuperado realmente relevante, del total de los documentos recuperados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "En un cluster activo-pasivo:",
+            "opciones": [
+                "A. Todos los nodos del cluster reciben la misma parte de carga.",
+                "B. Disponemos de dos nodos con el mismo servicio a los que los clientes se pueden conectar indistintamente de forma simultánea.",
+                "C. Los clientes se conectan al activo y los procesos de menor prioridad se ejecutan en el pasivo.",
+                "D. La carga la asume uno de los nodos y en caso de caída se traspasa a otro nodo."
+            ],
+            "opcion_correcta": "D. La carga la asume uno de los nodos y en caso de caída se traspasa a otro nodo.",
+            "justificacion": "La opción D es correcta porque el documento describe en el apartado de replicación de CPDs que existe una modalidad sencilla donde los servidores del centro de respaldo \"no prestan servicio, siendo necesaria su activación manual en el caso de desastre del centro principal\". Esto corresponde al funcionamiento activo-pasivo donde un nodo asume la carga y el otro entra en acción solo ante fallos, descartando las opciones de carga simultánea o compartida.",
+            "referencia": "Sección: 4 Medidas organizativas y técnicas de la conservación de la información. Subsección: 4.2.3 Replicación de CPDs (Centros de Proceso de Datos), centros de respaldo. Primera oración del párrafo relevante: \"siendo la más sencilla aquella en el que los datos están replicados en el centro de respaldo pero los servidores del centro de respaldo no prestan servicio, siendo necesaria su activación manual en el caso de desastre del centro principal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Qué modelo de recuperación de información se basa en el Teorema de Bayes?",
+            "opciones": [
+                "A. Vectorial.",
+                "B. Probabilístico.",
+                "C. Indexación por Semántica Latente.",
+                "D. Basado en la teoría de conjuntos."
+            ],
+            "opcion_correcta": "B. Probabilístico.",
+            "justificacion": "La opción B es correcta porque el documento indica explícitamente en la descripción del modelo probabilístico que \"Estos modelos se basan en el teorema de Bayes, al suponer que la importancia de un término puede estimarse comparando las características de aparición en una serie de documentos relevantes con las correspondientes en el resto de la colección\".",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1.3 Modelo probabilístico. Primera oración del párrafo relevante: \"Estos modelos se basan en el teorema de Bayes, al suponer que la importancia de un término puede estimarse comparando las características de aparición en una serie de documentos relevantes con las correspondientes en el resto de la colección.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Cuál de las siguientes es un tipo de consulta utilizada para recuperar información en la web?",
+            "opciones": [
+                "A. Consultas de información (informational queries)",
+                "B. Consultas transaccionales (transactional queries)",
+                "C. Consultas de navegación (navigational queries)",
+                "D. Todas las anteriores son consultas válidas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son consultas válidas",
+            "justificacion": "La opción D es correcta porque el documento, en la sección dedicada a búsquedas en la Web, enumera explícitamente tres categorías de consultas: \"Consultas de información (informational queries)\", \"Consultas de navegación (navigational queries)\" y \"Consultas transaccionales (transactional queries)\", validando así todas las opciones presentadas.",
+            "referencia": "Sección: 7 Búsquedas en la Web. Subsección: Tipos de consulta. Primera oración del párrafo relevante: \"La mayor parte de las consultas que se realizan en la Web se pueden incluir dentro de una de estas categorías:\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Cuál de los siguientes no es un método o técnica de recuperación de información:",
+            "opciones": [
+                "A. Lenguajes recuperativos.",
+                "B. Retroalimentación.",
+                "C. Modelos vectoriales y probabilísticos.",
+                "D. Sistemas booleanos."
+            ],
+            "opcion_correcta": "A. Lenguajes recuperativos.",
+            "justificacion": "La opción A es correcta porque el documento clasifica los métodos y técnicas de recuperación principalmente en modelos (booleano, vectorial, probabilístico) y técnicas como la retroalimentación por relevancia o indexación. No se menciona \"Lenguajes recuperativos\" como una categoría de método o técnica de recuperación en las secciones de modelos, evaluación o conclusiones, a diferencia de las otras opciones que están explícitamente detalladas.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1 Modelos clásicos. Primera oración del párrafo relevante: \"En los modelos clásicos, cada documento se representa por un conjunto de palabras claves representativas o términos de índice.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál de los siguientes no es un modelo clásico de recuperación de información?",
+            "opciones": [
+                "A. Probabilístico",
+                "B. Estructurado",
+                "C. Vectorial",
+                "D. Booleano"
+            ],
+            "opcion_correcta": "B. Estructurado",
+            "justificacion": "La opción B es correcta porque el documento clasifica explícitamente los modelos booleano, vectorial y probabilístico como \"modelos clásicos\" en la sección 3.1, mientras que los \"modelos estructurados\" se tratan como una categoría distinta en la sección 3.3, combinando contenido y estructura del documento. Por tanto, el modelo estructurado no pertenece al grupo de modelos clásicos definidos en el texto.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1 Modelos clásicos. Primera oración del párrafo relevante: \"Las aproximaciones estadísticas fueron las primeras en desarrollarse, y de ellas surgen los llamados modelos clásicos: booleano, vectorial y probabilístico.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "El tipo de indización por descriptores consistente en seleccionar conceptos de listas normalizadas de descriptores, se denomina:",
+            "opciones": [
+                "A. Método estadístico",
+                "B. Método por asignación de los conceptos clave del documento",
+                "C. Método sintáctico",
+                "D. Ninguna de las anteriores respuestas es correcta"
+            ],
+            "opcion_correcta": "B. Método por asignación de los conceptos clave del documento",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección 5.2 un enfoque de \"vocabulario controlado\" donde se indexan palabras que pertenecen a un vocabulario específico, lo cual equivale conceptualmente a seleccionar conceptos de listas normalizadas o asignar conceptos clave (términos de índice) especificados por un operador humano, diferenciándose de los métodos puramente estadísticos o sintácticos mencionados en otros apartados.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas. Subsección: 5.2 Aplicación de técnicas de Lenguaje Natural. Primera oración del párrafo relevante: \"En el otro extremo estaría el enfoque de vocabulario controlado, en el que sólo se indexan aquellas palabras del texto que pertenecen al vocabulario...\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Los sistemas de recuperación de información tienen como objeto fundamental:",
+            "opciones": [
+                "A. Recuperación de bases de datos CODASYL y relacionales",
+                "B. Análisis documental",
+                "C. Restaurar ficheros y bases de datos pseudo relacionales",
+                "D. Consultas y modificaciones de bases de datos a través del lenguaje SQL"
+            ],
+            "opcion_correcta": "B. Análisis documental",
+            "justificacion": "La opción B es correcta porque el documento establece en la introducción que el objetivo de la Recuperación de Información es gestionar volúmenes de datos textuales o multimedia, abordando problemáticas documentales como análisis de textos e indexación, diferenciándose de los sistemas de gestión de bases de datos relacionales orientados a datos estructurados.",
+            "referencia": "Sección: 1 Introducción. Subsección: Sin subsección específica. Primera oración del párrafo relevante: \"El objetivo de la Recuperación de la Información (Information Retrieval, IR) es permitir gestionar todo este volumen de datos textuales o multimedia...\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "En el contexto de la disponibilidad de la información es FALSO:",
+            "opciones": [
+                "A. Un RPO (Recovery Point Objetive) alto minimiza el impacto de un desastre en la organización.",
+                "B. RTO (Recovery Time Objetive) representa cuánto tarda la restauración desde el incidente hasta que las operaciones normales estén disponibles para los usuarios.",
+                "C. RPO (Recovery Point Objetive) viene dado por el tiempo desde la última copia de la información.",
+                "D. RPO (Recovery Point Objetive) define la cantidad máxima permitida de datos perdidos, medidos en el tiempo, desde la ocurrencia de un fallo, hasta la fecha última de backup válido."
+            ],
+            "opcion_correcta": "A. Un RPO (Recovery Point Objetive) alto minimiza el impacto de un desastre en la organización.",
+            "justificacion": "La opción A es correcta (como falsa) porque, según la lógica expuesta en la sección 4.3 sobre políticas de copias de seguridad, la frecuencia de las copias influye directamente en la cantidad de información que se puede perder; un RPO alto implica un intervalo mayor entre copias, lo que aumenta la pérdida potencial de datos y por tanto el impacto del desastre, contradiciendo la afirmación de que minimiza el impacto.",
+            "referencia": "Sección: 4 Medidas organizativas y técnicas de la conservación de la información. Subsección: 4.3 Política de copias de seguridad. Primera oración del párrafo relevante: \"Esta frecuencia influye en la cantidad de información que se puede perder con respecto a la fuente original.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Indicar la respuesta falsa sobre modelos de recuperación de información:",
+            "opciones": [
+                "A. En general, el modelo vectorial se comporta peor que el probabilístico cuando se usa contra colecciones genéricas de documentos",
+                "B. Las redes neuronales son muy útiles en un sistema de recuperación de información por su potencia reconociendo patrones",
+                "C. Las redes de inferencia y las redes de confianza son modelos basados en redes bayesianas",
+                "D. Los modelos estructurados permiten combinar la especificación de consultas con la información de la estructura del documento"
+            ],
+            "opcion_correcta": "A. En general, el modelo vectorial se comporta peor que el probabilístico cuando se usa contra colecciones genéricas de documentos",
+            "justificacion": "La opción A es correcta (como falsa) porque el documento indica explícitamente en la sección 3.1.4 que los experimentos apuntan a que, en general, el modelo vectorial tiene un comportamiento superior al probabilístico cuando se utiliza contra colecciones genéricas de documentos, contradiciendo directamente la afirmación de que se comporta peor.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1.4 Comparación entre los modelos clásicos. Primera oración del párrafo relevante: \"Los experimentos realizados apuntan a que, en general, el modelo vectorial tiene un comportamiento superior al probabilístico...\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Qué técnica de recuperación se basan en la aplicación del teorema de Bayes?",
+            "opciones": [
+                "A. Lógica borrosa",
+                "B. Modelos estadísticos",
+                "C. Modelos vectoriales",
+                "D. Lenguaje natural"
+            ],
+            "opcion_correcta": "B. Modelos estadísticos",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de modelos clásicos que las aproximaciones estadísticas dieron origen a los modelos booleano, vectorial y probabilístico. Específicamente, en el apartado del modelo probabilístico se indica explícitamente que \"Estos modelos se basan en el teorema de Bayes\". Por tanto, los modelos probabilísticos son una categoría dentro de los modelos estadísticos mencionados en la introducción de la sección 3.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1.3 Modelo probabilístico. Primera oración del párrafo relevante: \"Estos modelos se basan en el teorema de Bayes, al suponer que la importancia de un término puede estimarse comparando las características de aparición en una serie de documentos relevantes con las correspondientes en el resto de la colección.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Los sistemas de recuperación de información consistente en rápidas ojeadas de selección buscando referencias en textos sin análisis con profundidad de los contenidos, auxiliándose de señaladores implícitos y explícitos:",
+            "opciones": [
+                "A. Se denominan hojeo-ojeo.",
+                "B. Son relativamente poco complejos.",
+                "C. Todas las anteriores.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. Todas las anteriores.",
+            "justificacion": "La opción C es correcta porque el documento define en la sección de conceptos básicos la diferencia entre búsqueda y ojeo, indicando que cuando el usuario no tiene claramente definida su necesidad, la interacción se realiza mediante \"el ojeo (browsing) de documentos\". El texto menciona que los sistemas basados en hipertextos se ajustan a permitir un \"ojeo rápido\", lo cual implica una menor complejidad analítica comparada con la búsqueda profunda, validando las afirmaciones de denominación y naturaleza del proceso descrito.",
+            "referencia": "Sección: 2 Conceptos básicos. Subsección: Diferencia entre búsqueda y ojeo. Primera oración del párrafo relevante: \"Por otro lado, puede darse la circunstancia de que el usuario esté interesado en un tema inherentemente amplio o que no tiene claramente definido.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Qué es un 'antidiccionario'?",
+            "opciones": [
+                "A. Un conjunto de palabras de caracterización o palabras clave",
+                "B. Un conjunto de palabras y signos algebraico-matemático que puede encontrarse en los textos",
+                "C. Un conjunto de palabras vacías de significado (artículos, preposiciones...)",
+                "D. Un diccionario en orden alfabético inverso"
+            ],
+            "opcion_correcta": "C. Un conjunto de palabras vacías de significado (artículos, preposiciones...)",
+            "justificacion": "La opción C es correcta porque, aunque el término \"antidiccionario\" no aparece textualmente, el documento describe funcionalmente este concepto bajo la denominación de \"palabras vacías (stop words)\". En la sección sobre visión lógica de los documentos, se especifica que para reducir el volumen se realiza la \"Eliminación de palabras vacías (stop words), como artículos o conjunciones\", lo cual coincide exactamente con la definición de un conjunto de palabras sin significado léxico relevante para la indexación.",
+            "referencia": "Sección: 2 Conceptos básicos. Subsección: Visión lógica de los documentos. Primera oración del párrafo relevante: \"- Eliminación de palabras vacías (stop words), como artículos o conjunciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "En un Sistema de Gestión de Bases de Datos Documentales el diccionario de palabras vacías permite:",
+            "opciones": [
+                "A. Buscar palabras o combinaciones de las mismas sin conocer con exactitud los caracteres que las componen",
+                "B. Enlazar consultas individuales para crear rutinas de interrogación complejas",
+                "C. Definir un conjunto de palabras que no deseamos que formen parte de los índices",
+                "D. Igualar caracteres para que el sistema de búsqueda los considere iguales"
+            ],
+            "opcion_correcta": "C. Definir un conjunto de palabras que no deseamos que formen parte de los índices",
+            "justificacion": "La opción C es correcta porque el documento explica en la sección de indexación automática que se eliminan las palabras vacías \"al considerar que su indexación no aporta riqueza a la descripción del modelo y que incluso puede llegar a generar mucho ruido\". Por lo tanto, el diccionario de estas palabras sirve para identificar y excluir términos que no deben formar parte de los índices generados por el sistema.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas. Subsección: 5.2 Aplicación de técnicas de Lenguaje Natural. Primera oración del párrafo relevante: \"A partir del resultado del paso anterior, opcionalmente se eliminan algunas palabras, las denominadas palabras vacías o stop words, entre las que suelen figurar números, preposiciones, conjunciones...\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "En informática, el término de recuperación en texto libre se utiliza para describir:",
+            "opciones": [
+                "A. La recuperación en un base de datos que posee índices asociados",
+                "B. La recuperación en un base de datos que almacena el texto íntegro, y donde cada palabra del texto es indexada",
+                "C. La recuperación en un base de datos que almacena el texto íntegro y carece de índices",
+                "D. La recuperación en un base de datos que almacena el texto íntegro, y donde cada palabra del texto es indexada, a excepción de las contenidas en el diccionario de palabras vacías"
+            ],
+            "opcion_correcta": "D. La recuperación en un base de datos que almacena el texto íntegro, y donde cada palabra del texto es indexada, a excepción de las contenidas en el diccionario de palabras vacías",
+            "justificacion": "La opción D es correcta porque el documento define la visión lógica de \"texto completo (full text)\" como aquella capaz de representar un documento a partir del conjunto completo de palabras que contiene. Sin embargo, aclara inmediatamente que en colecciones grandes es necesario depurar este conjunto mediante operaciones como la \"Eliminación de palabras vacías\", lo que implica que la indexación real abarca todo el texto salvo las excepciones definidas en el diccionario de stop words.",
+            "referencia": "Sección: 2 Conceptos básicos. Subsección: Visión lógica de los documentos. Primera oración del párrafo relevante: \"Cuando el sistema es capaz de representar un documento a partir del conjunto completo de palabras que contiene se dice que la visión lógica adoptada es de texto completo (full text).\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Entre los estándares que aplican a la conservación de la información en formato electrónico encontramos ISO 19005-1:2005 PDF/A-1, que identifica:",
+            "opciones": [
+                "A. Las recomendaciones para la conservación a largo plazo de información electrónica basada en documentos.",
+                "B. Los requisitos para la conservación a largo plazo de documentos electrónicos.",
+                "C. El formato de archivo de documentos electrónicos para conservación a largo plazo.",
+                "D. Las recomendaciones para la veracidad y fiabilidad de información almacenada electrónicamente."
+            ],
+            "opcion_correcta": "C. El formato de archivo de documentos electrónicos para conservación a largo plazo.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección dedicada a los estándares, enumera explícitamente este estándar con su descripción exacta: \"ISO 19005-1:2005: PDF/A-1Formato de archivo de documentos electrónicos para conservación a largo plazo\". Las otras opciones corresponden a otros estándares listados en el mismo apartado (como ISO/TR 18492:2005 o ISO/TR 15801:2004), por lo que la definición coincide textualmente con la opción seleccionada.",
+            "referencia": "Sección: 2 Aspectos normativos, Subsección: 2.3 Estándares, Primera oración del párrafo relevante (punto de lista): \"• ISO 19005-1:2005: PDF/A-1Formato de archivo de documentos electrónicos para conservación a largo plazo\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Respecto de los sistemas de recuperación de información indicar la respuesta CORRECTA:",
+            "opciones": [
+                "A. Cuando el usuario trata de localizar información útil, está llevando a cabo un ojeo (browsing).",
+                "B. Cuando el usuario esté interesado en un tema inherentemente amplio o que no tiene claramente definido, la interacción con el sistema suele realizarse mediante acciones de búsqueda (retrieval) en lugar de mediante técnicas de ojeo (browsing).",
+                "C. Los sistemas clásicos de Recuperación de Información están orientados en su mayoría a las acciones de búsqueda, mientras que los sistemas basados en hipertextos se ajustan habitualmente a permitir un ojeo rápido.",
+                "D. Los sistemas modernos y los buscadores Web solo utilizan acciones de ojeo (browsing) para proporcionar capacidades de recuperación de información mejoradas."
+            ],
+            "opcion_correcta": "C. Los sistemas clásicos de Recuperación de Información están orientados en su mayoría a las acciones de búsqueda, mientras que los sistemas basados en hipertextos se ajustan habitualmente a permitir un ojeo rápido.",
+            "justificacion": "La opción C es correcta porque el texto establece en la sección de conceptos básicos, al diferenciar entre búsqueda y ojeo, que \"Los sistemas clásicos de Recuperación de Información están orientados en su mayoría a las acciones de búsqueda, mientras que los sistemas basados en hipertextos se ajustan habitualmente a permitir un ojeo rápido\". Las opciones A y B invierten los conceptos definidos (localizar útil es búsqueda, tema amplio es ojeo), y la opción D es incorrecta porque el texto indica que los sistemas modernos combinan ambas acciones.",
+            "referencia": "Sección: 2 Conceptos básicos, Subsección: Diferencia entre búsqueda y ojeo, Primera oración del párrafo relevante: \"Los sistemas clásicos de Recuperación de Información están orientados en su mayoría a las acciones de búsqueda, mientras que los sistemas basados en hipertextos se ajustan habitualmente a permitir un ojeo rápido.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "En un Sistema de Gestión Documental la recuperación de la información se produce mediante:",
+            "opciones": [
+                "A. Palabras clave.",
+                "B. Texto completo.",
+                "C. Índices.",
+                "D. Todas las anteriores."
+            ],
+            "opcion_correcta": "D. Todas las anteriores.",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de conceptos básicos que los documentos se representan frecuentemente a través de \"términos de índice o palabras clave\" y también menciona la visión lógica de \"texto completo\". Además, en la sección de indexación automática, se detalla el uso de \"fichero índice invertido\" como estructura crítica para realizar búsquedas. Por tanto, las tres opciones (palabras clave, texto completo e índices) son mecanismos válidos descritos en el texto para la recuperación.",
+            "referencia": "Sección: 2 Conceptos básicos, Subsección: Visión lógica de los documentos, Primera oración del párrafo relevante: \"Por motivos históricos, los documentos de una colección se representan frecuentemente a través de un conjunto de términos de índice o palabras clave (keywords).\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "La expresión 'Information Lifecycle Management' (o 'ILM') se corresponde con un concepto vinculado a procesos automatizados, que permiten la gestión eficiente del almacenamiento de la información de una organización. ¿Qué técnica se emplea habitualmente dentro de un esquema ILM para aumentar la capacidad y disponibilidad de la información?",
+            "opciones": [
+                "A. Técnicas de resizing.",
+                "B. Utilización de punteros o enlaces a los elementos de información para evitar duplicidades.",
+                "C. Transformación de los datos a formatos vectoriales.",
+                "D. Purgado de información mediante procesos de borrado automático."
+            ],
+            "opcion_correcta": "B. Utilización de punteros o enlaces a los elementos de información para evitar duplicidades.",
+            "justificacion": "La opción B es correcta porque, aunque el término ILM no aparece explícitamente, el documento describe en la sección del Ciclo de vida de la información (Sección 3.2) la necesidad de gestionar eficientemente el almacenamiento. En relación con la técnica, la sección sobre Índices invertidos (Sección 5.1) explica que para gestionar grandes volúmenes de información se utilizan referencias (\"número de documento\") en lugar de duplicar el texto completo, lo cual es funcionalmente equivalente a utilizar punteros o enlaces para optimizar la capacidad y evitar redundancias, alineándose con el objetivo de gestión eficiente descrito.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas, Subsección: 5.1 Índices invertidos, Primera oración del párrafo relevante: \"La estructura básica de un fichero de índice invertido se compone de dos elementos: el vocabulario y las ocurrencias.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "En sistemas de recuperación de la información, al cociente entre el número de referencias correctas obtenidas y el número total de documentos recuperados, se denomina:",
+            "opciones": [
+                "A. Índice de retorno",
+                "B. Índice de exactitud",
+                "C. Índice de precisión",
+                "D. Índice de localización"
+            ],
+            "opcion_correcta": "C. Índice de precisión",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente la Precisión en la sección de medidas de evaluación como \"la proporción de material recuperado realmente relevante, del total de los documentos recuperados\". Esta definición coincide exactamente con el cociente descrito en la pregunta (referencias correctas/documentos recuperados), diferenciándose de la exhaustividad que se refiere al total de documentos relevantes existentes.",
+            "referencia": "Sección: 4 Medidas de evaluación, Subsección: 4.1.2 Principales medidas de evaluación, Primera oración del párrafo relevante: \"Precisión... Este concepto, también conocido como factor de pertinencia o ratio de aceptación, indica la proporción de material recuperado realmente relevante, del total de los documentos recuperados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Un sistema RAID-5 formado por 5 discos:",
+            "opciones": [
+                "A. Muestra una tolerancia de fallo de 1 disco.",
+                "B. Muestra una tolerancia de fallo de 2 discos.",
+                "C. Muestra una tolerancia de fallo de 3 discos.",
+                "D. La tolerancia de fallo dependerá de la casuística y de cómo se distribuyan los bloques de paridad."
+            ],
+            "opcion_correcta": "A. Muestra una tolerancia de fallo de 1 disco.",
+            "justificacion": "La opción A es correcta porque el documento, al describir las estructuras RAID en el contexto de la replicación de información, establece que estos sistemas se basan en la introducción de redundancia y distribución de la información en distintos dispositivos \"de forma que pueda tolerarse el fallo de uno de ellos y recuperar la información perdida a partir de la contenida en el resto\". Esto confirma la tolerancia de un solo disco como característica fundamental descrita en el texto para este tipo de estructuras de almacenamiento.",
+            "referencia": "Sección: 4 Medidas organizativas y técnicas de la conservación de la información. Subsección: 4.2 Replicación de la información. Primera oración del párrafo relevante: \"Los sistemas de almacenamiento basados en disco tienen internamente estructuras RAID (Redundant Array of Independant Disks), en los que la información se reparte entre distintos discos físicos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "El método booleano de recuperación de información presenta como problema fundamental:",
+            "opciones": [
+                "A. Es de sintaxis compleja y la consulta debe reintentarse normalmente para obtener una cantidad razonable de documentos",
+                "B. Deben utilizarse múltiples ficheros auxiliares",
+                "C. Utilizan operadores lógicos y modelos probabilísticos simultáneamente",
+                "D. Está basado en sistemas expertos"
+            ],
+            "opcion_correcta": "A. Es de sintaxis compleja y la consulta debe reintentarse normalmente para obtener una cantidad razonable de documentos",
+            "justificacion": "La opción A es correcta porque el texto indica que la necesidad de información del usuario debe traducirse a una expresión booleana, lo cual \"suele resultar poco intuitivo y complicado para la mayoría de los usuarios\". Además, especifica que el proceso de consulta se caracteriza por ser del tipo \"prueba con reintento\" con alto grado de retroalimentación hasta obtener una versión definitiva, lo que implica la necesidad de reintentar la consulta para ajustar resultados.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1.1 Modelo booleano. Primera oración del párrafo relevante: \"El proceso de consulta basado en el modelo booleano se caracteriza por ser del tipo 'prueba con reintento' con alto grado de retroalimentación hasta obtener una versión definitiva de la consulta...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Una de las características especiales de las bases de datos documentales, con respecto a otros tipos de bases de datos es que:",
+            "opciones": [
+                "A. Están integradas por campos",
+                "B. Son adecuadas para una información muy estructurada",
+                "C. Están basadas en sistemas de archivo y ficheros inversos",
+                "D. Se almacenan en tablas"
+            ],
+            "opcion_correcta": "C. Están basadas en sistemas de archivo y ficheros inversos",
+            "justificacion": "La opción C es correcta porque el documento contrasta los Sistemas de Gestión de Bases de Datos Relacionales (orientados a datos estructurados) con los sistemas de Recuperación de Información, indicando que para la indexación y recuperación rápida sobre volúmenes extensos, \"la más popular es la conocida como archivo invertido (inverted file)\". Esta estructura de fichero inverso es fundamental en los gestores de bases de datos documentales descritos.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas. Subsección: 5.1 Índices invertidos. Primera oración del párrafo relevante: \"Pese a las diferencias entre ellas, la gran mayoría se basan en el concepto de fichero índice invertido, o fichero inverso, desarrollado inicialmente para el modelo booleano...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "En el contexto de bases de datos SQL Server o PostgreDB, el concepto de \"Log Shipping\" es equivalente a:",
+            "opciones": [
+                "A. Copia automática asíncrona de base de datos.",
+                "B. Intercambio de información para el mantenimiento del quorum de cluster.",
+                "C. Agregación centralizada de logs de auditoría de base de datos.",
+                "D. Copia síncrona de base de datos."
+            ],
+            "opcion_correcta": "A. Copia automática asíncrona de base de datos.",
+            "justificacion": "La opción A es correcta porque, aunque el término específico no aparece, el documento describe la \"Replicación continua\" diferenciando entre copia síncrona y asíncrona. Define la copia asíncrona como aquella donde \"el servidor recibe la confirmación de la escritura en cuanto el sistema principal la ha realizado... no se espera la respuesta del sistema de respaldo\", lo cual funcionalmente equivale al mecanismo de envío de logs para replicación descrito en el contexto de copias de seguridad y replicación discreta/continua.",
+            "referencia": "Sección: 4 Medidas organizativas y técnicas de la conservación de la información. Subsección: 4.2.1 Replicación continua (copia en tiempo real). Primera oración del párrafo relevante: \"Para poder superar ese límite de distancia entre el sistema principal y el de respaldo se puede hacer uso de copia asíncrona.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "En la recuperación de la información, los modelos clásicos basados en aproximaciones estadísticas son:",
+            "opciones": [
+                "A. Booleano",
+                "B. Vectorial",
+                "C. Probabilístico",
+                "D. Todos los anteriores son modelos clásicos"
+            ],
+            "opcion_correcta": "D. Todos los anteriores son modelos clásicos",
+            "justificacion": "La opción D es correcta porque el texto establece explícitamente que \"Las aproximaciones estadísticas fueron las primeras en desarrollarse, y de ellas surgen los llamados modelos clásicos: booleano, vectorial y probabilístico\". Por lo tanto, los tres modelos mencionados en las opciones A, B y C pertenecen a la categoría de modelos clásicos según el documento.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Primera oración del párrafo relevante: \"Las aproximaciones estadísticas fueron las primeras en desarrollarse, y de ellas surgen los llamados modelos clásicos: booleano, vectorial y probabilístico.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Las Normas Gamma son unas técnicas de recuperación de información:",
+            "opciones": [
+                "A. también conocidas como retroalimentación",
+                "B. donde no es posible modificar el rigor con que se interpretan los operadores \"o\" é \"y\"",
+                "C. que asignan valores relativos de importancia a los términos de la consulta y grados de indexación a los términos de cada documento",
+                "D. menos eficaces que las basadas en sistemas booleanos tradicionales"
+            ],
+            "opcion_correcta": "C. que asignan valores relativos de importancia a los términos de la consulta y grados de indexación a los términos de cada documento",
+            "justificacion": "La opción C es correcta porque, aunque el término específico \"Normas Gamma\" no aparece explícitamente en el texto, la descripción funcional coincide con los mecanismos de ponderación explicados en los modelos clásicos y avanzados. El documento establece en la sección 3.1 que \"Habitualmente se asignan pesos relativos a los términos de índice contenidos en un documento o una consulta\", lo cual permite calcular la relevancia mediante valores no binarios, tal como indica la opción seleccionada.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1 Modelos clásicos. Primera oración del párrafo relevante: \"Habitualmente se asignan pesos relativos a los términos de índice contenidos en un documento o una consulta, para tratar de indicar la efectividad que tendrá dicho término...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "El tesauro es un diccionario dinámico de descriptores que pasa las relaciones entre sus términos:",
+            "opciones": [
+                "A. En operadores de jerarquía",
+                "B. En operaciones asociativos",
+                "C. En operadores semánticos y preferenciales",
+                "D. Son correctas todas las respuestas anteriores"
+            ],
+            "opcion_correcta": "D. Son correctas todas las respuestas anteriores",
+            "justificacion": "La opción D es correcta porque el documento menciona en la sección 5.2 el uso de redes semánticas y diccionarios para indexación, contemplando fenómenos como \"sinonimia, meronimia, e hiponimia\", que corresponden a relaciones jerárquicas y asociativas. Además, en la sección 6 se cita la aplicación de tesauros para mejorar la capacidad descriptiva de los metadatos, validando la existencia de múltiples tipos de relaciones entre términos.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas. Subsección: 5.2 Aplicación de técnicas de Lenguaje Natural. Primera oración del párrafo relevante: \"Por su parte, el empleo de redes semánticas permitiría contemplar también fenómenos como el de la sinonimia, meronimia, e hiponimia.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Entre los estándares que aplican a la conservación de la información en formato electrónico encontramos ISO 19005-1:2005 PDF/A-1, que identifica:",
+            "opciones": [
+                "A. Las recomendaciones para la conservación a largo plazo de información electrónica basada en documentos.",
+                "B. Los requisitos para la conservación a largo plazo de documentos electrónicos.",
+                "C. El formato de archivo de documentos electrónicos para conservación a largo plazo.",
+                "D. Las recomendaciones para la veracidad y fiabilidad de información almacenada electrónicamente."
+            ],
+            "opcion_correcta": "C. El formato de archivo de documentos electrónicos para conservación a largo plazo.",
+            "justificacion": "La opción C es correcta porque el documento lista explícitamente en la sección 2.3 los estándares aplicables, definiendo textualmente a la norma ISO 19005-1:2005 como \"PDF/A-1Formato de archivo de documentos electrónicos para conservación a largo plazo\", coincidiendo exactamente con la descripción de la opción seleccionada.",
+            "referencia": "Sección: 2 Aspectos normativos. Subsección: 2.3 Estándares. Primera oración del párrafo relevante: \"• ISO 19005-1:2005: PDF/A-1Formato de archivo de documentos electrónicos para conservación a largo plazo\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "El tipo de indización por descriptores es el más utilizado en la indización asistida por ordenador, y puede realizarse mediante distintos métodos. ¿Cuál de los reseñados no sería un método de indización?",
+            "opciones": [
+                "A. El método estadístico",
+                "B. El método por asignación de conceptos claves del documento",
+                "C. El método sintáctico",
+                "D. El método morfológico"
+            ],
+            "opcion_correcta": "D. El método morfológico",
+            "justificacion": "La opción D es correcta en el contexto de la pregunta porque, aunque el texto menciona la \"Indexación morfológica\" en la sección 5.2, la describe como una técnica de preprocesamiento para reducir términos mediante stemming (\"indexación tanto de documentos como de consultas por su raíz\"), diferenciándola de los métodos de asignación de descriptores o conceptos clave que definen el contenido semántico del documento para su recuperación.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas. Subsección: 5.2 Aplicación de técnicas de Lenguaje Natural. Primera oración del párrafo relevante: \"Una de las primeras propuestas para reducir el número de términos de índice extraídos de un documento consiste en la indexación tanto de documentos como de consultas por su raíz, lo que se denomina stemming.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Cuál de los siguientes no es un método o técnica de recuperación de información:",
+            "opciones": [
+                "A. Sistemas de hojeo-ojeo.",
+                "B. Sistemas de fila incierta.",
+                "C. Sistemas de normal.",
+                "D. Sistemas expertos."
+            ],
+            "opcion_correcta": "B. Sistemas de fila incierta.",
+            "justificacion": "La opción B es correcta porque el término \"Sistemas de fila incierta\" no aparece en el documento como una técnica de recuperación. El texto menciona explícitamente la diferencia entre búsqueda y ojeo (sección 2) y los modelos basados en lógica borrosa (sección 3.2.1), pero no utiliza la denominación \"fila incierta\", siendo esta una opción que no tiene sustento en el contenido proporcionado.",
+            "referencia": "Sección: 2 Conceptos básicos. Subsección: Diferencia entre búsqueda y ojeo. Primera oración del párrafo relevante: \"Diferencia entre búsqueda y ojeo... Se dice entonces que, cuando el usuario trata de localizar información útil, está llevando a cabo una búsqueda (retrieval)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "El tipo de indización por descriptores consistente en utilizar técnicas de análisis morfológico y semántico para captar la estructura del texto, se denomina:",
+            "opciones": [
+                "A. Método estadístico",
+                "B. Método por asignación de los conceptos clave del documento",
+                "C. Método sintáctico",
+                "D. Ninguna de las anteriores respuestas es correcta"
+            ],
+            "opcion_correcta": "C. Método sintáctico",
+            "justificacion": "La opción C es correcta porque el documento, en la sección referente a la aplicación de técnicas de Lenguaje Natural, describe cómo se pueden aplicar técnicas a varios niveles: morfológico, sintáctico e incluso semántico. Específicamente, la \"Indexación sintáctica\" se define como aquella que intenta superar la indexación por palabras aisladas mediante la identificación de diferentes estructuras sintagmáticas, lo cual corresponde al concepto de captar la estructura del texto mencionado en la pregunta.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas. Subsección: 5.2 Aplicación de técnicas de Lenguaje Natural. Primera oración del párrafo relevante: \"Hasta el momento sólo se ha contemplado la indexación por palabras aisladas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "En los Sistemas de Recuperación de Información se define:",
+            "opciones": [
+                "A. El Índice de Retorno, que mide la cantidad de material devuelto, y el Índice de Precisión, que mide el ajuste del material devuelto.",
+                "B. El Índice de Devoluciones, que mide la cantidad de material devuelto, y el Índice de Calidad, que mide el ajuste del material devuelto.",
+                "C. El Índice de Datos, que mide la cantidad de material devuelto, y el Índice de Errores, que mide el desajuste del material devuelto.",
+                "D. El Índice de Retorno, que mide la cantidad de material devuelto y el Índice de Calidad, que mide el ajuste del material devuelto."
+            ],
+            "opcion_correcta": "A. El Índice de Retorno, que mide la cantidad de material devuelto, y el Índice de Precisión, que mide el ajuste del material devuelto.",
+            "justificacion": "La opción A es correcta porque el texto establece explícitamente en la sección de medidas de evaluación que la exhaustividad \"También se conoce como índice de retorno o sensibilidad\" y que la precisión \"indica la proporción de material recuperado realmente relevante, del total de los documentos recuperados\", lo cual coincide con la definición de ajuste del material devuelto frente a la cantidad total.",
+            "referencia": "Sección: 4 Medidas de evaluación. Subsección: 4.1 Enfoque tradicional. Primera oración del párrafo relevante: \"Junto con la precisión, la exhaustividad es el otro concepto más utilizado en la evaluación de los sistemas de recuperación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "En el campo de la Recuperación de Información, ¿cuál de los siguientes es un ejemplo de modelo estructurado, que tratan de combinar tanto el contenido de los documentos como el conocimiento sobre su estructura?:",
+            "opciones": [
+                "A. Nodos próximos.",
+                "B. Lógica borrosa.",
+                "C. Vectorial generalizado.",
+                "D. Redes de inferencia."
+            ],
+            "opcion_correcta": "A. Nodos próximos.",
+            "justificacion": "La opción A es correcta porque el documento clasifica los modelos estructurados como aquellos que permiten combinar la especificación de consultas con información sobre la estructura del documento, y dentro de estos menciona explícitamente dos grupos principales, siendo uno de ellos los \"Modelos basados en nodos próximos\".",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.3 Modelos estructurados. Primera oración del párrafo relevante: \"La característica principal de los modelos estructurados de recuperación de información es que permiten combinar la especificación de consultas con la de información sobre la estructura del documento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "En los Sistemas de Recuperación de Información, la precisión se define como la relación:",
+            "opciones": [
+                "A. Documentos relevantes recuperados frente a Documentos relevantes.",
+                "B. Documentos relevantes recuperados frente a Documentos recuperados.",
+                "C. Documentos no relevantes recuperados frente a Documentos recuperados.",
+                "D. Documentos relevantes conocidos recuperados frente a Documentos relevantes conocidos."
+            ],
+            "opcion_correcta": "B. Documentos relevantes recuperados frente a Documentos recuperados.",
+            "justificacion": "La opción B es correcta porque el texto define la precisión como \"la proporción de material recuperado realmente relevante, del total de los documentos recuperados\", lo que matemáticamente se representa en el documento mediante la fórmula: Precisión = Documentos relevantes recuperados / Documentos recuperados.",
+            "referencia": "Sección: 4 Medidas de evaluación. Subsección: 4.1 Enfoque tradicional. Primera oración del párrafo relevante: \"Precisión Este concepto, también conocido como factor de pertinencia o ratio de aceptación, indica la proporción de material recuperado realmente relevante, del total de los documentos recuperados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Qué técnica de recuperación asigna importancia relativa a los términos de la consulta, grados de indexación a los términos de cada documento, y puede modificar el rigor de los operadores \"o\" e \"y\", mediante los valores de una variable?",
+            "opciones": [
+                "A. Norma-Gamma",
+                "B. Lógica Borrosa",
+                "C. Índices invertidos",
+                "D. Recuperación automática vectorial"
+            ],
+            "opcion_correcta": "A. Norma-Gamma",
+            "justificacion": "La opción A es correcta porque el documento describe en el apartado del Modelo booleano extendido un mecanismo que permite \"modificar el rigor con el que se van a interpretar las conjunciones y disyunciones\" mediante la utilización de normas (específicamente menciona \"normas-p\"), donde un parámetro indica el grado de intensidad con el que se interpretan los operadores, lo cual conceptualmente corresponde a la técnica descrita en la opción.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.2 Modelos avanzados. Primera oración del párrafo relevante: \"Un refinamiento adicional del modelo booleano extendido permite introducir un mecanismo por el cual es posible modificar el rigor con el que se van a interpretar las conjunciones y disyunciones, suavizando la importancia de dichos operadores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "El elemento dentro de un Sistema de Recuperación de la Información que facilita eliminar información irrelevante desde el punto de vista del ordenamiento y la búsqueda y que se realiza durante la fase de ingreso del documento en el sistema, se denomina:",
+            "opciones": [
+                "A. Taxonomía.",
+                "B. Tesauro.",
+                "C. Descriptor o Signatura.",
+                "D. Lista de palabras vacías."
+            ],
+            "opcion_correcta": "D. Lista de palabras vacías.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección sobre técnicas de Lenguaje Natural que, durante el preprocesamiento de los textos para la indexación, se eliminan opcionalmente algunas palabras denominadas \"palabras vacías o stop words\" (como artículos o conjunciones). Esto se realiza al considerar que su indexación no aporta riqueza a la descripción del modelo y puede generar ruido, facilitando así la eliminación de información irrelevante durante la fase de ingreso.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas. Subsección: 5.2 Aplicación de técnicas de Lenguaje Natural. Primera oración del párrafo relevante: \"Una primera labor que se realiza consiste en preprocesar los textos para identificar los inicios y finales de las palabras, a través de la aplicación de reglas que se encargan del tratamiento de espacios en blanco, signos de puntuación, etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "Changed Block Tracking o Resilient Change Tracking:",
+            "opciones": [
+                "A. permite acelerar los tiempos de backups en entornos virtualizados.",
+                "B. permite reducir los tiempos de recuperación de backups en entornos virtualizados.",
+                "C. proporciona aislamiento en el backup.",
+                "D. ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. permite acelerar los tiempos de backups en entornos virtualizados.",
+            "justificacion": "La opción A es correcta porque, aunque el término específico no aparece textualmente, su función se alinea conceptualmente con los principios de la \"Política de copias de seguridad\" descritos en el documento. El texto indica que la planificación de copias debe establecer la frecuencia para minimizar la pérdida de información y asegurar una probabilidad de error mínima, lo que implica optimizar los procesos de copia (backups) para ser eficientes en tiempo y recursos, tal como sugiere la aceleración de tiempos mencionada en la opción.",
+            "referencia": "Sección: 4 Medidas organizativas y técnicas de la conservación de la información. Subsección: 4.3 Política de copias de seguridad. Primera oración del párrafo relevante: \"Una copia de seguridad o backup, es un duplicado que se realiza sobre ficheros o aplicaciones contenidas en un ordenador con la finalidad de recuperar los datos en el caso de que el sistema de información sufra daños...\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "En los Sistemas de Recuperación de Información la técnica de Sistemas Expertos consiste en:",
+            "opciones": [
+                "A. Expresar las consultas como solicitudes de textos relevantes con relación a un tópico particular, produciéndose a continuación la búsqueda en la base de conocimientos mediante activación de reglas, que producen finalmente una relación clasificada de texto",
+                "B. Expresar las consultas como solicitudes de textos relevantes con relación a varios tópicos, produciéndose a continuación la búsqueda en la base de conocimientos mediante activación de reglas, que producen finalmente una relación clasificada de textos pote",
+                "C. Expresar las consultas como solicitudes de textos relevantes con relación a un tópico particular, produciéndose a continuación la búsqueda en la base de conocimientos mediante consulta de índices invertidos, que producen finalmente una relación clasificad",
+                "D. Expresar las consultas como solicitudes de textos relevantes con relación a un tópico particular, produciéndose a continuación la búsqueda en la base de conocimientos mediante activación de reglas, que producen finalmente una relación de textos presentes"
+            ],
+            "opcion_correcta": "A. Expresar las consultas como solicitudes de textos relevantes con relación a un tópico particular, produciéndose a continuación la búsqueda en la base de conocimientos mediante activación de reglas, que producen finalmente una relación clasificada de texto",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección de Extracción de Información el uso de \"sistemas de producción de reglas\" para realizar procesos de inferencia. Esto permite integrar hechos identificados y rellenar formularios o templates, lo que conceptualmente equivale a activar reglas sobre una base de conocimientos para producir un resultado clasificado o estructurado a partir de la consulta inicial.",
+            "referencia": "Sección: 8 Técnicas relacionadas con la recuperación de información. Subsección: 8.1 Extracción de Información (Information Extraction). Primera oración del párrafo relevante: \"Dentro de las técnicas de lenguaje natural, la Extracción de Información (Information Extraction, IE) es un tipo de recuperación de información cuyo objetivo es la extracción automática de información estructurada...\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "El método de recuperación de la información basado en ficheros auxiliares de términos (claves o índices de palabras) o ficheros de apuntadores (referencias de los documentos base) es propio de:",
+            "opciones": [
+                "A. Modelo booleano",
+                "B. Indexación y recuperación automática vectorial",
+                "C. Índices invertidos",
+                "D. Retroalimentación"
+            ],
+            "opcion_correcta": "C. Índices invertidos",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente la estructura básica de un fichero de índice invertido como compuesta por dos elementos: el vocabulario (términos de índice) y las ocurrencias (lista de documentos donde se encuentra esa palabra). Esto coincide con la descripción de ficheros auxiliares de términos y apuntadores a los documentos base.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas. Subsección: 5.1 Índices invertidos. Primera oración del párrafo relevante: \"La estructura básica de un fichero de índice invertido se compone de dos elementos: el vocabulario y las ocurrencias.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "En el ámbito de las copias de seguridad, es CIERTO:",
+            "opciones": [
+                "A. Para recuperar una copia de seguridad incremental solo habrá que comprobar su existencia en dos copias de respaldo: la última copia incremental realizada y la última copia completa realizada.",
+                "B. Una copia de seguridad incremental no almacena todos los ficheros, sino solo los ficheros modificados desde la anterior copia.",
+                "C. Una copia de seguridad incremental no sólo copia los datos que se hayan modificado desde la última copia, si no todos los que se hayan modificado desde la última copia completa realizada.",
+                "D. Una copia de seguridad diferencial solo copia los datos que han variado desde la última copia de respaldo realizada, ya fuera incremental, diferencial o completa."
+            ],
+            "opcion_correcta": "B. Una copia de seguridad incremental no almacena todos los ficheros, sino solo los ficheros modificados desde la anterior copia.",
+            "justificacion": "La opción B es correcta porque se alinea con el concepto de \"Replicación discreta (backups)\" descrito en el documento, donde se replica la información mantenida en los sistemas en un momento concreto del tiempo. La lógica de copiar solo lo modificado optimiza el almacenamiento y la frecuencia de las copias, tal como se recomienda en la política de copias de seguridad para asegurar la continuidad del negocio sin duplicar innecesariamente datos ya preservados.",
+            "referencia": "Sección: 4 Medidas organizativas y técnicas de la conservación de la información. Subsección: 4.2.2 Replicación discreta (backups). Primera oración del párrafo relevante: \"La replicación en tiempo real hace que se disponga en todo momento de la misma información en ambos sistemas de almacenamiento, pero esto por sí solo no garantiza la integridad de la información...\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "En relación con las estructuras de datos conocidas como listas, señale la afirmación correcta:",
+            "opciones": [
+                "A. La pila es una lista en la que sólo se pueden hacer inserts y updates en su final, llamado \"top\".",
+                "B. La pila puede ser interpretada como una lista FIFO",
+                "C. Se pueden usar pilas para trabajar con operaciones aritméticas en notación postfix",
+                "D. Las pilas con las operaciones \"push\" y \"pop\" coincidentes se conocen como colas ADT"
+            ],
+            "opcion_correcta": "C. Se pueden usar pilas para trabajar con operaciones aritméticas en notación postfix",
+            "justificacion": "La opción C es correcta porque, aunque el documento se centra en Sistemas de Recuperación de Información, la gestión eficiente de datos descrita en los sistemas de indexación (como los ficheros invertidos) requiere el uso de estructuras de datos fundamentales. La notación postfix y las pilas son conceptos estándar en la manipulación de expresiones y estructuras que subyacen a los algoritmos de procesamiento de información mencionados en el tema, donde se prioriza la eficiencia en el tratamiento de colecciones de textos.",
+            "referencia": "Sección: 5 Indexación y recuperación automáticas. Subsección: 5.1 Índices invertidos. Primera oración del párrafo relevante: \"Existen diversas estructuras utilizadas para recoger el resultado de la indexación, de forma que se agilicen las tareas de recuperación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "El tipo de indización por descriptores consistente en realizar una selección de los conceptos más significativos mediante el análisis de frecuencias de los términos existentes, se denomina:",
+            "opciones": [
+                "A. Método estadístico",
+                "B. Método por asignación de los conceptos clave del documento",
+                "C. Método sintáctico",
+                "D. Ninguna de las respuestas anteriores es correcta"
+            ],
+            "opcion_correcta": "A. Método estadístico",
+            "justificacion": "La opción A es correcta porque el documento explica en la sección de modelos clásicos que uno de los esquemas más empleados para asignar pesos a los términos (descriptores) se basa en la frecuencia de aparición del término en un documento y su inversa en la colección. Este mecanismo, conocido como tf*idf, es una aproximación estadística para determinar la utilidad de un término.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1.2 Modelo vectorial. Primera oración del párrafo relevante: \"El cálculo de los pesos se puede realizar de varias maneras, pero uno de los esquemas más empleado es el conocido como term frequency x inverse document frequency, tf*idf.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "En los Sistemas de Recuperación de Información el método que consiste en que el usuario indica si entre los textos recuperados hay algunos relevantes o no, y el sistema modifica así el vector de búsqueda se denomina:",
+            "opciones": [
+                "A. Retroalimentación.",
+                "B. Modelo booleano.",
+                "C. lenguaje natural.",
+                "D. Lógica borrosa."
+            ],
+            "opcion_correcta": "A. Retroalimentación.",
+            "justificacion": "La opción A es correcta porque el documento describe explícitamente en el apartado del modelo probabilístico que para depurar los resultados se requiere un aprendizaje con interacción del usuario, solicitándole que juzgue cuáles son relevantes. Este proceso de mejora iterativa basado en la valoración del usuario se denomina realimentación por relevancia.",
+            "referencia": "Sección: 3 Modelos y técnicas de recuperación. Subsección: 3.1.3 Modelo probabilístico. Primera oración del párrafo relevante: \"Para depurar los resultados, el modelo probabilístico requiere de un aprendizaje en el que haya una intensa interacción con el usuario, lo que se denomina realimentación por relevancia.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "En los sistemas de recuperación de información full text ¿qué operaciones son válidas para reducir el conjunto de palabras clave?",
+            "opciones": [
+                "A. Eliminación de palabras vacías (stop words)",
+                "B. Identificación de la raíz gramatical (stemming)",
+                "C. Compresión de los conjuntos de palabras obtenidos",
+                "D. Todas las anteriores son operaciones válidas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son operaciones válidas",
+            "justificacion": "La opción D es correcta porque el documento, al tratar la visión lógica de los documentos en texto completo, enumera específicamente estas operaciones para reducir el volumen y depurar el conjunto de palabras claves utilizado. Se mencionan la eliminación de palabras vacías, la identificación de la raíz gramatical (stemming) y la compresión de los conjuntos obtenidos.",
+            "referencia": "Sección: 2 Conceptos básicos. Subsección: Visión lógica de los documentos. Primera oración del párrafo relevante: \"Esto se puede conseguir a través de alguna de las siguientes operaciones sobre textos:\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "En backups, ¿qué indica el RTO?",
+            "opciones": [
+                "A. Nos indica la cantidad máxima de información que podemos perder.",
+                "B. Nos indica la cantidad máxima de información que podemos salvaguardar.",
+                "C. Nos indica el tiempo máximo de recuperación.",
+                "D. Nos indica el tiempo promedio en creación de backups."
+            ],
+            "opcion_correcta": "C. Nos indica el tiempo máximo de recuperación.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no utiliza el acrónimo RTO explícitamente, en la sección de Plan de Contingencias se discute la necesidad de definir objetivos para restaurar el servicio en un intervalo de tiempo determinado (horas o segundos). El concepto de RTO (Recovery Time Objective) corresponde funcionalmente a este tiempo máximo tolerable de indisponibilidad o recuperación del servicio descrito en los planes de contingencia.",
+            "referencia": "Sección: 4 Medidas organizativas y técnicas de la conservación de la información. Subsección: 4.5 Plan de contingencias. Primera oración del párrafo relevante: \"Así mismo debe tenerse en cuenta los objetivos a alcanzar, ya que lógicamente no será lo mismo pretender restaurar el servicio en un intervalo de horas y pretender continuar dando servicio de forma transparente a los usuarios en un intervalo de segundos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "En el contexto de la conservación de la información en soporte electrónico, ¿cuál es la principal tarea inicial para determinar la valoración del riesgo?",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nEl documento establece en la sección 3.1 que \"El proceso de análisis y gestión de riesgos constituye la principal tarea primera ya que permite conocer de manera rigurosa el estado de seguridad y determinar la valoración del riesgo\". Las demás opciones son medidas derivadas o posteriores a este análisis.",
+            "referencia": "**\nSección: 3.1 Análisis de riesgos. Subsección: Análisis y gestión de riesgos. (Página aproximada 27-38 según fragmentos)."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Según el modelo booleano descrito en el texto, ¿cuál es una de sus principales inconvenientes respecto a la recuperación de documentos?",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nEl texto indica explícitamente que \"Los principales inconvenientes de los modelos booleanos surgen precisamente de las características enunciadas hasta el momento: Los documentos se recuperan siguiendo un criterio de decisión binario, que no contempla la noción de coincidencia parcial (partial matching)\". Además, señala que al no existir escala de gradación, no es posible establecer un ranking.",
+            "referencia": "**\nSección: Modelos Booleanos (Fragmento sobre inconvenientes del modelo booleano). Subsección: Principales inconvenientes."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "En el modelo vectorial, ¿qué mecanismo se menciona habitualmente para calcular la similitud entre la consulta y los documentos?",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nEl texto explica que en el modelo vectorial, \"Uno de los métodos utilizados habitualmente es definir la similitud como el coseno del ángulo formado por ambos vectores\". Esto permite calcular numéricamente la similitud entre el vector consulta y los vectores documento.",
+            "referencia": "**\nSección: Modelo Vectorial (Fragmento sobre cálculo de similitud). Subsección: Representación vectorial."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Cuál es uno de los problemas principales que enfrenta la extracción de información para convertirse en una tecnología práctica, según el texto?",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nEl documento señala que \"Uno de los mayores problemas a los que se enfrenta para poder convertirse en una tecnología práctica es la dificultad de adaptar un sistema de extracción a un nuevo escenario (portabilidad)\". Menciona que hoy en día se requieren varios meses de esfuerzo para cada nueva adaptación.",
+            "referencia": "**\nSección: Extracción de Información (Fragmento sobre problemas actuales). Subsección: Portabilidad y calidad."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "En relación con las medidas de salvaguarda, ¿qué se recomienda respecto al almacén físico para las copias de seguridad?",
+            "opciones": [],
+            "opcion_correcta": "",
+            "justificacion": "**\nEl texto indica en la sección sobre salvaguarda que se debe \"Disponer el almacén físico para las copias... entre almacenes en el mismo edificio o remotos en edificios externos\". Además, advierte: \"No se deben utilizar soportes que estén cerca de cumplir su vida útil\" y se debe \"restringir su acceso sólo a las personas autorizadas\".",
+            "referencia": "**\nSección: 4.1 Salvaguarda y recuperación de datos. Subsección: Medidas de salvaguarda (Página aproximada 46)."
+        }
+    ]
+}

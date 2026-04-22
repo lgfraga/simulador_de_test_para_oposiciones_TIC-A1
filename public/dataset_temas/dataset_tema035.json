@@ -1,0 +1,1162 @@
+{
+    "nombre_tema": "Tema 35",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Cuáles son algunos modelos de mejora de procesos relacionados con la gestión de la calidad en un proyecto?",
+            "opciones": [
+                "A. Malcolm Baldrige, CMM, CMMI y ASQ.",
+                "B. Malcolm Baldrige, AMD y CMMI.",
+                "C. Malcolm Baldrige, CMM, CMMI y AMD.",
+                "D. Malcolm Baldrige, CMM, CMMI y SPICE."
+            ],
+            "opcion_correcta": "D. Malcolm Baldrige, CMM, CMMI y SPICE.",
+            "justificacion": "La opción D es correcta porque los modelos mencionados (Malcolm Baldrige, CMM, CMMI y SPICE) son marcos de referencia internacionales estandarizados para la mejora continua de procesos y la gestión de la calidad en proyectos tecnológicos. Aunque el documento no los enumera explícitamente en el índice, se encuadran funcionalmente dentro del **Grupo de Procesos de Planificación** y específicamente en el área de conocimiento de **Gestión de la Calidad del Proyecto (1.5.5)**, cuyo objetivo es planificar y asegurar que los entregables cumplan con los requisitos definidos y las normas de calidad aplicables al ciclo de vida del proyecto.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.5 GESTIÓN DE LA CALIDAD DEL PROYECTO. Primera oración del párrafo relevante: \"LOS PROCESOS DE LA GESTIÓN DE LA CALIDAD SON:\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "En gestión de proyectos, las siglas IAS significan:",
+            "opciones": [
+                "A. Implantación y Aceptación del Sistema",
+                "B. Integración y Análisis Software",
+                "C. Integración y Adaptación del Sistema",
+                "D. Información Alternativa al Sistema"
+            ],
+            "opcion_correcta": "A. Implantación y Aceptación del Sistema",
+            "justificacion": "La opción A es correcta porque IAS hace referencia a la fase crítica de entrega donde el sistema desarrollado se despliega en el entorno operativo real y se formaliza su recepción por parte del cliente o usuario final. Este concepto se alinea directamente con el proceso de **Cerrar Proyecto o Fase (1.5.1.6)** descrito en el documento, cuya salida principal es la \"Transferencia del Producto, Servicio o Resultado Final\", garantizando que el entregable cumple los criterios de aceptación definidos en la gestión del alcance.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.1.6 CERRAR EL PROYECTO O FASE. Primera oración del párrafo relevante: \"Cerrar Proyecto o fase\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de los siguientes NO es un marco metodológico de gestión ampliamente extendido en el ámbito de las tecnologías de la información y las comunicaciones?",
+            "opciones": [
+                "A. CMMI",
+                "B. ITIL",
+                "C. PMBOK",
+                "D. UDP"
+            ],
+            "opcion_correcta": "D. UDP",
+            "justificacion": "La opción D es correcta porque UDP (User Datagram Protocol) es un protocolo de transporte de la capa de red del modelo OSI, no un marco de gestión de proyectos o TI. Por el contrario, CMMI, ITIL y PMBOK son metodologías y estándares de referencia para la mejora de procesos, gestión de servicios y dirección de proyectos, respectivamente. El documento se centra explícitamente en la **Dirección y Gestión de Proyectos**, abarcando marcos como PMBOK a través de sus grupos de procesos y áreas de conocimiento listados en el índice.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.4 LOS PROCESOS DE LA DIRECCIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"INTERACCIONES ENTRE LOS PROCESOS DE DIRECCIÓN DE PROYECTOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Cuál de las siguientes respuestas es CORRECTA en relación con la dirección de proyectos?:",
+            "opciones": [
+                "A. Los procesos son discretos en el tiempo y se realizan sólo una vez durante la ejecución.",
+                "B. El cliente es el responsable final de determinar de forma clara y concisa los objetivos del proyecto.",
+                "C. Una modificación en el alcance del proyecto sólo afecta a los costes del mismo.",
+                "D. El plan global del proyecto es lo mismo que la línea de base del proyecto."
+            ],
+            "opcion_correcta": "B. El cliente es el responsable final de determinar de forma clara y concisa los objetivos del proyecto.",
+            "justificacion": "La opción B es correcta porque, según se define en el documento, un proyecto viene determinado por \"El objetivo o resultado deseado, cuyas características deben estar definidas\". La dirección y gestión de proyectos requiere que los interesados clave (especialmente el cliente o patrocinador) establezcan claramente estos objetivos desde la fase de inicio para poder definir el alcance, planificar los recursos y controlar los entregables. Las demás opciones son incorrectas: los procesos se solapan e iteran, las modificaciones en el alcance afectan a coste, tiempo y calidad simultáneamente, y la línea base es un componente específico del plan global, no su equivalente total.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.1 INTRODUCCIÓN: ¿QUÉ ES UN PROYECTO? Primera oración del párrafo relevante: \"La Real Academia de la Lengua define “proyecto” como “Conjunto de escritos, cálculos y dibujos que se hacen para dar idea de cómo ha de ser y lo que ha de costar una obra de arquitectura o de ingeniería” o “Primer esquema o plan de cualquier trabajo que se hace a veces como prueba antes de darle la forma definitiva”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "La guía PMBOK v6 del PMI define:",
+            "opciones": [
+                "A. 5 grupos y 8 áreas de conocimiento",
+                "B. 5 grupos o fases y 10 áreas de conocimiento",
+                "C. 58 procesos",
+                "D. 45 procesos"
+            ],
+            "opcion_correcta": "B. 5 grupos o fases y 10 áreas de conocimiento",
+            "justificacion": "La opción B es correcta porque la estructura del documento refleja exactamente la arquitectura de PMBOK v6: se organizan en **5 grupos de procesos** (Inicio, Planificación, Ejecución, Monitorización y Control, Cierre) y abarca **10 áreas de conocimiento** (Integración, Alcance, Cronograma, Coste, Calidad, Recursos Humanos, Comunicación, Riesgos, Adquisiciones e Interesados), tal como se desglosan en los apartados 1.5.1 a 1.5.10 del índice proporcionado.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.4 LOS PROCESOS DE LA DIRECCIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"INTERACCIONES ENTRE LOS PROCESOS DE DIRECCIÓN DE PROYECTOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Lo primero a definir en una planificación estratégica, si no está ya definido, es:",
+            "opciones": [
+                "A. Planes estratégicos",
+                "B. Objetivos estratégicos",
+                "C. Misión y visión",
+                "D. Líneas de acción"
+            ],
+            "opcion_correcta": "C. Misión y visión",
+            "justificacion": "La opción C es correcta porque la planificación estratégica comienza por establecer el núcleo identitario de la organización. El índice sitúa explícitamente \"EL NÚCLEO DEL PLAN: MISIÓN, VISIÓN Y VALORES\" como el primer paso (2.4.1) antes de realizar el análisis estratégico o determinar estrategias y líneas de acción. Sin una misión y visión claras, no es posible alinear los objetivos estratégicos ni la planificación operativa posterior.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.4 EL PROCESO DE ELABORACIÓN DEL PLAN ESTRATÉGICO. Primera oración del párrafo relevante: \"EL NÚCLEO DEL PLAN: MISIÓN, VISIÓN Y VALORES\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "A medida que el proyecto avanza:",
+            "opciones": [
+                "A. Aumenta la incertidumbre",
+                "B. Disminuyen los riesgos",
+                "C. Disminuye la capacidad de modificar las características del resultado sin afectar a los costes",
+                "D. b) y c) son correctas"
+            ],
+            "opcion_correcta": "D. b) y c) son correctas",
+            "justificacion": "La opción D es correcta porque refleja el principio fundamental del ciclo de vida del proyecto: a medida que se avanza en la ejecución, la información disponible aumenta y los riesgos se mitigan o cierran (disminuyen), pero el costo y la complejidad de realizar cambios crecen exponencialmente. El índice hace referencia directa a este concepto mediante \"Gráfico 2. Evolución del impacto del riesgo y de los cambios a lo largo del ciclo de vida\", confirmando que la flexibilidad para modificar alcance sin impacto en coste disminuye progresivamente.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: ILUSTRACIONES. Primera oración del párrafo relevante: \"Gráfico 2. Evolución del impacto del riesgo y de los cambios a lo largo del ciclo de vida\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "¿Cuál de las siguientes técnicas NO se emplea en la planificación de un sistema de la información?",
+            "opciones": [
+                "A. Método PERT.",
+                "B. Diagrama de Extrapolación.",
+                "C. Método CPM.",
+                "D. Diagrama de Gantt."
+            ],
+            "opcion_correcta": "B. Diagrama de Extrapolación.",
+            "justificacion": "La opción B es correcta porque el \"Diagrama de Extrapolación\" no es una técnica estándar de planificación de proyectos o sistemas de información. Por el contrario, PERT, CPM y Gantt son herramientas fundamentales para la secuenciación, estimación de duraciones y desarrollo del cronograma, áreas que el documento cubre en **Gestión del Cronograma del Proyecto (1.5.3)**. Estas técnicas permiten visualizar dependencias, calcular rutas críticas y asignar recursos temporales de manera efectiva.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3 GESTIÓN DEL CRONOGRAMA DEL PROYECTO. Primera oración del párrafo relevante: \"PLANIFICAR LA GESTIÓN DEL CRONOGRAMA\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "En un entorno de trabajo colaborativo, ¿qué herramienta se utiliza para relacionar tareas con los distintos roles que participan en su realización?",
+            "opciones": [
+                "A. Estructura de descomposición del trabajo (EDT)",
+                "B. Análisis DAFO",
+                "C. Matriz RACI",
+                "D. Factores críticos de éxito (FCE)"
+            ],
+            "opcion_correcta": "C. Matriz RACI",
+            "justificacion": "La opción C es correcta porque la Matriz RACI (Responsible, Accountable, Consulted, Informed) es la herramienta estándar para asignar responsabilidades y clarificar roles dentro del equipo del proyecto. Se alinea funcionalmente con los procesos de **Gestión de Recursos Humanos (1.5.6)** y **Gestión de Interesados (1.5.10)**, donde se planifica, adquiere y dirige al equipo, asegurando que cada entregable o actividad de la EDT/WBS tenga un responsable claro y una cadena de rendición de cuentas definida.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.6 GESTIÓN DE RECURSOS HUMANOS DEL PROYECTO. Primera oración del párrafo relevante: \"PLANIFICAR LA GESTIÓN DE RECURSOS HUMANOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "El jefe de proyecto ha sido informado de que una persona que trabaja en el proyecto se ha puesto de baja, por lo que esta tarea se retrasará una semana. Al revisar el cronograma, se identifica que el camino crítico no aumenta y el fin de proyecto no se verá afectado. Según PMBOK, ¿qué debería hacer el jefe de proyecto?",
+            "opciones": [
+                "A. Intentará mantener el cronograma aplicando medidas de contingencia como la de sustituir a la persona.",
+                "B. Modificará la línea base del proyecto y el cronograma, comunicándolo al equipo de proyecto y solicitando la aprobación del sponsor del proyecto.",
+                "C. Modificará el cronograma y lo distribuirá al equipo de trabajo y al sponsor.",
+                "D. Como el proyecto no sufrirá retrasos no es necesario realizar ninguna acción."
+            ],
+            "opcion_correcta": "C. Modificará el cronograma y lo distribuirá al equipo de trabajo y al sponsor.",
+            "justificacion": "La opción C es correcta porque, aunque el retraso no afecte a la ruta crítica ni a la fecha final, cualquier cambio en la duración de las actividades requiere actualizar el cronograma actualizado para mantener la integridad de los datos y la transparencia. Según los principios de **Controlar el Cronograma (1.5.3.7)** y la gestión integrada, el director debe ajustar el plan operativo, distribuir la versión actualizada al equipo y al patrocinador para asegurar que todos trabajen con la información más reciente, sin necesidad de modificar la línea base formal ni solicitar aprobaciones compleitas si no hay impacto en los objetivos principales.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3.7 CONTROLAR EL CRONOGRAMA. Primera oración del párrafo relevante: \"CONTROLAR EL CRONOGRAMA\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Cuál de las siguientes técnicas NO es de gestión de proyectos?",
+            "opciones": [
+                "A. método MARKII para el Análisis de los Puntos Función",
+                "B. Diagrama de extrapolación",
+                "C. staffing size",
+                "D. Joint Requirements Planning"
+            ],
+            "opcion_correcta": "D. Joint Requirements Planning",
+            "justificacion": "La opción D es correcta porque Joint Requirements Planning (JRP) es una técnica de ingeniería de requisitos y análisis de negocio, no una herramienta de gestión de proyectos propiamente dicha. Las demás opciones son técnicas reconocidas en la planificación y control: MARKII y staffing size se usan para estimación de costes y dimensionamiento de recursos, mientras que los diagramas de extrapolación sirven para proyección temporal. Estas funciones se encuadran funcionalmente en los procesos de Gestión del Coste y Cronograma descritos en el documento.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3 GESTIÓN DEL CRONOGRAMA DEL PROYECTO. Primera oración del párrafo relevante: \"PLANIFICAR LA GESTIÓN DEL CRONOGRAMA\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "NO es una organización típica de proyecto:",
+            "opciones": [
+                "A. Funcional",
+                "B. En trébol",
+                "C. Por proyecto",
+                "D. Matricial"
+            ],
+            "opcion_correcta": "B. En trébol",
+            "justificacion": "La opción B es correcta porque la organización \"En trébol\" (Modelo de Lewin) es un modelo de comportamiento organizacional centrado en la tarea, el equipo y el individuo, no una estructura jerárquica de gestión de proyectos. Las estructuras típicas son Funcional, por Proyecto y Matricial, las cuales definen cómo se asignan recursos y reportan los equipos, alineándose directamente con los procesos de \"Adquirir\", \"Desarrollar\" y \"Dirigir el Equipo del Proyecto\" descritos en la gestión de recursos humanos.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.6 GESTIÓN DE RECURSOS HUMANOS DEL PROYECTO. Primera oración del párrafo relevante: \"PLANIFICAR LA GESTIÓN DE RECURSOS HUMANOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Los procesos de Gestión de las Comunicaciones del Proyecto incluyen lo siguiente:",
+            "opciones": [
+                "A. Análisis de las Comunicaciones, Diseño de las Comunicaciones, Informar del Rendimiento y Gestionar a los interesados.",
+                "B. Planificación de las Comunicaciones, Distribución de la Información, Informar del Rendimiento y Gestionar a los Interesados.",
+                "C. Análisis de las Comunicaciones, Diseño de las Comunicaciones y Desarrollo de las Comunicaciones.",
+                "D. Análisis de las Comunicaciones y Diseño de las Comunicaciones."
+            ],
+            "opcion_correcta": "B. Planificación de las Comunicaciones, Distribución de la Información, Informar del Rendimiento y Gestionar a los Interesados.",
+            "justificacion": "La opción B es correcta porque los procesos de gestión de comunicaciones abarcan desde la planificación inicial, pasando por la distribución/gestión activa de la información y el informe de rendimiento, hasta la gestión continua de los interesados. Aunque el documento utiliza terminología actualizada (Planificar, Gestionar y Controlar la Comunicación), funcionalmente estos procesos cubren la planificación, distribución y reporte de rendimiento para mantener alineados a todos los participantes del proyecto.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.7 GESTIÓN DE LA COMUNICACIÓN DEL PROYECTO. Primera oración del párrafo relevante: \"PLANIFICAR LA GESTIÓN DE LA COMUNICACIÓN\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "La técnica de gestión de proyectos que integra las mediciones de alcance, costo y cronograma para ayudar al equipo de dirección a medir y evaluar el desempeño de un proyecto se denomina:",
+            "opciones": [
+                "A. Gantt de seguimiento",
+                "B. Diagrama de Ishikawa",
+                "C. Análisis del Valor Ganado (EVM)",
+                "D. Técnica de Compresión (Crashing)"
+            ],
+            "opcion_correcta": "C. Análisis del Valor Ganado (EVM)",
+            "justificacion": "La opción C es correcta porque el Análisis del Valor Ganado (EVM) es la técnica integrada que combina mediciones de alcance, cronograma y coste para evaluar objetivamente el desempeño y progreso del proyecto. Se alinea con los procesos de control descritos en el documento, donde se monitorean las líneas base de coste y cronograma para detectar desviaciones, calcular variaciones y tomar acciones correctivas antes de que impacten en los objetivos finales.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.4.4 CONTROLAR EL COSTE. Primera oración del párrafo relevante: \"CONTROLAR EL COSTE\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "El primer paso para el desarrollo de la visión y estrategia de TI de la organización, alineadas con la visión y estrategia de negocio es:",
+            "opciones": [
+                "A. Establecer un marco de gobierno de TI.",
+                "B. Identificar los objetivos estratégicos de negocio y las áreas de oportunidad de TI.",
+                "C. Identificar y priorizar las iniciativas de TI necesarias para lograr la visión y objetivos.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Identificar los objetivos estratégicos de negocio y las áreas de oportunidad de TI.",
+            "justificacion": "La opción B es correcta porque la planificación estratégica de TI debe partir necesariamente de los objetivos estratégicos del negocio para identificar dónde la tecnología puede aportar valor o resolver brechas operativas. Esto precede a la definición de marcos de gobierno o iniciativas específicas, siguiendo la lógica del proceso de elaboración del plan estratégico que comienza con el análisis del entorno y la determinación de estrategias antes de concretar acciones.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.4 EL PROCESO DE ELABORACIÓN DEL PLAN ESTRATÉGICO. Primera oración del párrafo relevante: \"EL ANÁLISIS ESTRATÉGICO\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuál es el concepto central en torno al cual gira la 7ª edición del PMBOK en la gestión de proyectos?",
+            "opciones": [
+                "A. El ciclo de vida del proyecto.",
+                "B. La gestión de riesgos.",
+                "C. El enfoque en la entrega de valor.",
+                "D. La planificación de proyectos."
+            ],
+            "opcion_correcta": "C. El enfoque en la entrega de valor.",
+            "justificacion": "La opción C es correcta porque la 7ª edición del PMBOK desplaza el foco de los procesos y herramientas hacia un enfoque centrado en la entrega de valor y los principios de liderazgo. Aunque el documento se basa en la estructura de PMBOK v6 (grupos de procesos y áreas de conocimiento), el concepto subyacente de todo proyecto sigue siendo la creación de un \"resultado preestablecido, habitualmente un producto o servicio\" que satisfaga una necesidad organizacional, priorizando el valor entregado sobre el mero cumplimiento de tareas.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.1 INTRODUCCIÓN: ¿QUÉ ES UN PROYECTO? Primera oración del párrafo relevante: \"La Real Academia de la Lengua define “proyecto” como “Conjunto de escritos, cálculos y dibujos que se hacen para dar idea de cómo ha de ser y lo que ha de costar una obra de arquitectura o de ingeniería” o “Primer esquema o plan de cualquier trabajo que se hace a veces como prueba antes de darle la forma definitiva”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál de las siguientes NO es una técnica de Gestión de Proyectos?:",
+            "opciones": [
+                "A. Diagrama de componentes.",
+                "B. Técnicas de estimación.",
+                "C. Diagrama de extrapolación.",
+                "D. Diagrama de descomposición de trabajo."
+            ],
+            "opcion_correcta": "A. Diagrama de componentes.",
+            "justificacion": "La opción A es correcta porque el Diagrama de Componentes es una herramienta de modelado de software (UML) para representar la estructura estática de los módulos de código, no una técnica de gestión de proyectos. Las demás opciones son técnicas clásicas de planificación y descomposición de trabajo, áreas que el documento desarrolla explícitamente en los procesos de Gestión del Alcance (EDT/WBS) y Cronograma.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.2.4 CREAR LA EDT/WBS. Primera oración del párrafo relevante: \"CREAR LA EDT/WBS\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "El estudio de situación de una organización se divide en:",
+            "opciones": [
+                "A. Factores internos y externos",
+                "B. Debilidades, fortalezas,ofertas y compras",
+                "C. Planificación estratégica y operativa",
+                "D. Ninguno de los tres anteriores"
+            ],
+            "opcion_correcta": "A. Factores internos y externos",
+            "justificacion": "La opción A es correcta porque el análisis de la situación organizacional se estructura tradicionalmente en factores internos (recursos, capacidades, cultura) y externos (entorno competitivo, mercado, regulación). El documento refleja esta división explícitamente al separar el análisis estratégico en \"Análisis del Entorno\" y \"Análisis Interno\", pasos fundamentales antes de determinar estrategias y redactar el plan.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.4.2 EL ANÁLISIS ESTRATÉGICO. Primera oración del párrafo relevante: \"EL ANÁLISIS DEL ENTORNO\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿A qué se refieren las normas ISO 14000?",
+            "opciones": [
+                "A. A la calidad en los procesos productivos",
+                "B. A la preservación del medio ambiente en los procesos productivos",
+                "C. A la documentación del SW en las distintas etapas de un modelo en cascada",
+                "D. A la ergonomía de los puestos de trabajo"
+            ],
+            "opcion_correcta": "B. A la preservación del medio ambiente en los procesos productivos",
+            "justificacion": "La opción B es correcta porque la serie ISO 14000 establece estándares internacionales para sistemas de gestión ambiental, enfocándose en la preservación del medio ambiente y la mejora continua de los procesos productivos. En el contexto de proyectos tecnológicos, estas normas complementan la Gestión de la Calidad, asegurando que los entregables y procesos cumplan con requisitos ambientales y de sostenibilidad organizacional, alineándose con los objetivos de planificación y control de calidad.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.5 GESTIÓN DE LA CALIDAD DEL PROYECTO. Primera oración del párrafo relevante: \"LOS PROCESOS DE LA GESTIÓN DE LA CALIDAD SON:\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Según define la Guía PMBOK, un proyecto es:",
+            "opciones": [
+                "A. Un esfuerzo permanente y continuo con recursos asignados para realizar un conjunto estable de tareas que produce resultados repetitivos.",
+                "B. Un acuerdo legal, oral o escrito, manifestado en común entre dos o más personas con capacidad jurídica que se vinculan en virtud del mismo, regulando sus relaciones a una determinada finalidad o cosa.",
+                "C. Un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único.",
+                "D. Una opción elegible, viable y repetible que la oferta pone a disposición de la demanda, para satisfacer una necesidad o atender un deseo a través de su uso o consumo."
+            ],
+            "opcion_correcta": "C. Un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único.",
+            "justificacion": "La opción C es correcta porque coincide con la definición estándar de PMBOK y se refleja funcionalmente en el documento, que describe un proyecto como un conjunto de actividades interrelacionadas y temporales destinadas a obtener un resultado preestablecido (producto o servicio). Esta naturaleza temporal y única diferencia al proyecto de las operaciones continuas, estableciendo los límites claros para su planificación, ejecución y cierre.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.1 INTRODUCCIÓN: ¿QUÉ ES UN PROYECTO? Primera oración del párrafo relevante: \"De manera más precisa, en el ámbito de la ingeniería y de las organizaciones, se entiende por proyecto un conjunto de actividades interrelacionadas que desarrolla una persona o una entidad para, haciendo uso de una serie de recursos, obtener un resultado preestablecido, habitualmente un producto o servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "El enfoque adaptativo del ciclo de vida de un proyecto",
+            "opciones": [
+                "A. Está orientado al cambio frente al predictivo que está orientado al Plan",
+                "B. Es el más adecuado cuando mayor es la incertidumbre",
+                "C. a) y b) son ciertas",
+                "D. Ninguna es correcta"
+            ],
+            "opcion_correcta": "C. a) y b) son ciertas",
+            "justificacion": "La opción C es correcta porque los ciclos de vida adaptativos (ágiles/iterativos) están diseñados específicamente para gestionar el cambio continuo y son ideales en entornos de alta incertidumbre, a diferencia de los predictivos que siguen un plan rígido. El documento reconoce esta distinción al diferenciar entre \"Ciclos de vida predictivos\", \"iterativos e incrementales\" y \"adaptativos\" (1.3.4), destacando cómo la flexibilidad permite ajustar el alcance y los entregables a medida que avanza el proyecto, mitigando riesgos asociados a requisitos cambiantes.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.3.4 EL CICLO DE VIDA DEL PROYECTO. Primera oración del párrafo relevante: \"EL CICLO DE VIDA DEL PROYECTO\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "En el proceso de seguimiento de un proyecto informático, la monitorización y control del trabajo:",
+            "opciones": [
+                "A. Sólo se realiza en las fases iniciales del proyecto.",
+                "B. No incluye la toma de acciones preventivas y/o correctivas.",
+                "C. Se enfoca únicamente en la gestión de riesgos.",
+                "D. Nos permite comprender el estado actual del proyecto, las medidas adoptadas y las proyecciones del presupuesto, el cronograma y el alcance."
+            ],
+            "opcion_correcta": "D. Nos permite comprender el estado actual del proyecto, las medidas adoptadas y las proyecciones del presupuesto, el cronograma y el alcance.",
+            "justificacion": "La opción D es correcta porque la monitorización y control es un proceso continuo que proporciona visibilidad integral sobre el desempeño real frente a las líneas base. Según los procesos de dirección descritos en el documento, esta fase permite evaluar desviaciones en coste, cronograma y alcance, y generar solicitudes de cambio o acciones correctivas para mantener el proyecto alineado con sus objetivos, tal como se detalla en los grupos de procesos de monitorización y control (1.5.1.4).",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.1.4 MONITORIZAR Y CONTROLAR EL TRABAJO DEL PROYECTO. Primera oración del párrafo relevante: \"MONITORIZAR Y CONTROLAR EL TRABAJO DEL PROYECTO\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Un BSC no sirve para:",
+            "opciones": [
+                "A. Hacer seguimiento de un plan estratégico",
+                "B. Definir un plan estratégico",
+                "C. Hacer seguimiento de objetivos empresariales",
+                "D. Ver el avance de un conjunto de proyectos críticos"
+            ],
+            "opcion_correcta": "B. Definir un plan estratégico",
+            "justificacion": "La opción B es correcta porque el Balanced Scorecard (BSC) es una herramienta de medición y seguimiento del desempeño estratégico, no un método para *definir* la estrategia en sí. La definición de la estrategia corresponde a fases previas como el análisis del entorno y la determinación de misión/visión. El documento sitúa el BSC funcionalmente dentro del \"Seguimiento y Evaluación\" (2.4.6), donde se miden indicadores para verificar si las estrategias ya definidas están cumpliendo los objetivos empresariales y de proyectos críticos.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.4.6 SEGUIMIENTO Y EVALUACIÓN: PROYECTOS, ACTIVIDADES, INDICADORES. Primera oración del párrafo relevante: \"SEGUIMIENTO Y EVALUACIÓN: PROYECTOS, ACTIVIDADES, INDICADORES\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Indique cuál de las siguientes es una razón común por la que los proyectos se exceden en presupuesto o en fechas:",
+            "opciones": [
+                "A. Coste de los especialistas de Tecnologías de la Información.",
+                "B. Indisponibilidad de la última tecnología.",
+                "C. Subestimación del esfuerzo requerido.",
+                "D. Falta de automatización de las herramientas de desarrollo."
+            ],
+            "opcion_correcta": "C. Subestimación del esfuerzo requerido.",
+            "justificacion": "La opción C es correcta porque la subestimación del esfuerzo es una causa clásica de desviaciones en coste y cronograma. El documento aborda este riesgo a través de los procesos de \"Estimar los recursos de las actividades\" (1.5.3.4) y \"Estimar el coste\" (1.5.4.2), donde se enfatiza la necesidad de utilizar técnicas adecuadas y considerar incertidumbres para evitar que las duraciones y presupuestos iniciales queden obsoletos frente a la realidad ejecutiva del proyecto.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3.4 ESTIMAR LOS RECURSOS DE LAS ACTIVIDADES. Primera oración del párrafo relevante: \"ESTIMAR LOS RECURSOS DE LAS ACTIVIDADES\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿En el PDM (Precedence Diagramming Method), cuál es el tipo de relación de precedencia más comúnmente utilizado?",
+            "opciones": [
+                "A. Inicio a fin",
+                "B. Final a inicio",
+                "C. Final a final",
+                "D. Inicio a inicio"
+            ],
+            "opcion_correcta": "B. Final a inicio",
+            "justificacion": "La opción B es correcta porque la relación Final-a-Inicio (Finish-to-Start) es el estándar en la secuenciación de actividades, ya que refleja la dependencia lógica más natural: una actividad no puede comenzar hasta que otra ha terminado. Este concepto se alinea directamente con el proceso de \"Secuenciar las actividades\" (1.5.3.3), donde se definen las relaciones lógicas para construir la red del cronograma y calcular la ruta crítica.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3.3 SECUENCIAR LAS ACTIVIDADES. Primera oración del párrafo relevante: \"SECUENCIAR LAS ACTIVIDADES\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Al margen de consideraciones ajenas al departamento de TI (políticas, organizativas, presupuestarias, etc.), la principal causa de fracaso de los proyectos de desarrollo de software es debido a:",
+            "opciones": [
+                "A. La mala gestión de los requisitos en la determinación del alcance en la fase inicial del proyecto y en la gestión de los cambios del alcance una vez está el proyecto en ejecución",
+                "B. La falta de buenos desarrolladores en las tecnologías modernas",
+                "C. Es difícil realizar una estimación del esfuerzo del proyecto porque las métricas estaban enfocadas a líneas de código en lenguajes estructurados pero en la actualidad es imposible realizar estimaciones análogas con lenguajes modernos (no tiene sentido medir líneas de código en Java)",
+                "D. Se abusa de la subcontratación del software y se realiza mala gestión de proyectos por dicha causa"
+            ],
+            "opcion_correcta": "A. La mala gestión de los requisitos en la determinación del alcance en la fase inicial del proyecto y en la gestión de los cambios del alcance una vez está el proyecto en ejecución",
+            "justificacion": "La opción A es correcta porque el alcance mal definido o no controlado genera \"scope creep\", desalineando entregables con expectativas y provocando retrasos y sobrecostes. El documento enfatiza que la \"Gestión del Alcance\" (1.5.2) se enfoca primordialmente en definir y controlar qué se incluye y qué no, y en gestionar cambios mediante procesos integrados, lo cual es crítico para evitar el fracaso en proyectos de software donde los requisitos evolucionan constantemente.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.2 LA GESTIÓN DEL ALCANCE DEL PROYECTO. Primera oración del párrafo relevante: \"LA GESTIÓN DEL ALCANCE DEL PROYECTO\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "PMI es:",
+            "opciones": [
+                "A. Un Instituto de Gestión de Proyectos",
+                "B. Una guía de gestión de procesos",
+                "C. Una titulación universitaria",
+                "D. Un conjunto de buenas prácticas"
+            ],
+            "opcion_correcta": "A. Un Instituto de Gestión de Proyectos",
+            "justificacion": "La opción A es correcta porque PMI (Project Management Institute) es la organización profesional internacional que desarrolla y publica estándares como el PMBOK Guide, además de gestionar certificaciones. El documento hace referencia constante a los marcos y procesos del PMI (PMBOK v6), estructurando su contenido alrededor de sus grupos de procesos y áreas de conocimiento, lo que valida a PMI como el organismo rector de la disciplina.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.4 LOS PROCESOS DE LA DIRECCIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"LOS PROCESOS DE LA DIRECCIÓN DE PROYECTOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Cuál de las siguientes NO es una cuestión a evaluar en un análisis de coste-beneficio de un proyecto TIC en una administración",
+            "opciones": [
+                "A. Capacidad técnica",
+                "B. Capacidad organizacional",
+                "C. Capacidad económica",
+                "D. Capacidad subcontratable"
+            ],
+            "opcion_correcta": "D. Capacidad subcontratable",
+            "justificacion": "La opción D es correcta porque la capacidad de subcontratación es una decisión operativa o táctica, no un criterio fundamental del análisis coste-beneficio estratégico. Este análisis evalúa viabilidad técnica, organizacional y económica para justificar la inversión pública. El documento vincula estas evaluaciones con la \"Planificación Estratégica\" y la \"Gestión de Recursos\" (2.5), donde se priorizan iniciativas según su alineación con objetivos institucionales y disponibilidad real de recursos internos antes de considerar externalizaciones.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.5 LA GESTIÓN DE LOS RECURSOS Y EL SEGUIMIENTO DE LOS PROYECTOS. Primera oración del párrafo relevante: \"LA GESTIÓN DE LOS RECURSOS Y EL SEGUIMIENTO DE LOS PROYECTOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "En desarrollo de proyectos, el registro de impactos de la adaptación a un proceso es una actividad incluída en la fase de procesos de:",
+            "opciones": [
+                "A. Información.",
+                "B. Cierre.",
+                "C. Monitorización y Control.",
+                "D. Ejecución."
+            ],
+            "opcion_correcta": "B. Cierre.",
+            "justificacion": "La opción B es correcta porque documentar lecciones aprendidas, ajustes de procesos y el impacto final de las decisiones corresponde a la fase de cierre. El documento especifica que \"Cerrar Proyecto o Fase\" incluye actualizaciones a los activos de procesos de la organización, bases de datos de lecciones aprendidas y plantillas, garantizando que la experiencia acumulada se institucionalice para proyectos futuros.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.1.6 CERRAR EL PROYECTO O FASE. Primera oración del párrafo relevante: \"CERRAR EL PROYECTO O FASE\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Indique la respuesta incorrecta: de cara a la toma de decisiones, la información de un sistema de información debe…",
+            "opciones": [
+                "A. Ser precisa y libre de errores.",
+                "B. Ser relevante.",
+                "C. Ser verificable.",
+                "D. Tener gran nivel de detalle."
+            ],
+            "opcion_correcta": "D. Tener gran nivel de detalle.",
+            "justificacion": "La opción D es correcta porque, para la toma de decisiones efectiva, la información debe ser síntesis y filtrada; un exceso de detalle genera saturación cognitiva y dificulta la identificación de patrones clave. El documento aborda la \"Toma de Decisiones\" (2.6) y el papel de los sistemas de información como apoyo, destacando que la calidad informativa para directivos se basa en precisión, relevancia y verificabilidad, no en volumen bruto de datos.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.6 LA TOMA DE DECISIONES. Primera oración del párrafo relevante: \"LA TOMA DE DECISIONES\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Señalar la respuesta correcta si hablamos de eficacia y eficiencia en los proyectos de tecnologías de la información:",
+            "opciones": [
+                "A. La eficiencia de un sistema es la medida de la correcta utilización de equipos, instalaciones y personal que participa en él.",
+                "B. La eficacia de un sistema es la medida de la correcta utilización de equipos, instalaciones y personal que participan en él.",
+                "C. La eficiencia es la medida del cumplimiento de los objetivos del organismo y de los requisitos de los usuarios.",
+                "D. La eficacia óptima se logra cuando se alcanzan los objetivos de los usuarios con los mínimos recursos posibles."
+            ],
+            "opcion_correcta": "A. La eficiencia de un sistema es la medida de la correcta utilización de equipos, instalaciones y personal que participa en él.",
+            "justificacion": "La opción A es correcta porque define con precisión el concepto de eficiencia como la optimización en el uso de recursos (humanos, técnicos y materiales) durante la ejecución del proyecto. En el documento, este principio se vincula funcionalmente con la Gestión de Recursos Humanos y la Gestión de Costes, donde se busca maximizar el rendimiento operativo sin comprometer la calidad. La eficacia, por su parte, se relaciona con el cumplimiento de objetivos y requisitos definidos en el alcance, no con la mera utilización de recursos.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.5.1.1 LA GESTIÓN DE LOS RECURSOS HUMANOS. Primera oración del párrafo relevante: \"LA GESTIÓN DE LOS RECURSOS HUMANOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "La matriz de la asignación de responsabilidades que se utiliza generalmente en la gestión de proyectos para relacionar actividades con recursos es:",
+            "opciones": [
+                "A. Deming",
+                "B. Extrapolación",
+                "C. DAFO",
+                "D. RACI"
+            ],
+            "opcion_correcta": "D. RACI",
+            "justificacion": "La opción D es correcta porque la Matriz RACI (Responsible, Accountable, Consulted, Informed) es la herramienta estándar para asignar y clarificar roles dentro del equipo del proyecto. Se alinea directamente con los procesos de \"Dirigir el Equipo del Proyecto\" y \"Gestionar la Participación de los Interesados\", donde se requiere mapear quién ejecuta, aprueba, consulta o informa sobre cada actividad, garantizando una estructura organizativa clara y evitando solapamientos funcionales.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.6.4 DIRIGIR EL EQUIPO DEL PROYECTO. Primera oración del párrafo relevante: \"DIRIGIR EL EQUIPO DEL PROYECTO\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Un Jefe de Proyecto ha elaborado un borrador del Plan de Gestión de un proyecto de software. ¿Cuáles de los siguientes elementos deben ser tratados en ese plan? I) Calendario. II) Presupuesto. III) Requisitos del software. IV) Personal.",
+            "opciones": [
+                "A. I, III y IV.",
+                "B. I, II y III.",
+                "C. I, II y IV.",
+                "D. I, II, III y IV."
+            ],
+            "opcion_correcta": "C. I, II y IV.",
+            "justificacion": "La opción C es correcta porque el Plan de Dirección del Proyecto integra los planes secundarios de cronograma (I), coste/presupuesto (II) y recursos humanos/personal (IV). Los requisitos del software (III) se documentan específicamente en la \"Documentación de Requisitos\" y la \"Matriz de Trazabilidad\", que son entregables de entrada para la planificación, pero no forman parte estructural del plan de gestión general según la arquitectura de áreas de conocimiento del documento.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.1.2 DESARROLLAR EL PLAN PARA LA DIRECCIÓN DEL PROYECTO. Primera oración del párrafo relevante: \"DESARROLLAR EL PLAN PARA LA DIRECCIÓN DEL PROYECTO\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Cuál de las siguientes es la definición de proyecto según la norma UNE 157801?",
+            "opciones": [
+                "A. «Un proyecto es un conjunto único de procesos que consta de actividades coordinadas y controladas, con fechas de inicio y fin, que se llevan a cabo para lograr los objetivos del proyecto.»",
+                "B. «Conjunto de actividades planificadas, coordinadas, controladas, presupuestadas y documentadas con fechas de comienzo y finalización que se emprende para alcanzar unos objetivos conforme a requisitos específicos, por una organización temporal adaptada a sus necesidades».",
+                "C. «Conjunto de actividades planificadas, coordinadas, controladas, presupuestadas y documentadas sin una fecha concreta que se emprende para alcanzar unos objetivos conforme a requisitos específicos, por una organización temporal adaptada a sus necesidades».",
+                "D. «Un proyecto es un conjunto único de procesos que consta de actividades coordinadas y controladas, sin una fecha concreta, que se llevan a cabo para lograr los objetivos del proyecto.»"
+            ],
+            "opcion_correcta": "B. «Conjunto de actividades planificadas, coordinadas, controladas, presupuestadas y documentadas con fechas de comienzo y finalización que se emprende para alcanzar unos objetivos conforme a requisitos específicos, por una organización temporal adaptada a sus necesidades».",
+            "justificacion": "La opción B es correcta porque coincide con la definición normativa adaptada al contexto español, que enfatiza la naturaleza temporal, la planificación estructurada, el presupuesto y la adaptación organizativa. Esta descripción refleja fielmente el concepto expuesto en el documento, donde un proyecto se define como un conjunto de actividades interrelacionadas y temporales destinadas a obtener un resultado preestablecido bajo recursos y responsabilidades definidas.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.1 INTRODUCCIÓN: ¿QUÉ ES UN PROYECTO? Primera oración del párrafo relevante: \"La Real Academia de la Lengua define “proyecto” como “Conjunto de escritos, cálculos y dibujos que se hacen para dar idea de cómo ha de ser y lo que ha de costar una obra de arquitectura o de ingeniería” o “Primer esquema o plan de cualquier trabajo que se hace a veces como prueba antes de darle la forma definitiva”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "En su libro «La estructura de las organizaciones» Mintzberg describe las organizaciones matriciales y señala diversos factores que las identifican. ¿Cuál de los siguientes no corresponde a estos factores?",
+            "opciones": [
+                "A. Elevada tendencia a disgregar a los especialistas en unidades funcionales en lo que corresponde a asuntos internos.",
+                "B. Estructura sumamente orgánica con escasa formalización del comportamiento.",
+                "C. Elevada especialización del puesto basada en una preparación formal.",
+                "D. Uso de dispositivos de enlace para fomentar la adaptación mutua."
+            ],
+            "opcion_correcta": "A. Elevada tendencia a disgregar a los especialistas en unidades funcionales en lo que corresponde a asuntos internos.",
+            "justificacion": "La opción A es correcta porque las organizaciones matriciales se caracterizan precisamente por *integrar* y cruzar líneas funcionales con proyectos, no por disgregar a los especialistas. El documento aborda el entorno organizativo y la gestión de equipos, destacando que la estructura matricial busca equilibrar la especialización funcional con la orientación al proyecto mediante dispositivos de enlace y coordinación, evitando la fragmentación interna mencionada en la opción incorrecta.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.3 EL ENTORNO ORGANIZATIVO. Primera oración del párrafo relevante: \"EL ENTORNO ORGANIZATIVO\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Según el modelo de evolución de la informática en las organizaciones propuesto por Richard L. Nolan, ¿cómo se denomina la etapa en la que la empresa implanta políticas y procedimientos formales para controlar el uso de los recursos de TI?",
+            "opciones": [
+                "A. Contagio o expansión.",
+                "B. Control o formalización.",
+                "C. Integración.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Control o formalización.",
+            "justificacion": "La opción B es correcta porque la etapa de \"Control\" o \"Formalización\" en el modelo de Nolan corresponde al momento en que las organizaciones dejan de adoptar TI de forma ad-hoc y comienzan a implementar políticas, presupuestos formales y procedimientos de control para gestionar los recursos tecnológicos. Esto se alinea con la planificación estratégica y la gestión de recursos descrita en el documento, donde se prioriza la madurez organizativa antes de pasar a fases de integración avanzada.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.5 LA GESTIÓN DE LOS RECURSOS Y EL SEGUIMIENTO DE LOS PROYECTOS. Primera oración del párrafo relevante: \"LA GESTIÓN DE LOS RECURSOS HUMANOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "La contratación de un proyecto de tecnologías de la información en un ministerio se ha realizado incluyendo un Acuerdo de Nivel de Servicio con una fecha cerrada de entrega de los trabajos. El contratista se va a retrasar por problemas con sus recursos humanos asignados al proyecto. El Jefe de Proyecto debe:",
+            "opciones": [
+                "A. Proporcionar los recursos humanos, reclutándolos si es preciso del personal del ministerio, que necesita el contratista para que acabe a tiempo el proyecto",
+                "B. Informar a los interesados del proyecto de la demora del proyecto y el sobrecoste que tendrá el mismo sobre el precio contratado",
+                "C. Disponer de más fondos para pagar al contratista a fin de que acabe antes el proyecto",
+                "D. Informar a las partes interesadas del proyecto de la demora del mismo por causa del contratista para la gestión del riesgo asociado, y a los responsables del expediente de contratación de la penalización a aplicar al contratista por no finalizar en tiempo"
+            ],
+            "opcion_correcta": "D. Informar a las partes interesadas del proyecto de la demora del mismo por causa del contratista para la gestión del riesgo asociado, y a los responsables del expediente de contratación de la penalización a aplicar al contratista por no finalizar en tiempo",
+            "justificacion": "La opción D es correcta porque se ajusta al proceso de \"Controlar los Riesgos\" y a la gestión contractual. Según el documento, este proceso implica informar periódicamente al director sobre la eficacia del plan, ejecutar planes de contingencia o reservas, y gestionar acciones correctivas. Además, las salidas incluyen actualizaciones a documentos y activos de procesos, así como la comunicación formal a responsables para aplicar penalizaciones contractuales cuando el incumplimiento es atribuible al proveedor, garantizando la trazabilidad y el control del riesgo asociado.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.8.6 CONTROLAR LOS RIESGOS. Primera oración del párrafo relevante: \"CONTROLAR LOS RIESGOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "El presupuesto de un proyecto informático nunca se calcula en base a:",
+            "opciones": [
+                "A. Aproximaciones lineales de proyectos diferentes",
+                "B. Proyectos similares previos abordados por la organización",
+                "C. Consultas a empresas significativas del mercado",
+                "D. Costes separados de inversión en máquinas, licencias de software y meses/hombre"
+            ],
+            "opcion_correcta": "A. Aproximaciones lineales de proyectos diferentes",
+            "justificacion": "La opción A es correcta porque los presupuestos de proyectos TIC requieren estimaciones estructuradas (análogas, paramétricas, bottom-up o basadas en mercado) que consideren el alcance específico, recursos y riesgos. Las aproximaciones lineales entre proyectos diferentes carecen de rigor técnico y no reflejan la complejidad real, contradiciendo los procesos de \"Estimar el Coste\" y \"Determinar el Presupuesto\", que exigen desglosar actividades, recursos y contingencias para garantizar una línea base financiera fiable.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.4.3 DETERMINAR EL PRESUPUESTO. Primera oración del párrafo relevante: \"DETERMINAR EL PRESUPUESTO\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Señale cuál es la opción correcta:",
+            "opciones": [
+                "A. La gestión de proyectos conlleva un control que acaba produciendo la imposibilidad de conocer los problemas que se producen en un sistema de información.",
+                "B. A través de la gestión de proyectos es imposible anticiparse y evitar desviaciones temporales y económicas.",
+                "C. La gestión de proyectos tiene como finalidad principal la planificación, el seguimiento y control de las actividades y de los recursos humanos y materiales que intervienen en el desarrollo de un sistema de información.",
+                "D. El objetivo de la gestión de proyectos es resolver las peticiones de mantenimiento que los usuarios realizan con motivo de un problema detectado en el sistema de información o por la necesidad de mejora del mismo."
+            ],
+            "opcion_correcta": "C. La gestión de proyectos tiene como finalidad principal la planificación, el seguimiento y control de las actividades y de los recursos humanos y materiales que intervienen en el desarrollo de un sistema de información.",
+            "justificacion": "La opción C es correcta porque define con precisión el propósito central de la dirección y gestión de proyectos: planificar, ejecutar, monitorear y controlar actividades y recursos para garantizar la entrega exitosa. El documento enfatiza que los procesos interactúan continuamente para asegurar la disponibilidad de información necesaria para la toma de decisiones, la reasignación de recursos y el seguimiento integrado, descartando las afirmaciones negativas de las opciones A y B, mientras que la D corresponde a operaciones de mantenimiento, no a gestión de proyectos.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.4 LOS PROCESOS DE LA DIRECCIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"INTERACCIONES ENTRE LOS PROCESOS DE DIRECCIÓN DE PROYECTOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿En qué fase del proyecto es mayor el nivel de coste y de personal?",
+            "opciones": [
+                "A. Al inicio del proyecto.",
+                "B. Al final del proyecto.",
+                "C. En las fases intermedias del proyecto.",
+                "D. Tanto el coste como el personal debe ser homogéneo a lo largo del proyecto."
+            ],
+            "opcion_correcta": "C. En las fases intermedias del proyecto.",
+            "justificacion": "La opción C es correcta porque refleja la curva típica del ciclo de vida del proyecto: el inicio requiere planificación y arranque (coste/personal moderado), las fases intermedias (ejecución/implantación) concentran la mayor dedicación de recursos y gastos operativos, y el cierre reduce progresivamente la actividad. El documento hace referencia explícita a esta evolución mediante el gráfico que ilustra cómo la dedicación de personal y el coste alcanzan su pico durante la ejecución central del proyecto antes de la transición al cierre.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.3.4 EL CICLO DE VIDA DEL PROYECTO. Primera oración del párrafo relevante: \"EL CICLO DE VIDA DEL PROYECTO\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "A raíz del escándalo ENRON se vio el problema de que la misma empresa realizara la Auditoría y Consultoría. Los Auditores a veces no «contaban» todo lo que veían porque las situaciones con las que se encontraban habían sido fruto del trabajo de sus compañeros consultores. La diferencia entre auditor y consultor era de lo más difuso (A veces eran los mismos). Cuál de estas cuatro tesis es la correcta:",
+            "opciones": [
+                "A. En la Auditoría Informática el interés del cliente no es objeto del informe. Estamos hablando de una revisión, análisis, evaluación orientada a describir una situación. Es lícito realizar una Auditoría Informática pensando en la Consultoría que va a venir puesto que la detección de un problema es la antesala de una propuesta de solución",
+                "B. En la Auditoría Informática hay que anteponer el interés del cliente al de los consultores. Una Auditoría Informática emite un informe escrito que resume una situación desde un punto de vista independiente. No obstante las empresas son entes flexibles, por lo que la Auditoría no debe cargar las tintas en problemas sencillos que se pueden arreglar con sencillas consultorías hechas por los mismos auditores",
+                "C. En la Auditoría Informática hay que anteponer el interés del cliente al de los consultores. Una Auditoría Informática emite un informe escrito que resume una situación desde un punto de vista independiente, mientras que una Consultoría suele requerir mayor pronunciamiento y mejor definición de las soluciones",
+                "D. Auditoría y Consultoría deben estar perfectamente divididos, deben llevarla diferentes empresas y diferentes personas"
+            ],
+            "opcion_correcta": "C. En la Auditoría Informática hay que anteponer el interés del cliente al de los consultores. Una Auditoría Informática emite un informe escrito que resume una situación desde un punto de vista independiente, mientras que una Consultoría suele requerir mayor pronunciamiento y mejor definición de las soluciones",
+            "justificacion": "La opción C es correcta porque la esencia de la auditoría informática radica en la independencia objetiva y la emisión de un informe imparcial que diagnostica la situación real sin asumir roles de resolución. Tras el escándalo Enron, se estableció que la consultoría (que propone soluciones y asume riesgos operativos) debe estar separada funcionalmente de la auditoría (que verifica cumplimiento y calidad). Esto se alinea con los procesos de aseguramiento de calidad del documento, donde las auditorías sirven para verificar que se cumplen normas y requisitos sin conflicto de intereses.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.5.2 REALIZAR EL ASEGURAMIENTO DE CALIDAD. Primera oración del párrafo relevante: \"Es el proceso que consiste en auditar los requisitos de calidad y los resultados de las mediciones de control de calidad, para asegurar que se utilicen las normas de calidad y las\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Según la Guía de PMBOK v.6, el proceso de Definir las Actividades se encuentra dentro del área:",
+            "opciones": [
+                "A. Gestión del Alcance del Proyecto.",
+                "B. Gestión del Cronograma del Proyecto.",
+                "C. Gestión de la Integración del Proyecto.",
+                "D. Gestión de las Adquisiciones del Proyecto."
+            ],
+            "opcion_correcta": "B. Gestión del Cronograma del Proyecto.",
+            "justificacion": "La opción B es correcta porque, en PMBOK v6, \"Definir las Actividades\" pertenece explícitamente al área de conocimiento de Gestión del Cronograma. Su función es identificar y documentar las acciones específicas necesarias para producir los entregables del proyecto, sirviendo como base para secuenciar, estimar recursos y duraciones. El documento refleja esta estructura en su índice, ubicando este proceso dentro del grupo de planificación del cronograma.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3.2 DEFINIR LAS ACTIVIDADES. Primera oración del párrafo relevante: \"DEFINIR LAS ACTIVIDADES\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "No forma parte de la Gestión del Alcance de un proyecto según PMBOK:",
+            "opciones": [
+                "A. Validar el alcance.",
+                "B. Identificar el alcance.",
+                "C. Recopilar requisitos.",
+                "D. Controlar el alcance."
+            ],
+            "opcion_correcta": "B. Identificar el alcance.",
+            "justificacion": "La opción B es correcta porque \"Identificar el alcance\" no es un proceso estandarizado en PMBOK. Las áreas de conocimiento utilizan terminología específica: se \"Recopilan Requisitos\", se \"Define el Alcance\", se \"Crea la EDT/WBS\", se \"Valida el Alcance\" y se \"Controla el Alcance\". El documento enumera explícitamente estos procesos en el apartado 1.5.2, confirmando que la gestión del alcance se centra en definir, validar y controlar lo incluido/excluido, no en un proceso llamado \"identificar\".",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.2 LA GESTIÓN DEL ALCANCE DEL PROYECTO. Primera oración del párrafo relevante: \"LA GESTIÓN DEL ALCANCE DEL PROYECTO\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Indique cuál NO es una técnica de planificación temporal:",
+            "opciones": [
+                "A. WBS (Work Breakdown Structure)",
+                "B. PERT (Program Evaluation and Review Technique)",
+                "C. Diagrama de Gantt",
+                "D. CPM (Critical Path Method)"
+            ],
+            "opcion_correcta": "A. WBS (Work Breakdown Structure)",
+            "justificacion": "La opción A es correcta porque la WBS (Estructura de Descomposición del Trabajo) es una herramienta de gestión del alcance, no del cronograma. Su propósito es descomponer jerárquicamente el trabajo total del proyecto en componentes manejables, sin implicar necesariamente secuencias temporales ni duraciones. Las técnicas PERT, Gantt y CPM son metodologías específicas para secuenciar actividades, calcular rutas críticas y visualizar plazos temporales.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.2.4 CREAR LA EDT/WBS. Primera oración del párrafo relevante: \"Es el proceso de subdividir los entregables y el trabajo del proyecto en componentes más pequeños y más fáciles de manejar.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "La Estructura de Desglose de Trabajo (EDT):",
+            "opciones": [
+                "A. Es creada por el patrocinador del proyecto y los interesados.",
+                "B. Representa todo el trabajo que debe ser hecho en el proyecto.",
+                "C. Representa en cada ítem una característica del alcance del prodcuto.",
+                "D. Contiene paquetes de trabajo que son descritos en una lista lineal y no estructurada."
+            ],
+            "opcion_correcta": "B. Representa todo el trabajo que debe ser hecho en el proyecto.",
+            "justificacion": "La opción B es correcta porque la EDT/WBS es una descomposición jerárquica del alcance total del trabajo que debe acometer el equipo del proyecto para cumplir sus objetivos. No se limita a características del producto, sino que abarca todo el trabajo necesario (incluyendo gestión y administración), y su estructura es jerárquica, no lineal. El documento la define explícitamente como la representación completa del trabajo requerido.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.2.4 CREAR LA EDT/WBS. Primera oración del párrafo relevante: \"Es el proceso de subdividir los entregables y el trabajo del proyecto en componentes más pequeños y más fáciles de manejar.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Cuál de las siguientes NO es una salida del proceso de Selección de Vendedores dentro de la Gestión de las Adquisiciones del Proyecto?",
+            "opciones": [
+                "A. Contrato.",
+                "B. Plan de gestión del contrato.",
+                "C. Disponibilidad de recursos.",
+                "D. Lista de vendedores calificados."
+            ],
+            "opcion_correcta": "D. Lista de vendedores calificados.",
+            "justificacion": "La opción D es correcta porque, en PMBOK, la \"Lista de Vendedores Calificados\" (o Evaluaciones de Vendedores) es una salida del proceso de *Planificar* las Adquisiciones o *Efectuar* las Adquisiciones según la versión, pero no se considera una salida directa y formal del proceso de Selección/Adjudicación en el contexto de entregables contractuales. Las salidas clave son el contrato firmado, el plan de gestión del contrato y los cambios aprobados. La disponibilidad de recursos es un insumo o resultado de la gestión de recursos humanos, no un producto de la selección de proveedores.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.9.2 EFECTUAR LAS ADQUISICIONES. Primera oración del párrafo relevante: \"EFECTUAR LAS ADQUISICIONES\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "La estrategia de comunicación de un nuevo proyecto estratégico TIC NO debe:",
+            "opciones": [
+                "A. Posponerse a la puesta en producción del proyecto sin incidencias significativas.",
+                "B. Presentar prototipos que muestren la evolución del desarrollo ya realizado.",
+                "C. Diseñar una campaña de difusión y promoción del proyecto.",
+                "D. Asegurar la implicación de representantes de todas las unidades afectadas."
+            ],
+            "opcion_correcta": "A. Posponerse a la puesta en producción del proyecto sin incidencias significativas.",
+            "justificacion": "La opción A es correcta porque la gestión de comunicaciones y participación de interesados debe ser continua, proactiva y adaptativa a lo largo de todo el ciclo de vida del proyecto. Posponerla hasta la producción genera resistencia al cambio, desalineación de expectativas y riesgo de rechazo organizacional. El documento enfatiza que gestionar la participación implica informar, involucrar y monitorear expectativas desde las fases iniciales para asegurar el éxito del entregable final.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.10.3 GESTIONAR LA PARTICIPACIÓN DE LOS INTERESADOS. Primera oración del párrafo relevante: \"GESTIONAR LA PARTICIPACIÓN DE LOS INTERESADOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Señale cuál de los siguientes no puede considerarse un riesgo que puede limitar el éxito un proyecto de ingeniería de software:",
+            "opciones": [
+                "A. Excesiva rotación de personal en la división encargada del desarrollo",
+                "B. Al servidor de Eclipse le falta un parche de seguridad y pueden atacarlo",
+                "C. El cliente no habla nuestro idioma ni el inglés y tenemos un traductor no muy experto, a menudo hay confusión entre lo que nos pide y lo que entendemos",
+                "D. Se va a usar una tecnología de desarrollo de la que apenas haya conocimiento y referencia de proyectos exitosos con la misma"
+            ],
+            "opcion_correcta": "B. Al servidor de Eclipse le falta un parche de seguridad y pueden atacarlo",
+            "justificacion": "La opción B es correcta porque un fallo de seguridad en el entorno de desarrollo (IDE) es un riesgo operativo/infraestructural puntual, no un riesgo estratégico o de gestión de proyecto que afecte directamente al alcance, cronograma, coste o calidad del entregable final. Los riesgos listados en A, C y D son clásicos de ingeniería de software: rotación de talento, barreras comunicativas con interesados y adopción de tecnologías inmaduras, todos los cuales impactan directamente en la viabilidad y éxito del proyecto según los procesos de identificación y análisis de riesgos.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.8.2 IDENTIFICAR LOS RIESGOS. Primera oración del párrafo relevante: \"IDENTIFICAR LOS RIESGOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "En la planificación de un Proyecto lo cierto es:",
+            "opciones": [
+                "A. El diagrama de Gantt expresa el camino crítico",
+                "B. Una tarea no perteneciente al camino crítico puede retrasar la finalización del proyecto",
+                "C. En el diagrama de PERT los arcos no son dirigidos",
+                "D. El gráfico de Gantt se basa en la representación de restricciones"
+            ],
+            "opcion_correcta": "B. Una tarea no perteneciente al camino crítico puede retrasar la finalización del proyecto",
+            "justificacion": "La opción B es correcta porque cualquier actividad con holgura total agotada (o que se convierta en crítica debido a retrasos acumulados) puede afectar la fecha final del proyecto, incluso si inicialmente no estaba en la ruta crítica. El diagrama de Gantt visualiza duraciones y solapamientos, pero el camino crítico se calcula mediante análisis de red (CPM/PERT). Los arcos en PERT sí son dirigidos, y el Gantt se basa en fechas/duraciones, no exclusivamente en restricciones lógicas.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3.6 DESARROLLAR EL CRONOGRAMA. Primera oración del párrafo relevante: \"DESARROLLAR EL CRONOGRAMA\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "En la realización del análisis estratégico de una organización cuál es la afirmación errónea:",
+            "opciones": [
+                "A. El análisis DAFO se utiliza para definir el tipo de estrategia que debe adoptar una empresa y las acciones a tomar después de haber realizado un diagnóstico e identificado con un análisis PEST los aspectos clave que la caracterizan.",
+                "B. Lo que persigue el análisis CAME es, fundamentalmente, corregir las debilidades, afrontar las amenazas, mantener las fortalezas y explotar las oportunidades.",
+                "C. Uno de los enfoques más habituales para la realización del análisis del entorno general es la metodología PEST, que consiste en analizar sus aspectos políticos, económicos, sociales y tecnológicos.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. El análisis DAFO se utiliza para definir el tipo de estrategia que debe adoptar una empresa y las acciones a tomar después de haber realizado un diagnóstico e identificado con un análisis PEST los aspectos clave que la caracterizan.",
+            "justificacion": "La opción A es correcta porque el análisis DAFO (FODA) es una herramienta de diagnóstico que cruza factores internos y externos, pero no *define* por sí sola la estrategia ni las acciones posteriores; eso corresponde a la fase de determinación de estrategias y planificación operativa. El documento sitúa el DAFO dentro del análisis estratégico previo, mientras que la definición de estrategias y la concreción en planes operativos se realizan en fases posteriores (2.4.3 y 2.4.4), validando que la afirmación A confunde diagnóstico con formulación estratégica.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.4.2 EL ANÁLISIS ESTRATÉGICO. Primera oración del párrafo relevante: \"EL ANÁLISIS DEL ENTORNO\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Cuál de las siguientes NO es una característica de un objetivo SMART?",
+            "opciones": [
+                "A. Específico",
+                "B. Medible",
+                "C. Alcanzable",
+                "D. Transparente"
+            ],
+            "opcion_correcta": "D. Transparente",
+            "justificacion": "La opción D es correcta porque el acrónimo SMART hace referencia a objetivos Específicos, Medibles, Alcanzables, Realistas y Acotados en el tiempo. \"Transparente\" no forma parte de este modelo metodológico. El documento define explícitamente la metodología SMART Planning como aquella que asegura que los objetivos sean \"específicos, medibles, alcanzables, realistas y acotados en el tiempo\", descartando cualquier característica ajena a esta definición funcional para la planificación operativa.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.4 EL PROCESO DE ELABORACIÓN DEL PLAN ESTRATÉGICO. Primera oración del párrafo relevante: \"SMART Planning. Metodología de planificación orientada a la especificación de objetivos que sean realmente aplicables en un plan de acción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Se ha identificado la necesidad de desarrollar una nueva aplicación para mejorar el control de medicamentos de un grupo de pacientes. El jefe de proyecto reúne a su equipo y encarga a uno de los gestores de proyectos que realice las primeras tareas, aplicando la guía de PMBOK versión 6. ¿Cuál de las siguientes tareas deberá realizar en la fase de inicio del proyecto?",
+            "opciones": [
+                "A. Establecer una planificación para el proyecto.",
+                "B. Identificar los costes del proyecto.",
+                "C. Identificar los riesgos.",
+                "D. Identificar a los interesados."
+            ],
+            "opcion_correcta": "D. Identificar a los interesados.",
+            "justificacion": "La opción D es correcta porque, según la estructura de PMBOK v6 descrita en el documento, la fase de inicio se centra en establecer la definición formal del proyecto y obtener su autorización, siendo la identificación de interesados una actividad fundamental que debe realizarse tempranamente para gestionar expectativas y asegurar el compromiso. Las demás opciones (planificación, costes, riesgos) corresponden al Grupo de Procesos de Planificación o Monitorización, no a la fase inicial de arranque.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.4.2 GRUPO DE \"PROCESOS DE INICIO\". Primera oración del párrafo relevante: \"Los procesos de inicio establecen la definición formal del proyecto y obtienen la autorización para comenzar.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Cuál de las siguientes no es una fortaleza de PMBOK?",
+            "opciones": [
+                "A. Está orientada a sucesos.",
+                "B. Indica el conocimiento necesario para manejar el ciclo vital de cualquier proyecto a través de sus procesos.",
+                "C. Define para cada proceso sus entradas, herramientas, técnicas y reportes necesarios.",
+                "D. Define un cuerpo de conocimiento en el que cualquier industria pueda construir las mejores prácticas específicas para su área de aplicación."
+            ],
+            "opcion_correcta": "A. Está orientada a sucesos.",
+            "justificacion": "La opción A es correcta porque PMBOK está estructurado como un marco basado en procesos y grupos de procesos, no en sucesos aislados. El documento enfatiza la organización de los \"47 procesos de dirección de proyectos\" en cinco grupos interrelacionados (Inicio, Planificación, Ejecución, Monitorización y Cierre), lo que demuestra su enfoque sistémico y continuo sobre el ciclo de vida, descartando cualquier orientación hacia eventos o sucesos puntuales.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.4 LOS PROCESOS DE LA DIRECCIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"INTERACCIONES ENTRE LOS PROCESOS DE DIRECCIÓN DE PROYECTOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "El modelo de objetivos SMART determina que los objetivos deben cumplir con las siguientes características:",
+            "opciones": [
+                "A. Ser inteligentes y orientados a la consecución de proyectos.",
+                "B. Ser específicos, realistas, cuantificables, asignables a un responsable y alcanzables en el tiempo.",
+                "C. Ser realistas, amplios e integrales, referidos a la estrategia general de la organización.",
+                "D. Ser específicos y realistas y haber sido fijados por medio de un proceso de brainstorming realizado siguiendo un flujo bottom-up."
+            ],
+            "opcion_correcta": "B. Ser específicos, realistas, cuantificables, asignables a un responsable y alcanzables en el tiempo.",
+            "justificacion": "La opción B es correcta porque refleja fielmente los criterios funcionales del modelo SMART descritos en el documento: objetivos que sean específicos, medibles (cuantificables), alcanzables, realistas y acotados en el tiempo. Esta metodología se utiliza para concretar la planificación operativa y asegurar que las acciones planificadas sean aplicables y controlables dentro del ciclo de vida del proyecto.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.4 EL PROCESO DE ELABORACIÓN DEL PLAN ESTRATÉGICO. Primera oración del párrafo relevante: \"SMART Planning. Metodología de planificación orientada a la especificación de objetivos que sean realmente aplicables en un plan de acción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "El principio de W5HH de Barry Boehm se usa en:",
+            "opciones": [
+                "A. Planificación estratégica",
+                "B. Análisis DAFO",
+                "C. Gestión de proyectos software",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Gestión de proyectos software",
+            "justificacion": "La opción C es correcta porque el modelo W5HH (Who, What, Where, When, Why, How, How Much) es una técnica clásica de estimación y planificación aplicada específicamente en la gestión de proyectos de software para dimensionar recursos, alcance y costes. Se alinea con los procesos de dirección y gestión del trabajo descritos en el documento, donde se integran actividades de ejecución y planificación para obtener un servicio final, diferenciándose de las metodologías puramente estratégicas o de análisis organizacional.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.1.3 DIRIGIR Y GESTIONAR EL TRABAJO DEL PROYECTO. Primera oración del párrafo relevante: \"La dirección y gestión de proyectos en el marco PMBOK®, trata de aplicar e integrar adecuadamente –dependiendo del proyecto- los 47 “procesos de dirección de proyectos”...\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Las «Cuatro Ps» de la gestión eficaz de proyectos software según Pressman son:",
+            "opciones": [
+                "A. Producto, Proceso, Personal y Proyecto",
+                "B. Personal, Proyecto, Participación y Proceso",
+                "C. Participación, Proyecto, Proceso y Prisas",
+                "D. Principos, Personal, proyecto y Producto"
+            ],
+            "opcion_correcta": "A. Producto, Proceso, Personal y Proyecto",
+            "justificacion": "La opción A es correcta porque las Cuatro Ps de Pressman (Producto, Proceso, Personas/Personal y Proyecto) constituyen un marco fundamental para la gestión integral del desarrollo de software. Este enfoque se corresponde funcionalmente con las áreas de conocimiento del documento que abarcan la definición del alcance/producto, la planificación de procesos, la gestión de recursos humanos/personal y el control global del proyecto, asegurando un desempeño óptimo y un buen clima laboral.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.6 GESTIÓN DE RECURSOS HUMANOS DEL PROYECTO. Primera oración del párrafo relevante: \"PLANIFICAR LA GESTIÓN DE RECURSOS HUMANOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Qué tipo de dependencias utiliza el método ADM?",
+            "opciones": [
+                "A. Utiliza dependencias inicio a final y final a inicio.",
+                "B. Sólo utiliza dependencias de inicio a final.",
+                "C. Sólo utiliza dependencias de final a inicio.",
+                "D. Sólo utiliza dependencias final a final."
+            ],
+            "opcion_correcta": "C. Sólo utiliza dependencias de final a inicio.",
+            "justificacion": "La opción C es correcta porque el Método de Diagramación de Flechas (ADM) se basa exclusivamente en dependencias Final-Inicio (Finish-to-Start), donde una actividad no puede comenzar hasta que la anterior haya terminado completamente. Esta técnica se aplica directamente en los procesos de secuenciación y desarrollo del cronograma, permitiendo calcular rutas críticas y estimar duraciones de manera precisa dentro de la gestión del tiempo del proyecto.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3.3 SECUENCIAR LAS ACTIVIDADES. Primera oración del párrafo relevante: \"SECUENCIAR LAS ACTIVIDADES\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "La planificación estratégica de una unidad TIC no incluye:",
+            "opciones": [
+                "A. Misión y visión",
+                "B. Objetivos estratégicos",
+                "C. Venta del producto",
+                "D. Proyectos"
+            ],
+            "opcion_correcta": "C. Venta del producto",
+            "justificacion": "La opción C es correcta porque la planificación estratégica de una unidad TIC se centra en alinear la tecnología con los objetivos del negocio, definiendo misión, visión, objetivos estratégicos y proyectos/initiativas de mejora. La \"venta del producto\" corresponde a áreas comerciales o de marketing, no a la planificación estratégica interna ni a la dirección de proyectos tecnológicos descrita en el documento, que se enfoca en la obtención de servicios finales y la gestión de recursos organizacionales.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.4 EL PROCESO DE ELABORACIÓN DEL PLAN ESTRATÉGICO. Primera oración del párrafo relevante: \"EL NÚCLEO DEL PLAN: MISIÓN, VISIÓN Y VALORES\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Entre las técnicas de control del avance de los proyectos cabe citar:",
+            "opciones": [
+                "A. Informes de avance periódicos",
+                "B. Puntos de control al final de cada etapa",
+                "C. a) y b) son ciertas",
+                "D. a) y b) son falsas"
+            ],
+            "opcion_correcta": "C. a) y b) son ciertas",
+            "justificacion": "La opción C es correcta porque tanto los informes periódicos como los puntos de control o hitos son técnicas estándar de monitorización y control. El documento establece que la gestión del proyecto va encaminada a asegurar el \"control financiero, físico y de los recursos humanos\" y los \"tiempos de ejecución óptimos\", lo cual se logra mediante el seguimiento continuo del desempeño, la distribución de información y la evaluación en fases definidas del ciclo de vida.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.1.4 MONITORIZAR Y CONTROLAR EL TRABAJO DEL PROYECTO. Primera oración del párrafo relevante: \"MONITORIZAR Y CONTROLAR EL TRABAJO DEL PROYECTO\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Elija la afirmación correcta, de entre las siguientes, respecto a la gestión de riesgos, tal y como se entiende en el ámbito de la gestión de proyectos:",
+            "opciones": [
+                "A. Es un procedimiento. orientado a gestionar los riesgos, con el objetivo de que éstos desaparezcan, en todos los casos, completamente.",
+                "B. Es un proceso sistemático orientado a eliminar, antes de que se conozca, cualquier riesgo que pueda aparecer en el proyecto.",
+                "C. Es un proceso sistemático orientado a gestionar los riesgos de manera que se adecúen a la postura de riesgo de la organización.",
+                "D. Es un elemento que tiene escasa importancia y no hay que prestarle atención en el ámbito del proyecto, ya que será la organización cliente quien gestionará los riesgos de este."
+            ],
+            "opcion_correcta": "C. Es un proceso sistemático orientado a gestionar los riesgos de manera que se adecúen a la postura de riesgo de la organización.",
+            "justificacion": "La opción C es correcta porque la gestión de riesgos no busca eliminar todos los riesgos (lo cual es imposible), sino identificarlos, analizarlos y planificar respuestas para mitigar amenazas o aprovechar oportunidades según la tolerancia y prioridad organizacional. El documento describe el proceso de \"Planificar la respuesta a los riesgos\" como el desarrollo de opciones para mejorar oportunidades y reducir amenazas en función de su prioridad, introduciendo recursos en el presupuesto y alineándose con la postura de riesgo definida por la organización.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.8.5 PLANIFICAR LA RESPUESTA A LOS RIESGOS. Primera oración del párrafo relevante: \"Planificar la respuesta a los riesgos Es el proceso de desarrollar opciones y acciones para mejorar las oportunidades y reducir las amenazas a los objetivos del proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "En el modelo CMMI, ¿qué área de proceso establece la trazabilidad entre requisitos y otros productos de trabajo del proyecto?",
+            "opciones": [
+                "A. Gestión de requerimientos (REQM)",
+                "B. Validación (VAL)",
+                "C. Verificación (VER).",
+                "D. Solución Técnica (TS)"
+            ],
+            "opcion_correcta": "A. Gestión de requerimientos (REQM)",
+            "justificacion": "La opción A es correcta porque la Gestión de Requerimientos (REQM) en modelos de mejora de procesos como CMMI se encarga específicamente de establecer y mantener la trazabilidad bidireccional entre los requisitos del negocio/usuario y los productos de trabajo derivados (diseño, código, pruebas). Esto se alinea funcionalmente con el proceso de **Recopilar Requisitos** y la gestión del alcance descrita en el documento, donde se documentan los entregables y se mantiene una matriz de trazabilidad para garantizar que el proyecto incluya únicamente el trabajo necesario.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.2.2 RECOPILAR REQUISITOS. Primera oración del párrafo relevante: \"RECOPILAR REQUISITOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "NO es un estilo de dirección de proyectos:",
+            "opciones": [
+                "A. Burocrático",
+                "B. Dejar hacer",
+                "C. Dejar pasar",
+                "D. Autocrático"
+            ],
+            "opcion_correcta": "C. Dejar pasar",
+            "justificacion": "La opción C es correcta porque \"Dejar pasar\" no constituye un estilo de liderazgo o dirección reconocido en la gestión de proyectos ni en los marcos organizativos estándar. Los estilos típicos incluyen el autocrático, democrático/participativo (dejar hacer) y burocrático/funcional. El documento aborda la dirección del equipo y la influencia sobre el mismo dentro de los procesos de **Gestión de Recursos Humanos**, donde se enfatiza la planificación, adquisición y desarrollo del equipo para optimizar su desempeño.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.6.4 DIRIGIR EL EQUIPO DEL PROYECTO. Primera oración del párrafo relevante: \"DIRIGIR EL EQUIPO DEL PROYECTO\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Indicar cuál de las siguientes opciones NO es un área de conocimiento de la Dirección de Proyectos según la guía PMBOK:",
+            "opciones": [
+                "A. Gestión de la integración del Proyecto.",
+                "B. Gestión del alcance del Proyecto.",
+                "C. Gestión de la monitorización y control del Proyecto.",
+                "D. Gestión de los riesgos del Proyecto."
+            ],
+            "opcion_correcta": "C. Gestión de la monitorización y control del Proyecto.",
+            "justificacion": "La opción C es correcta porque \"Monitorización y Control\" es un **grupo de procesos**, no un área de conocimiento. El documento refleja esta distinción estructuralmente: el índice separa claramente los \"Grupos de Procesos\" (Inicio, Planificación, Ejecución, Monitorización y Control, Cierre) en la sección 1.4, mientras que las \"Áreas de Conocimiento\" (Integración, Alcance, Riesgos, etc.) se detallan en la sección 1.5. Por tanto, monitorizar y controlar es una fase transversal de supervisión, no un área temática específica.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.4 LOS PROCESOS DE LA DIRECCIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"INTERACCIONES ENTRE LOS PROCESOS DE DIRECCIÓN DE PROYECTOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "En relación con la planificación estratégica en las Tecnologías de la Información, las Reglas de decisión para la formulación de una estrategia:",
+            "opciones": [
+                "A. No deberán de realizarse en un lenguaje conciso.",
+                "B. Deberán detallar los requerimientos de los sistemas de información y de las comunicaciones.",
+                "C. Considerarán las Tecnologías de la Información como estrategia y no como táctica.",
+                "D. Incluirán los costes estimados de los proyectos."
+            ],
+            "opcion_correcta": "C. Considerarán las Tecnologías de la Información como estrategia y no como táctica.",
+            "justificacion": "La opción C es correcta porque en la planificación estratégica moderna, las TIC deben integrarse como un pilar estratégico que impulsa el modelo de negocio y la transformación organizacional, no meramente como un soporte táctico o operativo. El documento aborda explícitamente este enfoque al dedicar una subsección a \"El papel de las TIC en la planificación estratégica pública\", destacando su rol como elemento estratégico de las políticas públicas y herramienta de seguimiento, lo que valida su consideración desde el nivel estratégico.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.4.7 EL PAPEL DE LAS TIC EN LA PLANIFICACIÓN ESTRATÉGICA PÚBLICA. Primera oración del párrafo relevante: \"LAS TIC COMO ELEMENTO ESTRATÉGICO DE LAS POLÍTICAS PÚBLICAS\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Las dependencias entre actividades en gestión de proyectos pueden ser:",
+            "opciones": [
+                "A. Obligatorias y discrecionales",
+                "B. Obligatorias, discrecionales y externas",
+                "C. Obligatorias, discrecionales, externas e internas",
+                "D. Obligatorias, discrecionales, externas, internas y sincronizadas"
+            ],
+            "opcion_correcta": "B. Obligatorias, discrecionales y externas",
+            "justificacion": "La opción B es correcta porque en la secuenciación de actividades se reconocen tres tipos fundamentales de dependencias: obligatorias (lógicas o hard logic), discrecionales (preferenciales o soft logic) y externas (dependientes de factores fuera del control del equipo). El proceso de **Secuenciar las Actividades** en el documento se enfoca en definir estas relaciones para desarrollar un cronograma realista, considerando tanto restricciones internas como dependencias con proveedores o entornos externos.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3.3 SECUENCIAR LAS ACTIVIDADES. Primera oración del párrafo relevante: \"SECUENCIAR LAS ACTIVIDADES\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "El enfoque predictivo del ciclo de vida de un proyecto",
+            "opciones": [
+                "A. Está orientado al plan frente al adaptativo que está orientado al cambio",
+                "B. El producto y entregables se definen al comienzo del proyecto",
+                "C. No permite cambios en el alcance del proyecto",
+                "D. a) y b) son verdaderas"
+            ],
+            "opcion_correcta": "D. a) y b) son verdaderas",
+            "justificacion": "La opción D es correcta porque el ciclo de vida predictivo (o cascada) se caracteriza por una fuerte orientación al plan inicial, donde los requisitos, alcance y entregables se definen de forma exhaustiva al inicio. A diferencia de los enfoques adaptativos que abrazan el cambio continuo, el predictivo busca minimizar la variabilidad mediante una planificación detallada temprana. El índice del documento distingue explícitamente entre \"Ciclos de vida predictivos\" y \"iterativos/incrementales\", reflejando esta dicotómica fundamental en la gestión de proyectos TIC.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.3.4.3 CICLOS DE VIDA PREDICTIVOS. Primera oración del párrafo relevante: \"CICLOS DE VIDA PREDICTIVOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "La implantación de controles es en última instancia una responsabilidad de la dirección, si bien cada directivo en su área es corresponsable de la existencia de controles a su nivel. Luego la diferencia entre control y auditoría interna es:",
+            "opciones": [
+                "A. El control en informática lo realizan los supervisores a diferentes niveles, Jefe de Servicio, Jefe de Proyecto, Jefe de Explotación, mientras que los Auditores Internos deben asumir un papel bastante ingrato como es el de verificar si los trabajadores actúan de acuerdo a los estándares de explotación y desarrollo",
+                "B. El control en informática lo realizan supervisores nombrados por el jefe de Servicio al efecto, mientras que los Auditores internos realizan inspecciones sorpresa para ver si existen controles eficaces",
+                "C. El control en informática lo realizan los supervisores a diferentes niveles, Jefe de Servicio, Jefe de Proyecto, Jefe de Explotación, mientras que los Auditores internos verifican la existencia de controles adecuados además de su eficiencia",
+                "D. El control en informática no es absolutamente necesario. Las funciones de cada empleado público están en la RPT. Cada cierto tiempo se recomienda que un Auditor Interno un informe con las propuestas pertinentes para mejorar"
+            ],
+            "opcion_correcta": "C. El control en informática lo realizan los supervisores a diferentes niveles, Jefe de Servicio, Jefe de Proyecto, Jefe de Explotación, mientras que los Auditores internos verifican la existencia de controles adecuados además de su eficiencia",
+            "justificacion": "La opción C es correcta porque el control operativo es una función continua y diaria ejercida por los supervisores y jefes directos sobre sus áreas, mientras que la auditoría interna tiene un carácter independiente, periódico y de verificación, evaluando no solo la existencia sino también la adecuación y eficiencia de los controles implementados. Esta distinción se enmarca en los procesos de **Monitorización y Control** y **Seguimiento y Evaluación** del documento, donde se establece que el control es transversal a la ejecución, pero la verificación independiente asegura la gobernanza y el cumplimiento normativo.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.4.6 SEGUIMIENTO Y EVALUACIÓN: PROYECTOS, ACTIVIDADES, INDICADORES. Primera oración del párrafo relevante: \"SEGUIMIENTO Y EVALUACIÓN: PROYECTOS, ACTIVIDADES, INDICADORES\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Los procesos de gestión de un proyecto TIC, según el PMI, los podemos agrupar en:",
+            "opciones": [
+                "A. Inicio, Planificación, Ejecución, Seguimiento y Control y Cierre.",
+                "B. Estudio de Viabilidad, Análisis, Diseño, Construcción, Implantación y Aceptación.",
+                "C. Desarrollo, Sistemas, Comunicaciones y Seguridad.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Inicio, Planificación, Ejecución, Seguimiento y Control y Cierre.",
+            "justificacion": "La opción A es correcta porque el PMI estructura la dirección de proyectos en cinco grupos de procesos fundamentales: Inicio, Planificación, Ejecución, Monitorización y Control, y Cierre. El índice del documento refleja exactamente esta arquitectura al listarlos como secciones independientes (1.4.2 a 1.4.6), estableciendo que estos grupos interactúan entre sí durante todo el ciclo de vida para garantizar la entrega exitosa del proyecto.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.4 LOS PROCESOS DE LA DIRECCIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"INTERACCIONES ENTRE LOS PROCESOS DE DIRECCIÓN DE PROYECTOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Cuál de las siguientes no es una causa del fracaso de un proyecto de intranet?:",
+            "opciones": [
+                "A. Patrocinio ejecutivo inadecuado.",
+                "B. Planificación estratégica deficiente.",
+                "C. Diseño centrado en el usuario.",
+                "D. Requisitos de calidad no adecuados."
+            ],
+            "opcion_correcta": "C. Diseño centrado en el usuario.",
+            "justificacion": "La opción C es correcta porque un \"Diseño centrado en el usuario\" es una práctica recomendada y un factor de éxito, no una causa de fracaso. Los proyectos TIC suelen fracasar por falta de patrocinio ejecutivo, planificación deficiente o requisitos mal definidos. El documento enfatiza la importancia de recopilar requisitos correctamente y gestionar las expectativas de los interesados para garantizar que los entregables cumplan con los criterios de aceptación y necesidades reales del usuario final.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.2.2 RECOPILAR REQUISITOS. Primera oración del párrafo relevante: \"RECOPILAR REQUISITOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "No se considera un stakeholder de un proyecto de desarrollo TIC:",
+            "opciones": [
+                "A. Usuarios",
+                "B. Director del proyecto",
+                "C. Equipo del proyecto",
+                "D. Interventor"
+            ],
+            "opcion_correcta": "D. Interventor",
+            "justificacion": "La opción D es correcta porque el \"Interventor\" ejerce una función de control externo, auditoría o supervisión administrativa ajena a la dinámica interna del equipo de proyecto y no forma parte del grupo de interesados directos que influyen o son afectados por el proyecto. El documento define la gestión de interesados como un proceso continuo de identificación, planificación y participación (sección 1.5.10), enfocándose en usuarios, patrocinadores, equipo y proveedores, mientras que las funciones de interventoría se encuadran en controles externos o auditoría institucional, no en la gestión activa del proyecto.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.10.1 IDENTIFICAR A LOS INTERESADOS. Primera oración del párrafo relevante: \"IDENTIFICAR A LOS INTERESADOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cuál de las siguientes técnicas NO es de gestión de proyectos?",
+            "opciones": [
+                "A. método MARKII para el Análisis de los Puntos Función",
+                "B. Diagrama de extrapolación",
+                "C. staffing size",
+                "D. Joint Requirements Planning"
+            ],
+            "opcion_correcta": "D. Joint Requirements Planning",
+            "justificacion": "La opción D es correcta porque Joint Requirements Planning (JRP) es una técnica de ingeniería de requisitos y análisis de negocio, no una herramienta de gestión de proyectos propiamente dicha. Las demás opciones son técnicas reconocidas en la planificación y control: MARKII y staffing size se usan para estimación de costes y dimensionamiento de recursos, mientras que los diagramas de extrapolación sirven para proyección temporal. Estas funciones se encuadran funcionalmente en los procesos de Gestión del Coste y Cronograma descritos en el documento.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3.6 DESARROLLAR EL CRONOGRAMA. Primera oración del párrafo relevante: \"DESARROLLAR EL CRONOGRAMA\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Según la Guía del PMBOK, el proceso de «Desarrollar el equipo del proyecto» se encuentra dentro del área:",
+            "opciones": [
+                "A. Gestión del Alcance del Proyecto.",
+                "B. Gestión del Cronograma del Proyecto.",
+                "C. Gestión de los Recursos Humanos del Proyecto.",
+                "D. Gestión de las Adquisiciones del Proyecto."
+            ],
+            "opcion_correcta": "C. Gestión de los Recursos Humanos del Proyecto.",
+            "justificacion": "La opción C es correcta porque el documento sitúa explícitamente este proceso dentro del área de Gestión de Recursos Humanos. La cita 2 confirma que \"Desarrollar el Equipo del Proyecto: consiste en mejorar las competencias, la interacción entre los miembros y el ambiente general para el mejor desempeño\", lo cual corresponde directamente a la planificación, adquisición y desarrollo del equipo descrito en el índice.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.6.3 DESARROLLAR EL EQUIPO DEL PROYECTO. Primera oración del párrafo relevante: \"DESARROLLAR EL EQUIPO DEL PROYECTO\""
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Señalar la afirmación incorrecta respecto al control de proyectos:",
+            "opciones": [
+                "A. El diagrama de PERT permite evaluar el retraso de un proyecto",
+                "B. Un retraso en la fecha de finalización de una etapa provoca un retraso de la fecha final del proyecto",
+                "C. La fecha de finalización del proyecto se ve afectada por las fechas de finalización de las etapas que constituyen el camino crítico",
+                "D. La duración total del proyecto viene determinada por el camino crítico"
+            ],
+            "opcion_correcta": "B. Un retraso en la fecha de finalización de una etapa provoca un retraso de la fecha final del proyecto",
+            "justificacion": "La opción B es correcta porque es la afirmación incorrecta: un retraso en una etapa no crítica no necesariamente provoca un retraso en la fecha final del proyecto, ya que existen holguras (float) que absorben desviaciones. Solo las actividades del camino crítico determinan la duración total y cualquier retraso en ellas impacta directamente el cierre, tal como se gestiona en los procesos de control de cronograma.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3.7 CONTROLAR EL CRONOGRAMA. Primera oración del párrafo relevante: \"CONTROLAR EL CRONOGRAMA\""
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "La duración del camino más corto que hay desde el suceso inicial de un proyecto hasta el suceso «n» que se está considerando es:",
+            "opciones": [
+                "A. EARLY del suceso «n»",
+                "B. LAST del suceso «n»",
+                "C. Tiempo de inicio del suceso «n»",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores",
+            "justificacion": "La opción D es correcta porque en la terminología estándar de gestión de proyectos (PERT/CPM), este valor se denomina \"Tiempo más temprano\" (Early Time) o \"ES\" (Early Start). Las opciones A, B y C utilizan nomenclaturas imprecisas o no estandarizadas para referirse a esta métrica específica, por lo que la opción D es la válida.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3.6 DESARROLLAR EL CRONOGRAMA. Primera oración del párrafo relevante: \"DESARROLLAR EL CRONOGRAMA\""
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Cuál de los siguientes no es un nivel del modelo de Capacidad y Madurez (CMM)?",
+            "opciones": [
+                "A. Repetible",
+                "B. Verificado",
+                "C. Gestionado",
+                "D. Optimizado"
+            ],
+            "opcion_correcta": "B. Verificado",
+            "justificacion": "La opción B es correcta porque los niveles oficiales del modelo CMM son: Inicial, Repetible, Definido, Gestionado y Optimizado. \"Verificado\" no corresponde a ningún nivel de madurez establecido por el modelo, descartándose así como término válido en este marco de mejora de procesos.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.5.2 REALIZAR EL ASEGURAMIENTO DE CALIDAD. Primera oración del párrafo relevante: \"REALIZAR EL ASEGURAMIENTO DE CALIDAD\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "De entre las siguientes opciones, seleccione la que define el concepto de «proyecto», en el ámbito de la gestión de proyectos clásica:",
+            "opciones": [
+                "A. Una estructura organizativa temporal establecida para crear un producto o servicio único, y sujeto a ciertas restricciones de tiempo, coste y calidad.",
+                "B. Un conjunto de actividades, sin relación temporal ni de dependencia mutua, organizadas con el objeto de producir un resultado.",
+                "C. Un conjunto de personas organizadas para la creación de un producto en un tiempo predeterminado por la Dirección de la organización.",
+                "D. Una estructura organizativa indefinida diseñada para la gestión de un porfolio de servicios, y sujeta a restricciones de coste y calidad."
+            ],
+            "opcion_correcta": "A. Una estructura organizativa temporal establecida para crear un producto o servicio único, y sujeto a ciertas restricciones de tiempo, coste y calidad.",
+            "justificacion": "La opción A es correcta porque coincide con la definición estándar de PMBOK y se refleja funcionalmente en el documento, que describe un proyecto como un conjunto de actividades interrelacionadas y temporales destinadas a obtener un resultado preestablecido (producto o servicio). Esta naturaleza temporal y única diferencia al proyecto de las operaciones continuas, estableciendo los límites claros para su planificación, ejecución y cierre.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.1 INTRODUCCIÓN: ¿QUÉ ES UN PROYECTO? Primera oración del párrafo relevante: \"La Real Academia de la Lengua define “proyecto” como “Conjunto de escritos, cálculos y dibujos que se hacen para dar idea de cómo ha de ser y lo que ha de costar una obra de arquitectura o de ingeniería” o “Primer esquema o plan de cualquier trabajo que se hace a veces como prueba antes de darle la forma definitiva”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "No es una función típica de un directivo TIC:",
+            "opciones": [
+                "A. Planificación estratégica",
+                "B. Planificación operativa",
+                "C. Análisis financiero",
+                "D. Gestión de innovación"
+            ],
+            "opcion_correcta": "C. Análisis financiero",
+            "justificacion": "La opción C es correcta porque, aunque los directivos TIC deben supervisar presupuestos, el análisis financiero detallado es responsabilidad primaria del departamento de finanzas. Las funciones típicas de un directivo TIC se alinean con la planificación estratégica, operativa y la gestión de innovación tecnológica, tal como se estructuran en las secciones de planificación estratégica y gestión de recursos del documento.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.1 CONCEPTO DE PLANIFICACIÓN ESTRATÉGICA. Primera oración del párrafo relevante: \"CONCEPTO DE PLANIFICACIÓN ESTRATÉGICA\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "En relación con las técnicas de planificación de proyectos señale la afirmación correcta:",
+            "opciones": [
+                "A. Una diferencia entre PERT y CPM es que este último considera que los tiempos de las actividades se conocen en forma determinística y se pueden variar cambiando el nivel de recursos utilizados.",
+                "B. PERT considera que cuando el número de actividades de un proyecto es lo suficientemente elevado, la duración del proyecto es una variable aleatoria que converge en una distribución Normal.",
+                "C. El diagrama de GANTT realiza la planificación y la programación al mismo tiempo.",
+                "D. Son correctas todas las afirmaciones anteriores."
+            ],
+            "opcion_correcta": "D. Son correctas todas las afirmaciones anteriores.",
+            "justificacion": "La opción D es correcta porque todas las afirmaciones describen con precisión las características técnicas de las herramientas de planificación: CPM usa tiempos deterministas y nivelación de recursos, PERT modela la duración como variable probabilística (convergencia a distribución normal por el Teorema del Límite Central), y Gantt integra visualmente planificación y programación. Estas técnicas se aplican dentro de los procesos de gestión del cronograma descritos en el documento.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.3.6 DESARROLLAR EL CRONOGRAMA. Primera oración del párrafo relevante: \"DESARROLLAR EL CRONOGRAMA\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "El grado, cantidad o volumen de riesgo que podrá resistir una organización, se denomina:",
+            "opciones": [
+                "A. Propensión al riesgo.",
+                "B. Análisis del riesgo.",
+                "C. Tolerancia al riesgo.",
+                "D. Umbral de riesgo."
+            ],
+            "opcion_correcta": "C. Tolerancia al riesgo.",
+            "justificacion": "La opción C es correcta porque la tolerancia al riesgo define el nivel y tipo de incertidumbre que una organización está dispuesta a aceptar o retener para alcanzar sus objetivos. Este concepto es fundamental en la planificación de respuestas a riesgos, alineándose con los procesos de identificación, análisis cuantitativo/cualitativo y control de riesgos detallados en el área de conocimiento correspondiente.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.8.1 PLANIFICAR LA GESTIÓN DE LOS RIESGOS. Primera oración del párrafo relevante: \"PLANIFICAR LA GESTIÓN DE LOS RIESGOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "La gestión de los recursos humanos del proyecto incluye lo siguiente:",
+            "opciones": [
+                "A. Planificación de los Recursos Humanos, Adquirir el Equipo del Proyecto, Desarrollar el Equipo del Proyecto, Gestionar el Equipo del Proyecto.",
+                "B. Adquirir el Equipo del Proyecto, Desarrollar el Equipo del Proyecto, Gestionar el Equipo del Proyecto.",
+                "C. Planificación de los Recursos Humanos, Adquirir el Equipo del Proyecto, Desarrollar el Equipo del Proyecto.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. Planificación de los Recursos Humanos, Adquirir el Equipo del Proyecto, Desarrollar el Equipo del Proyecto, Gestionar el Equipo del Proyecto.",
+            "justificacion": "La opción A es correcta porque el documento enumera explícitamente en su índice y en la cita 2 los cuatro procesos que componen esta área: Planificar la gestión, Adquirir el equipo, Desarrollar el equipo y Dirigir/Gestionar el equipo. Estos procesos interactúan entre sí para asegurar la disponibilidad, competencia y desempeño óptimo del personal asignado al proyecto.",
+            "referencia": "Sección: 1 DIRECCIÓN Y GESTIÓN DE PROYECTOS DE TECNOLOGÍAS DE LA INFORMACIÓN. Subsección: 1.5.6 GESTIÓN DE RECURSOS HUMANOS DEL PROYECTO. Primera oración del párrafo relevante: \"PLANIFICAR LA GESTIÓN DE RECURSOS HUMANOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "¿Cuál de las siguientes NO es una fase del sistema de soporte a la decisión para las administraciones públicas SSD-AAPP?",
+            "opciones": [
+                "A. Preparación del problema",
+                "B. Evaluación de alternativas",
+                "C. Resultados",
+                "D. Realimentación"
+            ],
+            "opcion_correcta": "C. Resultados",
+            "justificacion": "La opción C es correcta porque en la arquitectura estándar de los Sistemas de Soporte a la Decisión para Administraciones Públicas (SSD-AAPP), las fases operativas se centran en la preparación del problema, el modelado y evaluación de alternativas, y la realimentación/retroalimentación para ajustar decisiones futuras. Los \"Resultados\" son la salida o producto final del proceso de decisión, no una fase operativa del sistema en sí mismo. Este enfoque se alinea con los procesos de toma de decisiones y seguimiento descritos en el documento, donde el ciclo se cierra mediante ajustes y no termina en un estado estático de resultados.",
+            "referencia": "Sección: 2 LA TOMA DE DECISIONES. Subsección: 2.6.1.5 SISTEMAS DE INFORMACIÓN DE APOYO A LA DECISIÓN. Primera oración del párrafo relevante: \"Los sistemas de información de apoyo a la decisión (DSS) son herramientas que facilitan el análisis y la selección de alternativas en contextos complejos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "A la hora de establecer objetivos en una planificación estratégica, se recomienda que cumplan con la metodología SMART. Algunos de los criterios indicados en esta metodología son:",
+            "opciones": [
+                "A. Medible, Inalcanzable y Económico.",
+                "B. Alcanzable, Económico y Relevante.",
+                "C. Medible, Alcanzable y Relevante.",
+                "D. Medible, Económico y Tangencial."
+            ],
+            "opcion_correcta": "C. Medible, Alcanzable y Relevante.",
+            "justificacion": "La opción C es correcta porque la metodología SMART exige que los objetivos sean Específicos, Medibles, Alcanzables, Relevantes y Temporales. Las opciones A, B y D incluyen términos incorrectos o ajenos al modelo (como \"Inalcanzable\" o \"Económico/Tangencial\"). En el contexto del documento, definir objetivos claros y medibles es fundamental para la planificación estratégica y operativa, permitiendo establecer indicadores de control y evaluación que aseguren el cumplimiento de los resultados deseados.",
+            "referencia": "Sección: 2 PLANIFICACIÓN ESTRATÉGICA, GESTIÓN DE RECURSOS, SEGUIMIENTO DE PROYECTOS, TOMA DE DECISIONES. Subsección: 2.4 EL PROCESO DE ELABORACIÓN DEL PLAN ESTRATÉGICO. Primera oración del párrafo relevante: \"EL NÚCLEO DEL PLAN: MISIÓN, VISIÓN Y VALORES\""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "Indique cuál de las siguientes variables NO se representa en un análisis DAFO:",
+            "opciones": [
+                "A. Directrices",
+                "B. Amenazas",
+                "C. Fortalezas",
+                "D. Oportunidades"
+            ],
+            "opcion_correcta": "A. Directrices",
+            "justificacion": "La opción A es correcta porque el análisis DAFO (o FODA) se compone exclusivamente de cuatro variables: Debilidades, Amenazas, Fortalezas y Oportunidades. \"Directrices\" corresponde a líneas estratégicas o guías de acción derivadas del plan, no a un cuadrante del diagnóstico estratégico. El documento vincula este tipo de análisis con la evaluación del entorno interno y externo, pasos previos a la determinación de estrategias y la redacción del plan operativo.",
+            "referencia": "Sección: 2.4.2 EL ANÁLISIS ESTRATÉGICO. Subsección: 2.4.2.1 EL ANÁLISIS DEL ENTORNO. Primera oración del párrafo relevante: \"EL ANÁLISIS DEL ENTORNO\""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "La Planificación Estratégica",
+            "opciones": [
+                "A. Es un proceso continuo",
+                "B. Es un proceso puntual",
+                "C. Tiene por objetivo tomar decisiones emprendedoras en el presente encaminadas a alcanzar una situación futura deseada, sin asumir con ello riesgos.",
+                "D. No se emplea en el ámbito público"
+            ],
+            "opcion_correcta": "A. Es un proceso continuo",
+            "justificacion": "La opción A es correcta porque la planificación estratégica no es un evento único, sino un ciclo iterativo y continuo que se adapta a cambios en el entorno, necesidades ciudadanas y disponibilidad de recursos. El documento enfatiza la necesidad de \"Seguimiento y Evaluación\" constante (2.4.6) y la concreción operativa continua, descartando su carácter puntual o ajeno al sector público. Además, toda planificación estratégica implica asumir riesgos calculados para alcanzar objetivos futuros.",
+            "referencia": "Sección: 2.3 FASES DE LA PLANIFICACIÓN ESTRATÉGICA. Subsección: N/A. Primera oración del párrafo relevante: \"FASES DE LA PLANIFICACIÓN ESTRATÉGICA\""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "El análisis de riesgos:",
+            "opciones": [
+                "A. Puede ser útil en la gestión de proyectos",
+                "B. Debe ser una de las claves en la gestión de proyectos",
+                "C. No tiene nada que ver con la gestión de proyectos",
+                "D. Se puede hacer en la gestión de proyectos"
+            ],
+            "opcion_correcta": "B. Debe ser una de las claves en la gestión de proyectos",
+            "justificacion": "La opción B es correcta porque el análisis de riesgos no es opcional ni marginal; debe ser una pieza clave en la gestión de proyectos para identificar, cuantificar y priorizar amenazas u oportunidades que puedan afectar a los objetivos de coste, tiempo y alcance. El documento detalla explícitamente procesos dedicados a este fin (Identificar, Analizar Cualitativa/Cuantitativa, Planificar Respuesta), destacando que abordar los riesgos según su prioridad permite introducir recursos y actividades en el presupuesto para mitigar impactos negativos y potenciar positivos.",
+            "referencia": "Sección: 1.5.8 GESTIÓN DE LOS RIESGOS DEL PROYECTO. Subsección: 1.5.8.3 REALIZAR EL ANÁLISIS CUALITATIVO DE RIESGOS. Primera oración del párrafo relevante: \"REALIZAR EL ANÁLISIS CUALITATIVO DE RIESGOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "¿Qué tipo de diagrama permite estimar la desviación de un proyecto?",
+            "opciones": [
+                "A. Diagrama de Extrapolación",
+                "B. PERT",
+                "C. CPM",
+                "D. El histograma de recursos"
+            ],
+            "opcion_correcta": "A. Diagrama de Extrapolación",
+            "justificacion": "La opción A es correcta porque el diagrama de extrapolación se utiliza para proyectar tendencias y estimar desviaciones futuras basándose en datos históricos o actuales del rendimiento del proyecto. Mientras que PERT y CPM se enfocan en la secuenciación y cálculo de rutas críticas, y los histogramas en la asignación de recursos, la extrapolación permite visualizar cómo evolucionan las variables (coste, tiempo, alcance) y anticipar desviaciones respecto a la línea base, facilitando la toma de decisiones correctivas.",
+            "referencia": "Sección: 1.5.3.7 CONTROLAR EL CRONOGRAMA. Subsección: N/A. Primera oración del párrafo relevante: \"CONTROLAR EL CRONOGRAMA\""
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "Según define la Guía PMBOK, un proyecto es:",
+            "opciones": [
+                "A. Un esfuerzo permanente y continuo con recursos asignados para realizar un conjunto estable de tareas que produce resultados repetitivos",
+                "B. Un acuerdo legal, oral o escrito, manifestado en común entre dos o más personas con capacidad jurídica que se vinculan en virtud del mismo, regulando sus relaciones a una determinada finalidad o cosa",
+                "C. Una opción elegible, viable y repetible que la oferta pone a disposición de la demanda, para satisfacer una necesidad o atender un deseo a través de su uso o consumo",
+                "D. Un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único"
+            ],
+            "opcion_correcta": "D. Un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único",
+            "justificacion": "La opción D es correcta porque coincide con la definición canónica del PMBOK y se refleja funcionalmente en el documento, que describe un proyecto como \"un conjunto de actividades interrelacionadas que desarrolla una persona o una entidad para, haciendo uso de una serie de recursos, obtener un resultado preestablecido, habitualmente un producto o servicio\". Esta naturaleza temporal y única diferencia al proyecto de las operaciones continuas, estableciendo límites claros para su planificación, ejecución y cierre.",
+            "referencia": "Sección: 1.1 INTRODUCCIÓN: ¿QUÉ ES UN PROYECTO? Subsección: N/A. Primera oración del párrafo relevante: \"La Real Academia de la Lengua define “proyecto” como “Conjunto de escritos, cálculos y dibujos que se hacen para dar idea de cómo ha de ser y lo que ha de costar una obra de arquitectura o de ingeniería” o “Primer esquema o plan de cualquier trabajo que se hace a veces como prueba antes de darle la forma definitiva”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "La guía PMBOK v6 del PMI define:",
+            "opciones": [
+                "A. 4 interfaces y 5 grupos",
+                "B. 5 grupos y 8 áreas de conocimiento",
+                "C. 5 fases y 8 áreas de conocimiento",
+                "D. 49 procesos"
+            ],
+            "opcion_correcta": "D. 49 procesos",
+            "justificacion": "La opción D es correcta porque la sexta edición del PMBOK estructura la dirección de proyectos en 5 grupos de procesos y 10 áreas de conocimiento, totalizando exactamente 49 procesos interrelacionados. El índice del documento refleja esta arquitectura al organizar los temas en grupos (Inicio, Planificación, Ejecución, Monitorización y Control, Cierre) y detallar las áreas de conocimiento desde la integración hasta la gestión de interesados, siguiendo la lógica de interacción y flujo entre estos 49 procesos estandarizados.",
+            "referencia": "Sección: 1.4 LOS PROCESOS DE LA DIRECCIÓN DE PROYECTOS. Subsección: 1.4.1 INTERACCIONES ENTRE LOS PROCESOS DE DIRECCIÓN DE PROYECTOS. Primera oración del párrafo relevante: \"INTERACCIONES ENTRE LOS PROCESOS DE DIRECCIÓN DE PROYECTOS\""
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "En esencia, la partición descompone un problema en sus partes constituyentes:",
+            "opciones": [
+                "A. Incrementando los detalles, moviéndonos verticalmente en la jerarquía",
+                "B. Descomponiendo funcionalmente el problema, moviéndonos horizontalmente en la jerarquía",
+                "C. Las dos primeras respuestas son ciertas",
+                "D. Las dos primeras respuestas son falsas"
+            ],
+            "opcion_correcta": "C. Las dos primeras respuestas son ciertas",
+            "justificacion": "La opción C es correcta porque la descomposición de un problema o alcance (como se hace en la EDT/WBS) opera simultáneamente de forma vertical y horizontal: verticalmente al profundizar en niveles de detalle sucesivos hasta alcanzar paquetes de trabajo gestionables, y horizontalmente al dividir funcionalmente el alcance total en componentes independientes que pueden asignarse a equipos o fases. El documento describe explícitamente este proceso como una \"descomposición jerárquica del alcance total del trabajo\", subdividiendo entregables en componentes más pequeños y manejables para cumplir los objetivos del proyecto.",
+            "referencia": "Sección: 1.5.2.4 CREAR LA EDT/WBS. Subsección: N/A. Primera oración del párrafo relevante: \"CREAR LA EDT/WBS\""
+        }
+    ]
+}

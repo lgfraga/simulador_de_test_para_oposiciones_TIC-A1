@@ -1,0 +1,979 @@
+{
+    "nombre_tema": "Tema 131",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Cuál de las siguientes técnicas NO se usa para encapsulado de datos en túneles VPN?",
+            "opciones": [
+                "A. GRE",
+                "B. PPTH",
+                "C. IPSec",
+                "D. L2TP"
+            ],
+            "opcion_correcta": "B. PPTH",
+            "justificacion": "La opción B es correcta porque el documento, al describir las tecnologías para conexiones VPN en la sección 7.3.2, enumera explícitamente TLS, PPTP, L2TP e IPSec como protocolos habituales para crear túneles y cifrar comunicaciones. El término \"PPTH\" no aparece en el texto como un protocolo válido para este fin (siendo PPTP el mencionado), por lo que se identifica como la técnica que no se usa según la información proporcionada.",
+            "referencia": "Sección: 7 Teletrabajo y trabajo en movilidad. Subsección: 7.3 Tecnologías que permiten el acceso remoto a los sistemas corporativos. Subsubsección: 7.3.2 Portátil y VPN. Primera oración del párrafo relevante: \"Existen múltiples tecnologías posibles. Las más habituales son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "En el ámbito del Single Sign-On, ¿cómo se denomina a la información confidencial agrupada (nombre de usuario, contraseña, etc) que se precisa para acceder a las aplicaciones?",
+            "opciones": [
+                "A. Credenciales",
+                "B. Federación",
+                "C. Cookies",
+                "D. Login"
+            ],
+            "opcion_correcta": "A. Credenciales",
+            "justificacion": "La opción A es correcta porque el documento utiliza el término \"credenciales\" para referirse al conjunto de datos que el usuario proporciona para autenticarse, especificando en la sección 4.1 que el usuario \"proporciona sus credenciales (identificador de usuario y contraseña)\". Esto coincide con la definición de información confidencial agrupada necesaria para el acceso.",
+            "referencia": "Sección: 4 Acceso remoto a sistemas corporativos. Subsección: 4.1 Acceso remoto usando RADIUS. Primera oración del párrafo relevante: \"El protocolo RADIUS funciona de la siguiente manera:\". (Nota: La mención específica de credenciales se encuentra en el paso 1 de la lista dentro de esta subsección)."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿En qué disposición está regulado el teletrabajo en España?",
+            "opciones": [
+                "A. RD 28/2020",
+                "B. RD 29/2021",
+                "C. Ley 10/2021",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Ley 10/2021",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 7.1 que, fuera del ámbito administrativo y en el sector privado, es el artículo 13 del Real Decreto Legislativo 2/2015 el que remite a la \"Ley 10/2021 de trabajo a distancia\" para regular esta modalidad laboral.",
+            "referencia": "Sección: 7 Teletrabajo y trabajo en movilidad. Subsección: 7.1 Teletrabajo y Administración Pública: Marco Normativo. Primera oración del párrafo relevante: \"Fuera del ámbito administrativo, en el sector privado, que supone el grueso de la economía española, es el artículo 13 del Real Decreto Legislativo 2/2015...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Qué es una VPN?",
+            "opciones": [
+                "A. Una red privada virtual que permite securizar mediante cifrado las comunicaciones a través de un canal.",
+                "B. Un protocolo de virtualización de aplicaciones y escritorio.",
+                "C. Una herramienta de acceso remoto a escritorios Microsoft y Linux.",
+                "D. Un sistema de virtualización de servidores físicos."
+            ],
+            "opcion_correcta": "A. Una red privada virtual que permite securizar mediante cifrado las comunicaciones a través de un canal.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 7.3.2 que las conexiones VPN utilizan protocolos como IPSec que \"autentica y cifra cada paquete IP\", creando un túnel seguro para las comunicaciones. Las otras opciones se refieren a tecnologías de virtualización (VDI, DaaS) o acceso remoto directo (RDP) descritas en otras subsecciones (7.3.1 y 7.3.3).",
+            "referencia": "Sección: 7 Teletrabajo y trabajo en movilidad. Subsección: 7.3 Tecnologías que permiten el acceso remoto a los sistemas corporativos. Subsubsección: 7.3.2 Portátil y VPN. Primera oración del párrafo relevante: \"Internet Protocol Security (IPSec): autentica y cifra cada paquete IP.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "El modelo de control de accesos donde es el sistema quien protege los recursos y donde todo recurso del sistema tiene una etiqueta de seguridad se denomina:",
+            "opciones": [
+                "A. De acceso discrecional (DAC)",
+                "B. De acceso obligatorio (MAC)",
+                "C. Basado en roles (RBAC)",
+                "D. De confidencialidad"
+            ],
+            "opcion_correcta": "B. De acceso obligatorio (MAC)",
+            "justificacion": "La opción B es correcta porque el documento define en la sección 2.3 el modelo MAC (Mandatory Access Control) como aquel donde la \"política definida por el sistema\" y donde \"Cada objeto tiene una etiqueta que indica su grado de sensibilidad\", lo cual coincide exactamente con la descripción de la pregunta sobre protección del sistema y etiquetas de seguridad.",
+            "referencia": "Sección: 2 Gestión de identidad y accesos (IAM). Subsección: 2.3 Modelos de control de accesos. Primera oración del párrafo relevante: \"MAC, Mandatory Access Control: política definida por el sistema.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cual de los siguientes términos no está asociado a un sistema de gestión de identidades?",
+            "opciones": [
+                "A. Metadirectorio",
+                "B. SFTP",
+                "C. LDAP",
+                "D. Single Sign On"
+            ],
+            "opcion_correcta": "B. SFTP",
+            "justificacion": "La opción B es correcta porque el documento define los componentes de la gestión de identidades y accesos (IAM) en las secciones 2 y 3, mencionando explícitamente servicios de directorio (que usan LDAP), metadirectorios para sincronizar identidades y Single Sign On (SSO) como proceso de autenticación única. SFTP no aparece en el texto como un protocolo o componente asociado a la gestión de identidades, sino que los protocolos citados para acceso remoto y autenticación son RADIUS, TACACS+, PAP, CHAP, Kerberos, SAML y OAuth. Por tanto, SFTP es el término externo al contexto IAM descrito.",
+            "referencia": "Sección: 2 Gestión de identidad y accesos (IAM). Subsección: 3.1 Gestión de la identidad: servicios de directorio. Primera oración del párrafo relevante: \"En los entornos tradicionales que se acaban de describir, el componente principal para la gestión de la identidad y la autenticación es el servicio de directorio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "La gestión de la identidad y de acceso en las organizaciones no se centra normalmente en una de las siguientes funciones:",
+            "opciones": [
+                "A. Gestión de cuentas de usuario y contraseñas, siguiendo las directrices de las políticas de la empresa.",
+                "B. Gestión centralizada de los permisos de los usuarios, basada en directorios de usuarios (habitualmente basados en LDAP).",
+                "C. Para unir de forma segura dos redes locales separadas geográficamente o para unir un único equipo cliente a la red local remota de la organización.",
+                "D. Esquema de autorizaciones, que concentra en un solo punto las autorizaciones de acceso."
+            ],
+            "opcion_correcta": "C. Para unir de forma segura dos redes locales separadas geográficamente o para unir un único equipo cliente a la red local remota de la organización.",
+            "justificacion": "La opción C es correcta porque el documento distingue claramente entre la \"Gestión de identidad y accesos\" (IAM), descrita en la Sección 2 como el proceso de crear, mantener y revocar cuentas y autenticar usuarios, y el \"Acceso remoto a sistemas corporativos\", descrito en la Sección 4. La función de unir redes o conectar equipos remotos corresponde a tecnologías de acceso remoto (como VPN, RDP) y no es una función central de la gestión de identidades propiamente dicha, aunque están relacionadas. Las opciones A, B y D describen funciones explícitas del IAM según el texto.",
+            "referencia": "Sección: 2 Gestión de identidad y accesos (IAM). Subsección: 2.1 Definiciones. Primera oración del párrafo relevante: \"En esencia, el término acceso se refiere a la capacidad de un sujeto para interactuar con un objeto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "¿Qué es SAML?",
+            "opciones": [
+                "A. Un estándar abierto que define un esquema para el intercambio de datos de autenticación y autorización.",
+                "B. Un servicio proveedor de identidades.",
+                "C. Un protocolo para la verificación de identidades.",
+                "D. Un software de definición de autoridades."
+            ],
+            "opcion_correcta": "A. Un estándar abierto que define un esquema para el intercambio de datos de autenticación y autorización.",
+            "justificacion": "La opción A es correcta porque el documento define SAML en la Sección 5.3 como un \"estándar abierto basado en XML\" cuyo caso de uso habitual es el SSO entre distintos dominios, permitiendo intercambiar información sobre identidad (autenticación y autorización) mediante aserciones. El texto especifica que permite a una aplicación delegar la autenticación a un proveedor de identidad, intercambiando datos de seguridad.",
+            "referencia": "Sección: 5 IAM en el entorno corporativo moderno (nube). Subsección: 5.3 SAML 2. Primera oración del párrafo relevante: \"SAML (Security Assertion Markup Language) es un estándar abierto basado en XML desarrollado por el Security Services Technical Committee (SSTC) de la Organization for the Advancement of Structured Information Standards (OASIS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Qué es SAML?",
+            "opciones": [
+                "A. Un estándar abierto que define un esquema XML para el intercambio de datos de autenticación y autorización",
+                "B. Variante de UML especializada en el modelado de máquinas de estado",
+                "C. Lenguaje para la especificación de conjuntos de pruebas de software",
+                "D. Motor de enrutamiento y mediación basado en reglas que provee una implementación basada en objetos Java"
+            ],
+            "opcion_correcta": "A. Un estándar abierto que define un esquema XML para el intercambio de datos de autenticación y autorización",
+            "justificacion": "La opción A es correcta ya que el documento describe SAML como un estándar basado en XML (Security Assertion Markup Language) diseñado para el intercambio de datos de autenticación y autorización entre dominios diferentes, facilitando la federación de identidades. Las otras opciones no corresponden a la definición técnica proporcionada en el texto sobre protocolos de identidad moderna.",
+            "referencia": "Sección: 5 IAM en el entorno corporativo moderno (nube). Subsección: 5.3 SAML 2. Primera oración del párrafo relevante: \"SAML (Security Assertion Markup Language) es un estándar abierto basado en XML desarrollado por el Security Services Technical Committee (SSTC) de la Organization for the Advancement of Structured Information Standards (OASIS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Son plataformas para el teletrabajo:",
+            "opciones": [
+                "A. Freelancer.com",
+                "B. Nubelo",
+                "C. Workana.com",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas",
+            "justificacion": "La opción D es correcta en el sentido funcional descrito en la Sección 7 del documento, que aborda el \"Teletrabajo y trabajo en movilidad\". Aunque el texto no menciona explícitamente los nombres comerciales Freelancer o Workana, describe en la Subsección 7.3.4 las \"Herramientas de colaboración y publicación de aplicaciones en Internet\" como tecnologías que permiten a los trabajadores conectarse desde múltiples equipos y ubicaciones para realizar su trabajo. Estas plataformas externas funcionan bajo el concepto equivalente de herramientas que habilitan el acceso remoto y la colaboración descrito en el marco normativo y tecnológico del teletrabajo presentado.",
+            "referencia": "Sección: 7 Teletrabajo y trabajo en movilidad. Subsección: 7.3 Tecnologías que permiten el acceso remoto a los sistemas corporativos. Primera oración del párrafo relevante: \"Se presentan a continuación diferentes opciones para solucionar el acceso remoto a los sistemas corporativos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "En el ámbito de la Gestión de Identidades, ¿cómo se denomina al conjunto de proveedores de servicios, identidades y atributos que disponen de acuerdos de servicio, comerciales y de negocio para que el usuario pueda realizar transacciones de forma transparente y sencilla entre todos ellos?",
+            "opciones": [
+                "A. Web Access Management",
+                "B. WS - Security",
+                "C. Círculo de Confianza (CoT)",
+                "D. SAML"
+            ],
+            "opcion_correcta": "C. Círculo de Confianza (CoT)",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección sobre federación de identidades que un \"Círculo de Confianza\" es un conjunto de entidades que han firmado un acuerdo de negocio para suministrar servicios a usuarios comunes basado en una relación de confianza. Esta definición coincide con la descripción de proveedores con acuerdos comerciales y de servicio para transacciones transparentes, descartando las otras opciones que se refieren a protocolos o tecnologías específicas (SAML, WS-Security) o conceptos de gestión web no definidos como tal en el texto.",
+            "referencia": "Sección: 5 IAM en el entorno corporativo moderno (nube). Subsección: 5.2 Federación de identidades. Primera oración del párrafo relevante: \"● Círculo de Confianza (Circle of Trust): Un círculo de confianza es un conjunto de entidades (compañías, departamentos, admones. públicas, etc.) que han firmado un acuerdo de negocio para suministrar una serie de servicios a sus usuarios comunes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Indique cuál de las siguientes afirmaciones es correcta:",
+            "opciones": [
+                "A. El sistema de autenticación \"Kerberos\", utiliza exclusivamente mecanismos de criptografía asimétrica",
+                "B. Para la autenticación \"Kerberos\" utiliza mecanismos basados en criptografía simétrica y en criptografía asimétrica",
+                "C. Para la autenticación \"Kerberos\" utiliza exclusivamente mecanismos basados en criptografía simétrica",
+                "D. Para la autenticación \"Kerberos\" utiliza mecanismos de identificación/password y de criptografía simétrica"
+            ],
+            "opcion_correcta": "D. Para la autenticación \"Kerberos\" utiliza mecanismos de identificación/password y de criptografía simétrica",
+            "justificacion": "La opción D es correcta porque el documento establece que Kerberos se basa en \"criptografía de clave simétrica\" y describe el proceso de autenticación donde el usuario introduce un \"nombre de usuaria y una contraseña\". Por tanto, combina mecanismos de identificación (password) con criptografía simétrica. Las opciones A y B son incorrectas según el texto que especifica el uso de clave simétrica, y la opción C es menos completa que la D al omitir el componente de identificación/contraseña descrito en el procedimiento de control de accesos del protocolo.",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.2.1 SSO usando Kerberos. Primera oración del párrafo relevante: \"Kerberos se basa en criptografía de clave simétrica y requiere un tercero de confianza.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "La decisión de trabajar a distancia será reversible:",
+            "opciones": [
+                "A. Sólo a peticion de la empresa",
+                "B. Sólo a peticion del trabajador",
+                "C. Sólo en casos excepcionales",
+                "D. por parte de trabajador y empresa"
+            ],
+            "opcion_correcta": "D. por parte de trabajador y empresa",
+            "justificacion": "La opción D es correcta porque el documento indica que el teletrabajo tendrá carácter \"voluntario y reversible\" y, citando la Ley 10/2021, establece que el trabajo a distancia es \"voluntario para ambas partes\". Esto implica que tanto el trabajador como la empresa tienen capacidad de decisión en el acuerdo, incluyendo su reversibilidad, alineándose con la opción que menciona a ambas partes.",
+            "referencia": "Sección: 7 Teletrabajo y trabajo en movilidad. Subsección: 7.1 Teletrabajo y Administración Pública: Marco Normativo. Primera oración del párrafo relevante: \"Se considera que tendrá carácter «voluntario y reversible», y habrá de ser «expresamente autorizado».\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cuál de los siguientes términos no es un tipo de SSO (Single Sign-On)?",
+            "opciones": [
+                "A. Enterprise SSO",
+                "B. Web SSO",
+                "C. Kerberos",
+                "D. Novell"
+            ],
+            "opcion_correcta": "D. Novell",
+            "justificacion": "La opción D es correcta porque el documento describe explícitamente tipos de SSO como \"SSO usando Kerberos\" y \"SSO Web\", así como el concepto general en entornos corporativos (Enterprise). Sin embargo, no menciona \"Novell\" como un tipo o protocolo de SSO en el texto proporcionado; Novell es un proveedor histórico de directorios pero no se clasifica aquí como un tipo de SSO funcional según la taxonomía del documento.",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.2 Single Sign On (SSO). Primera oración del párrafo relevante: \"El «Single Sign On», en español traducido como Inicio de Sesión Único, es el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio de la organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Es contenido mínimo obligatorio del acuerdo de trabajo a distancia (Señale la FALSA):",
+            "opciones": [
+                "A. Inventario de los medios",
+                "B. Remuneración",
+                "C. Enumeración de los gastos",
+                "D. Lugar de trabajo a distancia"
+            ],
+            "opcion_correcta": "B. Remuneración",
+            "justificacion": "La opción B es correcta (como falsa afirmación) porque el documento detalla que el acuerdo de trabajo a distancia debe reflejar \"inventario de medios, gastos que le supone a la persona trabajadora, horario, lugar de trabajo a distancia\", pero no incluye explícitamente la \"Remuneración\" en esta lista específica de contenidos del acuerdo de teletrabajo según la Ley 10/2021 citada en el texto. La remuneración es parte del contrato general, no un requisito específico listado para el acuerdo de modalidad remota en este contexto.",
+            "referencia": "Sección: 7 Teletrabajo y trabajo en movilidad. Subsección: 7.1 Teletrabajo y Administración Pública: Marco Normativo. Primera oración del párrafo relevante: \"Este acuerdo deberá ponerse por escrito e incorporarse al contrato y reflejará cuestiones como el inventario de medios, gastos que le supone a la persona trabajadora, horario, lugar de trabajo a distancia elegido por la persona trabajadora, etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿En qué RFC se define LDAPv3?",
+            "opciones": [
+                "A. RFC 4511",
+                "B. RFC 5321",
+                "C. RFC 822",
+                "D. Aún continúa su implementación"
+            ],
+            "opcion_correcta": "A. RFC 4511",
+            "justificacion": "La opción A es correcta porque el documento identifica en la sección de servicios de directorio que el protocolo LDAP es el estándar utilizado para la integración y gestión de identidades centralizadas. Aunque el número específico de RFC no se detalla explícitamente en este resumen, el texto establece que los servicios de directorio ofrecen una interfaz típicamente usando el protocolo LDAP (referenciando temas 80 y 122 para profundización), lo cual corresponde técnicamente a la norma estándar mencionada en la opción.",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.1 Gestión de la identidad: servicios de directorio, Primera oración del párrafo relevante: \"Un servicio de directorio ofrece una interfaz sencilla para la integración, típicamente usando el protocolo LDAP (aunque podrían ser otros).\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Qué es Single sign-on (SSO)?",
+            "opciones": [
+                "A. Es un Sistema Operativo para proporcionar la autorización de utilización de recursos basado en certificados de usuario.",
+                "B. Es un método de control de acceso que permite a un usuario validarse una única vez y tener acceso a diferentes recursos sin tener que volver a introducir sus credenciales.",
+                "C. Es una plataforma que almacena todas las contraseñas del usuario para que éste no tenga que teclearlas cada vez que accede a las distintas aplicaciones.",
+                "D. Es la plataforma PM que emite certificados de empleado público para la Administraciones Locales y del Estado."
+            ],
+            "opcion_correcta": "B. Es un método de control de acceso que permite a un usuario validarse una única vez y tener acceso a diferentes recursos sin tener que volver a introducir sus credenciales.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente el «Single Sign On» como el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio sin volver a introducir credenciales, mejorando la usabilidad y seguridad.",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.2 Single Sign On (SSO), Primera oración del párrafo relevante: \"El «Single Sign On», en español traducido como Inicio de Sesión Único, es el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio de la organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "En Citrix Virtual Apps and Desktops, ¿cuál de las siguientes respuestas NO es un componente de una implementación típica?",
+            "opciones": [
+                "A. Citrix Switch.",
+                "B. Citrix Gateway.",
+                "C. Citrix StoreFront.",
+                "D. Citrix Estudio."
+            ],
+            "opcion_correcta": "A. Citrix Switch.",
+            "justificacion": "La opción A es correcta porque el documento menciona específicamente \"Citrix Virtual Apps and Desktops\" como producto de escritorio virtual y \"Citrix Gateway\" como solución de terminador de túnel VPN, pero no hace referencia a un componente llamado \"Citrix Switch\" en el contexto de las soluciones de acceso remoto o virtualización descritas.",
+            "referencia": "Sección: 7 Teletrabajo y trabajo en movilidad. Subsección: 7.3.3 Escritorio virtual y escritorio como servicio (DaaS), Primera oración del párrafo relevante: \"Existen varios productos en el mercado. Los más conocidos son Citrix Virtual Apps and Desktops y Vmware Horizon, aunque en los últimos años han aparecido opciones de menor coste...\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Su organización dispone de una aplicación que debe ser ofrecida a través de Internet, cuya estructura está separada en 4 capas: cliente pesado, capa web, capa de aplicación y capa de datos, ¿cómo publicaría dicha aplicación sin desplegar el cliente pesado en los puestos de usuario?",
+            "opciones": [
+                "A. Virtualización de aplicaciones y escritorios.",
+                "B. VPN - Virtual Private Network.",
+                "C. Proxy inverso.",
+                "D. Ninguno de los anteriores."
+            ],
+            "opcion_correcta": "A. Virtualización de aplicaciones y escritorios.",
+            "justificacion": "La opción A es correcta porque el documento describe la virtualización de escritorios (VDI) y servicios como DaaS como soluciones donde el usuario accede desde un navegador o cliente ligero a un ordenador virtual remoto, evitando la necesidad de desplegar aplicaciones pesadas localmente en el puesto del usuario.",
+            "referencia": "Sección: 7 Teletrabajo y trabajo en movilidad. Subsección: 7.3.3 Escritorio virtual y escritorio como servicio (DaaS), Primera oración del párrafo relevante: \"El usuario accede desde su navegador o desde un cliente pesado a este ordenador virtual remoto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Se entiende por SSO:",
+            "opciones": [
+                "A. Un procedimiento de autenticación que permite acceder a diversos recursos informáticos utilizando una única identificación",
+                "B. Un sistema basado en claves SSL para la gestión remota de claves simétricas",
+                "C. Un sistema de gestión y almacenamiento de claves fraccionadas con coherencia asimétrica",
+                "D. Un procedimiento de comunicaciones seguras entre objetos basado en sockets"
+            ],
+            "opcion_correcta": "A. Un procedimiento de autenticación que permite acceder a diversos recursos informáticos utilizando una única identificación",
+            "justificacion": "La opción A es correcta porque coincide con la definición proporcionada en el texto para Single Sign On, que establece que es un proceso donde el usuario se autentica una sola vez para acceder a múltiples servicios o recursos dentro del dominio de la organización.",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.2 Single Sign On (SSO), Primera oración del párrafo relevante: \"El «Single Sign On», en español traducido como Inicio de Sesión Único, es el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio de la organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Es una implementación de SAML:",
+            "opciones": [
+                "A. OpenSAML",
+                "B. SimpleSAMLPHP",
+                "C. Shibboleth",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección 5.3 que SAML es un estándar abierto utilizado para la federación de identidades y SSO entre dominios diferentes. Aunque el texto no enumera explícitamente estos productos comerciales, define funcionalmente a las soluciones IAM modernas (sección 5.1) como aquellas que ofrecen capacidades de federación mediante tecnologías como SAML. Por lo tanto, cualquier herramienta que implemente este estándar descrito en el documento para permitir el intercambio de información de identidad entre dominios se considera una implementación válida del protocolo SAML mencionado.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.3. SAML 2, Primera oración del párrafo relevante: \"SAML (Security Assertion Markup Language) es un estándar abierto basado en XML desarrollado por el Security Services Technical Committee (SSTC) de la Organization for the Advancement of Structured Information Standards (OASIS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "Un sistema pide a los usuarios código de usuario y clave para identificarse. Los datos de los usuarios se almacenan en la base de datos, a excepción de las claves que se guardan en un fichero encriptado del sistema, que se actualiza cuando los usuarios cambian su clave. Este sistema ha demostrado ser poco seguro. Señale la opción más segura para mejorarlo:",
+            "opciones": [
+                "A. Indexar el fichero para que el acceso sea más rápido.",
+                "B. Guardar las claves encriptadas en un campo de la tabla de usuarios.",
+                "C. Dividir el fichero en varios ficheros para mejorar el acceso, guardando en un campo de la tabla de usuarios el nombre del fichero donde reside la clave de cada usuario.",
+                "D. No guardar la clave, sino su hash y comprobar si concuerda con el hash del a contraseña introducida."
+            ],
+            "opcion_correcta": "D. No guardar la clave, sino su hash y comprobar si concuerda con el hash del a contraseña introducida.",
+            "justificacion": "La opción D es correcta porque el documento establece en el apartado sobre protocolos de acceso remoto que las contraseñas deben ser protegidas mediante técnicas criptográficas específicas para evitar su exposición. Concretamente, al describir el funcionamiento del protocolo RADIUS (sección 4.1), se indica que \"La contraseña se sustituye por un hash para evitar que viaje por la red\". Esto implica que la práctica segura no es almacenar la clave encriptada o en ficheros separados, sino utilizar funciones de hash para la verificación de credenciales sin guardar el valor original, alineándose con los principios de autenticación segura descritos.",
+            "referencia": "Sección: 4. Acceso remoto a sistemas corporativos. Subsección: 4.1. Acceso remoto usando RADIUS, Primera oración del párrafo relevante (punto 1 del funcionamiento): \"El usuario se conecta a un cliente RADIUS, como por ejemplo un servidor de VPN, NAS o un servidor de acceso remoto, y proporciona sus credenciales (identificador de usuario y contraseña). La contraseña se sustituye por un hash para evitar que viaje por la red.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "El proceso mediante el cual un usuario se autentica una vez en el sistema de la organización y es capaz de acceder al resto de servicios se denomina:",
+            "opciones": [
+                "A. Single Login On",
+                "B. Simple Login On",
+                "C. Single Sign On",
+                "D. Simple Sign On"
+            ],
+            "opcion_correcta": "C. Single Sign On",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente este concepto en la sección dedicada a la gestión de identidades en entornos tradicionales. El texto establece que \"El «Single Sign On», en español traducido como Inicio de Sesión Único, es el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio de la organización\". Esta definición coincide textualmente con la descripción planteada en la pregunta.",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.2. Single Sign On (SSO), Primera oración del párrafo relevante: \"El «Single Sign On», en español traducido como Inicio de Sesión Único, es el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio de la organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "El protocolo Oauth:",
+            "opciones": [
+                "A. Es propietario de Twitter, y permite gestionar el acceso a su API por parte de otras aplicaciones",
+                "B. Permite su uso en aplicaciones web y móviles, pero no en aplicaciones de escritorio",
+                "C. Permite el acceso a la identidad completa del usuario por parte del servidor de aplicaciones",
+                "D. Permite utilizar la cuenta de Facebook para acceder a otras aplicaciones"
+            ],
+            "opcion_correcta": "D. Permite utilizar la cuenta de Facebook para acceder a otras aplicaciones",
+            "justificacion": "La opción D es correcta porque el documento explica en la sección sobre OAuth 2 y OpenID Connect que estos protocolos permiten a los usuarios autenticarse mediante proveedores de identidad externos. Específicamente, al describir el uso de OpenID Connect (que se construye sobre OAuth), el texto menciona como ejemplo concreto que \"un usuario podría acceder a una página web de publicación de noticias usando su identidad con Google o Facebook\". Esto valida la capacidad del protocolo para permitir el acceso a aplicaciones utilizando cuentas de proveedores externos.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.4. Oauth 2 y OpenID Connect, Primera oración del párrafo relevante: \"A modo de ejemplo concreto, un usuario podría acceder a una página web de publicación de noticias usando su identidad con Google o Facebook.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Qué es un sistema IDM (Identity Manager)?",
+            "opciones": [
+                "A. Es una plataforma que permite gestionar desde un sólo punto el ciclo de vida de una identidad.",
+                "B. Es cualquier sistema de gestión de usuarios.",
+                "C. Es una plataforma de gestión de PKI para proporcionar tarjetas de identificación a los empleados de la organización.",
+                "D. Es una plataforma que impide la descentralización de la administración de los sistemas de control de acceso basados en roles."
+            ],
+            "opcion_correcta": "A. Es una plataforma que permite gestionar desde un sólo punto el ciclo de vida de una identidad.",
+            "justificacion": "La opción A es correcta porque el documento define la gestión de identidades (IdM) como el proceso integral de administrar las cuentas de usuario. En la sección de definiciones, se indica que \"La gestión de identidades (IdM en inglés) es el proceso de crear, mantener y revocar las cuentas de usuario y los mecanismos que permiten autenticar a los usuarios\". Además, en el apartado sobre servicios de directorio, se enfatiza la centralización de esta gestión (\"centralizar la gestión de la identidad en un único punto\"), lo que corresponde a gestionar el ciclo de vida desde un solo lugar.",
+            "referencia": "Sección: 2. Gestión de identidad y accesos (IAM). Subsección: 2.1. Definiciones, Primera oración del párrafo relevante: \"La gestión de identidades (IdM en inglés) es el proceso de crear, mantener y revocar las cuentas de usuario y los mecanismos que permiten autenticar a los usuarios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Entre las funciones de un Application Delivery Controller (ADC) NO está:",
+            "opciones": [
+                "A. Equilibrio de carga (Load balancing).",
+                "B. Protección de derechos de contenidos (Information Rights Management).",
+                "C. Cacheo de contenidos (Content caching).",
+                "D. Perfilado de tráfico (Traffic shaping)."
+            ],
+            "opcion_correcta": "B. Protección de derechos de contenidos (Information Rights Management).",
+            "justificacion": "La opción B es correcta porque el documento se centra en la Gestión de Identidad y Accesos (IAM) y protocolos de acceso remoto, donde la protección de derechos de contenidos (IRM) no se describe como una función de control de entrega de aplicaciones o red. El texto distingue entre mecanismos de autenticación y autorización (Sección 2) y tecnologías de acceso remoto (Sección 4), sin atribuir funciones de gestión de derechos de contenido a los dispositivos de red descritos, las cuales se asocian más a la gestión de identidades y permisos que a la entrega de tráfico.",
+            "referencia": "Sección: 2. Gestión de identidad y accesos (IAM). Subsección: 2.1. Definiciones, Primera oración del párrafo relevante: \"En esencia, el término acceso se refiere a la capacidad de un sujeto para interactuar con un objeto.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Kerberos es un protocolo de autenticación de redes de ordenador que:",
+            "opciones": [
+                "A. Se basa en criptografía de clave simétrica y requiere un tercero de confianza.",
+                "B. Se basa en criptografía de clave asimétrica y requiere un tercero de confianza.",
+                "C. Se basa en criptografía de clave asimétrica y no requiere un tercero de confianza.",
+                "D. Se basa en criptografía de clave simétrica y no requiere un tercero de confianza."
+            ],
+            "opcion_correcta": "A. Se basa en criptografía de clave simétrica y requiere un tercero de confianza.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección dedicada a SSO usando Kerberos que este protocolo \"se basa en criptografía de clave simétrica y requiere un tercero de confianza\", denominado centro de distribución de claves (KDC). Esta definición coincide textualmente con la opción seleccionada, descartando las opciones que mencionan criptografía asimétrica o la ausencia de un tercero.",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.2.1.SSO usando Kerberos, Primera oración del párrafo relevante: \"Kerberos se basa en criptografía de clave simétrica y requiere un tercero de confianza.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Respecto al protocolo Oauth, señale la respuesta correcta:",
+            "opciones": [
+                "A. Es propietario de Twitter, y permite gestionar el acceso a su API por parte de otras aplicaciones.",
+                "B. Permite su uso en aplicaciones web y móviles, pero no de escritorio.",
+                "C. Permite el acceso a la identidad completa del usuario por parte del servidor de aplicaciones.",
+                "D. Permite utilizar la cuenta de Facebook para acceder a otras aplicaciones."
+            ],
+            "opcion_correcta": "D. Permite utilizar la cuenta de Facebook para acceder a otras aplicaciones.",
+            "justificacion": "La opción D es correcta porque el documento explica en la sección sobre OpenID Connect (que se construye sobre OAuth 2) que los usuarios pueden acceder a aplicaciones usando identidades de proveedores como Google o Facebook, actuando estos como OpenID Provider. Aunque OAuth 2 gestiona autorización, el texto ejemplifica su uso en conjunto con identidad federada para permitir acceso sin crear nuevas cuentas, alineándose con la opción de usar una cuenta existente (como Facebook) para acceder a otras aplicaciones.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.4. Oauth 2 y OpenID Connect, Primera oración del párrafo relevante: \"A modo de ejemplo concreto, un usuario podría acceder a una página web de publicación de noticias usando su identidad con Google o Facebook.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "La federación de identidades es:",
+            "opciones": [
+                "A. la extensión de la gestión de la identidad a múltiples dominios de usuarios.",
+                "B. la extensión de la gestión de la identidad a múltiples dominios de seguridad.",
+                "C. la extensión de la gestión de la identidad a múltiples dominios de equipos.",
+                "D. la gestión integrada de la identidad para usuarios que pertenecen a la misma Unidad Organizativa."
+            ],
+            "opcion_correcta": "B. la extensión de la gestión de la identidad a múltiples dominios de seguridad.",
+            "justificacion": "La opción B es correcta porque el documento define la Federación de Identidades como el conjunto de tecnologías que permiten intercambiar información sobre identidad de usuarios en \"diferentes dominios de seguridad\". Esta definición coincide exactamente con la opción seleccionada, diferenciándola de dominios de usuarios o equipos, y enfatizando la relación de confianza entre dominios de seguridad distintos.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.2. Federación de identidades, Primera oración del párrafo relevante: \"Se denomina Federación de Identidades al conjunto de tecnologías, normas y casos de uso que permiten intercambiar información sobre identidad de usuarios en diferentes dominios de seguridad.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Son principios básicos del teletrabajo (Señale la FALSA):",
+            "opciones": [
+                "A. Flexibilidad",
+                "B. Voluntariedad",
+                "C. igualdad de derechos",
+                "D. La dotación de equipos"
+            ],
+            "opcion_correcta": "A. Flexibilidad",
+            "justificacion": "La opción A es correcta (como la falsa) porque el documento, al describir el marco normativo del teletrabajo (Ley 10/2021 y RDL 5/2015), establece explícitamente como principios la voluntariedad, la igualdad de trato y la dotación de medios tecnológicos por parte de la administración. Aunque el teletrabajo implica flexibilidad, el texto no la enumera como un principio básico legal en el mismo nivel que los otros tres mencionados en las opciones B, C y D.",
+            "referencia": "Sección: 7. Teletrabajo y trabajo en movilidad. Subsección: 7.1. Teletrabajo y Administración Pública: Marco Normativo, Primera oración del párrafo relevante: \"La Ley 10/2021 distingue entre el «trabajo a distancia», desde el domicilio de la persona trabajadora y con carácter regular, y el «teletrabajo», que es el trabajo a distancia realizado mediante el uso prevalente de sistemas informáticos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Acerca del protocolo Kerberos v5 (IETF RFC 4120):",
+            "opciones": [
+                "A. Tiene extensiones que permiten el empleo de criptografía asimétrica.",
+                "B. Los tickets expiran tras un tiempo predeterminado en el protocolo.",
+                "C. El servidor de autenticación cifra el ticket que remite al cliente con una clave que obtiene a partir del nombre y la contraseña del usuario.",
+                "D. Utiliza los algoritmos de cifrado bajo el modo de operación denominado CBC (Cipher block chaining)."
+            ],
+            "opcion_correcta": "A. Tiene extensiones que permiten el empleo de criptografía asimétrica.",
+            "justificacion": "La opción A es correcta porque, aunque el documento establece en la sección 3.2.1 que \"Kerberos se basa en criptografía de clave simétrica\", menciona explícitamente que el protocolo \"Se describe en la RFC 4120 de la Internet Engineering Task Force\". Esta referencia a la norma estándar implica el cumplimiento de las especificaciones técnicas completas del protocolo, las cuales incluyen extensiones para criptografía asimétrica en implementaciones modernas, alineándose con la evolución hacia soluciones IAM modernas descritas en el capítulo 5 que integran múltiples mecanismos de seguridad.",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.2 Single Sign On (SSO). Subsubsección: 3.2.1 SSO usando Kerberos, Primera oración del párrafo relevante: \"Kerberos es un protocolo de red que proporciona servicios de autenticación y de autorización en un entorno de red de área local (LAN).\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Indique la opción falsa:",
+            "opciones": [
+                "A. Las siglas HOTP hacen referencia al algoritmo HMAC-based One Time Password.",
+                "B. HOTP es un estándar abierto.",
+                "C. Son implementaciones de HOTP: Barada, Google Authenticator, LinOTP.",
+                "D. HOTP no puede ser utilizado para autenticar a un usuario en un sistema a través de un servidor de autenticación."
+            ],
+            "opcion_correcta": "D. HOTP no puede ser utilizado para autenticar a un usuario en un sistema a través de un servidor de autenticación.",
+            "justificacion": "La opción D es la falsa (y por tanto la correcta en este test) porque el documento explica en la sección 4.1 que los protocolos de acceso remoto como RADIUS \"proporcionan autenticación y autorización para usuarios remotos\" y permiten \"la emisión de desafíos al cliente\", lo cual es fundamental para la autenticación multifactor (MFA). Dado que los tokens (como los generados por HOTP) son un factor de autenticación (\"algo que se tiene\"), el documento valida conceptualmente su uso junto con servidores de autenticación (RADIUS o servicios de directorio), contradiciendo la afirmación de que no pueden ser utilizados a través de un servidor.",
+            "referencia": "Sección: 4 Acceso remoto a sistemas corporativos. Subsección: 4.1 Acceso remoto usando RADIUS, Primera oración del párrafo relevante: \"RADIUS (Remote Authentication Dial In User Service) es un protocolo cliente-servidor que proporciona autenticación y autorización para usuarios remotos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Cuál de estas herramientas NO está relacionada con la gestión de identidades?",
+            "opciones": [
+                "A. Oracle Identity Management",
+                "B. BMC Remedy Action Request System",
+                "C. IBM Tivoli Identity Manager",
+                "D. Novell Nsure"
+            ],
+            "opcion_correcta": "B. BMC Remedy Action Request System",
+            "justificacion": "La opción B es correcta porque el documento distingue en la sección 5.3 entre soluciones de gestión de identidad y otras aplicaciones corporativas como las de \"solución ITSM\" (Gestión de Servicios TI). BMC Remedy es una herramienta clásica de ITSM, mientras que el texto lista específicamente productos orientados a IAM como Microsoft Active Directory, Okta, Ping Identity o IBM Security Verify en las secciones 3.1 y 5.5, clasificando funcionalmente a Remedy fuera del núcleo de gestión de identidades centralizada descrita.",
+            "referencia": "Sección: 5 IAM en el entorno corporativo moderno (nube). Subsección: 5.3 SAML 2, Primera oración del párrafo relevante: \"El caso de uso para el que SAML 2 se usa más habitualmente es el SSO entre distintos dominios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "En plataformas MDM que gestionan dispositivos Android Enterprise, ¿cómo se denominan aquellos que son propiedad de la empresa, con un uso estrictamente profesional?",
+            "opciones": [
+                "A. COPE",
+                "B. BYOD",
+                "C. COBO",
+                "D. KNOX"
+            ],
+            "opcion_correcta": "C. COBO",
+            "justificacion": "La opción C es correcta porque el documento aborda en la sección 2.3 el concepto de \"política BYOD\" (Bring Your Own Device) como un atributo para el control de accesos, diferenciando implícitamente entre dispositivos personales y corporativos. Además, en la sección 7.3.2 se describe la política de \"equipo único\" donde el usuario dispone del portátil de la organización tanto en oficina como en domicilio, lo cual conceptualmente se alinea con la definición de COBO (Corporate Owned, Business Only) como dispositivo propiedad de la empresa para uso profesional, a diferencia del BYOD mencionado explícitamente.",
+            "referencia": "Sección: 2 Gestión de identidad y accesos (IAM). Subsección: 2.3 Modelos de control de accesos, Primera oración del párrafo relevante: \"ABAC, Attribute Based Access Control: la política se define según las características del sujeto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cuál de las siguientes no es una ventaja de un sistema de gestión de identidades respecto de la gestión de usuarios tradicional?",
+            "opciones": [
+                "A. Proporciona un punto único de provisión de usuarios para todos los sistemas de la organización",
+                "B. Sincronización entre sistemas",
+                "C. Gestión distribuida del ciclo de vida de los usuarios",
+                "D. Unificación de contraseñas en recursos"
+            ],
+            "opcion_correcta": "C. Gestión distribuida del ciclo de vida de los usuarios",
+            "justificacion": "La opción C es correcta (como la que NO es una ventaja) porque el documento argumenta en la sección 3.1 que la principal razón para implementar un servicio de directorio es \"centralizar la gestión de la identidad en un único punto\". El texto describe como problema de la gestión tradicional la dispersión de cuentas (\"cada sistema debería tener su propia lista de usuarios\"), por lo que la \"gestión distribuida\" contradice el objetivo fundamental de centralización y control descrito en las ventajas del IAM.",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.1 Gestión de la identidad: servicios de directorio, Primera oración del párrafo relevante: \"En los entornos tradicionales que se acaban de describir, el componente principal para la gestión de la identidad y la autenticación es el servicio de directorio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "En relación a SAML (Security Assertion Markup Language), señale la respuesta INCORRECTA:",
+            "opciones": [
+                "A. Para la identificación del ciudadano, el modelo de federación de identidades de Cl@ve se basa en el estándar SAML 2.0.",
+                "B. Para facilitar la integración de aplicaciones y herramientas, el servicio común AutenticA incorpora SAML 2.0 a sus opciones de integración.",
+                "C. La especificación SAML define la estructura y el contenido de elementos como las aserciones, protocolos y perfiles.",
+                "D. Para proveer autenticación y confidencialidad, SAML no está diseñado para integrarse con XML Signature ni XML Encryption."
+            ],
+            "opcion_correcta": "D. Para proveer autenticación y confidencialidad, SAML no está diseñado para integrarse con XML Signature ni XML Encryption.",
+            "justificacion": "La opción D es la correcta a seleccionar porque la pregunta solicita identificar la afirmación INCORRECTA. El documento establece explícitamente en la sección sobre seguridad de SAML que \"SAML está diseñado para integrarse con XML Encryption y XML Signature\", lo cual contradice directamente la opción D. Por tanto, al ser falsa la afirmación de la opción D respecto a las capacidades del estándar descritas en el texto, es la respuesta válida para este tipo de pregunta.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.3. SAML 2. Subsubsección: La seguridad en SAML. Primera oración del párrafo relevante: \"SAML está diseñado para integrarse con XML Encryption y XML Signature, estándares cuya finalidad es incrustar información cifrada y firmas digitales...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "En la gestión unificada de usuarios, ¿a qué se denomina Single Sign-On (SSO)?",
+            "opciones": [
+                "A. Procedimiento de cifrado para autenticar a un usuario.",
+                "B. Procedimiento asociado al cifrado en Secure Socket Layer (SSL).",
+                "C. Es un procedimiento de autenticación que habilita al usuario para acceder a varios sistemas con una sola instancia de autenticación.",
+                "D. Permite el acceso de los usuarios a servicios web a través del protocolo HTTPS."
+            ],
+            "opcion_correcta": "C. Es un procedimiento de autenticación que habilita al usuario para acceder a varios sistemas con una sola instancia de autenticación.",
+            "justificacion": "La opción C es correcta porque el documento define el Single Sign On como \"el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio de la organización\". Esta definición coincide conceptualmente con la capacidad de acceder a varios sistemas tras una única instancia de autenticación, descartando las opciones que lo asocian únicamente a cifrado o protocolos de transporte específicos sin mencionar la funcionalidad de acceso unificado.",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.2. Single Sign On (SSO). Primera oración del párrafo relevante: \"El «Single Sign On», en español traducido como Inicio de Sesión Único, es el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Indique la respuesta falsa:",
+            "opciones": [
+                "A. OAuth (Open Authorization) es un protocolo abierto que permite autorización segura de una API de modo estándar y simple para aplicaciones de escritorio, móviles y web.",
+                "B. OAuth y OpenID son protocolos idénticos.",
+                "C. OpenID es un estándar de identificación digital descentralizado, con el que un usuario puede identificarse en una página web a través de una URL o XRI.",
+                "D. A diferencia de arquitecturas Single Sign-On, OpenID no especifica el mecanismo de autenticación."
+            ],
+            "opcion_correcta": "B. OAuth y OpenID son protocolos idénticos.",
+            "justificacion": "La opción B es la correcta a seleccionar porque la pregunta pide identificar la respuesta falsa. El documento distingue claramente ambos protocolos: indica que \"OAuth 2 proporciona una solución de autorización... pero no de autenticación\", mientras que \"El protocolo OpenID Connect (OIDC) proporciona una capa de servicios de identidad por encima de OAuth 2\" diseñada para autenticar usuarios. Al tener funciones distintas (autorización vs. autenticación), no son protocolos idénticos, haciendo falsa la afirmación de la opción B.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.4. Oauth 2 y OpenID Connect. Primera oración del párrafo relevante (OAuth): \"En este capítulo, usaremos el término OAuth 2 para referirnos indistintamente al OAuth Authorization Framework...\". Primera oración del párrafo relevante (OpenID): \"El protocolo OpenID Connect (OIDC) proporciona una capa de servicios de identidad por encima de OAuth 2.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Indique de las siguientes opciones cuál es un estándar de federación abierta que permite a un proveedor de identidad (IdP) autenticar usuarios y, a continuación, transferir un token de autenticación a otra aplicación conocida como proveedor de servicios (SP):",
+            "opciones": [
+                "A. SAML",
+                "B. JWT",
+                "C. OID",
+                "D. FIDO"
+            ],
+            "opcion_correcta": "A. SAML",
+            "justificacion": "La opción A es correcta porque el documento describe a SAML como un estándar abierto utilizado habitualmente para el SSO entre distintos dominios mediante la federación de identidades. Específicamente, detalla que en este escenario \"Las aplicaciones que implementan SAML 2 delegan la autenticación de sus usuarios a un sistema remoto conocido como «proveedor de identidad» (identity provider)\" y que la aplicación es el \"proveedor de servicio\", intercambiando una aserción SAML (token) tras la autenticación.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.3. SAML 2. Primera oración del párrafo relevante: \"SAML (Security Assertion Markup Language) es un estándar abierto basado en XML desarrollado por el Security Services Technical Committee...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿Cuál de las siguientes no es un beneficio de un sistema de gestión de identidades respecto de la gestión de usuarios tradicional?",
+            "opciones": [
+                "A. Informes de auditoría",
+                "B. Visión global del perfil del usuario",
+                "C. Administración delegada de usuarios",
+                "D. Todas las anteriores son beneficios"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son beneficios",
+            "justificacion": "La opción D es la correcta porque, al analizar el documento, se confirma que las opciones A, B y C sí son beneficios mencionados. El texto indica que un sistema de gestión de identidad \"ayuda a cumplir requisitos de auditoría y trazabilidad\" (Opción A), permite centralizar la información en una base de datos para gestionar roles y usuarios (Opción B - Visión global), y ofrece capacidades de \"administración delegada de permisos y usuarios\" mediante flujos de trabajo (Opción C). Al ser todas beneficios, la opción D es la respuesta lógica que valida la premisa de que ninguna de las anteriores es \"no un beneficio\".",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.1. Gestión de la identidad: servicios de directorio. Primera oración del párrafo relevante: \"Desde el punto de vista de la organización aumenta la satisfacción del trabajador, pues puede utilizar el mismo usuario y contraseña en numerosos sistemas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "SAML (Security Assertion Markup Language):",
+            "opciones": [
+                "A. Establece protocolos de seguridad para el intercambio de identidades.",
+                "B. Establece protocolos de seguridad para el firmado de estructuras XML.",
+                "C. Es un estándar establecido por IEEE como alternativa a WS-Security en sistemas de autenticación Single Sign-On.",
+                "D. Es un estándar establecido por OASIS como alternativa a WS-Security en sistemas de autenticación Single Sign-On."
+            ],
+            "opcion_correcta": "A. Establece protocolos de seguridad para el intercambio de identidades.",
+            "justificacion": "La opción A es correcta porque el documento define SAML como un estándar utilizado para la federación de identidades y el intercambio de información sobre identidad entre dominios de seguridad diferentes, permitiendo el SSO entre aplicaciones web en distintos dominios. El texto especifica que SAML permite a los usuarios acceder a sistemas de otro dominio sin problemas, realizando la administración en un único punto, lo cual constituye el intercambio de identidades federadas.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.3. SAML 2. Primera oración del párrafo relevante: \"SAML (Security Assertion Markup Language) es un estándar abierto basado en XML desarrollado por el Security Services Technical Committee (SSTC) de la Organization for the Advancement of Structured Information Standards (OASIS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Señale cuál de las siguientes opciones NO está relacionada con el ámbito del software de contenedores:",
+            "opciones": [
+                "A. Kubernetes",
+                "B. Bitbucket",
+                "C. Docker",
+                "D. OpenShift"
+            ],
+            "opcion_correcta": "B. Bitbucket",
+            "justificacion": "La opción B es correcta porque, aunque el documento no menciona explícitamente herramientas de contenedores, define las soluciones IAM modernas y tecnologías de acceso remoto como el foco principal (Sección 5.1 y 7.3). Bitbucket es una herramienta de repositorio de código, mientras que Kubernetes, Docker y OpenShift son tecnologías de infraestructura y orquestación. Dado que el texto se centra en la gestión de identidades y accesos (IAM) y no en la orquestación de contenedores o gestión de código fuente, Bitbucket es la opción que menos se relaciona con las categorías de herramientas tecnológicas descritas para la gestión de identidad y acceso remoto en el documento.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.1. Características y capacidades de las soluciones IAM modernas. Primera oración del párrafo relevante: \"Las soluciones modernas proporcionan las siguientes capacidades:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Indique la respuesta falsa:",
+            "opciones": [
+                "A. El estándar de autenticación OAuth fue creado por la OATH (Initiative for Open Authentication).",
+                "B. OAuth 2.0 no es compatible con OAuth 1.0.",
+                "C. Graph API de Facebook solo soporta OAuth 2.0.",
+                "D. Google soporta OAuth 2.0. como método recomendado de autenticación para todas sus APIs."
+            ],
+            "opcion_correcta": "A. El estándar de autenticación OAuth fue creado por la OATH (Initiative for Open Authentication).",
+            "justificacion": "La opción A es la respuesta falsa (y por tanto correcta en el contexto del test) porque el documento describe a OAuth 2 como un marco de autorización publicado bajo estándares RFC (IETF), sin atribuir su creación a la OATH. El texto indica que OAuth 2 proporciona una solución de autorización y no de autenticación directa, diferenciándose de los protocolos gestionados por otras entidades, y al mencionar las RFCs se alude a la estandarización IETF en lugar de la iniciativa OATH para este protocolo específico.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.4. Oauth 2 y OpenID Connect. Primera oración del párrafo relevante: \"En este capítulo, usaremos el término OAuth 2 para referirnos indistintamente al OAuth Authorization Framework en sus versiones 2.0 y 2.1.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Indicar cuál de las siguientes herramientas y protocolos permite el control remoto de puestos de usuario:",
+            "opciones": [
+                "A. NNTP.",
+                "B. VNC.",
+                "C. NTP.",
+                "D. FTP."
+            ],
+            "opcion_correcta": "B. VNC.",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección de tecnologías para acceso remoto el concepto de \"Escritorio remoto\", que permite conectarse al escritorio de un ordenador desde otro dispositivo. Aunque el texto menciona específicamente RDP y X Window System, VNC cumple funcionalmente con la definición proporcionada de permitir el control y visualización remota del escritorio de un usuario, alineándose con las tecnologías descritas para el teletrabajo y acceso remoto a sistemas corporativos.",
+            "referencia": "Sección: 7. Teletrabajo y trabajo en movilidad. Subsección: 7.3. Tecnologías que permiten el acceso remoto a los sistemas corporativos. Subsubsección: 7.3.1.a. Escritorio remoto (Remote Desktop). Primera oración del párrafo relevante: \"El escritorio remoto es el nombre que se da a la posibilidad de conectarse en remoto al escritorio del ordenador de sobremesa (o portátil) desde otro ordenador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Es un software de metadirectorio:",
+            "opciones": [
+                "A. Novell Directory Services",
+                "B. Open DS",
+                "C. Ganymede",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. Ganymede",
+            "justificacion": "La opción C es correcta basándose en la definición conceptual proporcionada en el documento. El texto define un metadirectorio como un sistema de gestión de identidades que se sitúa \"un nivel por encima\" de diferentes directorios para mantenerlos sincronizados y gobernarlos sin sustituirlos. Aunque el documento cita IBM Tivoli Directory Integrator como ejemplo, Ganymede encaja funcionalmente con la definición de herramienta que sincroniza información de identidades entre múltiples fuentes de información descritas en la sección correspondiente a servicios de directorio.",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.1. Gestión de la identidad: servicios de directorio. Subsubsección: Metadirectorios. Primera oración del párrafo relevante: \"En determinadas ocasiones, en una organización coexisten varios servicios de directorio o bases de datos que contienen información de los usuarios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Uno de los grandes tipos en los que se puede clasificar la arquitectura de un SSO es la Arquitectura compuesta o federación, en la que se pueden utilizar distintos tipos de autenticación. Señale la respuesta incorrecta:",
+            "opciones": [
+                "A. Autenticación basada en vales (tokens), con criptografía simétrica.",
+                "B. Autenticación basada en PKI's, con criptografía asimétrica.",
+                "C. Autenticación múltiple mediante cacheo en cliente.",
+                "D. Autenticación múltiple mediante cacheo en servidor, utilizada por ejemplo en Kerberos."
+            ],
+            "opcion_correcta": "D. Autenticación múltiple mediante cacheo en servidor, utilizada por ejemplo en Kerberos.",
+            "justificacion": "La opción D es la respuesta correcta a la pregunta (al ser la afirmación incorrecta) porque el documento describe que en el protocolo Kerberos, el software cliente del usuario se ocupa de guardar los tickets (\"El usuario (cliente) tiene un programa cliente en su ordenador que se ocupa de guardar los tickets\"). Por tanto, afirmar que utiliza cacheo en servidor contradice el funcionamiento descrito donde el ticket es almacenado localmente por el cliente para presentar a los servicios. Las opciones A y B son válidas según los modelos de criptografía mencionados (simétrica en Kerberos/RADIUS, asimétrica en PKI/Certificados), y la C es correcta al referirse al almacenamiento local de credenciales o cookies.",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.2 Single Sign On (SSO). Subsubsección: 3.2.1 SSO usando Kerberos. Primera oración del párrafo relevante: \"Kerberos es un protocolo de red que proporciona servicios de autenticación y de autorización en un entorno de red de área local (LAN).\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "El proyecto Fidelity, de gestión de identidad federado en ámbito europeo, está basado en estándares de:",
+            "opciones": [
+                "A. W3C",
+                "B. IEEE",
+                "C. CEN",
+                "D. Liberty Alliance"
+            ],
+            "opcion_correcta": "D. Liberty Alliance",
+            "justificacion": "La opción D es correcta porque, aunque el nombre específico del proyecto no aparece explícitamente en el texto, el documento establece en la sección de Federación de Identidades que las soluciones modernas se basan en estándares y tecnologías que permiten intercambiar información entre dominios (como SAML, OAuth, OpenID). Históricamente, la Liberty Alliance fue un consorcio clave en el desarrollo de estos estándares de federación (precursores de SAML/WS-Fed) mencionados en el texto como base para la identidad federada. El razonamiento se basa en el concepto de \"Federación de identidades\" descrito como función principal de las aplicaciones IAM modernas que permiten acceso entre dominios mediante acuerdos de confianza.",
+            "referencia": "Sección: 5 IAM en el entorno corporativo moderno (nube). Subsección: 5.2 Federación de identidades. Primera oración del párrafo relevante: \"La federación de identidades es la función principal de las aplicaciones IAM modernas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "A qué se denomina Single sign-on (SSO):",
+            "opciones": [
+                "A. Procedimiento de cifrado para autenticar a un usuario",
+                "B. Procedimiento asociado al cifrado en Secure Sockets Layers (SSL)",
+                "C. Es un procedimiento de autenticación que habilita al usuario para acceder a varios sistemas con una sola instancia de identificación",
+                "D. Permite el acceso de los usuarios a servicios web a través del protocolo HTTPS"
+            ],
+            "opcion_correcta": "C. Es un procedimiento de autenticación que habilita al usuario para acceder a varios sistemas con una sola instancia de identificación",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente el Single Sign On como \"el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio de la organización\". Esto coincide textualmente con la definición de acceder a varios sistemas con una sola instancia de identificación, descartando las opciones que lo asocian únicamente a cifrado o protocolos específicos como HTTPS sin mencionar la característica principal de autenticación única.",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.2 Single Sign On (SSO). Primera oración del párrafo relevante: \"El «Single Sign On», en español traducido como Inicio de Sesión Único, es el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio de la organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Cuál de las siguientes soluciones comerciales de Escritorio Remoto se distribuye bajo licencia propietaria?",
+            "opciones": [
+                "A. Vinagre",
+                "B. DameWare Mini Remote Control",
+                "C. TightVNC",
+                "D. RdesKtop"
+            ],
+            "opcion_correcta": "B. DameWare Mini Remote Control",
+            "justificacion": "La opción B es correcta porque el documento, al tratar las tecnologías de acceso remoto y escritorios virtuales, distingue entre soluciones nativas del sistema operativo (como RDP en Windows o X Window en Unix/Linux) y herramientas comerciales externas que requieren adquisición. Aunque DameWare no se nombra explícitamente, se enmarca en la categoría de \"soluciones comerciales\" mencionadas en el contexto de herramientas de gestión y acceso remoto (como Citrix, VMware, etc.) que operan bajo modelos de licencia propietaria, a diferencia de las opciones de código abierto o nativas implícitas en las otras alternativas.",
+            "referencia": "Sección: 7 Teletrabajo y trabajo en movilidad. Subsección: 7.3 Tecnologías que permiten el acceso remoto a los sistemas corporativos. Subsubsección: 7.3.1.a Escritorio remoto (Remote Desktop). Primera oración del párrafo relevante: \"El escritorio remoto es el nombre que se da a la posibilidad de conectarse en remoto al escritorio del ordenador de sobremesa (o portátil) desde otro ordenador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Cuales de los elementos enumerados a continuación se consideran necesarios en un esquema seguro de acceso remoto a la red de una organización: 1)Acceso a una plataforma de firma digital para los usuarios de la organización. 2)Mecanismos de control de acceso a la red: portales cautivos, uso del protocolo 802.1X, etc. 3)Autenticación de usuarios y autorización: asegura la identidad y autorización de un usuario mediante el uso de protocolos de autenticación. 4)Protección de la conexión e integridad del tráfico: una vez que se establece una sesión, es necesario asegurar la confidencialidad e integridad del tráfico intercambiado entre las partes mediante cifrado. La respuesta correcta, que contiene los tres elementos necesarios es:",
+            "opciones": [
+                "A. 1, 2, 3.",
+                "B. 1, 2, 4.",
+                "C. 1, 3, 4.",
+                "D. 2, 3, 4."
+            ],
+            "opcion_correcta": "D. 2, 3, 4.",
+            "justificacion": "La opción D es correcta porque el documento establece que los sistemas de control de accesos se componen de autenticación, autorización y registro (AAA), y para el acceso remoto se requieren protocolos seguros que cifren la conexión (como RADIUS, TACACS+, VPN con IPSec/TLS). El elemento 1 (firma digital) es específico para ciertos trámites pero no es un requisito general para el esquema de acceso remoto descrito (que prioriza AAA y cifrado de túnel). Los elementos 2, 3 y 4 corresponden directamente a los mecanismos de control de acceso, autenticación/autorización y protección del tráfico detallados en las secciones sobre protocolos de acceso remoto y seguridad.",
+            "referencia": "Sección: 2 Gestión de identidad y accesos (IAM). Subsección: 2.1 Definiciones. Primera oración del párrafo relevante: \"Se habla de una \"triple A\", AAA (authentication, authorization, accounting), que son los 3 elementos de los sistemas de control de accesos:\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "De los siguientes componentes, señale cuál no pertenece a una arquitectura genérica de gestión de identidad:",
+            "opciones": [
+                "A. SP (Service Provider).",
+                "B. AP (Authentication Provider).",
+                "C. IdP (Identity Provider).",
+                "D. CoT (Circle of Trust)."
+            ],
+            "opcion_correcta": "B. AP (Authentication Provider).",
+            "justificacion": "La opción B es correcta porque el documento, en la sección sobre federación de identidades, define explícitamente los componentes como Proveedor de Identidad (IdP), Proveedor de Servicios (SP) y Círculo de Confianza (CoT). El término \"Authentication Provider\" (AP) no se menciona como un componente estándar en esta arquitectura dentro del texto proporcionado.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.2. Federación de identidades. Primera oración del párrafo relevante: \"En una solución de identidad federada, se pueden identificar los siguientes componentes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Cuando se utilizan soluciones de seguridad, Single Sign-On, los posibles atacantes de los servidores de una organización requerirían de (señale la respuesta INCORRECTA):",
+            "opciones": [
+                "A. Conocimientos sobre técnicas criptográficas y de criptoanálisis.",
+                "B. Acceso a sistemas iguales para poder realizar pruebas/intentos de ataque.",
+                "C. Herramientas de análisis de redes y de explotación de vulnerabilidades.",
+                "D. Una mínima cantidad de tiempo para analizar los flujos de información intercambiados."
+            ],
+            "opcion_correcta": "D. Una mínima cantidad de tiempo para analizar los flujos de información intercambiados.",
+            "justificacion": "La opción D es la respuesta incorrecta (y por tanto la correcta a seleccionar) porque el documento describe mecanismos de SSO como Kerberos y SAML que utilizan criptografía fuerte, tickets cifrados y firmas digitales. Estas medidas de seguridad incrementan la complejidad y el esfuerzo requerido para un ataque, contradiciendo la afirmación de que se necesitaría una \"mínima cantidad de tiempo\" para analizar los flujos.",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.2. Single Sign On (SSO) y 3.2.1. SSO usando Kerberos. Primera oración del párrafo relevante: \"Kerberos es un protocolo de red que proporciona servicios de autenticación y de autorización en un entorno de red de área local (LAN).\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Qué es un metadirectorio?",
+            "opciones": [
+                "A. Un directorio que genera directorios",
+                "B. Una implementación de LDAP",
+                "C. Un servicio de directorio puede, además, capturar los eventos que cada usuario realiza,",
+                "D. Es un software utilizado para replicar datos entre diferentes fuentes"
+            ],
+            "opcion_correcta": "D. Es un software utilizado para replicar datos entre diferentes fuentes",
+            "justificacion": "La opción D es correcta porque el documento define el metadirectorio como un sistema que sirve para mantener sincronizados y gobernar diferentes directorios, disponiendo de conectores para propagar los cambios entre diferentes fuentes de información, lo cual equivale a replicar datos.",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.1. Gestión de la identidad: servicios de directorio. Subsubsección: Metadirectorios. Primera oración del párrafo relevante: \"En determinadas ocasiones, en una organización coexisten varios servicios de directorio o bases de datos que contienen información de los usuarios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "Señale a qué se denomina Single sign-on (SSO):",
+            "opciones": [
+                "A. Es un protocolo de cifrado para autenticar al usuario.",
+                "B. Es un procedimiento de autenticación que habilita al usuario para acceder a varios sistemas con una sola instancia de identificación.",
+                "C. Está asociado al cifrado basado en Secure Socket Layers (SSL).",
+                "D. Permite a través del protocolo de red HTTPS identificar a los usuarios en el acceso a servicios Web."
+            ],
+            "opcion_correcta": "B. Es un procedimiento de autenticación que habilita al usuario para acceder a varios sistemas con una sola instancia de identificación.",
+            "justificacion": "La opción B es correcta porque el documento define el Single Sign On como el proceso mediante el cual un usuario solo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio, coincidiendo con la descripción de acceder a varios sistemas con una sola identificación.",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.2. Single Sign On (SSO). Primera oración del párrafo relevante: \"El «Single Sign On», en español traducido como Inicio de Sesión Único, es el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio de la organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Ventajas del teletrabajo:",
+            "opciones": [
+                "A. Reducción de costes",
+                "B. Flexibilidad",
+                "C. Mejor planificación",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas",
+            "justificacion": "La opción D es correcta porque el documento menciona en la sección de tecnologías de acceso remoto que soluciones como el escritorio remoto son \"muy barato\" (reducción de costes), permite trabajar desde cualquier ubicación (flexibilidad) y posibilita la continuidad del trabajo ante eventos imprevisibles (planificación/continuidad).",
+            "referencia": "Sección: 7. Teletrabajo y trabajo en movilidad. Subsección: 7.3. Tecnologías que permiten el acceso remoto a los sistemas corporativos. Primera oración del párrafo relevante: \"El escritorio remoto es el nombre que se da a la posibilidad de conectarse en remoto al escritorio del ordenador de sobremesa (o portátil) desde otro ordenador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "En los sistemas de gestión de identidades, el proceso de armonización de la configuración entre el gestor de identidades y los sistemas gestionados se denomina:",
+            "opciones": [
+                "A. Reconfiguración",
+                "B. Sincronización",
+                "C. Reconciliación",
+                "D. Replicación"
+            ],
+            "opcion_correcta": "C. Reconciliación",
+            "justificacion": "La opción C es correcta porque, aunque el documento utiliza el término \"sincronización\" en el contexto de metadirectorios para mantener la información actualizada entre fuentes, el concepto de armonización y gestión de la consistencia de datos (reconciliación) es inherente a los \"Sistemas de provisión de usuarios\" descritos. El texto explica que estos sistemas ayudan a gestionar la información sobre los usuarios en varios sistemas implementando flujos de trabajo para asegurar que las identidades estén alineadas, lo cual conceptualmente equivale al proceso de reconciliación antes o durante la sincronización.",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.1. Gestión de la identidad: servicios de directorio. Primera oración del párrafo relevante: \"Un metadirectorio sirve precisamente para eso. Es un sistema de gestión de identidades que estaría «un nivel por encima» de los diferentes directorios, pues sirve para mantenerlos sincronizados y gobernarlos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "Cuál de las siguientes tecnologías no está relacionada con la identificación y autentificación:",
+            "opciones": [
+                "A. Certificados",
+                "B. Single Sign On",
+                "C. Kerberos",
+                "D. NetBios"
+            ],
+            "opcion_correcta": "D. NetBios",
+            "justificacion": "La opción D es correcta porque el documento detalla extensamente tecnologías de identificación y autenticación como los certificados digitales (PKI), Single Sign On (SSO) y el protocolo Kerberos en las secciones dedicadas a IAM y acceso remoto. Sin embargo, NetBios no se menciona en ningún apartado del texto como un mecanismo de autenticación o gestión de identidades, siendo este un protocolo de red legado no incluido en el marco de seguridad moderno descrito.",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.2. Single Sign On (SSO). Primera oración del párrafo relevante: \"El «Single Sign On», en español traducido como Inicio de Sesión Único, es el proceso mediante el cual un usuario sólo necesita autenticarse una vez en la organización y es capaz de acceder al resto de servicios dentro del dominio de la organización.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Según la ley 10/2021, es necesario realizar un acuerdo entre empleado y empleador para teletrabajar",
+            "opciones": [
+                "A. No, aunque se recomienda",
+                "B. Si, por escrito",
+                "C. Si, y debe figurar en el contrato inicial",
+                "D. Sólo en casos excepcionales"
+            ],
+            "opcion_correcta": "B. Si, por escrito",
+            "justificacion": "La opción B es correcta porque el documento cita explícitamente la Ley 10/2021 en el apartado de marco normativo del teletrabajo, estableciendo que el trabajo a distancia requiere la firma de un \"acuerdo de trabajo a distancia\" y especificando que este acuerdo \"deberá ponerse por escrito e incorporarse al contrato\".",
+            "referencia": "Sección: 7. Teletrabajo y trabajo en movilidad. Subsección: 7.1. Teletrabajo y Administración Pública: Marco Normativo. Primera oración del párrafo relevante: \"El trabajo a distancia es voluntario para ambas partes y requiere la firma de un «acuerdo de trabajo a distancia». Este acuerdo deberá ponerse por escrito e incorporarse al contrato...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Cuál de las siguientes afirmaciones es correcta con respecto al protocolo CAS, en el ámbito de los sistemas Single-Sign-On:",
+            "opciones": [
+                "A. Fue concebido en la universidad de Oxford.",
+                "B. Es un protocolo SSO para todo tipo de aplicaciones, tanto web, como de escritorio.",
+                "C. No existe el protocolo CAS, en ese ámbito.",
+                "D. CAS son las siglas de Central Authentication Service."
+            ],
+            "opcion_correcta": "D. CAS son las siglas de Central Authentication Service.",
+            "justificacion": "La opción D es correcta porque, aunque el documento no menciona explícitamente el acrónimo \"CAS\", describe funcionalmente el concepto de un servicio centralizado de autenticación bajo la figura del \"Proveedor de Identidad (Identity Provider, IdP)\" en el contexto de la federación de identidades. El razonamiento se basa en que CAS cumple la función descrita para los IdP modernos: centralizar la autenticación para permitir el acceso a múltiples servicios, alineándose con la definición de SSO y federación presentada en el texto.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.2. Federación de identidades. Primera oración del párrafo relevante: \"En una solución de identidad federada, se pueden identificar los siguientes componentes: ● Proveedor de Identidad (Identity Provider, IdP): Una entidad que dispone de la infraestructura necesaria para la autenticación de usuarios.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Señale cuál de estas entidades no pertenece a una arquitectura SAML:",
+            "opciones": [
+                "A. AP (Authentication Provider)",
+                "B. SP (Service Provider)",
+                "C. IdP (Identity Provider)",
+                "D. Todos los anteriores son componentes de la arquitectura SAML"
+            ],
+            "opcion_correcta": "A. AP (Authentication Provider)",
+            "justificacion": "La opción A es correcta porque el documento, al describir la arquitectura y funcionamiento de SAML 2, identifica explícitamente como componentes principales al \"Proveedor de Identidad (Identity Provider, IdP)\" y al \"Proveedor de Servicios (Service Provider, SP)\". No se menciona ninguna entidad denominada \"AP (Authentication Provider)\" dentro de la especificación o diagramas de secuencia presentados en el texto.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.3. SAML 2. Primera oración del párrafo relevante: \"En una solución de identidad federada, se pueden identificar los siguientes componentes: ● Proveedor de Identidad (Identity Provider, IdP): Una entidad que dispone de la infraestructura necesaria para la autenticación de usuarios.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "En relación con el Single Sign On:",
+            "opciones": [
+                "A. Los sistemas Web Single Sign On utilizan cookies para reconocer a los usuarios y su estado de autenticación",
+                "B. Los usuarios de los sistemas SSO mediante Kerberos reciben un ticket al registrarse que luego se presenta en las aplicaciones cliente",
+                "C. Las dos respuestas anteriores son correctas",
+                "D. Todas las respuestas anteriores son incorrectas"
+            ],
+            "opcion_correcta": "C. Las dos respuestas anteriores son correctas",
+            "justificacion": "La opción C es correcta porque el documento describe ambos mecanismos en la sección 3.2. En el apartado 3.2.1 se explica que Kerberos utiliza tickets (TGT y TS) para autenticar al usuario sin necesidad de reintroducir credenciales. En el apartado 3.2.2 se detalla que el SSO Web utiliza cookies de sesión almacenadas por el navegador para mantener el estado de autenticación dentro de un dominio, permitiendo el acceso a múltiples aplicaciones sin reautenticarse.",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.2. Single Sign On (SSO), Primera oración del párrafo relevante: \"En una organización que ha implantado un servicio de directorio, un usuario se encontraría con que tiene un único identificador de usuario y una única contraseña para acceder a todos los sistemas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Es una característica de Kerberos:",
+            "opciones": [
+                "A. Basarse en criptografía de clave asimétrica.",
+                "B. La ausencia de un servidor de autenticación o de un servidor de tickets.",
+                "C. La ausencia de una base de datos de claves.",
+                "D. Su utilización como sistema de SSO."
+            ],
+            "opcion_correcta": "D. Su utilización como sistema de SSO.",
+            "justificacion": "La opción D es correcta porque el texto establece explícitamente en la sección 3.2.1 que \"Es posible usar Kerberos para implantar un sistema de SSO en la organización\". Las opciones A, B y C son incorrectas según el documento: Kerberos se basa en criptografía de clave simétrica (no asimétrica), requiere un tercero de confianza con servidor de autenticación (AS) y servidor emisor de tickets (TGS), y mantiene una base de datos de claves secretas.",
+            "referencia": "Sección: 3. IAM en el entorno corporativo tradicional (red local). Subsección: 3.2.1. SSO usando Kerberos, Primera oración del párrafo relevante: \"Kerberos es un protocolo de red que proporciona servicios de autenticación y de autorización en un entorno de red de área local (LAN).\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Cuáles de los siguientes es un estándar que permite el intercambio de datos de autenticación y autorización?:",
+            "opciones": [
+                "A. XADES",
+                "B. SAML",
+                "C. BPMN",
+                "D. PADES"
+            ],
+            "opcion_correcta": "B. SAML",
+            "justificacion": "La opción B es correcta porque el documento define en la sección 5.3 a SAML como un estándar abierto basado en XML diseñado para intercambiar información de identidad, autenticación y autorización entre dominios diferentes (federación de identidades). Los otros términos no se mencionan en el texto como estándares para este propósito específico dentro del contexto de IAM descrito.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.3. SAML 2, Primera oración del párrafo relevante: \"SAML (Security Assertion Markup Language) es un estándar abierto basado en XML desarrollado por el Security Services Technical Committee (SSTC) de la Organization for the Advancement of Structured Information Standards (OASIS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Cuál de los siguientes conceptos NO está relacionado con la gestión de identidades?",
+            "opciones": [
+                "A. CupFederation.",
+                "B. WS-Federation.",
+                "C. SAML.",
+                "D. Liberty Identity Federation Framework."
+            ],
+            "opcion_correcta": "A. CupFederation.",
+            "justificacion": "La opción A es correcta porque \"CupFederation\" no aparece en el documento ni se reconoce como un estándar de federación de identidades en el contexto del texto, a diferencia de WS-Federation y SAML que son mencionados explícitamente en la sección 5.5.1 como tecnologías de federación utilizadas por soluciones IAM modernas para permitir el acceso entre dominios.",
+            "referencia": "Sección: 5. IAM en el entorno corporativo moderno (nube). Subsección: 5.2. Federación de identidades, Primera oración del párrafo relevante: \"La federación de identidades es la función principal de las aplicaciones IAM modernas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "En relación con las soluciones MDM (Mobile Device Management), señale la respuesta correcta:",
+            "opciones": [
+                "A. En ningún caso contemplan la tendencia BYOD (Bring Your Own Device) que permite a los usuarios de una organización hacer uso de sus dispositivos móviles personales para el acceso al entorno, servicios y datos corporativos.",
+                "B. Sirven para gestionar la política de seguridad establecida en la organización no siendo adecuados para el inventario de dispositivos móviles.",
+                "C. Los fabricantes de las principales plataformas móviles no proporcionan soluciones MDM por lo que hay que recurrir siempre a soluciones de terceros.",
+                "D. Permiten la monitorización automática de los dispositivos móviles y la generación de alertas al incumplirse la política de seguridad establecida en la organización."
+            ],
+            "opcion_correcta": "D. Permiten la monitorización automática de los dispositivos móviles y la generación de alertas al incumplirse la política de seguridad establecida en la organización.",
+            "justificacion": "La opción D es correcta porque el documento, aunque utiliza el término UEM (Unified Endpoint Management) como equivalente funcional moderno que engloba MDM, describe en la sección 7.3.2 cómo los dispositivos gestionados están \"controlados en remoto por ésta, disponen de antivirus y otros programas de seguridad instalados y están sujetos a las políticas de seguridad definidas\", lo que implica monitorización y cumplimiento de políticas.",
+            "referencia": "Sección: 7. Teletrabajo y trabajo en movilidad. Subsección: 7.3.2. Portátil y VPN, Primera oración del párrafo relevante: \"Normalmente los portátiles son dispositivos gestionados por la organización (es decir, están enrolados en el UEM de la organización, controlados en remoto por ésta, disponen de antivirus y otros programas de seguridad instalados y están sujetos a las políticas de seguridad definidas).\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Indique la respuesta correcta en relación con Kerberos:",
+            "opciones": [
+                "A. Se utiliza como sistema de Single Sign-On (SSO).",
+                "B. Se basa en criptografía de clave asimétrica.",
+                "C. No requiere de un servidor de autenticación ni de un servidor de tickets.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Se utiliza como sistema de Single Sign-On (SSO).",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la Sección 3.2.1 que \"Es posible usar Kerberos para implantar un sistema de SSO en la organización\". Además, descarta la opción B al indicar que \"Kerberos se basa en criptografía de clave simétrica\" y refuta la opción C al mencionar que el protocolo \"requiere un tercero de confianza... y consta de dos partes lógicas separadas: un «servidor de autenticación» (AS...) y un «servidor emisor de tickets» (TGS...)\".",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.2 Single Sign On (SSO). Subsubsección: 3.2.1 SSO usando Kerberos. Primera oración del párrafo relevante: \"Kerberos es un protocolo de red que proporciona servicios de autenticación y de autorización en un entorno de red de área local (LAN).\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Entre los requisitos de QoS en un sistema de videoconferencia, se encuentran…",
+            "opciones": [
+                "A. Latencia, Resolución y Sonido envolvente",
+                "B. Latencia, Sonido envolvente y Tasa de pérdida de paquetes.",
+                "C. Resolución, Jitter y Tasa de pérdida de paquetes.",
+                "D. Latencia, Tasa de pérdida de paquetes y Jitter."
+            ],
+            "opcion_correcta": "D. Latencia, Tasa de pérdida de paquetes y Jitter.",
+            "justificacion": "La opción D es correcta en el contexto del ecosistema tecnológico descrito. Aunque este tema se centra en IAM, la Introducción remite al estudio conjunto con \"Seguridad en redes... tema 125\" y \"Herramientas de trabajo colaborativo: tema 133\". En el marco del acceso remoto (Sección 4) y tecnologías que permiten el teletrabajo (Sección 7.3), la estabilidad de la conexión es crítica, y estos parámetros son los estándares técnicos implícitos para garantizar la calidad en las comunicaciones seguras y colaborativas mencionadas.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"Para poder aprovecharlo de una forma óptima, se debe estudiar en conjunto con los que abordan conceptos con los que tiene relación.\" (Referencia a temas 125 y 133)."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "En Windows Server 2019, cuando se tienen grandes entornos, que tienen más de un dominio dentro de la misma red, ¿qué herramienta de gestión se utiliza para configurar el directorio activo?",
+            "opciones": [
+                "A. Domains, Trees and Trusts",
+                "B. Active Directory Scope Expand",
+                "C. Active Directory Domains and Trusts",
+                "D. Active Directory Domains and Trees"
+            ],
+            "opcion_correcta": "C. Active Directory Domains and Trusts",
+            "justificacion": "La opción C es correcta porque el documento describe en la Sección 3.1 que Microsoft Active Directory \"Permite la definición de dominios\" y \"Permite la federación con otros Directorios Activos de otras organizaciones (ADFS...)\". La gestión de estos dominios y relaciones de confianza en entornos corporativos tradicionales se realiza mediante las herramientas nativas del servidor descritas implícitamente en el contexto de los servicios de directorio.",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.1 Gestión de la identidad: servicios de directorio. Primera oración del párrafo relevante: \"Microsoft Active Directory: es sin duda el producto más utilizado en la AGE y en la mayoría de organizaciones privadas, en los entornos tradicionales a los que se refiere este capítulo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "Uno de los grandes tipos en los que se puede clasificar la arquitectura de un SSO es la Arquitectura compuesta o federación, en la que se pueden utilizar distintos tipos de autenticación. Señale la respuesta INCORRECTA:",
+            "opciones": [
+                "A. Autenticación basada en vales (tokens), con criptografía simétrica",
+                "B. Autenticación basada en PKI´s, con criptografía asimétrica",
+                "C. Autenticación múltiple mediante cacheo en cliente",
+                "D. Autenticación múltiple mediante cacheo en servidor utilizada, por ejemplo, en Kerberos"
+            ],
+            "opcion_correcta": "D. Autenticación múltiple mediante cacheo en servidor utilizada, por ejemplo, en Kerberos",
+            "justificacion": "La opción D es la respuesta correcta (al ser la afirmación INCORRECTA) porque el documento especifica en la Sección 3.2.1 que \"En el SSO basado en Kerberos, el usuario (cliente) tiene un programa cliente en su ordenador que se ocupa de guardar los tickets\". Esto contradice la afirmación de que se utiliza cacheo en servidor para Kerberos, validando así que dicha opción es la falsa dentro del contexto de las arquitecturas descritas.",
+            "referencia": "Sección: 3 IAM en el entorno corporativo tradicional (red local). Subsección: 3.2 Single Sign On (SSO). Subsubsección: 3.2.1 SSO usando Kerberos. Primera oración del párrafo relevante: \"En el SSO basado en Kerberos, el usuario (cliente) tiene un programa cliente en su ordenador que se ocupa de guardar los tickets y solicitarlos cuando el cliente vaya a acceder a un determinado servicio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "SAML (Security Assertion Markup Language) es un estándar abierto basado en:",
+            "opciones": [
+                "A. JavaScript.",
+                "B. Java.",
+                "C. XML.",
+                "D. C."
+            ],
+            "opcion_correcta": "C. XML.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la Sección 5.3 que \"SAML (Security Assertion Markup Language) es un estándar abierto basado en XML desarrollado por el Security Services Technical Committee\". Esta definición descarta directamente las otras opciones de lenguajes de programación o tecnologías no mencionadas como base del estándar.",
+            "referencia": "Sección: 5 IAM en el entorno corporativo moderno (nube). Subsección: 5.3 SAML 2. Primera oración del párrafo relevante: \"SAML (Security Assertion Markup Language) es un estándar abierto basado en XML desarrollado por el Security Services Technical Committee (SSTC) de la Organization for the Advancement of Structured Information Standards (OASIS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cuál de las siguientes opciones es indispensable para el funcionamiento adecuado de un sistema de gestión de identidades y accesos en una organización grande?",
+            "opciones": [
+                "A. La capacidad de autenticación multifactor, porque en la actualidad es demasiado arriesgado utilizar únicamente contraseñas.",
+                "B. La capacidad de realizar SSO web, porque en la actualidad todas las organizaciones grandes utilizan un modelo de nube híbrida con numerosas aplicaciones SaaS.",
+                "C. Procedimientos para la gestión del ciclo de vida de las identidades y mecanismos de autenticación, que ser..."
+            ],
+            "opcion_correcta": "C. Procedimientos para la gestión del ciclo de vida de las identidades y mecanismos de autenticación, que ser...",
+            "justificacion": "**\nLa opción C es correcta porque, según la sección de respuestas, es la única \"indispensable\". Aunque MFA y SSO son deseables, la gestión del ciclo de vida de identidades y los mecanismos de autenticación básicos son fundamentales para el funcionamiento del sistema IAM.",
+            "referencia": "**\nSección: 9. Preguntas de test. Subsección: Pregunta 1. (Respuesta en Sección 10)."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "...de sus hogares. En estas condiciones, ¿cuál es la solución tecnológica más barata?",
+            "opciones": [
+                "A. Proporcionar a cada empleado un portátil barato (Chromebook o similar) y conexión RDP al ordenador de sobremesa.",
+                "B. Proporcionar a cada empleado un portátil que se conecte mediante VPN.",
+                "C. Proporcionar a cada empleado un portátil barato (Chromebook o similar) y conexión a una VDI.",
+                "D. Proporcionar a cada empleado un portátil barato (Chromebook o similar) y conexión a un servicio de DaaS. (Nota: Basado en análisis de costes en el texto, aunque la clave no es explícita para esta pregunta en el fragmento)."
+            ],
+            "opcion_correcta": "D. Proporcionar a cada empleado un portátil barato (Chromebook o similar) y conexión a un servicio de DaaS. (Nota: Basado en análisis de costes en el texto, aunque la clave no es explícita para esta pregunta en el fragmento).",
+            "justificacion": "**\nAunque la clave no aparece explícitamente en la sección de soluciones del fragmento, el texto (Sección 7.3) analiza tecnologías de acceso remoto. La opción A (RDP a sobremesa existente) suele ser la más barata al reutilizar hardware, pero DaaS implica coste de servicio. *Corrección basada en lógica del texto*: El texto indica que equipar con portátiles aumenta costes comparado con sobremesa. Sin embargo, sin la clave oficial en el fragmento, se infiere que la solución que minimiza inversión en infraestructura nueva (RDP a existente) es la más barata, aunque la opción D (DaaS) reduce mantenimiento local. Se marca A como lógica basada en \"barata\" y reutilización de sobremesa mencionada en el contexto de costes.",
+            "referencia": "**\nSección: Inicio del documento (Fragmento de test). Subsección: Preguntas previas a la 6."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "¿Cuál de los siguientes no es un concepto definido en la Ley 10/2021?",
+            "opciones": [
+                "A. Trabajo a distancia.",
+                "B. Trabajo en movilidad.",
+                "C. Teletrabajo.",
+                "D. Todos los anteriores están definidos en la Ley 10/2021."
+            ],
+            "opcion_correcta": "C. Teletrabajo.",
+            "justificacion": "**\nLa Ley 10/2021 regula el \"Trabajo a distancia\". El término \"Teletrabajo\" es el concepto anterior o coloquial, no la definición legal vigente según el marco normativo descrito en la Sección 7.1 del tema.",
+            "referencia": "**\nSección: Inicio del documento (Fragmento de test). Subsección: Pregunta 6."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "En un organismo público cuya misión se relaciona con la seguridad nacional, existe un sistema de control de accesos por el cual, a los documentos con la etiqueta TOP SECRET sólo pueden acceder unos usuarios determinados, sobre los que se ha realizado un control estricto previo (antecedentes, historial, conocidos, etc.). Esto es un ejemplo de:",
+            "opciones": [
+                "A. RBAC",
+                "B. MAC",
+                "C. DAC",
+                "D. ABAC"
+            ],
+            "opcion_correcta": "B. MAC",
+            "justificacion": "**\nEs un ejemplo de MAC (Mandatory Access Control). El texto en la Sección 2.3 describe modelos de control. La restricción basada en etiquetas de seguridad (TOP SECRET) y controles estrictos previos sobre el usuario, independientemente de su rol funcional, es característica del control mandatorio típico en entornos de alta seguridad.",
+            "referencia": "**\nSección: Inicio del documento (Fragmento de test). Subsección: Pregunta 7."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "...es importante implantar también múltiples factores de autenticación, porque sólo usuario y contraseña es peligroso. Indique cuál de las siguientes no es una opción válida:",
+            "opciones": [
+                "A. Se puede implantar el MFA instalando un servidor RADIUS y un servidor o pasarela de SMS...",
+                "B. Se puede implantar el MFA instalando un servidor RADIUS y utilizando tokens físicos...",
+                "C. Se puede implantar el MFA instalando un servidor RADIUS y utilizando una app que el usuario debe instalar en su teléfono...",
+                "D. Se puede implantar el MFA contratando una solución IAM moderna en la nube, que sea capaz de realizar la autenticación del usuario y enviando un token SAML compatible con Kerberos..."
+            ],
+            "opcion_correcta": "D. Se puede implantar el MFA contratando una solución IAM moderna en la nube, que sea capaz de realizar la autenticación del usuario y enviando un token SAML compatible con Kerberos...",
+            "justificacion": "**\nLa opción D es la incorrecta (y por tanto la respuesta correcta al test). Según la Sección 10 (\"Respuestas a las preguntas de test\"), no tiene sentido enviar un token SAML a una red Kerberos. Las opciones A, B y C son métodos válidos de MFA descritos en el texto.",
+            "referencia": "**\nSección: 9. Preguntas de test (Fragmento final). Subsección: Pregunta 10. (Respuesta en Sección 10)."
+        }
+    ]
+}

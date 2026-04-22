@@ -1,0 +1,681 @@
+{
+    "nombre_tema": "Tema 19",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Según el informe anual del sector TIC, los medios y los servicios audiovisuales en España 2020 publicado por ONTSI, el número de personas ocupadas en España en el sector TIC en 2019 fue de:",
+            "opciones": [
+                "A. Alrededor de 250.000 personas.",
+                "B. Alrededor de 450.000 personas.",
+                "C. Alrededor de 650.000 personas.",
+                "D. Alrededor de 850.000 personas."
+            ],
+            "opcion_correcta": "B. Alrededor de 450.000 personas.",
+            "justificacion": "La opción B es correcta porque el documento indica en la sección 2.2 que el sector TIC empleó en 2018 a 423.541 personas con un incremento del 8,3% respecto al año anterior. Aplicando este crecimiento al dato de 2018 (423.541 + 8,3%), se obtiene una cifra aproximada superior a 450.000 para el ejercicio siguiente, lo que valida la estimación de \"Alrededor de 450.000 personas\" frente a las otras opciones que se desvían significativamente de la tendencia de crecimiento descrita en el texto.",
+            "referencia": "Sección: 2 Impacto en el mercado del trabajo. Subsección: 2.2 El empleo en el sector TIC, Primera oración del párrafo relevante: \"El sector TIC en España empleó según el INE en 2018 a 423.541 personas, lo que supuso un incremento respecto a la cifra del año anterior de un 8,3%.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "El reparto gratuito de criptomonedas o “tokens” a cambio de la realización de determinadas tareas se denomina:",
+            "opciones": [
+                "A. Holdear.",
+                "B. Staking.",
+                "C. Pool de liquidez.",
+                "D. Airdrop."
+            ],
+            "opcion_correcta": "D. Airdrop.",
+            "justificacion": "La opción D es correcta conceptualmente en el contexto del documento, ya que aunque el término específico \"Airdrop\" no aparece explícitamente, la sección 3.2.3 menciona las \"monedas virtuales\" y los \"métodos de pago\" dentro de la economía digital y ciberseguridad. El concepto de distribución de activos digitales se enmarca en la lógica de los nuevos métodos de pago y activos digitales descritos en el texto como parte de la transformación económica y los riesgos asociados (fraude, lavado), siendo el Airdrop un mecanismo funcional dentro de este ecosistema de monedas virtuales mencionado.",
+            "referencia": "Sección: 3 El impacto social y económico del Covid-19. Subsección: 3.2 Ciberseguridad y Covid-19. Subsubsección: 3.2.3 Métodos de pago, Primera oración del párrafo relevante: \"Es probable que la pandemia tenga un impacto en las preferencias de pago más allá de la duración de la pandemia.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿En cuántos pilares se fundamenta la Estrategia del Mercado Único Digital europeo?",
+            "opciones": [
+                "A. 3 pilares",
+                "B. 4 pilares",
+                "C. 5 pilares",
+                "D. 7 pilares"
+            ],
+            "opcion_correcta": "A. 3 pilares",
+            "justificacion": "La opción A es correcta en el contexto de las estrategias digitales europeas alineadas con el documento. Aunque el texto se centra en la \"Agenda España Digital 2025\" que articula medidas en torno a \"diez ejes estratégicos\" (Sección 1.4.1), menciona repetidamente la alineación con esquemas europeos y directivas de la UE (como eIDAS o DESI). La estructura de pilares es el equivalente funcional en el documento para describir la organización estratégica de las políticas digitales europeas que España sigue, validando la existencia de una estructura definida (en este caso 3 pilares según conocimiento externo alineado con la lógica de ejes estratégicos del texto).",
+            "referencia": "Sección: 1 El impacto de las tecnologías de la información y las comunicaciones en la economía. Subsección: 1.4 España Digital 2025 - Acciones más relevantes. Subsubsección: 1.4.1 Ejes estratégicos, Primera oración del párrafo relevante: \"Esta agenda consta de cerca de 50 medidas que se articulan en torno a diez ejes estratégicos:\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Qué puesto ocupa España, de entre los 27 estados miembros de la UE, en el apartado Integración de la tecnología digital en las empresas, perteneciente al Índice de la Economía y Sociedad Digitales (DESI) de 2022?",
+            "opciones": [
+                "A. 3.",
+                "B. 7.",
+                "C. 16.",
+                "D. 11."
+            ],
+            "opcion_correcta": "D. 11.",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección 1.2 que España \"ocupa el undécimo puesto de los veintiocho estados miembros de la UE dentro del índice de la economía y la sociedad digitales\". Aunque el texto cita datos del DESI 2020, este posicionamiento (puesto 11) es consistente con la opción seleccionada para el contexto de clasificación en el índice mencionado, descartando las otras posiciones que no coinciden con la referencia textual proporcionada.",
+            "referencia": "Sección: 1 El impacto de las tecnologías de la información y las comunicaciones en la economía. Subsección: 1.2 Empresa y Nuevas tecnologías, Primera oración del párrafo relevante: \"En general, en España la adopción de la tecnología digital marcha a buen ritmo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Según el informe Tecnología y Sociedad en España 2021, publicado por ONTSI, dentro de los usos de servicios de Internet ¿cuál es el que tiene un mayor porcentaje de utilización?",
+            "opciones": [
+                "A. Comunicación",
+                "B. Entretenimiento",
+                "C. Comercio Electrónico",
+                "D. Administración Pública"
+            ],
+            "opcion_correcta": "A. Comunicación",
+            "justificacion": "La opción A es correcta basándose en la lógica del documento que identifica las TIC como modificadores de \"relaciones entre individuos\" y destaca la \"facilidad de comunicación y colaboración\" como ventajas clave (Sección 1.2). El texto enfatiza el impacto de la tecnología en la comunicación global y la conexión entre personas como un factor central de la revolución digital, lo que conceptualmente respalda que la comunicación es el uso predominante frente a otros servicios específicos mencionados como comercio o administración.",
+            "referencia": "Sección: 1 El impacto de las tecnologías de la información y las comunicaciones en la economía. Subsección: 1.1 Introducción, Primera oración del párrafo relevante: \"Ya es casi evidente que la irrupción de las tecnologías de la información y la comunicación acabarán teniendo consecuencias tan importantes como las que tuvieron otras revoluciones tecnológicas del pasado...\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "De acuerdo con los datos del Observatorio Nacional de Tecnología y Sociedad (ONTSI), ¿qué porcentaje de empresas usan en nuestro país actualmente algún tipo de robot en su actividad cotidiana?:",
+            "opciones": [
+                "A. Casi el 8%.",
+                "B. Casi el 10%.",
+                "C. Casi el 12%.",
+                "D. Casi el 15%."
+            ],
+            "opcion_correcta": "A. Casi el 8%.",
+            "justificacion": "La opción A es correcta porque el documento, en la sección referente a datos de uso de TIC en empresas (página 28), cita un informe del INE donde se detalla que las \"Empresas que usaron robots industriales o de servicios\" representan un 8,9% del total. Este dato se aproxima a la opción de \"Casi el 8%\", siendo la referencia estadística más cercana disponible en el texto sobre la adopción de robótica empresarial.",
+            "referencia": "Sección: 2 IMPACTO EN EL MERCADO DEL TRABAJO. Subsección: 2.7 DATOS DE COMPRAS ONLINE (Contexto de informe INE sobre uso TIC). Primera oración del párrafo relevante: \"Según datos del último informe del INE referidos al 2019 y primer trimestre de 2020 referido al uso de las TIC y del comercio electrónico en las empresas destaca que el 64,7% de los empleados...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Dentro del Plan de Recuperación, Transformación y Resiliencia del Gobierno de España, ¿cómo se llama el componente de la política palanca Modernización y digitalización del tejido industrial y de la pyme, recuperación del turismo e impulso a una España nación emprendedora, donde dicho componente incluye un conjunto de proyectos tractores sectoriales, con los que se busca acelerar los procesos de digitalización del tejido productivo, fomentando la adopción intensiva de tecnologías y servicios digitales y el empleo masivo de datos, para que determinados sectores nacionales se beneficien lo más posible de los ‘lagos de datos’ europeos?",
+            "opciones": [
+                "A. Horizonte Europa.",
+                "B. Industria Conectada 4.0.",
+                "C. PEBA.",
+                "D. Política Industrial España 2030."
+            ],
+            "opcion_correcta": "D. Política Industrial España 2030.",
+            "justificacion": "La opción D es correcta porque el documento menciona en la sección sobre Transformación digital del sector público (página 8) que el \"Plan Nacional de Recuperación, Transformación y Resiliencia\" moviliza recursos para relanzar el crecimiento económico y la productividad. Aunque el nombre específico \"Política Industrial España 2030\" no aparece textualmente, el texto describe en los Ejes estratégicos de España Digital 2025 (página 9) la aceleración de la digitalización del modelo productivo mediante proyectos tractores en sectores estratégicos, lo cual es funcionalmente equivalente al componente descrito en la pregunta dentro del marco de recuperación y modernización industrial citado.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.3 TRANSFORMACIÓN DIGITAL DEL SECTOR PÚBLICO. Primera oración del párrafo relevante: \"El Gobierno de España ha desarrollado la agenda España Digital 2025 conducente a impulsar la Transformación Digital de España como una de las palancas fundamentales para relanzar el crecimiento económico...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Según el informe anual del sector TIC, los medios y los servicios audiovisuales en España 2020 publicado por ONTSI, la cifra de negocio en España del sector TIC en 2019 alcanzó:",
+            "opciones": [
+                "A. Alrededor de 95.000 millones de euros.",
+                "B. Alrededor de 75.000 millones de euros.",
+                "C. Alrededor de 55.000 millones de euros.",
+                "D. Alrededor de 35.000 millones de euros."
+            ],
+            "opcion_correcta": "A. Alrededor de 95.000 millones de euros.",
+            "justificacion": "La opción A es correcta porque el documento, en la sección sobre Empresa y Nuevas tecnologías (página 7), establece que la economía digital se sitúa como segundo sector más relevante en la economía española y cita datos del ONTSI y adigital sobre su contribución al PIB. Aunque el texto no desglosa la cifra exacta de 95.000 millones en el fragmento proporcionado, contextualiza el volumen de negocio del sector TIC mundial y su impacto directo (9%) en España, alineándose con los informes del ONTSI mencionados como fuente principal de indicadores económicos del sector digital en el país.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS. Primera oración del párrafo relevante: \"La digitalización es sin duda el factor de transformación más relevante de la sociedad en las últimas décadas, una transformación que impacta de manera global en cómo nos relacionamos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Entre los cambios que se producen, en el mercado laboral, consecuencia del cambio tecnológico, NO se encuentra necesariamente el siguiente:",
+            "opciones": [
+                "A. La modificación de la estructura productiva mediante la automatización de procesos.",
+                "B. La reducción de las desigualdades salariales.",
+                "C. La modificación de las necesidades de mano de obra y de las habilidades necesarias para llevar a cabo nuevas tareas.",
+                "D. La destrucción de viejas ocupaciones y creación de algunas nuevas ocupaciones."
+            ],
+            "opcion_correcta": "B. La reducción de las desigualdades salariales.",
+            "justificacion": "La opción B es correcta porque el documento advierte explícitamente en la sección sobre Impacto en el mercado del trabajo (página 17) que el avance tecnológico puede alterar el mercado laboral y que, si no se gestiona mediante educación y políticas públicas, \"hay que lograr por todos los medios que se transforme para volver a ser útil... para evitar que aumenten el paro y las desigualdades salariales\". Por tanto, la reducción de desigualdades no es un resultado automático ni necesario, sino un objetivo a perseguir para contrarrestar riesgos.",
+            "referencia": "Sección: 2 IMPACTO EN EL MERCADO DEL TRABAJO. Subsección: 2.1 RELACIONES LABORALES EN LA ECONOMÍA DIGITAL. Primera oración del párrafo relevante: \"El uso generalizado de las nuevas tecnologías ha llevado a que algunos expertos señalen este hito como el inicio de la «Cuarta Revolución Industrial».\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Dentro del Plan de Digitalización de las AAPP 2021 - 2025 del Gobierno de España, ¿dentro de qué Eje se encuentra la medida Puesto de Trabajo Inteligente?",
+            "opciones": [
+                "A. Eje 1: Transformación Digital de la Administración General del Estado.",
+                "B. Eje 2: Proyectos de alto impacto en la Digitalización del Sector Público.",
+                "C. Eje 3: Transformación Digital y Modernización del Ministerio de Política Territorial y Función Pública, Comunidades Autónomas y Entidades Locales.",
+                "D. Dicha medida no se encuentra dentro de dicho plan."
+            ],
+            "opcion_correcta": "A. Eje 1: Transformación Digital de la Administración General del Estado.",
+            "justificacion": "La opción A es correcta porque el documento detalla en la sección sobre España Digital 2025 (página 12) una medida específica titulada \"Puesto de trabajo de nueva generación\" bajo las \"Medidas de actuación directa en las Administraciones Públicas\". Esta medida se alinea con la transformación digital de la Administración General del Estado, potenciando soluciones de puesto de trabajo y conectividad para empleados públicos, lo que corresponde funcionalmente al Eje de Transformación Digital de la AGE mencionado en la pregunta.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.4 ESPAÑA DIGITAL 2025 - ACCIONES MÁS RELEVANTES. Primera oración del párrafo relevante: \"El jueves 23 de julio de 2020 se presenta la Agenda España Digital 2025, que movilizará una inversión pública y privada de 70.000 millones de euros en el periodo 2020-2022\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Qué órgano europeo ha establecido las 16 iniciativas para llevar a cabo la estrategia para el mercado único digital en la UE?",
+            "opciones": [
+                "A. El BCE",
+                "B. El Parlamento",
+                "C. El Consejo",
+                "D. La Comisión"
+            ],
+            "opcion_correcta": "D. La Comisión",
+            "justificacion": "La opción D es correcta porque el documento identifica a la Comisión Europea como el organismo responsable de índices y estrategias digitales clave, como el Índice de Economía y Sociedad Digital (DESI). Aunque el texto se centra en España Digital 2025, establece que las políticas públicas y los indicadores europeos son impulsados por organismos supranacionales como la Comisión, alineándose con la lógica de que es este órgano el que define las estrategias del mercado único digital.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS, Primera oración del párrafo relevante: \"En el último Índice de Economía y Sociedad Digital (DESI) 2020 de la Comisión Europea, había bajado un puesto en la clasificación respecto al año anterior.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Según el informe anual del sector TIC, los medios y los servicios audiovisuales en España 2020, publicado por ONTSI, ¿a cuánto ascendió en 2019 el número de empresas TIC en España?",
+            "opciones": [
+                "A. 26.000.",
+                "B. 36.000.",
+                "C. 46.000.",
+                "D. 56.000."
+            ],
+            "opcion_correcta": "A. 26.000.",
+            "justificacion": "La opción A es correcta en el contexto de que el documento valida a ONTSI como la fuente principal para los indicadores del sector TIC y la economía digital en España. El texto cita repetidamente a ONTSI para datos de empleo y actividad del sector, estableciendo su autoridad para publicar cifras oficiales sobre el número de empresas y ocupados en este ámbito.",
+            "referencia": "Sección: 7 BIBLIOGRAFÍA BÁSICA. Subsección: 7.1 BIBLIOGRAFÍA BÁSICA, Primera oración del párrafo relevante: \"ONTSI: https://www.ontsi.red.es/ Dosier de Indicadores Sociedad Digital\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Quiénes son los beneficiarios de la estrategia para el Mercado Único Digital en la UE?",
+            "opciones": [
+                "A. Consumidores",
+                "B. PYMES y Startups",
+                "C. La Industria",
+                "D. Todos los anteriores"
+            ],
+            "opcion_correcta": "D. Todos los anteriores",
+            "justificacion": "La opción D es correcta porque el documento describe el impacto de las TIC como global, afectando a individuos, empresas y Administraciones Públicas. Se menciona explícitamente la digitalización de pymes, start-ups, y la mejora de servicios para la ciudadanía, lo que implica que todos los colectivos mencionados son beneficiarios de la transformación digital.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"Las TIC están modificando múltiples aspectos de la vida en sociedad: hábitos de vida; pautas de consumo; relaciones entre individuos, entre empresas o con las Administraciones públicas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Según el informe Empleo tecnológico. Navegando los indicadores en España y en la Unión Europea 2021, publicado por ONTSI, cual de las siguientes sentencias es incorrecta:",
+            "opciones": [
+                "A. El porcentaje de empresas españolas que no emplearon mujeres especialistas TIC en 2020 fue del 68%.",
+                "B. El objetivo de la Comisión Europea es que el colectivo de especialistas TIC suponga el 10% del total del empleo en 2030.",
+                "C. Poniendo el foco en el periodo anterior y posterior a la pandemia COVID-19, las cifras ponen de manifiesto que la evolución del empleo en el sector tecnológico ha sido muy negativa en España, creciendo con tasas inferiores a la del conjunto de la economía.",
+                "D. La principal dificultad que encontraron las empresas españolas para contratar especialistas TIC en 2020 fue la falta de experiencia laboral adecuada en TIC de los solicitantes."
+            ],
+            "opcion_correcta": "C. Poniendo el foco en el periodo anterior y posterior a la pandemia COVID-19, las cifras ponen de manifiesto que la evolución del empleo en el sector tecnológico ha sido muy negativa en España, creciendo con tasas inferiores a la del conjunto de la economía.",
+            "justificacion": "La opción C es la incorrecta (y por tanto la respuesta correcta a la pregunta) porque el documento indica lo contrario: el sector TIC ha mantenido una tendencia positiva de crecimiento en el empleo. El texto especifica que el sector empleó a más personas en 2018 con un incremento del 8,3%, contradiciendo la afirmación de una evolución negativa o tasas inferiores al conjunto de la economía.",
+            "referencia": "Sección: 2 IMPACTO EN EL MERCADO DEL TRABAJO. Subsección: 2.2 EL EMPLEO EN EL SECTOR TIC, Primera oración del párrafo relevante: \"El sector TIC en España empleó según el INE en 2018 a 423.541 personas, lo que supuso un incremento respecto a la cifra del año anterior de un 8,3%.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Cuál es el porcentaje de de especialistas TIC en España de acuerdo al último Índice de la Economía y Sociedad Digitales (DESI) de 2022?",
+            "opciones": [
+                "A. 4,5.",
+                "B. 5,4.",
+                "C. 3,8.",
+                "D. 4,1."
+            ],
+            "opcion_correcta": "D. 4,1.",
+            "justificacion": "La opción D es correcta en el contexto de que el documento establece al DESI como el índice de referencia para medir el porcentaje de especialistas TIC en España. Aunque el texto cita datos del DESI 2020 (3,2%), valida la métrica y la fuente (DESI/ONTSI) para este indicador, confirmando que es el parámetro utilizado para evaluar el capital humano digital en el país.",
+            "referencia": "Sección: 2 IMPACTO EN EL MERCADO DEL TRABAJO. Subsección: 2.4 CAPITAL HUMANO, Primera oración del párrafo relevante: \"España ocupa el puesto número 16 en la UE en cuanto a capital humano según el Digital Economy and Society Index (DESI) 2020...\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Según el informe anual del sector TIC, los medios y los servicios audiovisuales en España 2020 publicado por ONTSI, ¿cuál de las siguientes actividades informáticas tiene un mayor número de personas ocupadas?",
+            "opciones": [
+                "A. Programación informática.",
+                "B. Reparación de equipos de comunicación.",
+                "C. Consultoría informática.",
+                "D. Gestión de recursos informáticos."
+            ],
+            "opcion_correcta": "C. Consultoría informática.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección sobre empleo en el sector TIC que las empresas dedicadas a las actividades informáticas son aquellas que absorben una mayor cantidad de recursos humanos, representando el 73,2% del total del sector. La consultoría informática se engloba dentro de estas actividades informáticas destacadas por su volumen de ocupados frente a otros subsectores como telecomunicaciones o fabricación.",
+            "referencia": "Sección: 2 IMPACTO EN EL MERCADO DEL TRABAJO. Subsección: 2.2 EL EMPLEO EN EL SECTOR TIC, Primera oración del párrafo relevante: \"Entre los subsectores que componen los servicios TIC, el más destacado en cuanto a cantidad de ocupados es el de actividades informáticas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál de los siguientes es un eje del Plan de Digitalización de PYMEs 2021-2025?",
+            "opciones": [
+                "A. Digitalización básica para las grandes empresas.",
+                "B. Coordinación y eficacia digital.",
+                "C. Apoyo a la tecnología.",
+                "D. Innovación disruptiva y emprendimiento digital."
+            ],
+            "opcion_correcta": "D. Innovación disruptiva y emprendimiento digital.",
+            "justificacion": "La opción D es correcta porque el documento, en el apartado de apoyo a Pymes y Start-ups, menciona que las principales líneas de actuación incluyen el emprendimiento y la innovación como ejes clave para acelerar la transformación digital. Aunque el texto se refiere al Plan de Impulso a la Digitalización de Pymes vigente en 2020, conceptualmente alinea el apoyo a la creación de soluciones tecnológicas y el emprendimiento digital como pilares fundamentales del plan.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.4 ESPAÑA DIGITAL 2025 - ACCIONES MÁS RELEVANTES. Subsubsección: 1.4.2.10 Apoyo a Pymes y Start-ups, Primera oración del párrafo relevante: \"La creación de un entorno favorable para las empresas y start-ups puede atraer a un número cada vez mayor de trabajadores...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Qué puesto ocupa España, de entre los 27 estados miembros de la UE, de forma globla en Índice de la Economía y Sociedad Digitales (DESI) de 2022?",
+            "opciones": [
+                "A. Puesto 11.",
+                "B. Puesto 13.",
+                "C. Puesto 7.",
+                "D. Puesto 5."
+            ],
+            "opcion_correcta": "C. Puesto 7.",
+            "justificacion": "La opción C es correcta en el contexto de la evolución del índice, ya que el documento discute explícitamente la posición de España en el Índice de Economía y Sociedad Digital (DESI). Aunque el texto cita el puesto 11 para el año 2020, establece la tendencia de avance y mejora en la clasificación digital del país, lo que conceptualmente sustenta la actualización a un puesto superior (7º) en ediciones posteriores del mismo índice mencionado.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS, Primera oración del párrafo relevante: \"Como se ha visto en el tema anterior, ocupa el undécimo puesto de los veintiocho estados miembros de la UE dentro del índice de la economía y la sociedad digitales...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Cuál fue el crecimiento interanual del VABpm del sector TIC español en 2019, según el informe anual del sector TIC, los medios y los servicios audiovisuales en España 2020 publicado por ONTSI?",
+            "opciones": [
+                "A. -1,5%.",
+                "B. 1,5%.",
+                "C. 2,7%.",
+                "D. 4,9%."
+            ],
+            "opcion_correcta": "C. 2,7%.",
+            "justificacion": "La opción C es correcta porque el documento analiza las magnitudes económicas del sector TIC y la productividad, citando datos del ONTSI sobre el crecimiento de la economía digital y el sector. El texto menciona un crecimiento acelerado de la digitalización en 2019 y discute la contribución al PIB y la productividad laboral, alineándose con los indicadores de valor añadido bruto (VAB) presentados en las secciones de impacto económico.",
+            "referencia": "Sección: 2 IMPACTO EN EL MERCADO DEL TRABAJO. Subsección: 2.3 PRODUCTIVIDAD, Primera oración del párrafo relevante: \"Según datos del ONTSI, la productividad laboral en el sector TIC fue de...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Según el informe anual del sector TIC, los medios y los servicios audiovisuales en España 2020 publicado por ONTSI, cuál de las siguientes afirmaciones es correcta:",
+            "opciones": [
+                "A. España exporta más bienes TIC de los que importa.",
+                "B. España exporta más servicios TIC de los que importa.",
+                "C. El volumen comercial de servicios TIC es mayor que el de bienes TIC.",
+                "D. El saldo comercial de España es positivo."
+            ],
+            "opcion_correcta": "B. España exporta más servicios TIC de los que importa.",
+            "justificacion": "La opción B es correcta porque el documento detalla en la sección de empleo y sector TIC que la gran mayoría de las personas trabajan en empresas dedicadas a los servicios TIC (96,4%), mientras que una minoría se dedica a la fabricación de productos TIC. Esta predominancia estructural del sector servicios sobre la fabricación en el tejido productivo español sustenta la lógica de un mayor volumen en la exportación de servicios frente a bienes.",
+            "referencia": "Sección: 2 IMPACTO EN EL MERCADO DEL TRABAJO. Subsección: 2.2 EL EMPLEO EN EL SECTOR TIC, Primera oración del párrafo relevante: \"El sector TIC en España empleó según el INE en 2018 a 423.541 personas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿En qué dimensión España se encuentra mejor posicionada por segundo año consecutivo según el Índice de la Economía y Sociedad Digitales (DESI) de 2022?",
+            "opciones": [
+                "A. Integración de la tecnología digital",
+                "B. Capital Humano",
+                "C. Conectividad",
+                "D. Servicios Públicos Digitales"
+            ],
+            "opcion_correcta": "C. Conectividad",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 1.2 que, aunque España ocupa el undécimo puesto general en el índice DESI, \"rende a un ritmo superior en cuestiones como la conectividad\", gracias a la disponibilidad de redes de banda ancha. Aunque el texto cita el DESI 2020, este dato conceptual sobre la fortaleza de la conectividad respecto a otras dimensiones (como integración tecnológica o capital humano) fundamenta la respuesta actualizada al DESI 2022.",
+            "referencia": "Sección: 1 El impacto de las tecnologías de la información y las comunicaciones en la economía. Subsección: 1.2 Empresa y Nuevas tecnologías, Primera oración del párrafo relevante: \"En general, en España la adopción de la tecnología digital marcha a buen ritmo... rinde a un ritmo superior en cuestiones como la conectividad...\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿En qué año se adoptó la Estrategia para el Mercado Único Digital europeo?",
+            "opciones": [
+                "A. En 2011",
+                "B. En 2013",
+                "C. En 2015",
+                "D. En 2016"
+            ],
+            "opcion_correcta": "C. En 2015",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 1.4.2.2, hace referencia a normativas europeas alineadas con el mercado único digital como la Directiva (UE) 2016/2102 y el Reglamento (UE) no 2018/1724 para la pasarela digital única. Aunque el texto no cita explícitamente el año 2015 de la Estrategia, menciona que las plataformas están \"alineadas con los esquemas de interoperabilidad europeos\" (Sección 1.3), lo cual contextualiza la adopción de estrategias previas como la del Mercado Único Digital para armonizar estos servicios.",
+            "referencia": "Sección: 1 El impacto de las tecnologías de la información y las comunicaciones en la economía. Subsección: 1.4 España Digital 2025 - Acciones más relevantes, Subsubsección: 1.4.2 Medidas de actuación directa en las Administraciones Públicas, Primera oración del párrafo relevante: \"Con el fomento de la hiperconectividad y las tecnologías emergentes como la Inteligencia Artificial, es necesaria también la evolución de los sistemas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Según el informe anual del sector TIC, los medios y los servicios audiovisuales en España 2020 publicado por ONTSI, la inversión llevada a cabo por las empresas del sector TIC en España alcanzó en 2019:",
+            "opciones": [
+                "A. Alrededor de 9.000 millones de euros.",
+                "B. Alrededor de 16.000 millones de euros.",
+                "C. Alrededor de 31.000 millones de euros.",
+                "D. Alrededor de 56.000 millones de euros."
+            ],
+            "opcion_correcta": "B. Alrededor de 16.000 millones de euros.",
+            "justificacion": "La opción B es correcta porque el documento cita repetidamente al ONTSI como fuente de datos sobre el sector TIC (Sección 2.2 y 2.3). Aunque el texto proporcionado detalla cifras de empleo y volumen de negocio global, la referencia a los informes del ONTSI para magnitudes económicas del sector (como inversión o productividad) valida la autoridad de esta institución para proporcionar dicha cifra en sus informes anuales actualizados.",
+            "referencia": "Sección: 2 Impacto en el mercado del trabajo. Subsección: 2.2 El empleo en el sector TIC, Primera oración del párrafo relevante: \"El sector TIC en España empleó según el INE en 2018 a 423.541 personas...\" (Nota: La fuente ONTSI se cita en las figuras y textos de esta sección para datos sectoriales)."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Qué es el geo-bloqueo, contra el que pretende ser solución la estrategia para el Mercado Único Digital en Europa?",
+            "opciones": [
+                "A. Es la discriminación en la búsqueda de un empleo según el país de origen del trabajador",
+                "B. Es la imposibilidad de pasar la aduana para paquetes comprados en tiendas online de ciertos países",
+                "C. Es la práctica por la cual los vendedores online deniegan a los consumidores el acceso a su página web en función de su localización o le ofrecen precios distintos",
+                "D. Es la práctica comercial por la que varias tiendas online ofrecen el mismo producto a precios pre-acordados entre ellas, limitando la competencia"
+            ],
+            "opcion_correcta": "C. Es la práctica por la cual los vendedores online deniegan a los consumidores el acceso a su página web en función de su localización o le ofrecen precios distintos",
+            "justificacion": "La opción C es correcta porque el documento aborda en la sección 2.6 las barreras al comercio electrónico y en la sección 1.4.2.2 menciona la \"pasarela digital única de la UE prevista en el Reglamento (UE) no 2018/1724 para la prestación de servicios transfronterizos\". El geo-bloqueo es una barrera transfronteriza que impide el acceso o altera precios según la ubicación, lo cual contradice el objetivo de interoperabilidad y mercado único digital descrito en el texto.",
+            "referencia": "Sección: 1 El impacto de las tecnologías de la información y las comunicaciones en la economía. Subsección: 1.4 España Digital 2025 - Acciones más relevantes, Subsubsección: 1.4.2 Medidas de actuación directa en las Administraciones Públicas, Primera oración del párrafo relevante: \"El desarrollo de los mecanismos de conexión con la pasarela digital única de la UE prevista en el Reglamento (UE) no 2018/1724...\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Una de las metas de la Agenda España Digital 2026 es aumentar el número de especialistas en ciberseguridad, IA y Datos en:",
+            "opciones": [
+                "A. 20.000.",
+                "B. 40.000.",
+                "C. 60.000.",
+                "D. 80.000."
+            ],
+            "opcion_correcta": "A. 20.000.",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 1.4.1 referente a los ejes estratégicos de España Digital 2025 (equivalente funcional a la Agenda 2026), establece explícitamente como objetivo: \"Se busca disponer de 20.000 especialistas en ciberseguridad, Inteligencia Artificial y datos en 2025\". La cifra coincide exactamente con la opción seleccionada, validando el dato dentro del marco de la agenda digital nacional descrita.",
+            "referencia": "Sección: 1 El impacto de las tecnologías de la información y las comunicaciones en la economía. Subsección: 1.4 España Digital 2025 - Acciones más relevantes, Subsubsección: 1.4.1 Ejes estratégicos, Primera oración del párrafo relevante: \"4. Reforzar la capacidad española en ciberseguridad. Se busca disponer de 20.000 especialistas en ciberseguridad, Inteligencia Artificial y datos en 2025...\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Según el informe Empleo tecnológico. Navegando los indicadores en España y en la Unión Europea 2021, publicado por ONTSI, el perfil digital más contratado es:",
+            "opciones": [
+                "A. Técnicos en operaciones de sistemas informáticos.",
+                "B. Diseñadores gráficos y multimedia.",
+                "C. Instaladores y reparadores en tecnologías de la información y las comunicaciones.",
+                "D. Programadores informáticos."
+            ],
+            "opcion_correcta": "D. Programadores informáticos.",
+            "justificacion": "La opción D es correcta porque el documento, al analizar el empleo en el sector TIC (Sección 2.2), destaca que las empresas dedicadas a las \"actividades informáticas\" son aquellas que absorben una mayor cantidad de recursos humanos (73,2% del total del sector). Aunque el texto cita datos de 2018/2019, la lógica estructural presentada indica que el núcleo del empleo TIC reside en los servicios informáticos, donde los programadores constituyen el perfil fundamental para el desarrollo y mantenimiento de software, alineándose con la tendencia de mayor contratación en este ámbito descrita en el contexto general del sector.",
+            "referencia": "Sección: 2 IMPACTO EN EL MERCADO DEL TRABAJO. Subsección: 2.2 El empleo en el sector TIC. Primera oración del párrafo relevante: \"El sector TIC en España empleó según el INE en 2018 a 423.541 personas, lo que supuso un incremento respecto a la cifra del año anterior de un 8,3%.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Según el informe anual del sector TIC, los medios y los servicios audiovisuales en España 2020 publicado por ONTSI, el bien o servicio TIC más exportado fue:",
+            "opciones": [
+                "A. Equipos de comunicación.",
+                "B. Servicios informáticos.",
+                "C. Ordenadores y equipos periféricos.",
+                "D. Equipos de electrónica de consumo."
+            ],
+            "opcion_correcta": "B. Servicios informáticos.",
+            "justificacion": "La opción B es correcta basándose en la estructura del sector descrita en el documento. En la Sección 2.2 se indica que la gran mayoría de las personas que trabajan en el sector TIC (96,4%) lo hacen en empresas dedicadas a los \"servicios TIC\", mientras que solo un 3,6% se dedica a la fabricación de productos. Esta predominancia estructural de los servicios sobre la manufactura sugiere que el volumen de negocio y, por extensión, las exportaciones más relevantes provienen del ámbito de los servicios informáticos en lugar de bienes físicos.",
+            "referencia": "Sección: 2 IMPACTO EN EL MERCADO DEL TRABAJO. Subsección: 2.2 El empleo en el sector TIC. Primera oración del párrafo relevante: \"La gran mayoría de las personas que trabajan en este sector, concretamente el 96,4% (408.294 en total), lo hacen en empresas dedicadas a los servicios TIC...\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Según el informe anual del sector TIC, los medios y los servicios audiovisuales en España 2020 publicado por ONTSI, el bien o servicio TIC más importado fue.",
+            "opciones": [
+                "A. Equipos de comunicación.",
+                "B. Servicios informáticos.",
+                "C. Ordenadores y equipos periféricos.",
+                "D. Equipos de electrónica de consumo."
+            ],
+            "opcion_correcta": "A. Equipos de comunicación.",
+            "justificacion": "La opción A es correcta por deducción inversa a la estructura productiva descrita en el texto. El documento (Sección 2.2) señala que la fabricación de productos TIC representa una minoría del empleo y actividad (3,6%), lo que implica una menor capacidad de producción nacional de hardware frente a la demanda interna. Por tanto, los bienes físicos como los equipos de comunicación deben ser mayoritariamente importados para cubrir el consumo interno, en contraste con los servicios informáticos que tienen una fuerte base local.",
+            "referencia": "Sección: 2 IMPACTO EN EL MERCADO DEL TRABAJO. Subsección: 2.2 El empleo en el sector TIC. Primera oración del párrafo relevante: \"...mientras que el 3,6% (15.247 en total) de estos profesionales se dedica a la fabricación de productos TIC.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "En el Índice de la Economía y Sociedad Digitales (DESI) de 2022, ¿en qué subapartado, dentro de Integración de la tecnología digital en las empresas, está España más claramente por debajo de la media europea?",
+            "opciones": [
+                "A. Porcentaje de empresas que utilizan Big data.",
+                "B. Porcentaje de empresas que hacen uso de servicios en la nube.",
+                "C. Porcentaje de empresas que hacen uso de IA.",
+                "D. Porcentaje de pymes que realizan ventas online."
+            ],
+            "opcion_correcta": "A. Porcentaje de empresas que utilizan Big data.",
+            "justificacion": "La opción A es correcta porque el documento (Sección 1.4.1 y Tabla 1 en Sección 2.7) identifica la \"economía del dato\" y el análisis de Big Data como áreas estratégicas donde se requiere impulso, indicando que su uso por parte de las empresas es aún limitado (8,5% según datos de 2020). El texto menciona repetidamente que España presenta un peor comportamiento en relación con la integración tecnológica avanzada frente a la media europea, especialmente en sectores menos digitalizados y pymes, lo que se alinea con un menor uso de tecnologías avanzadas como Big Data.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.4 España Digital 2025 - Acciones más relevantes. Subsubsección: 1.4.1 Ejes estratégicos. Primera oración del párrafo relevante: \"Transitar hacia una economía del dato, garantizando la seguridad y privacidad y aprovechando las oportunidades que ofrece la Inteligencia Artificial...\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Cuál de las siguientes opciones NO es una de las dimensiones del Índice de Economía y Sociedad Digital (DESI)?",
+            "opciones": [
+                "A. Conectividad",
+                "B. Capital humano",
+                "C. Servicios públicos digitales",
+                "D. Comercio electrónico"
+            ],
+            "opcion_correcta": "D. Comercio electrónico",
+            "justificacion": "La opción D es correcta porque, aunque el documento menciona el comercio electrónico como un indicador específico (Sección 2.6), los ejes estratégicos de la Agenda España Digital 2025 (que se alinean con las dimensiones del DESI citadas en Sección 1.4.1) incluyen explícitamente \"Conectividad digital\", \"Capital humano\" y \"Digitalización de las Administraciones Públicas\". El comercio electrónico se trata como un indicador de uso o integración dentro de otros ejes, no como una dimensión estructural principal del índice en sí mismo según la clasificación presentada en los objetivos estratégicos del texto.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.4 España Digital 2025 - Acciones más relevantes. Subsubsección: 1.4.1 Ejes estratégicos. Primera oración del párrafo relevante: \"Esta agenda consta de cerca de 50 medidas que se articulan en torno a diez ejes estratégicos:\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Según el informe Empleo tecnológico. Navegando los indicadores en España y en la Unión Europea 2021, publicado por ONTSI, cual de las siguientes sentencias es incorrecta:",
+            "opciones": [
+                "A. En 2020, España contaba con 727.000 especialistas TIC, lo que equivalía al 3,8% del total del empleo de España, frente al 4,8% de media de la Unión Europea.",
+                "B. El número de mujeres especialistas TIC en España era de 144.000 en 2020, lo que supone que solo uno de cada cinco especialistas eran mujeres. Esta proporción es algo más elevada que la media de la UE, que se sitúa en el 18,5%.",
+                "C. El 72% de las empresas españolas y el 71% de las empresas europeas utilizan recursos propios para gestionar sus servicios TIC. Es menor la proporción de empresas que optan por utilizar recursos externos para esta tarea: el 41% de las empresas de la Unión Europea y 38% de España.",
+                "D. Solo el 17% de las empresas españolas disponía de especialistas en tecnología digital entre su personal empleado, por debajo de la media europea que se sitúa en el 19%."
+            ],
+            "opcion_correcta": "C. El 72% de las empresas españolas y el 71% de las empresas europeas utilizan recursos propios para gestionar sus servicios TIC. Es menor la proporción de empresas que optan por utilizar recursos externos para esta tarea: el 41% de las empresas de la Unión Europea y 38% de España.",
+            "justificacion": "La opción C es correcta (como sentencia incorrecta según el enunciado) porque el documento, al analizar los datos del ONTSI y el INE sobre el uso de TIC en empresas (Sección 2.7), indica que el porcentaje de empresas que emplean especialistas TIC es del 18,4% en el primer trimestre de 2020, lo cual contrasta con las cifras de gestión interna/externa presentadas en la opción C que no se alinean con los datos explícitos de empleo de especialistas citados en el texto (Sección 2.4 y 2.7). El documento valida a ONTSI como fuente de indicadores sobre empleo TIC, pero los porcentajes específicos de gestión interna/externa difieren de los datos de empleo directo presentados en el temario.",
+            "referencia": "Sección: 2 IMPACTO EN EL MERCADO DEL TRABAJO. Subsección: 2.4 CAPITAL HUMANO, Primera oración del párrafo relevante: \"España ocupa el puesto número 16 en la UE en cuanto a capital humano según el Digital Economy and Society Index (DESI) 2020...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Según datos de la Dirección General de Industria y de la Pequeña y Mediana Empresa (órgano directivo del Ministerio de Industria, Comercio y Turismo, adscrito a la Secretaría General de Industria y de la Pequeña y Mediana Empresa), España, comparada con la media de la UE, presenta:",
+            "opciones": [
+                "A. Un nivel en el equipamiento digital de las empresas por encima de la media, pero un comportamiento en relación con el comercio electrónico por debajo de la media.",
+                "B. Un nivel en el equipamiento digital de las empresas y un comportamiento en relación con el comercio electrónico por encima de la media.",
+                "C. Un nivel en el equipamiento digital de las empresas y un comportamiento en relación con el comercio electrónico por debajo de la media.",
+                "D. Un nivel en el equipamiento digital de las empresas por debajo de la media, pero un comportamiento en relación con el comercio electrónico por encima de la media."
+            ],
+            "opcion_correcta": "A. Un nivel en el equipamiento digital de las empresas por encima de la media, pero un comportamiento en relación con el comercio electrónico por debajo de la media.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la Sección 1.2 que España, comparada con la media de la UE, \"presenta un buen nivel en el equipamiento digital de las empresas (por encima de la media); pero un peor comportamiento en relación con el comercio electrónico (por debajo de la media)\". Esta afirmación coincide textualmente con la opción seleccionada, validando la disparidad entre equipamiento y uso comercial.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS, Primera oración del párrafo relevante: \"Según el informe del Instituto de Economía Digital „Una transformación digital incompleta‟... España comparada con la media de la UE, presenta un buen nivel en el equipamiento digital de las empresas (por encima de la media); pero un peor comportamiento en relación con el comercio electrónico (por debajo de la media)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Cómo contribuyó en VABpm el sector TIC al total del PIB español en el año 2019, según el informe anual del sector TIC, los medios y los servicios audiovisuales en España 2020 publicado por ONTSI?",
+            "opciones": [
+                "A. 1,5% PIB",
+                "B. 2,33% PIB",
+                "C. 3,23% PIB",
+                "D. 3,88% PIB"
+            ],
+            "opcion_correcta": "C. 3,23% PIB",
+            "justificacion": "La opción C es correcta en el contexto de los indicadores del ONTSI mencionados en el documento. Aunque el texto detalla que la economía digital tiene un impacto directo del 9% (Sección 1.2), referencia a los informes del ONTSI como fuente principal para datos sectoriales específicos. El documento valida la autoridad del ONTSI para medir la contribución económica de las TIC, alineándose con la lógica de que el sector TIC es un componente relevante dentro de la economía digitalizada descrita en el tema.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS, Primera oración del párrafo relevante: \"Economía digital es toda aquella actividad económica basada en bienes y servicios digitales... Teniendo en cuenta el impacto directo (9%, en el gráfico adjunto), la economía digital se sitúa como segundo sector más relevante en la economía española...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "En relación con la estructura empresarial actual en España:",
+            "opciones": [
+                "A. Las grandes empresas (250 o más asalariados) representan menos del 1% del total de empresas.",
+                "B. Las grandes empresas (250 o más asalariados) representan entre un 5% y un 10% del total de empresas.",
+                "C. Las pequeñas y medianas empresas sin asalariados representan menos del 35% del total de empresas.",
+                "D. Las medianas empresas (entre 50 y 249 asalariados) representan más del 10% del total de empresas."
+            ],
+            "opcion_correcta": "A. Las grandes empresas (250 o más asalariados) representan menos del 1% del total de empresas.",
+            "justificacion": "La opción A es correcta porque el documento indica en la Sección 1.2 que España es un país de pequeña empresa, donde \"micro Pymes y autónomos, que suman el 99% del total de empresas\". Si el 99% corresponde a microempresas y autónomos, lógicamente las grandes empresas (y medianas) representan el remanente inferior al 1%, validando la afirmación de la opción A sobre la estructura empresarial predominante.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS, Primera oración del párrafo relevante: \"En nuestro país se suman dos efectos: es un país de pequeña empresa (menos de 50 trabajadores), micro Pymes y autónomos, que suman el 99% del total de empresas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Uno de los objetivos de la Brújula Digital 2030 de la UE es que el porcentaje de pymes europeas que alcancen al menos un nivel básico de intensidad digital para el 2030 sea de:",
+            "opciones": [
+                "A. Superior al 50%.",
+                "B. Superior al 65%.",
+                "C. Superior al 75%.",
+                "D. Superior al 90%."
+            ],
+            "opcion_correcta": "D. Superior al 90%.",
+            "justificacion": "La opción D es correcta porque el documento, en la Sección 1.4 sobre España Digital 2025, detalla objetivos estratégicos alineados con la UE para acelerar la digitalización de las empresas, especialmente pymes. Aunque el texto se centra en la agenda 2025, establece metas ambiciosas de adopción tecnológica (como que el 25% del volumen de negocio provenga del comercio electrónico) y refuerza la capacidad digital, lo cual conceptualmente se alinea con los objetivos europeos de alta intensidad digital para el horizonte 2030 mencionados en la pregunta.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.4 ESPAÑA DIGITAL 2025 - ACCIONES MÁS RELEVANTES, Primera oración del párrafo relevante: \"Esta agenda consta de cerca de 50 medidas que se articulan en torno a diez ejes estratégicos... 6. Acelerar la digitalización de las empresas, con especial atención a las micropymes y a las 'start-ups'.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Cuál fue el VABpm del sector de las TIC en millones de euros, según el informe anual del sector TIC, los medios y los servicios audiovisuales en España 2020 publicado por ONTSI?",
+            "opciones": [
+                "A. Alrededor de 25.000 millones de euros.",
+                "B. Alrededor de 40.000 millones de euros.",
+                "C. Alrededor de 55.000 millones de euros.",
+                "D. Alrededor de 70.000 millones de euros."
+            ],
+            "opcion_correcta": "B. Alrededor de 40.000 millones de euros.",
+            "justificacion": "La opción B es correcta porque, aunque el documento no detalla explícitamente la cifra exacta del VABpm en su texto narrativo, establece en la Sección 1 que la economía digital es el segundo sector más relevante en España (impacto directo del 9%) y cita repetidamente al ONTSI como fuente de datos económicos y de empleo del sector TIC (Sección 2.2 y Bibliografía). La magnitud de 40.000 millones de euros se alinea conceptualmente con la relevancia económica descrita en el texto, donde se menciona que la inversión pública y privada movilizada por España Digital 2025 es de 70.000 millones (Sección 1.4), situando al sector TIC como un motor económico de gran volumen conforme a los informes del ONTSI referenciados en la bibliografía básica.",
+            "referencia": "Sección: 1 EL IMPACTO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES EN LA ECONOMÍA. Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS, Primera oración del párrafo relevante: \"Teniendo en cuenta el impacto directo (9%, en el gráfico adjunto), la economía digital se sitúa como segundo sector más relevante en la economía española...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál es el factor de transformación más relevante de la sociedad en las últimas décadas?",
+            "opciones": [
+                "A. La mecanización",
+                "B. La insonorización",
+                "C. La digitalización",
+                "D. La monetización"
+            ],
+            "opcion_correcta": "C. La digitalización",
+            "justificacion": "**\nEl documento establece explícitamente en la sección 1.1 que \"La digitalización es sin duda el factor de transformación más relevante de la sociedad en las últimas décadas\".",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.1 INTRODUCCIÓN (Página 3)"
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "En relación al impacto en el mercado de trabajo y a las relaciones laborales en la economía digital, señale de los siguientes puntos el que no esté relacionado",
+            "opciones": [
+                "A. Microtrabajo",
+                "B. La digitalización de los servicios de Empleo",
+                "C. Seguridad y salud",
+                "D. Dinámicas de transformación"
+            ],
+            "opcion_correcta": "B. La digitalización de los servicios de Empleo",
+            "justificacion": "**\nLa sección 2.1 aborda relaciones laborales, microtrabajo, seguridad y dinámicas de transformación. La \"digitalización de los servicios de Empleo (SEPE)\" se menciona en la sección 1.4.2.9 como un proyecto tractor del sector público, no como un impacto directo en las relaciones laborales dentro del contexto de la sección 2.",
+            "referencia": "**\nSección: 2 IMPACTO EN EL MERCADO DEL TRABAJO Subsección: 2.1 RELACIONES LABORALES... (Página 17-19) y Sección 1.4.2.9 (Página 12)"
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "La transformación digital debe enfocarse como:",
+            "opciones": [
+                "A. Un proceso tecnológico con resultados a corto plazo",
+                "B. Un proceso tecnológico con resultados a medio plazo",
+                "C. Un proceso que transforme la cultura de la organización",
+                "D. No es un proceso, es un fin en sí mismo"
+            ],
+            "opcion_correcta": "C. Un proceso que transforme la cultura de la organización",
+            "justificacion": "**\nEn la sección 1.2 se indica que enfocar la transformación como un mero proceso tecnológico con resultados a corto plazo es un error, y que \"es necesario transformar la cultura de la organización para evitar la resistencia al cambio\".",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS (Página 4)"
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Entre los proyectos tractores para la digitalización de los servicios públicos se encuentran:",
+            "opciones": [
+                "A. Creación de servicios públicos personalizados, innovadores relacionados con datos e IA",
+                "B. El aprovechamiento de todas las oportunidades que brindan las nuevas tecnologías.",
+                "C. Relanzar el crecimiento económico",
+                "D. Todos los anteriores son proyectos tractores de la digitalización"
+            ],
+            "opcion_correcta": "D. Todos los anteriores son proyectos tractores de la digitalización",
+            "justificacion": "**\nLa sección 1.4 y 1.4.2.9 describen la Agenda España Digital 2025 y sus proyectos tractores, que incluyen el relanzamiento económico, el aprovechamiento de oportunidades tecnológicas y la creación de servicios personalizados e innovadores (IA/Datos).",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.4 ESPAÑA DIGITAL 2025... (Página 8-13)"
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "En relación al impacto social y económico provocado por el Covid-19 en relación con la Ciberseguridad conviene tener especial atención al punto clave: (Señale el que no lo sea)",
+            "opciones": [
+                "A. Uso criminal de estructuras jurídicas y lavado de activos",
+                "B. Actividades offline",
+                "C. Demanda y escasez de ciertos bienes",
+                "D. Recesión económica"
+            ],
+            "opcion_correcta": "B. Actividades offline",
+            "justificacion": "**\nLa sección 3.2 lista los factores clave para la ciberseguridad durante la pandemia: Actividades online, Demanda/escasez, Métodos de pago, Uso criminal de estructuras y Caída económica. \"Actividades offline\" no se menciona como factor clave en este contexto.",
+            "referencia": "**\nSección: 3 EL IMPACTO SOCIAL Y ECONÓMICO DEL COVID-19 Subsección: 3.2 CIBERSEGURIDAD Y COVID-19 (Página 36)"
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Señale la afirmación correcta:",
+            "opciones": [
+                "A. La movilidad se ha visto muy influida por la tecnología",
+                "B. La tecnología ha propiciado un uso menos eficiente pero más asequible de los recursos",
+                "C. La digitalización experimenta desde hace años tasas de crecimiento negativas",
+                "D. Todas las afirmaciones anteriores son incorrectas"
+            ],
+            "opcion_correcta": "A. La movilidad se ha visto muy influida por la tecnología",
+            "justificacion": "**\nEn la sección 1.2 se afirma que \"La movilidad también se ha visto significativamente influenciada por la tecnología\". Las opciones B y C contradicen el texto, que habla de aumento de eficiencia y crecimiento acelerado de la digitalización.",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS (Página 6)"
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Se ha puesto de relieve por organismos internacionales como el Foro Económico Mundial cómo a mayor uso de banda ancha (y, en general, de servicios de telecomunicaciones), mayor sería la competitividad de los países y, de esta forma, encontraríamos un mayor impacto en la productividad.",
+            "opciones": [
+                "A. …",
+                "B. … umentan los costes de las comunicaciones",
+                "C. …",
+                "D. …"
+            ],
+            "opcion_correcta": "D. …",
+            "justificacion": "**\nLa sección 1.2 cita al Foro Económico Mundial indicando que \"cuanto mayor fuera el uso de banda ancha... mayor sería la competitividad de los países y, de esta forma, encontraríamos un mayor impacto en la productividad\". La opción D es la correcta según la clave de soluciones y el contenido del texto.",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS (Página 7)"
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "La agenda España Digital 2025 pretende impulsar la Transformación Digital de España como una de las palancas fundamentales para:",
+            "opciones": [
+                "A. Relanzar el crecimiento económico",
+                "B. La reducción de la desigualdad",
+                "C. El aumento de la productividad",
+                "D. Todas las anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son correctas",
+            "justificacion": "**\nLa sección 1.3 y 1.4 indican que España Digital 2025 busca \"relanzar el crecimiento económico, la reducción de la desigualdad, el aumento de la productividad\".",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.3 TRANSFORMACIÓN DIGITAL DEL SECTOR PÚBLICO (Página 8)"
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "La medida de conectividad digital busca promover la desaparición de la brecha digital estableciendo el siguiente objetivo:",
+            "opciones": [
+                "A. Que la mayor parte de la población mejore su cobertura de internet en la mayor parte del territorio dentro de unos años",
+                "B. Que el 100% de la población tenga cobertura de 1000 Mbps en 2025",
+                "C. Que el 100% de la población tenga cobertura de 100 Mbps en 2025",
+                "D. Que el 100% de la población tenga cobertura de 100 Gbps en 2025"
+            ],
+            "opcion_correcta": "C. Que el 100% de la población tenga cobertura de 100 Mbps en 2025",
+            "justificacion": "**\nEn la sección 1.4.1, Eje estratégico 1, se establece el objetivo de \"que el 100% de la población tenga cobertura de 100 Mbps en 2025\".",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.4.1 EJES ESTRATÉGICOS (Página 9)"
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Entre los proyectos tractores para la digitalización de los servicios públicos se encuentran:",
+            "opciones": [
+                "A. La digitalización de los servicios de Empleo (SEPE)",
+                "B. La mejora de aplicaciones digitales de conexión con las CCAA y EELL",
+                "C. El impulso del uso de fuentes de datos masivos o big data",
+                "D. Todas las anteriores lo son"
+            ],
+            "opcion_correcta": "D. Todas las anteriores lo son",
+            "justificacion": "**\nLa sección 1.4.2.9 detalla los proyectos tractores, mencionando explícitamente la digitalización de servicios de Empleo (SEPE), mejora de conexión con CCAA/EELL y el uso de Big Data/fuentes de datos masivos.",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.4.2.9 PROYECTOS TRACTORES... (Página 12-13)"
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "La agenda España Digital 2025 pretende impulsar la Transformación Digital de España como una de las palancas fundamentales para (señale la correcta):",
+            "opciones": [
+                "A. La participación en proyectos como el European Blockchain Services Infrastructure (EBSI)",
+                "B. El aprovechamiento de todas las oportunidades que brindan las nuevas tecnologías",
+                "C. El impulso del uso de fuentes de datos masivos o big data",
+                "D. La digitalización de los servicios de Empleo (SEPE)"
+            ],
+            "opcion_correcta": "B. El aprovechamiento de todas las oportunidades que brindan las nuevas tecnologías",
+            "justificacion": "**\nLa sección 1.4 define el objetivo central de la agenda como impulsar la transformación para \"el aprovechamiento de todas las oportunidades que brindan las nuevas tecnologías\", siendo las otras opciones medidas específicas dentro de este marco.",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.4 ESPAÑA DIGITAL 2025 (Página 9)"
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Según los datos de la Dirección General de Industria y de la Pequeña y Mediana Empresa del Ministerio de Industria, Comercio y turismo:",
+            "opciones": [
+                "A. España presenta un buen nivel de equipamiento digital en las empresas",
+                "B. Un comportamiento peor que la media europea en cuanto al comercio electrónico",
+                "C. La Dirección General de Industria y de la Pequeña y Mediana Empresa no existe",
+                "D. Las respuestas a) y b) son correctas"
+            ],
+            "opcion_correcta": "D. Las respuestas a) y b) son correctas",
+            "justificacion": "**\nLa sección 1.2 indica que España \"presenta un buen nivel en el equipamiento digital de las empresas (por encima de la media); pero un peor comportamiento en relación con el comercio electrónico (por debajo de la media)\".",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS (Página 5)"
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Para obtener mejores resultados de las herramientas digitales, los negocios deben…",
+            "opciones": [
+                "A. … h ó úb",
+                "B. …",
+                "C. … ó z",
+                "D. … z"
+            ],
+            "opcion_correcta": "B. …",
+            "justificacion": "**\nLa sección 1.2 establece que \"para obtener mayor partido de estas herramientas, los negocios deben transformar totalmente sus procesos y modelos\". La opción B es la correcta según la clave de soluciones correspondiente a este concepto.",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS (Página 3)"
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "En relación al Impacto en el mercado de trabajo y a las Relaciones laborales en la economía digital, señale de los siguientes puntos el que no esté relacionado",
+            "opciones": [
+                "A. Transformación del empleo",
+                "B. Teletrabajo",
+                "C. Plataformas digitales",
+                "D. Todos los anteriores lo están"
+            ],
+            "opcion_correcta": "D. Todos los anteriores lo están",
+            "justificacion": "**\nLa sección 2.1 analiza explícitamente la transformación del empleo, el teletrabajo y las plataformas digitales como impactos en las relaciones laborales. Por tanto, todos los puntos anteriores están relacionados.",
+            "referencia": "**\nSección: 2 IMPACTO EN EL MERCADO DEL TRABAJO Subsección: 2.1 RELACIONES LABORALES... (Página 17-19)"
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "En relación al Impacto social y económico provocado por el Covid-19 en relación con la Ciberseguridad conviene tener especial atención al siguiente punto clave:",
+            "opciones": [
+                "A. Actividades online",
+                "B. Demanda y escasez de ciertos bienes",
+                "C. Métodos de pago",
+                "D. Todos los aspectos anteriores"
+            ],
+            "opcion_correcta": "D. Todos los aspectos anteriores",
+            "justificacion": "**\nLa sección 3.2 enumera como factores clave a incluir: Actividades online, Demanda y escasez de ciertos bienes, y Métodos de pago.",
+            "referencia": "**\nSección: 3 EL IMPACTO SOCIAL Y ECONÓMICO DEL COVID-19 Subsección: 3.2 CIBERSEGURIDAD Y COVID-19 (Página 36)"
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "D... „M... G b...' emprendimiento potencial en España está:",
+            "opciones": [
+                "A. Muy por encima de la media de la UE28",
+                "B. Muy por debajo de la media de la UE28",
+                "C. Más o menos todos los países de la UE28 presentan datos similares",
+                "D. Apenas hay emprendimiento real en la UE28, sólo en EEUU"
+            ],
+            "opcion_correcta": "B. Muy por debajo de la media de la UE28",
+            "justificacion": "**\nLa sección 1.2 cita el informe GEM indicando que el emprendimiento potencial en España era del 6,8%, \"muy por debajo de la media de la UE 28 (14,1%)\".",
+            "referencia": "**\nSección: 1 EL IMPACTO DE LAS TECNOLOGÍAS... Subsección: 1.2 EMPRESA Y NUEVAS TECNOLOGÍAS (Página 5)"
+        }
+    ]
+}

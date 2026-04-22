@@ -1,0 +1,694 @@
+{
+    "nombre_tema": "Tema 100",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "En terminología de gestión de versiones, el término branch (rama):",
+            "opciones": [
+                "A. Consiste en una familia de modificaciones al código fuente independiente de otra, de modo que se pueda trabajar de forma aislada en la evolución de una determinada parte del código sin tener que modificar todo el código cada vez que se actualiza.",
+                "B. Consiste en descargar una copia del código fuente a un equipo local desde el servidor de versiones con el fin de, en general, modificarlo.",
+                "C. Se refiere al servidor de versiones y el conjunto de ficheros que conforman el código fuente de la aplicación.",
+                "D. Consiste en que se almacenen en el repositorio de la herramienta de gestión de versiones únicamente las diferencias entre versiones, en vez de una copia de cada versión, con el fin de reducir la necesidad de almacenamiento."
+            ],
+            "opcion_correcta": "A. Consiste en una familia de modificaciones al código fuente independiente de otra, de modo que se pueda trabajar de forma aislada en la evolución de una determinada parte del código sin tener que modificar todo el código cada vez que se actualiza.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente el término \"Branch (rama)\" en la sección de terminología común como una familia de modificaciones independiente que permite trabajar aislado sin modificar todo el código. Las opciones B, C y D corresponden a otros términos definidos en el mismo apartado: Check-out, Repositorio y Delta compression respectivamente.",
+            "referencia": "Sección: 4. Gestión de versiones. Subsección: 4.2.1 Terminología común en la gestión de versiones. Primera oración del párrafo relevante: \"Branch (rama): consiste en una familia de modificaciones al código fuente independiente de otra, de tal forma que se pueda trabajar de forma aislada...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "En un sistema de control de versiones distribuido, cuál es el comando para enviar el código a otros servidores tras su consolidación en el servidor local:",
+            "opciones": [
+                "A. Commit (o check-in)",
+                "B. Pull",
+                "C. Push",
+                "D. Update"
+            ],
+            "opcion_correcta": "C. Push",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de terminología que \"Push: en sistemas de control de versiones distribuido, consiste en enviar el código a otros servidores tras hacer el commit en local\". Esto coincide exactamente con la descripción de la acción solicitada en la pregunta.",
+            "referencia": "Sección: 4. Gestión de versiones. Subsección: 4.2.1 Terminología común en la gestión de versiones. Primera oración del párrafo relevante: \"Push: en sistemas de control de versiones distribuido, consiste en enviar el código a otros servidores tras hacer el commit en local.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de las siguientes herramientas es de gestión de configuración?:",
+            "opciones": [
+                "A. Subversion.",
+                "B. Mercurial.",
+                "C. BitBucket.",
+                "D. Todas son correctas."
+            ],
+            "opcion_correcta": "D. Todas son correctas.",
+            "justificacion": "La opción D es correcta porque el documento agrupa herramientas como Subversion y Mercurial en la sección 4.3.2 bajo el título \"Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo\", validándolas como herramientas de gestión de configuración en el contexto del desarrollo software. Aunque BitBucket no se menciona explícitamente, las herramientas listadas (SVN, Mercurial) confirman que los sistemas de control de versiones son considerados herramientas de gestión de configuración según este texto.",
+            "referencia": "Sección: 4. Gestión de versiones. Subsección: 4.3.2 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Las aplicaciones obsoletas o con riesgo de obsolescencia suelen denominarse aplicaciones legacy. Existen diversos motivos, además de la obsolescencia de la propia aplicación, por lo que puede ser necesario realizar una migración de aplicaciones por obsolescencia. ¿Cuál es uno de ellos?",
+            "opciones": [
+                "A. Final de soporte o end-of-life.",
+                "B. Adaptación a cambios legislativos clave.",
+                "C. Migración a la nube.",
+                "D. Paso a fuentes abiertas."
+            ],
+            "opcion_correcta": "A. Final de soporte o end-of-life.",
+            "justificacion": "La opción A es correcta porque el documento enumera en la sección de obsolescencia como motivo número 2: \"Final de soporte: el fabricante del sistema (hardware o software) deja de proporcionar soporte por motivos de obsolescencia (es lo conocido como end-of-life o EOL)\". Las otras opciones son tipos de migración o estrategias, no motivos de obsolescencia listados en ese apartado específico.",
+            "referencia": "Sección: 2. La migración de aplicaciones en el marco de procesos de ajuste dimensional y por obsolescencia. Subsección: 2.3 Obsolescencia de aplicaciones y migración. Primera oración del párrafo relevante: \"2. Final de soporte: el fabricante del sistema (hardware o software) deja de proporcionar soporte por motivos de obsolescencia (es lo conocido como end-of-life o EOL).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Las herramientas CVS y RCS son:",
+            "opciones": [
+                "A. herramientas de gestión de contenidos.",
+                "B. herramientas ofimáticas de diseños gráficos.",
+                "C. herramientas de control de versiones.",
+                "D. herramientas de control de configuración."
+            ],
+            "opcion_correcta": "C. herramientas de control de versiones.",
+            "justificacion": "La opción C es correcta porque el documento lista explícitamente \"CVS – Concurrent Versions System\" en la sección 4.3.2 como una herramienta para la gestión de versiones y la configuración en proyectos de desarrollo, describiéndola como un sistema de control de versiones (modelo cliente-servidor). Aunque RCS no se menciona, CVS sí lo es según el texto, validando la categoría de control de versiones.",
+            "referencia": "Sección: 4. Gestión de versiones. Subsección: 4.3.2 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"1. CVS – Concurrent Versions System. Escrito en C y con licencia GPL.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cuál de los siguientes entornos debería ser lo más similar posible al entorno de Producción?",
+            "opciones": [
+                "A. Entorno local",
+                "B. Entorno de preproducción",
+                "C. Entorno de integración",
+                "D. Entorno de desarrollo"
+            ],
+            "opcion_correcta": "B. Entorno de preproducción",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de Gestión de Entornos que el entorno de pre-producción (staging) debe ser lo más similar posible al de producción para reproducir fielmente el comportamiento de la aplicación. Esto se diferencia de los entornos de desarrollo o integración, que tienen propósitos distintos como pruebas unitarias o merge de código.",
+            "referencia": "Sección: 5. GESTIÓN DE ENTORNOS. Subsección: (Sin subsección numerada explícita en índice, contenido bajo título principal). Primera oración del párrafo relevante: \"5. Entorno de pre-producción (también denominado staging): orientado en general a la realización de pruebas por parte de usuarios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Señale de los siguientes cuál NO es un cliente Subversion para control de versiones:",
+            "opciones": [
+                "A. TortoiseCVS",
+                "B. Subversive",
+                "C. Sventon",
+                "D. Subclipse"
+            ],
+            "opcion_correcta": "A. TortoiseCVS",
+            "justificacion": "La opción A es correcta porque el documento distingue claramente entre herramientas de gestión de versiones como CVS y SVN en la sección de herramientas para proyectos de desarrollo. TortoiseCVS, por su nombre, se asocia funcionalmente al sistema CVS (Concurrent Versions System) listado en el texto, no a Subversion (SVN), que es una herramienta diferente mencionada independientemente en la misma lista.",
+            "referencia": "Sección: 4. GESTIÓN DE VERSIONES. Subsección: 4.3 HERRAMIENTAS PARA LA GESTIÓN DE LA CONFIGURACIÓN. Subsubsección: 4.3.2 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo .. Primera oración del párrafo relevante: \"A continuación se proporciona una breve descripción de algunas herramientas populares de gestión de versiones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Por configuración se entiende:",
+            "opciones": [
+                "A. Actividad que tiene por objeto la evaluación de conformidad de diseños, productos software, procesos o sistema.",
+                "B. Proceso por el que el sistema de calidad de una empresa es auditado para comprobar el cumplimiento de determinadas normas.",
+                "C. Descripción completa de un producto software y las interrelaciones de sus elementos.",
+                "D. Proceso de determinación de corrección de los productos de una fase de desarrollo con respecto a los requisitos establecidos en la fase anterior."
+            ],
+            "opcion_correcta": "C. Descripción completa de un producto software y las interrelaciones de sus elementos.",
+            "justificacion": "La opción C es correcta porque el documento define la Gestión de la Configuración como un proceso que mantiene una imagen detallada de la situación de los activos y de sus relaciones a lo largo del tiempo. La configuración, por tanto, se refiere a esa descripción completa y las interrelaciones (activos software y hardware) que deben ser controladas para garantizar la calidad e integridad.",
+            "referencia": "Sección: 3. GESTIÓN DE LA CONFIGURACIÓN. Subsección: (Sin subsección numerada explícita en índice, contenido bajo título principal). Primera oración del párrafo relevante: \"La gestión de la configuración puede entenderse como un proceso de la ingeniería del software que tiene como objetivo la calidad de los productos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Cuál de las siguientes no es una causa del fracaso en la migración de un sistema?",
+            "opciones": [
+                "A. Excesivo coste económico.",
+                "B. Falta de planificación de la migración.",
+                "C. Falta de formación a usuarios finales.",
+                "D. Todas son causas de fracaso."
+            ],
+            "opcion_correcta": "A. Excesivo coste económico.",
+            "justificacion": "La opción A es correcta porque el documento presenta la reducción de costes como un motivo o beneficio para realizar una migración (por ejemplo, al software libre), no como una causa de fracaso en sí misma. Las causas de riesgo o fracaso mencionadas se relacionan con carencias funcionales si la migración no se realiza correctamente o la complejidad del código, no con el coste económico per se.",
+            "referencia": "Sección: 2. LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.3 OBSOLESCENCIA DE APLICACIONES Y MIGRACIÓN. Primera oración del párrafo relevante: \"Las aplicaciones obsoletas o con riesgo de obsolescencia suelen denominarse aplicaciones legacy, legadas, o heredadas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Cuál de las siguientes NO es una herramienta para la gestión de la configuración orientadas al gobierno de los sistemas de información?:",
+            "opciones": [
+                "A. ServiceNow.",
+                "B. BMC Remedy.",
+                "C. CVS.",
+                "D. EasyVista."
+            ],
+            "opcion_correcta": "C. CVS.",
+            "justificacion": "La opción C es correcta porque el documento clasifica las herramientas en dos orientaciones: gobierno de sistemas de información (ITSM) y desarrollo (gestión de versiones). ServiceNow, BMC Remedy y EasyVista se listan explícitamente como herramientas orientadas al gobierno/ITSM, mientras que CVS se lista bajo la sección de herramientas para gestión de versiones en proyectos de desarrollo.",
+            "referencia": "Sección: 4. GESTIÓN DE VERSIONES. Subsección: 4.3 HERRAMIENTAS PARA LA GESTIÓN DE LA CONFIGURACIÓN. Subsubsección: 4.3.1 Herramientas para la gestión de la configuración orientadas al gobierno de los sistemas de información. Primera oración del párrafo relevante: \"Esta clase de herramientas están orientadas a la Gestión de los servicios TI (ITSM) y en general forman parte de suites de aplicaciones...\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Cuál de los siguientes NO es un tipo de migración de aplicaciones?",
+            "opciones": [
+                "A. Migración a la nube.",
+                "B. Reprompting.",
+                "C. Refronting.",
+                "D. Rehosting."
+            ],
+            "opcion_correcta": "B. Reprompting.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección relativa a los tipos de migración, enumera explícitamente modalidades como Refronting, Replacement, Rehosting, Rearchitecting, Interoperation, Retirada y Migración a la nube. El término \"Reprompting\" no aparece en dicha lista de modalidades de migración descritas en el texto, por lo que es la opción que no se corresponde con un tipo de migración según la fuente.",
+            "referencia": "Sección: 2. LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.4 TIPOS DE MIGRACIÓN DE APLICACIONES, Primera oración del párrafo relevante: \"La migración de aplicaciones puede realizarse en diferentes modalidades:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "La transformación de una forma de representación de un sistema en otra distinta, pero del mismo nivel de abstracción, sin modificar el comportamiento externo del sistema es:",
+            "opciones": [
+                "A. Ingeniería inversa.",
+                "B. Reestructuración.",
+                "C. Ingeniería hacia delante.",
+                "D. Reingeniería."
+            ],
+            "opcion_correcta": "B. Reestructuración.",
+            "justificacion": "La opción B es correcta basándose en la lógica de transformación y mantenimiento descrita en el documento. Aunque el término específico \"Reestructuración\" no se define textualmente, el texto aborda en la sección de migración (Rearchitecting) y gestión de configuración (Mantenimiento) la necesidad de modificar la estructura interna o paradigmas sin alterar necesariamente la funcionalidad externa o integridad del sistema. La reestructuración se alinea conceptualmente con las actividades de mantenimiento evolutivo y reingeniería mencionadas para mejorar el código (\"código podrido\") manteniendo la consistencia, tal como se describe en los procesos de gestión de configuración y migración.",
+            "referencia": "Sección: 2. LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.4 TIPOS DE MIGRACIÓN DE APLICACIONES, Primera oración del párrafo relevante: \"Rearchitecting (re-arquitectura o reescritura): consiste en desarrollar de nuevo la aplicación utilizando nuevos paradigmas de programación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "En la herramienta de control de versiones Subversion, ¿con que comando se suben los cambios al repositorio?",
+            "opciones": [
+                "A. svn commit",
+                "B. svn checkin",
+                "C. svn checkout",
+                "D. svn upload"
+            ],
+            "opcion_correcta": "A. svn commit",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección de terminología común de gestión de versiones que el término \"Commit\" (o check-in) implica convertir cambios temporales en definitivos, consolidando en el servidor de versiones los cambios realizados en local. Esto corresponde a la acción de subir o guardar los cambios en el repositorio centralizado.",
+            "referencia": "Sección: 4. GESTIÓN DE VERSIONES. Subsección: 4.2.1 Terminología común en la gestión de versiones, Primera oración del párrafo relevante: \"Commit (o check-in): El término commit implica convertir cambios temporales en definitivos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Qué definición de las siguientes se ajusta más al concepto de Downsizing?",
+            "opciones": [
+                "A. Descarga y migración selectiva de aplicaciones.",
+                "B. Migración de aquellas aplicaciones personales o departamentales cuya información es relevante para toda la organización y que deben ser dispuestas para su acceso global.",
+                "C. Todas son ciertas.",
+                "D. Migración de aplicaciones desde el gran ordenador principal a máquinas mucho menores."
+            ],
+            "opcion_correcta": "D. Migración de aplicaciones desde el gran ordenador principal a máquinas mucho menores.",
+            "justificacion": "La opción D es correcta porque el documento define el Downsizing en la sección correspondiente como el proceso de mover una aplicación o parte de ella de un mainframe (gran ordenador centralizado) a una plataforma menos costosa, sustituyendo el centro de cómputo por una red de servidores/ordenadores más pequeños. Esta definición coincide literalmente con la opción seleccionada.",
+            "referencia": "Sección: 2. LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.2.1 Downsizing, Primera oración del párrafo relevante: \"Se entiende como la sustitución, total o parcial, del centro de cómputo centralizado de una organización...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Para qué sirve la refactorización del código fuente?",
+            "opciones": [
+                "A. Analizar y detectar qué técnicas de prueba de software son necesarias.",
+                "B. Optimizar el código para aumentar la calidad del código sin que eso suponga alteraciones en la funcionalidad del programa.",
+                "C. Para cumplir con más precisión con las funcionalidades previstas en la etapa de recogida de requisitos.",
+                "D. Facilitar la integración continua en un proyecto adaptando las funcionalidades previstas durante todo el proceso de desarrollo de software."
+            ],
+            "opcion_correcta": "B. Optimizar el código para aumentar la calidad del código sin que eso suponga alteraciones en la funcionalidad del programa.",
+            "justificacion": "La opción B es correcta basándose en los objetivos de mantenimiento y gestión de configuración descritos en el documento. El texto establece que la Gestión de la Configuración en el Mantenimiento del Sistema de Información (MSI) vela por la integridad del sistema durante el mantenimiento correctivo y evolutivo. La refactorización se alinea conceptualmente con esta actividad de optimización interna para mejorar la calidad (evitando \"código podrido\" o complejidad excesiva mencionada en obsolescencia) sin alterar la funcionalidad externa, garantizando así la integridad del producto.",
+            "referencia": "Sección: 3. GESTIÓN DE LA CONFIGURACIÓN. Subsección: 3.1.3 Mantenimiento del Sistema de Información (MSI), Primera oración del párrafo relevante: \"El objetivo de la Gestión de la configuración en el proceso MSI es el mismo que en el resto de procesos anteriores:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Señale el criterio falso en la migración de aplicaciones en el marco de un ajuste dimensional:",
+            "opciones": [
+                "A. Interconectividad: las aplicaciones que requieren un alto grado de conectividad entre los usuarios son las que mejor se adaptan a ser implementadas en un entorno descentralizado sobre una red de área local.",
+                "B. Requisitos de tiempo de respuesta: a veces conviene descentralizar la información para asegurar un tiempo de respuesta rápido, evitando esperas en el acceso a las bases de datos residentes en el mainframe.",
+                "C. Seguridad: las aplicaciones con unos requisitos estrictos de seguridad tanto en lo referente a la protección de información sensible, como en lo que respecta a los daños accidentales son candidatas ideales para el ajuste dimensional.",
+                "D. Control: al migrar aplicaciones desde un entorno centralizado a uno distribuido se pierde control sobre las mismas. No obstante, están surgiendo herramientas que permiten controlar eficaz y centralizadamente la distribución e instalación."
+            ],
+            "opcion_correcta": "C. Seguridad: las aplicaciones con unos requisitos estrictos de seguridad tanto en lo referente a la protección de información sensible, como en lo que respecta a los daños accidentales son candidatas ideales para el ajuste dimensional.",
+            "justificacion": "La opción C es correcta en el contexto de los beneficios descritos para el downsizing (ajuste dimensional) en el documento. Aunque el texto no utiliza explícitamente la palabra \"seguridad\" como criterio de idoneidad, en la sección 2.2.1 se listan ventajas del downsizing que incluyen la \"Facilidad para implementar medidas orientadas a la alta disponibilidad de la información\". Esto implica que los entornos distribuidos permiten gestionar requisitos estrictos de protección y continuidad (disponibilidad) mediante una redistribución de recursos, alineándose con la afirmación de que pueden ser candidatos para aplicaciones con altos requisitos de protección y control de daños accidentales.",
+            "referencia": "Sección: 2. LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.2.1 Downsizing, Primera oración del párrafo relevante: \"Ventajas: ... 6. Facilidad para implementar medidas orientadas a la alta disponibilidad de la información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "En la gestión de la configuración, ¿qué elementos pueden ser considerados elementos de configuración de software?",
+            "opciones": [
+                "A. El código fuente y los ejecutables compilados.",
+                "B. El manual de usuario.",
+                "C. La documentación técnica.",
+                "D. Todos los elementos anteriores pueden ser elementos de configuración de software (ECS)."
+            ],
+            "opcion_correcta": "D. Todos los elementos anteriores pueden ser elementos de configuración de software (ECS).",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 3.1 que la Gestión de la Configuración contempla como elementos a ser controlados \"los ejecutables, código fuente, modelos de datos, modelos de procesos, especificaciones de requisitos, pruebas, etc.\". Además, en la sección 3.2 (ITIL), se define que los Configuration Items (CIs) son todos los activos de servicio que necesitan ser gestionados, lo cual abarca tanto el software como la documentación asociada necesaria para su entrega y mantenimiento.",
+            "referencia": "Sección: 3. GESTIÓN DE LA CONFIGURACIÓN. Subsección: 3.1 MÉTRICA V3 – INTERFAZ GC, Primera oración del párrafo relevante: \"Contempla como elementos a ser controlados los ejecutables, código fuente, modelos de datos, modelos de procesos, especificaciones de requisitos, pruebas, etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Entre los beneficios de la integración continua encontramos:",
+            "opciones": [
+                "A. Detección y solución continua de problemas de integración.",
+                "B. Ejecución inmediata de pruebas unitarias.",
+                "C. Monitorización continua de las métricas de calidad del proyecto.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas.",
+            "justificacion": "La opción D es correcta ya que la sección 4.2.2 describe la integración continua como una aproximación donde se realizan \"integraciones de código muy frecuentes\" y se entiende como el \"check-in del mismo, compilado si procede y ejecución de casos de prueba\". Esto permite obtener versiones con mejoras incrementales y \"reducir la incertidumbre propia de integraciones de código\", lo que implica la detección continua de problemas (A), la ejecución de pruebas (B) y la mejora de la calidad/métricas del proyecto (C).",
+            "referencia": "Sección: 4. GESTIÓN DE VERSIONES. Subsección: 4.2.2 Integración continua, Primera oración del párrafo relevante: \"La integración continua es una aproximación relativamente reciente, relacionada a menudo con Agile o Extreme Programming, en la que se realizan integraciones de código muy frecuentes...\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Cuál de las siguientes operaciones no se utiliza en el ámbito de la gestión de versiones?",
+            "opciones": [
+                "A. Drill",
+                "B. Merge",
+                "C. Commit",
+                "D. Diff"
+            ],
+            "opcion_correcta": "A. Drill",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 4.2.1, detalla la terminología común en la gestión de versiones listando términos como \"Check-out\", \"Update\", \"Commit\", \"Diff\", \"Branch\", \"Merge\", \"Fork\", \"Push\", \"Pull\" y \"Fetch\". El término \"Drill\" no aparece en esta lista ni se menciona como una operación estándar dentro del contexto de las herramientas y procesos de gestión de versiones descritos en el texto.",
+            "referencia": "Sección: 4. GESTIÓN DE VERSIONES. Subsección: 4.2.1 Terminología común en la gestión de versiones, Primera oración del párrafo relevante: \"En la gestión de versiones suele emplearse terminología que es de uso común en los proyectos de desarrollo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "No es un sistema de control de versiones (VCS), el software:",
+            "opciones": [
+                "A. GIT",
+                "B. Apache Subversion",
+                "C. Microsoft Source Safe",
+                "D. Microsoft Visual Studio."
+            ],
+            "opcion_correcta": "D. Microsoft Visual Studio.",
+            "justificacion": "La opción D es correcta basándose en la clasificación de herramientas presentada en la sección 4.3.2, donde se enumeran específicamente las herramientas para la gestión de versiones y configuración en proyectos de desarrollo como \"CVS\", \"SVN\", \"IBM Rational Clear Case\", \"Git\", \"Mercurial\" y \"GNU Bazaar\". Microsoft Visual Studio no se incluye en esta lista de sistemas de control de versiones (VCS), sino que es un entorno de desarrollo integrado que puede utilizar estas herramientas, pero no es un VCS en sí mismo según la taxonomía del documento.",
+            "referencia": "Sección: 4. GESTIÓN DE VERSIONES. Subsección: 4.3.2 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo, Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Para facilitar al licitador el desarrollo de la solución, la administración dispone de un repositorio centralizado de código basado en GITLAB donde la utilización de las ramas hacen que sea un herramienta perfecta para distinguir y controlar las distintas líneas del desarrollo. Gitflow, como metodología de trabajo sobre GIT propone las siguientes ramas:",
+            "opciones": [
+                "A. develop, prebuild, testing, production",
+                "B. master, develop, release, feature, hotfix",
+                "C. checkin, push, checkout, merge, hotfix",
+                "D. localbranch, derivedbranch, hotfix, evolutionbranch, masterbranch"
+            ],
+            "opcion_correcta": "B. master, develop, release, feature, hotfix",
+            "justificacion": "La opción B es correcta porque, aunque el documento no menciona explícitamente la metodología \"Gitflow\", describe en la sección 4.2.1 los conceptos de \"Branch (rama)\" como una familia de modificaciones independiente y herramientas como Git en la 4.3.2. Las opciones A, C y D incluyen términos que el documento define como acciones u operaciones (como checkin, push, checkout, merge en 4.2.1) o nombres no estándar, mientras que la opción B refleja la estructura lógica de gestión de versiones y mantenimiento (hotfix vinculado al mantenimiento correctivo de la sección 3.1.3) descrita conceptualmente en el texto para controlar líneas de desarrollo.",
+            "referencia": "Sección: 4. Gestión de versiones. Subsección: 4.2.1 Terminología común en la gestión de versiones. Primera oración del párrafo relevante: \"En la gestión de versiones suele emplearse terminología que es de uso común en los proyectos de desarrollo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "En cuanto a la migración de aplicaciones, como se llama la modalidad de sustituir las aplicaciones completas por una o varias aplicaciones:",
+            "opciones": [
+                "A. Rearchitecting",
+                "B. Replacement",
+                "C. Rehosting",
+                "D. Refronting"
+            ],
+            "opcion_correcta": "B. Replacement",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección 2.4 el tipo de migración \"Replacement (sustitución)\" indicando que \"en esta modalidad se sustituyen las aplicaciones completas por una o varias aplicaciones\". Esta definición coincide textualmente con la descripción planteada en la pregunta, descartando las otras opciones que corresponden a modalidades diferentes como reescritura (Rearchitecting) o cambio de entorno sin modificar código (Rehosting).",
+            "referencia": "Sección: 2. La migración de aplicaciones en el marco de procesos de ajuste dimensional y por obsolescencia. Subsección: 2.4 Tipos de migración de aplicaciones. Primera oración del párrafo relevante: \"La migración de aplicaciones puede realizarse en diferentes modalidades:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿A qué se destina el uso de la rama Hotfix?",
+            "opciones": [
+                "A. Al desarrollo de correctivos críticos",
+                "B. Al desarrollo de código candidato a ser estable y susceptible de ser entregado formalmente",
+                "C. Contendrá un nuevo desarrollo o historia de usuario y nace de masterbranch",
+                "D. Contendrá el código en un estado listo para ser unido al local"
+            ],
+            "opcion_correcta": "A. Al desarrollo de correctivos críticos",
+            "justificacion": "La opción A es correcta porque, aunque el término \"Hotfix\" no se define como rama específica en el texto, la sección 3.1.3 describe el proceso de Mantenimiento del Sistema de Información (MSI) donde se vela por la integridad en el \"mantenimiento correctivo\". El concepto de un correctivo crítico se alinea funcionalmente con las actividades de registro de cambios y resolución de incidencias descritas en esta sección, diferenciándose del desarrollo nuevo o estable.",
+            "referencia": "Sección: 3. Gestión de la configuración. Subsección: 3.1.3 Mantenimiento del Sistema de Información (MSI). Primera oración del párrafo relevante: \"El objetivo de la Gestión de la configuración en el proceso MSI es el mismo que en el resto de procesos anteriores:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Cuál de las siguientes NO es una modalidad de migración de aplicaciones?",
+            "opciones": [
+                "A. Refronting.",
+                "B. Replacement.",
+                "C. Reconsidering.",
+                "D. Rehosting."
+            ],
+            "opcion_correcta": "C. Reconsidering.",
+            "justificacion": "La opción C es correcta porque el documento enumera en la sección 2.4 las modalidades de migración existentes, que incluyen Refronting, Replacement, Rehosting, Rearchitecting, Interoperation, Retirada y Migración a la nube. El término \"Reconsidering\" no aparece en dicha lista ni se corresponde con ninguna de las definiciones proporcionadas en el texto para los tipos de migración.",
+            "referencia": "Sección: 2. La migración de aplicaciones en el marco de procesos de ajuste dimensional y por obsolescencia. Subsección: 2.4 Tipos de migración de aplicaciones. Primera oración del párrafo relevante: \"La migración de aplicaciones puede realizarse en diferentes modalidades:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Un producto que ha sido revisado y aprobado formalmente, y que sirve como base para futuros desarrollos previa petición formal de cambio, se denomina:",
+            "opciones": [
+                "A. Elemento base.",
+                "B. Base de configuración.",
+                "C. Línea base.",
+                "D. Ninguna de las anteriores es correcta."
+            ],
+            "opcion_correcta": "C. Línea base.",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 3.2.1 el concepto \"Configuration baseline (línea base de configuración)\" como \"la configuración de un servicio, producto o infraestructura que ha sido revisada y acordada formalmente, que sirve a partir de ese momento como base para actividades futuras\". Esta definición coincide exactamente con los requisitos descritos en la pregunta.",
+            "referencia": "Sección: 3. Gestión de la configuración. Subsección: 3.2.1 Elementos clave de SACM. Primera oración del párrafo relevante: \"Configuration baseline (línea base de configuración): es la configuración de un servicio, producto o infraestructura que ha sido revisada y acordada formalmente...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "La migración de aplicaciones que consiste en modificar únicamente la interfaz gráfica de una aplicación, sin necesidad de reescribir la aplicación completa, se conoce como:",
+            "opciones": [
+                "A. Replacement.",
+                "B. Rearchitecting.",
+                "C. Rehosting.",
+                "D. Refronting."
+            ],
+            "opcion_correcta": "D. Refronting.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección de tipos de migración que el \"Refronting o refacing\" consiste en modificar únicamente la interfaz gráfica sin reescribir la aplicación completa. Esta definición coincide textualmente con la descripción de la pregunta, diferenciándose de otras modalidades como Replacement (sustitución) o Rehosting (re-alojamiento sin modificar código).",
+            "referencia": "Sección: 2. LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.4 TIPOS DE MIGRACIÓN DE APLICACIONES. Primera oración del párrafo relevante: \"Refronting o refacing: consiste en modificar únicamente la interfaz gráfica de una aplicación, sin necesidad de reescribir la aplicación completa.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Cuál de las siguientes herramientas no es correcta?",
+            "opciones": [
+                "A. Maven es un framework de pruebas unitarias.",
+                "B. Jenkins es un servidor de integración continua.",
+                "C. SonarQube es una herramienta para el análisis de código.",
+                "D. Git es un sistema de control de versiones."
+            ],
+            "opcion_correcta": "A. Maven es un framework de pruebas unitarias.",
+            "justificacion": "La opción A es la correcta (como afirmación falsa) porque, según la clasificación de herramientas en el documento, Jenkins se identifica como herramienta de automatización de compilación y pruebas (Integración Continua), y Git como sistema de control de versiones distribuido. El texto no clasifica Maven como framework de pruebas unitarias dentro de su listado de herramientas para gestión de versiones o integración continua, alineándose con la distinción funcional que el documento hace entre herramientas de control de versiones y servidores de integración.",
+            "referencia": "Sección: 4. GESTIÓN DE VERSIONES. Subsección: 4.2.2 Integración continua / 4.3.2 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante (4.2.2): \"La integración continua hace uso de herramientas de automatización de la compilación y pruebas como Jenkins o Hudson\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "En terminología de la gestión del control de versiones, ¿cómo se denomina la consolidación en el servidor de versiones de los cambios realizados en local?",
+            "opciones": [
+                "A. Commit (o check-in).",
+                "B. Update (o sync).",
+                "C. Check-out.",
+                "D. Merge."
+            ],
+            "opcion_correcta": "A. Commit (o check-in).",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de terminología común que el término \"Commit (o check-in)\" implica convertir cambios temporales en definitivos, consolidando en el servidor de versiones los cambios realizados en local. Esta definición describe exactamente el proceso de consolidación mencionado en la pregunta.",
+            "referencia": "Sección: 4. GESTIÓN DE VERSIONES. Subsección: 4.2.1 Terminología común en la gestión de versiones. Primera oración del párrafo relevante: \"Commit (o check-in): El término commit implica convertir cambios temporales en definitivos, consolidando en el servidor de versiones los cambios realizados en local.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "El tipo de migración que consiste en encapsular la aplicación o algunos de sus componentes para que sean utilizados por otras aplicaciones o infraestructura con tecnología más moderna se denomina:",
+            "opciones": [
+                "A. Interoperabilidad o “wrapping”.",
+                "B. Cambio de interfaz o “refacing”.",
+                "C. Realojamiento o “rehosting”.",
+                "D. Sustitución o “replacement”."
+            ],
+            "opcion_correcta": "A. Interoperabilidad o “wrapping”.",
+            "justificacion": "La opción A es correcta porque el documento define la modalidad \"Interoperation (interoperabilidad) o wrapping\" como la que consiste en encapsular la aplicación o algunos de sus componentes para que sean utilizados por otras aplicaciones o infraestructura con tecnología más moderna. Esta definición se ajusta literalmente a la descripción planteada en la pregunta.",
+            "referencia": "Sección: 2. LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.4 TIPOS DE MIGRACIÓN DE APLICACIONES. Primera oración del párrafo relevante: \"Interoperation (interoperabilidad) o wrapping: consiste en encapsular la aplicación o algunos de sus componentes para que sean utilizados por otras aplicaciones o infraestructura con tecnología más moderna.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Algunos de los pasos a realizar en el \"mining legacy system assets\" son:",
+            "opciones": [
+                "A. Rehabilitación de componentes seleccionados.",
+                "B. Reprogramación de los módulos obsoletos.",
+                "C. Realización de pruebas detalladas de los componentes del sistema en el nuevo entorno.",
+                "D. Ninguna de las anteriores es correcta."
+            ],
+            "opcion_correcta": "A. Rehabilitación de componentes seleccionados.",
+            "justificacion": "La opción A es correcta porque, aunque el término específico \"mining legacy system assets\" no aparece textualmente, el documento describe en la sección de migración por obsolescencia y tipos de migración (como Rearchitecting) la necesidad de emplear técnicas de reingeniería e ingeniería inversa para determinar la funcionalidad y trabajar con aplicaciones legacy. La rehabilitación de componentes seleccionados se alinea conceptualmente con las estrategias de migración que implican modificar o adaptar partes del sistema heredado antes de su integración o sustitución, tal como se detalla en los procesos de ajuste dimensional y obsolescencia.",
+            "referencia": "Sección: 2. LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.4 TIPOS DE MIGRACIÓN DE APLICACIONES. Primera oración del párrafo relevante: \"Rearchitecting (re-arquitectura o reescritura): consiste en desarrollar de nuevo la aplicación utilizando nuevos paradigmas de programación (por ejemplo desarrollo web, orientación a objetos, u otros).\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "El término que se utiliza para la elección de la plataforma más apropiada según las necesidades particulares de una organización es…",
+            "opciones": [
+                "A. Downsizing.",
+                "B. Upsizing.",
+                "C. Outsizing.",
+                "D. Rightsizing."
+            ],
+            "opcion_correcta": "D. Rightsizing.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente el \"Rightsizing\" como la elección de la plataforma más apropiada para las actividades informáticas de una organización, contrastándolo con downsizing y upsizing según necesidades particulares. Las otras opciones se refieren a movimientos específicos (reducción o integración) y no a la selección óptima basada en requisitos.",
+            "referencia": "Sección: 2 LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.2 DOWNSIZING, UPSIZING Y RIGTHSIZING. Subsubsección: 2.2.3 Rightsizing. Primera oración del párrafo relevante: \"Se refiere a la elección de la plataforma más apropiada para las actividades informáticas de una organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "La integración de un conjunto de bases de datos aisladas en un entorno cliente / servidor, con un potente servidor de bases de datos, es un ejemplo típico de:",
+            "opciones": [
+                "A. Downsizing.",
+                "B. Outsourcing.",
+                "C. Arquitectura centralizada.",
+                "D. Upsizing."
+            ],
+            "opcion_correcta": "D. Upsizing.",
+            "justificacion": "La opción D es correcta dado que el texto describe el \"Upsizing\" como la integración en entornos de red de aplicaciones y ordenadores que estaban aislados, citando específicamente como ejemplo la integración de bases de datos aisladas en un servidor único. Esto coincide con la descripción de la pregunta sobre integrar bases de datos aisladas.",
+            "referencia": "Sección: 2 LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.2 DOWNSIZING, UPSIZING Y RIGTHSIZING. Subsubsección: 2.2.2 Upsizing. Primera oración del párrafo relevante: \"Se utiliza el término upsizing para referirse a la integración en entornos de red de aplicaciones y ordenadores que estaban aislados...\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "La migración de aplicaciones que consiste en desarrollar de nuevo la aplicación utilizando nuevos paradigmas de programación (por ejemplo, desarrollo web, orientación a objetos, u otros) y que puede requerir el empleo de técnicas de reingeniería e ingeniería inversa para determinar la funcionalidad completa de la aplicación antes de migrarla se conoce como:",
+            "opciones": [
+                "A. Replacement.",
+                "B. Rearchitecting.",
+                "C. Rehosting.",
+                "D. Refronting."
+            ],
+            "opcion_correcta": "B. Rearchitecting.",
+            "justificacion": "La opción B es correcta ya que el documento define \"Rearchitecting\" como el desarrollo de nuevo de la aplicación utilizando nuevos paradigmas de programación, mencionando explícitamente que puede requerir técnicas de reingeniería e ingeniería inversa para determinar la funcionalidad. Las otras opciones corresponden a modalidades distintas como sustitución completa o cambio de interfaz.",
+            "referencia": "Sección: 2 LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.4 TIPOS DE MIGRACIÓN DE APLICACIONES. Primera oración del párrafo relevante (punto Rearchitecting): \"Rearchitecting (re-arquitectura o reescritura): consiste en desarrollar de nuevo la aplicación utilizando nuevos paradigmas de programación...\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Con respecto a los entornos de integración continua, indique cuál de las siguientes afirmaciones es cierta:",
+            "opciones": [
+                "A. Jenkins no dispone de la funcionalidad de extenderse mediante plugins.",
+                "B. SonarQube utiliza herramientas de análisis estático de código que permiten obtener métricas para mejorar la calidad del código.",
+                "C. El fichero POM empleado en Maven no siempre es un fichero XML.",
+                "D. Jenkins es un software de integración continua bajo licencia Oracle."
+            ],
+            "opcion_correcta": "B. SonarQube utiliza herramientas de análisis estático de código que permiten obtener métricas para mejorar la calidad del código.",
+            "justificacion": "La opción B es correcta en el contexto conceptual del documento, que describe la Integración Continua como una aproximación que utiliza herramientas de automatización de compilación y pruebas (como Jenkins) para reducir incertidumbre y obtener versiones con mejoras incrementales. Aunque SonarQube no se nombra explícitamente, su función de análisis estático y métricas de calidad se alinea funcionalmente con el objetivo de las herramientas de CI descritas en el texto (\"ejecución de casos de prueba\", \"mejoras incrementales\"). Las opciones A y D contradicen la naturaleza de herramientas de código abierto mencionadas (Jenkins/Hudson) y la opción C es técnicamente incorrecta según estándares generales de Maven.",
+            "referencia": "Sección: 4 GESTIÓN DE VERSIONES. Subsección: 4.2 GESTIÓN DE VERSIONES Y RELEASES EN EL DESARROLLO SOFTWARE. Subsubsección: 4.2.2 Integración continua. Primera oración del párrafo relevante: \"La integración continua hace uso de herramientas de automatización de la compilación y pruebas como Jenkins o Hudson...\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es cierta sobre el \"Downsizing\"?",
+            "opciones": [
+                "A. El downsizing centraliza los procesos en sistemas tipo mainframe.",
+                "B. Pretende acercar el proceso allí donde se va a realizar.",
+                "C. Acerca los servidores a los Centros de Proceso de Datos más próximos a la gerencia de la empresa.",
+                "D. Siempre que se hace downsizing se pide autorización al usuario afectado."
+            ],
+            "opcion_correcta": "B. Pretende acercar el proceso allí donde se va a realizar.",
+            "justificacion": "La opción B es correcta porque el documento define el ajuste dimensional (y por extensión el downsizing) como un proceso que conlleva una redistribución de recursos de proceso, acercándolos a los usuarios finales o distribuyéndolos en otras arquitecturas. Esto implica acercar el procesamiento al punto de uso, descartando la centralización en mainframe (opción A).",
+            "referencia": "Sección: 2 LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.1 AJUSTE DIMENSIONAL. Primera oración del párrafo relevante: \"El ajuste dimensional, consiste en aligerar la carga de trabajo que soporta un gran ordenador (mainframe) trasladándola a otro tipo de ordenadores de menor coste.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "La especificación de versionado semántico (SEMVER) define una política de versionado estándar para componentes software y propone el formato mayor.minor.patch, existiendo además la posibilidad de agregar etiquetas de metadatos de compilación y de prelanzamiento. Indique la afirmación CORRECTA:",
+            "opciones": [
+                "A. mayor, minor y patch pueden ser números enteros negativos",
+                "B. patch se resetea a valor 0 siempre que se detecta un bug",
+                "C. Una versión de prelanzamiento suele denotarse con el signo \"más\"y caracteres alfanuméricicos",
+                "D. mayor con valor cero (0.minor.patch) se debe usar en el desarrollo inicial, donde el software es cambiable y considerado no estable"
+            ],
+            "opcion_correcta": "D. mayor con valor cero (0.minor.patch) se debe usar en el desarrollo inicial, donde el software es cambiable y considerado no estable",
+            "justificacion": "La opción D es correcta porque, aunque el término SEMVER no aparece explícitamente, el documento aborda la gestión de versiones y los estados de los productos en la sección 3.1.2, donde se definen estados como \"En elaboración\" para productos en desarrollo inicial antes de ser aceptados. Esto alinea conceptualmente con el uso de una versión mayor cero (0) para indicar inestabilidad o fase inicial de desarrollo antes de la estabilización del producto final.",
+            "referencia": "Sección: 4. Gestión de versiones. Subsección: 4.2 Gestión de versiones y releases en el desarrollo software, Primera oración del párrafo relevante: \"La gestión de versiones en el ámbito del desarrollo software se refiere al conjunto de actividades relativas a gestionar, planificar y controlar las modificaciones de código...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es cierta sobre el \"Upsizing\"?",
+            "opciones": [
+                "A. Las aplicaciones se elevan a la gerencia de la organización",
+                "B. El \"upsizing\" es lo que queda de un \"rightsizing\" cuando se le hace un \"downsizing\"",
+                "C. Sólo se realiza en algunos sistemas",
+                "D. Con la tecnología web ya no tiene sentido hablar de \"upsizing\" ya que es centralizada"
+            ],
+            "opcion_correcta": "C. Sólo se realiza en algunos sistemas",
+            "justificacion": "La opción C es correcta porque el documento define el upsizing específicamente para la integración de aplicaciones y ordenadores que estaban aislados, lo que implica que no se aplica a todos los sistemas indiscriminadamente, sino únicamente a aquellos que requieren compartir datos o integrarse en entornos de red desde un estado de aislamiento.",
+            "referencia": "Sección: 2. La migración de aplicaciones en el marco de procesos de ajuste dimensional y por obsolescencia. Subsección: 2.2.2 Upsizing, Primera oración del párrafo relevante: \"Se utiliza el término upsizing para referirse a la integración en entornos de red de aplicaciones y ordenadores que estaban aislados...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "La modalidad de migración de una aplicación que consiste en modificar únicamente su interfaz gráfica sin necesidad de reescribir la aplicación completa se llama:",
+            "opciones": [
+                "A. Refronting o refacing",
+                "B. Rehosting",
+                "C. Rearchitecting",
+                "D. Wrapping"
+            ],
+            "opcion_correcta": "A. Refronting o refacing",
+            "justificacion": "La opción A es correcta porque el documento describe explícitamente en la sección de tipos de migración que el \"Refronting o refacing\" consiste en modificar únicamente la interfaz gráfica de una aplicación, sin necesidad de reescribir la aplicación completa, lo cual coincide textualmente con la definición planteada en la pregunta.",
+            "referencia": "Sección: 2. La migración de aplicaciones en el marco de procesos de ajuste dimensional y por obsolescencia. Subsección: 2.4 Tipos de migración de aplicaciones, Primera oración del párrafo relevante: \"La migración de aplicaciones puede realizarse en diferentes modalidades:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "La migración de aplicaciones en el marco de un ajuste dimensional:",
+            "opciones": [
+                "A. Consiste simplemente en mover los programas entre diferentes tipos de ordenador.",
+                "B. No debe implicar modificaciones en la filosofía de negocio de la organización.",
+                "C. Se limita sólo a las aplicaciones de usuario.",
+                "D. Debe englobar todos los productos lógicos o software de la instalación a migrar."
+            ],
+            "opcion_correcta": "D. Debe englobar todos los productos lógicos o software de la instalación a migrar.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de Gestión de la Configuración que se deben controlar elementos como ejecutables, código fuente y modelos de datos para mantener la integridad del sistema. En el contexto de migración (ajuste dimensional), esto implica una redistribución de recursos y aplicaciones que abarca los productos lógicos necesarios para garantizar la funcionalidad en la nueva arquitectura.",
+            "referencia": "Sección: 2. La migración de aplicaciones en el marco de procesos de ajuste dimensional y por obsolescencia. Subsección: 2.1 Ajuste dimensional, Primera oración del párrafo relevante: \"El ajuste dimensional, consiste en aligerar la carga de trabajo que soporta un gran ordenador (mainframe) trasladándola a otro tipo de ordenadores de menor coste.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "En relación a Git, cuál de las siguientes afirmaciones es CORRECTA:",
+            "opciones": [
+                "A. Git es un sistema de control de versiones distribuido",
+                "B. Git es un sistema de control de versiones centralizado",
+                "C. Git es un sistema de gestión de servicios ITSM distribuido",
+                "D. Git es un sistema de gestión de servicios ITSM centralizado"
+            ],
+            "opcion_correcta": "A. Git es un sistema de control de versiones distribuido",
+            "justificacion": "La opción A es correcta porque el documento, al listar herramientas para la gestión de versiones en proyectos de desarrollo, identifica específicamente a Git como un sistema distribuido, diferenciándolo de modelos cliente-servidor centralizados como CVS o SVN.",
+            "referencia": "Sección: 4. Gestión de versiones. Subsección: 4.3.2 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo, Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "¿Cuál de las siguientes NO puede ser considerada una herramienta de gestión de la configuración?",
+            "opciones": [
+                "A. Ansible",
+                "B. Puppet",
+                "C. Chef",
+                "D. Flume"
+            ],
+            "opcion_correcta": "D. Flume",
+            "justificacion": "La opción D es correcta porque el documento, en la sección relativa a herramientas, clasifica las soluciones de gestión de configuración en dos orientaciones: gobierno TIC/ITSM y desarrollo/gestión de versiones. Aunque no menciona explícitamente \"Flume\", este término no aparece en los ejemplos proporcionados (como BMC Remedy, ServiceNow, Git, SVN) ni se ajusta a la definición funcional de gestionar activos de servicio o código fuente descrita en las secciones 3 y 4 del texto.",
+            "referencia": "Sección: 4. GESTIÓN DE VERSIONES. Subsección: 4.3 HERRAMIENTAS PARA LA GESTIÓN DE LA CONFIGURACIÓN. Primera oración del párrafo relevante: \"Desde el punto de vista de las herramientas para la gestión de la configuración, existen dos orientaciones:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Señale cuál de las siguientes herramientas no está asociada a la gestión de versiones en proyectos de desarrollo:",
+            "opciones": [
+                "A. Git",
+                "B. SVN",
+                "C. Jmeter",
+                "D. Bazaar"
+            ],
+            "opcion_correcta": "C. Jmeter",
+            "justificacion": "La opción C es correcta porque el documento enumera explícitamente en la subsección correspondiente herramientas populares para la gestión de versiones y configuración en proyectos de desarrollo, citando específicamente a Git, SVN y Bazaar (entre otras). Jmeter no se encuentra en esta lista ni se describe como una herramienta para gestionar el ciclo de vida del código fuente dentro del texto proporcionado.",
+            "referencia": "Sección: 4. GESTIÓN DE VERSIONES. Subsección: 4.3.2 Herramientas para la gestión de versiones y la configuración en proyectos de desarrollo. Primera oración del párrafo relevante: \"Este tipo de herramientas permite gestionar el ciclo de vida del código fuente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Cuál de las siguientes NO es una modalidad de migración de aplicaciones?",
+            "opciones": [
+                "A. Refronting.",
+                "B. Replacement.",
+                "C. Reconsidering.",
+                "D. Rehosting."
+            ],
+            "opcion_correcta": "C. Reconsidering.",
+            "justificacion": "La opción C es correcta porque el documento detalla en la sección de tipos de migración las modalidades específicas reconocidas, incluyendo Refronting, Replacement y Rehosting. El término \"Reconsidering\" no figura en la enumeración de modalidades de migración presentadas en el texto, por lo que no se corresponde con los conceptos definidos.",
+            "referencia": "Sección: 2. LA MIGRACIÓN DE APLICACIONES EN EL MARCO DE PROCESOS DE AJUSTE DIMENSIONAL Y POR OBSOLESCENCIA. Subsección: 2.4 TIPOS DE MIGRACIÓN DE APLICACIONES. Primera oración del párrafo relevante: \"La migración de aplicaciones puede realizarse en diferentes modalidades:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Con respecto al ajuste dimensional, el downsizing:",
+            "opciones": [
+                "A. Es una técnica reciente, surgida a partir del crecimiento del IoT (Internet of Things o Internet de las Cosas), que está relacionada con el paso de entornos cliente-servidor a entornos de computación distribuida.",
+                "B. Es una técnica orientada al cambio de arquitecturas cliente-servidor, relacionada con el paso de clientes pesados (que requieren la instalación de un aplicativo en el puesto de usuario) a clientes ligeros (accesibles vía web).",
+                "C. Es conmutativo con el upsizing, es decir, si sobre un sistema se aplica downsizing y posteriormente upsizing, el sistema resultante es equivalente al original.",
+                "D. Es un término relacionado con el paso de arquitecturas mainframe a entornos con múltiples servidores."
+            ],
+            "opcion_correcta": "D. Es un término relacionado con el paso de arquitecturas mainframe a entornos con múltiples servidores.",
+            "justificacion": "**\nLa opción D es correcta porque la sección 2.2.1 define el downsizing como la \"sustitución, total o parcial, del centro de cómputo centralizado... por una red de servidores/ordenadores más pequeños\", moviendo aplicaciones de un mainframe a plataformas menos costosas.",
+            "referencia": "**\nSección: 2 Subsección: 2.2.1"
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "En lo relativo a la obsolescencia de software, el concepto End-of-Life (EOL):",
+            "opciones": [
+                "A. Indica la versión del producto software a partir de la cual el proveedor del mismo deja de proporcionar soporte a sus usuarios en lo relativo a ese producto en particular.",
+                "B. Proporciona las características que tendrá el producto software cuando se encuentre funcionalmente maduro, una vez desarrollados todos los requisitos sobre el mismo.",
+                "C. Debe ser tenido en cuenta por las organizaciones usuarias de un producto software con el fin de adelantarse a la posible finalización del soporte por parte del proveedor del software.",
+                "D. Indica la fecha a partir de la cual el proveedor de un producto software deja de comercializar un determinado producto pero no cuándo deja de proporcionar soporte al mismo."
+            ],
+            "opcion_correcta": "C. Debe ser tenido en cuenta por las organizaciones usuarias de un producto software con el fin de adelantarse a la posible finalización del soporte por parte del proveedor del software.",
+            "justificacion": "**\nLa opción C es correcta según la sección 2.3, punto 2, donde se define EOL como el momento en que el fabricante \"deja de proporcionar soporte por motivos de obsolescencia\". Las organizaciones deben considerar esto para planificar migraciones ante la falta de soporte futuro.",
+            "referencia": "**\nSección: 2 Subsección: 2.3"
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Indique entre las siguientes opciones cuál no se corresponde con un estándar relativo a la Gestión de la Configuración:",
+            "opciones": [
+                "A. ISO 10007:2017 Quality management - Guidelines for configuration management.",
+                "B. IEEE 828-2012 IEEE Standard for Configuration Management in Systems and Software Engineering.",
+                "C. Ninguno de los anteriores se corresponde con un estándar relativo a la Gestión de la Configuración.",
+                "D. Las respuestas (a) y (b) se corresponden con un estándar relativo a la Gestión de la configuración."
+            ],
+            "opcion_correcta": "D. Las respuestas (a) y (b) se corresponden con un estándar relativo a la Gestión de la configuración.",
+            "justificacion": "**\nLa opción D es correcta porque la sección 3.3 lista explícitamente tanto ISO 10007:2017 como IEEE 828-2012 como estándares generales relativos a la gestión de la configuración. Por lo tanto, ambas opciones (a) y (b) son correctas.",
+            "referencia": "**\nSección: 3 Subsección: 3.3"
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Identifique la respuesta FALSA entre las siguientes opciones. La Gestión de la Configuración:",
+            "opciones": [
+                "A. Proporciona requisitos a los equipos de desarrollo relativos a la medida en que una aplicación y sus componentes deben ser parametrizables a lo largo de su ciclo de vida (por ejemplo, a través de ficheros separados por comas o CSV).",
+                "B. Es una interfaz (GC) descrita en Métrica v3. El Plan de Gestión de la Configuración se define durante el proceso de Estudio de Viabilidad del Sistema.",
+                "C. Está contemplada en ITIL, fundamentalmente dentro del libro Service Transition (Transición del Servicio).",
+                "D. Es un proceso contemplado dentro del modelo CMMI-DEV, denominado Configuration Management."
+            ],
+            "opcion_correcta": "A. Proporciona requisitos a los equipos de desarrollo relativos a la medida en que una aplicación y sus componentes deben ser parametrizables a lo largo de su ciclo de vida (por ejemplo, a través de ficheros separados por comas o CSV).",
+            "justificacion": "**\nLa opción A es la FALSA porque el documento (Sección 3) define la Gestión de la Configuración como el control de cambios, integridad de productos y versiones (Métrica v3, ITIL, CMMI), sin mencionar requisitos de parametrización mediante ficheros CSV. Las opciones B, C y D son afirmaciones verdaderas según las secciones 3.1, 3.2 y 3.3 respectivamente.",
+            "referencia": "**\nSección: 3 Subsección: 3.1, 3.2, 3.3"
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "En el ámbito de la gestión de versiones, identifique la respuesta CORRECTA:",
+            "opciones": [
+                "A. Concurrent Versions System y Subversion son dos herramientas de gestión de versiones posteriores a 1985.",
+                "B. Una rama (branch) pasa a ser una bifurcación (fork) en el momento en el que se crea otra rama paralela partiendo del mismo tronco (trunk).",
+                "C. Un desarrollador que realice check-out del código existente en el repositorio de versiones debe necesariamente realizar un check-in posterior antes de realizar otro check-out.",
+                "D. La compresión delta (delta compression) es una característica de algunas herramientas de gestión de versiones orientada a comprimir la información relativa a los cambios (deltas) con el fin de poder almacenar una visión completa (snapshot) de cada versión intermedia."
+            ],
+            "opcion_correcta": "A. Concurrent Versions System y Subversion son dos herramientas de gestión de versiones posteriores a 1985.",
+            "justificacion": "**\nLa opción A es correcta según la tabla de soluciones y el contexto de la sección 4.3.2 donde se listan como herramientas establecidas. Las opciones B, C y D son incorrectas según las definiciones de la sección 4.2.1: un Fork no fusiona con la principal (B), Delta compression almacena diferencias en vez de copias completas (D).",
+            "referencia": "**\nSección: 4 Subsección: 4.2.1, 4.3.2"
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Señale la afirmación CORRECTA. Usted utiliza en un intérprete de comandos el comando diff de Subversion para comparar un fichero A y un fichero B, pertenecientes al código fuente de una aplicación:",
+            "opciones": [
+                "A. Si el fichero A y el fichero B son idénticos, el tamaño de la salida en el intérprete de comandos será necesariamente mayor que si A y B son diferentes.",
+                "B. Si el fichero A y el fichero B son idénticos, el tamaño de la salida en el intérprete de comandos será necesariamente inferior que si A y B son diferentes.",
+                "C. Si B se corresponde con un branch (rama) de A y A es el trunk, el tamaño de la salida será necesariamente superior que si B se corresponde con una nueva versión del trunk A.",
+                "D. Si B se corresponde con un branch (rama) de A y A es el trunk, el tamaño de la salida será necesariamente inferior que si B se corresponde con una nueva versión del trunk A."
+            ],
+            "opcion_correcta": "B. Si el fichero A y el fichero B son idénticos, el tamaño de la salida en el intérprete de comandos será necesariamente inferior que si A y B son diferentes.",
+            "justificacion": "**\nLa opción B es correcta basándose en la lógica del comando `diff` descrito en la sección 4.2.1 como \"diferencias entre dos versiones\". Si los ficheros son idénticos, no hay diferencias que mostrar (salida mínima o nula), mientras que si son diferentes, el comando muestra las líneas modificadas (salida mayor).",
+            "referencia": "**\nSección: 4 Subsección: 4.2.1"
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "En el marco de la modernización de los servicios de TI, se le encarga que implemente una solución de gestión del servicio que cuente con una CMDB para la Gestión de la Configuración. Dado el entorno presupuestario de su organización, se le solicita que la solución sea de fuentes abiertas sin costes de licencia. Indique la solución que recomendaría:",
+            "opciones": [
+                "A. BMC Remedy.",
+                "B. ServiceNow IT Service Management.",
+                "C. EasyVista.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores.",
+            "justificacion": "**\nLa opción D es correcta porque la sección 4.3.1 indica que herramientas como BMC Remedy, EasyVista y ServiceNow son de \"licencia propietaria\". Por lo tanto, ninguna cumple con el requisito de ser de fuentes abiertas sin costes de licencia.",
+            "referencia": "**\nSección: 4 Subsección: 4.3.1"
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Como responsable del desarrollo de un nuevo aplicativo, se le solicita que proponga la utilización de una herramienta de gestión de versiones distribuida. Dado este requerimiento, indique de entre las siguientes cuáles serían herramientas candidatas: (1) CVS – Concurrent Versions System, (2) SVN – Subversion, (3) Git, (4) Mercurial, (5) Bazaar.",
+            "opciones": [
+                "A. 1, 2, 3, 4, 5",
+                "B. 2, 3, 4, 5",
+                "C. 3, 4, 5",
+                "D. 3, 4"
+            ],
+            "opcion_correcta": "C. 3, 4, 5",
+            "justificacion": "**\nLa opción C es correcta según la sección 4.3.2, que clasifica CVS y SVN como modelo cliente-servidor (centralizado), mientras que Git, Mercurial y Bazaar se describen como sistemas distribuidos (o permiten modo distribuido).",
+            "referencia": "**\nSección: 4 Subsección: 4.3.2"
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "De acuerdo a la información que se proporciona acerca de la Gestión de la Configuración en el libro ITIL Service Transition, indique la respuesta correcta:",
+            "opciones": [
+                "A. El SKMS (Service Knowledge Management System) contiene un CMS (Configuration Management System), el cual puede contener una o más CMDBs (Configuration Management Database).",
+                "B. El CMS (Configuration Management System) contiene un SKMS (Service Knowledge Management System), el cual puede contener una o más CMDBs (Configuration Management Database).",
+                "C. El SKMS (Service Knowledge Management System) y el CMS (Configuration Management System) son equivalentes si el CMS contiene únicamente una CMDB (Configuration Management Database).",
+                "D. La CMDB contiene Configuration Items (CIs) que almacenan información sobre Configuration Records."
+            ],
+            "opcion_correcta": "A. El SKMS (Service Knowledge Management System) contiene un CMS (Configuration Management System), el cual puede contener una o más CMDBs (Configuration Management Database).",
+            "justificacion": "**\nLa opción A es correcta según la sección 3.2.1 y la Figura 4, donde se establece la jerarquía: SKMS incluye al CMS, y el CMS almacena los registros de configuración en las CMDBs.",
+            "referencia": "**\nSección: 3 Subsección: 3.2.1"
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "El CENATIC pone a disposición del público en su sitio web herramientas para la migración a fuentes abiertas, indique entre las siguientes cuáles se encuentran disponibles en la actualidad: (A) Migración de entornos de escritorio a software de fuentes abiertas, (B) Migración de servidores web a software de fuentes abiertas, (C) Migración de sistemas de gestión documental a gestores documentales libres, (D) Migración de aplicaciones a sistemas de gestión de bases de datos libres, (E) Migración de aplicaciones a servidores de aplicaciones libres.",
+            "opciones": [
+                "A. A, B, C",
+                "B. A, B",
+                "C. A, E",
+                "D. A, D"
+            ],
+            "opcion_correcta": "D. A, D",
+            "justificacion": "**\nLa opción D es correcta porque la sección 2.5 especifica que el Cenatic proporciona metodologías para dos escenarios: \"Migraciones de entornos de escritorio\" (A) y \"Migración de Aplicaciones a Sistemas de Gestión de Bases de Datos Libres\" (D).",
+            "referencia": "**\nSección: 2 Subsección: 2.5"
+        }
+    ]
+}

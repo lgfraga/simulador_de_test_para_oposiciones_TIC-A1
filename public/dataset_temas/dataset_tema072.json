@@ -1,0 +1,850 @@
+{
+    "nombre_tema": "Tema 72",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Qué significan las siglas ERP?",
+            "opciones": [
+                "A. Emergency Recovery Planning.",
+                "B. Elastic Research Pipiline.",
+                "C. Enterprise Resource Planning.",
+                "D. Emergency Recovery Period."
+            ],
+            "opcion_correcta": "C. Enterprise Resource Planning.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la introducción y en la sección de definición que las siglas ERP corresponden a \"Enterprise Resource Planning\" (Planificación de Recursos Empresariales). Las demás opciones no aparecen mencionadas en el texto como significados válidos para estas siglas.",
+            "referencia": "Sección: 01. Introducción. Primera oración del párrafo relevante: \"Los sistemas ERP (Enterprise Resource Planning, Planificación de Recursos Empresariales) y una de las extensiones de éste...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Herramienta CRM propietario:",
+            "opciones": [
+                "A. Nagios",
+                "B. Compiere",
+                "C. Sugar CRM",
+                "D. Salesforce"
+            ],
+            "opcion_correcta": "D. Salesforce",
+            "justificacion": "La opción D es correcta porque el documento, en la sección de fabricantes de soluciones CRM, presenta a Salesforce como un líder mundial y proveedor comercial (\"líder mundial de soluciones CRM\"), diferenciándolo conceptualmente de las soluciones de código abierto mencionadas en otros contextos (como vTiger). Aunque SugarCRM se menciona, Salesforce se destaca como una solución comercial robusta orientada a procesos de venta B2B, alineándose con la categoría de herramienta propietaria frente a alternativas open source.",
+            "referencia": "Sección: 03.06. Fabricantes de Soluciones CRM. Primera oración del párrafo relevante: \"Salesforce: A través de sus herramientas como Chatter, Ideas y Jagsaw, está orientado principalmente a los procesos de venta para compañías B2B.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Indique la frase correcta acerca de los sistemas CRM “Customer relationship management” y ERP “Enterprise resource planning”:",
+            "opciones": [
+                "A. La contabilidad financiera es un módulo característico de los sistemas CRM analíticos.",
+                "B. El uso de técnicas de data mining en los CRM operacionales permite analizar tendencias en el comportamiento de los clientes.",
+                "C. Los sistemas ERP son sistemas transaccionales que se implementan únicamente sobre arquitecturas cliente servidor.",
+                "D. Las parametrizaciones incorporadas en los ERP los hacen más flexibles pero impiden su actualización."
+            ],
+            "opcion_correcta": "B. El uso de técnicas de data mining en los CRM operacionales permite analizar tendencias en el comportamiento de los clientes.",
+            "justificacion": "La opción B es la correcta por descarte y alineación conceptual con el texto. El documento establece que los sistemas CRM (específicamente el componente analítico que interactúa con el operacional) utilizan herramientas como data mining para detectar patrones de comportamiento y hábitos de consumo. Las opciones A, C y D son incorrectas según el texto: la contabilidad es un módulo ERP (02.01), los ERP pueden ser SaaS/Cloud no solo cliente-servidor (02.10), y la parametrización facilita la adaptación sin impedir actualizaciones (02.01).",
+            "referencia": "Sección: 03.03. Tipos de CRM. Primera oración del párrafo relevante: \"CRM analítico Está orientado al conocimiento y a la toma de decisiones al centrarse en el almacenamiento, procesado y, sobre todo, explotación de la información mediante la generación de informes.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Una de las características principales de los paquetes de planificación de recursos de empresas (ERP) es:",
+            "opciones": [
+                "A. Los datos a tratar por esos paquetes no pueden ser almacenados en sistemas de bases de datos de carácter general.",
+                "B. Ser parametrizables, lo que les da gran flexibilidad y la posibilidad de ser aplicados a tipos de empresas muy diferentes.",
+                "C. No ser parametrizables, por ser diseñados especialmente para cada tipo de empresas.",
+                "D. No se puede seleccionar los módulos a implantar. Para su correcto funcionamiento deben implantarse todas las funcionalidades de todos los módulos que componen el paquete."
+            ],
+            "opcion_correcta": "B. Ser parametrizables, lo que les da gran flexibilidad y la posibilidad de ser aplicados a tipos de empresas muy diferentes.",
+            "justificacion": "La opción B es correcta porque el documento identifica la \"Adaptabilidad\" mediante la \"parametrización\" como una característica principal que permite que la misma solución sirva a clientes de sectores muy diversos (banca, administración, industria, etc.). Esto contradice las opciones C y D, ya que el texto destaca la modularidad y la capacidad de configuración para adaptarse a necesidades específicas.",
+            "referencia": "Sección: 02.01. Definición y características principales. Primera oración del párrafo relevante: \"Adaptabilidad: esta característica se materializa mediante lo que en consultoría funcional se conoce como 'parametrización'.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Herramienta ERP de código de abierto:",
+            "opciones": [
+                "A. Compiere",
+                "B. Peoplesoft",
+                "C. Baan",
+                "D. Navision Financials"
+            ],
+            "opcion_correcta": "A. Compiere",
+            "justificacion": "La opción A es correcta por alineación conceptual con la clasificación del documento. Aunque el texto menciona explícitamente Openbravo, xTuple y openXpertya como soluciones de código abierto (02.09), clasifica a PeopleSoft, Baan y Navision como proveedores comerciales o históricos adquiridos por grandes corporaciones (Oracle, Microsoft). Compiere se alinea funcionalmente con la categoría de \"Soluciones de código abierto\" descrita en el documento frente a las opciones B, C y D que son claramente propietarias según la historia y fabricantes citados.",
+            "referencia": "Sección: 02.09. Soluciones ERP. Primera oración del párrafo relevante: \"También existen soluciones de código abierto, especialmente para pymes, entre las cabe mencionar:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Señale la respuesta CORRECTA cuando hablamos de soluciones ERP (Enterprise Resource Planning):",
+            "opciones": [
+                "A. Emplean el paradigma del “todo o nada” respecto a la modularidad.",
+                "B. Es necesario duplicar la información para poderla integrar en el ERP.",
+                "C. La misma solución ERP, incluso con los mismos módulos, puede servir a clientes de distintos sectores.",
+                "D. Los ERP no incluyen entornos de programación para la modificación de pantallas, informes o lógica de negocio."
+            ],
+            "opcion_correcta": "C. La misma solución ERP, incluso con los mismos módulos, puede servir a clientes de distintos sectores.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección sobre características principales que la adaptabilidad se materializa mediante la parametrización, permitiendo que \"La misma solución ERP, incluso con la misma selección modular, puede servir a clientes de sectores muy diversos: banca, Administraciones Públicas, defensa, educación, automoción, industria alimentaria etc.\". Esto descarta el paradigma de \"todo o nada\" y confirma la versatilidad sectorial.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.01 Definición y características principales. Primera oración del párrafo relevante: \"Adaptabilidad: esta característica se materializa mediante lo que en consultoría funcional se conoce como “parametrización”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿Cuál de los siguientes nombres no está relacionado con una solución ERP?",
+            "opciones": [
+                "A. Oracle Financials",
+                "B. SAP",
+                "C. IBM Websphere",
+                "D. META4"
+            ],
+            "opcion_correcta": "C. IBM Websphere",
+            "justificacion": "La opción C es correcta porque, según el apartado dedicado a las soluciones ERP comerciales y de código abierto, el documento enumera explícitamente a Oracle, Microsoft y SAP como los gigantes tecnológicos, junto con otras soluciones como Openbravo o xTuple. No se menciona \"IBM Websphere\" en la lista de soluciones ERP descritas en el texto, por lo que dentro del contexto de este documento es la opción no relacionada con una solución ERP específica citada.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.09 Soluciones ERP. Primera oración del párrafo relevante: \"En primer lugar, realizamos un breve estudio de las principales soluciones comerciales en el nicho ERP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Un sistema ERP (Enterprise Resource Planning) básicamente actúa sobre:",
+            "opciones": [
+                "A. La capa de datos (SGBD).",
+                "B. La capa de lógica de negocio.",
+                "C. La capa de presentación.",
+                "D. La capa de comunicación."
+            ],
+            "opcion_correcta": "B. La capa de lógica de negocio.",
+            "justificacion": "La opción B es correcta porque, al describir un caso de éxito en la Administración Pública (Junta de Castilla y León), el documento especifica que el ERP se implanta sobre servidores de aplicación que \"se encargan de desplegar la capa de presentación y de lógica de negocio al usuario final a través de un navegador web\". Dado que el ERP integra actividades empresariales nucleares y procesos, su función central reside en la gestión de la lógica de negocio.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.08 Casos de éxito en las Administraciones Públicas. Primera oración del párrafo relevante: \"El ERP de gestión de recursos humanos utiliza tecnología .Net de Microsoft sobre una base de datos Oracle.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Qué es una aplicación CRM en un sitio de e-commerce interactivo?",
+            "opciones": [
+                "A. Es la aplicación usada para administrar la relación con los clientes, describir perfiles de compras y diseñar campañas de marketing directo on-line.",
+                "B. Es el Cargo Resource Management, o aplicación utilizada para gestionar los recursos de carga en las ventas.",
+                "C. Es el programa que se ejecuta al recibir una petición de una página web dinámica.",
+                "D. Es el Catalog Resource Management, o aplicación que genera un catálogo on-line de los productos disponibles para la venta."
+            ],
+            "opcion_correcta": "A. Es la aplicación usada para administrar la relación con los clientes, describir perfiles de compras y diseñar campañas de marketing directo on-line.",
+            "justificacion": "La opción A es correcta porque el documento define el CRM como una estrategia que integra áreas relacionadas con clientes (marketing, ventas, servicios) y destaca beneficios como la capacidad de \"anticiparse a las necesidades de los clientes de tal forma que las campañas de marketing son más eficaces al dirigirse al público objetivo\" y la creación de experiencias personalizadas basadas en información del cliente.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01 Definición y origen de CRM. Primera oración del párrafo relevante: \"A continuación, se incluyen diferentes definiciones de CRM:\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "CRM son las siglas de:",
+            "opciones": [
+                "A. Cost Recalculating Method: método de cálculo de optimización de costes",
+                "B. Call Routing for Mobile phones: sistema de enrutamiento de llamadas en telefonía móvil",
+                "C. Customer Relationship Management: gestión de relación con los clientes",
+                "D. Customer Relationship Method: método para relación con los clientes"
+            ],
+            "opcion_correcta": "C. Customer Relationship Management: gestión de relación con los clientes",
+            "justificacion": "La opción C es correcta porque el documento introduce el concepto en la introducción y en la sección específica definiéndolo explícitamente como \"los CRM (Customer Relationship Management, Gestión de las Relaciones con los Clientes)\", estableciendo la equivalencia exacta entre las siglas en inglés y su traducción al español.",
+            "referencia": "Sección: 01. Introducción. Primera oración del párrafo relevante: \"Los sistemas ERP (Enterprise Resource Planning, Planificación de Recursos Empresariales) y una de las extensiones de éste, los CRM (Customer Relationship Management, Gestión de las Relaciones con los Clientes), están íntimamente ligados a la evolución del vínculo entre tecnologías de la información y empresas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Cuál de las siguientes NO es una solución comercial de ERP?",
+            "opciones": [
+                "A. Microsoft Dynamics",
+                "B. HP LoadRunner",
+                "C. Oracle E-Business Suite",
+                "D. SAP"
+            ],
+            "opcion_correcta": "B. HP LoadRunner",
+            "justificacion": "La opción B es correcta porque el documento, en la sección dedicada a las soluciones ERP, enumera explícitamente a Oracle, Microsoft y SAP como los tres gigantes tecnológicos y principales proveedores de este tipo de software (Oracle E-Business Suite, Microsoft Dynamics, SAP). HP LoadRunner no aparece en dicha lista ni se describe como una solución de planificación de recursos empresariales, sino que por exclusión basada en el texto proporcionado, no se considera una solución comercial de ERP dentro del contexto analizado.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.09. SOLUCIONES ERP. Primera oración del párrafo relevante: \"En primer lugar, realizamos un breve estudio de las principales soluciones comerciales en el nicho ERP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Cuál de los siguientes NO se considera un módulo estándar en las soluciones ERP?",
+            "opciones": [
+                "A. Módulo de contabilidad y finanzas.",
+                "B. Módulo de producción / fabricación.",
+                "C. Módulo de marketing/publicidad.",
+                "D. Módulo de recursos humanos."
+            ],
+            "opcion_correcta": "C. Módulo de marketing/publicidad.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de Modularidad que existen módulos \"imprescindibles en cualquier solución ERP\" como Financiero, Aprovisionamiento, Ventas, Producción y Recursos Humanos. Por el contrario, indica que \"También existen módulos de carácter adicional como los correspondientes a Marketing\", lo que implica que no se consideran estándar o imprescindibles en la misma categoría que los nucleares.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.04. MODULARIDAD. Primera oración del párrafo relevante: \"Los anteriores se podrían definir como módulos imprescindibles en cualquier solución ERP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cuál de las siguientes funciones NO está contemplada en un software CRM?",
+            "opciones": [
+                "A. Visión integral del cliente para mejorar la atención y comunicación directa.",
+                "B. Diseño de campañas dirigidas a distintos segmentos de clientes.",
+                "C. Comunicación multicanal.",
+                "D. Gestión de la facturación al cliente."
+            ],
+            "opcion_correcta": "D. Gestión de la facturación al cliente.",
+            "justificacion": "La opción D es correcta porque el documento define el CRM como una estrategia para integrar áreas que se relacionan con clientes (marketing, ventas, servicios), mientras que en la descripción del CRM Operacional especifica que los procesos de \"back office\", como la facturación, \"por lo general, se automatizan mediante el uso de un sistema ERP\". Por tanto, la gestión de facturación se atribuye funcionalmente al ERP según la distinción realizada en el texto.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.03. TIPOS DE CRM. Primera oración del párrafo relevante (apartado CRM Operacional): \"Es aquél que permite realizar las tareas cotidianas de la organización, materializándose la integración de la gestión de las distintas áreas implicadas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cuál es el lenguaje nativo de programación en el que se encuentra desarrollado el sistema R/3 de SAP?",
+            "opciones": [
+                "A. PYTHON",
+                "B. COBOL",
+                "C. ABAP",
+                "D. PASCAL"
+            ],
+            "opcion_correcta": "C. ABAP",
+            "justificacion": "La opción C es correcta porque, aunque el documento no menciona explícitamente el nombre \"ABAP\", identifica a SAP como una de las tres grandes soluciones ERP comerciales con características propias y entornos de adaptación específicos (Sección 02.09). El texto establece en la sección de Adaptabilidad que los ERP incluyen \"un entorno de programación para la modificación de pantallas, informes o incluso la lógica de negocio\" (citando Oracle Developer como ejemplo), lo que sustenta conceptualmente que SAP posee un lenguaje nativo propio para su desarrollo y personalización, diferenciándose de lenguajes genéricos.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.01 DEFINICIÓN Y CARACTERÍSTICAS PRINCIPALES. Primera oración del párrafo relevante (apartado Adaptabilidad): \"Adaptabilidad: esta característica se materializa mediante lo que en consultoría funcional se conoce como “parametrización”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Los sistemas orientados a los clientes se denominan:",
+            "opciones": [
+                "A. ERP",
+                "B. CRM",
+                "C. MIS",
+                "D. DPR"
+            ],
+            "opcion_correcta": "B. CRM",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la introducción y en la sección específica de CRM que estos sistemas corresponden a \"Customer Relationship Management, Gestión de las Relaciones con los Clientes\". Se contrasta con los ERP, que se centran en la planificación de recursos empresariales internos, mientras que el CRM se enfoca en la relación con terceros y clientes.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01. DEFINICIÓN Y ORIGEN DE CRM. Primera oración del párrafo relevante: \"“Constituye una estrategia de negocio que permite la integración consistente de todas las áreas de negocio que se relacionan con clientes...\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Características principales de un ERP:",
+            "opciones": [
+                "A. Integridad",
+                "B. Modularidad",
+                "C. Todas son correctas",
+                "D. Adaptabilidad"
+            ],
+            "opcion_correcta": "C. Todas son correctas",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección 02.01 que las tres características principales que distinguen a un ERP son la Modularidad, la Integridad y la Adaptabilidad. Por lo tanto, al ser todas ellas características definitorias según el texto, la opción que engloba todas es la válida.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.01 Definición y características principales. Primera oración del párrafo relevante: \"De las definiciones anteriormente expuestas, se puede concluir que las tres características principales que distinguen a un ERP son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "Indique la respuesta falsa en relación con los sistemas CRM (Customer Relationship Management) y ERP (Enterprise Relationship Planning):",
+            "opciones": [
+                "A. Un CRM está orientado a mejorar los servicios que se ofrecen a los clientes de una empresa.",
+                "B. Un CRM está enfocado principalmente para las tareas de back office, relacionadas con campañas de marketing, el proceso de ventas, la atención al cliente, etc.",
+                "C. Un ERP se divide en módulos orientados a la gestión de los procesos de negocio de las organizaciones.",
+                "D. Un ERP está enfocado principalmente para las tareas de back office, relacionadas con el proceso de contabilidad, finanzas, nóminas, etc."
+            ],
+            "opcion_correcta": "B. Un CRM está enfocado principalmente para las tareas de back office, relacionadas con campañas de marketing, el proceso de ventas, la atención al cliente, etc.",
+            "justificacion": "La opción B es la respuesta falsa (y por tanto correcta en este contexto) porque el documento define al CRM como una estrategia orientada a integrar áreas que se relacionan con clientes (marketing, ventas, servicios), mientras que las tareas de back office internas (contabilidad, finanzas, nóminas) son propias del ERP según la sección 02.01 y 03.03. El texto indica que el CRM operacional integra ventas y marketing con herramientas de \"back office\" (ERP), no que el CRM sea principalmente back office.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01. Definición y origen de CRM. Primera oración del párrafo relevante: \"Constituye una estrategia de negocio que permite la integración consistente de todas las áreas de negocio que se relacionan con clientes: marketing, ventas, servicios al cliente...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Señale cuál de las siguientes respuestas NO se corresponde con una solución software de CRM (Customer Relationship Management):",
+            "opciones": [
+                "A. Siebel CRM.",
+                "B. SAGE CRM.",
+                "C. Zoho CRM.",
+                "D. DCOM CRM."
+            ],
+            "opcion_correcta": "D. DCOM CRM.",
+            "justificacion": "La opción D es la correcta para seleccionar como \"NO se corresponde\" porque el documento, en la sección dedicada a fabricantes de soluciones CRM, menciona explícitamente productos como Oracle Siebel CRM y Zoho CRM como soluciones existentes. No hace referencia a \"DCOM CRM\" en su listado de fabricantes o soluciones comerciales, validando las opciones A y C según el texto proporcionado.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.06. Fabricantes de Soluciones CRM. Primera oración del párrafo relevante: \"La solución más completa es Oracle Siebel CRM, que ofrece una combinación de funciones de transacción, análisis y captación para gestionar todas las operaciones con los clientes.\" (Referencia a Zoho CRM en el mismo apartado)."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "NO es un componente típico de un CRM:",
+            "opciones": [
+                "A. Acceso directo del cliente.",
+                "B. Centro de atención telefónica.",
+                "C. Gestión de RRHH.",
+                "D. Call Center."
+            ],
+            "opcion_correcta": "C. Gestión de RRHH.",
+            "justificacion": "La opción C es correcta porque el documento asigna la gestión de Recursos Humanos como un módulo típico dentro de la estructura modular de los sistemas ERP (sección 02.04), mientras que define al CRM como un sistema enfocado en la relación con clientes, marketing y ventas (sección 03.01). Por tanto, RRHH no es un componente típico de CRM según la distinción funcional presentada.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.04. Modularidad. Primera oración del párrafo relevante: \"5. Recursos humanos. a. Recursos humanos.\" (Dentro de la lista de módulos imprescindibles en cualquier solución ERP)."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es VERDADERA en relación con un sistema CRM y un sistema ERP?:",
+            "opciones": [
+                "A. Un sistema CRM solo se utiliza en empresas de tecnología, mientras que un sistema ERP es utilizado en empresas de cualquier industria.",
+                "B. Un sistema CRM se utiliza para administrar la cadena de suministro, mientras que un sistema ERP se utiliza para gestionar interacciones con los clientes.",
+                "C. Ambos sistemas son intercambiables y se utilizan para administrar recursos humanos.",
+                "D. Un sistema CRM se enfoca en la gestión de relaciones con los clientes, mientras que un sistema ERP se enfoca en la gestión de procesos internos y recursos de la organización."
+            ],
+            "opcion_correcta": "D. Un sistema CRM se enfoca en la gestión de relaciones con los clientes, mientras que un sistema ERP se enfoca en la gestión de procesos internos y recursos de la organización.",
+            "justificacion": "La opción D es correcta porque el documento define al ERP como una solución que integra actividades empresariales nucleares internas (finanzas, recursos humanos, manufactura) para la planificación de recursos, mientras que define al CRM como una estrategia para gestionar las relaciones con los clientes (marketing, ventas, servicio). Esta distinción funcional coincide exactamente con la afirmación de la opción D.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.01 Definición y características principales. Primera oración del párrafo relevante: \"Un ERP (por sus siglas en inglés, Enterprise Resource Planning) es una extensa solución comercial de software empaquetado compuesto de varios módulos configurables que integran, firmemente y en un solo sistema las actividades empresariales nucleares...\". (Complementado con definición de CRM en 03.01)."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "En el contexto de ERP, se denomina reingeniería de procesos a:",
+            "opciones": [
+                "A. La modificación de alguno de los procesos de una empresa para ajustarlos al sistema ERP.",
+                "B. La modificación de algún módulo del ERP para ajustarlo a los procesos de la empresa.",
+                "C. La obtención de modelos a partir de los procesos del sistema para poder gestionarlos con el ERP.",
+                "D. La adaptación del ERP a las características de los procesos de la empresa."
+            ],
+            "opcion_correcta": "A. La modificación de alguno de los procesos de una empresa para ajustarlos al sistema ERP.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre ERP estándar que, al tratarse de un producto ya elaborado, \"es la organización cliente quien debe adecuarse al ERP y no al contrario\". Esto implica que los procesos de negocio deben modificarse para ajustarse a las mejores prácticas del sistema, lo cual se alinea conceptualmente con la reingeniería de procesos descrita en la opción seleccionada.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.05. ERP ESTÁNDAR O ERP A MEDIDA. Primera oración del párrafo relevante: \"Una desventaja es que a pesar de la amplia variedad de soluciones ERP en el mercado, al tratarse de un producto ya elaborado, es la organización cliente quien debe adecuarse al ERP y no al contrario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Cuál es la diferencia entre ERP y CRM?",
+            "opciones": [
+                "A. Mientras ERP sirve para planificar los recursos empresariales, CRM se utiliza para gestionar la relación con los clientes.",
+                "B. Mientras CRM sirve para gestionar claves, ERP se utiliza para gestionar proveedores.",
+                "C. Mientras CRM sirve para gestionar clientes, ERP se utiliza para gestionar proveedores.",
+                "D. No hay diferencias."
+            ],
+            "opcion_correcta": "A. Mientras ERP sirve para planificar los recursos empresariales, CRM se utiliza para gestionar la relación con los clientes.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la introducción que los sistemas ERP corresponden a \"Planificación de Recursos Empresariales\" y los CRM a \"Gestión de las Relaciones con los Clientes\". Esta distinción fundamental entre la planificación interna de recursos y la gestión externa de relaciones se mantiene a lo largo del texto.",
+            "referencia": "Sección: 01. Introducción. Primera oración del párrafo relevante: \"Los sistemas ERP (Enterprise Resource Planning, Planificación de Recursos Empresariales) y una de las extensiones de éste, los CRM (Customer Relationship Management, Gestión de las Relaciones con los Clientes), están íntimamente ligados a la evolución del vínculo entre tecnologías de la información y empresas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Un sistema CRM es el encargado de gestionar:",
+            "opciones": [
+                "A. Las relaciones con los clientes.",
+                "B. La planificación de recursos interna.",
+                "C. La cartera de proyectos.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Las relaciones con los clientes.",
+            "justificacion": "La opción A es correcta porque el documento define el acrónimo CRM como \"Customer Relationship Management\", que se traduce en el texto como \"Gestión de las Relaciones con los Clientes\". Esta definición se reitera en la sección dedicada a los sistemas CRM, confirmando su función principal.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01. DEFINICIÓN Y ORIGEN DE CRM. Primera oración del párrafo relevante: \"A continuación, se incluyen diferentes definiciones de CRM:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Si se dispone correctamente de una solución CRM, ¿qué ventajas puede reportar? Señale la falsa:",
+            "opciones": [
+                "A. Reducción de los costes del centro de contacto.",
+                "B. Aumento de la satisfacción de los clientes y de los porcentajes de conversión de las ventas.",
+                "C. Mejora de los resultados de ventas en todos los canales (directos, indirectos y a través de socios).",
+                "D. Aumento de los costes de las operaciones del servicio “in situ”."
+            ],
+            "opcion_correcta": "D. Aumento de los costes de las operaciones del servicio “in situ”.",
+            "justificacion": "La opción D es la correcta (como falsa ventaja) porque el documento enumera beneficios como la mejora del servicio, el incremento de ingresos y la eficiencia operativa, lo que implica una reducción o optimización de costes. Aumentar los costes contradice los objetivos de eficiencia y rentabilidad mencionados en las ventajas de los sistemas de gestión empresarial y CRM descritos en el texto.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.02. BENEFICIOS DERIVADOS DEL USO DE CRM. Primera oración del párrafo relevante: \"La implantación de un sistema CRM puede suponer una inversión importante y llevar aparejado un consumo de recursos y tiempo nada despreciable, sin embargo, existen beneficios considerables que inclinarán la balanza del lado de CRM.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor una característica central de un ERP (Enterprise Resource Planning)?:",
+            "opciones": [
+                "A. La modularidad en un ERP se refiere exclusivamente a la personalización de la interfaz de usuario.",
+                "B. Un ERP principalmente facilita el intercambio de datos con sistemas competidores.",
+                "C. La principal función de un ERP es realizar copias de seguridad periódicas de los datos.",
+                "D. La modularidad en un ERP se refiere a la capacidad de integrar y desintegrar módulos específicos según las necesidades de la organización."
+            ],
+            "opcion_correcta": "D. La modularidad en un ERP se refiere a la capacidad de integrar y desintegrar módulos específicos según las necesidades de la organización.",
+            "justificacion": "La opción D es correcta porque el documento identifica la modularidad como una característica estrella de los ERP, explicando que \"permite la adecuación a los requerimientos del cliente\" mediante la implantación de módulos concretos según las funcionalidades precisas. Esto coincide con la capacidad de integrar o seleccionar módulos específicos según las necesidades organizativas.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.01. DEFINICIÓN Y CARACTERÍSTICAS PRINCIPALES. Primera oración del párrafo relevante: \"Modularidad: sin duda alguna, la modularidad es una de las características estrella de los ERP, pues permite la adecuación a los requerimientos del cliente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "En relación con los ERP, ¿cuál de las siguientes afirmaciones es correcta respecto a SAP R/3?",
+            "opciones": [
+                "A. El módulo donde se gestionan las compras se denomina CO",
+                "B. El módulo PM se encarga de gestionar la gestión de proyectos",
+                "C. El módulo SD es parte del módulo de contabilidad financiera",
+                "D. El módulo \"Basis\" se encarga de gestionar la base de datos"
+            ],
+            "opcion_correcta": "D. El módulo \"Basis\" se encarga de gestionar la base de datos",
+            "justificacion": "La opción D es correcta porque, aunque el documento no detalla los códigos específicos de módulos SAP como \"Basis\", en la sección referente a la implantación y plataforma tecnológica (02.07), se establece que todos los sistemas ERP necesitan una base de datos y herramientas de administración para su despliegue. El concepto de un módulo o capa encargada de gestionar esta infraestructura técnica (base de datos, sistema operativo) es coherente con la descripción de la arquitectura tecnológica necesaria para el funcionamiento del ERP descrita en el texto, diferenciándose de los módulos funcionales de negocio.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.07. La implantación de un ERP. Primera oración del párrafo relevante: \"En lo que se refiere a la evaluación de la plataforma tecnológica, independientemente del sistema de gestión empresarial seleccionado, todos ellos necesitan una base de datos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Qué es la arquitectura multicanal en un sistema de atención al cliente?",
+            "opciones": [
+                "A. Un sistema que integra diferentes servidores en una misma red.",
+                "B. La capacidad de atender a los clientes a través de múltiples canales de comunicación, como teléfono, correo electrónico, chat, redes sociales, entre otros.",
+                "C. Un protocolo para establecer comunicación segura entre el cliente y el servidor.",
+                "D. Un tipo de base de datos utilizada en centros de contacto."
+            ],
+            "opcion_correcta": "B. La capacidad de atender a los clientes a través de múltiples canales de comunicación, como teléfono, correo electrónico, chat, redes sociales, entre otros.",
+            "justificacion": "La opción B es correcta porque el documento, al describir casos de éxito en la Administración Pública (Ministerio de Cultura), menciona explícitamente la unificación de canales de comunicación como teléfono, atención presencial, formulario web y correo electrónico bajo una solución CRM que ofrece \"servicios multicanal\". Esto define la arquitectura multicanal como la capacidad de gestionar interacciones a través de diversos medios.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.05. Casos de éxito en las Administraciones Públicas. Primera oración del párrafo relevante: \"Como principales características de la solución cabe citar su orientación al usuario, proporcionando un trato individualizado y eficiente y la posibilidad de ofrecer servicios multicanal...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Cuál de los siguientes no es un ERP?",
+            "opciones": [
+                "A. SAP",
+                "B. ADempiere",
+                "C. Openbravo",
+                "D. Twister"
+            ],
+            "opcion_correcta": "D. Twister",
+            "justificacion": "La opción D es correcta porque el documento, en la sección dedicada a las soluciones ERP comerciales y de código abierto, enumera explícitamente fabricantes y productos como SAP, Oracle, Microsoft Dynamics, Openbravo, xTuple, entre otros. Twister no aparece en la lista de soluciones ERP descritas en el texto, mientras que los demás son reconocidos o mencionados como parte del ecosistema de planificación de recursos empresariales.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.09. Soluciones ERP. Primera oración del párrafo relevante: \"En primer lugar, realizamos un breve estudio de las principales soluciones comerciales en el nicho ERP.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Respecto a AJAX. ¿Cuál de las siguientes afirmaciones NO es cierta?",
+            "opciones": [
+                "A. En lo referente a \"cross-scripting\" (ejecución de código de diferente dominio), está sujeto a la política \"same origin\" implementada en la sandbox del navegador.",
+                "B. Realizar una petición vía XMLHttpRequest (XHR) no modifica el historial del navegador.",
+                "C. No ha sido estandarizado por una Recomendación del World Wide Web Consortium (W3C).",
+                "D. Su uso obliga a refrescar una parte de la página del navegador."
+            ],
+            "opcion_correcta": "D. Su uso obliga a refrescar una parte de la página del navegador.",
+            "justificacion": "La opción D es correcta (como afirmación falsa) porque el documento describe la evolución hacia soluciones web y SaaS donde el acceso se realiza \"a través de un navegador web\" sin mencionar la necesidad de recargas completas como requisito funcional. La naturaleza de los sistemas modernos descritos (SaaS, Cloud, despliegue en navegador) implica una interacción dinámica que no obliga al refresco total de la página para actualizar información, alineándose con el concepto de que AJAX permite actualizaciones parciales sin recargar la página completa.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.10. ERP SaaS. Primera oración del párrafo relevante: \"ERP SaaS (Software as a Service) hace referencia a una alternativa en la que el software ERP se aloja en la empresa comercializadora del producto o en los sistemas de un tercero...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿En qué consiste el CRA (Customer Relationship Analisis?",
+            "opciones": [
+                "A. Es un conjunto de herramientas que proveen de soporte técnico al CRM.",
+                "B. Es el precursor del CRM.",
+                "C. Es el análisis de datos acerca de los clientes y su relación con la empresa.",
+                "D. Integración del software de análisis de datos con las bases de datos y el inventario de las organizaciones."
+            ],
+            "opcion_correcta": "C. Es el análisis de datos acerca de los clientes y su relación con la empresa.",
+            "justificacion": "La opción C es correcta porque el documento define el \"CRM analítico\" como aquel orientado al conocimiento y la toma de decisiones, centrándose en el almacenamiento, procesado y explotación de la información mediante la generación de informes. Esto equivale funcionalmente al análisis de datos sobre los clientes y su relación con la empresa, descrito en la sección de tipos de CRM.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.03. Tipos de CRM. Primera oración del párrafo relevante: \"- CRM analítico Está orientado al conocimiento y a la toma de decisiones al centrarse en el almacenamiento, procesado y, sobre todo, explotación de la información mediante la generación de informes.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "CRM orientado al conocimiento y a la toma de decisiones al centrarse en el almacenamiento, procesado y, sobre todo, explotación de la información mediante la generación de informes:",
+            "opciones": [
+                "A. CRM Analítico",
+                "B. CRM Operacional",
+                "C. CRM Colaborativo",
+                "D. Todas son correctas"
+            ],
+            "opcion_correcta": "A. CRM Analítico",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente el CRM analítico como aquel que \"Está orientado al conocimiento y a la toma de decisiones al centrarse en el almacenamiento, procesado y, sobre todo, explotación de la información mediante la generación de informes\". Esta definición coincide textualmente con la descripción presentada en la pregunta, diferenciándolo del CRM operacional (tareas cotidianas) y colaborativo (canales de relación).",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.03. TIPOS DE CRM, Primera oración del párrafo relevante: \"Está orientado al conocimiento y a la toma de decisiones al centrarse en el almacenamiento, procesado y, sobre todo, explotación de la información mediante la generación de informes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Los sistemas ERP y CRM son:",
+            "opciones": [
+                "A. Dependientes",
+                "B. Independientes",
+                "C. Complementarios",
+                "D. Lo mismo"
+            ],
+            "opcion_correcta": "C. Complementarios",
+            "justificacion": "La opción C es correcta porque el documento establece en la introducción que se realizará \"una aproximación al concepto de CRM como complemento ideal de ERP\". Además, se menciona que una organización no puede crecer a espaldas de sus clientes y proveedores, vinculando la planificación (ERP) con las relaciones con terceros (CRM), lo que confirma su naturaleza complementaria para la gestión integral.",
+            "referencia": "Sección: 01. Introducción. Subsección: Sin subsección específica (Párrafo final de la introducción), Primera oración del párrafo relevante: \"Por último, realizaremos una aproximación al concepto de CRM como complemento ideal de ERP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "XQL es:",
+            "opciones": [
+                "A. Extended Query Language",
+                "B. XML Query Language",
+                "C. No se corresponde con ningun acrónimo usado en informática o telecomunicaciones",
+                "D. Ninguna de las respuestas anteriores es correcta"
+            ],
+            "opcion_correcta": "B. XML Query Language",
+            "justificacion": "La opción B es correcta basándose en el conocimiento técnico estándar sobre lenguajes de consulta, aunque el término específico \"XQL\" no aparece explícitamente en el documento. Conceptualmente, se alinea con la sección del documento que describe herramientas para la \"explotación de la información\" y generación de informes (CRM Analítico), donde se utilizan lenguajes de consulta para procesar datos estructurados, similar a cómo se maneja la inteligencia de negocio mencionada en las soluciones ERP.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.03. TIPOS DE CRM, Primera oración del párrafo relevante: \"Está orientado al conocimiento y a la toma de decisiones al centrarse en el almacenamiento, procesado y, sobre todo, explotación de la información mediante la generación de informes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Un sistema que puede emplearse para registrar la relación del ciudadano con la administración, anotando todas las relaciones establecidas por él, para configurar su personalidad administrativa digital es:",
+            "opciones": [
+                "A. Gestión de la Relación con el Cliente (CRM)",
+                "B. Arquitectura Orientada a Servicios (SOA)",
+                "C. Planificación de Recursos Empresariales (ERP)",
+                "D. Gestión de Procesos de Negocio (BPM)"
+            ],
+            "opcion_correcta": "A. Gestión de la Relación con el Cliente (CRM)",
+            "justificacion": "La opción A es correcta porque el documento indica que en las Administraciones Públicas, la relación con los ciudadanos requiere atención y se pueden obtener mejoras mediante CRM para \"mejorar el servicio al ciudadano\". Además, en los casos de éxito (Ministerio de Cultura), se describe un sistema que unifica canales de comunicación con los ciudadanos y registra todas las comunicaciones para hacer seguimiento real, lo cual configura su perfil o personalidad administrativa digital.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.05. CASOS DE ÉXITO EN LAS ADMINISTRACIONES PÚBLICAS, Primera oración del párrafo relevante: \"El antiguo Ministerio de Cultura, actual Ministerio de Educación, Cultura y Deporte creó un Centro de Información al Ciudadano (CIC) para lograr una administración más moderna y eficaz...\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Un sistema CRM",
+            "opciones": [
+                "A. Ha de disponer de un canal de atención web",
+                "B. Integra todas las comunicaciones de un cliente",
+                "C. Ha de estar integrado con los datos del negocio",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Ha de estar integrado con los datos del negocio",
+            "justificacion": "La opción C es correcta porque el documento define el CRM como una estrategia que \"permite la integración consistente de todas las áreas de negocio que se relacionan con clientes\". Además, se destaca que el CRM proporciona un repositorio de información unificado y actualizado, lo que implica necesariamente su integración con los datos del negocio para ofrecer un servicio personalizado y eficaz.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01. DEFINICIÓN Y ORIGEN DE CRM, Primera oración del párrafo relevante: \"Constituye una estrategia de negocio que permite la integración consistente de todas las áreas de negocio que se relacionan con clientes: marketing, ventas, servicios al cliente, mediante una gestión integrada de personas, procesos y tecnologías\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Un sistema que puede emplearse para registrar las interacciones de un usuario con una organización, de forma que se puedan diseñar servicios y respuestas adaptados a su perfil es el:",
+            "opciones": [
+                "A. CRM",
+                "B. CTI",
+                "C. SOA",
+                "D. -"
+            ],
+            "opcion_correcta": "A. CRM",
+            "justificacion": "La opción A es correcta porque el documento define al CRM como una estrategia que permite la integración de áreas relacionadas con clientes (marketing, ventas, servicios) mediante una gestión integrada para crear experiencias únicas y personalizadas. El texto indica explícitamente en la sección 03.01 que el objetivo es \"identificar, comprender y satisfacer sus necesidades\" y en la 03.02 menciona que ofrece un mejor servicio al cliente proporcionando un repositorio de información exhaustivo para ofrecer un nivel de servicio personalizado.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01. Definición y origen de CRM, Primera oración del párrafo relevante: \"Constituye una estrategia de negocio que permite la integración consistente de todas las áreas de negocio que se relacionan con clientes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál de los siguientes se corresponde con un módulo dentro de un ERP (Enterprise Resource Planning)?",
+            "opciones": [
+                "A. Recursos Humanos",
+                "B. Planificación Estratégica",
+                "C. Seguridad de Información",
+                "D. HelpDesk"
+            ],
+            "opcion_correcta": "A. Recursos Humanos",
+            "justificacion": "La opción A es correcta porque el documento detalla en la sección 02.04 la estructura modular de un ERP, listando explícitamente \"Recursos humanos\" como una de las familias de módulos imprescindibles junto con Financiero, Aprovisionamiento, Ventas y Producción. Además, en la definición de ERP (02.01) se menciona que integran actividades nucleares como \"recursos humanos\".",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.04. Modularidad, Primera oración del párrafo relevante: \"Si hay algo que identifica a un ERP es la modularidad.\". (Nota: La lista de módulos se encuentra en el punto 5 de esta sección)."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "En el ámbito de SAP ERP, un Centro de Coste o CeCo:",
+            "opciones": [
+                "A. Es la unidad organizativa, dentro de una sociedad CO, que representa un emplazamiento claramente delimitado donde se producen costes.",
+                "B. Corresponde a una posición en el plan de cuentas relevante para el coste.",
+                "C. Es el nivel jerárquico más alto en el Sistema SAP.",
+                "D. Es una lista de todas las cuentas de mayor utilizadas por una o varias sociedades."
+            ],
+            "opcion_correcta": "A. Es la unidad organizativa, dentro de una sociedad CO, que representa un emplazamiento claramente delimitado donde se producen costes.",
+            "justificacion": "La opción A es correcta porque, aunque el término específico \"Centro de Coste\" no se define textualmente, el documento describe en la sección 02.04 que los ERP incluyen módulos de \"Gestión de costes\" y en la 02.01 menciona que manejan entidades como \"Organización, Almacén, Planta\". La opción A alude a una unidad organizativa donde se producen costes, lo cual es funcionalmente equivalente a la capacidad del ERP descrita para gestionar recursos y costes de forma eficiente y eficaz dentro de sus módulos financieros y de producción.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.04. Modularidad, Primera oración del párrafo relevante: \"Si hay algo que identifica a un ERP es la modularidad.\". (Nota: Se refiere al punto 4.e Gestión de costes y 02.01 entidades como Organización, Planta)."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Cuál de estos sistemas NO se puede considerar incluido dentro de un paquete de CRM (Customer Relationship Management) según su alcance más común:",
+            "opciones": [
+                "A. Gestión histórica de la gestión de clientes.",
+                "B. Gestión de recursos humanos.",
+                "C. Planificación de ventas on-line.",
+                "D. Análisis de marketing."
+            ],
+            "opcion_correcta": "B. Gestión de recursos humanos.",
+            "justificacion": "La opción B es correcta porque el documento distingue claramente entre ERP y CRM. En la sección 02.01 se define al ERP como el sistema que integra actividades nucleares incluyendo \"recursos humanos\", mientras que en la sección 03.01 se define al CRM como una estrategia que integra áreas relacionadas con clientes: \"marketing, ventas, servicios al cliente\". Por tanto, la gestión de recursos humanos corresponde al ámbito del ERP según la clasificación del texto.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.01. Definición y características principales, Primera oración del párrafo relevante: \"Una de las definiciones más esclarecedoras de lo que es un sistema de Planificación de Recursos Empresariales es la siguiente:\". (Nota: Se contrasta con 03.01 donde se definen los ámbitos del CRM)."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Los pilares de CRM son:",
+            "opciones": [
+                "A. Estrategia, personas, servicios, tecnologias",
+                "B. Estrategia, personas, gestion, tecnologias",
+                "C. Estrategia, clientes, servicios, tecnologias",
+                "D. Estrategias, personas, procesos, tecnologias"
+            ],
+            "opcion_correcta": "D. Estrategias, personas, procesos, tecnologias",
+            "justificacion": "La opción D es correcta porque el documento cita en la sección 03.01 una definición de CRM que establece que \"Constituye una estrategia de negocio que permite la integración consistente... mediante una gestión integrada de personas, procesos y tecnologías\". Esta frase resume los cuatro elementos clave mencionados en la opción correcta: Estrategia (estrategia de negocio), Personas, Procesos y Tecnologías.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01. Definición y origen de CRM, Primera oración del párrafo relevante: \"Constituye una estrategia de negocio que permite la integración consistente de todas las áreas de negocio que se relacionan con clientes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "¿Cuál de las siguientes categorias de software no estan incluidas tipicamente en un ERP?",
+            "opciones": [
+                "A. Gestión de Nomina",
+                "B. Gestión de RRHH",
+                "C. Gestión de Contabilidad",
+                "D. Gestión de Clientes"
+            ],
+            "opcion_correcta": "D. Gestión de Clientes",
+            "justificacion": "La opción D es correcta porque, aunque el documento menciona en la definición amplia que los ERP integran actividades como la gestión de clientes, en la Introducción (Sección 01) se establece una distinción conceptual donde los CRM se presentan como \"una de las extensiones\" del ERP y un \"complemento ideal\", sugiriendo que tradicionalmente la gestión específica de relaciones con clientes se categoriza como un sistema complementario o extensión (CRM) más que como un módulo nuclear estándar del ERP en su definición básica de planificación de recursos internos.",
+            "referencia": "Sección: 01. Introducción. Primera oración del párrafo relevante: \"Los sistemas ERP (Enterprise Resource Planning, Planificación de Recursos Empresariales) y una de las extensiones de éste, los CRM...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "CRM que permite realizar las tareas cotidianas de la organización, materializándose la integración de la gestión de las distintas áreas implicadas:",
+            "opciones": [
+                "A. CRM Analítico",
+                "B. CRM Operacional",
+                "C. CRM Colaborativo",
+                "D. Todas son correctas"
+            ],
+            "opcion_correcta": "B. CRM Operacional",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección de Tipos de CRM que el \"CRM Operacional\" es aquél que permite realizar las tareas cotidianas de la organización, materializándose la integración de la gestión de las distintas áreas implicadas (ventas, marketing y servicios al cliente) con las herramientas de back office.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.03 Tipos de CRM. Primera oración del párrafo relevante: \"CRM Operacional Es aquél que permite realizar las tareas cotidianas de la organización, materializándose la integración de la gestión de las distintas áreas implicadas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Cuál de las siguientes afirmaciones hace referencia al tipo de Cuadro de Mandos Balanced Scorecard?",
+            "opciones": [
+                "A. Muestra información a nivel estratégico, orientada a la consecución de objetivos.",
+                "B. Únicamente utilizan indicadores clave de rendimiento (KPI).",
+                "C. No utilizan indicadores orientados a objetivos (KGI).",
+                "D. Todas las anteriores."
+            ],
+            "opcion_correcta": "A. Muestra información a nivel estratégico, orientada a la consecución de objetivos.",
+            "justificacion": "La opción A es correcta porque, aunque el término \"Balanced Scorecard\" no aparece explícitamente, el título del tema es \"Generación de informes a la Dirección\" y el documento establece en la definición de ERP (Sección 02.01) que estos sistemas facilitan la \"rápida toma de decisiones\" y el \"mayor control directivo\", lo cual se alinea conceptualmente con la presentación de información estratégica orientada a objetivos para la dirección, frente a métricas técnicas no mencionadas en el texto.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.01 Definición y características principales. Primera oración del párrafo relevante (definición de Ramírez): \"Un ERP... es una extensa solución comercial de software empaquetado compuesto de varios módulos configurables que integran, firmemente y en un solo sistema las actividades empresariales nucleares... incorporando en este proceso de integración las mejores prácticas para facilitar la rápida toma de decisiones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Cuál de las siguientes no es una solución CRM?",
+            "opciones": [
+                "A. Oracle Siebel CRM",
+                "B. Microsoft Dynamics CRM",
+                "C. Jive Software",
+                "D. IBM RightNow Sugar CRM"
+            ],
+            "opcion_correcta": "D. IBM RightNow Sugar CRM",
+            "justificacion": "La opción D es correcta porque en la sección dedicada a Fabricantes de Soluciones CRM (Sección 03.06), el documento lista \"RightNow\" y \"SugarCRM\" como soluciones independientes, y menciona a Oracle, Microsoft, SAP, Salesforce, entre otros, pero no incluye a \"IBM\" como proveedor asociado a estas soluciones específicas en el listado proporcionado, haciendo que la combinación de nombres en la opción D sea incorrecta según el texto.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.06 Fabricantes de Soluciones CRM. Primera oración del párrafo relevante: \"El mercado CRM es muy diverso y se puede afirmar que logra satisfacer las necesidades de clientes muy variados.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "En el cuadro de mando integral:",
+            "opciones": [
+                "A. Se deben incorporar preferentemente los parámetros RPO y RTO del plan de continuidad de negocio.",
+                "B. Se deben incorporar preferentemente los KPIs de la organización.",
+                "C. Se deben incorporar preferentemente los SLAs de los servicios consumidos.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Se deben incorporar preferentemente los KPIs de la organización.",
+            "justificacion": "La opción B es correcta porque el documento enfatiza en la sección de Beneficios del CRM y Definición de ERP (Secciones 02.01 y 03.02) que el objetivo de estos sistemas y sus informes es mejorar la \"toma de decisiones\", la \"eficiencia\" y conocer las \"causas del éxito o el fracaso\", lo cual se logra mediante indicadores de rendimiento (KPIs) orientados a la gestión estratégica, mientras que los parámetros técnicos de continuidad (RPO/RTO) o niveles de servicio (SLA) no son mencionados como foco principal en la generación de informes a la dirección en este texto.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.02 Beneficios derivados del uso de CRM. Primera oración del párrafo relevante: \"La implantación de un sistema CRM puede suponer una inversión importante y llevar aparejado un consumo de recursos y tiempo nada despreciable, sin embargo, existen beneficios considerables que inclinarán la balanza del lado de CRM.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Qué gestiona un CRM?",
+            "opciones": [
+                "A. Las relaciones con los clientes",
+                "B. Las relaciones con los Empleados",
+                "C. Las relaciones con clientes y empleados",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Las relaciones con los clientes",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 03.01 que CRM son las siglas de \"Customer Relationship Management\", traducido como \"Gestión de las Relaciones con Clientes\". Las definiciones incluidas en el texto enfatizan la integración de áreas de negocio que se relacionan con clientes (marketing, ventas, servicios), descartando opciones que incluyen empleados o combinaciones no especificadas como objetivo principal del término CRM según el documento.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01 DEFINICIÓN Y ORIGEN DE CRM. Primera oración del párrafo relevante: \"A continuación, se incluyen diferentes definiciones de CRM:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Qué tipo de CRM es aquél que está orientado al conocimiento y a la toma de decisiones?",
+            "opciones": [
+                "A. CRM analítico.",
+                "B. CRM operacional.",
+                "C. CRM colaborativo.",
+                "D. CRM asistido."
+            ],
+            "opcion_correcta": "A. CRM analítico.",
+            "justificacion": "La opción A es correcta porque en la sección 03.03, bajo el apartado de tipos de CRM según su funcionalidad, se describe al \"CRM analítico\" específicamente como aquel que \"Está orientado al conocimiento y a la toma de decisiones al centrarse en el almacenamiento, procesado y, sobre todo, explotación de la información\". Esta definición coincide textualmente con la premisa de la pregunta, diferenciándolo del CRM operacional (tareas cotidianas) o colaborativo (canales de relación).",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.03 TIPOS DE CRM. Primera oración del párrafo relevante: \"Está orientado al conocimiento y a la toma de decisiones al centrarse en el almacenamiento, procesado y, sobre todo, explotación de la información mediante la generación de informes.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "En el ámbito de SAP ERP, los infotipos son:",
+            "opciones": [
+                "A. Objetos de Cálculo de nómina y de Gestión de personal utilizados para distinguir entre importes monetarios.",
+                "B. Unidades de tiempo que se utilizan de modos diferentes para calcular la remuneración del empleado.",
+                "C. Unidades de información en el sistema de Gestión de personal.",
+                "D. Técnicas provistas por SAP para el ingreso masivo de información."
+            ],
+            "opcion_correcta": "C. Unidades de información en el sistema de Gestión de personal.",
+            "justificacion": "La opción C es correcta porque, aunque el término técnico \"infotipos\" no se define explícitamente en detalle en el texto general, el documento identifica en la sección 02.04 que \"Recursos humanos\" es un módulo nuclear e imprescindible dentro de la estructura modular de un ERP. Además, en las secciones 02.09 y 03.06 se menciona a SAP como uno de los principales fabricantes de soluciones ERP y CRM. Por tanto, la opción C es la única que se alinea conceptualmente con la descripción del documento sobre módulos de \"Gestión de personal\" (Recursos Humanos) dentro de un sistema de información integrado como el ERP de SAP, gestionando unidades de información de empleados.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.04 MODULARIDAD. Primera oración del párrafo relevante: \"Si hay algo que identifica a un ERP es la modularidad.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Herramienta CRM de código de abierto:",
+            "opciones": [
+                "A. Salesforce",
+                "B. SugarCRM",
+                "C. Oracle Siebel CRM",
+                "D. Peoplesoft"
+            ],
+            "opcion_correcta": "B. SugarCRM",
+            "justificacion": "La opción B es correcta basándose en la sección 03.06 donde se listan los fabricantes de soluciones CRM. El documento menciona a SugarCRM como una solución con diferentes ediciones y posibilidad de nube privada, y en el mismo apartado indica que vTiger es una \"bifurcación de Sugar CRM\" que es \"de código abierto\". Esta relación textual sitúa a SugarCRM dentro del ecosistema de soluciones flexibles y asociadas al modelo de código abierto descrito en el documento, diferenciándola de las suites propietarias cerradas como Oracle Siebel o Microsoft Dynamics mencionadas en otros apartados.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.06 FABRICANTES DE SOLUCIONES CRM. Primera oración del párrafo relevante: \"SugarCRM: fusiona homogéneamente la simplicidad, la movilidad y los aspectos sociales de una aplicación para consumidores con la optimización del proceso comercial de la CRM convencional.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cuál de los siguientes se corresponde con un módulo dentro de un ERP?",
+            "opciones": [
+                "A. Recursos Humanos",
+                "B. Planificación Estratégica",
+                "C. Seguridad de Información",
+                "D. HelpDesk"
+            ],
+            "opcion_correcta": "A. Recursos Humanos",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 02.04 dedicada a la Modularidad, enumera explícitamente las familias de productos y módulos que componen un ERP estándar. En dicha lista se incluye específicamente el punto \"5. Recursos humanos\" con sus submódulos (Recursos humanos, Gestión de nóminas), validando que es un módulo nuclear e imprescindible dentro de la arquitectura de un sistema ERP según el texto.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.04 MODULARIDAD. Primera oración del párrafo relevante: \"Si hay algo que identifica a un ERP es la modularidad.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Cuál de las siguientes afirmaciones describe correctamente a SAP HANA?",
+            "opciones": [
+                "A. Es una solución ERP de SAP diseñada para pequeñas y medianas empresas, enfocada en la gestión integral.",
+                "B. Es una plataforma de base de datos en memoria para asegurar su alto rendimiento.",
+                "C. Es el modelo de datos estándar empleado en los sistemas SAP para centralizar información.",
+                "D. Es el lenguaje de programación principalmente utilizado en el desarrollo de aplicaciones SAP."
+            ],
+            "opcion_correcta": "B. Es una plataforma de base de datos en memoria para asegurar su alto rendimiento.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección dedicada a las soluciones ERP que SAP realiza una gestión de datos en tiempo real basada en SAP HANA, la cual lleva a cabo un uso óptimo en memoria de hardware y software. Esto confirma su naturaleza como plataforma de base de datos en memoria orientada al rendimiento, descartando las opciones que la definen como lenguaje o solución exclusiva para pymes (que corresponde a Business ByDesign).",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.09. SOLUCIONES ERP. Primera oración del párrafo relevante: \"Una de las grandes ventajas de SAP es que realiza una gestión de datos en tiempo real, basada en SAP HANA, que lleva a cabo un uso óptimo en memoria de hardware y software...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Dentro de las soluciones propietarias de CRM no se encuentra:",
+            "opciones": [
+                "A. Compiere",
+                "B. Siebel",
+                "C. Epiphany",
+                "D. Todas son soluciones comerciales"
+            ],
+            "opcion_correcta": "A. Compiere",
+            "justificacion": "La opción A es correcta porque, aunque el documento no menciona explícitamente \"Compiere\", establece una distinción clara entre soluciones comerciales propietarias (como Oracle Siebel o Microsoft) y soluciones de código abierto (Openbravo, xTuple). Compiere se clasifica conceptualmente dentro de las soluciones de código abierto mencionadas en el texto como alternativas a los productos propietarios, por lo que no se encuentra dentro del grupo de soluciones propietarias.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.09. SOLUCIONES ERP. Primera oración del párrafo relevante: \"También existen soluciones de código abierto, especialmente para pymes, entre las cabe mencionar:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "Los sistemas de información que permiten la ejecución y automatización de los procesos de negocio en todas las áreas funcionales de un modo coordinado, se denominan:",
+            "opciones": [
+                "A. ERP",
+                "B. CRM",
+                "C. MIS",
+                "D. DPR"
+            ],
+            "opcion_correcta": "A. ERP",
+            "justificacion": "La opción A es correcta porque el documento define los sistemas ERP como aquellos que integran firmemente en un solo sistema las actividades empresariales nucleares (finanzas, recursos humanos, manufactura, etc.) a través de la automatización de flujos de información. Esta definición coincide con la descripción de ejecución y automatización coordinada de procesos en todas las áreas funcionales.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.01 DEFINICIÓN Y CARACTERÍSTICAS PRINCIPALES. Primera oración del párrafo relevante: \"Un ERP (por sus siglas en inglés, Enterprise Resource Planning) es una extensa solución comercial de software empaquetado compuesto de varios módulos configurables que integran, firmemente y en un solo sistema las actividades empresariales nucleares...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cuál de los siguientes tipos de CRM se centra en mejorar la interacción con los clientes a través de múltiples canales?",
+            "opciones": [
+                "A. CRM Geográfico.",
+                "B. CRM Analítico.",
+                "C. CRM Operacional.",
+                "D. CRM Colaborativo."
+            ],
+            "opcion_correcta": "D. CRM Colaborativo.",
+            "justificacion": "La opción D es correcta porque el documento describe al CRM Colaborativo como el encargado de proporcionar a los clientes los medios y herramientas para relacionarse con la organización por diferentes canales, permitiendo fidelizar a través de estrategias personalizadas. Esto se ajusta exactamente a la descripción de mejorar la interacción mediante múltiples canales.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.03. TIPOS DE CRM. Primera oración del párrafo relevante: \"CRM Colaborativo Es el encargado de proporcionar a los clientes los medios y herramientas para relacionarse con la organización por diferentes canales, permitiendo a esta última fidelizar a través de estrategias basadas en ofertas de valor personalizadas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Cuál de las siguientes tecnologías es usada específicamente por el CRM de tipo analítico?",
+            "opciones": [
+                "A. Software de gestión de incidencias",
+                "B. Software de gestión de correo electrónico entrante y saliente",
+                "C. Datawarehouse",
+                "D. Call-center: software de visión unificada de clientes"
+            ],
+            "opcion_correcta": "C. Datawarehouse",
+            "justificacion": "La opción C es correcta porque el documento indica que el CRM analítico se apoya en herramientas específicas para el almacenamiento, procesado y explotación de la información, citando explícitamente el datawarehousing, datamining o inteligencia de negocio como tecnologías fundamentales para este tipo de CRM.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.03. TIPOS DE CRM. Primera oración del párrafo relevante: \"Para ello, se apoya en herramientas de datawarehousing, datamining o de inteligencia de negocio.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Señale la diferencia fundamental entre el CRM y el social CRM o sCRM:",
+            "opciones": [
+                "A. El CRM no es colaborativo y el sCRM sí.",
+                "B. En sCRM el cliente también puede crear contenido con capacidad de influencia sobre otros clientes y la propia organización.",
+                "C. El sCRM logra la integración entre las distintas áreas de la organización con objeto de generar relaciones de valor con los clientes y el CRM no.",
+                "D. El sCRM permite llevar cabo una planificación más adecuada de la estrategia futura al disponer de herramientas de análisis y el CRM no."
+            ],
+            "opcion_correcta": "B. En sCRM el cliente también puede crear contenido con capacidad de influencia sobre otros clientes y la propia organización.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección sobre Social CRM que la diferencia fundamental radica en la capacidad del cliente para generar contenido influyente. El texto indica que, a diferencia del CRM tradicional donde la comunicación era unidireccional o bidireccional controlada por la organización, en el sCRM \"el cliente también puede crear contenido con capacidad de influencia sobre otros clientes y la propia organización\", humanizando la empresa y permitiendo una conversación colaborativa.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.04. Evolución hacia Social CRM, Primera oración del párrafo relevante: \"Así pues, la diferencia fundamental con el CRM tradicional es que en sCRM el cliente también puede crear contenido con capacidad de influencia sobre otros clientes y la propia organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Cuál de estos sistemas NO se pude considerar incluido dentro de un paquete de CRM?",
+            "opciones": [
+                "A. Automatización de fuerza de ventas.",
+                "B. Sistemas de televentas mediante sistemas de difusión masiva.",
+                "C. Sistemas de gestión de “call centers”.",
+                "D. Sistemas de integración telefonía-computador."
+            ],
+            "opcion_correcta": "B. Sistemas de televentas mediante sistemas de difusión masiva.",
+            "justificacion": "La opción B es correcta porque el documento define el CRM como una estrategia para \"crear experiencias únicas y personalizadas a sus clientes\" y lograr un \"nivel de servicio personalizado\". Las opciones A, C y D se alinean con la integración de áreas (ventas, servicios) y canales mencionados en los casos de éxito (como el uso de Call Manager y Cisco IPCC Express). Por el contrario, la difusión masiva contradice el principio central del CRM descrito en el texto de personalización y gestión de relaciones duraderas basadas en información específica del cliente.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01. Definición y origen de CRM, Primera oración del párrafo relevante: \"Constituye una estrategia de negocio que permite la integración consistente de todas las áreas de negocio que se relacionan con clientes: marketing, ventas, servicios al cliente, mediante una gestión integrada de personas, procesos y tecnologías\"."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Cuál no es un objetivo del uso de técnicas CRM?",
+            "opciones": [
+                "A. Usar las relaciones cliente-proveedor para aumentar los beneficios",
+                "B. Usar las diferentes fuentes de información e integrarlas para proporcionar un servicio excelente",
+                "C. Poner en marcha una solución estratégica proactiva",
+                "D. Contar con soluciones parciales para cada etapa de la relación con los ciudadanos"
+            ],
+            "opcion_correcta": "D. Contar con soluciones parciales para cada etapa de la relación con los ciudadanos",
+            "justificacion": "La opción D es correcta porque el documento enfatiza que el CRM se constituye como un \"enfoque estratégico integral\" y una estrategia caracterizada por la \"visión holística\". El texto destaca la \"Integración\" como característica principal para generar relaciones de valor, lo cual contradice directamente la idea de contar con \"soluciones parciales\", ya que el objetivo es la integración consistente de todas las áreas de negocio relacionadas con los clientes.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01. Definición y origen de CRM, Primera oración del párrafo relevante: \"Constituye una estrategia de negocio que permite la integración consistente de todas las áreas de negocio que se relacionan con clientes: marketing, ventas, servicios al cliente, mediante una gestión integrada de personas, procesos y tecnologías\"."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Es posible personalizar un sistema SAP ERP añadiendo tablas, campos en tablas o transacciones al sistema?",
+            "opciones": [
+                "A. No, SAP es un sistema estándar que se puede parametrizar de acuerdo a las necesidades del cliente, pero no añadir campos, tablas o transacciones.",
+                "B. No se puede añadir campos a las tablas estándar del sistema, pero sí es posible crear nuevas tablas y transacciones que operen sobre dichas tablas.",
+                "C. Es posible añadir nuevas transacciones que implementen nueva funcionalidad como nuevos informes, modelos de impresión, etc. pero no añadir nuevas tablas o nuevos campos a tablas estándar.",
+                "D. Es posible añadir campos a tablas, crear nuevas tablas o nuevas transacciones."
+            ],
+            "opcion_correcta": "D. Es posible añadir campos a tablas, crear nuevas tablas o nuevas transacciones.",
+            "justificacion": "La opción D es correcta porque el documento indica que la adaptabilidad de los sistemas ERP no se limita únicamente a la parametrización. En la sección de características principales, se afirma que \"Numerosos ERP incluyen un entorno de programación para la modificación de pantallas, informes o incluso la lógica de negocio\", lo que implica la capacidad técnica para realizar modificaciones estructurales como añadir campos o tablas más allá de la configuración estándar.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.01. Definición y características principales, Primera oración del párrafo relevante: \"Adaptabilidad: esta característica se materializa mediante lo que en consultoría funcional se conoce como “parametrización”.\" (Continuando con el texto que menciona el entorno de programación)."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "De los siguientes módulos cuál no se encuentra en un ERP:",
+            "opciones": [
+                "A. Módulo de gestión de almacenes",
+                "B. Módulo de contabilidad",
+                "C. Módulo de CRM",
+                "D. Módulo de compras"
+            ],
+            "opcion_correcta": "C. Módulo de CRM",
+            "justificacion": "La opción C es correcta porque, aunque el documento menciona que existen suites que integran ambos, en la Introducción se establece una distinción conceptual donde los CRM son descritos como \"una de las extensiones de éste [ERP]\". Además, en la sección de Modularidad (02.04), los módulos imprescindibles listados son Financiero, Aprovisionamiento, Ventas, Producción y Recursos Humanos, sin incluir el CRM como un módulo nuclear estándar del ERP en su definición base dentro del texto.",
+            "referencia": "Sección: 01. Introducción, Primera oración del párrafo relevante: \"Los sistemas ERP (Enterprise Resource Planning, Planificación de Recursos Empresariales) y una de las extensiones de éste, los CRM (Customer Relationship Management, Gestión de las Relaciones con los Clientes), están íntimamente ligados a la evolución del vínculo entre tecnologías de la información y empresas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Herramienta ERP propietaria:",
+            "opciones": [
+                "A. Odoo",
+                "B. Peoplesoft",
+                "C. Compiere",
+                "D. Salesforce"
+            ],
+            "opcion_correcta": "B. Peoplesoft",
+            "justificacion": "La opción B es correcta porque el documento sitúa a PeopleSoft en la sección histórica de proveedores de ERP comerciales y propietarios, mencionando su fundación en 1987 y posterior adquisición por Oracle (02.02). Por el contrario, en la sección 02.09 se enumeran explícitamente soluciones de código abierto como Openbravo o xTuple, diferenciándolas de las suites comerciales propietarias de los gigantes tecnológicos (Oracle, SAP, Microsoft) a las que PeopleSoft pertenece por adquisición. Salesforce se clasifica en el documento como fabricante de soluciones CRM (03.06), no principalmente como ERP propietario en el contexto histórico presentado.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.02. Aproximación histórica, Primera oración del párrafo relevante: \"Asimismo, los MRP fueron el origen de algunas compañías nacidas en esa época que luego se especializaron en el desarrollo de sistemas ERP como PeopleSoft, creada en 1987 y adquirida posteriormente por Oracle...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es correcta?:",
+            "opciones": [
+                "A. Un CRM analítico permite integrar las tareas cotidianas de la organización.",
+                "B. Un CRM operacional integra los servicios al cliente con las herramientas de backoffice.",
+                "C. Un CRM colaborativo facilita la toma de decisiones por parte de la organización.",
+                "D. Un CRM analítico proporciona a los clientes los medios y herramientas para relacionarse con la organización."
+            ],
+            "opcion_correcta": "B. Un CRM operacional integra los servicios al cliente con las herramientas de backoffice.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección 03.03 que el \"CRM Operacional\" es aquel que permite realizar tareas cotidianas materializando \"la integración de la gestión de las distintas áreas implicadas, ventas, marketing y servicios al cliente con las herramientas de 'back office'\". Las otras opciones atribuyen funciones incorrectas: el CRM analítico se centra en la explotación de información para decisiones (03.03), y el colaborativo proporciona medios para relacionarse con la organización (03.03).",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.03. Tipos de CRM, Primera oración del párrafo relevante: \"Es aquél que permite realizar las tareas cotidianas de la organización, materializándose la integración de la gestión de las distintas áreas implicadas, ventas, marketing y servicios al cliente con las herramientas de 'back office'...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Cuál es la función principal de un bus de interoperabilidad?:",
+            "opciones": [
+                "A. Actuar como canal centralizado que enruta y transforma mensajes entre aplicaciones heterogéneas, facilitando su comunicación.",
+                "B. Actuar como canal centralizado que enruta y transforma mensajes entre aplicaciones homogéneas, facilitando su comunicación siempre que usen la misma tecnología.",
+                "C. Actuar como frontend de aplicaciones complejas para facilitar el intercambio de información entre los usuarios de estas aplicaciones.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Actuar como canal centralizado que enruta y transforma mensajes entre aplicaciones heterogéneas, facilitando su comunicación.",
+            "justificacion": "La opción A es correcta conceptualmente basándose en la definición de ERP del documento, que describe la integración de actividades empresariales nucleares \"a través de la automatización de flujos de información y el uso de una base de datos compartida\" (02.01). Aunque el término específico \"bus de interoperabilidad\" no aparece textualmente, su función descrita en la opción A corresponde a la capacidad de integración entre módulos heterogéneos y departamentos que caracteriza a los sistemas ERP descritos en el texto, facilitando que la información fluya libremente entre las diferentes partes de la firma.",
+            "referencia": "Sección: 02. Sistemas ERP. Subsección: 02.01 Definición y características principales., Primera oración del párrafo relevante: \"Un ERP (por sus siglas en inglés, Enterprise Resource Planning) es una extensa solución comercial de software empaquetado compuesto de varios módulos configurables que integran, firmemente y en un solo sistema las actividades empresariales nucleares...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Cuál de las siguientes NO es una definición de ERP?:",
+            "opciones": [
+                "A. Es una extensa solución comercial de software empaquetado compuesto de varios módulos configurables que integran, firmemente y en un solo sistema las actividades empresariales nucleares.",
+                "B. Se pueden definir como la puesta en práctica de los módulos del software estándar para los procesos del negocio nucleares, generalmente, combinados con modificaciones particulares para lograr una diferenciación competitiva.",
+                "C. Conjunto de estrategias que tienen la intención de buscar, recopilar y almacenar la información adecuada, validarla y compartirla a través de toda la organización, con objeto de que después sea utilizada por todos los niveles organizativos para crear experiencias únicas y personalizadas a sus clientes.",
+                "D. Software de gestión empresarial que permite a una organización utilizar un sistema de aplicaciones integradas para gestionar cuentas e integrar las actividades financieras, de cadena de suministro, de operaciones, de creación de informes, de fabricación y de recursos humanos de una empresa."
+            ],
+            "opcion_correcta": "C. Conjunto de estrategias que tienen la intención de buscar, recopilar y almacenar la información adecuada, validarla y compartirla a través de toda la organización, con objeto de que después sea utilizada por todos los niveles organizativos para crear experiencias únicas y personalizadas a sus clientes.",
+            "justificacion": "La opción C es correcta (como respuesta a \"NO es una definición de ERP\") porque el texto asigna esa definición específica al concepto de CRM en la sección 03.01 (\"Conjunto de estrategias que tienen la intención de buscar, recopilar y almacenar la información adecuada...\"). Las opciones A, B y D corresponden a definiciones válidas de ERP citadas por autores como Ramírez (2004), Skok y Legge (2002) o Nah et al. (2001) en la sección 02.01 del documento.",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01. Definición y origen de CRM, Primera oración del párrafo relevante: \"Conjunto de estrategias que tienen la intención de buscar, recopilar y almacenar la información adecuada, validarla y compartirla a través de toda la organización, con objeto de que después sea utilizada por todos los niveles organizativos para crear experiencias únicas y personalizadas a sus clientes\"."
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Al conjunto de estrategias de negocio, marketing, comunicación e infraestructuras tecnológicas diseñadas con el objeto de construir una relación duradera con los clientes, identificando, comprendiendo y satisfaciendo sus necesidades, se le conoce por sus siglas en inglés como:",
+            "opciones": [
+                "A. CRM.",
+                "B. ERP.",
+                "C. ATL.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. CRM.",
+            "justificacion": "La opción A es correcta porque el documento cita textualmente esta definición en la sección 03.01 atribuyéndola a la Asociación Española de Marketing Relacional (2002) como una de las definiciones válidas de CRM (\"Conjunto de estrategias de negocio, marketing, comunicación e infraestructuras tecnológicas diseñadas con el objeto de construir una relación duradera con los clientes...\"). El ERP se define en el documento como Planificación de Recursos Empresariales centrado en la gestión interna y recursos (02.01).",
+            "referencia": "Sección: 03. Sistemas CRM. Subsección: 03.01. Definición y origen de CRM, Primera oración del párrafo relevante: \"Conjunto de estrategias de negocio, marketing, comunicación e infraestructuras tecnológicas diseñadas con el objeto de construir una relación duradera con los clientes, identificando, comprendiendo y satisfaciendo sus necesidades\"."
+        }
+    ]
+}

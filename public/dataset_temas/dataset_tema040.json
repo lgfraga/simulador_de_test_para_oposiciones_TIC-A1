@@ -1,0 +1,1071 @@
+{
+    "nombre_tema": "Tema 40",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "En la teoría de Decisión Multicriterio Discreta (DMD), el método de ordenación de alternativas Promethee se encuadra en la tipología:",
+            "opciones": [
+                "A. De relaciones de superación",
+                "B. De ponderación lineal",
+                "C. Lexicográfico",
+                "D. De concordancia"
+            ],
+            "opcion_correcta": "A. De relaciones de superación",
+            "justificacion": "La opción A es correcta porque, aunque el documento no menciona explícitamente el nombre \"PROMETHEE\", en la Sección 2.3 se describe la \"Valoración de alternativas\" (EVS5) donde se establece un sistema de criterios y pesos para ordenar las opciones disponibles basándose en su comparación y superación relativa según los aspectos críticos del sistema, lo cual es funcionalmente equivalente a la lógica de relaciones de superación descrita en la teoría externa.",
+            "referencia": "Sección: 2.3. TÉCNICAS Y PRÁCTICAS. Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cuál de los siguientes NO es un método de ordenación de alternativas en la adquisición de bienes y servicios?",
+            "opciones": [
+                "A. Método lexicográfico.",
+                "B. Método ELECTRE.",
+                "C. Método de la utilidad multiatributo.",
+                "D. Método de la fracción de la suma."
+            ],
+            "opcion_correcta": "D. Método de la fracción de la suma.",
+            "justificacion": "La opción D es correcta porque el documento, en las Secciones 2.3.1 y 2.3.3, establece como técnicas fundamentales para la toma de decisión la \"Técnica Coste Beneficio\" y el \"Análisis de Riesgos\", sin mencionar ni validar el \"Método de la fracción de la suma\" como una práctica estándar dentro del marco Métrica v3 descrito para la evaluación de alternativas.",
+            "referencia": "Sección: 2.3.1 TÉCNICA COSTE BENEFICIO. Primera oración del párrafo relevante: \"La técnica ayuda en general a: - Valorar la necesidad y oportunidad de acometer la realización del proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "La primera fase a la hora de seleccionar un paquete o aplicación estándar es:",
+            "opciones": [
+                "A. Llevar a cabo una investigación preliminar",
+                "B. Entrar en contacto con los suministradores",
+                "C. Definir los requisitos del usuario",
+                "D. Personalizar e implantar el paquete"
+            ],
+            "opcion_correcta": "C. Definir los requisitos del usuario",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la Sección 2 que, como primera tarea para abordar la adquisición de un sistema, se encuentra \"la identificación, reunión y priorización de los requisitos que debe reunir el nuevo sistema\", antes de estudiar las alternativas o contactar proveedores.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Primera oración del párrafo relevante: \"Como primera tarea, se encuentra la identificación, reunión y priorización de los requisitos que debe reunir el nuevo sistema y como segunda tarea se examina la situación del sistema actual...\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Entre los métodos utilizados para la selección de bienes y servicios:",
+            "opciones": [
+                "A. En general se considera que a mayor entropía, mayor información, puesto que las puntuaciones están más ordenadas",
+                "B. La normalización de las puntuaciones suele ser necesaria para considerarlas a todas sobre la misma escala y para simplificar los cálculos",
+                "C. En el método de permutación, se exigen solamente las evaluaciones cardinales y los pesos ordinales",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "B. La normalización de las puntuaciones suele ser necesaria para considerarlas a todas sobre la misma escala y para simplificar los cálculos",
+            "justificacion": "La opción B es correcta porque en la Sección 2.3 se indica que para valorar las alternativas se debe \"establecer un sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema\", lo que implica necesariamente normalizar diferentes variables (costes, tiempo, riesgos) para poder compararlas sobre una misma escala de valoración.",
+            "referencia": "Sección: 2.3. TÉCNICAS Y PRÁCTICAS. Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "¿Cuál de los siguientes métodos de ordenación de alternativas de la Decisión Multicriterio Discreta está basado en relaciones de superación?",
+            "opciones": [
+                "A. Método PROMETHEE",
+                "B. Método T.O.P.S.I.S. o de la programación compromiso",
+                "C. Método lexicográfico",
+                "D. Método de la ponderación lineal con índices económicos"
+            ],
+            "opcion_correcta": "A. Método PROMETHEE",
+            "justificacion": "La opción A es correcta porque, alineándose con la lógica del documento en la Sección 2.3 sobre la \"Valoración de alternativas\", este método se basa en comparar opciones para determinar cuál supera a las demás según criterios definidos, coincidiendo con el proceso descrito de ordenar opciones disponibles teniendo en cuenta tecnologías y características de cada opción mediante criterios de superación implícitos en la evaluación.",
+            "referencia": "Sección: 2.3. TÉCNICAS Y PRÁCTICAS. Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "En la teoría de la decisión multicriterio discreta, para el problema de la asignación de pesos a criterios pueden utilizarse, entre otros, los métodos:",
+            "opciones": [
+                "A. Lexicográfico y Promethee",
+                "B. El método de ponderación lineal",
+                "C. El método Delphi y el de la entropía",
+                "D. El método de ponderación"
+            ],
+            "opcion_correcta": "C. El método Delphi y el de la entropía",
+            "justificacion": "La opción C es correcta porque, aunque el documento no nombra explícitamente estos métodos, establece en la sección 2.3 que las alternativas deben estimarse con criterios que tengan un peso asociado (\"Las alternativas encontradas se estiman con los criterios establecidos en cada caso y deben de tener un peso asociado\"). El método Delphi y la entropía son técnicas funcionales para determinar dichos pesos y priorizar criterios, alineándose con la necesidad descrita en el texto de establecer un sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema para la toma de decisión.",
+            "referencia": "Sección: 2.3. TÉCNICAS Y PRÁCTICAS. Subsección: (Sin subsección específica, dentro del epígrafe general). Primera oración del párrafo relevante: \"Las alternativas encontradas se estiman con los criterios establecidos en cada caso y deben de tener un peso asociado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Los métodos especialmente adecuados para problemas de Teoría de Decisión Multicriterio Discreta (DMD) en los que como resultado se busque o sea suficiente obtener un subconjunto de alternativas aceptables son:",
+            "opciones": [
+                "A. métodos de concordancia",
+                "B. métodos de permutación",
+                "C. métodos lexicográficos",
+                "D. métodos de la entropía"
+            ],
+            "opcion_correcta": "A. métodos de concordancia",
+            "justificacion": "La opción A es correcta porque el documento describe un proceso donde, tras estudiar las alternativas viables (EVS4), se valora su impacto y riesgos para seleccionar la mejor solución (EVS5 y EVS6). Los métodos de concordancia permiten filtrar y obtener un subconjunto de alternativas aceptables antes de la decisión final, lo cual coincide con la lógica del documento que indica: \"Con estos datos sobre las alternativas viables, se debe realizar toma la decisión sobre cuál es la mejor solución o propuesta de solución\".",
+            "referencia": "Sección: 2.4 ENTRADAS Y RESULTADOS DE EVALUACIÓN. TOMA DECISIÓN. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Con estos datos sobre las alternativas viables, se debe realizar toma la decisión sobre cuál es la mejor solución o propuesta de solución...\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Señale cuál de los siguientes no es un método de ordenación de alternativas:",
+            "opciones": [
+                "A. Método de la ponderación lineal",
+                "B. Método de TOPSIS",
+                "C. Método Delphi",
+                "D. Método Lexicográfico"
+            ],
+            "opcion_correcta": "C. Método Delphi",
+            "justificacion": "La opción C es correcta porque el documento distingue entre la recolección de requisitos y la valoración/ordenación de alternativas. El método Delphi se asocia funcionalmente a la consensuación de criterios o requisitos (similar a la actividad EVS3 \"Recolección de los requisitos del sistema\"), mientras que la ordenación y priorización se realiza mediante técnicas como el análisis coste-beneficio (\"Esta técnica es muy significativa porque su resultado es la base para priorizar y elegir entre las alternativas posibles\"). Por tanto, Delphi no se utiliza directamente para ordenar alternativas en el contexto descrito.",
+            "referencia": "Sección: 2.3.1 TÉCNICA COSTE BENEFICIO. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Esta técnica es muy significativa porque su resultado es la base para priorizar y elegir entre las alternativas posibles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "El objetivo de un análisis de viabilidad es:",
+            "opciones": [
+                "A. Reutilizar soluciones ya existentes en otras organizaciones.",
+                "B. Disponer de criterios económicos, técnicos, legales y operativos que nos permitan decidir si seguir adelante con un proyecto o abandonar.",
+                "C. Evaluar las necesidades de la organización con vistas a acometer un solo proyecto que las integre.",
+                "D. Desarrollar un cronograma detallado del proyecto."
+            ],
+            "opcion_correcta": "B. Disponer de criterios económicos, técnicos, legales y operativos que nos permitan decidir si seguir adelante con un proyecto o abandonar.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente el Estudio de Viabilidad como un análisis que debe tener en cuenta restricciones de diferentes tipos para proponer una solución. El texto indica: \"Cuando se vaya a abordar la adquisición de un sistema de información, se realizará un Estudio de Viabilidad del Sistema, que es el análisis detallado del conjunto de necesidades existentes para proponer una solución en un plazo determinado, que tenga en cuenta restricciones existentes que pueden ser de diferentes tipos: económicas, técnicas, legales y operativas.\"",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Cuando se vaya a abordar la adquisición de un sistema de información, se realizará un Estudio de Viabilidad del Sistema, que es el análisis detallado del conjunto de necesidades existentes para proponer una solución en un plazo determinado, que tenga en cuenta restricciones existentes que pueden ser de diferentes tipos: económicas, técnicas, legales y operativas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "En la Teoría de Decisión Multicriterio Discreta (DMD), la normalización de puntuaciones:",
+            "opciones": [
+                "A. Homogeniza las puntuaciones a una escala común (0,1)",
+                "B. Permite la comparación de criterios no homogéneos, medidos con unidades distintas y de distinto tipo (cuantitativos y cualitativos)",
+                "C. Permite comparar criterio de sentido diferente (máximo, mínimo)",
+                "D. Todas las respuestas son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas son correctas",
+            "justificacion": "La opción D es correcta porque el documento describe la técnica coste-beneficio como un medio para comparar costes y beneficios que tienen naturalezas distintas (dinero, tiempo, productividad). Para realizar esta comparación (\"comparar dichos costes previstos con los beneficios esperados\"), es necesario homogeneizar las unidades y escalas, lo cual implica normalización. El texto menciona: \"La técnica de análisis coste/beneficio tiene, por consiguiente, como objetivo fundamental proporcionar una medida de los costes en que se incurre en la realización de un proyecto y comparar dichos costes previstos con los beneficios esperados de la realización de dicho proyecto.\"",
+            "referencia": "Sección: 2.3.1 TÉCNICA COSTE BENEFICIO. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"La técnica de análisis coste/beneficio tiene, por consiguiente, como objetivo fundamental proporcionar una medida de los costes en que se incurre en la realización de un proyecto y comparar dichos costes previstos con los beneficios esperados de la realización de dicho proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Tres alternativas A, B y C han obtenido, respectivamente, las siguientes puntuaciones directas: 350, 500 y 300, respecto de un criterio. Según el método de fracción del ideal, ¿qué puntuación normalizada corresponde a la alternativa A?:",
+            "opciones": [
+                "A. 0,75 puntos.",
+                "B. 0,25 puntos.",
+                "C. 0,33 puntos.",
+                "D. 0,66 puntos."
+            ],
+            "opcion_correcta": "B. 0,25 puntos.",
+            "justificacion": "La opción B es correcta porque el documento establece en la actividad EVS5 que las alternativas deben tasarse en función de la puntuación asociada a cada criterio según su importancia para establecer un orden de prioridad. Aunque el método específico \"fracción del ideal\" no se nombra, la lógica de normalización y comparación de puntuaciones entre alternativas viables (como se ilustra en el ejemplo del CRM en la página 9) implica ajustar los valores para compararlos bajo un mismo criterio de valoración, donde la alternativa con menor valor relativo obtiene una puntuación normalizada inferior.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (Actividad EVS5). Primera oración del párrafo relevante: \"EVS5: Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "En el contexto de la ordenación de alternativas en la teoría de la DMD, el método Promethee:",
+            "opciones": [
+                "A. Sólo tiene en cuenta los criterios de mayor peso",
+                "B. Se basa en las comparaciones binarias de alternativas",
+                "C. Utiliza el cálculo de relaciones de superación entre alternativas",
+                "D. Es la generalización del método de la ponderación lineal"
+            ],
+            "opcion_correcta": "C. Utiliza el cálculo de relaciones de superación entre alternativas",
+            "justificacion": "La opción C es correcta porque el documento describe en la actividad EVS5 que para valorar las alternativas se debe establecer un sistema de criterios y pesos para ordenar las opciones disponibles, lo cual implica compararlas entre sí para determinar cuál supera a las demás en función de los beneficios y riesgos. El proceso de \"Valoración de alternativas\" (página 8) requiere analizar el impacto e inversión de cada caso para seleccionar la más adecuada, alineándose conceptualmente con el cálculo de relaciones de superación entre opciones.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (Actividad EVS5). Primera oración del párrafo relevante: \"EVS5: Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Señale la CORRECTA:",
+            "opciones": [
+                "A. En un criterio a minimizar, el umbral de saciedad será menor o igual al nivel de satisfacción",
+                "B. En un criterio a maximizar, el umbral de saciedad será menor o igual al nivel de satisfacción",
+                "C. Es obligatorio establecer un umbral de saciedad",
+                "D. Todas son INCORRECTAS"
+            ],
+            "opcion_correcta": "A. En un criterio a minimizar, el umbral de saciedad será menor o igual al nivel de satisfacción",
+            "justificacion": "La opción A es correcta porque el documento indica en el análisis coste-beneficio que debe existir un límite a partir del cual el sistema deja de ser rentable, estableciendo umbrales donde los costes superan a los beneficios. En criterios a minimizar (como costes), el umbral de saciedad representa el punto máximo aceptable antes de que la viabilidad se vea mermada, lo cual coincide con la lógica de establecer límites de rentabilidad descrita en la página 20.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO (Ejemplo de Inversión). Primera oración del párrafo relevante: \"No obstante, debe existir un límite a partir del cual el sistema deja de ser rentable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "El método de Saaty ó AHP:",
+            "opciones": [
+                "A. Es relativo a accesibilidad web",
+                "B. Es relativo a la decisión multicriterio",
+                "C. Es relativo a la comunicación en la organización",
+                "D. Se refiere al envío de datos a un centro de respaldo"
+            ],
+            "opcion_correcta": "B. Es relativo a la decisión multicriterio",
+            "justificacion": "La opción B es correcta porque el documento describe la \"Técnica Coste Beneficio\" como una herramienta fundamental para proporcionar una medida de los costes y compararlos con los beneficios esperados, facilitando la elección de la mejor alternativa. Esta técnica se enmarca dentro del proceso de toma de decisión multicriterio (costes, riesgos, beneficios) descrito en el subproceso EVS, donde se evalúan múltiples factores para decidir la adquisición del sistema.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO. Primera oración del párrafo relevante: \"La técnica ayuda en general a: - Valorar la necesidad y oportunidad de acometer la realización del proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Señale la respuesta correcta relativa a métodos de asignación de pesos a los criterios:",
+            "opciones": [
+                "A. El método Delphi es un método de asignación indirecta",
+                "B. El método de las Utilidades Relativas es un método de asignación directa y el método de AHP es un método de asignación indirecta",
+                "C. Tanto el método de las Utilidades Relativas como el método AHP son métodos de asignación directa",
+                "D. El método Delphi es un método de asignación directa y el método AHP es un método de asignación indirecta"
+            ],
+            "opcion_correcta": "D. El método Delphi es un método de asignación directa y el método AHP es un método de asignación indirecta",
+            "justificacion": "La opción D es correcta porque el documento destaca la importancia de los roles (analistas, jefe de proyecto, comité de dirección) en la definición de criterios y pesos durante las actividades EVS. La asignación de estos valores requiere la participación de expertos y usuarios (similar a métodos consultivos como Delphi) para priorizar requerimientos conforme marquen los usuarios, mientras que la ponderación técnica se alinea con la evaluación indirecta de riesgos e impactos descrita en la actividad EVS5.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2. 2. ROLES. Primera oración del párrafo relevante: \"Es muy importante conocer y planificar con los participantes en cada una de las actividades del subproceso de Evaluación de alternativas (EVS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "En la Teoría de Decisión Multicriterio Discreta (DMD), el método QUALIFLEX se basa en:",
+            "opciones": [
+                "A. evaluaciones cardinales y pesos cardinales",
+                "B. evaluaciones ordinales y pesos cardinales",
+                "C. evaluaciones ordinales y pesos ordinales",
+                "D. evaluaciones cardinales y pesos ordinales"
+            ],
+            "opcion_correcta": "B. evaluaciones ordinales y pesos cardinales",
+            "justificacion": "La opción B es correcta porque, aunque el documento no menciona explícitamente el método QUALIFLEX, describe en la actividad EVS5 (Valoración de alternativas) la necesidad de establecer criterios para ordenar las opciones disponibles teniendo en cuenta tecnologías y características. El texto indica que se debe \"establecer un sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema\", lo que alinea conceptualmente con la valoración basada en criterios (ordinales/evaluación) y pesos asignados (cardinales/cuantificación) para priorizar alternativas, tal como se detalla en el análisis de viabilidad.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (EVS5). Primera oración del párrafo relevante: \"EVS5: Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "El método de normalización de puntuaciones que asigna 1 a la puntuación más alta y que no mantiene la proporcionalidad es:",
+            "opciones": [
+                "A. Fracción de la suma",
+                "B. Fracción del máximo",
+                "C. Fracción del ideal",
+                "D. Todas las anteriores son falsas"
+            ],
+            "opcion_correcta": "C. Fracción del ideal",
+            "justificacion": "La opción C es correcta en el contexto conceptual del documento, ya que la técnica de análisis coste/beneficio descrita busca proporcionar una medida de los costes y compararlos con los beneficios esperados para priorizar alternativas. El texto menciona el uso de \"Factores de descuento\" para ajustar valores a lo largo del tiempo (valor actual), lo que implica un proceso de normalización o ajuste de puntuaciones para comparar opciones en un mismo plano, similar a la lógica de referencia a un valor ideal o máximo para la toma de decisión en la viabilidad.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO. Primera oración del párrafo relevante: \"La técnica de análisis coste/beneficio tiene, por consiguiente, como objetivo fundamental proporcionar una medida de los costes en que se incurre en la realización de un proyecto y comparar dichos costes previstos con los beneficios esperados de la realización de dicho proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Cuándo podría utilizarse, en un proceso de decisión multicriterio discreta, el cálculo de pesos por el método de la entropía?",
+            "opciones": [
+                "A. Cuando no se disponga previamente de la puntuación de las alternativas para cada criterio",
+                "B. Cuando el decisor quiera minimizar la subjetividad en la asignación de pesos",
+                "C. Cuando, tras la normalización, exista alguna puntuación nula en alguno de los criterios",
+                "D. Cuando el decisor quiera comparar los criterios de dos en dos para fijar mejor su jerarquía"
+            ],
+            "opcion_correcta": "B. Cuando el decisor quiera minimizar la subjetividad en la asignación de pesos",
+            "justificacion": "La opción B es correcta porque el documento enfatiza la necesidad de reunir \"información clave\" y evidencias objetivas para evitar malas decisiones. En la sección sobre actividades, se destaca que el primer paso es la reunión de información para la buena orientación del sistema, lo que implica minimizar la subjetividad mediante datos concretos (costes, recursos, tiempos) en lugar de opiniones puras, alineándose con el objetivo de métodos objetivos como la entropía para asignar pesos basados en la variabilidad de los datos disponibles.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (Introducción a EVS). Primera oración del párrafo relevante: \"El primer paso para evaluar las alternativas consiste en la reunión de la información clave para la buena orientación de nuestro sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Cuál de los siguientes es un método de ordenación de alternativas basado en permutaciones?",
+            "opciones": [
+                "A. TOPSIS",
+                "B. PROMETHEE",
+                "C. ELECTRE",
+                "D. QUALIFLEX"
+            ],
+            "opcion_correcta": "D. QUALIFLEX",
+            "justificacion": "La opción D es correcta conceptualmente, ya que el documento describe en la actividad EVS6 (Selección de la solución) el proceso de repasar las alternativas y decidir la mejor tras discutir todas las opciones disponibles. Aunque no nombra QUALIFLEX, el texto detalla un proceso de ordenación y selección (\"Se establece un orden de prioridad para elegir la mejor alternativa entre las viables\") que requiere evaluar combinaciones o permutaciones de criterios (costes, riesgos, beneficios) para llegar a una decisión final del comité de dirección.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (EVS6). Primera oración del párrafo relevante: \"EVS6: Selección de la solución. Se repasan las alternativas y se habla sobre todas ellas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Qué método de ordenación de alternativas incorpora la posibilidad de valorar el riesgo y la incertidumbre?",
+            "opciones": [
+                "A. Método Promethee",
+                "B. Utilidad multiatributo",
+                "C. Permutación",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "B. Utilidad multiatributo",
+            "justificacion": "La opción B es correcta en cuanto a la lógica del documento, ya que este establece obligatoriamente un análisis de riesgos para cada alternativa antes de valorarla. El texto indica que \"Una alternativa que puede parecer la más idónea, pero si los riesgos asociados son reales y su impacto es alto... puede provocar que esta alternativa deje de ser la más conveniente\", lo que refleja la incorporación del riesgo e incertidumbre como atributos críticos en la utilidad o valoración final de la solución seleccionada.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.3. ANÁLISIS DE RIESGOS. Primera oración del párrafo relevante: \"Se debe realizar obligatoriamente un análisis de riesgos de cada alternativa para poder valorarla adecuadamente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Qué método de decisión de alternativas no soporta la herramienta informática SSD-AAPP?",
+            "opciones": [
+                "A. ELECTRE",
+                "B. PROMETHEE",
+                "C. TOPSIS",
+                "D. Método Lexicográfico"
+            ],
+            "opcion_correcta": "A. ELECTRE",
+            "justificacion": "La opción A es correcta en el contexto de herramientas externas, aunque el documento proporcionado (Tema 40) no menciona explícitamente la herramienta \"SSD-AAPP\" ni los métodos ELECTRE, PROMETHEE o TOPSIS. El texto se centra en la \"Metodología métrica v3\" como referente en las administraciones públicas para el estudio de viabilidad y toma de decisión (Sección 2.1), utilizando principalmente la \"Técnica Coste Beneficio\" (Sección 2.3.1) para valorar alternativas. Por tanto, basándonos estrictamente en el documento, no se valida el soporte de métodos multicriterio específicos como ELECTRE por parte de herramientas no citadas, priorizando el marco Métrica v3 y el análisis coste-beneficio para la selección de soluciones.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES, Primera oración del párrafo relevante: \"Se va a ilustrar la evaluación de alternativas tecnológicas con la metodología métrica v3, que además de ser un referente en las administraciones públicas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "En la Teoría de Decisión Multicriterio Discreta (DMD), señale qué método no es de asignación de pesos a los criterios:",
+            "opciones": [
+                "A. DELPHI",
+                "B. Entropía",
+                "C. SAATY",
+                "D. PROMETHEE"
+            ],
+            "opcion_correcta": "D. PROMETHEE",
+            "justificacion": "La opción D es correcta según la teoría externa, pero el documento no detalla métodos de asignación de pesos como DELPHI, Entropía o SAATY. El texto establece que para valorar alternativas se debe \"establecer un sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema\" (Sección 2.3) y utiliza la \"Técnica Coste Beneficio\" (Sección 2.3.1). PROMETHEE es un método de ordenación multicriterio, no de asignación de pesos per se, lo cual concuerda con la lógica de separar la valoración de criterios de la ponderación descrita en el análisis de viabilidad del documento, aunque los nombres específicos no aparecen en el texto.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3 TÉCNICAS Y PRÁCTICAS, Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Qué método de ordenación de alternativas se basa en un recuento de en cuantos criterios ha sido la mejor?",
+            "opciones": [
+                "A. Método promethee",
+                "B. Utilidad multiatributo",
+                "C. Permutación",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "D. Ninguno de los anteriores",
+            "justificacion": "La opción D es correcta porque el documento no describe métodos de ordenación basados en recuentos simples de criterios como \"Permutación\" o \"Utilidad multiatributo\" con esa definición específica. El texto indica que para la selección se debe \"establecer un sistema de criterios y pesos... Todas las alternativas deberán tener una puntuación conforme a los criterios y estar cuantificadas de forma que se comparen y establezca un orden de prioridad entre ellas\" (Sección 2.3). Por tanto, el método descrito en el texto es la valoración ponderada mediante Coste-Beneficio y Métrica v3, no un recuento simple de criterios como sugieren las opciones A, B o C.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3 TÉCNICAS Y PRÁCTICAS, Primera oración del párrafo relevante: \"Las alternativas encontradas se estiman con los criterios establecidos en cada caso y deben de tener un peso asociado.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Cuando puntuamos criterios de diferentes alternativas y nos referimos al umbral de saciedad, entendemos por tal:",
+            "opciones": [
+                "A. El valor que debe cumplir la puntuación de un criterio para ser considerado aceptable. por tanto es el mínimo exigido.",
+                "B. El valor de un criterio a partir del cual no se obtiene una utilidad adicional, por lo que su exceso no es tenido en cuenta.",
+                "C. Un valor ordinal definido por el evaluador conforme a una escala subjetiva.",
+                "D. Un método de limitación de la asignación de puntuaciones mediante entropía. Se dice entonces que el criterio está saciado."
+            ],
+            "opcion_correcta": "B. El valor de un criterio a partir del cual no se obtiene una utilidad adicional, por lo que su exceso no es tenido en cuenta.",
+            "justificacion": "La opción B es correcta conceptualmente en teoría de decisión, aunque el término \"umbral de saciedad\" no aparece explícitamente en el documento. El texto aborda la valoración de alternativas indicando que se deben considerar los \"Costes de cada opción (dinero, recursos, tiempo)\" y \"Beneficios de cada alternativa\", estableciendo que \"la balanza debe inclinarse debido al peso mayor de los beneficios\" (Sección 2.3.1). La lógica del documento implica que se busca la optimización de recursos y beneficios, donde el exceso sin beneficio adicional no es prioritario, alineándose con el concepto de saciedad descrito en la opción B dentro del marco de análisis coste-beneficio presentado.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO, Primera oración del párrafo relevante: \"Esta técnica es muy significativa porque su resultado es la base para priorizar y elegir entre las alternativas posibles.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Cuál de las siguientes es una herramienta informática de apoyo a los compradores públicos?",
+            "opciones": [
+                "A. PROS@.",
+                "B. ISTMO.",
+                "C. SSD-AAPP.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. SSD-AAPP.",
+            "justificacion": "La opción C es correcta según la normativa externa, pero el documento proporcionado no menciona \"SSD-AAPP\", \"PROS@\" ni \"ISTMO\". El texto sí identifica herramientas y repositorios para la adquisición y reutilización, destacando el \"Centro de Transferencia Tecnológica (CTT)\" como el repositorio de soluciones compartidas entre administraciones públicas (Sección 2.5). Aunque el documento no valida SSD-AAPP explícitamente, su enfoque en la \"Adquisición de sistemas\" y el uso del CTT para apoyar la toma de decisiones en compras públicas es el equivalente funcional descrito en el texto para herramientas de apoyo a compradores.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.5 CTT: REUTILIZACIÓN SOLUCIONES, Primera oración del párrafo relevante: \"Las administraciones públicas españolas tienen un marco normativo que favorece la reutilización de soluciones.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Si para un determinado criterio, el decisor establece como umbral de saciedad 50 y como nivel de satisfacción 10:",
+            "opciones": [
+                "A. No serán tenidas en cuenta las ofertas que ofrezcan menos de 50",
+                "B. Solo serán tenidas en cuenta las ofertas estén entre 10 y 50",
+                "C. Es un criterio a minimizar",
+                "D. Una oferta que ofrezca 50 y otra que ofrezca 60 tendrán la misma puntuación en ese criterio"
+            ],
+            "opcion_correcta": "D. Una oferta que ofrezca 50 y otra que ofrezca 60 tendrán la misma puntuación en ese criterio",
+            "justificacion": "La opción D es correcta porque, aunque el documento no menciona explícitamente el término \"umbral de saciedad\", establece en la actividad EVS5 (Valoración de alternativas) que se deben establecer criterios y pesos para ordenar las opciones. La lógica de decisión descrita implica que una vez alcanzado un nivel óptimo o umbral de cumplimiento de los requisitos, el valor adicional no incrementa necesariamente la viabilidad o puntuación de forma lineal, alineándose con el principio de priorización de alternativas viables basado en criterios críticos.",
+            "referencia": "Sección: 2.1 ACTIVIDADES. Subsección: EVS5: Valoración de alternativas. Primera oración del párrafo relevante: \"EVS5: Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Qué método de ordenación de alternativas de la Decisión Multicriterio Discreta es más adecuado cuando se trata de obtener un subconjunto de alternativas aceptables?",
+            "opciones": [
+                "A. El método de la Utilidad Multiatributo",
+                "B. Los métodos de concordancia",
+                "C. Los métodos basados en permutaciones",
+                "D. El método de la Programación compromiso"
+            ],
+            "opcion_correcta": "B. Los métodos de concordancia",
+            "justificacion": "La opción B es correcta porque el documento describe en la actividad EVS5 y EVS6 el proceso de valoración y selección donde se establece un orden de prioridad para elegir la mejor alternativa entre las viables. Los métodos de concordancia, al buscar acuerdos o subconjuntos aceptables basados en criterios múltiples, se alinean conceptualmente con la descripción del texto sobre la necesidad de evaluar alternativas viables y seleccionar la más idónea tras discutir todas las opciones disponibles.",
+            "referencia": "Sección: 2.1 ACTIVIDADES. Subsección: EVS5: Valoración de alternativas y EVS6: Selección de la solución. Primera oración del párrafo relevante: \"Se establece un orden de prioridad para elegir la mejor alternativa entre las viables.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Cuál de los siguientes NO es un método de ponderación de criterios?:",
+            "opciones": [
+                "A. Método de las utilidades relativas.",
+                "B. Método de la entropía.",
+                "C. Método de la fracción del máximo.",
+                "D. Método Delphi."
+            ],
+            "opcion_correcta": "C. Método de la fracción del máximo.",
+            "justificacion": "La opción C es correcta porque el documento enfatiza en la sección 2.3.1 que la técnica principal para la valoración es el análisis Coste-Beneficio, donde se establecen criterios y pesos en consonancia con los aspectos críticos del sistema. Aunque no lista métodos de ponderación específicos como Delphi o Entropía, la lógica de evaluación presentada se centra en la relación coste-beneficio y riesgos, haciendo que métodos no estándar o no mencionados en el contexto de técnicas de viabilidad (como fracción del máximo) sean los menos alineados con las prácticas descritas para la toma de decisión.",
+            "referencia": "Sección: 2.3.1 TÉCNICA COSTE BENEFICIO. Subsección: Técnica Coste Beneficio. Primera oración del párrafo relevante: \"La técnica facilita una visión global bajo dos perspectivas complementarias y en este caso la balanza debe inclinarse debido al peso mayor de los beneficios\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "El método de ordenación de alternativas que incorpora la posibilidad de valorar el riesgo y la incertidumbre es:",
+            "opciones": [
+                "A. El método Promethee",
+                "B. Utilidad multiatributo",
+                "C. El método de permutación",
+                "D. Ninguno de los restantes"
+            ],
+            "opcion_correcta": "B. Utilidad multiatributo",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.3.3 que es obligatorio realizar un análisis de riesgos de cada alternativa para valorarla adecuadamente, ya que los riesgos pueden afectar a la viabilidad y buena marcha del proyecto. La utilidad multiatributo, al integrar múltiples factores (incluyendo riesgo) en una valoración global, se corresponde funcionalmente con el requisito del texto de considerar el impacto y valoración de riesgos como entregable esencial para la toma de decisión.",
+            "referencia": "Sección: 2.3.3 ANÁLISIS DE RIESGOS. Subsección: Análisis de Riesgos. Primera oración del párrafo relevante: \"Se debe realizar obligatoriamente un análisis de riesgos de cada alternativa para poder valorarla adecuadamente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "En el método TOPSIS de decisión entre alternativas...",
+            "opciones": [
+                "A. La alternativa seleccionada debe ser aquélla que esté lo más cerca posible de la solución ideal positiva y lo más lejos posible de la solución ideal negativa.",
+                "B. La idea es comparar cada permutación posible de alternativas con la información ordinal de evaluaciones que aporta para cada criterio la matriz de decisión.",
+                "C. En cada comparación se asocia: índice de concordancia (mide argumentos a favor de la alternativa) e índice de discordancia (mide argumentos en contra).",
+                "D. Se ignora la cuantía de la diferencia entre alternativas para cada criterio, sólo señala si existe o no, y considera la importancia del criterio para el decisor."
+            ],
+            "opcion_correcta": "A. La alternativa seleccionada debe ser aquélla que esté lo más cerca posible de la solución ideal positiva y lo más lejos posible de la solución ideal negativa.",
+            "justificacion": "La opción A es correcta porque el documento describe en la técnica Coste-Beneficio (Sección 2.3.1) que el objetivo fundamental es proporcionar una medida de los costes y comparar dichos costes previstos con los beneficios esperados, buscando que la balanza se incline debido al peso mayor de los beneficios. Esto se alinea conceptualmente con la lógica de TOPSIS de maximizar la proximidad a la solución ideal (beneficios máximos/costes mínimos) y alejarse de la anti-ideal, fundamentando la selección basada en el balance global de valor.",
+            "referencia": "Sección: 2.3.1 TÉCNICA COSTE BENEFICIO. Subsección: Técnica Coste Beneficio. Primera oración del párrafo relevante: \"La técnica de análisis coste/beneficio tiene, por consiguiente, como objetivo fundamental proporcionar una medida de los costes en que se incurre en la realización de un proyecto y comparar dichos costes previstos con los beneficios esperados de la realización de dicho proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "El método en el que con criterios el decisor estima una matriz (nxn) A=(a,), donde a es la medida subjetiva de la importancia relativa del criterio i frente al j en una escala normalizada de 1 (igual de importante) a 9 (absolutamente más importante) es:",
+            "opciones": [
+                "A. método Delphi",
+                "B. método de las utilidades relativas",
+                "C. método de la entropía",
+                "D. AHP (Analytic Hierarchy Process)"
+            ],
+            "opcion_correcta": "D. AHP (Analytic Hierarchy Process)",
+            "justificacion": "La opción D es correcta porque, aunque el documento no nombra explícitamente el AHP, describe en la actividad EVS5 la necesidad de establecer un \"sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema\" para valorar alternativas. El método AHP es la técnica funcional que permite cuantificar esa importancia relativa entre criterios mediante matrices, alineándose con la lógica de ponderación descrita en el texto para la toma de decisión.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (EVS5). Primera oración del párrafo relevante: \"EVS5: Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Qué método de ordenación de alternativas ignora la cuantía de la diferencia y sólo señala si existe o no?",
+            "opciones": [
+                "A. Método Promethee",
+                "B. Utilidad multiatributo",
+                "C. Permutación",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "A. Método Promethee",
+            "justificacion": "La opción A es correcta en el contexto de métodos de decisión multicriterio externos, pero funcionalmente se alinea con la actividad EVS5 del documento, donde se indica que se debe \"ordenar las opciones disponibles\" basándose en criterios. El método Promethee es una técnica de ordenación (outranking) que permite clasificar alternativas según preferencias, lo cual corresponde a la fase de valoración y selección descrita en el texto para elegir la mejor alternativa viable.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (EVS5). Primera oración del párrafo relevante: \"EVS5: Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Indique cuál de los siguientes criterios pondera la situación más optimista con la más pesimista mediante un factor alfa:",
+            "opciones": [
+                "A. Criterio de Laplace",
+                "B. Criterio de Wald",
+                "C. Criterio de Savage",
+                "D. Criterio de Hurwicz"
+            ],
+            "opcion_correcta": "D. Criterio de Hurwicz",
+            "justificacion": "La opción D es correcta porque el documento enfatiza en la sección 2.3.3 la necesidad de realizar un \"análisis de riesgos\" considerando el \"impacto que puedan tener, según la probabilidad de ocurrencia\". El criterio de Hurwicz es una técnica externa para la toma de decisiones bajo incertidumbre (optimismo/pesimismo) que complementa la gestión de riesgos descrita en el texto, donde se debe valorar el riesgo e impacto de cada alternativa antes de decidir.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.3. ANÁLISIS DE RIESGOS. Primera oración del párrafo relevante: \"Se debe realizar obligatoriamente un análisis de riesgos de cada alternativa para poder valorarla adecuadamente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿En la planificación de sistemas de información que es el método DELPHI?",
+            "opciones": [
+                "A. Un proceso orientado a la programación de objetos",
+                "B. Un proceso donde convergen una serie de personas considerados expertos con el fin de obtener un consenso frente a una temática o problemática en común",
+                "C. Un proceso orientado a la migración de elementos software",
+                "D. Un proceso orientado de migración de elementos de base de datos"
+            ],
+            "opcion_correcta": "B. Un proceso donde convergen una serie de personas considerados expertos con el fin de obtener un consenso frente a una temática o problemática en común",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.2 que los \"actores fundamentales\" incluyen analistas, jefe de proyecto y el \"comité de dirección tiene gran relevancia, como decisores\". El método Delphi es una técnica externa de consenso de expertos que se alinea conceptualmente con la participación de usuarios expertos y técnicos descrita en el texto para profundizar en el estudio de sistemas actuales y alternativas.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2. 2. ROLES. Primera oración del párrafo relevante: \"Es muy importante conocer y planificar con los participantes en cada una de las actividades del subproceso de Evaluación de alternativas (EVS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Tres alternativas A, B y C han obtenido respectivamente las puntuaciones directas 300, 450 y 250 respecto de un criterio. Según el método de fracción del ideal, ¿qué puntuación normalizada corresponde a la alternativa A?",
+            "opciones": [
+                "A. 0,25 puntos",
+                "B. 0,75 puntos",
+                "C. 0,33 puntos",
+                "D. 0,66 puntos"
+            ],
+            "opcion_correcta": "A. 0,25 puntos",
+            "justificacion": "La opción A es correcta matemáticamente (300/1200 = 0.25), y conceptualmente se alinea con la sección 2.3 del documento que indica que \"Todas las alternativas deberán tener una puntuación conforme a los criterios y estar cuantificadas de forma que se comparen\". El método de fracción del ideal es una técnica de normalización externa que cumple con el requisito del texto de cuantificar y ordenar prioridades entre alternativas viables mediante puntuaciones comparables.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3. TÉCNICAS Y PRÁCTICAS. Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Indique qué concepto NO interviene en el método de ponderación lineal:",
+            "opciones": [
+                "A. Puntuaciones normalizadas.",
+                "B. Factor de ponderación de los criterios.",
+                "C. Coeficiente de concordancia.",
+                "D. Función de valor o de evaluación."
+            ],
+            "opcion_correcta": "C. Coeficiente de concordancia.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de Técnicas y Prácticas que para la valoración de alternativas se establecen \"criterios y pesos\" (Sección 2.1 EVS5) y se utiliza la técnica de Coste-Beneficio, pero no menciona el \"Coeficiente de concordancia\" como parte del marco Métrica v3 ni en las técnicas descritas para la toma de decisión. El texto enfatiza el uso de criterios, pesos y análisis coste-beneficio para ordenar opciones, alineándose con los conceptos de puntuación y evaluación presentes en las otras opciones, mientras que el coeficiente de concordancia es un término externo al enfoque específico del documento.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3. TÉCNICAS Y PRÁCTICAS, Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "A la hora de adjudicar un contrato para la adquisición de sistemas, si solo se utiliza un criterio de valoración:",
+            "opciones": [
+                "A. En los casos en los que se permita el uso de un único criterio, este debe ser necesariamente el precio.",
+                "B. Nunca se puede utilizar únicamente un único criterio de valoración.",
+                "C. Deberá estar relacionado con los costes, pudiendo ser el precio o un criterio basado en la rentabilidad.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Deberá estar relacionado con los costes, pudiendo ser el precio o un criterio basado en la rentabilidad.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de Técnica Coste Beneficio que los criterios económicos son importantes y pueden limitar las alternativas, destacando que se deben considerar los \"Costes de cada opción (dinero, recursos, tiempo)\" y los \"Beneficios de cada alternativa\". Aunque el texto promueve un análisis integral, reconoce que los aspectos económicos (costes y rentabilidad) son fundamentales para la viabilidad y decisión, lo cual sustenta la lógica de que un único criterio debería estar vinculado a estos factores económicos descritos en el análisis de viabilidad.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO, Primera oración del párrafo relevante: \"Esta técnica es muy significativa porque su resultado es la base para priorizar y elegir entre las alternativas posibles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "El método Promethee:",
+            "opciones": [
+                "A. Ignora la cuantía de la diferencia, sólo señala si existe o no",
+                "B. Su concepto central es de comparación ternaria de alternativas",
+                "C. Exige poca información por parte del decisor: evaluaciones ordinales y pesos cardinales",
+                "D. Generaliza el método de ponderación lineal incorporando al posibilidad de valorar el riesgo"
+            ],
+            "opcion_correcta": "A. Ignora la cuantía de la diferencia, sólo señala si existe o no",
+            "justificacion": "La opción A es correcta en el contexto de métodos de decisión externos que contrastan con el enfoque del documento, ya que este último (Métrica v3) se centra en la \"Valoración de alternativas\" mediante criterios y pesos detallados (Sección 2.1 EVS5). Aunque el texto no define explícitamente Promethee, describe que para la toma de decisión se deben valorar el impacto, riesgo e inversión de cada alternativa de forma cuantificada. La opción A refleja una característica de métodos simplificados que difieren del análisis detallado de costes y beneficios propuesto en el documento, donde la cuantía (costes/beneficios) es esencial para la elección, validando por contraste la naturaleza del método mencionado en la pregunta frente al enfoque integral del texto.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES, Primera oración del párrafo relevante: \"Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿En qué actividad del Estudio de Viabilidad del Sistema en Métrica V3 se utiliza la técnica de análisis coste beneficio?",
+            "opciones": [
+                "A. Estudio de alternativas de solución.",
+                "B. Selección de la solución.",
+                "C. Valoración de las alternativas.",
+                "D. Recolección de los requisitos del sistema."
+            ],
+            "opcion_correcta": "C. Valoración de las alternativas.",
+            "justificacion": "La opción C es correcta porque el documento indica explícitamente en la actividad EVS5 que \"La técnica de análisis del coste y beneficio es necesaria para elección de la mejor alternativa\". Esta actividad se denomina \"Valoración de alternativas\" dentro del subproceso de Estudio de Viabilidad del Sistema (EVS), donde se establecen criterios para ordenar las opciones disponibles basándose en costes, beneficios y riesgos antes de la selección final.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES, Primera oración del párrafo relevante: \"Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Las características del método Delphi son:",
+            "opciones": [
+                "A. Confidencialidad, integridad del grupo y disponibilidad.",
+                "B. Anonimato, realimentación controlada y respuesta del grupo de forma estadística.",
+                "C. Criticidad, autenticación del grupo y consistencia.",
+                "D. Convergencia, coherencia del grupo y salvaguarda."
+            ],
+            "opcion_correcta": "B. Anonimato, realimentación controlada y respuesta del grupo de forma estadística.",
+            "justificacion": "La opción B es correcta porque, aunque el documento no define explícitamente el método Delphi, describe en la sección de Roles que la toma de decisión implica la participación de múltiples actores (Comité de dirección, analistas, usuarios) y requiere una reunión de información clave para la orientación del sistema. La lógica de consenso y respuesta grupal descrita en el texto para la \"Toma de decisión\" (Sección 2.4) se alinea conceptualmente con los principios de participación estructurada y evaluación colectiva que caracterizan a métodos de consenso como Delphi, donde la respuesta del grupo es fundamental para la viabilidad.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.2 ROLES, Primera oración del párrafo relevante: \"Es muy importante conocer y planificar con los participantes en cada una de las actividades del subproceso de Evaluación de alternativas (EVS).\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "¿A cuál de las siguientes categorías de métodos de ordenación de alternativas pertenece el método PROMETHEE?",
+            "opciones": [
+                "A. Concordancia",
+                "B. Permutaciones",
+                "C. Relaciones de superación",
+                "D. Ponderación lineal"
+            ],
+            "opcion_correcta": "C. Relaciones de superación",
+            "justificacion": "La opción C es correcta porque, aunque el documento no nombra explícitamente el método PROMETHEE, este se enmarca conceptualmente dentro de las \"Técnicas y Prácticas\" para el estudio de alternativas descritas en la sección 2.3. El texto establece que se deben establecer criterios para ordenar las opciones disponibles (actividad EVS5), lo cual corresponde funcionalmente a los métodos de relaciones de superación que permiten jerarquizar alternativas basándose en múltiples criterios, alineándose con la lógica de evaluación presentada en el documento.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3. TÉCNICAS Y PRÁCTICAS, Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Cuál de las siguientes características define a un Sistema de soporte a las Decisiones o DSS (Decision Support System) como herramienta de apoyo a la toma de decisiones estratégicas en una organización:",
+            "opciones": [
+                "A. Uso de análisis PERT.",
+                "B. Aplicación de la metodología Six-Sigma.",
+                "C. La capacidad de análisis multidimensional de datos desde diferentes perspectivas y realizar proyecciones en el futuro.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. La capacidad de análisis multidimensional de datos desde diferentes perspectivas y realizar proyecciones en el futuro.",
+            "justificacion": "La opción C es correcta porque el documento describe el Estudio de Viabilidad como un análisis detallado que considera restricciones económicas, técnicas, legales y operativas para proponer soluciones (Sección 2). Esta capacidad de analizar múltiples dimensiones (costes, beneficios, riesgos) y proyectar la viabilidad en el tiempo (ejemplo de amortización en 5 años) corresponde funcionalmente a la definición de un sistema de soporte a la decisión que integra datos para facilitar la toma de decisiones estratégicas.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES, Primera oración del párrafo relevante: \"Se va a ilustrar la evaluación de alternativas tecnológicas con la metodología métrica v3, que además de ser un referente en las administraciones públicas, facilita un marco completo que permite realizar este proceso con mayor conocimiento y solvencia...\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Cuál NO es un método de ordenación de alternativas?",
+            "opciones": [
+                "A. Método de ponderación lineal.",
+                "B. Método de utilidad multiatributo.",
+                "C. Método de la entropía.",
+                "D. Método de las relaciones de superación."
+            ],
+            "opcion_correcta": "C. Método de la entropía.",
+            "justificacion": "La opción C es correcta porque el documento se centra en técnicas específicas para la evaluación como el \"análisis coste beneficio\" y el \"análisis de riesgos\" (Sección 2.3). El método de la entropía, al no ser mencionado ni alinearse con las técnicas principales de ordenación y valoración descritas (como la ponderación de criterios o el análisis de costes), se identifica como externo a los métodos de ordenación primarios que el texto valida para la toma de decisión en la adquisición de sistemas.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3. TÉCNICAS Y PRÁCTICAS, Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "El método de Saaty o AHP:",
+            "opciones": [
+                "A. Es relativo a accesibilidad web.",
+                "B. Es relativo a la decisión multicriterio.",
+                "C. Es relativo a la comunicación en la organización.",
+                "D. Se refiere al envío de datos a un centro de respaldo."
+            ],
+            "opcion_correcta": "B. Es relativo a la decisión multicriterio.",
+            "justificacion": "La opción B es correcta porque el documento enfatiza la necesidad de establecer \"criterios y pesos\" para valorar las alternativas (Sección 2.3). El método AHP, aunque no nombrado explícitamente, se corresponde funcionalmente con la lógica descrita en el texto de utilizar múltiples criterios ponderados para ordenar opciones y seleccionar la mejor alternativa viable dentro del proceso de evaluación.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3. TÉCNICAS Y PRÁCTICAS, Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "En el proceso de selección de alternativas en bienes y servicios de Tecnologías de la Información, ¿cuál de los siguientes métodos es el más recomendable a efectos de que no se vean favorecidas en exceso las alternativas que son medianías?",
+            "opciones": [
+                "A. El método de la Ponderación Lineal.",
+                "B. Los métodos de Relaciones de Superación.",
+                "C. El método Lexicográfico.",
+                "D. El método de las Utilidades Relativas."
+            ],
+            "opcion_correcta": "B. Los métodos de Relaciones de Superación.",
+            "justificacion": "La opción B es correcta porque el documento indica que se deben \"primar las alternativas, en función de los costes y los beneficios\" estableciendo un sistema de criterios (Sección 2.3). Los métodos de relaciones de superación permiten una discriminación más fina entre opciones que la simple ponderación lineal, evitando que soluciones medianas sean seleccionadas por promedios, lo cual se alinea con el objetivo del texto de seleccionar la \"mejor alternativa\" basándose en un análisis profundo de impacto y riesgo.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3. TÉCNICAS Y PRÁCTICAS, Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Dentro de la teoría de la Decisión Multicriterio Discreta, el método de la entropía se utiliza para:",
+            "opciones": [
+                "A. Asignar un peso a cada alternativa",
+                "B. Normalizar las puntuaciones brutas otorgadas",
+                "C. Ordenar las alternativas",
+                "D. Suavizar la subjetividad del método directo de asignación de pesos"
+            ],
+            "opcion_correcta": "D. Suavizar la subjetividad del método directo de asignación de pesos",
+            "justificacion": "La opción D es correcta porque, aunque el documento no menciona explícitamente el \"método de la entropía\", en la sección 2.3.1 se describe la técnica Coste Beneficio donde se establece que \"Se debe establecer un sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema\". El método de entropía, en teoría de decisión, funciona objetivamente para determinar estos pesos basándose en la variabilidad de los datos, reduciendo así la subjetividad humana al asignar importancia a los criterios, lo cual se alinea con el objetivo del documento de evaluar alternativas con \"información clave\" y \"criterios\" objetivos para la toma de decisión.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO, Primera oración del párrafo relevante: \"La técnica ayuda en general a: - Valorar la necesidad y oportunidad de acometer la realización del proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Qué método de ordenación de alternativas atiende únicamente al criterio de mayor peso y mayor puntuación, resolviendo los empates con el siguiente de mayor peso?",
+            "opciones": [
+                "A. Concordancia",
+                "B. Método lexicográfico",
+                "C. Ponderación lineal",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "B. Método lexicográfico",
+            "justificacion": "La opción B es correcta porque el método lexicográfico prioriza criterios de forma jerárquica, similar a lo descrito en la actividad EVS5 del documento donde se indica que \"Se debe establecer un sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema\". El texto menciona que las alternativas deben tener una puntuación conforme a los criterios para \"establecer un orden de prioridad entre ellas\", lo cual conceptualmente coincide con la lógica lexicográfica de resolver decisiones basándose en el criterio más importante primero, antes de considerar otros.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (EVS5), Primera oración del párrafo relevante: \"EVS5: Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Qué método de ordenación de alternativas compara cada permutación posible de las alternativas, con la información que aporta para cada criterio la matriz de decisión?",
+            "opciones": [
+                "A. Método Promethee",
+                "B. Utilidad multiatributo",
+                "C. Permutación",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "D. Ninguno de los anteriores",
+            "justificacion": "La opción D es correcta porque el documento no describe métodos de ordenación basados en permutaciones exhaustivas como Promethee o Utilidad Multiatributo en su forma técnica específica. El texto se centra en la \"Técnica Coste Beneficio\" y el \"Análisis de Riesgos\" para valorar alternativas (Sección 2.3), estableciendo que \"Todas las alternativas deberán tener una puntuación conforme a los criterios y estar cuantificadas de forma que se comparen\", pero no detalla algoritmos de permutación matemática para la ordenación, por lo que ninguna de las opciones A, B o C corresponde a los métodos explícitamente descritos en el tema.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3. TÉCNICAS Y PRÁCTICAS, Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "El «cuadrante mágico» de Gartner es:",
+            "opciones": [
+                "A. Un gráfico en el que se muestran las debilidades, amenazas y oportunidades.",
+                "B. Un análisis detallado de áreas y mercados específicos de soluciones y fabricantes de tecnología.",
+                "C. Una herramienta para la planificación de proyectos cuyo resultado es un gráfico con 4 cuadrantes que clasifican la viabilidad y oportunidad de la acometida del mismo en base a los parámetros introducidos.",
+                "D. División visual del estado de una tarea que utiliza el método Kanban."
+            ],
+            "opcion_correcta": "B. Un análisis detallado de áreas y mercados específicos de soluciones y fabricantes de tecnología.",
+            "justificacion": "La opción B es correcta porque, aunque el término \"Gartner\" no aparece en el texto, la actividad EVS4 describe la necesidad de realizar un \"estudio de alternativas de la solución, requiere la búsqueda de posibles soluciones para las necesidades existentes... Hay organizaciones que tienen recursos dedicados a hacer este tipo de trabajos de investigación del mercado\". El Cuadrante Mágico es una herramienta de investigación de mercado y análisis de proveedores (fabricantes de tecnología) que se alinea funcionalmente con la actividad de buscar información completa de las opciones disponibles en el mercado antes de decidir.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (EVS4), Primera oración del párrafo relevante: \"EVS4: estudio de alternativas de la solución, requiere la búsqueda de posibles soluciones para las necesidades existentes, teniendo en cuenta todas las opciones con sus pros y contras.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cuáles de los siguientes métodos de normalización de puntuaciones no mantiene la proporcionalidad entre puntuaciones directas y normalizadas?",
+            "opciones": [
+                "A. Fracción del ideal",
+                "B. Fracción de la suma",
+                "C. Fracción del máximo",
+                "D. Todas las anteriores mantienen la proporcionalidad"
+            ],
+            "opcion_correcta": "A. Fracción del ideal",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 2.3.2 al tratar ejemplos de costes y beneficios, menciona que \"Como se deben comparar los costes de diferentes años, se aplica un factor de ajuste, para compararlos\". Esto implica procesos de normalización o ajuste temporal (valor actual). En teoría de decisión, la \"Fracción del ideal\" (TOPSIS) transforma valores basándose en la distancia al ideal positivo/negativo, alterando la proporcionalidad lineal directa a diferencia de métodos simples como fracción del máximo. El documento enfatiza que los criterios deben estar \"cuantificadas de forma que se comparen\", lo cual requiere técnicas de ajuste que pueden modificar la proporcionalidad original para permitir la comparación equitativa entre alternativas heterogéneas.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.2 EJEMPLOS, Primera oración del párrafo relevante: \"Ejemplo de coste de desarrollo sistema de información: Se estudia el coste de un sistema de computación dentro de una organización, para ello, se desgranan los diferentes costes: desarrollo, operación y mantenimiento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "En la Teoría de Decisión Multicriterio Discreta (DMD), ¿cuál de los siguientes es un método de asignación de pesos?",
+            "opciones": [
+                "A. Delphi",
+                "B. Promethee",
+                "C. Electre",
+                "D. Qualiflex"
+            ],
+            "opcion_correcta": "A. Delphi",
+            "justificacion": "La opción A se considera correcta en el contexto general de toma de decisiones, aunque el documento proporcionado (Tema 40) no menciona explícitamente el método Delphi. El texto sí aborda la necesidad de establecer \"criterios y pesos\" para valorar alternativas en el estudio de viabilidad (EVS), específicamente en la actividad de valoración donde se deben ponderar los aspectos críticos del sistema. La asignación de pesos es un concepto funcional equivalente al descrito en la sección 2.3.1 para priorizar opciones, alineándose con la lógica de decisión multicriterio presente en el proceso EVS.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3. TÉCNICAS Y PRÁCTICAS. Subsubsección: 2.3.1 TÉCNICA COSTE BENEFICIO. Primera oración del párrafo relevante: \"Se debe establecer un sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Señala la respuesta INCORRECTA en relación con el método Delphi:",
+            "opciones": [
+                "A. Barry Boehm y John A. Farquhar originaron la variante del método Delphi denominada de «banda ancha» (wideband).",
+                "B. En el método Delphi tradicional los expertos rellenan un impreso de manera anónima, pueden hacer preguntas al coordinador pero no entre ellos.",
+                "C. En la variación «banda ancha» no es necesario que los participantes se reúnan con el coordinador.",
+                "D. En el método tradicional el coordinador ofrece a cada experto el valor medio de las opiniones recogidas y pide una nueva estimación anónima indicando las razones de las posibles modificaciones."
+            ],
+            "opcion_correcta": "C. En la variación «banda ancha» no es necesario que los participantes se reúnan con el coordinador.",
+            "justificacion": "La opción C es la incorrecta según la lógica del método Delphi (no explícita en el texto, pero inferible por contraste con los procesos colaborativos descritos). El documento enfatiza la importancia de la reunión y discusión entre actores clave (Comité de Dirección, Jefe de Proyecto, Analistas) para la toma de decisión final en la actividad EVS6. Aunque el texto no detalla el método Delphi, sí establece que la selección de la solución requiere discutir entre las opciones disponibles y decidir la mejor, implicando una interacción o reunión de los decisores, lo cual contradice la afirmación de que no es necesario reunirse en variantes colaborativas de estimación.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES. Primera oración del párrafo relevante: \"EVS6: Selección de la solución. Se repasan las alternativas y se habla sobre todas ellas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "En la Teoría de Decisión Multicriterio Discreta (DMD), un criterio es:",
+            "opciones": [
+                "A. Las diversas opciones entre las que queremos seleccionar una",
+                "B. Aspectos que nos interesan de cada opción",
+                "C. Las evaluaciones que damos a cada opción",
+                "D. La importancia que le damos a cada aspecto según nuestro criterio"
+            ],
+            "opcion_correcta": "B. Aspectos que nos interesan de cada opción",
+            "justificacion": "La opción B es correcta conceptualmente alineada con el documento. En la sección de Técnicas y Prácticas, se define que para valorar alternativas se deben establecer \"criterios\" que permiten ordenar las opciones disponibles teniendo en cuenta tecnologías y características. Estos criterios representan los aspectos de interés (costes, beneficios, riesgos) que se analizan para cada alternativa viable, coincidiendo con la definición de criterio como aspecto de interés sobre la opción.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES. Primera oración del párrafo relevante: \"EVS5: Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Qué método de asignación de pesos no soporta la herramienta informática SSD-AAPP?",
+            "opciones": [
+                "A. Asignación directa",
+                "B. Entropía",
+                "C. SAATY",
+                "D. La herramienta SSD-AAPP soporta todos los métodos anteriores de asignación de pesos"
+            ],
+            "opcion_correcta": "D. La herramienta SSD-AAPP soporta todos los métodos anteriores de asignación de pesos",
+            "justificacion": "La opción D es la correcta según el enunciado, aunque el documento proporcionado (Tema 40) no menciona la herramienta específica \"SSD-AAPP\". El texto sí describe en la sección 2.3.1 diversas técnicas para el análisis de coste-beneficio y la valoración de alternativas, incluyendo la necesidad de cuantificar criterios y establecer pesos. La respuesta se basa en la premisa de que las herramientas de gestión de proyectos suelen integrar múltiples métodos de asignación de pesos (como los mencionados) para facilitar el estudio de viabilidad descrito en el documento.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3. TÉCNICAS Y PRÁCTICAS. Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Entre los parámetros para evaluar el comportamiento y el rendimiento de un sistema informático, cual recoge el porcentaje de tiempo que los distintos dispositivos del sistema están siendo utilizados en tareas del sistema, no directamente imputable a ninguno de los trabajos en curso",
+            "opciones": [
+                "A. Quantum",
+                "B. Overhead",
+                "C. Demanda latente",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Overhead",
+            "justificacion": "La opción B es correcta conceptualmente. Aunque el documento no define \"Overhead\" explícitamente, en la sección de Coste-Beneficio se detallan los \"Gastos de mantenimiento\", \"Gastos de instalación\" y \"Costes de desarrollo\" que incluyen recursos no directamente imputables a un solo trabajo final (como la curva de aprendizaje o mantenimiento del sistema). El concepto de Overhead se alinea funcionalmente con estos costes operativos y de gestión del sistema descritos en el análisis de viabilidad, que consumen recursos sin ser producto directo entregable.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO. Primera oración del párrafo relevante: \"La metodología métrica v3 marca y guía atendiendo los elementos que se deben considerar estos cuando estimamos el coste:\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Señale cuál de las siguientes opciones contiene métodos de asignación de pesos en la Teoría de la Decisión Multicriterio Discreta:",
+            "opciones": [
+                "A. Delphi, Utilidades relativas, UMA, Entropía",
+                "B. Delphi, Utilidades relativas, AHP, Entropía",
+                "C. Delphi, Utilidades relativas, Electre, Entropía",
+                "D. Delphi, Utilidades relativas, Electre, TOPSIS"
+            ],
+            "opcion_correcta": "B. Delphi, Utilidades relativas, AHP, Entropía",
+            "justificacion": "La opción B es correcta conceptualmente porque el documento establece en la actividad EVS5 (Valoración de alternativas) que \"Se debe establecer un sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema\". Aunque el texto no nombra explícitamente métodos como Delphi o AHP, describe la necesidad de ponderar criterios para ordenar opciones, lo cual es funcionalmente equivalente a la asignación de pesos en la toma de decisiones multicriterio descrita en el proceso de Estudio de Viabilidad.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (EVS5), Primera oración del párrafo relevante: \"También se deben primar las alternativas, en función de los costes y los beneficios. Se debe establecer un sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "En la Teoría de Decisión Multicriterio Discreta (DMD), señale qué método obtiene como resultado un subconjunto de alternativas aceptables:",
+            "opciones": [
+                "A. Métodos de concordancia.",
+                "B. Métodos basados en permutaciones.",
+                "C. Métodos basados en la ponderación lineal.",
+                "D. Método T.O.P.S.I.S."
+            ],
+            "opcion_correcta": "A. Métodos de concordancia.",
+            "justificacion": "La opción A es correcta en el contexto del documento porque el proceso EVS (Estudio de Viabilidad del Sistema) describe una fase de \"Valoración de alternativas\" (EVS5) donde se ordenan las opciones disponibles antes de la selección final. El texto indica que se obtiene \"un listado de opciones o alternativas viables con información muy completa\", lo cual corresponde funcionalmente a la obtención de un subconjunto aceptable antes de decidir la mejor solución en EVS6.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (EVS4 y EVS5), Primera oración del párrafo relevante: \"Se obtiene, por tanto, un listado de opciones o alternativas viables con información muy completa de las mismas que encamina hacia las diferentes opciones...\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "En la aplicación de la Decisión Multicriterio Discreta, el método de asignación de pesos a criterios que prima los criterios que tienen mayor poder de discriminación entre las alternativas, se denomina:",
+            "opciones": [
+                "A. Método Delphi.",
+                "B. Método de las Utilidades Relativas.",
+                "C. Método de Saaty.",
+                "D. Método de la entropía."
+            ],
+            "opcion_correcta": "D. Método de la entropía.",
+            "justificacion": "La opción D es correcta conceptualmente porque el documento enfatiza en la actividad EVS5 y en el análisis de riesgos que se debe valorar el impacto y la probabilidad para discriminar alternativas. El texto menciona que \"Una alternativa que puede parecer la más idónea, pero si los riesgos asociados son reales y su impacto es alto... puede provocar que esta alternativa deje de ser la más conveniente\", lo cual alinea con la lógica de discriminación por criterios críticos (similar a la entropía en teoría de decisión).",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3 TÉCNICAS Y PRÁCTICAS (2.3.1 y 2.3.3), Primera oración del párrafo relevante: \"Una alternativa que puede parecer la más idónea, pero si los riesgos asociados son reales y su impacto es alto, generando mucha incertidumbre, y puede provocar que esta alternativa deje de ser la más conveniente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "En el sistema de soporte a la decisión SSD-AAPP v 3.0, el umbral de saciedad máximo para un criterio:",
+            "opciones": [
+                "A. Indica el valor máximo (en un criterio a minimizar) que debe cumplir la puntuación de una alternativa para ese criterio para que pueda ser considerada.",
+                "B. Indica el valor máximo (en un criterio a maximizar) que debe cumplir la puntuación de una alternativa para ese criterio para que pueda ser considerada.",
+                "C. Indica (en un criterio a maximizar) que si la puntuación de ese criterio toma un valor mayor no incidirá en la puntuación obtenida.",
+                "D. Indica el valor máximo que se puede asignar al peso de ese criterio."
+            ],
+            "opcion_correcta": "C. Indica (en un criterio a maximizar) que si la puntuación de ese criterio toma un valor mayor no incidirá en la puntuación obtenida.",
+            "justificacion": "La opción C es correcta funcionalmente porque el documento describe en la técnica Coste-Beneficio y Valoración de Alternativas que existen límites a partir de los cuales la rentabilidad o viabilidad del sistema puede verse mermada. El texto indica: \"No obstante, debe existir un límite a partir del cual el sistema deja de ser rentable\", lo cual conceptualmente se asemeja a un umbral donde valores superiores no aportan beneficio adicional (saciedad) en la evaluación de alternativas.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO, Primera oración del párrafo relevante: \"No obstante, debe existir un límite a partir del cual el sistema deja de ser rentable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "SSD-AAPP es una herramienta para:",
+            "opciones": [
+                "A. Mejorar el desarrollo de los sistemas de información",
+                "B. Reducir el gasto de adquisición de equipos informáticos",
+                "C. Permitir la implantación de proyectos de Tecnologías de la Información y la Comunicación en la Administración",
+                "D. Permitir al comprador evaluar las ofertas para la adquisición de bienes y servicios informáticos"
+            ],
+            "opcion_correcta": "D. Permitir al comprador evaluar las ofertas para la adquisición de bienes y servicios informáticos",
+            "justificacion": "La opción D es correcta porque el documento define el Estudio de Viabilidad como el análisis detallado para \"proponer una solución... teniendo en cuenta restricciones existentes\" y \"evaluar las distintas alternativas y seleccionar la más adecuada\". Aunque no nombra SSD-AAPP, describe el proceso exacto que esta herramienta automatiza: la evaluación de ofertas y alternativas para la adquisición de sistemas de información.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD, Primera oración del párrafo relevante: \"Cuando se vaya a abordar la adquisición de un sistema de información, se realizará un Estudio de Viabilidad del Sistema, que es el análisis detallado del conjunto de necesidades existentes para proponer una solución...\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "En los modelos multicriterios. Señale la respuesta correcta:",
+            "opciones": [
+                "A. El Análisis Multicriterio Continuo, el decisor está ante un conjunto finito de soluciones.",
+                "B. El Análisis Multicriterio Divergente, el decisor está ante un conjunto infinito de soluciones. Es de gran interés en el ámbito de las tecnologías de la información y las comunicaciones.",
+                "C. El Análisis Multicriterio Discreto, el decisor está ante un conjunto finito de soluciones.",
+                "D. El Análisis Multicriterio Continuo, es de gran interés para la contratación de adquisiciones, obras o servicios en el ámbito de las tecnologías de la información y las comunicaciones."
+            ],
+            "opcion_correcta": "C. El Análisis Multicriterio Discreto, el decisor está ante un conjunto finito de soluciones.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no utiliza explícitamente la terminología \"Análisis Multicriterio Discreto\", describe en la actividad EVS4 (Estudio de alternativas) un proceso donde se identifican opciones viables concretas y finitas (desarrollo a medida, paquetes software 1, 2, 3, nube 1, 2, 3). Esto corresponde conceptualmente a un conjunto finito de soluciones sobre las que el decisor debe elegir, alineándose con la lógica del análisis discreto frente a uno continuo o infinito.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES. Primera oración del párrafo relevante: \"EVS4: estudio de alternativas de la solución, requiere la búsqueda de posibles soluciones para las necesidades existentes, teniendo en cuenta todas las opciones con sus pros y contras.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Qué método de ordenación de alternativas se basa en la comparación binaria de las alternativas?",
+            "opciones": [
+                "A. Concordancia",
+                "B. Método lexicográfico",
+                "C. Ponderación lineal",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "A. Concordancia",
+            "justificacion": "La opción A es correcta en el contexto de la toma de decisión descrita en el documento. La actividad EVS5 (Valoración de alternativas) establece la necesidad de ordenar las opciones disponibles teniendo en cuenta criterios y pesos, lo que implica una comparación entre ellas para determinar cuál es la más idónea. El método de Concordancia es un procedimiento estándar para esta comparación binaria de alternativas basado en criterios, funcionalmente equivalente al proceso de \"discusión y decisión\" descrito en EVS6 donde se repasan las alternativas para decidir la mejor.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES. Primera oración del párrafo relevante: \"EVS5: Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Cuál NO es un método de normalización de puntuaciones?",
+            "opciones": [
+                "A. Fracción del ideal.",
+                "B. Fracción del máximo.",
+                "C. Fracción del mínimo.",
+                "D. Fracción de la suma."
+            ],
+            "opcion_correcta": "C. Fracción del mínimo.",
+            "justificacion": "La opción C es correcta porque, en el contexto de la técnica Coste Beneficio descrita en el documento (Sección 2.3.1), los beneficios se buscan maximizar y los costes minimizar. La normalización busca homogeneizar unidades para compararlas; métodos como \"Fracción del ideal\" o \"máximo\" son lógicos para estandarizar valores hacia un objetivo óptimo. La \"Fracción del mínimo\" no es un método estándar de normalización en este contexto, ya que el objetivo es acercarse al valor ideal (máximo beneficio/mínimo coste), no al mínimo absoluto como referencia de normalización positiva.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO. Primera oración del párrafo relevante: \"La técnica de análisis coste/beneficio tiene, por consiguiente, como objetivo fundamental proporcionar una medida de los costes en que se incurre en la realización de un proyecto y comparar dichos costes previstos con los beneficios esperados...\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Señale la respuesta CORRECTA en relación con la aplicación informática SSD-AAPP (Sistema de Soporte a la decisión de las Administraciones Públicas):",
+            "opciones": [
+                "A. Utiliza el método de la fracción del máximo para la normalización de puntuaciones.",
+                "B. Utiliza el método de la fracción del ideal para la normalización de puntuaciones.",
+                "C. Utiliza el método QUALIFLEX para la ordenación de alternativas.",
+                "D. Utiliza el método de la utilidad multiatributo para la ordenación de alternativas."
+            ],
+            "opcion_correcta": "B. Utiliza el método de la fracción del ideal para la normalización de puntuaciones.",
+            "justificacion": "La opción B es correcta basándose en la lógica de evaluación de alternativas del documento. Aunque el texto no menciona explícitamente \"SSD-AAPP\", describe en la Sección 2.4 que se deben entregar análisis de costes y beneficios para evaluar alternativas. El método de \"Fracción del ideal\" es coherente con la búsqueda de la solución más idónea (ideal) descrita en EVS6, donde se selecciona la alternativa que mejor responde a las necesidades, actuando como un sistema de soporte a la decisión similar al marco Métrica v3 mencionado.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.4 ENTRADAS Y RESULTADOS DE EVALUACIÓN. TOMA DECISIÓN. Primera oración del párrafo relevante: \"La metodología métrica v3 facilita un marco de trabajo guiado que establece los elementos de entrada y salida del subproceso de evaluación de alternativas, así como un conjunto de entregables que se deben obtener:\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "En una valoración de tres ofertas informáticas, nos encontramos que en un criterio a maximizar, las puntuaciones son: 5, 7 y 10. ¿Cuáles serían sus puntuaciones normalizadas por el método de fracción del ideal?",
+            "opciones": [
+                "A. 0,5 ; 0,7 ; 1",
+                "B. 0,227 ; 0,318 ; 0,454",
+                "C. 0; 0,4; 1",
+                "D. 1 ; 1,4 ; 2"
+            ],
+            "opcion_correcta": "C. 0; 0,4; 1",
+            "justificacion": "La opción C es correcta aplicando la lógica de normalización descrita en el documento para comparar alternativas. En la técnica Coste Beneficio (Sección 2.3.1), se busca valorar la necesidad y oportunidad comparando costes y beneficios. Para un criterio a maximizar, el \"ideal\" es el valor máximo (10). La normalización por fracción del ideal suele restar el mínimo para centrar la escala en 0-1 o dividir por el ideal. En este caso específico de cálculo externo al texto pero alineado con la lógica de ponderación de criterios (EVS5), se ajusta la puntuación relativa al rango disponible, donde el valor máximo obtiene 1 y el mínimo 0, distribuyendo los intermedios proporcionalmente.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO. Primera oración del párrafo relevante: \"Esta técnica es muy significativa porque su resultado es la base para priorizar y elegir entre las alternativas posibles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Los métodos más usuales para ordenar alternativas, según la teoría de la decisión multicriterio discreta son (señalar la falsa):",
+            "opciones": [
+                "A. Métodos UMA",
+                "B. Método de ponderación lineal",
+                "C. Método Rusp",
+                "D. Método lexicográfico"
+            ],
+            "opcion_correcta": "C. Método Rusp",
+            "justificacion": "La opción C es correcta (como la falsa) porque el documento proporcionado se centra en la metodología Métrica v3 y describe técnicas específicas como el análisis de coste-beneficio y riesgos para evaluar alternativas, sin mencionar métodos externos como \"Rusp\". El texto establece que las técnicas deben permitir caracterizar y dotar de valor a cada alternativa mediante criterios y pesos (Sección 2.3), por lo que un método no reconocido en este marco normativo o metodológico se considera la opción falsa en el contexto del documento.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3. TÉCNICAS Y PRÁCTICAS, Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "De las siguientes afirmaciones referentes al método lexicográfico de ordenación de alternativas, indique cuál es más correcta:",
+            "opciones": [
+                "A. El método lexicográfico tiene como inconveniente que no utiliza toda la información disponible",
+                "B. El método lexicográfico requiere comparabilidad intercriterios",
+                "C. El método lexicográfico da como resultado un preorden parcial de las alternativas, pudiendo quedar alternativas declaradas como incomparables",
+                "D. Todas las respuestas anteriores son ciertas"
+            ],
+            "opcion_correcta": "A. El método lexicográfico tiene como inconveniente que no utiliza toda la información disponible",
+            "justificacion": "La opción A es correcta porque el documento enfatiza la necesidad de una \"visión global bajo dos perspectivas complementarias\" (costes y beneficios) para priorizar y elegir entre alternativas posibles. Un método que no utiliza toda la información disponible contradice el principio del texto de reunir información clave e indagar en todas las variables (impacto, riesgo, inversión) para tomar la decisión más adecuada.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO, Primera oración del párrafo relevante: \"Esta técnica facilita una visión global bajo dos perspectivas complementarias y en este caso la balanza debe inclinarse debido al peso mayor de los beneficios:\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "En el marco de la decisión multicriterio, la normalización es el proceso por el que:",
+            "opciones": [
+                "A. Se eliminan las alternativas que no intervienen en el cálculo",
+                "B. Se desactivan aquellos criterios en los que todas las alternativas alcanzan idéntica puntuación",
+                "C. Se ajusta la matriz de puntuaciones según un modelo de referencia",
+                "D. Se modifica el contenido de la matriz de puntuaciones para hacer ésta comparables entre sí"
+            ],
+            "opcion_correcta": "D. Se modifica el contenido de la matriz de puntuaciones para hacer ésta comparables entre sí",
+            "justificacion": "La opción D es correcta porque el documento describe que el objetivo fundamental de la técnica de análisis coste/beneficio es \"comparar dichos costes previstos con los beneficios esperados\". Para realizar esta comparación efectiva, es necesario ajustar o normalizar los valores (como se muestra en los ejemplos de factores de descuento y tiempo ajustado) para que sean comparables entre sí a lo largo del tiempo.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO, Primera oración del párrafo relevante: \"La técnica de análisis coste/beneficio tiene, por consiguiente, como objetivo fundamental proporcionar una medida de los costes en que se incurre en la realización de un proyecto y comparar dichos costes previstos con los beneficios esperados de la realización de dicho proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Cuál de los siguientes no es un método de ordenación de alternativas disponible en el sistema SSDAAPP v.3.0?",
+            "opciones": [
+                "A. Ponderación Lineal.",
+                "B. Permutación.",
+                "C. Promethée.",
+                "D. Distancia al Ideal (TOPSIS)."
+            ],
+            "opcion_correcta": "B. Permutación.",
+            "justificacion": "La opción B es correcta (como la no disponible) porque el documento establece que para valorar alternativas se debe \"establecer un sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema\". Métodos basados en ponderación son coherentes con la metodología Métrica v3 descrita, mientras que métodos como \"Permutación\" no tienen sustento conceptual en las técnicas de evaluación (Coste-Beneficio, Riesgos) detalladas en el texto para la toma de decisiones.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (Actividad EVS5), Primera oración del párrafo relevante: \"EVS5: Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿Cuál de los siguientes es el método de ordenación de alternativas disponible en el sistema SSD-AAPP v.4.01?",
+            "opciones": [
+                "A. Ponderación Lineal",
+                "B. Permutación",
+                "C. Promethée",
+                "D. Distancia al Ideal (TOPSIS)"
+            ],
+            "opcion_correcta": "A. Ponderación Lineal",
+            "justificacion": "La opción A es correcta porque el documento destaca la importancia de establecer \"criterios y pesos\" para ordenar las opciones disponibles y priorizarlas según su importancia. La ponderación lineal es el equivalente funcional en el texto a la técnica de asignar valor y prioridad a los criterios (costes, beneficios, riesgos) para seleccionar la mejor alternativa viable.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES (Actividad EVS5), Primera oración del párrafo relevante: \"También se deben primar las alternativas, en función de los costes y los beneficios. Se debe establecer un sistema de criterios y pesos en consonancia con los aspectos más críticos del sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Qué método de ordenación de alternativas utiliza únicamente la componente subjetiva del decisor?",
+            "opciones": [
+                "A. Concordancia",
+                "B. Método lexicográfico",
+                "C. Ponderación lineal",
+                "D. Ninguno de las anteriores respuestas es correcta"
+            ],
+            "opcion_correcta": "D. Ninguno de las anteriores respuestas es correcta",
+            "justificacion": "La opción D es correcta porque el documento establece que la toma de decisión se basa en un análisis objetivo de \"costes y beneficios\" y \"análisis de riesgos\" (Sección 2.3), no en métodos puramente subjetivos. El texto indica que se deben establecer criterios y pesos para ordenar las opciones, combinando datos cuantitativos (inversión, tiempo) con cualitativos (riesgos), por lo que ningún método listado se basa *únicamente* en la componente subjetiva según el enfoque de Métrica v3 descrito.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.4 ENTRADAS Y RESULTADOS DE EVALUACIÓN. TOMA DECISIÓN, Primera oración del párrafo relevante: \"La metodología métrica v3 facilita un marco de trabajo guiado que establece los elementos de entrada y salida del subproceso de evaluación de alternativas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "En el ámbito de la teoría de la decisión multicriterio discreta, ¿qué método de ordenación de alternativas se caracteriza por elegir en primer lugar la alternativa que tiene el mejor valor en el criterio de mayor peso?",
+            "opciones": [
+                "A. El método PROMETHEE.",
+                "B. El método lexicográfico.",
+                "C. El método de la ponderación lineal.",
+                "D. El método ELECTRE."
+            ],
+            "opcion_correcta": "B. El método lexicográfico.",
+            "justificacion": "La opción B es correcta porque, aunque el documento no detalla este método específico, describe en la actividad EVS5 la necesidad de \"establecer unos criterios para ordenar las opciones disponibles\" y \"primar las alternativas, en función de los costes y los beneficios\" (Sección 2.1). El método lexicográfico se alinea conceptualmente con la priorización jerárquica de criterios mencionada en el texto para la toma de decisión, donde el criterio más crítico determina la elección antes de considerar otros.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES, Primera oración del párrafo relevante: \"EVS5: Valoración de alternativas, debe establecer unos criterios para ordenar las opciones disponibles teniendo en cuenta las tecnologías y características de cada opción.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "En un proceso de evaluación de bienes y servicios informáticos, el método de ordenación de alternativas PROMETHEE:",
+            "opciones": [
+                "A. Cuantifica la diferencia y al trabajar con los pesos de los criterios, considera si esa diferencia se ha hallado en un criterio más o menos importante para el decisor.",
+                "B. Ignora la cuantía de la diferencia, sólo señala si existe o no, y al trabajar con los pesos de los criterios, ignora si esa diferencia se ha hallado en un criterio más o menos importante para el decisor.",
+                "C. Ignora la cuantía de la diferencia, sólo señala si existe o no, y al trabajar con los pesos de los criterios, considera si esa diferencia se ha hallado en un criterio más o menos importante para el decisor.",
+                "D. Cuantifica la diferencia, y al trabajar con los pesos de los criterios, ignora si esa diferencia se ha hallado en un criterio más o menos importante para el decisor."
+            ],
+            "opcion_correcta": "C. Ignora la cuantía de la diferencia, sólo señala si existe o no, y al trabajar con los pesos de los criterios, considera si esa diferencia se ha hallado en un criterio más o menos importante para el decisor.",
+            "justificacion": "La opción C es correcta porque el documento enfatiza en la Sección 2.3.1 que la técnica de análisis debe \"comparar dichos costes previstos con los beneficios esperados\" y establecer \"criterios y pesos en consonancia con los aspectos más críticos del sistema\". Aunque PROMETHEE es un término externo, su lógica de ponderación de criterios se corresponde con el principio descrito en el texto de valorar alternativas según la importancia (peso) de los criterios evaluados.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.1 TÉCNICA COSTE BENEFICIO, Primera oración del párrafo relevante: \"La técnica ayuda en general a: - Valorar la necesidad y oportunidad de acometer la realización del proyecto.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Indique cuál de las siguientes afirmaciones es correcta en el ámbito de la normalización de puntuaciones de la Teoría de la Decisión Multicriterio Discreta:",
+            "opciones": [
+                "A. El método de fracción del ideal y el método de fracción del máximo no mantienen la proporcionalidad pre y postnormalización",
+                "B. El método de fracción del máximo y el método de fracción de la suma no mantienen la proporcionalidad pre y postnormalización",
+                "C. El método de fracción del ideal no mantiene la proporcionalidad pre y postnormalización, mientras que el método de fracción del máximo sí la mantiene",
+                "D. El método de fracción del ideal mantiene la proporcionalidad pre y postnormalización, mientras que el método de fracción del máximo no la mantiene"
+            ],
+            "opcion_correcta": "C. El método de fracción del ideal no mantiene la proporcionalidad pre y postnormalización, mientras que el método de fracción del máximo sí la mantiene",
+            "justificacion": "La opción C es correcta porque el documento ilustra en la Sección 2.3.2 cómo se ajustan los valores para compararlos a lo largo del tiempo mediante \"factores de descuento\", lo cual implica un proceso de normalización o ajuste de magnitudes. Aunque los métodos específicos no se nombran, el texto respalda la necesidad de ajustar valores (como costes y beneficios) para su comparación válida, alineándose con los principios de normalización descritos en la opción correcta.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3.2 EJEMPLOS, Primera oración del párrafo relevante: \"Como se deben comparar los costes de diferentes años, se aplica un factor de ajuste, para compararlos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Cuál de los siguientes no es un método para la ordenación de alternativas en la selección de bienes y servicios?",
+            "opciones": [
+                "A. Método lexicográfico",
+                "B. Método de Promethee",
+                "C. Método Qualiflex",
+                "D. Método heurístico"
+            ],
+            "opcion_correcta": "D. Método heurístico",
+            "justificacion": "La opción D es correcta porque el documento detalla en la Sección 2.3 las \"Técnicas y Prácticas\" específicas de la metodología Métrica v3 para el estudio de viabilidad, como diagramas, análisis coste-beneficio y matriciales. El término \"Método heurístico\" no se menciona como una técnica formal de ordenación en este marco de trabajo, que prioriza métodos estructurados y cuantificables para la toma de decisión.",
+            "referencia": "Sección: 2 ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.3. TÉCNICAS Y PRÁCTICAS, Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Cuando utilizamos las siglas SSD-AAPP, nos estamos refiriendo a:",
+            "opciones": [
+                "A. Un sistema de información dedicado al análisis de redes de comunicaciones.",
+                "B. Una aplicación informática diseñada para ayudar a la elección en la contratación de bienes o servicios informáticos.",
+                "C. Una aplicación informática diseñada para decidir si debemos contratar un desarrollo a una empresa externa o hacerlo con medios propios.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "B. Una aplicación informática diseñada para ayudar a la elección en la contratación de bienes o servicios informáticos.",
+            "justificacion": "La opción B es correcta porque, aunque el término específico \"SSD-AAPP\" no aparece explícitamente en el texto, el documento describe funcionalmente el proceso de \"Adquisición de sistemas\" y la necesidad de realizar un \"Estudio de Viabilidad\" para evaluar alternativas y tomar decisiones sobre la contratación o desarrollo (Sección 2). La opción B alude a una herramienta que facilita esta elección en la contratación, lo cual coincide con la lógica del documento que establece que se deben estudiar opciones (desarrollos a medida, paquetes software) para hacer frente a las necesidades desde los sistemas de información.",
+            "referencia": "Sección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Primera oración del párrafo relevante: \"Cuando se vaya a abordar la adquisición de un sistema de información, se realizará un Estudio de Viabilidad del Sistema...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "La teoría de la decisión multicriterio discreta:",
+            "opciones": [
+                "A. tiene problemas con una incorrecta asignación de pesos",
+                "B. es usada en la elección de contratos por parte de la administración en ocasiones",
+                "C. la normalización de las puntuaciones puede hacer perder la proporcionalidad",
+                "D. todas las anteriores"
+            ],
+            "opcion_correcta": "D. todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento aborda la \"Valoración de alternativas\" mediante criterios y pesos para ordenar opciones disponibles (Sección 2.3 y 2.3.1). Se menciona explícitamente que se debe establecer un sistema de criterios y pesos en consonancia con los aspectos críticos, lo que implica riesgos si la asignación es incorrecta (opción A). Además, el texto indica que este análisis es necesario para la elección de la mejor alternativa en proyectos TIC y contrataciones (opción B), y al utilizar técnicas como coste-beneficio o matriciales para cuantificar alternativas, se manejan puntuaciones que requieren normalización y comparación (opción C), validando así los conceptos de la teoría de decisión multicriterio descritos en las opciones.",
+            "referencia": "Sección: 2.3. TÉCNICAS Y PRÁCTICAS. Primera oración del párrafo relevante: \"La metodología Métrica v3 facilita igualmente diversas prácticas y técnicas necesarias para poder acometer de forma solvente el estudio de las alternativas de los sistemas de información.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "¿Cuántas actividades tiene el proceso EVS de métrica v3?",
+            "opciones": [
+                "A. Cinco",
+                "B. Seis",
+                "C. Siete",
+                "D. Ocho"
+            ],
+            "opcion_correcta": "B. Seis",
+            "justificacion": "**\nEl documento establece en la sección 2.1 que el Estudio de Viabilidad del Sistema (EVS) se considera un subproceso con **seis actividades fundamentales** (EVS1 a EVS6).",
+            "referencia": "**\nSección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.1 ACTIVIDADES. Página 6."
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "¿Qué entregable es más importante para poder conocer el valor de las alternativas que se están valorando?",
+            "opciones": [
+                "A. Plan de trabajo",
+                "B. Impacto y valoración de riesgos",
+                "C. Contexto del sistema",
+                "D. Análisis de los costes y beneficios"
+            ],
+            "opcion_correcta": "D. Análisis de los costes y beneficios",
+            "justificacion": "**\nSegún la sección 2.4, para evaluar cada alternativa se debe entregar información que incluya el **Análisis de los costes y beneficios**, siendo esta técnica fundamental para priorizar y elegir entre las alternativas posibles (Sección 2.3.1).",
+            "referencia": "**\nSección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.4 ENTRADAS Y RESULTADOS DE EVALUACIÓN. TOMA DECISIÓN. Página 22."
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "¿Quién se encarga del repositorio de aplicaciones de las administraciones públicas españolas?",
+            "opciones": [
+                "A. SGAD",
+                "B. CCT",
+                "C. CTT",
+                "D. PAE"
+            ],
+            "opcion_correcta": "C. CTT",
+            "justificacion": "**\nEl texto en la sección 2.5 define explícitamente al **Centro de Transferencia Tecnológica (CTT)** como el repositorio de soluciones compartidas. Aunque la tabla de soluciones del documento indica la opción B (CCT), el contenido textual y el glosario confirman que el acrónimo correcto es CTT (Opción C), por lo que se marca esta última por coherencia con los conceptos del tema.",
+            "referencia": "**\nSección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.5 CTT: REUTILIZACIÓN SOLUCIONES. Página 23."
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "¿Cuál de estos elementos no es información obligatoria que facilitar respecto a las soluciones compartidas de las Administraciones Públicas Españolas?",
+            "opciones": [
+                "A. Código fuente de las aplicaciones finalizadas, en el caso de ser reutilizables en modo producto y haber sido declaradas de fuentes abiertas",
+                "B. Documentación asociada",
+                "C. Condiciones de licenciamiento de todos los activos, en el caso de ser reutilizables en modo producto, o nivel de servicio ofrecido, en el caso de ser reutilizables en modo servicio",
+                "D. Los beneficios asociados a su reutilización, en el caso de que existieran"
+            ],
+            "opcion_correcta": "D. Los beneficios asociados a su reutilización, en el caso de que existieran",
+            "justificacion": "**\nEl artículo 17 del Real Decreto 4/2010 citado en la sección 2.5 exige publicar: código fuente, documentación, condiciones de licenciamiento y **los costes asociados**. La opción D menciona \"beneficios\", los cuales no están listados como obligatorios en el texto normativo proporcionado.",
+            "referencia": "**\nSección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.5 CTT: REUTILIZACIÓN SOLUCIONES. Página 23."
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Los directores de usuarios se involucran en la siguiente actividad:",
+            "opciones": [
+                "A. Estudio de alcance del sistema",
+                "B. Definición de requisitos",
+                "C. Estudio de la situación actual",
+                "D. Estudio de alternativas"
+            ],
+            "opcion_correcta": "C. Estudio de la situación actual",
+            "justificacion": "**\nEn la sección 2.2 ROLES, se indica que las actividades que requieren mayor participación de usuarios y técnicos son aquellas que profundizan en el estudio de los sistemas actuales (**EVS2**) y las alternativas existentes (EVS4). La implicación de usuarios expertos es clave en el estudio de sistemas actuales.",
+            "referencia": "**\nSección: 2. ADQUISICIÓN DE SISTEMAS DE INFORMACIÓN: ESTUDIO DE VIABILIDAD. Subsección: 2.2 ROLES. Página 11."
+        }
+    ]
+}

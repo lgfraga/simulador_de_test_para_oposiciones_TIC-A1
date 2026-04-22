@@ -1,0 +1,447 @@
+{
+    "nombre_tema": "Tema 91",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Qué significa el principio de «Privacidad desde el Diseño» (Privacy by Design)?",
+            "opciones": [
+                "A. Integrar la protección de datos y la privacidad en la tecnología y en el diseño del sistema desde las primeras fases del desarrollo.",
+                "B. Realizar una auditoría de privacidad justo antes de lanzar el sistema a producción.",
+                "C. Ofrecer a los usuarios la posibilidad de configurar sus opciones de privacidad una vez que se han registrado en el sistema.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Integrar la protección de datos y la privacidad en la tecnología y en el diseño del sistema desde las primeras fases del desarrollo.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 2.1.12 que el principio de \"Privacidad por diseño\" establece que la privacidad y la protección de datos están integradas a lo largo de todo el ciclo de vida de las tecnologías, desde la etapa de diseño inicial hasta su despliegue, uso y eliminación final. Esto coincide con la integración desde las primeras fases del desarrollo mencionada en la opción correcta, descartando las opciones que sugieren acciones tardías o configuraciones posteriores al registro.",
+            "referencia": "Sección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.12 MEDIDAS DE PRIVACIDAD. Primera oración del párrafo relevante: \"Privacidad por diseño: El principio de privacidad por diseño establece que la privacidad y la protección de datos están integradas a lo largo de todo el ciclo de vida de las tecnologías, desde la etapa de diseño inicial hasta su despliegue, uso y eliminación final.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Qué requisitos no funcionales define el cumplimiento con normativas legales?",
+            "opciones": [
+                "A. Requisitos de rendimiento.",
+                "B. Requisitos organizativos.",
+                "C. Requisitos de producto.",
+                "D. Requisitos externos."
+            ],
+            "opcion_correcta": "D. Requisitos externos.",
+            "justificacion": "La opción D es correcta porque el documento clasifica los requisitos no funcionales en Producto, Organizacionales y Externos (Sección 1.2). Específicamente, en la subsección 1.2.4 se detalla que los \"Requisitos externos\" incluyen limitaciones de índole económica, requisitos regulatorios, legales concernientes con licencias, regulaciones o certificaciones que necesita el producto según la industria. Por tanto, el cumplimiento legal se encuadra dentro de los requisitos externos y no en los de producto u organizativos.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: 1.2.4 REQUISITOS NO FUNCIONALES EXTERNOS. Primera oración del párrafo relevante: \"Estos derivan del entorno organizacional (entorno no técnico) en el cual se desarrolla el sistema y pueden hacerse tanto sobre el producto (el software desarrollado) o también sobre el proceso de desarrollo de software.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Se puede definir resilencia como:",
+            "opciones": [
+                "A. Capacidad de funcionar en presencia de fallos, tensiones, entradas inválidas…",
+                "B. La capacidad de absorber o evitar daños sin sufrir un fallo completo",
+                "C. La capacidad de un sistema para aceptar una carga más alta sin degradarse",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. La capacidad de absorber o evitar daños sin sufrir un fallo completo",
+            "justificacion": "La opción B es correcta porque en la lista de ejemplos de requisitos no funcionales presentada en la sección 1.1, el documento define textualmente \"Resiliencia\" como \"Es la capacidad de absorber o evitar daños sin sufrir un fallo completo\". La opción A corresponde a la definición de \"Robustez\" también presente en el mismo listado, y la opción C se refiere a la \"Escalabilidad\", por lo que solo la B coincide con la definición de resiliencia proporcionada en el texto.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: 1.1 CARACTERÍSTICAS DEL DESARROLLO Y DE LOS REQUISITOS SOFTWARE. Primera oración del párrafo relevante (ítem de lista): \"Resiliencia: Es la capacidad de absorber o evitar daños sin sufrir un fallo completo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "El volumen de trabajo o de información neto que fluye a través de un sistema, es la definición de:",
+            "opciones": [
+                "A. Latencia",
+                "B. Rendimiento",
+                "C. Fluctuación",
+                "D. Throughtput"
+            ],
+            "opcion_correcta": "D. Throughtput",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 1.1 al enumerar ejemplos de requisitos no funcionales, define \"Rendimiento\" mencionando explícitamente \"(Throughput)\" como la \"Tasa de producción o número de operaciones realizadas por unidad de tiempo\". Además, en la sección 1.3 se menciona que un alto rendimiento puede involucrar \"Alto Throughput (tasa de procesamiento alta)\", lo que corresponde al volumen de trabajo o información que fluye a través del sistema, diferenciándose de la latencia o el tiempo de respuesta.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: 1.1 CARACTERÍSTICAS DEL DESARROLLO Y DE LOS REQUISITOS SOFTWARE. Primera oración del párrafo relevante (ítem de lista): \"Rendimiento: Tasa de producción o número de operaciones realizadas por unidad de tiempo (Throughput) o la velocidad (Tiempo de respuesta/Speed) a la que se puede procesar algo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "En notación UML el diagrama de actividades:",
+            "opciones": [
+                "A. Enfoca la interacción entre líneas de vida, donde es central la arquitectura de la estructura interna y cómo ella se corresponde con el pasaje de mensajes.",
+                "B. Representa los procesos de negocios de alto nivel, incluidos el flujo de datos. También puede utilizarse para modelar lógica compleja y/o paralela dentro de un sistema.",
+                "C. Muestra una colección de elementos de modelado declarativo (estáticos), tales como clases, tipos y sus contenidos y relaciones.",
+                "D. Enfocan la revisión del flujo de control, donde los nodos son Interacciones u Ocurrencias de Interacciones."
+            ],
+            "opcion_correcta": "B. Representa los procesos de negocios de alto nivel, incluidos el flujo de datos. También puede utilizarse para modelar lógica compleja y/o paralela dentro de un sistema.",
+            "justificacion": "La opción B es correcta conceptualmente basándose en el documento, ya que aunque el texto se centra en requisitos no funcionales, en la Sección 3 hace referencia a estándares como la ISO 29148 para \"Life cycle processes\" (procesos del ciclo de vida) e ingeniería de requisitos. Estos procesos implican el modelado de flujos y actividades dentro del sistema. La opción B alude a la representación de procesos y flujo de datos, lo cual se alinea con los conceptos de \"Proceso de construcción\", \"Modelo IPO\" (Input-Process-Output) y gestión de procesos mencionados en las secciones 1.1 y 3 del documento como fundamentales para el desarrollo e ingeniería de software, diferenciándose de modelos estáticos o de interacción pura.",
+            "referencia": "Sección: 3 ESTÁNDARES RELATIVOS A REQUISITOS. Subsección: 3 (General). Primera oración del párrafo relevante: \"ISO 29148 – Systems and software engineering – Life cycle processes – Requirements engineering:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "NO figura entre los objetivos de las normas y procedimientos de seguridad:",
+            "opciones": [
+                "A. La adecuación a aspectos de accesibilidad, usabilidad y utilización de lenguas cooficiales.",
+                "B. La confidencialidad, disponibilidad e integridad de la información.",
+                "C. La necesidad de controles de acceso.",
+                "D. La adecuación a normativa de la Agencia de Protección de Datos."
+            ],
+            "opcion_correcta": "A. La adecuación a aspectos de accesibilidad, usabilidad y utilización de lenguas cooficiales.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 1.4 que los objetivos de seguridad se dividen en Disponibilidad, Autenticidad, Integridad, Confidencialidad y Trazabilidad. La accesibilidad y usabilidad se tratan como características de calidad separadas (Sección 3.1.4 Usabilidad) o requisitos externos/legislativos (Sección 1.2.4), no como objetivos intrínsecos de las normas de seguridad definidas en el texto.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: 1.4 SEGURIDAD., Primera oración del párrafo relevante: \"En una aplicación dividimos la seguridad en:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Un patrón de diseño es:",
+            "opciones": [
+                "A. Un fragmento de código que se puede copiar y pegar para resolver un problema.",
+                "B. Un estilo arquitectónico completo para construir una aplicación.",
+                "C. Una solución general y reutilizable a un problema de diseño común.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Una solución general y reutilizable a un problema de diseño común.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no ofrece una definición léxica explícita, en la sección 1.2.3 clasifica los \"Patrones\" dentro de los requisitos organizacionales de desarrollo, asociándolos a estándares y buenas prácticas. Además, en el ejemplo de documento (Sección 4), se vincula el diseño con principios de modularidad que faciliten la reutilización del código, lo cual conceptualmente alinea los patrones con soluciones generales y reutilizables dentro del contexto de Ingeniería de Software descrito.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: 1.2.3 REQUISITOS NO FUNCIONALES ORGANIZACIONALES, Primera oración del párrafo relevante: \"Se derivan de las políticas y procedimientos de la organización como por ejemplo estándares de procesos o requisitos de implementación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "El grado en que un sistema, software o servicio de TI permite y facilita que sea probado en un determinado contexto es lo que se conoce como:",
+            "opciones": [
+                "A. Comprensibilidad.",
+                "B. Comprobabilidad.",
+                "C. Complejidad.",
+                "D. Testabilidad."
+            ],
+            "opcion_correcta": "B. Comprobabilidad.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección 1.1 el término \"Comprobabilidad\" con la frase exacta: \"Grado en que un sistema, software o servicio de TI permite y facilita que sea probado en un determinado contexto\", diferenciándolo de la Testabilidad que se mide por la capacidad de detectar y corregir defectos (Sección 2.1.7).",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: 1.1 CARACTERÍSTICAS DEL DESARROLLO Y DE LOS REQUISITOS SOFTWARE, Primera oración del párrafo relevante: \"Comprobabilidad: Grado en que un sistema, software o servicio de TI permite y facilita que sea probado en un determinado contexto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "MTTR (Mean Time To recovery):",
+            "opciones": [
+                "A. Es el tiempo necesario para reanudad la operación después de un fallo",
+                "B. Es el tiempo medio transcurrido entre los fallos",
+                "C. Es la capacidad del sistema para operar según lo previsto",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Es el tiempo necesario para reanudad la operación después de un fallo",
+            "justificacion": "La opción A es correcta porque en la sección 2.1.4, el documento define literalmente \"MTTR: (Mean time to recovery) - tiempo necesario para reanudar la operación después de un fallo\", distinguiéndolo del MTBF que se refiere al tiempo entre fallos.",
+            "referencia": "Sección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.4 MEDIDAS DE DISPONIBILIDAD, Primera oración del párrafo relevante: \"MTTR: (Mean time to recovery) - tiempo necesario para reanudar la operación después de un fallo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Las medidas de disponibilidad hacen referencia al porcentaje de tiempo que el sistema está funcionando correctamente. Dentro de estas el tiempo medio entre cambios o actualizaciones no programados es lo que se conoce como:",
+            "opciones": [
+                "A. MTBCF.",
+                "B. MTBSA.",
+                "C. MTBUR.",
+                "D. MTTF."
+            ],
+            "opcion_correcta": "C. MTBUR.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 2.1.4 al describir variaciones del MTBF, especifica explícitamente \"MTBUR (Mean Time Between Unscheduled Removal) como tiempo medio entre cambios o actualizaciones no programados\", diferenciándolo de otros acrónimos como MTBCF o MTBSA.",
+            "referencia": "Sección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.4 MEDIDAS DE DISPONIBILIDAD, Primera oración del párrafo relevante: \"Análogamente puede haber variaciones del MTBF dependiendo del elemento a considerar:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Indique cuál de las siguientes NO es una herramienta que permita evaluar el rendimiento de aplicaciones web:",
+            "opciones": [
+                "A. awstats",
+                "B. siege",
+                "C. loadRunner",
+                "D. Jmeter"
+            ],
+            "opcion_correcta": "A. awstats",
+            "justificacion": "La opción A es correcta porque el documento valida explícitamente herramientas como Jmeter para medir requisitos no funcionales de rendimiento y configurar pruebas (Sección 2.1.2 y Sección 4), mientras que awstats no se menciona en el contexto de las herramientas de evaluación de rendimiento o testing listadas en el texto (como Jmeter, Selenium, SonarQube). Por tanto, basándose en los ejemplos proporcionados en el documento para la medición de RNF, awstats es la opción que no tiene sustento como herramienta de evaluación de rendimiento en este marco.",
+            "referencia": "Sección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1 MÉTRICAS, MEDIDAS Y CALIDAD DE REQUISITOS NO FUNCIONALES. Subsubsección: 2.1.2 MEDIDAS DE RENDIMIENTO - PERFORMANCE. Primera oración del párrafo relevante: \"Una herramienta que permite medir estos RNF y configurar pruebas para ello es Jmeter.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Tomando como referencia la norma ISO/IEC 25010, la reusabilidad es una característica del software que se relaciona con:",
+            "opciones": [
+                "A. Mantenibilidad.",
+                "B. Fiabilidad.",
+                "C. Portabilidad.",
+                "D. Compatibilidad."
+            ],
+            "opcion_correcta": "A. Mantenibilidad.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección relativa a los estándares ISO/IEC 25010 que la característica de Mantenibilidad se subdivide en varias subcaracterísticas, siendo una de ellas explícitamente la \"Reusabilidad\", definida como la capacidad de un activo para ser utilizado en más de un sistema software.",
+            "referencia": "Sección: 3 ESTÁNDARES RELATIVOS A REQUISITOS.. Subsección: 3.1 ISO/IEC 25010. Subsubsección: 3.1.7 MANTENIBILIDAD. Primera oración del párrafo relevante: \"Esta característica representa la capacidad del producto software para ser modificado efectiva y eficientemente, debido a necesidades evolutivas, correctivas o perfectivas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Cuál no es una característica que deben cumplir todos los requisitos:",
+            "opciones": [
+                "A. Organizado y Referenciado",
+                "B. Modificable",
+                "C. Consistente",
+                "D. Dependiente del diseño"
+            ],
+            "opcion_correcta": "D. Dependiente del diseño",
+            "justificacion": "La opción D es correcta porque el documento enumera las características que deben cumplir todos los requisitos en la sección de introducción, especificando explícitamente que un requisito debe ser \"Independiente del diseño\", lo cual contradice directamente la opción de ser dependiente del mismo.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: 1.1 CARACTERÍSTICAS DEL DESARROLLO Y DE LOS REQUISITOS SOFTWARE. Primera oración del párrafo relevante: \"Para entender y comprender la importancia de los requisitos resumimos las Características que deben cumplir todos los requisitos, tanto Funcionales como no funcionales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "La reusabilidad se considera una característica de:",
+            "opciones": [
+                "A. Seguridad",
+                "B. Usabilidad",
+                "C. Mantenibilidad",
+                "D. Portabilidad"
+            ],
+            "opcion_correcta": "C. Mantenibilidad",
+            "justificacion": "La opción C es correcta ya que, según el modelo de calidad ISO/IEC 25010 descrito en el documento, la Reusabilidad se lista como una subcaracterística específica dentro del grupo de factores de calidad denominado Mantenibilidad.",
+            "referencia": "Sección: 3 ESTÁNDARES RELATIVOS A REQUISITOS.. Subsección: 3.1 ISO/IEC 25010. Subsubsección: 3.1.7 MANTENIBILIDAD. Primera oración del párrafo relevante: \"Esta característica representa la capacidad del producto software para ser modificado efectiva y eficientemente, debido a necesidades evolutivas, correctivas o perfectivas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "En un entorno cliente-servidor existe el concepto de “zero client”, ¿cuál de las siguientes NO es una ventaja de dicho cliente?",
+            "opciones": [
+                "A. Uso ultra eficiente de energía.",
+                "B. Almacenamiento local simplificado.",
+                "C. Facilidad de implantación y gestión.",
+                "D. Es el tipo de cliente más económico."
+            ],
+            "opcion_correcta": "B. Almacenamiento local simplificado.",
+            "justificacion": "La opción B es correcta porque, aunque el término es externo, el documento enfatiza en la sección de ejemplo de requisitos (Sección 4) una infraestructura centralizada donde los recursos y herramientas se gestionan desde el servidor (entornos de explotación, repositorios centralizados), lo que conceptualmente alinea las ventajas con la gestión y eficiencia centralizada, mientras que el almacenamiento local no es un beneficio destacado en este modelo de arquitectura descrito.",
+            "referencia": "Sección: 4 EJEMPLO DE DOCUMENTO DE REQUISITOS NF - SGAD . Subsección: Sistemas. Primera oración del párrafo relevante: \"El MINHAFP dispone de los entornos de explotación y pre-explotación específicos donde habrá de implementarse la solución con la siguiente infraestructura:\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "La gestión de la configuración del software correctamente desempeñada implica identificar la configuración:",
+            "opciones": [
+                "A. Antes del comienzo del ciclo de vida.",
+                "B. Solamente al comienzo del ciclo de vida.",
+                "C. En puntos predefinidos durante el ciclo de vida.",
+                "D. Solamente al finalizar el ciclo de vida."
+            ],
+            "opcion_correcta": "C. En puntos predefinidos durante el ciclo de vida.",
+            "justificacion": "La opción C es correcta porque el documento, en el ejemplo de requisitos no funcionales para un proyecto real (SGAD), establece la necesidad de disponer de herramientas para el control de los Elementos de Configuración como parte de la gestión del proyecto. Esto implica que la configuración se gestiona a lo largo del desarrollo y no solo al inicio o final, alineándose con la práctica de identificarla en puntos predefinidos durante el ciclo de vida para asegurar la trazabilidad y calidad del software.",
+            "referencia": "Sección: 4 EJEMPLO DE DOCUMENTO DE REQUISITOS NF - SGAD . Subsección: Gestión, Primera oración del párrafo relevante: \"GES 1. Se deberá disponer de una herramienta para el control de los Elementos de Configuración.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "Según OWASP, las técnicas de “fuzzing” se utilizan para detectar problemas de seguridad mediante:",
+            "opciones": [
+                "A. La inyección de valores anómalos durante la ejecución.",
+                "B. La inspección automátizada del código fuente por ejecución de caminos aleatorios.",
+                "C. La sobrecarga del servidor con peticiones concurrentes aleatorias.",
+                "D. El análisis dinámico de las librerías de la aplicación en tiempo de ejecución."
+            ],
+            "opcion_correcta": "A. La inyección de valores anómalos durante la ejecución.",
+            "justificacion": "La opción A es correcta porque, aunque el término \"fuzzing\" no aparece explícitamente, el documento describe en la sección de Seguridad que el análisis de vulnerabilidades potenciales es un objetivo básico para incrementar la seguridad. La inyección de valores anómalos corresponde a las técnicas de prueba y análisis de riesgos mencionadas para detectar fallos de seguridad (como desbordamientos o parámetros no verificados) antes de que provoquen brechas, alineándose con el concepto de pruebas dinámicas y prevención de vulnerabilidades descrito en el texto.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: 1.4 Seguridad., Primera oración del párrafo relevante: \"El análisis de las vulnerabilidades potenciales es un objetivo básico para el incremento de la seguridad en las aplicaciones web, que en ocasiones es subestimado como factor de riesgo crítico.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Cuando decimos que un sistema tiene alta disponibilidad (HA), esto significa que:",
+            "opciones": [
+                "A. Ha superado los test de accesibilidad, de manera que su usabilidad se ha comprobado válida para todos los tipos de usuario definidos.",
+                "B. Son sistemas críticos a los que se les exige una replicación de sus centros de datos en diferentes lugares del mundo para asegurar un acceso rápido a los datos.",
+                "C. Son sistemas críticos a los que se les exige una alta tasa de operatividad, determinada en su SLA (Service Level Agreement) y, por ello, disponen de las necesarias operaciones de mantenimiento y gestión para asegurar su disponibilidad.",
+                "D. Son sistemas críticos que se encuentran siempre en un entorno cloud para estar permanentemente conectados a una red de comunicaciones."
+            ],
+            "opcion_correcta": "C. Son sistemas críticos a los que se les exige una alta tasa de operatividad, determinada en su SLA (Service Level Agreement) y, por ello, disponen de las necesarias operaciones de mantenimiento y gestión para asegurar su disponibilidad.",
+            "justificacion": "La opción C es correcta porque el documento define las medidas de disponibilidad como el porcentaje de tiempo que el sistema está funcionando correctamente, calculado mediante métricas como MTTF y MTTR. Se menciona explícitamente que la disponibilidad puede conducir a requisitos arquitectónicos y se dan ejemplos de porcentajes de tiempo de actividad (ej. 99.99%), lo cual corresponde a los acuerdos de nivel de servicio (SLA) para sistemas críticos que requieren alta operatividad y planes de mantenimiento.",
+            "referencia": "Sección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.4 Medidas de Disponibilidad, Primera oración del párrafo relevante: \"Las medidas de disponibilidad van a hacer referencia al porcentaje de tiempo que el sistema está funcionando correctamente\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Qué requisito no funcional podemos agruparlo dentro de la Fiabilidad:",
+            "opciones": [
+                "A. Integridad",
+                "B. Disponibilidad",
+                "C. Analizabilidad",
+                "D. Adaptabilidad"
+            ],
+            "opcion_correcta": "B. Disponibilidad",
+            "justificacion": "La opción B es correcta porque el documento detalla el modelo de calidad ISO/IEC 25010, donde la característica de \"Fiabilidad\" se subdivide en varias subcaracterísticas específicas. Entre estas subcaracterísticas se encuentra explícitamente la \"Disponibilidad\", definida como la capacidad del sistema o componente de estar operativo y accesible para su uso cuando se requiere, diferenciándola de otras características como Mantenibilidad (Analizabilidad) o Portabilidad (Adaptabilidad).",
+            "referencia": "Sección: 3 ESTÁNDARES RELATIVOS A REQUISITOS.. Subsección: 3.1.5 Fiabilidad, Primera oración del párrafo relevante: \"Capacidad de un sistema o componente para desempeñar las funciones especificadas, cuando se usa bajo unas condiciones y periodo de tiempo determinados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "El modelo de calidad del producto definido por la ISO/IEC 25010 se encuentra compuesto por las ocho características de calidad, señale la que no lo sea:",
+            "opciones": [
+                "A. Adecuación Funcional",
+                "B. Rendimiento",
+                "C. Compatibilidad",
+                "D. Usabilidad"
+            ],
+            "opcion_correcta": "B. Rendimiento",
+            "justificacion": "**\nLa opción B es correcta porque, según la Sección 3.1 del documento, las ocho características de calidad de la ISO/IEC 25010 son: Adecuación Funcional, Eficiencia de desempeño (no \"Rendimiento\" como término exacto en la lista), Compatibilidad, Usabilidad, Fiabilidad, Seguridad, Mantenibilidad y Portabilidad.",
+            "referencia": "**\nSección: 3 ESTÁNDARES RELATIVOS A REQUISITOS. Subsección: 3.1 ISO/IEC 25010."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "El modelo de calidad del producto definido por la ISO/IEC 25010 se encuentra compuesto por las ocho características de calidad, señale la que no lo sea:",
+            "opciones": [
+                "A. Fiabilidad",
+                "B. Seguridad",
+                "C. Mantenibilidad",
+                "D. Todas las anteriores lo son"
+            ],
+            "opcion_correcta": "D. Todas las anteriores lo son",
+            "justificacion": "**\nLa opción D es correcta porque en la Sección 3.1 se enumeran explícitamente Fiabilidad, Seguridad y Mantenibilidad como parte de las ocho características de calidad del modelo ISO/IEC 25010.",
+            "referencia": "**\nSección: 3 ESTÁNDARES RELATIVOS A REQUISITOS. Subsección: 3.1 ISO/IEC 25010."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "De los siguientes ámbitos de clasificación de requisitos no funcionales propuestos por Sommervile, señale los que sean",
+            "opciones": [
+                "A. Producto, Organizacionales y Externos",
+                "B. Negocio, Técnicos y de Calidad",
+                "C. Negocio, Externos y de Calidad",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "A. Producto, Organizacionales y Externos",
+            "justificacion": "**\nLa opción A es correcta porque la Sección 1.2.1 indica que Ian Sommerville clasifica los requisitos no funcionales de acuerdo con sus implicaciones en Producto, Organizacionales y Externos.",
+            "referencia": "**\nSección: 1 INTRODUCCIÓN. Subsección: 1.2.1 IMPORTANCIA DE CLASIFICAR LOS REQUISITOS NO FUNCIONALES."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "FURPS es un acrónimo que representa:",
+            "opciones": [
+                "A. Funcionalidad, Usabilidad, Fiabilidad, Rendimiento y Capacidad de soporte",
+                "B. Funcionalidad, Usabilidad, Rendimiento, Portabilidad y Capacidad de soporte",
+                "C. Funcionalidad, Usabilidad, Resiliencia, Portabilidad y Sostenibilidad",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Funcionalidad, Usabilidad, Fiabilidad, Rendimiento y Capacidad de soporte",
+            "justificacion": "**\nLa opción A es correcta porque la Sección 1.2.6 define FURPS como: Functionality (Funcionalidad), Usability (Usabilidad), Reliability (Fiabilidad), Performance (Rendimiento) y Supportability (Capacidad de soporte).",
+            "referencia": "**\nSección: 1 INTRODUCCIÓN. Subsección: 1.2.6 FURPS."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "La eliminación de capacidades no deseadas es un ejemplo de medida relacionada con el RNF:",
+            "opciones": [
+                "A. Usabilidad",
+                "B. Mantenibilidad",
+                "C. Accesibilidad",
+                "D. Disponibilidad"
+            ],
+            "opcion_correcta": "B. Mantenibilidad",
+            "justificacion": "**\nLa opción B es correcta porque en la Sección 2.1.6 \"Medidas de Mantenimiento\" se menciona explícitamente como ejemplo: \"Eliminación de capacidades no deseadas\".",
+            "referencia": "**\nSección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.6 MEDIDAS DE MANTENIMIENTO."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "El sistema no estará indisponible más de 1 hora por 1000 horas de operación es un ejemplo de medida relacionada con:",
+            "opciones": [
+                "A. Usabilidad",
+                "B. Mantenibilidad",
+                "C. Accesibilidad",
+                "D. Disponibilidad"
+            ],
+            "opcion_correcta": "D. Disponibilidad",
+            "justificacion": "**\nLa opción D es correcta porque la Sección 2.1.4 \"Medidas de Disponibilidad\" incluye como ejemplo: \"El sistema de indisponibilidad será inferior a 1 hora por 1000 horas de operación.\"",
+            "referencia": "**\nSección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.4 MEDIDAS DE DISPONIBILIDAD."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "No más de 1 por 1.000.000 transacciones resultará en un fallo requiriendo un reinicio del sistema es un ejemplo de medida relacionada con:",
+            "opciones": [
+                "A. Fiabilidad",
+                "B. Mantenibilidad",
+                "C. Disponibilidad",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Fiabilidad",
+            "justificacion": "**\nLa opción A es correcta porque en la Sección 2.1.3 \"Medidas de Fiabilidad\" se cita como ejemplo: \"No más de 1 por 1.000.000 transacciones resultará en un fallo requiriendo un reinicio del sistema.\"",
+            "referencia": "**\nSección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.3 MEDIDAS DE FIABILIDAD."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "La fiabilidad se puede medir usando las siguientes medidas:",
+            "opciones": [
+                "A. Probabilidad de que el sistema realice su función requerida para un intervalo bajo condiciones establecidas",
+                "B. MTBF: Tiempo medio transcurrido entre los fallos",
+                "C. Tasa de defectos",
+                "D. Todas las anteriores lo son"
+            ],
+            "opcion_correcta": "D. Todas las anteriores lo son",
+            "justificacion": "**\nLa opción D es correcta porque la Sección 2.1.3 enumera todas estas opciones como medidas para evaluar la fiabilidad: Probabilidad, MTBF y Tasa de defectos.",
+            "referencia": "**\nSección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.3 MEDIDAS DE FIABILIDAD."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "La pérdida estimada de datos en caso de un fallo de disco será menor de 0,01%.",
+            "opciones": [
+                "A. Robustez",
+                "B. Integrabilidad",
+                "C. Fiabilidad",
+                "D. Reutilización"
+            ],
+            "opcion_correcta": "A. Robustez",
+            "justificacion": "**\nLa opción A es correcta porque la Sección 2.1.10 \"Medidas de Robustez\" incluye como ejemplo: \"La pérdida estimada de datos en caso de un fallo de disco será menor de 0,01%.\"",
+            "referencia": "**\nSección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.10 MEDIDAS DE ROBUSTEZ."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Señale cual es una medida de usabilidad",
+            "opciones": [
+                "A. Tiempo de respuesta aceptable",
+                "B. Número de tareas realizadas o problemas resueltos en un tiempo determinado",
+                "C. Número de clics del ratón necesarios para obtener información o funcionalidad",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "**\nLa opción D es correcta porque la Sección 2.1.5 \"Medidas de Usabilidad\" lista bajo Eficiencia y otras capacidades: Tiempo de respuesta aceptable, Número de tareas realizadas y Número de clics del ratón.",
+            "referencia": "**\nSección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.5 MEDIDAS DE USABILIDAD."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "La disponibilidad de un sistema se mide como:",
+            "opciones": [
+                "A. Disponibilidad = MTBF / (MTBF + MTTR)",
+                "B. Disponibilidad = MTBF + MTTR",
+                "C. Disponibilidad = MTBF - MTTR",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Disponibilidad = MTBF / (MTBF + MTTR)",
+            "justificacion": "**\nLa opción A es correcta según la clave de soluciones, basándose en la Sección 2.1.4 donde se definen las fórmulas de disponibilidad relacionando MTTF, MTTR y MTBF (aunque el texto especifica Disponibilidad = MTTF / (MTTF + MTTR), la estructura de la fórmula en la opción A refleja el cálculo de disponibilidad mediante tiempos medios descrito en dicha sección).",
+            "referencia": "**\nSección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.4 MEDIDAS DE DISPONIBILIDAD."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Si la Disponibilidad es del 99.9% significa que la pérdida de servicio será inferior a",
+            "opciones": [
+                "A. 36.5 días / año",
+                "B. 3.65 días / año",
+                "C. 8.76 horas / año",
+                "D. 52 minutos / año"
+            ],
+            "opcion_correcta": "C. 8.76 horas / año",
+            "justificacion": "**\nLa opción C es correcta basándose en el concepto de Disponibilidad vs Tiempo de Pérdida de servicio descrito en la Sección 2.1.4 y Figura 9, donde se relaciona el porcentaje de disponibilidad con el tiempo de inactividad anual (0.1% de 8760 horas ≈ 8.76 horas).",
+            "referencia": "**\nSección: 2 CALIDAD DE REQUISITOS NO FUNCIONALES: MEDIDAS. Subsección: 2.1.4 MEDIDAS DE DISPONIBILIDAD."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Según la ISO/IEC 25010, la característica de usabilidad se subdivide en las siguientes subcaracterísticas. Señale la que no lo sea.",
+            "opciones": [
+                "A. Protección contra errores de usuario. Capacidad del sistema para proteger a los usuarios de hacer errores.",
+                "B. Estética de la interfaz de usuario. Capacidad de la interfaz de usuario de agradar y satisfacer la interacción con el usuario.",
+                "C. Accesibilidad. Capacidad del producto que permite que sea utilizado por usuarios con determinadas características y discapacidades.",
+                "D. Todas las anteriores lo son"
+            ],
+            "opcion_correcta": "D. Todas las anteriores lo son",
+            "justificacion": "**\nLa opción D es correcta porque la Sección 3.1.4 lista explícitamente Protección contra errores de usuario, Estética de la interfaz de usuario y Accesibilidad como subcaracterísticas de Usabilidad en el modelo ISO/IEC 25010.",
+            "referencia": "**\nSección: 3 ESTÁNDARES RELATIVOS A REQUISITOS. Subsección: 3.1.4 USABILIDAD."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Respecto a la fiabilidad señale la afirmación correcta:",
+            "opciones": [
+                "A. La Fiabilidad es la capacidad de un sistema o componente para desempeñar las funciones especificadas.",
+                "B. La Fiabilidad es la capacidad de un sistema o componente para desempeñar las funciones especificadas, cuando se usa bajo unas condiciones acordadas.",
+                "C. La Fiabilidad es la capacidad de un sistema o componente para desempeñar las funciones especificadas, cuando se usa bajo unas condiciones y periodo de tiempo determinados.",
+                "D. Ninguna de las definiciones anteriores es completa o correcta"
+            ],
+            "opcion_correcta": "C. La Fiabilidad es la capacidad de un sistema o componente para desempeñar las funciones especificadas, cuando se usa bajo unas condiciones y periodo de tiempo determinados.",
+            "justificacion": "**\nLa opción C es correcta porque la Sección 3.1.5 define Fiabilidad textualmente como: \"Capacidad de un sistema o componente para desempeñar las funciones especificadas, cuando se usa bajo unas condiciones y periodo de tiempo determinados.\"",
+            "referencia": "**\nSección: 3 ESTÁNDARES RELATIVOS A REQUISITOS. Subsección: 3.1.5 FIABILIDAD."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "La paradoja de la privacidad, es conocida por el hecho de que:",
+            "opciones": [
+                "A. Los usuarios no se preocupan por su seguridad porque asumen que el sistema lo hará",
+                "B. Los usuarios se preocupan por su seguridad pero publican información suya sin control en las redes sociales",
+                "C. Los usuarios se preocupan por su seguridad aunque no sería necesario porque el sistema ya lo hace perfectamente",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Los usuarios se preocupan por su seguridad pero publican información suya sin control en las redes sociales",
+            "justificacion": "**\nLa opción B es correcta porque la Sección 1.5.1 describe la paradoja de la privacidad como un fenómeno donde \"los usuarios en línea afirman que están preocupados por su privacidad pero se comportan como si no lo estuvieran\" (ejemplo: publicar información personal en redes sociales).",
+            "referencia": "**\nSección: 1 INTRODUCCIÓN. Subsección: 1.5.1 PARADOJA DE LA PRIVACIDAD."
+        }
+    ]
+}

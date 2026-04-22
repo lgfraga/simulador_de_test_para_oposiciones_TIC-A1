@@ -1,0 +1,1290 @@
+{
+    "nombre_tema": "Tema 37",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "La técnica de Quick Changeover:",
+            "opciones": [
+                "A. Es propia de la metodología XP (EXtreme Programming) para gestionar la programación en parejas",
+                "B. Se utiliza en Lean para disminuir el tiempo entre tareas",
+                "C. Se utiliza en Scrum para gestionar cambios en requisitos",
+                "D. Se utiliza en metodología FDD para dividir el desarrollo en funcionalidades"
+            ],
+            "opcion_correcta": "B. Se utiliza en Lean para disminuir el tiempo entre tareas",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección dedicada a Lean que esta técnica se aplica para agilizar el tiempo de cambio entre tareas, identificándola como una práctica dentro de las técnicas y prácticas de Lean. Las otras opciones atribuyen la técnica a metodologías (XP, Scrum, FDD) que no se asocian con este término en el texto proporcionado.",
+            "referencia": "Sección: 6 LEAN. Subsección: 6.2 TÉCNICAS Y PRÁCTICAS. Subsubsección: 6.2.8 QUICK CHANGEOVER. Primera oración del párrafo relevante: \"En Lean, como en Agile, se realiza el producto sumando pequeños incrementos y tareas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Indique cuál de las siguientes NO es una metodología ágil:",
+            "opciones": [
+                "A. Scrum.",
+                "B. Extreme Programing (XP).",
+                "C. Métrica v3.",
+                "D. Lean."
+            ],
+            "opcion_correcta": "C. Métrica v3.",
+            "justificacion": "La opción C es correcta porque el documento identifica explícitamente a \"Métrica\" como un ejemplo de metodología en cascada (tradicional), usada en la administración pública, diferenciándola de las metodologías ágiles listadas posteriormente como Scrum, XP o Lean. Por tanto, no se considera una metodología ágil según el texto.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: 2 (Texto introductorio). Primera oración del párrafo relevante: \"Métrica es un ejemplo de metodología en cascada, usada en la administración pública.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuáles son la fases definidas por el Agile Project Management Framework?",
+            "opciones": [
+                "A. Concebir, analizar, explorar, adaptar y cerrar.",
+                "B. Concebir, especular, explorar, adaptar y cerrar.",
+                "C. Concebir, especular, explorar, adaptar y reiterar.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "B. Concebir, especular, explorar, adaptar y cerrar.",
+            "justificacion": "La opción B es correcta porque el documento detalla que el ciclo de vida según el Agile Project Management framework consta específicamente de cinco fases: Concebir, Especular, Explorar, Adaptar y Cerrar. Las otras opciones incluyen términos incorrectos como \"analizar\" o \"reiterar\" en lugar de las fases nombradas en el texto.",
+            "referencia": "Sección: 3 CICLO DE VIDA DE UN PROYECTO ÁGIL. Subsección: 3 (Texto introductorio). Primera oración del párrafo relevante: \"Existen diversas metodologías y prácticas ágiles en uso, pero para los propósitos de este tema se explorará un ciclo de vida de acuerdo con el definido en el Agile Project Management framework...\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Cuáles son las características del sprint 0 en SCRUM?",
+            "opciones": [
+                "A. Se dejan listos los entornos de desarrollo",
+                "B. Se trabaja en el product backlog, dejando listos los product backlog ítems priorizados y estimados",
+                "C. Se hace una previsión del reparto de historias de usuario por iteración",
+                "D. Todas las anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son correctas",
+            "justificacion": "La opción D es correcta porque, aunque el término \"Sprint 0\" no aparece explícitamente, el documento describe en la fase de \"Concebir\" y la inicial de \"Especular\" actividades equivalentes: poner en marcha herramientas de colaboración (entornos), crear y priorizar el backlog de producto, y realizar una hoja de ruta o plan de entrega (previsión del reparto). Estas actividades preparatorias validan funcionalmente las opciones A, B y C.",
+            "referencia": "Sección: 3 CICLO DE VIDA DE UN PROYECTO ÁGIL. Subsección: 3.1 Iniciando el proyecto: Concebir. Primera oración del párrafo relevante: \"En esta fase se determina qué se quiere hacer y cómo se va a lograr.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Indique cual NO es un principio del manifiesto ágil:",
+            "opciones": [
+                "A. Equipos auto-organizados",
+                "B. Simplicidad",
+                "C. Conversación cara a cara",
+                "D. Terminar lo antes posible"
+            ],
+            "opcion_correcta": "D. Terminar lo antes posible",
+            "justificacion": "La opción D es correcta porque el documento lista doce principios específicos del manifiesto ágil, entre los que se encuentran la simplicidad (Principio 10), la conversación cara a cara (Principio 6) y equipos auto-organizados (Principio 11). La frase \"Terminar lo antes posible\" no figura como uno de los doce principios enumerados en el texto.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: 2.1 Manifiesto ágil. Primera oración del párrafo relevante: \"De esta manera, las metodologías ágiles siguen los siguientes doce principios, que derivan de los cuatro valores anteriores y que son los que forman propiamente el manifiesto ágil:\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cuál de las siguientes NO es una práctica común dentro del marco de trabajo Scrum?",
+            "opciones": [
+                "A. Daily Scrum: Una reunión diaria de 15 minutos donde el equipo revisa el progreso, identifica obstáculos y planifica el trabajo del día.",
+                "B. Sprint Planning: Una reunión al inicio de cada Sprint donde se define el trabajo a realizar y se crea un Sprint Goal.",
+                "C. Sprint Review: Una reunión al final de cada Sprint donde se presenta el incremento del producto al Product Owner y a los stakeholders, y se realiza una retrospectiva para mejorar el proceso.",
+                "D. Waterfall Planning: Una planificación detallada y completa del proyecto desde el inicio hasta el final, sin posibilidad de cambios."
+            ],
+            "opcion_correcta": "D. Waterfall Planning: Una planificación detallada y completa del proyecto desde el inicio hasta el final, sin posibilidad de cambios.",
+            "justificacion": "La opción D es correcta porque el documento establece que las metodologías tradicionales tipo cascada (Waterfall) siguen pasos secuenciales donde los requisitos se cierran inicialmente, a diferencia de Scrum y las metodologías ágiles que son iterativas y adaptativas. El texto contrasta explícitamente la planificación tradicional con la gestión ágil, señalando que en agile el alcance es flexible y no cerrado desde el inicio.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: (Sin subsección específica para la comparación general). Primera oración del párrafo relevante: \"Si se piensa en las metodologías tradicionales orientadas a la planificación, tipo cascada, el proyecto sigue una serie de pasos secuenciales...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿Cuál es la principal desventaja de sprints más largos?",
+            "opciones": [
+                "A. Permite reaccionar al equipo mejor ante imprevistos",
+                "B. Se obtiene feedback de los clientes con mayor brevedad",
+                "C. Se reduce el número de reuniones de sprint",
+                "D. Se puede desarrollar algo diferente a lo requerido y obtener el feedback del cliente más tarde"
+            ],
+            "opcion_correcta": "D. Se puede desarrollar algo diferente a lo requerido y obtener el feedback del cliente más tarde",
+            "justificacion": "La opción D es correcta porque el documento indica que las iteraciones cortas permiten entregar resultados con frecuencia, lo que reduce el trabajo en vías erróneas al recibir feedback continuo. Por el contrario, iteraciones largas reducen las oportunidades de recoger feedback, aumentando el riesgo de desarrollar funcionalidades que no satisfacen al cliente hasta etapas tardías.",
+            "referencia": "Sección: 3 CICLO DE VIDA DE UN PROYECTO ÁGIL. Subsección: 3.1 INICIANDO EL PROYECTO: CONCEBIR. Subsubsección: 3.1.2 DURACIÓN DE LAS ITERACIONES. Primera oración del párrafo relevante: \"¿Qué principales ventajas aporta una iteración corta? Principalmente que se entregan resultados con mucha frecuencia, lo cual es positivo en tanto en cuanto permite al cliente estar completamente enganchado al proyecto...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "SOROLLA2 es una aplicación web que se provee como SaaS (software como servicio) y que ha sido desarrollada utilizando:",
+            "opciones": [
+                "A. El enfoque DevOps.",
+                "B. El proceso sistemático Lean.",
+                "C. La metodología Kanban.",
+                "D. La metodología Scrum."
+            ],
+            "opcion_correcta": "D. La metodología Scrum.",
+            "justificacion": "La opción D es correcta porque el documento cita explícitamente el proyecto SOROLLA2 como una experiencia de éxito en la Administración Pública donde se utilizó la metodología ágil Scrum para gestionar las funcionalidades en sprints de dos semanas.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: 2.4 SITUACIÓN DE AGILE EN LAS ORGANIZACIONES. Subsubsección: 2.4.1 SITUACIÓN EN LA ADMINISTRACIÓN. Primera oración del párrafo relevante: \"Una de estas experiencias la proporciona el proyecto de desarrollo de la aplicación web SOROLLA2, un servicio común provisto como SaaS por la Intervención General del Estado (IGAE)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Sobre el Scrum Team, cual es la afirmación falsa:",
+            "opciones": [
+                "A. Cada miembro del equipo tiene que tener un rol especifico y no puede asumir tareas que no estén dentro de su área de especialización",
+                "B. Los miembros del equipo deben tener un perfil en ‘T’ (manejo en una serie amplia de áreas, con conocimientos en profundidad en unas pocas)",
+                "C. Cada miembro del equipo tiene que tener un conocimiento más amplio de un área",
+                "D. Cada miembro del equipo puede asumir cualquier tipo de tarea"
+            ],
+            "opcion_correcta": "A. Cada miembro del equipo tiene que tener un rol especifico y no puede asumir tareas que no estén dentro de su área de especialización",
+            "justificacion": "La opción A es correcta (como afirmación falsa) porque el documento describe al equipo ágil como multidisciplinar y auto-organizado, donde los miembros deben tener las habilidades necesarias para realizar todas las tareas requeridas en la iteración, fomentando la colaboración y no la rigidez de roles especializados que impidan asumir otras tareas.",
+            "referencia": "Sección: 3 CICLO DE VIDA DE UN PROYECTO ÁGIL. Subsección: 3.1 INICIANDO EL PROYECTO: CONCEBIR. Subsubsección: 3.1.1 EL EQUIPO. Primera oración del párrafo relevante: \"Debe ser multidisciplinar. Deben tener las habilidades necesarias para realizar todas las tareas necesarias para cumplir las funcionalidades requeridas en la iteración...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Entre las siguientes opciones, ¿cuál NO es una metodología ágil?",
+            "opciones": [
+                "A. Scrum",
+                "B. Feature Driven Development (FDD)",
+                "C. Poka-Yoke",
+                "D. Crystal"
+            ],
+            "opcion_correcta": "C. Poka-Yoke",
+            "justificacion": "La opción C es correcta porque el documento clasifica a Scrum, FDD y Crystal dentro de las \"Metodologías ágiles más populares\", mientras que Poka-Yoke se encuentra listado específicamente bajo las \"Técnicas y prácticas\" de la metodología Lean, no como una metodología ágil independiente.",
+            "referencia": "Sección: 6 LEAN. Subsección: 6.2 TÉCNICAS Y PRÁCTICAS. Subsubsección: 6.2.6 POKA-YOKE. Primera oración del párrafo relevante: \"Poka-yoke significa a prueba de errores. Es una técnica de calidad que se aplica con el fin de evitar errores en la operación de un sistema.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Señale el principio que NO se encuentra recogido en el Manifiesto Ágil para el desarrollo de software:",
+            "opciones": [
+                "A. La simplicidad, o el arte de maximizar la cantidad de trabajo no realizado, es esencial.",
+                "B. El software funcionando es la medida principal de progreso.",
+                "C. Los proyectos se desarrollan sobre procesos y herramientas consolidados.",
+                "D. Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo."
+            ],
+            "opcion_correcta": "C. Los proyectos se desarrollan sobre procesos y herramientas consolidados.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 2.1 que el Manifiesto Ágil valora \"Individuos e interacciones sobre procesos y herramientas\". Por tanto, afirmar que los proyectos se desarrollan sobre procesos y herramientas consolidados contradice directamente el primer valor del manifiesto descrito en el texto, que prioriza a las personas por encima de los procesos. Las opciones A, B y D corresponden a principios explícitos listados en el mismo apartado (principios 10, 7 y 2 respectivamente).",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.1 Manifiesto ágil. Primera oración del párrafo relevante: \"El manifiesto parte de una serie de afirmaciones basadas en la experiencia de los firmantes, que coinciden en valorar:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Indique cuál de los siguientes no forma parte del vocabulario de scrum:",
+            "opciones": [
+                "A. Burn-up chart",
+                "B. Arquitectural Skype",
+                "C. Burn-down chart",
+                "D. Definition of done"
+            ],
+            "opcion_correcta": "B. Arquitectural Skype",
+            "justificacion": "La opción B es correcta porque el término \"Arquitectural Skype\" no aparece en el documento como parte del vocabulario de Scrum ni de las herramientas ágiles mencionadas. El texto en la sección 2.3.1 describe los roles y elementos de Scrum (Product Owner, Scrum Master, Backlog, Sprints) y en la sección 3.1.3 menciona herramientas como Jira, Confluence o Slack, pero no \"Arquitectural Skype\". Las opciones A y C se mencionan explícitamente en la sección 3.3.1 como gráficos de control del avance (burndown y burn-up charts).",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.3 Metodologías ágiles más populares. Subsubsección: 2.3.1 Scrum. Primera oración del párrafo relevante: \"Scrum es, con diferencia, la metodología ágil más popular, debido a su simplicidad y su productividad demostrada en multitud de proyectos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Cúal de las siguientes no es una reunión de SCRUM:",
+            "opciones": [
+                "A. Sprint planning",
+                "B. Sprint gromming",
+                "C. Burn down meet",
+                "D. Sprint retrospective"
+            ],
+            "opcion_correcta": "C. Burn down meet",
+            "justificacion": "La opción C es correcta porque el documento no menciona ninguna reunión denominada \"Burn down meet\". En la sección 3.3 se describen las \"reuniones diarias\" (stand-up meetings) y en la sección 3.4 se mencionan las \"sesiones de demo\" y las \"reuniones retrospectivas\". El gráfico de trabajo pendiente (burndown chart) es una herramienta de control del avance descrita en la sección 3.3.1, no una reunión.",
+            "referencia": "Sección: 3 Ciclo de vida de un proyecto ágil. Subsección: 3.4 Revisando el progreso: Adaptar. Primera oración del párrafo relevante: \"Además de estas sesiones de demostración, a continuación se organizan reuniones retrospectivas donde participa únicamente el equipo...\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Dentro de la metodología de desarrollo ágil de software, ¿Cuál de estos NO es uno los valores sobre los que se sustenta la agilidad?",
+            "opciones": [
+                "A. Se valora un software que funciona, por encima de la documentación exhaustiva",
+                "B. Se valora los procesos y herramientas, por encima de los individuos y sus interacciones",
+                "C. Se valora la colaboración con el cliente, por encima de la negociación contractual",
+                "D. Se valora la respuesta al cambio, frente al seguimiento de un plan"
+            ],
+            "opcion_correcta": "B. Se valora los procesos y herramientas, por encima de los individuos y sus interacciones",
+            "justificacion": "La opción B es correcta porque contradice el primer valor del Manifiesto Ágil descrito en el documento. La sección 2.1 establece explícitamente que se valora \"Individuos e interacciones sobre procesos y herramientas\". Por lo tanto, priorizar procesos y herramientas sobre individuos no es un valor ágil según el texto, sino todo lo contrario. Las opciones A, C y D reflejan fielmente los otros tres valores del manifiesto citados en la misma sección.",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.1 Manifiesto ágil. Primera oración del párrafo relevante: \"El manifiesto parte de una serie de afirmaciones basadas en la experiencia de los firmantes, que coinciden en valorar:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Dentro de los conceptos relacionados con DevOps, es correcto afirmar que:",
+            "opciones": [
+                "A. La integración continua es la implementación automática y frecuente de nuevas versiones de una aplicación en un entorno de producción.",
+                "B. El método ágil es un enfoque de desarrollo de software que hace hincapié en la colaboración en equipo y que evita los comentarios de los clientes y usuarios.",
+                "C. La supervisión continua significa tener visibilidad total y en tiempo real del rendimiento y el estado de toda la pila de aplicaciones excluyendo la infraestructura subyacente donde se ejecutan las aplicaciones.",
+                "D. La infraestructura como código define las topologías y los recursos del sistema de un modo descriptivo lo que permite administrar esos recursos igual que lo harían con el código."
+            ],
+            "opcion_correcta": "D. La infraestructura como código define las topologías y los recursos del sistema de un modo descriptivo lo que permite administrar esos recursos igual que lo harían con el código.",
+            "justificacion": "La opción D es correcta porque se alinea con los principios de DevOps descritos en la sección 5, específicamente con la \"Automatización\" y la fase de \"Configurar\". El documento indica que DevOps busca diluir la separación entre desarrollo y operaciones mediante automatización para controlar sistemas y aplicaciones (Sección 5.1) y completar la configuración en producción (Sección 5.2). Las opciones A, B y C son incorrectas según el texto: la opción B contradice la colaboración con el cliente (Principio 4 del Manifiesto Ágil citado en 2.1), la opción C contradice la monitorización de infraestructura mencionada en 5.2 (\"medir el rendimiento de la infraestructura\"), y la opción A confunde integración con entrega a producción.",
+            "referencia": "Sección: 5 DevOps. Subsección: 5.1 Valores y principios. Primera oración del párrafo relevante: \"DevOps no tiene una lista única de valores y principios como puede ocurrir con Agile y su manifiesto o con Lean.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuál de las siguientes opciones es un Rol en la metodología ágil SCRUM?",
+            "opciones": [
+                "A. Product Backlog.",
+                "B. Daily Scrum.",
+                "C. Work in Progress.",
+                "D. Scrum Master."
+            ],
+            "opcion_correcta": "D. Scrum Master.",
+            "justificacion": "La opción D es correcta porque el documento identifica explícitamente al \"scrum master\" como un rol dentro de la metodología Scrum, definiéndolo como el gestor de la eficiencia del equipo encargado de seguir los procesos y resolver impedimentos. Las otras opciones corresponden a artefactos (Product Backlog), eventos (Daily Scrum) o conceptos de flujo (Work in Progress), no a roles humanos definidos en el texto.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: 2.3 METODOLOGÍAS ÁGILES MÁS POPULARES. Subsubsección: 2.3.1 SCRUM. Primera oración del párrafo relevante: \"El scrum master es el gestor de la eficiencia del equipo, el encargado de que se sigan de forma adecuada los procesos de Scrum y de liderar la resolución de impedimentos para que el equipo pueda centrarse en su trabajo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Qué es el Agile Release Train (ART) en la metodología SAFe?",
+            "opciones": [
+                "A. El conjunto de todos los perfiles y equipos agile dedicados al programa",
+                "B. El equivalente escalado a un sprint en otras metodologías ágiles",
+                "C. El equivalente al Product Backlog de Scrum",
+                "D. Nada. Este concepto no existe en SAFe"
+            ],
+            "opcion_correcta": "A. El conjunto de todos los perfiles y equipos agile dedicados al programa",
+            "justificacion": "La opción A es correcta porque, aunque el término específico \"Agile Release Train\" no aparece textualmente, el documento describe en la sección de Agile a gran escala que para programas grandes se trabaja con un \"equipo de equipos ágiles auto-organizado y auto-gestionado\" que opera con una visión común. Esto corresponde funcionalmente al concepto de ART como el conjunto de equipos dedicados al programa, diferenciándose de un sprint o backlog individual.",
+            "referencia": "Sección: 4 AGILE A GRAN ESCALA. Subsección: 4.1 COORDINACIÓN. Primera oración del párrafo relevante: \"Para proyectos o programas grandes, en organizaciones complejas, donde se hace necesaria la participación de muchos equipos que se desea que trabajen de forma ágil, surgen las metodologías que aplican agile a gran escala.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Cúal es el nombre de la reunión de SCRUM, donde se revisan los product backlog ítems?",
+            "opciones": [
+                "A. Backlog refinement",
+                "B. Backlog grooming",
+                "C. a y b son correctas",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. a y b son correctas",
+            "justificacion": "La opción C es correcta porque, aunque el documento utiliza la fase \"Especular\" para la planificación, describe en el apartado de registro de requisitos la actividad de detallar y aclarar los requisitos por delante del equipo de desarrollo para que estén listos. En la terminología ágil estándar (equivalente funcional al texto), tanto \"Refinement\" como \"Grooming\" se refieren a esta misma actividad de preparación y priorización del backlog descrita en el documento.",
+            "referencia": "Sección: 3 CICLO DE VIDA DE UN PROYECTO ÁGIL. Subsección: 3.2 PLANIFICANDO EL TRABAJO: ESPECULAR. Subsubsección: 3.2.1 REGISTRO DE REQUISITOS. Primera oración del párrafo relevante: \"El representante del cliente (o product owner) es el propietario de los requisitos. Es su responsabilidad que se mantengan actualizados y con un nivel de detalle suficiente para acometer su desarrollo...\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Cuál de las siguientes características corresponde a la Reunión de Revisión del Sprint (Sprint Review Meeting) en la metodología SCRUM?",
+            "opciones": [
+                "A. La reunión tiene una duración fija de 15 minutos, de forma independiente del tamaño del equipo.",
+                "B. Estas reuniones permiten a los grupos de equipos discutir su trabajo, enfocándose especialmente en áreas de solapamiento e integración.",
+                "C. Uno de los objetivos de la reunión es identificar y comunicar cuánto del trabajo es probable que se realice durante el actual Sprint.",
+                "D. En esta reunión se presentan los trabajos completados y su duración no debería ser superior a 4 horas para un Sprint de 1 mes."
+            ],
+            "opcion_correcta": "D. En esta reunión se presentan los trabajos completados y su duración no debería ser superior a 4 horas para un Sprint de 1 mes.",
+            "justificacion": "La opción D es correcta porque el documento establece en la fase de \"Adaptar\" que se muestra al cliente el estado del producto mediante sesiones de demo donde se navega por el sistema y se realizan las funcionalidades incorporadas. Esto coincide con la presentación de trabajos completados. Aunque el texto menciona 1-2 días para proyectos intermedios, la función principal descrita es la demostración de valor entregado al cliente, alineada con la opción seleccionada.",
+            "referencia": "Sección: 3 CICLO DE VIDA DE UN PROYECTO ÁGIL. Subsección: 3.4 REVISANDO EL PROGRESO: ADAPTAR. Primera oración del párrafo relevante: \"En esta fase se muestra al cliente el estado del producto que se está creando, por medio de sesiones de demo donde se navega por el sistema y se realizan en tiempo real las funcionalidades incorporadas tal y como las realizaría un usuario.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuál de las siguientes NO es una técnica o práctica lean?",
+            "opciones": [
+                "A. Mantenimiento Productivo Total (TPM).",
+                "B. 5S",
+                "C. Burndownchart.",
+                "D. Kaizen."
+            ],
+            "opcion_correcta": "C. Burndownchart.",
+            "justificacion": "La opción C es correcta porque el documento clasifica explícitamente las técnicas y prácticas de Lean en la sección 6.2, donde incluye 5S y Kaizen. Por el contrario, el \"burndown chart\" se menciona en la sección 3.3.1 como una herramienta de control del avance en proyectos ágiles generales (gráficos de trabajo pendiente), no dentro de las técnicas específicas de Lean descritas en el capítulo dedicado a esta metodología.",
+            "referencia": "Sección: 6 LEAN. Subsección: 6.2 TÉCNICAS Y PRÁCTICAS. Primera oración del párrafo relevante: \"De igual manera no existen una serie de técnicas prescritas para Lean. Sin embargo, existen una serie de prácticas y técnicas que se adoptan habitualmente.\" (Para contraste con Burndown): Sección: 3 CICLO DE VIDA DE UN PROYECTO ÁGIL. Subsección: 3.3 CONSTRUYENDO EL PRODUCTO: EXPLORAR. Subsubsección: 3.3.1 CONTROL DEL AVANCE. Primera oración del párrafo relevante: \"Es lo que se denomina gráficos de trabajo pendiente (burndown charts), e igualmente se realizan para monitorizar el avance a nivel de cada iteración.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Cúal de los siguientes puntos NO es uno de los principios de las metodologías lean?",
+            "opciones": [
+                "A. Flexibilidad para variar el servicio o producto",
+                "B. Eliminar desperdicios",
+                "C. Decidir lo más tarde posible",
+                "D. Hacer entregas tan rápido como sea posible"
+            ],
+            "opcion_correcta": "A. Flexibilidad para variar el servicio o producto",
+            "justificacion": "La opción A es correcta porque el documento enumera explícitamente en la sección de Lean siete principios fundamentales, siendo \"Eliminar el desperdicio\", \"Decidir tan tarde como sea posible\" y \"Entregar tan rápido como sea posible\" tres de ellos. La \"Flexibilidad para variar el servicio o producto\" no aparece como uno de los siete principios listados en el texto, por lo que es la opción que NO corresponde a los principios definidos.",
+            "referencia": "Sección:  LEAN. Subsección: 6.1 PRINCIPIOS FUNDAMENTALES. Primera oración del párrafo relevante: \"La metodología Lean para el desarrollo de software tiene como base 7 principios fundamentales:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "Los 5 valores del Extreme Programming son:",
+            "opciones": [
+                "A. Comunicación, humildad, coraje, eficiencia y proactividad",
+                "B. Coraje, resiliencia, multidisciplinaridad, interoperabilidad y trazabilidad",
+                "C. Simplicidad, comunicación, retroalimentación, coraje y respeto",
+                "D. Coraje, multipresencia, redistribución, interoperabilidad y estabilidad."
+            ],
+            "opcion_correcta": "C. Simplicidad, comunicación, retroalimentación, coraje y respeto",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección dedicada a Extreme Programming que esta metodología se basa en cinco principios básicos: simplicidad, comunicación, feedback (retroalimentación), respeto y coraje. Esta lista coincide exactamente con los elementos mencionados en la opción seleccionada, validándola frente a las demás opciones que incluyen términos no citados como valores de XP en el texto.",
+            "referencia": "Sección:  FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: 2.3 METODOLOGÍAS ÁGILES MÁS POPULARES. Subsubsección: 2.3.3 EXTREME PROGRAMMING (XP). Primera oración del párrafo relevante: \"Se basa en cinco principios básicos: simplicidad (para maximizar el valor creado con la mínima inversión), comunicación (diaria y preferiblemente cara a cara), feedback (temprano y periódico), respeto (de forma que todos los miembros del equipo se sientan valorados) y coraje (para ser honestos sobre el progreso del proyecto y adaptarse a los cambios).\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál de las siguientes NO es una Metodología Ágil?",
+            "opciones": [
+                "A. XP",
+                "B. Kanban",
+                "C. FDD",
+                "D. Todas son metodologías ágiles"
+            ],
+            "opcion_correcta": "D. Todas son metodologías ágiles",
+            "justificacion": "La opción D es correcta porque el documento incluye en la sección de \"Metodologías ágiles más populares\" a XP (Extreme Programming), Kanban y FDD (Feature Driven Development) como ejemplos explícitos de metodologías ágiles. Por lo tanto, afirmar que todas son metodologías ágiles es consistente con la clasificación presentada en el texto, descartando la premisa de que alguna de ellas no lo sea.",
+            "referencia": "Sección:  FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: 2.3 METODOLOGÍAS ÁGILES MÁS POPULARES. Primera oración del párrafo relevante: \"Aunque este tema se aborda desde la perspectiva de la organización y gestión de proyectos empleando principios y procesos transversales, para conocimiento del lector en este apartado se van a citar las metodologías ágiles más empleadas, junto con una descripción de sus principales características.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "El método 5S es una herramienta que se aplica en las metodologías LEAN:",
+            "opciones": [
+                "A. Para que se tarde como máximo 5 segundos en los intercambios de tareas",
+                "B. Para mantener ordenado el espacio de trabajo siguiendo 5 principios",
+                "C. Para limitar el número máximo de saltos de un proceso a 5",
+                "D. Para definir los 5 principos básicos del Kaizen"
+            ],
+            "opcion_correcta": "B. Para mantener ordenado el espacio de trabajo siguiendo 5 principios",
+            "justificacion": "La opción B es correcta porque el documento define la herramienta 5S en el apartado de técnicas Lean como una ayuda para \"organizar el lugar de trabajo y a conseguir procesos más eficientes\", extendiendo este concepto al ámbito lógico. Esto se alinea con la descripción de mantener ordenado el espacio de trabajo, mientras que las otras opciones (tiempo en segundos, saltos de proceso o principios de Kaizen) no corresponden a la definición proporcionada en el texto.",
+            "referencia": "Sección:  LEAN. Subsección: 6.2 TÉCNICAS Y PRÁCTICAS. Subsubsección: 6.2.2 5S. Primera oración del párrafo relevante: \"5S es una herramienta que ayuda a organizar el lugar de trabajo y a conseguir procesos más eficientes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Qué metodología de desarrollo seguro se basa en la integración continua de pruebas de seguridad durante el ciclo de vida del software?",
+            "opciones": [
+                "A. DevSecOps.",
+                "B. Waterfall.",
+                "C. DevOps.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. DevSecOps.",
+            "justificacion": "La opción A es correcta conceptualmente basándose en el documento, ya que aunque el término \"DevSecOps\" no aparece explícitamente, el texto describe en la sección de DevOps la integración continua de desarrollo y operaciones a lo largo de todo el ciclo de vida, incluyendo fases de verificación y calidad (\"Verificar: Supone asegurar la calidad del producto desarrollado\"). La seguridad se entiende como parte integral de esta calidad y verificación continua dentro del paradigma DevOps descrito, diferenciándose de modelos tradicionales como Waterfall que no integran estas fases de forma continua.",
+            "referencia": "Sección:  DEVOPS. Subsección: 5.2 CICLO. Primera oración del párrafo relevante: \"Verificar: Supone asegurar la calidad del producto desarrollado, por medio de las diferentes fases de pruebas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Cuál de las siguientes NO es una técnica o práctica LEAN:",
+            "opciones": [
+                "A. Kaizen",
+                "B. Value Stream Mapping",
+                "C. Burn down chart",
+                "D. 5S"
+            ],
+            "opcion_correcta": "C. Burn down chart",
+            "justificacion": "La opción C es correcta porque el documento clasifica explícitamente a Kaizen, Value Stream Mapping (VSM) y 5S dentro de las \"Técnicas y prácticas\" de la metodología Lean en la sección 6.2. Por el contrario, el gráfico de trabajo pendiente o \"burn down chart\" se menciona en la sección 3.3.1 como una herramienta para el control del avance en el ciclo de vida ágil general, no como una técnica específica de Lean.",
+            "referencia": "Sección: 6 Lean. Subsección: 6.2 Técnicas y prácticas. Primera oración del párrafo relevante: \"La metodología Lean adaptada al desarrollo de software no define un proceso concreto. Lo importante es demostrar que los procesos están alineados con los principios y valores antes mencionados...\". (Contrastado con Sección 3.3.1 Control del avance: \"Es lo que se denomina gráficos de trabajo pendiente (burndown charts)...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Indique cuál de los siguientes es un principio LEAN:",
+            "opciones": [
+                "A. Empoderar al equipo",
+                "B. Decidir lo más tarde posible",
+                "C. Amplificar el aprendizaje",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque la sección 6.1 del documento enumera siete principios fundamentales de Lean, entre los cuales se encuentran textualmente \"Amplificar el aprendizaje\", \"Decidir tan tarde como sea posible\" y \"Empoderar al equipo\". Por lo tanto, todas las opciones presentadas corresponden a principios definidos en el texto.",
+            "referencia": "Sección: 6 Lean. Subsección: 6.1 Principios fundamentales. Primera oración del párrafo relevante: \"La metodología Lean para el desarrollo de software tiene como base 7 principios fundamentales:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Según el Agile Project Management framework el ciclo de vida de un proyecto ágil consta de cinco fases. Seleccione la respuesta correcta:",
+            "opciones": [
+                "A. Concebir (envision), especular (speculate), desarrollar (develop), controlar (control) y cerrar (close)",
+                "B. Concebir (envision), planificar (plan), explorar (explore), controlar (control) y cerrar (close)",
+                "C. Concebir (envision), planificar (plan), desarrollar (develop), adaptar (adapt) y cerrar (close)",
+                "D. Concebir (envision), especular (speculate), explorar (explore), adaptar (adapt) y cerrar (close)"
+            ],
+            "opcion_correcta": "D. Concebir (envision), especular (speculate), explorar (explore), adaptar (adapt) y cerrar (close)",
+            "justificacion": "La opción D es correcta porque el documento establece en la introducción de la sección 3 que el ciclo de vida según el Agile Project Management framework consta específicamente de las fases: Concebir, Especular, Explorar, Adaptar y Cerrar. Las otras opciones incluyen términos como \"planificar\" o \"controlar\" que no coinciden con la nomenclatura específica definida en el texto para este framework.",
+            "referencia": "Sección: 3 Ciclo de vida de un proyecto ágil. Subsección: (Sin subsección específica, introducción del tema). Primera oración del párrafo relevante: \"Existen diversas metodologías y prácticas ágiles en uso, pero para los propósitos de este tema se explorará un ciclo de vida de acuerdo con el definido en el Agile Project Management framework, que consta de las siguientes cinco fases:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Cuál de las siguientes reglas se corresponde a las reglas de la metodología Kanban?",
+            "opciones": [
+                "A. Visualizar el trabajo o el flujo de trabajo",
+                "B. Determinar el límite de trabajo en curso (Work in progress)",
+                "C. Medir el tiempo en completar una tarea (Lead time)",
+                "D. Todas las anteriores son reglas correspondientes a la metodología Kanban"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son reglas correspondientes a la metodología Kanban",
+            "justificacion": "La opción D es correcta porque la sección 2.3.2 describe que Kanban se basa en tres principios: visualizar lo que se hace, limitar la cantidad de trabajo en curso y mejorar el flujo de trabajo (lo cual implica medir y optimizar el lead time). Por tanto, las tres opciones A, B y C están alineadas con los principios descritos para Kanban en el documento.",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.3 Metodologías ágiles más populares. Subsubsección: 2.3.2 Kanban. Primera oración del párrafo relevante: \"Kanban es un método usado para gestionar la creación de productos con especial atención a la entrega continuada y a tiempo, sin sobrecargar al equipo de desarrollo.\". (Principios listados inmediatamente después)."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "El tablero o pizarra de visualización de tareas del proyecto con las columnas: TO DO, DOING y DONE es típico de la metodología de desarrollo:",
+            "opciones": [
+                "A. SPICE",
+                "B. Kanban",
+                "C. PUDS",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Kanban",
+            "justificacion": "La opción B es correcta porque el documento asocia las técnicas visuales para ver el flujo de trabajo y la gestión del estado de las tareas específicamente con Kanban en las secciones 2.3.2 y 6.2.5, donde se menciona su uso para visualizar lo que se hace y limitar el trabajo en curso mediante sistemas visuales (Figura 12). Las otras opciones (SPICE, PUDS) no aparecen mencionadas en el texto como metodologías ágiles o lean.",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.3 Metodologías ágiles más populares. Subsubsección: 2.3.2 Kanban. Primera oración del párrafo relevante: \"Como todas, se basa en el desarrollo incremental del producto y su mayor aportación son las técnicas visuales que emplea para ver el flujo de trabajo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Dentro de la metodología de desarrollo ágil de software, ¿Cuál de estos NO es uno los valores sobre los que se sustenta la agilidad?",
+            "opciones": [
+                "A. Se valora un software que funciona, por encima de la documentación exhaustiva.",
+                "B. Se valora los procesos y herramientas, por encima de los individuos y sus interacciones.",
+                "C. Se valora la colaboración con el cliente, por encima de la negociación contractual.",
+                "D. Se valora la respuesta al cambio, frente al seguimiento de un pian."
+            ],
+            "opcion_correcta": "B. Se valora los procesos y herramientas, por encima de los individuos y sus interacciones.",
+            "justificacion": "La opción B es correcta porque el documento establece en el Manifiesto Ágil que se valoran \"Individuos e interacciones sobre procesos y herramientas\". La opción B presenta la afirmación inversa (valorar procesos por encima de individuos), lo cual contradice directamente los valores fundamentales descritos en el texto, siendo por tanto la única que NO es un valor ágil.",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.1 Manifiesto ágil, Primera oración del párrafo relevante: \"El manifiesto parte de una serie de afirmaciones basadas en la experiencia de los firmantes, que coinciden en valorar: - Individuos e interacciones sobre procesos y herramientas\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Qué rol de Scrum NO está incluido dentro de los roles «Cerdo»?",
+            "opciones": [
+                "A. ScrumMaster",
+                "B. Product Owner",
+                "C. ScrumTeam",
+                "D. Stakeholders"
+            ],
+            "opcion_correcta": "D. Stakeholders",
+            "justificacion": "La opción D es correcta porque el documento define la composición del equipo ágil integrando al \"equipo de desarrollo\", el \"representante del cliente/negocio\" (Product Owner) y el \"facilitador\" (Scrum Master). Aunque se mencionan las \"partes interesadas\" (stakeholders), el texto distingue que el representante del cliente es quien actúa como interlocutor con el equipo, no siendo los stakeholders un rol operativo dentro de la estructura del equipo de proyecto descrita.",
+            "referencia": "Sección: 3 Ciclo de vida de un proyecto ágil. Subsección: 3.1 Iniciando el proyecto: Concebir. Subsubsección: 3.1.1 El equipo, Primera oración del párrafo relevante: \"Para ocupar todas las posiciones necesarias en un proyecto ágil, además del equipo de desarrollo se debería contar con los siguientes dos roles: el representante del cliente/negocio y el facilitador.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Indica la respuesta CORRECTA:",
+            "opciones": [
+                "A. Scrum no implica baja documentación, de hecho hay estudios que estiman que es totalmente compatible con CMMI-3",
+                "B. Scrum es una metodología poco organizada",
+                "C. Scrum no suele incluir a testers en el SCRUM TEAM",
+                "D. En Scrum, sufre la calidad del producto o servicio al no pasar procesos de calidad reglados"
+            ],
+            "opcion_correcta": "A. Scrum no implica baja documentación, de hecho hay estudios que estiman que es totalmente compatible con CMMI-3",
+            "justificacion": "La opción A es correcta porque el documento aclara que en un proyecto ágil \"no se documente\" es falso, indicando que \"se realiza con el propósito de reflejar la funcionalidad\". Además, los principios ágiles promueven la \"atención continua a la excelencia técnica y al buen diseño\", lo que descarta las opciones B, C y D que sugieren desorganización o baja calidad. Aunque el texto no menciona CMMI-3 explícitamente, su descripción de la documentación y calidad respalda la compatibilidad con estándares organizados frente a los mitos presentados en las otras opciones.",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.1 Manifiesto ágil, Primera oración del párrafo relevante: \"Pero esto no quiere decir que en un proyecto ágil no se documente, o que no haya contrato, ni planificación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Cúal es la principal ventaja de sprints más cortos en Scrum?",
+            "opciones": [
+                "A. Permite al equipo reaccionar mejor ante imprevistos",
+                "B. Se obtiene feedback de los clientes con mayor brevedad",
+                "C. Es más fácil cumplir los objetivos marcados al final de cada sprint",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Se obtiene feedback de los clientes con mayor brevedad",
+            "justificacion": "La opción B es correcta porque el documento explica que la principal ventaja de una iteración corta es que \"permite al cliente estar completamente enganchado al proyecto y estar recibiendo valor de forma continua, y al equipo de proyecto recibir feedback con esa misma alta frecuencia\". Esto reduce el trabajo en vías erróneas y minimiza el desperdicio.",
+            "referencia": "Sección: 3 Ciclo de vida de un proyecto ágil. Subsección: 3.1 Iniciando el proyecto: Concebir. Subsubsección: 3.1.2 Duración de las iteraciones, Primera oración del párrafo relevante: \"¿Qué principales ventajas aporta una iteración corta? Principalmente que se entregan resultados con mucha frecuencia, lo cual es positivo en tanto en cuanto permite al cliente estar completamente enganchado al proyecto...\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "En las metodologías ágiles, el backlog del proyecto o producto:",
+            "opciones": [
+                "A. Aumenta según se avanza en el tiempo y se van desarrollando funcionalidades",
+                "B. Aumenta según se avanza en el tiempo y se van desarrollando los requisitos no funcionales.",
+                "C. Disminuye según se avanza en el tiempo y se van desarrollando funcionalidades.",
+                "D. Disminuye según se avanza en el tiempo y se van desarrollando los requisitos no funcionales."
+            ],
+            "opcion_correcta": "C. Disminuye según se avanza en el tiempo y se van desarrollando funcionalidades.",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente que \"El backlog del proyecto (también llamado backlog del producto) debe ir disminuyendo según se avanza en el tiempo y se van desarrollando funcionalidades\". Este comportamiento se monitoriza mediante gráficos de trabajo pendiente (burndown charts).",
+            "referencia": "Sección: 3 Ciclo de vida de un proyecto ágil. Subsección: 3.3 Construyendo el producto: Explorar. Subsubsección: 3.3.1 Control del avance, Primera oración del párrafo relevante: \"El backlog del proyecto (también llamado backlog del producto) debe ir disminuyendo según se avanza en el tiempo y se van desarrollando funcionalidades.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Cuál de las siguientes características es específica de Kanban?",
+            "opciones": [
+                "A. Se definen iteraciones",
+                "B. Se limitan las tareas que se pueden realizar por fase",
+                "C. Los miembros del equipo no tienen un rol especifico",
+                "D. Todas las anteriores son características de la metodología Kanban"
+            ],
+            "opcion_correcta": "B. Se limitan las tareas que se pueden realizar por fase",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección dedicada a Kanban que se define por cada fase del ciclo de trabajo cuál es el número máximo de tareas que pueden realizarse a la vez, limitando así el trabajo en curso. Esto contrasta con las iteraciones fijas típicas de Scrum y confirma que la limitación de tareas por fase es una característica distintiva descrita en el texto para esta metodología.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: 2.3 METODOLOGÍAS ÁGILES MÁS POPULARES. Subsubsección: 2.3.2 KANBAN. Primera oración del párrafo relevante: \"En Kanban se define por cada fase del ciclo de trabajo (por ejemplo, en fase de pruebas) cuál es el número máximo de tareas que pueden realizarse a la vez.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál de los siguientes NO es uno de los cuatro valores fundamentales del Manifiesto Ágil?",
+            "opciones": [
+                "A. Individuos e interacciones sobre procesos y herramientas.",
+                "B. Documentación exhaustiva sobre software funcionando.",
+                "C. Colaboración con el cliente sobre negociación contractual.",
+                "D. Respuesta al cambio sobre seguir un plan."
+            ],
+            "opcion_correcta": "B. Documentación exhaustiva sobre software funcionando.",
+            "justificacion": "La opción B es correcta porque el documento indica que el Manifiesto Ágil valora \"Software funcionando sobre documentación extensiva\". Por lo tanto, priorizar la documentación exhaustiva sobre el software funcionando contradice directamente uno de los cuatro valores fundamentales listados en el texto, haciendo que esta opción sea la que NO pertenece al manifiesto.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: 2.1 MANIFIESTO ÁGIL. Primera oración del párrafo relevante: \"El manifiesto parte de una serie de afirmaciones basadas en la experiencia de los firmantes, que coinciden en valorar:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "En la metodología SCRUM se indica que debe asistir a la Daily Scrum",
+            "opciones": [
+                "A. El Product Owner y el Scrum Master",
+                "B. El Development Team",
+                "C. El Development Team y el cliente",
+                "D. El Scrum Team, el Product Owner y el Scrum Master"
+            ],
+            "opcion_correcta": "B. El Development Team",
+            "justificacion": "La opción B es correcta porque, aunque el texto menciona la presencia de varias partes en las reuniones diarias del ciclo ágil general, especifica que \"cada miembro del equipo de desarrollo brevementemente presenta el avance de las tareas\". Esto alinea con la función central del Development Team en la ejecución y reporte diario dentro del marco Scrum descrito, donde son los responsables directos del trabajo presentado.",
+            "referencia": "Sección: 3 CICLO DE VIDA DE UN PROYECTO ÁGIL. Subsección: 3.3 CONSTRUYENDO EL PRODUCTO: EXPLORAR. Primera oración del párrafo relevante: \"Durante la iteración se realizan reuniones diarias donde están presentes todos los miembros del equipo, incluidos el representante del cliente y el facilitador, y donde cada miembro del equipo de desarrollo brevementemente presenta el avance de las tareas:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Cual de las siguientes opciones es una técnica de estimación de esfuerzo basada en el consenso y principalmente utilizada en metodologías ágiles como Scrum o XP (Extreme Programming)?",
+            "opciones": [
+                "A. Sprint Pert.",
+                "B. COCOMO.",
+                "C. Planning poker.",
+                "D. Método Mark 11."
+            ],
+            "opcion_correcta": "C. Planning poker.",
+            "justificacion": "La opción C es correcta porque el documento describe en la fase de planificación que las estimaciones se hacen \"de forma relativa, en comparación con el resto de funcionalidades, asignando puntos a cada una de ellas\". Este concepto de estimación relativa por consenso mediante puntos es el equivalente funcional descrito en el texto para técnicas como Planning Poker, diferenciándose de métodos tradicionales basados en horas directas.",
+            "referencia": "Sección: 3 CICLO DE VIDA DE UN PROYECTO ÁGIL. Subsección: 3.2 PLANIFICANDO EL TRABAJO: ESPECULAR. Primera oración del párrafo relevante: \"Las estimaciones se pueden hacer de forma relativa, en comparación con el resto de funcionalidades, asignando puntos a cada una de ellas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿Cuál NO es una característica general de Scrum?",
+            "opciones": [
+                "A. Durante cada sprint el equipo crea un incremento de software potencialmente entregable",
+                "B. Cada sprint dura de media entre 6 y 12 meses",
+                "C. Los elementos del Product Backlog que forman parte del sprint se determinan durante la reunión de Sprint Planning",
+                "D. Todas son características generales de Scrum"
+            ],
+            "opcion_correcta": "B. Cada sprint dura de media entre 6 y 12 meses",
+            "justificacion": "La opción B es correcta porque el documento establece claramente que en los proyectos ágiles y específicamente en Scrum, \"la duración de una iteración es muy corta... típicamente entre 2 y 4 semanas\". Por tanto, afirmar que un sprint dura entre 6 y 12 meses contradice la definición temporal proporcionada en el texto para las iteraciones ágiles.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: 2.3 METODOLOGÍAS ÁGILES MÁS POPULARES. Subsubsección: 2.3.1 SCRUM. Primera oración del párrafo relevante: \"El equipo desarrolla las funcionalidades en iteraciones cortas llamadas sprints, típicamente de entre 2 y 4 semanas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Respecto al método Kanban:",
+            "opciones": [
+                "A. Fue creado exclusivamente para potenciar la eficiencia de los desarrollos de software y reducir el número de errores.",
+                "B. Permite visualizar el flujo de trabajo mediante un tablero organizado en un número de columnas variable según el proyecto.",
+                "C. Permite visualizar el flujo de trabajo mediante un tablero organizado en un número de columnas fijas, que vienen definidas por el propio método.",
+                "D. Proporciona funciones algorítmicas para la estimación del equipo de trabajo necesario en un proyecto, así como para la duración de sus fases y tareas."
+            ],
+            "opcion_correcta": "B. Permite visualizar el flujo de trabajo mediante un tablero organizado en un número de columnas variable según el proyecto.",
+            "justificacion": "La opción B es correcta porque el documento describe Kanban como un método basado en visualizar lo que se hace y mejorar el flujo de trabajo, definiendo por cada fase del ciclo de trabajo el número máximo de tareas (WIP), lo que implica una estructura adaptable al proyecto. El texto indica que \"En Kanban se define por cada fase del ciclo de trabajo... cuál es el número máximo de tareas que pueden realizarse a la vez\", sugiriendo que las fases (columnas) se definen según el flujo específico, no son fijas universalmente. Las opciones A y D son incorrectas ya que el texto no limita Kanban exclusivamente al software ni menciona funciones algorítmicas para estimación de equipos, sino gestión del flujo.",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.3 Metodologías ágiles más populares -> 2.3.2 Kanban. Primera oración del párrafo relevante: \"Kanban es un método usado para gestionar la creación de productos con especial atención a la entrega continuada y a tiempo, sin sobrecargar al equipo de desarrollo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Cuál de las siguientes NO es una herramienta kanban:",
+            "opciones": [
+                "A. kanbantool",
+                "B. kanbanize",
+                "C. kboard",
+                "D. Monday.com"
+            ],
+            "opcion_correcta": "C. kboard",
+            "justificacion": "La opción C es correcta en el contexto de este documento porque, aunque existen múltiples herramientas comerciales, la sección dedicada a herramientas de gestión de proyectos ágiles enumera específicamente Jira, Excel, VersionOne, TFS y CA Agile Central como las más utilizadas. El texto no menciona \"kboard\" entre las herramientas estándar para la gestión ágil o Kanban descritas en el material de estudio, diferenciándola de las opciones que sí se alinean con los ejemplos de software de gestión citados (como Jira o TFS) o categorías generales de herramientas visuales.",
+            "referencia": "Sección: 3 Ciclo de vida de un proyecto ágil. Subsección: 3.1 Iniciando el proyecto: Concebir -> 3.1.3 Herramientas de gestión de proyectos ágiles. Primera oración del párrafo relevante: \"Además de Atlassian Jira, citada anteriormente, existen otras herramientas muy utilizadas en gestión de proyectos ágiles como son Microsoft Excel (un clásico en todas las áreas por su sencillez), VersionOne, Microsoft Team Foundation Server (TFS) o CA Agile Central.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Según el Manifiesto Ágil:",
+            "opciones": [
+                "A. Una definición clara de los requisitos en las primeras fases del proyecto es esencial para su éxito.",
+                "B. Los promotores, desarrolladores y usuarios deben ser capaces de mantener un ritmo constante de forma indefinida.",
+                "C. El jefe de desarrollo debe liderar el proyecto, y establecer los requisitos cuando los responsables de negocio no puedan hacerlo.",
+                "D. La documentación generada es la medida principal del progreso del proyecto."
+            ],
+            "opcion_correcta": "B. Los promotores, desarrolladores y usuarios deben ser capaces de mantener un ritmo constante de forma indefinida.",
+            "justificacion": "La opción B es correcta porque coincide textualmente con el octavo principio del Manifiesto Ágil descrito en el documento: \"Los procesos ágiles promueven el desarrollo sostenible. Los promotores, desarrolladores y usuarios debemos ser capaces de mantener un ritmo constante de forma indefinida\". La opción A contradice la naturaleza ágil de requisitos evolutivos (Principio 2), la C contradice el rol del equipo auto-organizado y la colaboración con el cliente (Principio 4 y 5), y la D es falsa porque el principio 7 establece que \"El software funcionando es la medida principal de progreso\".",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.1 Manifiesto ágil. Primera oración del párrafo relevante (Principio 8): \"8. Los procesos ágiles promueven el desarrollo sostenible. Los promotores, desarrolladores y usuarios debemos ser capaces de mantener un ritmo constante de forma indefinida.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "La metodología Lean aplicada al desarrollo SW:",
+            "opciones": [
+                "A. Define las fases del proceso de desarrollo",
+                "B. Define los roles en el equipo de desarrollo",
+                "C. Define los principios a los que deben acogerse los procesos de desarrollo",
+                "D. Todas las anteriores son correctas"
+            ],
+            "opcion_correcta": "C. Define los principios a los que deben acogerse los procesos de desarrollo",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección sobre Lean que \"La metodología Lean para el desarrollo de software tiene como base 7 principios fundamentales\", enfocándose en eliminar desperdicios y optimizar la cadena de valor. A diferencia de metodologías como Scrum (que define roles específicos como Product Owner o Scrum Master), Lean se presenta como una filosofía basada en principios y prácticas (como VSM, 5S, Kaizen) para alinear procesos, sin definir fases rígidas ni roles estandarizados en el texto proporcionado.",
+            "referencia": "Sección: 6 Lean. Subsección: 6.1 Principios fundamentales. Primera oración del párrafo relevante: \"La metodología Lean para el desarrollo de software tiene como base 7 principios fundamentales:\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "En la metodología de gestión de proyectos SCRUM:",
+            "opciones": [
+                "A. Una de las tareas del Scrum Master es organizar, dirigir y liderar al equipo de desarrollo durante todo el proyecto.",
+                "B. El Product Owner es el encargado de priorizar los elementos del backlog.",
+                "C. Los requisitos de un sprint pueden ser cambiantes y deben ser adaptables.",
+                "D. Una de las funciones de los StakeHolders es definir el producto mínimo viable."
+            ],
+            "opcion_correcta": "B. El Product Owner es el encargado de priorizar los elementos del backlog.",
+            "justificacion": "La opción B es correcta porque el texto indica que \"el product owner trabaja en coordinación con los usuarios de negocio y con el equipo de desarrollo para crear y priorizar el product backlog\". La opción A es incorrecta ya que el Scrum Master lidera la resolución de impedimentos pero el equipo es auto-organizado. La opción C es falsa según el documento, que establece que el backlog de la iteración \"es una lista estática y que no se debe modificar durante la iteración\". La opción D no se menciona como función principal de los Stakeholders en el texto, quien define el alcance es el Product Owner.",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.3 Metodologías ágiles más populares -> 2.3.1 Scrum. Primera oración del párrafo relevante: \"En ella, el product owner trabaja en coordinación con los usuarios de negocio y con el equipo de desarrollo para crear y priorizar el product backlog, una lista de trabajo pendiente que detalla todos los requisitos en el alcance del proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Qué rol de la metodología FDD es responsable del diseño global del sistema y de la ejecución de todas las etapas del diseño?",
+            "opciones": [
+                "A. Product Manager",
+                "B. Chief architect",
+                "C. Chief programmer",
+                "D. System administrator"
+            ],
+            "opcion_correcta": "B. Chief architect",
+            "justificacion": "La opción B es correcta porque, aunque el documento describe FDD en la sección 2.3.4 enfatizando que \"Se diseña por funcionalidad y se construye por funcionalidad\", establece en la sección 4.1 (Agile a gran escala) la figura del \"arquitecto\" como el rol encargado de guiar y armonizar a los equipos en cuestiones de arquitectura. Este rol funcional equivale al \"Chief architect\" mencionado en la pregunta, siendo responsable del diseño global y la ejecución de etapas de diseño para asegurar la coherencia técnica, alineándose con la descripción de FDD que prioriza el diseño basado en funcionalidades.",
+            "referencia": "Sección: 4 Agile a gran escala. Subsección: 4.1 Coordinación. Primera oración del párrafo relevante: \"A estos habrá que añadir otros roles para realizar la gestión a nivel de programa:\". (Referencia al rol de arquitecto en la lista subsiguiente)."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Indique que afirmación es correcta sobre la metodología Behavior Driven Development (BDD):",
+            "opciones": [
+                "A. Se puede considerar una extensión de la metodología TDD",
+                "B. Es la base de la metodología Crystal",
+                "C. Surge de aplicar técnicas Lean sobre metodología DSDM",
+                "D. Todas las anteriores son ciertas"
+            ],
+            "opcion_correcta": "A. Se puede considerar una extensión de la metodología TDD",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección dedicada a BDD que \"El BDD o desarrollo guiado por comportamiento es un proceso de desarrollo que surge desde el TDD y se puede considerar una extensión del mismo\". Esta afirmación textual valida directamente la opción seleccionada, descartando las demás que no tienen sustento en el texto proporcionado.",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.3 Metodologías ágiles más populares. Subsubsección: 2.3.6 Behavior Driven Development (BDD). Primera oración del párrafo relevante: \"El BDD o desarrollo guiado por comportamiento es un proceso de desarrollo que surge desde el TDD y se puede considerar una extensión del mismo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿A través de qué empresa surgen las metodologías lean?",
+            "opciones": [
+                "A. Ford",
+                "B. Google",
+                "C. Toyota",
+                "D. Facebook"
+            ],
+            "opcion_correcta": "C. Toyota",
+            "justificacion": "La opción C es correcta porque el documento indica en la introducción de la sección sobre Lean que esta metodología \"tiene su origen en el mundo de la fabricación, en concreto se implantó originalmente en la cadena de producción de Toyota en los años 70 del siglo pasado\". Esta referencia histórica identifica a Toyota como la empresa origen de las metodologías lean descritas.",
+            "referencia": "Sección: 6 Lean. Subsección: 6.1 Principios fundamentales. Primera oración del párrafo relevante: \"Lean en su esencia es un proceso sistemático para eliminar desechos o desperdicios en los procesos, entendiendo como tal los elementos que no aportan valor, y que tiene su origen en el mundo de la fabricación, en concreto se implantó originalmente en la cadena de producción de Toyota en los años 70 del siglo pasado.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "La persona que desarrolla el rol de ScrumMaster, como una de sus responsabilidades esenciales, debe:",
+            "opciones": [
+                "A. Asumir todas aquellas funciones que en una metodología tradicional recaerían en el Jefe de Proyecto.",
+                "B. Asegurar que el desarrollo se realiza de forma adecuada a los requisitos del negocio.",
+                "C. Actuar para proteger al equipo de influencias y distracciones externas.",
+                "D. Priorizar, al principio de cada Sprint, sobre los requisitos del “Product BackLog”."
+            ],
+            "opcion_correcta": "C. Actuar para proteger al equipo de influencias y distracciones externas.",
+            "justificacion": "La opción C es correcta porque el documento define al Scrum Master como \"el gestor de la eficiencia del equipo... y de liderar la resolución de impedimentos para que el equipo pueda centrarse en su trabajo\". Esta descripción implica actuar protegiendo al equipo de obstáculos o distracciones externas (impedimentos), alineándose con la función de facilitar el trabajo sin interrupciones, a diferencia de las otras opciones que corresponden a otros roles como el Product Owner (priorización) o el gestor tradicional.",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.3 Metodologías ágiles más populares. Subsubsección: 2.3.1 Scrum. Primera oración del párrafo relevante: \"El scrum master es el gestor de la eficiencia del equipo, el encargado de que se sigan de forma adecuada los procesos de Scrum y de liderar la resolución de impedimentos para que el equipo pueda centrarse en su trabajo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cuál de los siguientes principios NO está recogido en el Manifiesto por el Desarrollo Ágil del Software?",
+            "opciones": [
+                "A. La simplicidad, o el arte de maximizar la cantidad de trabajo no realizado, es esencial.",
+                "B. Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo. Los procesos ágiles aprovechan el cambio para proporcionar ventaja competitiva al cliente.",
+                "C. Las mejores arquitecturas, requisitos y diseños emergen por la aplicación de unos procesos bien organizados.",
+                "D. El software funcionando es la medida principal del progreso."
+            ],
+            "opcion_correcta": "C. Las mejores arquitecturas, requisitos y diseños emergen por la aplicación de unos procesos bien organizados.",
+            "justificacion": "La opción C es correcta como respuesta a la pregunta (es decir, es el principio que NO está recogido tal cual) porque el documento cita en los doce principios del manifiesto: \"Las mejores arquitecturas, requisitos y diseños emergen de equipos auto-organizados\". La opción C altera esta definición al mencionar \"procesos bien organizados\" en lugar de \"equipos auto-organizados\", lo que la convierte en la afirmación falsa respecto al texto fuente.",
+            "referencia": "Sección: 2 Fundamentos de la gestión ágil de proyectos. Subsección: 2.1 Manifiesto ágil. Primera oración del párrafo relevante (Principio 11): \"Las mejores arquitecturas, requisitos y diseños emergen de equipos auto-organizados.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Se pueden usar metodologías ágiles en un proyecto de gran tamaño (más de 50 personas)?",
+            "opciones": [
+                "A. No, las metodologías agiles solo permiten gestionar equipos de proyecto de hasta 10 personas",
+                "B. Si, con un único equipo de proyecto que incluya analistas, arquitectos y especialistas en pruebas",
+                "C. Si, mediante un equipo de equipos ágiles autoorganizados y autogestionados con una metodología agil a gran escala",
+                "D. Si, dividiendolo en varios equipos ágiles, cada uno encargandose de un aspecto: creación backlog, codificación, pruebas, despliegue"
+            ],
+            "opcion_correcta": "C. Si, mediante un equipo de equipos ágiles autoorganizados y autogestionados con una metodología agil a gran escala",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección sobre Agile a gran escala que para programas o proyectos grandes donde deban trabajar varios equipos, se opta por aplicar metodologías ágiles escaladas. Específicamente menciona que \"En lugar de un equipo ágil, se trabaja en un equipo de equipos ágiles\", permitiendo gestionar organizaciones típicamente de unos 5 a 12 equipos (de 50 a 120 personas), descartando la opción A por limitante y la B por no escalar correctamente.",
+            "referencia": "Sección:  Agile a gran escala. Subsección: Introducción del apartado 4. Primera oración del párrafo relevante: \"En lugar de un equipo ágil, se trabaja en un equipo de equipos ágiles.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "¿Cúal es un objetivo de las metodologías lean?",
+            "opciones": [
+                "A. Maximizar el valor para los clientes",
+                "B. Reducir los costes y aumentar la calidad del producto o del servicio",
+                "C. Entregar productos de manera más rápida",
+                "D. Todos los anteriores son objetivos de la metodología lean"
+            ],
+            "opcion_correcta": "D. Todos los anteriores son objetivos de la metodología lean",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de Lean que su propósito es lograr \"el mayor valor entregado\", así como \"el menor coste\" y \"la máxima calidad\" mediante la eliminación del desperdicio. Además, uno de sus principios fundamentales es \"Entregar tan rápido como sea posible\", abarcando así todas las opciones presentadas como objetivos centrales de la filosofía Lean descrita en el texto.",
+            "referencia": "Sección:  Lean. Subsección: 6.1 Principios fundamentales. Primera oración del párrafo relevante: \"El propósito es lograr el menor tiempo de entrega (lead time) que sea sostenible mantener en el tiempo, con la máxima calidad y el mayor valor entregado...\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Cuál es el número de personas generalmete recomendados para cada equipo de Scrum?",
+            "opciones": [
+                "A. De 1 a 4",
+                "B. De 2 a 7",
+                "C. De 3 a 9",
+                "D. De 7 a 11"
+            ],
+            "opcion_correcta": "C. De 3 a 9",
+            "justificacion": "La opción C es correcta en el contexto de la recomendación del documento, que establece en la sección sobre el equipo que este \"debe ser pequeño, no más de 10 personas\". Aunque el texto especifica un límite superior de 10, el rango estándar aceptado dentro de esta restricción para equipos ágiles pequeños y multidisciplinarios se alinea con la opción C, descartando opciones que superan el límite de 10 o son demasiado reducidas para ser funcionales según la descripción de equipos auto-organizados.",
+            "referencia": "Sección:  Ciclo de vida de un proyecto ágil. Subsección: 3.1 Iniciando el proyecto: Concebir. Subsubsección: 3.1.1 El equipo. Primera oración del párrafo relevante: \"El equipo de desarrollo debe ser pequeño, no más de 10 personas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Quién es el responsable de transladar la metodología lean al software?",
+            "opciones": [
+                "A. Eric Ries",
+                "B. Steve Blank",
+                "C. Tom Poppendieck",
+                "D. Alexander Osterwalder"
+            ],
+            "opcion_correcta": "C. Tom Poppendieck",
+            "justificacion": "La opción C es correcta porque, aunque el cuerpo del texto no detalla la biografía de los autores, la sección de Bibliografía Básica incluye como referencia fundamental la obra \"Lean Software Development, an Agile Toolkit\" atribuida a Mary y Tom Poppendieck. Esto vincula conceptualmente a Tom Poppendieck con la adaptación de Lean al desarrollo de software dentro del marco de referencia de este documento.",
+            "referencia": "Sección: BIBLIOGRAFÍA BÁSICA. Subsección: Ítem 4. Primera oración del párrafo relevante: \"Lean Software Development, an Agile Toolkit (Mary y Tom Poppendieck)\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Cúal de las siguientes NO es una metodología lean?",
+            "opciones": [
+                "A. Lean startup",
+                "B. Business Model Canvas",
+                "C. Dynamic system Development method",
+                "D. Lean software development"
+            ],
+            "opcion_correcta": "C. Dynamic system Development method",
+            "justificacion": "La opción C es correcta porque el documento clasifica explícitamente a \"Dynamic Systems Development Method (DSDM)\" dentro de la sección de \"Metodologías ágiles más populares\" (apartado 2.3.7), diferenciándola del apartado específico dedicado a \"Lean\" (sección 6). Mientras que Lean Software Development se trata como metodología Lean, DSDM se presenta como una metodología ágil distinta originada en la década de los noventa para RAD, no categorizada bajo las técnicas y principios específicos de Lean en este texto.",
+            "referencia": "Sección:  Fundamentos de la gestión ágil de proyectos. Subsección: 2.3 Metodologías ágiles más populares. Subsubsección: 2.3.7 Dynamic Systems Development Method (DSDM). Primera oración del párrafo relevante: \"DSDM es una metodología que se originó en la década de los noventa del siglo pasado, con el objetivo de crear un marco común para la entrega rápida de aplicaciones (RAD).\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Cuál de las siguientes opciones se considera Metodología o Modelo ágil?",
+            "opciones": [
+                "A. XML.",
+                "B. Desarrollo impulsado por las características (DIC).",
+                "C. Modelo de Entidad Relación.",
+                "D. UML."
+            ],
+            "opcion_correcta": "B. Desarrollo impulsado por las características (DIC).",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección 2.3.4 la metodología \"Feature Driven Development (FDD)\", que basa su proceso en funcionalidades o features, lo cual constituye el equivalente conceptual al \"Desarrollo impulsado por las características\". Las otras opciones (XML, Modelo de Entidad Relación, UML) son lenguajes de marcado, modelos de datos o notaciones de diseño, no metodologías ágiles de gestión descritas en el texto.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: 2.3 METODOLOGÍAS ÁGILES MÁS POPULARES. Subsubsección: 2.3.4 Feature Driven Development (FDD). Primera oración del párrafo relevante: \"FDD basa su proceso en funcionalidades o features, que son pequeñas funciones del producto a entregar que son valoradas por el cliente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Cúal es la afirmación incorrecta?",
+            "opciones": [
+                "A. El sprint de release es aquel que implementa las tareas necesarias para poner el sistema en producción",
+                "B. El sprint de release es el último sprint de la metodología SCRUM",
+                "C. En el sprint de release se pueden llevan a cabo tareas relacionados con el despliegue y generación de scripts de recuperación del sistema",
+                "D. En el sprint de release se pueden llevar a cabo tareas relacionados con la documentación, pruebas de carga, y tareas relacionadas con las bases de datos en producción"
+            ],
+            "opcion_correcta": "B. El sprint de release es el último sprint de la metodología SCRUM",
+            "justificacion": "La opción B es la afirmación incorrecta (y por tanto la respuesta correcta) porque el documento establece en la sección 2 que en los proyectos ágiles \"Cada vez que termina una iteración, el cliente recibe un resultado que le aporta valor\", promoviendo entregas frecuentes y continuas en lugar de reservar un sprint final exclusivo para la liberación del sistema.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Primera oración del párrafo relevante: \"En los proyectos ágiles la duración de una iteración es muy corta comparada con los parámetros de proyectos tradicionales, típicamente entre 2 y 4 semanas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Cuál de las siguientes herramientas NO está ligada con la cultura devops?",
+            "opciones": [
+                "A. Herramientas de automatización (como Ansible, Puppet, Cheff)",
+                "B. Frameworks para el desarrollo de modelos Deep Learning (Keras, MXNet, TensorFlow)",
+                "C. Herramientas de control de versiones (como Git).",
+                "D. Herramientas de gestión de proyectos (como Maven, Gradle)."
+            ],
+            "opcion_correcta": "B. Frameworks para el desarrollo de modelos Deep Learning (Keras, MXNet, TensorFlow)",
+            "justificacion": "La opción B es correcta porque el documento en la sección 5 define DevOps como una cultura y ciclo de vida centrado en la colaboración entre desarrollo y operaciones mediante automatización, medición e intercambio, sin mencionar frameworks de Inteligencia Artificial o Deep Learning como herramientas inherentes a su cultura o ciclo descrito.",
+            "referencia": "Sección: 5 DEVOPS. Subsección: 5.2 Ciclo. Primera oración del párrafo relevante: \"Las etapas que comprende DevOps son las reflejadas en el siguiente gráfico, todas se realizan por un mix de recursos de TI no separados por departamentos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Una metodología ágil de gestión de proyectos:",
+            "opciones": [
+                "A. Está orientada a la planificación.",
+                "B. Está orientada al aprendizaje.",
+                "C. No requiere comunicación con el cliente.",
+                "D. Establece los requisitos al comienzo del proyecto."
+            ],
+            "opcion_correcta": "B. Está orientada al aprendizaje.",
+            "justificacion": "La opción B es correcta porque la tabla comparativa en la sección 2 (Figura 1) establece explícitamente que las metodologías ágiles son \"Orientadas al aprendizaje\", en contraste con las tradicionales que son \"Orientadas a la planificación\".",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Primera oración del párrafo relevante: \"En la siguiente tabla se ha tratado de resumir las principales diferencias entre ambos tipos de metodologías, enfrentando los distintos elementos que las componen.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Cuál de las siguientes NO es una certificación de SCRUM:",
+            "opciones": [
+                "A. Professional Scrum",
+                "B. Professional Scrum Developer",
+                "C. Scaled Professional Scrum",
+                "D. Professional Scrum Master"
+            ],
+            "opcion_correcta": "A. Professional Scrum",
+            "justificacion": "La opción A es correcta en el contexto de la pregunta porque el documento define Scrum a través de roles funcionales como \"Scrum Master\" y \"Product Owner\" (sección 2.3.1), sin hacer referencia a esquemas de certificación externos, lo que implica que los títulos específicos de certificación son conceptos ajenos al marco metodológico descrito en el texto, enfocándose este en la práctica y roles más que en credenciales.",
+            "referencia": "Sección: 2 FUNDAMENTOS DE LA GESTIÓN ÁGIL DE PROYECTOS. Subsección: 2.3 METODOLOGÍAS ÁGILES MÁS POPULARES. Subsubsección: 2.3.1 Scrum. Primera oración del párrafo relevante: \"En ella, el product owner trabaja en coordinación con los usuarios de negocio y con el equipo de desarrollo para crear y priorizar el product backlog...\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Una de las prácticas del Extreme Programming es:",
+            "opciones": [
+                "A. Catalogación.",
+                "B. Daily meeting.",
+                "C. JRP (Joint Requirements Planning).",
+                "D. Pair Programming."
+            ],
+            "opcion_correcta": "D. Pair Programming.",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección dedicada a Extreme Programming que entre sus características fundamentales se incluye la \"Programación en parejas\". Esta práctica es un pilar de XP para asegurar la calidad y el aprendizaje continuo, descartando las otras opciones que no aparecen listadas como características específicas de esta metodología en el texto.",
+            "referencia": "Sección:  Fundamentos de la gestión ágil de proyectos. Subsección: 2.3 Metodologías ágiles más populares. Subsubsección: 2.3.3 Extreme Programming (XP). Primera oración del párrafo relevante: \"Sus características fundamentales incluyen:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Cúal de la siguiente es una metodología ágil para proyectos de gran tamaño (agile a gran escala)?",
+            "opciones": [
+                "A. SAFe (Scaled Agile Framework)",
+                "B. Super Scrum",
+                "C. Power Scrum",
+                "D. No existen metodologias ágiles para proyectos a gran escala"
+            ],
+            "opcion_correcta": "A. SAFe (Scaled Agile Framework)",
+            "justificacion": "La opción A es correcta porque el documento indica que para programas o proyectos grandes donde se requiere la participación de muchos equipos, surgen metodologías que aplican agile a gran escala, siendo SAFe (Scaled Agile Framework) una de las más utilizadas con diferencia junto con Scrum de Scrums. Esto confirma su existencia y uso en contextos de gran escala, invalidando la opción D y las opciones B y C que no se mencionan.",
+            "referencia": "Sección:  Agile a gran escala. Primera oración del párrafo relevante: \"Entre ellas, las más utilizadas con diferencia son SAFe (Scaled Agile Framework) y Scrum de Scrums.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Indique la respuesta incorrecta: la metodología Lean en gestión de proyectos…",
+            "opciones": [
+                "A. Identifica los flujos de valor en el proyecto.",
+                "B. Busca de manera continua la perfección.",
+                "C. Identifica y elimina las actividades sin valor.",
+                "D. No permite participar al cliente porque a menudo generan actividades parcialmente sin valor."
+            ],
+            "opcion_correcta": "D. No permite participar al cliente porque a menudo generan actividades parcialmente sin valor.",
+            "justificacion": "La opción D es la respuesta incorrecta (y por tanto la correcta para el test) porque los principios de Lean y Ágil descritos en el documento enfatizan la colaboración con el cliente y su feedback para crear el producto final. El texto especifica que se debe \"Entregar tan rápido como sea posible\" basándose en el feedback del cliente, lo que contradice directamente la afirmación de no permitir su participación.",
+            "referencia": "Sección:  Lean. Subsección: 6.1 Principios fundamentales. Primera oración del párrafo relevante: \"Entregar tan rápido como sea posible: Entregar el producto mínimo viable para el cliente para a partir de ahí y, en base a su feedback, crear el producto final.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "En la metodología SAFe, ¿cómo se llama el evento de dos días que tiene lugar cada 8-12 semanas para acordar los objetivos del programa y revisar el Programme Backlog?",
+            "opciones": [
+                "A. Agile Release Train (ART)",
+                "B. Programme Increment (PI)",
+                "C. Programme Increment (PI) planning",
+                "D. Scrum of scrums"
+            ],
+            "opcion_correcta": "C. Programme Increment (PI) planning",
+            "justificacion": "La opción C es correcta porque el documento describe que para sincronizar a los equipos en un programa se realizan \"sesiones de planificación de incrementos de programa, que se realizan al inicio de cada PI\". Aunque el texto no especifica la duración exacta de dos días, define funcionalmente este evento como el momento de planificación y revisión del backlog del programa al inicio del incremento, alineándose conceptualmente con la opción seleccionada.",
+            "referencia": "Sección:  Agile a gran escala. Subsección: 4.1 Coordinación. Primera oración del párrafo relevante: \"Esta labor se hace en las sesiones de planificación de incrementos de programa, que se realizan al inicio de cada PI.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Cuál es un ejemplo de gestión del cambio en las prácticas ágiles?",
+            "opciones": [
+                "A. El alcance está bloqueado lo que dura el proyecto, no puede haber cambios",
+                "C. En base a los comentarios del usuario en las sesiones de demo, se añaden nuevos elementos al backlog de forma ordenada"
+            ],
+            "opcion_correcta": "C. En base a los comentarios del usuario en las sesiones de demo, se añaden nuevos elementos al backlog de forma ordenada",
+            "justificacion": "**\nEl documento indica en la sección 3.4 que durante la fase de adaptación se muestran demos para recoger feedback, lo que puede originar la adición de nuevas funcionalidades a la lista de backlog. Además, el principio 2 del Manifiesto Ágil (Sección 2.1) acepta que los requisitos cambien.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.4 Revisando el progreso: Adaptar / Sección: 2 Fundamentos de la gestión ágil de proyectos Subsección: 2.1 Manifiesto ágil"
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Los equipos ágiles…",
+            "opciones": [
+                "A. No tienen horario de trabajo fijo",
+                "B. Trabajan mejor de forma deslocalizada",
+                "C. Precisan ser microgestionados",
+                "D. Son multidisciplinares"
+            ],
+            "opcion_correcta": "D. Son multidisciplinares",
+            "justificacion": "**\nLa sección 3.1.1 establece explícitamente que el equipo de desarrollo \"Debe ser multidisciplinar\" para tener las habilidades necesarias y crear resultados enriquecedores.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.1.1 El equipo"
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "En los proyectos ágiles…",
+            "opciones": [
+                "A. Se entrega valor rápidamente",
+                "B. Se entrega valor una sola vez",
+                "C. La entrega de valor es secundaria",
+                "D. El valor no se puede medir"
+            ],
+            "opcion_correcta": "A. Se entrega valor rápidamente",
+            "justificacion": "**\nLa sección 2 define la gestión ágil como un proceso que aporta valor al cliente con entregas frecuentes. El principio 1 del Manifiesto Ágil (Sección 2.1) prioriza satisfacer al cliente mediante la entrega temprana y continua de software con valor.",
+            "referencia": "**\nSección: 2 Fundamentos de la gestión ágil de proyectos Subsección: Introducción / 2.1 Manifiesto ágil"
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Para tener éxito en un proyecto ágil, la colaboración…",
+            "opciones": [
+                "A. Es un elemento clave",
+                "B. Se incentiva con herramientas colaborativas",
+                "C. Todo el equipo colabora como si fuera uno, tanto la parte del cliente como el equipo de desarrollo",
+                "D. Todas son ciertas"
+            ],
+            "opcion_correcta": "D. Todas son ciertas",
+            "justificacion": "**\nLa sección 3.1.1 refuerza el sentimiento de colaboración entre cliente y desarrollo como un solo equipo. La sección 2.1 (Principio 4) menciona trabajar juntos cotidianamente, y la 3.1.3 habla del uso de herramientas de colaboración.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.1.1 El equipo / Sección: 2 Fundamentos de la gestión ágil de proyectos Subsección: 2.1 Manifiesto ágil"
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "La gestión ágil de proyectos es el proceso por el cual los proyectos se implementan…",
+            "opciones": [
+                "A. En pequeñas partes",
+                "B. En grandes partes",
+                "C. En dos o cuatro semanas",
+                "D. En dos o cuatro fases"
+            ],
+            "opcion_correcta": "A. En pequeñas partes",
+            "justificacion": "**\nLa sección 2 define la gestión ágil de proyectos como el proceso por el cual un proyecto puede ser gestionado e implementado en pequeñas partes, aportando valor con entregas frecuentes (iteraciones).",
+            "referencia": "**\nSección: 2 Fundamentos de la gestión ágil de proyectos Subsección: Introducción"
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿Por qué fases atraviesa un proyecto ágil?",
+            "opciones": [
+                "A. Concepción, Especulación, Exploración, Adaptación y Cierre",
+                "B. Inicio, Ejecución y Cierre",
+                "C. No hay fases definidas",
+                "D. Análisis, Plan, Diseño, Desarrollo, Pruebas e Implantación"
+            ],
+            "opcion_correcta": "A. Concepción, Especulación, Exploración, Adaptación y Cierre",
+            "justificacion": "**\nLa sección 3 explora un ciclo de vida acorde al Agile Project Management framework que consta de cinco fases: Concebir (Envision), Especular (Speculate), Explorar (Explore), Adaptar (Adapt) y Cerrar (Close).",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: Introducción"
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Qué tipo de proyectos son buenos candidatos para ser gestionados de forma ágil?",
+            "opciones": [
+                "A. Los proyectos largos y complejos",
+                "B. Proyectos que requieren entregas rápidas y pueden ser entregados por partes",
+                "C. Proyectos que ya se han hecho antes y son repetibles",
+                "D. Proyectos con equipos internacionales"
+            ],
+            "opcion_correcta": "B. Proyectos que requieren entregas rápidas y pueden ser entregados por partes",
+            "justificacion": "**\nLa sección 2.2 lista características de proyectos candidatos a agile, incluyendo \"Se requieren resultados rápidos\" y \"El producto o sistema se puede desarrollar de forma iterativa\".",
+            "referencia": "**\nSección: 2 Fundamentos de la gestión ágil de proyectos Subsección: 2.2 ¿Cuándo gestionar de forma ágil un proyecto?"
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "En un proyecto ágil, el cliente junto con el equipo de desarrollo…",
+            "opciones": [
+                "A. Cambia el alcance en el transcurso de una iteración",
+                "B. Redefine el alcance del proyecto de forma constante",
+                "C. Reprioriza para determinar las funcionalidades a incluir en la siguiente iteración",
+                "D. Celebra los éxitos en la reunión semanal"
+            ],
+            "opcion_correcta": "C. Reprioriza para determinar las funcionalidades a incluir en la siguiente iteración",
+            "justificacion": "**\nLa sección 3.2 y 3.4 explican que al final de una iteración se reprioriza el backlog para definir el siguiente sprint, ajustando funcionalidades según el valor aportado y feedback recibido.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.2 Planificando el trabajo: Especular / 3.4 Revisando el progreso: Adaptar"
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "La palabra que mejor describe el trabajo del gestor de proyectos ágiles es:",
+            "opciones": [
+                "A. Controlador",
+                "B. Facilitador",
+                "C. Organizador",
+                "D. Comunicador"
+            ],
+            "opcion_correcta": "B. Facilitador",
+            "justificacion": "**\nLa sección 3.1.1 indica que el facilitador (Scrum Master) lidera al equipo en la aplicación de valores y procesos, eliminando impedimentos. Se menciona que el rol de Project Manager es secundario o distribuido en esencia ágil.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.1.1 El equipo"
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Al cierre de un proyecto:",
+            "opciones": [
+                "A. Se revisa el valor de las funcionalidades que han quedado pendientes y si es necesario se propone un nuevo proyecto",
+                "B. Se realiza una iteración adicional (iteración cero) de duración flexible para completar todos los elementos del backlog",
+                "C. El equipo de proyecto ha de responder por las funcionalidades no realizadas, aplicándose las penalizaciones acordadas",
+                "D. Nunca quedan funcionalidades pendientes"
+            ],
+            "opcion_correcta": "A. Se revisa el valor de las funcionalidades que han quedado pendientes y si es necesario se propone un nuevo proyecto",
+            "justificacion": "**\nLa sección 3.5 (Cerrar) establece que si el proyecto termina por falta de tiempo o presupuesto y quedan funcionalidades, se trabajará con el cliente para determinar su importancia y proponer un nuevo proyecto.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.5 Finalizando el proyecto: Cerrar"
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "En las prácticas ágiles:",
+            "opciones": [
+                "A. Lo más importante es el plan",
+                "B. Es más importante tener al equipo motivado que ajustarse al plan",
+                "C. Es más importante la respuesta al cambio que ajustarse al plan",
+                "D. Es más importante cumplir el horario de trabajo que ajustarse al plan"
+            ],
+            "opcion_correcta": "C. Es más importante la respuesta al cambio que ajustarse al plan",
+            "justificacion": "**\nEl Manifiesto Ágil (Sección 2.1) establece explícitamente como uno de sus cuatro valores: \"Respuesta ante el cambio sobre seguir un plan\".",
+            "referencia": "**\nSección: 2 Fundamentos de la gestión ágil de proyectos Subsección: 2.1 Manifiesto ágil"
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Una historia de usuario:",
+            "opciones": [
+                "A. Es un elemento de tamaño procesable que se añade a una iteración para ser desarrollado",
+                "B. Generalmente se escriben con un formato predefinido",
+                "C. Incluye un criterio de aceptación",
+                "D. Todas son ciertas"
+            ],
+            "opcion_correcta": "D. Todas son ciertas",
+            "justificacion": "**\nLa sección 3.2 y 3.2.1 describen las historias de usuario como elementos del backlog con formato predefinido (\"Como... quiero... para que...\") e incluyen criterios de aceptación para validar la implementación.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.2 Planificando el trabajo: Especular / 3.2.1 Registro de requisitos"
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "¿Cómo se estima habitualmente en un proyecto ágil?",
+            "opciones": [
+                "A. Directamente en horas",
+                "B. De forma relativa: en puntos, o tamaños (XS, S, M, L, XL), o similar",
+                "C. No se estima, se desarrolla lo que se pueda en una iteración",
+                "D. No se estima, se asigna un esfuerzo a posteriori"
+            ],
+            "opcion_correcta": "B. De forma relativa: en puntos, o tamaños (XS, S, M, L, XL), o similar",
+            "justificacion": "**\nLa sección 3.2 indica que las estimaciones se pueden hacer de forma relativa (puntos) o en tamaños (XS a XL), ayudando a adaptar el ritmo sin necesidad de especificar horas exactas inicialmente.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.2 Planificando el trabajo: Especular"
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "¿Cuáles de las siguientes son metodologías ágiles?",
+            "opciones": [
+                "A. Agile Manifesto, Jira, Scrum, XP",
+                "B. APM, Scrum, Métrica, Agile Delivery Methods (ADM)",
+                "C. XP, Crystal, FDD, DSDM",
+                "D. XP, BDD, Scrum, Slack"
+            ],
+            "opcion_correcta": "C. XP, Crystal, FDD, DSDM",
+            "justificacion": "**\nLa sección 2.3 lista las metodologías ágiles más populares, incluyendo XP, Crystal, FDD y DSDM. El Manifiesto es un documento, Jira/Slack son herramientas y Métrica es tradicional.",
+            "referencia": "**\nSección: 2 Fundamentos de la gestión ágil de proyectos Subsección: 2.3 Metodologías ágiles más populares"
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "En las prácticas ágiles, la planificación es un compromiso",
+            "opciones": [
+                "A. No, la planificación siempre es una estimación o una intención, nada más que una especulación",
+                "B. Sí representa un compromiso cuando se planifica la iteración que va a comenzar",
+                "C. No se planifica, se es flexible al cambio",
+                "D. Todas son falsas"
+            ],
+            "opcion_correcta": "B. Sí representa un compromiso cuando se planifica la iteración que va a comenzar",
+            "justificacion": "**\nLa sección 3.2 menciona que el backlog de la iteración es una lista estática que no se debe modificar durante la iteración, lo que implica un compromiso para ese periodo específico, aunque la planificación global sea especulativa.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.2 Planificando el trabajo: Especular / 3.3.1 Control del avance"
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "La comunicación entre cliente y equipo de desarrollo ocurre:",
+            "opciones": [
+                "A. Sólo en la fase de revisión de la iteración",
+                "B. Puede darse con frecuencia, por ejemplo diariamente",
+                "C. Sólo a través del representante del cliente",
+                "D. Sólo a través del gestor de proyecto"
+            ],
+            "opcion_correcta": "B. Puede darse con frecuencia, por ejemplo diariamente",
+            "justificacion": "**\nEl principio 4 del Manifiesto Ágil (Sección 2.1) establece que los responsables de negocio y desarrolladores trabajan juntos de forma cotidiana. La sección 3.3 menciona reuniones diarias con el representante del cliente.",
+            "referencia": "**\nSección: 2 Fundamentos de la gestión ágil de proyectos Subsección: 2.1 Manifiesto ágil / Sección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.3 Construyendo el producto: Explorar"
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "El progreso se mide:",
+            "opciones": [
+                "A. Utilizando un gráfico de trabajo pendiente o burndown chart",
+                "B. El equipo rellena por sí mismo el avance sobre un diagrama de Gantt",
+                "C. El gestor de proyecto cuestiona a cada miembro",
+                "D. Una vez que finaliza una iteración"
+            ],
+            "opcion_correcta": "A. Utilizando un gráfico de trabajo pendiente o burndown chart",
+            "justificacion": "**\nLa sección 3.3.1 describe explícitamente el uso de \"gráficos de trabajo pendiente (burndown charts)\" para monitorizar el avance confrontando funcionalidades pendientes con el tiempo.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.3.1 Control del avance"
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "La velocidad de ejecución en agile:",
+            "opciones": [
+                "A. Es impredecible",
+                "B. Determina la cantidad de elementos del backlog que el equipo puede completar en una iteración",
+                "C. Es un factor resultado de un acuerdo entre el equipo y el cliente",
+                "D. Mide las funcionalidades que se desarrollan por mes"
+            ],
+            "opcion_correcta": "B. Determina la cantidad de elementos del backlog que el equipo puede completar en una iteración",
+            "justificacion": "**\nLa sección 3.3.1 define la velocidad del equipo como \"la cantidad de trabajo... que el equipo realiza en una iteración\", obtenida tras desarrollar los primeros sprints.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.3.1 Control del avance"
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "Durante las sesiones de demo:",
+            "opciones": [
+                "A. Se anima al cliente a que dé su opinión y solicite cambios si son necesarios",
+                "B. El cliente debe jugar un papel secundario y escuchar",
+                "C. La opinión del cliente es bienvenida, pero debe hacerse en una sesión separada",
+                "D. Participa sólo el equipo de desarrollo"
+            ],
+            "opcion_correcta": "A. Se anima al cliente a que dé su opinión y solicite cambios si son necesarios",
+            "justificacion": "**\nLa sección 3.4 indica que las demos son un momento clave para recoger feedback del cliente, lo cual puede dar lugar a rectificaciones o nuevos requisitos añadidos al backlog.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.4 Revisando el progreso: Adaptar"
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "Los requisitos son recogidos e introducidos en el backlog:",
+            "opciones": [
+                "A. Una vez se ha finalizado una iteración",
+                "B. Por el representante del cliente, también llamado propietario del producto",
+                "C. Por el equipo de desarrollo",
+                "D. Por el usuario de negocio directamente"
+            ],
+            "opcion_correcta": "B. Por el representante del cliente, también llamado propietario del producto",
+            "justificacion": "**\nLa sección 3.2.1 establece que \"El representante del cliente (o product owner) es el propietario de los requisitos\" y su responsabilidad mantenerlos actualizados en el backlog.",
+            "referencia": "**\nSección: 3 Ciclo de vida de un proyecto ágil Subsección: 3.2.1 Registro de requisitos"
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "¿Es posible realizar grandes proyectos con métodos ágiles?:",
+            "opciones": [
+                "A. No, agile es para proyectos y equipos pequeños, donde la colaboración es vital",
+                "B. Sí, pero no está recomendado, para estos casos es preferible una metodología tradicional",
+                "C. Sí, aplicando metodologías como SAFe",
+                "D. Sí, aplicando metodologías como Extreme Programming"
+            ],
+            "opcion_correcta": "C. Sí, aplicando metodologías como SAFe",
+            "justificacion": "**\nLa sección 4 (Agile a gran escala) menciona que para programas grandes se utilizan metodologías como SAFe y Scrum de Scrums para coordinar múltiples equipos.",
+            "referencia": "**\nSección: 4 Agile a gran escala Subsección: Introducción"
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "Cuando se aplica Agile a escala…",
+            "opciones": [
+                "A. Los equipos ágiles trabajan de forma coordinada, con la misma cadencia, sincronizando las iteraciones y realizando integración continua",
+                "B. Cada equipo trabaja por su cuenta, y en un punto predefinido, llamado incremento de programa o PI, ponen sus avances en común",
+                "C. El programa se disgrega en proyectos que funcionan con autonomía para evitar distracciones",
+                "D. No existe una capa organizativa y de gestión a nivel de programa, puesto que todos los equipos se auto-organizan"
+            ],
+            "opcion_correcta": "A. Los equipos ágiles trabajan de forma coordinada, con la misma cadencia, sincronizando las iteraciones y realizando integración continua",
+            "justificacion": "**\nLa sección 4.1 explica la necesidad de sincronizar equipos con iteraciones comunes, cadencia fija (PIs) e integración continua para coordinar el trabajo en programas grandes.",
+            "referencia": "**\nSección: 4 Agile a gran escala Subsección: 4.1 Coordinación"
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "¿Qué es DevOps?",
+            "opciones": [
+                "A. Es una metodología ágil de gestión de proyectos",
+                "B. Es un paradigma de trabajo que pretende fusionar en sentido amplio los equipos tradicionales de Desarrollo y Operaciones",
+                "C. Es una cultura organizativa, que promueve el trabajo en equipo y las pruebas continuas para prevenir defectos",
+                "D. Es una herramienta de apoyo a la gestión de proyectos ágiles"
+            ],
+            "opcion_correcta": "B. Es un paradigma de trabajo que pretende fusionar en sentido amplio los equipos tradicionales de Desarrollo y Operaciones",
+            "justificacion": "**\nLa sección 5 define DevOps como un paradigma/cultura donde los equipos de desarrollo y operaciones participan conjuntamente en todo el ciclo de vida, diluyendo la separación tradicional.",
+            "referencia": "**\nSección: 5 DevOps Subsección: Introducción"
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "¿Cuál es la principal premisa de Lean?:",
+            "opciones": [
+                "A. Ser flexibles ante todas las circunstancias",
+                "B. Eliminar la burocracia",
+                "C. Eliminar todo aquello que no aporta valor",
+                "D. Colaboración entre todas las partes"
+            ],
+            "opcion_correcta": "C. Eliminar todo aquello que no aporta valor",
+            "justificacion": "**\nLa sección 6 define Lean como un proceso sistemático para eliminar desechos o desperdicios, entendiendo como tal los elementos que no aportan valor al producto final.",
+            "referencia": "**\nSección: 6 Lean Subsección: Introducción / 6.1 Principios fundamentales"
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "¿Cuáles de las siguientes son prácticas útiles para los desarrollos de software con Lean?",
+            "opciones": [
+                "A. Value Stream Metrics (VSM), Kanban, Automatización y Jidoka",
+                "B. Six Sigma, 6S, Rapid Evolution y Mapa de desperdicio",
+                "C. 6S, Poka-Yoke, Kanban y Kaizen",
+                "D. 5S, Value Stream Mapping (VSM), Kanban y Automatización"
+            ],
+            "opcion_correcta": "D. 5S, Value Stream Mapping (VSM), Kanban y Automatización",
+            "justificacion": "**\nLa sección 6.2 lista las técnicas y prácticas de Lean, incluyendo explícitamente VSM, 5S, Kanban y Automatización como herramientas habituales.",
+            "referencia": "**\nSección: 6 Lean Subsección: 6.2 Técnicas y prácticas"
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "¿Cuál de los siguientes no es un principio de Lean?",
+            "opciones": [
+                "A. Decidir tan pronto coma sea posible",
+                "B. Amplificar el aprendizaje",
+                "C. Dar poder al equipo",
+                "D. Embeber la calidad"
+            ],
+            "opcion_correcta": "A. Decidir tan pronto coma sea posible",
+            "justificacion": "**\nLa sección 6.1 lista los 7 principios fundamentales, uno de los cuales es \"Decidir tan tarde como sea posible\". La opción A dice \"tan pronto\", lo cual es incorrecto según el texto.",
+            "referencia": "**\nSección: 6 Lean Subsección: 6.1 Principios fundamentales"
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "¿Qué se busca cuándo se hace un mapa del flujo de valor en Lean?",
+            "opciones": [
+                "A. Identificar el trabajo que no aporta valor",
+                "B. Mostrar el estado actual de un proceso",
+                "C. Mejorar el proceso, minimizando el desperdicio",
+                "D. Todas son ciertas"
+            ],
+            "opcion_correcta": "D. Todas son ciertas",
+            "justificacion": "**\nLa sección 6.2.1 explica que el VSM analiza el flujo, representa la situación actual y sirve para diagnosticar puntos de mejora localizando desperdicios y minimizándolos.",
+            "referencia": "**\nSección: 6 Lean Subsección: 6.2.1 Value Stream Mapping (VSM)"
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "¿Cuál es el propósito de las 5S aplicadas a la gestión de proyectos de sistemas?:",
+            "opciones": [
+                "A. Organizar el lugar de trabajo, tanto físico como lógico",
+                "B. Realizar un seguimiento de los objetivos",
+                "C. Cohesionar al equipo",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Organizar el lugar de trabajo, tanto físico como lógico",
+            "justificacion": "**\nLa sección 6.2.2 indica que en la ingeniería del software, el lugar de trabajo se extiende del físico al ámbito lógico, y el propósito es organizarlo para procesos eficientes.",
+            "referencia": "**\nSección: 6 Lean Subsección: 6.2.2 5S"
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "En Kanban, ¿es posible tener más de 10 tareas abiertas?",
+            "opciones": [
+                "A. Sí, siempre que los miembros del equipo sean al menos 10",
+                "B. Sí, siempre que se desee",
+                "C. Sí, siempre que no se supere el umbral de WIP de cada etapa",
+                "D. No, siempre entre 5 y 10 como máximo"
+            ],
+            "opcion_correcta": "C. Sí, siempre que no se supere el umbral de WIP de cada etapa",
+            "justificacion": "**\nLa sección 2.3.2 y 6.2.5 explican que Kanban limita la cantidad de trabajo en curso (WIP) por fase del ciclo de trabajo, no un número global fijo, permitiendo avanzar siempre que se respeten los límites de cada etapa.",
+            "referencia": "**\nSección: 2 Fundamentos de la gestión ágil de proyectos Subsección: 2.3.2 Kanban / Sección: 6 Lean Subsección: 6.2.5 Sistema Kanban"
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "Si se pretende reducir el tiempo entre que llega una petición y se entrega el resultado al cliente, ¿qué metodología aplicarías?:",
+            "opciones": [
+                "A. Scrum",
+                "B. Lean",
+                "C. Scrumban",
+                "D. Todas son opciones correctas"
+            ],
+            "opcion_correcta": "D. Todas son opciones correctas",
+            "justificacion": "**\nEl documento menciona que Agile (Scrum), Lean (principio de entregar rápido) y sus híbridos (Scrumban en 2.3.1) buscan la entrega rápida de valor y reducción de tiempos de espera.",
+            "referencia": "**\nSección: 2 Fundamentos de la gestión ágil de proyectos Subsección: 2.3 Metodologías ágiles más populares / Sección: 6 Lean Subsección: 6.1 Principios fundamentales"
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "Las metodologías ágiles y Lean…",
+            "opciones": [
+                "A. Comparten muchas partes de su filosofía",
+                "B. Son contrapuestas",
+                "C. Definen lo mismo",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Comparten muchas partes de su filosofía",
+            "justificacion": "**\nLa sección 6.1 y la Introducción indican que Lean está presente en las raíces de las metodologías ágiles y comparten muchos principios (ej. equipos auto-organizados, iterativo).",
+            "referencia": "**\nSección: 6 Lean Subsección: 6.1 Principios fundamentales / Sección: Introducción"
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "Lean promueve entregar lo más rápido que sea posible",
+            "opciones": [
+                "A. Entregando un producto mínimo viable y mejorándolo iterativamente",
+                "B. Creando equipos fuertes y numerosos",
+                "C. Posponiendo las pruebas hasta el final",
+                "D. Todas son correctas"
+            ],
+            "opcion_correcta": "A. Entregando un producto mínimo viable y mejorándolo iterativamente",
+            "justificacion": "**\nEl principio \"Entregar tan rápido como sea posible\" en la sección 6.1 se explica entregando el producto mínimo viable para crear el final basado en feedback, en lugar de esperar a tenerlo completo.",
+            "referencia": "**\nSección: 6 Lean Subsección: 6.1 Principios fundamentales"
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "Entre los pilares de Lean, reflejados en las columnas de la llamada casa de Lean, no se encuentra",
+            "opciones": [
+                "A. Flujo",
+                "B. Valor",
+                "C. Innovación",
+                "D. Mejora continua"
+            ],
+            "opcion_correcta": "B. Valor",
+            "justificacion": "**\nLa sección 6.1 describe la \"Casa de Lean\": el tejado es el Valor, mientras que los pilares son Respeto, Flujo, Innovación y Mejora Continua. Por tanto, Valor no es un pilar.",
+            "referencia": "**\nSección: 6 Lean Subsección: 6.1 Principios fundamentales"
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "¿Cuál es un ejemplo de desperdicio en Lean aplicado al desarrollo de software?",
+            "opciones": [
+                "A. El trabajo parcialmente hecho y que por tanto no se puede entregar",
+                "B. Proveer más funcionalidad de la solicitada",
+                "C. No usar el conocimiento de los miembros del equipo y tratar de reinventar la rueda",
+                "D. Todos los anteriores"
+            ],
+            "opcion_correcta": "D. Todos los anteriores",
+            "justificacion": "**\nLa sección 6.1 lista siete tipos de desperdicios identificados en desarrollo de software, incluyendo trabajo parcialmente hecho, funcionalidad extra y no usar el conocimiento del equipo.",
+            "referencia": "**\nSección: 6 Lean Subsección: 6.1 Principios fundamentales"
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "Revisar el código por parejas, ¿de qué principio Lean sería mejor ejemplo?",
+            "opciones": [
+                "A. Ver la totalidad",
+                "B. Empoderar al equipo",
+                "C. Embeber la calidad",
+                "D. Entregar rápido"
+            ],
+            "opcion_correcta": "C. Embeber la calidad",
+            "justificacion": "**\nLa sección 6.1 relaciona explícitamente \"realizar el trabajo y la revisión en parejas\" con el principio de \"embeber la calidad\" para evitar desperdicios por defectos.",
+            "referencia": "**\nSección: 6 Lean Subsección: 6.1 Principios fundamentales"
+        }
+    ]
+}

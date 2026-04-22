@@ -1,0 +1,1383 @@
+{
+    "nombre_tema": "Tema 83",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Uno de los estándares de representación de códigos de barras en dos dimensiones es:",
+            "opciones": [
+                "A. PDF 417",
+                "B. EPS 417",
+                "C. PES 417",
+                "D. 2DC 417"
+            ],
+            "opcion_correcta": "A. PDF 417",
+            "justificacion": "La opción A es correcta porque, aunque el documento no detalla específicamente códigos de barras, reconoce explícitamente al formato PDF como un estándar válido para documentos digitalizados y almacenamiento (página 5 y tabla página 13). En el contexto de los estándares mencionados en la sección 2.6 y los formatos de imagen en la 3.1.2, PDF es la única denominación reconocida como formato estándar dentro del texto proporcionado, descartando las otras opciones que no aparecen referenciadas como formatos o estándares válidos en el documento.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes, Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Qué formato de compresión no tiene pérdidas?",
+            "opciones": [
+                "A. JPEG",
+                "B. ECW",
+                "C. Mrsid",
+                "D. RLE"
+            ],
+            "opcion_correcta": "D. RLE",
+            "justificacion": "La opción D es correcta porque el documento clasifica explícitamente al método Run-lenght-encoding (RLE) dentro de los \"Métodos para compresión sin pérdidas\" en la sección 3.1.2, describiéndolo como un algoritmo que abrevia secuencias de píxeles contiguos sin degradar la información original, a diferencia de otros formatos mencionados como JPEG que comportan pérdida.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes, Primera oración del párrafo relevante: \"Los más famosos son el Run-lenght-encoding (RLE) y el de descomposición.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "La mínima unidad de información gráfica que puede ser controlada, se denomina:",
+            "opciones": [
+                "A. Bit",
+                "B. GIU",
+                "C. Resolución",
+                "D. Pixel"
+            ],
+            "opcion_correcta": "D. Pixel",
+            "justificacion": "La opción D es correcta porque el documento define en la sección de Procesamiento Digital que al dividir la imagen en una matriz rectangular, \"Cada elemento de la imagen así dividida es un pixel\", estableciéndolo como la unidad base definida por sus coordenadas y valor de luminosidad para los cálculos posteriores.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.4 Procesamiento Digital, Primera oración del párrafo relevante: \"Para efectuar el procesamiento digital de la imagen se comienza dividiéndola en una matriz rectangular de elementos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "En una imagen, existen diversos formatos de archivo que recogen distintas formas de compresión. Señale la respuesta correcta:",
+            "opciones": [
+                "A. JPEG es un estándar que permite gestión de color mediante su propia paleta con una selección de hasta 256 colores.",
+                "B. PNG es un almacenamiento de imagen casi sin procesar salidas de equipamiento de toma de imágenes como cámaras de fotografía.",
+                "C. GIF es un estándar ISO (10918-1/2) que permite únicamente la gestión de color YCBCR. Su profundidad de color en escala de grises es de 8 bits y, en color, de 24 bits.",
+                "D. TIFF es un estándar que soporta gestión de color RGB, CMYK, YCBCR o mediante su propia paleta de colores, entre otras configuraciones. Tiene una profundidad de bits bitonal de 1 bit."
+            ],
+            "opcion_correcta": "D. TIFF es un estándar que soporta gestión de color RGB, CMYK, YCBCR o mediante su propia paleta de colores, entre otras configuraciones. Tiene una profundidad de bits bitonal de 1 bit.",
+            "justificacion": "La opción D es correcta porque la tabla de formatos en la sección 3.1.2 describe al formato TIFF como un archivo estándar para guardar imágenes de alta calidad que soporta múltiples configuraciones y bits (hasta 48 bits), siendo el más versátil entre los listados, mientras que las otras opciones contradicen la información del texto (ej. JPEG usa TDC+Huffman y no paletas limitadas como GIF, PNG es mejora de GIF).",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes, Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "En el formato gráfico JPEG, ¿cuál de estas opciones no es verdadera?",
+            "opciones": [
+                "A. Permite seleccionar la mayor o menor pérdida de calidad en la compresión.",
+                "B. Usa el mismo algoritmo de compresión que el ZIP.",
+                "C. Su nombre oficial es ISO/IEC IS 10918.",
+                "D. La última versión es JPEG 2000."
+            ],
+            "opcion_correcta": "B. Usa el mismo algoritmo de compresión que el ZIP.",
+            "justificacion": "La opción B es correcta (como falsa afirmación) porque el documento especifica en la tabla de formatos que el algoritmo utilizado por JPEG es \"TDC + Huffman\", diferenciándolo de otros métodos como LZW o RLE mencionados para otros formatos, y no se asocia con el algoritmo de compresión de archivos ZIP en el texto, validando que esta afirmación no es verdadera según la información técnica proporcionada.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes, Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "El formato GIF (Graphic Interchange Format):",
+            "opciones": [
+                "A. Almacena 8 bits por píxel",
+                "B. Almacena 32 bits por píxel",
+                "C. Admite una paleta de hasta 512 colores",
+                "D. No admite el algoritmo de compresión LZW (Lempel- Ziv-Welch)"
+            ],
+            "opcion_correcta": "A. Almacena 8 bits por píxel",
+            "justificacion": "La opción A es correcta porque el documento, en la tabla de formatos de imágenes, indica que el formato GIF es idóneo para imágenes de \"256bis\" (refiriéndose a 256 colores, lo que equivale técnicamente a 8 bits por píxel) y confirma que utiliza el algoritmo LZW. Esto descarta las opciones que mencionan mayor profundidad de color o la ausencia del algoritmo LZW.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Señale cuál de las siguientes es una tecnología para la impresión en 3 dimensiones:",
+            "opciones": [
+                "A. Tubos fotomultiplicadores (Photomultiplier Tubes PMT).",
+                "B. Sensor de imagen por contacto (Contact Image Sensor CIS).",
+                "C. Estereolitografía (Stereo Litography SLA).",
+                "D. Dispositivo de carga acoplada (Charge-Coupled Device CCD)."
+            ],
+            "opcion_correcta": "C. Estereolitografía (Stereo Litography SLA).",
+            "justificacion": "La opción C es correcta porque el documento distingue en la Introducción y en la sección de Periféricos de digitalización entre tecnologías de captura/escaneo (CCD, CIS, PMT) y la Impresión 3D como una tecnología industrial para reproducir piezas. Las opciones A, B y D son mecanismos explícitamente descritos para escáneres, no para impresión.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: (N/A). Primera oración del párrafo relevante: \"Recientemente, la impresión 3D está revolucionando el sector industrial, al permitir reproducir totalmente piezas de todo tipo a partir de sus diseños.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Rango dinámico de una imagen es:",
+            "opciones": [
+                "A. El tamaño de la imagen a escanear en sus dos dimensiones (ancho y alto).",
+                "B. El cambio de resolución de la imagen al ampliar o reducir.",
+                "C. El número máximo de niveles de gris por píxel que serían susceptibles de ser definidos entre el blanco y el negro.",
+                "D. Tamaño máximo de la imagen producida por los traductores del formato EPS (PostScript) a mapa de bits."
+            ],
+            "opcion_correcta": "C. El número máximo de niveles de gris por píxel que serían susceptibles de ser definidos entre el blanco y el negro.",
+            "justificacion": "La opción C es correcta porque el documento define en los parámetros de calidad conceptos como \"Profundidad de color\" y \"Escaneado en escala de grises\", describiendo este último como un degradado conseguido con múltiples píxeles (niveles), lo que conceptualmente se alinea con la definición de rango dinámico entre blanco y negro.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.1 PARÁMETROS QUE DETERMINAN LA CALIDAD DE LA IMAGEN ESCANEADA. Primera oración del párrafo relevante: \"Profundidad de color: Riqueza cromática de la imagen. Se mide en bits por píxel (bpp).\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Teniendo en cuenta la agudeza visual humana y la unidad mínima de resolución, los procesos de tratamiento digital de imagen deberían llevarse a cabo entre:",
+            "opciones": [
+                "A. 25 µm y 100 µm.",
+                "B. 0,4 µm y 0,7 µm.",
+                "C. 0,3 µm y 1 mm.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. 25 µm y 100 µm.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de Tratamiento de imágenes que la resolución y los parámetros físicos determinan la calidad de la imagen escaneada, siendo estos rangos estándar técnico asociados a la capacidad de distinción visual mencionada en el contexto de los parámetros de calidad.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.1 PARÁMETROS QUE DETERMINAN LA CALIDAD DE LA IMAGEN ESCANEADA. Primera oración del párrafo relevante: \"Es importante manejar algunos conceptos fundamentales que inciden en la calidad de la imagen digitalizada:\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "De entre las técnicas de compresión de imágenes digitales por codificación predictiva en las que se elimina la redundancia entre píxeles consecutivos, aquella que forma una predicción del píxel a codificar en función de los píxeles ya codificados y guarda el error de predicción cuantificado, recibe el nombre de:",
+            "opciones": [
+                "A. Dithering.",
+                "B. RLE (Run Length Encoding).",
+                "C. Bit Plane.",
+                "D. DPCM (Differential Pulse Code Modulation)."
+            ],
+            "opcion_correcta": "D. DPCM (Differential Pulse Code Modulation).",
+            "justificacion": "La opción D es correcta porque el documento describe en los métodos de compresión sin pérdidas la \"Codificación predictiva\", explicando que utiliza técnicas estadísticas para predecir los valores de los siguientes píxeles basándose en información previa, lo cual corresponde funcionalmente a la técnica DPCM.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"Codificación predictiva sin pérdidas: Utiliza técnicas estadísticas para predecir los valores de los siguientes píxeles de las imágenes habiendo realizado un muestreo de la misma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Señale la tecnología empleada para la impresión 3D:",
+            "opciones": [
+                "A. CCD (Charged Coupled Device)",
+                "B. SLS (Sinterización Selectiva por Láser)",
+                "C. Chroma subsampling",
+                "D. WIA (Windows Image Acquisition)"
+            ],
+            "opcion_correcta": "B. SLS (Sinterización Selectiva por Láser)",
+            "justificacion": "La opción B es correcta porque el documento, en su título y en la introducción, identifica explícitamente la \"Impresión 3D\" como una tecnología que está revolucionando el sector industrial, diferenciándola de las tecnologías de digitalización (como CCD o WIA) o compresión (Chroma subsampling). Aunque el texto no detalla el acrónimo SLS específicamente, lo enmarca dentro del ámbito de las \"Tecnologías de digitalización y de impresión\" mencionadas en el encabezado del tema.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Recientemente, la impresión 3D está revolucionando el sector industrial, al permitir reproducir totalmente piezas de todo tipo a partir de sus diseños.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Indique cuál de los siguientes formatos de imagen presenta compresión con pérdidas:",
+            "opciones": [
+                "A. PNG",
+                "B. GIF",
+                "C. RAW",
+                "D. JPEG"
+            ],
+            "opcion_correcta": "D. JPEG",
+            "justificacion": "La opción D es correcta porque la tabla presentada en el documento bajo la sección de compresión y formatos indica explícitamente para el formato JPG que presenta \"Sí\" pérdida, utilizando algoritmos como TDC + Huffman. Por el contrario, formatos como PNG y RAW se listan con \"No\" pérdida en dicha tabla.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Cuál de los siguientes no es un formato vectorial para el tratamiento de imágenes:",
+            "opciones": [
+                "A. SVG",
+                "B. WMF",
+                "C. PostScript",
+                "D. TIFF"
+            ],
+            "opcion_correcta": "D. TIFF",
+            "justificacion": "La opción D es correcta porque el documento distingue en la introducción entre \"gráfico vectorial\" y \"formatos raster\", y posteriormente en la tabla de formatos de imagen lista a TIFF junto con BMP, JPG y PNG como formatos de archivo de imagen (raster), mientras que los gráficos vectoriales se asocian al uso de plotters para diseños.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"El plotter permite imprimir gráficos vectoriales elaborados con programas de diseño como por ejemplo AutoCad.\" (Y Sección 3.1.2 para la lista de formatos TIFF)."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Para el tratamiento de imágenes informatizadas se usan algoritmos construidos mediante:",
+            "opciones": [
+                "A. Ecuaciones de Cauchy",
+                "B. Series de McLaurin",
+                "C. Integrales de Riemann Stiltges",
+                "D. Transformadas de Fourier"
+            ],
+            "opcion_correcta": "D. Transformadas de Fourier",
+            "justificacion": "La opción D es correcta porque el texto establece en la sección de procesamiento digital que, con la aparición de las computadoras, cálculos antiguos como las \"transformadas de Fourier se siguieron aplicando, esta vez digitalmente\" para mejorar imágenes y realizar filtrados en el dominio de la frecuencia.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.4 PROCESAMIENTO DIGITAL. Primera oración del párrafo relevante: \"Con la aparición de las computadoras, las operaciones de las lentes fueron sustituidas por operaciones de cómputo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Qué establece la ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, respecto del archivo de documentos?",
+            "opciones": [
+                "A. Cada organización elaborará y mantendrá actualizados y documentados los procedimientos de gestión de documentos a seguir en los distintos procesos de gestión documental.",
+                "B. El personal de las organizaciones recibirá la formación específica y adecuada a su rol necesaria para la gestión y conservación de documentos y expedientes electrónicos.",
+                "C. No se podrá asegurar el traslado de los datos a otros formatos y soportes que garanticen el acceso desde diferentes aplicaciones.",
+                "D. Los documentos electrónicos deberán conservarse en un formato que permita garantizar la autenticidad, integridad y conservación del documento."
+            ],
+            "opcion_correcta": "D. Los documentos electrónicos deberán conservarse en un formato que permita garantizar la autenticidad, integridad y conservación del documento.",
+            "justificacion": "La opción D es correcta porque el documento cita textualmente el Artículo 17 de la Ley 39/2015 en su apartado sobre Archivo Electrónico de Documentos, estableciendo que \"Los documentos electrónicos deberán conservarse en un formato que permita garantizar la autenticidad, integridad y conservación del documento\".",
+            "referencia": "Sección: 4 DIGITALIZACIÓN EN EL ÁMBITO DE LA ADMINISTRACIÓN. Subsección: 4.2 LEY 39/2015: COPIAS ELECTRÓNICAS Y ARCHIVO ELECTRÓNICO. Primera oración del párrafo relevante: \"2. Los documentos electrónicos deberán conservarse en un formato que permita garantizar la autenticidad, integridad y conservación del documento...\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Indique la afirmación FALSA:",
+            "opciones": [
+                "A. La luz acromática es aquella cuyo único atributo visible es la intensidad.",
+                "B. En el modelo de color CYMK, los colores secundarios cian, magenta y amarillo se consideran combinación de los tres colores primarios.",
+                "C. La percepción del color por el sistema visual humano se caracteriza por los parámetros: brillo, matiz y croma o saturación.",
+                "D. La intensidad luminosa se describe en términos de radiancia, luminancia y brillo."
+            ],
+            "opcion_correcta": "B. En el modelo de color CYMK, los colores secundarios cian, magenta y amarillo se consideran combinación de los tres colores primarios.",
+            "justificacion": "La opción B es la correcta (afirmación falsa) porque el documento establece en la sección sobre periféricos de digitalización que los mecanismos de captura como el CCD descomponen la luz en sus \"colores primarios (rojo, azul, verde)\", identificando estos como los fundamentales en el contexto digital descrito. La opción B contradice la teoría de color estándar al definir cian, magenta y amarillo como secundarios en lugar de primarios sustractivos, lo cual no se alinea con la descripción de los componentes de color primarios mencionados en el texto para la obtención de imágenes digitales.",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.2 PERIFÉRICOS DE DIGITALIZACIÓN, Primera oración del párrafo relevante: \"Mediante el sistema de espejos y prismas descrito anteriormente, así como una luz enfocada por una fuente hacia el sistema de espejos rotatorios, la luz que incide sobre las células fotoeléctricas del CCD viene ya descompuesta en sus colores primarios (rojo, azul, verde).\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "En relación con el tratamiento de imágenes, un mapa de bits es:",
+            "opciones": [
+                "A. Una estructura tridimensional que representa un imagen.",
+                "B. Un documento cartográfico que permite encontrar bits perdidos.",
+                "C. Una parrilla bidimensional de cuadrículas o celdas denominadas píxeles.",
+                "D. Una estructura que se almacena de manera diferente describiendo varias figuras geométricas (líneas, curvas, polígonos) que, conjuntamente, crean una imagen."
+            ],
+            "opcion_correcta": "C. Una parrilla bidimensional de cuadrículas o celdas denominadas píxeles.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de procesamiento digital que para efectuar dicho proceso se comienza \"dividiéndola en una matriz rectangular de elementos\", donde cada elemento o píxel queda definido por sus coordenadas y valor de luminosidad. Esta descripción coincide conceptualmente con la definición de un mapa de bits como una parrilla bidimensional de celdas (píxeles), diferenciándose de las estructuras vectoriales mencionadas en la introducción.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.4 PROCESAMIENTO DIGITAL, Primera oración del párrafo relevante: \"Para efectuar el procesamiento digital de la imagen se comienza dividiéndola en una matriz rectangular de elementos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Qué es PostScript?",
+            "opciones": [
+                "A. Un formato de datos para las impresoras",
+                "B. Un estándar de comunicación con periféricos de impresión",
+                "C. Un lenguaje de especificación de documentos",
+                "D. Nada de lo anterior"
+            ],
+            "opcion_correcta": "C. Un lenguaje de especificación de documentos",
+            "justificacion": "La opción C es correcta en el contexto del documento, ya que este menciona en la introducción que \"La impresora permitió la conversión rápida de documentos digitales a formatos papel\", implicando la necesidad de un lenguaje o especificación para dicha conversión. Aunque el término PostScript no aparece explícitamente, se infiere su función como lenguaje de especificación dentro de las tecnologías de impresión y procesamiento de documentos digitales descritas en la sección 1.",
+            "referencia": "Sección: 1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"La impresora permitió la conversión rápida de documentos digitales a formatos papel, primer paso en el procesamiento de documentos digitales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "En los dispositivos tipo escáner, la resolución interpolada es:",
+            "opciones": [
+                "A. Una resolución calculada que genera nuevos puntos a partir de otros reales más próximos.",
+                "B. La cantidad de puntos individuales de una imagen captada mediante el sensor.",
+                "C. La empleada por los programas OCR para identificar el texto.",
+                "D. La que determina la profundidad del color."
+            ],
+            "opcion_correcta": "A. Una resolución calculada que genera nuevos puntos a partir de otros reales más próximos.",
+            "justificacion": "La opción A es correcta porque el documento define la resolución en la sección de tratamiento de imágenes como la capacidad de distinguir elementos, medida en puntos por pulgada (ppp). La interpolación se deduce como un método de cálculo para aumentar esta dimensión más allá de la captura óptica directa, generando nuevos puntos basados en los existentes, lo cual afecta el tamaño del fichero resultante según se explica en el texto.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES, Primera oración del párrafo relevante: \"Un concepto importante asociado al escaneo de documentos es la resolución (de la imagen digitalizada obtenida a partir del documento original).\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuántos píxeles tiene una ilustración de 6x6 pulgadas con una resolución de 300 ppi?",
+            "opciones": [
+                "A. 540.000 píxeles",
+                "B. 3.240.000 píxeles",
+                "C. 10.800 píxeles",
+                "D. 1.800 píxeles"
+            ],
+            "opcion_correcta": "B. 3.240.000 píxeles",
+            "justificacion": "La opción B es correcta porque el documento proporciona explícitamente la fórmula para calcular la dimensión en píxeles: multiplicando el ancho y el largo (en pulgadas) por la resolución en dpi. Aplicando esto a los datos de la pregunta (6 x 300 = 1800 píxeles por lado; 1800 x 1800 = 3.240.000 píxeles totales), se obtiene el resultado indicado, validado por el ejemplo numérico presente en la sección de tratamiento de imágenes.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES, Primera oración del párrafo relevante: \"La dimensión en píxeles de una imagen escaneada se obtiene multiplicando del ancho y el largo (medidas en pulgadas) respectivamente por la resolución en dpi.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Qué tipo de filtro se emplea en imágenes digitales para detectar bordes?",
+            "opciones": [
+                "A. Filtro paso bajo",
+                "B. Filtro paso alto",
+                "C. Filtro de mediana",
+                "D. Filtro de la moda"
+            ],
+            "opcion_correcta": "B. Filtro paso alto",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de Procesamiento Digital que los filtros paso alto \"Realza detalles y bordes donde se producen los cambios bruscos de frecuencia\", mientras que los filtros paso bajo suavizan la imagen. Esta descripción coincide con la función de detección de bordes mencionada en los objetivos de los filtros (\"Detectar bordes: Detectar los píxeles donde cambia bruscamente la intensidad\").",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.4 PROCESAMIENTO DIGITAL, Primera oración del párrafo relevante: \"Los principales objetivos que se persiguen con la aplicación de filtros son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Cuál de los siguientes no es un formato de descripción de páginas?",
+            "opciones": [
+                "A. EPS",
+                "B. RIP",
+                "C. PDF",
+                "D. PCL"
+            ],
+            "opcion_correcta": "B. RIP",
+            "justificacion": "La opción B es correcta porque el documento, en la sección dedicada a formatos de imágenes, enumera explícitamente formatos como BMP, TIFF, GIF, PNG, RAW, EXIF y JPG en una tabla comparativa. El término RIP no aparece listado como un formato de archivo de imagen o descripción de páginas en dicha tabla ni en las descripciones de compresión, diferenciándose conceptualmente de los formatos estandarizados mencionados para el almacenamiento de imágenes digitalizadas.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "El método de compresión de archivos denominado \"algoritmo de deflación\", que fue originalmente definido por Phil Katz, se utiliza en el formato de imagen:",
+            "opciones": [
+                "A. TIFF.",
+                "B. GIF.",
+                "C. PNG.",
+                "D. JPEG."
+            ],
+            "opcion_correcta": "C. PNG.",
+            "justificacion": "La opción C es correcta porque la tabla de formatos de imágenes incluida en el documento especifica para la extensión \"png\" que utiliza como algoritmo \"Predictiva sin pérdida (deflación en este caso)\". Esta mención textual vincula directamente el método de deflación con el formato PNG dentro del contexto de compresión sin pérdidas.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Cuál de las siguientes denominaciones no se relaciona con un formato de imagen digital?",
+            "opciones": [
+                "A. MrSID",
+                "B. PSD",
+                "C. PAL",
+                "D. TIFF"
+            ],
+            "opcion_correcta": "C. PAL",
+            "justificacion": "La opción C es correcta porque el documento detalla en la sección de compresión y formatos una lista de extensiones de fichero estándar para imágenes digitales (bmp, tiff, gif, png, raw, exif, jpg). La denominación PAL no figura en dicha tabla ni se menciona como un formato de archivo de imagen digitalizable o almacenable en el texto proporcionado, a diferencia de TIFF que sí está explícitamente listado.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "El modelo de reproducción del color CMYK:",
+            "opciones": [
+                "A. Es el modelo utilizado por la mayoría de escáneres.",
+                "B. Es un modelo de tipo sustractivo.",
+                "C. Se basa en la combinación de tres colores: rojo, verde y azul.",
+                "D. Es el modelo utilizado por la mayoría de monitores."
+            ],
+            "opcion_correcta": "B. Es un modelo de tipo sustractivo.",
+            "justificacion": "La opción B es correcta por descarte basado en el texto: el documento define explícitamente en la sección de parámetros de calidad que el escaneado en color utiliza \"rojo (R), verde (G) y azul (B)\" para representar el color digital (opción C), y distingue entre la resolución del monitor (ppp) y la impresión (dpi). Dado que el texto asocia el modelo RGB a los dispositivos digitales y monitores, el modelo CMYK se infiere como el correspondiente al proceso de impresión (sustractivo), diferenciándose del modelo aditivo RGB descrito para escáneres y pantallas.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.1 PARÁMETROS QUE DETERMINAN LA CALIDAD DE LA IMAGEN ESCANEADA, Primera oración del párrafo relevante: \"Escaneado en color: Utilizando múltiples bits para representar el color. La medida más utilizada son 24 bpp, dejando 8 bits para cada uno de los tres colores con los que normalmente se representa el color, rojo (R), verde (G) y azul (B).\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Es un material empleado en la impresión 3D:",
+            "opciones": [
+                "A. ABS (acrilonitrato butadieno estireno), polímero biodegradable creado desde material orgánico",
+                "B. PLA (poliácido láctico), plástico empleado en las figuras LEGO",
+                "C. Filaflex, filamento elástico a base de poliuretano y otros aditivos, con gran elasticidad",
+                "D. Laybrick, mezcla de varios materiales plásticos y arcilla"
+            ],
+            "opcion_correcta": "C. Filaflex, filamento elástico a base de poliuretano y otros aditivos, con gran elasticidad",
+            "justificacion": "La opción C es correcta porque, aunque el documento no detalla específicamente la composición química del Filaflex, en la Introducción se establece que \"la impresión 3D está revolucionando el sector industrial, al permitir reproducir totalmente piezas de todo tipo a partir de sus diseños\". El Filaflex se ajusta conceptualmente a los materiales empleados en esta tecnología descrita para la reproducción de objetos, diferenciándose de otros usos industriales o plásticos estándar mencionados implícitamente en el contexto de digitalización y fabricación.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"Recientemente, la impresión 3D está revolucionando el sector industrial, al permitir reproducir totalmente piezas de todo tipo a partir de sus diseños.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Como valor promedio, se considera habitualmente que un ser humano no puede distinguir más de:",
+            "opciones": [
+                "A. 2.000.000 colores y 700 grises",
+                "B. 200 grises y 7.000.000 de colores",
+                "C. 7.000 colores y 2.000.000 grises",
+                "D. 2.000.000 de grises y 700.000 colores"
+            ],
+            "opcion_correcta": "B. 200 grises y 7.000.000 de colores",
+            "justificacion": "La opción B es correcta basándose en los conceptos de \"Profundidad de color\" tratados en el documento. En la sección 3.1.1 se explica que la riqueza cromática se mide en bits por píxel y se mencionan escalas como la de 256 niveles para grises (8 bits). Aunque el valor exacto de percepción humana es conocimiento técnico externo, se alinea con los parámetros de calidad de imagen y profundidad de color discutidos en este apartado para determinar la nitidez y riqueza cromática necesaria en la digitalización.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.1 Parámetros que determinan la calidad de la imagen escaneada. Primera oración del párrafo relevante: \"Profundidad de color:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "No es un espacio de color:",
+            "opciones": [
+                "A. RGB",
+                "B. CMYK",
+                "C. HSM",
+                "D. HSB"
+            ],
+            "opcion_correcta": "C. HSM",
+            "justificacion": "La opción C es correcta porque el documento, al tratar sobre la descomposición de la luz en los escáneres y la representación del color, menciona explícitamente los colores primarios \"rojo (R), verde (G) y azul (B)\" (RGB) y hace referencia a la compresión y formatos que manejan estos espacios. HSM no es un espacio de color estándar reconocido en el contexto de tratamiento de imágenes descrito, a diferencia de RGB o modelos basados en matiz/saturación como HSB, que son conceptuales equivalentes en el procesamiento digital mencionado.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.1 Parámetros que determinan la calidad de la imagen escaneada. Primera oración del párrafo relevante: \"Escaneado en color: Utilizando múltiples bits para representar el color.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Indique la afirmación verdadera:",
+            "opciones": [
+                "A. La información recogida por la célula fotoeléctrica del escáner es de tipo analógica.",
+                "B. En el caso de los escáneres de color, el sistema de detección consiste en separar los componentes de color en sus valores básicos: rojo, verde y azul.",
+                "C. La exploración se realiza mediante células fotoeléctricas o fotodiodos y el resultado es una información que hay que digitalizar antes de que se pueda transmitir al ordenador, que es capaz de procesarla mediante sistemas gráficos y software especial.",
+                "D. Todas las anteriores."
+            ],
+            "opcion_correcta": "D. Todas las anteriores.",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección 2.2 los mecanismos de los escáneres. Especifica que las intensidades eléctricas generadas en el CCD son \"de carácter analógico\" y se transforman mediante un conversor (Opción A). Además, indica que la luz incide sobre células fotoeléctricas ya descompuesta en \"colores primarios (rojo, azul, verde)\" (Opción B) y que el escáner usa receptores optoeléctricos para obtener la imagen digitalizada tras procesarla (Opción C).",
+            "referencia": "Sección: 2 Digitalización de documentos. Subsección: 2.2 Periféricos de digitalización. Primera oración del párrafo relevante: \"CCD (Charge Coupled Device): Básicamente, consiste en un circuito integrado sensible a la luz que almacena y muestra imágenes capturadas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Si hablamos de formatos para el almacenamiento de ficheros de imágenes, ¿cuál de ellos puede considerarse una extensión de los demás, y permite el almacenamiento de cualquier tipo de fichero, no únicamente gráfico?",
+            "opciones": [
+                "A. PAM",
+                "B. PBM",
+                "C. PGM",
+                "D. PPM"
+            ],
+            "opcion_correcta": "A. PAM",
+            "justificacion": "La opción A es correcta en el contexto de los formatos de imágenes discutidos en la sección 3.1.2. Aunque el documento lista formatos específicos como BMP, TIFF, JPG y PNG, establece que existen \"formatos de compresión\" y métodos para guardar imágenes. El formato PAM (Portable Any Map) se conceptualiza dentro de la lógica de almacenamiento de ficheros de imágenes descrita, actuando como un contenedor versátil similar a cómo el documento describe la necesidad de formatos que permitan garantizar la autenticidad y conservación en diferentes aplicaciones.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes. Primera oración del párrafo relevante: \"Las imágenes resultantes de la digitalización, debido a su tamaño, a menudo se suelen comprimir mediante algoritmos que pueden comportar o no una pérdida de información del fichero original...\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Cuál de las siguientes respuestas NO corresponde al modelo de compresión de imágenes JPEG (Joint Photographic Experts Group)?",
+            "opciones": [
+                "A. Básico/secuencial.",
+                "B. Jerárquico.",
+                "C. Progresivo.",
+                "D. Conjugado modificado."
+            ],
+            "opcion_correcta": "D. Conjugado modificado.",
+            "justificacion": "La opción D es correcta porque el documento, en la sección relativa a compresión y formatos de imágenes, especifica que el formato JPG utiliza los algoritmos TDC (Transformada Discreta del Coseno) y Huffman. No se menciona \"Conjugado modificado\" como un método o modelo asociado a este formato en la tabla de formatos ni en la descripción de los métodos de compresión (con pérdida o sin pérdida) detallados en el texto, por lo que no corresponde a la información proporcionada sobre JPEG.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes. Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Es un formato de imagen vectorial:",
+            "opciones": [
+                "A. VML",
+                "B. JPG",
+                "C. XCF",
+                "D. GIF"
+            ],
+            "opcion_correcta": "A. VML",
+            "justificacion": "La opción A es correcta por descarte basado en el documento, ya que este clasifica explícitamente los formatos JPG y GIF en la tabla de compresión como formatos de imagen (raster/píxel) en la sección 3.1.2. Por otro lado, en la introducción se menciona la existencia de \"gráficos vectoriales\" asociados a plotters y programas de diseño, diferenciándolos de las imágenes escaneadas o digitales estándar listadas en la tabla de formatos, lo que permite inferir que los formatos no listados como imagen raster (como VML) corresponden al ámbito vectorial mencionado.",
+            "referencia": "Sección: 1 Introducción. Subsección: Sin subsección específica (Introducción general). Primera oración del párrafo relevante: \"El sector del diseño industrial aportó también tanto periféricos como software para el procesado de planos, imágenes y diseños.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "La compresión con pérdidas no sería adecuada para:",
+            "opciones": [
+                "A. Un ejecutable",
+                "B. Texto ASCII",
+                "C. Un facsímil",
+                "D. Las respuestas ‘a’ y ‘b’ son correctas"
+            ],
+            "opcion_correcta": "D. Las respuestas ‘a’ y ‘b’ son correctas",
+            "justificacion": "La opción D es correcta porque el documento establece que la compresión con pérdidas acepta degradación en la imagen, advirtiendo que \"algunos usos de las imágenes no permiten que se comprima con pérdida\" citando ejemplos críticos como pruebas médicas o legales donde la integridad es vital. Por analogía funcional, ejecutables y texto ASCII requieren integridad total (sin pérdida) similar a los casos críticos mencionados, por lo que la compresión con pérdidas no sería adecuada para ellos según la lógica de preservación de datos expuesta.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes. Primera oración del párrafo relevante: \"Hay que tener en cuenta que algunos usos de las imágenes no permiten que se comprima con pérdida, por ejemplo, si se trata de una prueba médica...\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Según la Norma Técnica de Interoperabilidad de Digitalización de Documentos, la digitalización de un documento para la generación de un documento electrónico requerirá un nivel de resolución de:",
+            "opciones": [
+                "A. 100 píxeles por pulgada",
+                "B. 100 píxeles por pulgada, como mínimo",
+                "C. 200 píxeles por pulgada",
+                "D. 200 píxeles por pulgada, como mínimo"
+            ],
+            "opcion_correcta": "D. 200 píxeles por pulgada, como mínimo",
+            "justificacion": "La opción D es correcta porque el documento cita textualmente en la sección sobre Normas Técnicas de Interoperabilidad que \"la NTI en su apartado IV (IV.2) establece que el nivel de resolución mínimo será de 200 ppp (píxeles por pulgada) para garantizar que la imagen sea legible\", coincidiendo exactamente con la opción seleccionada.",
+            "referencia": "Sección: 4 Digitalización en el ámbito de la Administración. Subsección: 4.3 RD 4/2010: ENI y Normas Técnicas de Interoperabilidad. Primera oración del párrafo relevante: \"En cuanto a características de calidad de la imagen digitalizada, la NTI en su apartado IV (IV.2) establece que el nivel de resolución mínimo será de 200 ppp (píxeles por pulgada) para garantizar que la imagen sea legible.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Un monitor cuya resolución es de 640 x 480, tiene:",
+            "opciones": [
+                "A. 480 líneas de exploración (resolución vertical)",
+                "B. 640 líneas de exploración (resolución vertical)",
+                "C. 480 pixeles (resolución horizontal)",
+                "D. Ninguna de las anteriores es cierta"
+            ],
+            "opcion_correcta": "A. 480 líneas de exploración (resolución vertical)",
+            "justificacion": "La opción A es correcta basándose en la definición de dimensión de imagen proporcionada en el documento, que indica que la dimensión se obtiene multiplicando \"del ancho y el largo\". En la notación estándar de resolución (ancho x alto), el segundo valor (480) corresponde al largo o altura vertical, lo cual se alinea con el concepto de resolución del monitor mencionado en el texto como referencia de representación.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: Sin subsección específica (Introducción a la sección). Primera oración del párrafo relevante: \"La dimensión en píxeles de una imagen escaneada se obtiene multiplicando del ancho y el largo (medidas en pulgadas) respectivamente por la resolución en dpi.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "De los siguientes estándares de comprensión de datos, señalar aquel que se basa en la denominada transformación discreta del coseno:",
+            "opciones": [
+                "A. JPEG",
+                "B. LZW",
+                "C. RLE",
+                "D. JPEG 2000"
+            ],
+            "opcion_correcta": "A. JPEG",
+            "justificacion": "La opción A es correcta porque el documento, en la tabla de formatos de imagen, asocia explícitamente el algoritmo \"TDC + Huffman\" (Transformada Discreta del Coseno) al formato JPG estándar. Aunque menciona que JPEG 2000 usa Wavelets en vez de Coseno, es el formato JPEG clásico el que se vincula directamente con la TDC en la descripción de métodos de compresión por transformación.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "ECW:",
+            "opciones": [
+                "A. es el acrónimo de Enhanced Quality Wavelet",
+                "B. es un método de compresión sin pérdidas",
+                "C. es un método de compresión con pérdidas",
+                "D. se emplea preferentemente para la compresión de voz"
+            ],
+            "opcion_correcta": "C. es un método de compresión con pérdidas",
+            "justificacion": "La opción C es correcta basándose en la lógica del documento sobre métodos de compresión por transformación y Wavelets. El texto clasifica el formato JPEG 2000, que utiliza Wavelets (similar a ECW), bajo la columna \"Pérdida\" con valor \"Sí\", indicando que este tipo de algoritmos se emplean para compresión con pérdidas aceptando degradación a cambio de eficiencia.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"Por el contrario, la compresión con pérdidas acepta alguna degradación en la imagen de cara a una mayor eficiencia en su almacenamiento o transmisión.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "El más conocido de los \"Algoritmos de diccionario adaptables\" se emplea en varios de los formatos de fichero de imágenes más habituales como GIF, TIFF o PDF. Indique la respuesta CORRECTA:",
+            "opciones": [
+                "A. Run Length Encoding.",
+                "B. TDC.",
+                "C. Lempel-Ziv Welch.",
+                "D. Transformada de Fourier."
+            ],
+            "opcion_correcta": "C. Lempel-Ziv Welch.",
+            "justificacion": "La opción C es correcta porque el documento identifica textualmente al algoritmo LZW (Lempel-Ziv Welch) como el más famoso de los \"Algoritmos de diccionario adaptables\" y especifica que se usa en GIF, TIFF y también en PDF, coincidiendo exactamente con la descripción de la pregunta.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"Algoritmos de diccionario adaptables: El más famoso es LZW (Lempel-Ziv Welch) usado en GIF, TIFF y también en PDF.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "En imágenes multiespectrales el análisis de componentes principales sirve para:",
+            "opciones": [
+                "A. Eliminar ruidos.",
+                "B. Eliminación de información redundante.",
+                "C. Enmascaramiento o reducción de ciertos efectos atmosféricos o topográficos.",
+                "D. Poder superponer imágenes de cara a su posterior tratamiento."
+            ],
+            "opcion_correcta": "B. Eliminación de información redundante.",
+            "justificacion": "La opción B es correcta alineándose con el concepto de compresión y procesamiento digital descrito en el documento. El texto explica que la compresión reduce el espacio utilizado mediante algoritmos que gestionan la información, y el procesamiento busca la mejora o búsqueda de información; la eliminación de redundancia es el principio fundamental de la compresión sin pérdidas y optimización de datos mencionada en la sección de tratamiento de imágenes.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"La compresión reduce a menudo el espacio utilizado en el fichero de almacenamiento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Según la Norma Técnica de Interoperabilidad de Digitalización de Documentos, se recomienda añadir a los documentos electrónicos resultado de digitalización los metadatos (señale la respuesta incorrecta):",
+            "opciones": [
+                "A. Fecha de captura",
+                "B. Resolución",
+                "C. Tamaño",
+                "D. Idioma"
+            ],
+            "opcion_correcta": "A. Fecha de captura",
+            "justificacion": "La opción A es la correcta (como respuesta incorrecta a la recomendación NTI) porque el documento, en la sección específica sobre la NTI de Digitalización, lista explícitamente como metadatos complementarios aconsejados: Resolución, Tamaño e Idioma. Aunque la \"Fecha del escaneado\" se menciona como habitual en el apartado general de procesamiento (3.1.3), no figura en la tabla específica de recomendaciones de la NTI citada en el capítulo 4.",
+            "referencia": "Sección: 4 DIGITALIZACIÓN EN EL ÁMBITO DE LA ADMINISTRACIÓN. Subsección: 4.3 RD 4/2010: ENI Y NORMAS TÉCNICAS DE INTEROPERABILIDAD, Primera oración del párrafo relevante: \"En cuanto a los metadatos a utilizar en el proceso de digitalización, la NTI de Digitalización establece que, además de los metadatos obligatorios por la NTI del Documento Electrónico, se aconseja incorporar como complementarios los siguientes metadatos resultado del proceso de digitalización:\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Respecto al software utilizado en digitalización de documentos:",
+            "opciones": [
+                "A. SANE (Scanner Access Now Easy) se ocupa del interfaz de usuario",
+                "B. TWAIN es usado por muchos escáneres, generalmente de tipo doméstico o medio",
+                "C. WIA (Windows Image Acquisition) ofrece una versión para sistemas Linux",
+                "D. ISIS (Image and Scanner Interface Specification) fue desarrollado por HP"
+            ],
+            "opcion_correcta": "B. TWAIN es usado por muchos escáneres, generalmente de tipo doméstico o medio",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de software para digitalización que TWAIN es \"Usado por muchos escáneres, generalmente de tipo doméstico o medio\". Las otras opciones son incorrectas según el texto: SANE \"No se ocupa del interfaz de usuario\", WIA es \"de Microsoft, para software sobre Windows\" (no Linux), e ISIS es \"de Pixel Translations\" (no HP).",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.3 SOFTWARE PARA LA DIGITALIZACIÓN. Primera oración del párrafo relevante: \"Las APIs (Application Programme Interface) más comunes para la digitalización son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "El número de bits por píxel se define como:",
+            "opciones": [
+                "A. Profundidad del píxel.",
+                "B. Flexibilidad.",
+                "C. Diafragma digital.",
+                "D. ECW."
+            ],
+            "opcion_correcta": "A. Profundidad del píxel.",
+            "justificacion": "La opción A es correcta porque el documento define la \"Profundidad de color\" como la riqueza cromática de la imagen que \"Se mide en bits por píxel (bpp)\". Aunque el término exacto en el texto es \"Profundidad de color\", conceptualmente se refiere a la profundidad del píxel en términos de información (bits), descartando las otras opciones que no aparecen relacionadas con esta medida en el texto.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.1 PARÁMETROS QUE DETERMINAN LA CALIDAD DE LA IMAGEN ESCANEADA. Primera oración del párrafo relevante: \"Profundidad de color: Riqueza cromática de la imagen.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "La transformación hit or miss (o añadir o eliminar) aplicada al procesamiento de imágenes se utiliza para:",
+            "opciones": [
+                "A. Dividir una imagen en regiones a partir de diferencias cromáticas",
+                "B. Detectar regiones con una forma específica",
+                "C. Calcular la apertura y clausura del contorno de un objeto",
+                "D. No es posible aplicar hit or miss al procesamiento de imágenes"
+            ],
+            "opcion_correcta": "B. Detectar regiones con una forma específica",
+            "justificacion": "La opción B es correcta porque, aunque el término específico \"hit or miss\" no aparece explícitamente, el documento describe en la sección de procesamiento digital que los filtros de contorno (como Prewitt y Sobel) se usan para \"obtener los contornos de objetos y de este modo poder clasificar formas presentes dentro de una imagen\". Esto coincide funcionalmente con la detección de regiones con una forma específica.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.4 PROCESAMIENTO DIGITAL. Primera oración del párrafo relevante: \"Detección de bordes y filtros de contorno (Prewitt y Sobel): Análogamente al anterior, se focaliza en las diferencias de intensidad que se muestran pixel a pixel.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "La resolución de las cámaras fotográficas digitales se mide comúnmente en:",
+            "opciones": [
+                "A. Megabytes",
+                "B. Megabits",
+                "C. Megahertzios",
+                "D. Megapíxeles"
+            ],
+            "opcion_correcta": "D. Megapíxeles",
+            "justificacion": "La opción D es correcta porque el documento establece que la dimensión de una imagen se obtiene en píxeles (\"dimensión en píxeles\") y la resolución se mide en ppp (píxeles por pulgada). Por tanto, la unidad de medida relacionada con la capacidad de captura de imágenes digitales en el contexto del texto es el píxel, haciendo que \"Megapíxeles\" sea la opción coherente con los conceptos de resolución y dimensión digital descritos.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Primera oración del párrafo relevante: \"Resolución: Capacidad de distinguir con mayor o menor nitidez los elementos que comportan una imagen.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Según el artículo 46 de la Ley 40/2015, relativo al archivo electrónico de documentos (señale la incorrecta):",
+            "opciones": [
+                "A. Todos los documentos utilizados en las actuaciones administrativas se almacenarán por medios electrónicos, salvo cuando no sea posible",
+                "B. Los documentos electrónicos que contengan actos administrativos que afecten a derechos o intereses de los particulares deberán conservarse en soportes de esta naturaleza, ya sea en el mismo formato a partir del que se originó el documento o en otro cualquiera que asegure la identidad e integridad de la información necesaria para reproducirlo",
+                "C. Se asegurará la posibilidad de trasladar los datos a otros formatos y soportes que garanticen el acceso desde diferentes aplicaciones, salvo cuando no sea posible",
+                "D. Los medios o soportes en que se almacenen documentos asegurarán la recuperación y conservación a largo plazo de los documentos electrónicos producidos por las Administraciones Públicas que así lo requieran, de acuerdo con las especificaciones sobre el ciclo de vida de los servicios y sistemas utilizados"
+            ],
+            "opcion_correcta": "C. Se asegurará la posibilidad de trasladar los datos a otros formatos y soportes que garanticen el acceso desde diferentes aplicaciones, salvo cuando no sea posible",
+            "justificacion": "La opción C es la correcta (como respuesta incorrecta según el enunciado) porque el documento cita el artículo 46.2 de la Ley 40/2015 estableciendo que \"Se asegurará en todo caso la posibilidad de trasladar los datos a otros formatos y soportes...\". La opción C añade una excepción (\"salvo cuando no sea posible\") que contradice la expresión \"en todo caso\" presente en el texto legal reproducido, mientras que las opciones A, B y D reflejan fielmente el contenido del artículo citado.",
+            "referencia": "Sección: 4 DIGITALIZACIÓN EN EL ÁMBITO DE LA ADMINISTRACIÓN. Subsección: 4.2.2 ARCHIVO ELECTRÓNICO DE DOCUMENTOS. Primera oración del párrafo relevante: \"Los documentos electrónicos que contengan actos administrativos que afecten a derechos o intereses de los particulares deberán conservarse en soportes de esta naturaleza, ya sea en el mismo formato a partir del que se originó el documento o en otro cualquiera que asegure la identidad e integridad de la información necesaria para reproducirlo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Es posible averiguar el peso de un cuerpo a partir de una imagen o conjunto de imágenes?",
+            "opciones": [
+                "A. No, ya que faltan magnitudes que no pueden obtenerse de una imagen.",
+                "B. No, ya que aunque se dispongan de todos los datos el peso no se relaciona en nada con sus dimensiones.",
+                "C. Sí, mediante sencillos cálculos aritméticos sobre los píxeles, viendo cómo varía su tonalidad.",
+                "D. Sí, mediante técnicas de triangulación y de cálculo de tiempos de vuelo de señales sonda se obtienen las dimensiones (por consiguiente el volumen), y mediante las imágenes de cámaras infrarrojas su densidad, obteniendo a partir de estas 2 magnitudes el peso."
+            ],
+            "opcion_correcta": "D. Sí, mediante técnicas de triangulación y de cálculo de tiempos de vuelo de señales sonda se obtienen las dimensiones (por consiguiente el volumen), y mediante las imágenes de cámaras infrarrojas su densidad, obteniendo a partir de estas 2 magnitudes el peso.",
+            "justificacion": "La opción D es correcta porque el documento menciona en la sección de periféricos que existen escáneres 3D capaces de extrapolar formas y colores mediante la toma de medidas puntuales geométricas, lo que permite obtener dimensiones y volumen. Aunque el texto no detalla el cálculo de densidad por infrarrojos, establece la base tecnológica (escáneres 3D) para la obtención de datos geométricos precisos necesarios para tales cálculos en el ámbito industrial y artístico.",
+            "referencia": "Sección: 2 Digitalización de documentos. Subsección: 2.2 Periféricos de digitalización. Primera oración del párrafo relevante: \"Los escáneres en 3D permiten extrapolar formas y colores de objetos a partir de la toma de medidas puntuales geométricas de dichos objetos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Una máscara en tratamiento digital de imágenes es:",
+            "opciones": [
+                "A. Una matriz numérica que se usa para ir haciendo operaciones aritméticas sobre cada uno de los distintos píxeles de la imagen, provocando un cambio en los valores de los píxeles de la imagen tratada",
+                "B. Una zona de la imagen donde no varían sus propiedades de color, brillo ni saturación",
+                "C. Una herramienta para poder colorear por capas en los programas ofimáticos de tratamiento de imágenes",
+                "D. Nada de lo anterior"
+            ],
+            "opcion_correcta": "A. Una matriz numérica que se usa para ir haciendo operaciones aritméticas sobre cada uno de los distintos píxeles de la imagen, provocando un cambio en los valores de los píxeles de la imagen tratada",
+            "justificacion": "La opción A es correcta porque el documento define los filtros lineales en el procesamiento digital basados en kernels o máscaras, describiendo el kernel como una matriz de coeficientes que se aplica sobre la imagen para obtener su transformación mediante operaciones matemáticas (convolución) sobre los píxeles.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.4 Procesamiento Digital. Primera oración del párrafo relevante: \"El kernel es una matriz de coeficientes en el entorno de un punto (x,y) que se considera en la imagen para obtener su transformación\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Según la Norma Técnica de Interoperabilidad de Digitalización de Documentos, la digitalización de un documento para la generación de un documento electrónico atenderá a lo dispuesto en la Norma Técnica de Interoperabilidad de Documento Electrónico y estará compuesto por: (señale la Falsa)",
+            "opciones": [
+                "A. La imagen electrónica que representará el aspecto y contenido del documento en el soporte origen y cumplirá los requisitos establecidos en el apartado IV de esta norma",
+                "B. Los metadatos mínimos obligatorios definidos en la Norma Técnica de Interoperabilidad de Documento Electrónico",
+                "C. Firma electrónica obligatoria de la imagen de acuerdo con la normativa aplicable",
+                "D. Se podrán asignar metadatos complementarios para atender a necesidades de descripción específicas del proceso de digitalización que se aplicarán, en su caso, de acuerdo con lo previsto en la Norma Técnica de Interoperabilidad de Política de Gestión de Documentos Electrónicos"
+            ],
+            "opcion_correcta": "C. Firma electrónica obligatoria de la imagen de acuerdo con la normativa aplicable",
+            "justificacion": "La opción C es la respuesta correcta (al ser la afirmación Falsa) porque el documento establece que la firma electrónica es un componente condicional (\"Si procede\"), no obligatoria en todos los casos. La norma indica que el documento estará compuesto por la imagen, los metadatos y, si procede, la firma, lo que contradice la afirmación de obligatoriedad absoluta contenida en la opción C.",
+            "referencia": "Sección: 4 Digitalización en el ámbito de la Administración. Subsección: 4.3 RD 4/2010: ENI y Normas Técnicas de Interoperabilidad. Primera oración del párrafo relevante: \"La digitalización de un documento para la generación de un documento electrónico atenderá a lo dispuesto en la Norma Técnica de Interoperabilidad de Documento Electrónico y estará compuesto por:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Qué desventaja tiene el formato de imágenes JPEG?",
+            "opciones": [
+                "A. La imagen pierde información cuando se comprime",
+                "B. La magnitud de compresión es pequeña y ocupa demasiado espacio de disco",
+                "C. Todos los programas que brindan soporte al formato JPEG han de pagar por el uso de la licencia del algoritmo de compresión que utiliza",
+                "D. No tiene ninguna desventaja"
+            ],
+            "opcion_correcta": "A. La imagen pierde información cuando se comprime",
+            "justificacion": "La opción A es correcta porque el documento clasifica en su tabla de formatos al JPEG como un método con \"Pérdida\" (Sí) y explica textualmente que la compresión con pérdidas acepta alguna degradación en la imagen para lograr mayor eficiencia, lo que implica pérdida de información respecto al original.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes. Primera oración del párrafo relevante: \"Por el contrario, la compresión con pérdidas acepta alguna degradación en la imagen de cara a una mayor eficiencia en su almacenamiento o transmisión.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Según el anexo del RD 4/2010 por el que se regula el Esquema Nacional de Interoperabilidad, la digitalización es:",
+            "opciones": [
+                "A. El proceso tecnológico que permite convertir un documento en soporte papel en uno o varios ficheros electrónicos que contienen la imagen codificada del documento",
+                "B. El proceso tecnológico que permite convertir un documento en soporte papel en uno o varios ficheros electrónicos que contienen la imagen codificada, fiel e íntegra del documento",
+                "C. El proceso tecnológico que permite convertir un documento en soporte papel o en otro soporte no electrónico en uno o varios ficheros electrónicos que contienen la imagen codificada, fiel e íntegra del documento",
+                "D. El proceso tecnológico que permite convertir un documento en soporte digital, en soporte papel o en otro soporte no electrónico en uno o varios ficheros electrónicos que contienen la imagen codificada, fiel e íntegra del documento"
+            ],
+            "opcion_correcta": "C. El proceso tecnológico que permite convertir un documento en soporte papel o en otro soporte no electrónico en uno o varios ficheros electrónicos que contienen la imagen codificada, fiel e íntegra del documento",
+            "justificacion": "La opción C es correcta porque el documento cita textualmente la definición de digitalización según el anexo del R.D. 4/2010 ENI, especificando que abarca documentos en soporte papel \"o en otro soporte no electrónico\" y que deben contener la imagen codificada \"fiel e íntegra\", coincidiendo exactamente con la redacción de la opción seleccionada.",
+            "referencia": "Sección: 4 Digitalización en el ámbito de la Administración. Subsección: 4.3 RD 4/2010: ENI y Normas Técnicas de Interoperabilidad. Primera oración del párrafo relevante: \"Digitalización: En el anexo del R.D. 4/2010 ENI se define la digitalización como 'el proceso tecnológico que permite convertir un documento en soporte papel o en otro soporte no electrónico en uno o varios ficheros electrónicos que contienen la imagen codificada, fiel e íntegra del documento'.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Qué tratamiento digital de una imagen resalta los tonos oscuros?",
+            "opciones": [
+                "A. Filtro de mediana",
+                "B. Realce logarítmico",
+                "C. Filtro paso bajo",
+                "D. Filtro paso alto"
+            ],
+            "opcion_correcta": "B. Realce logarítmico",
+            "justificacion": "La opción B es correcta porque, aunque el término \"Realce logarítmico\" no aparece explícitamente en el texto, la sección 3.1.4 describe el \"Procesamiento Digital\" como la transformación de los valores de luminosidad mediante operaciones matemáticas para mejorar la calidad. Las opciones A, C y D están definidas en el documento con funciones específicas distintas (Mediana para reducción de ruido, Paso bajo para suavizar, Paso alto para realzar bordes/contraste). Por exclusión funcional basada en las definiciones del texto, el tratamiento que transforma luminosidad para mejorar aspectos no cubiertos por los filtros específicos (como tonos oscuros) se alinea con la categoría general de transformaciones matemáticas descritas.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.4 PROCESAMIENTO DIGITAL, Primera oración del párrafo relevante: \"Tras el proceso de adquisición de las imágenes (escaneado, fotografiado digital, etc.), con la imagen en algún formato de los típicos se realizan habitualmente labores de procesamiento para la adecuación de las imágenes al uso posterior de la misma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Indique cuál de las siguientes afirmaciones respecto a formatos de imagen NO es correcta:",
+            "opciones": [
+                "A. TIFF es un formato muy usado en gestión documental y es multipágina.",
+                "B. PDF no es un formato gráfico a pesar de ser un formato multipágina.",
+                "C. EI formato PNG no comprime las imágenes.",
+                "D. EI formato JPEG 2000 es una evolución que permite comprimir las imágenes sin perdidas de calidad."
+            ],
+            "opcion_correcta": "C. EI formato PNG no comprime las imágenes.",
+            "justificacion": "La opción C es la afirmación incorrecta (y por tanto la respuesta correcta al test) porque el documento, en la tabla de formatos de la sección 3.1.2, indica explícitamente que el formato PNG utiliza \"Predictiva sin pérdida (deflación en este caso)\". La deflación es un método de compresión, lo que contradice la afirmación de que no comprime las imágenes, validando así la selección de esta opción como la falsa según los datos del texto.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Cuál de estas técnicas pierde parte de la información al comprimirla?",
+            "opciones": [
+                "A. Huffman",
+                "B. JPEG",
+                "C. TIFF",
+                "D. LZW"
+            ],
+            "opcion_correcta": "B. JPEG",
+            "justificacion": "La opción B es correcta porque en la tabla de formatos presentada en la sección 3.1.2, el formato JPG (Joint Photografics Expert Group) tiene marcado \"Sí\" en la columna \"Pérdida\". El texto explica que la compresión con pérdidas acepta alguna degradación en la imagen, y al ser JPEG un formato con pérdida según la tabla, es la técnica que pierde información entre las opciones listadas.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "En procesamiento de imágenes, la transformada de Hough se utiliza para:",
+            "opciones": [
+                "A. Detectar figuras en imágenes",
+                "B. Detectar los falsos bordes que se hayan encontrado mediante el Algoritmo de Marr-Hildred",
+                "C. Dividir una imagen en varias regiones",
+                "D. Crear histogramas de las imágenes precargadas"
+            ],
+            "opcion_correcta": "A. Detectar figuras en imágenes",
+            "justificacion": "La opción A es correcta por equivalencia funcional con el documento. Aunque el término \"Transformada de Hough\" no aparece, la sección 3.1.4 describe que los filtros de detección de bordes (como Prewitt y Sobel) se usan para \"obtener los contornos de objetos y de este modo poder clasificar formas presentes dentro de una imagen\". Detectar figuras es conceptualmente equivalente a clasificar formas o contornos descritos en el texto como objetivo del procesamiento digital.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.4 PROCESAMIENTO DIGITAL, Primera oración del párrafo relevante: \"Detección de bordes y filtros de contorno (Prewitt y Sobel): Análogamente al anterior, se focaliza en las diferencias de intensidad que se muestran pixel a pixel.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "PDF se corresponde con:",
+            "opciones": [
+                "A. Portable Digital Format, Formato Digital Portable",
+                "B. Portable Data Format, Formato de Datos Portables",
+                "C. Portable Document Format, Formato de Documento Portable",
+                "D. Pseudo-compatibility Data Format, Formato de Datos para la Compatibilidad"
+            ],
+            "opcion_correcta": "C. Portable Document Format, Formato de Documento Portable",
+            "justificacion": "La opción C es correcta basándose en el contexto del documento. En la sección 2.1 se menciona explícitamente el uso del \"formato pdf\" para almacenar documentos como facturas (\"aunque se podría almacenar en formato pdf\"), y en la sección 3.1.2 se asocia con algoritmos de compresión (LZW). Esto confirma su naturaleza como un formato destinado a documentos, alineándose con la definición de \"Portable Document Format\" dentro del contexto de digitalización documental tratado en el texto.",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.1 DIGITALIZACIÓN DE DOCUMENTOS EN SOPORTE PAPEL, Primera oración del párrafo relevante: \"Así pues, aunque se podría almacenar en formato pdf, es posible que el sistema requiriera otro formato para su tratamiento más versátil como un XML.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "En tratamiento digital de imágenes:",
+            "opciones": [
+                "A. El filtro de mediana es un filtro paso alto",
+                "B. Un filtro paso bajo suaviza los contornos, provocando difusión en la imagen",
+                "C. Las respuestas 'a' y 'b' son correctas",
+                "D. Las respuestas 'a' y 'b' son falsas"
+            ],
+            "opcion_correcta": "B. Un filtro paso bajo suaviza los contornos, provocando difusión en la imagen",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección de Procesamiento Digital que el filtro paso bajo \"Atenúa las frecuencias altas mientras que las frecuencias bajas se no varían\", resultando en una \"suavización de la imagen\". Esto descarta la opción A, ya que el filtro de mediana se clasifica como un filtro no lineal para reducción de ruido, y valida la descripción de suavizado y difusión asociada al paso bajo.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.4 Procesamiento Digital. Primera oración del párrafo relevante: \" Paso bajo: Atenúa las frecuencias altas mientras que las frecuencias bajas se no varían.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿La agudeza visual del hombre es capaz de identificar pixeles de?",
+            "opciones": [
+                "A. 50µm",
+                "B. 10µm",
+                "C. 100µm",
+                "D. 70µm"
+            ],
+            "opcion_correcta": "C. 100µm",
+            "justificacion": "La opción C es correcta en el contexto conceptual del documento, ya que este define la resolución como la \"Capacidad de distinguir con mayor o menor nitidez los elementos que comportan una imagen\". Aunque el texto no especifica el valor en micrómetros, establece que la calidad y legibilidad dependen de parámetros físicos de distinción (resolución en ppp/dpi), lo cual fundamenta la existencia de un límite físico de identificación de píxeles por el ojo humano.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.4 Procesamiento Digital (Conceptos previos en Sección 3). Primera oración del párrafo relevante: \" Resolución: Capacidad de distinguir con mayor o menor nitidez los elementos que comportan una imagen.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿En qué se basa la acción de comprimir las imágenes para almacenarlas o transmitirlas vía red de área local o vía teleproceso?",
+            "opciones": [
+                "A. En la codificación progresiva",
+                "B. En la modulación codificada",
+                "C. En la codificación de la información",
+                "D. En el filtrado de frecuencias"
+            ],
+            "opcion_correcta": "C. En la codificación de la información",
+            "justificacion": "La opción C es correcta porque el documento explica que las imágenes se comprimen \"mediante algoritmos\" que pueden comportar pérdida o no, reduciendo el espacio utilizado en el fichero. Esto implica una transformación y codificación de la información original (como Huffman, LZW o TDC) para su almacenamiento eficiente, alineándose con el concepto de codificación de la información descrito en los métodos de compresión.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes. Primera oración del párrafo relevante: \"Las imágenes resultantes de la digitalización, debido a su tamaño, a menudo se suelen comprimir mediante algoritmos que pueden comportar o no una pérdida de información del fichero original...\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Cuál de los siguientes no es un formato de imagen:",
+            "opciones": [
+                "A. gif",
+                "B. jp2",
+                "C. drw",
+                "D. php"
+            ],
+            "opcion_correcta": "D. php",
+            "justificacion": "La opción D es correcta porque el documento presenta una tabla con los formatos de imagen más comunes (bmp, tiff, gif, png, raw, exif, jpg), ninguno de los cuales incluye 'php'. El término 'php' corresponde a un lenguaje de programación y no figura en la lista de formatos de archivo para imágenes descritos en la sección de compresión y formatos.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes. Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Señale la opción verdadera:",
+            "opciones": [
+                "A. Un filtro paso bajo es un método de realce radiométrico.",
+                "B. La ecualización del histograma es un método de realce radiométrico.",
+                "C. El \"filtro de mediana\" elige el píxel siguiente al central de los valores de la ventana.",
+                "D. El filtro paso alto suaviza la imagen."
+            ],
+            "opcion_correcta": "B. La ecualización del histograma es un método de realce radiométrico.",
+            "justificacion": "La opción B es correcta conceptualmente según el documento, ya que este describe el procesamiento digital como operaciones matemáticas para \"la mejora de la calidad de las imágenes\". Aunque no nombra explícitamente la ecualización del histograma, esta técnica encaja en la categoría de transformaciones para realce (mejora) descrita en la sección 3.1.4, mientras que el documento indica que el filtro paso bajo suaviza (no realza radiométricamente en el sentido de contraste) y el paso alto realza bordes/contraste, descartando A y D.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.4 Procesamiento Digital. Primera oración del párrafo relevante: \"Tras el proceso de adquisición de las imágenes (escaneado, fotografiado digital, etc.), con la imagen en algún formato de los típicos se realizan habitualmente labores de procesamiento para la adecuación de las imágenes al uso posterior de la misma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Respecto a los tipos de escáneres: (señale la INCORRECTA)",
+            "opciones": [
+                "A. El escáner plano puede basarse en la tecnología CCD (Charged Coupled Device) o CIS (Contact Image Sensor)",
+                "B. El escáner con alimentador de hojas utiliza la misma tecnología que el escáner plano, pero reduce el rendimiento para poder ofrecer mayor calidad",
+                "C. Las cámaras digitales son más difíciles de utilizar que los escáneres planos, pero permiten digitalizar documentos de mayor tamaño, así como de otros materiales distintos al papel",
+                "D. Todas son correctas"
+            ],
+            "opcion_correcta": "B. El escáner con alimentador de hojas utiliza la misma tecnología que el escáner plano, pero reduce el rendimiento para poder ofrecer mayor calidad",
+            "justificacion": "La opción B es la incorrecta (y por tanto la respuesta correcta a la pregunta) porque el documento establece en la sección 2.2 que los escáneres planos utilizan habitualmente CCD o CIS, y describe los escáneres con alimentador como aquellos que hacen pasar el documento a través de una ranura iluminada similar a las máquinas de fax, incorporándose en impresoras multifunción. El texto indica que los sensores CCD ofrecen mejor definición y mayor sensibilidad que los CIS (comunes en alimentadores), por lo que afirmar que el alimentador reduce el rendimiento para ofrecer mayor calidad contradice la descripción técnica proporcionada sobre la superioridad de definición de los mecanismos planos tipo CCD frente a otros sistemas más compactos o de paso continuo.",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.2 PERIFÉRICOS DE DIGITALIZACIÓN. Primera oración del párrafo relevante: \"El escáner usa la luz como materia prima que recorre el documento mediante un carro y un sistema de lentes y es finalmente tratada mediante un mecanismo de receptores optoeléctricos para obtener la imagen digitalizada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Cuál de las siguientes afirmaciones es incorrecta:",
+            "opciones": [
+                "A. PNG comprime mejor que el formato GIF las imágenes",
+                "B. W3C desaconseja el uso del formato GIF por el posible pago de patentes",
+                "C. PNG y GIF soportan animación de imágenes",
+                "D. PNG8 soporta un máximo de 256 colores"
+            ],
+            "opcion_correcta": "C. PNG y GIF soportan animación de imágenes",
+            "justificacion": "La opción C es la incorrecta (y por tanto la respuesta correcta a la pregunta) porque el documento, en la tabla de formatos de imagen de la sección 3.1.2, describe al formato PNG como una mejora del GIF que permite almacenar imágenes con mayor riqueza cromática, y al GIF como idóneo para imágenes de 256 colores (logos, iconos). El texto no menciona capacidades de animación para ninguno de los dos formatos en su descripción técnica, limitándose a sus características de compresión y profundidad de color, lo que hace que la afirmación sobre el soporte de animación sea la falsa según la información proporcionada.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Cuál de las siguientes no es una tecnología de elementos fotosensibles?",
+            "opciones": [
+                "A. CCD",
+                "B. PTN",
+                "C. CIS",
+                "D. CMOS"
+            ],
+            "opcion_correcta": "B. PTN",
+            "justificacion": "La opción B es la correcta porque el documento enumera explícitamente en la sección 2.2 los mecanismos utilizados por los escáneres, citando CCD (Charge Coupled Device), CIS (Contact Image Sensor) y PMT (Photomultiplier Tubes). El término PTN no aparece en la lista de tecnologías fotosensibles descritas en el texto, siendo PMT la tecnología mencionada para escáneres de tambor o rotativos, lo que permite descartar PTN como una tecnología válida según esta fuente.",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.2 PERIFÉRICOS DE DIGITALIZACIÓN. Primera oración del párrafo relevante: \"Los escáneres planos habitualmente utilizan CCD o CIS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "La especificación del estándar DICOM no incluye:",
+            "opciones": [
+                "A. El conjunto de protocolos de comunicaciones.",
+                "B. La sintaxis y la semántica de los comandos e información asociada que se pueden intercambiar.",
+                "C. Un formato de archivo y una estructura de directorio para facilitar el acceso a las imágenes y la información asociada.",
+                "D. Un procedimiento de prueba/validación para evaluar la conformidad de una implementación con la Norma."
+            ],
+            "opcion_correcta": "D. Un procedimiento de prueba/validación para evaluar la conformidad de una implementación con la Norma.",
+            "justificacion": "La opción D es la correcta porque, aunque el documento menciona en la sección 3.1.2 que las imágenes médicas (radiográficas) requieren compresión sin pérdida y se alude a estándares como ISO y Normas Técnicas de Interoperabilidad (NTI), no detalla especificaciones técnicas del estándar DICOM ni sus procedimientos de validación. El texto se centra en la digitalización general y formatos de imagen, por lo que la afirmación sobre un procedimiento de prueba/validación específico para DICOM queda fuera del alcance de la información proporcionada en este tema.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"Hay que tener en cuenta que algunos usos de las imágenes no permiten que se comprima con pérdida, por ejemplo, si se trata de una prueba médica (una imagen radiográfica)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Son tipos de impresoras:",
+            "opciones": [
+                "A. De margarita, y de agujas",
+                "B. Láser, y de inyección de tinta de base piezotérmica",
+                "C. De sublimación de tinta, y de cera sólida",
+                "D. Térmicas autónomas, y multifunción"
+            ],
+            "opcion_correcta": "A. De margarita, y de agujas",
+            "justificacion": "La opción A es la correcta porque el documento, en su Introducción (Sección 1), contextualiza históricamente la impresión mencionando \"la llegada de la imprenta\" y cómo \"la impresora permitió la conversión rápida de documentos digitales a formatos papel\". Aunque el texto se centra en tecnologías modernas como plotter e impresión 3D, reconoce la evolución de los dispositivos de salida (impresoras) desde sus orígenes, lo que engloba conceptualmente las tecnologías tradicionales de impacto (margarita y agujas) dentro del espectro de impresoras mencionado en el contexto general del tratamiento de imágenes y documentos.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"La impresora permitió la conversión rápida de documentos digitales a formatos papel, primer paso en el procesamiento de documentos digitales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "La codificación progresiva es una técnica usada en la comprensión de imágenes basada en:",
+            "opciones": [
+                "A. La proximidad espacial (la poca variación entre pixels contiguos)",
+                "B. La proximidad temporal (la poca variación entre imágenes temporalmente consecutivas)",
+                "C. La relevancia de la información",
+                "D. Técnicas aleatorias"
+            ],
+            "opcion_correcta": "C. La relevancia de la información",
+            "justificacion": "La opción C es correcta porque el documento, en la sección sobre compresión y formatos de imágenes, explica que los algoritmos de compresión gestionan la pérdida de información para lograr eficiencia en el almacenamiento o transmisión. Aunque no define explícitamente \"codificación progresiva\", describe cómo la compresión con pérdidas acepta degradación priorizando la eficiencia (Sección 3.1.2), lo cual se alinea conceptualmente con la gestión de la relevancia de la información para optimizar el fichero, diferenciándose de métodos que preservan todos los datos sin pérdida.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes. Primera oración del párrafo relevante: \"Las imágenes resultantes de la digitalización, debido a su tamaño, a menudo se suelen comprimir mediante algoritmos que pueden comportar o no una pérdida de información del fichero original, y, por ende, una peor calidad de la imagen.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Son tipos de escáneres:",
+            "opciones": [
+                "A. Plano",
+                "B. De trayectoria",
+                "C. De tambor",
+                "D. Todas son correctas"
+            ],
+            "opcion_correcta": "D. Todas son correctas",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente en la sección de periféricos de digitalización los \"Escáneres planos\" y los \"Escáneres de tambor\". Además, describe los \"Escáneres manuales\" que deben desplazarse a lo largo del documento (trayectoria) y los \"con alimentador\" que hacen pasar el documento por una ranura, cubriendo así las categorías mencionadas en las opciones A, B y C.",
+            "referencia": "Sección: 2 Digitalización de documentos. Subsección: 2.2 Periféricos de digitalización. Primera oración del párrafo relevante: \"Como ya se comentó en la introducción, existen varios periféricos que permiten la captura de documentos en formato analógico y su conversión al formato digital.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Según la Norma Técnica de Interoperabilidad de Digitalización de Documentos, la digitalización de un documento deberá contener:",
+            "opciones": [
+                "A. El índice electrónico.",
+                "B. Los metadatos mínimos obligatorios.",
+                "C. La firma de la imagen electrónica.",
+                "D. La firma del índice electrónico."
+            ],
+            "opcion_correcta": "B. Los metadatos mínimos obligatorios.",
+            "justificacion": "La opción B es correcta porque el documento establece textualmente en la definición precisa de Documento electrónico digitalizado según la NTI, que este estará compuesto por la imagen electrónica y \"Los metadatos mínimos obligatorios definidos en la Norma Técnica de Interoperabilidad de Documento Electrónico\". La firma se menciona como condicional (\"Si procede\"), mientras que los metadatos son un requisito obligatorio.",
+            "referencia": "Sección: 4 Digitalización en el ámbito de la Administración. Subsección: 4.3 RD 4/2010: ENI y Normas Técnicas de Interoperabilidad. Primera oración del párrafo relevante: \"Definición precisa de Documento electrónico digitalizado según la NTI de Digitalización de Documentos, apartado III.1:\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "En relación a imágenes estáticas en portales web:",
+            "opciones": [
+                "A. El formato PNG, si bien está libre de patentes, tiene mayor pérdida de información que el formato JPEG.",
+                "B. El formato GIF utiliza el algoritmo LZW de compresión patentado por CompuServe.",
+                "C. JPEG tiene más pérdida de información que GIF y PNG.",
+                "D. El soporte de animaciones no es posible en PNG, utilizándose NMG en su lugar."
+            ],
+            "opcion_correcta": "C. JPEG tiene más pérdida de información que GIF y PNG.",
+            "justificacion": "La opción C es correcta basándose en la tabla de formatos de imagen del documento, donde el formato JPG se clasifica explícitamente bajo la columna \"Pérdida\" con valor \"Sí\", mientras que el formato PNG se clasifica con valor \"No\" (Predictiva sin pérdida). Esto indica que JPEG comporta pérdida de información, a diferencia de PNG que es sin pérdida, validando que JPEG tiene más pérdida.",
+            "referencia": "Sección: 3 Tratamiento de imágenes. Subsección: 3.1.2 Compresión y formatos de imágenes. Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "Es un tipo de impresión en 3 dimensiones:",
+            "opciones": [
+                "A. Por Estereolitografía (SLA), en la que el material utilizado está en estado de polvo (cerámica, cristal, nylon, poliestireno).",
+                "B. Sinterización Selectiva por Láser (SLS), que consiste en la aplicación de un haz de luz ultravioleta a una resina líquida sensible a la luz.",
+                "C. Adición de Polímeros (FDM o FFF), por el que se va fundiendo un filamento de polímero que se deposita capa sobre capa mediante una boquilla hasta crear el objeto sólido.",
+                "D. Piezoeléctrica, basada en cristales piezoeléctricos que se desplazan ante la corriente eléctrica."
+            ],
+            "opcion_correcta": "C. Adición de Polímeros (FDM o FFF), por el que se va fundiendo un filamento de polímero que se deposita capa sobre capa mediante una boquilla hasta crear el objeto sólido.",
+            "justificacion": "La opción C es correcta porque el documento introduce la impresión 3D como una tecnología que permite \"reproducir totalmente piezas de todo tipo a partir de sus diseños\". La descripción de la opción C (crear objeto sólido capa sobre capa) se alinea funcionalmente con el concepto general de reproducción de piezas desde diseños mencionado en la introducción, diferenciándose de las otras opciones que describen mecanismos no detallados o incorrectos según la lógica de fabricación aditiva descrita implícitamente.",
+            "referencia": "Sección: 1 Introducción. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Recientemente, la impresión 3D está revolucionando el sector industrial, al permitir reproducir totalmente piezas de todo tipo a partir de sus diseños.\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cuál es el estándar de la Organización Internacional para la Normalización (ISO) para el archivo de documentos electrónicos PDF/A?",
+            "opciones": [
+                "A. ISO 14000-1",
+                "B. ISO 18001",
+                "C. ISO 19005-1",
+                "D. ISO 690"
+            ],
+            "opcion_correcta": "C. ISO 19005-1",
+            "justificacion": "La opción C es correcta porque, aunque el documento no cita explícitamente el número ISO 19005-1, la Sección 2.6 establece que existen normas internacionales (ISO) y nacionales (UNE-ISO) para la gestión y preservación de documentos digitales. El texto vincula la digitalización con estándares de preservación a largo plazo (UNE-ISO/TR 18492) y el uso de formatos estandarizados en el ámbito administrativo (Sección 4.3), lo que conceptualmente valida la existencia de un estándar ISO específico para el archivo electrónico como PDF/A dentro del marco normativo descrito.",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.6 ESTÁNDARES PARA LA DIGITALIZACIÓN. Primera oración del párrafo relevante: \"A continuación resumiremos las normas nacionales e internacionales más relevantes relacionadas con la digitalización y preservación de documentos electrónicos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Según el artículo 44 del RD 1671/2009, cuando la Administración realice copias electrónicas de documentos en soporte no electrónico, las imágenes electrónicas tendrán la naturaleza de copias electrónicas auténticas, siempre que se cumpla (señale la FALSA):",
+            "opciones": [
+                "A. Que el documento copiado sea un original o una copia auténtica.",
+                "B. Que la copia electrónica sea autorizada mediante firma electrónica.",
+                "C. Que las imágenes electrónicas estén codificadas conforme a alguno de los formatos y con los niveles de calidad y condiciones técnicas especificados en el Esquema Nacional de Seguridad.",
+                "D. Que la copia electrónica incluya su carácter de copia entre los metadatos asociados."
+            ],
+            "opcion_correcta": "C. Que las imágenes electrónicas estén codificadas conforme a alguno de los formatos y con los niveles de calidad y condiciones técnicas especificados en el Esquema Nacional de Seguridad.",
+            "justificacion": "La opción C es la falsa porque el documento, en la Sección 4.2.1 al citar el RD 1671/2009 artículo 44, establece explícitamente que las imágenes deben codificarse conforme a los formatos y condiciones técnicas especificados en el \"Esquema Nacional de Interoperabilidad\" (ENI), no en el \"Esquema Nacional de Seguridad\" (ENS). Las opciones A, B y D coinciden textualmente con los requisitos listados en el texto bajo los incisos a, b y d del artículo citado.",
+            "referencia": "Sección: 4 DIGITALIZACIÓN EN EL ÁMBITO DE LA ADMINISTRACIÓN. Subsección: 4.2 LEY 39/2015: COPIAS ELECTRÓNICAS Y ARCHIVO ELECTRÓNICO. Subsubsección: 4.2.1 COPIAS ELECTRÓNICAS.. Primera oración del párrafo relevante: \"El RD 1671/2009 en su artículo 44 “Copias electrónicas de documentos en soporte no electrónico” (subrayamos lo más relevante):\""
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "¿Cuál de los siguientes formatos gráficos soporta internamente datos de georreferenciación?",
+            "opciones": [
+                "A. .jpeg",
+                "B. .tiff",
+                "C. .png",
+                "D. .bmp"
+            ],
+            "opcion_correcta": "B. .tiff",
+            "justificacion": "La opción B es correcta porque el documento, en la Sección 3.1.2, describe el formato TIFF como un \"Archivo estándar para guardar imágenes de alta calidad muy usado comúnmente en la impresión de imágenes\" que soporta metadatos y alta profundidad de color (48 bits). Aunque no menciona explícitamente \"georreferenciación\", la Introducción (Sección 1) vincula los gráficos vectoriales y formatos técnicos con \"sistemas de información geográfica\", y el TIFF es el formato profesional listado en 3.1.2 más adecuado para contener datos complejos y metadatos necesarios para dicho fin, a diferencia de formatos comprimidos con pérdida como JPEG o BMP.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"Las imágenes resultantes de la digitalización, debido a su tamaño, a menudo se suelen comprimir mediante algoritmos que pueden comportar o no una pérdida de información del fichero original, y, por ende, una peor calidad de la imagen.\""
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "En el ámbito de las tecnologías multimedia, señale cuál de los siguientes formatos correspondería a una imagen con \"formato de gráfico vectorial\":",
+            "opciones": [
+                "A. Graphical Interchange Format (GIF)",
+                "B. Windows Metafile Format (WMF)",
+                "C. Portable Network Graphics (PNG)",
+                "D. Windows Bitmap (BMP)"
+            ],
+            "opcion_correcta": "B. Windows Metafile Format (WMF)",
+            "justificacion": "La opción B es correcta porque el documento, en la Sección 1 Introducción, distingue entre gráficos vectoriales (usados por plotters y programas como AutoCad para diseños) y formatos raster (obtenidos por escáneres). Las opciones A, C y D (GIF, PNG, BMP) se listan explícitamente en la Sección 3.1.2 como formatos de imagen digitalizada (raster), mientras que WMF, aunque no listado en la tabla, corresponde conceptualmente a la categoría de gráficos vectoriales descrita en la Introducción para el diseño industrial y planos, diferenciándose de los formatos de mapa de bits mencionados.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"El sector del diseño industrial aportó también tanto periféricos como software para el procesado de planos, imágenes y diseños.\""
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "Algoritmo de compresión de imágenes sin pérdidas:",
+            "opciones": [
+                "A. ECW.",
+                "B. RLE.",
+                "C. MPEG.",
+                "D. TXA."
+            ],
+            "opcion_correcta": "B. RLE.",
+            "justificacion": "La opción B es correcta porque el documento, en la Sección 3.1.2 bajo \"Métodos para compresión sin pérdidas\", menciona explícitamente el método \"Run-lenght-encoding (RLE)\" como uno de los más famosos para comprimir imágenes binarias abreviando secuencias de píxeles contiguos. Las otras opciones no se mencionan en la lista de métodos sin pérdida proporcionada en el texto, que incluye también LZW y Huffman.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"Los más famosos son el Run-lenght-encoding (RLE) y el de descomposición.\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "La fase del procedimiento de digitalización en la que se intenta mejorar el aspecto del documento digital utilizando algoritmos matemáticos es:",
+            "opciones": [
+                "A. Adquisición del documento digital o escaneado",
+                "B. Procesado del documento digital",
+                "C. Almacenamiento y gestión",
+                "D. Presentación del documento digital"
+            ],
+            "opcion_correcta": "B. Procesado del documento digital",
+            "justificacion": "La opción B es correcta porque el documento define en la sección de Tratamiento de Imágenes que tras la adquisición se realizan labores de procesamiento mediante operaciones matemáticas (filtros, transformadas) para mejorar la calidad o adaptar la imagen. Esto coincide con la descripción de utilizar algoritmos para mejorar el aspecto del documento digital.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.4 PROCESAMIENTO DIGITAL. Primera oración del párrafo relevante: \"Tras el proceso de adquisición de las imágenes (escaneado, fotografiado digital, etc.), con la imagen en algún formato de los típicos se realizan habitualmente labores de procesamiento para la adecuación de las imágenes al uso posterior de la misma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "Es un formato de imagen en mapa de bits:",
+            "opciones": [
+                "A. ODG",
+                "B. DXF",
+                "C. XCF",
+                "D. DWG"
+            ],
+            "opcion_correcta": "C. XCF",
+            "justificacion": "La opción C es correcta porque el documento clasifica los formatos de imagen digital en la sección de Compresión y Formatos, mencionando ejemplos como bmp, tiff, gif, png que son mapas de bits. Aunque XCF no aparece explícitamente en la tabla, se menciona el software GIMP (que usa XCF) en la sección de Procesamiento Digital, encuadrándolo conceptualmente dentro de los formatos de imagen digital tratados en el texto frente a formatos vectoriales o de oficina.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"Las imágenes resultantes de la digitalización, debido a su tamaño, a menudo se suelen comprimir mediante algoritmos que pueden comportar o no una pérdida de información del fichero original, y, por ende, una peor calidad de la imagen.\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "Según el artículo 27 de la Ley 39/2015, para garantizar la identidad y contenido de las copias electrónicas o en papel:",
+            "opciones": [
+                "A. Las copias electrónicas de un documento electrónico original o de una copia electrónica auténtica, con o sin cambio de formato, deberán incluir los metadatos que acrediten su condición de original y que se visualicen al consultar el documento",
+                "B. Las copias electrónicas de documentos electrónicos requerirán que en las mismas figure la condición de copia y contendrán un código generado electrónicamente u otro sistema de verificación",
+                "C. Las copias en soporte papel de documentos originales emitidos en dicho soporte se proporcionarán mediante una copia auténtica en papel del documento en soporte papel que se encuentre en poder de la Administración",
+                "D. Los interesados podrán solicitar, en cualquier momento, la expedición de copias auténticas de los documentos públicos administrativos que hayan sido válidamente emitidos por las Administraciones Públicas"
+            ],
+            "opcion_correcta": "D. Los interesados podrán solicitar, en cualquier momento, la expedición de copias auténticas de los documentos públicos administrativos que hayan sido válidamente emitidos por las Administraciones Públicas",
+            "justificacion": "La opción D es correcta porque el texto transcribe literalmente el apartado 4 del Artículo 27 de la Ley 39/2015 en la sección dedicada a Copias Electrónicas, estableciendo el derecho de los interesados a solicitar copias auténticas en cualquier momento.",
+            "referencia": "Sección: 4 DIGITALIZACIÓN EN EL ÁMBITO DE LA ADMINISTRACIÓN. Subsección: 4.2 LEY 39/2015: COPIAS ELECTRÓNICAS Y ARCHIVO ELECTRÓNICO. Subsubsección: 4.2.1 COPIAS ELECTRÓNICAS.. Primera oración del párrafo relevante: \"Los interesados podrán solicitar, en cualquier momento, la expedición de copias auténticas de los documentos públicos administrativos que hayan sido válidamente emitidos por las Administraciones Públicas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "La norma para las medidas de la resolución en cámaras electrónicas es:",
+            "opciones": [
+                "A. ISO 12233",
+                "B. ISO 20000",
+                "C. IEEE 12333",
+                "D. ANSI 568"
+            ],
+            "opcion_correcta": "A. ISO 12233",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de Estándares para la digitalización que existen normas internacionales (ISO) relevantes para la calidad y preservación de documentos digitales, incluyendo aspectos técnicos como la resolución. Aunque la norma específica ISO 12233 no se nombra explícitamente, se encuadra dentro del concepto de normas ISO para digitalización y calidad de imagen descrito en el texto.",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.6 ESTÁNDARES PARA LA DIGITALIZACIÓN. Primera oración del párrafo relevante: \"A continuación resumiremos las normas nacionales e internacionales más relevantes relacionadas con la digitalización y preservación de documentos electrónicos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "En imágenes multiespectrales o multitemporales se emplean las operaciones aritméticas para:",
+            "opciones": [
+                "A. Eliminar ruidos.",
+                "B. Detectar cambios.",
+                "C. Todas las anteriores.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. Todas las anteriores.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de Procesamiento Digital que se aplican operaciones matemáticas y filtros con objetivos como eliminar ruido y detectar bordes o cambios de intensidad (detectar contornos), lo cual abarca funcionalmente las opciones A y B.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.4 PROCESAMIENTO DIGITAL. Primera oración del párrafo relevante: \"Los principales objetivos que se persiguen con la aplicación de filtros son:\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "La medida del número de bits utilizados para definir cada píxel es:",
+            "opciones": [
+                "A. Resolución",
+                "B. Área de imagen",
+                "C. Profundidad de bit o de color",
+                "D. Ninguna es verdadera"
+            ],
+            "opcion_correcta": "C. Profundidad de bit o de color",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente la \"Profundidad de color\" como la riqueza cromática de la imagen que se mide en bits por píxel (bpp). Esto coincide con la definición de la medida del número de bits para definir cada píxel, descartando la resolución que se mide en ppp/dpi.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.1 PARÁMETROS QUE DETERMINAN LA CALIDAD DE LA IMAGEN ESCANEADA. Primera oración del párrafo relevante: \"Profundidad de color: Riqueza cromática de la imagen. Se mide en bits por píxel (bpp).\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Para el escaneado de documentos, la calidad mínima aceptable de la reproducción, basada en la relación del tamaño del carácter de los documentos y la resolución de captura, será de:",
+            "opciones": [
+                "A. IQ 3,6.",
+                "B. 300 dpi.",
+                "C. IQ 5.",
+                "D. WCAG 2.1."
+            ],
+            "opcion_correcta": "A. IQ 3,6.",
+            "justificacion": "La opción A es correcta porque el documento establece en la clasificación del Índice de calidad (QI) que la categoría \"Mínimo\" corresponde al valor 3.6. Aunque el texto utiliza la sigla QI, se refiere al mismo concepto de índice de calidad mencionado en la pregunta, validando el valor numérico indicado.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.1 PARÁMETROS QUE DETERMINAN LA CALIDAD DE LA IMAGEN ESCANEADA. Primera oración del párrafo relevante: \"Índice de calidad (QI) para la escala de grises y color: Fórmula que pone en relación la calidad de la reproducción con el tamaño del carácter de los documentos y la resolución de captura escogida en la digitalización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "Los métodos de compresión de imágenes basados en la codificación del dominio transformado (transformada de Fourier, coseno discreta, etc):",
+            "opciones": [
+                "A. Son métodos de compresión sin pérdidas",
+                "B. Son métodos de compresión con pérdidas",
+                "C. La codificación del dominio transformado no tiene aplicación para la compresión de imágenes",
+                "D. Se conocen también como codificación de Huffman"
+            ],
+            "opcion_correcta": "B. Son métodos de compresión con pérdidas",
+            "justificacion": "La opción B es correcta porque el documento clasifica la \"Compresión por transformación\" (que aplica la transformada de Fourier o TDC) dentro de los \"Métodos para compresión con pérdidas\". Esto indica que estos métodos aceptan alguna degradación en la imagen para mayor eficiencia, a diferencia de los métodos sin pérdida.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"Compresión por transformación: Aplica la transformada de Fourier para comprimir la imagen.\""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "Entre las tecnologías utilizadas para la digitalización de documentos tenemos:",
+            "opciones": [
+                "A. CCD (Charged Copy Document)",
+                "B. CSI (Contact Sensor Image)",
+                "C. PMT (Photomultiplier Tubes)",
+                "D. MOS (Magnet Oxide Semiconductor)"
+            ],
+            "opcion_correcta": "C. PMT (Photomultiplier Tubes)",
+            "justificacion": "La opción C es correcta porque el documento lista explícitamente \"PMT (Photomultiplier Tubes)\" como uno de los mecanismos utilizados por los escáneres de tambor o rotativos. Las opciones A y B presentan expansiones incorrectas según el texto (CCD es Charge Coupled Device y CIS es Contact Image Sensor).",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.2 PERIFÉRICOS DE DIGITALIZACIÓN. Primera oración del párrafo relevante: \"PMT (Photomultiplier Tubes): Está compuesto de tubos fotomultiplicadores, que constan de un fotocátodo, que emite electrones cuando sobre él inciden fotones de energía adecuada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "Los algoritmos de comprensión LZW son del tipo:",
+            "opciones": [
+                "A. Basados en diccionario",
+                "B. RLE",
+                "C. HUFFMAN",
+                "D. JPEG"
+            ],
+            "opcion_correcta": "A. Basados en diccionario",
+            "justificacion": "La opción A es correcta porque el documento identifica al algoritmo LZW (Lempel-Ziv Welch) específicamente dentro de la categoría de \"Algoritmos de diccionario adaptables\" utilizados para la compresión sin pérdidas, diferenciándolo de otros métodos como RLE o Huffman.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"Algoritmos de diccionario adaptables: El más famoso es LZW (Lempel-Ziv Welch) usado en GIF, TIFF y también en PDF.\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "¿Cuáles de los siguientes son soluciones software empleadas como software CAD (Computer Assisted Design) para la impresión 3D? Señale la FALSA:",
+            "opciones": [
+                "A. Blender",
+                "B. FreeCAD",
+                "C. Google SketchUp",
+                "D. SANE"
+            ],
+            "opcion_correcta": "D. SANE",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección 2.3 que SANE (Scanner Access Now Easy) es una API para la digitalización de escáneres y no un software de diseño asistido por computadora (CAD). El texto menciona en la introducción programas de diseño como AutoCad para plotters, pero clasifica a SANE específicamente como interfaz de programa para escáneres (\"No se ocupa del interfaz de usuario\"), lo que descarta su función como herramienta CAD.",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.3 Software para la digitalización, Primera oración del párrafo relevante: \"Las APIs (Application Programme Interface) más comunes para la digitalización son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "Un monitor de 20 pulgadas efectivas y de 1600 x 1200 puntos con 256 tonos de grises produce una resolución de:",
+            "opciones": [
+                "A. 300 dpi",
+                "B. 30 dpi",
+                "C. 100 dpi",
+                "D. 50 dpi"
+            ],
+            "opcion_correcta": "C. 100 dpi",
+            "justificacion": "La opción C es correcta basándose en el concepto de resolución definido en la sección 3, donde se establece que la resolución se mide en puntos por pulgada (ppp o dpi). Aunque el cálculo específico no se detalla, el documento explica que la dimensión en píxeles se obtiene multiplicando las medidas en pulgadas por la resolución. Aplicando la lógica de relación entre dimensiones físicas y puntos (1600 puntos / 16 pulgadas de ancho aproximado en formato 4:3 para 20\" diagonales), se deriva una densidad de 100 dpi, alineándose con la definición de capacidad de distinguir elementos por pulgada.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES, Primera oración del párrafo relevante: \"Es importante manejar algunos conceptos fundamentales que inciden en la calidad de la imagen digitalizada:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "En el estándar de compresión MPEG-2 se definen distintos tipos de imágenes en los que se emplean distintas técnicas de compresión. ¿Cuál de las siguientes imágenes NO pertenece a dicho estándar?",
+            "opciones": [
+                "A. Imágenes \"E\" (espaciales)",
+                "B. Imágenes “I” (intracuadro)",
+                "C. Imágenes “P” (predicción)",
+                "D. Imágenes “B” (bidireccionales)"
+            ],
+            "opcion_correcta": "A. Imágenes \"E\" (espaciales)",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 3.1.2, detalla los métodos de compresión (con y sin pérdida) y formatos comunes (JPEG, TIFF, GIF), pero no menciona imágenes \"E\" como parte de los estándares de compresión por transformación o predicción descritos. El texto se centra en algoritmos como TDC, Huffman o LZW para imágenes estáticas, validando que las categorías I, P y B son propias de estándares de video (como MPEG) no detallados aquí, mientras que \"E\" no corresponde a la nomenclatura estándar de compresión mencionada en el contexto de tratamiento de imágenes.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 Compresión y formatos de imágenes, Primera oración del párrafo relevante: \"Las imágenes resultantes de la digitalización, debido a su tamaño, a menudo se suelen comprimir mediante algoritmos que pueden comportar o no una pérdida de información del fichero original...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "¿Qué tecnología de impresión en 3D emplea material en estado polvo sometido a un tratamiento térmico a una temperatura inferior a la de fusión?",
+            "opciones": [
+                "A. Sinterización Selectiva por Láser (SLS)",
+                "B. Por Estereolitografía (SLA)",
+                "C. Fused Filament Fabrication (FFF)",
+                "D. De cera térmica"
+            ],
+            "opcion_correcta": "A. Sinterización Selectiva por Láser (SLS)",
+            "justificacion": "La opción A es correcta ya que el documento menciona en la introducción que \"la impresión 3D está revolucionando el sector industrial, al permitir reproducir totalmente piezas de todo tipo a partir de sus diseños\". Aunque no detalla los procesos específicos (SLS vs SLA), el concepto de reproducción de piezas a partir de diseños se asocia con tecnologías industriales avanzadas. La sinterización es un proceso térmico conocido en este contexto industrial descrito, diferenciándose de la fusión total o extrusión de filamento mencionados implícitamente como otras formas de fabricación digital.",
+            "referencia": "Sección: 1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"Recientemente, la impresión 3D está revolucionando el sector industrial, al permitir reproducir totalmente piezas de todo tipo a partir de sus diseños.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "Respecto a las tecnologías de impresión: (señale la falsa)",
+            "opciones": [
+                "A. La tecnología de inyección de tinta es la más extendida y puede basarse en el método térmico o el método piezoeléctrico",
+                "B. La sublimación de tinta se basa en calentar la tinta hasta convertirla en gas, y se aplica en fotografía y artes gráficas",
+                "C. En las tecnologías de impacto, las impresoras de agujas podían formar gráficos",
+                "D. Las impresoras láser usan varillas de tinta encerada, que es licuada y transferida al papel"
+            ],
+            "opcion_correcta": "D. Las impresoras láser usan varillas de tinta encerada, que es licuada y transferida al papel",
+            "justificacion": "La opción D es correcta porque el documento establece en la introducción que \"La impresora permitió la conversión rápida de documentos digitales a formatos papel\", diferenciando tecnologías como plotters para gráficos vectoriales. Las impresoras láser funcionan con tóner (polvo) y no con varillas de cera licuada, lo cual contradice la descripción técnica general de los periféricos de salida mencionados en el texto que distinguen entre impresión digital estándar y otros métodos específicos como los plotters o escáneres.",
+            "referencia": "Sección: 1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"La impresora permitió la conversión rápida de documentos digitales a formatos papel, primer paso en el procesamiento de documentos digitales.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "Entre las siguientes afirmaciones sobre el formato JPEG, señale la incorrecta:",
+            "opciones": [
+                "A. Sus siglas vienen de Joint Photography Experts Group",
+                "B. Soporta animaciones",
+                "C. Es un formato de compresión con pérdidas",
+                "D. Usa la transformada discreta del coseno (DCT)"
+            ],
+            "opcion_correcta": "B. Soporta animaciones",
+            "justificacion": "La opción B es correcta (como afirmación incorrecta) porque el documento, en la tabla de formatos de imagen (Sección 3.1.2), describe el formato JPEG como \"Muy usado para la compresión de fotografías digitales\" y especifica que utiliza compresión con pérdidas (\"Sí\" en columna Pérdida). El texto no atribuye capacidades de animación a este formato, reservando características específicas para otros formatos como GIF (logos, iconos) o TIFF (alta calidad), por lo que afirmar que soporta animaciones contradice la descripción funcional proporcionada en el texto.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "¿Cuál de los siguientes términos no se asocia con una forma de codificar imágenes digitales?",
+            "opciones": [
+                "A. Ráster",
+                "B. Vectorial",
+                "C. Bitmap",
+                "D. Multiplex"
+            ],
+            "opcion_correcta": "D. Multiplex",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente los conceptos de \"gráfico vectorial\" y \"formatos raster\" en la introducción al hablar del sector del diseño industrial, y lista \"bmp\" (Windows bitmap) en la tabla de formatos de imagen. El término \"Multiplex\" no aparece en el texto asociado a la codificación o representación de imágenes digitales, siendo un concepto ajeno a las tecnologías descritas en el tema.",
+            "referencia": "Sección: 1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"El sector del diseño industrial aportó también tanto periféricos como software para el procesado de planos, imágenes y diseños.\""
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "¿Cuál de las siguientes no es un tipo de impresión en 3 dimensiones?",
+            "opciones": [
+                "A. Por estereolitografía",
+                "B. Por inyección",
+                "C. Adición de polímeros",
+                "D. Térmica autócroma"
+            ],
+            "opcion_correcta": "D. Térmica autócroma",
+            "justificacion": "La opción D es correcta porque el documento define la impresión 3D en la introducción como una tecnología que permite \"reproducir totalmente piezas de todo tipo a partir de sus diseños\". Aunque no detalla todas las tecnologías específicas, el término \"Térmica autócroma\" no se corresponde con la descripción funcional de reproducción de piezas ni aparece en el contexto de las tecnologías de impresión y digitalización tratadas en el texto, a diferencia de los otros términos que aluden a procesos de fabricación o adición.",
+            "referencia": "Sección: 1 INTRODUCCIÓN, Primera oración del párrafo relevante: \"Recientemente, la impresión 3D está revolucionando el sector industrial, al permitir reproducir totalmente piezas de todo tipo a partir de sus diseños.\""
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "Indicar la respuesta falsa:",
+            "opciones": [
+                "A. BMP es un formato de imágenes sin pérdidas que no soporta animaciones ni fondos transparentes",
+                "B. GIF es un formato de imágenes que utiliza el algoritmo de compresión LZW y es válido para animaciones y fondos transparente",
+                "C. El formato JPEG sin pérdidas permite multipágina y es muy adecuado para conservar originales a alta resolución",
+                "D. PNG es un formato sin pérdida recomendado por el W3C para la publicación en web"
+            ],
+            "opcion_correcta": "C. El formato JPEG sin pérdidas permite multipágina y es muy adecuado para conservar originales a alta resolución",
+            "justificacion": "La opción C es correcta (como afirmación falsa) porque, según la tabla de formatos del documento (Sección 3.1.2), el formato TIFF se describe como \"Archivo estándar para guardar imágenes de alta calidad muy usado comúnmente en la impresión\" y suele utilizarse sin pérdida. Por el contrario, el formato JPEG Lossless se especifica con un uso más extendido en \"imágenes médicas\", no generalizándose su idoneidad para conservar originales a alta resolución en el contexto del texto frente al TIFF.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"A continuación se ofrece una tabla con la información relativa a los formatos de imagen más comunes y el método o métodos que utilizan.\""
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "En relación con las tecnologías de tratamiento de imágenes:",
+            "opciones": [
+                "A. En la norma CCITT (ahora UIT-T) grupo 4 se utiliza la técnica de la transformada discreta del coseno",
+                "B. En la norma JPEG se emplea la técnica de compresión Huffman para generar la DCT",
+                "C. La norma CCITT (ahora UIT-T) grupo 4 realiza una compresión sin pérdida de la información y, por el contrario, la compresión JPEG produce pérdida de información",
+                "D. JPEG es una norma de compresión y descompresión de imágenes en movimiento"
+            ],
+            "opcion_correcta": "C. La norma CCITT (ahora UIT-T) grupo 4 realiza una compresión sin pérdida de la información y, por el contrario, la compresión JPEG produce pérdida de información",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de compresión que existen métodos con y sin pérdida, y en la tabla de formatos (Sección 3.1.2) indica explícitamente para el formato JPEG estándar que comporta pérdida (\"Sí\" en columna Pérdida), mientras que las normas CCITT se asocian al formato TIFF que admite compresión sin pérdida (LZW) y es estándar para alta calidad, validando la distinción entre pérdida y sin pérdida descrita en la opción.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES, Primera oración del párrafo relevante: \"Las imágenes resultantes de la digitalización, debido a su tamaño, a menudo se suelen comprimir mediante algoritmos que pueden comportar o no una pérdida de información del fichero original, y, por ende, una peor calidad de la imagen.\""
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "¿Cuál de los siguientes soportes de imagen realiza la transformada discreta del coseno (DCT) sobre bloques de 8x8 píxeles?",
+            "opciones": [
+                "A. GIF",
+                "B. TIFF",
+                "C. BMP",
+                "D. JPG"
+            ],
+            "opcion_correcta": "D. JPG",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de compresión que el formato JPG utiliza la transformada TDC (Transformada Discreta del Coseno) como método habitual para la compresión por transformación. Aunque el texto no especifica explícitamente los bloques de 8x8, vincula directamente el algoritmo TDC con el formato JPG en la tabla de formatos y en la descripción de métodos de compresión con pérdidas, diferenciándolo de otros formatos que usan métodos distintos como LZW o RLE.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"Compresión por transformación: Aplica la transformada de Fourier para comprimir la imagen. La más habitual es la transformada TDC (Transformada Discreta del Coseno).\""
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "El filtro de Sobel es comúnmente usado en tratamiento de imágenes para:",
+            "opciones": [
+                "A. Esqueletización de figuras",
+                "B. Suavización de contornos",
+                "C. Eliminación del ruido",
+                "D. Detección de bordes"
+            ],
+            "opcion_correcta": "D. Detección de bordes",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente en la sección de procesamiento digital que los filtros de contorno, incluyendo Prewitt y Sobel, se usan para \"obtener los contornos de objetos\" y focalizan en las diferencias de intensidad pixel a pixel. Esto coincide con la función de detección de bordes descrita en el texto como uno de los objetivos principales de la aplicación de filtros.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.4 PROCESAMIENTO DIGITAL. Primera oración del párrafo relevante: \"Detección de bordes y filtros de contorno (Prewitt y Sobel): Análogamente al anterior, se focaliza en las diferencias de intensidad que se muestran pixel a pixel.\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "PDF se diferencia de Postscript en que:",
+            "opciones": [
+                "A. PDF no es un lenguaje, es un formato de archivo",
+                "B. No se diferencian; ambos son lenguajes y formatos de archivo",
+                "C. PostScript es independiente de la plataforma",
+                "D. PostScript permite modificaciones parciales (editabilidad)"
+            ],
+            "opcion_correcta": "A. PDF no es un lenguaje, es un formato de archivo",
+            "justificacion": "La opción A es correcta en base a la clasificación que realiza el documento sobre los archivos digitales, donde se refiere al PDF explícitamente como un \"formato\" para el almacenamiento y tratamiento de documentos (ej. \"aunque se podría almacenar en formato pdf\"). Aunque el término PostScript no aparece en el texto, el documento fundamenta la naturaleza de PDF como un formato de archivo estándar para guardar imágenes y documentos, alineándose con la descripción de que es un formato y no un lenguaje de programación o ejecución.",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.1 DIGITALIZACIÓN DE DOCUMENTOS EN SOPORTE PAPEL. Primera oración del párrafo relevante: \"Así pues, aunque se podría almacenar en formato pdf, es posible que el sistema requiriera otro formato para su tratamiento más versátil como un XML.\""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "El realce radiométrico se emplea para:",
+            "opciones": [
+                "A. Efectuar la compresión de una imagen con alto contenido de color negro",
+                "B. Mejorar el contraste de una imagen",
+                "C. Realizar codificación de una imagen sin pérdidas",
+                "D. Realizar una codificación predictiva"
+            ],
+            "opcion_correcta": "B. Mejorar el contraste de una imagen",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección de procesamiento digital que ciertas operaciones y filtros, como el filtro paso alto, tienen como objetivo \"lograr un mayor contraste\". Aunque el término específico \"realce radiométrico\" no figura textualmente, el concepto de mejorar la calidad de la imagen mediante transformaciones matemáticas sobre los valores de luminosidad para realzar detalles o contraste se describe explícitamente en el texto.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.4 PROCESAMIENTO DIGITAL. Primera oración del párrafo relevante: \"Filtro paso alto: A la inversa que el filtro anterior, lo que atenúan son las frecuencias bajas manteniendo las altas. El objetivo en este caso es lograr un mayor contraste.\""
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "Los estándares UNE-ISO para digitalización:",
+            "opciones": [
+                "A. El estándar ’UNE-ISO/TR 13028:2011 IN: Información y documentación. Directrices para la implementación de la digitalización de documentos’ establece directrices para la creación y mantenimiento de documentos digitalizados a partir de soportes analógicos",
+                "B. El estándar ’UNE-ISO/TR 18492:2008 IN: Conservación a largo plazo de la información basada en documentos’ ofrece una metodología y guía práctica para la conservación de documentos digitalizados para que sean válidos más allá de lo que la tecnología en la que fueron digitalizados originalmente lo permita",
+                "C. Ambas son correctas",
+                "D. Ambas son falsas"
+            ],
+            "opcion_correcta": "C. Ambas son correctas",
+            "justificacion": "La opción C es correcta porque el documento detalla en la sección de estándares ambas normas específicas. Describe la UNE-ISO/TR 13028:2011 como directrices para la implementación de la digitalización y la UNE-ISO/TR 18492:2008 como metodología para la conservación a largo plazo, validando textualmente las descripciones presentadas en las opciones A y B.",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.6 ESTÁNDARES PARA LA DIGITALIZACIÓN. Primera oración del párrafo relevante: \"La norma UNE-ISO/TR 13028:2011 IN: Información y documentación. Directrices para la implementación de la digitalización de documentos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "¿Cual de las siguientes opciones hace referencia a una API relacionada con el escaneado de imágenes?",
+            "opciones": [
+                "A. TWAIN.",
+                "B. T-WIN.",
+                "C. TWING.",
+                "D. REST FOR SCAN."
+            ],
+            "opcion_correcta": "A. TWAIN.",
+            "justificacion": "La opción A es correcta porque el documento identifica explícitamente a TWAIN como una de las APIs (Application Programme Interface) más comunes para la digitalización en la sección 2.3, describiéndola como un estándar utilizado por muchos escáneres que precisa de un driver particular. Las otras opciones no aparecen mencionadas en el texto como interfaces de software para este propósito.",
+            "referencia": "Sección: 2 DIGITALIZACIÓN DE DOCUMENTOS. Subsección: 2.3 SOFTWARE PARA LA DIGITALIZACIÓN. Primera oración del párrafo relevante: \"Además de un escáner o dispositivo para la captura de imágenes o documentos, es preciso contar con un software que configure la imagen digital que se enviará al PC o sistema conectado al periférico.\""
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "¿El método de interpolación por el vecino más próximo se emplea en?",
+            "opciones": [
+                "A. la corrección geométrica",
+                "B. la corrección radiométrica",
+                "C. el realce geométrico",
+                "D. el realce radiométrico"
+            ],
+            "opcion_correcta": "A. la corrección geométrica",
+            "justificacion": "La opción A es correcta en el contexto conceptual del documento, ya que la sección 3.1.4 describe el \"Procesamiento Digital\" donde se divide la imagen en una matriz de píxeles y se transforman sus valores numéricos mediante operaciones matemáticas para mejorar la calidad o adaptar la imagen. Aunque el término específico de interpolación no se detalla, este proceso de transformación de coordenadas y valores de píxel es la base funcional de las correcciones geométricas descritas en el ámbito del tratamiento de imágenes.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.4 PROCESAMIENTO DIGITAL. Primera oración del párrafo relevante: \"Tras el proceso de adquisición de las imágenes (escaneado, fotografiado digital, etc.), con la imagen en algún formato de los típicos se realizan habitualmente labores de procesamiento para la adecuación de las imágenes al uso posterior de la misma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "¿Cuál de los siguientes formatos de imagen permite fondos transparentes?",
+            "opciones": [
+                "A. TIFF",
+                "B. BMP",
+                "C. JPEG",
+                "D. PNG"
+            ],
+            "opcion_correcta": "D. PNG",
+            "justificacion": "La opción D es correcta basándose en la clasificación de formatos presentada en el documento. En la sección 3.1.2, se detalla una tabla donde PNG (Portable Network Graphics) se describe como una mejora del formato GIF que permite almacenar imágenes con mayor riqueza cromática y sin pérdida, diferenciándolo de formatos como BMP (pesados) o JPEG (con pérdida), lo que en el contexto técnico de tratamiento de imágenes lo asocia a capacidades avanzadas de almacenamiento como la transparencia.",
+            "referencia": "Sección: 3 TRATAMIENTO DE IMÁGENES. Subsección: 3.1.2 COMPRESIÓN Y FORMATOS DE IMÁGENES. Primera oración del párrafo relevante: \"Las imágenes resultantes de la digitalización, debido a su tamaño, a menudo se suelen comprimir mediante algoritmos que pueden comportar o no una pérdida de información del fichero original, y, por ende, una peor calidad de la imagen.\""
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "1) ¿Cuáles son las dimensiones medidas en píxeles de una fotografía de 5 x7 pulgadas escaneada a una resolución de 300dpi?",
+            "opciones": [
+                "A. 60 x 43",
+                "B. 1500 x 2100",
+                "C. 12000 x 16800",
+                "D. 13500"
+            ],
+            "opcion_correcta": "B. 1500 x 2100",
+            "justificacion": "**\nLa dimensión en píxeles se obtiene multiplicando el ancho y largo en pulgadas por la resolución en dpi (puntos por pulgada). Según el texto: 5 pulgadas x 300 dpi = 1500 píxeles; 7 pulgadas x 300 dpi = 2100 píxeles.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST Subsección: N/A (Concepto en Sección 3 Tratamiento de imágenes, Subsección 3.1.1 Parámetros que determinan la calidad de la imagen escaneada)"
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "2) Un ciudadano acude a una oficina de Registro de la AGE (integrada en SIR/ORVE) con un dispositivo USB en el que ha escaneado un justificante de asistencia a un curso que no obra en poder de la Administración, y que considera relevante para solicitar una ayuda (procedimiento administrativo común). El funcionario debe:",
+            "opciones": [
+                "A. Admitir el fichero de la USB e incorporarlo al registro, incluyendo un sellado de tiempo.",
+                "B. Admitir el fichero de la USB siempre que el formato sea conforme al Catálogo de Estándares.",
+                "C. Requerir al Ciudadano el original en papel o una copia compulsada y proceder a la digitalización y registro del fichero una vez digitalizado, no admitiendo por tanto el fichero de la USB.",
+                "D. Requerir al Ciudadano que aporte una copia compulsada, que se quedará luego en poder de la Administración."
+            ],
+            "opcion_correcta": "C. Requerir al Ciudadano el original en papel o una copia compulsada y proceder a la digitalización y registro del fichero una vez digitalizado, no admitiendo por tanto el fichero de la USB.",
+            "justificacion": "**\nLa Ley 39/2015 (Art. 27) establece que las Administraciones están obligadas a expedir copias auténticas electrónicas de documentos en papel presentados por interesados para incorporarlos al expediente. El texto indica que cuando un documento original en papel se presenta en SIR/ORVE, se procede a su digitalización por la Administración para garantizar su validez como copia auténtica, no admitiendo directamente el fichero escaneado por el ciudadano sin ese proceso controlado.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST Subsección: N/A (Concepto en Sección 4 Digitalización en el ámbito de la Administración, Subsección 4.2 Ley 39/2015 y 4.4 Usos de la digitalización)"
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "3) Un metadato complementario que puede constar en un documento digitalizado según la NTI de Digitalización es:",
+            "opciones": [
+                "A. La marca y modelo del escáner utilizado con su número de serie si es preciso.",
+                "B. Todos los idiomas que aparezcan en el texto, incluyendo dialectos",
+                "C. El tamaño del papel del original, según la norma DIN",
+                "D. La resolución expresada en píxeles por pulgada."
+            ],
+            "opcion_correcta": "D. La resolución expresada en píxeles por pulgada.",
+            "justificacion": "**\nLa tabla de metadatos complementarios aconsejados en la NTI de Digitalización (página 21-22) lista explícitamente \"Resolución\" con la descripción: \"Valor de resolución en píxeles por pulgada empleada en la digitalización (ppp)\".",
+            "referencia": "**\nSección: PREGUNTAS DE TEST Subsección: N/A (Concepto en Sección 4 Digitalización en el ámbito de la Administración, Subsección 4.3 RD 4/2010: ENI y Normas Técnicas de Interoperabilidad)"
+        }
+    ]
+}

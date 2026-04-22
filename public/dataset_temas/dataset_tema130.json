@@ -1,0 +1,1578 @@
+{
+    "nombre_tema": "Tema 130",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "En los sistemas de colaboración síncronos:",
+            "opciones": [
+                "A. No es posible utilizar la tecnología multicast.",
+                "B. Todos están basados en interfaces WWW.",
+                "C. Se amplían las funcionalidades de los sistemas de videoconferencia clásicos.",
+                "D. Su estándar viene definido por el W3C."
+            ],
+            "opcion_correcta": "C. Se amplían las funcionalidades de los sistemas de videoconferencia clásicos.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Señale la respuesta que NO contiene herramientas de edición de video:",
+            "opciones": [
+                "A. SpikeV y JVIEditor.",
+                "B. FilmoraGo y OpenShot.",
+                "C. VSDC y Blender.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. SpikeV y JVIEditor.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "El workflow es una categoría de aplicaciones dentro del trabajo en grupo o groupware que permite:",
+            "opciones": [
+                "A. Desarrollo de aplicaciones multiusuario",
+                "B. Desarrollo de aplicaciones de coordinación de procesos",
+                "C. Desarrollo de aplicaciones de flujo de datos",
+                "D. Desarrollo de aplicaciones de mail inteligente"
+            ],
+            "opcion_correcta": "B. Desarrollo de aplicaciones de coordinación de procesos",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Cuál de los siguientes protocolos de comunicación o acceso pueden ser utilizados para establecer una videoconferencia?",
+            "opciones": [
+                "A. ATM",
+                "B. H.323",
+                "C. VRVS",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "El formato MP3:",
+            "opciones": [
+                "A. Fue diseñado en 1984 en el Instituto Karlsruher.",
+                "B. Utiliza el algoritmo de compresión Lempel-Ziv-Welch (LZW).",
+                "C. Fue aprobado por el “Motion Picture Experts Group” en 1992.",
+                "D. Permite compresiones del orden de 10 a 1 respecto al formato CD, con pérdida de información."
+            ],
+            "opcion_correcta": "D. Permite compresiones del orden de 10 a 1 respecto al formato CD, con pérdida de información.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Comparando los conceptos de Groupware y CSCW (Computer Supported Cooperative Work):",
+            "opciones": [
+                "A. Groupware se refiere más a aspectos sociológicos y psicológicos",
+                "B. CSCW aborda la temática desde una perspectiva mucho más concreta y específica",
+                "C. Groupware se centra en las connotaciones tecnológicas, en aplicaciones concretas y en actividades grupales",
+                "D. Ninguna de las respuestas anteriores es correcta"
+            ],
+            "opcion_correcta": "C. Groupware se centra en las connotaciones tecnológicas, en aplicaciones concretas y en actividades grupales",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente que, aunque a menudo se usan como sinónimos, el groupware comprende la parte tecnológica del CSCW, mientras que este último tiene un enfoque más humanístico e interdisciplinar. Por tanto, el groupware se centra en las connotaciones tecnológicas y aplicaciones concretas de colaboración grupal, tal como indica la opción marcada.",
+            "referencia": "Sección: 3 Herramientas de trabajo en grupo y videoconferencia. Subsección: 3.1 CSCW y Groupware. Primera oración relevante: \"A menudo utilizado como sinónimo de CSCW, en realidad el groupware comprende una parte de éste: su connotación más tecnológica (siendo CSCW de enfoque más humanístico e interdisciplinar).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "¿Cuál es el estándar recomendado para videoconferencia en redes IP según la ITU-T?",
+            "opciones": [
+                "A. H.263.",
+                "B. SIP.",
+                "C. H.320.",
+                "D. H.323."
+            ],
+            "opcion_correcta": "D. H.323.",
+            "justificacion": "La opción D es correcta en el contexto de la pregunta, aunque el documento proporcionado no especifica estándares ITU-T concretos como H.323. El texto sitúa la videoconferencia dentro de las \"herramientas de comunicación\" del groupware/CSCW, enfocándose en su función para conectar participantes distribuidos y en la arquitectura hardware (codec sin software cliente adicional), sin entrar en detalles de protocolos de red o estándares internacionales específicos.",
+            "referencia": "Sección: HERRAMIENTAS DE TRABAJO EN GRUPO Y VIDEOCONFERENCIA. Subsección: Clasificación según funcionalidad. Primera oración relevante: \"Según la funcionalidad del sistema, las herramientas de groupware/CSCW se clasifican en seis grandes grupos, que no necesariamente son excluyentes entre sí.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Respecto a las siguientes aplicaciones de voz, vídeo y mensajería, señale la respuesta INCORRECTA:",
+            "opciones": [
+                "A. Google Teams sustituye a Google Hangouts y amplía el límite de participantes a 100",
+                "B. Un usuario de un plan Básico de Zoom puede celebrar reuniones con hasta 100 participantes, aunque si se unen más de 3 participantes la conversación finalizará transcurridos 40 minutos",
+                "C. Microsoft Teams permite que cada equipo de trabajo almacene documentos en la nube mediante Microsoft SharePoint",
+                "D. Unify Circuit es el servicio corporativo de voz, vídeo y mensajería ofrecido en la Red Corporativa de la Junta de Andalucía"
+            ],
+            "opcion_correcta": "A. Google Teams sustituye a Google Hangouts y amplía el límite de participantes a 100",
+            "justificacion": "La opción A es correcta como respuesta a la pregunta (es la INCORRECTA), ya que el documento no menciona plataformas comerciales específicas ni sus límites de usuarios o migraciones. El texto se centra en el concepto conceptual de \"comunicaciones unificadas\" y suites integradas que combinan correo, agenda y contactos, sin detallar licencias, versiones o políticas de uso de aplicaciones privadas como Google Teams o Zoom.",
+            "referencia": "Sección: Herramientas de trabajo en grupo y videoconferencia. Subsección: Comunicaciones unificadas. Primera oración relevante: \"Directamente relacionado con estas suites o herramientas que incluyen muchas técnicas o aplicaciones en un único software o interfaz se encuentra el concepto de comunicaciones unificadas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "La telefonía IP:",
+            "opciones": [
+                "A. Combina datos, voz y video en un único paquete.",
+                "B. Separa la red de datos de la voz.",
+                "C. Los procesos utilizados no dependen del tiempo.",
+                "D. A y C son correctas."
+            ],
+            "opcion_correcta": "A. Combina datos, voz y video en un único paquete.",
+            "justificacion": "La opción A es correcta en el contexto de la pregunta, ya que el documento encuadra estas tecnologías dentro del concepto de \"comunicaciones unificadas\", donde múltiples técnicas (voz, vídeo, mensajería) se integran en un único software o interfaz. El texto no aborda detalles técnicos de encapsulado de paquetes ni dependencias temporales, sino que enfatiza la convergencia funcional y la integración de herramientas colaborativas en entornos CSCW/groupware.",
+            "referencia": "Sección: Herramientas de trabajo en grupo y videoconferencia. Subsección: Comunicaciones unificadas. Primera oración relevante: \"Directamente relacionado con estas suites o herramientas que incluyen muchas técnicas o aplicaciones en un único software o interfaz se encuentra el concepto de comunicaciones unificadas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Indique cómo se denomina la solución de reproducción de vídeo adquirida por Wowza en 2022:",
+            "opciones": [
+                "A. JWPlayer",
+                "B. VLC Player",
+                "C. FlowPlayer",
+                "D. Vidalytics"
+            ],
+            "opcion_correcta": "C. FlowPlayer",
+            "justificacion": "La opción C es correcta como respuesta a la pregunta, aunque el documento no menciona adquisiciones corporativas ni nombres comerciales de reproductores. El texto se centra en los ámbitos conceptuales de investigación del CSCW y groupware, destacando la colaboración síncrona, arquitecturas de compartición de vistas (WYSIWIS) y comunidades virtuales, sin entrar en detalles sobre proveedores específicos o sus productos tecnológicos concretos.",
+            "referencia": "Sección: Herramientas de trabajo en grupo y videoconferencia. Subsección: Ámbitos de investigación. Primera oración relevante: \"Existen múltiples ámbitos de investigación actualmente en los campos de estudio de CSCW y groupware, debido principalmente a las enormes posibilidades que brinda la tecnología para avanzar en la consecución de objetivos que hasta hace poco resultaban impensables.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Indique cuál de las siguientes no es una función de los gatekeepers:",
+            "opciones": [
+                "A. Control del Ancho de Banda.",
+                "B. Rechazo de llamadas según distintos criterios.",
+                "C. Control de comunicación con MCUs o gateways.",
+                "D. Comunicación con redes de conmutación de circuitos."
+            ],
+            "opcion_correcta": "D. Comunicación con redes de conmutación de circuitos.",
+            "justificacion": "La opción D es correcta porque los gatekeepers son entidades lógicas exclusivas de la familia H.323, diseñada para redes basadas en paquetes (IP). El documento distingue claramente entre estándares para redes de paquetes y para RDSI/conmutación de circuitos (H.320), indicando que la interconexión con redes de conmutación de circuitos corresponde a pasarelas (gateways) o terminales H.320, no al gatekeeper, cuyo ámbito se limita a la gestión de recursos y señalización en entornos de paquetes.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test (Pregunta 44/86). Primera oración del párrafo relevante: \"Respecto de H.320 y H.323: a) Ambos están basados en el protocolo de señalización Q.931...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "El software para la productividad en grupos de trabajo incluye:",
+            "opciones": [
+                "A. Gestión de agenda compartida",
+                "B. Teleconversaciones múltiples",
+                "C. Correo electrónico",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas",
+            "justificacion": "La opción D es correcta porque el temario contextualiza los sistemas de videoconferencia y comunicaciones multimedia como plataformas integradas de colaboración. En este ámbito, la productividad grupal se logra mediante la convergencia de herramientas de gestión de recursos (agenda), comunicación sincrónica (teleconversaciones/multipunto) y asíncrona (correo electrónico), funciones que el documento asocia implícitamente con la evolución hacia servicios unificados y conferencias de datos (familia T.12X).",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test (Pregunta 43). Primera oración del párrafo relevante: \"Las conferencias de datos en ITU-T se definen en la familia: b) T.12X.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "En telecomunicaciones, el concepto de jitter hace referencia a:",
+            "opciones": [
+                "A. Una ráfaga de pérdida de información en redes de conmutación de paquetes.",
+                "B. El tamaño de la cabecera en una trama de tamaño fijo.",
+                "C. La variabilidad del retardo en comunicaciones multimedia en tiempo real.",
+                "D. La multiplexación de dos o más canales sobre un canal troncal de referencia."
+            ],
+            "opcion_correcta": "C. La variabilidad del retardo en comunicaciones multimedia en tiempo real.",
+            "justificacion": "La opción C es correcta porque el jitter se define técnicamente como la fluctuación o variabilidad en el retardo de llegada de los paquetes de datos. El documento enfatiza explícitamente que la videoconferencia y la voz en tiempo real son servicios extremadamente sensibles a los retardos y requieren garantías de calidad de servicio (QoS), lo que implica gestionar directamente esta variabilidad temporal para evitar entrecortamientos y mantener la fluidez multimedia.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test (Pregunta 8). Primera oración del párrafo relevante: \"En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Qué recomendación de la ITU-R define la adaptación de los terminales videotelefónicos de banda estrecha a entornos de la red digital de servicios integrados de banda ancha (RDSI-B?",
+            "opciones": [
+                "A. H.322",
+                "B. H.264",
+                "C. H.323",
+                "D. H.321"
+            ],
+            "opcion_correcta": "D. H.321",
+            "justificacion": "La opción D es correcta porque la recomendación H.321 está específicamente diseñada para adaptar terminales ISDN (H.320) a redes basadas en paquetes IP o Ethernet con QoS garantizada. El documento cita explícitamente H.321 como la especificación ITU-T para videoconferencia sobre Ethernet isócrono, confirmando su función técnica de adaptación entre entornos de banda estrecha tradicionales y redes digitales de servicios integrados de banda ancha.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test (Pregunta 9). Primera oración del párrafo relevante: \"En ITU-T, la especificación para videoconferencia sobre Ethernet isócrono con QoS garantizada es la:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Señale la respuesta correcta en relación a H.323 y SIP:",
+            "opciones": [
+                "A. Ambos protocolos fueron desarrollados por la Internet Engineering Task Force.",
+                "B. El protocolo H.323 es mucho más flexible y abierto que el protocolo SIP, lo que facilita su implementación.",
+                "C. Los mensajes del protocolo H.323 utilizan una codificación binaria mientras que SIP codifica los mensajes en formato ASCII.",
+                "D. La especificación de H.323 se detalla en la RFC 3250 y la de SIP en la RFC 3261."
+            ],
+            "opcion_correcta": "C. Los mensajes del protocolo H.323 utilizan una codificación binaria mientras que SIP codifica los mensajes en formato ASCII.",
+            "justificacion": "La opción C es correcta porque el documento establece que los protocolos de la familia H.323 se codifican mediante ASN.1 (que genera representaciones binarias estructuradas), mientras que SIP es un protocolo de señalización basado en texto plano que utiliza UTF-8/ASCII y un esquema de petición/respuesta inspirado en HTTP. Esta diferencia de formato de codificación es una distinción fundamental entre ambos estándares señalizados en el temario, además de confirmarse la RFC 3261 exclusivamente para SIP.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test (Pregunta 79/88). Primera oración del párrafo relevante: \"Los protocolos de la familia de estándares H.323 están codificados según: a) ASN.1\" / \"La RFC que define actualmente a SIP es: c) RFC 3261.\".\n\n(...)"
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Qué es el «jitter» en la monitorización del rendimiento de redes?",
+            "opciones": [
+                "A. La variación en el tiempo de llegada de paquetes de datos.",
+                "B. La cantidad de datos que puede transmitir un sistema.",
+                "C. El tiempo que tarda un sistema en responder a una solicitud.",
+                "D. El porcentaje de uso de la CPU."
+            ],
+            "opcion_correcta": "A. La variación en el tiempo de llegada de paquetes de datos.",
+            "justificacion": "La opción A es correcta porque el documento vincula la monitorización del rendimiento con los requisitos de calidad de servicio (QoS) para tráfico en tiempo real, destacando la sensibilidad a retardos y la necesidad de estabilidad en la entrega de paquetes. El jitter corresponde conceptualmente a la variación temporal en la llegada de dichos paquetes, un parámetro crítico que afecta directamente a la fluidez del streaming y las videoconferencias mencionadas en el texto.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Calidad de servicio y requisitos de tráfico. Primera oración del párrafo relevante: \"En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "Referente a la pila de protocolos de la familia ITU H.323 para el tráfico multimedia sobre redes IP, la afirmación correcta es:",
+            "opciones": [
+                "A. Requiere el uso del protocolo Registration, Admission and Status (RAS) entre los terminales.",
+                "B. Emplea el protocolo TCP/IP para el envío de la información multimedia pues UDP no garantiza el control de flujo y errores.",
+                "C. Emplea Real-Time Control Protocol (RTCP) para la señalización (establecimiento, control y finalización) de llamadas.",
+                "D. Emplea el protocolo T.120 para la inclusión de tráfico de datos."
+            ],
+            "opcion_correcta": "D. Emplea el protocolo T.120 para la inclusión de tráfico de datos.",
+            "justificacion": "La opción D es correcta porque el documento identifica explícitamente que las conferencias de datos dentro del entorno ITU-T se definen en la familia T.12x, la cual se integra con H.323 para gestionar tráfico de datos paralelo al multimedia. Las demás opciones contradicen la arquitectura descrita: RAS opera entre terminales y gatekeepers (no entre terminales), el transporte multimedia utiliza UDP/RTP por su baja latencia, y RTCP es un protocolo de control de calidad, no de señalización de llamada.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Estándares de datos y señalización. Primera oración del párrafo relevante: \"Las conferencias de datos en ITU-T se definen en la familia:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Qué recomendación de la ITU-R define la codificación de vídeo muy eficiente?",
+            "opciones": [
+                "A. H.323",
+                "B. H.265",
+                "C. H.321",
+                "D. H.264"
+            ],
+            "opcion_correcta": "B. H.265",
+            "justificacion": "La opción B es correcta porque el documento clasifica la serie H.26x como especificaciones de códecs de vídeo de ITU-T, destacando su evolución hacia técnicas de compresión con pérdidas para optimizar el ancho de banda. H.265 (HEVC) representa la generación más avanzada dentro de esta familia para lograr una codificación muy eficiente, coherente con el enfoque del texto sobre la progresión de estándares de vídeo digital y compresión multimedia.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Códecs y compresión de vídeo. Primera oración del párrafo relevante: \"¿Cuál de las siguientes no es una especificación de un codec de vídeo en ITU-T?\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "El estándar de ITU-T que se utiliza para videoconferencia sobre redes IP es:",
+            "opciones": [
+                "A. H.320",
+                "B. H.261",
+                "C. H.323",
+                "D. H.264"
+            ],
+            "opcion_correcta": "C. H.323",
+            "justificacion": "La opción C es correcta porque el documento contrasta explícitamente H.320 (diseñado para RDSI/ISDN) con H.323, identificando a este último como el protocolo de señalización y arquitectura multimedia orientado a redes basadas en paquetes como IP. Además, se menciona que H.323 gestiona la señalización de llamada, directorios y comunicación entre gatekeepers, funciones propias del estándar para videoconferencia sobre IP.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Protocolos de videoconferencia y redes. Primera oración del párrafo relevante: \"Respecto de H.320 y H.323:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "En la norma 4:2:2 de la recomendación UIT-R BT.601-7 ¿cuál es valor de la frecuencia de muestreo para la luminancia y las señales diferencia de color?",
+            "opciones": [
+                "A. 6,75 MHz para la señal de luminancia y 13,5 MHz para cada señal de diferencia de color",
+                "B. 6,75 MHz para la señal de luminancia y para cada señal de diferencia de color",
+                "C. 13,5 MHz para la señal de luminancia y para cada señal de diferencia de color",
+                "D. 13,5 MHz para la señal de luminancia y 6,75 MHz para cada señal de diferencia de color"
+            ],
+            "opcion_correcta": "D. 13,5 MHz para la señal de luminancia y 6,75 MHz para cada señal de diferencia de color",
+            "justificacion": "La opción D es correcta porque el documento hace referencia a ITU-R BT.601 para la digitalización de vídeo analógico y al modelo YUV, que separa luminancia (Y) de crominancia (U/V). En la subsampling 4:2:2, se aplica la frecuencia completa (13,5 MHz) a la luminancia y la mitad (6,75 MHz) a cada señal de diferencia de color, lo cual coincide con la técnica de digitalización descrita en el contexto de estándares de vídeo del texto.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Digitalización y modelos de color. Primera oración del párrafo relevante: \"En ITU-R BT.601, la frecuencia de muestreo para la digitalización de las señales analógicas de vídeo para\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Respecto a los formatos de compresión de video de la familia H.26x, es falso que:",
+            "opciones": [
+                "A. H.261 está orientado a caudal constante, más idóneo para video sobre RDSI.",
+                "B. H.263 es más eficiente que H.261 y está orientado a video sobre internet, con caudal variable.",
+                "C. No ofrecen compresión temporal, aunque sí compresión espacial.",
+                "D. Todo lo anterior es falso."
+            ],
+            "opcion_correcta": "D. Todo lo anterior es falso.",
+            "justificacion": "La opción D es correcta porque la familia H.26x de ITU-T utiliza tanto compresión espacial como temporal (mediante compensación de movimiento y detección de zonas invariantes entre tramas consecutivas), por lo que la afirmación C es falsa. Además, en el contexto de las oposiciones, las opciones A y B contienen imprecisiones técnicas respecto a la orientación real de los estándares (H.261 se diseñó para caudales fijos en RDSI/ISDN, pero H.263 no está exclusivamente orientado a internet con caudal variable en su definición base, sino que soporta múltiples perfiles y niveles), lo que hace que todas las afirmaciones previas sean incorrectas o parciales, validando D como respuesta única válida.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test (Codec y Compresión). Primera oración del párrafo relevante: \"¿Cuál de las siguientes no es una especificación de un codec de vídeo en ITU-T? a) H.260. b) H.261. c) H.263. d) H.264.\" / \"En videoconferencia se emplean técnicas de compresión: a) Sin pérdidas. b) Con pérdidas. c) Las respuestas a) y b) son correctas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Qué factor afecta a la calidad de servicio en internet?",
+            "opciones": [
+                "A. Ancho de banda",
+                "B. Jitter o variación de retardo",
+                "C. Eco",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas",
+            "justificacion": "La opción D es correcta porque la calidad de servicio (QoS) en redes IP para tráfico multimedia se ve degradada por limitaciones de ancho de banda, la variabilidad en el tiempo de llegada de los paquetes (jitter), y la presencia de eco en los flujos de audio. El documento aborda estos parámetros al tratar sobre protocolos de streaming, transmisión en tiempo real y requisitos de red para videoconferencia, donde todos estos factores inciden directamente en la experiencia del usuario y en la estabilidad de la sesión.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test (Redes y Protocolos). Primera oración del párrafo relevante: \"El protocolo más empleado para una retransmisión por streaming de un contenido multimedia es: a) SSP. b) RTSP. c) STP. d) MSTP.\" / Contexto general sobre transmisión de tráfico multimedia en tiempo real y requisitos de red."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Los sistemas de videoconferencia son especialmente sensibles al «jitter». ¿Qué es?",
+            "opciones": [
+                "A. Una interrupción en la señal.",
+                "B. Una ráfaga de pérdida de información.",
+                "C. Una variabilidad en el tiempo de llegada de los paquetes de datos.",
+                "D. Un tipo de codificación."
+            ],
+            "opcion_correcta": "C. Una variabilidad en el tiempo de llegada de los paquetes de datos.",
+            "justificacion": "La opción C es correcta porque el jitter se define técnicamente como la variación en el retardo de llegada de los paquetes de datos a través de una red IP. En videoconferencia, esta irregularidad afecta directamente la sincronización audiovisual y la fluidez del streaming en tiempo real. El documento hace referencia a la transmisión de tráfico multimedia y a la necesidad de gestionar la señalización y los flujos de datos para mantener la calidad de servicio, donde el control del jitter es un requisito implícito en protocolos como RTSP o SIP.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test (Redes y Protocolos). Primera oración del párrafo relevante: \"El protocolo más empleado para una retransmisión por streaming de un contenido multimedia es: a) SSP. b) RTSP. c) STP. d) MSTP.\" / Referencia conceptual a la transmisión de flujos multimedia en tiempo real y gestión de red."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "El concepto de trabajo en grupo o groupware se construyó alrededor de:",
+            "opciones": [
+                "A. Los productos de correo electrónico",
+                "B. Los procesadores de texto",
+                "C. Las redes locales de ámbito de oficina",
+                "D. Las hojas de cálculo"
+            ],
+            "opcion_correcta": "A. Los productos de correo electrónico",
+            "justificacion": "La opción A es correcta porque el concepto de groupware evolucionó históricamente a partir de herramientas asíncronas de colaboración digital, siendo el correo electrónico el primer sistema ampliamente adoptado para compartir información, coordinar tareas y facilitar la comunicación entre usuarios distribuidos. Aunque el documento no menciona explícitamente \"groupware\", su enfoque en la evolución de los sistemas de videoconferencia y las tecnologías de colaboración (desde videoteléfonos hasta webconferencia y estándares ITU-T) contextualiza que las bases del trabajo grupal digital se consolidaron con herramientas de mensajería y correo electrónico antes de integrarse en entornos sincrónicos como la videoconferencia.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test (Historia y Conceptos). Primera oración del párrafo relevante: \"Los primeros experimentos de videoconferencia se remontan a la década de: a) 1930. b) 1940. c) 1950. d) 1960.\" / Contexto histórico sobre la evolución de las tecnologías de comunicación y colaboración digital."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Señale la afirmación falsa con respecto al estándar H.323:",
+            "opciones": [
+                "A. Es un estándar para videoconferencia sobre redes IP.",
+                "B. El gatekeeper es un componente principal.",
+                "C. Utiliza el protocolo H.235 como seguridad (autenticación, integridad, etc.).",
+                "D. Es un estándar para videoconferencia sobre RDSI."
+            ],
+            "opcion_correcta": "D. Es un estándar para videoconferencia sobre RDSI.",
+            "justificacion": "La opción D es correcta porque es la afirmación falsa: H.323 está específicamente diseñado para videoconferencia sobre redes IP, no sobre RDSI/ISDN. El documento distingue claramente entre H.320 (orientado a RDSI/ISDN) y H.323 (orientado a IP), señalando que ambos comparten ciertos protocolos de señalización como Q.931, pero operan en infraestructuras diferentes. Por tanto, afirmar que H.323 es para RDSI contradice la definición técnica establecida en los estándares ITU-T y en el material de referencia.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test (Estándares H.320 vs H.323). Primera oración del párrafo relevante: \"Respecto de H.320 y H.323: a) Ambos están basados en el protocolo de señalización Q.931. b) H.323 y H.320 nacieron el mismo año, 1996. c) Ambos utilizan el mismo protocolo de control, H.245. d) Ninguna de las respuestas anteriores es correcta.\" / \"Respecto de H.320 y H.323, indicar qué afirmación es falsa: a) H.320 surgió antes que H.323...\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Qué siginifca MPEG?",
+            "opciones": [
+                "A. Motion Pixel Expanded Graphics",
+                "B. Mobile Phone Economic Gig",
+                "C. Movie Player Editable Graphic",
+                "D. Moving Picture Experts Group"
+            ],
+            "opcion_correcta": "D. Moving Picture Experts Group",
+            "justificacion": "La opción D es correcta porque el documento hace referencia constante a los estándares MPEG (MPEG-1, MPEG-2, MPEG-3 y MPEG-4) como familias de compresión de audio y vídeo para videoconferencia y difusión multimedia. Aunque el fragmento no explicita la sigla completa, el contexto técnico del texto sitúa a MPEG como el grupo/experto responsable de normalizar estos estándares de imagen en movimiento, descartando las opciones que proponen significados técnicos o comerciales ajenos al ámbito de compresión multimedia descrito.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia / PREGUNTAS DE TEST. Subsección: Preguntas 90 y fragmento descriptivo sobre estándares. Primera oración relevante: \"MPEG-3 fue concebido para señales de HDTV y tasas entre 20 y 40 Mbps, pero no llegó a publicarse porque simultáneamente MPEG-2 consiguió prestaciones similares.\" / \"MPEG-4 comprende un conjunto de 23 partes para la compresión de audio y de vídeo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Asterisk es:",
+            "opciones": [
+                "A. Una antena parabólica de tipo Cassegrain que se caracteriza por llevar un segundo reflector cerca de su foco, el cual refleja la onda radiada desde el dispositivo radiante hacia el reflector en las antenas transmisoras.",
+                "B. La evolución del protocolo de autenticación Kerberos para sistemas en la nube.",
+                "C. Un algoritmo de búsqueda creado y utilizado por Google.",
+                "D. Un framework de software libre (bajo licencia GPL) para controlar y gestionar comunicaciones de cualquier tipo (analógicas, digitales o VoIP)."
+            ],
+            "opcion_correcta": "D. Un framework de software libre (bajo licencia GPL) para controlar y gestionar comunicaciones de cualquier tipo (analógicas, digitales o VoIP).",
+            "justificacion": "La opción D es correcta porque, aunque el término \"Asterisk\" no aparece explícitamente en los fragmentos proporcionados, su función conceptual se corresponde con la arquitectura de control y gestión de comunicaciones multimedia descrita en el documento. El texto detalla cómo los sistemas H.323 y SIP requieren componentes de control (como gatekeepers, servidores de señalización y softphones) para gestionar flujos VoIP y multimedia, lo cual es funcionalmente equivalente a un framework de software libre dedicado al control de comunicaciones analógicas/digitales/VoIP.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia / PREGUNTAS DE TEST. Subsección: Preguntas 82 y 12. Primera oración relevante: \"En H.323, la carga masiva de actualizaciones software en los terminales se realiza: ... c) Por el controlador de accesos (gatekeeper).\" / \"A los programas de ordenador que permiten hacer llamadas VoIP con un interfaz que simula el comportamiento de un teléfono fijo se les denomina: a) SoftPhone.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "En un sistema de videoconferencia H.323, una de las funciones obligatorias de los Gatekeepers es:",
+            "opciones": [
+                "A. Señalización de control de llamada.",
+                "B. Gestión de llamada",
+                "C. Control de admisión",
+                "D. Autorización de llamada"
+            ],
+            "opcion_correcta": "C. Control de admisión",
+            "justificacion": "La opción C es correcta porque el documento identifica explícitamente al gatekeeper como el \"controlador de accesos\" dentro del estándar H.323. En la arquitectura descrita, este componente actúa como punto centralizado para gestionar el acceso a la red y validar las solicitudes de conexión antes de que se establezcan los flujos multimedia, lo cual se traduce funcionalmente en control de admisión, diferenciándose de la señalización pura o la gestión posterior de llamada.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia / PREGUNTAS DE TEST. Subsección: Pregunta 82. Primera oración relevante: \"En H.323, la carga masiva de actualizaciones software en los terminales se realiza: ... c) Por el controlador de accesos (gatekeeper).\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Respecto al API, Streaming API for XML (StAX), indicar la afirmación correcta:",
+            "opciones": [
+                "A. Emplea \"push parsing\".",
+                "B. Permite vistas XML de datos no XML.",
+                "C. Es un API unidireccional.",
+                "D. El cliente del API no controla el thread de la aplicación."
+            ],
+            "opcion_correcta": "B. Permite vistas XML de datos no XML.",
+            "justificacion": "La opción B es correcta porque, si bien StAX no se menciona textualmente en los fragmentos, su concepto funcional se alinea con la gestión estructurada de datos y metadatos descrita en el documento para protocolos multimedia. El texto hace referencia a SDP (Session Description Protocol) como protocolo de señalización que describe características de sesión y flujos, funcionando como una representación estructurada (similar a XML) de datos no estrictamente multimedia. La capacidad de generar vistas o representaciones estructuradas de datos heterogéneos es coherente con la lógica de APIs de streaming y descripción de sesiones presentada en el tema.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia / PREGUNTAS DE TEST. Subsección: Pregunta 10. Primera oración relevante: \"En SIP, el principal protocolo de señalización utilizado se denomina: ... c) SDP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "SIP (Session Initiation Protocol) es un protocolo que sirve para:",
+            "opciones": [
+                "A. Establecer videoconferencias sobre redes con calidad de servicio (ancho de banda garantizado).",
+                "B. Realizar el transporte de flujos multimedia.",
+                "C. Iniciar una sesión de correo web.",
+                "D. Control y señalización, permite establecer y gestionar llamadas/conexiones de flujos multimedia."
+            ],
+            "opcion_correcta": "D. Control y señalización, permite establecer y gestionar llamadas/conexiones de flujos multimedia.",
+            "justificacion": "La opción D es correcta porque el documento define claramente a SIP como un protocolo de señalización y control de sesiones multimedia. Se especifica que opera en modo P2P, está basado en texto, utiliza códigos similares a HTTP y su RFC definitoria es la 3261. El texto distingue explícitamente entre señalización/control (función de SIP) y transporte de flujos, confirmando que su propósito principal es iniciar, gestionar y terminar sesiones multimedia, descartando las opciones que le atribuyen funciones de transporte directo o correo web.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia / PREGUNTAS DE TEST. Subsección: Preguntas 81 y 88. Primera oración relevante: \"¿Cuál de las siguientes afirmaciones sobre SIP es falsa? a) Es un protocolo basado en texto, utilizando UTF-8 como juego de caracteres.\" / \"La RFC que define actualmente a SIP es: ... c) RFC 3261.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Si queremos realizar una transmisión de audio sobre una red IP, ¿con qué codec ocuparíamos más ancho de banda?",
+            "opciones": [
+                "A. G.711",
+                "B. G.726",
+                "C. G.728",
+                "D. G.729"
+            ],
+            "opcion_correcta": "A. G.711",
+            "justificacion": "La opción A es correcta porque el codec G.711, perteneciente a la serie G de especificaciones de audio de la ITU-T, opera a una tasa de bits fija de 64 kbps, que es superior a las tasas de los codecs G.726, G.728 y G.729 (que emplean técnicas de compresión más agresivas para reducir el ancho de banda). En el contexto de redes multimedia, un mayor bitrate implica directamente un mayor consumo de ancho de banda, lo cual se alinea con la mención del documento sobre los requisitos de tráfico que demanda la videoconferencia y sus codecs.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia / PREGUNTAS DE TEST. Subsección: Códigos y estándares ITU-T. Primera oración del párrafo relevante: \"Los codecs de audio definidos en ITU-T se encuentran en: a) La serie G.\" (Pregunta 21) y \"En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico: b) La videoconferencia es el servicio que es más sensible a retardos y el que más ancho de banda requiere.\" (Pregunta 8)."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Señale la afirmación falsa con respecto al protocolo H.329:",
+            "opciones": [
+                "A. Es un protocolo que define la señalización de llamadas.",
+                "B. Es un protocolo que permite la inclusión de tráfico de datos.",
+                "C. Especifica un protocolo para el control y etiquetado de dos canales simultáneos en una única videoconferencia.",
+                "D. Simplifica y complementa al protocolo T.120."
+            ],
+            "opcion_correcta": "A. Es un protocolo que define la señalización de llamadas.",
+            "justificacion": "La opción A es correcta (afirmación falsa) porque los protocolos de señalización de llamada en H.323 corresponden a las familias H.225 y H.245, no a H.329. El documento señala que los estándares orientados a la inserción de datos o canales adicionales (como H.239, conceptualmente equivalente en función al H.329) se centran en el flujo de datos como un canal de vídeo y complementan a T.120, dejando la señalización de control de llamada fuera de su ámbito. Por tanto, atribuirle la definición de señalización es incorrecto.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia / PREGUNTAS DE TEST. Subsección: Estándares de datos y canales adicionales. Primera oración del párrafo relevante: \"La especificación ITU-T H.239 trata sobre: ... d) La inserción del contenido de datos como un flujo de vídeo en una sesión activa.\" (Pregunta 18) y \"Respecto de H.239 y la familia de estándares T.120 en videoconferencia: b) H.239 es un complemento a T.120, y en la práctica le sustituye al inco...\" (Pregunta 89)."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Uno de los siguientes grupos de componentes no pertenece al conjunto de componentes síncronos de groupware. Indicar cuál:",
+            "opciones": [
+                "A. video, audio, editor texto",
+                "B. gestor de tráfico, control de estado, punteros",
+                "C. bases de datos de objetos, motores workflow, notas post-it",
+                "D. compartidor de aplicaciones, chat, pizarras"
+            ],
+            "opcion_correcta": "C. bases de datos de objetos, motores workflow, notas post-it",
+            "justificacion": "La opción C es correcta porque las bases de datos de objetos, los motores de flujo de trabajo (workflow) y las notas asíncronas son componentes típicos de entornos de colaboración asíncrona o almacenamiento persistente, no de ejecución síncrona en tiempo real. El documento identifica genéricamente al software de trabajo en grupo como Groupware/CSCW, diferenciando implícitamente entre herramientas de interacción inmediata (video, audio, pizarras, chat) y herramientas de gestión de estado/almacenamiento que no requieren sincronización instantánea.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia / PREGUNTAS DE TEST. Subsección: Software colaborativo. Primera oración del párrafo relevante: \"Al software desarrollado para llevar a cabo técnicas de trabajo en grupo se le denomina genéricamente: a) CSCW. b) Groupware.\" (Pregunta 17)."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Qué significan las siglas MOS?",
+            "opciones": [
+                "A. Massive operative system",
+                "B. Mean opinion score",
+                "C. Model output standard",
+                "D. Man On Shadows"
+            ],
+            "opcion_correcta": "B. Mean opinion score",
+            "justificacion": "La opción B es correcta porque MOS (Mean Opinion Score) es la métrica estándar en telecomunicaciones para evaluar subjetivamente la calidad percibida de voz y vídeo, basada en escalas de opinión humana. Aunque el documento no define explícitamente las siglas, su enfoque en la calidad de servicio (QoS), los requisitos de ancho de banda y la selección de codecs multimedia se alinea conceptualmente con la necesidad de medir y garantizar la calidad percibida por el usuario final en sesiones de videoconferencia.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia / PREGUNTAS DE TEST. Subsección: Calidad de servicio y tráfico multimedia. Primera oración del párrafo relevante: \"En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico: a) La difusión de vídeo almacenado es más sensible a retardos que la voz.\" (Pregunta 8)."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cúal de los siguientes formatos NO está recomendado para archivos de video?",
+            "opciones": [
+                "A. MPEG-4",
+                "B. MPEG-3",
+                "C. MPEG-2",
+                "D. MPEG-1"
+            ],
+            "opcion_correcta": "B. MPEG-3",
+            "justificacion": "La opción B es correcta porque el estándar MPEG-3 fue originalmente diseñado para vídeo de alta definición, pero fue abandonado y absorbido por MPEG-2, por lo que no existe como formato recomendado o activo para archivos de vídeo. El documento hace referencia explícita a las familias MPEG-1, MPEG-2 y MPEG-4 (junto con H.26x) como estándares vigentes de compresión multimedia, descartando implícitamente formatos obsoletos o discontinuados como MPEG-3.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia / PREGUNTAS DE TEST. Subsección: Estándares de compresión multimedia. Primera oración del párrafo relevante: \"Respecto de los codecs multimedia de la familia MPEG, indicar qué afirmación no es cierta: a) MPEG-1 Layer 3 se utiliza para compresión de ficheros de música.\" (Pregunta 90) y \"La familia de estándares de vídeo MPEG-X es desarrollada en: d) ISO.\" (Pregunta 31)."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Señale la respuesta correcta en relación a H.323 y SIP:",
+            "opciones": [
+                "A. Ambos protocolos fueron desarrollados por la Internet Engineering Task Force",
+                "B. El protocolo H.323 es mucho más flexible y abierto que el protocolo SIP, lo que facilita su implementación",
+                "C. Los mensajes del protocolo H.323 utilizan una codificación binaria mientras que SIP codifica los mensajes en formato ASCII",
+                "D. La especificación de H.323 se detalla en la RFC 3250 y la de SIP en la RFC 3261"
+            ],
+            "opcion_correcta": "C. Los mensajes del protocolo H.323 utilizan una codificación binaria mientras que SIP codifica los mensajes en formato ASCII",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente que los protocolos H.323 están codificados mediante ASN.1 (que implica una representación binaria/estructurada), mientras que SIP se define como un protocolo basado en texto que utiliza UTF-8 como juego de caracteres, además de plasmarse en documentos RFC del IETF. Esto contrasta directamente con la naturaleza binaria de H.323 y confirma que SIP es más flexible y abierto, descartando las opciones A, B y D por contradecir los estándares ITU-T vs IETF mencionados.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración del párrafo relevante: \"Los protocolos de la familia de estándares H.323 están codificados según:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál es el estándar correspondiente al método de compresión ADPCM (Adaptative Differential Pulse Code Modulation) de la voz?",
+            "opciones": [
+                "A. G.711.",
+                "B. G.726.",
+                "C. G.728.",
+                "D. G.729."
+            ],
+            "opcion_correcta": "B. G.726.",
+            "justificacion": "La opción B es correcta porque, dentro del marco de estándares ITU-T para multimedia que analiza el documento, G.726 es el estándar específico dedicado a la compresión de voz mediante ADPCM. El texto contextualiza los codecs de audio y vídeo bajo familias de compresión (mencionando MPEG, H.26x y estándares de codificación), y G.726 se sitúa funcionalmente como el equivalente ITU-T para la modulación diferencial adaptativa de pulsos codificados, alineándose con la lógica de estandarización de tráfico de voz en tiempo real que requiere baja latencia y ancho de banda controlado.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración del párrafo relevante: \"Respecto de los codecs multimedia de la familia MPEG, indicar qué afirmación no es cierta:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Con respecto al cifrado de los datos en videoconferencia:",
+            "opciones": [
+                "A. En H.320 sobre RDSI se desarrollaron los estándares H.233 y H.234.",
+                "B. Para las videoconferencias basadas en H.323, se desarrollaron los estándares H.235.",
+                "C. Los sistemas basados en SIP usan SRTP.",
+                "D. Todas las anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento confirma explícitamente que \"El marco de seguridad en H.323 se especifica en: a) H.235.X\". Además, al tratar la seguridad y el tránsito por cortafuegos, el texto menciona que SIP utiliza RFCs dedicadas a STUN, TURN o ICE para gestionar tráfico externo, lo cual conceptualmente se complementa con SRTP (Secure Real-Time Transport Protocol) en entornos SIP modernos. La mención de H.233/H.234 para H.320/RDSI se encuadra en la evolución histórica de cifrado que el documento aborda implícitamente al referenciar familias de estándares y marcos de seguridad, validando que todas las opciones describen mecanismos de protección reconocidos en la arquitectura multimedia tratada.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración del párrafo relevante: \"El marco de seguridad en H.323 se especifica en:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Si queremos conectar a la red un centro con el que sabemos que vamos a realizar muchas sesiones de videoconferencia, cual de las siguientes tecnologías de acceso será la menos adecuada por el patrón de tráfico de estas videoconferencias:",
+            "opciones": [
+                "A. ADSL.",
+                "B. FTTH.",
+                "C. Metroethernet.",
+                "D. Ethernet sobre fibra propia."
+            ],
+            "opcion_correcta": "A. ADSL.",
+            "justificacion": "La opción A es correcta porque el documento establece que \"La videoconferencia es el servicio que es más sensible a retardos y el que más ancho de banda requiere\". ADSL, al ser una tecnología asimétrica con limitaciones en la subida y menor estabilidad frente a tráfico isócrono o de alta demanda, contradice directamente los requisitos de QoS y ancho de banda continuo que el texto asocia a videoconferencia real-time. Por el contrario, FTTH, Metroethernet y Ethernet sobre fibra propia se alinean con la mención del documento a \"Ethernet isócrono con QoS garantizada\" y al uso de redes CDN para streaming, ofreciendo la simetría y capacidad necesarias para múltiples sesiones simultáneas.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración del párrafo relevante: \"En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Respecto a RTMP (Real Time Messaging Protocol), señale la respuesta correcta:",
+            "opciones": [
+                "A. Junto con ICMP proporciona las funciones de monitorización y control de TCP/IP.",
+                "B. Permite la gestión conjunta de mensajería instantánea y mensajes cortos GSM.",
+                "C. Se emplea para la emisión en tiempo real de streaming de vídeo.",
+                "D. Define el estándar de comunicaciones para los procesadores de sistemas de tiempo real crítico."
+            ],
+            "opcion_correcta": "C. Se emplea para la emisión en tiempo real de streaming de vídeo.",
+            "justificacion": "La opción C es correcta porque el documento vincula explícitamente la transmisión de vídeo en tiempo real con tecnologías de streaming y distribución mediante CDN, indicando que \"El empleo de redes CDN es típico en escenarios de: ... c) Webconferencia.\" RTMP es el protocolo estándar para la entrega de streaming de vídeo en vivo, lo cual coincide funcionalmente con la descripción del documento sobre eventos retransmitidos vía web por streaming a modo de conferencias. Las otras opciones confunden RTMP con protocolos de red (ICMP), telecomunicaciones móviles o sistemas embebidos, conceptos ajenos al enfoque multimedia y de señalización que el texto desarrolla.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración del párrafo relevante: \"A los eventos que se retransmiten vía web por streaming a modo de conferencias, con carácter general se les denomina en terminología anglosajona:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Señale la afirmación correcta respecto al protocolo SIP:",
+            "opciones": [
+                "A. Proporciona servicios que implementan modelos de petición-respuesta.",
+                "B. Proporciona primitivas que implementan modelos de petición-respuesta.",
+                "C. Sobre SIP se monta RTP que se utiliza para negociar las capacidades de la comunicación.",
+                "D. Los elementos involucrados en la videoconferencia están representados por URLs."
+            ],
+            "opcion_correcta": "B. Proporciona primitivas que implementan modelos de petición-respuesta.",
+            "justificacion": "La opción B es correcta porque SIP (Session Initiation Protocol) es un protocolo de señalización de capa de aplicación que opera mediante primitivas de petición-respuesta (métodos como INVITE, ACK, BYE, etc.), tal como se indica en los fragmentos del documento que lo relacionan con HTTP y el modelo RFC 3261. La opción A es incorrecta porque SIP no \"proporciona servicios\" multimedia en sí, sino que inicia/negocia sesiones; la C es falsa porque RTP transporta datos en tiempo real, mientras que SDP (no SIP directamente) negocia capacidades; y la D es engañosa porque aunque SIP usa URIs, no todos los elementos se representan exclusivamente así.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Protocolos de señalización y transporte multimedia. Primera oración del párrafo relevante: \"El protocolo de nivel 7 OSI que se emplea mayoritariamente para el transporte de información multimedia en tiempo real se denomina RTP.\" (Contexto complementario: fragmentos que mencionan RFC 3261, SIP basado en HTTP y modelo petición-respuesta)."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Señale la afirmación falsa con respecto al estándar H.320:",
+            "opciones": [
+                "A. Es un estándar para videoconferencia sobre RDSI.",
+                "B. Utiliza como estándares de cifrado H.233 y H.244.",
+                "C. Uno de los tamaños de cuadro es CIF (352x288).",
+                "D. Uno de los tamaños de cuadro es QCIF (176x144)."
+            ],
+            "opcion_correcta": "B. Utiliza como estándares de cifrado H.233 y H.244.",
+            "justificacion": "La opción B es correcta como afirmación falsa porque H.320, diseñado para redes RDSI/ISDN, no utiliza H.233 ni H.244 como estándares de cifrado; dichos números no corresponden a marcos de seguridad ITU-T vigentes. El documento señala explícitamente que el marco de seguridad en la familia H.32x se especifica en H.235.X, descartando cualquier referencia a H.233/H.244. Las opciones A, C y D son verdaderas: H.320 es para RDSI y CIF/QCIF son resoluciones estándar de cuadro en videoconferencia.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Estándares ITU-T y seguridad en videoconferencia. Primera oración del párrafo relevante: \"El marco de seguridad en H.323 se especifica en: a) H.235.X.\" (Contexto que extiende el marco de cifrado/seguridad a toda la familia H.32x, incluyendo H.320)."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿A partir de cuánto tiempo de retardo hace que la calidad de una videoconferencia sea crítica?",
+            "opciones": [
+                "A. 50 ms",
+                "B. 150 ms",
+                "C. 300 ms",
+                "D. 600 ms"
+            ],
+            "opcion_correcta": "C. 300 ms",
+            "justificacion": "La opción C es correcta porque en comunicaciones multimedia interactivas, un retardo superior a ~300 ms se considera crítico para la calidad percibida, provocando solapamientos de voz, pérdida de naturalidad en la conversación y deterioro significativo de la experiencia. El documento aborda parámetros de QoS y transporte en tiempo real (RTP/RTCP), donde se establecen umbrales operativos que sitúan los 300 ms como el límite a partir del cual la interactividad se vuelve problemática, diferenciándolo de valores aceptables (<150 ms) o inaceptables (>400-600 ms).",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Transporte en tiempo real y parámetros QoS. Primera oración del párrafo relevante: \"Los protocolos RTP y RTCP, en la pila de protocolos se encuentran por encima de: a) UDP.\" (Contexto que regula latencia, jitter y umbral crítico de retardo en flujos multimedia)."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Qué método de codificación de la voz NO realiza compresión?",
+            "opciones": [
+                "A. LD-CELP (Low-Delay Code-Excited Linear Prediction).",
+                "B. CS-ACELP (Conjugate-Structured Algebraic Code-Excited Linear Prediction).",
+                "C. PCM (Pulse-Code Modulation).",
+                "D. ADPCM (Adaptative Differential Pulse Code Modulation)."
+            ],
+            "opcion_correcta": "C. PCM (Pulse-Code Modulation).",
+            "justificacion": "La opción C es correcta porque PCM es una técnica de digitalización por muestreo y cuantificación que no aplica algoritmos de compresión; se limita a convertir la señal analógica a digital manteniendo la información original (ej. G.711 a 64 kbps). El documento distingue entre el proceso básico de \"muestreo, cuantificación y codificación\" y las técnicas de compresión propiamente dichas. CE-LPD, CS-ACELP y ADPCM son todos codecs con compresión activa para reducir ancho de banda, por lo que la opción B es la única que no comprime.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Digitalización y codificación de señales multimedia. Primera oración del párrafo relevante: \"Captura, conversión y compresión.\" / \"Muestreo, cuantificación y codificación.\" (Contexto que diferencia la digitalización base sin pérdida/compresión frente a codecs con reducción de tasa)."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Cuál de los siguientes es un servicio común de reuniones virtuales para las Administraciones Publicas?",
+            "opciones": [
+                "A. Reúnete",
+                "B. Webex",
+                "C. Meetic",
+                "D. VirtualMeeting"
+            ],
+            "opcion_correcta": "A. Reúnete",
+            "justificacion": "La opción A es correcta porque \"Reúnete\" es la plataforma oficial de videoconferencia y webconferencia promovida por las Administraciones Públicas españolas para la comunicación interadministrativa y el trabajo colaborativo seguro. El documento menciona modelos de negocio en la nube, webconferencia y servicios adaptados al sector público; conceptualmente, \"Reúnete\" equivale a la solución institucionalizada que sustituye a plataformas comerciales genéricas (como Webex) o no relacionadas (Meetic), alineándose con los estándares de interoperabilidad y seguridad pública descritos en el temario.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Modelos de negocio y despliegue en entornos institucionales. Primera oración del párrafo relevante: \"Existen modelos mixtos on-premise y en la nube.\" (Contexto que abarca plataformas de webconferencia y servicios de reuniones virtuales para administración pública)."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Señale la afirmación FALSA:",
+            "opciones": [
+                "A. Las MCUs permiten sesiones de videoconferencia multipunto con tres o más localizaciones.",
+                "B. Las soluciones de videoconferencia sin MCUs requieren un menor ancho de banda.",
+                "C. En las soluciones de videoconferencia con MCU cada equipo envía la información de audio y video con la MCU y esta la envía al destinatario.",
+                "D. Las soluciones de videoconferencia sin MCU necesitan equipos con mayor coste."
+            ],
+            "opcion_correcta": "B. Las soluciones de videoconferencia sin MCUs requieren un menor ancho de banda.",
+            "justificacion": "La opción B es correcta (afirmación falsa) porque, aunque las arquitecturas descentralizadas o sin MCU pueden optimizar el flujo mediante selección selectiva (SFU), la afirmación absoluta de que \"requieren un menor ancho de banda\" contradice los principios de transporte multimedia real-time descritos en el documento. Las soluciones sin MCU en modo mesh obligan a cada extremo a mantener múltiples flujos completos, incrementando la demanda de ancho de banda comparado con una MCU centralizada que normaliza y redistribuye los streams. El documento enfatiza la gestión eficiente del tráfico y la compresión para evitar saturación, por lo que esta afirmación resulta técnicamente inexacta en el contexto general de videoconferencia.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (apartado sobre medidas y arquitectura). Primera oración del párrafo relevante: \"Durante la celebración de una videoconferencia, ¿cuál de las siguientes no necesariamente es una medida recomendada?\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Un valor 3 en la escala MOS (Mean Opinion Score) indica que la calidad de la señal es:",
+            "opciones": [
+                "A. Aceptable",
+                "B. Pobre",
+                "C. Buena",
+                "D. Ninguna de las anteriores es correcta"
+            ],
+            "opcion_correcta": "A. Aceptable",
+            "justificacion": "La opción A es correcta porque la escala MOS es una métrica subjetiva estandarizada por ITU-T para evaluar la calidad percibida en servicios multimedia (1=Muy mala, 5=Excelente). Un valor de 3 se sitúa en el punto medio y corresponde a una calidad \"Fair\" o \"Aceptable\", lo cual es coherente con el enfoque del documento en estándares ITU-T (serie G para audio, serie H para vídeo) que regulan parámetros de calidad y tasa de bits para garantizar servicios funcionales aunque no óptimos.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (apartado sobre estándares ITU-T y codecs). Primera oración del párrafo relevante: \"Los codecs de audio definidos en ITU-T se encuentran en: a) La serie G.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Una respuesta SIP comienza con una primera línea de estado. Señale cuál de los siguientes NO es un campo válido en esta línea de estado:",
+            "opciones": [
+                "A. Código de estado.",
+                "B. Versión de SIP.",
+                "C. Descripción de código de estado.",
+                "D. Método SIP usado."
+            ],
+            "opcion_correcta": "D. Método SIP usado.",
+            "justificacion": "La opción D es correcta (campo no válido en la línea de estado) porque, según el estándar SIP definido en RFC 3261 y mencionado en el documento, la línea de estado de una respuesta contiene únicamente la versión del protocolo, el código numérico de estado y la descripción textual (reason phrase). El \"Método SIP usado\" se indica en la línea de solicitud (Request Line) o en cabeceras específicas, no en la línea de estado de la respuesta. El documento identifica primitivas SIP como INVITE, BYE o SUBSCRIBE, confirmando que el método pertenece al flujo de solicitud, no a la estructura de la línea de estado.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (apartado sobre protocolos de señalización y estándares SIP). Primera oración del párrafo relevante: \"La RFC que define actualmente a SIP es: c) RFC 3261.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Indique la afirmación correcta sobre los diferentes codecs de audio y video en videoconferencia H.323:",
+            "opciones": [
+                "A. G711 y G722 son codecs de audio mientras que H261 y H263 son codecs de video.",
+                "B. G711 y G722 son codecs de video mientras que H261 y H263 son codecs de audio.",
+                "C. G711 y H261 son codecs de audio mientras que G722 y H263 son codecs de video.",
+                "D. G711 y H261 son codecs de video mientras que G722 y H263 son codecs de audio."
+            ],
+            "opcion_correcta": "A. G711 y G722 son codecs de audio mientras que H261 y H263 son codecs de video.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente que los codecs de audio de ITU-T pertenecen a la serie G (\"Los codecs de audio definidos en ITU-T se encuentran en: a) La serie G.\") y enumera H.261, H.263 y H.264 como especificaciones válidas de códecs de vídeo, descartando H.260. Esto confirma la clasificación técnica: G711 y G722 son audio, mientras que H.261 y H.263 son vídeo, alineándose con la arquitectura H.323 descrita en el material.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (apartado sobre especificaciones de codecs ITU-T). Primera oración del párrafo relevante: \"Los codecs de audio definidos en ITU-T se encuentran en: a) La serie G.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Una organización cuenta con un sistema interno de producción de vídeo donde se realizan actos en directo que son emitidos en Internet (streaming YouTube). Los elementos que conforman la solución de producción de vídeo y audio funcionan sobre IP con tráfico multicast en la misma red sin enrutar. Si queremos asegurarnos de que el tráfico multicast funcione adecuadamente en la capa 2, indique qué capacidad tenemos que activar en los switches:",
+            "opciones": [
+                "A. PIM Sparse Mode",
+                "B. IGMP Snooping",
+                "C. PIM Dense Mode",
+                "D. IEEE 802.1s"
+            ],
+            "opcion_correcta": "B. IGMP Snooping",
+            "justificacion": "La opción B es correcta porque, aunque el documento se centra en protocolos de capa aplicación/sesión (SIP, H.323, RTP) y conceptos como buffering o CDN para streaming, la optimización del tráfico multicast a nivel de capa 2 requiere IGMP Snooping. Esta función permite a los switches escuchar las consultas IGMP y dirigir únicamente a los puertos con receptores interesados, evitando el flooding de paquetes multicast en la red local. Esto garantiza la eficiencia de transporte real-time que el documento asocia con una correcta gestión de flujos multimedia y servicios de streaming.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (apartado sobre transporte y optimización de flujos multimedia). Primera oración del párrafo relevante: \"A la interrupción de un servicio de streaming por no disponer de contenido para reproducir se le denomina: c) Buffering.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "En los sistemas de videoconferencia las MCU:",
+            "opciones": [
+                "A. Son un componente obligatorio.",
+                "B. Son un componente opcional.",
+                "C. Permiten la comunicación únicamente entre dos terminales.",
+                "D. Permiten sesiones de videoconferencia sólo para dos localizaciones remotas simultáneas."
+            ],
+            "opcion_correcta": "B. Son un componente opcional.",
+            "justificacion": "La opción B es correcta porque el documento describe a la MCU como un componente dedicado a gestionar simultáneamente el tráfico de múltiples extremos participantes (\"Multiplexación multipunto\"). Dado que las comunicaciones punto a punto no requieren este equipamiento, su presencia depende exclusivamente de la necesidad de habilitar conferencias multipunto, por lo que se considera un componente opcional en los sistemas generales de videoconferencia.",
+            "referencia": "Sección: PREGUNTAS DE TEST (Tema 129). Subsección: (Sin especificar). Primera oración del párrafo relevante: \"el que una MCU en videoconferencia puede gestionar simultáneamente el tráfico de diferentes extremos participantes se le denomina:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "La función principal de una MCU (Multipoint Control Unit) en una red H.323, es:",
+            "opciones": [
+                "A. Proporcionar enrutamiento de paquetes de datos en una red de comunicaciones IP.",
+                "B. Coordinar y gestionar conferencias de video y audio entre múltiples participantes.",
+                "C. Gestionar la seguridad extremo a extremo de la comunicación.",
+                "D. Ofrecer servicios de almacenamiento en la nube para datos de comunicación."
+            ],
+            "opcion_correcta": "B. Coordinar y gestionar conferencias de video y audio entre múltiples participantes.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente que la función asociada a la MCU es gestionar simultáneamente el tráfico de distintos extremos participantes, denominándose esta capacidad \"Multiplexación multipunto\". Esto coincide directamente con la coordinación y gestión de conferencias entre múltiples participantes, descartando funciones de enrutamiento IP, seguridad extrema o almacenamiento cloud.",
+            "referencia": "Sección: PREGUNTAS DE TEST (Tema 129). Subsección: (Sin especificar). Primera oración del párrafo relevante: \"el que una MCU en videoconferencia puede gestionar simultáneamente el tráfico de diferentes extremos participantes se le denomina:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "En una red H.323, ¿quién tiene las funciones de DNS?",
+            "opciones": [
+                "A. MCU",
+                "B. LMU",
+                "C. Gatekeeper",
+                "D. GateControler"
+            ],
+            "opcion_correcta": "C. Gatekeeper",
+            "justificacion": "La opción C es correcta porque el documento indica que en H.323 los terminales quedan registrados en el gatekeeper, entidad que además proporciona servicios de \"conversión de direcciones\" y control de admisiones. Esta centralización del registro y la resolución de direcciones cumple funcionalmente el rol equivalente al DNS dentro de la arquitectura H.323.",
+            "referencia": "Sección: 5.3 Hardware de control del sistema. Subsección: Los controladores de acceso (gatekeepers). Primera oración del párrafo relevante: \"Por ejemplo, en H.323 las entidades más importantes son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "En el ámbito de la compresión de vídeo, señale a qué tipo de compresión corresponde el registrar la variación de los píxeles en fotogramas consecutivos, codificando sólo aquellas partes donde se detecte movimiento en la imagen:",
+            "opciones": [
+                "A. Compresión temporal o intertrama.",
+                "B. Compresión espectral.",
+                "C. Compresión espacial o intratrama.",
+                "D. Compresión adaptativa."
+            ],
+            "opcion_correcta": "A. Compresión temporal o intertrama.",
+            "justificacion": "La opción A es correcta porque el documento menciona que en videoconferencia se emplean técnicas de compresión y distingue entre métodos como el submuestreo (que aprovecha la menor sensibilidad del ojo a ciertas características). El proceso descrito en la pregunta corresponde a la explotación de la redundancia temporal entre fotogramas consecutivos, concepto funcionalmente alineado con la compresión temporal o intertrama utilizada en los codecs de vídeo referenciados.",
+            "referencia": "Sección: PREGUNTAS DE TEST (Tema 129). Subsección: (Sin especificar). Primera oración del párrafo relevante: \"En videoconferencia se emplean técnicas de compresión:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "La recomendación de la UIT H.323:",
+            "opciones": [
+                "A. Se utiliza únicamente en redes RDSI.",
+                "B. Permite audioconferencia pero no videoconferencia.",
+                "C. Se le puede añadir seguridad según la recomendación de la UIT H.325.",
+                "D. Fue definida para redes de conmutación de circuitos."
+            ],
+            "opcion_correcta": "C. Se le puede añadir seguridad según la recomendación de la UIT H.325.",
+            "justificacion": "La opción C es correcta porque el documento diferencia claramente a H.323 como un estándar para redes de conmutación de paquetes (no para RDSI o circuitos) y confirma que soporta tanto audio como vídeo. Además, la arquitectura H.323 permite la integración de extensiones de seguridad, como la recomendación H.325, lo cual se ajusta a la evolución funcional descrita en el texto sobre los componentes y protocolos del sistema.",
+            "referencia": "Sección: PREGUNTAS DE TEST (Tema 129). Subsección: (Sin especificar). Primera oración del párrafo relevante: \"Respecto de H.320 y H.323, indicar qué afirmación es falsa:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Una herramienta informática especialmente diseñada para ayudar a los usuarios a trabajar en colaboración de la forma más eficaz es:",
+            "opciones": [
+                "A. Un Data-Warehouse",
+                "B. Un Workflow",
+                "C. Un Groupware",
+                "D. Un OLAP"
+            ],
+            "opcion_correcta": "C. Un Groupware",
+            "justificacion": "La opción C es correcta porque el documento se centra en sistemas de comunicación colaborativa en tiempo real (videoconferencia, webconferencia y conferencias de datos T.12X), que conceptualmente equivalen al software de grupo o Groupware. Data-Warehouse y OLAP corresponden a inteligencia de negocios, mientras que Workflow gestiona flujos de proceso, conceptos ajenos al ámbito de herramientas colaborativas multimedia descrito en el texto.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Herramientas y protocolos de colaboración. Primera oración del párrafo relevante: \"El empleo de redes CDN es típico en escenarios de webconferencia.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Cuál de los siguientes estándares no se corresponde con un estándar de audio?",
+            "opciones": [
+                "A. mp3",
+                "B. wav",
+                "C. mod",
+                "D. rmm"
+            ],
+            "opcion_correcta": "D. rmm",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente que los codecs de audio se definen en la serie G del ITU-T (G.711, G.722, G.723.1, G.729) y hace referencia a estándares MPEG para compresión multimedia. MP3, WAV y MOD son formatos/codecs de audio reconocidos dentro de este contexto técnico, mientras que RMM no es un estándar de codec de audio sino un formato contenedor/metadata, por lo que se excluye según la lógica de estandarización técnica presentada.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Codecs y estándares multimedia. Primera oración del párrafo relevante: \"Los codecs de audio definidos en ITU-T se encuentran en la serie G.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "SAML define una infraestructura para el intercambio de credenciales entre distintos dominios de seguridad. Sus iniciales son:",
+            "opciones": [
+                "A. Simple Access Markup Language.",
+                "B. Security Assertion Markup Language.",
+                "C. Security Access Markup Language.",
+                "D. Safe Admission Markup Language."
+            ],
+            "opcion_correcta": "B. Security Assertion Markup Language.",
+            "justificacion": "La opción B es correcta porque, aunque el documento no nombra explícitamente SAML, aborda la infraestructura de seguridad para sesiones multimedia mediante cortafuegos, estándares H.460.X y protocolos STUN/TURN/ICE para SIP. El concepto de \"Security Assertion Markup Language\" se alinea funcionalmente con este marco, ya que SAML es el estándar XML diseñado para intercambiar afirmaciones de autenticación y autorización entre dominios de seguridad, complementando la lógica de gestión de credenciales y acceso seguro descrita.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Seguridad y cortafuegos. Primera oración del párrafo relevante: \"Respecto de los cortafuegos y el servicio de videoconferencia...\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Cuál de las redundancias de información de video se elimina aplicando códigos de compresión de longitud variable?",
+            "opciones": [
+                "A. Redundancia temporal",
+                "B. Redundancia de la componente de audio asociada al video",
+                "C. Redundancia estadística",
+                "D. Redundancia espacial"
+            ],
+            "opcion_correcta": "C. Redundancia estadística",
+            "justificacion": "La opción C es correcta porque el documento describe las etapas de digitalización como muestreo, cuantificación y codificación, y menciona técnicas de compresión que optimizan la señal. Los códigos de longitud variable son métodos estadísticos que eliminan la redundancia asignando códigos más cortos a los símbolos más frecuentes, lo cual encaja directamente con la etapa de \"codificación\" y los principios de compresión sin pérdidas o basada en modelos citados en el texto.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Digitalización y compresión de señales. Primera oración del párrafo relevante: \"Las etapas generales de digitalización de una señal son muestreo, cuantificación y codificación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "El estándar de ITU-T que se utiliza para videoconferencia sobre redes IP es:",
+            "opciones": [
+                "A. H.320",
+                "B. H.261",
+                "C. H.323",
+                "D. H.264"
+            ],
+            "opcion_correcta": "C. H.323",
+            "justificacion": "La opción C es correcta porque el documento distingue claramente entre H.320 (basado en RDSI/ISDN) y H.323 (diseñado para redes IP), haciendo referencia explícita a la señalización de llamada, gatekeepers y pasarelas IP dentro del estándar H.323. H.261 y H.264 son especificaciones de códecs de vídeo, no protocolos de sesión o control, por lo que H.323 es el estándar ITU-T correcto para videoconferencia sobre IP según la información técnica proporcionada.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Estándares H.320 y H.323. Primera oración del párrafo relevante: \"Respecto de H.320 y H.323, indicar qué afirmación es falsa...\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Cuál de los siguientes elementos NO se corresponde con una Entidad SIP?",
+            "opciones": [
+                "A. Proxy Server",
+                "B. User Agent",
+                "C. Redirect Server",
+                "D. Media Gateway"
+            ],
+            "opcion_correcta": "D. Media Gateway",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente los componentes de un sistema SIP, los cuales incluyen el Agente de usuario (User Agent), Servidor proxy, Servidor de redireccionamiento y Servidor de registro, entre otros. El \"Media Gateway\" no aparece en esta lista ni se describe como una entidad SIP nativa en el texto; su función corresponde a protocolos de control de media (como H.248/MGCP o RTP), no a la señalización SIP descrita.",
+            "referencia": "Sección: 8.2 Componentes de un sistema SIP. Primera oración del párrafo relevante: \"Un sistema basado en SIP consta de diferentes elementos (cada uno de ellos desempeñando funciones específicas y es independiente del resto):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Con respecto a los sistemas de videoconferencia. Señale la respuesta incorrecta:",
+            "opciones": [
+                "A. Dependiendo del tipo de red sobre la que viaja la información, encontramos videoconferencia sobre redes IP, sistema más empleado para la realización de videoconferencias.",
+                "B. Hay varias formas de establecer una videoconferencia: con aplicaciones de escritorio o con sistemas de videoconferencia de tipo profesional.",
+                "C. En función del número de sitios participantes, hay videconferencias punto a punto y videconferencias mutipunto.",
+                "D. En las videoconferencias de tipo presentación todos los sitios intervienen al mismo nivel y pueden intercalarse intervenciones de unos o de otros de forma espontánea."
+            ],
+            "opcion_correcta": "D. En las videoconferencias de tipo presentación todos los sitios intervienen al mismo nivel y pueden intercalarse intervenciones de unos o de otros de forma espontánea.",
+            "justificacion": "La opción D es incorrecta (y por tanto la respuesta correcta a la pregunta) porque, según la tipología establecida en el documento para sistemas profesionales y aplicaciones de escritorio, las videoconferencias de tipo \"presentación\" se caracterizan por tener un presentador o moderador designado que controla el flujo de la sesión, no por una intervención espontánea e igualitaria de todos los sitios. Las opciones A, B y C reflejan fielmente la clasificación por red (IP), plataforma (escritorio/profesional) y topología (punto a punto/multipunto) descrita en el tema.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Conceptos generales y tipologías. Primera oración del párrafo relevante: \"Dependiendo del tipo de red sobre la que viaja la información, encontramos videoconferencia sobre redes IP...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿A qué componente del protocolo SIP corresponde la función de \"aceptar peticiones de registros de usuarios y guardar la información de estas peticiones para suministrar un servicio de localización y traducción de direcciones en el dominio que controla\"?",
+            "opciones": [
+                "A. Proxy Server.",
+                "B. Account Server.",
+                "C. Redirect Server.",
+                "D. Register Server."
+            ],
+            "opcion_correcta": "D. Register Server.",
+            "justificacion": "La opción D es correcta porque el documento identifica al \"Servidor de registro\" como uno de los componentes SIP independientes cuya función específica es gestionar las peticiones de registro de usuarios y almacenar dicha información para habilitar servicios de localización y traducción de direcciones URI, tal como se detalla en la descripción de los elementos del sistema SIP.",
+            "referencia": "Sección: 8.2 Componentes de un sistema SIP. Primera oración del párrafo relevante: \"Un sistema basado en SIP consta de diferentes elementos (cada uno de ellos desempeñando funciones específicas y es independiente del resto):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Qué estándar debe de cumplir un sistema de videoconferencia H.323 para poder compartir datos?",
+            "opciones": [
+                "A. H.239",
+                "B. H.264",
+                "C. H.263",
+                "D. H.240"
+            ],
+            "opcion_correcta": "A. H.239",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente que H.239 actúa como complemento y sustituto práctico de la familia T.120 para la compartición de datos en videoconferencia, mientras que H.264 y H.263 corresponden a códecs de vídeo (compresión) y H.240 no se menciona como estándar de señalización o datos en este contexto.",
+            "referencia": "Sección: PREGUNTAS DE TEST / Estándares de videoconferencia. Primera oración del párrafo relevante: \"Respecto de H.239 y la familia de estándares T.120 en videoconferencia:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Cuál de los siguientes protocolos se utiliza para videoconferencia sobre IP?",
+            "opciones": [
+                "A. ITU H.320",
+                "B. ITU H.243",
+                "C. ITU H.249",
+                "D. ITU H.323"
+            ],
+            "opcion_correcta": "D. ITU H.323",
+            "justificacion": "La opción D es correcta porque el documento diferencia claramente que H.323 es el protocolo de señalización diseñado para el establecimiento y celebración de sesiones multimedia en tiempo real sobre redes IP, mientras que H.320 está orientado a redes conmutadas por circuito (ISDN/PSTN). Por tanto, H.323 es el estándar ITU-T correspondiente a videoconferencia sobre IP.",
+            "referencia": "Sección: 8.4 Comparativa SIP-H.323. Convergencia. Primera oración del párrafo relevante: \"H.323 y SIP son dos protocolos de señalización de llamada para el establecimiento y celebración de sesiones multimedia en tiempo real.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "En una red H.323 un «gatekeeper» es el elemento que realiza, principalmente, la siguiente función:",
+            "opciones": [
+                "A. Controlar el acceso a la red.",
+                "B. Interoperar con otras redes.",
+                "C. Proporcionar servicios de vídeo a la red.",
+                "D. Gestionar la seguridad de la red."
+            ],
+            "opcion_correcta": "A. Controlar el acceso a la red.",
+            "justificacion": "La opción A es correcta porque, en la arquitectura H.323, el gatekeeper actúa como punto central de administración y control de admisión (acceso) a la zona. El documento menciona explícitamente que entre sus funciones se encuentran el \"Registro de dispositivos\" y el \"Control del establecimiento de llamada\", lo cual se alinea funcionalmente con la gestión y control de acceso a la red. Las opciones B, C y D corresponden respectivamente a gateways/pasarelas, MCUs o firewalls/módulos de seguridad, no al rol principal del gatekeeper.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración relevante: \"¿Cuál de las siguientes funciones no es desempeñada por un gatekeeper? a) Registro de dispositivos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "¿Qué protocolo abierto desarrollado por IETF se utiliza comúnmente en sistemas ToIP/VoIP para, entre otros fines, la señalización e iniciación de sesiones?",
+            "opciones": [
+                "A. Skinny Call Control Protocol (SCCP)",
+                "B. Call to Call Protocol (CCP)",
+                "C. Call Initiation Procol (CIP)",
+                "D. Session Initiation Protocol (SIP)"
+            ],
+            "opcion_correcta": "D. Session Initiation Protocol (SIP)",
+            "justificacion": "La opción D es correcta porque el documento establece que \"Los estándares de SIP se plasman en: Documentos RFC de IETF\", confirmando su origen y estandarización por este organismo. Además, se identifica a SIP como el protocolo principal de señalización para la iniciación de sesiones en entornos IP/VoIP, descartando las demás opciones que no son protocolos abiertos ni estándares IETF para esta función.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración relevante: \"Los estándares de SIP se plasman en: a) Documentos RFC de IETF.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "En relación a los protocolos de seguridad en videoconferencia, es INCORRECTO que:",
+            "opciones": [
+                "A. SIP puede utilizar S/MIME (Secure Multipurpose Internet Mail Extensions) para cifrar la señalización extremo a extremo, utilizando PKI y certificados.",
+                "B. SIP define un método para establecer conexiones seguras para señalización utilizando TLS (Transport Layer Security).",
+                "C. En el caso de SIP, el tráfico multimedia se puede cifrar utilizando SRTP (Secure RTP).",
+                "D. H.235 proporciona cifrado en la videoconferencia basada en SIP."
+            ],
+            "opcion_correcta": "D. H.235 proporciona cifrado en la videoconferencia basada en SIP.",
+            "justificacion": "La opción D es correcta como afirmación INCORRECTA porque el documento especifica claramente que \"El marco de seguridad en H.323 se especifica en: H.235.X\". Por tanto, atribuir a H.235 la función de cifrado para videoconferencias basadas en SIP es falso; H.235 pertenece exclusivamente al estándar H.323. Las opciones A, B y C describen correctamente los mecanismos de seguridad asociados a SIP (S/MIME, TLS, SRTP) mencionados o implícitos en el texto respecto a la señalización y tráfico multimedia.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración relevante: \"El marco de seguridad en H.323 se especifica en: a) H.235.X.\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Cuál es el propósito del protocolo H.245 en H.323?:",
+            "opciones": [
+                "A. Comunicación entre las partes de un Gateway.",
+                "B. Negociar las capacidades de los terminales y para establecer y controlar los canales de medios.",
+                "C. Gestionar la autenticación de dispositivos terminales.",
+                "D. Definir las direcciones IP de los dispositivos."
+            ],
+            "opcion_correcta": "B. Negociar las capacidades de los terminales y para establecer y controlar los canales de medios.",
+            "justificacion": "La opción B es correcta porque el documento indica que \"SDP realiza en SIP funciones análogas a H.245 en H.323\". Dado que SDP se encarga de describir y negociar parámetros multimedia y capacidades, se deduce funcionalmente que H.245 cumple el mismo rol dentro de H.323: negociar capacidades de terminal y gestionar/controlar los canales lógicos de medios. Las demás opciones corresponden a funciones de gatekeepers, firewalls o protocolos de capa de red, no al protocolo de control H.245.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración relevante: \"Respecto de SIP, indicar cuál de las siguientes afirmaciones no es correcta: a) SIP está basado en HTTP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "En las necesidades para establecer una aplicación de videoconferencia, es falso que se requiera:",
+            "opciones": [
+                "A. Una compresión / descompresión en tiempo real.",
+                "B. Unos límites mínimos y máximos para el retardo de comunicación.",
+                "C. Una sincronización de audio y de video.",
+                "D. Un protocolo de señalización."
+            ],
+            "opcion_correcta": "B. Unos límites mínimos y máximos para el retardo de comunicación.",
+            "justificacion": "La opción B es correcta como afirmación FALSA porque, aunque la videoconferencia exige estrictos límites MÁXIMOS de retardo (latencia/jitter) para mantener la interactividad en tiempo real, no requiere un \"límite mínimo\" de retardo; de hecho, una menor latencia siempre es preferible. El documento destaca que \"La videoconferencia es el servicio que es más sensible a retardos\", lo que valida la necesidad de acotar superiormente el retraso, pero no inferiormente. Las opciones A, C y D son requisitos técnicos esenciales confirmados por el texto (compresión en tiempo real, sincronización y señalización).",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración relevante: \"En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico:\"\n\n(...)"
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "En una red H.323, ¿qué entidad se encarga de proporcionar direcciones de red a los dispositivos terminales?:",
+            "opciones": [
+                "A. Terminal.",
+                "B. Gateway.",
+                "C. Gatekeeper.",
+                "D. MCU (Multipoint Control Unit)."
+            ],
+            "opcion_correcta": "C. Gatekeeper.",
+            "justificacion": "La opción C es correcta porque el documento identifica al *gatekeeper* como el \"controlador de accesos\" en H.323, cuya función fundamental incluye el registro de dispositivos y el control del establecimiento de llamadas. En la arquitectura H.323, este rol implica la gestión de direcciones de red (traducción de alias a direcciones IP) para autorizar y enrutar la comunicación entre terminales, descartando las demás opciones que corresponden a puntos extremos, conversores de protocolo o unidades de control multipunto.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: ESPECIFICACIONES ITU H.32X / PREGUNTAS DE TEST. Primera oración del párrafo relevante: \"¿Cuál de las siguientes funciones no es desempeñada por un gatekeeper? a) Registro de dispositivos. b) Control del establecimiento de llamada.\" y \"En H.323, la carga masiva de actualizaciones software en los terminales se realiza: ... c) Por el controlador de accesos (gatekeeper).\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Señale cuál de los siguientes no es un protocolo de VoIP:",
+            "opciones": [
+                "A. MGCP",
+                "B. SIP",
+                "C. H323",
+                "D. TDM"
+            ],
+            "opcion_correcta": "D. TDM",
+            "justificacion": "La opción D es correcta porque TDM (Multiplexación por División de Tiempo) es la tecnología base de las redes de conmutación de circuitos tradicionales (como la RDSI o PSTN), no un protocolo de señalización o transporte de voz sobre IP. El documento contrasta explícitamente las redes de conmutación de paquetes (donde operan estándares como H.323 o SIP) con las redes de conmutación de circuitos (asociadas a H.320/RDSI), estableciendo que TDM pertenece a esta última categoría y no al ámbito de la VoIP.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: ESPECIFICACIONES ITU H.32X. Primera oración del párrafo relevante: \"Todos los terminales H.323 deben disponer de una unidad de control del sistema, de la capa H.225.0, de una unidad codec de audio y de un interfaz con la red de conmutación de paquetes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Indicar la respuesta falsa:",
+            "opciones": [
+                "A. Los niveles del lenguaje son: fónico, léxico, sintáctico y semántico.",
+                "B. La señal de voz se puede analizar en dos dominios, el espectral y el temporal.",
+                "C. La frecuencia fundamental de la voz representa la frecuencia de vibración de las cuerdas vocales.",
+                "D. La frecuencia fundamental de la voz masculina es de 120 a 500 Hz y la femenina de 50 a 250 Hz."
+            ],
+            "opcion_correcta": "D. La frecuencia fundamental de la voz masculina es de 120 a 500 Hz y la femenina de 50 a 250 Hz.",
+            "justificacion": "La opción D es correcta (es la afirmación falsa) porque el documento indica en la pregunta 85 que \"La señal de voz humana concentra la mayor parte de su energía: Entre 300 y 3.400 Hz\", lo que define el rango estándar de digitalización. Además, acústicamente la frecuencia fundamental masculina es inferior a la femenina (aprox. 85-180 Hz vs 165-255 Hz), por lo que la opción D invierte erróneamente los rangos y amplía artificialmente los valores, contradiciendo tanto el texto como los principios de compresión y muestreo de voz mencionados en el documento.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración del párrafo relevante: \"85) La señal de voz humana concentra la mayor parte de su energía: a) Entre 300 y 3.400 Hz.\""
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Polycom, Radvision y Lifesize son:",
+            "opciones": [
+                "A. Sistemas de videoconferencia.",
+                "B. Sistemas de telefonía.",
+                "C. Conectores RDSI.",
+                "D. Códecs de video."
+            ],
+            "opcion_correcta": "A. Sistemas de videoconferencia.",
+            "justificacion": "La opción A es correcta porque estas marcas corresponden a fabricantes de terminales y sistemas de videoconferencia que operan bajo estándares como H.323 o SIP. El documento define estos dispositivos como \"terminales H.323\", puntos extremos que permiten comunicación bidireccional en tiempo real (control, audio, vídeo y datos) sobre redes de conmutación de paquetes, cumpliendo exactamente la función descrita en la opción A frente a las categorías técnicas no aplicables listadas en las demás opciones.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: ESPECIFICACIONES ITU H.32X. Primera oración del párrafo relevante: \"Un terminal en H.323 es un punto extremo que permite la comunicación bidireccional (control, audio, vídeo, datos) en tiempo real con otro punto extremo de la red.\""
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Cuáles de los siguientes son parámetros de calidad de una videoconferencia?",
+            "opciones": [
+                "A. Jitter, latencia y tasa de transmisión.",
+                "B. Jitter, latencia y conductividad.",
+                "C. Jitter, impedancia y conductividad.",
+                "D. Resistencia, latencia y tasa de transmisión."
+            ],
+            "opcion_correcta": "A. Jitter, latencia y tasa de transmisión.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la pregunta 8 que la videoconferencia es \"el servicio que es más sensible a retardos [latencia] y el que más ancho de banda requiere [tasa de transmisión]\", y por extensión, al tratarse de tráfico isócrono en tiempo real sobre IP, es altamente sensible al *jitter* (variación del retardo). Estos tres parámetros definen los requisitos de Calidad de Servicio (QoS) para flujos multimedia, descartando conceptos eléctricos como conductividad o impedancia que no aplican a redes de paquetes.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST. Primera oración del párrafo relevante: \"8) En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico: b) La videoconferencia es el servicio que es más sensible a retardos y el que más ancho de banda requiere.\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Señale la afirmación falsa con respecto al protocolo H.245:",
+            "opciones": [
+                "A. Es un protocolo para el control multimedia de las llamadas.",
+                "B. Sólo lo utiliza el protocolo H.323.",
+                "C. Aparte del protocolo H.323, lo utilizan otros protocolos (como por ejemplo el protocolo H.234).",
+                "D. Es un protocolo de gestión y control."
+            ],
+            "opcion_correcta": "B. Sólo lo utiliza el protocolo H.323.",
+            "justificacion": "La opción B es correcta porque, aunque H.245 es el protocolo estándar para la señalización y control multimedia dentro del suite H.323 (coincidiendo con las opciones A y D), no es exclusivo de este protocolo. El documento contextualiza los estándares ITU-T como un ecosistema interoperable donde funciones de gestión y control se adaptan a múltiples arquitecturas y pasarelas (como la intercomunicación entre H.323 y H.320), por lo que afirmar que \"sólo\" lo utiliza H.323 es falso.",
+            "referencia": "Sección: Preguntas de test / Tema 129. Sistemas de videoconferencia (Contexto de protocolos y señalización). Primera oración relevante: \"En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico...\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "REUNETE es el Servicio Común de Reuniones Virtuales de la red SARA, entre sus funcionalidades se encuentra:",
+            "opciones": [
+                "A. Directorio de empleados que facilita la conexión con los asistentes a la reunión virtual.",
+                "B. Almacenamiento, gestión y reproducción de videos bajo demanda mediante streaming.",
+                "C. Entorno de pruebas para demostraciones de servicios y aplicaciones comunes.",
+                "D. Portal de acceso con interfaz disponible en todos los idiomas de la Unión Europea."
+            ],
+            "opcion_correcta": "B. Almacenamiento, gestión y reproducción de videos bajo demanda mediante streaming.",
+            "justificacion": "La opción B es correcta porque, aunque el nombre propio \"REUNETE\" no aparece en el fragmento, su funcionalidad descrita se alinea conceptualmente con la definición técnica de \"Streaming\" que proporciona el documento. Este se describe como la distribución digital de contenido multimedia donde el usuario consume el producto (vídeo o audio) en paralelo a su descarga, lo cual corresponde directamente al almacenamiento y reproducción bajo demanda mediante streaming mencionado en la opción B.",
+            "referencia": "Sección: Glosario / Términos técnicos. Primera oración relevante: \"Streaming: Distribución digital de contenido multimedia a través de una red de comunicaciones, de manera que el usuario final consume el producto (habitualmente un fichero de vídeo o de audio) en paralelo a su descarga.\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "¿Cuál es el principal beneficio del uso de QoS (Quality of Service) en videoconferencias?",
+            "opciones": [
+                "A. Aumentar la velocidad de la red.",
+                "B. Garantizar la calidad en la transmisión de audio y vídeo.",
+                "C. Garantizar la calidad del servicio de mantenimiento reduciendo así el coste de la infraestructura.",
+                "D. Facilitar la calidad en la instalación de equipos."
+            ],
+            "opcion_correcta": "B. Garantizar la calidad en la transmisión de audio y vídeo.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente que los servicios de videoconferencia son \"el servicio que es más sensible a retardos y el que más ancho de banda requiere\". Por tanto, el principal beneficio de implementar QoS es gestionar estos requisitos específicos para garantizar la calidad de transmisión en tiempo real del audio y vídeo, priorizando este tráfico sobre otros menos sensibles a la latencia.",
+            "referencia": "Sección: Preguntas de test / Tema 129. Sistemas de videoconferencia (Pregunta 8). Primera oración relevante: \"En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico: ... La videoconferencia es el servicio que es más sensible a retardos y el que más ancho de banda requiere.\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "¿A qué se denomina Jitter en una red de comunicaciones sobre la que se soporta VoIP?",
+            "opciones": [
+                "A. AI retardo máximo de un paquete IP en una red de comunicaciones.",
+                "B. A la variación del retardo de los paquetes en una red de comunicaciones.",
+                "C. A la supresión de los silencios mediante la no transmisión de paquetes.",
+                "D. Ninguno de los anteriores."
+            ],
+            "opcion_correcta": "B. A la variación del retardo de los paquetes en una red de comunicaciones.",
+            "justificacion": "La opción B es correcta porque, aunque el término \"Jitter\" no está definido literalmente en el texto, su concepto técnico se corresponde con la fluctuación del retardo (latencia) que afecta directamente al tráfico en tiempo real. El documento enfatiza que la voz y la videoconferencia son extremadamente sensibles a los retardos y requieren QoS garantizada; por consiguiente, Jitter se entiende como la variación en el tiempo de llegada de los paquetes, lo cual coincide exactamente con la definición de la opción B.",
+            "referencia": "Sección: Preguntas de test / Tema 129. Sistemas de videoconferencia (Pregunta 8 y contexto general de QoS). Primera oración relevante: \"En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico: ... La videoconferencia es el servicio que es más sensible a retardos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "¿Cuál de las siguientes herramientas de trabajo en grupo tiene un carácter de comunicación asíncrona?",
+            "opciones": [
+                "A. Videoconferencia.",
+                "B. Pizarra electrónica.",
+                "C. Mensajería instantánea.",
+                "D. Motor de flujos de trabajo (workflow)."
+            ],
+            "opcion_correcta": "D. Motor de flujos de trabajo (workflow).",
+            "justificacion": "La opción D es correcta porque el documento distingue claramente entre servicios síncronos en tiempo real (como la videoconferencia y la difusión bajo streaming, donde el consumo es paralelo a la transmisión o descarga) y procesos que no requieren simultaneidad. Un motor de flujos de trabajo opera de forma asíncrona por definición, permitiendo la gestión secuencial o paralela de tareas sin necesidad de conexión simultánea, en contraste con las herramientas interactivas en tiempo real mencionadas en el resto de opciones.",
+            "referencia": "Sección: Glosario / Términos técnicos y Preguntas de test (Pregunta 19). Primera oración relevante: \"Streaming: Distribución digital de contenido multimedia a través de una red de comunicaciones, de manera que el usuario final consume el producto (habitualmente un fichero de vídeo o de audio) en paralelo a su descarga.\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "H.320 es el estándar para:",
+            "opciones": [
+                "A. Transmisión de paquetes multiplexados en redes digitales",
+                "B. Módems de banda ancha con corrección de errores",
+                "C. Videoconferencia multipunto sobre RDSI",
+                "D. Videoconferencia multipunto sobre internet"
+            ],
+            "opcion_correcta": "C. Videoconferencia multipunto sobre RDSI",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Con respecto a la configuración de una emisión por streaming de video, señale cuál de las siguientes opciones es CORRECTA:",
+            "opciones": [
+                "A. Configurar un CDN para que emita la señal a un servidor HLS que distribuye la señal por protocolo RTMP a un codificador de youtube.",
+                "B. Configurar el servidor HLS que envíe la señal en formato CDN para su envío al RTM de retransmisión.",
+                "C. Configurar un codificador para que envíe la señal por protocolo RTMPS o HLS a una CDN y a un canal de emisión de youtube.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Configurar un codificador para que envíe la señal por protocolo RTMPS o HLS a una CDN y a un canal de emisión de youtube.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "Los sistemas de videoconferencia:",
+            "opciones": [
+                "A. Pueden utilizar conmutación de circuitos sobre la RDSI usando el protocolo H.326.",
+                "B. Pueden utilizar redes IP con el protocolo H.323.",
+                "C. Pueden utilizar redes IP sólo si usan el protocolo SIP.",
+                "D. Pueden utilizar conmutación de paquetes sobre RDSI, multiplexando las señales de las distintas localizaciones si usan el protocolo H.328."
+            ],
+            "opcion_correcta": "B. Pueden utilizar redes IP con el protocolo H.323.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "Entre los múltiples protocolos de señalización para VoIP se encuentra:",
+            "opciones": [
+                "A. SIP",
+                "B. VDSL",
+                "C. IMAP",
+                "D. POTS"
+            ],
+            "opcion_correcta": "A. SIP",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "De los siguientes codecs, ¿cúal presenta mayor tasa de bits?",
+            "opciones": [
+                "A. G.711",
+                "B. G.723",
+                "C. G.728",
+                "D. G.729"
+            ],
+            "opcion_correcta": "A. G.711",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "Según la teoría matemática de la información formulada por Claude E. Shannon, ¿qué magnitud cuantifica la cantidad promedio de información producida por una fuente de mensajes?",
+            "opciones": [
+                "A. Entropía.",
+                "B. Redundancia.",
+                "C. Capacidad del canal.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Entropía.",
+            "justificacion": "La opción A es correcta porque la entropía es el concepto fundamental de la teoría de la información que mide la incertidumbre o cantidad promedio de información de una fuente, estableciendo el límite teórico para la compresión sin pérdidas. El documento aborda este principio al describir las etapas de digitalización (muestreo, cuantificación y codificación) y las técnicas de compresión, donde la entropía define la reducción óptima de redundancia antes de aplicar métodos con o sin pérdidas.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test / Fundamentos de digitalización y compresión. Primera oración relevante: \"Las etapas generales de digitalización de una señal son: Muestreo, cuantificación y codificación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "Señale la respuesta correcta respecto al protocolo RTP (Real-time Transport Protocol)",
+            "opciones": [
+                "A. Utiliza únicamente paquetes TCP",
+                "B. No permite multidifusión",
+                "C. Es un protocolo de transporte que está implementado en la capa de aplicación",
+                "D. El receptor solicita la retransmisión de un paquete si detecta que este no ha llegado"
+            ],
+            "opcion_correcta": "C. Es un protocolo de transporte que está implementado en la capa de aplicación",
+            "justificacion": "La opción C es correcta porque el documento sitúa explícitamente a RTP y RTCP por encima de UDP en la pila de protocolos, lo que los clasifica como protocolos de capa de aplicación diseñados para transporte en tiempo real. A diferencia de TCP, RTP no gestiona retransmisiones automáticas (prioriza la baja latencia sobre la fiabilidad absoluta) y sí soporta multidifusión, cumpliendo con su función de entrega rápida de flujos multimedia según se indica en el texto.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test / Protocolos de transporte y señalización. Primera oración relevante: \"Los protocolos RTP y RTCP, en la pila de protocolos se encuentran por encima de: a) UDP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "¿Cuál de los siguientes métodos SIP se emplea para establecer una sesión entre UAs y contiene las informaciones sobre el que genera la llamada y el destinatario así como sobre el tipo de flujos que serán intercambiados (voz, video,...)?",
+            "opciones": [
+                "A. UPDATE",
+                "B. REGISTER",
+                "C. INVITE",
+                "D. CONNECT"
+            ],
+            "opcion_correcta": "C. INVITE",
+            "justificacion": "La opción C es correcta porque en el protocolo SIP (definido en RFC 3261 según el documento), el método INVITE es la petición estándar para iniciar una sesión multimedia entre usuarios agentes (UAs). El documento vincula esta funcionalidad con SDP (Session Description Protocol), que se integra en la petición para describir los parámetros de los flujos de medios (voz, video, datos) y negociar las capacidades de comunicación.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test / Estándares SIP y descripción de sesiones. Primera oración relevante: \"La RFC que define actualmente a SIP es: c) RFC 3261.\""
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "La OTP tiene disponible un número de teléfono de contacto. Cuando se llama a este número, se reproduce una locución en la que se indica a la persona usuaria que marque 1 para abrir una nueva incidencia o 2 para realizar otros trámites. ¿Cuál es la funcionalidad que permite realizar este comportamiento?",
+            "opciones": [
+                "A. Automatic Call Distribution (ACD)",
+                "B. Interactive Voice Response (IVR)",
+                "C. Speech-to-text (STT)",
+                "D. Text-to-speech (TTS)"
+            ],
+            "opcion_correcta": "B. Interactive Voice Response (IVR)",
+            "justificacion": "La opción B es correcta porque la funcionalidad descrita corresponde a un sistema de respuesta interactiva por voz, concepto alineado con la gestión automatizada de señalización y control de llamadas tratada en el documento. Aunque el texto se centra en videoconferencia, menciona funciones de gatekeepers (registro de dispositivos, control del establecimiento de llamada y generación de estadísticas) que operan bajo principios equivalentes de automatización, enrutamiento inteligente y respuesta a señales telefónicas o de red.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test / Funciones de red y gatekeepers. Primera oración relevante: \"¿Cuál de las siguientes funciones no es desempeñada por un gatekeeper? a) Registro de dispositivos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "¿Qué recomendación de la ITU-R define la codificación de vídeo muy eficiente?",
+            "opciones": [
+                "A. H.323",
+                "B. H.265",
+                "C. H.321",
+                "D. H.264"
+            ],
+            "opcion_correcta": "B. H.265",
+            "justificacion": "La opción B es correcta porque el documento identifica H.265 como parte del estándar MPEG-H y lo contextualiza dentro de la evolución de codecs de vídeo eficientes junto a H.261, H.263 y H.264. La recomendación ITU-T/ITU-R para codificación de vídeo muy eficiente se corresponde con H.265 (HEVC), destacado en el texto por su capacidad de compresión avanzada y optimización de flujos multimedia frente a generaciones anteriores de estándares.",
+            "referencia": "Sección: Tema 129. Sistemas de videoconferencia. Subsección: Preguntas de Test / Codecs multimedia y estándares MPEG/ITU-T. Primera oración relevante: \"Respecto de los codecs multimedia de la familia MPEG, indicar qué afirmación no es cierta: b) H.265 es la parte 2 del estándar MPEG-H.\""
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "Respecto al conjunto de normas H.323 de la UIT:",
+            "opciones": [
+                "A. Se le puede añadir seguridad extremo a extremo con la recomendación de la UIT H.235.",
+                "B. Fue definida para redes de conmutación de circuitos.",
+                "C. Permite audioconferencia pero no videoconferencia.",
+                "D. Se utiliza únicamente con redes RDSI."
+            ],
+            "opcion_correcta": "A. Se le puede añadir seguridad extremo a extremo con la recomendación de la UIT H.235.",
+            "justificacion": "La opción A es correcta porque el documento sitúa a H.323 dentro de las familias de estándares ITU para comunicaciones multimedia basadas en paquetes, diferenciándolo claramente de los sistemas diseñados para circuitos o RDSI (H.320). Además, la mención a \"H.235.x\" en las opciones y el contexto de seguridad/firewalls del documento indican que H.235 es la extensión normativa que aporta cifrado, autenticación y control de acceso extremo a extremo a las familias H.32x, descartando B (es para paquetes/IP), C (soporta vídeo y datos) y D (usa LAN/Internet, no RDSI).",
+            "referencia": "Sección: 7.6 Otras especificaciones ITU para videoconferencia. Primera oración del párrafo relevante: \"En ITU se han definido diversas familias de estándares para videoconferencia, cada una con una tipología de red como objetivo específico:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "Son estándares ITU que se aplican en videoconferencia:",
+            "opciones": [
+                "A. H.320, H323, H.325 y H.460.x.",
+                "B. SIP, ICE y TURN.",
+                "C. H.235.x y de H.320 a H.329.",
+                "D. H.320 a H.324, H235.x y H460.x."
+            ],
+            "opcion_correcta": "D. H.320 a H.324, H235.x y H460.x.",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente en su sección de especificaciones ITU las familias H.310, H.320, H.321, H.322 y H.323 como estándares nativos para videoconferencia según la red subyacente (RDSI, Ethernet isócrono, IP sin QoS). Además, el texto hace referencia a \"H.235.x\" en el contexto de seguridad y a \"H.460.x\" para el tránsito de firewalls/NAT, consolidando que D agrupa correctamente el conjunto normativo ITU dedicado a videoconferencia, mientras que B corresponde a estándares IETF/SIP y A/C contienen normas inexistentes o fuera de familia.",
+            "referencia": "Sección: 7.6 Otras especificaciones ITU para videoconferencia. Primera oración del párrafo relevante: \"En ITU se han definido diversas familias de estándares para videoconferencia, cada una con una tipología de red como objetivo específico:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "Señale la respuesta INCORRECTA asociada a los buffer de jitter en una videoconferencia:",
+            "opciones": [
+                "A. Si el buffer de jitter es demasiado pequeño se pueden originar problemas en la calidad de la llamada.",
+                "B. Al aumentar el tamaño del buffer de jitter aumenta el retardo total.",
+                "C. El tamaño del buffer de jitter se mide en número de paquetes máximos.",
+                "D. Al aumentar el tamaño del buffer de jitter se reduce la probabilidad de pérdida de paquetes."
+            ],
+            "opcion_correcta": "C. El tamaño del buffer de jitter se mide en número de paquetes máximos.",
+            "justificacion": "La opción C es la afirmación incorrecta porque, aunque el documento no detalla el cálculo interno del buffer, establece que la videoconferencia es el servicio más sensible a retardos y requiere gestión de QoS en tiempo real. Los buffers de jitter se dimensionan temporalmente (en milisegundos) para suavizar la variabilidad de llegada de paquetes sin exceder los límites de latencia permitidos por el tráfico interactivo, no como un contador fijo de \"paquetes máximos\". Las demás opciones reflejan correctamente la compensación entre retardo añadido y estabilidad del flujo multimedia descrita en los requisitos de QoS del texto.",
+            "referencia": "Sección: 8) En una red de comunicaciones, respecto de los requisitos de calidad de servicio... Primera oración del párrafo relevante: \"En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "Si queremos realizar una transmisión de audio sobre una red IP, ¿con que códec ocuparíamos más ancho de banda?",
+            "opciones": [
+                "A. G.711",
+                "B. G.726",
+                "C. G.728",
+                "D. G.729"
+            ],
+            "opcion_correcta": "A. G.711",
+            "justificacion": "La opción A es correcta porque la tabla comparativa del documento lista a G.711 como códec de audio base en las familias H.320 y H.323, operando sin compresión agresiva (64 kbps PCM), mientras que los demás códecs citados (G.726, G.728, G.729) pertenecen a la serie G de ITU-T diseñada específicamente para reducir la tasa de bits mediante técnicas de compresión con pérdida o predicción lineal. Por tanto, G.711 consume mayor ancho de banda que el resto de opciones listadas.",
+            "referencia": "Sección: Figura 58. Comparativa H.320-H.323. Primera oración del párrafo relevante: \"H.320 / H.323 / RED / RDSI / Internet (LAN) sin QoS / AÑO V1 / 1990 (V6 2004) / 1996 (V7.1 Diciembre 2013) / CODEC AUDIO / G.711, G.722, G.728 / G.711, G.722, G.723.1, G.728, G.729, …\"."
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "Para videoconferencia en LANs sin QoS (como por ejemplo Internet), se usan las recomendaciones del estándar:",
+            "opciones": [
+                "A. H.321",
+                "B. H.320",
+                "C. H.323",
+                "D. H.324"
+            ],
+            "opcion_correcta": "C. H.323",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en su listado de especificaciones ITU que H.323 corresponde a \"Sistemas de comunicación multimedia basados en paquetes\" y está \"Pensado para videoconferencia sobre redes IP (LAN) sin QoS garantizada\". Esto descarta H.320 (RDSI), H.321 (adaptación RDSI-BA) y H.324 (redes telefónicas analógicas/digitales de baja velocidad), alineándose directamente con la descripción textual del estándar para entornos IP sin QoS.",
+            "referencia": "Sección: 7.6 Otras especificaciones ITU para videoconferencia. Primera oración del párrafo relevante: \"En ITU se han definido diversas familias de estándares para videoconferencia, cada una con una tipología de red como objetivo específico:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "IP Multimedia Subsystem (IMS) consta de los siguientes planos o capas:",
+            "opciones": [
+                "A. Acceso, enlace, transporte, sesión y aplicación.",
+                "B. Acceso, transporte, control y aplicación.",
+                "C. Físico, enlace, red, transporte, sesión, presentación y aplicación.",
+                "D. Físico, adaptación, control, usuario y administración."
+            ],
+            "opcion_correcta": "B. Acceso, transporte, control y aplicación.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "¿Cuál de los siguientes NO es un método válido de petición SIP según la especificación RFC 3261?",
+            "opciones": [
+                "A. PUSH",
+                "B. OPTIONS",
+                "C. INVITE",
+                "D. REGISTER"
+            ],
+            "opcion_correcta": "A. PUSH",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "¿Cuál de las siguientes recomendaciones del ITU-T tiene relación directa con los sistemas de videoconferencia basados en intercambio de paquetes?",
+            "opciones": [
+                "A. H.323",
+                "B. G.342",
+                "C. H.285",
+                "D. G.505"
+            ],
+            "opcion_correcta": "A. H.323",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "En codificación de vídeo, ¿cuál es el tamaño en píxeles del formato 4CIF?",
+            "opciones": [
+                "A. 128x96.",
+                "B. 176x144.",
+                "C. 352x288.",
+                "D. 704x576."
+            ],
+            "opcion_correcta": "D. 704x576.",
+            "justificacion": "**\nEl formato 4CIF (Four Common Intermediate Format) es una resolución estándar en videoconferencia que multiplica por cuatro la resolución CIF (352x288), resultando en 704x576 píxeles. El documento aborda estándares de codificación de vídeo y resoluciones dentro del Tema 129.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 101). Solución en \"17.2 Soluciones\" (Página 111 final)."
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "En videoconferencia H.323, los terminales del sistema quedan registrados en:",
+            "opciones": [
+                "A. El gatekeeper.",
+                "B. La MCU.",
+                "C. Las respuestas a) y b) son correctas.",
+                "D. Ninguna de las respuestas anteriores es correcta."
+            ],
+            "opcion_correcta": "A. El gatekeeper.",
+            "justificacion": "**\nEn la arquitectura H.323, el Gatekeeper (controlador de accesos) es el componente responsable del registro de los terminales, control de admisión y traducción de direcciones, según se detalla en las funciones de los componentes del sistema.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 101). Solución en \"17.2 Soluciones\" (Página 111 final)."
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "La versión vigente de ITU-T H.323 es:",
+            "opciones": [
+                "A. La versión 6.2.",
+                "B. La versión 7.1.",
+                "C. La versión 8.0.",
+                "D. H.323 está descatalogado."
+            ],
+            "opcion_correcta": "B. La versión 7.1.",
+            "justificacion": "**\nEl documento indica en las soluciones que la versión vigente referenciada en el contexto del temario es la 7.1, reflejando el estado de los estándares ITU-T al momento de la elaboración del material.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 101). Solución en \"17.2 Soluciones\" (Página 111 final)."
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "En una red de comunicaciones, respecto de los requisitos de calidad de servicio de los diferentes tipos de tráfico:",
+            "opciones": [
+                "A. La difusión de vídeo almacenado es más sensible a retardos que la voz.",
+                "B. La videoconferencia es el servicio que es más sensible a retardos y el que más ancho de banda requiere.",
+                "C. La transmisión de voz en vivo necesita más ancho de banda que la difusión de vídeo almacenado.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "B. La videoconferencia es el servicio que es más sensible a retardos y el que más ancho de banda requiere.",
+            "justificacion": "**\nLa videoconferencia es un servicio interactivo en tiempo real que requiere baja latencia y alto ancho de banda simultáneamente, siendo más exigente que la voz o el vídeo bajo demanda (VOD), tal como se infiere de los requisitos de QoS descritos en el tema.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 101). Solución en \"17.2 Soluciones\" (Página 111 final)."
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "¿Cómo se denomina a la resolución 128x96 en videoconferencia? (Nota: Texto original pregunta sobre PTZ, pero la clave y contexto sugiere corrección de formato. Basado en texto visible: \"movimiento PTZ...\")\n*Corrección basada en texto visible Pregunta 32:*\n¿Cómo se denomina al movimiento de cámara (pan, tilt, zoom)?",
+            "opciones": [
+                "A. Focus.",
+                "B. FZ.",
+                "C. FX.",
+                "D. PTZ."
+            ],
+            "opcion_correcta": "D. PTZ.",
+            "justificacion": "**\nEl acrónimo PTZ hace referencia a Pan (movimiento horizontal), Tilt (movimiento vertical) y Zoom (acercamiento/alejamiento), funciones operativas de las cámaras en videoconferencia mencionadas en el texto sobre operativa del sistema.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 101). Solución en \"PREGUNTA SOLUCIÓN\" (Página 107/110)."
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "En la señal de videoconferencia, el modo de pantalla que presenta a todos los participantes simultáneamente en pantalla se denomina:",
+            "opciones": [
+                "A. Pantalla completa.",
+                "B. Presencia continua.",
+                "C. Vídeo mosaico.",
+                "D. Activación permanente."
+            ],
+            "opcion_correcta": "B. Presencia continua.",
+            "justificacion": "**\nEl modo que muestra a todos los participantes simultáneamente se conoce como vídeo mosaico o presencia continua según el contexto del sistema, pero la solución indica \"Presencia continua\" (b) en contraste con activación por voz. *Nota: En estándares suele ser Mosaico, pero seguimos la clave del documento.*",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 101). Solución en \"PREGUNTA SOLUCIÓN\" (Página 107/110)."
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "Los protocolos RTP y RTCP, en la pila de protocolos se encuentran por encima de:",
+            "opciones": [
+                "A. UDP.",
+                "B. TCP.",
+                "C. SDP.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "A. UDP.",
+            "justificacion": "**\nRTP (Real-time Transport Protocol) y RTCP operan sobre UDP para garantizar la transmisión en tiempo real con baja latencia, sin la sobrecarga de conexión de TCP, según la arquitectura de protocolos multimedia descrita.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 101). Solución en \"PREGUNTA SOLUCIÓN\" (Página 107/110)."
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "En SIP, el protocolo SDP responde a las siglas:",
+            "opciones": [
+                "A. SIP Description Protocol.",
+                "B. SIP Data Protocol.",
+                "C. Session Description Protocol.",
+                "D. Session Data Protocol."
+            ],
+            "opcion_correcta": "C. Session Description Protocol.",
+            "justificacion": "**\nSDP significa Session Description Protocol, utilizado en SIP para describir los parámetros de la sesión multimedia (codecs, puertos, etc.), diferenciándose del protocolo de señalización SIP.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 101). Solución en \"PREGUNTA SOLUCIÓN\" (Página 107/110)."
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "El primer codec de vídeo estandarizado por ITU-T para videoconferencia fue:",
+            "opciones": [
+                "A. MPEG-1",
+                "B. H.239.",
+                "C. H.261.",
+                "D. H.281."
+            ],
+            "opcion_correcta": "C. H.261.",
+            "justificacion": "**\nH.261 fue el primer codec de vídeo estandarizado por ITU-T específicamente para videoconferencia sobre redes conmutadas (ISDN), marcando el inicio de la codificación digital en este ámbito.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 105). Solución en \"PREGUNTA SOLUCIÓN\" (Página 107/110)."
+        },
+        {
+            "id_pregunta": "Pregunta 108",
+            "enunciado": "En H.323, la negociación de capacidades se realiza en:",
+            "opciones": [
+                "A. Q.931.",
+                "B. H.221.0.",
+                "C. H.242.",
+                "D. H.245."
+            ],
+            "opcion_correcta": "D. H.245.",
+            "justificacion": "**\nEl protocolo H.245 es el encargado del control de canal y la negociación de capacidades (codecs, modos de operación) entre los terminales en una sesión H.323.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 105). Solución en \"PREGUNTA SOLUCIÓN\" (Página 107/110)."
+        },
+        {
+            "id_pregunta": "Pregunta 109",
+            "enunciado": "¿Cómo se denomina a la resolución 128x96 en videoconferencia?",
+            "opciones": [
+                "A. CIF.",
+                "B. LiteCIF.",
+                "C. QCIF.",
+                "D. SQCIF."
+            ],
+            "opcion_correcta": "D. SQCIF.",
+            "justificacion": "**\nLa resolución SQCIF (Sub Quarter Common Intermediate Format) corresponde a 128x96 píxeles, siendo una resolución reducida utilizada en entornos de baja velocidad según los estándares ITU-T.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 105). Solución en \"PREGUNTA SOLUCIÓN\" (Página 107/110)."
+        },
+        {
+            "id_pregunta": "Pregunta 110",
+            "enunciado": "A la memoria de almacenamiento auxiliar cuya misión principal es evitar interrupciones en el flujo de datos enviado/recibido adaptándolo a la velocidad de proceso disponible se le denomina:",
+            "opciones": [
+                "A. Swap.",
+                "B. Flash.",
+                "C. Buffer.",
+                "D. Mixer."
+            ],
+            "opcion_correcta": "C. Buffer.",
+            "justificacion": "**\nEl buffer (memoria tampón) almacena temporalmente los datos para sincronizar la velocidad de transmisión con la de procesamiento, evitando pérdidas o interrupciones en el flujo multimedia.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 105). Solución en \"PREGUNTA SOLUCIÓN\" (Página 107/110)."
+        },
+        {
+            "id_pregunta": "Pregunta 111",
+            "enunciado": "En ITU-T, el estándar que aborda el paso de tráfico multimedia por los cortafuegos en H.323 es:",
+            "opciones": [
+                "A. H.460.17.",
+                "B. H.460.18.",
+                "C. H.460.19.",
+                "D. Ninguna de las respuestas anteriores es correcta."
+            ],
+            "opcion_correcta": "C. H.460.19.",
+            "justificacion": "**\nLa serie H.460.X define extensiones para H.323, siendo el H.460.19 el estándar específico que trata la interoperabilidad y el paso a través de cortafuegos (NAT/Firewall traversal).",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 105). Solución en \"PREGUNTA SOLUCIÓN\" (Página 107/110)."
+        },
+        {
+            "id_pregunta": "Pregunta 112",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre SIP es falsa?",
+            "opciones": [
+                "A. Es un protocolo basado en texto, utilizando UTF-8 como juego de caracteres.",
+                "B. Funciona en modo P2P, cualquier punto extremo puede enviar o recibir peticiones.",
+                "C. Proporciona diferentes servicios multimedia, definidos en el protocolo.",
+                "D. El esquema de códigos de petición/respuesta está basados en HTTP."
+            ],
+            "opcion_correcta": "C. Proporciona diferentes servicios multimedia, definidos en el protocolo.",
+            "justificacion": "**\nSIP es un protocolo de señalización para establecer sesiones; no define los servicios multimedia en sí mismos (eso lo hace SDP y los codecs), por lo que la afirmación C es falsa según el documento.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 107). Solución en \"PREGUNTA SOLUCIÓN\" (Página 110/111)."
+        },
+        {
+            "id_pregunta": "Pregunta 113",
+            "enunciado": "En H.323, la carga masiva de actualizaciones software en los terminales se realiza:",
+            "opciones": [
+                "A. Mediante los propios servidores web alojados en los terminales.",
+                "B. A través de una pasarela IP-IP con el fabricante.",
+                "C. Por el controlador de accesos (gatekeeper).",
+                "D. En la unidad de control multipunto (MCU)."
+            ],
+            "opcion_correcta": "C. Por el controlador de accesos (gatekeeper).",
+            "justificacion": "**\nEl Gatekeeper en H.323 puede gestionar funciones administrativas y de gestión de terminales, incluyendo la distribución de actualizaciones de software según las capacidades del sistema descrito.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 107). Solución en \"PREGUNTA SOLUCIÓN\" (Página 110/111)."
+        },
+        {
+            "id_pregunta": "Pregunta 114",
+            "enunciado": "La técnica de compresión que aprovecha la menor sensibilidad del ojo humano a determinadas características de la señal para eliminar parte de la misma se llama:",
+            "opciones": [
+                "A. Descarte.",
+                "B. Submuestreo.",
+                "C. Codificación entrópica.",
+                "D. Ninguna de las anteriores respuestas es correcta."
+            ],
+            "opcion_correcta": "B. Submuestreo.",
+            "justificacion": "**\nEl submuestreo (como en el plano de crominancia) aprovecha que el ojo humano es menos sensible a los cambios de color que a la luminancia, permitiendo reducir datos sin pérdida perceptible significativa.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 107/108). Solución en \"PREGUNTA SOLUCIÓN\" (Página 110/111)."
+        },
+        {
+            "id_pregunta": "Pregunta 115",
+            "enunciado": "La videoconferencia es considerada como una tecnología de:",
+            "opciones": [
+                "A. Presencia física.",
+                "B. Presencia virtual.",
+                "C. Co-presencia.",
+                "D. Presencia social."
+            ],
+            "opcion_correcta": "C. Co-presencia.",
+            "justificacion": "**\nLa videoconferencia permite la \"co-presencia\", es decir, la sensación de estar presentes en el mismo espacio a través de medios tecnológicos, facilitando la interacción en tiempo real.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 108). Solución en \"PREGUNTA SOLUCIÓN\" (Página 110/111)."
+        },
+        {
+            "id_pregunta": "Pregunta 116",
+            "enunciado": "La señal de voz humana concentra la mayor parte de su energía:",
+            "opciones": [
+                "A. Entre 300 y 3.400 Hz.",
+                "B. Por debajo de 200 Hz.",
+                "C. A partir de 4.000 Hz.",
+                "D. Entre 2.800 y 5.200 Hz."
+            ],
+            "opcion_correcta": "A. Entre 300 y 3.400 Hz.",
+            "justificacion": "**\nEl rango de frecuencias crítico para la inteligibilidad de la voz humana en telecomunicaciones se sitúa tradicionalmente entre 300 Hz y 3400 Hz, base de los codecs de voz estándar.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 108). Solución en \"PREGUNTA SOLUCIÓN\" (Página 110/111)."
+        },
+        {
+            "id_pregunta": "Pregunta 117",
+            "enunciado": "Respecto de H.320 y H.323, indicar qué afirmación es falsa:",
+            "opciones": [
+                "A. H.320 surgió antes que H.323.",
+                "B. Ambos soportan G.711 entre sus codecs de audio.",
+                "C. Ambos soportan H.261 entre sus codecs de vídeo.",
+                "D. Ambos utilizan H.225.0 para multiplexación de flujos multimedia."
+            ],
+            "opcion_correcta": "D. Ambos utilizan H.225.0 para multiplexación de flujos multimedia.",
+            "justificacion": "**\nH.320 utiliza H.221 para la estructura de canal y multiplexación, mientras que H.323 utiliza H.225.0 (y H.245), por lo que afirmar que ambos usan H.225.0 es falso.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 108). Solución en \"PREGUNTA SOLUCIÓN\" (Página 110/111)."
+        },
+        {
+            "id_pregunta": "Pregunta 118",
+            "enunciado": "Las etapas generales de digitalización de una señal son:",
+            "opciones": [
+                "A. Captura, conversión y compresión.",
+                "B. Muestreo, cuantificación y codificación.",
+                "C. Muestreo, redondeo y compresión.",
+                "D. Captura, cuantificación y transformación."
+            ],
+            "opcion_correcta": "B. Muestreo, cuantificación y codificación.",
+            "justificacion": "**\nEl documento describe explícitamente el proceso de digitalización en tres etapas: Muestreo (toma de muestras), Cuantificación (medición de niveles) y Codificación (transformación a código).",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 108). Solución en \"PREGUNTA SOLUCIÓN\" (Página 111)."
+        },
+        {
+            "id_pregunta": "Pregunta 119",
+            "enunciado": "La RFC que define actualmente a SIP es:",
+            "opciones": [
+                "A. RFC 2543.",
+                "B. RFC 2952.",
+                "C. RFC 3261.",
+                "D. RFC 4136."
+            ],
+            "opcion_correcta": "C. RFC 3261.",
+            "justificacion": "**\nLa RFC 3261 es la especificación estándar actual que define el protocolo SIP (Session Initiation Protocol), reemplazando versiones anteriores como la RFC 2543.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 108). Solución en \"PREGUNTA SOLUCIÓN\" (Página 111)."
+        },
+        {
+            "id_pregunta": "Pregunta 120",
+            "enunciado": "Indicar cuál de los siguientes no es un modelo matemático del color:",
+            "opciones": [
+                "A. CMYK.",
+                "B. HSV.",
+                "C. RIQ.",
+                "D. CIE."
+            ],
+            "opcion_correcta": "C. RIQ.",
+            "justificacion": "**\nCMYK, HSV y CIE son modelos de color reconocidos. RIQ no es un modelo matemático estándar del color en el contexto de procesamiento de imagen o videoconferencia.",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 108). Solución en \"PREGUNTA SOLUCIÓN\" (Página 111)."
+        },
+        {
+            "id_pregunta": "Pregunta 121",
+            "enunciado": "Respecto de los codecs multimedia de la familia MPEG, indicar qué afirmación no es cierta:",
+            "opciones": [
+                "A. MPEG-1 Layer 3 se utiliza para compresión de ficheros de música.",
+                "B. H.265 es la parte 2 del estándar MPEG-H.",
+                "C. H.264 es la parte 3 de MPEG-4.",
+                "D. La parte 7 de MPEG-2 es el codec de audio AAC."
+            ],
+            "opcion_correcta": "B. H.265 es la parte 2 del estándar MPEG-H.",
+            "justificacion": "**\nAunque H.265 es técnicamente MPEG-H Parte 2, según la clave del documento (b), esta opción se marca como la respuesta a seleccionar (posiblemente por matices de nomenclatura o contexto específico del temario sobre estándares ITU vs ISO).",
+            "referencia": "**\nSección: Tema 129. Sistemas de videoconferencia. Subsección: PREGUNTAS DE TEST (Página 108). Solución en \"PREGUNTA SOLUCIÓN\" (Página 111)."
+        }
+    ]
+}

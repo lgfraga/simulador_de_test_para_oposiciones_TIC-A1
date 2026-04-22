@@ -1,0 +1,954 @@
+{
+    "nombre_tema": "Tema 101",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "La transformación de una forma de representación de un sistema a otra distinta, pero del mismo nivel de abstracción, sin modificar el comportamiento externo del sistema es:",
+            "opciones": [
+                "A. Ingeniería Inversa.",
+                "B. Reestructuración.",
+                "C. Ingeniería hacia delante.",
+                "D. Desarrollo en cascada."
+            ],
+            "opcion_correcta": "B. Reestructuración.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección sobre reingeniería, describe actividades para mejorar la mantenibilidad mediante la modificación del diseño y código sin alterar la funcionalidad esencial. Específicamente, menciona que la \"Reingeniería de procesos\" consiste en \"reestructurar el código para conseguir un mayor nivel de modularidad\", lo cual implica una transformación interna (representación) manteniendo el comportamiento externo, alineándose con el concepto de reestructuración.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.8 LA REINGENIERÍA. Primera oración del párrafo relevante: \"Una de las actuaciones que pueden mejorar la mantenibilidad de un sistema es la reingeniería.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Según Metrica v3, ¿quiénes de los siguientes participan durante el proceso Mantenimiento del Sistema de Información (MSI)?",
+            "opciones": [
+                "A. Equipo de Mantenimiento, Análistas, Directores de los Usuarios",
+                "B. Equipo de Mantenimiento, Análistas, Responsable del Mantenimiento, Jefe de Proyecto",
+                "C. Equipo de Mantenimiento, Análistas, Jefe de Proyecto",
+                "D. Equipo de Mantenimiento, Responsable del Mantenimiento, Jefe de Proyecto, Directores de los Usuarios"
+            ],
+            "opcion_correcta": "D. Equipo de Mantenimiento, Responsable del Mantenimiento, Jefe de Proyecto, Directores de los Usuarios",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de recursos humanos que es esencial contar con un equipo dedicado al mantenimiento, identificando perfiles como \"Gestor del mantenimiento\" (Responsable), \"Desarrollador de mantenimiento\" (Equipo) y roles de supervisión. Aunque la metodología Métrica se detalla en la sección 8, los recursos necesarios para ejecutar sus procesos de gestión y planificación (sección 11) incluyen estos actores clave para la solicitud, análisis y resolución de cambios, implicando a usuarios y gestores del proyecto.",
+            "referencia": "Sección: 11 LA PLANIFICACIÓN Y GESTIÓN DEL MANTENIMIENTO. Subsección: 11.3 RECURSOS HUMANOS. Primera oración del párrafo relevante: \"Resulta esencial contar con un equipo humano dedicado al mantenimiento de sistemas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "En el Proceso de Mantenimiento de Sistemas de Información de Métrica v3, señale la respuesta CORRECTA:",
+            "opciones": [
+                "A. Los mantenimientos correctivo y adaptativo quedan dentro del ámbito de Métrica v3.",
+                "B. Los mantenimientos correctivo y evolutivo quedan fuera del ámbito de Métrica v3.",
+                "C. Sólo se definen los mantenimientos correctivo y evolutivo que son los que quedan dentro del ámbito de Métrica v3.",
+                "D. Los mantenimientos adaptativo y perfectivo quedan fuera del ámbito de MÉTRICA v3, ya que requieren actividades y perfiles distintos de los del proceso de desarrollo."
+            ],
+            "opcion_correcta": "D. Los mantenimientos adaptativo y perfectivo quedan fuera del ámbito de MÉTRICA v3, ya que requieren actividades y perfiles distintos de los del proceso de desarrollo.",
+            "justificacion": "La opción D es correcta porque el documento indica explícitamente en la sección dedicada a la metodología Métrica que, aunque enumera cuatro tipos de mantenimiento (Correctivo, Evolutivo, Adaptativo, Perfectivo), \"los dos últimos no forman parte del ámbito de Métrica\". Esto confirma que el adaptativo y el perfectivo quedan fuera del ámbito específico de esta metodología según el texto.",
+            "referencia": "Sección: 8 EL MANTENIMIENTO SEGÚN LA METODOLOGÍA MÉTRICA. Subsección: 8.1 TIPOS DE MANTENIMIENTO. Primera oración del párrafo relevante: \"Los tipos de mantenimiento que trata la metodología, en su versión 3, son los siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Las actuaciones de mantenimiento del software derivadas de la aprobación de una norma, las consideraremos mantenimiento de tipo:",
+            "opciones": [
+                "A. Evolutivo.",
+                "B. Perfectivo.",
+                "C. Adaptativo.",
+                "D. Correctivo."
+            ],
+            "opcion_correcta": "A. Evolutivo.",
+            "justificacion": "La opción A es correcta porque el documento define el mantenimiento evolutivo como aquel que se deriva de una nueva especificación y cita textualmente como ejemplo: \"Nuevas funcionalidades derivadas de la aprobación de una norma (Ley, Reglamento, etc.)\". Esto coincide exactamente con la descripción planteada en la pregunta.",
+            "referencia": "Sección: 6 EL MANTENIMIENTO EVOLUTIVO. Primera oración del párrafo relevante: \"El mantenimiento evolutivo tiene como principal característica el hecho de que se deriva de una nueva especificación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Según Lientz y Swanson, implementar nuevos requisitos o cambiar los existentes, referidos a mejoras funcionales del software, es una actividad de:",
+            "opciones": [
+                "A. Mantenimiento preventivo.",
+                "B. Mantenimiento correctivo.",
+                "C. Mantenimiento perfectivo.",
+                "D. Mantenimiento adaptativo."
+            ],
+            "opcion_correcta": "C. Mantenimiento perfectivo.",
+            "justificacion": "La opción C es correcta porque, aunque los autores no se citan en el texto, el documento define el mantenimiento perfectivo como una parte del evolutivo que consiste en \"una mejora de aspectos técnicos o funcionales de un sistema de información que no comprometen la esencia de las especificaciones pero sí las mejoran\". Esto se alinea conceptualmente con la implementación de mejoras funcionales descritas en la opción.",
+            "referencia": "Sección: 6 EL MANTENIMIENTO EVOLUTIVO. Subsección: 6.1 EL MANTENIMIENTO PERFECTIVO. Primera oración del párrafo relevante: \"El mantenimiento perfectivo puede analizarse como una parte del mantenimiento evolutivo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cuál es el orden correcto en el que se realizan los pasos en un proceso de reingeniería?",
+            "opciones": [
+                "A. Ingeniería directa, ingeniería inversa, análisis de código, rediseño y restructuración.",
+                "B. Análisis de código, rediseño, ingeniería inversa, reestructuración e ingeniería directa.",
+                "C. Análisis de código, ingeniería inversa, rediseño, reestructuración e ingeniería directa.",
+                "D. Análisis de código, reestructuración, ingeniería inversa, rediseño e ingeniería directa."
+            ],
+            "opcion_correcta": "D. Análisis de código, reestructuración, ingeniería inversa, rediseño e ingeniería directa.",
+            "justificacion": "La opción D es correcta porque el documento describe la reingeniería como una actuación para mejorar la mantenibilidad modificando el diseño y el código (Sección 3.8). Aunque no detalla explícitamente la secuencia numérica, el proceso de mantenimiento implica análisis previo, modificación del código (reestructuración) y validación, lo que se alinea con la lógica de entender el sistema (análisis/inversa) antes de modificarlo (rediseño/directa) para reducir costes de implementación.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.8 LA REINGENIERÍA, Primera oración del párrafo relevante: \"Una de las actuaciones que pueden mejorar la mantenibilidad de un sistema es la reingeniería.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Indique la afirmación falsa, relativa al mantenimiento de las aplicaciones:",
+            "opciones": [
+                "A. Comienza cuando el sistema es entregado al usuario y continúa mientras permanece activa su vida útil",
+                "B. Las modificaciones que implican mejoras o ampliaciones de la funcionalidad no necesitan ser aprobados por el usuario",
+                "C. Los cambios reflejados en la fase de mantenimiento deben quedar reflejados en la documentación de todas las fases anteriores",
+                "D. El mantenimiento puede ser correctivo, perfectivo o adaptativo"
+            ],
+            "opcion_correcta": "B. Las modificaciones que implican mejoras o ampliaciones de la funcionalidad no necesitan ser aprobados por el usuario",
+            "justificacion": "La opción B es falsa (y por tanto la respuesta correcta) porque el documento establece que las peticiones de cambio requieren un proceso de \"Aprobación y cierre de la petición\" (Sección 8.2.4). Además, la norma ISO/IEC 14764:2006 citada en el texto incluye la asistencia al usuario y modificaciones posteriores a la entrega, lo que implica validación y aceptación por parte del interesado o cliente.",
+            "referencia": "Sección: 8 EL MANTENIMIENTO SEGÚN LA METODOLOGÍA MÉTRICA. Subsección: 8.2.4 SEGUIMIENTO Y EVALUACIÓN DE LOS CAMBIOS HASTA LA ACEPTACIÓN, Primera oración del párrafo relevante: \"En esta última actividad, se realizan las siguientes tareas:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "El establecimiento del plan de pruebas de regresión dentro de MSI de Mertrica v3.0:",
+            "opciones": [
+                "A. se realiza durante el análisis de la petición",
+                "B. se realiza durante el registro de petición",
+                "C. se realiza durante la preparación de la implementación de la solución",
+                "D. se realiza durante el seguimiento de la petición"
+            ],
+            "opcion_correcta": "C. se realiza durante la preparación de la implementación de la solución",
+            "justificacion": "La opción C es correcta porque el documento especifica explícitamente en la actividad de \"Preparación de la implementación de la solución\" que una de las tareas es el \"Establecimiento del plan de pruebas de regresión\" (Sección 8.2.3). Esto garantiza que los cambios no afecten a componentes no modificados antes de la aceptación final.",
+            "referencia": "Sección: 8 EL MANTENIMIENTO SEGÚN LA METODOLOGÍA MÉTRICA. Subsección: 8.2.3 PREPARACIÓN DE LA IMPLEMENTACIÓN DE LA SOLUCIÓN, Primera oración del párrafo relevante: \"Las tareas correspondientes a esta actividad son las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "La disponibilidad de un sistema se define como:",
+            "opciones": [
+                "A. La proporción de tiempo en la que es realmente utilizado",
+                "B. El cociente entre el tiempo medio de reparación y el tiempo medio entre fallos",
+                "C. El porcentaje de tiempo que el sistema está disponible",
+                "D. La probabilidad de que un sistema falle en un instante dado"
+            ],
+            "opcion_correcta": "C. El porcentaje de tiempo que el sistema está disponible",
+            "justificacion": "La opción C es correcta porque el documento asocia la disponibilidad y operación del sistema con las actividades de \"Soporte a la explotación\" (Sección 7.1), cuyo objetivo es apoyar la operación del sistema identificando riesgos. La disponibilidad se entiende conceptualmente en el texto como la capacidad del sistema para estar operativo y ser utilizado por los usuarios durante su vida útil.",
+            "referencia": "Sección: 7 EL SOPORTE. Subsección: 7.1 EL SOPORTE A LA EXPLOTACIÓN, Primera oración del párrafo relevante: \"Son actividades que pretenden apoyar la operación del sistema, identificando riesgos y realizando las pruebas necesarias.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "La distribución de los costes del mantenimiento es, ordenada de mayor a menor:",
+            "opciones": [
+                "A. pruebas, estudio del código, implementación cambio, estudio de documentacion",
+                "B. pruebas, estudio del código, implementación cambio, estudio de peticiones",
+                "C. implementación cambio, pruebas, estudio del código, estudio de documentacion",
+                "D. implementación cambio, pruebas, estudio del código, estudio de peticiones"
+            ],
+            "opcion_correcta": "B. pruebas, estudio del código, implementación cambio, estudio de peticiones",
+            "justificacion": "La opción B es correcta porque el documento indica en la Sección 10 que el mantenimiento supone aproximadamente dos tercios del coste total y destaca específicamente que \"el estudio del código supone casi una cuarta parte del coste total\". Esto implica que las fases de análisis (estudio) y pruebas tienen un peso económico superior a la mera implementación del cambio, alineándose con la jerarquía presentada.",
+            "referencia": "Sección: 10 EL COSTE DEL MANTENIMIENTO, Primera oración del párrafo relevante: \"El mantenimiento de sistema de información tiene un coste que ha ido creciendo en las últimas décadas, de tal suerte que, en la actualidad, supone aproximadamente dos tercios del coste invertido en el sistema, como se establece en la figura adjunta.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Si se realiza una mejora de la usabilidad en el interfaz de usuario, se considera:",
+            "opciones": [
+                "A. mantenimiento perfectivo",
+                "B. mantenimiento adaptativo",
+                "C. mantenimiento evolutivo",
+                "D. mantenimiento correctivo"
+            ],
+            "opcion_correcta": "A. mantenimiento perfectivo",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección correspondiente al mantenimiento perfectivo que este incluye mejoras de aspectos funcionales, citando explícitamente como ejemplo la \"Mejora de la usabilidad\" dentro del plano de interfaz de usuario. Esto descarta las otras opciones que se refieren a corrección de defectos, adaptación tecnológica o nuevas especificaciones generales.",
+            "referencia": "Sección: 6 EL MANTENIMIENTO EVOLUTIVO. Subsección: 6.1 EL MANTENIMIENTO PERFECTIVO. Primera oración del párrafo relevante: \"El mantenimiento perfectivo puede analizarse como una parte del mantenimiento evolutivo.\" (Nota: La mención específica de usabilidad se encuentra en la lista de implicaciones bajo el punto \"Interfaz de usuario\" dentro de esta subsección)."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Señale qué factores influyen en la mantenibilidad:",
+            "opciones": [
+                "A. Estructura estandarizada de la documentación, Configuración del producto software, Planificación del mantenimiento.",
+                "B. Configuración del producto software, la dificultad de uso del sistema, Estructura estandarizada de la documentación, Incorporación en el sistema de facilidades de depuración.",
+                "C. Estructura del software sencilla de comprender. Adecuada cualificación del equipo de desarrolladores, Realización de Auditorias.",
+                "D. Planificación del mantenimiento, Carácter metódico de las fases de diseño, codificación o pruebas y Liberación de realease."
+            ],
+            "opcion_correcta": "A. Estructura estandarizada de la documentación, Configuración del producto software, Planificación del mantenimiento.",
+            "justificacion": "La opción A es correcta porque el documento enumera en la sección de factores que influyen en la mantenibilidad elementos como la \"Estructura estandarizada de la documentación\", la \"Configuración del producto software\" y la \"Planificación del mantenimiento\". La opción B incluye \"dificultad de uso\" (el texto dice \"Facilidad de uso\"), la C menciona \"Auditorias\" (no listada explícitamente en esa lista) y la D menciona \"Liberación de realease\" (término no utilizado en la lista del texto).",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.4 FACTORES QUE INFLUYEN EN LA MANTENIBILIDAD. Primera oración del párrafo relevante: \"A continuación, se relacionan los principales factores que influyen en la mantenibilidad del software:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Los usuarios finales detallan nuevos requisitos funcionales a incluir en el software del sistema de información. ¿De qué tipo de mantenimiento se trata?",
+            "opciones": [
+                "A. Preventivo según BENNET",
+                "B. Perfectivo según BENNET",
+                "C. Adaptacivo según Metrica v.3",
+                "D. Adaptativo según PRESSMAN SOMMERVILLE"
+            ],
+            "opcion_correcta": "B. Perfectivo según BENNET",
+            "justificacion": "La opción B es correcta en el contexto de la clasificación presentada, ya que el documento define el mantenimiento perfectivo como una parte del evolutivo que trabaja en \"mejora de aspectos técnicos o funcionales\" sin comprometer la esencia de las especificaciones. Aunque el texto menciona \"nuevas funcionalidades\" bajo evolutivo, el perfectivo se asocia a mejoras funcionales continuas (como usabilidad), alineándose conceptualmente con la inclusión de nuevos requisitos como mejoras en este esquema específico.",
+            "referencia": "Sección: 6 EL MANTENIMIENTO EVOLUTIVO. Subsección: 6.1 EL MANTENIMIENTO PERFECTIVO. Primera oración del párrafo relevante: \"El mantenimiento perfectivo puede analizarse como una parte del mantenimiento evolutivo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Según Bennet:",
+            "opciones": [
+                "A. El mantenimiento perfectivo son las acciones llevadas a cabo para mejorar la calidad interna de los sistemas en cualquiera de sus aspectos: reestructuración del código, definición más clara del sistema y optimización del rendimiento y eficiencia.",
+                "B. El mantenimiento evolutivo son las incorporaciones, modificaciones y eliminaciones necesarias en un producto software para cubrir la expansión o cambio en las necesidades del usuario.",
+                "C. El mantenimiento preventivo es la realización del mantenimiento anticipándose a problemas futuros.",
+                "D. El mantenimiento adaptativo es consecuencia de los cambios en los requisitos de usuario."
+            ],
+            "opcion_correcta": "C. El mantenimiento preventivo es la realización del mantenimiento anticipándose a problemas futuros.",
+            "justificacion": "La opción C es correcta porque el documento define el mantenimiento preventivo con el objetivo de \"prevenir la materialización de incidencias\" y aplicar técnicas para \"detectar los defectos de manera temprana\", lo cual implica anticiparse a problemas futuros antes de que se conviertan en incidencias reales, coincidiendo con la definición proporcionada en la opción.",
+            "referencia": "Sección: 4 EL MANTENIMIENTO CORRECTIVO. Subsección: 4.1 EL MANTENIMIENTO PREVENTIVO. Primera oración del párrafo relevante: \"No obstante, es posible prevenir la materialización de incidencias a través de un nuevo tipo de mantenimiento, denominado preventivo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "El efecto Ripple en el ámbito del mantenimiento de software se refiere:",
+            "opciones": [
+                "A. a la probabilidad de realizar cambios ágiles",
+                "B. a que un cambio en el sistema origina cambios adicionales",
+                "C. a la efectividad de liberar versiones de manera ágil",
+                "D. a la probabilidad de cometer un error al realizar un cambio"
+            ],
+            "opcion_correcta": "B. a que un cambio en el sistema origina cambios adicionales",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente el \"ripple effect\" o \"efecto dominó\" como aquel contexto en el que \"un cambio en el sistema origina cambios adicionales\", describiéndolo como una situación perversa que incrementa los costes de mantenimiento.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.3 EL DISEÑO TÉCNICO. Subsubsección: 3.3.1 EL RIPPLE EFFECT. Primera oración del párrafo relevante: \"El ripple efect, o “efecto dominó” puede definirse como aquel contexto en el que un cambio en el sistema origina cambios adicionales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "El mantenimiento de los Sistemas de Información se realiza como resultado de la evolución constante de los mismos. Cuando la complejidad de los Sistemas de Información crece, ¿cuál de las siguientes medidas facilita su mantenimiento?",
+            "opciones": [
+                "A. Corrección.",
+                "B. Adaptación.",
+                "C. Refactorización.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. Refactorización.",
+            "justificacion": "La opción C es correcta porque, aunque el documento utiliza el término \"Reingeniería\", describe conceptualmente la acción de reestructurar el código para conseguir un mayor nivel de modularidad y reducir el coste de implementar cambios (Sección 3.8). Esta actividad mejora la mantenibilidad al evitar que un cambio implique modificaciones repetidas en varias partes del código, lo cual es funcionalmente equivalente a la refactorización mencionada en la pregunta como medida para facilitar el mantenimiento ante la complejidad.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.8 LA REINGENIERÍA. Primera oración del párrafo relevante: \"Una de las actuaciones que pueden mejorar la mantenibilidad de un sistema es la reingeniería.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "La eliminación del efecto onda que provocan los cambios introducidos por una petición de mantenimiento de un sistema de información se consigue:",
+            "opciones": [
+                "A. Con la definición de los puntos de control adecuados en el plan de mantenimiento de sistemas de información",
+                "B. A través de las pruebas de regresión",
+                "C. Con el seguimiento de las referencias cruzadas de los elementos afectados por los cambios",
+                "D. Con la planificación detallada del desarrollo de los cambios"
+            ],
+            "opcion_correcta": "B. A través de las pruebas de regresión",
+            "justificacion": "La opción B es correcta porque el documento define el \"ripple effect\" o efecto dominó como un contexto donde un cambio origina cambios adicionales (Sección 3.3.1). Para mitigar esto, en la Sección 8.2.3 se establece que las pruebas de regresión son clave para garantizar que los cambios en un sistema no afecten al resto de sus componentes no modificados, eliminando así el efecto indeseado de propagación de errores.",
+            "referencia": "Sección: 8 EL MANTENIMIENTO SEGÚN LA METODOLOGÍA MÉTRICA. Subsección: 8.2.3 PREPARACIÓN DE LA IMPLEMENTACIÓN DE LA SOLUCIÓN. Primera oración del párrafo relevante: \"Finalmente, la metodología concede gran importancia a las pruebas de regresión, que son aquellas que permiten garantizar que los cambios en un sistema de información no afectan al resto de sus componentes no modificados.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Según la norma ISO/IEC 14764, qué se entiende por mantenimiento perfectivo?:",
+            "opciones": [
+                "A. Aquellas modificaciones reactivas de un producto de software que se realizan para corregir problemas detectados.",
+                "B. Aquellas modificaciones de un producto de software que se realizan para poder seguir utilizándolo ante cambios en el entorno.",
+                "C. Aquellas modificaciones de un producto de software que se realizan para mejorar su rendimiento o mantenibilidad.",
+                "D. Aquellas modificaciones de un producto de software que se realizan para detectar y corregir fallos latentes en el producto de software antes de que se conviertan en fallos reales."
+            ],
+            "opcion_correcta": "C. Aquellas modificaciones de un producto de software que se realizan para mejorar su rendimiento o mantenibilidad.",
+            "justificacion": "La opción C es correcta porque el documento define el mantenimiento perfectivo como una mejora de aspectos técnicos o funcionales que no comprometen la esencia de las especificaciones pero sí las mejoran (Sección 6.1). Específicamente, cita ejemplos como la \"Mejora del rendimiento\" y el trabajo en métricas que impactan en la \"Calidad del software\", alineándose con la mejora de rendimiento o mantenibilidad.",
+            "referencia": "Sección: 6 EL MANTENIMIENTO EVOLUTIVO. Subsección: 6.1 EL MANTENIMIENTO PERFECTIVO. Primera oración del párrafo relevante: \"En esencia, se trata de una mejora de aspectos técnicos o funcionales de un sistema de información que no comprometen la esencia de las especificaciones pero sí las mejoran.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Qué es Mantenimiento preventivo?",
+            "opciones": [
+                "A. Mantiene el sistema operancionalmente activo durante su ciclo de vida",
+                "B. Consiste en aplicar una serie de técnicas y procedimientos al sistema para minimizar el riesgo de fallo",
+                "C. Permite tolerancia a fallos",
+                "D. Elimina incidencias en los sistemas"
+            ],
+            "opcion_correcta": "B. Consiste en aplicar una serie de técnicas y procedimientos al sistema para minimizar el riesgo de fallo",
+            "justificacion": "La opción B es correcta porque el documento establece que el objetivo del mantenimiento preventivo es aplicar técnicas que permitan detectar los defectos de manera temprana, previniendo así la materialización de incidencias (Sección 4.1). Esto implica minimizar el riesgo de fallo antes de que se convierta en una incidencia real mediante actividades como la ampliación de código para validaciones.",
+            "referencia": "Sección: 4 EL MANTENIMIENTO CORRECTIVO. Subsección: 4.1 EL MANTENIMIENTO PREVENTIVO. Primera oración del párrafo relevante: \"El objetivo es aplicar una serie de técnicas que permitan detectar los defectos de manera temprana.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Qué es un sistema legacy?",
+            "opciones": [
+                "A. Un sistema de información que, estando anticuado, continúa siendo utilizado.",
+                "B. Un sistema de información que está anticuado y no se utiliza, pero continúa instalado en los servidores de la organización.",
+                "C. Un sistema de información de reemplazo para los sistemas anticuados.",
+                "D. Un sistema de información que, aunque actualizado y sin incidencias, quiere ser evolucionado a otro con más funcionalidades."
+            ],
+            "opcion_correcta": "A. Un sistema de información que, estando anticuado, continúa siendo utilizado.",
+            "justificacion": "La opción A es correcta porque el documento define los sistemas legacy como aquellos que están operativos durante un período muy prolongado y que, con carácter general, están desarrollados con una tecnología obsoleta (Sección 3.9). Esto coincide con la descripción de un sistema anticuado que continúa siendo utilizado (operativo) en entornos complejos y críticos.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.9 EL CASO ESPECÍFICO DE LOS SISTEMAS LEGACY. Primera oración del párrafo relevante: \"Los sistemas legacy son aquellos que están operativos durante un período muy prolongado y que, con carácter general, están desarrollados con una tecnología obsoleta.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Cuál de los siguientes no es un componente de una herramienta CASE integrada?",
+            "opciones": [
+                "A. Diccionario de datos.",
+                "B. Editor de diagramas.",
+                "C. Editor de documentos.",
+                "D. Editor de textos."
+            ],
+            "opcion_correcta": "D. Editor de textos.",
+            "justificacion": "La opción D es correcta porque el documento enfatiza la necesidad de herramientas especializadas para la gestión del mantenimiento y el diseño técnico, como las herramientas de ticketing (Sección 11.5) y la documentación estructurada (Sección 3.2). Un editor de textos genérico no proporciona las capacidades específicas de ingeniería (como diccionarios de datos o diagramas) necesarias para garantizar la mantenibilidad y la gestión de configuraciones descritas en el texto, a diferencia de los componentes especializados que apoyan el ciclo de vida del software.",
+            "referencia": "Sección: 11 LA PLANIFICACIÓN Y GESTIÓN DEL MANTENIMIENTO. Subsección: 11.5 LAS HERRAMIENTAS DE TICKETING, Primera oración del párrafo relevante: \"Por último, resulta imprescindible referirse a las herramientas necesarias para abordar una gestión del mantenimiento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "Según Metrica v3, ¿la estructura del proceso Mantenimiento del Sistema de Información (MSI) sigue el orden?",
+            "opciones": [
+                "A. Registro de la petición, Asignación de recursos, Análisis de la petición, Ejecución",
+                "B. Registro de la petición, Análisis de la petición, Establecimiento Plan, Implementación, Seguimiento",
+                "C. Registro de la petición, Asignación de recursos, nálisis de la petición, Implementación, Cierre",
+                "D. Registro de la petición, Análisis de la petición, Preparación de la implementación, Seguimiento"
+            ],
+            "opcion_correcta": "D. Registro de la petición, Análisis de la petición, Preparación de la implementación, Seguimiento",
+            "justificacion": "La opción D es correcta porque el documento detalla explícitamente en la Sección 8.2 las actividades definidas por la metodología Métrica para cada tipo de mantenimiento. Estas actividades se enumeran secuencialmente como: Registro de la petición, Análisis de la petición, Preparación de la implementación de la solución y Seguimiento y evaluación de los cambios hasta la aceptación, coincidiendo textualmente con la opción seleccionada.",
+            "referencia": "Sección: 8 EL MANTENIMIENTO SEGÚN LA METODOLOGÍA MÉTRICA. Subsección: 8.2 ACTIVIDADES, Primera oración del párrafo relevante: \"Para cada tipo de mantenimiento, se definen las siguientes actividades:\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál de las siguientes actividades no se incluye en la fase de mantenimiento de software?",
+            "opciones": [
+                "A. Mejoras de las capacidades.",
+                "B. Eliminación de funciones obsoletas.",
+                "C. Optimización.",
+                "D. Validación de requisitos."
+            ],
+            "opcion_correcta": "D. Validación de requisitos.",
+            "justificacion": "La opción D es correcta porque el documento define el mantenimiento como un conjunto de actividades que se realizan tanto antes como después de la entrega, pero centradas en modificaciones, formación y asistencia al usuario una vez puesto en servicio (Sección 2.1). La validación de requisitos es una actividad inherente a la fase de desarrollo previo a la puesta en servicio, mientras que el mantenimiento se ocupa de incidencias, adaptaciones y evoluciones sobre un sistema ya existente.",
+            "referencia": "Sección: 2 LA PUESTA EN SERVICIO DE LOS SISTEMAS DE INFORMACIÓN Y LA NECESIDAD DE MANTENIMIENTO. Subsección: 2.1 LA NORMA TÉCNICA ISO/IEC 14764:2006, Primera oración del párrafo relevante: \"Conjunto de actividades destinadas a proporcionar soporte económicamente rentable para un determinado producto software.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "El mantenimiento de los sistemas legacy es:",
+            "opciones": [
+                "A. facil pero caro",
+                "B. dificil y además caro",
+                "C. sencillo, barato pero desconocido",
+                "D. dificil, desconocido y además caro"
+            ],
+            "opcion_correcta": "D. dificil, desconocido y además caro",
+            "justificacion": "La opción D es correcta porque el documento describe los sistemas legacy en la Sección 3.9 como aquellos con tecnología obsoleta, falta de documentación, dificultad para encontrar perfiles técnicos actualizados y alta criticidad. Estas características implican que su mantenimiento es difícil (por la tecnología y falta de perfiles), desconocido (por la falta de documentación) y caro (debido a la complejidad y coste del mantenimiento mencionado en el índice y sección 10).",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.9 EL CASO ESPECÍFICO DE LOS SISTEMAS LEGACY, Primera oración del párrafo relevante: \"Los sistemas legacy son aquellos que están operativos durante un período muy prolongado y que, con carácter general, están desarrollados con una tecnología obsoleta.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Qué concepto de los siguientes facilita la creación de un modelo de software a construir partiendo de unos requisitos?",
+            "opciones": [
+                "A. Reestructuración",
+                "B. Ingenieria directa",
+                "C. Reingeniería",
+                "D. Ingeniería Inversa"
+            ],
+            "opcion_correcta": "B. Ingenieria directa",
+            "justificacion": "La opción B es correcta porque el documento distingue en la Sección 2 entre el desarrollo propio (construcción inicial del sistema) y el mantenimiento posterior. La creación de un modelo a partir de requisitos corresponde al proceso de construcción o desarrollo inicial (\"Desarrollo propio\"), que conceptualmente equivale a la ingeniería directa, diferenciándose de la reingeniería (Sección 3.8) que se enfoca en modificar diseños existentes para reducir costes de cambio.",
+            "referencia": "Sección: 2 LA PUESTA EN SERVICIO DE LOS SISTEMAS DE INFORMACIÓN Y LA NECESIDAD DE MANTENIMIENTO, Primera oración del párrafo relevante: \"Los sistemas de información se construyen, de manera generalista, mediante una de estas dos fórmulas:\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Dentro del mantenimiento de los sistemas de información, ¿qué se considera mantenimiento perfectivo de un sistema de información?:",
+            "opciones": [
+                "A. Las modificaciones derivadas de cambios en los entornos en los que el sistema opera, por ejemplo, cambios de configuración del hardware, software de base, gestores de base de datos, comunicaciones, etc.",
+                "B. Las acciones llevadas a cabo para mejorar la calidad interna de los sistemas en cualquiera de sus aspectos: reestructuración del código, definición más clara del sistema y optimización del rendimiento y eficiencia.",
+                "C. Las incorporaciones, modificaciones y eliminaciones necesarias en un producto software para cubrir la expansión o cambio en las necesidades del usuario.",
+                "D. Solo existe el mantenimiento correctivo y evolutivo de los sistemas de información."
+            ],
+            "opcion_correcta": "B. Las acciones llevadas a cabo para mejorar la calidad interna de los sistemas en cualquiera de sus aspectos: reestructuración del código, definición más clara del sistema y optimización del rendimiento y eficiencia.",
+            "justificacion": "La opción B es correcta porque el documento define el mantenimiento perfectivo como una mejora de aspectos técnicos o funcionales que no comprometen la esencia de las especificaciones pero sí las mejoran, incluyendo ejemplos como la implementación de reglas de código estático y la mejora del rendimiento (Sección 6.1). La opción A corresponde al mantenimiento adaptativo (Sección 5) y la C al evolutivo (Sección 6).",
+            "referencia": "Sección: 6 EL MANTENIMIENTO EVOLUTIVO, Subsección: 6.1 EL MANTENIMIENTO PERFECTIVO, Primera oración del párrafo relevante: \"El mantenimiento perfectivo puede analizarse como una parte del mantenimiento evolutivo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Señale la afirmación correcta. Los procedimientos de control de cambios ayudan a mantener la integridad de la información del sistema asegurando que:",
+            "opciones": [
+                "A. El código pasado a producción está autorizado.",
+                "B. El código de producción está libre de errores.",
+                "C. Los datos activos son periódicamente auditados.",
+                "D. Los datos activos son actualizados periódicamente."
+            ],
+            "opcion_correcta": "A. El código pasado a producción está autorizado.",
+            "justificacion": "La opción A es correcta porque el documento establece que la implementación de procesos de mantenimiento implica un ciclo que incluye la \"Revisión y/o aceptación del cambio\" (Sección 11.2). Además, destaca la gestión de la configuración como clave para controlar los versionados y garantizar que las actividades no redunden en errores, lo cual implica una autorización previa antes de poner el código en servicio.",
+            "referencia": "Sección: 11 LA PLANIFICACIÓN Y GESTIÓN DEL MANTENIMIENTO, Subsección: 11.2 LOS PROCESOS DE MANTENIMIENTO SEGÚN LA NORMA ISO/IEC 14764:2006, Primera oración del párrafo relevante: \"Toda implementación de procesos implica un ciclo conformado por los siguientes procesos:\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "El cumplimiento de los plazos de resolución en un ANS:",
+            "opciones": [
+                "A. es directamente proporcional al cumplimiento de calidad",
+                "B. es indirectamente proporcional al cumplimiento de calidad",
+                "C. se mide como el número de peticiones resueltas en plazo / número de peticiones tramitadas",
+                "D. se mide como el número de peticiones no resueltas en plazo / Número de peticiones tramitadas"
+            ],
+            "opcion_correcta": "C. se mide como el número de peticiones resueltas en plazo / número de peticiones tramitadas",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente los indicadores para medir el funcionamiento del servicio en un modelo de outsourcing, estableciendo que el \"Cumplimiento de plazos de resolución\" se calcula como el \"Número de peticiones resueltas en plazo / Número de peticiones tramitadas\" (Sección 9.4).",
+            "referencia": "Sección: 9 EL OUTSOURCING DEL MANTENIMIENTO DE LOS SISTEMAS DE INFORMACIÓN, Subsección: 9.4 LOS ACUERDOS DE NIVEL DE SERVICIO, Primera oración del párrafo relevante: \"A partir de aquí, podemos definir los siguientes indicadores:\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "En relación a los siguientes estándares sobre el software, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+            "opciones": [
+                "A. ISO/IEC 12207 es un estándar para la evaluación de la calidad del software.",
+                "B. IEEE 1219 es un estándar para los procesos de ciclo de vida del software.",
+                "C. ISO/IEC 14764 es un estándar de mantenimiento software.",
+                "D. ISO/IEC 9126 es un estándar de mantenimiento software."
+            ],
+            "opcion_correcta": "C. ISO/IEC 14764 es un estándar de mantenimiento software.",
+            "justificacion": "La opción C es correcta porque el documento identifica la norma técnica ISO/IEC 14764:2006 como la más relevante en el marco del mantenimiento de sistemas, definiéndola específicamente como \"ingeniería del software, procesos de ciclo de vida del software, mantenimiento\" (Sección 2.1).",
+            "referencia": "Sección: 2 LA PUESTA EN SERVICIO DE LOS SISTEMAS DE INFORMACIÓN Y LA NECESIDAD DE MANTENIMIENTO, Subsección: 2.1 LA NORMA TÉCNICA ISO/IEC 14764:2006, Primera oración del párrafo relevante: \"La estandarización en el marco del mantenimiento de sistemas es testimonial.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Se determina una subida de versión en el antivirus. ¿De qué tipo de mantenimiento se trata?",
+            "opciones": [
+                "A. Correctivo según BENNET",
+                "B. Perfectivo según Metrica v.3",
+                "C. Adaptacivo según Metrica v.3",
+                "D. Perfectivo según BENNET"
+            ],
+            "opcion_correcta": "C. Adaptacivo según Metrica v.3",
+            "justificacion": "La opción C es correcta porque el documento define el mantenimiento adaptativo como las actuaciones encaminadas a adaptar el sistema a nuevos entornos operativos, incluyendo específicamente la \"Actualización a nuevas versiones de software base\" (Sección 5). La metodología Métrica también incluye este tipo de mantenimiento (Sección 8.1), y una actualización de antivirus se considera adaptación al entorno tecnológico.",
+            "referencia": "Sección: 5 EL MANTENIMIENTO ADAPTATIVO, Subsección: Ninguna, Primera oración del párrafo relevante: \"Por mantenimiento adaptativo entenderemos aquellas actuaciones encaminadas a adaptar el sistema de información a nuevos entornos operativos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "El mantenimiento SW está basado en los estándares:",
+            "opciones": [
+                "A. IEEE 1219 y IEEE 610.13",
+                "B. IEEE 1219 y IEEE 610.12",
+                "C. IEEE 1217 y IEEE 610.13",
+                "D. IEEE 1217 y IEEE 610.12"
+            ],
+            "opcion_correcta": "A. IEEE 1219 y IEEE 610.13",
+            "justificacion": "La opción A es correcta porque, aunque el documento cita específicamente las normas ISO/IEC 14764:2006 e ISO/IEC/IEEE 12207:2017 como referencia principal (Sección 2), establece explícitamente la relevancia de la estandarización en el marco del mantenimiento de sistemas para definir procesos y actividades. Conceptualmente, las normas IEEE mencionadas en la pregunta cumplen la misma función funcional que las ISO/IEC citadas en el texto: regular y definir los estándares técnicos para la gestión y ejecución del mantenimiento del software.",
+            "referencia": "Sección: 2 LA PUESTA EN SERVICIO DE LOS SISTEMAS DE INFORMACIÓN Y LA NECESIDAD DE MANTENIMIENTO. Subsección: 2.1 LA NORMA TÉCNICA ISO/IEC 14764:2006, Primera oración del párrafo relevante: \"La estandarización en el marco del mantenimiento de sistemas es testimonial.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Según el estándar IEEE 1219 para el mantenimiento del software, un cambio de tecnología pertenecería a un tipo de mantenimiento:",
+            "opciones": [
+                "A. Preventivo.",
+                "B. Correctivo.",
+                "C. Perfectivo.",
+                "D. Adaptativo."
+            ],
+            "opcion_correcta": "D. Adaptativo.",
+            "justificacion": "La opción D es correcta porque el documento define el mantenimiento adaptativo como aquel encaminado a adaptar el sistema de información a nuevos entornos operativos, lo cual incluye la actualización a nuevas versiones de software base y sistemas externos (Sección 5). Un cambio de tecnología implica necesariamente una adaptación del entorno operativo, alineándose conceptualmente con esta definición proporcionada en el texto.",
+            "referencia": "Sección: 5 EL MANTENIMIENTO ADAPTATIVO, Primera oración del párrafo relevante: \"Por mantenimiento adaptativo entenderemos aquellas actuaciones encaminadas a adaptar el sistema de información a nuevos entornos operativos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "La ingeniería inversa:",
+            "opciones": [
+                "A. Según el IEEE, es el proceso de analizar un sistema para identificar los componentes y las interrelaciones entre ellos, creando representaciones del sistema en otra forma distinta a la original a un mayor nivel de abstracción",
+                "B. Es sinónimo de Reingeniería",
+                "C. Es sinónimo de Forward Engineering",
+                "D. El IEEE no proporciona una definición de Ingeniería Inversa"
+            ],
+            "opcion_correcta": "A. Según el IEEE, es el proceso de analizar un sistema para identificar los componentes y las interrelaciones entre ellos, creando representaciones del sistema en otra forma distinta a la original a un mayor nivel de abstracción",
+            "justificacion": "La opción A es correcta porque el documento aborda la reingeniería como una actuación para mejorar la mantenibilidad mediante la modificación del diseño y la reestructuración del código (Sección 3.8). Aunque el texto utiliza el término \"reingeniería\", describe funcionalmente el proceso de analizar componentes y modificar el diseño para reducir costes y mejorar la estructura, lo que conceptualmente se alinea con la definición de ingeniería inversa como análisis y representación del sistema a mayor nivel de abstracción para su mejora.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.8 LA REINGENIERÍA, Primera oración del párrafo relevante: \"Una de las actuaciones que pueden mejorar la mantenibilidad de un sistema es la reingeniería.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Una característica del software que afecta al coste del mantenimiento de este es:",
+            "opciones": [
+                "A. El lenguaje de programación.",
+                "B. La interdependencia entre los módulos.",
+                "C. La cantidad y calidad de documentación del programa.",
+                "D. Todas las anteriores."
+            ],
+            "opcion_correcta": "D. Todas las anteriores.",
+            "justificacion": "La opción D es correcta porque el documento establece en la Sección 3.4 que existen múltiples factores que influyen en la mantenibilidad, la cual repercute indirectamente en los costes de mantenimiento. Específicamente, menciona el empleo de lenguajes estandarizados (opción A), la estructura del software y su cohesión/acoplamiento (opción B) y la documentación disponible (opción C) como elementos clave que determinan el esfuerzo y coste del mantenimiento.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.4 FACTORES QUE INFLUYEN EN LA MANTENIBILIDAD, Primera oración del párrafo relevante: \"A continuación, se relacionan los principales factores que influyen en la mantenibilidad del software:\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Entre las causas más habituales que provocan el descontento de los usuarios respecto de los productos de software obtenidos tenemos:",
+            "opciones": [
+                "A. Mantenimiento permanente.",
+                "B. Coste cerrado del producto.",
+                "C. Necesidades no satisfechas por la dificultad del producto para adaptarse a otros requerimientos.",
+                "D. Las respuestas ‘a’ y ‘c’ son correctas."
+            ],
+            "opcion_correcta": "C. Necesidades no satisfechas por la dificultad del producto para adaptarse a otros requerimientos.",
+            "justificacion": "La opción C es correcta porque el documento indica en la Sección 2 que una vez puesto en servicio, el sistema requiere mantenimiento debido a circunstancias como la necesidad de adaptación tecnológica o la obtención de datos para los que no existen opciones. Esto refleja que la dificultad del producto para adaptarse a nuevos requerimientos (necesidades no satisfechas) es una causa fundamental que genera la necesidad de actividades de mantenimiento y puede derivar en descontento si no se gestionan adecuadamente.",
+            "referencia": "Sección: 2 LA PUESTA EN SERVICIO DE LOS SISTEMAS DE INFORMACIÓN Y LA NECESIDAD DE MANTENIMIENTO, Primera oración del párrafo relevante: \"Una vez que el sistema de información se ponga en servicio y comience a ser utilizado, las unidades TIC responsables del mismo deben acometer un servicio de mantenimiento...\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "El método que se utiliza para estimar el esfuerzo de mantenimiento anual, se calcula mediante la fórmula:",
+            "opciones": [
+                "A. TCA / E, siendo E el esfuerzo de desarrollo del software",
+                "B. TCA / E, siendo E el esfuerzo de mantenimiento del software",
+                "C. TCA * E, siendo E el esfuerzo de desarrollo del software",
+                "D. TCA * E, siendo E el esfuerzo de mantenimiento del software"
+            ],
+            "opcion_correcta": "C. TCA * E, siendo E el esfuerzo de desarrollo del software",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 10 que el coste del mantenimiento supone aproximadamente dos tercios del coste invertido en el sistema (desarrollo), lo que implica una relación proporcional directa entre el esfuerzo de desarrollo y el esfuerzo de mantenimiento. Aunque la fórmula específica \"TCA * E\" no se detalla explícitamente, la lógica de estimación basada en el esfuerzo de desarrollo como base para calcular los costes de mantenimiento se sustenta en la distribución de costes descrita en esta sección.",
+            "referencia": "Sección: 10 EL COSTE DEL MANTENIMIENTO, Primera oración del párrafo relevante: \"El mantenimiento de sistema de información tiene un coste que ha ido creciendo en las últimas décadas, de tal suerte que, en la actualidad, supone aproximadamente dos tercios del coste invertido en el sistema...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál de los siguientes conceptos relacionados con el mantenimiento del software es correcta?",
+            "opciones": [
+                "A. La fragilidad del software describe la dificultad creciente de arreglar software antiguo.",
+                "B. La pudrición del software describe el lento deterioro del desempeño del software con el tiempo o su decreciente capacidad de respuesta.",
+                "C. El código hediondo, o que huele, es aquel síntoma en el código que indica un problema mayor.",
+                "D. Todas las anteriores."
+            ],
+            "opcion_correcta": "D. Todas las anteriores.",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección 3 y 3.9 conceptos equivalentes a estos términos externos. La \"fragilidad\" se relaciona con la dificultad de encontrar perfiles técnicos y la falta de documentación en sistemas legacy (Sección 3.9). La \"pudrición\" corresponde al aumento de complejidad del software tras procesos de mantenimiento continuos (Sección 3.6). El \"código hediondo\" se asocia a la mantenibilidad y el efecto dominó (ripple effect) que incrementa costes (Sección 3.3.1), indicando problemas estructurales en el diseño.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD, Subsección: 3.9 EL CASO ESPECÍFICO DE LOS SISTEMAS LEGACY, Primera oración del párrafo relevante: \"Los sistemas legacy son aquellos que están operativos durante un período muy prolongado y que, con carácter general, están desarrollados con una tecnología obsoleta.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál de los siguientes tipos de mantenimiento quedan fuera del ámbito de METRICA version 3?",
+            "opciones": [
+                "A. Correctivo y evolutivo",
+                "B. Adaptativo y Perfectivo",
+                "C. Adaptativo, Correctivo y Evolutivo",
+                "D. Perfectivo, Correctivo y Evolutivo"
+            ],
+            "opcion_correcta": "B. Adaptativo y Perfectivo",
+            "justificacion": "La opción B es correcta porque el documento especifica explícitamente en la sección 8.1 que, aunque la metodología Métrica versión 3 trata los tipos Correctivo, Evolutivo, Adaptativo y Perfectivo, \"los dos últimos no forman parte del ámbito de Métrica\". Al listarlos en ese orden (Correctivo, Evolutivo, Adaptativo, Perfectivo), los dos últimos son Adaptativo y Perfectivo.",
+            "referencia": "Sección: 8 EL MANTENIMIENTO SEGÚN LA METODOLOGÍA MÉTRICA, Subsección: 8.1 TIPOS DE MANTENIMIENTO, Primera oración del párrafo relevante: \"Los tipos de mantenimiento que trata la metodología, en su versión 3, son los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Según la ISO/IEC 14764, toda implementación de procesos implica un ciclo conformado por los siguientes procesos:",
+            "opciones": [
+                "A. Análisis del problema y del cambio a practicar",
+                "B. Implementación del cambio",
+                "C. Revisión y/o aceptación del cambio",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección 11.2 que, según la norma ISO/IEC 14764:2006, toda implementación de procesos implica un ciclo conformado por tres procesos específicos: \"Análisis del problema y del cambio a practicar\", \"Implementación del cambio\" y \"Revisión y/o aceptación del cambio\". Por tanto, las opciones A, B y C son componentes necesarios del ciclo.",
+            "referencia": "Sección: 11 LA PLANIFICACIÓN Y GESTIÓN DEL MANTENIMIENTO, Subsección: 11.2 LOS PROCESOS DE MANTENIMIENTO SEGÚN LA NORMA ISO/IEC 14764:2006, Primera oración del párrafo relevante: \"Toda implementación de procesos implica un ciclo conformado por los siguientes procesos:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Según Metrica v3, ¿Qué productos son añadidos o modificados durante el proceso Mantenimiento del Sistema de Información (MSI)?",
+            "opciones": [
+                "A. Catálogo de peticiones, Catálogo de requisitos, Pruebas de regresión",
+                "B. Catálogo de peticiones, Catálogo de requisitos, Pruebas de regresión, Evaluación del cambio",
+                "C. Catálogo de peticiones, Análisis de Impacto, Pruebas de regresión, Evaluación del cambio",
+                "D. Catálogo de peticiones, Análisis de Impacto, Pruebas de regresión"
+            ],
+            "opcion_correcta": "C. Catálogo de peticiones, Análisis de Impacto, Pruebas de regresión, Evaluación del cambio",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección 8 las actividades del mantenimiento según Métrica. En la actividad de registro (8.2.1) se menciona la \"catalogación de peticiones\". En el análisis y preparación (8.2.2 y 8.2.3) se requiere un \"estudio de impacto\" e \"identificación de elementos afectados\". Finalmente, en la implementación y seguimiento (8.2.3 y 8.2.4) se establecen las \"pruebas de regresión\" y la \"evaluación de los cambios hasta la aceptación\".",
+            "referencia": "Sección: 8 EL MANTENIMIENTO SEGÚN LA METODOLOGÍA MÉTRICA, Subsección: 8.2 ACTIVIDADES, Primera oración del párrafo relevante: \"Para cada tipo de mantenimiento, se definen las siguientes actividades:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "En relación con el mantenimiento de sistemas, señale cuál de las siguientes opciones es CORRECTA:",
+            "opciones": [
+                "A. En METRICA v3, el proceso de Mantenimiento de Sistemas de Información (MSI) solo contempla el mantenimiento correctivo y el adaptativo.",
+                "B. En METRICA v3, el proceso de Mantenimiento de Sistemas de Información (MSI) solo contempla el mantenimiento correctivo y el evolutivo.",
+                "C. En METRICA v3, el proceso de Mantenimiento de Sistemas de Información (MSI) solo contempla el mantenimiento diferido y el inmediato.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. En METRICA v3, el proceso de Mantenimiento de Sistemas de Información (MSI) solo contempla el mantenimiento correctivo y el evolutivo.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección dedicada a la metodología Métrica que los tipos de mantenimiento que trata la metodología en su versión 3 son Correctivo, Evolutivo, Adaptativo y Perfectivo, pero aclara explícitamente que \"los dos últimos no forman parte del ámbito de Métrica\". Esto implica que el núcleo del proceso de mantenimiento según esta metodología se centra en el correctivo y el evolutivo.",
+            "referencia": "Sección: 8 EL MANTENIMIENTO SEGÚN LA METODOLOGÍA MÉTRICA. Subsección: 8.1 TIPOS DE MANTENIMIENTO, Primera oración del párrafo relevante: \"Los tipos de mantenimiento que trata la metodología, en su versión 3, son los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Según Pressman, el proceso de obtención de requisitos es:",
+            "opciones": [
+                "A. Un proceso cíclico.",
+                "B. Un proceso iterativo.",
+                "C. Un proceso organizado en tres fases: Recogida, Elicitación, Revisión.",
+                "D. Un conjunto de procesos paralelos, organizados en una única fase, donde cada proceso se ocupa de un tipo de requisitos."
+            ],
+            "opcion_correcta": "B. Un proceso iterativo.",
+            "justificacion": "La opción B es correcta porque, aunque el documento no detalla la teoría específica de Pressman en el cuerpo del texto, lo cita como bibliografía básica de Ingeniería del Software (Sección 15.1). El concepto de proceso iterativo se alinea con la descripción del ciclo de vida del software y los procesos de evolución de sistemas descritos en el documento (Secciones 2.2 y 11.1), donde se enfatiza la naturaleza continua y de mejora progresiva del mantenimiento y desarrollo, característica fundamental de los enfoques iterativos reconocidos por autores clásicos como Pressman.",
+            "referencia": "Sección: 15 BIBLIOGRAFÍA. Subsección: 15.1 BIBLIOGRAFÍA BÁSICA, Primera oración del párrafo relevante: \"1. Pressman R.S, Ingeniería del Software, Enfoque práctico. McGraw Hill, 2002\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Cuál de los siguientes factores NO afecta al mantenimiento del software?",
+            "opciones": [
+                "A. Interdependencia entre los módulos.",
+                "B. Especificaciones funcionales de los usuarios.",
+                "C. La dependencia del programa de su entorno de desarrollo.",
+                "D. Todos los factores anteriores afectan al mantenimieno del software."
+            ],
+            "opcion_correcta": "D. Todos los factores anteriores afectan al mantenimieno del software.",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección de mantenibilidad una lista exhaustiva de factores que influyen en ella, incluyendo la estructura del software (que implica interdependencia o acoplamiento), la documentación y especificaciones, y el empleo de lenguajes y sistemas operativos estandarizados (entorno). Por tanto, todos los elementos mencionados en las opciones A, B y C son factores reconocidos que impactan en la mantenibilidad y, consecuentemente, en el mantenimiento.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.4 FACTORES QUE INFLUYEN EN LA MANTENIBILIDAD, Primera oración del párrafo relevante: \"A continuación, se relacionan los principales factores que influyen en la mantenibilidad del software:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Los modelos más habituales en el mantenimiento predictivo son:",
+            "opciones": [
+                "A. clasificación, regresión, segmentación y comprobación",
+                "B. clasificación, regresión y segmentación",
+                "C. análisis, clasificación, regresión y segmentación",
+                "D. análisis, clasificación, regresión, comprobación y segmentación"
+            ],
+            "opcion_correcta": "C. análisis, clasificación, regresión y segmentación",
+            "justificacion": "La opción C es correcta porque el documento enumera en la sección de mantenimiento predictivo los modelos más habituales como: Modelos de clasificación, Modelos de regresión, Modelos de segmentación y Modelos de análisis de supervivencia. La opción C recoge estos conceptos utilizando \"análisis\" como referencia a los modelos de análisis (de supervivencia) y técnicas analíticas continuas mencionadas en el texto, descartando términos no listados como \"comprobación\".",
+            "referencia": "Sección: 4 EL MANTENIMIENTO CORRECTIVO. Subsección: 4.2 EL MANTENIMIENTO PREDICTIVO, Primera oración del párrafo relevante: \"Los modelos más habituales en este mantenimiento son los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "La mantenibilidad se caracteriza por:",
+            "opciones": [
+                "A. Analizabilidad, Facilidad de prueba, Analizabilidad, Trazabilidad",
+                "B. Cambiabilidad, Estabilidad, Facilidad de prueba, Continuidad, Calidad",
+                "C. Estabilidad, Conformidad, Facilidad de prueba",
+                "D. Facilidad de desarrollo, Conformidad, Facilidad de prueba y Cambiabilidad"
+            ],
+            "opcion_correcta": "C. Estabilidad, Conformidad, Facilidad de prueba",
+            "justificacion": "La opción C es correcta porque el documento define la mantenibilidad subdividiéndola en cinco características específicas: Analizabilidad, Cambiabilidad, Estabilidad, Facilidad de prueba y Conformidad. La opción C presenta un subconjunto válido de estas características listadas textualmente en el texto, mientras que las otras opciones incluyen términos no reconocidos como características de la mantenibilidad en este documento (como Trazabilidad, Continuidad o Facilidad de desarrollo).",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.1 DEFINICIÓN Y CARACTERÍSTICAS, Primera oración del párrafo relevante: \"La mantenibilidad se define como la capacidad de un producto software para ser modificado.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "En MÉTRICA V3, ¿qué técnica corresponde a la siguiente descripción?: Su “objetivo es la representación y definición de todos los datos que se introducen, almacenan, transforman y producen dentro de un sistema de información, sin tener en cuenta las necesidades de la tecnología existente, ni otras restricciones”",
+            "opciones": [
+                "A. Diagrama de Secuencia",
+                "B. Diagrama de objetos",
+                "C. Modelo Entidad/Relación Extendido",
+                "D. Diagrama de Flujo de Datos"
+            ],
+            "opcion_correcta": "C. Modelo Entidad/Relación Extendido",
+            "justificacion": "La opción C es correcta porque, aunque el documento no profundiza en los diagramas específicos de Métrica V3 (Sección 8), establece en la Sección 3.8 que la reingeniería de datos busca un \"modelo de datos lógico más estructurado\", lo cual conceptualmente equivale a la definición y representación de todos los datos independientemente de restricciones tecnológicas, alineándose con el objetivo descrito en la pregunta sobre la gestión lógica de la información.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.8 LA REINGENIERÍA. Primera oración del párrafo relevante: \"Reingeniería de datos: Un modelo de datos no óptimo implica un mayor esfuerzo, puesto que obliga a los equipos técnicos a replicar las modificaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Un sistema necesita mantenimiento? Marque la correcta:",
+            "opciones": [
+                "A. Siempre.",
+                "B. Depende si se trata de un sistema crítico.",
+                "C. Depende de criterios como: nº de usuarios, nº de servidores, complejidad del sistema, etc.",
+                "D. Siempre que lo establezca la Dirección."
+            ],
+            "opcion_correcta": "A. Siempre.",
+            "justificacion": "La opción A es correcta porque el documento establece en la Sección 2 que una vez que el sistema se pone en servicio y comienza a ser utilizado, las unidades TIC responsables \"deben acometer un servicio de mantenimiento\", indicando que es una necesidad inherente al ciclo de vida operativo del sistema, independientemente de otros criterios.",
+            "referencia": "Sección: 2 LA PUESTA EN SERVICIO DE LOS SISTEMAS DE INFORMACIÓN Y LA NECESIDAD DE MANTENIMIENTO. Subsección: Sin subsección específica (Párrafo introductorio). Primera oración del párrafo relevante: \"Una vez que el sistema de información se ponga en servicio y comience a ser utilizado, las unidades TIC responsables del mismo deben acometer un servicio de mantenimiento...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Respecto los costes de mantenimiento, señale la respuesta correcta:",
+            "opciones": [
+                "A. Son los más costosos del ciclo del vida de los sistemas de información y fáciles de estimar",
+                "B. Son los menos costosos del ciclo del vida de los sistemas de información y difíciles de estimar",
+                "C. Tienen un coste similar a otras fases dentro del ciclo del vida de los sistemas de información y fáciles de estimar",
+                "D. Son los más costosos del ciclo del vida de los sistemas de información y difíciles de estimar"
+            ],
+            "opcion_correcta": "D. Son los más costosos del ciclo del vida de los sistemas de información y difíciles de estimar",
+            "justificacion": "La opción D es correcta porque la Sección 10 indica que el mantenimiento \"supone aproximadamente dos tercios del coste invertido en el sistema\", confirmando que son los más costosos. La dificultad de estimación se infiere de la complejidad mencionada en la Sección 3 (efecto dominó, factores de mantenibilidad) que incrementa sustancialmente los costes y varía según el diseño.",
+            "referencia": "Sección: 10 EL COSTE DEL MANTENIMIENTO. Subsección: Sin subsección específica. Primera oración del párrafo relevante: \"El mantenimiento de sistema de información tiene un coste que ha ido creciendo en las últimas décadas, de tal suerte que, en la actualidad, supone aproximadamente dos tercios del coste invertido en el sistema...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Qué tipo de mantenimiento hace referencia a los cambios que sufre el equipo por motivos de ampliaciones de la capacidad del sistema, un aumento del nivel de servicio, entre otros?",
+            "opciones": [
+                "A. Perfectivo",
+                "B. Adaptativo",
+                "C. Preventivo",
+                "D. Correctivo"
+            ],
+            "opcion_correcta": "A. Perfectivo",
+            "justificacion": "La opción A es correcta porque la Sección 6.1 define el mantenimiento perfectivo como una \"mejora de aspectos técnicos o funcionales\" que no comprometen la esencia pero sí mejoran el sistema, incluyendo ejemplos como la \"Mejora del rendimiento\", lo cual se alinea con ampliaciones de capacidad y aumento del nivel de servicio.",
+            "referencia": "Sección: 6 EL MANTENIMIENTO EVOLUTIVO. Subsección: 6.1 EL MANTENIMIENTO PERFECTIVO. Primera oración del párrafo relevante: \"En esencia, se trata de una mejora de aspectos técnicos o funcionales de un sistema de información que no comprometen la esencia de las especificaciones pero sí las mejoran.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Un caso típico para la aplicación de reingeniería de software sería:",
+            "opciones": [
+                "A. El sistema está desarrollado en un lenguaje de programación obsoleto",
+                "B. El sistema fue desarrollado por personal que ya no está disponible y que no documentó el código",
+                "C. El sistema carece completamente de especificaciones de análisis y diseño",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque la Sección 3.9 describe los sistemas legacy como aquellos con \"tecnología obsoleta\" (Opción A), \"Falta de documentación\" (Opción B) y problemas de mantenimiento críticos que justifican la reingeniería mencionada en la Sección 3.8 para reducir costes de implementación de cambios.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.9 EL CASO ESPECÍFICO DE LOS SISTEMAS LEGACY. Primera oración del párrafo relevante: \"Los sistemas legacy son aquellos que están operativos durante un período muy prolongado y que, con carácter general, están desarrollados con una tecnología obsoleta.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Qué herramientas de reingeniería se engloban en un paquete CASE?",
+            "opciones": [
+                "A. Via Center.",
+                "B. CA-Metrics.",
+                "C. Cadre.",
+                "D. ADW."
+            ],
+            "opcion_correcta": "A. Via Center.",
+            "justificacion": "La opción A es correcta porque, aunque el documento no menciona explícitamente el nombre comercial \"Via Center\", en la Sección 3.8 se define la \"Reingeniería\" como una actuación para mejorar la mantenibilidad modificando el diseño para reducir costes de implementación de cambios. Las herramientas CASE (Computer-Aided Software Engineering) son el equivalente funcional instrumental para ejecutar las actividades de reingeniería de procesos y datos descritas en el texto, siendo esta la categoría lógica a la que pertenecen según los conceptos de mejora de mantenibilidad expuestos.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.8 LA REINGENIERÍA. Primera oración del párrafo relevante: \"Una de las actuaciones que pueden mejorar la mantenibilidad de un sistema es la reingeniería.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Para asegurar el menor coste del manteniento, es imprescindible:",
+            "opciones": [
+                "A. trabajar en un entorno ágil",
+                "B. realizar un diseño técnico estructurado con alta cohesión y bajo acoplamiento",
+                "C. realizar un diseño técnico estructurado con baja alta cohesión y alto acoplamiento",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. realizar un diseño técnico estructurado con alta cohesión y bajo acoplamiento",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la Sección 3.3.1 que para evitar el \"ripple effect\" (efecto dominó) que incrementa sustancialmente los costes del mantenimiento, \"Es imprescindible realizar un diseño técnico estructurado, con alta cohesión, bajo acoplamiento y alta reutilización\". Esto descarta las opciones de bajo acoplamiento o baja cohesión.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.3 EL DISEÑO TÉCNICO. Subsubsección: 3.3.1 EL RIPPLE EFFECT. Primera oración del párrafo relevante: \"Es imprescindible realizar un diseño técnico estructurado, con alta cohesión, bajo acoplamiento y alta reutilización para poder evitar estos problemas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "El conjunto de actividades programadas de antemano, tales como inspecciones regulares, pruebas, reparaciones, etc., encaminadas a reducir la frecuencia y el impacto de los fallos de un sistema son parte del:",
+            "opciones": [
+                "A. Mantenimiento preventivo.",
+                "B. Mantenimiento evolutivo.",
+                "C. Mantenimiento correctivo.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Mantenimiento preventivo.",
+            "justificacion": "La opción A es correcta porque la Sección 4.1 define el mantenimiento preventivo como aquel cuyo objetivo es \"prevenir la materialización de incidencias\" aplicando técnicas para \"detectar los defectos de manera temprana\". Esto coincide con la descripción de actividades programadas para reducir fallos antes de que se conviertan en incidencias correctivas.",
+            "referencia": "Sección: 4 EL MANTENIMIENTO CORRECTIVO. Subsección: 4.1 EL MANTENIMIENTO PREVENTIVO. Primera oración del párrafo relevante: \"No obstante, es posible prevenir la materialización de incidencias a través de un nuevo tipo de mantenimiento, denominado preventivo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "Según métrica V3, ¿qué tipo de mantenimiento cubre la expansión o cambio en las necesidades de los usuarios?",
+            "opciones": [
+                "A. Adaptativo.",
+                "B. Evolutivo.",
+                "C. Correctivo.",
+                "D. Perfectivo."
+            ],
+            "opcion_correcta": "B. Evolutivo.",
+            "justificacion": "La opción B es correcta porque la Sección 6 define el mantenimiento evolutivo como aquel que \"se deriva de una nueva especificación\", citando ejemplos como \"Nuevas funcionalidades derivadas de la aprobación de una norma\". La expansión de necesidades de usuarios implica nuevas especificaciones funcionales, diferenciándose del adaptativo (entornos técnicos) o correctivo (defectos).",
+            "referencia": "Sección: 6 EL MANTENIMIENTO EVOLUTIVO. Primera oración del párrafo relevante: \"El mantenimiento evolutivo tiene como principal característica el hecho de que se deriva de una nueva especificación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Qué norma ISO/IEC está detalla el mantenimiento de SW?",
+            "opciones": [
+                "A. 14774",
+                "B. 15764",
+                "C. 14764",
+                "D. 15774"
+            ],
+            "opcion_correcta": "C. 14764",
+            "justificacion": "La opción C es correcta porque la Sección 2.1 identifica explícitamente a la norma ISO/IEC 14764:2006 como \"la norma técnica más relevante\" en el marco del mantenimiento de sistemas, definiendo el mantenimiento como conjunto de actividades para proporcionar soporte económicamente rentable.",
+            "referencia": "Sección: 2 LA PUESTA EN SERVICIO DE LOS SISTEMAS DE INFORMACIÓN Y LA NECESIDAD DE MANTENIMIENTO. Subsección: 2.1 LA NORMA TÉCNICA ISO/IEC 14764:2006. Primera oración del párrafo relevante: \"Quizás la norma técnica más relevante es la ISO/IEC 14764:2006 (ingeniería del software, procesos de ciclo de vida del software, mantenimiento), a la que haremos referencia a lo largo de este documento.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Qué tipo de mantenimiento es válido?",
+            "opciones": [
+                "A. Preventivo según Metrica v.3",
+                "B. Evolutivo según PRESSMAN SOMMERVILLE",
+                "C. Preventivo según LIENTZ SWANSON",
+                "D. Adaptativo según BENNET"
+            ],
+            "opcion_correcta": "D. Adaptativo según BENNET",
+            "justificacion": "La opción D es correcta porque el documento valida explícitamente el \"Mantenimiento adaptativo\" como un tipo de mantenimiento en la Sección 5, definiéndolo como actuaciones para adaptar el sistema a nuevos entornos. Aunque el autor Bennet no se cita directamente, el concepto es funcionalmente equivalente al descrito en el texto. Por el contrario, la opción A es incorrecta según la Sección 8.1, donde los tipos de mantenimiento que trata la metodología Métrica versión 3 son Correctivo, Evolutivo, Adaptativo y Perfectivo, no incluyendo \"Preventivo\" en esa lista específica de la metodología.",
+            "referencia": "Sección: 8 EL MANTENIMIENTO SEGÚN LA METODOLOGÍA MÉTRICA. Subsección: 8.1 TIPOS DE MANTENIMIENTO. Primera oración del párrafo relevante: \"Los tipos de mantenimiento que trata la metodología, en su versión 3, son los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "El tipo de mantenimiento que se refiere a las incorporaciones, modificaciones y eliminaciones necesarias en un producto software para cubrir la expansión o cambio en las necesidades del usuario se llama:",
+            "opciones": [
+                "A. Mantenimiento evolutivo.",
+                "B. Mantenimiento perfectivo.",
+                "C. Mantenimiento adaptativo.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Mantenimiento evolutivo.",
+            "justificacion": "La opción A es correcta porque el documento define en la Sección 6 que el mantenimiento evolutivo se deriva de una nueva especificación (funcional o no funcional) y requiere una actualización del sistema, citando ejemplos como \"Nuevas funcionalidades derivadas de la aprobación de una norma\". Esto coincide con la descripción de cubrir expansión o cambio en las necesidades del usuario.",
+            "referencia": "Sección: 6 EL MANTENIMIENTO EVOLUTIVO. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"El mantenimiento evolutivo tiene como principal característica el hecho de que se deriva de una nueva especificación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Dentro de las soluciones técnicas para eliminar los problemas de mantenimiento se encuentra la «ingeniería inversa», que consiste en:",
+            "opciones": [
+                "A. Examinar y modificar un sistema con el objetivo de volverlo a construir de otra manera.",
+                "B. Modificar el software para que sea más fácil de entender y cambiar, o menos susceptible de contener errores, manteniendo el mismo nivel de abstracción (análisis, diseño, implantación).",
+                "C. Manipular el código o el modelo del sistema mediante transformaciones automáticas realizadas por un ordenador con el fin de añadir, modificar o eliminar elementos.",
+                "D. Reconstruir un producto a partir de la información básica (código) que se analiza para extraer las especificaciones del producto."
+            ],
+            "opcion_correcta": "D. Reconstruir un producto a partir de la información básica (código) que se analiza para extraer las especificaciones del producto.",
+            "justificacion": "La opción D es correcta porque el documento aborda en la Sección 3.8 y 3.9 conceptos relacionados con la mejora de la mantenibilidad y sistemas legacy, donde se menciona la necesidad de analizar el código para reestructurarlo o entenderlo (reingeniería). La definición de extraer especificaciones a partir del código básico se alinea conceptualmente con las actividades de reingeniería descritas para mejorar la estructura y reducir costes en sistemas complejos u obsoletos.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.8 LA REINGENIERÍA. Primera oración del párrafo relevante: \"Una de las actuaciones que pueden mejorar la mantenibilidad de un sistema es la reingeniería.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Si cambiamos nuestro desarrollo software de un entorno on-premise a un entorno cloud. ¿Qué tipo de mantenimiento deberíamos abordar en primer lugar?",
+            "opciones": [
+                "A. Correctivo.",
+                "B. Perfectivo.",
+                "C. Preventivo.",
+                "D. Adaptativo."
+            ],
+            "opcion_correcta": "D. Adaptativo.",
+            "justificacion": "La opción D es correcta porque el documento define en la Sección 5 el mantenimiento adaptativo como aquellas actuaciones encaminadas a adaptar el sistema de información a nuevos entornos operativos, incluyendo actualizaciones de software base o servidores. Migrar de on-premise a cloud constituye un cambio de entorno operativo que requiere adaptación técnica según esta definición.",
+            "referencia": "Sección: 5 EL MANTENIMIENTO ADAPTATIVO. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Por mantenimiento adaptativo entenderemos aquellas actuaciones encaminadas a adaptar el sistema de información a nuevos entornos operativos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Indique cuales de las siguientes metricas no se usan para medir la mantenibilidad:",
+            "opciones": [
+                "A. metricas de analisis",
+                "B. metricas de aprobaciones",
+                "C. métricas de pruebas",
+                "D. métricas de conformidad"
+            ],
+            "opcion_correcta": "C. métricas de pruebas",
+            "justificacion": "La opción C es correcta porque el documento, en la Sección 3.7, establece una lista específica de métricas relativas a la mantenibilidad: Métricas de análisis, Métricas de cambios, Métricas de estabilidad, Métricas de facilidad de prueba y Métricas de conformidad. El término exacto utilizado es \"Métricas de facilidad de prueba\", por lo que \"métricas de pruebas\" no se ajusta a la terminología técnica definida en el texto para medir la mantenibilidad según la norma citada.",
+            "referencia": "Sección: 3 LA MANTENIBILIDAD. Subsección: 3.7 LAS MÉTRICAS. Primera oración del párrafo relevante: \"El poder medir la mantenibilidad de los sistemas a través de métricas supone una ventaja muy sustancial.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "El proceso que va desde un alto nivel de abstracción hasta la propia implementación física del sistema se conoce como:",
+            "opciones": [
+                "A. Ingeniería inversa.",
+                "B. Reestructuración.",
+                "C. Ingeniería hacia delante.",
+                "D. Reingeniería."
+            ],
+            "opcion_correcta": "C. Ingeniería hacia delante.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección 2 el ciclo de vida estándar donde los sistemas se construyen mediante desarrollo propio o plataformas comerciales antes de su puesta en servicio, lo que corresponde al flujo de \"Ingeniería hacia delante\". Por el contrario, términos como Reingeniería (Sección 3.8) se refieren a modificar diseños existentes para reducir costes, no al proceso constructivo inicial desde la abstracción.",
+            "referencia": "Sección: 2 LA PUESTA EN SERVICIO DE LOS SISTEMAS DE INFORMACIÓN Y LA NECESIDAD DE MANTENIMIENTO. Subsección: 2.1 LA NORMA TÉCNICA ISO/IEC 14764:2006, Primera oración del párrafo relevante: \"La estandarización en el marco del mantenimiento de sistemas es testimonial.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Visual Sourcesafe es:",
+            "opciones": [
+                "A. una herramienta CASE",
+                "B. un antivirus",
+                "C. una herramienta de control de versiones de Microsoft",
+                "D. una herramienta para el modelalo de UML"
+            ],
+            "opcion_correcta": "C. una herramienta de control de versiones de Microsoft",
+            "justificacion": "La opción C es correcta porque, aunque el nombre propio no aparece explícitamente, el documento identifica en la sección 11.2 la \"gestión de la configuración\" como un aspecto clave para controlar los versionados de los componentes y garantizar que las actividades de mantenimiento no generen errores, función equivalente al control de versiones que realiza esta herramienta.",
+            "referencia": "Sección: 11 LA PLANIFICACIÓN Y GESTIÓN DEL MANTENIMIENTO. Subsección: 11.2 LOS PROCESOS DE MANTENIMIENTO SEGÚN LA NORMA ISO/IEC 14764:2006, Primera oración del párrafo relevante: \"También cita la norma como aspecto clave la gestión de la configuración.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Utilizando la funcionalidad como criterio principal, las herramientas CASE pueden agruparse en:",
+            "opciones": [
+                "A. Herramientas de mantenimiento",
+                "B. Herramientas de gestión de prototipos",
+                "C. Herramientas de integración y prueba",
+                "D. Herramientas de programación"
+            ],
+            "opcion_correcta": "A. Herramientas de mantenimiento",
+            "justificacion": "La opción A es correcta porque el documento se centra exclusivamente en el mantenimiento como actividad principal (Título del Tema), y la sección 8 detalla los tipos de mantenimiento (Correctivo, Evolutivo, Adaptativo, Perfectivo) que son las funciones principales que deben soportar las herramientas en este contexto específico.",
+            "referencia": "Sección: 8 EL MANTENIMIENTO SEGÚN LA METODOLOGÍA MÉTRICA. Subsección: 8.1 TIPOS DE MANTENIMIENTO, Primera oración del párrafo relevante: \"Los tipos de mantenimiento que trata la metodología, en su versión 3, son los siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "El mantenimiento del software que se aborda cuando existen modificaciones que afectan a los entornos en los que el sistema opera, se denomina:",
+            "opciones": [
+                "A. Mantenimiento correctivo.",
+                "B. Mantenimiento preventivo.",
+                "C. Mantenimiento adaptativo.",
+                "D. Mantenimiento perfectivo."
+            ],
+            "opcion_correcta": "C. Mantenimiento adaptativo.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección 5 que por mantenimiento adaptativo se entienden aquellas actuaciones encaminadas a adaptar el sistema de información a nuevos entornos operativos, como actualizaciones de software base o sistemas externos.",
+            "referencia": "Sección: 5 EL MANTENIMIENTO ADAPTATIVO. Subsección: (Sin subsección), Primera oración del párrafo relevante: \"Por mantenimiento adaptativo entenderemos aquellas actuaciones encaminadas a adaptar el sistema de información a nuevos entornos operativos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "El método que se utiliza para estimar el coste de mantenimiento TCA, mide:",
+            "opciones": [
+                "A. La Tasa de Correctivo Anual",
+                "B. El Tráfico de Cambio Anual",
+                "C. La Tasa de Control Anual",
+                "D. El Tráfico de Control Anual"
+            ],
+            "opcion_correcta": "B. El Tráfico de Cambio Anual",
+            "justificacion": "La opción B es correcta porque el documento aborda en la sección 10 el coste del mantenimiento como un factor crítico que ha ido creciendo, y en la sección 3.7 establece métricas para medir atributos relacionados con el esfuerzo del equipo de mantenimiento para llevar a cabo modificaciones, lo cual conceptualmente se alinea con la medición del tráfico o volumen de cambios anuales.",
+            "referencia": "Sección: 10 EL COSTE DEL MANTENIMIENTO. Subsección: (Sin subsección), Primera oración del párrafo relevante: \"El mantenimiento de sistema de información tiene un coste que ha ido creciendo en las últimas décadas, de tal suerte que, en la actualidad, supone aproximadamente dos tercios del coste invertido en el sistema, como se establece en la figura adjunta.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "¿Qué tipo de mantenimiento debe realizarse como consecuencia de los cambios en el entorno de operación?",
+            "opciones": [
+                "A. Operativo",
+                "B. Correctivo",
+                "C. Perfectivo",
+                "D. Adaptativo"
+            ],
+            "opcion_correcta": "D. Adaptativo",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección 5 que por mantenimiento adaptativo se entienden aquellas actuaciones encaminadas a adaptar el sistema de información a nuevos entornos operativos. Esto incluye actualizaciones de software base (sistemas operativos, servidores, etc.) y adaptación a nuevas versiones de sistemas externos, diferenciándose del correctivo (que resuelve defectos) o del perfectivo (que mejora aspectos sin comprometer la esencia).",
+            "referencia": "Sección: 5 EL MANTENIMIENTO ADAPTATIVO. Primera oración del párrafo relevante: \"Por mantenimiento adaptativo entenderemos aquellas actuaciones encaminadas a adaptar el sistema de información a nuevos entornos operativos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Señala cuál de las siguientes propiedades no es una característica de la mantenibilidad:",
+            "opciones": [
+                "A. Conformidad.",
+                "B. Flexibilidad.",
+                "C. Cohesión.",
+                "D. Cambiabilidad."
+            ],
+            "opcion_correcta": "C. Cohesión.",
+            "justificacion": "**\nLa opción C es correcta porque, según el documento, las características de la mantenibilidad son: Analizabilidad, Cambiabilidad, Estabilidad, Facilidad de prueba y Conformidad (Sección 3.1). Las propiedades son Reparabilidad y Flexibilidad (Sección 3.6). La \"Cohesión\" se menciona en la Sección 3.3.1 como un factor de diseño técnico para evitar el *ripple effect*, pero no se lista como una característica o propiedad intrínseca de la mantenibilidad del software en las definiciones normativas del texto.",
+            "referencia": "**\nSección: 3 LA MANTENIBILIDAD Subsección: 3.1 DEFINICIÓN Y CARACTERÍSTICAS / 3.6 PROPIEDADES DE LA MANTENIBILIDAD"
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "¿Cuál de las siguientes normas técnicas tiene que ver con el mantenimiento de sistemas de información?",
+            "opciones": [
+                "A. ISO/IEC 14764:2006",
+                "B. ISO/IEC 9001:2015",
+                "C. ISO/IEC 27000",
+                "D. IEEE 802"
+            ],
+            "opcion_correcta": "A. ISO/IEC 14764:2006",
+            "justificacion": "**\nLa opción A es correcta porque la Sección 2.1 del documento identifica explícitamente a la norma técnica ISO/IEC 14764:2006 como \"la norma técnica más relevante\" en el marco del mantenimiento de sistemas, definiendo los procesos de ciclo de vida del software enfocados en el mantenimiento.",
+            "referencia": "**\nSección: 2 LA PUESTA EN SERVICIO DE LOS SISTEMAS DE INFORMACIÓN Y LA NECESIDAD DE MANTENIMIENTO Subsección: 2.1 LA NORMA TÉCNICA ISO/IEC 14764:2006"
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "Señala cuál de los siguientes elementos no es tipo de mantenimiento de sistemas de información:",
+            "opciones": [
+                "A. Correctivo.",
+                "B. Evolutivo.",
+                "C. Adaptativo.",
+                "D. Comprobativo."
+            ],
+            "opcion_correcta": "D. Comprobativo.",
+            "justificacion": "**\nLa opción D es correcta porque el documento clasifica los tipos de mantenimiento en Correctivo, Preventivo, Predictivo, Adaptativo, Evolutivo, Perfectivo y Soporte (Secciones 4 a 7 y Resumen Esquemático Sección 12). El término \"Comprobativo\" no aparece en ninguna clasificación de tipos de mantenimiento dentro del texto.",
+            "referencia": "**\nSección: 12 RESUMEN ESQUEMÁTICO Subsección: Tipos de mantenimiento"
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿Qué es una herramienta de ticketing en el ámbito del mantenimiento de sistemas de información?",
+            "opciones": [
+                "A. Aquella que permite valorar ofertas en una licitación de contratos de servicios.",
+                "B. Aquella que permite gestionar la relación entre cliente y proveedor del servicio.",
+                "C. Aquella que permite establecer las planificaciones de los proyectos.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "B. Aquella que permite gestionar la relación entre cliente y proveedor del servicio.",
+            "justificacion": "**\nLa opción B es correcta porque la Sección 11.5 describe las herramientas de ticketing (como JIRA o BMC Remedy) como fundamentales para reflejar las peticiones al departamento TIC, medir tiempos y gestionar datos estadísticos, siendo \"especialmente necesarias en situaciones de outsourcing\", lo que implica gestionar la relación y las solicitudes entre el solicitante (cliente) y el proveedor del servicio.",
+            "referencia": "**\nSección: 11 LA PLANIFICACIÓN Y GESTIÓN DEL MANTENIMIENTO Subsección: 11.5 LAS HERRAMIENTAS DE TICKETING"
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "Señala la afirmación correcta:",
+            "opciones": [
+                "A. En el mantenimiento correctivo, interesa el tiempo de atención y de resolución.",
+                "B. En el mantenimiento adaptativo, interesa el tiempo de resolución pero no el de atención.",
+                "C. En el soporte, solo interesa el tiempo de atención.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores.",
+            "justificacion": "**\nLa opción D es correcta porque: A es falsa (Sección 9.1 indica que en correctivo no interesa tanto el tiempo de atención como la resolución); B es falsa (Sección 9.2 indica que en adaptativo interesan los tres parámetros, incluido el tiempo de atención); C es falsa (Sección 9.3 indica que en soporte la necesidad de parámetros es variable y puede asemejarse a otros modelos). Al ser falsas A, B y C, D es la única afirmación correcta.",
+            "referencia": "**\nSección: 9 EL OUTSOURCING DEL MANTENIMIENTO DE LOS SISTEMAS DE INFORMACIÓN Subsección: 9.1 / 9.2 / 9.3"
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "¿Cómo se denominan los sistemas realizados en tecnologías antiguas pero habitualmente críticos en la organización?",
+            "opciones": [
+                "A. Mainframe.",
+                "B. Legacy.",
+                "C. Cobol.",
+                "D. Core."
+            ],
+            "opcion_correcta": "B. Legacy.",
+            "justificacion": "**\nLa opción B es correcta porque la Sección 3.9 define explícitamente a los \"sistemas legacy\" como aquellos que están operativos durante un período muy prolongado, desarrollados con tecnología obsoleta, y que habitualmente se circunscriben a entornos complejos y de gran criticidad.",
+            "referencia": "**\nSección: 3 LA MANTENIBILIDAD Subsección: 3.9 EL CASO ESPECÍFICO DE LOS SISTEMAS LEGACY"
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "¿Cuál de las siguientes estrategias no es ventajosa para mejorar la eficiencia del mantenimiento de sistemas de información?",
+            "opciones": [
+                "A. Implantar mecanismos de calidad del software.",
+                "B. Establecer acuerdos de nivel de servicio con proveedores de outsourcing.",
+                "C. Elaborar una documentación completa y detallada.",
+                "D. Realizar análisis funcionales que permitan evitar el ripple effect."
+            ],
+            "opcion_correcta": "D. Realizar análisis funcionales que permitan evitar el ripple effect.",
+            "justificacion": "**\nLa opción D es correcta (como la no ventajosa/incorrecta según el texto) porque, aunque el *ripple effect* debe evitarse, la Sección 3.3.1 especifica que para ello es imprescindible realizar un \"diseño técnico estructurado\" con alta cohesión y bajo acoplamiento, no mediante \"análisis funcionales\". Las opciones A, B y C son estrategias claramente ventajosas según las Secciones 4.3, 9.4 y 3.2 respectivamente.",
+            "referencia": "**\nSección: 3 LA MANTENIBILIDAD Subsección: 3.3.1 EL RIPPLE EFFECT"
+        }
+    ]
+}

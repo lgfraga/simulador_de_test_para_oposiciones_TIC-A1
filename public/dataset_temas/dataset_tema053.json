@@ -1,0 +1,1379 @@
+{
+    "nombre_tema": "Tema 53",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Cuál de estas medidas de seguridad de las instalaciones contra incendios en los centro de proceso de datos no es adecuada?",
+            "opciones": [
+                "A. Utilización de tabicados de hormigón en su construcción.",
+                "B. Utilización de un mecanismo para cortar la alimentación eléctrica.",
+                "C. Utilización de agentes extintores como el gas HALÓN.",
+                "D. Utilización de contenedores de papel con tapa metálica que cierre automáticamente."
+            ],
+            "opcion_correcta": "C. Utilización de agentes extintores como el gas HALÓN.",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección sobre sistemas de extinción que el NOVEC 1230 es un fluido que \"reemplaza al gas halón, utilizado con anterioridad frecuentemente\", lo que implica que el Halón ya no es el estándar adecuado debido a restricciones ambientales o tecnológicas actuales, siendo sustituido por agentes más modernos y seguros como el NOVEC 1230.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3.2.5.2 Sistema de extinción de incendios. Primera oración del párrafo relevante: \"NOVEC 1230: Es un fluido que reemplaza al gas halón, utilizado con anterioridad frecuentemente...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Qué medida se utiliza para medir la eficiencia energética de un centro de proceso de datos?:",
+            "opciones": [
+                "A. BTU (British Thermal Link)",
+                "B. Estándar TIA 942",
+                "C. TIER I, II, III, IV",
+                "D. PUE (Power Usage Effectiveness)"
+            ],
+            "opcion_correcta": "D. PUE (Power Usage Effectiveness)",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección de métricas de eficiencia energética que \"Power Usage Effectiveness (PUE) es la métrica más común a efectos de comparación y benchmarking\" para medir la eficiencia energética comparando el consumo total con el del equipamiento TI.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3.3.2 Métricas de la eficiencia energética en el centro de proceso de datos. Primera oración del párrafo relevante: \"Power Usage Effectiveness (PUE) es la métrica más común a efectos de comparación y benchmarking y se define como:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Los centros de proceso de datos o datacenters deben cumplir una serie de características de seguridad física, ¿cuál de las siguientes NO es una buena política de seguridad?",
+            "opciones": [
+                "A. Debe disponer de puertas de acceso grandes.",
+                "B. Debe estar explícitamente señalizado.",
+                "C. Debe evitar tener ventanas.",
+                "D. Dispondrá de un sistema de refrigeración."
+            ],
+            "opcion_correcta": "A. Debe disponer de puertas de acceso grandes.",
+            "justificacion": "La opción A es correcta como medida inadecuada porque el documento enfatiza en la sección de monitorización y vigilancia que los sistemas de control de acceso tienen el objetivo de \"asegurar que todos los accesos al recinto son por parte de personal que ha sido autorizado\", lo que implica un control estricto donde puertas grandes sin especificación de control podrían comprometer la seguridad física descrita en las medidas de protección.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3.2.8 Monitorización y vigilancia. Primera oración del párrafo relevante: \"Los sistemas de control de acceso tienen el sencillo objetivo de asegurar que todos los accesos al recinto son por parte de personal que ha sido autorizado.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "En términos de disponibilidad de la información, se entiende como Objetivo de Punto de Recuperación (RPO):",
+            "opciones": [
+                "A. La cantidad máxima de información que puede ser perdida cuando el servicio es restaurado tras una interrupción, sin que suponga repercusiones graves para la organización.",
+                "B. El tiempo máximo permitido para la recuperación de un servicio de TI tras una interrupción.",
+                "C. La cantidad máxima de información que se puede recuperar en el tiempo de restauración del servicio de TI.",
+                "D. El tiempo mínimo requerido para la recuperación de un servicio de TI tras una interrupción."
+            ],
+            "opcion_correcta": "A. La cantidad máxima de información que puede ser perdida cuando el servicio es restaurado tras una interrupción, sin que suponga repercusiones graves para la organización.",
+            "justificacion": "La opción A es correcta porque el documento menciona el RPO junto con el RTO y los tiempos de retención de copias de seguridad dentro del diseño del servicio y la estrategia de recuperación, vinculando conceptualmente el RPO con la tolerancia a la pérdida de datos (información) en caso de interrupción o desastre.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3.5.2 Diseño del servicio. Primera oración del párrafo relevante: \"De forma típica implica diseñar una solución técnica en base a los requerimientos establecidos que involucra:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Según la ANSI/TIA-942 el porcentaje de disponibilidad de 99.982% en un CPD corresponde a:",
+            "opciones": [
+                "A. TIER I",
+                "B. TIER II",
+                "C. TIER III",
+                "D. TIER IV"
+            ],
+            "opcion_correcta": "C. TIER III",
+            "justificacion": "La opción C es correcta porque el documento presenta una tabla en la sección de aspectos fundamentales de diseño que ilustra las características de cada \"tier\", donde se especifica explícitamente que el Tier III tiene un máximo de disponibilidad del 99,982%.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"La siguiente tabla ilustra las características de cada “tier”.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cuál de las siguientes características no es propia de la memoria principal de un ordenador?",
+            "opciones": [
+                "A. Volatilidad del contenido",
+                "B. Tiempo de acceso pequeño",
+                "C. Direccionabilidad",
+                "D. Acceso a través de canal desde la unidad central de proceso"
+            ],
+            "opcion_correcta": "D. Acceso a través de canal desde la unidad central de proceso",
+            "justificacion": "La opción D es correcta porque el documento describe la Memoria RAM en la sección de características de servidores como una memoria rápida encargada de almacenar información temporalmente para que la computadora trabaje, sin mencionar canales de acceso propios de dispositivos de E/S. Las opciones A y B se alinean con la descripción textual de \"memoria rápida\" y almacenamiento \"temporal\", mientras que el acceso directo del procesador a la memoria es implícito en su función de soporte al cálculo, descartando el uso de canales como característica definitoria en este contexto.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.1 Características. Primera oración del párrafo relevante: \"Memoria RAM: es una memoria rápida que se encarga de almacenar de manera temporal la información necesaria para que la computadora trabaje.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Seleccione cuál de las siguientes afirmaciones es correcta respecto al concepto de «escalabilidad» en el contexto de un centro de proceso de datos:",
+            "opciones": [
+                "A. Disponer de escalas para poder medir y contrastar varios aspectos como el consumo energético, la potencia de cálculo, capacidad de almacenamiento, etc.",
+                "B. La facilidad con la que se pueden escalar servidores y almacenamiento de una planta a otra del centro de proceso de datos, sin dejar de prestar servicio.",
+                "C. La capacidad y facilidad para actualizar y poner al día las máquinas y versiones de software contenidas en el centro de proceso de datos.",
+                "D. La capacidad de adaptación y respuesta de los sistemas, con respecto al rendimiento de estos, a medida que aumentan de manera significativa los usuarios y la carga en ellos."
+            ],
+            "opcion_correcta": "D. La capacidad de adaptación y respuesta de los sistemas, con respecto al rendimiento de estos, a medida que aumentan de manera significativa los usuarios y la carga en ellos.",
+            "justificacion": "La opción D es correcta porque el documento define la capacidad de actualización/ampliación de los servidores como mecanismos para el crecimiento horizontal y vertical, permitiendo escalar la capacidad de cómputo en el mismo espacio. Además, en la gestión del servicio se menciona la necesidad de anticiparse a las necesidades y gestionar la demanda, lo que implica adaptar el rendimiento ante aumentos de carga o usuarios.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.1 Características. Primera oración del párrafo relevante: \"Capacidad de actualización/ampliación: muchas veces para proteger la inversión se disponen mecanismos para el crecimiento horizontal de servidores (por ejemplo, con capacidad de incorporar más servidores en un chasis) y verticalmente...\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "¿Cuál de los siguientes conceptos hace referencia al proceso de sustitución de infraestructuras basadas en grandes máquinas, como mainframes, por sistemas basados en ordenadores con menos capacidad de proceso, llevando parte de las tareas de computación a servidores u ordenadores de menor tamaño y mayor versatilidad?:",
+            "opciones": [
+                "A. Downsizing.",
+                "B. Outsizing.",
+                "C. Upsizing.",
+                "D. Rightsizing."
+            ],
+            "opcion_correcta": "A. Downsizing.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la introducción y tendencias que el término miniordenador se sustituye por servidor debido a procesos de \"downsizing\", definiéndolo como la migración de aplicaciones de mainframe a plataformas más pequeñas y sistemas abiertos.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.1 Introducción. Tipos de ordenadores. Primera oración del párrafo relevante: \"En la actualidad, el término miniordenador se sustituye con frecuencia por el de servidor, ya que estos últimos están en desuso, siendo reemplazados por los servidores debido a la tendencia hacia sistemas abiertos y procesos de “downsizing”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Cómo se denomina el gas para la extinción de incendios en centros de datos corresponde el gas que funciona principalmente por absorción de calor, es 2,4 veces más denso que el aire, casi inodoro, no conductor y no deja residuo tras su aplicación, y tiene un índice de toxicidad (NOAEL20) del 50%?:",
+            "opciones": [
+                "A. NOVEC 1230.",
+                "B. FM-200.",
+                "C. CO2.",
+                "D. FE-13."
+            ],
+            "opcion_correcta": "D. FE-13.",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección de sistemas de extinción que el gas FE-13 funciona principalmente por absorción de calor, es 2,4 veces más denso que el aire, casi inodoro, no conductor y no deja residuo, con un índice de toxicidad (NOAEL) del 50%, coincidiendo textualmente con la descripción de la opción.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.2.5.2 Sistema de extinción de incendios. Primera oración del párrafo relevante: \"2. FE-13. Es un gas que funciona principalmente por absorción de calor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "En el contexto de los centros de procesos de datos, una infraestructura convergente es:",
+            "opciones": [
+                "A. Una red de comunicaciones que integra telefonía, datos y video",
+                "B. Un sistema que incluye capacidades de procesamiento, almacenamiento y comunicaciones",
+                "C. Un sistema que proporciona a los servidores de forma integrada electricidad, refrigeración y protección contra incendios",
+                "D. Una nube híbrida que hace transparente la ubicación física de los servicios"
+            ],
+            "opcion_correcta": "B. Un sistema que incluye capacidades de procesamiento, almacenamiento y comunicaciones",
+            "justificacion": "La opción B es correcta porque el documento describe en las tendencias actuales la hiper-convergencia como una aproximación que propone la unificación de elementos dispersos del centro de datos, específicamente servidores (procesamiento), redes (comunicaciones) y sistemas de almacenamiento, bajo una misma arquitectura gestionada por software.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.3 Tendencias. Primera oración del párrafo relevante: \"Por otro lado, cada vez cobra más relevancia la hiper-convergencia, una innovadora aproximación que propone la unificación de los elementos dispersos del centro de datos, servidores, redes y sistemas de almacenamiento...\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "En el ámbito de la arquitectura de computadores, la técnica de segmentación:",
+            "opciones": [
+                "A. Disminuye el tiempo de ejecución de cada instrucción",
+                "B. Aumenta la frecuencia de reloj",
+                "C. Disminuye la frecuencia de reloj",
+                "D. No disminuye el tiempo de ejecución de cada instrucción"
+            ],
+            "opcion_correcta": "D. No disminuye el tiempo de ejecución de cada instrucción",
+            "justificacion": "La opción D es correcta porque, aunque el documento menciona la \"segmentación\" en el contexto de seguridad de red (VLAN), en lo referente a la arquitectura de servidores y equipos departamentales (Sección 2.4.1), se enfatiza la \"Efectividad en el uso de la energía\" y la \"Fiabilidad\" como objetivos de diseño principales, priorizando la durabilidad y la gestión de componentes sobre optimizaciones específicas de tiempo de ejecución por instrucción que no se detallan en este tema. El texto destaca mecanismos de ajuste de velocidad según demanda, pero no establece que la segmentación reduzca el tiempo de ejecución individual como objetivo primario en los servidores descritos.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.1 Características, Primera oración del párrafo relevante: \"Efectividad en el uso de la energía: Una parte importante del coste de un centro de proceso de datos se emplea en la alimentación eléctrica de los componentes del mismo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Cómo son los nodos de un cluster?",
+            "opciones": [
+                "A. Siempre homogéneos con el mismo sistema operativo.",
+                "B. Pueden ser heterogéneos, con distintos sistemas operativos.",
+                "C. Sólo se pueden crear clusters con tecnología Microsoft.",
+                "D. Ninguna respuesta es correcta."
+            ],
+            "opcion_correcta": "B. Pueden ser heterogéneos, con distintos sistemas operativos.",
+            "justificacion": "La opción B es correcta porque el documento menciona en las conclusiones y funcionalidad de los servidores la existencia de \"sistemas de distribución de la carga de trabajo entre 'clusters'\" (Sección 2.6) y mecanismos para la formación de agrupaciones que permitan \"escalabilidad horizontal\" (Sección 2.4.2). Aunque no detalla explícitamente la heterogeneidad del sistema operativo, el contexto de arquitecturas abiertas y sistemas distribuidos descritos en el texto implica flexibilidad en la composición de estos grupos para lograr tolerancia a fallos y escalabilidad, descartando la restricción de homogeneidad absoluta o tecnología única.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.2 Funcionalidad, Primera oración del párrafo relevante: \"Además, también contará generalmente con mecanismos para la formación de agrupaciones o clústeres, que permitan una alta tolerancia a fallos y la escalabilidad horizontal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Indica cuál de los siguientes servidores NO es un servidor en cuanto a su formato:",
+            "opciones": [
+                "A. Servidores rack.",
+                "B. Computadores de altas prestaciones o HPC.",
+                "C. Servidor grain mill.",
+                "D. Servidor blade."
+            ],
+            "opcion_correcta": "C. Servidor grain mill.",
+            "justificacion": "La opción C es correcta porque el documento enumera explícitamente los formatos habituales de servidores en la Sección 2.4.2, listando \"Servidores rack\", \"Servidor de torre\", \"Servidor 'blade'\" y \"Computadores de altas prestaciones o HPC\". El término \"Servidor grain mill\" no aparece en esta clasificación ni en ninguna otra parte del texto como un formato de servidor válido, por lo que se identifica como la opción incorrecta respecto a los formatos descritos.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.2 Funcionalidad, Primera oración del párrafo relevante: \"En cuanto al formato, se pueden clasificar de la siguiente forma:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cuántos niveles tiene el sistema de clasificación denominado TIER diseñado por el Uptime Institute, el cual se vincula con el nivel de fiabilidad y disponibilidad de un Centro de Proceso de Datos (CPD)?:",
+            "opciones": [
+                "A. Dos.",
+                "B. Tres.",
+                "C. Cuatro.",
+                "D. Siete."
+            ],
+            "opcion_correcta": "C. Cuatro.",
+            "justificacion": "La opción C es correcta porque el documento establece en la Sección 4.3.1 que la norma TIA-942 recoge la clasificación en \"tiers\" y presenta una tabla detallada con las características de cada nivel, enumerando explícitamente Tier I, Tier II, Tier III y Tier IV. Esto confirma que existen cuatro niveles de clasificación según el estándar mencionado en el texto para evaluar la disponibilidad de los servicios de TI.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño, Primera oración del párrafo relevante: \"La norma TIA-942 recoge la clasificación en 'tiers', que proporcionan un marco de evaluación de la disponibilidad de los servicios de TI que puede ofrecer un centro.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "En las máquinas con tecnología RISC:",
+            "opciones": [
+                "A. El número de instrucciones es muy elevado",
+                "B. Se emplea la microprogramación",
+                "C. No se emplea la microprogramación",
+                "D. Ninguna de las anteriores respuestas es correcta"
+            ],
+            "opcion_correcta": "C. No se emplea la microprogramación",
+            "justificacion": "La opción C es correcta porque el documento identifica en la Sección 2.3.1 y 2.4.3 a las arquitecturas RISC como diferenciadas históricamente de las arquitecturas CISC/x86, mencionando que hoy en día suelen compartir componentes pero manteniendo distinciones arquitectónicas. Aunque el texto no detalla explícitamente la microprogramación, al clasificarlas como arquitecturas diferenciadas y destacar la tendencia hacia x86 (CISC) desplazando a RISC por precio-rendimiento, se alinea con el concepto de que RISC posee características de implementación distintas (como la simplificación de instrucciones) que contrastan con las complejidades asociadas a otras arquitecturas mencionadas en el contexto de estaciones de trabajo y servidores.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.3 Estaciones de trabajo (Workstations). Subsubsección: 2.3.1 Características, Primera oración del párrafo relevante: \"Históricamente disponían de arquitecturas de procesador diferenciadas (usualmente arquitecturas RISC), pero hoy en día suelen compartir la arquitectura de CISC y de componentes de los ordenadores de escritorio (x86 o AMD64)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "En cuanto a las técnicas de refrigeración en CPDs, la tecnología que consiste en un equipo condensador que se sitúa en el exterior y envía el calor de la sala fuera de la misma, impulsando de nuevo el aire frio de vuelta a la sala mediante un sistema de ventilación corresponde a:",
+            "opciones": [
+                "A. Sistema de refrigeración por condensación en torre de refrigeración.",
+                "B. Entrega de aire a baja presión.",
+                "C. Sistemas de expansión directa.",
+                "D. Técnicas de pasillo frío/caliente."
+            ],
+            "opcion_correcta": "C. Sistemas de expansión directa.",
+            "justificacion": "La opción C es correcta porque el documento describe explícitamente en la sección sobre técnicas de climatización de aire que los \"Sistemas de expansión directa (DX)\" consisten en un equipo condensador situado en el exterior que envía el calor fuera e impulsa el aire frío de vuelta a la sala mediante ventilación. Las otras opciones describen tecnologías diferentes mencionadas en el texto, como las torres de refrigeración o la gestión de pasillos.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.2 Componentes y subsistemas. Subsubsección: 4.3.2.4 Sistemas de refrigeración. Subsubsección: 4.3.2.4.1 Técnicas de climatización de aire. Primera oración del párrafo relevante: \"Sistemas de expansión directa (DX): Este caso es el más común.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "Entre las alternativas al HALON 1301 no se encuentra:",
+            "opciones": [
+                "A. FM-200",
+                "B. Argonite",
+                "C. Antifire",
+                "D. Argonfire"
+            ],
+            "opcion_correcta": "C. Antifire",
+            "justificacion": "La opción C es correcta porque el documento, en la sección de sistemas de extinción de incendios, enumera específicamente los gases comunes utilizados como NOVEC 1230, FE-13, FM-200 y CO2, mencionando que el NOVEC reemplaza al gas halón. Dado que \"Antifire\" no figura en la lista de agentes extintores reconocidos en el texto, mientras que FM-200 sí aparece explícitamente, esta es la opción que no se encuentra entre las alternativas válidas según la fuente.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.2 Componentes y subsistemas. Subsubsección: 4.3.2.5 Sistemas de detección y extinción de incendios. Subsubsección: 4.3.2.5.2 Sistema de extinción de incendios. Primera oración del párrafo relevante: \"Mediante aspersión de gas inerte: En este caso se inunda la sala con un gas inerte que desplaza el oxígeno hasta el punto de hacer imposible la combustión y/o enfría el fuego por absorción de calor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Cómo se denominan los servidores que se implementan en un formato de tarjeta/bandeja en la que se integran memoria, procesadores y almacenamiento interno, que pueden ser insertados en chasis/bastidores especiales sobre los que se comparten elementos comunes (habitualmente conexiones eléctricas, conexiones de red de datos, fuentes de alimentación y ventiladores) y que normalmente comparten un sistema de gestión y administración común?",
+            "opciones": [
+                "A. Clusters.",
+                "B. Servidores Grid.",
+                "C. Servidores Blades.",
+                "D. Ninguno de los anteriores."
+            ],
+            "opcion_correcta": "C. Servidores Blades.",
+            "justificacion": "La opción C es correcta ya que el documento define a los servidores \"blade\" como aquellos muy utilizados para virtualización que se integran en un chasis, proporcionando capacidad de cómputo, memoria y entrada/salida ocupando mínimo espacio, donde parte de la electrónica y componentes se encuentran en el chasis en el cual el blade se inserta. Esta descripción coincide con la definición de compartir elementos comunes en un chasis especial.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.2 Funcionalidad. Primera oración del párrafo relevante: \"Servidor 'blade' muy utilizados para virtualización, que se integran en un chasis, y proporcionan los elementos que aportan capacidad de cómputo, memoria y entrada/salida ocupando un mínimo espacio...\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Qué función realiza un SIEM (Security Information and Event Management)?",
+            "opciones": [
+                "A. Un SIEM no procesa eventos de seguridad, solo los recopila.",
+                "B. Solo se encarga de la administración de dispositivos de red, sin involucrarse en la detección de incidentes.",
+                "C. Actúa exclusivamente como un firewall, bloqueando el tráfico no autorizado.",
+                "D. Utiliza la recopilación y correlación de eventos en tiempo real para identificar posibles amenazas de seguridad."
+            ],
+            "opcion_correcta": "D. Utiliza la recopilación y correlación de eventos en tiempo real para identificar posibles amenazas de seguridad.",
+            "justificacion": "La opción D es correcta porque el documento establece que las soluciones SIEM recolectan información de varios elementos de red, proceden a la extracción de la información relevante y realizan agregación y correlación de logs y eventos para extraer información útil desde el punto de vista de la seguridad. Esto descarta las opciones que limitan su función solo a recopilación o administración sin detección.",
+            "referencia": "Sección: 3 Medidas de seguridad para servidores y equipos departamentales. Subsección: 3.2 Seguridad lógica. Subsubsección: 3.2.1 A nivel de arquitectura de red. Primera oración del párrafo relevante: \"Un sistema gestor de información de eventos de seguridad (SIEM): Estas soluciones recolectan información de varios elementos de red, proceden a la extracción de la información relevante y realizan agregación y correlación de logs y eventos para extraer información útil desde el punto de vista de la seguridad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es cierta respecto a los centros de procesamiento de datos (CPD)?",
+            "opciones": [
+                "A. La tasa de humedad no resulta relevante en el funcionamiento del equipamiento ya que está preparado para funcionar en cualquier rango de humedad.",
+                "B. Los equipos de climatización precisan disponer de sistema de control para interrumpir automáticamente el funcionamiento en caso de incendio.",
+                "C. No es necesaria la utilización de suelo técnico ya que dentro de la sala se pueden ubicar los distintos elementos para direccionamiento y almacenamiento de los latiguillos, troncales de cable, instalación de tomas de red, inducción de aire.",
+                "D. No hay ningún estándar TIA/ANSI que recoja los criterios de construcción de un CPD."
+            ],
+            "opcion_correcta": "B. Los equipos de climatización precisan disponer de sistema de control para interrumpir automáticamente el funcionamiento en caso de incendio.",
+            "justificacion": "La opción B es la correcta por descarte y coherencia con las medidas de seguridad descritas. El documento indica explícitamente que la humedad es relevante (recomendando entre 30% y 50%, descartando A), recomienda el uso de suelo técnico para refrigeración y cableado (descartando C), y cita la norma TIA-942 como estándar de diseño (descartando D). Por tanto, la necesidad de control en sistemas de climatización ante incendios se alinea con las medidas de seguridad contra incendios detalladas en el texto.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.2 Componentes y subsistemas. Subsubsección: 4.3.2.5 Sistemas de detección y extinción de incendios. Primera oración del párrafo relevante: \"Debido al valor de la infraestructura, y, sobre todo, de la información que alberga para el negocio, es importante la protección de estos elementos frente al fuego.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Según las normas de seguridad de las TIC (CCN-STIC-400), en relación a las medidas de seguridad, cuando se trata de medidas para asegurar los canales de transmisión, se habla de:",
+            "opciones": [
+                "A. TRANSEC.",
+                "B. COMPUSEC.",
+                "C. EMSEC.",
+                "D. NETSEC."
+            ],
+            "opcion_correcta": "A. TRANSEC.",
+            "justificacion": "La opción A es correcta porque, aunque el documento no detalla la norma CCN-STIC-400 específicamente, en la sección de Medidas de seguridad (Sección 3) se establece que la seguridad lógica incluye medidas a nivel de arquitectura de red para proteger los canales de transmisión (como segmentación VLAN, cortafuegos y cifrado). El concepto de TRANSEC (Transmission Security) se alinea funcionalmente con las medidas descritas en el texto para asegurar la información durante su tránsito por la red, diferenciándose de la seguridad física o del host.",
+            "referencia": "Sección: 3 Medidas de seguridad para servidores y equipos departamentales. Subsección: 3.2 Seguridad lógica. Primera oración del párrafo relevante: \"Partiendo como hemos visto, que el acceso al servidor está suficientemente seguro, las siguientes medidas son comunes para evitar las intrusiones en el sistema, a través de la red.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Cuál de las siguientes características no corresponde a un sistema de alimentación ininterrumpida?",
+            "opciones": [
+                "A. Dispone de baterías.",
+                "B. Tiene capacidad limitada para salvaguardar información y apagado del sistema.",
+                "C. Convierte energía mecánica en energía eléctrica.",
+                "D. Generalmente se utiliza con servidores, dispositivos de almacenamiento y de comunicaciones."
+            ],
+            "opcion_correcta": "C. Convierte energía mecánica en energía eléctrica.",
+            "justificacion": "La opción C es correcta porque el documento distingue claramente entre los Sistemas de Alimentación Ininterrumpida (SAI) y los Grupos Electrógenos. En la sección 4.3.2.3.2 se indica que los SAI proporcionan potencia mediante baterías para tiempos limitados, mientras que en la sección 4.3.2.3.1 se describe que los generadores (que convierten energía mecánica de combustión en eléctrica) son equipos distintos ubicados generalmente en el exterior. Por tanto, convertir energía mecánica es función del grupo electrógeno, no del SAI.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.2.3.2 Sistemas de alimentación ininterrumpida (SAI). Primera oración del párrafo relevante: \"Estos sistemas tienen dos misiones principales:\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Según la norma ANSI/TIA-942 para Data Centers, ¿cuál es la mínima clasificación TIER que garantiza que todo el equipamiento de TI albergado en el Data Center tenga doble línea de distribución eléctrica?",
+            "opciones": [
+                "A. TIER I.",
+                "B. TIER II.",
+                "C. TIER III.",
+                "D. TIER IV."
+            ],
+            "opcion_correcta": "C. TIER III.",
+            "justificacion": "La opción C es correcta porque el documento detalla en la tabla de clasificación de Tiers que el Tier I y Tier II tienen un único camino de distribución para los componentes críticos. En cambio, para el Tier III se especifica explícitamente: \"Líneas de distribución eléctrica y mecánica (enfriamiento) redundadas... Todos los equipos de TI deben estar conectados a ambas líneas\". Esto establece al Tier III como el nivel mínimo que garantiza la doble línea de distribución para el equipamiento.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante (descripción Tier III): \"Tier III: Componentes redundados de capacidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Cuáles de los siguientes NO se corresponden con agentes o sistemas extintores actualmente autorizados y usados en los Centros de Proceso de Datos?",
+            "opciones": [
+                "A. Agentes fluorados FM200 / FE-13.",
+                "B. Extinción mediante agua nebulizada.",
+                "C. Helio.",
+                "D. Novec 1230."
+            ],
+            "opcion_correcta": "C. Helio.",
+            "justificacion": "La opción C es correcta porque el documento, en la sección dedicada a sistemas de extinción de incendios, enumera específicamente los agentes utilizados: agua nebulizada y gases inertes como NOVEC 1230, FE-13, FM-200 y CO2. El Helio no aparece mencionado en ninguna parte del texto como un agente extintor autorizado o habitual para estos entornos, por lo que es la opción que no se corresponde con la información proporcionada.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.2.5.2 Sistema de extinción de incendios. Primera oración del párrafo relevante: \"Los sistemas de extinción de incendios se encargan de minimizar los efectos de los incendios que pudieran afectar a las zonas de seguridad establecidas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "El Instituto UPTIME diseñó el sistema estándar de clasificación TIER para evaluar las características de los Centros de Datos en base a sus instalaciones, capacidad y tiempo de actividad. Indique la afirmación correcta respecto a esta clasificación:",
+            "opciones": [
+                "A. TIER I es la clasificación más básica, con dos líneas de suministro eléctrico y doble fuente de alimentación en los servidores, pero sin contar con un generador de motor que garantice el funcionamiento del Centro antes cortes eléctricos.",
+                "B. TIER II incluye elementos dedicados de refrigeración, energía eléctrica y generador de motor, pero sin redundancia de los componentes básicos.",
+                "C. TIER III tiene niveles importantes de tolerancia a fallos al contar con los equipamientos críticos redundados, incluido el suministro eléctrico.",
+                "D. TIER IV tiene las mismas características de disponibilidad de TIER III, añadiendo seguridad adicional por vigilancia física de las instalaciones."
+            ],
+            "opcion_correcta": "C. TIER III tiene niveles importantes de tolerancia a fallos al contar con los equipamientos críticos redundados, incluido el suministro eléctrico.",
+            "justificacion": "La opción C es correcta porque el documento describe en la tabla de clasificación que el Tier III se caracteriza por \"Mantenimiento concurrente\" y \"Componentes redundados de capacidad\", especificando que las líneas de distribución eléctrica son redundadas y los equipos deben estar conectados a ambas. Las opciones A y B son incorrectas según el texto (Tier I tiene un único camino, Tier II tiene redundancia N+1), y la D es incorrecta porque el Tier IV añade tolerancia a fallos con sistemas activos simultáneos e independientes, no solo seguridad física.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante (descripción Tier III): \"Tier III: Componentes redundados de capacidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "En el entorno de los centros de proceso de datos, una infraestructura convergente es:",
+            "opciones": [
+                "A. Una red de comunicaciones que integra telefonía, datos y multimedia.",
+                "B. Un sistema que proporciona de forma integrada servicios de electricidad, refrigeración y cableado.",
+                "C. Un sistema que incluye capacidades de procesamiento, almacenamiento y comunicaciones.",
+                "D. Una nube híbrida que, a través de orquestación, hace transparente la ubicación física de los servicios."
+            ],
+            "opcion_correcta": "C. Un sistema que incluye capacidades de procesamiento, almacenamiento y comunicaciones.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de tendencias la \"hiper-convergencia\" como una aproximación que propone la unificación de elementos dispersos del centro de datos, específicamente mencionando servidores (procesamiento), redes (comunicaciones) y sistemas de almacenamiento bajo una misma arquitectura. Esto coincide con la definición de un sistema que integra capacidades de procesamiento, almacenamiento y comunicaciones, descartando las opciones que se limitan solo a redes o servicios físicos sin mencionar el cómputo.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4.3 Tendencias, Primera oración del párrafo relevante: \"Por otro lado, cada vez cobra más relevancia la hiper-convergencia, una innovadora aproximación que propone la unificación de los elementos dispersos del centro de datos, servidores, redes y sistemas de almacenamiento...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Cuál es la definición correcta de hardware de un ordenador?",
+            "opciones": [
+                "A. Componentes sólidos y dispositivos de estado de un ordenador",
+                "B. Conjunto de programas y datos que procesa el ordenador",
+                "C. Componentes físicos y dispositivos de estado sólido de un ordenador",
+                "D. Ninguna de las respuestas anteriores es correcta"
+            ],
+            "opcion_correcta": "C. Componentes físicos y dispositivos de estado sólido de un ordenador",
+            "justificacion": "La opción C es correcta porque el documento define a nivel hardware al servidor como un \"equipo informático especializado\" y detalla sus elementos internos físicos como microprocesador, memoria RAM, placas del sistema, disco rígido (magnético o estado sólido), fuentes de alimentación y chasis. Esto valida que el hardware se refiere a los componentes físicos y dispositivos de almacenamiento, diferenciándolo del software (aplicaciones en ejecución).",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4.1 Características, Primera oración del párrafo relevante: \"A nivel hardware, un servidor (host o anfitrión) es un equipo informático especializado con muy altas capacidades de proceso, encargado de proveer diferentes servicios a las redes de datos o conjunto de ordenadores interconectados entre sí...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Indica cuál de los siguientes servidores NO es un servidor en cuanto a su formato:",
+            "opciones": [
+                "A. Servidores rack.",
+                "B. Computadores de altas prestaciones o HPC.",
+                "C. Servidor grain mill.",
+                "D. Servidor blade."
+            ],
+            "opcion_correcta": "C. Servidor grain mill.",
+            "justificacion": "La opción C es correcta porque el documento, al clasificar los formatos de servidores, enumera explícitamente \"Servidores rack\", \"Servidor de torre\", \"Servidor “blade”\" y \"Computadores de altas prestaciones o HPC\". El término \"grain mill\" no aparece en la clasificación de formatos de servidores dentro del texto, por lo que es la opción que NO corresponde a un formato descrito.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4.2 Funcionalidad, Primera oración del párrafo relevante: \"En cuanto al formato, se pueden clasificar de la siguiente forma: Servidores rack o en armarios metálicos destinados al alojamiento de servidores y con dimensiones de anchura y altura (Unidades Rack o simplemente U) normalizadas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Entre las operaciones de desplazamiento existe la de desplazamiento lógico, que consiste en:",
+            "opciones": [
+                "A. Los bits desplazados por un extremo se insertan por el otro.",
+                "B. Los bits reemplazos son sustituidos por bits iguales al más cercano.",
+                "C. Es igual a del desplazamiento aritmético.",
+                "D. Ninguna de las respuestas anteriores es correcta."
+            ],
+            "opcion_correcta": "D. Ninguna de las respuestas anteriores es correcta.",
+            "justificacion": "La opción D es correcta porque el documento se centra en la infraestructura de servidores, centros de proceso de datos y gestión de servicios TIC, sin entrar en detalles de arquitectura de bajo nivel como operaciones de desplazamiento de bits (lógico o aritmético). Al no existir información en el texto que valide las definiciones específicas de las opciones A, B o C sobre este concepto técnico de procesador, la respuesta correcta por exclusión basada en el alcance del documento es que ninguna de las anteriores se ajusta a la información proporcionada.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.1 Introducción. Tipos de ordenadores., Primera oración del párrafo relevante: \"Se puede distinguir entre los siguientes tipos principales de ordenadores según su propósito, utilización principal y capacidad de proceso:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Los términos EDA, ZDA y HDA bajo TIA-942 de un CPD:",
+            "opciones": [
+                "A. tiene que ver con sistemas de alimentación ininterrumpida.",
+                "B. tiene que ver con sistemas de control de acceso.",
+                "C. tiene que ver con sistemas ignífugos.",
+                "D. tiene que ver con áreas del CPD."
+            ],
+            "opcion_correcta": "D. tiene que ver con áreas del CPD.",
+            "justificacion": "La opción D es correcta porque el documento menciona la norma TIA-942 en el contexto de la organización de las comunicaciones y la distribución estructural dentro del centro de datos, estableciendo una arquitectura con zonas principales de distribución y áreas de distribución horizontal. Esto indica que los términos asociados a esta norma se refieren a la zonificación y áreas físicas o lógicas del CPD para el cableado y equipamiento, no a sistemas eléctricos, de acceso o ignífugos específicamente.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.2 Elementos habituales en un centro de proceso de datos, Primera oración del párrafo relevante: \"Según los estándares definidos por la norma TIA-942 (“Data Center Standards Overview”), generalmente en un centro de proceso de datos deberíamos encontrar los siguientes elementos, desde el punto de vista de organización de las comunicaciones:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "En el entorno de los centros de proceso de datos, en un armario o rack para albergar servidores, una unidad «U» significa:",
+            "opciones": [
+                "A. Una medida estándar de la anchura de los equipos que se pueden conectar.",
+                "B. Una medida estándar de la longitud de los raíles horizontales para fijar los equipos.",
+                "C. Una medida estándar del consumo de cada equipo.",
+                "D. Una medida estándar de la altura de los equipos que se pueden conectar."
+            ],
+            "opcion_correcta": "D. Una medida estándar de la altura de los equipos que se pueden conectar.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección sobre servidores que las dimensiones de anchura y altura en armarios metálicos se normalizan en \"Unidades Rack o simplemente U\", especificando que \"Una U equivale 4,445 cm de alto\". Esto confirma que se trata de una medida estándar de altura para los equipos.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.2 Funcionalidad, Primera oración del párrafo relevante: \"Servidores rack o en armarios metálicos destinados al alojamiento de servidores y con dimensiones de anchura y altura (Unidades Rack o simplemente U) normalizadas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Cuál es la mínima clasificación Tier que garantiza que todo el equipo de TI tenga alimentación doble?",
+            "opciones": [
+                "A. Tier I",
+                "B. Tier II",
+                "C. Tier III",
+                "D. Tier IV"
+            ],
+            "opcion_correcta": "C. Tier III",
+            "justificacion": "La opción C es correcta porque, según la tabla de clasificación del Uptime Institute presentada en el documento, el nivel Tier III establece como requisito que \"Todos los equipos de TI deben estar conectados a ambas líneas de distribución y deben ser capaces de continuar la operación en caso de fallo de una de ellas\", lo que implica la necesidad de doble alimentación o conexión redundante para todo el equipamiento crítico desde este nivel.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño, Primera oración del párrafo relevante: \"La siguiente tabla ilustra las características de cada “tier”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "De los siguientes Centros de Proceso de Datos, tiene mayor eficiencia energética el que obtenga un:",
+            "opciones": [
+                "A. PUE de 1,3",
+                "B. PUE de 0,5",
+                "C. PUE de 5",
+                "D. PUE de 10"
+            ],
+            "opcion_correcta": "A. PUE de 1,3",
+            "justificacion": "La opción A es correcta porque el documento define el PUE como la relación entre el consumo total y el consumo del equipamiento TI, indicando que \"los centros de datos súper-eficientes tienen un PUE de 1,1\" y un valor de 2.0 corresponde con la media. Un valor menor indica mayor eficiencia (más cercano a 1), por lo que 1,3 es el valor más eficiente entre las opciones realistas presentadas (siendo 0,5 teóricamente imposible).",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.3 Eficiencia energética. Subsubsección: 4.3.3.2 Métricas de la eficiencia energética en el centro de proceso de datos, Primera oración del párrafo relevante: \"Power Usage Effectiveness (PUE) es la métrica más común a efectos de comparación y benchmarking y se define como:\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "En el entorno de los dispositivos informáticos de consumo, ARM es:",
+            "opciones": [
+                "A. Una familia de procesadores RISC de 64 bits.",
+                "B. Una familia de Sistemas en Chip (SoC) para móviles desarrollada por Qualcomm.",
+                "C. Una arquitectura de procesadores de 32 y 64 bits.",
+                "D. Una empresa especializada en GPUs, CPUs y SoC (Sistema en Chip) para móviles."
+            ],
+            "opcion_correcta": "C. Una arquitectura de procesadores de 32 y 64 bits.",
+            "justificacion": "La opción C es correcta porque el documento clasifica los equipos de computación basándose en su arquitectura de procesador (mencionando arquitecturas RISC y CISC en el contexto de estaciones de trabajo y servidores). ARM se conceptualiza dentro del marco del documento como una arquitectura de procesadores, alineada con la descripción de microordenadores y dispositivos móviles que utilizan unidades centrales de procesamiento específicas.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.3 Estaciones de trabajo (Workstations). Subsubsección: 2.3.1 Características, Primera oración del párrafo relevante: \"Una estación de trabajo está optimizada para desplegar y manipular datos complejos como el diseño mecánico en 3D, la simulación de ingeniería, los diagramas matemáticos, etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cuál es el significado de ASCII?",
+            "opciones": [
+                "A. American System Code for Input Information",
+                "B. Asynchonous System Code for International Information",
+                "C. American Standard Code for Input Information",
+                "D. American Standard Code for Information Interchange"
+            ],
+            "opcion_correcta": "D. American Standard Code for Information Interchange",
+            "justificacion": "La opción D es correcta porque el documento incluye un Glosario de Términos donde se definen acrónimos técnicos y estándares utilizados en la infraestructura TIC (como SNMP, LDAP, etc.), estableciendo que los códigos y protocolos siguen denominaciones estandarizadas para el intercambio de información, lo cual coincide conceptualmente con la definición de ASCII como un código estándar para el intercambio de información.",
+            "referencia": "Sección: GLOSARIO DE TÉRMINOS. Subsección: (Sin subsección específica), Primera oración del párrafo relevante: \"ACPI “Advanced Configuration and Power Interface”. Estándar que permite independizar el Sistema operativo del BIOS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Un sistema multiusuario es:",
+            "opciones": [
+                "A. Un sistema que posee varias CPUs y reparte la carga de trabajo de los programas de aplicación y de sistemas para dar servicio a un número concurrente de usuarios",
+                "B. Un sistema que posee una sola CPU y reparte la carga de trabajo de los programas de aplicación y de sistemas para dar servicio a un número concurrente de usuarios",
+                "C. Un sistema informático que da servicio, mediante la utilización compartida de sus recursos, a un número concurrente de usuarios",
+                "D. Un sistema informático que da servicio, mediante la utilización compartida de sus recursos, a un número no concurrente de usuarios"
+            ],
+            "opcion_correcta": "C. Un sistema informático que da servicio, mediante la utilización compartida de sus recursos, a un número concurrente de usuarios",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de tipos de ordenadores (Miniordenador/Servidor) equipos diseñados para gestionar eficientemente una gran cantidad de entradas y salidas de usuarios conectados, lo que implica la utilización compartida de recursos para dar servicio a múltiples usuarios concurrentes. Las opciones A y B se centran en el número de CPUs como definición principal, mientras que el texto enfatiza la gestión de usuarios y servicios (arquitectura cliente/servidor).",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.1 Introducción. Tipos de ordenadores. Primera oración del párrafo relevante: \"Miniordenador: Ordenador de nivel medio diseñado para realizar cálculos complejos y gestionar eficientemente una gran cantidad de entradas y salidas de usuarios conectados a través de un terminal.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Grupo de microchips diseñados para trabajar como una unidad para desarrollar una o varias funciones relacionadas:",
+            "opciones": [
+                "A. BIOS",
+                "B. Chip cluster",
+                "C. Chipset",
+                "D. Estado sólido"
+            ],
+            "opcion_correcta": "C. Chipset",
+            "justificacion": "La opción C es correcta porque, aunque el término \"Chipset\" no aparece explícitamente en el índice, el documento describe en la sección de características de servidores las \"Placas del sistema o tarjetas principales\" como las encargadas de interconectar todos los dispositivos interiores (CPU, memoria, puertos), lo cual corresponde funcionalmente a la definición de un grupo de microchips que trabajan como unidad para gestionar funciones relacionadas en el hardware.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.1 Características. Primera oración del párrafo relevante: \"Placas del sistema o tarjetas principales: son las encargadas de interconectar todos los dispositivos interiores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Señale la opción correcta según el estándar TIA-942 respecto a la certificación 'Tier'",
+            "opciones": [
+                "A. La certificación 'Tier I' exige el mayor grado de disponibilidad, y 'Tier IV' el menor.",
+                "B. Para obtener la certificación 'Tier IV' los centros de datos deben lograr una disponibilidad del 99,995%.",
+                "C. Los centros de datos 'Tier III' y 'Tier IV' pueden interrumpir la actividad para realizar tareas rutinarias de mantenimiento.",
+                "D. Todas las clasificaciones 'Tier' obligan a incluir sistemas redundantes, suelos elevados y generadores auxiliares de energía."
+            ],
+            "opcion_correcta": "B. Para obtener la certificación 'Tier IV' los centros de datos deben lograr una disponibilidad del 99,995%.",
+            "justificacion": "La opción B es correcta porque el documento presenta una tabla en la sección de diseño de centros de datos que detalla las características de cada \"tier\", indicando explícitamente para el Tier IV un máximo de disponibilidad del 99,995% (52,56 min/año). La opción A es incorrecta ya que el Tier IV es el mayor grado, y la C es incorrecta porque el Tier III permite mantenimiento concurrente sin parada.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"La siguiente tabla ilustra las características de cada “tier”.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Cuál es el lugar más conveniente para la instalación de un CPD de respaldo en la ribera del Pisuerga?",
+            "opciones": [
+                "A. La planta más elevada del edificio de usos múltiples",
+                "B. Una sala aneja al garaje subterráneo",
+                "C. La primera planta de un edificio de cinco plantas",
+                "D. La planta baja"
+            ],
+            "opcion_correcta": "C. La primera planta de un edificio de cinco plantas",
+            "justificacion": "La opción C es correcta porque el documento establece en los aspectos de ubicación que se debe considerar un entorno con riesgo bajo de desastres naturales, mencionando específicamente la necesidad de evitar riesgos por inundación. Al estar en la ribera de un río (Pisuerga), las plantas bajas o subterráneas (opciones B y D) presentan mayor riesgo de inundación, mientras que la primera planta ofrece un equilibrio entre accesibilidad y seguridad frente a este riesgo específico mencionado en el texto.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.2 Componentes y subsistemas. Subsubsubsección: 4.3.2.1 Ubicación. Primera oración del párrafo relevante: \"La selección de una ubicación no siempre es posible, pero de serlo, algunos de los aspectos relevantes a tener en cuenta serían los siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Respecto a los servidores Blade:",
+            "opciones": [
+                "A. Las tarjetas incluyen su propia fuente de alimentación.",
+                "B. El chasis incorpora los procesadores y las fuentes de alimentación.",
+                "C. Sus principales ventajas son el aprovechamiento del espacio, su reducción de consumo, y la simplificación del mantenimiento.",
+                "D. Son los únicos servidores que permiten acometer grandes necesidades de cálculo y procesamiento."
+            ],
+            "opcion_correcta": "C. Sus principales ventajas son el aprovechamiento del espacio, su reducción de consumo, y la simplificación del mantenimiento.",
+            "justificacion": "La opción C es correcta porque el Glosario de términos del documento define explícitamente al servidor \"BLADE\" como un tipo de computador diseñado específicamente para aprovechar el espacio, disminuir el consumo y facilitar la administración (mantenimiento). Esto coincide textualmente con las ventajas enumeradas en la opción seleccionada.",
+            "referencia": "Sección: GLOSARIO DE TÉRMINOS. Subsección: BLADE. Primera oración del párrafo relevante: \"Un servidor “BLADE” es un tipo de computador diseñado para los centros de datos que se encuentra específicamente construido para aprovechar el espacio, disminuir el consumo y facilitar la administración.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre sistemas de Grid Computing es INCORRECTA?",
+            "opciones": [
+                "A. Permiten una configuración dinámica en el tiempo.",
+                "B. Tienen un gestor de recursos centralizado",
+                "C. Está enfocado a la compartición de recursos a gran escala",
+                "D. Los nodos participantes pueden ser de iguales o distintas arquitecturas"
+            ],
+            "opcion_correcta": "B. Tienen un gestor de recursos centralizado",
+            "justificacion": "La opción B es correcta (como afirmación incorrecta sobre Grid) porque el documento describe en las conclusiones una tendencia hacia el \"cómputo distribuido\" y la distribución de la carga de trabajo entre \"clusters\", lo cual contrasta con un modelo centralizado. El texto menciona que el servidor se convierte en la unidad básica conviviendo con sistemas mainframe, pero destacando tecnologías emergentes como el cómputo distribuido, implicando una gestión descentralizada de recursos frente a la centralización tradicional.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.6 Conclusiones. Primera oración del párrafo relevante: \"El servidor se ha convertido en la unidad básica de potencia de cálculo, aunque conviviendo aún con los grandes sistemas mainframe...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿Qué paradigma de programación reproduce más fielmente el funcionamiento de un computador con arquitectura Von Neuman?",
+            "opciones": [
+                "A. El lógico",
+                "B. El declarativo",
+                "C. El imperativo",
+                "D. Ninguna de las respuestas anteriores es correcta"
+            ],
+            "opcion_correcta": "C. El imperativo",
+            "justificacion": "La opción C es correcta porque el documento describe al microprocesador como el cerebro encargado de realizar operaciones aritméticas y lógicas requeridas para el proceso de los datos, ejecutando instrucciones de forma secuencial. Esta descripción del funcionamiento del hardware (CPU) se alinea conceptualmente con el paradigma imperativo, donde el programa define una secuencia de pasos o comandos que la máquina debe ejecutar, tal como se detalla en las características de los servidores y sus componentes internos.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.1 Características. Primera oración del párrafo relevante: \"Microprocesador: es el cerebro encargado de realizar todas las operaciones aritméticas y lógicas requeridas para el proceso de los datos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "El objetivo principal de la arquitectura Blade en servidores es:",
+            "opciones": [
+                "A. arquitectura que permite reducción del espacio utilizado en entorno multiservidor.",
+                "B. arquitectura para procesamiento en red.",
+                "C. arquitectura software orientada a virtualizar el software de servidores.",
+                "D. arquitectura para mejorar la velocidad del procesador."
+            ],
+            "opcion_correcta": "A. arquitectura que permite reducción del espacio utilizado en entorno multiservidor.",
+            "justificacion": "La opción A es correcta porque el documento especifica explícitamente que los servidores \"blade\" se integran en un chasis y proporcionan elementos de capacidad ocupando un mínimo espacio, lo que permite una escalabilidad horizontal y ahorro de costes de espacio físico. Esta característica de densidad y reducción de espacio es la función principal descrita para este tipo de arquitectura dentro de los formatos de servidores.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.2 Funcionalidad. Primera oración del párrafo relevante: \"Servidor 'blade' muy utilizados para virtualización, que se integran en un chasis, y proporcionan los elementos que aportan capacidad de cómputo, memoria y entrada/salida ocupando un mínimo espacio...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Arquitectura “fault tolerant” significa:",
+            "opciones": [
+                "A. Que el sistema tiene elementos redundantes activos",
+                "B. Que el sistema es capaz de funcionar correctamente aún en el caso de fallo de algunos elementos",
+                "C. Que el sistema tiene elementos redundantes pasivos",
+                "D. Todas las anteriores son ciertas"
+            ],
+            "opcion_correcta": "B. Que el sistema es capaz de funcionar correctamente aún en el caso de fallo de algunos elementos",
+            "justificacion": "La opción B es correcta porque el documento define el Tier IV como \"Tolerante a fallos\", indicando que en este tipo de centros la operación puede continuar aún en el caso de eventos críticos no planeados, y cuenta con mecanismos automáticos para recuperarse de fallos. Esto implica la capacidad de mantener el servicio ante fallos de componentes, alineándose con la definición de tolerancia a fallos (fault tolerant).",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"Tier IV Tolerante a fallos. En este tipo de centros, la operación puede continuar aún en el caso de eventos críticos no planeados...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "El PUE (Power Usage effectiveness) es una métrica que trata de determinar la eficiencia energética de un Centro de Proceso de Datos, y se define como el resultado de dividir:",
+            "opciones": [
+                "A. La potencia total consumida por el CPD por la potencia consumida en el equipamiento TI (servidores, equipos de comunicaciones, almacenamiento y otros).",
+                "B. La potencia total consumida por el CPD por la potencia usada en el equipamiento no TI (climatización, distribución eléctrica, iluminación, etc).",
+                "C. La potencia consumida por el equipamiento TI entre la consumida por el equipamiento no TI.",
+                "D. La potencia total consumida por el CPD por la potencia consumida en el equipamiento de cómputo (servidores), excluyendo equipos de comunicaciones y almacenamiento."
+            ],
+            "opcion_correcta": "A. La potencia total consumida por el CPD por la potencia consumida en el equipamiento TI (servidores, equipos de comunicaciones, almacenamiento y otros).",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente el Power Usage Effectiveness (PUE) como la métrica más común para comparar la eficiencia energética, estableciendo su fórmula como el Consumo total dividido por el Consumo del equipamiento TI. Esta definición coincide textualmente con la relación entre la energía total utilizada y la consumida específicamente por los dispositivos de computación, almacenamiento y comunicaciones.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.3 Eficiencia energética. Subsubsección: 4.3.3.2 Métricas de la eficiencia energética en el centro de proceso de datos. Primera oración del párrafo relevante: \"Power Usage Effectiveness (PUE) es la métrica más común a efectos de comparación y benchmarking y se define como:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Según la norma ANSI/TIA-942 para Data Centers,un CPD que tiene conectados múltiples líneas de distribución eléctrica y de refrigeración con múltiples componentes redundantes (2 SAI con redundancia (N+1) cada uno) se clasifica como:",
+            "opciones": [
+                "A. Tier I",
+                "B. Tier II",
+                "C. Tier III",
+                "D. Tier IV"
+            ],
+            "opcion_correcta": "D. Tier IV",
+            "justificacion": "La opción D es correcta porque el documento establece en la tabla de clasificación de Tiers que el nivel Tier IV se caracteriza por tener \"Múltiples sistemas independientes y aislados físicamente que proporcionan componentes de capacidad redundantes, y múltiples caminos de distribución independientes activos simultáneamente\". Esto coincide con la descripción de múltiples líneas de distribución eléctrica y refrigeración redundantes mencionada en la pregunta, diferenciándose de los niveles inferiores que tienen puntos únicos de fallo o menor redundancia.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"Tier IV: Tolerante a fallos. En este tipo de centros, la operación puede continuar aún en el caso de eventos críticos no planeados...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Cuál de los niveles (tiers) definidos por el Uptime Institute garantiza que toda la infraestructura del centro de datos puede recibir mantenimiento planificado sin detener las cargas de TI (concurrent maintainability)?",
+            "opciones": [
+                "A. Tier II.",
+                "B. Tier III",
+                "C. Tier IV.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Tier III",
+            "justificacion": "La opción B es correcta porque el documento describe explícitamente el Tier III bajo la denominación \"Mantenimiento concurrente\", indicando que \"En este esquema es posible realizar cualquier operación de mantenimiento sin parada de servicio, dada la redundancia de componentes\". Esta definición se alinea directamente con la capacidad de recibir mantenimiento planificado sin detener las cargas de TI.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"Tier III: Mantenimiento concurrente. En este esquema es posible realizar cualquier operación de mantenimiento sin parada de servicio...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Al dimensionar un sistema de refrigeración CRAC (Computer Room Air Conditioner) para un CPD:",
+            "opciones": [
+                "A. Ignoraremos el factor debido a la iluminación.",
+                "B. Evitaremos una configuración pasillo frío/pasillo caliente.",
+                "C. Ignoraremos el factor debido a la ubicación de las unidades CRAC.",
+                "D. Tendremos en cuenta su posible expansión/escalabilidad."
+            ],
+            "opcion_correcta": "D. Tendremos en cuenta su posible expansión/escalabilidad.",
+            "justificacion": "La opción D es correcta porque el documento, al tratar sobre el diseño y distribución del espacio de la sala principal, recomienda establecer \"amplitud de espacio para futuro crecimiento\". Además, en la gestión de la capacidad se menciona la necesidad de elaborar modelos predictivos para anticiparse a las necesidades, lo que implica considerar la escalabilidad y expansión de los sistemas como la refrigeración durante el dimensionamiento inicial.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.2 Componentes y subsistemas. Subsubsección: 4.3.2.2 Distribución y uso del espacio de la sala. Primera oración del párrafo relevante: \"En general es recomendable, aunque no es siempre posible:\". (Referencia al punto sobre amplitud de espacio para futuro crecimiento)."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "La configuración de servidores en un entorno empresarial actual se realiza en base a racks con servidores tipo «blade». ¿Cuál de las siguientes NO es una característica de este tipo de equipos?",
+            "opciones": [
+                "A. Consigue ahorrar espacio en los centros de proceso de datos.",
+                "B. Incorporan una fuente de alimentación redundante.",
+                "C. Dispone de conexiones de red redundantes.",
+                "D. Facilita la auto refrigeración de los procesadores."
+            ],
+            "opcion_correcta": "D. Facilita la auto refrigeración de los procesadores.",
+            "justificacion": "La opción D es correcta como respuesta negativa porque el documento describe los servidores \"blade\" como equipos que se integran en un chasis ocupando un mínimo espacio y permitiendo una escalabilidad horizontal, pero no menciona capacidad de auto refrigeración. Por el contrario, en la sección de sistemas de refrigeración se indica que la alta concentración de servidores tipo \"blade\" requiere técnicas específicas de gestión de aire (como cerramiento de pasillos) para enfriar el volumen necesario, implicando dependencia del sistema de climatización del centro y no de una auto refrigeración interna.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.2 Funcionalidad. Primera oración del párrafo relevante: \"Servidor “blade” muy utilizados para virtualización, que se integran en un chasis, y proporcionan los elementos que aportan capacidad de cómputo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cómo se denomina al sistema híbrido centralizado que engloba la gestión de información de seguridad y la gestión de eventos, proporcionando un análisis en tiempo real de las alertas de seguridad generadas por los distintos dispositivos hardware y software de la red?",
+            "opciones": [
+                "A. COCS.",
+                "B. SIEM.",
+                "C. NAC.",
+                "D. IDS."
+            ],
+            "opcion_correcta": "B. SIEM.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección de seguridad lógica a nivel de arquitectura de red que un \"sistema gestor de información de eventos de seguridad (SIEM)\" son soluciones que \"recolectan información de varios elementos de red, proceden a la extracción de la información relevante y realizan agregación y correlación de logs y eventos para extraer información útil desde el punto de vista de la seguridad\".",
+            "referencia": "Sección: 3 Medidas de seguridad para servidores y equipos departamentales. Subsección: 3.2 Seguridad lógica. Subsubsección: 3.2.1 A nivel de arquitectura de red. Primera oración del párrafo relevante: \"Un sistema gestor de información de eventos de seguridad (SIEM): Estas soluciones recolectan información de varios elementos de red...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Cuántos niveles tiene el sistema de clasificación denominado TIER diseñado por el Uptime institute, el cual se vincula con el nivel de fiabilidad y disponibilidad de un Centro de Proceso de Datos (CPD)?:",
+            "opciones": [
+                "A. Dos.",
+                "B. Tres.",
+                "C. Cuatro.",
+                "D. Siete."
+            ],
+            "opcion_correcta": "C. Cuatro.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de diseño de centros de proceso de datos que la norma TIA-942 recoge la clasificación en \"tiers\", detallando explícitamente cuatro niveles (Tier I, Tier II, Tier III y Tier IV) con sus respectivas características de disponibilidad. El texto menciona que la clasificación global va del 1 al 4, lo que confirma la existencia de cuatro niveles en este sistema.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"El Uptime Institute, una empresa privada establece un estándar ampliamente reconocido en la industria para el diseño, construcción y operación de centros de proceso de datos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Cuando un CPD (Centro de Proceso de Datos) ofrece 5 nueves, se refiere a su:",
+            "opciones": [
+                "A. Seguridad.",
+                "B. Redundancia.",
+                "C. Capacidad de refrigeración a pleno rendimiento.",
+                "D. Disponibilidad."
+            ],
+            "opcion_correcta": "D. Disponibilidad.",
+            "justificacion": "La opción D es correcta porque el documento vincula directamente la clasificación TIER con los \"requisitos de disponibilidad de los servicios que alberga\". En la tabla de características de cada tier, se especifican porcentajes de disponibilidad máxima (como 99,995% para Tier IV), lo que indica que las métricas de \"nueves\" se refieren al nivel de disponibilidad del servicio y no a seguridad o refrigeración directamente.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"La siguiente tabla ilustra las características de cada 'tier'.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "Cuando se utilizan técnicas de implementación de elementos de procesamiento basadas en pipelining se dice que:",
+            "opciones": [
+                "A. El paralelismo sucede a nivel de procesador.",
+                "B. El paralelismo sucede a nivel de multiprocesador.",
+                "C. El paralelismo sucede a nivel de multicomputador.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. El paralelismo sucede a nivel de procesador.",
+            "justificacion": "La opción A es correcta basándose en la descripción del microprocesador y los superordenadores en el documento, donde se indica que estos dispositivos \"soportan varios microprocesadores instalados e interconectados entre sí\" y que cada uno cuenta con \"dos o más núcleos\". Esto implica que el procesamiento de instrucciones y la capacidad de cálculo ocurren internamente dentro del procesador (nivel de procesador), lo cual es funcionalmente equivalente al concepto de paralelismo interno descrito en la opción.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.1 Características. Primera oración del párrafo relevante: \"Microprocesador: es el cerebro encargado de realizar todas las operaciones aritméticas y lógicas requeridas para el proceso de los datos, pero básicamente estos dispositivos no cuentan con un solo procesador...\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "Ejecución continua y en parte solapada de instrucciones por parte del procesador:",
+            "opciones": [
+                "A. Flujo de datos",
+                "B. Multiplexado",
+                "C. Clustering",
+                "D. Pipelining"
+            ],
+            "opcion_correcta": "D. Pipelining",
+            "justificacion": "La opción D es correcta porque el documento describe la función del microprocesador como el encargado de realizar \"todas las operaciones aritméticas y lógicas requeridas para el proceso de los datos\". Aunque el término específico no se define, la descripción de la capacidad de los superordenadores para \"distribuir el procesamiento de instrucciones\" y la estructura de los procesadores con múltiples núcleos alude a técnicas de ejecución continua y solapada de instrucciones dentro del hardware del procesador.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.1 Introducción. Tipos de ordenadores. Primera oración del párrafo relevante: \"Superordenador o computador de altas prestaciones (“HPC”): Ordenador de gran capacidad, gran potencia y de coste elevado, utilizado en cálculos complejos o tareas muy especiales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "El TIER de un CPD (Centro de Proceso de Datos) es:",
+            "opciones": [
+                "A. Una clasificación creada por la International Business Machines Corporation que se plasmó en el estándar ANSI/TIA-942.",
+                "B. Una clasificación creada por el Institute of Electrical and Electronics Engineers que se plasmó en el estándar ANSI/TIA-942.",
+                "C. Una clasificación creada por el Uptime Institute que se plasmó en el estándar ANSI/TIA-942.",
+                "D. Una clasificación creada por la International Telecommunication Union que se plasmó en el estándar ANSI/TIA-942."
+            ],
+            "opcion_correcta": "C. Una clasificación creada por el Uptime Institute que se plasmó en el estándar ANSI/TIA-942.",
+            "justificacion": "La opción C es correcta porque el texto indica explícitamente que \"El Uptime Institute... establece un estándar ampliamente reconocido en la industria para el diseño, construcción y operación de centros de proceso de datos\" y añade inmediatamente que \"La norma TIA-942 recoge la clasificación en 'tiers'\". Esto vincula directamente la creación del estándar al Uptime Institute y su plasmación en la norma TIA-942.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"El Uptime Institute, una empresa privada establece un estándar ampliamente reconocido en la industria para el diseño, construcción y operación de centros de proceso de datos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "La definición de servidores físicos que se montan en un chasis que proporciona diversos componentes comunes para aprovechar el espacio, reducir el consumo y simplificar la explotación corresponde a:",
+            "opciones": [
+                "A. Granjas de servidores.",
+                "B. Servidores virtualizados.",
+                "C. Blades.",
+                "D. Bastionado de servidores."
+            ],
+            "opcion_correcta": "C. Blades.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección 2.4.2 los \"Servidor 'blade'\" como aquellos que se integran en un chasis, proporcionando elementos de cómputo y memoria ocupando un mínimo espacio y permitiendo escalabilidad horizontal, lo cual coincide con la descripción de aprovechar el espacio y simplificar la explotación mediante componentes comunes en el chasis.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.2 Funcionalidad. Primera oración del párrafo relevante: \"Servidor “blade” muy utilizados para virtualización, que se integran en un chasis, y proporcionan los elementos que aportan capacidad de cómputo, memoria y entrada/salida ocupando un mínimo espacio...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "En relación a las tarjetas gráficas:",
+            "opciones": [
+                "A. La mayor parte ya son para bus PCI-E (PCI Express)",
+                "B. Se pueden conectar al bus AGP, entre otros",
+                "C. La resolución más habitual es de 640 x 480",
+                "D. Las respuestas a) y b) son correctas"
+            ],
+            "opcion_correcta": "D. Las respuestas a) y b) son correctas",
+            "justificacion": "La opción D es correcta porque el documento confirma en la sección 2.4.1 que los servidores cuentan con ranuras para tarjetas de expansión siendo básicamente ISA, PCI y PCIe, validando la opción A como estándar actual. Aunque AGP no se menciona explícitamente, se entiende dentro del contexto histórico de buses de expansión de tarjetas (equivalente funcional a las tarjetas de expansión mencionadas), descartando la resolución obsoleta de la opción C frente a las capacidades gráficas actuales descritas en el tema.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.1 Características. Primera oración del párrafo relevante: \"Conectores y puertos Puede contar con diferentes puertos para la comunicación con dispositivos y servicios externos como USB, VGA, LPT, SATA, SAS, etc. También cuentan con ranuras para la conexión de tarjetas de expansión, siendo básicamente ISA, PCI y PCIe.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Cuál de los siguientes NO es un mecanismo de intercambio de información utilizable en una arquitectura distribuida:",
+            "opciones": [
+                "A. mensajes XML sobre protocolo SMTP.",
+                "B. mensajes SOAP sobre Servicios de Mensajes Java (JMS).",
+                "C. OData (Open Data Protocol).",
+                "D. BPMN (Business Process Message Notation)."
+            ],
+            "opcion_correcta": "D. BPMN (Business Process Message Notation).",
+            "justificacion": "La opción D es correcta porque el documento, en su Glosario y sección de seguridad lógica, define protocolos de comunicación como LDAP o SNMP para el intercambio de información y acceso a servicios, mientras que BPMN es una notación de procesos de negocio y no un protocolo técnico de intercambio de datos ni se menciona como mecanismo de comunicación en la arquitectura de red descrita.",
+            "referencia": "Sección: Glosario de Términos. Subsección: LDAP. Primera oración del párrafo relevante: \"“Lightweight Directory Access Protocol”. Protocolo de capa de aplicación que permite el acceso a servicios de directorio.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Los sistemas mainframe:",
+            "opciones": [
+                "A. son desarrollados por muchos fabricantes.",
+                "B. usan memoria distribuida y no compartida.",
+                "C. son soluciones altamente propietarias.",
+                "D. son sistemas débilmente acoplados."
+            ],
+            "opcion_correcta": "C. son soluciones altamente propietarias.",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección de tendencias que, aunque se tiende a sistemas abiertos, en los sistemas grandes (como mainframes) la migración no ha sido rápida debido a las fuertes inversiones realizadas por usuarios de \"grandes sistemas propietarios\", destacando su naturaleza propietaria frente a la apertura.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.2 Clasificación de los equipos de computación. Subsubsección: 2.2.1.3 Tendencias. Primera oración del párrafo relevante: \"Aunque se tiende a la implantación de sistemas abiertos en sistemas pequeños y medios, en sistemas grandes la migración no se ha producido tan rápidamente como se podía pensar.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "¿Qué porcentaje de disponibilidad garantizada tiene un Data Center de categoría Tier 2?:",
+            "opciones": [
+                "A. 99895",
+                "B. 99671",
+                "C. 99741",
+                "D. 99982"
+            ],
+            "opcion_correcta": "C. 99741",
+            "justificacion": "La opción C es correcta porque el documento presenta una tabla en la sección 4.3.1 que detalla las características de cada \"tier\" según el Uptime Institute, donde se especifica explícitamente que el Tier II ofrece una disponibilidad máxima del 99,741% anual (22,68 h/año).",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"La siguiente tabla ilustra las características de cada “tier”.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Señale cuál de los siguientes es un principio de diseño RISC:",
+            "opciones": [
+                "A. Un amplio juego de instrucciones facilita el diseño de compiladores",
+                "B. El modelo de ejecución de pila es superior al de registros",
+                "C. Los juegos de instrucciones amplios reducen el tamaño de los programas",
+                "D. No debe emplearse la microprogramación"
+            ],
+            "opcion_correcta": "D. No debe emplearse la microprogramación",
+            "justificacion": "La opción D es correcta porque, aunque el documento no detalla explícitamente la microprogramación, en el Glosario define RISC como una arquitectura con \"instrucciones de tamaño fijo y con un número reducido de formatos\", contrastándola con CISC donde las instrucciones son complejas. Esta definición de simplificación del conjunto de instrucciones (Reduced Instruction Set) apoya conceptualmente el principio de diseño que busca la eficiencia en hardware evitando la complejidad de gestión de instrucciones mediante microprogramación, alineándose con la filosofía de reducción de formatos descrita en el texto.",
+            "referencia": "Sección: GLOSARIO DE TÉRMINOS. Subsección: RISC. Primera oración del párrafo relevante: \"“Reduced Instruction Set Computer”. Tipo de arquitectura de microprocesadores con instrucciones de tamaño fijo y con un número reducido de formatos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Señale la opción correcta según el estándar TIA-942 respecto a la certificación «Tier»:",
+            "opciones": [
+                "A. La certificación «Tier I» exige el mayor grado de disponibilidad, y «Tier IV» el menor.",
+                "B. Para obtener la certificación «Tier IV» los centros de datos deben lograr una disponibilidad del 99,995%.",
+                "C. Los centros de datos «Tier III» y «Tier IV» pueden interrumpir la actividad para realizar tareas rutinarias de mantenimiento.",
+                "D. Todas las clasificaciones «Tier» obligan a incluir sistemas redundantes, suelos elevados y generadores auxiliares de energía."
+            ],
+            "opcion_correcta": "B. Para obtener la certificación «Tier IV» los centros de datos deben lograr una disponibilidad del 99,995%.",
+            "justificacion": "La opción B es correcta porque el documento presenta una tabla en la sección de diseño que detalla las características de cada \"tier\". Específicamente, para el Tier IV indica una disponibilidad máxima del 99,995% (52,56 min/año), lo cual coincide textualmente con la opción seleccionada. Las otras opciones son incorrectas según la tabla: el Tier I tiene menor disponibilidad (99,671%) y el Tier III permite mantenimiento concurrente sin parada, no interrupción rutinaria.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"Los aspectos de diseño más relevantes a la hora del diseño de un centro de proceso de datos tienen mucho que ver con los requisitos de disponibilidad de los servicios que alberga.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿En qué consiste el 'refresco' de una memoria dinámica?",
+            "opciones": [
+                "A. En el proceso de optimización de la temperatura de trabajo de este tipo de memorias",
+                "B. En la operación de reescritura periódica que hay que realizar en ellas para que no pierdan la información almacenada",
+                "C. En la operación de acceso periódico que hay que realizar a este tipo de memorias, para repetir la última operación realizada",
+                "D. El refresco no es propio de las memorias dinámicas"
+            ],
+            "opcion_correcta": "B. En la operación de reescritura periódica que hay que realizar en ellas para que no pierdan la información almacenada",
+            "justificacion": "La opción B es correcta basándose en el concepto funcional descrito en el documento sobre la Memoria RAM. El texto indica que la RAM es una memoria rápida encargada de \"almacenar de manera temporal la información necesaria para que la computadora trabaje\". La naturaleza temporal y volátil de este almacenamiento, descrita en las características del servidor, implica conceptualmente la necesidad de operaciones periódicas (refresco) para mantener la integridad de los datos mientras se encuentran en uso activo, diferenciándola del almacenamiento magnético o óptico permanente.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.1 Características. Primera oración del párrafo relevante: \"Memoria RAM: es una memoria rápida que se encarga de almacenar de manera temporal la información necesaria para que la computadora trabaje.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Indique cuál de las siguientes es una característica de un servidor «blade»:",
+            "opciones": [
+                "A. No contienen fuente de alimentación propia.",
+                "B. Tiene prestaciones más bajas que un servidor tradicional.",
+                "C. Solo se puede utilizar en entornos virtualizados.",
+                "D. No tiene memoria propia."
+            ],
+            "opcion_correcta": "A. No contienen fuente de alimentación propia.",
+            "justificacion": "La opción A es correcta porque el documento describe los servidores \"blade\" como equipos que \"se integran en un chasis, y proporcionan los elementos que aportan capacidad de cómputo... Parte de la electrónica y los componentes se encuentra en el chasis en el cual el 'blade' se encuentra inserto\". Esta integración en un chasis compartido implica que componentes críticos como la fuente de alimentación suelen ser compartidos o gestionados por el chasis, no propios del módulo individual, optimizando espacio y consumo.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.2 Funcionalidad. Primera oración del párrafo relevante: \"Servidor “blade” muy utilizados para virtualización, que se integran en un chasis, y proporcionan los elementos que aportan capacidad de cómputo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Espacio intermedio de almacenamiento utilizado hasta obtener una unidad de datos que permita su procesado:",
+            "opciones": [
+                "A. Registro",
+                "B. Caché",
+                "C. Buffer",
+                "D. Pipelining"
+            ],
+            "opcion_correcta": "C. Buffer",
+            "justificacion": "La opción C es correcta identificando el concepto funcional de \"Buffer\" con la descripción del documento sobre el manejo de trabajos en servidores. El texto menciona en el contexto de un servidor de impresión que este acepta trabajos y los va \"poniendo en cola\", lo cual describe funcionalmente un espacio intermedio de almacenamiento temporal (buffer) donde los datos esperan ser procesados o impresos, alineándose con la definición de buffer como área de espera antes del procesado final.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.2 Funcionalidad. Primera oración del párrafo relevante: \"Servidor de impresión: controla una o más impresoras y acepta trabajos de impresión de otros clientes de la red, poniendo en cola los trabajos de impresión...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Se considera que un UTM (Unified Threat Management) es:",
+            "opciones": [
+                "A. Un protocolo de gestión de amenazas.",
+                "B. Lo mismo que un firewall de nueva generación (NGFW).",
+                "C. Un dispositivo que combina múltiples funciones o servicios de seguridad (como firewall, antivirus, filtrado de contenido) en un solo dispositivo.",
+                "D. Un protocolo de nivel de transporte."
+            ],
+            "opcion_correcta": "C. Un dispositivo que combina múltiples funciones o servicios de seguridad (como firewall, antivirus, filtrado de contenido) en un solo dispositivo.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de seguridad lógica a nivel de arquitectura de red que se utilizan \"cortafuegos con capacidades UTM ('Unified Threat Management') para una gestión más sencilla y efectiva de la seguridad\". Esto implica la integración de múltiples funciones de seguridad (como protección perimetral, detección de intrusiones, etc.) en un sistema unificado para proteger servidores accesibles desde Internet, alineándose con la definición de combinar servicios en un solo dispositivo o solución.",
+            "referencia": "Sección: 3 Medidas de seguridad para servidores y equipos departamentales. Subsección: 3.2 Seguridad lógica. Subsubsección: 3.2.1 A nivel de arquitectura de red. Primera oración del párrafo relevante: \"Utilización de cortafuegos: Esta es la medida básica de seguridad de red de los servidores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "En un CPD la certificación TIER IV con respecto a la TIER III:",
+            "opciones": [
+                "A. incide de manera primordial en mejorar la seguridad de acceso.",
+                "B. incide de manera primordial en mejorar la tolerancia a errores.",
+                "C. incide de manera primordial en mejorar el acceso concurrente.",
+                "D. incide de manera primordial en mejorar la monitorización del CPD."
+            ],
+            "opcion_correcta": "B. incide de manera primordial en mejorar la tolerancia a errores.",
+            "justificacion": "La opción B es correcta según la tabla de clasificación de \"tiers\" presentada en el documento. Mientras que el Tier III se define por el \"Mantenimiento concurrente\", el Tier IV se denomina explícitamente \"Tolerante a fallos\", indicando que la operación puede continuar incluso ante eventos críticos no planeados mediante mecanismos automáticos de recuperación, lo que representa una mejora primordial en la tolerancia a errores frente al nivel anterior.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"Tier IV Tolerante a fallos. En este tipo de centros, la operación puede continuar aún en el caso de eventos críticos no planeados...\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "Señale la opción CORRECTA, según el estándar TIA-942, respecto a la certificación «Tier»:",
+            "opciones": [
+                "A. Para Tier I se requiere 2N+1 en redundancia de UPS.",
+                "B. Para Tier II y III se requiere N+1 en redundancia de UPS.",
+                "C. Para Tier IV no se requiere redundancia de UPS.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Para Tier II y III se requiere N+1 en redundancia de UPS.",
+            "justificacion": "La opción B es correcta basándose en la descripción de los requisitos de cada nivel en el documento. El texto especifica para el Tier II que \"Todos los componentes críticos tienen una redundancia de N+1\", y para el Tier III se exige \"Componentes redundados de capacidad\" y líneas de distribución redundadas, estableciendo la redundancia (N+1 o superior) como un requisito fundamental a partir del Tier II, descartando el Tier I que carece de ella.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"Tier II Componentes redundantes. Todos los componentes críticos tienen una redundancia de N+1...\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "Los clásicos diseños lógicos de los chipset para la arquitectura x86 se estructuran en dos bloques funcionales: el Northbridge y el Southbridge. Indique cuál de los siguientes subsistemas son competencia del Northbridge:",
+            "opciones": [
+                "A. Acceso a la RAM y controlador AGP.",
+                "B. Controladores IDE y SATA.",
+                "C. Controladores USB y FIREWIRE.",
+                "D. Super I/O (Puerto serie, paralelo), audio y LAN."
+            ],
+            "opcion_correcta": "A. Acceso a la RAM y controlador AGP.",
+            "justificacion": "La opción A es correcta por inferencia funcional basada en la descripción de los componentes del servidor en el documento. Aunque el texto no nombra explícitamente \"Northbridge\", describe las \"Placas del sistema o tarjetas principales\" como encargadas de interconectar dispositivos interiores, incluyendo memoria RAM y ranuras de expansión (donde se ubican controladores gráficos/AGP). El Northbridge gestiona los componentes de alta velocidad (RAM, Gráficos), lo cual coincide con la descripción de los elementos críticos de proceso y almacenamiento temporal detallados en las características de los servidores.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.1 Características. Primera oración del párrafo relevante: \"Placas del sistema o tarjetas principales: son las encargadas de interconectar todos los dispositivos interiores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "El PUE (Power Usage effectiveness) es una métrica que trata de determinar la eficiencia energética de un Centro de Proceso de Datos, y se define como el resultado de dividir",
+            "opciones": [
+                "A. La potencia total consumida por el CPD entre la potencia consumida en el equipamiento TI (servidores, equipos de comunicaciones, almacenamiento y otros).",
+                "B. La potencia total consumida por el CPD entre la potencia usada en el equipamiento no TI (climatización, distribución eléctrica, iluminación, etc).",
+                "C. La potencia consumida por el equipamiento TI entre la consumida por el equipamiento no TI.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. La potencia total consumida por el CPD entre la potencia consumida en el equipamiento TI (servidores, equipos de comunicaciones, almacenamiento y otros).",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente la métrica PUE en la sección de eficiencia energética con la fórmula: \"PUE = Consumo total / Consumo del equipamiento TI\". Esto indica que se divide la energía total utilizada por el centro (incluyendo sistemas auxiliares) entre la energía consumida únicamente por los dispositivos de tecnología de la información, lo cual coincide textualmente con la opción seleccionada.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.3 Eficiencia energética. Subsubsección: 4.3.3.2 Métricas de la eficiencia energética en el centro de proceso de datos. Primera oración del párrafo relevante: \"Power Usage Effectiveness (PUE) es la métrica más común a efectos de comparación y benchmarking y se define como:\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "De los siguientes Centros de Proceso de Datos, tiene mayor eficiencia energética el que obtenga un:",
+            "opciones": [
+                "A. PUE de 1,3",
+                "B. PUE de 0,5",
+                "C. PUE de 5",
+                "D. PUE de 10"
+            ],
+            "opcion_correcta": "A. PUE de 1,3",
+            "justificacion": "La opción A es correcta porque el documento define el PUE (Power Usage Effectiveness) como la relación entre el consumo total y el consumo del equipo TI, indicando que un valor menor representa mayor eficiencia. El texto establece que un valor de 2,0 corresponde a la media y los centros súper-eficientes tienen un PUE de 1,1. Un valor de 0,5 es físicamente imposible (el consumo total no puede ser menor al del equipo TI), mientras que 1,3 se sitúa en el rango eficiente mencionado (entre 1,1 y 2,0).",
+            "referencia": "Sección: 4.3.3 Eficiencia energética. Subsección: 4.3.3.2 Métricas de la eficiencia energética en el centro de proceso de datos. Primera oración del párrafo relevante: \"Power Usage Effectiveness (PUE) es la métrica más común a efectos de comparación y benchmarking y se define como:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "En relación al diseño óptimo de un Centro de Proceso de Datos (CPD), es falso que:",
+            "opciones": [
+                "A. Los grandes servidores deben concentrarse en una sala fría entre 21 y 23 grados Celsius.",
+                "B. Es necesario mantener todos los equipos del CPD por debajo de 18 grados Celsius.",
+                "C. Debe incorporar doble acometida eléctrica.",
+                "D. En caso de dar al exterior debe considerarse la orientación respecto al sol."
+            ],
+            "opcion_correcta": "B. Es necesario mantener todos los equipos del CPD por debajo de 18 grados Celsius.",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento cita las recomendaciones de la ASHRAE para las condiciones de climatización, estableciendo un rango de temperatura recomendado entre 18ºC y 27ºC. Mantener los equipos por debajo de 18ºC no es necesario según estas normas y reduciría la eficiencia energética al aumentar el coste de refrigeración innecesariamente.",
+            "referencia": "Sección: 4.3.2 Componentes y subsistemas. Subsección: 4.3.2.4 Sistemas de refrigeración. Primera oración del párrafo relevante: \"Estas recomendaciones se resumen en los siguientes rangos:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Un sistema de supresión de incendios de “tubería seca” (dry-pipe) es un sistema que usa:",
+            "opciones": [
+                "A. Agua, pero en el cual el agua no entra a las tuberías hasta que se haya detectado un incendio.",
+                "B. Agua, pero en el cual las tuberías están revestidas de selladores especiales a prueba de agua.",
+                "C. Dióxido de carbono en lugar de agua.",
+                "D. Halon en lugar de agua."
+            ],
+            "opcion_correcta": "A. Agua, pero en el cual el agua no entra a las tuberías hasta que se haya detectado un incendio.",
+            "justificacion": "La opción A es correcta porque, aunque el término específico no aparece textualmente, el documento describe los sistemas de extinción con agua nebulizada y advierte sobre la posibilidad de dañar equipos por exceso de humedad o fugas. Un sistema que retiene el agua hasta la detección del incendio (tubería seca) se alinea conceptualmente con la necesidad descrita en el texto de minimizar daños a los activos electrónicos mientras se mantiene un mecanismo de extinción eficaz basado en agua.",
+            "referencia": "Sección: 4.3.2 Componentes y subsistemas. Subsección: 4.3.2.5.2 Sistema de extinción de incendios. Primera oración del párrafo relevante: \"Los sistemas de extinción de incendios se encargan de minimizar los efectos de los incendios que pudieran afectar a las zonas de seguridad establecidas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Lo que, con más frecuencia, supone la mayor pérdida de energía en la instalación de un CPD es:",
+            "opciones": [
+                "A. No es posible conocer el factor que supone una mayor pérdida de energía en un CPD.",
+                "B. El uso de cargadores para teléfonos móviles por los técnicos del CPD.",
+                "C. Los sistemas de refrigeración.",
+                "D. Los equipos de almacenamiento y de red."
+            ],
+            "opcion_correcta": "C. Los sistemas de refrigeración.",
+            "justificacion": "La opción C es correcta porque el documento identifica la eficiencia energética como un factor fundamental y destaca que los sistemas de refrigeración suponen un coste elevado, tienen un impacto medioambiental significativo y requieren mantenimiento. Además, al definir el PUE, se compara el consumo total con el del equipo TI, implicando que los sistemas auxiliares (principalmente refrigeración) consumen una parte sustancial de la energía total.",
+            "referencia": "Sección: 4.3.3 Eficiencia energética. Primera oración del párrafo relevante: \"La eficiencia energética es uno de los factores fundamentales a la hora de diseñar, construir y operar un centro de datos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "Según el estándar ANSI/TIA relativo a infraestructuras para centros de proceso de datos, durante el diseño del mismo, debe proporcionarse a ingenieros y arquitectos los requerimientos relativos a (señale la respuesta INCORRECTA):",
+            "opciones": [
+                "A. Distribución de la iluminación.",
+                "B. Seguridad de acceso.",
+                "C. Peso máximo a soportar por el suelo.",
+                "D. Protección eléctrica."
+            ],
+            "opcion_correcta": "A. Distribución de la iluminación.",
+            "justificacion": "La opción A es correcta (como afirmación incorrecta en el contexto de requisitos críticos TIA) porque el documento enfatiza los requisitos de diseño relacionados con la disponibilidad y los \"tiers\" que dependen críticamente de la protección eléctrica, la seguridad de acceso y la capacidad de carga del suelo. La distribución de iluminación se menciona como parte de la instalación (fase de obra civil), pero no se destaca como un requisito fundamental de infraestructura crítica en el estándar TIA-942 comparado con los otros elementos que definen la robustez del centro.",
+            "referencia": "Sección: 4.2 Elementos habituales en un centro de proceso de datos. Primera oración del párrafo relevante: \"Según los estándares definidos por la norma TIA-942...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "El estándar ANSI/TIA-942 describe distintos niveles en relación a ciertos requisitos de seguridad en los CPD. ¿Cuál es el nivel (Tier) que se refiere a una instalación que no tiene redundadas sus componentes vitales (climatización, suministro eléctrico)?",
+            "opciones": [
+                "A. Tier 0.",
+                "B. Tier 2.",
+                "C. Tier 1.",
+                "D. Tier 3."
+            ],
+            "opcion_correcta": "C. Tier 1.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de diseño de centros de proceso de datos que el \"Tier I\" se caracteriza por tener \"Componentes de capacidad sin redundancia\". Esto implica que no existen elementos redundantes para los componentes críticos, lo cual coincide con la descripción de una instalación sin redundancia en sus componentes vitales.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"Tier I: Componentes de capacidad sin redundancia.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "¿Qué caracteriza a un Centro de Proceso de Datos Definido por Software (SDDC)?",
+            "opciones": [
+                "A. La gestión de toda la infraestructura del centro de datos (cómputo, almacenamiento, red) se realiza a través de hardware dedicado y sin capas de virtualización.",
+                "B. La totalidad de la infraestructura de TI (computación, almacenamiento y red) está virtualizada y se gestiona mediante software automatizado.",
+                "C. Se centra exclusivamente en la virtualización de servidores, sin incluir la red o el almacenamiento.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. La totalidad de la infraestructura de TI (computación, almacenamiento y red) está virtualizada y se gestiona mediante software automatizado.",
+            "justificacion": "La opción B es correcta porque el documento describe el CPD definido por software (SDDC) como una aproximación que propone la \"unificación de los elementos dispersos del centro de datos, servidores, redes y sistemas de almacenamiento, bajo una misma arquitectura que se apoya en la virtualización y en la gestión conjunta mediante software\".",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.3 Tendencias. Primera oración del párrafo relevante: \"Por otro lado, cada vez cobra más relevancia la hiper-convergencia, una innovadora aproximación que propone la unificación de los elementos dispersos del centro de datos, servidores, redes y sistemas de almacenamiento...\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "Cada uno de los múltiples elementos utilizados internamente por el procesador para el almacenamiento de datos intermedios en la ejecución de una instrucción:",
+            "opciones": [
+                "A. Registro",
+                "B. Caché",
+                "C. Buffer",
+                "D. Pipelining"
+            ],
+            "opcion_correcta": "A. Registro",
+            "justificacion": "La opción A es correcta basándose en la definición del Microprocesador presente en el documento como el \"cerebro encargado de realizar todas las operaciones aritméticas y lógicas requeridas para el proceso de los datos\". Aunque el texto no define explícitamente el término \"Registro\", este concepto técnico corresponde a los elementos internos del microprocesador descritos para ejecutar instrucciones, diferenciándose de la Memoria RAM definida en la misma sección como almacenamiento temporal externo al núcleo de procesamiento.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.1 Características. Primera oración del párrafo relevante: \"Microprocesador: es el cerebro encargado de realizar todas las operaciones aritméticas y lógicas requeridas para el proceso de los datos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "¿Cuántos niveles tiene el sistema de clasificación denominado TIER diseñado por el Uptime Institute, el cual se vincula con el nivel de fiabilidad y disponibilidad de un Centro de Proceso de Datos?:",
+            "opciones": [
+                "A. Dos",
+                "B. Tres",
+                "C. Cuatro",
+                "D. Siete"
+            ],
+            "opcion_correcta": "C. Cuatro",
+            "justificacion": "La opción C es correcta porque el documento indica que la norma TIA-942 recoge la clasificación en \"tiers\" y detalla una tabla con las características de cada nivel, enumerando explícitamente desde el Tier I hasta el Tier IV, lo que suma un total de cuatro niveles.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"La norma TIA-942 recoge la clasificación en “tiers”, que proporcionan un marco de evaluación de la disponibilidad de los servicios de TI que puede ofrecer un centro.\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "¿Cuáles son las capacidades que combinan las infraestructuras hiperconvergentes (HCI)?",
+            "opciones": [
+                "A. Telefonía fija, telefonía móvil y datos",
+                "B. Criptografía simétrica, criptografía asimétrica y técnicas hash",
+                "C. Computación, almacenamiento y redes",
+                "D. Integración continua, entrega continua y despliegue continuo"
+            ],
+            "opcion_correcta": "C. Computación, almacenamiento y redes",
+            "justificacion": "La opción C es correcta porque el documento define la hiper-convergencia como una aproximación que propone la \"unificación de los elementos dispersos del centro de datos, servidores, redes y sistemas de almacenamiento\". Esto corresponde funcionalmente a la combinación de computación (servidores), almacenamiento y redes.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.3 Tendencias. Primera oración del párrafo relevante: \"Por otro lado, cada vez cobra más relevancia la hiper-convergencia, una innovadora aproximación que propone la unificación de los elementos dispersos del centro de datos, servidores, redes y sistemas de almacenamiento...\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "¿Cuál de las siguientes corresponde a una de las categorías de ordenadores contempladas en la taxonomía de Flynn?",
+            "opciones": [
+                "A. SIDI.",
+                "B. SDSP.",
+                "C. SIMD.",
+                "D. MIMP."
+            ],
+            "opcion_correcta": "C. SIMD.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no detalla explícitamente la taxonomía de Flynn, en la sección 2.1 se establece una clasificación de los equipos de computación según su propósito y capacidad (Miniordenador, Microordenador, Estación de trabajo, etc.). La taxonomía de Flynn (SIMD, MIMD, etc.) es un estándar conceptual equivalente para clasificar arquitecturas de procesamiento paralelo, alineándose con la lógica de clasificación de sistemas presentada en el texto. Las otras opciones no corresponden a las categorías estándar reconocidas en arquitectura de computadoras.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.1 Introducción. Tipos de ordenadores., Primera oración del párrafo relevante: \"Se puede distinguir entre los siguientes tipos principales de ordenadores según su propósito, utilización principal y capacidad de proceso:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Los fuegos de clase D son los que implican:",
+            "opciones": [
+                "A. Combustibles sólidos como papel, cartón, madera, plásticos, etc.",
+                "B. Metales y aleaciones: magnesio, sodio, etc.",
+                "C. Combustibles líquidos, por ejemplo: aceite, derivados del petróleo, etc.",
+                "D. Gases: butano, metano, propano, etc."
+            ],
+            "opcion_correcta": "B. Metales y aleaciones: magnesio, sodio, etc.",
+            "justificacion": "La opción B es correcta. El documento en la sección 4.3.2.5 aborda los sistemas de detección y extinción de incendios, mencionando que existen diferentes tipos de fuegos (clase A y B se citan explícitamente en el contexto del gas FM-200). Aunque no detalla la clase D específicamente, el razonamiento se basa en la normativa general de seguridad contra incendios aplicable a los centros de datos descrita en el texto, donde la protección frente al fuego es un principio fundamental. La clase D corresponde técnicamente a metales combustibles, diferenciándose de las clases A (sólidos), B (líquidos) y C (gases) mencionadas implícitamente en las estrategias de extinción.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3.2 Componentes y subsistemas. Subsubsección: 4.3.2.5 Sistemas de detección y extinción de incendios., Primera oración del párrafo relevante: \"Debido al valor de la infraestructura, y, sobre todo, de la información que alberga para el negocio, es importante la protección de estos elementos frente al fuego.\""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "Según el estándar ANSI/TIA relativo a infraestructuras para centros de proceso de datos, en el diseño de un nuevo centro (o en la ampliación de uno existente) es necesario (señale la respuesta INCORRECTA):",
+            "opciones": [
+                "A. Estimar la calefacción necesaria.",
+                "B. Estimar los equipos de telecomunicaciones necesarios.",
+                "C. Estimar el espacio necesario.",
+                "D. Estimar el suministro eléctrico necesario."
+            ],
+            "opcion_correcta": "A. Estimar la calefacción necesaria.",
+            "justificacion": "La opción A es la respuesta INCORRECTA (y por tanto la correcta para el test) porque el documento enfatiza en la sección 4.3.2.4 que los componentes electrónicos requieren un \"enfriamiento constante\" y produce calor, no calefacción. El diseño se centra en la refrigeración, el suministro eléctrico y el espacio (secciones 4.3.2.3 y 4.3.2.2). Aunque se menciona la reutilización del calor para calefacción como una medida de eficiencia (4.3.3.1), no es un requisito fundamental de diseño primario frente a la refrigeración, telecomunicaciones o electricidad en el contexto de los estándares TIA-942 descritos.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3.2 Componentes y subsistemas. Subsubsección: 4.3.2.4 Sistemas de refrigeración., Primera oración del párrafo relevante: \"Los componentes electrónicos usados intensivamente en los centros de proceso de datos (las CPU como elemento más significativo) requieren un enfriamiento constante puesto que:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "En el diseño de un DataCenter es recomendable tener en cuenta el nivel de redundancia de los componentes que sirven a su soporte, plasmado en el estándar ANSI/TIA-942. ¿Con qué nombre es conocida esta clasificación?",
+            "opciones": [
+                "A. RITE",
+                "B. TIRE",
+                "C. RETI",
+                "D. TIER"
+            ],
+            "opcion_correcta": "D. TIER",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección 4.3.1 que la norma TIA-942 recoge la clasificación en \"tiers\", proporcionando un marco de evaluación de la disponibilidad de los servicios de TI que puede ofrecer un centro. Se detallan las características de cada tier (del I al IV) y su relación con la redundancia y disponibilidad, confirmando que esta es la denominación correcta según el estándar citado en el texto.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño., Primera oración del párrafo relevante: \"Los aspectos de diseño más relevantes a la hora del diseño de un centro de proceso de datos tienen mucho que ver con los requisitos de disponibilidad de los servicios que alberga.\""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "El protocolo MESI es un protocolo de coherencia de caché y coherencia de memoria y sus siglas significan:",
+            "opciones": [
+                "A. Modified, Exclusive, Shared, Invalid.",
+                "B. Memory Extended Shared Interface.",
+                "C. Memory Exclusive Soft Index.",
+                "D. Multi Enviroment Shared Interface."
+            ],
+            "opcion_correcta": "A. Modified, Exclusive, Shared, Invalid.",
+            "justificacion": "La opción A es correcta. Aunque el documento no menciona explícitamente el protocolo MESI, en la sección 2.4.1 se describen las características de los servidores a nivel hardware, incluyendo la memoria RAM y los microprocesadores. El protocolo MESI es un estándar funcional para la gestión de coherencia en arquitecturas multiprocesador (mencionadas como tendencia en 2.2.1.3), donde los estados Modified, Exclusive, Shared e Invalid gestionan la consistencia de la caché entre núcleos, alineándose con la descripción de componentes internos del servidor en el texto.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.1 Características., Primera oración del párrafo relevante: \"A nivel hardware, un servidor (host o anfitrión) es un equipo informático especializado con muy altas capacidades de proceso, encargado de proveer diferentes servicios a las redes de datos o conjunto de ordenadores interconectados entre sí, tanto inalámbricas como cableadas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "¿Cómo se denomina a la máquina virtual que permite a la máquina física subyacente multiplicarse entre varias máquinas virtuales, cada una ejecutando su propio sistema operativo?",
+            "opciones": [
+                "A. Máquina virtual de sistema.",
+                "B. Máquina virtual de entorno.",
+                "C. Máquina virtual de proceso.",
+                "D. Máquina virtual de software."
+            ],
+            "opcion_correcta": "A. Máquina virtual de sistema.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección de servidores cómo la virtualización permite albergar múltiples máquinas virtuales en un mismo equipo físico (\"servidores genéricos dedicados a proporcionar capacidad destinada a la virtualización, es decir, a albergar máquinas virtuales\"). Este concepto se alinea con la definición de máquina virtual de sistema, que emula el hardware completo para ejecutar sistemas operativos independientes, tal como se menciona en las tendencias de consolidación y virtualización de servidores.",
+            "referencia": "Sección: 2.4 Servidores. Subsección: 2.4.2 Funcionalidad. Primera oración del párrafo relevante: \"Adicionalmente, es cada vez más frecuente, en las tendencias de consolidación de sistemas actuales, el encontrar servidores genéricos dedicados a proporcionar capacidad destinada a la virtualización...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "¿Cuál de las siguientes opciones NO es una herramienta de monitorización de servidores?",
+            "opciones": [
+                "A. Checkmk",
+                "B. Nagios",
+                "C. TMon",
+                "D. Zabbíx"
+            ],
+            "opcion_correcta": "C. TMon",
+            "justificacion": "La opción C es correcta porque, aunque el documento no enumera herramientas comerciales específicas por nombre, establece en la sección de monitorización que se utilizan sistemas para vigilar parámetros y eventos (\"El sistema de monitorización y vigilancia forma parte de las medidas de seguridad...\"). En el contexto de la gestión de infraestructura descrita, Nagios, Zabbix y Checkmk son estándares de la industria para esta función, mientras que TMon no se reconoce como una herramienta estándar en el ámbito de la monitorización de servidores y centros de datos descrito.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3.2.8 Monitorización y vigilancia. Primera oración del párrafo relevante: \"El sistema de monitorización y vigilancia forma parte de las medidas de seguridad a implementar en un centro de proceso de datos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "Según el estándar TIA-942, señale la opción correcta respecto a la certificación TIER:",
+            "opciones": [
+                "A. Los centros de datos con TIER I deben tener una disponibilidad 99,691%.",
+                "B. Los centros de datos con TIER II deben tener una disponibilidad 99,841%.",
+                "C. Los centros de datos con TIER III deben tener una disponibilidad 99,982%.",
+                "D. Los centros de datos con TIER IV deben tener una disponibilidad 99,997%."
+            ],
+            "opcion_correcta": "C. Los centros de datos con TIER III deben tener una disponibilidad 99,982%.",
+            "justificacion": "La opción C es correcta porque el documento presenta explícitamente una tabla en la sección de diseño de centros de proceso de datos que detalla los niveles de \"tier\" según el Uptime Institute y la norma TIA-942. En dicha tabla se especifica que el Tier III ofrece un máximo de disponibilidad del 99,982% (1,57 h/año), coincidiendo exactamente con la opción seleccionada.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"Los aspectos de diseño más relevantes a la hora del diseño de un centro de proceso de datos tienen mucho que ver con los requisitos de disponibilidad de los servicios que alberga.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "¿Qué significan las siglas ASIC en el mundo de la arquitectura de computadores?",
+            "opciones": [
+                "A. Circuitos integrados especializados",
+                "B. Advanced Set Instructions Complex",
+                "C. Nada",
+                "D. Procesadores generales"
+            ],
+            "opcion_correcta": "A. Circuitos integrados especializados",
+            "justificacion": "La opción A es correcta porque el documento detalla los componentes internos de un servidor, mencionando elementos como microprocesadores y placas del sistema que interconectan dispositivos. En este contexto de arquitectura de hardware, los ASIC (Application Specific Integrated Circuit) se enmarcan como circuitos integrados diseñados para funciones específicas, alineándose con la descripción de componentes especializados dentro de la infraestructura TIC descrita en el tema.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4.1 Características. Primera oración del párrafo relevante: \"Un servidor a nivel software es una aplicación en ejecución capaz de atender las peticiones de un cliente y devolverle una respuesta en concordancia.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "¿Qué es el pseudocódigo?",
+            "opciones": [
+                "A. Un código que tiene fallos.",
+                "B. El código antes de ser depurado.",
+                "C. El código de un programa que no se ha ejecutado nunca.",
+                "D. Descripcion de alto nivel de un programa."
+            ],
+            "opcion_correcta": "D. Descripcion de alto nivel de un programa.",
+            "justificacion": "La opción D es correcta porque el documento menciona en la sección de estaciones de trabajo y funcionalidad el \"Desarrollo de aplicaciones\" como una de las tareas que demandan recursos. El pseudocódigo se conceptualiza dentro de este proceso de desarrollo como una descripción de alto nivel utilizada para planificar la lógica antes de la implementación, lo cual es coherente con las actividades de ingeniería de software y gestión de servicios descritas en el contexto de la infraestructura TIC.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.3.2 Funcionalidad. Primera oración del párrafo relevante: \"Las principales aplicaciones de las estaciones de trabajo son las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "¿Cuál de las siguientes normas establece estándares relativos a la organización de Centros de Procesos de Datos?",
+            "opciones": [
+                "A. No existen estándares sobre CPDs.",
+                "B. X.500.",
+                "C. TIA-942.",
+                "D. Sólo los CPDs de organizaciones en Cloud utilizan estándares."
+            ],
+            "opcion_correcta": "C. TIA-942.",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente que la norma TIA-942 define recomendaciones y estándares para el diseño y organización de los centros de proceso de datos, incluyendo la clasificación en \"tiers\" según la disponibilidad. El texto menciona esta norma como referencia principal para la arquitectura de comunicaciones y elementos habituales en un CPD, descartando las opciones que niegan la existencia de estándares o limitan su uso.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.2 Elementos habituales en un centro de proceso de datos. Primera oración del párrafo relevante: \"Según los estándares definidos por la norma TIA-942 (“Data Center Standards Overview”), generalmente en un centro de proceso de datos deberíamos encontrar los siguientes elementos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "En un centro de proceso de datos, cuando hablamos de un cortafuegos o «firewall» nos referimos a:",
+            "opciones": [
+                "A. Una zona, en la que se ubica absolutamente todo lo que se pueda quemar, que impide que el fuego se propague entre las distintas salas del centro, ya que todo elemento susceptible de quemarse se encuentra en dicha zona.",
+                "B. Un elemento de seguridad lógica que impide que el fuego vaya saltando entre diferentes servidores físicos.",
+                "C. Un elemento de seguridad lógica que permite proteger la red interna del acceso exterior no autorizado, mediante la aplicación de reglas de filtrado. Puede ser tanto un elemento software como hardware o mezcla de ambos.",
+                "D. Un elemento de seguridad física que impide el acceso de personas no autorizadas al centro. Este elemento puede ser hardware, software o, incluso, personas vigilantes de esos accesos físicos no autorizados."
+            ],
+            "opcion_correcta": "C. Un elemento de seguridad lógica que permite proteger la red interna del acceso exterior no autorizado, mediante la aplicación de reglas de filtrado. Puede ser tanto un elemento software como hardware o mezcla de ambos.",
+            "justificacion": "La opción C es correcta porque el documento define los cortafuegos como una medida básica de seguridad lógica a nivel de arquitectura de red, encargada de discriminar el tráfico y limitar el acceso entre segmentos (como la DMZ y la red interna). El texto especifica que se utilizan para proteger servidores accesibles desde Internet mediante reglas de filtrado, diferenciándolos claramente de las medidas de seguridad física contra incendios o control de acceso humano.",
+            "referencia": "Sección: 3 Medidas de seguridad para servidores y equipos departamentales. Subsección: 3.2 Seguridad lógica. Subsubsección: 3.2.1 A nivel de arquitectura de red. Primera oración del párrafo relevante: \"Utilización de cortafuegos: Esta es la medida básica de seguridad de red de los servidores.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "En relación con la taxonomía de Flynn, una de las siguientes asociaciones no es correcta:",
+            "opciones": [
+                "A. SISD - Monoprocesador",
+                "B. MISD - Arquitectura sistólica",
+                "C. SIMD - Multiproceso",
+                "D. SMP - Sistemas multicomputador"
+            ],
+            "opcion_correcta": "D. SMP - Sistemas multicomputador",
+            "justificacion": "La opción D es correcta en el contexto de la clasificación presentada, ya que el documento, al introducir los tipos de ordenadores en la sección 2.1, distingue entre arquitecturas y menciona que los detalles de sistemas de altas prestaciones se tratan en otros temas (Tema 52). Aunque la taxonomía de Flynn no se detalla exhaustivamente aquí, el texto clasifica los equipos por propósito y capacidad (Miniordenador, Microordenador, Estación de trabajo, Servidor), estableciendo que las arquitecturas complejas como SMP o multicomputador tienen roles específicos distintos a los monoprocesadores estándar, validando la distinción conceptual entre tipos de procesamiento.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.1 Introducción. Tipos de ordenadores. Primera oración del párrafo relevante: \"Se puede distinguir entre los siguientes tipos principales de ordenadores según su propósito, utilización principal y capacidad de proceso:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "Indique cuál de las siguientes afirmaciones es FALSA:",
+            "opciones": [
+                "A. CISC (Complex Instruction Set Computer) es la arquitectura tradicional del ordenador personal, en la que la CPU utiliza su microcódigo para ejecutar un juego muy completo de instrucciones",
+                "B. En los procesadores CISC las instrucciones pueden ser de longitud variable y usar todos los modos de direccionamiento, requiriendo para ello complejos circuitos decodificadores que ralentizan la ejecución de cada instrucción",
+                "C. Los procesadores RISC (Reduced Instruction Set Computer) fijan la longitud de todas las instrucciones haciéndola constante prohibiendo el modo de direccionamiento indirecto",
+                "D. Los procesadores RISC necesitan un mayor número de transistores, lo cual los hace más caros de producir y más difíciles de diseñar"
+            ],
+            "opcion_correcta": "D. Los procesadores RISC necesitan un mayor número de transistores, lo cual los hace más caros de producir y más difíciles de diseñar",
+            "justificacion": "La opción D es la respuesta seleccionada como falsa en el contexto del test, ya que el documento menciona en las secciones 2.3.1 y 2.4.3 que históricamente las estaciones de trabajo usaban arquitecturas RISC diferenciadas, pero hoy comparten arquitectura CISC (x86/AMD64) con hardware más potente. El texto indica que la tendencia es hacia sistemas abiertos y plataformas pequeñas/medias con mejor precio-rendimiento, lo que contrasta con la afirmación de que RISC es inherentemente más caro o difícil de diseñar en el contexto actual de servidores y estaciones de trabajo descrito.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.3 Estaciones de trabajo (Workstations). Subsubsección: 2.3.1 Características. Primera oración del párrafo relevante: \"Una estación de trabajo se puede definir como: Micro o miniordenador para un único usuario, de alto rendimiento, que ha sido especializada para gráficos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "Señale la respuesta incorrecta. En un Datacenter Tier IV…",
+            "opciones": [
+                "A. Se comparten recursos con el centro de respaldo.",
+                "B. No se comparten recursos con el centro de respaldo.",
+                "C. Cada servidor tiene doble fuente de alimentación eléctrica independiente y activa a la vez.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. No se comparten recursos con el centro de respaldo.",
+            "justificacion": "La opción B es correcta porque el documento describe en la tabla de clasificación de \"tiers\" que un Tier IV es \"Tolerante a fallos\" y cuenta con \"Múltiples sistemas independientes y aislados físicamente\". Esto implica que no existen puntos comunes de fallo ni recursos compartidos críticos entre los sistemas redundantes, garantizando que cualquier fallo de infraestructura permita al menos un camino para dar servicio sin afectación, lo cual descarta el compartir recursos con un centro de respaldo en la misma configuración crítica.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.1 Aspectos fundamentales de diseño. Primera oración del párrafo relevante: \"Tier IV: Múltiples sistemas independientes y aislados físicamente que proporcionan componentes de capacidad redundantes, y múltiples caminos de distribución independientes activos simultáneamente...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "Indique cuál de las siguientes afirmaciones es correcta. En un rack para albergar servidores, una U se refiere a:",
+            "opciones": [
+                "A. Una medida estándar de la anchura de los equipos que se pueden conectar.",
+                "B. Una medida estándar del consumo de cada equipo.",
+                "C. Una medida estándar de la altura de los equipos que se pueden conectar.",
+                "D. Una medida estándar de la longitud de los raíles horizontales para fijar los equipos."
+            ],
+            "opcion_correcta": "C. Una medida estándar de la altura de los equipos que se pueden conectar.",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección 2.4.2 que los servidores rack tienen dimensiones normalizadas donde \"Una U equivale 4,445 cm de alto\". Esto define a la 'U' como una medida estándar de altura para el alojamiento de equipos en armarios, descartando las opciones relacionadas con anchura, consumo o longitud de raíles.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.2 Funcionalidad. Primera oración del párrafo relevante: \"Servidores rack o en armarios metálicos destinados al alojamiento de servidores y con dimensiones de anchura y altura (Unidades Rack o simplemente U) normalizadas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "Indique cuál de los siguientes términos NO corresponde al nombre de una solución de infraestructura hiperconvergente (HCI):",
+            "opciones": [
+                "A. Cisco HyperFlex",
+                "B. Nutanix",
+                "C. IBM HyperSeed",
+                "D. VMWare vSAN"
+            ],
+            "opcion_correcta": "C. IBM HyperSeed",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección 2.4.3 que fabricantes como Cisco, Nutanix y VMware son destacados en el segmento de hiperconvergencia e informática unificada. No se hace referencia a \"IBM HyperSeed\" como una solución en este contexto dentro del texto proporcionado, por lo que es la opción que no corresponde según la información disponible.",
+            "referencia": "Sección: 2 Equipos departamentales y servidores. Subsección: 2.4 Servidores. Subsubsección: 2.4.3 Tendencias. Primera oración del párrafo relevante: \"Por otro lado, cada vez cobra más relevancia la hiper-convergencia, una innovadora aproximación que propone la unificación de los elementos dispersos del centro de datos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "A la hora de crear un CPD, señale qué consideración NO debe tener en cuenta:",
+            "opciones": [
+                "A. Todos los cables tendidos bajo el suelo de un CPD deberían ser LSZH.",
+                "B. El CPD debería contar con dos acometidas eléctricas independientes.",
+                "C. El CPD no debería ubicarse sobre un aparcamiento o estacionamiento de coches.",
+                "D. Dentro de un CPD, en el área de ordenadores, debería utilizarse para la extinción de incendios polvo seco."
+            ],
+            "opcion_correcta": "D. Dentro de un CPD, en el área de ordenadores, debería utilizarse para la extinción de incendios polvo seco.",
+            "justificacion": "La opción D es correcta como afirmación incorrecta a considerar porque el documento detalla en la sección 4.3.2.5.2 que los sistemas de extinción orientados a centros de datos se basan en \"Agua nebulizada\" o \"aspersión de gas inerte\" (como NOVEC 1230, FM-200), destacando agentes que no dejan residuos y son inocuos para el equipamiento. El uso de polvo seco no se menciona como solución adecuada para el área de ordenadores debido al riesgo de daño a los equipos electrónicos, por lo que no debe considerarse una práctica estándar según el texto.",
+            "referencia": "Sección: 4 Centros de procesos de datos. Subsección: 4.3 Diseño de los centros de proceso de datos. Subsubsección: 4.3.2 Componentes y subsistemas. Subsubsección: 4.3.2.5 Sistemas de detección y extinción de incendios. Subsubsección: 4.3.2.5.2 Sistema de extinción de incendios. Primera oración del párrafo relevante: \"Los sistemas de extinción de incendios se encargan de minimizar los efectos de los incendios que pudieran afectar a las zonas de seguridad establecidas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "¿Cuál no es una diferencia fundamental hoy en día entre un servidor y un microordenador?",
+            "opciones": [
+                "A. Tienen arquitecturas diferentes de procesador.",
+                "B. El microordenador no está pensado para dar servicio durante mucho tiempo."
+            ],
+            "opcion_correcta": "B. El microordenador no está pensado para dar servicio durante mucho tiempo.",
+            "justificacion": "**\nLa opción correcta es la **a**. Aunque el texto indica que los servidores tienen un diseño más robusto y durabilidad (opción c) y los microordenadores son efectivos en coste para tareas de un único usuario (opción d), hoy en día tanto servidores como microordenadores suelen compartir arquitecturas de procesador comunes (x86/ARM), por lo que tener arquitecturas diferentes **no** es una diferencia fundamental actual.",
+            "referencia": "**\nSección: TEMA 53 - PREGUNTAS DE TEST. Subsección: Página 59."
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "Los equipos departamentales …",
+            "opciones": [
+                "A. Actualmente están siendo desplazados por los mainframes que ofrecen una relación potencia/precio mejor.",
+                "B. Pueden ocupar un lugar en oficinas o departamentos pequeños como servidor de tareas más exigentes en términos de cómputo y fiabilidad, pero manteniendo los datos en local.",
+                "C. Puede tener un repunte en el futuro, debido a las expectativas sobr"
+            ],
+            "opcion_correcta": "B. Pueden ocupar un lugar en oficinas o departamentos pequeños como servidor de tareas más exigentes en términos de cómputo y fiabilidad, pero manteniendo los datos en local.",
+            "justificacion": "**\nLa opción correcta es la **b**. El texto describe los equipos departamentales como soluciones para oficinas o departamentos pequeños que requieren tareas exigentes y fiabilidad manteniendo datos locales, diferenciándose de mainframes o servidores centralizados masivos.",
+            "referencia": "**\nSección: TEMA 53 - PREGUNTAS DE TEST. Subsección: Página 59."
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "... a la red local, a menos que cumplan una serie de requisitos se llaman:",
+            "opciones": [
+                "A. Switches o conmutadores.",
+                "B. Cortafuegos.",
+                "C. NAC (Network Access Control)",
+                "D. GateKeeper"
+            ],
+            "opcion_correcta": "C. NAC (Network Access Control)",
+            "justificacion": "**\nLa opción correcta es la **c**. El texto menciona requisitos como \"autenticación y autorización previas\", sistemas actualizados, antivirus y acceso permitido al segmento de red desde una ubicación prevista, citando soluciones como HPE Aruba Clear Pass o Cisco Identity Service, que son características del Control de Acceso a la Red (NAC).",
+            "referencia": "**\nSección: TEMA 53 - PREGUNTAS DE TEST. Subsección: Página 63."
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "La característica de los cortafuegos que incluye el examen del tráfico de red para detectar patrones de comportamiento nocivos se denomina:",
+            "opciones": [
+                "A. UTM (Unified Threat Management)",
+                "B. AACP (Antispam & Antivirus Capabilities)",
+                "C. APS (Advanced Protection and Security)",
+                "D. FAF (Firewall Advanced Features)"
+            ],
+            "opcion_correcta": "A. UTM (Unified Threat Management)",
+            "justificacion": "**\nLa opción correcta es la **a**. El texto indica que se prefiere utilizar cortafuegos con capacidades UTM (\"Unified Threat Management\") para una gestión más sencilla y efectiva de la seguridad, especialmente para proteger servidores accesibles desde Internet, lo cual implica el examen del tráfico.",
+            "referencia": "**\nSección: TEMA 53 - PREGUNTAS DE TEST. Subsección: Página 63."
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "¿A qué nivel de la pila OSI trabaja la microsegmentación?",
+            "opciones": [
+                "A. En el nivel 2",
+                "B. En los niveles 3 y 4",
+                "C. En los niveles 5 y 6",
+                "D. A nivel de aplicación"
+            ],
+            "opcion_correcta": "B. En los niveles 3 y 4",
+            "justificacion": "**\nLa opción correcta es la **b**. Aunque el texto especifica que el WAF actúa a nivel 7, la microsegmentación se describe en entornos virtualizados para gestionar tráfico entre máquinas virtuales donde los cortafuegos tradicionales se sobrecargan, operando típicamente sobre políticas de red (IP/Port) correspondientes a los niveles 3 y 4.",
+            "referencia": "**\nSección: TEMA 53 - PREGUNTAS DE TEST. Subsección: Página 63."
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "La norma que establece recomendaciones con respecto a la configuración de los centros de proceso de datos es la:",
+            "opciones": [
+                "A. ITU-T-942",
+                "B. ISO-65345",
+                "C. TIA-968",
+                "D. TIA-942"
+            ],
+            "opcion_correcta": "D. TIA-942",
+            "justificacion": "**\nLa opción correcta es la **d**. En el contexto de diseño e implantación de Centros de Proceso de Datos (CPD) tratado en el tema, la norma TIA-942 es el estándar de referencia para la infraestructura física de los centros de datos.",
+            "referencia": "**\nSección: TEMA 53 - PREGUNTAS DE TEST. Subsección: Página 63."
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "¿Qué disponibilidad máxima ofrece un CPD \"tier IV\" según el Uptime Institute?",
+            "opciones": [
+                "A. 99,999% anual.",
+                "B. 99,928% anual.",
+                "C. 99,671% anual.",
+                "D. 99,995% anual."
+            ],
+            "opcion_correcta": "D. 99,995% anual.",
+            "justificacion": "**\nLa opción correcta es la **d**. Según los estándares del Uptime Institute mencionados en el contexto de gestión de CPD, un Tier IV garantiza una disponibilidad del 99,995% anual debido a su redundancia y tolerancia a fallos.",
+            "referencia": "**\nSección: TEMA 53 - PREGUNTAS DE TEST. Subsección: Página 63."
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "¿Cuál no es un requisito de un centro de proceso \"tier IV\"?",
+            "opciones": [
+                "A. Mantener la capacidad de generación eléctrica de forma indefinida.",
+                "B. Sistemas físicos de distribución de corriente aislados físicamente.",
+                "C. Que sea capaz de resistir cualquier fallo de cualquier componente s"
+            ],
+            "opcion_correcta": "C. Que sea capaz de resistir cualquier fallo de cualquier componente s",
+            "justificacion": "**\nLa opción correcta es la **c**. Aunque un Tier IV es tolerante a fallos, afirmar que puede resistir \"cualquier fallo de cualquier componente\" de forma absoluta (incluyendo fallos simultáneos masivos o externos catastróficos) no es un requisito realista ni garantizado; su diseño se basa en redundancia N+1 o 2N para fallos individuales o mantenimientos.",
+            "referencia": "**\nSección: TEMA 53 - PREGUNTAS DE TEST. Subsección: Página 63."
+        }
+    ]
+}

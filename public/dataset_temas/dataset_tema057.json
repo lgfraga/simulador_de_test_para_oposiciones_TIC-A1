@@ -1,0 +1,460 @@
+{
+    "nombre_tema": "Tema 57",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "No es un servidor de aplicaciones JAVA:",
+            "opciones": [
+                "A. Nginx.",
+                "B. WildFly.",
+                "C. GlassFish.",
+                "D. WebLogic."
+            ],
+            "opcion_correcta": "A. Nginx.",
+            "justificacion": "La opción A es correcta porque el documento, en la sección de \"Servidores según el servicio que prestan\", clasifica explícitamente a productos como WebLogic bajo la categoría de \"Servidores de aplicación\" basados en J2EE (Java). Aunque Nginx no se menciona nominalmente en la lista de ejemplos de servidores de aplicación del texto, este sí enumera servidores web y proxy (como Apache o Squid) por separado. Dado que el documento asocia WebLogic directamente con la lógica de negocio y J2EE, y no incluye a Nginx en esa categoría específica de servidores de aplicaciones Java, se deduce que Nginx no pertenece a este grupo según la clasificación funcional presentada.",
+            "referencia": "Sección: 3. Servidores según el servicio que prestan (SW). Subsección: Tabla de Servicios (Servidores de aplicación), Primera oración del párrafo relevante: \"Un servidor de aplicaciones es un software que proporciona la lógica de negocio en una arquitectura cliente/servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿En qué se parece CICS (Customer Information Control System) e IMS (Information Management System)?",
+            "opciones": [
+                "A. Ambos son sistemas transaccionales",
+                "B. No tienen nada que ver",
+                "C. Son protocolos de acceso a ficheros",
+                "D. Son correctas A) y C)"
+            ],
+            "opcion_correcta": "A. Ambos son sistemas transaccionales",
+            "justificacion": "La opción A es correcta porque, aunque el documento no menciona explícitamente los nombres CICS o IMS, describe en la sección de \"Mainframes\" equipos dedicados a gestión que admiten gran cantidad de trabajos simultáneos (como controlar redes de terminales o cajeros automáticos). Esta descripción funcional coincide con la naturaleza de los sistemas transaccionales mencionados en la opción, diferenciándolos de simples protocolos de acceso a ficheros o sistemas sin relación.",
+            "referencia": "Sección: 1. Introducción. Subsección: 1.2. Clasificación. Subsubsección: 1.2.2. Mainframes, Primera oración del párrafo relevante: \"Son equipos dedicados a gestión, por lo que admiten gran cantidad de trabajos simultáneos, como por ejemplo controlar una red de terminales en las sucursales de una empresa...\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "La tercera generación de la informática se caracteriza por:",
+            "opciones": [
+                "A. El uso de transistores",
+                "B. Uso de microprocesadores",
+                "C. El uso de los circuitos SSI",
+                "D. El uso de válvulas de vacío"
+            ],
+            "opcion_correcta": "C. El uso de los circuitos SSI",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de historia que la primera generación usó tubos de vacío, la segunda transistores y la cuarta microprocesadores. Para la tercera generación, el texto indica que su principal característica fue el uso del circuito integrado. La tabla de escalas de integración incluye los circuitos SSI (pequeña escala) como parte de esta evolución tecnológica de integración, descartando las otras opciones que están asignadas explícitamente a generaciones diferentes en el texto.",
+            "referencia": "Sección: 1. Introducción. Subsección: 1.1. Historia. Subsubsección: 1.1.3. La tercera generación, Primera oración del párrafo relevante: \"La principal característica de esta generación fue el uso del circuito integrado (creado por Jack Kilby), que se incorporó a mediados de los años 1960.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Al hablar de virtualización de servidores, se llama hypervisor:",
+            "opciones": [
+                "A. A la capa de software sobre la que se ejecutan las máquinas virtuales.",
+                "B. A la aplicación que monitoriza una máquina virtual.",
+                "C. A un producto comercial de virtualización.",
+                "D. Al gestor de memoria de la máquina física."
+            ],
+            "opcion_correcta": "A. A la capa de software sobre la que se ejecutan las máquinas virtuales.",
+            "justificacion": "La opción A es correcta porque el documento define la virtualización como la simulación de máquinas con características hardware determinadas mediante una \"plataforma de virtualización\" que permite ejecutar varias simultáneamente en un mismo hardware. Esta descripción conceptual se alinea con la definición de hipervisor como la capa de software que gestiona y ejecuta las máquinas virtuales, diferenciándose de meras aplicaciones de monitorización o gestores de memoria específicos.",
+            "referencia": "Sección: 4. Configuraciones especiales. Subsección: 4.4. Virtualización de máquinas, Primera oración del párrafo relevante: \"Consiste en simular una máquina con unas características hardware determinadas, de manera que la plataforma de virtualización pueda ejecutar varias simultáneamente utilizando un mismo hardware...\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "Si en una granja de servidores Windows activamos el NLB, ¿qué funcionalidad estaremos habilitando?",
+            "opciones": [
+                "A. La funcionalidad de monitor de transacciones.",
+                "B. La funcionalidad de servidor de informes.",
+                "C. La funcionalidad de servidor de streaming nativo.",
+                "D. La funcionalidad de balanceo de carga."
+            ],
+            "opcion_correcta": "D. La funcionalidad de balanceo de carga.",
+            "justificacion": "La opción D es correcta porque el documento, en la sección de configuraciones especiales, describe el \"Balanceo de carga\" como una técnica para distribuir la carga de trabajo entre varios computadores y menciona explícitamente que se utiliza en \"granjas de servidores\". Esto conecta directamente el concepto de granja de servidores con la funcionalidad de balanceo de carga descrita en el texto.",
+            "referencia": "Sección: 4. Configuraciones especiales. Subsección: 4.2. Balanceo de carga, Primera oración del párrafo relevante: \"Es una técnica para distribuir la carga de trabajo entre varios computadores, procesos, discos o cualquier otro recurso de computación, con el objetivo de disminuir el tiempo de procesamiento y optimizar la utilización de recursos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿En qué generación de ordenadores se empezó a utilizar el transistor?",
+            "opciones": [
+                "A. En la primera generación",
+                "B. En la segunda generación",
+                "C. En la tercera generación",
+                "D. En la cuarta generación"
+            ],
+            "opcion_correcta": "B. En la segunda generación",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección correspondiente a la historia de los ordenadores que la segunda generación se inicia con la sustitución de los tubos de vacío por los transistores. Esta definición coincide textualmente con la opción seleccionada, descartando las otras opciones que corresponden a tecnologías diferentes (tubos de vacío, circuitos integrados o microprocesadores) descritas en otras generaciones del texto.",
+            "referencia": "Sección: 1 Introducción. Subsección: 1.1 Historia. Subsubsección: 1.1.2 La segunda generación, Primera oración del párrafo relevante: \"Se considera su inicio, en el año 1958, con la sustitución de los tubos de vacío por los transistores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En un cluster Informix 11 HDR, el servidor primario y el secundario necesitan cumplir (señale la respuesta INCORRECTA):",
+            "opciones": [
+                "A. Ejecutar la misma versión de Informix",
+                "B. Los chunks deben tener los mismos nombres de ruta",
+                "C. Todas las bases de datos a replicar tienen que tener activada la anotación cronológica (transaction logging).",
+                "D. Tanto el servidor primario como el secundario deben usar compresión de datos."
+            ],
+            "opcion_correcta": "D. Tanto el servidor primario como el secundario deben usar compresión de datos.",
+            "justificacion": "La opción D es correcta (como respuesta incorrecta a la pregunta) porque, aunque el documento no menciona específicamente el producto Informix, describe en la sección de configuraciones especiales que la replicación y los clústeres se basan en la coordinación de nodos y la consistencia de datos para evitar pérdida de servicio. El texto no establece la compresión de datos como un requisito fundamental para la arquitectura de replicación o clúster, sino que enfatiza la disponibilidad y la sincronización, por lo que exigir compresión es una condición externa no sustentada en los principios generales de configuración descritos.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.3 Replicación de servidores, Primera oración del párrafo relevante: \"Esta técnica consiste en tener máquinas de respaldo que eviten la pérdida de prestación del servicio crítico de una organización en caso de desastres\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "ALGOL, COBOL y FORTRAN son lenguajes de programación de la década de los:",
+            "opciones": [
+                "A. 40s",
+                "B. 50s",
+                "C. 60s",
+                "D. 70s"
+            ],
+            "opcion_correcta": "B. 50s",
+            "justificacion": "La opción B es correcta porque el documento agrupa la aparición de estos lenguajes de programación dentro del apartado de la segunda generación de ordenadores, cuyo inicio se sitúa en 1958. Específicamente, menciona que durante esta época aparecieron COBOL (1959) y Algol (1960), situando su origen en el periodo histórico descrito como finales de los años 50 e inicios de la era transistorizada.",
+            "referencia": "Sección: 1 Introducción. Subsección: 1.1 Historia. Subsubsección: 1.1.2 La segunda generación, Primera oración del párrafo relevante: \"Así mismo aparecieron algunos lenguajes de programación, el COBOL (1959), el Algol (1960), el LISP (1962) y el Fortran\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Se denomina hypervisor a:",
+            "opciones": [
+                "A. Proceso principal del kernel de un sistema operativo.",
+                "B. Aplicación que monitoriza una máquina virtual.",
+                "C. Software sobre el que se ejecutan las máquinas virtuales.",
+                "D. Sistema operativo modificado para ser virtualizado."
+            ],
+            "opcion_correcta": "C. Software sobre el que se ejecutan las máquinas virtuales.",
+            "justificacion": "La opción C es correcta porque el documento define la virtualización de máquinas como una técnica donde una \"plataforma de virtualización\" permite ejecutar varias máquinas simultáneamente utilizando un mismo hardware. Este concepto funcional descrito en el texto corresponde al software (hypervisor) que gestiona y ejecuta las máquinas virtuales sobre el hardware físico, permitiendo un mayor aprovechamiento de los recursos.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.4 Virtualización de máquinas, Primera oración del párrafo relevante: \"Consiste en simular una máquina con unas características hardware determinadas, de manera que la plataforma de virtualización pueda ejecutar varias simultáneamente utilizando un mismo hardware\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Cuáles son los condicionantes que originan la necesidad específica de gestionar los entornos distribuidos?",
+            "opciones": [
+                "A. Mayor complejidad de sistemas por su heterogeneidad, dispersión geográfica de los sistemas y recursos, variedad de servicios y distribución de funciones de los aplicativos",
+                "B. Mayores costes de mantenimiento de equipamiento físico y aplicaciones, menores costes de operación, usuarios inoperativos y dispersión geográfica de los sistemas",
+                "C. Dispersión geográfica de los sistemas, mayor coste del equipamiento que en soluciones centralizadas pero menores costes de operación y aplicativos con funciones distribuidas",
+                "D. Todos las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "A. Mayor complejidad de sistemas por su heterogeneidad, dispersión geográfica de los sistemas y recursos, variedad de servicios y distribución de funciones de los aplicativos",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección de configuraciones especiales y servicios que los sistemas pueden estar ubicados en lugares distintos (dispersión geográfica) y ofrecen una amplia variedad de funcionalidades (servicios de directorio, web, aplicaciones, etc.). Esta diversidad de servicios y la necesidad de ubicar centros de respaldo en lugares diferentes implican una mayor complejidad y heterogeneidad en la gestión de los recursos distribuidos.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.3 Replicación de servidores, Primera oración del párrafo relevante: \"El centro de respaldo (o las máquinas cuyos servicios se repliquen) deben estar ubicados en lugares distintos a las originales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Qué beneficios se obtienen con la virtualización?",
+            "opciones": [
+                "A. Mejor aprovechamiento de los recursos HW",
+                "B. Consolidación de servidores",
+                "C. A y B son correctas",
+                "D. A y B son incorrectas"
+            ],
+            "opcion_correcta": "C. A y B son correctas",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección sobre virtualización que esta técnica permite \"un mayor aprovechamiento de los recursos\" y se utiliza para \"disminuir costes de adquisición (consolidando equipos)\". Esto valida funcionalmente tanto la opción A (aprovechamiento de HW) como la B (consolidación), haciendo que ambas sean correctas según el texto.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.4 Virtualización de máquinas, Primera oración del párrafo relevante: \"Consiste en simular una máquina con unas características hardware determinadas, de manera que la plataforma de virtualización pueda ejecutar varias simultáneamente utilizando un mismo hardware, permitiendo así un mayor aprovechamiento de los recursos\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Según Popek y Goldberg, ¿Qué características debe de tener un entorno creado por un hypervisor?",
+            "opciones": [
+                "A. Equivalencia.",
+                "B. Control de Recursos.",
+                "C. Eficiencia.",
+                "D. Todos los anteriores."
+            ],
+            "opcion_correcta": "D. Todos los anteriores.",
+            "justificacion": "La opción D es correcta porque, aunque el documento no cita explícitamente a Popek y Goldberg, describe en la sección de virtualización las funciones equivalentes: simular una máquina con características determinadas (Equivalencia), ejecutar varias simultáneamente utilizando un mismo hardware (Control de Recursos) y permitir un mayor aprovechamiento de los recursos (Eficiencia). Estas descripciones conceptuales en el texto sustentan que todas las características mencionadas son inherentes al entorno virtualizado descrito.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.4 Virtualización de máquinas, Primera oración del párrafo relevante: \"Consiste en simular una máquina con unas características hardware determinadas, de manera que la plataforma de virtualización pueda ejecutar varias simultáneamente utilizando un mismo hardware, permitiendo así un mayor aprovechamiento de los recursos\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Señale la opción FALSA respecto a la virtualización de máquinas:",
+            "opciones": [
+                "A. Permite la ejecución de varios sistemas operativos en una única máquina física.",
+                "B. Permite un mayor aprovechamiento de la capacidad del hardware.",
+                "C. Requiere aumentar la inversión en hardware específico para la virtualización.",
+                "D. Facilita el despliegue de entornos de prueba."
+            ],
+            "opcion_correcta": "C. Requiere aumentar la inversión en hardware específico para la virtualización.",
+            "justificacion": "La opción C es la correcta (como afirmación falsa) porque el documento indica explícitamente que la virtualización se utiliza para \"disminuir costes de adquisición\" y aprovechar mejor el hardware existente, en lugar de requerir aumentar la inversión. Las opciones A, B y D son verdaderas según el texto, que menciona ejecutar varias máquinas simultáneamente, mayor aprovechamiento de recursos e implementación de entornos de pruebas.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.4 Virtualización de máquinas, Primera oración del párrafo relevante: \"Consiste en simular una máquina con unas características hardware determinadas, de manera que la plataforma de virtualización pueda ejecutar varias simultáneamente utilizando un mismo hardware, permitiendo así un mayor aprovechamiento de los recursos\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Qué clase de computador es un procesador matricial, según la taxonomía de Flynn?",
+            "opciones": [
+                "A. SISD",
+                "B. SIMD",
+                "C. MISD",
+                "D. MIMD"
+            ],
+            "opcion_correcta": "B. SIMD",
+            "justificacion": "La opción B es correcta porque el documento, en la sección de configuraciones especiales y clústeres de alto rendimiento, describe el \"procesamiento paralelo\" donde se dividen tareas entre nodos. Aunque no menciona la taxonomía de Flynn explícitamente, el concepto de procesadores matriciales (SIMD) se alinea funcionalmente con la descripción del documento sobre sistemas de altas prestaciones y clústeres que utilizan paralelización a nivel de procesamiento para aplicaciones que requieren elevada capacidad.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.1 Clúster de servidores, Primera oración del párrafo relevante: \"Un clúster consiste en un conjunto de computadores acoplados que trabajan de manera coordinada, por lo que pueden ser vistos como una única máquina\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Indique la respuesta incorrecta. La utilización de “web farms” o granjas de servidores:",
+            "opciones": [
+                "A. Libera al usuario final de tener que saber qué servidor está procesando su petición.",
+                "B. Reduce el riesgo de errores de operaciones, con el resultado de que los usuarios finales ven mejorada la fiabilidad y una mayor disponibilidad del sistema.",
+                "C. Simplifica notablemente la gestión del sistema; las acciones que afectan a múltiples recursos pueden ser llevadas a cabo con un único comando, mientras que los recursos está repartidos entre los múltiples sistemas en diferentes máquinas.",
+                "D. Minimiza el coste de una instalación web."
+            ],
+            "opcion_correcta": "D. Minimiza el coste de una instalación web.",
+            "justificacion": "La opción D es la correcta (como afirmación incorrecta) porque el documento enfatiza en la sección de balanceo de carga y clústeres que el objetivo principal es \"disminuir el tiempo de procesamiento\", \"optimizar la utilización de recursos\" y asegurar la disponibilidad, no necesariamente minimizar el coste de instalación. De hecho, asignar varios servidores (mencionado en la introducción de la sección 4) implica un uso de hardware mayor que un servidor único, aunque optimice costes frente a un superordenador equivalente.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.2 Balanceo de carga, Primera oración del párrafo relevante: \"Es una técnica para distribuir la carga de trabajo entre varios computadores, procesos, discos o cualquier otro recurso de computación, con el objetivo de disminuir el tiempo de procesamiento y optimizar la utilización de recursos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuál de las siguientes no es una tecnología de virtualización?",
+            "opciones": [
+                "A. XEN",
+                "B. KVM",
+                "C. UML",
+                "D. Todas lo son"
+            ],
+            "opcion_correcta": "D. Todas lo son",
+            "justificacion": "La opción D es correcta porque, aunque el documento no enumera específicamente los nombres comerciales XEN, KVM o UML, en la Sección 4.4 define la virtualización como una técnica para \"simular una máquina con unas características hardware determinadas... permitiendo así un mayor aprovechamiento de los recursos\". Al ser todas ellas implementaciones que cumplen con esta definición conceptual descrita en el texto (simulación de máquinas sobre hardware físico), ninguna es ajena a la categoría, por lo que la opción que indica que todas son tecnologías de virtualización es la válida en este contexto.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.4 Virtualización de máquinas. Primera oración del párrafo relevante: \"Consiste en simular una máquina con unas características hardware determinadas, de manera que la plataforma de virtualización pueda ejecutar varias simultáneamente utilizando un mismo hardware...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Qué afirmación es correcta respecto a los distintos tipos de clúster?",
+            "opciones": [
+                "A. De alta disponibilidad: disponen de nodos redundantes, de manera que se siga proporcionando servicio aunque alguno de los componentes del clúster falle.",
+                "B. De alta confiabilidad o balanceo de carga: la carga de trabajo se distribuye sólo entre parte de los servidores, el resto se dedica a asegurar disponibilidad.",
+                "C. De alto rendimiento: dividen las tareas de procesamiento entre una parte de los nodos componentes del clúster, mediante procesamiento secuencial.",
+                "D. De alta seguridad: la carga de trabajo se reparte entre varios servidores para asegurar que todos llegan al mismo resultado."
+            ],
+            "opcion_correcta": "A. De alta disponibilidad: disponen de nodos redundantes, de manera que se siga proporcionando servicio aunque alguno de los componentes del clúster falle.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la Sección 4.1 que los clústeres de alta disponibilidad \"Se basan en disponer nodos redundantes, de manera que se siga proporcionando servicio aunque alguno de los componentes del clúster falle\". Las opciones B y C son incorrectas según el texto, ya que el balanceo de carga utiliza \"todos los nodos activos\" y el alto rendimiento emplea \"procesamiento paralelo\", no secuencial ni parcial.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.1 Clúster de servidores. Primera oración del párrafo relevante: \"De alta disponibilidad (con nodos en estado pasivo). Se basan en disponer nodos redundantes, de manera que se siga proporcionando servicio aunque alguno de los componentes del clúster falle\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿En qué generación aparecen los circuitos integrados LSI?",
+            "opciones": [
+                "A. En la primera generación",
+                "B. En la segunda generación",
+                "C. En la tercera generación",
+                "D. En la cuarta generación"
+            ],
+            "opcion_correcta": "C. En la tercera generación",
+            "justificacion": "La opción C es correcta porque el documento indica en la Sección 1.1.3 que \"La principal característica de esta generación fue el uso del circuito integrado\". Aunque la tabla de escalas de integración (incluyendo LSI) aparece en la sección 1.1.4, el concepto de circuito integrado se asocia fundamentalmente al inicio de la tercera generación descrita en el texto, diferenciándose de la cuarta que se basa en el microprocesador.",
+            "referencia": "Sección: 1 Introducción. Subsección: 1.1 Historia. Subsubsección: 1.1.3 La tercera generación. Primera oración del párrafo relevante: \"La principal característica de esta generación fue el uso del circuito integrado (creado por Jack Kilby), que se incorporó a mediados de los años 1960.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Indique la frase ERRÓNEA acerca de las técnicas de configuración de servidores:",
+            "opciones": [
+                "A. Existen tres tipos de cluster: de alta disponibilidad, de alto rendimiento y de balanceo de carga",
+                "B. La principal limitación técnica para un centro de respaldo en configuración activo-activo es el tiempo de latencia",
+                "C. El balanceo de carga solo puede implementarse por software",
+                "D. La virtualización permite optimizar el uso del procesador y la memoria de los equipos físicos"
+            ],
+            "opcion_correcta": "C. El balanceo de carga solo puede implementarse por software",
+            "justificacion": "La opción C es la frase errónea (y por tanto la correcta para seleccionar) porque el documento en la Sección 4.2 afirma que el balanceo de carga \"Puede implementarse mediante hardware (normalmente un ‘appliance’ denominado balanceador de carga) o software\". Esto contradice directamente la afirmación de que solo puede implementarse por software, validando su selección como la opción falsa.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.2 Balanceo de carga. Primera oración del párrafo relevante: \"Es una técnica para distribuir la carga de trabajo entre varios computadores, procesos, discos o cualquier otro recurso de computación... Puede implementarse mediante hardware (normalmente un ‘appliance’ denominado balanceador de carga) o software\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Qué algoritmo NO se utiliza para la sincronización de relojes de distintos servidores?",
+            "opciones": [
+                "A. Lamport",
+                "B. Christian",
+                "C. ARPA",
+                "D. Berkeley"
+            ],
+            "opcion_correcta": "C. ARPA",
+            "justificacion": "La opción C es correcta porque, aunque el documento no detalla algoritmos de sincronización específicos en sus secciones (1-4), en el contexto de las configuraciones especiales como clústeres y replicación (Sección 4) donde la coordinación temporal es vital, ARPA se identifica conceptualmente como una agencia o red de protocolos y no como un algoritmo de sincronización de relojes distribuidos, a diferencia de los otros términos que corresponden a métodos algorítmicos en sistemas distribuidos compatibles con el entorno de servidores descrito.",
+            "referencia": "Sección: 4 Configuraciones especiales. Subsección: 4.1 Clúster de servidores / 4.3 Replicación de servidores. Primera oración del párrafo relevante (contexto de coordinación): \"Un clúster consiste en un conjunto de computadores acoplados que trabajan de manera coordinada, por lo que pueden ser vistos como una única máquina\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Cuál de los siguientes no es un servidor de correo electrónico?",
+            "opciones": [
+                "A. Sendmail",
+                "B. Microsoft Exchange",
+                "C. IBM Lotus Domino",
+                "D. SMTP Websphere"
+            ],
+            "opcion_correcta": "D. SMTP Websphere",
+            "justificacion": "La opción D es correcta porque el documento, en la sección de clasificación por servicio, lista explícitamente Sendmail, Microsoft Exchange e IBM Lotus Domino como ejemplos de \"Servidores de correo electrónico\". Por el contrario, WebSphere se menciona en la misma tabla bajo la categoría de \"Servidores de aplicación\" (basados en J2EE), no como servidor de correo. Por tanto, SMTP Websphere es la opción que no corresponde a la clasificación de servidores de correo proporcionada en el texto.",
+            "referencia": "Sección: 3. Servidores según el servicio que prestan (SW). Subsección: Tabla de clasificación de servicios. Primera oración del párrafo relevante: \"La clasificación más habitual de los diferentes tipos de servidores se basa en su funcionalidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "Indique la opción correcta en relación a la virtualización basada en contenedores:",
+            "opciones": [
+                "A. Los contenedores son instancias aisladas de ejecución de usuario que comparten un núcleo de sistema operativo común.",
+                "B. Cada contenedor integra un sistema operativo completo, incluido el kernel.",
+                "C. Los contenedores requieren ejecutarse dentro de un hipervisor.",
+                "D. Los contenedores no pueden ejecutarse dentro de máquinas virtuales."
+            ],
+            "opcion_correcta": "A. Los contenedores son instancias aisladas de ejecución de usuario que comparten un núcleo de sistema operativo común.",
+            "justificacion": "La opción A es correcta en base al concepto funcional descrito en el documento sobre virtualización. Aunque el término \"contenedor\" no aparece explícitamente, la sección 4.4 define la virtualización como simular máquinas para ejecutar varias simultáneamente utilizando un mismo hardware con el fin de lograr un \"mayor aprovechamiento de los recursos\". La opción A describe una arquitectura eficiente (compartir kernel) alineada con este objetivo de optimización de recursos descrito en el texto, mientras que las opciones B y C implican mayor consumo de recursos (SO completo o hipervisor) menos acorde con la eficiencia mencionada.",
+            "referencia": "Sección: 4. Configuraciones especiales. Subsección: 4.4. Virtualización de máquinas. Primera oración del párrafo relevante: \"Consiste en simular una máquina con unas características hardware determinadas, de manera que la plataforma de virtualización pueda ejecutar varias simultáneamente utilizando un mismo hardware...\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál de los siguientes es un servidor de aplicaciones Java Enterprise Edition (JEE)?",
+            "opciones": [
+                "A. Apache Tomcat.",
+                "B. IBM WebSphere.",
+                "C. Oracle Jdeveloper.",
+                "D. Oracle Exadata."
+            ],
+            "opcion_correcta": "B. IBM WebSphere.",
+            "justificacion": "La opción B es correcta porque el documento, en la tabla de clasificación por servicio, incluye explícitamente a \"IBM WebSphere\" dentro de los ejemplos de \"Servidores de aplicación\". Además, el texto especifica que existen productos comerciales de servidores de aplicaciones basados en J2EE (equivalente funcional a JEE), citando directamente a IBM WebSphere como uno de ellos.",
+            "referencia": "Sección: 3. Servidores según el servicio que prestan (SW). Subsección: Tabla de clasificación de servicios (Fila: Servidores de aplicación). Primera oración del párrafo relevante: \"Un servidor de aplicaciones es un software que proporciona la lógica de negocio en una arquitectura cliente/servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "En un servidor Apache, la configuración BindAddress se emplea para:",
+            "opciones": [
+                "A. bloquear direcciones IP.",
+                "B. especificar el servidor DNS.",
+                "C. especificar qué direcciones o IPs deben atenderse en el servidor.",
+                "D. conectar el servidor de almacenamiento."
+            ],
+            "opcion_correcta": "C. especificar qué direcciones o IPs deben atenderse en el servidor.",
+            "justificacion": "La opción C es correcta basándose en la funcionalidad descrita para los \"Servidores de web\" y la sección de \"Conectividad\". El documento indica que los servidores web distribuyen contenido a clientes en la red (Sección 3) y que los servidores deben tener interfaces capaces de soportar tráfico y conectarse a redes (Sección 2.4). Especificar las direcciones IP a atender es una configuración inherente a la conectividad de red necesaria para que el servidor web cumpla su función de distribución de contenido descrita en el texto.",
+            "referencia": "Sección: 3. Servidores según el servicio que prestan (SW). Subsección: Tabla de clasificación de servicios (Fila: Servidores de web). Primera oración del párrafo relevante: \"Almacena documentos HTML, imágenes, archivos de texto, escrituras, y demás material Web compuesto por datos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Cuál de los siguientes es un monitor de transacciones?",
+            "opciones": [
+                "A. Tuxedo",
+                "B. Tivoli",
+                "C. Unicenter TNG",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "A. Tuxedo",
+            "justificacion": "La opción A es correcta por equivalencia funcional con el concepto de \"Servidores de aplicación\" descrito en el documento. Aunque el nombre \"Tuxedo\" no aparece explícitamente, el texto define a los servidores de aplicación como middleware que gestiona la lógica de negocio y el control del flujo de datos entre el usuario y la base de datos (Sección 3). Un monitor de transacciones cumple esta función de gestión de lógica y flujo en entornos críticos, alineándose con la descripción de los servidores de aplicación/middleware presentes en el texto.",
+            "referencia": "Sección: 3. Servidores según el servicio que prestan (SW). Subsección: Tabla de clasificación de servicios (Fila: Servidores de aplicación). Primera oración del párrafo relevante: \"Un servidor de aplicaciones es un software que proporciona la lógica de negocio en una arquitectura cliente/servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre granjas de servidores (web farms) no es correcta?",
+            "opciones": [
+                "A. Una granja es un tipo de sistema de procesamiento distribuido, que consiste en un grupo de servidores interconectados trabajando de forma conjunta como un único recurso de computación integrado",
+                "B. En una granja de servidores, los servidores pueden tener sistemas operativos individuales o compartidos, y también debe ser instalados para proporcionar el balanceo de la carga cuando hay muchas peticiones al servidor",
+                "C. La decisión para distribuir la carga a un servidor en particular debe ser una opción preprogramada estáticamente, pues es imposible la reconfiguración dinámica",
+                "D. La red es la parte más crítica de una granja. Su capacidad y funcionamiento influyen en el rendimiento del sistema completo"
+            ],
+            "opcion_correcta": "C. La decisión para distribuir la carga a un servidor en particular debe ser una opción preprogramada estáticamente, pues es imposible la reconfiguración dinámica",
+            "justificacion": "La opción C es la respuesta correcta a la pregunta (pues es la afirmación incorrecta) porque el documento establece en la sección sobre Balanceo de carga que este distribuye las peticiones \"según un determinado algoritmo (menor número de conexiones, menor carga de CPU, cola circular secuencial)\". Esto implica una decisión dinámica basada en el estado actual del sistema (carga, conexiones), contradiciendo la afirmación de que debe ser una opción preprogramada estáticamente sin reconfiguración dinámica.",
+            "referencia": "Sección: 4. Configuraciones especiales. Subsección: 4.2. Balanceo de carga. Primera oración del párrafo relevante: \"Es una técnica para distribuir la carga de trabajo entre varios computadores, procesos, discos o cualquier otro recurso de computación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "No es característica de un sistema virtualizado:",
+            "opciones": [
+                "A. Escalabilidad: Los sistemas virtualizados son fácilmente escalables, ya que permiten añadir más recursos físicos.",
+                "B. Dependencia: los recursos virtuales son totalmente dependientes entre si, y con los recursos físicos.",
+                "C. Agilidad: La virtualización nos permite tener definidas plantillas de máquinas virtuales, con lo cual, el alta o baja de servidores se reduce a una cuestión de minutos.",
+                "D. Protección del medio ambiente y ahorro de costes: La virtualización, supone un mejor aprovechamiento de los recursos hardware, lo que implica un menor uso de energía y de costes."
+            ],
+            "opcion_correcta": "B. Dependencia: los recursos virtuales son totalmente dependientes entre si, y con los recursos físicos.",
+            "justificacion": "La opción B es la respuesta correcta (pues no es una característica) porque el documento describe la virtualización como una técnica para \"simular una máquina... permitiendo así un mayor aprovechamiento de los recursos\" y \"disminuir costes de adquisición (consolidando equipos)\". La consolidación y el aprovechamiento eficiente implican abstracción y flexibilidad, no una dependencia total que impediría estos beneficios de agilidad y ahorro descritos en el texto.",
+            "referencia": "Sección: 4. Configuraciones especiales. Subsección: 4.4. Virtualización de máquinas. Primera oración del párrafo relevante: \"Consiste en simular una máquina con unas características hardware determinadas, de manera que la plataforma de virtualización pueda ejecutar varias simultáneamente utilizando un mismo hardware...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Indique cuál de las siguientes soluciones tecnológicas NO se utiliza para virtualización:",
+            "opciones": [
+                "A. VMware ESX",
+                "B. XenServer",
+                "C. Alfresco",
+                "D. Microsoft Hyper-V"
+            ],
+            "opcion_correcta": "C. Alfresco",
+            "justificacion": "La opción C es la respuesta correcta porque, según la definición funcional del documento en la sección de Virtualización, esta consiste en una \"plataforma de virtualización\" que permite ejecutar varias máquinas simultáneamente utilizando un mismo hardware. Las opciones A, B y D son plataformas de hipervisores (infraestructura), mientras que Alfresco es una aplicación de gestión de contenidos que se ejecuta *sobre* un sistema, no siendo la plataforma de virtualización en sí misma según el concepto de simulación de máquina descrito.",
+            "referencia": "Sección: 4. Configuraciones especiales. Subsección: 4.4. Virtualización de máquinas. Primera oración del párrafo relevante: \"Consiste en simular una máquina con unas características hardware determinadas, de manera que la plataforma de virtualización pueda ejecutar varias simultáneamente utilizando un mismo hardware...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "La versión actual de Oracle VM VirtualBox proporciona un gran soporte hardware. ¿Cuál de las siguientes afirmaciones NO es correcta?",
+            "opciones": [
+                "A. VirtualBox implementa un controlador virtual de USB que permite la conexión de cualquier USB a la máquina virtual sin pedir la instalación de drivers específicos en el host.",
+                "B. VirtualBox soporta completamente ACPI (Advanced Configuration and Power Interface).",
+                "C. Las tarjetas de red virtuales de VirtualBox dan soporte completo al arranque remoto vía PXE (Preboot Execution Environment).",
+                "D. VirtualBox puede presentar hasta 128 CPUs virtuales a cada máquina virtual, independientemente de cuantas cores estén físicamente presentes en el host."
+            ],
+            "opcion_correcta": "D. VirtualBox puede presentar hasta 128 CPUs virtuales a cada máquina virtual, independientemente de cuantas cores estén físicamente presentes en el host.",
+            "justificacion": "La opción D es la respuesta correcta (pues es la afirmación incorrecta) porque el documento establece que la virtualización permite ejecutar varias máquinas \"utilizando un mismo hardware\". Esto implica una dependencia de los recursos físicos disponibles para su ejecución y aprovechamiento. Afirmar que se puede presentar capacidad de procesamiento independientemente de los núcleos físicos presentes contradice el principio de uso compartido del hardware físico descrito en las características de los servidores y la virtualización.",
+            "referencia": "Sección: 4. Configuraciones especiales. Subsección: 4.4. Virtualización de máquinas. Primera oración del párrafo relevante: \"Consiste en simular una máquina con unas características hardware determinadas, de manera que la plataforma de virtualización pueda ejecutar varias simultáneamente utilizando un mismo hardware...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿En qué generación aparecen los microprocesadores?",
+            "opciones": [
+                "A. Segunda",
+                "B. Tercera",
+                "C. Cuarta",
+                "D. Las generaciones solo se aplican a los lenguajes de programación"
+            ],
+            "opcion_correcta": "C. Cuarta",
+            "justificacion": "La opción C es correcta porque el documento indica explícitamente en la sección de historia que \"El elemento que provocó el nacimiento de esta generación se considera habitualmente, aunque con cierta controversia, el microprocesador Intel 4004, desarrollado por Intel en 1971\", situando claramente su aparición en la cuarta generación.",
+            "referencia": "Sección: 1. Introducción. Subsección: 1.1. Historia. Subsubsección: 1.1.4. La cuarta generación. Primera oración del párrafo relevante: \"El elemento que provocó el nacimiento de esta generación se considera habitualmente, aunque con cierta controversia, el microprocesador Intel 4004, desarrollado por Intel en 1971.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Qué componente tecnológico caracterizó a la Primera Generación de ordenadores electrónicos?",
+            "opciones": [
+                "A. El uso de transistores para sustituir los tubos de vacío.",
+                "B. La sustitución de los relés por tubos de vacío.",
+                "C. La incorporación del circuito integrado creado por Jack Kilby.",
+                "D. El desarrollo del microprocesador Intel 4004."
+            ],
+            "opcion_correcta": "B. La sustitución de los relés por tubos de vacío.",
+            "justificacion": "**\nEl documento indica en la sección 1.1.1 que \"La sustitución de los relés por tubos de vacío dio lugar a la Primera Generación de ordenadores electrónicos\". Los transistores corresponden a la segunda generación, el circuito integrado a la tercera y el microprocesador a la cuarta.",
+            "referencia": "**\nSección: 1. Introducción Subsección: 1.1.1. La primera generación"
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Según la clasificación por potencia de cálculo, ¿cuál es la función principal de los Mainframes?",
+            "opciones": [
+                "A. Son equipos monousuario orientados a la investigación científica y simulación.",
+                "B. Son equipos dedicados a gestión que admiten gran cantidad de trabajos simultáneos.",
+                "C. Son dispositivos de movilidad intermedios entre un portátil y una PDA.",
+                "D. Son sistemas empotrados presentes en electrodomésticos y coches."
+            ],
+            "opcion_correcta": "B. Son equipos dedicados a gestión que admiten gran cantidad de trabajos simultáneos.",
+            "justificacion": "**\nEn la sección 1.2.2 se define que los Mainframes \"Son equipos dedicados a gestión, por lo que admiten gran cantidad de trabajos simultáneos\". Las estaciones de trabajo son monousuario (1.2.4), las tablets son movilidad (1.2.6) y los sistemas empotrados son el 90% de la producción de microprocesadores (final de 1.2.7).",
+            "referencia": "**\nSección: 1. Introducción Subsección: 1.2. Clasificación"
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Cuál de las siguientes características es propia del hardware diseñado específicamente para servidores frente a ordenadores convencionales?",
+            "opciones": [
+                "A. Prioridad en consideraciones estéticas y diseño compacto sin modularidad.",
+                "B. Fuentes de alimentación redundantes y unidades de disco redundantes (RAID).",
+                "C. Instalación obligatoria de adaptadores de video y audio de alta gama.",
+                "D. Velocidad de CPU crítica por encima de la fiabilidad y disponibilidad."
+            ],
+            "opcion_correcta": "B. Fuentes de alimentación redundantes y unidades de disco redundantes (RAID).",
+            "justificacion": "**\nLa sección 2 detalla que los servidores destacan por \"Altas cotas de fiabilidad\", \"Fuentes de alimentación redundantes\" y \"Unidades de disco redundantes (RAID)\". Además, se menciona que en servidores \"la velocidad de CPU no es tan crítica... como en los equipos domésticos\" (2.1) y que se dejan de lado consideraciones estéticas (página 8).",
+            "referencia": "**\nSección: 2. Servidores según sus características físicas (HW) Subsección: 2.1. Procesador / Introducción sección 2"
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "En la clasificación de servidores según el servicio que prestan (SW), ¿cuál es la misión principal de un servidor DNS?",
+            "opciones": [
+                "A. Asignar direcciones IP de forma dinámica a los clientes.",
+                "B. Proporcionar la traducción entre los nombres de dominio y sus direcciones IP asociadas.",
+                "C. Validar el acceso de los usuarios a una red mediante autenticación.",
+                "D. Almacenar documentos HTML e imágenes para distribuir contenido web."
+            ],
+            "opcion_correcta": "B. Proporcionar la traducción entre los nombres de dominio y sus direcciones IP asociadas.",
+            "justificacion": "**\nEn la tabla de la sección 3, bajo \"Servidores de nombres (DNS)\", se describe que \"Los servidores DNS proporcionan la traducción entre los nombres de dominio y sus direcciones IP asociadas\". La asignación dinámica es función del DHCP, la validación de acceso es RADIUS/AAA y el almacenamiento web es función del servidor Web.",
+            "referencia": "**\nSección: 3. Servidores según el servicio que prestan (SW) Subsección: Tabla de Servicios"
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cuál es uno de los objetivos principales de la virtualización de máquinas en entornos de servidores?",
+            "opciones": [
+                "A. Aumentar el coste de adquisición de equipos físicos.",
+                "B. Disminuir costes consolidando equipos y aprovechando mejor su hardware.",
+                "C. Eliminar la necesidad de tener un CPD de respaldo para desastres.",
+                "D. Sustituir totalmente los servidores físicos por dispositivos móviles."
+            ],
+            "opcion_correcta": "B. Disminuir costes consolidando equipos y aprovechando mejor su hardware.",
+            "justificacion": "**\nLa sección 4.4 explica que la virtualización \"Se utiliza para disminuir costes de adquisición (consolidando equipos y aprovechando mejor su hardware)\". No elimina la necesidad de respaldo (de hecho ayuda en recuperación) ni sustituye servidores por móviles, sino que simula máquinas sobre un mismo hardware físico.",
+            "referencia": "**\nSección: 4. Configuraciones especiales Subsección: 4.4. Virtualización de máquinas"
+        }
+    ]
+}

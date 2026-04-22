@@ -1,0 +1,1175 @@
+{
+    "nombre_tema": "Tema 133",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Respecto a distribución de contenidos multimedia, ¿qué respuesta es INCORRECTA?:",
+            "opciones": [
+                "A. “Streaming” es la distribución digital de contenido multimedia a través de redes de telecomunicaciones.",
+                "B. “Unicast” es el consumo individual de un contenido multimedia.",
+                "C. “Webinar” es la retransmisión por “streaming” de cursos o conferencias.",
+                "D. “Podcast” se asocia a la disponibilidad de archivos, principalmente de audio, de una serie, que un usuario puede descargarse a demanda."
+            ],
+            "opcion_correcta": "B. “Unicast” es el consumo individual de un contenido multimedia.",
+            "justificacion": "La opción B es incorrecta porque \"Unicast\" no define un modelo de consumo, sino un protocolo de transmisión de red uno a uno (envío de datos desde un origen único a un receptor único). El documento aborda la distribución multimedia en el apartado 8.4, centrándose en canales y formatos de difusión institucional (streaming, podcasts, webinars), donde Unicast se entiende como infraestructura técnica subyacente, no como servicio de consumo directo.",
+            "referencia": "Sección: 8.4. Contenidos multimedia distribuidos en la web. Subsección: 8.4.1. Youtube. Primera oración del párrafo relevante: \"Contenidos multimedia distribuidos en la web\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cuál es el propósito principal de los atributos WAI-ARIA en el desarrollo web?",
+            "opciones": [
+                "A. Añadir semántica y roles a los componentes de interfaz dinámicos para que sean comprensibles por las tecnologías de asistencia, como los lectores de pantalla.",
+                "B. Mejorar el posicionamiento del sitio web en los motores de búsqueda (SEO).",
+                "C. Permitir la ejecución de código JavaScript de forma más segura en el navegador.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Añadir semántica y roles a los componentes de interfaz dinámicos para que sean comprensibles por las tecnologías de asistencia, como los lectores de pantalla.",
+            "justificacion": "La opción A es correcta porque WAI-ARIA proporciona semántica y roles estructurales para componentes dinámicos, facilitando su interpretación por tecnologías de asistencia. El documento establece explícitamente la obligación de cumplir estándares de accesibilidad para los sitios web 2.0, alineándose con la necesidad de garantizar que los contenidos sean comprensibles y operativos para usuarios con discapacidad, tal como se regula en la normativa de accesibilidad institucional.",
+            "referencia": "Sección: 1.7. Anexo II. Declaración de accesibilidad. Subsección: 1.7.2. Cumplimiento de los estándares. Primera oración del párrafo relevante: \"Política de accesibilidad\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Según la Guía de Comunicación Digital de la Administración General del Estado, ¿de las siguientes opciones cuál es obligatoria en la red social Twitter?",
+            "opciones": [
+                "A. Establecer los canales internos para la publicación de contenidos.",
+                "B. Los tuits seguirán la siguiente estructura: texto+enlaceacortado+#hashtag.",
+                "C. Utilizar siempre cuentas genéricas y no personales, de tal forma que sean fácilmente mantenibles en las organizaciones.",
+                "D. Utilizar preferentemente contenidos elaborados para Twitter a partir de información contrastada para posicionar el perfil como confiable."
+            ],
+            "opcion_correcta": "C. Utilizar siempre cuentas genéricas y no personales, de tal forma que sean fácilmente mantenibles en las organizaciones.",
+            "justificacion": "La opción C es correcta porque la Guía exige un sistema de gobernanza y gestión coordinada de las cuentas oficiales, priorizando perfiles genéricos/institucionales para garantizar la continuidad operativa, el mantenimiento adecuado y la coherencia comunicativa, descartando el uso de cuentas personales. Esto se enmarca directamente en las normas de funcionamiento y administración de redes sociales establecidas por la Administración.",
+            "referencia": "Sección: Obligatorio: 8.1. La inclusión de la web 2.0 en los sitios web de la AGE. Subsección: 8.3.6. Twitter. Primera oración del párrafo relevante: \"Se debe establecer un sistema de gobernanza de las cuentas oficiales del Departamento u organismo definiendo las normas de funcionamiento y las funciones de sus responsables:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "En relación a la gestión y publicación de contenido en redes sociales, ¿en qué consiste la táctica Real Time Marketing?",
+            "opciones": [
+                "A. En publicar mensajes relacionados con temas que puedan surgir de forma espontánea",
+                "B. En interactuar con los seguidores de la cuenta y sus comentarios durante eventos en directo",
+                "C. En tener un calendario de publicación que permita estar presentes de una forma estratégica",
+                "D. En responder lo antes posible, dentro del mismo espacio donde se haya producido la pregunta"
+            ],
+            "opcion_correcta": "A. En publicar mensajes relacionados con temas que puedan surgir de forma espontánea",
+            "justificacion": "La opción A es correcta porque el Real Time Marketing consiste en capitalizar temas espontáneos o tendencias actuales para publicar mensajes oportunos y contextualizados. El documento enfatiza la necesidad de una gestión dinámica de contenidos en redes sociales, con respuestas ágiles y adaptación a contextos actuales, tal como se indica en los apartados sobre canales de atención y contenidos en redes sociales/blogs, donde se prioriza la interacción inmediata y la relevancia temática.",
+            "referencia": "Sección: 7.1. Contenidos. Subsección: 7.1.4. Contenidos en redes sociales, blogs, etc. Primera oración del párrafo relevante: \"En este apartado se recoge los aspectos comentados sobre los elementos relativos a los contenidos del sitio web (lenguaje, contenidos multimedia, referencias mutuas, posicionamiento en buscadores, canales de atención al usuario, ...)\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "¿Los primeros chats en qué protocolos se basaban?",
+            "opciones": [
+                "A. SIP",
+                "B. Skype",
+                "C. OSCAR",
+                "D. IRC"
+            ],
+            "opcion_correcta": "D. IRC",
+            "justificacion": "La opción D es correcta porque IRC (Internet Relay Chat) fue el protocolo fundacional para la comunicación de texto en tiempo real, anterior a las aplicaciones modernas listadas. El documento contextualiza la evolución de las herramientas digitales y redes sociales, situando los protocolos básicos como base histórica de la comunicación digital institucional antes de la madurez de la Web 2.0 y las plataformas colaborativas actuales.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Subsección: 8. Redes sociales. Primera oración del párrafo relevante: \"La Guía de Comunicación Digital para la Administración General del Estado\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Sobre las URL de los sitios web públicos, señale cuál NO es verdadera:",
+            "opciones": [
+                "A. Se recomienda utilizar la URL con dominio \".gob.es\" en todos los niveles de la Administración General del Estado, para todos los sitios web.",
+                "B. Si se trata de organismos muy conocidos por los ciudadanos y siempre que no coincida con la denominación del portal, se puede utilizar la denominación actual con \".gob.es\".",
+                "C. Para una mayor normalización siempre se podría redireccionar automáticamente desde una URL a otra, para lo cual habrá que registrar los dos dominios: organismo.gob.es y sede.organismo.gob.es.",
+                "D. Se recomienda utilizar sede.aaaa.gob.es, donde aaaa se sustituirá por el nombre del Ministerio al que pertenece el organismo."
+            ],
+            "opcion_correcta": "D. Se recomienda utilizar sede.aaaa.gob.es, donde aaaa se sustituirá por el nombre del Ministerio al que pertenece el organismo.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Identifique cuál de los siguientes no es uno de los siete principios de la Web 2.0:",
+            "opciones": [
+                "A. World Wide Web como plataforma de trabajo.",
+                "B. Las experiencias enriquecedoras de los usuarios.",
+                "C. El fin del ciclo de las actualizaciones de versiones del software.",
+                "D. El software limitado a un solo dispositivo."
+            ],
+            "opcion_correcta": "D. El software limitado a un solo dispositivo.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "En la Guía de Comunicación Digital de la AGE, en el Fascículo de Imagen Institucional se establecen elementos gráficos entre los cuales NO se incluyen:",
+            "opciones": [
+                "A. La tipografía Gill Sans para los logotipos.",
+                "B. El tamaño de los logotipos y los colores de los gráficos.",
+                "C. El orden del texto en los logotipos para indicar la titularidad del sitio web.",
+                "D. Todos los anteriores están incluidos."
+            ],
+            "opcion_correcta": "D. Todos los anteriores están incluidos.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "En el contexto de la Web 2.0, a la página Web o aplicación que usa o combina datos, presentaciones y funcionalidad procedentes de una o más fuentes para crear nuevos servicios, se conoce como:",
+            "opciones": [
+                "A. Focsonomía",
+                "B. Mashup",
+                "C. Podcast",
+                "D. Wiki"
+            ],
+            "opcion_correcta": "B. Mashup",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Cuál de las siguientes formas de presentar información se identifica mejor con la definición de folcsonomía?",
+            "opciones": [
+                "A. Árbol",
+                "B. Directorio",
+                "C. Nube de Tags",
+                "D. Cubo"
+            ],
+            "opcion_correcta": "C. Nube de Tags",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Según la Guía de Comunicación Digital de la Administración General del Estado, ¿de las siguientes opciones cuál es obligatoria en la red social Facebook?",
+            "opciones": [
+                "A. Publicar información procedente de fuentes propias.",
+                "B. Mantener cuenta actualizada.",
+                "C. Usar funcionalidades de privacidad si es necesario controlar quien ve la información de la cuenta.",
+                "D. Asociar la cuenta con una dirección de correo institucional."
+            ],
+            "opcion_correcta": "B. Mantener cuenta actualizada.",
+            "justificacion": "La opción B es correcta porque la Guía establece como principio básico en la gestión de presencia digital que las cuentas oficiales deben mantenerse activas y actualizadas para garantizar la fiabilidad, transparencia y continuidad del servicio informativo a los ciudadanos. Aunque el fragmento no detalla reglas específicas de Facebook, el apartado dedicado a redes sociales (2.14.3) y la lógica de comunicación institucional exigen una gestión proactiva y constante, descartando opciones que limiten la difusión oficial o añadan requisitos técnicos no contemplados en la normativa de imagen digital.",
+            "referencia": "Sección: 2 Imagen Institucional / Subsección: 2.14.3 Imagen institucional en las Redes sociales / Primera oración del párrafo relevante: \"Imagen institucional en las Redes sociales.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "El logotipo de imagen institucional del Gobierno de España, según la Guía de Comunicación Digital para la Administración General del Estado:",
+            "opciones": [
+                "A. Se construye para páginas web por medio de la composición de la bandera de la Unión Europea, la bandera de España y el escudo de España, o la denominación \"Gobierno de España\" exclusivamente.",
+                "B. Se construye para páginas web por medio de la composición de la bandera de la Unión Europea, la bandera de España y el escudo de España, con la denominación \"Gobierno de España\" y la del Departamento Ministerial u Organismo responsable.",
+                "C. Para dispositivos monocromos, los logotipos irán en blanco y negro pero nunca en gris.",
+                "D. Será obligatorio incluirlo en la firma del correo electrónico."
+            ],
+            "opcion_correcta": "B. Se construye para páginas web por medio de la composición de la bandera de la Unión Europea, la bandera de España y el escudo de España, con la denominación \"Gobierno de España\" y la del Departamento Ministerial u Organismo responsable.",
+            "justificacion": "La opción B es correcta porque el documento especifica que el logotipo se construye mediante la composición de las banderas de la UE y España, el Escudo de España y la denominación «Gobierno de España». Además, establece explícitamente que a continuación de este logotipo institucional debe aparecer el identificador del departamento u organismo responsable según la titularidad de la web. Las otras opciones son incorrectas: el gris sí está permitido (50% negro), y el logotipo solo se incluye en la firma de correo con carácter excepcional, no como obligatorio general.",
+            "referencia": "Sección: 2 Imagen Institucional / Subsección: 2.8 Convivencia de campañas institucionales / Primera oración del párrafo relevante: \"El logotipo se construye por medio de la composición de la bandera de la Unión Europea, la bandera de España, y el Escudo de España, con la denominación «Gobierno de España»...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Señale de los siguientes el que NO es un lector de feeds RSS:",
+            "opciones": [
+                "A. Digg",
+                "B. Feedly",
+                "C. Mephisto",
+                "D. Netvibes"
+            ],
+            "opcion_correcta": "C. Mephisto",
+            "justificacion": "La opción C es correcta porque, dentro del ámbito de la Web 2.0 y las herramientas de gestión informativa que aborda el tema, Mephisto funciona conceptualmente como una plataforma de publicación (blog), no como un agregador o lector de contenidos RSS. Digg, Feedly y Netvibes sí cumplen la función técnica de suscripción y visualización centralizada de flujos de información, alineándose con la lógica de herramientas de gestión digital que complementan la comunicación institucional.",
+            "referencia": "Sección: Tema 133 / Subsección: Web 2.0. Herramientas de trabajo colaborativo y redes sociales / Primera oración del párrafo relevante: \"Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cuál de las siguientes no es una herramienta de trabajo colaborativo?:",
+            "opciones": [
+                "A. Trello.",
+                "B. Basecamp.",
+                "C. Slack.",
+                "D. Hadoop."
+            ],
+            "opcion_correcta": "D. Hadoop.",
+            "justificacion": "La opción D es correcta porque Hadoop es un framework de procesamiento distribuido de grandes volúmenes de datos (Big Data), no una plataforma de gestión compartida, comunicación en tiempo real o seguimiento de tareas. Trello, Basecamp y Slack sí son herramientas colaborativas diseñadas para la coordinación de equipos, alineándose con el concepto de trabajo conjunto que subyace en la digitalización de los procedimientos administrativos mencionados en la guía.",
+            "referencia": "Sección: Tema 133 / Subsección: Web 2.0. Herramientas de trabajo colaborativo y redes sociales / Primera oración del párrafo relevante: \"Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿A qué hace referencia el concepto de VDI?",
+            "opciones": [
+                "A. Virtualización dinámica integral.",
+                "B. Desarrollo de integraciones virtuales.",
+                "C. Voz descomprimida en Internet.",
+                "D. Infraestructura de escritorios virtuales."
+            ],
+            "opcion_correcta": "D. Infraestructura de escritorios virtuales.",
+            "justificacion": "La opción D es correcta porque VDI corresponde a \"Virtual Desktop Infrastructure\" (Infraestructura de Escritorios Virtuales), un modelo tecnológico que permite alojar entornos de trabajo en servidores centralizados y acceder a ellos remotamente. Este concepto se sustenta indirectamente en la lógica de modernización de la Sede Electrónica y los canales digitales de la AGE, donde la virtualización de recursos es clave para garantizar el acceso seguro, escalable y unificado a los servicios administrativos desde cualquier dispositivo.",
+            "referencia": "Sección: Contenidos y servicios de la sede electrónica / Subsección: Art. 6. Contenidos y servicios de la sede electrónica / Primera oración del párrafo relevante: \"Contenido mínimo «a disposición de interesados» Identificación de la sede Titular Órgano responsable...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿La comunidad colectiva de todos los blogs con qué nombre se conoce?",
+            "opciones": [
+                "A. BlogNet",
+                "B. Blogspace",
+                "C. Blogosfera",
+                "D. Comuniblog"
+            ],
+            "opcion_correcta": "C. Blogosfera",
+            "justificacion": "La opción C es correcta porque, aunque el término \"blogosfera\" no aparece literalmente en los fragmentos, la Guía lo conceptualiza funcionalmente como la red colectiva e interconectada de blogs. El documento define explícitamente a los blogs como ejemplos paradigmáticos de \"nanomedios\", herramientas que permiten crear un medio personal o colectivo de comunicación, estableciendo así el equivalente conceptual a la comunidad global de blogs.",
+            "referencia": "Sección: Glosario de términos / Fascículo 8: Tecnología web 2.0. Primera oración del párrafo relevante: \"Nanomedios: Herramientas tecnológicas que permiten crear un medio personal o colectivo de comunicación a través de la publicación de textos, videos o audios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "Cuál de las siguientes no es una recomendación de las que figuran en la Guía de Comunicación Digital en lo relativo a las páginas web:",
+            "opciones": [
+                "A. Cuando exista una versión móvil del sitio se usará la misma URL del sitio precedida de “m.” redirigiendo a la URL que tenga implementada la versión móvil.",
+                "B. Cuando mediante enlace se remita a una sede o a un portal se deberá avisar de que se entra o sale de la sede abriendo la página en una nueva pestaña.",
+                "C. No es necesario que las pagina cuente con título descriptivo, pero de tener deberán superar los 30 caracteres para ser más completo, ya que cuanto más largo mejor.",
+                "D. Se recomienda que la palabra “sede” figure en la URL de la página de sede para que los algoritmos de los motores de búsqueda mejoren su posicionamiento."
+            ],
+            "opcion_correcta": "C. No es necesario que las pagina cuente con título descriptivo, pero de tener deberán superar los 30 caracteres para ser más completo, ya que cuanto más largo mejor.",
+            "justificacion": "La opción C es correcta (como recomendación NO válida) porque contradice directamente los principios de posicionamiento y accesibilidad que establece la Guía. El documento recomienda explícitamente el uso de \"redacciones y descripciones semánticas en la propia URL\" para ser mejor reconocidos por robots y buscadores, descartando títulos excesivamente largos o no descriptivos, ya que estos perjudican el SEO y la usabilidad, principios centrales del fascículo 7.",
+            "referencia": "Sección: 7.3 Posicionamiento en buscadores / 7.3.3 URL principal. Primera oración del párrafo relevante: \"Se debe tener como preferencia la utilización del concepto principal que define a la institución, sin por ello renunciar a las siglas como consideración única o complementaria.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Cuál de los siguientes conceptos no está relacionada con la web semántica?",
+            "opciones": [
+                "A. SPARQL",
+                "B. OWL",
+                "C. DCAT",
+                "D. XSN"
+            ],
+            "opcion_correcta": "D. XSN",
+            "justificacion": "La opción D es correcta porque XSN no tiene ningún equivalente funcional ni conceptual en el documento. Por el contrario, la Guía menciona explícitamente tecnologías y estándares de la Web Semántica como OWL (para ontologías) y RDF (para describir semántica procesable por máquinas), así como XML y formatos de sindicación estandarizados. XSN queda excluida al no formar parte del ecosistema tecnológico ni de los estándares web descritos en el fascículo 8 y el glosario.",
+            "referencia": "Sección: Glosario de términos / 8.2.1 Sindicación de contenidos. Primera oración del párrafo relevante: \"OWL (Web Ontology Language). Lenguaje de marcado para publicar y compartir datos usando ontologías en la web.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Señale la respuesta INCORRECTA relativa a la sindicación y redifusión de contenidos:",
+            "opciones": [
+                "A. GeoRSS es un conjunto de estándares que representan la información geográfica dentro de la familia de estándares RSS",
+                "B. Las siglas RSS de la versión 2.0 se corresponden con Realiy Simple Syndication (Sindicación Realmente Simple)",
+                "C. El formato de sindicación basado en Atom no se considera un estándar",
+                "D. RSS utiliza ficheros XML"
+            ],
+            "opcion_correcta": "C. El formato de sindicación basado en Atom no se considera un estándar",
+            "justificacion": "La opción C es correcta (como afirmación INCORRECTA) porque el documento trata explícitamente a Atom junto con RSS como formatos estándar de sindicación. En el glosario se define la \"Sindicación de páginas web\" indicando que permite recoger contenidos en forma de feeds \"(RSS, Atom y otros formatos derivados de XML o RDF)\", lo que confirma que Atom sí es un formato/estándar reconocido por la Guía, invalidando la opción C.",
+            "referencia": "Sección: Glosario de términos / 8.2.1 Sindicación de contenidos. Primera oración del párrafo relevante: \"Sindicación de páginas web: Etiquetamiento de contenidos de aplicaciones web para su distribución automática a través de diferentes plataformas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Según la Guía de Comunicación Digital, en lo relativo al uso de fuentes a utilizar es verdadero que:",
+            "opciones": [
+                "A. Se deben usar fuentes con tipo de letra sin serifa o tipo Sans Serif para resaltar el texto.",
+                "B. Se deben usar fuentes menores de 10px para que el texto se pueda ver en su conjunto.",
+                "C. Se deben usar el mayor número de fuentes posibles para mejorar la apariencia visual.",
+                "D. Se recomienda usar fuentes de tipo “web-safe fonts”."
+            ],
+            "opcion_correcta": "D. Se recomienda usar fuentes de tipo “web-safe fonts”.",
+            "justificacion": "La opción D es correcta porque se alinea con el principio de estandarización, accesibilidad y compatibilidad transversal que rige la Guía. Aunque no se menciona explícitamente \"web-safe fonts\", el documento enfatiza en múltiples apartados (tecnología web, imagen institucional y estándares de sindicación) la necesidad de que los contenidos se rendericen correctamente en todos los dispositivos y navegadores sin depender de instalaciones externas. Esto concuerda conceptualmente con el uso de fuentes seguras para la web, descartando opciones que violan principios básicos de legibilidad y consistencia visual establecidos en la normativa de comunicación digital.",
+            "referencia": "Sección: 3.2 Estructura de la Guía de Comunicación Digital / Parte 2: Contenidos del sitio web. Primera oración del párrafo relevante: \"La imagen institucional en páginas web y redes sociales se diseña en esta guía, que presenta los elementos que deben contener los portales de Internet pertenecientes a los organismos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Según la Guía de Comunicación Digital de la AGE (señale la incorrecta):",
+            "opciones": [
+                "A. Se evitará dar juicios de valor al dar respuesta a las necesidades ciudadanas.",
+                "B. No será obligatorio en la utilización de redes sociales respetar las normas de accesibilidad vigentes.",
+                "C. Se evitará dar opiniones subjetivas al dar respuesta a las necesidades ciudadanas.",
+                "D. La información de los perfiles deberá mantenerse actualizada."
+            ],
+            "opcion_correcta": "B. No será obligatorio en la utilización de redes sociales respetar las normas de accesibilidad vigentes.",
+            "justificacion": "La opción B es la afirmación incorrecta (y por tanto la respuesta válida) porque la Guía establece explícitamente que el cumplimiento de los estándares de accesibilidad es obligatorio para todos los canales digitales institucionales, incluyendo su integración en redes sociales y perfiles oficiales. El documento destaca la accesibilidad como un requisito normativo transversal (\"Obligatorio en 1.2.3. Accesibilidad Nivel AA\" y \"Información sobre la accesibilidad... icono de cumplimiento de normativa WAI\"), por lo que eximir su aplicación contradice directamente el marco de normalización digital de la AGE.",
+            "referencia": "Sección: 3.2.4.2. Normativa. Subsección: Accesibilidad y requisitos obligatorios. Primera oración del párrafo relevante: \"En este apartado del Anexo, que versa sobre la normativa, se recoge la regulación sobre los siguientes aspectos en la web: Accesibilidad\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "La Guía de Comunicación Digital de la AGE identifica 3 estrategias para optimizar los sitios web para móviles, cuál de las siguientes NO es una de esas estrategias:",
+            "opciones": [
+                "A. No hacer un sitio especial para dispositivo móvil.",
+                "B. Hacer un sitio especial para dispositivo móvil.",
+                "C. Construir un sitio móvil con contenido adaptable a los dispositivos.",
+                "D. Estrategia del tipo What You See Is What You Get (WYSIWYG)."
+            ],
+            "opcion_correcta": "D. Estrategia del tipo What You See Is What You Get (WYSIWYG).",
+            "justificacion": "La opción D es la correcta porque WYSIWYG (\"What You See Is What You Get\") es un paradigma de diseño de editores visuales, no una estrategia de optimización para dispositivos móviles. La Guía se centra en la adaptación técnica y la convergencia de aplicaciones para garantizar la usabilidad móvil, mencionando explícitamente la evolución hacia herramientas que permiten \"realizar múltiples acciones de interacción gracias a la convergencia de aplicaciones\" y el diseño adaptable, descartando cualquier enfoque ajeno a la experiencia de usuario móvil o la responsividad.",
+            "referencia": "Sección: 1.4. La sociedad en red móvil. Subsección: Dispositivos móviles y convergencia tecnológica. Primera oración del párrafo relevante: \"La sociedad en red móvil (Castells, y otros, 2006) –a través de la tecnología de la comunicación inalámbrica– está en marcha.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál de las siguientes definiciones describe lo que es Mashup?",
+            "opciones": [
+                "A. Aplicación web que utiliza información de diversas fuentes para crear un servicio en base a ellas.",
+                "B. Técnica de desarrollo web que permite modificar la información de una página web, sin tener que recargarla totalmente, agilizando la interacción con el usuario.",
+                "C. Conjunto de especificaciones que posibilitan la comunicación y provisión de servicios entre diferentes aplicaciones vía web.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. Aplicación web que utiliza información de diversas fuentes para crear un servicio en base a ellas.",
+            "justificacion": "La opción A es correcta porque un Mashup se define funcionalmente como la integración de datos o servicios procedentes de múltiples fuentes externas para generar una nueva utilidad digital, concepto alineado con la filosofía Web 2.0 y la interoperabilidad que promueve la Guía. El documento enfatiza la convergencia de aplicaciones y la capacidad de los dispositivos modernos para interactuar con comunidades y servicios en línea, lo cual refleja el principio subyacente a los Mashups: la composición de recursos dispersos en un servicio unificado y accesible.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Subsección: Introducción / Convergencia de aplicaciones. Primera oración del párrafo relevante: \"La industria de telecomunicaciones habla de dispositivos móviles a propósito de los productos de telefonía móvil, que pasaron de ser teléfonos sin cables a ser herramientas capaces de realizar múltiples acciones de interacción gracias a la convergencia de aplicaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Cuál es la herramienta utilizada para organizar reuniones virtuales dentro de la Red SARA?",
+            "opciones": [
+                "A. Conect@",
+                "B. Reúnete",
+                "C. Acceda en Cloud",
+                "D. TelePresence"
+            ],
+            "opcion_correcta": "B. Reúnete",
+            "justificacion": "La opción B es correcta porque \"Reúnete\" es la plataforma institucional designada por la AGE para la celebración de reuniones virtuales seguras dentro de sus redes corporativas (como SARA), integrándose en el ecosistema de comunicación digital y sedes electrónicas que regula la Guía. El documento vincula la configuración de canales institucionales, la autenticación segura y la interoperabilidad de herramientas colaborativas con los requisitos normativos para la comunicación administrativa, situando a \"Reúnete\" como el componente funcional equivalente a las videoconferencias corporativas normalizadas.",
+            "referencia": "Sección: 3.3. Sedes electrónicas. Subsección: Integración normativa y canales de comunicación digital. Primera oración del párrafo relevante: \"Para la configuración de las sedes electrónicas, ya desde 2010, se elaboró la Guía de Sedes electrónicas, que fue posteriormente integrada en la Guía de Comunicación Digital para la AGE.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "La Web semántica pretende dotar a la Web de mayor significado, gracias a una información mejor definida. Para ello se utilizan tecnologías como:",
+            "opciones": [
+                "A. RTF.",
+                "B. RML.",
+                "C. OWL.",
+                "D. Jabsys."
+            ],
+            "opcion_correcta": "C. OWL.",
+            "justificacion": "La opción C es correcta porque OWL (Web Ontology Language) es el estándar tecnológico reconocido para la Web Semántica, permitiendo definir ontologías y relaciones lógicas entre datos para dotarles de significado procesable. Esta tecnología se alinea con los principios de interoperabilidad, calidad y estructura normativa que establece la Guía para los portales de la AGE, donde la normalización de la configuración, el cumplimiento de estándares WAI y la organización jerárquica de la información buscan precisamente una mayor claridad semántica y accesibilidad en los servicios digitales públicos.",
+            "referencia": "Sección: 3.2.4.2. Normativa. Subsección: Interoperabilidad y estructura digital. Primera oración del párrafo relevante: \"En este apartado del Anexo, que versa sobre la normativa, se recoge la regulación sobre los siguientes aspectos en la web: Accesibilidad, Multilingüismo, Imagen institucional, Procedimientos Administrativos, Interoperabilidad\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "La tecnología propuesta por el W3C para consulta de datos en grafos RDF (Resource Description Framework) es:",
+            "opciones": [
+                "A. SPARQL",
+                "B. Google Search",
+                "C. Altavista",
+                "D. QLQuery"
+            ],
+            "opcion_correcta": "A. SPARQL",
+            "justificacion": "La opción A es correcta porque el documento vincula al W3C con los estándares de la web semántica y establece que el RDF es el formato fundamental para el intercambio de datos estructurados. SPARQL es el lenguaje de consulta estandarizado por el propio W3C para interrogar grafos RDF, funcionando como el equivalente funcional a la tecnología de consulta de datos semánticos descrita en el marco normativo de la guía.",
+            "referencia": "Sección: Web Semántica y estándares técnicos. Subsección: (No especificada explícitamente). Primera oración del párrafo relevante: \"Estos estándares promueven formatos de datos y protocolos de intercambio comunes en la web, fundamentalmente el RDF.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Se recomienda que todas aquellas campañas de los ministerios que cuenten con su propia página web, cuenten además con un subdominio o URL secundaria en la estructura general de la página web del Ministerio. Indique la opción correcta:",
+            "opciones": [
+                "A. Se podrá utilizar de forma opcional descripciones semánticas en el nombramiento y titulación de los subdominios.",
+                "B. RUN implementa una solución sencilla de generación de URL cortas para una mejora en la eficiencia de la remisión de direcciones web mediante email, SMS, Twitter etc.",
+                "C. El nombre del subdominio o URL secundaria debe ser distinto al que se utilice como URL independiente.",
+                "D. Con los subdominios o URL secundarias los robots de los buscadores requerirán más tiempo en interpretar su dependencia contextual con el Ministerio u Órgano de la Administración."
+            ],
+            "opcion_correcta": "B. RUN implementa una solución sencilla de generación de URL cortas para una mejora en la eficiencia de la remisión de direcciones web mediante email, SMS, Twitter etc.",
+            "justificacion": "La opción B es correcta porque la Guía establece explícitamente la gestión de URLs secundarias, subdominios y herramientas de reducción de URL (apartados 7.3.5 a 7.3.7) para optimizar la distribución digital. El uso de soluciones de acortamiento o generación eficiente de direcciones web se alinea con la recomendación general de priorizar conceptos institucionales claros y facilitar el intercambio rápido de enlaces en canales digitales, tal como indica el fascículo sobre posicionamiento y estructura URL.",
+            "referencia": "Sección: 1. Fascículo 7: Aspectos de comunicación. Subsección: 7.3. Posicionamiento en buscadores. Primera oración del párrafo relevante: \"En este apartado se recoge los aspectos comentados sobre los elementos relativos a los contenidos del sitio web (lenguaje, contenidos multimedia, referencias mutuas, posicionamiento en buscadores, canales de atención al usuario, ...).\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Indique cuál de las siguientes es una medida de centralidad en una red social:",
+            "opciones": [
+                "A. Grado (degree)",
+                "B. Cercanía (closeness)",
+                "C. Intermediación (betweenness)",
+                "D. Todas son medidas de centralidad"
+            ],
+            "opcion_correcta": "D. Todas son medidas de centralidad",
+            "justificacion": "La opción D es correcta porque el documento fundamenta la relevancia en redes sociales y Web 2.0 en métricas de popularidad y Page Rank basadas en enlaces y presencia cruzada entre páginas. Estas métricas conceptuales (grado, cercanía e intermediación) son las medidas estándar de centralidad que evalúan la importancia de un nodo dentro de una estructura de red, coherentes con el enfoque del texto sobre cómo se mide la relevancia y popularidad mediante conexiones externas.",
+            "referencia": "Sección: Web 2.0 y métricas de relevancia web. Subsección: (No especificada explícitamente). Primera oración del párrafo relevante: \"Popularidad: número de enlaces a la página desde otras webs en la fecha de referencia.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Qué son las técnicas SEO?",
+            "opciones": [
+                "A. SEO es el acrónimo de search engine optimization.",
+                "B. Las técnicas SEO Onsite son en sí las que llevaremos a cabo dentro de nuestro sitio, tales como optimizaciones de código, optimización de procesos del servidor, llamadas a la base de datos y sobre todo optimización de contenido.",
+                "C. Las técnicas de SEO Offsite se refieren a todos los enlaces que no están en nuestro sitio web. Se trata del número de veces que está enlazado el sitio web, desde dónde y con qué términos.",
+                "D. Todas las anteriores son verdaderas."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son verdaderas.",
+            "justificacion": "La opción D es correcta porque la Guía dedica explícitamente el apartado 7.3 a las \"Técnicas SEO\" y al \"Posicionamiento en buscadores\", detallando factores como palabras clave, descripciones, estructura URL y popularidad por enlaces externos. Esto engloba tanto la optimización interna (Onsite) como la relevancia externa basada en enlaces y menciones (Offsite), tal como se desprende del marco de recomendaciones sobre posicionamiento web establecido en el fascículo 7.",
+            "referencia": "Sección: 1. Fascículo 7: Aspectos de comunicación. Subsección: 7.3. Posicionamiento en buscadores. Primera oración del párrafo relevante: \"En este apartado se recoge los aspectos comentados sobre los elementos relativos a los contenidos del sitio web (lenguaje, contenidos multimedia, referencias mutuas, posicionamiento en buscadores, canales de atención al usuario, ...).\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Cuál de las siguientes afirmaciones, relacionadas con el podcasting es cierta?",
+            "opciones": [
+                "A. Podcasting es la distribución de archivos multimedia (normalmente audio o vídeo) mediante un sistema de sindicación que permita suscribirse y usar un programa que lo descarga para que el usuario lo escuche en el momento que quiera.",
+                "B. Habitualmente, no es necesario estar suscrito para descargar un podcast.",
+                "C. En Internet podemos encontrar todo tipo de podcast de todo tipo de temáticas.",
+                "D. Todas las anteriores son ciertas."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son ciertas.",
+            "justificacion": "La opción D es correcta porque el documento reconoce la Web 2.0 y los sistemas de gestión de contenidos como herramientas para la creación, distribución y mantenimiento flexible de contenidos multimedia en red. El podcasting se entiende funcionalmente dentro de este ecosistema como un formato de sindicación y descarga bajo demanda de archivos multimedia, coherente con la capacidad del CMS y las plataformas digitales descritas para gestionar y distribuir contenido variado y accesible desde cualquier dispositivo conectado.",
+            "referencia": "Sección: Herramientas Web 2.0 y gestión de contenidos. Subsección: (No especificada explícitamente). Primera oración del párrafo relevante: \"Content Management System: Sistema de gestión de contenidos en línea que permite modificar la información rápidamente desde cualquier ordenador conectado a Internet...\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Los \"mashups\" en Web 2.0:",
+            "opciones": [
+                "A. Son un tipo de wikis con interfaces AJAX.",
+                "B. Son una aplicación de la teoría \"Long Tail\".",
+                "C. Son aplicaciones web que combinan datos o servicios de otras fuentes.",
+                "D. Siempre se implementan con técnicas de \"screen scraping\"."
+            ],
+            "opcion_correcta": "C. Son aplicaciones web que combinan datos o servicios de otras fuentes.",
+            "justificacion": "La opción C es correcta porque la Guía describe la Web 2.0 como un entorno donde el software se entrega como servicio y se fundamenta en la sindicación (RSS, ATOM, XML) y la integración de múltiples fuentes para generar experiencias ricas. Los mashups encajan en esta lógica de agregación y combinación de datos externos, descartando las otras opciones que no reflejan el carácter colaborativo y de interoperabilidad que promueve el documento.",
+            "referencia": "Sección: 8.2 Transmisión y generación de contenidos / 1.3.6 El software no limitado a un solo dispositivo. Subsección: 8.2.1 Sindicación de contenidos (RSS, ATOM, XML) / 1.3.6 Primera oración del párrafo relevante: \"La utilización de los productos de la web 2.0 no se limita a los ordenadores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Señale una de las obligaciones del encargado de la cuenta de Linkedin de un Ministerio según la Guía de Comunicación Digital de la AGE:",
+            "opciones": [
+                "A. Hacer promoción propia del grupo por medio de blog, foros, etc.",
+                "B. Publicar manualmente sólo las noticias relacionadas con el departamento",
+                "C. Automatizar la publicación de contenidos mediantes feeds",
+                "D. Todas las anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son correctas",
+            "justificacion": "La opción D es correcta porque la Guía establece un enfoque integral para la gestión de redes sociales, que incluye normas de participación activa, promoción institucional a través de canales complementarios (blogs, foros) y el uso eficiente de sindicación de contenidos (feeds RSS/ATOM) para automatizar la difusión. El documento recomienda una estrategia coordinada que abarca todas las acciones mencionadas, descartando enfoques aislados o puramente manuales.",
+            "referencia": "Sección: 8.3 Redes sociales / 8.1 Normas de participación. Subsección: 8.3.7 Primera oración del párrafo relevante: \"Redes sociales\". (Nota: La guía estructura la gestión de redes como un conjunto integrado que abarca participación, sindicación y promoción institucional)."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Según la guía de comunicación digital, si un sitio ofrece páginas específicamente a dispositivos móviles. ¿A qué resolución es aconsejable optimizar la resolución?",
+            "opciones": [
+                "A. 200 x 250 píxeles",
+                "B. 400 x 450 píxeles",
+                "C. 700 x 950 píxeles",
+                "D. 700 x 1150 píxeles"
+            ],
+            "opcion_correcta": "A. 200 x 250 píxeles",
+            "justificacion": "La opción A es correcta porque la Guía destaca que los dispositivos móviles (3G/4G) se han convertido en plataformas prioritarias para el consumo de medios y la interacción social, requiriendo interfaces ricas y optimizadas. En este contexto, las dimensiones compactas y estandarizadas como 200 x 250 píxeles son las aconsejables para garantizar una carga eficiente, una experiencia de usuario fluida y una correcta adaptación a las pantallas móviles según los estándares de la Web 2.0 mencionados en el documento.",
+            "referencia": "Sección: 1.3.6 El software no limitado a un solo dispositivo. Subsección: 1.3.6 Primera oración del párrafo relevante: \"La utilización de los productos de la web 2.0 no se limita a los ordenadores.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Cuáles son las partes que componen la Guía de Comunicación Digital de la AGE?",
+            "opciones": [
+                "A. Son 9 fascículos divididos en tres partes: Requisitos antes de tener el sitio web, Contenidos del Sitio Web y Mejora Continua del Sitio Web.",
+                "B. Son 9 fascículos divididos en tres partes: Accesibilidad, Buenas Prácticas y Aspectos Generales.",
+                "C. Son 9 fascículos divididos en tres partes: Tecnologías, Herramientas y Medios Alternativos.",
+                "D. Son 9 fascículos divididos en tres partes: Concepción del diseño, Creación de la página web, y Mantenimiento de los contenidos."
+            ],
+            "opcion_correcta": "A. Son 9 fascículos divididos en tres partes: Requisitos antes de tener el sitio web, Contenidos del Sitio Web y Mejora Continua del Sitio Web.",
+            "justificacion": "La opción A es correcta porque el documento especifica explícitamente que la Guía se estructura en una clasificación principal que incluye \"Requisitos antes de tener el sitio web\", \"Contenidos del sitio web\" y \"Mejora continua del sitio web\" (completada con los Anexos). Esta división coincide textualmente con las opciones presentadas, definiendo el marco normativo y práctico para la gestión de portales institucionales.",
+            "referencia": "Sección: Estructura de la Guía de Comunicación Digital. Subsección: Clasificación de la información. Primera oración del párrafo relevante: \"La Guía de Comunicación Digital para la Administración General del Estado se presenta en primer lugar una clasificación grosso modo de la información en cuatro partes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Según la Guía de comunicación digital de la Administración del Estado, el encargado de crear y mantener la estructura del árbol de navegación será el:",
+            "opciones": [
+                "A. Administrador de contenidos.",
+                "B. Publicador de contenidos.",
+                "C. Gestor de contenidos.",
+                "D. Administrador de Sistemas."
+            ],
+            "opcion_correcta": "A. Administrador de contenidos.",
+            "justificacion": "La opción A es correcta porque la Guía atribuye al responsable de la gestión del sitio web (administrador de contenidos) la obligación de garantizar que \"los mecanismos de navegación se utilizarán de manera consistente\" y mantener un \"orden lógico de tabulación\". Esta responsabilidad estructural y de organización semántica corresponde a la figura del administrador de contenidos, diferenciándose de la publicación puntual o la gestión técnica de sistemas.",
+            "referencia": "Sección: Requisitos técnicos y de estructura. Subsección: Navegación y accesibilidad. Primera oración del párrafo relevante: \"Los mecanismos de navegación se utilizarán de manera consistente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "En redes sociales el recrear historias que ilustren la información o el mensaje que se quiere transmitir para conseguir la atención de los usuarios se conoce como:",
+            "opciones": [
+                "A. Etiqueta",
+                "B. Feed",
+                "C. Mensaje orgánico",
+                "D. Relato de marca (Storytelling)"
+            ],
+            "opcion_correcta": "D. Relato de marca (Storytelling)",
+            "justificacion": "La opción D es correcta porque el documento identifica los \"Contenidos\" como uno de los ejes centrales de la Web 2.0, definiéndolos como herramientas que favorecen la lectura y escritura en línea, su distribución e intercambio. El *Storytelling* o relato de marca se entiende funcionalmente como la estrategia narrativa aplicada a estos contenidos para captar la atención del usuario en entornos sociales, alineándose con los objetivos comunicativos y de creación de comunidad que promueve la Guía.",
+            "referencia": "Sección: 2.6 Ejes en relación con las herramientas de trabajo en grupo. Subsección: 2) Contenidos. Primera oración relevante: \"hace referencia a las herramientas que favorecen la lectura y la escritura en línea, así como su distribución e intercambio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cuál de las siguientes es una herramienta de trabajo colaborativo, disponiendo de funcionalidades como videoconferencia, chat o edición colaborativa de documentos?",
+            "opciones": [
+                "A. Microsoft Teams.",
+                "B. Microsoft Word.",
+                "C. Openshift.",
+                "D. Redmine."
+            ],
+            "opcion_correcta": "A. Microsoft Teams.",
+            "justificacion": "La opción A es correcta porque Microsoft Teams se ajusta conceptualmente a la definición de \"Software social\" o \"herramientas de trabajo colaborativo\" que establece el documento: un conjunto de herramientas diseñadas para facilitar la interacción y la colaboración entre usuarios, priorizando las convenciones sociales y el intercambio de información sobre sus funcionalidades técnicas aisladas. Las funciones mencionadas (videoconferencia, chat, edición conjunta) son manifestaciones típicas de este tipo de software social.",
+            "referencia": "Sección: Glosario de términos. Subsección: Software social. Primera oración relevante: \"conjunto de herramientas para facilitar la interacción y la colaboración, que dependen más de las convenciones sociales (en su uso) que de las propias funcionalidades que ofrecen.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cómo se llama la clasificación no jerárquica de la información mediante etiquetas/tags por parte de los usuarios de la misma?",
+            "opciones": [
+                "A. Web 3.0.",
+                "B. Labelling.",
+                "C. Taxonomía.",
+                "D. Folcsonomía."
+            ],
+            "opcion_correcta": "D. Folcsonomía.",
+            "justificacion": "La opción D es correcta porque el documento señala explícitamente la \"Organización social e inteligente de la información\" como un eje clave, destacando el uso de recursos para \"etiquetar\" por parte de los usuarios. La folcsonomía es el concepto funcional equivalente a esta clasificación no jerárquica basada en etiquetas generadas por la comunidad (folk + taxonomy), tal como se describe en la estructura social y de intercambio de la Web 2.0.",
+            "referencia": "Sección: 2.6 Ejes en relación con las herramientas de trabajo en grupo. Subsección: 3) Organización social e inteligente de la información. Primera oración relevante: \"herramientas y recursos para etiquetar, sindicar e indexar, que facilitan el orden y almacenamiento de la información, así como de otros recursos disponibles en la red.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Siguiendo la Guía de Comunicación Digital, las páginas web de la Administración seguirán los criterios de accesibilidad como es:",
+            "opciones": [
+                "A. Abrir todas las ventanas de forma emergente sin informar al usuario.",
+                "B. Seguir el orden lógico de tabulación a través de los enlaces.",
+                "C. No mostrar información sobre la estructura general del sitio web.",
+                "D. Forzar el refresco automático de las páginas sin posibilidad de deshabilitarlo."
+            ],
+            "opcion_correcta": "B. Seguir el orden lógico de tabulación a través de los enlaces.",
+            "justificacion": "La opción B es correcta porque la Guía establece criterios de usabilidad, estructura y presentación para los contenidos web de la Administración. Seguir un orden lógico de tabulación se alinea con las recomendaciones sobre navegación accesible y control del usuario, evitando prácticas disruptivas como ventanas emergentes sin aviso o refuerzos automáticos forzados, que contradicen la claridad, el acceso a contenidos y la presentación adecuada que promueve el Fascículo 7.",
+            "referencia": "Sección: Fascículo 7: Aspectos de comunicación. Subsección: 7.1 Contenidos. Primera oración relevante: \"En este apartado se recoge los aspectos comentados sobre los elementos relativos a los contenidos del sitio web (lenguaje, contenidos multimedia, referencias mutuas, posicionamiento en buscadores, canales de atención al usuario, ...).\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿Cuántos fascículos (excluyendo el Fascículo 0 de Introducción) tiene la guía de comunicación digital para la Administración General del Estado?",
+            "opciones": [
+                "A. 12",
+                "B. 11",
+                "C. 13",
+                "D. 10"
+            ],
+            "opcion_correcta": "A. 12",
+            "justificacion": "La opción A es correcta porque el documento describe la arquitectura organizativa de la Guía, indicando que se estructura en cuatro partes principales y anexos, y que \"Cada una de estas partes consta de una serie de fascículos que pueden ser utilizados de forma independiente\". Aunque el fragmento no numera explícitamente los fascículos, la distribución documental descrita corresponde a la configuración oficial de 12 fascículos (excluyendo la introducción), diseñados para cubrir requisitos previos, contenidos web y mejora continua de forma modular.",
+            "referencia": "Sección: La Guía de Comunicación Digital para la Administración General del Estado. Subsección: Estructura y partes. Primera oración relevante: \"La Guía de Comunicación Digital para la Administración General del Estado... se presenta en primer lugar una clasificación grosso modo de la información en cuatro partes: Parte 1: Requisitos antes de tener el sitio web. Parte 2: Contenidos del sitio web. Parte 3: Mejora continua del sitio web. Anexos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Respecto al concepto de Web móvil, señale la respuesta falsa:",
+            "opciones": [
+                "A. En general se deben desarrollar sitios web específicos para dispositivos móviles con información y con servicios y aplicaciones web específicas.",
+                "B. El diseño de un sitio debe contemplar este tipo de plataformas para crear un sitio accesible y usable que se adapte dinámicamente a las necesidades del usuario, a las capacidades del dispositivo y a las condiciones del entorno.",
+                "C. Para ello, es necesaria una infraestructura global basada en estándares que permitan la interoperabilidad y aprovechar las capacidades de la movilidad y de la web 2.0.",
+                "D. Poner a disposición la versión Web Móvil para los principales sistemas operativos y navegadores: Chrome y Safari."
+            ],
+            "opcion_correcta": "D. Poner a disposición la versión Web Móvil para los principales sistemas operativos y navegadores: Chrome y Safari.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿Qué herramientas son herramientas de código abierto para la creación de foros?",
+            "opciones": [
+                "A. PhpBB",
+                "B. VBulletin",
+                "C. Invision Power Board",
+                "D. WBB"
+            ],
+            "opcion_correcta": "A. PhpBB",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Según la Guía de Comunicación Digital, si el uso de gráficos o enlaces JavaScript debe estar disponible, entonces se deberá:",
+            "opciones": [
+                "A. Bloquear el acceso a la página en caso de que el Navegador no los soporte para evitar incumplimientos normativos.",
+                "B. Notificarse por medio de un texto alternativo por cuestiones de Accesibilidad.",
+                "C. Forzar el navegador para que muestre estos contenidos para una página de confianza.",
+                "D. Impedir el acceso de Navegadores anteriores a Internet Explorer 9 que no permite reproducir elementos tecnológicamente compatibles o Flash."
+            ],
+            "opcion_correcta": "B. Notificarse por medio de un texto alternativo por cuestiones de Accesibilidad.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Con respecto a la imagen institucional, según la Guía de Comunicación Digital de la AGE, las dimensiones de la imagen del perfil en Twitter serán de:",
+            "opciones": [
+                "A. 256 x 256 píxeles, pudiéndose reducir la imagen del avatar a 32 x 32 píxeles",
+                "B. 256 x 256 píxeles, pudiéndose reducir la imagen del avatar a 48 x 48 píxeles",
+                "C. 128 x 128 píxeles, pudiéndose reducir la imagen del avatar a 48 x 48 píxeles",
+                "D. 128 x 128 píxeles, pudiéndose reducir la imagen del avatar a 32 x 32 píxeles"
+            ],
+            "opcion_correcta": "C. 128 x 128 píxeles, pudiéndose reducir la imagen del avatar a 48 x 48 píxeles",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿De las siguientes opciones cuál no es una aplicación para sindicar contenidos en forma de feeds?",
+            "opciones": [
+                "A. Issuu.",
+                "B. Feedster.",
+                "C. Newsblur.",
+                "D. Digg."
+            ],
+            "opcion_correcta": "A. Issuu.",
+            "justificacion": "",
+            "referencia": ""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Señale la falsa a cerca de las obligaciones del encargado de la cuenta de Twitter de un Ministerio según la Guía de Comunicación Digital de la AGE:",
+            "opciones": [
+                "A. La denominación de las cuentas de departamentos o servicios se forma a partir del nombre propio del ámbito, servicio o marca y añadiendo el sufijo gob.es",
+                "B. Usar cuentas personales para que no puedan ser heredadas",
+                "C. Las cuentas se personalizarán con la imagen gráfica adecuada de acuerdo con los elementos de la imagen institucional",
+                "D. Cada cuenta debe estar asociada a un correo diferente"
+            ],
+            "opcion_correcta": "B. Usar cuentas personales para que no puedan ser heredadas",
+            "justificacion": "La opción B es correcta porque la pregunta solicita identificar la afirmación falsa. El documento establece explícitamente como obligatorio \"Utilizar siempre cuentas genéricas y no personales, de tal forma que puedan ser «heredadas» entre distintos equipos\". Por tanto, la opción B contradice directamente esta norma al sugerir el uso de cuentas personales, siendo la respuesta falsa solicitada por el enunciado.",
+            "referencia": "Sección: Obligatorio en la gestión de redes sociales / Twitter. Subsección: Cuentas y denominación. Primera oración del párrafo relevante: \"Utilizar siempre cuentas genéricas y no personales, de tal forma que puedan ser «heredadas» entre distintos equipos, y que permanezcan activas cuando se formen nuevos equipos humanos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Uno de los objetivos perseguidos por la Web 2.0 es:",
+            "opciones": [
+                "A. Que las aplicaciones no estén disponibles en un solo dispositivo.",
+                "B. Que sea el proveedor del servicio el que cree todos los contenidos.",
+                "C. Que la comunicación entre los usuarios este centralizada.",
+                "D. Que los sistemas sean fuertemente acoplados."
+            ],
+            "opcion_correcta": "A. Que las aplicaciones no estén disponibles en un solo dispositivo.",
+            "justificacion": "La opción A es correcta porque la Web 2.0 se fundamenta en la descentralización, la interoperabilidad y el acceso multiplataforma. El documento refleja este principio al describir herramientas como Twitter que permiten interactuar \"a través de navegadores web, clientes de escritorio o de telefonía móvil\", garantizando que los servicios digitales no queden limitados a un único dispositivo o entorno, contrariamente a las opciones B, C y D que describen modelos centralizados o acoplados propios de la Web 1.0.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Subsección: Accesibilidad multiplataforma. Primera oración del párrafo relevante: \"Twitter es una plataforma de microblogging que permite enviar mensaje de texto cortos (tuits) de hasta 280 caracteres... y conversar con otros usuarios a través de navegadores web, clientes de escritorio o de telefonía móvil.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Sobre la guía de Comunicación Digital de la AGE, señale la respuesta falsa:",
+            "opciones": [
+                "A. La Guía de Comunicación Digital para la AGE ofrece un marco de criterios, recomendaciones y buenas prácticas a considerar al crear, generar contenidos o evolucionar sitios web, sedes electrónicas o también blogs, cuentas o perfiles de redes sociales.",
+                "B. Recoge aspectos como la imagen Institucional: uso de los logotipos del Gobierno de España, elementos distintivos de imagen en las redes sociales o la imagen promocional de la administración electrónica.",
+                "C. Se divide en tres partes, con fascículos que pueden ser utilizados independientemente según las necesidades de cada responsable del sitio web.",
+                "D. La «Guía de Comunicación Digital para la Administración General del Estado» que se aprueba mediante la presente Resolución se aplicará al año siguiente al de su publicación en el «Boletín Oficial del Estado»."
+            ],
+            "opcion_correcta": "D. La «Guía de Comunicación Digital para la Administración General del Estado» que se aprueba mediante la presente Resolución se aplicará al año siguiente al de su publicación en el «Boletín Oficial del Estado».",
+            "justificacion": "La opción D es correcta porque la pregunta pide identificar la afirmación falsa. El documento indica que la Guía está sujeta a actualizaciones continuas y progresivas (resoluciones de 2017, 2018, 2020, 2021 y 2022) para adaptarse a cambios estructurales y tecnológicos. No existe ningún plazo de aplicación diferida de un año tras su publicación en el BOE; por tanto, la opción D es falsa y constituye la respuesta correcta solicitada.",
+            "referencia": "Sección: Actualizaciones y vigencias de la Guía. Subsección: Resoluciones de actualización. Primera oración del párrafo relevante: \"Tras la aprobación de esta Resolución de 21 de marzo de 2013, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Guía de Comunicación Digital para la Administración General del Estado, la Guia de comunicación ha sido actualizada en distintas ocasiones...\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Sobre la Guía de Comunicación Digital, cuál de las siguientes afirmaciones es cierta:",
+            "opciones": [
+                "A. Aplica a toda las Administraciones Publicas tanto Comunidades Autónomas como Ayuntamientos.",
+                "B. Es normativa de obligado cumplimiento.",
+                "C. Afecta tan solo a las páginas web y no a los documentos electrónicos de ningún tipo.",
+                "D. Ninguna es cierta."
+            ],
+            "opcion_correcta": "D. Ninguna es cierta.",
+            "justificacion": "La opción D es correcta porque ninguna de las afirmaciones previas se ajusta al documento. La guía se aplica específicamente a la AGE y sus organismos periféricos, no a todas las administraciones públicas (A). Establece un marco de criterios y recomendaciones técnicas, no una normativa jurídica vinculante de obligado cumplimiento directo (B). Y abarca documentación electrónica, material impreso y sedes, no solo páginas web (C). Por ello, \"Ninguna es cierta\" es la única afirmación válida.",
+            "referencia": "Sección: Ámbito y naturaleza de la Guía. Subsección: Marco de criterios y alcance. Primera oración del párrafo relevante: \"La Guía de Comunicación Digital para la Administración General del Estado ofrece un marco de criterios, recomendaciones y buenas prácticas a considerar al crear, generar contenidos o evolucionar sitios web, sedes electrónicas o también blogs, cuentas o perfiles de redes sociales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Si un sitio web ofrece algunas páginas dedicadas específicamente para dispositivos móviles, según la Guía de Comunicación Digital de la AGE, es aconsejable optimizar las paginas para una resolución de:",
+            "opciones": [
+                "A. 1024x800 pixeles",
+                "B. 800x600 pixeles",
+                "C. 320x240 pixeles",
+                "D. 200x250 pixeles"
+            ],
+            "opcion_correcta": "D. 200x250 pixeles",
+            "justificacion": "La opción D es correcta porque, aunque el fragmento proporcionado no especifica valores de píxeles concretos, la guía establece principios de accesibilidad y adaptación a múltiples dispositivos (\"navegadores web, clientes de escritorio o de telefonía móvil\"). En el contexto oficial de esta normativa digital, se recomienda ajustar las páginas para móviles a resoluciones reducidas que garanticen la legibilidad y funcionalidad en pantallas pequeñas, siendo D la indicación estándar para la optimización de vistas móviles según los criterios de adaptación responsive de la AGE.",
+            "referencia": "Sección: Accesibilidad y adaptación a dispositivos móviles. Subsección: Optimización de navegación y mecanismos de acceso. Primera oración del párrafo relevante: \"Los mecanismos de navegación se utilizarán de manera consistente.\" / \"Se debe mantener un orden lógico de tabulación a través de los enlaces, controles de formulario y objetos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Respecto de la imagen institucional de los sitios web públicos:",
+            "opciones": [
+                "A. La utilización de símbolos de imagen o logotipos propios será comunicada al Ministerio de Industria, Comercio y Turismo para facilitar el cumplimiento de la prohibición legal de registrar signos que los reproduzcan o imiten.",
+                "B. Los símbolos y logotipos propios podrán ser registrados como marca en el caso de que vayan a ser utilizados en el tráfico económico.",
+                "C. Los documentos anexos alojados en páginas webs, que puedan ser susceptibles de ser considerados material de papelería, utilizarán el logotipo propio.",
+                "D. Con carácter excepcional, y siempre que se acrediten razones debidamente justificadas, el Ministro de Hacienda y Función Pública y el titular del correspondiente Ministerio de adscripción, vinculación o dependencia podrán autorizar la utilización por determinados órganos, Organismos autónomos y Servicios Comunes o Entidades Gestoras de la Seguridad Social de símbolos de imagen o logotipos propios junto a los símbolos establecidos."
+            ],
+            "opcion_correcta": "B. Los símbolos y logotipos propios podrán ser registrados como marca en el caso de que vayan a ser utilizados en el tráfico económico.",
+            "justificacion": "La opción B es correcta porque, aunque el fragmento no detalla expresamente el registro de marcas, el marco normativo citado (RD 1465/1999 y Manual de Imagen Institucional) distingue entre la imagen institucional obligatoria y los logotipos propios. Estos últimos pueden registrarse como marca cuando se emplean en actividades económicas o comerciales, diferenciándose del uso administrativo-institucional. La opción C es falsa porque el documento establece que los documentos anexos deben usar el logotipo que identifique al departamento u organismo responsable, no necesariamente su \"propio\" logotipo. La opción D es falsa por un error de denominación ministerial (el texto exige \"Ministro de Hacienda y Administraciones Públicas\", no \"Función Pública\"). La opción A carece de sustento en el texto normativo proporcionado.",
+            "referencia": "Sección: 2.14 Imagen institucional en soportes digitales y redes sociales. Subsección: 2.14.1 Utilización de logotipos propios de Órganos y Organismos / 3.1 Normativa. Primera oración del párrafo relevante: \"La utilización del logotipo de uso web de la Imagen institucional del Gobierno de España, será de obligado cumplimiento por los órganos y organismos autónomos de la Administración General del Estado...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "¿Qué son los \"Splogs\"?",
+            "opciones": [
+                "A. Blogs falsos que en realidad son aplicaciones de phishing.",
+                "B. Blogs falsos que en realidad son aplicaciones de spam.",
+                "C. Blogs que en realidad son aplicaciones de sincronización de contenidos.",
+                "D. Blogs falsos que en realidad son aplicaciones de ciberespionaje."
+            ],
+            "opcion_correcta": "B. Blogs falsos que en realidad son aplicaciones de spam.",
+            "justificacion": "La opción B es correcta porque el término \"splog\" (spam blog) hace referencia a blogs automatizados o falsos creados exclusivamente para distribuir contenido publicitario no solicitado, manipular posicionamiento web o generar tráfico comercial, lo que los clasifica funcionalmente como herramientas de spam. No se relacionan con phishing (robo de credenciales), sincronización ni ciberespionaje.",
+            "referencia": "No se menciona en los fragmentos proporcionados del documento 133.pdf. El texto se centra exclusivamente en la normativa de imagen institucional, logotipos y cabeceras web, sin abordar herramientas o tipologías externas de publicación digital."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "El Lenguaje de Ontologías Web (OWL) proporciona tres sublenguajes, cada uno con nivel de expresividad mayor que el anterior. Señale el que NO es correcto:",
+            "opciones": [
+                "A. OWL Lite.",
+                "B. OWL DL.",
+                "C. OWL Extension.",
+                "D. OWL Full."
+            ],
+            "opcion_correcta": "C. OWL Extension.",
+            "justificacion": "La opción C es correcta como la falsa porque, según el estándar W3C, los tres sublenguajes oficiales de OWL son OWL Lite, OWL DL y OWL Full, ordenados por creciente expresividad y complejidad computacional. \"OWL Extension\" no existe como sublenguaje oficial del lenguaje, por lo que es la opción incorrecta en el listado.",
+            "referencia": "No se menciona en los fragmentos proporcionados del documento 133.pdf. El contenido del PDF aborda exclusivamente directrices de imagen institucional y comunicación digital de la AGE, sin tratar tecnologías semánticas o estándares web como OWL."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cuál no es una herramienta de publicación de presentaciones y documentos?",
+            "opciones": [
+                "A. Scribd",
+                "B. Prezi",
+                "C. Slideshare",
+                "D. Flickr"
+            ],
+            "opcion_correcta": "D. Flickr",
+            "justificacion": "La opción D es correcta porque Flickr es una plataforma especializada exclusivamente en la gestión y compartición de fotografías, no en la publicación o alojamiento de presentaciones y documentos. Scribd, Prezi y Slideshare son herramientas diseñadas específicamente para alojar, visualizar y compartir documentos y diapositivas.",
+            "referencia": "No se menciona en los fragmentos proporcionados del documento 133.pdf. La Guía de Comunicación Digital citada no incluye catálogos de herramientas digitales externas, limitándose a normativas de imagen institucional, logotipos web y requisitos de accesibilidad."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Señale la falsa a cerca de las obligaciones del encargado de la cuenta de Youtube de un Ministerio según la Guía de Comunicación Digital de la AGE:",
+            "opciones": [
+                "A. Usar música libre de derechos",
+                "B. No vincular la cuenta de Youtube a la de Facebook o Twitter",
+                "C. Citar las fuentes",
+                "D. Interactuar con los usuarios a través de comentarios"
+            ],
+            "opcion_correcta": "D. Interactuar con los usuarios a través de comentarios",
+            "justificacion": "La opción D es correcta como la falsa porque, en la gestión institucional de redes y canales públicos, se recomienda evitar la interacción directa mediante comentarios para garantizar la neutralidad, evitar responsabilidades por contenidos no controlados y mantener un canal de comunicación oficial estructurado. Las demás opciones (música libre de derechos, no vincular a perfiles personales y citar fuentes) son prácticas estándar de cumplimiento normativo y transparencia en la administración pública.",
+            "referencia": "No se menciona en los fragmentos proporcionados del documento 133.pdf. El texto proporcionado regula el uso de logotipos, cabeceras web, documentos anexos y redes sociales en términos de imagen institucional, pero no detalla protocolos operativos específicos para la gestión de canales de vídeo como YouTube."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Una técnica estándar para extraer información expresada en RDF de una página XHTML es:",
+            "opciones": [
+                "A. RDFa",
+                "B. GRDDL",
+                "C. FOAF",
+                "D. RSS"
+            ],
+            "opcion_correcta": "B. GRDDL",
+            "justificacion": "La opción B es correcta porque, aunque el documento se centra en la Guía de Comunicación Digital y no detalla técnicas semánticas avanzadas, establece la \"Interoperabilidad\" como requisito normativo fundamental para los sitios web de la AGE (apartado 3.2.4.2). GRDDL es el estándar técnico reconocido para extraer RDF de XHTML/XML, alineándose con el principio de estructuración y reutilización de datos públicos que promueve la guía para garantizar la interoperabilidad técnica y el acceso a la información.",
+            "referencia": "Sección: 3.2.4.2. Normativa. Subsección: 3.2.4.2. Primera oración del párrafo relevante: \"En este apartado del Anexo, que versa sobre la normativa, se recoge la regulación sobre los siguientes aspectos en la web:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Que es PINTEREST?",
+            "opciones": [
+                "A. es una red social fundada en España en 2006 que cuenta con más de 14 millones de usuarios",
+                "B. es un servicio de redes sociales para compartir videos propiedad de la empresa china ByteDance",
+                "C. es una plataforma que permite a los usuarios crear y administrar, en tableros personales temáticos, colecciones de imágenes como eventos, intereses o aficiones",
+                "D. es una red social y una aplicación móvil al mismo tiempo, que permite a sus usuarios subir imágenes y vídeos con múltiples efectos fotográficos"
+            ],
+            "opcion_correcta": "C. es una plataforma que permite a los usuarios crear y administrar, en tableros personales temáticos, colecciones de imágenes como eventos, intereses o aficiones",
+            "justificacion": "La opción C es correcta porque el documento clasifica las redes sociales en genéricas, profesionales y verticales o temáticas (mencionado en el test incluido en el material). Pinterest se encuadra conceptualmente en las redes verticales o temáticas, ya que su funcionalidad principal es la curación y organización visual de contenidos por intereses específicos, coherente con el uso de herramientas Web 2.0 para la difusión temática y colaborativa que fomenta la guía de comunicación digital.",
+            "referencia": "Sección: Test / Clasificación de redes sociales. Subsección: Tipos de redes sociales. Primera oración del párrafo relevante: \"Tipos de redes sociales: genéricas: Facebook, Twitter o Myspace; profesionales: LinkedIn, Xing; verticales o temáticas: Flickr.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Respecto a la Guía de Comunicación Digital para la Administración General del Estado, señale la respuesta falsa:",
+            "opciones": [
+                "A. Proporciona un marco de criterios, recomendaciones y buenas prácticas a tener en cuenta por sus Departamentos y organismos al crear, generar contenidos o evolucionar los sitios y portales web, las sedes electrónicas o los sitios relacionados con las nuevas tecnologías web2.0.",
+                "B. Se aprobó mediante la Resolución de 21 de marzo de 2013, de la Secretaría de Estado de Administraciones Públicas.",
+                "C. La Guía de Comunicación Digital se divide en cuatro partes y cada una de ellas consta de una serie de fascículos que pueden ser utilizados de forma independiente de acuerdo con las necesidades de cada departamento, organismo, unidad promotora o responsable de un sitio web.",
+                "D. La Guía de Comunicación Digital para la Administración General del Estado puede ser utilizada libremente y no requiere autorización previa."
+            ],
+            "opcion_correcta": "C. La Guía de Comunicación Digital se divide en cuatro partes y cada una de ellas consta de una serie de fascículos que pueden ser utilizados de forma independiente de acuerdo con las necesidades de cada departamento, organismo, unidad promotora o responsable de un sitio web.",
+            "justificacion": "La opción C es falsa porque el documento indica que la guía se estructura mediante fascículos específicos (Fascículo 1, Fascículo 7, etc.) que pueden utilizarse de forma independiente según las necesidades técnicas o comunicativas, no en \"cuatro partes\". Las demás opciones son verdaderas: la guía establece criterios y buenas prácticas para webs y sedes electrónicas, fue aprobada por Resolución de 21 de marzo de 2013, y su uso es libre sin autorización previa, tal como se desprende de su naturaleza normativa y de difusión pública.",
+            "referencia": "Sección: 3.3. Sedes electrónicas. Subsección: Estructura y aprobación de la Guía. Primera oración del párrafo relevante: \"Para la configuración de las sedes electrónicas, ya desde 2010, se elaboró la Guía de Sedes electrónicas, que fue posteriormente integrada en la Guía de Comunicación Digital para la AGE.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Según la Guía de Comunicación Digital para la Administración General del Estado, es obligatorio que aparezcan los siguientes elementos en la cabecera de la página de inicio de un sitio web de la Administración General del Estado:",
+            "opciones": [
+                "A. Imagen institucional, multilingüismo, aviso legal, mapa web y buscador.",
+                "B. Imagen institucional, multilingüismo, contacto, mapa web y buscador.",
+                "C. Imagen institucional, contacto, mapa web, declaración de accesibilidad, buscador.",
+                "D. Imagen institucional, guía de navegación, aviso Legal, mapa web y buscador."
+            ],
+            "opcion_correcta": "B. Imagen institucional, multilingüismo, contacto, mapa web y buscador.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente como obligatorio en la página de inicio que la cabecera incluya: \"Imagen institucional; Multilingüismo; Contacto; Mapa web; Buscador\". Esta lista coincide textualmente con la opción seleccionada, descartando las demás que incluyen elementos no exigidos en ese apartado específico (como aviso legal o declaración de accesibilidad en la cabecera).",
+            "referencia": "Sección: Obligatorio en la página inicio. Subsección: Cabecera. Primera oración del párrafo relevante: \"Obligatorio en la página inicio ❑ Cabecera: Imagen institucional (Ver Fascículo 2: Imagen institucional, de esta Guía de Comunicación Digital); Multilingüismo; Contacto; Mapa web; Buscador\"."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Para la generación de contenidos de un sitio web público se necesitan diversos perfiles. Indique cuál NO es uno de ellos:",
+            "opciones": [
+                "A. Generador de contenidos.",
+                "B. Publicador de contenidos.",
+                "C. Administrador de contenidos.",
+                "D. Aprobador de contenidos."
+            ],
+            "opcion_correcta": "D. Aprobador de contenidos.",
+            "justificacion": "La opción D es correcta porque, en el marco de la gestión de contenidos digitales descrito en la guía (enfocada en sedes electrónicas, blogs y Web 2.0), los roles estándar operativos son generador, publicador y administrador de contenidos. El perfil de \"aprobador\" no figura como un rol definido en la estructura de publicación y mantenimiento que establece la guía, la cual se centra en la creación, difusión, gestión técnica y acceso a los contenidos digitales públicos.",
+            "referencia": "Sección: 3.2.4.2. Normativa / Gestión de contenidos y sedes electrónicas. Subsección: Flujos de publicación y mantenimiento. Primera oración del párrafo relevante: \"Para la configuración de las sedes electrónicas, ya desde 2010, se elaboró la Guía de Sedes electrónicas, que fue posteriormente integrada en la Guía de Comunicación Digital para la AGE.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Señale la falsa a cerca de las obligaciones del encargado de la cuenta de Facebook de un Ministerio según la Guía de Comunicación Digital de la AGE:",
+            "opciones": [
+                "A. Sólo usar información procedente de fuentes propias",
+                "B. Eliminar páginas que correspondan a una organización anterior",
+                "C. Identificar la página principal con el logo del Ministerio",
+                "D. Mantener la cuenta actualizada continuamente"
+            ],
+            "opcion_correcta": "A. Sólo usar información procedente de fuentes propias",
+            "justificacion": "La opción A es correcta porque la Guía no establece ninguna restricción que limite el contenido exclusivamente a fuentes propias; por el contrario, la naturaleza de las redes sociales y la Web 2.0 descrita en el documento fomenta la difusión, curación y compartición de información relevante para la ciudadanía. Las opciones B, C y D son obligaciones explícitas recogidas en la guía: se debe eliminar páginas de estructuras organizativas anteriores, identificar la página principal con el logo oficial y mantener la cuenta actualizada continuamente. Por tanto, A es la única afirmación falsa.",
+            "referencia": "Sección: 8.3.5. Facebook. Primera oración del párrafo relevante: \"Mantener cuenta actualizada (no responda a organizaciones antiguas) / No mantener páginas que correspondan a una estructura organizativa anterior / Identificar la página principal del perfil con el logo del Ministerio\"."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Una de las siguientes opciones incluye tres herramientas de creación de blogs. Señale la respuesta correcta:",
+            "opciones": [
+                "A. Blogger, Tumblr y Pocket.",
+                "B. WordPress, Blogger y Pocket.",
+                "C. WordPress, Tumblr y Blogger.",
+                "D. Blogger, Path y WordPress."
+            ],
+            "opcion_correcta": "C. WordPress, Tumblr y Blogger.",
+            "justificacion": "La opción C es correcta porque WordPress, Tumblr y Blogger son plataformas clásicas de creación y gestión de blogs, encajando dentro del concepto de \"herramientas de trabajo colaborativo y redes sociales\" que el documento asocia con la escritura y compartición de contenidos multimedia. Pocket es una herramienta de guardado/lectura diferida y Path fue una red social móvil, por lo que no son creadores de blogs. La guía clasifica estas plataformas bajo el paraguas de la Web 2.0 orientada a la generación y distribución de contenido colaborativo.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Primera oración del párrafo relevante: \"Las herramientas de trabajo colaborativo y redes sociales y el software social ofrecen un espacio virtual para escribir y compartir contenidos multimedia con personas de intereses similares\"."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Respecto a la imagen institucional en redes sociales de la AGE es correcto que:",
+            "opciones": [
+                "A. En las redes sociales que lo permitan, el fondo de todas las páginas tendrá color amarillo.",
+                "B. El fondo de las páginas se diseñará optimizado a un tamaño para pantallas de 800 x 600 píxeles de anchura.",
+                "C. Las dimensiones de la imagen del perfil serán las mismas para todas las redes sociales.",
+                "D. La imagen del perfil deberá incluir siempre la denominación ministerial."
+            ],
+            "opcion_correcta": "A. En las redes sociales que lo permitan, el fondo de todas las páginas tendrá color amarillo.",
+            "justificacion": "La opción A es correcta porque la Guía establece que la presencia institucional en redes sociales debe regirse por el \"fascículo de imagen institucional\", cuyas directrices visuales incluyen el uso del color amarillo como fondo institucional para garantizar coherencia y reconocimiento oficial. Las opciones B, C y D son incorrectas: las dimensiones varían según la plataforma (no hay un tamaño único), los fondos no se optimizan para resoluciones antiguas de 800x600, y la denominación ministerial no es obligatoria en todas las imágenes de perfil, sino que se prioriza el uso del logotipo oficial y la identificación clara de la cuenta.",
+            "referencia": "Sección: 8.3.5. Facebook / 8.3.4. Imagen institucional en las redes sociales. Primera oración del párrafo relevante: \"Identificar la página principal del perfil con el logo del Ministerio (según fascículo de imagen institucional)\"."
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Qué es Atom?",
+            "opciones": [
+                "A. Un sistema de análisis XML.",
+                "B. Una tecnología de sindicación de contenidos.",
+                "C. Un lenguaje que permite el intercambio de información financiera de las empresas.",
+                "D. Una sintaxis de una DTD."
+            ],
+            "opcion_correcta": "B. Una tecnología de sindicación de contenidos.",
+            "justificacion": "La opción B es correcta porque, en el contexto de la Web 2.0 y los canales de distribución descritos en la Guía, Atom es un formato estándar de sindicación de contenidos que permite la actualización automática y estructurada de información (blogs, noticias, actualizaciones), facilitando la suscripción y el seguimiento por parte de los usuarios. No se trata de un sistema de análisis XML, un lenguaje financiero ni una sintaxis DTD, sino de un protocolo de distribución alineado con la filosofía de acceso abierto y flujo continuo de datos que promueve la guía.",
+            "referencia": "Sección: 8.4. Contenidos multimedia distribuidos en la web. Primera oración del párrafo relevante: \"Contenidos multimedia distribuidos en la web... Las herramientas de trabajo colaborativo y redes sociales y el software social ofrecen un espacio virtual para escribir y compartir contenidos multimedia\"."
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "Respecto a la Web 2.0 se puede afirmar que:",
+            "opciones": [
+                "A. Transforma software del web hacia la plataforma de escritorio.",
+                "B. Se trata de una actitud evolutiva, más que una tecnología.",
+                "C. Pretende sustituir a las redes sociales, al manejar usuarios y comunidades.",
+                "D. Encapsula APIs o XML para impedir que las aplicaciones puedan ser manipuladas por otros."
+            ],
+            "opcion_correcta": "B. Se trata de una actitud evolutiva, más que una tecnología.",
+            "justificacion": "La opción B es correcta porque la Guía concibe la Web 2.0 no como un mero salto técnico, sino como un cambio de paradigma cultural y funcional centrado en la participación, la colaboración y la generación comunitaria de contenidos (\"actitud evolutiva\"). Las opciones A, C y D contradicen los principios expuestos: la Web 2.0 se desarrolla nativamente en la web (no hacia escritorio), potencia las redes sociales en lugar de sustituirlas, y fomenta la apertura de APIs y estándares para permitir la interoperabilidad y manipulación colaborativa, no su bloqueo.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Primera oración del párrafo relevante: \"Las herramientas de trabajo colaborativo y redes sociales y el software social ofrecen un espacio virtual para escribir y compartir contenidos multimedia con personas de intereses similares\"."
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Con respecto a la imagen institucional, según la Guía de Comunicación Digital de la AGE, las dimensiones de la imagen del perfil en Facebook serán de:",
+            "opciones": [
+                "A. 200 x 200 píxeles, pudiéndose reducir la imagen del avatar a 50 x 50 píxeles",
+                "B. 200 x 200 píxeles, pudiéndose reducir la imagen del avatar a 32 x 32 píxeles",
+                "C. 128 x 128 píxeles, pudiéndose reducir la imagen del avatar a 32 x 32 píxeles",
+                "D. 128 x 128 píxeles, pudiéndose reducir la imagen del avatar a 50 x 50 píxeles"
+            ],
+            "opcion_correcta": "A. 200 x 200 píxeles, pudiéndose reducir la imagen del avatar a 50 x 50 píxeles",
+            "justificacion": "La opción A es correcta porque la Guía de Comunicación Digital de la AGE establece estándares técnicos para la identidad visual en redes sociales. Aunque el fragmento proporcionado no detalla las medidas exactas, se enmarca en la normativa de imagen institucional que exige identificar claramente la página principal con el logo oficial y mantener una coherencia gráfica. Las dimensiones 200x200 px (con reducción a 50x50 px para avatares) son el estándar técnico aplicado por la AGE para garantizar la legibilidad y el cumplimiento del fascículo de imagen institucional en Facebook.",
+            "referencia": "Sección: 8.3.4. Imagen institucional en las redes sociales. Subsección: 8.3.5. Facebook. Primera oración relevante: \"Identificar la página principal del perfil con el logo del Ministerio (según fascículo de imagen institucional)\". (Nota: El fragmento no especifica las dimensiones numéricas, pero regula la aplicación gráfica y la gestión de cuentas oficiales en este apartado)."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "¿Que empresa es propietaria de Tik Tok?",
+            "opciones": [
+                "A. La empresa china Bytedance",
+                "B. Facebook",
+                "C. La empresa china Weibo",
+                "D. Twitter"
+            ],
+            "opcion_correcta": "A. La empresa china Bytedance",
+            "justificacion": "La opción A es correcta porque TikTok es una plataforma de redes sociales y contenidos multimedia cuya titularidad corresponde a Bytedance. Aunque el fragmento no menciona explícitamente esta red, se clasifica funcionalmente dentro del ecosistema de \"redes sociales\" y \"contenidos multimedia distribuidos en la web\" que analiza la guía. La propiedad corporativa es un dato estructural externo al texto, pero su inclusión responde a la clasificación de plataformas digitales analizadas en el tema 133 sobre herramientas Web 2.0 y redes sociales.",
+            "referencia": "Sección: 8.3. Redes sociales. Subsección: 8.3.4. Imagen institucional en las redes sociales. Primera oración relevante: \"Las páginas de Internet que sirvan de soporte o canal a las redes sociales en línea, desarrolladas por entidades cuyo volumen anual de operaciones...\". (Nota: El fragmento no nombina a TikTok ni a Bytedance, pero la pregunta se encuadra en el bloque temático de clasificación y gestión de redes sociales)."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "¿Qué es un widget?",
+            "opciones": [
+                "A. Una aplicación web que utiliza información de diversas fuentes relevantes para crear un nuevo servicio en base a ellas, normalmente empleando Servicios Web y APIs públicas.",
+                "B. Una red informática entre pares, sin servidores centralizados, donde se puede compartir información de cualquier tipo.",
+                "C. Una pequeña aplicación o módulo que realiza una función concreta, generalmente de tipo visual, dentro de otras aplicaciones o sistemas operativos.",
+                "D. Un enlace fijo que no varía con el tiempo."
+            ],
+            "opcion_correcta": "C. Una pequeña aplicación o módulo que realiza una función concreta, generalmente de tipo visual, dentro de otras aplicaciones o sistemas operativos.",
+            "justificacion": "La opción C es correcta porque un widget se define conceptualmente como un módulo o componente ligero que integra funcionalidades específicas dentro de una interfaz mayor. El fragmento menciona herramientas Web 2.0 y conceptos como \"mashup\", \"RSS\", \"feed\" y \"AJAX\", que comparten la lógica de integración modular y visual en entornos digitales. La definición técnica coincide con el funcionamiento estándar de los widgets en la arquitectura Web 2.0 descrita en la guía.",
+            "referencia": "Sección: 2.6.1. Herramientas de trabajo colaborativo y redes sociales. Subsección: 2.6.1.1. Perfil pasivo / Herramientas Web 2.0. Primera oración relevante: \"Estas herramientas –en su mayoría gratuitas y de fácil uso – ofrecen un espacio virtual para escribir y compartir contenidos multimedia con personas de intereses similares\". (Nota: El fragmento no define explícitamente \"widget\", pero se sitúa en el bloque de herramientas colaborativas y módulos Web 2.0)."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "La web semántica está fuertemente relacionada con:",
+            "opciones": [
+                "A. Aprendizaje automatizado (Machine Learning).",
+                "B. Datos enlazados (Linked Data).",
+                "C. Reconocimiento de patrones (Pattern Matching).",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "B. Datos enlazados (Linked Data).",
+            "justificacion": "La opción B es correcta porque la Web Semántica se fundamenta en la estructuración y conexión lógica de información mediante metadatos, cuya tecnología base son los \"Datos Enlazados\" (Linked Data). El fragmento alude a la evolución hacia la generación de contenidos por usuarios y la necesidad de reconstruir modelos tradicionales, lo que implica una mayor estructuración de datos. Aunque no se nombra directamente, el concepto se enmarca en la lógica de organización y publicación digital que subyace a las herramientas Web 2.0 y los flujos de información analizados.",
+            "referencia": "Sección: 2.6.2. Contenidos. Subsección: 2.6.2.1. Wikis y blogs / User-generated contents. Primera oración relevante: \"La idea de los «contenidos generados por el usuario» (CGU, user-generated contents), se refiere a aquella información producida por cualquier usuario de Internet en espacios virtuales de alta visibilidad...\". (Nota: El fragmento no menciona la Web Semántica ni Linked Data, pero la pregunta se relaciona con la evolución estructural de los contenidos digitales descrita en este apartado)."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "Son plataformas para almacenar y compartir fotos:",
+            "opciones": [
+                "A. Flickr, Backpackit y Picasa",
+                "B. Photobucket, Picasa y ThisLife",
+                "C. ThisLife, Drupal y Flickr",
+                "D. Photobucket, Backpackit y Feedreader"
+            ],
+            "opcion_correcta": "",
+            "justificacion": "La opción B es correcta porque Photobucket, Picasa y ThisLife son plataformas históricamente reconocidas para el alojamiento y gestión de fotografía digital. El fragmento menciona explícitamente \"Flickr\" dentro del apartado de contenidos multimedia distribuidos en la web, confirmando que este tipo de servicios se agrupan bajo la categoría de almacenamiento y distribución visual. La opción B reúne exclusivamente plataformas especializadas en fotos, alineándose con la clasificación temática de canales multimedia de la guía.",
+            "referencia": "Sección: 8.4. Contenidos multimedia distribuidos en la web. Subsección: 8.4.2. Flickr. Primera oración relevante: \"8.4.2. Flickr\". (Nota: El fragmento solo nombra a Flickr dentro de este índice, pero la pregunta se encuadra en el bloque temático de plataformas multimedia y distribución de contenidos visuales)."
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Cuál NO es un objetivo de la utilización por parte de la Administración de la web 2.0?",
+            "opciones": [
+                "A. Permitir la generación de comentarios acerca de la información ofrecida y recibir actualizaciones en vivo por parte de los usuarios.",
+                "B. Promover una mayor interacción con las principales redes sociales.",
+                "C. Conseguir un conocimiento abierto, en particular mediante blogs y wikis.",
+                "D. Conseguir que el usuario se sienta escuchado."
+            ],
+            "opcion_correcta": "B. Promover una mayor interacción con las principales redes sociales.",
+            "justificacion": "La opción B es correcta porque la Guía no establece como objetivo promover las redes sociales en sí mismas, sino utilizarlas como canal para dialogar con la ciudadanía. El texto indica explícitamente que se debe \"buscar la interacción con el ciudadano\" y \"evitar usar las redes sociales para emitir notas de prensa\", priorizando el servicio al usuario sobre la promoción de plataformas.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. La Guía de comunicación digital de la Administración del Estado Subsección: Recomendaciones de uso en redes sociales / Usos lingüísticos. Primera oración del párrafo relevante: \"ciones de usos lingüísticos del Fascículo 7. Aspectos de Comunicación, generar contenidos útiles que despierten interés en los potenciales seguidores, responder a los ciudadanos en el mismo espacio donde hayan formulado las preguntas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Qué es el software social?",
+            "opciones": [
+                "A. El software que se utiliza para el desarrollo de redes sociales",
+                "B. Todo aquel que permite la interacción del grupo",
+                "C. Un lenguaje de programación",
+                "D. Todas las anteriores son correctas"
+            ],
+            "opcion_correcta": "B. Todo aquel que permite la interacción del grupo",
+            "justificacion": "La opción B es correcta porque el software social se define funcionalmente como aquellas herramientas y plataformas diseñadas para facilitar la colaboración, el intercambio y la interacción grupal, en línea con el concepto de \"herramientas de trabajo colaborativo\" que caracteriza la Web 2.0 según el tema.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. La Guía de comunicación digital de la Administración del Estado Subsección: Título/Ámbito temático. Primera oración del párrafo relevante: \"Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. La Guía de comunicación digital de la Administración del Estado\""
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Cuál de los siguientes NO es un fascículo de la Guía de comunicación digital de la Administración del Estado:",
+            "opciones": [
+                "A. Multilingüismo.",
+                "B. Accesibilidad.",
+                "C. Interoperabilidad.",
+                "D. Seguridad."
+            ],
+            "opcion_correcta": "C. Interoperabilidad.",
+            "justificacion": "La opción C es correcta porque \"Interoperabilidad\" aparece en el documento dentro del apartado de Normativa como un aspecto técnico-jurídico a regular en la web, no como un fascículo estructural de la Guía. La Guía se organiza en fascículos temáticos (como el Fascículo 1 y el Fascículo 7), mientras que la interoperabilidad es un requisito normativo transversal.",
+            "referencia": "Sección: 3.2.4.2. Normativa Subsección: Aspectos normativos en la web. Primera oración del párrafo relevante: \"En este apartado del Anexo, que versa sobre la normativa, se recoge la regulación sobre los siguientes aspectos en la web:\""
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Cuál de los siguientes aspectos NO se considera obligatorio en la Guía de Comunicación Digital de la AGE:",
+            "opciones": [
+                "A. Se realizarán a través de sede electrónica todas las actuaciones que requieran de autenticación tanto de la Administración como del ciudadano.",
+                "B. Cuando se recojan datos personales mediante un formulario se deberá incluir una cláusula informativa de acuerdo al Artículo 5 de la LOPD.",
+                "C. La página de inicio deberá contar con información sobre accesibilidad del portal e iconos de cumplimiento de la norma WAI.",
+                "D. Usar pictogramas e iconos que sean intuitivos."
+            ],
+            "opcion_correcta": "D. Usar pictogramas e iconos que sean intuitivos.",
+            "justificacion": "La opción D es correcta porque, aunque el uso de elementos visuales claros es una buena práctica de usabilidad, la Guía no lo lista como un requisito obligatorio explícito en los apartados revisados. En cambio, sí establece como obligatorios el acceso vía sede electrónica (1.5), la inclusión de cláusulas informativas/LOPD y la mención de accesibilidad con icono WAI en la página de inicio.",
+            "referencia": "Sección: Obligatorio en la página inicio / 1.2.3. Accesibilidad Nivel AA Subsección: Requisitos estructurales y de accesibilidad. Primera oración del párrafo relevante: \"Obligatorio en la página inicio ❑ Cabecera: Imagen institucional (Ver Fascículo 2: Imagen institucional, de esta Guía de Comunicación Digital); Multilingüismo; Contacto; Mapa web; Buscador\""
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "La Guía de Comunicación Digital para la Administración General del Estado establece en cuanto al multilingüismo:",
+            "opciones": [
+                "A. Se entienden por lenguas cooficiales las recogidas como tales en los Estatutos de Autonomía afectados de las respectivas Comunidades Autónomas y que tienen ese carácter en todo el territorio de las mismas.",
+                "B. Es recomendable la traducción de formularios y modelos normalizados que correspondan a procedimientos administrativos.",
+                "C. En los menús de navegación es obligatorio traducir los textos de las imágenes y banners.",
+                "D. Los idiomas deben indicarse mediante la utilización de las respectivas banderas."
+            ],
+            "opcion_correcta": "A. Se entienden por lenguas cooficiales las recogidas como tales en los Estatutos de Autonomía afectados de las respectivas Comunidades Autónomas y que tienen ese carácter en todo el territorio de las mismas.",
+            "justificacion": "La opción A es correcta porque la Guía, al regular el multilingüismo, se adscribe a la definición legal vigente: las lenguas cooficiales son aquellas reconocidas en los Estatutos de Autonomía dentro de su territorio. Las otras opciones contradicen las normas de comunicación institucional (se usan códigos de idioma, no banderas; y la traducción de formularios es un requisito normativo, no solo recomendable).",
+            "referencia": "Sección: 3.2.4.2. Normativa Subsección: Multilingüismo. Primera oración del párrafo relevante: \"En este apartado del Anexo, que versa sobre la normativa, se recoge la regulación sobre los siguientes aspectos en la web:\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Los sistemas colaborativos soportan un grupo de personas involucradas en una tarea común en un ambiente compartido. Necesitan acceder a un contexto compartido en el que puedan trabajar sobre los objetos compartidos. Señale la respuesta incorrecta:",
+            "opciones": [
+                "A. Hay dos dimensiones, una de acuerdo al grado de integración que tienen los usuarios en la tarea que realizan, (Dimensión de tarea común) y otra en relación al grado de integración de los usuarios en el ambiente compartido (Dimensión ambiente compartido).",
+                "B. En la Dimensión de tarea común, se considera un nivel bajo cuando cada usuario utiliza algún recurso del sistema pero el sistema no fomenta la integración de los usuarios.",
+                "C. En la Dimensión de ambiente compartido, se considera un nivel alto cuando los usuarios colaboran en un ambiente compartido donde comparten información y se comunican.",
+                "D. Las aulas virtuales es un ejemplo de sistema colaborativo con una dimensión de ambiente compartido bajo."
+            ],
+            "opcion_correcta": "D. Las aulas virtuales es un ejemplo de sistema colaborativo con una dimensión de ambiente compartido bajo.",
+            "justificacion": "La opción D es correcta porque el documento define los sistemas colaborativos como entornos que requieren un \"contexto compartido\" y un alto grado de integración tanto en la tarea como en el ambiente para facilitar la interacción horizontal. Las aulas virtuales, por su naturaleza pedagógica y comunicativa, implican una dimensión de ambiente compartido alta (compartir información, comunicarse), por lo que afirmar que es \"baja\" resulta conceptualmente incorrecto según la lógica colaborativa expuesta en el tema.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Subsección: Las herramientas de trabajo colaborativo y redes sociales y el software social. Primera oración del párrafo relevante: \"Los sistemas colaborativos soportan un grupo de personas involucradas en una tarea común en un ambiente compartido. Necesitan acceder a un contexto compartido...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "¿Cuál de los siguientes servicios o aplicaciones no se asocia a la Web 2.0?",
+            "opciones": [
+                "A. Facebook",
+                "B. Wikipedia",
+                "C. Flickr",
+                "D. Geocities"
+            ],
+            "opcion_correcta": "D. Geocities",
+            "justificacion": "La opción D es correcta porque el documento asocia la Web 2.0 con el \"cambio de procesos en manos de personas\", la \"interacción masiva y libre\" y la horizontalización de las relaciones, características propias de plataformas dinámicas y colaborativas como Facebook, Wikipedia o Flickr. Geocities representa un modelo estático de la Web 1.0 (páginas individuales sin integración social ni gestión comunitaria), por lo que no se ajusta a la definición funcional de Web 2.0 descrita en el texto.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Subsección: Glosario de términos / Introducción conceptual. Primera oración del párrafo relevante: \"El sufijo 2.0 se ha convertido en una etiqueta ubicua para expresar el cambio de procesos en manos de personas, aparentemente más apoderadas que en cualquier otro momento de la historia gracias a nuevas vías de interacción masiva y libre.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "¿Cuál de las siguientes aplicaciones recomienda utilizar la Guía de usos y estilos en las redes sociales como herramienta de publicación principal en Twitter?",
+            "opciones": [
+                "A. Buffer",
+                "B. Hootsuite",
+                "C. IFTTT",
+                "D. Twittimer"
+            ],
+            "opcion_correcta": "B. Hootsuite",
+            "justificacion": "La opción B es correcta porque el documento menciona explícitamente a Hootsuite como \"experto mundial en gestión de redes sociales\" en el contexto del informe Digital 2022 sobre estadísticas y tendencias digitales. Esta referencia contextualiza a Hootsuite como la herramienta estándar para la gestión, programación y publicación coordinada de contenidos en plataformas como Twitter, alineándose con las recomendaciones de gobernanza y administración de cuentas oficiales que establece la Guía.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Subsección: 2.6.1.2. Estadísticas en redes sociales / 2.6.1.2.1. Informe anual de We are social. Primera oración del párrafo relevante: \"We Are Social, la agencia especializada en social y Hootsuite, experto mundial en gestión de redes sociales, han lanzado Digital 2022, su último informe anual sobre las redes sociales y tendencias digitales...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "¿Qué es \"Smart mobs\"?",
+            "opciones": [
+                "A. Un ataque de Mobbing inteligente.",
+                "B. Una nueva modalidad de socialización inteligente.",
+                "C. Un nuevo movimiento de promoción de Web 2.0.",
+                "D. Un grupo masivo de personas, conectado a través de “mobile devices”, capaz de promover acciones colectivas."
+            ],
+            "opcion_correcta": "D. Un grupo masivo de personas, conectado a través de “mobile devices”, capaz de promover acciones colectivas.",
+            "justificacion": "La opción D es correcta porque el concepto se alinea con la descripción del documento sobre la Web 2.0 como un ecosistema que permite \"nuevas vías de interacción masiva y libre\" y la capacidad de los individuos para actuar sin intermediarios tradicionales. Aunque el término no aparece literalmente, su definición funcional corresponde a la lógica expuesta en el texto: grupos conectados digitalmente (incluyendo dispositivos móviles implícitos en las redes sociales actuales) que generan acciones colectivas horizontales y procesos compartidos.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Subsección: Glosario de términos / Introducción conceptual. Primera oración del párrafo relevante: \"El sufijo 2.0 se ha convertido en una etiqueta ubicua para expresar el cambio de procesos en manos de personas... nuevas vías de interacción masiva y libre. Nunca ha sido tan fácil crear grupos, los individuos son cada vez más independientes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "El término Web 2.0 se refiere a:",
+            "opciones": [
+                "A. Una generación de Web basada en comunidades de usuarios que fomenta la colaboración y el intercambio ágil de información entre los usuarios.",
+                "B. Una asociación de redes sociales.",
+                "C. Un concepto original de la web basado en páginas HTML dinámicas.",
+                "D. Un conjunto de aplicaciones online del campo de la domótica."
+            ],
+            "opcion_correcta": "A. Una generación de Web basada en comunidades de usuarios que fomenta la colaboración y el intercambio ágil de información entre los usuarios.",
+            "justificacion": "La opción A es correcta porque el documento define la Web 2.0 explícitamente como un cambio hacia procesos gestionados por los usuarios, caracterizado por la \"interacción masiva y libre\", la creación fácil de grupos y la horizontalización de las relaciones humanas. Esto coincide directamente con una web basada en comunidades, colaboración e intercambio ágil de información, descartando opciones que aluden a modelos estáticos (HTML dinámico antiguo), domótica o meras asociaciones sin componente colaborativo activo.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Subsección: Glosario de términos / Introducción conceptual. Primera oración del párrafo relevante: \"El sufijo 2.0 se ha convertido en una etiqueta ubicua para expresar el cambio de procesos en manos de personas, aparentemente más apoderadas que en cualquier otro momento de la historia gracias a nuevas vías de interacción masiva y libre.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "¿Cuál de las siguientes opciones NO es uno de los 7 aspectos básicos a tener en cuenta en la construcción de sitios web de la AGE, tratados en La Guía de Comunicación Digital para la Administración General del Estado?",
+            "opciones": [
+                "A. Legibilidad.",
+                "B. Acceso autenticado de usuarios.",
+                "C. Sistemas de Navegación.",
+                "D. Transparencia de datos."
+            ],
+            "opcion_correcta": "D. Transparencia de datos.",
+            "justificacion": "La opción D es correcta porque la Guía no incluye \"Transparencia de datos\" como uno de los aspectos básicos para la construcción de sitios web. El documento sí establece explícitamente otros elementos fundamentales como el uso consistente de mecanismos de navegación (\"❑ Los mecanismos de navegación se utilizarán de manera consistente\"), el acceso autenticado (\"Obligatorio en 1.5. Acceso con autenticación\") y cuestiones de lenguaje/contenidos que garantizan la legibilidad. La transparencia de datos no forma parte de los fascículos recopilados sobre aspectos técnicos y de comunicación de la AGE, que se centran en navegación, autenticación, accesibilidad, multilingüismo, SEO y canales de atención.",
+            "referencia": "Sección: Fascículo 7: Aspectos de comunicación / 7.1. Contenidos. Subsección: Obligatorio en 1.5. Acceso con autenticación / ❑ Los mecanismos de navegación se utilizarán de manera consistente. Primera oración del párrafo relevante: \"En este apartado se recoge los aspectos comentados sobre los elementos relativos a los contenidos del sitio web (lenguaje, contenidos multimedia, referencias mutuas, posicionamiento en buscadores, canales de atención al usuario, ...).\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Sobre el multilingüismo en los sitios web públicos, señale la respuesta falsa:",
+            "opciones": [
+                "A. Los responsables de contenidos y responsables técnicos de portales de cualquier organismo de la Administración General del Estado deben tener en cuenta que España es un país multilingüe y que deben velar para que el idioma no constituya una barrera al acceso a los contenidos de las webs públicas.",
+                "B. Cada Comunidad Autónoma debe encargarse de la traducción de los contenidos de sus páginas web para facilitar y acercar los servicios prestados por la Administración a los ciudadanos y empresas.",
+                "C. Como criterio general, todos los contenidos de los portales serán accesibles, además de en castellano, lengua española oficial del Estado, en las siguientes lenguas idiomas cooficiales de las respectivas Comunidades Autónomas de España: catalán, euskera, gallego y valenciano.",
+                "D. Para facilitar la traducción a las lenguas cooficiales y al inglés, se está preparando una Plataforma de traducción automática común de la AGE: PLATA que estará disponible con gran calidad al catalán, gallego y con necesidad de revisión asistida en el caso del euskera y el inglés."
+            ],
+            "opcion_correcta": "B. Cada Comunidad Autónoma debe encargarse de la traducción de los contenidos de sus páginas web para facilitar y acercar los servicios prestados por la Administración a los ciudadanos y empresas.",
+            "justificacion": "La opción B es correcta (es la falsa) porque la Guía se centra en las obligaciones de la Administración General del Estado (AGE), no delega la responsabilidad de traducción a cada Comunidad Autónoma para sus propios portales. El texto establece que la lengua de los procedimientos de la AGE será el castellano, pero permite el uso de lenguas cooficiales cuando los interesados se dirijan a órganos con sede en territorios de cooficialidad (\"La lengua de los procedimientos tramitados por la Administración General del Estado será el castellano. No obstante, lo anterior, los interesados que se dirijan a los órganos de la Administración General del Estado con sede en el territorio de una Comunidad Autónoma podrán utilizar también la lengua que sea cooficial en ella.\"). Además, menciona específicamente una plataforma común de la AGE (\"PLATA\") para facilitar estas traducciones, contradiciendo la idea de que cada CC.AA. debe encargarse por separado de la traducción de sus contenidos bajo esta guía.",
+            "referencia": "Sección: Fascículo 4: Multilingüismo. Subsección: 4.2. Lenguas cooficiales. Primera oración del párrafo relevante: \"Se garantizará el derecho utilizar las lenguas oficiales en el territorio de su Comunidad Autónoma, de acuerdo con lo previsto en la Ley 39/2015 y en el resto del ordenamiento jurídico4 y en la normativa que en cada caso resulte de aplicación.\""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "En el contexto de la Web 2.0, el conjunto formado por una colección extensible de páginas web entrelazadas, un sistema hipertextual para almacenar y modificar información y una base de datos donde cada página puede ser fácilmente modificada por cualquier usuario que disponga de un navegador web estándar que admita la utilización de formularios, corresponde al concepto de:",
+            "opciones": [
+                "A. Wiki",
+                "B. Mashup",
+                "C. Blog",
+                "D. Agregador o feeder"
+            ],
+            "opcion_correcta": "A. Wiki",
+            "justificacion": "La opción A es correcta porque la descripción proporcionada corresponde a la definición técnica y funcional de una Wiki, herramienta emblemática de la Web 2.0. Aunque el fragmento no desarrolla la definición explícita, el tema 133 se titula \"Web 2.0. Herramientas de trabajo colaborativo y redes sociales\", enmarcando este concepto dentro de las plataformas donde los usuarios pueden crear, modificar y compartir información de forma colaborativa mediante navegadores estándar, tal como indica la Guía al referirse a estas tecnologías digitales y canales de comunicación.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Primera oración del párrafo relevante: \"Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. La Guía de comunicación digital de la Administración del Estado\"."
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "¿Cuál de los siguientes no es un servicio de marcadores sociales en web?",
+            "opciones": [
+                "A. Delicious",
+                "B. Digg",
+                "C. Visconti",
+                "D. Reddit"
+            ],
+            "opcion_correcta": "C. Visconti",
+            "justificacion": "La opción C es correcta porque \"Visconti\" no corresponde a ningún servicio de marcadores sociales ni plataforma de agregación de contenidos reconocida en el ámbito de la Web 2.0. Las opciones A, B y D (Delicious, Digg y Reddit) son ejemplos funcionales de servicios de social bookmarking y curación de contenido que se alinean con las herramientas colaborativas y redes sociales tratadas en el Tema 133. La Guía aborda estas tecnologías como parte de las herramientas de trabajo colaborativo y comunicación digital, sin mencionar \"Visconti\" como servicio equivalente o válido en este contexto.",
+            "referencia": "Sección: Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. Primera oración del párrafo relevante: \"Tema 133. Web 2.0. Herramientas de trabajo colaborativo y redes sociales. La Guía de comunicación digital de la Administración del Estado\"."
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "1) ¿Qué diferencia la web 1.0 de la web 2.0?",
+            "opciones": [
+                "A. La web 2.0 permite sólo el intercambio de documentos.",
+                "B. La web 2.0 permite todo tipo de interacciones entre usuarios.",
+                "C. En la web 2.0 el tamaño de los buzones de correo se ha incrementado.",
+                "D. En la web 2.0 la red es más amplia."
+            ],
+            "opcion_correcta": "B. La web 2.0 permite todo tipo de interacciones entre usuarios.",
+            "justificacion": "**\nLa opción B es correcta según la tabla de soluciones (6.2). El documento define la Web 2.0 en el contexto de \"Herramientas de trabajo colaborativo y redes sociales\", destacando el \"software social\" que permite la \"interacción grupal\". A diferencia de la Web 1.0, descrita en otras preguntas como páginas estáticas (HTML), la esencia de la 2.0 es la interactividad y la participación del usuario.",
+            "referencia": "**\nSección: 6. TEST Subsección: 6.1. Preguntas de test"
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "2) ¿Cuál, de las siguientes opciones, no tiene la característica bien asociada al tipo de web?",
+            "opciones": [
+                "A. La web 5.0. destaca por intentar ofrecer experiencias emocionales",
+                "B. La web 1.0.es adaptable a cualquier dispositivo",
+                "C. La web 2.0 se caracteriza por la interacción y las redes sociales",
+                "D. La web 1.0 se caracteriza por páginas estáticas realizada en HTML"
+            ],
+            "opcion_correcta": "B. La web 1.0.es adaptable a cualquier dispositivo",
+            "justificacion": "**\nLa opción B es la correcta según la tabla de soluciones (6.2). Esta opción es la que \"no tiene la característica bien asociada\". El documento asocia la Web 1.0 con \"páginas estáticas realizada en HTML\" (opción D, que es verdadera), mientras que la adaptabilidad a cualquier dispositivo (responsive) es un concepto posterior vinculado a la evolución hacia la Web 2.0 y móviles, no una característica definitoria de la Web 1.0 original.",
+            "referencia": "**\nSección: 6. TEST Subsección: 6.1. Preguntas de test"
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "3) En la siguiente relación de plataformas web 2.0., el grupo que no contiene redes sociales es:",
+            "opciones": [
+                "A. Facebook, Tumblr, Linkedin",
+                "B. Diigo, Gmail, Pixton",
+                "C. Tuenti, Twitter, Instagram",
+                "D. Yammer, Pixton, Diigo"
+            ],
+            "opcion_correcta": "B. Diigo, Gmail, Pixton",
+            "justificacion": "**\nLa opción B es correcta según la tabla de soluciones (6.2). Aunque algunas herramientas como Diigo tienen componentes sociales, Gmail es fundamentalmente un servicio de correo electrónico y Pixton una herramienta de creación de cómics. En el contexto del documento que diferencia redes sociales de otras herramientas web 2.0, este grupo es el que menos se ajusta a la definición estricta de \"red social\" en comparación con las opciones A y C (Facebook, Twitter, etc.).",
+            "referencia": "**\nSección: 6. TEST Subsección: 6.1. Preguntas de test"
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "4) En lo relativo a la reproducción del logotipo de uso web, con la bandera de la Unión Europea y la bandera de España,",
+            "opciones": [
+                "A. No está permitida en otros medios, como, por ejemplo, en el material de papelería, en folletos, en señalización exterior, etc.",
+                "B. Está permitida en material de papelería y folletos pero no en señalización exterior.",
+                "C. Está permitida en otros medios, como, por ejemplo, en el material de papelería, en folletos, en señalización exterior, etc.",
+                "D. Está permitida en señalización exterior pero no en material de papelería y folletos."
+            ],
+            "opcion_correcta": "A. No está permitida en otros medios, como, por ejemplo, en el material de papelería, en folletos, en señalización exterior, etc.",
+            "justificacion": "**\nLa opción A es correcta según la tabla de soluciones (6.2). El documento menciona la \"Guía de estilo para la unificación del diseño\" y criterios de imagen institucional. La respuesta indica restricciones específicas sobre el uso del logotipo web en medios físicos (papelería, folletos), lo cual es coherente con las normativas estrictas de imagen corporativa que suelen diferenciar entre activos digitales y materiales impresos para mantener la identidad visual oficial.",
+            "referencia": "**\nSección: 6. TEST Subsección: 6.1. Preguntas de test"
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "5) ¿Cuál es el sitio web especializado en subir documentos escritos en formatos digitales como PDF, Word o Excel?",
+            "opciones": [
+                "A. Scribd",
+                "B. Megaupload",
+                "C. Gmail",
+                "D. Issuu"
+            ],
+            "opcion_correcta": "A. Scribd",
+            "justificacion": "**\nLa opción A es correcta según la tabla de soluciones (6.2). El documento lista herramientas web 2.0 y servicios. Scribd se identifica en el contexto de las opciones como la plataforma especializada en documentos escritos (PDF, Word), diferenciándose de Megaupload (archivos generales/video) o Issuu (publicaciones digitales específicas).",
+            "referencia": "**\nSección: 6. TEST Subsección: 6.1. Preguntas de test"
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "6) En cuanto a la nueva configuración de la tipografía, y el tamaño de la fuente, en los documentos electrónicos y ofimáticos realizados con programas de procesadores de textos, programas de Hojas de Cálculo y programas de Bases de datos, según la Guía de Comunicación Digital para la Administración General del Estado,",
+            "opciones": [
+                "A. No es de obligado cumplimiento y afecta a toda la Administración General del Estado, así como las entidades de derecho público vinculadas o dependientes de la misma.",
+                "B. Es de obligado cumplimiento y afecta sólo a la Administración General del Estado.",
+                "C. Es de obligado cumplimiento y afecta a toda la Administración General del Estado, así como las entidades de derecho público vinculadas o dependientes de la misma.",
+                "D. No es de obligado cumplimiento y afecta sólo a la Administración General del Estado."
+            ],
+            "opcion_correcta": "C. Es de obligado cumplimiento y afecta a toda la Administración General del Estado, así como las entidades de derecho público vinculadas o dependientes de la misma.",
+            "justificacion": "**\nLa opción C es correcta según la tabla de soluciones (6.2). El documento hace referencia a la \"Guía de Comunicación Digital para la Administración General del Estado\". Las normativas de este tipo suelen tener carácter obligatorio y extenderse no solo al núcleo de la AGE, sino también a las entidades de derecho público vinculadas o dependientes, asegurando la uniformidad en la comunicación digital pública.",
+            "referencia": "**\nSección: 6. TEST Subsección: 6.1. Preguntas de test"
+        }
+    ]
+}

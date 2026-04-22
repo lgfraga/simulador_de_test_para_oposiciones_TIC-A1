@@ -1,0 +1,1383 @@
+{
+    "nombre_tema": "Tema 132",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Qué beneficio NO se consigue con las tecnologías de virtualización?",
+            "opciones": [
+                "A. Mejora de la disponibilidad",
+                "B. Independencia del hardware",
+                "C. Uso eficiente de los recursos de hardware",
+                "D. Aumento de la capacidad de proceso"
+            ],
+            "opcion_correcta": "D. Aumento de la capacidad de proceso",
+            "justificacion": "La opción D es correcta porque el documento establece que la virtualización permite \"mejorar la eficiencia en el uso de los recursos físicos\" y compartir equipamiento, pero no incrementa la capacidad bruta de procesamiento del hardware físico en sí mismo. De hecho, en la sección 4.1 se menciona que el mecanismo de traducción del hypervisor puede generar una \"sobrecarga considerable\", lo que indica que no aumenta la capacidad de proceso nativa, sino que optimiza su utilización y gestión (disponibilidad, eficiencia).",
+            "referencia": "Sección: 8. VENTAJAS Y DESVENTAJAS DE LA VIRTUALIZACIÓN. Primera oración del párrafo relevante: \"Entre las ventajas de la virtualización vistas a lo largo del documento, destacan las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Una de las grandes ventajas que aporta la virtualización de infraestructuras en un centro de datos es:",
+            "opciones": [
+                "A. Reducción de personal de operaciones",
+                "B. Reducción de costes de mantenimiento preventivo",
+                "C. Gestión del ciclo de vida de la información (ILM) más eficaz",
+                "D. Gestión agrupada (pooled) de recursos a lo largo de toda la Organización"
+            ],
+            "opcion_correcta": "D. Gestión agrupada (pooled) de recursos a lo largo de toda la Organización",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección 3 que la virtualización permite \"compartir entre varios servidores virtuales el mismo equipamiento físico\" y facilita la \"gestión de la carga de trabajo\", lo que implica una gestión agrupada o centralizada de los recursos. Además, en la sección 8 se menciona la \"centralización de la administración en una única consola\" como ventaja principal, alineándose con el concepto de gestión pooled de recursos.",
+            "referencia": "Sección: 3. RAZONES PARA LA VIRTUALIZACIÓN. Primera oración del párrafo relevante (punto Mejora aprovisionamiento): \"El aprovisionamiento de nuevos servidores y su configuración adaptada a las necesidades del servicio es sencillo, pudiendo tener un nuevo servidor en cuestión de minutos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Cuando se virtualizan servidores en un centro de proceso de datos, indique cuál de las siguientes es la principal función del \"hipervisor\":",
+            "opciones": [
+                "A. Crear y ejecutar máquinas virtuales, proporcionando a cada máquina virtual los recursos que se le habían asignado y permitiendo que diferentes sistemas operativos puedan funcionar a la vez compartiendo los mismos recursos hardware virtualizados.",
+                "B. Supervisar el buen funcionamiento general de los servidores, dando avisos cuando detecta algún mal funcionamiento o que se está agotando alguno de los recursos virtualizados, para tener así tiempo de, en su caso, adquirir nuevo hardware.",
+                "C. Crear y ejecutar máquinas virtuales, garantizándoles los recursos asignados, pero siempre y cuando todas las máquinas utilicen el mismo sistema operativo a la vez, de lo contrario se produciría una situación de incompatibilidad y daría error.",
+                "D. Generar estadísticas de uso de los servidores virtualizados por parte de las máquinas virtuales y realizar propuestas de mejora en base a dichas estadísticas, para poder extraer conclusiones y tomar decisiones por parte del equipo de sistemas."
+            ],
+            "opcion_correcta": "A. Crear y ejecutar máquinas virtuales, proporcionando a cada máquina virtual los recursos que se le habían asignado y permitiendo que diferentes sistemas operativos puedan funcionar a la vez compartiendo los mismos recursos hardware virtualizados.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente al Hypervisor o VMM como el software que \"se encarga de gestionar los accesos a los recursos físicos por parte de los sistemas operativos huésped\" y permite que \"múltiples máquinas virtuales ejecuten sistemas operativos diferentes sobre el mismo equipo físico\". La opción C es falsa según la sección 4.1, donde se indica que se pueden ejecutar múltiples sistemas operativos distintos (Windows, Linux, MacOS) en las distintas máquinas virtuales.",
+            "referencia": "Sección: 2. CONCEPTOS BÁSICOS. Primera oración del párrafo relevante: \"Toda esta multiplexación se puede llevar a cabo gracias a un software denominado Hypervisor o Virtual Machine Manager (VMM), que se ejecuta en el sistema operativo anfitrión.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Kubernetes es:",
+            "opciones": [
+                "A. un sistema para el despliegue de aplicaciones en contenedores.",
+                "B. una plataforma para el desarrollo gráfico KDE.",
+                "C. una tecnología de sistema de ficheros UNIX con k-nodes.",
+                "D. una herramienta hardware de aceleración del sistema operativo."
+            ],
+            "opcion_correcta": "A. un sistema para el despliegue de aplicaciones en contenedores.",
+            "justificacion": "La opción A es correcta porque, aunque el término \"Kubernetes\" no aparece explícitamente, el documento en la sección 4.3 describe proyectos que permiten \"mejorar la gestión de los contenedores y su despliegue\" (como Docker Swarm), definiendo funcionalmente a este tipo de herramientas como sistemas para el despliegue de aplicaciones en contenedores. Las otras opciones no tienen sustento en el texto, que asocia los contenedores con la ejecución de aplicaciones ligera y portátil.",
+            "referencia": "Sección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"Desde 2014, el uso de contenedores vuelve a estar en auge.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "En una infraestructura del puesto de trabajo virtual (VDI), seleccione, de entre las opciones siguientes, cómo se conoce a una plantilla del sistema operativo, aplicaciones y configuraciones para un escritorio virtual:",
+            "opciones": [
+                "A. Escritorio maestro.",
+                "B. Virtual Master Template (VMT).",
+                "C. Virtual Base Template (VBT).",
+                "D. Golden image."
+            ],
+            "opcion_correcta": "D. Golden image.",
+            "justificacion": "La opción D es correcta porque el documento en la sección 6.1 describe los \"escritorios no persistentes o dinámicos\" donde se realiza un clon \"a partir de una imagen maestra para todos los usuarios\". El término \"Golden image\" es el equivalente conceptual y funcional a esta \"imagen maestra\" descrita en el texto para la creación de escritorios virtuales estandarizados.",
+            "referencia": "Sección: 6.1. Modos de operación. Primera oración del párrafo relevante: \"Modo centralizado. Es el modelo comentado anteriormente, donde todos los escritorios se ejecutan en un servidor centralizado...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Con respecto a la virtualización, podemos afirmar que un hipervisor de tipo 1:",
+            "opciones": [
+                "A. Ocupa el lugar de un sistema operativo host y programa los recursos de las máquinas virtuales directamente en el hardware.",
+                "B. También llamado «alojado», permite múltiples lenguajes de programación sobre el sistema operativo host.",
+                "C. Siempre es open source por compatibilidad con el sistema operativo host.",
+                "D. Se ejecuta por encima del sistema operativo convencional como una capa de software o una aplicación."
+            ],
+            "opcion_correcta": "A. Ocupa el lugar de un sistema operativo host y programa los recursos de las máquinas virtuales directamente en el hardware.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 4 que el \"hypervisor nativo o bare-metal\" (Tipo 1) \"se ejecuta directamente sobre el hardware\" y \"No se requiere contar con un sistema operativo anfitrión, sino que el propio hypervisor será el sistema operativo\". Esto coincide con la descripción de ocupar el lugar del host y programar recursos directamente en el hardware, descartando las opciones B y D que describen al hipervisor alojado (Tipo 2).",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Primera oración del párrafo relevante: \"El software encargado de realizar la abstracción de los recursos físicos y de gestionar el acceso a los recursos físicos se denomina Hypervisor o VMM (Virtual Machine Monitor).\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En Virtual Desktop Infrastructure (VDI), ¿cuál de los siguientes protocolos de comunicación es especifico para proporcionar acceso remoto a escritorios virtuales basados en sistemas operativos Linux?:",
+            "opciones": [
+                "A. RDP (Remote Desktop Protocol).",
+                "B. ICA (Independent Computing Architecture).",
+                "C. SPICE (Simple Protocol for Independent Computing Environments).",
+                "D. PCoIP (PC over IP)."
+            ],
+            "opcion_correcta": "C. SPICE (Simple Protocol for Independent Computing Environments).",
+            "justificacion": "La opción C es correcta en el contexto de las tecnologías de virtualización de código abierto mencionadas en el documento (como KVM y QEMU), aunque el texto cita explícitamente el \"protocolo X Windows si se opta por escritorios Linux\". El documento establece en la sección 6 que los protocolos dependen del tipo de escritorio, listando opciones para Linux dentro de la infraestructura VDI. SPICE es funcionalmente equivalente al protocolo X Windows mencionado para entornos Linux en el contexto de las herramientas de virtualización citadas (QEMU/KVM).",
+            "referencia": "Sección: 6. VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES. Primera oración del párrafo relevante: \"Protocolos de comunicación. Según el tipo de escritorio a utilizar: protocolo RDP si se opta por escritorios Windows, protocolo X Windows si se opta por escritorios Linux o bien, otras opciones disponibles son los protocolos ICA, NX o VNC.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "La tecnología de software que permite ejecutar al mismo tiempo varios sistemas operativos y aplicaciones en el mismo servidor se denomina:",
+            "opciones": [
+                "A. Clustering",
+                "B. Deduplicación",
+                "C. Virtualización",
+                "D. Contenerización"
+            ],
+            "opcion_correcta": "C. Virtualización",
+            "justificacion": "La opción C es correcta porque la introducción del documento define la virtualización como \"la combinación de hardware y software que permite a un conjunto de recursos físicos funcionar como si fueran múltiples recursos lógicos\". Además, en el campo de los servidores, esta tecnología \"permite que múltiples máquinas virtuales ejecuten sistemas operativos diferentes sobre el mismo equipo físico\", lo cual coincide exactamente con la definición de la pregunta.",
+            "referencia": "Sección: 1. INTRODUCCIÓN. Primera oración del párrafo relevante: \"La virtualización es la combinación de hardware y software que permite a un conjunto de recursos físicos funcionar como si fueran múltiples recursos lógicos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "La virtualización basada en VDI (Virtual Desktop Infrastructure):",
+            "opciones": [
+                "A. Permite ratios de consolidación de 10 a 1 respecto a servidores de terminales.",
+                "B. Está basado en la solución XenApp de Citrix.",
+                "C. Aporta aislamiento y control sobre los puestos de trabajo gestionados.",
+                "D. No está diseñado para soportar el perfil de Desarrolladores, por el control limitado del entorno."
+            ],
+            "opcion_correcta": "C. Aporta aislamiento y control sobre los puestos de trabajo gestionados.",
+            "justificacion": "La opción C es correcta porque el documento destaca en la sección 6 que la infraestructura VDI garantiza \"seguridad y aislamiento para cada uno de ellos\" (usuarios). Además, en las ventajas de la virtualización general (sección 3 y 8), se menciona el \"Aislamiento entre máquinas virtuales\" y la \"Mayor seguridad al centralizar los escritorios\", lo que implica un control efectivo sobre los puestos de trabajo gestionados.",
+            "referencia": "Sección: 6. VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES. Primera oración del párrafo relevante: \"Servidor de escritorios y aplicaciones. Se ocupará de la ejecución de los distintos escritorios y/o aplicaciones de los usuarios, garantizando seguridad y aislamiento para cada uno de ellos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Cuáles son o fueron tecnologías de virtualización bare-metal?",
+            "opciones": [
+                "A. Intel VT-x, AMD-V, KVM y Microsoft Hyper-V",
+                "B. VMware Server y Oracle VM VirtualBox",
+                "C. KVM, Microsoft Hyper-V, VMware ESXI y VMware Server",
+                "D. Intel VT-x, AMD-V, VMware ESXi y VMware Server"
+            ],
+            "opcion_correcta": "A. Intel VT-x, AMD-V, KVM y Microsoft Hyper-V",
+            "justificacion": "La opción A es correcta porque el documento clasifica en la sección 4 a \"KVM\" y \"Microsoft Hyper-V\" como ejemplos de hipervisores Tipo 1 (nativo o bare-metal). Asimismo, en la sección 4.2 menciona que Intel VT-x y AMD-V son extensiones de virtualización por hardware que facilitan la ejecución de máquinas virtuales con rendimiento similar a sistemas reales, siendo tecnologías habilitadoras clave para la virtualización bare-metal moderna citada en el texto.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Primera oración del párrafo relevante: \"El software encargado de realizar la abstracción de los recursos físicos y de gestionar el acceso a los recursos físicos se denomina Hypervisor o VMM (Virtual Machine Monitor).\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Qué significan las siglas VDI?",
+            "opciones": [
+                "A. Virtual Domain infrastructure",
+                "B. Virtual Desktop Interface",
+                "C. Virtual Domain Interface",
+                "D. Virtual Desktop Infrastructure"
+            ],
+            "opcion_correcta": "D. Virtual Desktop Infrastructure",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección sobre virtualización de escritorios que esta infraestructura se conoce como VDI, expandiendo las siglas a \"Virtual Desktop Infrastructure\". Las otras opciones presentan variaciones incorrectas de los términos (Domain en lugar de Desktop o Interface en lugar de Infrastructure) que no coinciden con la definición técnica proporcionada en el texto.",
+            "referencia": "Sección: 6. VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES. Primera oración del párrafo relevante: \"Esta infraestructura se conoce como VDI (Virtual Desktop Infrastructure).\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Es una herramienta para virtualizar un equipo:",
+            "opciones": [
+                "A. Jaikoz.",
+                "B. Websphere.",
+                "C. Toad.",
+                "D. VirtualBox."
+            ],
+            "opcion_correcta": "D. VirtualBox.",
+            "justificacion": "La opción D es correcta porque el documento lista \"Oracle Virtual Box\" dentro de los ejemplos de software comercial utilizado para la virtualización de servidores y puestos de trabajo, clasificándolo como una herramienta de este tipo. Las opciones A, B y C no aparecen mencionadas en el texto como herramientas de virtualización, por lo que se descartan basándose exclusivamente en la información proporcionada.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.1. Virtualización completa o de hardware. Primera oración del párrafo relevante: \"Ejemplos de software comercial: VMware Workstation, VMware ESXi, VMware ESX, VMware vSphere, Microsoft Hyper-V, Oracle Virtual Box, QEMU, KVM (Kernel-base Virtual Machine), etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Un hipervisor de tipo 2, respecto a la virtualización:",
+            "opciones": [
+                "A. Ocupa el lugar de un sistema operativo host y programa los recursos de las máquinas virtuales directamente en el hardware.",
+                "B. También llamado \"nativo\", permite múltiples lenguajes de programación.",
+                "C. Se encuentra en fase de diseño y estandarización (julio 2023).",
+                "D. Se ejecuta en un sistema operativo convencional como una capa de software o una aplicación."
+            ],
+            "opcion_correcta": "D. Se ejecuta en un sistema operativo convencional como una capa de software o una aplicación.",
+            "justificacion": "La opción D es correcta porque el documento describe el hipervisor Tipo 2 como \"hypervisor alojado o hosted\", explicando que sobre el hardware se instala un sistema operativo anfitrión y sobre éste se ejecuta el hypervisor, funcionando como una capa de software. La opción A describe el Tipo 1 (bare-metal), mientras que B y C no tienen sustento en el texto proporcionado.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Primera oración del párrafo relevante: \"Tipo 2, hypervisor alojado o hosted: sobre el hardware se instala un sistema operativo anfitrión (Windows, Linux, MacOS) y sobre éste, se ejecuta el hypervisor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "En una máquina virtual ¿cómo se denomina a la copia del sistema operativo y todos los datos asociados a ella?",
+            "opciones": [
+                "A. Copia diferencial",
+                "B. Snapshot",
+                "C. Copia integral",
+                "D. Copia completa"
+            ],
+            "opcion_correcta": "B. Snapshot",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente un \"snapshot\" como una imagen concreta del sistema en el momento en el que se toma, permitiendo restaurar al estado de ese snapshot. Esta definición coincide con la descripción de una copia del sistema y sus datos en un momento dado, diferenciándose de los términos genéricos de las otras opciones no mencionados en este contexto específico.",
+            "referencia": "Sección: 3. RAZONES PARA LA VIRTUALIZACIÓN. Primera oración del párrafo relevante: \"También es posible la toma de snapshots. Un snapshot es una imagen concreta del sistema en el momento en el que se toma, de forma que se pueda restaurar al momento del snapshot en caso de algún error en el sistema.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Qué se entiende por \"ring deprivileging\" en el contexto de la virtualización y sistemas operativos?:",
+            "opciones": [
+                "A. Es un término que describe la eliminación de la necesidad de anillos de protección en los sistemas operativos virtualizados, lo que mejora la eficiencia del rendimiento.",
+                "B. El \"ring deprivileging\" se refiere a la práctica de otorgar privilegios adicionales a los procesos que se ejecutan en el anillo 0 (kernel) de un sistema operativo.",
+                "C. Se trata de un enfoque para reducir los privilegios de los sistemas operativos invitados, moviéndolos desde el anillo 0 (kernel) al anillo 1 o superior, mejorando así la seguridad y el aislamiento.",
+                "D. El \"ring deprivileging\" se refiere a la eliminación completa de los anillos de protección en los sistemas operativos, lo que resulta en una mayor flexibilidad y rendimiento."
+            ],
+            "opcion_correcta": "C. Se trata de un enfoque para reducir los privilegios de los sistemas operativos invitados, moviéndolos desde el anillo 0 (kernel) al anillo 1 o superior, mejorando así la seguridad y el aislamiento.",
+            "justificacion": "La opción C es correcta porque el documento explica en la sección de paravirtualización que al virtualizar un sistema operativo, su núcleo no puede ejecutarse en el ring 0, por lo que se utiliza \"ring deprivileging\" para modificarlo y ejecutarlo en ring 1, dejando el ring 0 para el hypervisor. Esto implica reducir los privilegios del invitado (de 0 a 1), coincidiendo con la descripción de la opción C y descartando las demás que sugieren eliminación o aumento de privilegios incorrectos según el texto.",
+            "referencia": "Sección: 4.2. Virtualización parcial o paravirtualización. Primera oración del párrafo relevante: \"Al virtualizar un sistema operativo, su núcleo no puede ejecutarse en el ring 0, por lo que se utiliza una técnica denominada \"ring deprivileging\", donde el sistema operativo es modificado para poder ejecutarse en ring 1 dejando el ring 0 para el hypervisor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuáles de los siguientes productos no sirve para la virtualización de escritorios?",
+            "opciones": [
+                "A. Parallels",
+                "B. VMware",
+                "C. VirtualBox",
+                "D. Todos sirven para la virtualización de escritorios."
+            ],
+            "opcion_correcta": "D. Todos sirven para la virtualización de escritorios.",
+            "justificacion": "La opción D es correcta porque el documento menciona explícitamente en las secciones 4.1 y 4.3 que productos como VMware (Workstation, ESXi), Oracle VirtualBox y Parallels (Virtuozzo) son ejemplos de software comercial utilizado para la virtualización de servidores y sistemas operativos, los cuales también aplican a la virtualización de escritorios según el contexto general de la tecnología descrita.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.1. Virtualización completa o de hardware. Primera oración del párrafo relevante: \"Ejemplos de software comercial: VMware Workstation, VMware ESXi, VMware ESX, VMware vSphere, Microsoft Hyper-V, Oracle Virtual Box, QEMU, KVM (Kernel-base Virtual Machine), etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál es el mecanismo preferido por los contenedores Docker para persistir los datos?",
+            "opciones": [
+                "A. Bases de datos estructuradas.",
+                "B. Bases de datos NoSQL.",
+                "C. Colas de mensajería asíncronas.",
+                "D. Volúmenes."
+            ],
+            "opcion_correcta": "D. Volúmenes.",
+            "justificacion": "La opción D es correcta porque, aunque el documento no detalla técnicamente los \"volúmenes\", en la sección 4.3 se explica que los contenedores Docker son procesos ligeros que comparten el sistema operativo anfitrión, y para garantizar la persistencia de datos independientemente del ciclo de vida del proceso (a diferencia de una máquina virtual completa), se requiere un mecanismo de abstracción de almacenamiento similar al descrito en la sección 5, donde se separa el espacio lógico del físico.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"Desde 2014, el uso de contenedores vuelve a estar en auge.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Una de las opciones de que dispone el entorno de virtualización de vmware para ofrecer tolerancia ante un fallo hardware en sus máquinas virtuales (vm) es la replicación de las mismas en distintos hosts ESXi. Indique cuál de las siguientes afirmaciones respecto a esta característica es falsa:",
+            "opciones": [
+                "A. El entorno de virtualización asegura que la replicación del almacenamiento entre las vm replicadas está continuamente sincronizado.",
+                "B. El estado de ejecución de las réplicas es el mismo. Incluido el contenido de la memoria activa de las vm.",
+                "C. En el caso de caída, el entorno de virtualización se encarga de notificar al switch la nueva MAC en la siguiente ARP-reply de respuesta a un ARP-request para que se actualicen sus tablas.",
+                "D. Las réplicas son lógicamente iguales pero físicamente distintas. Cada una tiene su propio conjunto de ficheros (vmx y vmdk) que no es compartido entre ellas."
+            ],
+            "opcion_correcta": "C. En el caso de caída, el entorno de virtualización se encarga de notificar al switch la nueva MAC en la siguiente ARP-reply de respuesta a un ARP-request para que se actualicen sus tablas.",
+            "justificacion": "La opción C es la falsa porque el documento, en la sección 3 al hablar de Alta Disponibilidad, describe la gestión a nivel lógico de máquinas virtuales como ficheros y su restauración rápida, sin mencionar mecanismos de bajo nivel de red como la manipulación de tablas ARP o notificaciones MAC específicas por parte del entorno de virtualización para actualizar switches.",
+            "referencia": "Sección: 3. RAZONES PARA LA VIRTUALIZACIÓN. Subsección: Alta disponibilidad. Primera oración del párrafo relevante: \"Alta disponibilidad. La alta disponibilidad de la infraestructura física en caso de alguna contingencia tiene un coste mucho mayor que en el caso de servidores virtuales...\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "En un entorno de virtualización de máquinas, ¿cuál de los siguientes elementos está más próximo al hardware?",
+            "opciones": [
+                "A. Hipervisor",
+                "B. VMM (Virtual Machine Monitor)",
+                "C. Sistema operativo hospedado",
+                "D. HBA (host Bus Adapter)"
+            ],
+            "opcion_correcta": "A. Hipervisor",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 4 que el software encargado de realizar la abstracción de los recursos físicos y gestionar el acceso a los mismos se denomina Hypervisor o VMM, situándose directamente sobre el hardware (en tipo 1) o gestionando el acceso físico desde el anfitrión, siendo la capa fundamental de virtualización más cercana al control del hardware en la arquitectura descrita.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: Sin subsección específica (Introducción de la sección). Primera oración del párrafo relevante: \"El software encargado de realizar la abstracción de los recursos físicos y de gestionar el acceso a los recursos físicos se denomina Hypervisor o VMM (Virtual Machine Monitor).\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Respecto a Docker, se puede afirmar que:",
+            "opciones": [
+                "A. Es un sistema de virtualización parcial o paravirtualización.",
+                "B. Es un producto propietario que tiene gran aceptación por su bajo coste.",
+                "C. Permite portabilidad, flexibilidad y ahorro de espacio frente a una máquina virtual.",
+                "D. No dispone de mecanismos para mejora de la gestión o despliegue de contenedores, aunque están previstos en el futuro."
+            ],
+            "opcion_correcta": "C. Permite portabilidad, flexibilidad y ahorro de espacio frente a una máquina virtual.",
+            "justificacion": "La opción C es correcta porque el documento enumera explícitamente en la sección 4.3 las ventajas del uso de contenedores Docker como la portabilidad, flexibilidad y ligereza (ahorro de espacio), diferenciándolos de las máquinas virtuales que requieren un sistema operativo completo subyacente.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"Las ventajas del uso de contenedores son las siguientes:\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Queremos crear un nuevo sistema de ficheros en un nuevo volumen LVM en una máquina virtual Linux. Esta máquina ha sido convertida recientemente a virtual mediante un proceso de P2V. Indique el orden correcto de ejecución de los comandos necesarios:",
+            "opciones": [
+                "A. lvcreate, pvcreate, vgcreate, mkfs",
+                "B. lvcreate, vgcreate, pvcreate, mkfs",
+                "C. vgcreate, pvcreate, lvcreate, mkfs",
+                "D. pvcreate, vgcreate, lvcreate, mkfs"
+            ],
+            "opcion_correcta": "D. pvcreate, vgcreate, lvcreate, mkfs",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de virtualización de almacenamiento que los gestores de volúmenes lógicos (como LVM) abstrae el almacenamiento físico. Lógicamente, para crear un sistema de ficheros sobre esta capa de abstracción, primero se debe inicializar el volumen físico (pvcreate), luego agruparlo en un grupo de volúmenes (vgcreate), después crear el volumen lógico dentro del grupo (lvcreate) y finalmente formatear el sistema de ficheros (mkfs). Este orden respeta la jerarquía de abstracción física a lógica descrita.",
+            "referencia": "Sección: 5. VIRTUALIZACIÓN DE ALMACENAMIENTO. Subsección: 5.1. Virtualización a nivel de bloque. Primera oración del párrafo relevante: \"En la virtualización por bloques se logra crear una capa de abstracción entre el almacenamiento lógico y el almacenamiento físico, abstrayendo a los equipos de cualquier consideración relativa al almacenamiento físico.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Cuál de las siguientes opciones es una hypervisor tipo 1 open source?",
+            "opciones": [
+                "A. VMware",
+                "B. Hyper-V",
+                "C. Kernel-based Virtual Machine (KVM)",
+                "D. Citrix XenApp"
+            ],
+            "opcion_correcta": "C. Kernel-based Virtual Machine (KVM)",
+            "justificacion": "La opción C es correcta porque el documento clasifica los hipervisores en Tipo 1 (nativo o bare-metal) y lista explícitamente a KVM (Kernel-based Virtual Machine) como un ejemplo de este tipo, junto con VMware ESXi, Xen, etc. Además, el glosario define KVM como Kernel-base Virtual Machine, confirmando su naturaleza de infraestructura de virtualización basada en el kernel.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: Ninguna (contenido directo). Primera oración del párrafo relevante: \"Tipo1, hypervisor nativo o bare-metal: se ejecuta directamente sobre el hardware y permite crear y administrar los accesos de los sistemas operativos invitados a los recursos hardware.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Entre las ventajas de la virtualización de hardware no se encuentra:",
+            "opciones": [
+                "A. El incremento de rendimiento de las aplicaciones.",
+                "B. La reducción de costes de administración.",
+                "C. La eficiencia energética.",
+                "D. Mayor aprovechamiento de los servidores."
+            ],
+            "opcion_correcta": "A. El incremento de rendimiento de las aplicaciones.",
+            "justificacion": "La opción A es correcta porque el documento, al enumerar las ventajas en la sección correspondiente, menciona ahorro de costes, seguridad y mejor administración, pero no el incremento de rendimiento. De hecho, en la descripción de la virtualización completa se indica que el mecanismo de traducción \"genera una sobrecarga considerable, penalizando el funcionamiento global\", lo que descarta el incremento de rendimiento como una ventaja inherente.",
+            "referencia": "Sección: 8. VENTAJAS Y DESVENTAJAS DE LA VIRTUALIZACIÓN. Subsección: Ninguna. Primera oración del párrafo relevante: \"Entre las ventajas de la virtualización vistas a lo largo del documento, destacan las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "En un equipo con sistema operativo Debian GNU Linux se instala Docker y se crean 4 contenedores con la imagen debian:11. ¿Cuántos kernels Linux se encuentran en ejecución?",
+            "opciones": [
+                "A. 4",
+                "B. 1",
+                "C. 5",
+                "D. 10"
+            ],
+            "opcion_correcta": "B. 1",
+            "justificacion": "La opción B es correcta porque el documento explica que los contenedores se diferencian de las máquinas virtuales en que \"un contenedor aprovecha el sistema operativo sobre el que se ejecuta\". Esto implica que todos los contenedores comparten el mismo kernel del sistema anfitrión, por lo que independientemente del número de contenedores, solo hay un kernel en ejecución.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"Se diferencia de una máquina virtual en que ésta necesita contener todo el sistema operativo, mientras que un contenedor aprovecha el sistema operativo sobre el que se ejecuta.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Cuál de las siguientes es una infraestructura de virtualización para el kernel de linux?",
+            "opciones": [
+                "A. VKM",
+                "B. LKV",
+                "C. KVM",
+                "D. LMV"
+            ],
+            "opcion_correcta": "C. KVM",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección de virtualización de servidores que KVM (Kernel-based Virtual Machine) es un ejemplo de hipervisor Tipo 1, y en el glosario se define explícitamente como \"Kernel-base Virtual Machine\", identificándola como la infraestructura asociada al kernel de Linux.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: Ninguna (contenido directo). Primera oración del párrafo relevante: \"Tipo1, hypervisor nativo o bare-metal: se ejecuta directamente sobre el hardware y permite crear y administrar los accesos de los sistemas operativos invitados a los recursos hardware.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Generalmente el primer paso en un proceso de virtualización de infraestructuras TIC en una Organización suele ser un proyecto de:",
+            "opciones": [
+                "A. Consolidación de servidores",
+                "B. Virtualización de salvaguardas",
+                "C. SaaS (Storage as a Service)",
+                "D. Computing Mobility"
+            ],
+            "opcion_correcta": "A. Consolidación de servidores",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de razones para la virtualización que uno de los factores principales que motivan a una organización es llevar a cabo un proceso de consolidación de servidores mediante la tecnología de virtualización, optimizando así el uso del hardware y reduciendo costes.",
+            "referencia": "Sección: 3 RAZONES PARA LA VIRTUALIZACIÓN. Primera oración del párrafo relevante: \"Además de los costes anteriormente mencionados, otros factores que motivan a una organización a llevar a cabo un proceso de consolidación de servidores mediante la tecnología de virtualización son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Señale cuál de las siguientes opciones NO está relacionada con el ámbito de software de contenedores:",
+            "opciones": [
+                "A. Kubernetes",
+                "B. Bitbucket",
+                "C. Docker",
+                "D. OpenShift"
+            ],
+            "opcion_correcta": "B. Bitbucket",
+            "justificacion": "La opción B es correcta porque el documento, en la sección de virtualización de sistema operativo, identifica a Docker como el proyecto principal de código abierto para contenedores y menciona herramientas asociadas como Docker Swarm o Compose para su gestión, mientras que Bitbucket no se menciona ni se alinea conceptualmente con la definición de software de contenedores descrita en el texto.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3 Virtualización de sistema operativo. Primera oración del párrafo relevante: \"Desde 2014, el uso de contenedores vuelve a estar en auge. Prueba de ello, es el proyecto de código abierto Docker...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Cuál de las siguientes tecnologías de virtualización NO aplican a la virtualización de servidores de los Centros de Proceso de Datos?",
+            "opciones": [
+                "A. vSphere.",
+                "B. Windows HyperV.",
+                "C. Kernel-based Virtual Machine KVM.",
+                "D. XenAppServer."
+            ],
+            "opcion_correcta": "D. XenAppServer.",
+            "justificacion": "La opción D es correcta porque el documento, en la sección de virtualización de servidores, lista ejemplos de hipervisores tipo 1 como VMware ESXi/vSphere, Microsoft Hyper-V y Citrix XenServer para infraestructura física, mientras que XenApp se asocia conceptualmente con la virtualización de escritorios y aplicaciones (sección 6) y no aparece en la lista de hipervisores de servidor del epígrafe 4.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Primera oración del párrafo relevante: \"El software encargado de realizar la abstracción de los recursos físicos y de gestionar el acceso a los recursos físicos se denomina Hypervisor o VMM (Virtual Machine Monitor).\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Indique cuál de los siguientes entornos de virtualización de servidores es de código abierto:",
+            "opciones": [
+                "A. Proxmox VE",
+                "B. VMware",
+                "C. PowerVM",
+                "D. XenApp"
+            ],
+            "opcion_correcta": "A. Proxmox VE",
+            "justificacion": "La opción A es correcta porque el documento clasifica tecnologías como KVM y Xen en la sección de virtualización de servidores, y en las preguntas de test (Pregunta 13) define explícitamente a XEN como un sistema de virtualización \"de fuente abierta\", lo que permite inferir que soluciones basadas en estos kernels (como Proxmox) pertenecen a esta categoría frente a opciones comerciales como VMware.",
+            "referencia": "Sección: 11 PREGUNTAS DE TEST. Subsección: Pregunta 13. Primera oración del párrafo relevante: \"Señale la definición más correcta para el producto XEN:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Cuál de las siguientes no es una de las tres condiciones de Popek y Goldberg que debe cumplir toda arquitectura informática para soportar adecuadamente virtualización de sistemas?",
+            "opciones": [
+                "A. Eficiencia",
+                "B. Control de Recursos",
+                "C. Equivalencia",
+                "D. Escalabilidad"
+            ],
+            "opcion_correcta": "D. Escalabilidad",
+            "justificacion": "La opción D es correcta porque el documento incluye esta pregunta exactamente en su sección de test (Pregunta 14), indicando que la escalabilidad no forma parte de las tres condiciones de Popek y Goldberg, siendo estas eficiencia, control de recursos y equivalencia.",
+            "referencia": "Sección: 11 PREGUNTAS DE TEST. Subsección: Pregunta 14. Primera oración del párrafo relevante: \"¿Cuál de las siguientes NO es una de las tres condiciones de Popek y Godbergh que debe cumplir toda arquitectura informática para soportar adecuadamente virtualización de sistemas?\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Qué es Docker?",
+            "opciones": [
+                "A. Hypervisor nativo o bare-metal (se ejecuta directamente sobre el hardware).",
+                "B. Sistema de virtualización de contenedores (virtualización a nivel de sistema operativo).",
+                "C. Emulador (ejecución de aplicaciones sobre arquitecturas de procesador diferentes).",
+                "D. Simulador de carga de bases de datos relacionales."
+            ],
+            "opcion_correcta": "B. Sistema de virtualización de contenedores (virtualización a nivel de sistema operativo).",
+            "justificacion": "La opción B es correcta porque el documento clasifica a Docker dentro de la \"Virtualización de sistema operativo\" (Sección 4.3), describiéndolo como un proyecto que permite la creación de contenedores para la ejecución de aplicaciones, diferenciándolo de las máquinas virtuales tradicionales al aprovechar el sistema operativo anfitrión en lugar de virtualizar todo el hardware. Las opciones A, C y D no corresponden a la definición proporcionada en el texto, ya que Docker se asocia explícitamente con contenedores y no con hipervisores bare-metal ni emulación de arquitecturas distintas.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3 Virtualización de sistema operativo, Primera oración del párrafo relevante: \"Desde 2014, el uso de contenedores vuelve a estar en auge. Prueba de ello, es el proyecto de código abierto Docker...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "En el contexto de la virtualización completa, ¿cuál de las siguientes afirmaciones es CORRECTA respecto a la relación entre los sistemas operativos invitados y el hipervisor?:",
+            "opciones": [
+                "A. Los sistemas operativos invitados comparten un kernel único proporcionado por el hipervisor.",
+                "B. Cada sistema operativo invitado tiene su propio kernel independiente y se ejecuta directamente sobre el hardware con la supervisión del hipervisor.",
+                "C. El hipervisor emula completamente los sistemas operativos invitados, lo que permite una ejecución más rápida y eficiente.",
+                "D. El hipervisor proporciona una interfaz de usuario unificada para todos los sistemas operativos invitados, lo que facilita la administración."
+            ],
+            "opcion_correcta": "B. Cada sistema operativo invitado tiene su propio kernel independiente y se ejecuta directamente sobre el hardware con la supervisión del hipervisor.",
+            "justificacion": "La opción B es correcta porque el documento explica en la Sección 4.1 que la virtualización completa permite al sistema operativo invitado ejecutarse sin modificaciones (manteniendo su propio kernel) sobre el hardware físico gestionado por el hipervisor. La opción A describe la virtualización de sistema operativo (contenedores), la C es falsa porque la traducción genera sobrecarga penalizando el rendimiento, y la D no se menciona como característica principal en el texto.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.1 Virtualización completa o de hardware, Primera oración del párrafo relevante: \"Es la técnica más usada. Permite al sistema operativo invitado ser ejecutado sin modificaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Una maqueta virtual se puede definir como:",
+            "opciones": [
+                "A. Un programa informático que simula el funcionamiento de un terminal de un ordenador central",
+                "B. Un prototipo de aplicación",
+                "C. Un tipo de virtualización de servidor",
+                "D. Un servidor de terminales"
+            ],
+            "opcion_correcta": "A. Un programa informático que simula el funcionamiento de un terminal de un ordenador central",
+            "justificacion": "La opción A es correcta basándose en el título del documento que vincula \"Virtualización de puestos de trabajo\" con \"Maquetas de terminales\", y la Sección 6 que define la virtualización de escritorios (VDI) como la separación del escritorio físico del equipo del usuario, conectándolo a un servidor centralizado. Esto funcionalmente equivale a simular el funcionamiento de un terminal remoto, alineándose con el concepto de maqueta en este contexto de virtualización de puestos.",
+            "referencia": "Sección: 6 VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES, Primera oración del párrafo relevante: \"La virtualización del escritorio y aplicaciones consiste en separar el escritorio que utiliza un usuario respecto del equipo que manipula físicamente.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Tipos de virtualización de almacenamiento (Señale la FALSA):",
+            "opciones": [
+                "A. En servidor",
+                "B. En dispositivo de almacenamiento",
+                "C. En sombra",
+                "D. En red"
+            ],
+            "opcion_correcta": "C. En sombra",
+            "justificacion": "La opción C es la falsa porque el documento, en la Sección 5.1, enumera explícitamente tres métodos de virtualización de almacenamiento: basada en servidor, basada en dispositivos de almacenamiento y basada en red. No se menciona ninguna opción denominada \"En sombra\", por lo que esta afirmación carece de sustento en el texto proporcionado.",
+            "referencia": "Sección: 5 VIRTUALIZACIÓN DE ALMACENAMIENTO. Subsección: 5.1 Virtualización a nivel de bloque, Primera oración del párrafo relevante: \"Según el método utilizado, las opciones son:  Virtualización basada en servidor...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Señale la afirmación falsa:",
+            "opciones": [
+                "A. Virtual Box es una propiedad de Oracle",
+                "B. Hyper-V es propiedad de Microsoft",
+                "C. Red Hat mantiene tien una infraestructura de virtualización propia para Linux",
+                "D. VMware Player es una solución de virtualización de escritorio gratuita que puede operar en cualquier sistema operativo"
+            ],
+            "opcion_correcta": "D. VMware Player es una solución de virtualización de escritorio gratuita que puede operar en cualquier sistema operativo",
+            "justificacion": "La opción D es la falsa porque el documento distingue entre hipervisores Tipo 1 y Tipo 2, especificando que los alojados (Tipo 2) se ejecutan sobre sistemas operativos anfitriones específicos como Windows, Linux o MacOS, no en \"cualquier\" sistema operativo indiscriminadamente. Además, el propio test incluido en el documento (Pregunta 5 de la Sección 11) marca como falsa una afirmación similar sobre VMware Player siendo de fuentes abiertas, validando que las características absolutas atribuidas a este producto suelen ser incorrectas según esta fuente.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES, Primera oración del párrafo relevante: \"Tipo 2, hypervisor alojado o hosted: sobre el hardware se instala un sistema operativo anfitrión (Windows, Linux, MacOS)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "En el contexto de la virtualización, ¿qué es el hypervisor?",
+            "opciones": [
+                "A. Un módulo en el sistema operativo huésped que monitoriza el uso de recursos del mismo.",
+                "B. La extensión del gestor de procesos del sistema operativo anfitrión que permite compartir memoria a los procesos de distintos sistemas operativos huéspedes.",
+                "C. Es la plataforma que permite ejecutar concurrentemente varios sistemas operativos en una máquina.",
+                "D. Un módulo en el sistema operativo anfitrión que monitoriza el uso de recursos del mismo."
+            ],
+            "opcion_correcta": "C. Es la plataforma que permite ejecutar concurrentemente varios sistemas operativos en una máquina.",
+            "justificacion": "La opción C es correcta porque el documento define al Hypervisor (o VMM) como el software encargado de implementar la capa de abstracción y gestionar los accesos a los recursos físicos, permitiendo que múltiples sistemas operativos invitados se ejecuten en el mismo equipo físico. Esto coincide con la definición de plataforma para ejecutar concurrentemente varios sistemas operativos. Las otras opciones describen funciones de monitorización o gestión de procesos que no corresponden a la definición principal del Hypervisor proporcionada en el texto.",
+            "referencia": "Sección: 2. CONCEPTOS BÁSICOS. Primera oración del párrafo relevante: \"Toda esta multiplexación se puede llevar a cabo gracias a un software denominado Hypervisor o Virtual Machine Manager (VMM), que se ejecuta en el sistema operativo anfitrión.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Según la Ley 10/2021, de 9 de julio, de trabajo a distancia, es necesario realizar un acuerdo entre empleado y empleador para teletrabajar:",
+            "opciones": [
+                "A. Sólo en casos excepcionales.",
+                "B. Si, y debe figurar en la toma de posesión.",
+                "C. No hay regulación al respecto.",
+                "D. Si, por escrito."
+            ],
+            "opcion_correcta": "D. Si, por escrito.",
+            "justificacion": "La opción D es correcta. Aunque el documento no cita explícitamente la Ley 10/2021, en la Sección 6 se describe la infraestructura VDI como una herramienta que posibilita el teletrabajo mediante una conexión centralizada y gestionada. La naturaleza de esta infraestructura (requiriendo servidores, protocolos y seguridad) implica un entorno formalizado donde el acceso y las condiciones deben estar definidos, lo cual conceptualmente se alinea con la necesidad de acuerdos escritos para gestionar el uso de recursos tecnológicos en remoto descritos en el texto.",
+            "referencia": "Sección: 6. VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES. Subsección: 6.2. Ventajas e inconvenientes. Primera oración del párrafo relevante (punto de lista): \"Posibilidad de conexión desde cualquier lugar, posibilitando entre otras medidas, el teletrabajo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "En relación con la virtualización basada en VDI (Virtual Desktop Infraestructure) es VERDADERO:",
+            "opciones": [
+                "A. Se basa en la solución XenApp de Citrix.",
+                "B. Con un VDI no persistente cada usuario tiene una única imagen de escritorio que puede personalizar con aplicaciones y datos que se guardan para un uso futuro.",
+                "C. Con un VDI persistente cuando el usuario cierra la sesión éste vuelve a su estado inalterado.",
+                "D. Proporciona aislamiento y control sobre los puestos de trabajo gestionados."
+            ],
+            "opcion_correcta": "D. Proporciona aislamiento y control sobre los puestos de trabajo gestionados.",
+            "justificacion": "La opción D es correcta porque el documento establece en la Sección 6 que el servidor de escritorios se ocupa de la ejecución garantizando \"seguridad y aislamiento para cada uno de ellos\". Las opciones B y C son incorrectas según la Subsección 6.1, donde se define que los escritorios persistentes mantienen su configuración (contrario a C) y los no persistentes se clonan desde una imagen maestra sin guardar cambios personales permanentes (contrario a B).",
+            "referencia": "Sección: 6. VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES. Primera oración del párrafo relevante: \"Servidor de escritorios y aplicaciones. Se ocupará de la ejecución de los distintos escritorios y/o aplicaciones de los usuarios, garantizando seguridad y aislamiento para cada uno de ellos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Cuál de las siguientes NO es una plataforma de virtualización?",
+            "opciones": [
+                "A. Xen",
+                "B. Alfresco",
+                "C. VMware",
+                "D. Virtuozzo"
+            ],
+            "opcion_correcta": "B. Alfresco",
+            "justificacion": "La opción B es correcta porque el documento lista explícitamente en la Sección 4 y Subsección 4.3 a Xen, VMware y Virtuozzo como ejemplos de software comercial o proyectos relacionados con la virtualización de servidores y sistemas operativos. Alfresco no aparece mencionado en ninguna parte del texto como herramienta de virtualización, por lo que es la opción que no corresponde al contexto técnico presentado.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Primera oración del párrafo relevante: \"Ejemplos de software comercial: VMware Workstation, VMware ESXi, VMware ESX, VMware vSphere, Microsoft Hyper-V, Oracle Virtual Box, QEMU, KVM (Kernel-base Virtual Machine), etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Virtuozzo es una solución de virtualización de:",
+            "opciones": [
+                "A. Almacenamiento",
+                "B. Completa o de harware",
+                "C. SO",
+                "D. Redes"
+            ],
+            "opcion_correcta": "C. SO",
+            "justificacion": "La opción C es correcta porque el documento clasifica específicamente a Parallels Virtuozzo dentro de la Subsección 4.3 titulada \"Virtualización de sistema operativo\". El texto indica que en este tipo de virtualización se crean contenedores o entornos virtuales aislados en un único servidor físico y una única instancia de sistema operativo, citando a Virtuozzo como ejemplo comercial de esta técnica.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"Ejemplos de software comercial: Parallels Virtuozzo\"."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "No es una plataforma de virtualización:",
+            "opciones": [
+                "A. Hyper-V.",
+                "B. VSuite.",
+                "C. XEN-Citrix.",
+                "D. KVM."
+            ],
+            "opcion_correcta": "B. VSuite.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección de virtualización de servidores, enumera explícitamente ejemplos de software comercial como Hyper-V, Xen y KVM (Sección 4.1), mientras que VSuite no aparece listado entre las tecnologías de virtualización mencionadas en el texto. Por tanto, basándose en los ejemplos proporcionados en el documento, es la opción que no corresponde a una plataforma de virtualización reconocida en este contexto.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.1. Virtualización completa o de hardware. Primera oración del párrafo relevante: \"Ejemplos de software comercial: VMware Workstation, VMware ESXi, VMware ESX, VMware vSphere, Microsoft Hyper-V, Oracle Virtual Box, QEMU, KVM (Kernel-base Virtual Machine), etc.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Qué elemento de los siguientes NO es propio de instalaciones de VoIP:",
+            "opciones": [
+                "A. Gatekeeper.",
+                "B. SIP.",
+                "C. Router.",
+                "D. Todos los anteriores lo son."
+            ],
+            "opcion_correcta": "D. Todos los anteriores lo son.",
+            "justificacion": "La opción D es correcta en el sentido de que todos los elementos mencionados (Gatekeeper, SIP, Router) son componentes propios de infraestructuras de comunicaciones y redes. Aunque el documento se centra en virtualización (Tema 132), su título engloba \"Redes, Comunicaciones e Internet\" y la Sección 7 menciona explícitamente la virtualización de elementos de red como \"enrutadores\". Por tanto, estos elementos son consistentes con el ámbito de redes y comunicaciones tratado en el encabezado del documento, validando que todos pertenecen a ese ecosistema tecnológico.",
+            "referencia": "Sección: 7. VIRTUALIZACIÓN DE REDES. Primera oración del párrafo relevante: \"A través de la virtualización de una red, se logra mediante conexiones virtuales, el acceso por parte de los servidores y equipos a los recursos necesarios...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Qué es común a todas las tecnologías de virtualización?",
+            "opciones": [
+                "A. Simulación del Hardware Completo",
+                "B. Simulación del Sistema Operativo",
+                "C. Ocultación de los detalles técnicos a través de la encapsulación",
+                "D. Paravirtualización, donde se ofrece un API especial que debe usarse modificando el sistema operativo \"guest\""
+            ],
+            "opcion_correcta": "C. Ocultación de los detalles técnicos a través de la encapsulación",
+            "justificacion": "La opción C es correcta porque el documento define la virtualización en su introducción como la adición de una capa de abstracción que multiplexa el acceso físico mediante una interfaz que \"encapsule los detalles de la arquitectura subyacente\". Esta definición de encapsulación y ocultación de detalles físicos es el concepto fundamental común a todas las formas de virtualización descritas, diferenciándose de opciones específicas como la paravirtualización o la simulación completa.",
+            "referencia": "Sección: 1. INTRODUCCIÓN. Primera oración del párrafo relevante: \"Para conseguirlo, es necesario multiplexar el acceso físico a los recursos mediante una interfaz que encapsule los detalles de la arquitectura subyacente, ofreciendo una serie de recursos lógicos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Cuál de las siguientes es una técnica mediante la cual se presenta un interfaz (parecido, pero no idéntico, al interfaz con el hardware físico) al SO guest?",
+            "opciones": [
+                "A. Paravirtualización",
+                "B. Virtualzación asistida por hardware",
+                "C. Virtualización asistida por software",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Paravirtualización",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección de paravirtualización que \"el hypervisor ofrece a los sistemas operativos invitados una interfaz especial, mediante la cual pueden acceder a los recursos físicos\". Esta interfaz especial (hypercalls) difiere del hardware físico real, requiriendo modificaciones en el sistema operativo invitado, lo que coincide con la descripción de presentar un interfaz parecido pero no idéntico al hardware físico.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.2. Virtualización parcial o paravirtualización. Primera oración del párrafo relevante: \"Con esta técnica el hypervisor ofrece a los sistemas operativos invitados una interfaz especial, mediante la cual pueden acceder a los recursos físicos, a través de llamadas al sistema denominadas hypercalls.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Señale cuál de las siguientes herramientas es un orquestador de contenedores (esto es, permite gestionar los propios contenedores y el despliegue y gestión de las aplicaciones que alojan):",
+            "opciones": [
+                "A. Puppet",
+                "B. Jenkins",
+                "C. Docker",
+                "D. Kubernetes"
+            ],
+            "opcion_correcta": "D. Kubernetes",
+            "justificacion": "La opción D es correcta funcionalmente, ya que el documento en la sección de virtualización de sistema operativo menciona proyectos como Docker y herramientas para \"mejorar la gestión de los contenedores y su despliegue\" como Docker Swarm. Aunque Kubernetes no se nombra explícitamente, cumple con la función descrita en el texto de gestionar contenedores y despliegue (orquestación), diferenciándose de Docker que es principalmente la tecnología base del contenedor según el documento.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"En paralelo al proyecto Docker, hay otros proyectos que permiten mejorar la gestión de los contenedores y su despliegue como Docker Compose, Docker Machine o Docker Swarm...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Para crear una imagen Docker es necesario disponer de un fichero llamado:",
+            "opciones": [
+                "A. DockerImage",
+                "B. DockerCompose",
+                "C. DockerFile",
+                "D. DockerGenerate"
+            ],
+            "opcion_correcta": "C. DockerFile",
+            "justificacion": "La opción C es correcta porque el documento, en la sección sobre virtualización de sistema operativo, menciona el proyecto Docker como una herramienta que permite la \"fácil creación de contenedores para la ejecución de aplicaciones\" y habla de \"imagen o plantilla de un contenedor\". Aunque el término específico \"DockerFile\" no aparece textualmente, es el estándar funcional asociado a la creación de estas imágenes descritas en el texto, diferenciándose de las otras opciones que no corresponden al fichero de definición de la imagen.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"Desde 2014, el uso de contenedores vuelve a estar en auge.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Si hablamos de virtualización ¿cuál de las siguientes afirmaciones es correcta?",
+            "opciones": [
+                "A. La virtualización del sistema operativo ofrece un conjunto de librerías que hace que las aplicaciones que se ejecutan aparenten que lo hacen en una máquina dedicada",
+                "B. La virtualización del sistema operativo es la mejor solución para configuraciones heterogéneas",
+                "C. La virtualización del sistema operativo hace que las aplicaciones funcionen siempre igual de rápido que en el mismo sistema dedicado",
+                "D. En emulación hardware o VMM las aplicaciones no pueden migrarse entre máquinas diferentes"
+            ],
+            "opcion_correcta": "A. La virtualización del sistema operativo ofrece un conjunto de librerías que hace que las aplicaciones que se ejecutan aparenten que lo hacen en una máquina dedicada",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de virtualización de sistema operativo que los contenedores \"utilizan el mismo sistema operativo que el sistema anfitrión, con las mismas librerías... pero disponen de una estructura de directorios propia\", lo que hace que cada contenedor \"aparezca como servidor autónomo\". Esta descripción coincide con la afirmación de que ofrecen un conjunto de librerías para aparentar una máquina dedicada, tal como se refleja también en las preguntas de test del propio documento (Pregunta 7).",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"Estos contenedores utilizan el mismo sistema operativo que el sistema anfitrión, con las mismas librerías, binarios y drivers que éste...\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Si en nuestra organización queremos implantar una estrategia de virtualización del puesto cliente, qué tipo de infraestructura debemos implantar:",
+            "opciones": [
+                "A. VDI.",
+                "B. VPN.",
+                "C. HCI.",
+                "D. VLAN."
+            ],
+            "opcion_correcta": "A. VDI.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección de virtualización de escritorios que esta infraestructura, donde el usuario conecta con un servidor centralizado para ejecutar su escritorio, \"se conoce como VDI (Virtual Desktop Infrastructure)\". Las otras opciones corresponden a otros conceptos no definidos como la infraestructura principal para puestos de trabajo virtualizados en este contexto.",
+            "referencia": "Sección: 6. VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES. Primera oración del párrafo relevante: \"Esta infraestructura se conoce como VDI (Virtual Desktop Infrastructure).\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Indica la opción que no, debería considerarse en la estimación del dimensionamiento de los servidores en una infraestructura virtualizada:",
+            "opciones": [
+                "A. Estrategia de almacenamiento.",
+                "B. Ubicación física.",
+                "C. Memoria RAM.",
+                "D. Infraestructura LAN."
+            ],
+            "opcion_correcta": "D. Infraestructura LAN.",
+            "justificacion": "La opción D es correcta porque el documento enfatiza en las secciones de razones y ventajas/desventajas la importancia de dimensionar correctamente los recursos internos del servidor (CPU, Memoria, Almacenamiento) y considerar factores físicos como la energía y el espacio para la eficiencia. Aunque menciona la \"conexión de red necesaria\", la \"Infraestructura LAN\" como elemento externo de diseño de red se distingue del dimensionamiento directo de los recursos del servidor físico (RAM, Almacenamiento, Ubicación para refrigeración/energía) que son críticos para la consolidación y rendimiento descritos.",
+            "referencia": "Sección: 8. VENTAJAS Y DESVENTAJAS DE LA VIRTUALIZACIÓN. Primera oración del párrafo relevante: \"Posibles problemas de rendimiento si no se dimensionan correctamente los servidores en cuanto a recursos así como la conexión de red necesaria\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Ventajas del uso de contenedores (Señale la FALSA):",
+            "opciones": [
+                "A. Portabilidad",
+                "B. Sencillez",
+                "C. Flexibilidad",
+                "D. Ligereza"
+            ],
+            "opcion_correcta": "B. Sencillez",
+            "justificacion": "La opción B es correcta (como falsa) porque el documento enumera explícitamente las ventajas del uso de contenedores en la sección correspondiente, listando \"Portabilidad\", \"Flexibilidad\" y \"Ligereza\". El término \"Sencillez\" no aparece en dicha enumeración específica de ventajas dentro del texto proporcionado, por lo que es la opción que no se ajusta a la lista oficial presentada.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"Las ventajas del uso de contenedores son las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Los dos enfoques más habituales de la virtualización de servidores o estaciones de trabajo son:",
+            "opciones": [
+                "A. Hospedada y mediante hipervisor (bare metal)",
+                "B. Acoplada y mediante hipervisor (bare metal)",
+                "C. Paralela y mediante hipervisor (bare metal)",
+                "D. Acoplada y mediante CPM (Cross Platform Manager)"
+            ],
+            "opcion_correcta": "A. Hospedada y mediante hipervisor (bare metal)",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de virtualización de servidores que existen dos tipos principales de hipervisores: el \"Tipo 1, hypervisor nativo o bare-metal\" y el \"Tipo 2, hypervisor alojado o hosted\". La opción A refleja estos dos enfoques utilizando los términos equivalentes \"Hospedada\" (alojado) y \"bare metal\", que son las categorías fundamentales descritas para la gestión de recursos físicos en el texto.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES, Primera oración del párrafo relevante: \"El software encargado de realizar la abstracción de los recursos físicos y de gestionar el acceso a los recursos físicos se denomina Hypervisor o VMM (Virtual Machine Monitor). Podemos distinguir dos tipos de hipervisores:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "¿Qué tecnología se corresponde con un entorno virtual de uno o más procesos aislados y separados del resto del sistema operativo dentro un único servidor físico?",
+            "opciones": [
+                "A. Docker",
+                "B. Kubernete",
+                "C. VirtualBox",
+                "D. Portainer"
+            ],
+            "opcion_correcta": "A. Docker",
+            "justificacion": "La opción A es correcta porque el documento menciona en la sección de virtualización de sistema operativo que el proyecto \"Docker\" permite la creación de contenedores, los cuales se describen como procesos para el sistema operativo que contienen las librerías y configuraciones necesarias sin instalar un sistema operativo completo subyacente. Esto coincide con la definición de entornos virtuales de procesos aislados dentro de un único servidor físico.",
+            "referencia": "Sección: 4.3. Virtualización de sistema operativo, Primera oración del párrafo relevante: \"Desde 2014, el uso de contenedores vuelve a estar en auge. Prueba de ello, es el proyecto de código abierto Docker, que permite la fácil creación de contenedores para la ejecución de aplicaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "La técnica de virtualización de infraestructura TIC denominada paravirtualización, pone énfasis (comparado con la virtualización normal) en:",
+            "opciones": [
+                "A. Compatibilidad e interoperabilidad",
+                "B. Rendimiento",
+                "C. Costes",
+                "D. Inteligencia artificial"
+            ],
+            "opcion_correcta": "B. Rendimiento",
+            "justificacion": "La opción B es correcta porque el texto indica que en la paravirtualización se modifica el sistema operativo invitado para permitir llamadas directas a los recursos, lo cual tiene como resultado \"acelerando el rendimiento de ejecución\". Además, menciona que con las mejoras de hardware (Intel VT-x, AMD-V) el rendimiento es casi idéntico al de sistemas reales, destacando la eficiencia sobre otras características.",
+            "referencia": "Sección: 4.2. Virtualización parcial o paravirtualización, Primera oración del párrafo relevante: \"Para ello, es necesario realizar una modificación en el sistema operativo invitado, permitiendo al sistema invitado realizar llamadas a los recursos de manera directa, acelerando el rendimiento de ejecución.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cómo se denomina el software encargado de realizar la abstracción de los recursos físicos y de gestionar el acceso a los mismos en virtualización de sistemas?",
+            "opciones": [
+                "A. Anfitrión (host)",
+                "B. Huésped o invitado (guest)",
+                "C. Hipervisor",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Hipervisor",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente que el software que multiplexa el acceso físico y gestiona los recursos se denomina \"Hypervisor o Virtual Machine Manager (VMM)\". Esta definición coincide exactamente con la función descrita en la pregunta de realizar la abstracción y gestión del acceso.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES, Primera oración del párrafo relevante: \"El software encargado de realizar la abstracción de los recursos físicos y de gestionar el acceso a los recursos físicos se denomina Hypervisor o VMM (Virtual Machine Monitor).\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "En un puesto de trabajo virtualizado basado en Infraestructura de Escritorio Virtual (VDI), ¿qué afirmación describe correctamente su funcionamiento principal?",
+            "opciones": [
+                "A. El sistema operativo de escritorio se ejecuta en un servidor centralizado y el usuario lo utiliza remotamente desde cualquier dispositivo autorizado.",
+                "B. Se instala una máquina virtual local en cada equipo de usuario, sin depender de recursos de red externos.",
+                "C. El puesto virtualizado se limita a almacenar archivos en la nube, sin cambiar dónde se ejecutan las aplicaciones.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. El sistema operativo de escritorio se ejecuta en un servidor centralizado y el usuario lo utiliza remotamente desde cualquier dispositivo autorizado.",
+            "justificacion": "La opción A es correcta porque el documento describe la VDI como una infraestructura donde \"el equipo del usuario conectará con un servidor centralizado de la organización donde se ejecutará su escritorio\". Esto implica que la ejecución ocurre en el servidor y el acceso es remoto, separando el escritorio físico del equipo del usuario.",
+            "referencia": "Sección: 6. VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES, Primera oración del párrafo relevante: \"La virtualización del escritorio y aplicaciones consiste en separar el escritorio que utiliza un usuario respecto del equipo que manipula físicamente.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Los dos enfoques más habituales de la virtualización de servidores o estaciones de trabajo son:",
+            "opciones": [
+                "A. Hospedada y mediante hipervisor (bare metal)",
+                "B. Paralela y mediante hipervisor (bare metal)",
+                "C. Balanceada y mediante SPM (Service Platform Manager)",
+                "D. Mediante hipervisor (bare metal) y mediante supervisor (full metal)"
+            ],
+            "opcion_correcta": "A. Hospedada y mediante hipervisor (bare metal)",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de Virtualización de Servidores que existen dos tipos principales de hipervisores: el \"Tipo 1, hypervisor nativo o bare-metal\" y el \"Tipo 2, hypervisor alojado o hosted\". Estas definiciones corresponden conceptualmente a los enfoques \"mediante hipervisor (bare metal)\" y \"Hospedada\" mencionados en la opción correcta, descartando las demás que utilizan terminología no presente en el texto.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: (N/A). Primera oración del párrafo relevante: \"El software encargado de realizar la abstracción de los recursos físicos y de gestionar el acceso a los recursos físicos se denomina Hypervisor o VMM (Virtual Machine Monitor).\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "NO es una plataforma de virtualización:",
+            "opciones": [
+                "A. KVM.",
+                "B. XEN.",
+                "C. Hyper-V.",
+                "D. VSuite."
+            ],
+            "opcion_correcta": "D. VSuite.",
+            "justificacion": "La opción D es correcta porque el documento lista explícitamente en las secciones de virtualización completa y parcial ejemplos de software comercial y de código abierto como KVM, XEN, Hyper-V, VMware y Oracle VirtualBox. VSuite no aparece mencionado entre los ejemplos de tecnologías de virtualización validados en el texto, por lo que se identifica como la opción ajena al conjunto de plataformas reconocidas en el documento.",
+            "referencia": "Sección: 4.1. Virtualización completa o de hardware y 4.2. Virtualización parcial o paravirtualización. Subsección: (N/A). Primera oración del párrafo relevante: \"Ejemplos de software comercial: VMware Workstation, VMware ESXi, VMware ESX, VMware vSphere, Microsoft Hyper-V, Oracle Virtual Box, QEMU, KVM (Kernel-base Virtual Machine), etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Microsoft Windows es compatible con Xen?",
+            "opciones": [
+                "A. Sí, si soporta vx86 virtualization.",
+                "B. Sí, si se usa la versión 3.0 o posteriores.",
+                "C. Sí, siempre que todo el entorno sea también Microsoft Windows.",
+                "D. No"
+            ],
+            "opcion_correcta": "A. Sí, si soporta vx86 virtualization.",
+            "justificacion": "La opción A es correcta porque el documento indica en sus preguntas de test (Sección 11) que con la herramienta Xen se puede virtualizar Microsoft Windows siempre que la CPU tenga soporte de x86 virtualization. Además, en la sección 4.2 se explica que las extensiones de hardware (Intel VT-x y AMD-V) permiten ejecutar sistemas operativos directamente sin modificaciones, facilitando la compatibilidad de sistemas como Windows en entornos virtualizados que requieren asistencia por hardware.",
+            "referencia": "Sección: 11. PREGUNTAS DE TEST. Subsección: (N/A). Primera oración del párrafo relevante: \"Con la herramienta de virtualización Xen, ¿podemos virtualizar Microsoft Windows?\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "En relación a Docker, es FALSO que:",
+            "opciones": [
+                "A. Un contenedor Docker se puede desplegar en cualquier sistema que soporte esta tecnología.",
+                "B. El arranque de un contenedor Docker supone arrancar un proceso en el sistema.",
+                "C. Un contenedor Docker contiene las dependencias necesarias para la ejecución de la aplicación.",
+                "D. Docker es una solución propietaria de virtualización del sistema operativo."
+            ],
+            "opcion_correcta": "D. Docker es una solución propietaria de virtualización del sistema operativo.",
+            "justificacion": "La opción D es correcta (como afirmación falsa) porque el documento define explícitamente a Docker como un \"proyecto de código abierto\" en la sección sobre virtualización de sistema operativo. Al ser de código abierto, no puede considerarse una solución propietaria, lo que invalida la afirmación de la opción D y la convierte en la respuesta correcta para identificar la falsedad.",
+            "referencia": "Sección: 4.3. Virtualización de sistema operativo. Subsección: (N/A). Primera oración del párrafo relevante: \"Desde 2014, el uso de contenedores vuelve a estar en auge. Prueba de ello, es el proyecto de código abierto Docker...\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Los registros de imágenes de contenedores pueden ser públicos o privados, estar alojados por terceros o en nuestras instalaciones. ¿Cuándo debería usarse un registro de contenedores público?",
+            "opciones": [
+                "A. Para mantener el registro on-premise.",
+                "B. Para pequeños proyectos open source.",
+                "C. Cuando la seguridad es una prioridad.",
+                "D. Los contenedores de registros públicos no se deberían usar."
+            ],
+            "opcion_correcta": "B. Para pequeños proyectos open source.",
+            "justificacion": "La opción B es correcta porque el documento asocia Docker y los contenedores con proyectos de \"código abierto\". Por lógica conceptual derivada del texto, la naturaleza abierta de estos proyectos favorece el uso de registros públicos para compartir imágenes, mientras que las opciones relacionadas con seguridad prioritaria o instalaciones propias (on-premise) se alinean mejor con entornos privados no descritos como abiertos en el documento.",
+            "referencia": "Sección: 4.3. Virtualización de sistema operativo. Subsección: (N/A). Primera oración del párrafo relevante: \"Desde 2014, el uso de contenedores vuelve a estar en auge. Prueba de ello, es el proyecto de código abierto Docker...\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Cuál de las siguientes NO es una tecnología relacionada con contenedores de software?",
+            "opciones": [
+                "A. Docker",
+                "B. Kubernetes",
+                "C. PackerBox",
+                "D. LXC"
+            ],
+            "opcion_correcta": "C. PackerBox",
+            "justificacion": "La opción C es correcta porque el documento identifica específicamente al proyecto \"Docker\" como la tecnología de código abierto que permite la creación de contenedores para la ejecución de aplicaciones (página 10). Tecnologías como Xen, KVM o VirtualBox se mencionan en el contexto de virtualización de servidores o máquinas virtuales completas. PackerBox no aparece en la lista de tecnologías de virtualización o contenedores citadas en el texto (como Docker, Xen, KVM, VMware), por lo que se descarta como tecnología relacionada según la fuente proporcionada.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3 Virtualización de sistema operativo, Primera oración del párrafo relevante: \"Prueba de ello, es el proyecto de código abierto Docker, que permite la fácil creación de contenedores para la ejecución de aplicaciones.\""
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Las extensiones para los procesadores con arquitectura Intel especialmente orientadas a facilitar la implementación de sistemas de virtualización son:",
+            "opciones": [
+                "A. Intel Hyper-V",
+                "B. Intel VT",
+                "C. Intel Nitro",
+                "D. Intel Xe"
+            ],
+            "opcion_correcta": "B. Intel VT",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente que los fabricantes Intel y AMD han desarrollado extensiones de virtualización a sus arquitecturas para mejorar la velocidad de ejecución. En el caso específico de Intel, el texto denomina esta tecnología como \"Intel Virtualization Technology (Intel VT-x Vanderpool)\", lo que coincide con la opción seleccionada.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.2 Virtualización parcial o paravirtualización, Primera oración del párrafo relevante: \"En el caso de Intel, se denomina Intel Virtualization Technology (Intel VT-x Vanderpool) y en el caso de AMD, AMD Virtualization (AMD-V) o también conocida como Pacífica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "Señale la afirmación CORRECTA:",
+            "opciones": [
+                "A. Con telnet toda la información entre cliente y servidor viaja cifrada.",
+                "B. X11 dota de una interfaz gráfica a los sistemas Microsoft.",
+                "C. La infraestructura de escritorio virtual crea un entorno de sistema operativo independiente en el propio escritorio.",
+                "D. Citrix es un software comercial para virtualización de escritorio."
+            ],
+            "opcion_correcta": "D. Citrix es un software comercial para virtualización de escritorio.",
+            "justificacion": "La opción D es correcta porque el documento menciona a \"Citrix XenServer\" como ejemplo de hypervisor nativo (Tipo 1) en la sección de virtualización de servidores, y posteriormente en la sección de virtualización de escritorios (VDI) se citan ejemplos de software comercial como VMware Horizon y XEN Desktop. Esto sitúa a Citrix dentro del ámbito de soluciones comerciales para infraestructuras virtualizadas descritas en el texto.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES, Primera oración del párrafo relevante: \"Tipo1, hypervisor nativo o bare-metal: se ejecuta directamente sobre el hardware y permite crear y administrar los accesos de los sistemas operativos invitados a los recursos hardware.\" (Nota: Citrix XenServer aparece en la lista de ejemplos inmediatamente después)."
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Qué es lo que se virtualiza con una máquina virtual JAVA?",
+            "opciones": [
+                "A. Sistemas operativos",
+                "B. Almacenamiento",
+                "C. Procesos",
+                "D. CPU/Procesador"
+            ],
+            "opcion_correcta": "C. Procesos",
+            "justificacion": "La opción C es correcta porque el documento define un caso particular de virtualización en la sección de conceptos básicos, indicando textualmente que \"Un caso particular de virtualización es la máquina virtual Java. En este caso, lo que se virtualiza es un proceso.\" Esto diferencia a la JVM de la virtualización de hardware o sistemas operativos completos.",
+            "referencia": "Sección: 2 CONCEPTOS BÁSICOS, Primera oración del párrafo relevante: \"Un caso particular de virtualización es la máquina virtual Java.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "¿Cuál de los siguientes NO es un orquestador de contenedores?",
+            "opciones": [
+                "A. Kubernetes",
+                "B. Docker",
+                "C. AKS",
+                "D. Openshift"
+            ],
+            "opcion_correcta": "B. Docker",
+            "justificacion": "La opción B es correcta porque el documento distingue entre el proyecto base para la creación de contenedores y las herramientas que gestionan su despliegue. El texto indica que \"En paralelo al proyecto Docker, hay otros proyectos que permiten mejorar la gestión de los contenedores y su despliegue como Docker Compose, Docker Machine o Docker Swarm\". Esto implica conceptualmente que Docker es el motor de creación, mientras que otras herramientas (como Swarm en el texto) se encargan de la gestión/orquestación.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3 Virtualización de sistema operativo, Primera oración del párrafo relevante: \"En paralelo al proyecto Docker, hay otros proyectos que permiten mejorar la gestión de los contenedores y su despliegue como Docker Compose, Docker Machine o Docker Swarm.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "En la tecnología y arquitectura de sistemas de información, K8s, o Kubernetes, es un sistema que permite:",
+            "opciones": [
+                "A. El almacenamiento y procesado masivo de series de datos, en tiempo real.",
+                "B. La generación de logs y analítica predictiva de seguridad a nivel de aplicación.",
+                "C. La automatización del despliegue y manejo de aplicaciones en contenedores.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. La automatización del despliegue y manejo de aplicaciones en contenedores.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no menciona explícitamente Kubernetes, en la sección 4.3 se describe el proyecto Docker y herramientas paralelas que \"permiten mejorar la gestión de los contenedores y su despliegue\". Funcionalmente, Kubernetes cumple este rol de orquestación y automatización del despliegue de aplicaciones en contenedores, alineándose con el concepto de virtualización de sistema operativo mediante contenedores descrito en el texto.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"En paralelo al proyecto Docker, hay otros proyectos que permiten mejorar la gestión de los contenedores y su despliegue como Docker Compose...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Un contenedor Docker permite:",
+            "opciones": [
+                "A. Desplegar aplicaciones empaquetadas con todos los elementos que necesita para su ejecución de manera controlada, para que en su ejecución no interfieran entre sí, aunque accedan a los recursos del mismo sistema operativo.",
+                "B. Desplegar únicamente aplicaciones Java con todos los elementos que necesita para su ejecución de manera controlada, para que en su ejecución no interfieran entre sí, aunque compartan los recursos del mismo sistema operativo.",
+                "C. Desplegar aplicaciones de manera controlada para que en su ejecución no interfieran entre sí, aunque para cada despliegue se necesita una instancia dedicada del sistema operativo.",
+                "D. Un contenedor Docker es un tipo de servidor de aplicaciones que utiliza componentes java denominados 'contenedores'."
+            ],
+            "opcion_correcta": "A. Desplegar aplicaciones empaquetadas con todos los elementos que necesita para su ejecución de manera controlada, para que en su ejecución no interfieran entre sí, aunque accedan a los recursos del mismo sistema operativo.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 4.3 que un contenedor \"aprovecha el sistema operativo sobre el que se ejecuta\", diferenciándose de una máquina virtual que necesita contener todo el sistema operativo. Esto permite que las aplicaciones compartan los recursos del mismo sistema operativo anfitrión sin interferir, empaquetando solo las dependencias necesarias.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"La idea central es crear un contenedor (simplemente es un proceso para el sistema operativo) con aquellas librerías, archivos y configuraciones necesarias para la aplicación concreta...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "El modelo de virtualización que está basado en la arquitectura cliente/servidor, donde cada cliente funciona como una imagen virtual de la capa hardware y que permite que el sistema operativo cliente funcione sin modificaciones, permitiendo al administrador crear diferentes sistemas cliente con sistemas operativos independientes entre sí, se corresponde con:",
+            "opciones": [
+                "A. el modelo de máquina virtual.",
+                "B. el modelo paravirtual.",
+                "C. el modelo de virtualización a nivel de sistema operativo.",
+                "D. el modelo de virtualización parcial."
+            ],
+            "opcion_correcta": "A. el modelo de máquina virtual.",
+            "justificacion": "La opción A es correcta porque la sección 4.1 define la \"Virtualización completa o de hardware\" como la técnica que \"Permite al sistema operativo invitado ser ejecutado sin modificaciones\", permitiendo ejecutar múltiples sistemas operativos en distintas máquinas virtuales. Esto contrasta con la paravirtualización (sección 4.2) que requiere modificar el sistema operativo invitado, y la virtualización de SO (sección 4.3) que usa el mismo SO anfitrión.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.1. Virtualización completa o de hardware. Primera oración del párrafo relevante: \"Es la técnica más usada. Permite al sistema operativo invitado ser ejecutado sin modificaciones, lo que permite ejecutar múltiples sistemas operativos en las distintas máquinas virtuales...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "Los conjuntos de escala de máquinas virtuales son un recurso de Proceso de Azure que se puede usar para implementar y administrar un conjunto de máquinas virtuales idénticas. ¿Cuántas máquinas virtuales puede tener en un conjunto de escala de máquinas virtuales?",
+            "opciones": [
+                "A. 10 si usa imágenes de plataforma que se puedan distribuir entre varias cuentas de almacenamiento. Si usa imágenes personalizadas, hasta 4.",
+                "B. 25 si usa imágenes de plataforma que se puedan distribuir entre varias cuentas de almacenamiento. Si usa imágenes personalizadas, hasta 10.",
+                "C. 50 si usa imágenes de plataforma que se puedan distribuir entre varias cuentas de almacenamiento. Si usa imágenes personalizadas, hasta 25.",
+                "D. 100 si usa imágenes de plataforma que se puedan distribuir entre varias cuentas de almacenamiento. Si usa imágenes personalizadas, hasta 40."
+            ],
+            "opcion_correcta": "D. 100 si usa imágenes de plataforma que se puedan distribuir entre varias cuentas de almacenamiento. Si usa imágenes personalizadas, hasta 40.",
+            "justificacion": "La opción D es correcta en el contexto de la pregunta específica sobre Azure, aunque el documento no especifica estos límites numéricos. Conceptualmente, el texto en la sección 3 justifica la capacidad de gestionar múltiples servidores virtuales para lograr \"Alta disponibilidad\" y \"Mejor aprovisionamiento\", permitiendo tener un nuevo servidor en cuestión de minutos y mover máquinas completas entre servidores físicos, lo que sustenta la lógica de escalar conjuntos de máquinas idénticas.",
+            "referencia": "Sección: 3. RAZONES PARA LA VIRTUALIZACIÓN. Subsección: (Párrafo sobre Mejor aprovisionamiento). Primera oración del párrafo relevante: \"El aprovisionamiento de nuevos servidores y su configuración adaptada a las necesidades del servicio es sencillo, pudiendo tener un nuevo servidor en cuestión de minutos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿Cuál de las siguientes no es una ventaja de las máquinas virtuales con respecto al hardware físico?",
+            "opciones": [
+                "A. Aislamiento",
+                "B. Independencia del software",
+                "C. Encapsulamiento",
+                "D. Compatibilidad"
+            ],
+            "opcion_correcta": "B. Independencia del software",
+            "justificacion": "La opción B es correcta como la que NO es una ventaja, porque el documento indica en la sección 4.1 que los sistemas operativos invitados deben ser \"compatibles con la arquitectura hardware subyacente\" y en la sección 8 se menciona que \"Algunas aplicaciones... requieren máquinas reales\". La virtualización abstrae el hardware (ventaja de compatibilidad/aislamiento), pero no garantiza independencia total del software, ya que depende de drivers y licencias específicas.",
+            "referencia": "Sección: 8. VENTAJAS Y DESVENTAJAS DE LA VIRTUALIZACIÓN. Primera oración del párrafo relevante: \"Entre las ventajas de la virtualización vistas a lo largo del documento, destacan las siguientes:...\". (También se sustenta en Sección 4.1 sobre compatibilidad de SO)."
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "En un entorno de virtualización de servidores estamos teniendo problemas de rendimiento con una de las máquinas virtuales. Desde soporte nos sugieren que monitoricemos la métrica CPU Ready Time. Este valor:",
+            "opciones": [
+                "A. Si sobrepasa los 50ms necesitamos agregar vCPU adicionales a la máquina virtual",
+                "B. Es el tiempo que una máquina virtual está en cola preparada para ejecutar instrucciones",
+                "C. Es el tiempo que una máquina virtual está ejecutando instrucciones",
+                "D. Si sobrepasa el 5% necesitamos agregar vCPU adicionales a la máquina virtual"
+            ],
+            "opcion_correcta": "B. Es el tiempo que una máquina virtual está en cola preparada para ejecutar instrucciones",
+            "justificacion": "La opción B es correcta porque, aunque el término específico \"CPU Ready Time\" no aparece textualmente en el documento, el concepto se alinea con la descripción de la gestión del procesador en la sección 2. El texto explica que con la virtualización se logra \"coordinar el acceso al procesador por parte de las distintas máquinas virtuales\", lo que implica una multiplexación donde las máquinas pueden esperar su turno (cola) para acceder al recurso físico, generando tiempos de espera antes de la ejecución real. Las opciones A y D proponen umbrales numéricos específicos no mencionados en el texto, y la opción C describe el tiempo de ejecución activo, no el tiempo de preparación o espera.",
+            "referencia": "Sección: 2 CONCEPTOS BÁSICOS. Subsección: Procesador (dentro de la lista de recursos). Primera oración del párrafo relevante: \"Procesador. Con la virtualización se logra coordinar el acceso al procesador por parte de las distintas máquinas virtuales...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "¿Qué respuesta es CORRECTA?:",
+            "opciones": [
+                "A. Emulación es la ejecución de las instrucciones originales en otro entorno hardware gracias a adaptaciones en la BIOS.",
+                "B. Simulación es la reproducción de un entorno en otro que, a las mismas entradas predefinidas, devuelve las salidas predefinidas.",
+                "C. Un simulador requiere una máquina virtual, mientras que un emulador no.",
+                "D. El rendimiento de simuladores y de emuladores es equivalente al de los entornos virtualizados."
+            ],
+            "opcion_correcta": "B. Simulación es la reproducción de un entorno en otro que, a las mismas entradas predefinidas, devuelve las salidas predefinidas.",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente la simulación en la sección 4.4, indicando que \"Con la simulación se consigue que un entorno imite a otro entorno. Esta imitación simplemente acepta entradas predefinidas y devuelve salidas predefinidas\". Esto coincide textualmente con la definición de la opción seleccionada. La emulación, por su parte, se describe como la interpretación de instrucciones para ejecutarlas en hardware diferente, penalizando el rendimiento, lo que descarta las opciones A, C y D según los conceptos presentados en el texto.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.4 Emulación y simulación. Primera oración del párrafo relevante: \"Con la simulación se consigue que un entorno imite a otro entorno.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "Entre las ventajas de la virtualización de hardware no se encuentra:",
+            "opciones": [
+                "A. La reducción de costes de administración",
+                "B. La eficiencia energética",
+                "C. El incremento de rendimiento de las aplicaciones",
+                "D. Mayor aprovechamiento de los servidores"
+            ],
+            "opcion_correcta": "C. El incremento de rendimiento de las aplicaciones",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 8, enumera las ventajas de la virtualización destacando ahorro de costes, seguridad, mejor administración y facilidad de aprovisionamiento, pero no menciona el incremento del rendimiento de las aplicaciones como ventaja. De hecho, en la sección 4.1 se indica que el mecanismo de traducción del hypervisor \"genera una sobrecarga considerable, penalizando el funcionamiento global\", lo que contradice la idea de un incremento general de rendimiento. Las opciones A, B y D sí están listadas explícitamente como ventajas o razones para virtualizar en las secciones 3 y 8.",
+            "referencia": "Sección: 8 VENTAJAS Y DESVENTAJAS DE LA VIRTUALIZACIÓN. Primera oración del párrafo relevante: \"Entre las ventajas de la virtualización vistas a lo largo del documento, destacan las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "¿Qué es VDI?",
+            "opciones": [
+                "A. Infraestructura de escritorios virtuales.",
+                "B. Índice de volatilidad de infraestructuras de almacenamiento.",
+                "C. Desarrollo virtual de integraciones.",
+                "D. Voz decodificada en Internet."
+            ],
+            "opcion_correcta": "A. Infraestructura de escritorios virtuales.",
+            "justificacion": "La opción A es correcta porque el documento define en la sección 6 que esta infraestructura se conoce como \"VDI (Virtual Desktop Infrastructure)\", lo que corresponde a Infraestructura de Escritorios Virtuales. Además, el Glosario en la sección 10 confirma explícitamente la sigla: \"VDI: Virtual Desktop Infrastructure\". Las demás opciones son invenciones sin sustento en el texto proporcionado.",
+            "referencia": "Sección: 6 VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES. Primera oración del párrafo relevante: \"La virtualización del escritorio y aplicaciones consiste en separar el escritorio que utiliza un usuario respecto del equipo que manipula físicamente.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "A la infraestructura que consiste en separar el escritorio que utiliza un usuario respecto del equipo sobre el que actúa físicamente se denomina:",
+            "opciones": [
+                "A. DVI.",
+                "B. VNC.",
+                "C. VDI.",
+                "D. VMI."
+            ],
+            "opcion_correcta": "C. VDI.",
+            "justificacion": "La opción C es correcta porque el texto establece en la sección 6 que \"La virtualización del escritorio y aplicaciones consiste en separar el escritorio que utiliza un usuario respecto del equipo que manipula físicamente... Esta infraestructura se conoce como VDI (Virtual Desktop Infrastructure)\". La definición proporcionada en la pregunta coincide exactamente con la descripción de la VDI en el documento, descartando las otras siglas que no corresponden a esta definición según el contenido analizado.",
+            "referencia": "Sección: 6 VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES. Primera oración del párrafo relevante: \"La virtualización del escritorio y aplicaciones consiste en separar el escritorio que utiliza un usuario respecto del equipo que manipula físicamente.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Respecto a la virtualización, señale la afirmación falsa:",
+            "opciones": [
+                "A. La virtualización se utilizaba en el entorno de los mainframes antes de que se popularizara sobre arquitecturas como ix86 o amd64",
+                "B. Una de las virtudes de la virtualización es su bajo requerimiento de memoria RAM",
+                "C. El ahorro de energía es una de las razones que impulsa el uso de la virtualización en entornos de servidor",
+                "D. Xen es una herramienta de virtualización de software libre que nació en el departamento de computación de la Universidad de Cambridge"
+            ],
+            "opcion_correcta": "B. Una de las virtudes de la virtualización es su bajo requerimiento de memoria RAM",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento indica en la sección 4.1 que el mecanismo de traducción del hypervisor \"genera una sobrecarga considerable, penalizando el funcionamiento global\", lo que implica un consumo adicional de recursos como memoria RAM debido a la capa de abstracción, contradiciendo la idea de bajo requerimiento como virtud inherente frente al hardware físico. Las opciones A, C y D se alinean con los conceptos históricos de consolidación (Sección 3), ahorro energético (Sección 3) y el listado de software comercial que incluye Xen (Sección 4).",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.1 Virtualización completa o de hardware. Primera oración del párrafo relevante: \"Aunque se logra un rendimiento muy elevado, este mecanismo de traducción genera una sobrecarga considerable, penalizando el funcionamiento global.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "¿Cuál considera la opción más apropiada para desplegar contenedores en Kubernetes?",
+            "opciones": [
+                "A. Helm",
+                "B. Ansible",
+                "C. Shell script",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Helm",
+            "justificacion": "La opción A es correcta por analogía funcional con el documento, que en la sección 4.3 menciona proyectos para \"mejorar la gestión de los contenedores y su despliegue como Docker Compose, Docker Machine o Docker Swarm\". Helm cumple una función equivalente de gestión y despliegue de paquetes en entornos de contenedores (como Kubernetes), alineándose con el concepto de herramientas de orquestación y despliegue descrito para la virtualización de sistema operativo.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3 Virtualización de sistema operativo. Primera oración del párrafo relevante: \"En paralelo al proyecto Docker, hay otros proyectos que permiten mejorar la gestión de los contenedores y su despliegue como Docker Compose, Docker Machine o Docker Swarm...\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "Señale la opción que no corresponde a un tipo de virtualización:",
+            "opciones": [
+                "A. Virtualización de Sistema Operativo",
+                "B. Virtualzación de escritorio",
+                "C. Virtualización de software",
+                "D. Virtualización de red"
+            ],
+            "opcion_correcta": "C. Virtualización de software",
+            "justificacion": "La opción C es correcta porque el Sumario del documento y las secciones principales enumeran explícitamente la virtualización de servidores, almacenamiento, escritorios/aplicaciones y redes como categorías técnicas. No existe una categoría denominada \"Virtualización de software\" en la estructura temática presentada, siendo esta un término genérico que no se ajusta a las clasificaciones específicas (Hardware, OS, Red, Almacenamiento) descritas en el texto.",
+            "referencia": "Sección: Sumario. Primera oración del párrafo relevante: \"Sumario\". (Referencia a los puntos 4, 5, 6 y 7 que listan las virtualizaciones de Servidores, Almacenamiento, Escritorios y Redes)."
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "La especificación OVF es un:",
+            "opciones": [
+                "A. Formato abierto para gestores de bases de datos volátiles.",
+                "B. Formato abierto para aplicaciones ofimáticas.",
+                "C. Estándar abierto para empaquetar y distribuir appliances para ejecutar en máquinas virtuales.",
+                "D. Estándar abierto para formatos de imagen admitido en la NTI de catálogo de estándares."
+            ],
+            "opcion_correcta": "C. Estándar abierto para empaquetar y distribuir appliances para ejecutar en máquinas virtuales.",
+            "justificacion": "La opción C es correcta conceptualmente, ya que el documento establece en la Introducción y Sección 4.1 que las máquinas virtuales \"se pueden gestionar, actualizar y manipular fácilmente como si fuesen ficheros\", permitiendo moverlas y guardarlas en medios de almacenamiento estándar. El OVF cumple esta función de empaquetado y distribución de appliances (máquinas virtuales preconfiguradas) descrita en el texto como una característica de la virtualización completa.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Esto significa que las máquinas virtuales se pueden gestionar, actualizar y manipular fácilmente como si fuesen ficheros, por lo que proporcionar una máquina virtual es un proceso rápido y simple.\""
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "VMware es un software de virtualización de:",
+            "opciones": [
+                "A. Sistema operativo",
+                "B. Red",
+                "C. Paravirtualización",
+                "D. Hardware"
+            ],
+            "opcion_correcta": "D. Hardware",
+            "justificacion": "La opción D es correcta porque el documento clasifica explícitamente a VMware en la sección 4.1 bajo \"Virtualización completa o de hardware\", listando productos como \"VMware Workstation, VMware ESXi, VMware ESX\" como ejemplos de software comercial para esta técnica que permite ejecutar múltiples sistemas operativos sobre el mismo equipo físico.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.1 Virtualización completa o de hardware. Primera oración del párrafo relevante: \"Ejemplos de software comercial: VMware Workstation, VMware ESXi, VMware ESX, VMware vSphere, Microsoft Hyper-V, Oracle Virtual Box, QEMU, KVM (Kernel-base Virtual Machine), etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "¿Qué afirmación es VERDADERA sobre OCI (Open Container Initiative)?",
+            "opciones": [
+                "A. Es una organización que advierte sobre el problema de motores de contenedores privativos (como Docker) y promueve la utilización de otros productos open source.",
+                "B. Es la organización que ha creado el sistema de contenedores Podman.",
+                "C. Persigue el desarrollo de un nuevo sistema de contenedores rootless (sin root) y daemonless (sin un servicio asociado).",
+                "D. Persigue la estandarización del formato de las imágenes y de la ejecución de contenedores."
+            ],
+            "opcion_correcta": "D. Persigue la estandarización del formato de las imágenes y de la ejecución de contenedores.",
+            "justificacion": "La opción D es correcta porque, aunque el término OCI no aparece explícitamente en el texto, el documento describe en la sección 4.3 el uso de contenedores (como Docker) destacando su \"Portabilidad\" y capacidad de desplegarse en cualquier sistema que soporte la tecnología. La iniciativa de estandarización alinea con el concepto descrito de crear un entorno de ejecución independiente de la plataforma hardware y del sistema operativo, facilitando la portabilidad mencionada en el texto.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3 Virtualización de sistema operativo. Primera oración del párrafo relevante: \"Desde 2014, el uso de contenedores vuelve a estar en auge. Prueba de ello, es el proyecto de código abierto Docker...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "¿Cuál de estos no es un producto de virtualización de VMware?",
+            "opciones": [
+                "A. VMWare Parallels",
+                "B. VMWare ESXi",
+                "C. VMWare Workstation",
+                "D. VMWare Fusion"
+            ],
+            "opcion_correcta": "A. VMWare Parallels",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 4.1, lista explícitamente productos de VMware como \"VMware Workstation, VMware ESXi, VMware ESX, VMware vSphere\". Por otro lado, en la sección 4.3, menciona \"Parallels Virtuozzo\" como un ejemplo de software comercial para virtualización de sistema operativo, diferenciándolo de los productos de hardware virtualización de VMware listados anteriormente.",
+            "referencia": "Sección: 4 VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.1 Virtualización completa o de hardware. Primera oración del párrafo relevante: \"Ejemplos de software comercial: VMware Workstation, VMware ESXi, VMware ESX, VMware vSphere...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "En el contexto de virtualización de puestos de trabajo (VDI), de entre las siguientes opciones, seleccione la que se corresponde con uno de los problemas de los escritorios virtuales no persistentes frente a los persistentes:",
+            "opciones": [
+                "A. Dificultad de personalización por parte de los usuarios.",
+                "B. Mayores necesidades de almacenamiento en todos los casos.",
+                "C. Mayor complejidad en la gestión de la seguridad.",
+                "D. Mayor gasto energético."
+            ],
+            "opcion_correcta": "A. Dificultad de personalización por parte de los usuarios.",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 6.1, define los escritorios no persistentes o dinámicos como aquellos donde \"a partir de una imagen maestra para todos los usuarios se realiza un clon\", lo que implica que no mantienen cambios entre sesiones, a diferencia de los persistentes que \"mantienen su configuración una vez cerrada la sesión\". Esto limita la capacidad del usuario de personalizar su entorno permanentemente.",
+            "referencia": "Sección: 6 VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES. Subsección: 6.1 Modos de operación. Primera oración del párrafo relevante: \"pudiendo tener escritorios de dos tipos: escritorios persistentes o estáticos, asignados directamente a un usuario y que mantienen su configuración una vez cerrada la sesión...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "Dentro de la arquitectura de una implementación VDI, ¿cuál es la función principal del «Connection Broker»?",
+            "opciones": [
+                "A. Autenticar a los usuarios, asignarles el escritorio virtual adecuado del pool disponible y redirigir su conexión al mismo.",
+                "B. Gestionar el almacenamiento físico de todas las máquinas virtuales.",
+                "C. Distribuir la carga de trabajo entre los distintos hipervisores para optimizar el rendimiento.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Autenticar a los usuarios, asignarles el escritorio virtual adecuado del pool disponible y redirigir su conexión al mismo.",
+            "justificacion": "La opción A es correcta porque el documento, en la sección 6, describe explícitamente la función del bróker como un elemento que \"actúe de 'bróker', siendo intermediario entre el usuario y el servidor de escritorio que le corresponda\", lo cual implica la gestión de la conexión y asignación adecuada al recurso disponible.",
+            "referencia": "Sección: 6 VIRTUALIZACIÓN DE ESCRITORIOS Y APLICACIONES. Subsección: (Sin subsección específica, párrafo final de la sección). Primera oración del párrafo relevante: \"En función de la complejidad de la infraestructura, se podrán añadir nuevos elementos que ayuden en la administración de los escritorios, como por ejemplo, un servidor que actúe de 'bróker'...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "¿Cuál de las siguientes NO es una solución de infraestructura hiperconvergente?",
+            "opciones": [
+                "A. Dell PowerHCI.",
+                "B. HPE SimpliVity.",
+                "C. Nutanix.",
+                "D. Cisco HyperFlex."
+            ],
+            "opcion_correcta": "A. Dell PowerHCI.",
+            "justificacion": "La opción A es correcta basándose en el conocimiento externo aplicado a los conceptos del documento, ya que el texto (Secciones 1, 4, 5 y 7) describe la integración de virtualización de servidores, almacenamiento y redes como base de infraestructuras consolidadas. Aunque el documento no lista marcas específicas de hiperconvergencia, define la tecnología subyacente (combinación de hardware y software para recursos lógicos), y en el contexto del sector, Dell PowerHCI no es una solución estándar reconocida frente a las otras opciones que sí implementan los conceptos de integración descritos.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: (Sin subsección). Primera oración del párrafo relevante: \"La virtualización es la combinación de hardware y software que permite a un conjunto de recursos físicos funcionar como si fueran múltiples recursos lógicos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "Indique cuál de los siguientes entornos de virtualización es de código abierto:",
+            "opciones": [
+                "A. Proxmox VE.",
+                "B. VMware.",
+                "C. PowerVM.",
+                "D. XenApp."
+            ],
+            "opcion_correcta": "A. Proxmox VE.",
+            "justificacion": "La opción A es correcta porque, aunque el documento no menciona explícitamente \"Proxmox\", establece en la Sección 4 que existen soluciones de virtualización de software abierto (como KVM o Xen) frente a soluciones comerciales propietarias (como VMware). Proxmox se alinea conceptualmente con las tecnologías de código abierto descritas en el texto, mientras que VMware y XenApp son citados como ejemplos de software comercial o propietario.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.2. Virtualización parcial o paravirtualización. Primera oración del párrafo relevante: \"Con esta técnica el hypervisor ofrece a los sistemas operativos invitados una interfaz especial, mediante la cual pueden acceder a los recursos físicos...\". (Nota: El texto menciona explícitamente \"software abierto\" en relación con Xen y Linux en esta sección)."
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "La virtualización de servidores en un centro de proceso de datos permite:",
+            "opciones": [
+                "A. No tener absolutamente ningún límite en la capacidad de proceso y de cálculo, ya que, al estar virtualizados, los servidores se pueden ampliar infinitamente.",
+                "B. Disponer de un hardware (servidores físicos) que se puede ofrecer como varios servidores virtuales, permitiendo la optimización y el mejor aprovechamiento de la capacidad de cálculo en el centro de proceso de datos.",
+                "C. Dar soporte a más usuarios, pero con tiempos de respuesta significativamente peores y con un límite muy restrictivo en el espacio en disco utilizado por cada usuario.",
+                "D. Mejorar mucho los tiempos de acceso a las aplicaciones, ya que el acceso a un servidor virtual es siempre mucho más rápido que a un servidor físico."
+            ],
+            "opcion_correcta": "B. Disponer de un hardware (servidores físicos) que se puede ofrecer como varios servidores virtuales, permitiendo la optimización y el mejor aprovechamiento de la capacidad de cálculo en el centro de proceso de datos.",
+            "justificacion": "La opción B es correcta porque el documento define en la Sección 4 que el objetivo de la virtualización de servidores es ofrecer múltiples servidores virtuales mediante un único equipamiento físico, lo que permite optimizar el uso del hardware y mejorar la ratio de utilización de los recursos, tal como se detalla en las razones para la virtualización.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Primera oración del párrafo relevante: \"El objetivo de la virtualización de servidores es ofrecer múltiples servidores virtuales mediante un único equipamiento físico, dando la impresión de tener un hardware dedicado para cada servidor virtual.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "Indique la opción correcta en relación a la virtualización basada en contenedores:",
+            "opciones": [
+                "A. Los contenedores son instancias aisladas de ejecución de usuario que comparten un núcleo de sistema operativo común",
+                "B. Cada contenedor integra un sistema operativo completo, incluido el KERNEL",
+                "C. Los contenedores requieren ejecutarse dentro de un hipervisor",
+                "D. Los contenedores no pueden ejecutarse dentro de máquinas virtuales"
+            ],
+            "opcion_correcta": "A. Los contenedores son instancias aisladas de ejecución de usuario que comparten un núcleo de sistema operativo común",
+            "justificacion": "La opción A es correcta porque la Sección 4.3 explica que en la virtualización de sistema operativo (contenedores), se crean entornos aislados en un único servidor físico y una única instancia de sistema operativo, compartiendo el kernel del anfitrión, a diferencia de las máquinas virtuales que requieren un sistema operativo completo subyacente.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.3. Virtualización de sistema operativo. Primera oración del párrafo relevante: \"En la virtualización de sistema operativo, el sistema operativo anfitrión virtualiza el hardware a nivel de sistema operativo, permitiendo que varios sistemas invitados se ejecuten de manera autónoma en el mismo servidor físico accediendo por igual a todos los recursos del sistema.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "¿Cuál de los siguientes NO es un producto de virtualización?",
+            "opciones": [
+                "A. Virtual PC.",
+                "B. XEN.",
+                "C. Atheros.",
+                "D. VirtualBox."
+            ],
+            "opcion_correcta": "C. Atheros.",
+            "justificacion": "La opción C es correcta porque el documento lista explícitamente en la Sección 4 productos como Virtual PC, Xen y VirtualBox como ejemplos de software de virtualización (hipervisores o gestores de máquinas virtuales), mientras que Atheros no aparece en el texto ni se ajusta a las definiciones de hipervisor o gestor de virtualización proporcionadas.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.1. Virtualización completa o de hardware. Primera oración del párrafo relevante: \"Ejemplos de software comercial: VMware Workstation, VMware ESXi, VMware ESX, VMware vSphere, Microsoft Hyper-V, Oracle Virtual Box, QEMU, KVM...\". (Nota: Xen y Virtual PC se mencionan en las subsecciones 4.2 y 4 respectivamente como ejemplos de virtualización)."
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "Cuando hablamos de nuevas arquitecturas tecnológicas de centros de proceso de datos, un centro de datos definido por software o \"SDDC\":",
+            "opciones": [
+                "A. Se trata de un centro de proceso de datos definido y diseñado por un software especializado que permite dimensionar tanto capacidades tecnológicas como industriales, según requisitos introducidos.",
+                "B. Extiende el concepto de virtualización de servidores al almacenamiento y las comunicaciones en un centro de proceso de datos, proporcionando un único conjunto de herramientas software para administrar esos recursos virtualizados.",
+                "C. Es un centro de proceso de datos en el que solo se gestiona el software, siendo el hardware una utilidad que puede estar gestionado por otra organización.",
+                "D. Se trata de un centro de proceso de datos en el que el hardware es emulado por software, por lo que la administración de este se basa en una adecuada gestión del software instalado."
+            ],
+            "opcion_correcta": "B. Extiende el concepto de virtualización de servidores al almacenamiento y las comunicaciones en un centro de proceso de datos, proporcionando un único conjunto de herramientas software para administrar esos recursos virtualizados.",
+            "justificacion": "La opción B es correcta porque la Introducción y las Conclusiones del documento establecen que hoy en día es posible virtualizar no solo servidores, sino también almacenamiento y redes, integrando estos recursos lógicos para mejorar la eficiencia y gestión en los centros de datos, lo cual coincide con el concepto de extender la virtualización a todos los recursos.",
+            "referencia": "Sección: 1. INTRODUCCIÓN. Primera oración del párrafo relevante: \"Hoy en día, es posible virtualizar servidores, almacenamiento, redes e incluso puestos de trabajo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "La virtualización parcial o paravirtualización usa la técnica de:",
+            "opciones": [
+                "A. Ring out",
+                "B. Ring deprivileging",
+                "C. Virtualización por software",
+                "D. Emulación"
+            ],
+            "opcion_correcta": "B. Ring deprivileging",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección sobre virtualización parcial que, al virtualizar un sistema operativo, su núcleo no puede ejecutarse en el ring 0, por lo que se utiliza una técnica denominada \"ring deprivileging\". Esta técnica modifica el sistema operativo para que se ejecute en ring 1, dejando el ring 0 para el hypervisor, lo cual descarta las demás opciones que no corresponden a la terminología específica utilizada en el texto para describir este mecanismo.",
+            "referencia": "Sección: 4. VIRTUALIZACIÓN DE SERVIDORES. Subsección: 4.2. Virtualización parcial o paravirtualización, Primera oración del párrafo relevante: \"Al virtualizar un sistema operativo, su núcleo no puede ejecutarse en el ring 0, por lo que se utiliza una técnica denominada 'ring deprivileging'...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "¿Cuál de las siguientes no es una tecnología de virtualización?",
+            "opciones": [
+                "A. XEN",
+                "B. KVM",
+                "C. UML",
+                "D. Todas lo son"
+            ],
+            "opcion_correcta": "D. Todas lo son",
+            "justificacion": "**\nLa opción D es correcta porque el documento confirma que XEN, KVM y UML son tecnologías de virtualización. En la página 7 se menciona KVM (\"Kernel-base Virtual Machine\") como ejemplo de software comercial en virtualización completa. En la página 8 se citan Xen y UML como ejemplos de software para paravirtualización. Por tanto, todas las opciones listadas son tecnologías válidas.",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: 4.1 y 4.2"
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "¿Cuál de las siguientes son las siglas de una infraestructura de virtualización del kernel de Linux?",
+            "opciones": [
+                "A. VLM",
+                "B. LVM",
+                "C. VKM",
+                "D. KVM"
+            ],
+            "opcion_correcta": "D. KVM",
+            "justificacion": "**\nLa opción D es correcta según el documento. En la página 7, dentro de los ejemplos de software comercial para virtualización completa, se lista explícitamente \"KVM (Kernel-base Virtual Machine)\". Las otras siglas no se mencionan en este contexto específico de infraestructura de kernel.",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: 4.1. Virtualización completa o de hardware"
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "La técnica de virtualización de infraestructura TIC denominada paravirtualización pone énfasis (comparado con la virtualización completa) en:",
+            "opciones": [
+                "A. Compatibilidad e interoperabilidad",
+                "B. Rendimiento",
+                "C. Costes",
+                "D. Inteligencia artificial"
+            ],
+            "opcion_correcta": "B. Rendimiento",
+            "justificacion": "**\nLa opción B es correcta. En la página 8, sección 4.2, se explica que en la paravirtualización el sistema invitado realiza llamadas directas a los recursos (\"hypercalls\"), lo que permite \"acelerando el rendimiento de ejecución\". Se contrasta con la virtualización completa donde la traducción genera una sobrecarga considerable.",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: 4.2. Virtualización parcial o paravirtualización"
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "La técnica que utiliza la paravirtualización se denomina:",
+            "opciones": [
+                "A. Ringing up",
+                "B. Ring deprivileging",
+                "C. Privileging",
+                "D. Hypervisor"
+            ],
+            "opcion_correcta": "B. Ring deprivileging",
+            "justificacion": "**\nLa opción B es correcta. El texto en la página 8, sección 4.2, establece explícitamente: \"se utiliza una técnica denominada 'ring deprivileging', donde el sistema operativo es modificado para poder ejecutarse en ring 1 dejando el ring 0 para el hypervisor\".",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: 4.2. Virtualización parcial o paravirtualización"
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "Respecto a productos de virtualización, señale la afirmación falsa:",
+            "opciones": [
+                "A. Virtual Box es una solución de virtualización de Oracle",
+                "B. Hyper-V es una solución de virtualización de Microsoft",
+                "C. La distribución de GNU/Linux Red Hat mantiene una infraestructura de virtualización para el kernel de Linux",
+                "D. VMWare Player es una solución de virtualización de escritorio gratuita y de fuentes abiertas de VMWare"
+            ],
+            "opcion_correcta": "D. VMWare Player es una solución de virtualización de escritorio gratuita y de fuentes abiertas de VMWare",
+            "justificacion": "**\nLa opción D es la afirmación falsa (y por tanto la correcta en este test). El documento menciona en las páginas 6 y 7 productos VMware como Workstation, ESXi, vSphere, pero no califica a VMware Player como \"de fuentes abiertas\". Por el contrario, en las páginas 8 y 10-11 se asocia el término \"código abierto\" o \"gratuito\" a proyectos como Bochs, QEMU, Docker, Xen, etc., diferenciándolos de soluciones comerciales propietarias.",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: 4.1 y 4.2"
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "Los dos enfoques más habituales de la virtualización de servidores o estaciones de trabajo son:",
+            "opciones": [
+                "A. Hospedada y mediante hypervisor (bare metal)",
+                "B. Paralela y mediante hypervisor (bare metal)",
+                "C. Balanceada y mediante SPM (Service Platform Manager)",
+                "D. Mediante hipervisor (bare metal) y mediante supervisor (full metal)"
+            ],
+            "opcion_correcta": "A. Hospedada y mediante hypervisor (bare metal)",
+            "justificacion": "**\nLa opción A es correcta. En la página 6, sección 4, el documento distingue dos tipos de hipervisores: \"Tipo1, hypervisor nativo o bare-metal\" y \"Tipo 2, hypervisor alojado o hosted\". \"Hospedada\" corresponde a la traducción de \"Hosted/Alojado\".",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: Introducción al Hypervisor"
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "Si hablamos de virtualización ¿cuál de las siguientes afirmaciones es correcta?",
+            "opciones": [
+                "A. La virtualización del sistema operativo ofrece un conjunto de librerías que hace que las aplicaciones que se ejecutan aparenten que lo hacen en una máquina dedicada",
+                "B. La virtualización del sistema operativo es la mejor solución para configuraciones heterogéneas",
+                "C. La virtualización del sistema operativo hace que las aplicaciones funcionen siempre igual de rápido que en el mismo sistema dedicado",
+                "D. En emulación hardware o VMM las aplicaciones no pueden migrarse entre máquinas diferentes"
+            ],
+            "opcion_correcta": "A. La virtualización del sistema operativo ofrece un conjunto de librerías que hace que las aplicaciones que se ejecutan aparenten que lo hacen en una máquina dedicada",
+            "justificacion": "**\nLa opción A es correcta. En la página 9, sección 4.3, se explica que los contenedores (virtualización de SO) \"comparten las librerías comunes del sistema\" y \"hace que cada uno de los contenedores aparezca como servidor autónomo\". La opción B es falsa porque requieren el mismo SO anfitrión (pág 9). La D es falsa porque en virtualización completa se puede mover máquinas virtuales (pág 7).",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: 4.3. Virtualización de sistema operativo"
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "En el contexto de la virtualización, ¿qué es el hypervisor?",
+            "opciones": [
+                "A. Un módulo en el sistema operativo huésped que monitoriza el uso de recursos del mismo.",
+                "B. La extensión del gestor de procesos del sistema operativo anfitrión que permite compartir memoria a los procesos de distintos sistemas operativos huéspedes.",
+                "C. Es la plataforma que permite ejecutar concurrentemente varios sistemas operativos en una máquina.",
+                "D. Un módulo en el sistema operativo anfitrión que monitoriza el uso de recursos del mismo."
+            ],
+            "opcion_correcta": "C. Es la plataforma que permite ejecutar concurrentemente varios sistemas operativos en una máquina.",
+            "justificacion": "**\nLa opción C es correcta. En la página 3, sección 2, se define el Hypervisor o VMM como el software que \"se ejecuta en el sistema operativo anfitrión\" (o directamente en hardware) y permite que \"Un sistema anfitrión suele albergar varios sistemas invitados\". Su función es gestionar los accesos a recursos físicos para múltiples sistemas.",
+            "referencia": "**\nSección: 2. CONCEPTOS BÁSICOS Subsección: Definición de Hypervisor"
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "¿Cuál de estos NO es un producto de virtualización de VMWare?",
+            "opciones": [
+                "A. VMWare Parallels",
+                "B. VMWare ESXi",
+                "C. VMWare Workstation",
+                "D. VMWare Fusion"
+            ],
+            "opcion_correcta": "A. VMWare Parallels",
+            "justificacion": "**\nLa opción A es correcta (como la que NO es de VMware). En la página 7 se listan productos VMware como Workstation, ESXi, vSphere. En la página 9 se menciona \"Parallels Virtuozzo\" como ejemplo de virtualización de sistema operativo, indicando que Parallels es una entidad o producto distinto al ecosistema VMware listado en el texto.",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: 4.1 y 4.3"
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "En un entorno de virtualización de máquinas, ¿cuál de los siguientes elementos está más próximo al hardware?",
+            "opciones": [
+                "A. Hipervisor o VMM (Virtual Machine Monitor)",
+                "B. LVM (Logical Volume Manager)",
+                "C. Sistema operativo hospedado",
+                "D. HBA (host Bus Adapter)"
+            ],
+            "opcion_correcta": "A. Hipervisor o VMM (Virtual Machine Monitor)",
+            "justificacion": "**\nLa opción A es correcta según la clave de soluciones y el contexto del documento. En la página 6, sección 4, se describe el \"Tipo1, hypervisor nativo o bare-metal\" que \"se ejecuta directamente sobre el hardware\". Aunque el HBA es hardware físico, en la arquitectura lógica de virtualización descrita, el Hipervisor es la capa de software más baja que gestiona el acceso directo a los recursos físicos.",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: Tipos de Hypervisores"
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "Con la herramienta de virtualización Xen, ¿podemos virtualizar Microsoft Windows?",
+            "opciones": [
+                "A. Sí, siempre que la CPU tenga soporte de x86 virtualization.",
+                "B. Sí, desde la versión 2.0",
+                "C. Sí, siempre que el sistema operativo anfitrión también sea Microsoft Windows.",
+                "D. Sí, siempre que no queramos utilizar en el Windows huésped las Microsoft Enhanced Process Capabilities."
+            ],
+            "opcion_correcta": "A. Sí, siempre que la CPU tenga soporte de x86 virtualization.",
+            "justificacion": "**\nLa opción A es correcta. En la página 8, sección 4.2, se explica que Intel y AMD desarrollaron extensiones de virtualización (Intel VT-x, AMD-V) para facilitar la virtualización de la CPU y permitir ejecutar sistemas operativos directamente en el ring 0 sin recompilar, mejorando el rendimiento. Xen requiere este soporte de hardware para virtualizar sistemas como Windows eficientemente (HVM).",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: 4.2. Virtualización parcial o paravirtualización"
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "VMWare es un software de virtualización de",
+            "opciones": [
+                "A. Sistema operativo",
+                "B. Red",
+                "C. Paravirtualización",
+                "D. Hardware"
+            ],
+            "opcion_correcta": "D. Hardware",
+            "justificacion": "**\nLa opción D es correcta. En la página 7, sección 4.1, se listan productos como VMware Workstation y ESXi bajo el epígrafe \"Virtualización completa o de hardware\". El texto indica que esta técnica permite ejecutar múltiples sistemas operativos sobre el mismo equipo físico virtualizando los recursos hardware.",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: 4.1. Virtualización completa o de hardware"
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "Señale la definición más correcta para el producto XEN:",
+            "opciones": [
+                "A. Entorno de ejecución .NET sobre Linux, al estilo de Mono",
+                "B. Hoja de cálculo para KDE",
+                "C. Sistema gestor de redes empresariales extendidas",
+                "D. Sistema de virtualización de sistemas operativos, de fuente abierta"
+            ],
+            "opcion_correcta": "D. Sistema de virtualización de sistemas operativos, de fuente abierta",
+            "justificacion": "**\nLa opción D es correcta. En la página 8, sección 4.2, Xen se lista como ejemplo de software para paravirtualización. Aunque el texto lo menciona junto a soluciones comerciales, en el contexto general de virtualización (página 6 y 8) se asocia con tecnologías que permiten ejecutar sistemas operativos invitados, y es conocido por ser de código abierto (implícito en su mención junto a KVM/QEMU en contextos de TI pública).",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: 4.2. Virtualización parcial o paravirtualización"
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "¿Cuál de las siguientes NO es una de las tres condiciones de Popek y Godbergh que debe cumplir toda arquitectura informática para soportar adecuadamente virtualización de sistemas?",
+            "opciones": [
+                "A. Eficiencia",
+                "B. Control de Recursos",
+                "C. Equivalencia",
+                "D. Escalabilidad"
+            ],
+            "opcion_correcta": "D. Escalabilidad",
+            "justificacion": "**\nLa opción D es correcta (como la que NO es condición). Aunque el documento no cita explícitamente a Popek y Goldberg, describe los principios fundamentales en las páginas 2 y 3: \"Eficiencia\" (pág 4), \"Control de Recursos\" (gestión de accesos pág 3) y \"Equivalencia\" (funcionar como si fueran recursos físicos pág 2). La escalabilidad es una ventaja o característica deseable, pero no una condición arquitectónica fundamental para la viabilidad de la virtualización según la teoría estándar implícita en el texto.",
+            "referencia": "**\nSección: 2. CONCEPTOS BÁSICOS Subsección: Definición y Razones"
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "Virtuozzo es un software para virtualización de",
+            "opciones": [
+                "A. Hardware",
+                "B. Red",
+                "C. Sistema operativo",
+                "D. Escritorio"
+            ],
+            "opcion_correcta": "C. Sistema operativo",
+            "justificacion": "**\nLa opción C es correcta. En la página 9, sección 4.3 \"Virtualización de sistema operativo\", se menciona explícitamente como ejemplo de software comercial: \"Parallels Virtuozzo\". Esta técnica virtualiza el hardware a nivel de sistema operativo (kernel) creando contenedores.",
+            "referencia": "**\nSección: 4. VIRTUALIZACIÓN DE SERVIDORES Subsección: 4.3. Virtualización de sistema operativo"
+        }
+    ]
+}

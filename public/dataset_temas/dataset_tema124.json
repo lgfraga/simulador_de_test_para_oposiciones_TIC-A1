@@ -1,0 +1,822 @@
+{
+    "nombre_tema": "Tema 124",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Indique cuál de los siguientes términos corresponde al nombre de un lenguaje de programación de código abierto pensado para funcionar con la Máquina Virtual de Java (JVM):",
+            "opciones": [
+                "A. Rabbit",
+                "B. Aiva",
+                "C. Kotlin",
+                "D. Lumen"
+            ],
+            "opcion_correcta": "C. Kotlin",
+            "justificacion": "La opción C es correcta porque, aunque el documento menciona explícitamente Java como lenguaje principal para Android, establece en la sección de Arquitectura de la plataforma Android que el sistema se basa en un núcleo Linux y utiliza tiempos de ejecución (ART/Dalvik) compatibles con la lógica de máquinas virtuales de Java. Kotlin es un lenguaje moderno de código abierto diseñado específicamente para funcionar en la JVM y es compatible con este entorno de desarrollo Android descrito, alineándose conceptualmente con las tecnologías de desarrollo nativo para Android expuestas en el texto.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.1 Aplicaciones Android. Primera oración del párrafo relevante: \"El desarrollo de aplicaciones nativas para Android se realiza normalmente utilizando lenguaje Java y el Android SDK provisto por Google.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Cuál de las siguientes es una plataforma de código abierto para compilar aplicaciones para iOS, Android y Windows con .NET?",
+            "opciones": [
+                "A. Xamarin",
+                "B. CLRNeT",
+                "C. JDK",
+                "D. EclipseNET"
+            ],
+            "opcion_correcta": "A. Xamarin",
+            "justificacion": "La opción A es correcta porque el documento identifica explícitamente a Xamarin como un framework de desarrollo que permite crear aplicaciones móviles multiplataforma (Android, iOS y Windows) utilizando .NET. El texto detalla que con Xamarin la mayor parte del código se ubica en un proyecto compartido que tiene acceso al framework de .NET, permitiendo la reutilización entre plataformas.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.4 Desarrollo nativo multiplataforma. Primera oración del párrafo relevante: \"En el año 2014 apareció Xamarin.Forms, un framework de desarrollo que actualmente pertenece a Microsoft, y que permite crear aplicaciones móviles multiplataforma...\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Indique cuál de los siguientes términos corresponde al nombre de un lenguaje de programación creado por Apple que permite desarrollar aplicaciones para dispositivos con sistema operativo iOS:",
+            "opciones": [
+                "A. Swift",
+                "B. Brave",
+                "C. Objetive-C",
+                "D. Paxton"
+            ],
+            "opcion_correcta": "A. Swift",
+            "justificacion": "La opción A es correcta porque el documento especifica en la sección de Aplicaciones iOS que para la codificación de estas aplicaciones normalmente se utiliza el lenguaje Swift, aunque también menciona Objective-C. Swift es el lenguaje moderno creado por Apple descrito en el texto como el estándar actual para el desarrollo nativo en dicha plataforma.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.2 Aplicaciones iOS. Primera oración del párrafo relevante: \"Para la codificación de aplicaciones iOS normalmente se utiliza el lenguaje Swift (aunque todavía existen aplicaciones desarrolladas con lenguaje Objective-C).\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Qué extensión tienen los paquetes iOS?",
+            "opciones": [
+                "A. .apk",
+                "B. .ipa",
+                "C. .apx",
+                "D. .apa"
+            ],
+            "opcion_correcta": "B. .ipa",
+            "justificacion": "La opción B es correcta porque el documento establece claramente en la sección de Distribución de aplicaciones iOS que las aplicaciones se empaquetan en un archivo con extensión IPA antes de ser publicadas en la App Store, diferenciándolas de los paquetes APK de Android o APPX de Windows.",
+            "referencia": "Sección: 3 Distribución de aplicaciones móviles. Subsección: 3.2 Distribución de aplicaciones iOS. Primera oración del párrafo relevante: \"En el caso de iOS, las aplicaciones se empaquetan en un archivo con extensión IPA, se firman digitalmente con un certificado, y se publican en la tienda App Store.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "¿A qué siglas corresponde la siguiente definición: \"Software de gestión de dispositivos móviles y portátiles conectados a la red corporativa\"?:",
+            "opciones": [
+                "A. MDM (Mobile Device Management).",
+                "B. MAM (Mobile Application Management).",
+                "C. EMM (Enterprise Mobile Management).",
+                "D. BYOD (Bring Your Own Device)."
+            ],
+            "opcion_correcta": "A. MDM (Mobile Device Management).",
+            "justificacion": "La opción A es correcta porque, aunque el término específico \"MDM\" no aparece explícitamente en el documento, este describe la gestión y control de aplicaciones móviles en entornos de Administración Pública y corporativos (Sección 1 y 3), donde se requiere supervisar la distribución, políticas de uso y seguridad de los dispositivos conectados. El concepto funcional de gestionar dispositivos en una red corporativa se alinea con las prácticas de distribución y revisión de políticas descritas para aplicaciones institucionales en el texto.",
+            "referencia": "Sección: 1 Introducción a las aplicaciones móviles. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"La Administración Pública no ha sido ajena a este cambio, y actualmente disponen también de un amplio conjunto de aplicaciones móviles como Cl@ve PIN de la Agencia Tributaria...\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Cuál de las siguientes NO forma parte de la arquitectura de la plataforma Android?",
+            "opciones": [
+                "A. Android Runtime.",
+                "B. Hardware Abstraction Layer (HAL).",
+                "C. Linux Kernel.",
+                "D. Cocoa Touch."
+            ],
+            "opcion_correcta": "D. Cocoa Touch.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de Arquitectura de la plataforma iOS que la \"Capa Cocoa Touch\" forma parte de dicha arquitectura, mientras que en la sección de Arquitectura de la plataforma Android se listan componentes como el Núcleo/Kernel de Linux, la Capa de abstracción de hardware (HAL) y el Android Runtime, sin mencionar Cocoa Touch. Por tanto, Cocoa Touch es exclusiva de iOS y no pertenece a la arquitectura de Android.",
+            "referencia": "Sección:  Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.1 Aplicaciones Android (para componentes Android) y 2.2.2 Aplicaciones iOS (para Cocoa Touch). Primera oración del párrafo relevante (página 9): \"A continuación se describen, de abajo hacia arriba, los componentes que integran esta arquitectura:\". Primera oración del párrafo relevante (página 12): \"Capa Cocoa Touch (Cocoa Touch Layer): proporciona la infraestructura básica de la aplicación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Señale la opción correcta:",
+            "opciones": [
+                "A. Las aplicaciones híbridas se basan en tecnologías como HTML5, CSS o JavaScript",
+                "B. Las aplicaciones nativas no necesitan ser instaladas en el terminal",
+                "C. Las aplicaciones web móviles se crean específicamente para un sistema operativo móvil",
+                "D. Tanto las aplicaciones híbridas como las nativas son independientes del sistema operativo móvil"
+            ],
+            "opcion_correcta": "A. Las aplicaciones híbridas se basan en tecnologías como HTML5, CSS o JavaScript",
+            "justificacion": "La opción A es correcta porque el documento indica explícitamente en la sección de Aplicaciones híbridas que \"Este tipo de aplicaciones se desarrollan utilizando tecnologías web como HTML, CSS y Javascript\". Las otras opciones son incorrectas según el texto: las nativas requieren instalación (página 6), las web móviles no se crean específicamente para un SO sino que se cargan en el navegador (página 4), y tanto híbridas como nativas dependen del sistema operativo para su funcionamiento o acceso a APIs (páginas 6 y 19).",
+            "referencia": "Sección:  Características y tecnologías. Subsección: 2.3 Aplicaciones híbridas. Primera oración del párrafo relevante (página 19): \"Este tipo de aplicaciones se desarrollan utilizando tecnologías web como HTML, CSS y Javascript...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "El entorno de desarrollo \"XCode\" se utiliza para el desarrollo de:",
+            "opciones": [
+                "A. Aplicaciones Android.",
+                "B. Aplicaciones iOS.",
+                "C. Aplicaciones híbridas.",
+                "D. Aplicaciones web móviles."
+            ],
+            "opcion_correcta": "B. Aplicaciones iOS.",
+            "justificacion": "La opción B es correcta porque el documento especifica en la sección de Entornos de desarrollo para iOS que \"El desarrollo de aplicaciones iOS... se lleva a cabo utilizando el entorno de desarrollo XCode\". Para Android se recomienda Android Studio (página 11) y para Windows Visual Studio (página 15), por lo que XCode es exclusivo del ecosistema Apple/iOS según el texto.",
+            "referencia": "Sección:  Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.2 Aplicaciones iOS. Subsubsubsección: 2.2.2.3 Entornos de desarrollo. Primera oración del párrafo relevante (página 13): \"El desarrollo de aplicaciones iOS... se lleva a cabo utilizando el entorno de desarrollo XCode.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "¿Cuál NO es una ventaja de las apps híbridas?",
+            "opciones": [
+                "A. Mayor rendimiento",
+                "B. Desarrollo y mantenimiento a menor coste",
+                "C. Desarrollo más rápido para múltiples plataformas",
+                "D. Mayor alcance de mercado"
+            ],
+            "opcion_correcta": "A. Mayor rendimiento",
+            "justificacion": "La opción A es correcta como respuesta negativa porque el documento lista entre los inconvenientes del desarrollo híbrido que \"El rendimiento no es tan bueno como en las aplicaciones nativas\". Por lo tanto, tener un mayor rendimiento no es una ventaja de este modelo, sino una desventaja comparativa. Las opciones B, C y D se alinean con las ventajas mencionadas como facilidad de desarrollo y reutilización de código (página 19).",
+            "referencia": "Sección:  Características y tecnologías. Subsección: 2.3 Aplicaciones híbridas. Primera oración del párrafo relevante sobre inconvenientes (página 20): \"Sin embargo, el desarrollo híbrido también presenta algunos inconvenientes, como los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Las media queries:",
+            "opciones": [
+                "A. Permiten realizar consultas para obtener elementos multimedia.",
+                "B. Permiten determinar cuál es el tamaño del dispositivo que se está utilizando.",
+                "C. Permiten realizar queries en bases de datos, pero no modificar los registros.",
+                "D. Permiten tanto realizar queries en bases de datos como modificar los registros obtenidos."
+            ],
+            "opcion_correcta": "B. Permiten determinar cuál es el tamaño del dispositivo que se está utilizando.",
+            "justificacion": "La opción B es correcta porque el documento explica en la sección de Aplicaciones web móviles que \"Así fue como aparecieron las media queries. Éstas permiten determinar cuál es el tamaño del dispositivo que se está utilizando, y en función de ello ajustar la visualización de la aplicación a través de estilos CSS\". Las otras opciones confunden el concepto con bases de datos o multimedia, lo cual no corresponde a la definición técnica proporcionada en el texto sobre diseño web adaptativo.",
+            "referencia": "Sección:  Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles. Primera oración del párrafo relevante (página 4): \"Así fue como aparecieron las media queries. Éstas permiten determinar cuál es el tamaño del dispositivo que se está utilizando...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "En relación con entornos de trabajo de desarrollo de aplicaciones móviles, señale cuál de las siguientes opciones es CORRECTA:",
+            "opciones": [
+                "A. Las aplicaciones nativas requieren la creación de una TWA (Trusted Web Authority).",
+                "B. Flutter, Ionic y Swiftic son frameworks para desarrollo de aplicaciones móviles.",
+                "C. Los tipos de aplicaciones móviles se pueden dividir en Nativas, Progresivas y Mixtas.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Flutter, Ionic y Swiftic son frameworks para desarrollo de aplicaciones móviles.",
+            "justificacion": "La opción B es correcta porque el documento confirma explícitamente la existencia de **frameworks** para el desarrollo de aplicaciones móviles, citando específicamente a **Ionic** como uno de ellos en la sección dedicada a aplicaciones híbridas. Aunque términos como Flutter o Swiftic no aparecen textualmente, la clasificación de herramientas como \"frameworks\" (ej. Ionic, PhoneGap) está sustentada en el texto, validando la naturaleza de la opción seleccionada dentro del contexto de tecnologías de desarrollo móvil descritas.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.3 Aplicaciones híbridas. Subsubsección: 2.3.1 Frameworks para el desarrollo de aplicaciones híbridas. Primera oración del párrafo relevante: \"Como se ha comentado anteriormente, el desarrollo de este tipo de aplicaciones se suele basar en la utilización de algún framework para el desarrollo de aplicaciones híbridas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Qué es una Webview?:",
+            "opciones": [
+                "A. Es un componente del sistema operativo que permite tener una vista nativa capaz de mostrar contenido de otras web ya existentes sin tener que abrir otro navegador.",
+                "B. Es un componente que permite rotar la pantalla del dispositivo móvil.",
+                "C. Es un componente que permite cambiar el tamaño de una página web.",
+                "D. Es un componente que permite personalizar una página web."
+            ],
+            "opcion_correcta": "A. Es un componente del sistema operativo que permite tener una vista nativa capaz de mostrar contenido de otras web ya existentes sin tener que abrir otro navegador.",
+            "justificacion": "La opción A es correcta porque el documento define textualmente a la **WebView** en el apartado de aplicaciones híbridas como \"una vista nativa capaz de mostrar contenido web\". Esta definición coincide con la descripción de la opción, diferenciándola de las aplicaciones web móviles que se cargan directamente a través del navegador estándar del dispositivo.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.3 Aplicaciones híbridas. Primera oración del párrafo relevante: \"Este tipo de aplicaciones se desarrollan utilizando tecnologías web como HTML, CSS y Javascript, pero a diferencia de las aplicaciones web móviles, se cargan a través de una WebView, que no es más que una vista nativa capaz de mostrar contenido web.\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Qué significa responsive web?",
+            "opciones": [
+                "A. Significa que la web siempre dará respuesta",
+                "B. Esto significa hacer que un sitio web sea accesible y adaptable en todos los devices: tabletas, smartphones, etc.",
+                "C. Significa que requiere un motor de búsqueda para su funcionamiento",
+                "D. Todas las respuestas son correctas"
+            ],
+            "opcion_correcta": "B. Esto significa hacer que un sitio web sea accesible y adaptable en todos los devices: tabletas, smartphones, etc.",
+            "justificacion": "La opción B es correcta porque el documento describe el **Responsive Web Design (RWD)** o diseño web adaptativo como un conjunto de técnicas que permiten que las aplicaciones web \"puedan ser visualizadas correctamente en diversos tipos de dispositivos y para diversos tamaños de pantalla\", lo cual implica la adaptación a smartphones, tabletas y otros dispositivos mencionados en la opción.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles. Primera oración del párrafo relevante: \"El Responsive Web Design es un conjunto de técnicas que permiten que las aplicaciones web puedan ser visualizadas correctamente en diversos tipos de dispositivos y para diversos tamaños de pantalla...\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es cierta en relación con las PWA (Progressive Web Application)?",
+            "opciones": [
+                "A. Requieren un lenguaje nativo diferente por SO, que permite el acceso más directo a los recursos del dispositivo y funcionalidades del SO.",
+                "B. Pueden utilizarse sin conexión a Internet.",
+                "C. No tienen acceso al hardware del dispositivo.",
+                "D. Requieren ser distribuidas a través de un sistema de distribución digital, como Apple App Store o Google Play."
+            ],
+            "opcion_correcta": "B. Pueden utilizarse sin conexión a Internet.",
+            "justificacion": "La opción B es correcta porque, aunque el término \"PWA\" no aparece explícitamente, el documento describe las **aplicaciones web móviles** (categoría funcional equivalente) y destaca la API de **HTML Application Cache**, que \"permite cachear la aplicación, de modo que posteriormente se puede acceder a ella en modo offline\". Esto sustenta la capacidad de funcionamiento sin conexión mencionada en la opción.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles. Primera oración del párrafo relevante: \"HTML Application Cache: permite cachear la aplicación, de modo que posteriormente se puede acceder a ella en modo offline, reduciéndose así el tiempo de carga y mejorando la velocidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Son frameworks para el desarrollo de aplicaciones híbridas los siguientes:",
+            "opciones": [
+                "A. Ionic.",
+                "B. Onsen UI.",
+                "C. Apache Cordova.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente en la sección de frameworks para desarrollo híbrido a **Ionic**, **Onsen UI** y **Adobe PhoneGap** (distribución del framework **Apache Cordova**), confirmando que todos los elementos listados en las opciones A, B y C son herramientas válidas según el texto.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.3 Aplicaciones híbridas. Subsubsección: 2.3.1 Frameworks para el desarrollo de aplicaciones híbridas. Primera oración del párrafo relevante: \"Como se ha comentado anteriormente, el desarrollo de este tipo de aplicaciones se suele basar en la utilización de algún framework para el desarrollo de aplicaciones híbridas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuál de los siguientes no es un framework de desarrollo de aplicaciones móviles multiplataforma?",
+            "opciones": [
+                "A. React Native.",
+                "B. Flutter.",
+                "C. Swift.",
+                "D. Xamarin."
+            ],
+            "opcion_correcta": "C. Swift.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente a Swift como un lenguaje de programación utilizado para la codificación de aplicaciones iOS, las cuales están diseñadas para ser utilizadas en dispositivos de Apple de forma exclusiva (sección 2.2.2). Por el contrario, el documento identifica a Xamarin como un framework que permite crear aplicaciones móviles multiplataforma generando código compartido para Android, iOS y Windows (sección 2.2.4). Aunque React Native y Flutter no se mencionan textualmente, Swift es la única opción claramente identificada en el texto como tecnología específica de una sola plataforma (iOS) y no como un framework multiplataforma.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.2 Aplicaciones iOS. Primera oración del párrafo relevante: \"El sistema operativo iOS (inicialmente denominado iPhone OS) es un sistema operativo desarrollado por Apple para ser utilizado de forma exclusiva en sus dispositivos...\".\nSección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.4 Desarrollo nativo multiplataforma. Primera oración del párrafo relevante: \"En el año 2014 apareció Xamarin.Forms, un framework de desarrollo que actualmente pertenece a Microsoft, y que permite crear aplicaciones móviles multiplataforma...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "La máquina Dalvik VM:",
+            "opciones": [
+                "A. Es de origen Alemán, el autor es David Linken.",
+                "B. Ejecuta los archivos (bytecode) con formato .dex",
+                "C. ART (Android RunTime) sustituye por completo a la máquina Daivik desde Android 8 (Oreo).",
+                "D. Las aplicaciones para Android, se escriben en lenguaje Java (.class), se compilan en .jar y se convierten a bytecode .dex que ejecutará la máquina Daivik o ART"
+            ],
+            "opcion_correcta": "B. Ejecuta los archivos (bytecode) con formato .dex",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección de arquitectura de Android que Dalvik era el tiempo de ejecución utilizado en versiones anteriores a la 5.0, antes de ser sustituido por ART (sección 2.2.1.1). Esto invalida la opción C, que afirma erróneamente que la sustitución ocurrió desde Android 8. Aunque el término \".dex\" no aparece explícitamente en el texto, la descripción del \"Android Runtime\" como el componente encargado de ejecutar las aplicaciones (sección 2.2.1.1) y la mención de que se crea un paquete APK para instalar la aplicación (sección 3.1), alinea conceptualmente con la función de una máquina virtual que ejecuta bytecode específico del sistema, siendo B la opción técnicamente coherente con la descripción del entorno de ejecución Android presentada en el documento frente a las afirmaciones falsas sobre fechas o orígenes en las otras opciones.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.1 Aplicaciones Android. Subsubsección: 2.2.1.1 Arquitectura de la plataforma Android. Primera oración del párrafo relevante: \"Android es una pila de software de código abierto basado en Linux, formada por un conjunto de capas...\".\nPárrafo específico sobre Dalvik/ART: \"Las versiones de Android anteriores a la 5.0 utilizaban Dalvik en lugar de ART como tiempo de ejecución.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "El entorno de desarrollo XCode se utiliza para el desarrollo de:",
+            "opciones": [
+                "A. Aplicaciones Android",
+                "B. Aplicaciones iOS",
+                "C. Aplicaciones híbridas",
+                "D. Aplicaciones web móviles"
+            ],
+            "opcion_correcta": "B. Aplicaciones iOS",
+            "justificacion": "La opción B es correcta porque el documento indica de manera explícita en la sección dedicada a los entornos de desarrollo para iOS que \"El desarrollo de aplicaciones iOS... se lleva a cabo utilizando el entorno de desarrollo XCode\" (sección 2.2.2.3). El texto especifica que este IDE proporciona las herramientas necesarias para gestionar el flujo completo de desarrollo de aplicaciones iOS, incluyendo codificación y envío a la App Store, diferenciándolo de otros entornos como Android Studio o Visual Studio mencionados para otras plataformas.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.2 Aplicaciones iOS. Subsubsección: 2.2.2.3 Entornos de desarrollo. Primera oración del párrafo relevante: \"El desarrollo de aplicaciones iOS (así como el desarrollo para Mac, Apple Watch y Apple TV) se lleva a cabo utilizando el entorno de desarrollo XCode.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Cómo se denominan las aplicaciones móviles desarrolladas con un SDK concreto y optimizadas para ser utilizadas en un sistema operativo en particular?",
+            "opciones": [
+                "A. Aplicaciones móviles multiplataforma.",
+                "B. Aplicaciones móviles híbridas.",
+                "C. Aplicaciones web móviles.",
+                "D. Aplicaciones móviles nativas."
+            ],
+            "opcion_correcta": "D. Aplicaciones móviles nativas.",
+            "justificacion": "La opción D es correcta porque el documento define en la sección de características y tecnologías que \"Las aplicaciones nativas están desarrolladas y optimizadas para ser utilizadas en un sistema operativo en particular (Android, iOS etc.)\" (sección 2.2). Además, especifica que para crear estas aplicaciones es necesario utilizar el kit de desarrollo específico para la plataforma deseada, conocido como SDK, lo cual coincide textualmente con la descripción planteada en la pregunta y descarta las opciones web o híbridas que utilizan tecnologías diferentes o combinadas.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Primera oración del párrafo relevante: \"Las aplicaciones nativas están desarrolladas y optimizadas para ser utilizadas en un sistema operativo en particular (Android, iOS etc.), adaptándose perfectamente a las funcionalidades y características del dispositivo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "El elemento Webview:",
+            "opciones": [
+                "A. Sólo puede utilizarse en apps híbridas.",
+                "B. Sólo puede utilizarse en apps nativas Android siempre que cumpla las políticas establecidas para su distribución en Google play.",
+                "C. Sólo puede utilizarse en apps nativas iOS siempre que cumpla las políticas establecidas para su distribución en Apple Store.",
+                "D. Puede emplearse tanto en apps híbridas como nativas."
+            ],
+            "opcion_correcta": "D. Puede emplearse tanto en apps híbridas como nativas.",
+            "justificacion": "La opción D es correcta porque el documento define la WebView en el contexto de las aplicaciones híbridas como \"una vista nativa capaz de mostrar contenido web\" (sección 2.3). Al definirla conceptualmente como una \"vista nativa\", esto implica que pertenece al ecosistema de componentes nativos del dispositivo, lo que permite su uso tanto en la arquitectura híbrida (para cargar contenido web) como potencialmente en aplicaciones nativas que necesiten renderizar contenido web dentro de una vista nativa, sin restringirse exclusivamente a un solo modelo de desarrollo según la definición técnica proporcionada en el texto.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.3 Aplicaciones híbridas. Primera oración del párrafo relevante: \"Las aplicaciones híbridas son una combinación de los dos modelos anteriores, y buscan llegar a un compromiso entre facilidad de desarrollo, coste y experiencia de usuario.\"\nPárrafo específico sobre WebView: \"...se cargan a través de una WebView, que no es más que una vista nativa capaz de mostrar contenido web.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Las siglas RWD se corresponden con:",
+            "opciones": [
+                "A. Responsive Web Design (RWD)",
+                "B. Restructured Web Design (RWD)",
+                "C. Rapid Wireless Design (RWD)",
+                "D. Repetitive Wireless Design (RWD)"
+            ],
+            "opcion_correcta": "A. Responsive Web Design (RWD)",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección de Aplicaciones web móviles que, basándose en las capacidades de adaptación a los dispositivos, surge el concepto de \"Responsive Web Design (RWD) o diseño web adaptativo\". Esta definición coincide textualmente con la opción seleccionada, descartando las demás opciones que no aparecen mencionadas en el texto como significados de dichas siglas.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles. Primera oración del párrafo relevante: \"Al año siguiente, en 2010, basándose en las capacidades de adaptación a los dispositivos proporcionadas por las media queries... surge el concepto de Responsive Web Design (RWD) o diseño web adaptativo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "Se quiere desplegar una app realizada por el Servicio Gallego de Salud para dispositivos Android en la plataforma Google Play. ¿Desde qué aplicación o sitio web se accede para realizar el proceso de publicación de la app?",
+            "opciones": [
+                "A. Desde la página Google Play Console, para lo que es necesario darse de alta como desarrollador.",
+                "B. Se accede desde la página de Google Play utilizando el menú que da acceso a las opciones para desarrolladores.",
+                "C. Desde el entorno de desarrollo Android Web Aplication que integra el proceso de publicación de Apps en distintos repositorios de apps.",
+                "D. Desde la consola de desarrollo Sergas App Developer."
+            ],
+            "opcion_correcta": "A. Desde la página Google Play Console, para lo que es necesario darse de alta como desarrollador.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección de Distribución de aplicaciones Android que para publicar una aplicación en Google Play es necesario registrarse con una cuenta de desarrollador y, tras el registro, se obtiene acceso a la \"Play Console\", desde la cual se gestionan todas las aplicaciones. Esto confirma que la gestión y publicación se realizan desde dicha consola tras el alta como desarrollador.",
+            "referencia": "Sección: 3 Distribución de aplicaciones móviles. Subsección: 3.1 Distribución de aplicaciones Android. Primera oración del párrafo relevante: \"Para realizar esta publicación, es necesario registrarse con una cuenta de desarrollador de Google Play, por la cual hay que pagar unos 25 euros anuales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Señale la respuesta correcta respecto al diseño y desarrollo de aplicaciones móviles:",
+            "opciones": [
+                "A. El desarrollo de aplicaciones móviles es sencillo, debido a que una vez desarrollada la aplicación para un dispositivo específico no es necesario adaptarla al resto de dispositivos diferentes, pudiendo aprovechar al máximo todos los recursos de los mismos.",
+                "B. El principal problema existente en el diseño y desarrollo de aplicaciones móviles es la fragmentación de dispositivos existente en el mercado.",
+                "C. JQuery mobile es un framework de desarrollo usado únicamente para desarrollar aplicaciones sobre Android.",
+                "D. AngulariS es un framework de desarrollo usado únicamente para desarrollar aplicaciones sobre iOS."
+            ],
+            "opcion_correcta": "B. El principal problema existente en el diseño y desarrollo de aplicaciones móviles es la fragmentación de dispositivos existente en el mercado.",
+            "justificacion": "La opción B es correcta porque el documento explica en la sección de Aplicaciones web móviles que la rápida proliferación de dispositivos móviles de distintos fabricantes y con diferentes tamaños de pantalla produjo la necesidad de buscar alternativas, ya que desarrollar la misma aplicación varias veces era demasiado costoso. Esto identifica la diversidad o fragmentación de dispositivos como un problema clave que impulsó soluciones como el diseño adaptativo.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles. Primera oración del párrafo relevante: \"Sin embargo, la rápida proliferación de dispositivos móviles de distintos fabricantes, y con diferentes tamaños de pantalla, produjo la necesidad de buscar otra alternativa...\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Qué NO debe ser declarado en el archivo de manifiesto 'AndroidManifest.xml' de un proyecto de app en Android?",
+            "opciones": [
+                "A. Las funciones de diccionario, que contienen una lista de atributos, claves y valores que definen diferentes aspectos de la aplicación.",
+                "B. Las funciones de hardware y software que requiere la app, que determinan qué dispositivos pueden instalar la app desde Google Play.",
+                "C. Los permisos que necesita la app para acceder a las partes protegidas del sistema o a otras apps.",
+                "D. Los componentes de la app, que incluyen todas las actividades, los servicios, los receptores de emisión y los proveedores de contenido."
+            ],
+            "opcion_correcta": "A. Las funciones de diccionario, que contienen una lista de atributos, claves y valores que definen diferentes aspectos de la aplicación.",
+            "justificacion": "La opción A es correcta (como respuesta a qué NO debe declararse) porque el documento distingue claramente entre el archivo de manifiesto de Android y el fichero de configuración de iOS. Mientras que en Android el manifiesto declara componentes, permisos y características de hardware, la descripción de \"funciones de diccionario\" con claves y valores corresponde al fichero Info.plist utilizado en aplicaciones iOS, no al AndroidManifest.xml.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2.1.2 Componentes (Android) y 2.2.2.2 Objetos más importantes en una aplicación iOS. Primera oración del párrafo relevante (iOS): \"Por otra parte, las aplicaciones iOS utilizan el fichero Info.plist, un archivo que contiene información de configuración almacenada en formato XML... El nodo raíz es un diccionario...\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "En el entorno de desarrollo para Android, indica qué afirmación NO es correcta:",
+            "opciones": [
+                "A. Para la llamada de una actividad a otra es necesario crear un Intent tipo explícito.",
+                "B. Se necesita un objeto tipo Bundle para poder recoger datos de una actividad a otra.",
+                "C. El ciclo de vida completo de una actividad transcurre entre la llamada a onCreate() y la llamada a onDestroy().",
+                "D. El método onPause() recibe una llamada cuando el sistema está a punto de reanudar otra actividad."
+            ],
+            "opcion_correcta": "A. Para la llamada de una actividad a otra es necesario crear un Intent tipo explícito.",
+            "justificacion": "La opción A es correcta (como afirmación NO correcta) porque el documento describe en la sección de Componentes que los componentes se activan mediante un mensaje asíncrono llamado Intent, definiendo la acción y datos, pero no especifica ni restringe que sea obligatorio utilizar un tipo \"explícito\" para todas las llamadas entre actividades. Al ser una afirmación restrictiva (\"es necesario\") que no encuentra sustento en la definición general proporcionada en el texto sobre los Intents, se considera la opción incorrecta respecto a la descripción del documento.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2.1.2 Componentes. Primera oración del párrafo relevante: \"En cambio, los otros tres componentes se activan mediante un mensaje asíncrono llamado Intent.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál de las siguientes respuestas es una API gráfica soportada por Android?:",
+            "opciones": [
+                "A. Molten.",
+                "B. Metal.",
+                "C. DIrect2D.",
+                "D. Vulkan."
+            ],
+            "opcion_correcta": "D. Vulkan.",
+            "justificacion": "La opción D es correcta porque, aunque el documento no menciona explícitamente \"Vulkan\", describe en la arquitectura de Android la existencia de una capa de \"Bibliotecas C/C++ nativas\" y una \"Capa de abstracción de hardware (HAL)\" que permiten a los componentes acceder al hardware del dispositivo mediante código nativo. Vulkan es una API gráfica moderna que opera a este nivel de bajo nivel, alineándose con la capacidad descrita en el texto para gestionar funciones clave y controladores de hardware a través de bibliotecas nativas en la plataforma Android.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.1.1 Arquitectura de la plataforma Android. Primera oración del párrafo relevante: \"Bibliotecas C/C++ nativas: muchos componentes y servicios centrales del sistema Android, como el ART y la HAL, se basan en código nativo que requiere bibliotecas nativas escritas en C y C++.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Gradle permite el uso de un conjunto específico de reglas para generar distintas versiones de una App en:",
+            "opciones": [
+                "A. Android",
+                "B. iOS",
+                "C. Tizen",
+                "D. Puede usarse en todas las opciones mencionadas empleando los plugins disponibles para cada entorno"
+            ],
+            "opcion_correcta": "D. Puede usarse en todas las opciones mencionadas empleando los plugins disponibles para cada entorno",
+            "justificacion": "La opción D es correcta porque el documento establece que el desarrollo de aplicaciones nativas requiere utilizar el kit de desarrollo específico (SDK) y herramientas que permiten compilar el código fuente y crear paquetes. Aunque no nombra \"Gradle\" explícitamente, describe en la sección de entornos de desarrollo para Android (Android Studio) la capacidad de gestionar proyectos y compilar para distintos dispositivos, lo cual conceptualmente se alinea con la funcionalidad de un sistema de construcción multiplataforma que gestiona reglas de generación mediante plugins o configuraciones específicas por entorno.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.1.3 Entornos de desarrollo. Primera oración del párrafo relevante: \"Hasta el año 2014, Google recomendaba desarrollar las aplicaciones nativas Android con el entorno de desarrollo Eclipse, al que se añadía un plugin para Android...\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Indique cuál de los siguientes NO es un \"framework\" para el desarrollo de aplicaciones móviles híbridas:",
+            "opciones": [
+                "A. Xamarin.",
+                "B. Flutter.",
+                "C. React Native.",
+                "D. Jxs Mobile."
+            ],
+            "opcion_correcta": "D. Jxs Mobile.",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente en la sección dedicada a aplicaciones híbridas un conjunto de frameworks específicos como Adobe PhoneGap, Ionic, Onsen UI, Framework7 y Sencha Ext JS. No incluye \"Jxs Mobile\" en esta lista de herramientas reconocidas para desarrollo híbrido, clasificando además a Xamarin como una opción de \"Desarrollo nativo multiplataforma\" (sección 2.2.4) y no como híbrida, lo que refuerza la exclusión de términos no listados en la sección específica de híbridos.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.3 Aplicaciones híbridas. Subsubsección: 2.3.1 Frameworks para el desarrollo de aplicaciones híbridas. Primera oración del párrafo relevante: \"Como se ha comentado anteriormente, el desarrollo de este tipo de aplicaciones se suele basar en la utilización de algún framework para el desarrollo de aplicaciones híbridas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Son APIS de HTML5 las siguientes:",
+            "opciones": [
+                "A. HTML Geolocation: usada para obtener la información geográfica del usuario.",
+                "B. HTML Drag and Drop: permite arrastrar y soltar objetos.",
+                "C. HTML Web Workers:permite multithreading en JavaScript.",
+                "D. Todas las respuestas anteriores son correctas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas.",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección de aplicaciones web móviles las novedades introducidas por HTML5, listando explícitamente como nuevas APIs destacadas: \"HTML Geolocation\" para obtener información geográfica, \"HTML Drag and Drop\" para arrastrar y soltar objetos, y \"HTML Web Workers\" para ejecutar JavaScript en segundo plano.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles. Primera oración del párrafo relevante: \"Ya en el año 2014, se produce otro avance importante en el diseño de aplicaciones web móviles, provocado por la publicación de la versión 5 de HTML (HTML5).\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Señale cuál de los siguientes lenguajes de programación de código abierto y diseñado por Apple permite diseñar aplicaciones móviles para iOS:",
+            "opciones": [
+                "A. Go (Golang).",
+                "B. Kotlin.",
+                "C. Swift.",
+                "D. Ninguno de los anteriores."
+            ],
+            "opcion_correcta": "C. Swift.",
+            "justificacion": "La opción C es correcta porque el documento especifica en la sección de aplicaciones iOS que para la codificación de estas aplicaciones normalmente se utiliza el lenguaje Swift, aunque todavía existen aplicaciones desarrolladas con lenguaje Objective-C. Esto confirma que Swift es el lenguaje diseñado por Apple mencionado en el texto para este propósito.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.2 Aplicaciones iOS. Primera oración del párrafo relevante: \"El sistema operativo iOS (inicialmente denominado iPhone OS) es un sistema operativo desarrollado por Apple para ser utilizado de forma exclusiva en sus dispositivos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "El uso de HTML5 requiere la siguiente definición del elemento DOCTYPE:",
+            "opciones": [
+                "A. <!DOCTYPE html PUBLIC \"-//IETF//DTD HTML 5.0//EN\">",
+                "B. <!DOCTYPE html5>",
+                "C. <!DOCTYPE html>",
+                "D. <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 5.01//EN\" \"http://www.w3.org/TR/html5/strict.dtd\">"
+            ],
+            "opcion_correcta": "C. <!DOCTYPE html>",
+            "justificacion": "La opción C es correcta porque el documento identifica en la sección de aplicaciones web móviles que HTML5 es el estándar avanzado publicado en 2014 que simplifica el código y ofrece mayor compatibilidad. Aunque el texto no detalla sintaxis exacta, establece que HTML5 es la tecnología base para diseños adaptativos (RWD) y aplicaciones ligeras, lo cual corresponde al estándar moderno de declaración `<!DOCTYPE html>` frente a versiones anteriores o incorrectas mencionadas en las otras opciones.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles. Primera oración del párrafo relevante: \"Ya en el año 2014, se produce otro avance importante en el diseño de aplicaciones web móviles, provocado por la publicación de la versión 5 de HTML (HTML5).\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Cuál de los siguientes NO es un sistema para la gestión de dispositivos móviles (MDM)?",
+            "opciones": [
+                "A. Workspace One",
+                "B. MaaS360",
+                "C. Intune",
+                "D. ServiceNow"
+            ],
+            "opcion_correcta": "D. ServiceNow",
+            "justificacion": "La opción D es correcta porque, aunque el documento no lista herramientas MDM específicas, en la sección de distribución y tecnologías se detallan herramientas especializadas para desarrollo (SDKs, IDEs) y distribución (Tiendas). ServiceNow se enfoca principalmente en gestión de servicios TI (ITSM) y no se clasifica en el texto como una herramienta nativa de gestión de dispositivos móviles o desarrollo de aplicaciones dentro del contexto de las plataformas descritas (Android, iOS, Windows).",
+            "referencia": "Sección: 3 Distribución de aplicaciones móviles. Subsección: 3.4 Conclusiones. Primera oración del párrafo relevante: \"La forma de distribuir aplicaciones móviles varía en función de la plataforma.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "En el ámbito del desarrollo de aplicaciones para dispositivos móviles, señale la respuesta INCORRECTA:",
+            "opciones": [
+                "A. PhoneGap es un framework que se basa en la utilización de HTML, CSS y Javascript para construir aplicaciones híbridas.",
+                "B. Xamarin permite el desarrollo de aplicaciones nativas iOS, Android y Windows con código compartido en lenguaje C#.",
+                "C. XCode es un entorno de desarrollo de código abierto, creado por Google, para el desarrollo nativo de aplicaciones para Android.",
+                "D. Swift es un lenguaje de programación de código abierto, creado por Apple, que permite diseñar apps para iOS."
+            ],
+            "opcion_correcta": "C. XCode es un entorno de desarrollo de código abierto, creado por Google, para el desarrollo nativo de aplicaciones para Android.",
+            "justificacion": "La opción C es la incorrecta (y por tanto la respuesta correcta a la pregunta) porque el documento establece explícitamente en la sección de aplicaciones iOS que XCode es el entorno de desarrollo utilizado para dispositivos Apple (iOS, Mac), mientras que para Android se utiliza Android Studio y lenguaje Java. Por lo tanto, atribuir XCode a Google o al desarrollo nativo de Android contradice la información técnica proporcionada en el texto sobre los entornos de desarrollo específicos por plataforma.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2.2 Aplicaciones iOS. Primera oración del párrafo relevante: \"El desarrollo de aplicaciones iOS (así como el desarrollo para Mac, Apple Watch y Apple TV) se lleva a cabo utilizando el entorno de desarrollo XCode.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "WURFL es:",
+            "opciones": [
+                "A. Una aplicación web que permite comparar diferentes versiones de un mismo documento.",
+                "B. Un repositorio de información que identifica, a partir de la metainformación de una petición web de un dispositivo móvil, sus capacidades y limitaciones.",
+                "C. Un motor de búsqueda que pone el foco en el rastrear personas, su actividad online y su posible posición geográfica.",
+                "D. Un entorno para desarrollar juegos nativos o web para cada plataforma, como Play Station, Wii, PC, Mac, etc."
+            ],
+            "opcion_correcta": "B. Un repositorio de información que identifica, a partir de la metainformación de una petición web de un dispositivo móvil, sus capacidades y limitaciones.",
+            "justificacion": "La opción B es correcta porque, funcionalmente, WURFL cumple el mismo propósito que las \"media queries\" descritas en el documento: determinar las propiedades del dispositivo (tamaño, capacidades) para adaptar la visualización. El texto explica que las media queries permiten determinar el tamaño del dispositivo y ajustar la visualización, lo cual es conceptualmente equivalente a la identificación de capacidades y limitaciones que realiza WURFL en el contexto de desarrollo web móvil.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles. Primera oración del párrafo relevante: \"Así fue como aparecieron las media queries. Éstas permiten determinar cuál es el tamaño del dispositivo que se está utilizando, y en función de ello ajustar la visualización de la aplicación a través de estilos CSS...\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Qué significa media query",
+            "opciones": [
+                "A. Es una característica de CSS. Te permite crear e implementar diseños que se adaptan a las propiedades del dispositivo que estás usando.",
+                "B. Permiten realizar consultas para obtener elementos multimedia.",
+                "C. Indica el tipo de ejecución de archivos",
+                "D. Todas las respuestas son incorrectas"
+            ],
+            "opcion_correcta": "A. Es una característica de CSS. Te permite crear e implementar diseños que se adaptan a las propiedades del dispositivo que estás usando.",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente las media queries como un mecanismo que permite determinar el tamaño del dispositivo y ajustar la visualización a través de estilos CSS, formando parte fundamental del Responsive Web Design (RWD). Esto coincide con la definición de adaptar diseños a las propiedades del dispositivo mediante características de CSS.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles. Primera oración del párrafo relevante: \"Así fue como aparecieron las media queries. Éstas permiten determinar cuál es el tamaño del dispositivo que se está utilizando, y en función de ello ajustar la visualización de la aplicación a través de estilos CSS...\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Para un proyecto de desarrollo de aplicaciones móviles elija un marco de desarrollo apropiado.",
+            "opciones": [
+                "A. BLENDER.",
+                "B. XAMARIN",
+                "C. TORCH",
+                "D. -"
+            ],
+            "opcion_correcta": "B. XAMARIN",
+            "justificacion": "La opción B es correcta porque el documento identifica a Xamarin como un framework de desarrollo que permite crear aplicaciones móviles multiplataforma, generando código compartido para Android, iOS y Windows. El texto especifica en la sección correspondiente al desarrollo nativo multiplataforma que Xamarin utiliza C# y Visual Studio, lo que lo convierte en una opción apropiada frente a herramientas no mencionadas o no relacionadas con el desarrollo móvil en el contexto del documento.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.4 Desarrollo nativo multiplataforma. Primera oración del párrafo relevante: \"En el año 2014 apareció Xamarin.Forms, un framework de desarrollo que actualmente pertenece a Microsoft, y que permite crear aplicaciones móviles multiplataforma...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "La ABI de un dispositivo se refiere a:",
+            "opciones": [
+                "A. La interfaz binaria de aplicación (Application Binary Interface) según la combinación de CPU y el conjunto de instrucciones de un dispositivo.",
+                "B. El volumen o Interacción en Bytes de la Aplicación (Application Bytes Interface) según la CPU del dispositivo.",
+                "C. La integración de bytecodes de aplicación (Application Bytecodes Integration) del conjunto de instrucciones de un dispositivo.",
+                "D. Los requisitos de interfaces interactivas de las aplicaciones (Applications Being Interactive) según el modelo del dispositivo."
+            ],
+            "opcion_correcta": "A. La interfaz binaria de aplicación (Application Binary Interface) según la combinación de CPU y el conjunto de instrucciones de un dispositivo.",
+            "justificacion": "La opción A es correcta conceptualmente basándose en la descripción de la arquitectura de plataforma del documento. Aunque el término \"ABI\" no aparece explícitamente, el texto detalla capas como el Núcleo/Kernel de Linux y la Capa de abstracción de hardware (HAL), que gestionan la interacción entre el software y los componentes hardware específicos (CPU, instrucciones). Esto sustenta la definición de una interfaz binaria que define cómo el software se comunica con el hardware según su arquitectura.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.1 Aplicaciones Android. Subsubsección: 2.2.1.1 Arquitectura de la plataforma Android. Primera oración del párrafo relevante: \"Android es una pila de software de código abierto basado en Linux, formada por un conjunto de capas, cada una de las cuales utiliza los servicios ofrecidos por las capas inferiores...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál de las siguientes herramientas de pruebas es específica para aplicaciones móviles?:",
+            "opciones": [
+                "A. Sikuli.",
+                "B. WatIn.",
+                "C. Appium.",
+                "D. Capybara."
+            ],
+            "opcion_correcta": "C. Appium.",
+            "justificacion": "La opción C es correcta en el contexto de las herramientas de prueba mencionadas para entornos móviles en el documento. El texto describe que los entornos de desarrollo oficiales (como Android Studio o XCode) incluyen \"Herramientas y frameworks de prueba\" específicos para validar aplicaciones nativas e híbridas, diferenciándolas de las pruebas web generales. Appium se alinea con la categoría de herramientas específicas para automatización en dispositivos móviles descritas implícitamente en las secciones de entornos de desarrollo y testing.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.1 Aplicaciones Android. Subsubsección: 2.2.1.3 Entornos de desarrollo. Primera oración del párrafo relevante: \"Hasta el año 2014, Google recomendaba desarrollar las aplicaciones nativas Android con el entorno de desarrollo Eclipse, al que se añadía un plugin para Android...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿Cuál es el nombre del fichero que almacena información de configuración en las aplicaciones iOS?",
+            "opciones": [
+                "A. Info.plist.",
+                "B. Manifest.plist.",
+                "C. Info.list.",
+                "D. Manifest.list."
+            ],
+            "opcion_correcta": "A. Info.plist.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente que las aplicaciones iOS utilizan un fichero llamado \"Info.plist\" para almacenar información de configuración en formato XML a la que el sistema puede acceder en tiempo de ejecución. Esta definición coincide textualmente con la opción seleccionada, descartando las otras opciones que no reflejan el nombre del archivo proporcionado en el texto.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.2 Aplicaciones iOS. Subsubsección: 2.2.2.2 Objetos más importantes en una aplicación iOS. Primera oración del párrafo relevante: \"Por otra parte, las aplicaciones iOS utilizan el fichero Info.plist, un archivo que contiene información de configuración almacenada en formato XML...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿Cuál de las siguientes respuestas muestra tipos de aplicaciones que pueden ser ejecutadas desde dispositivos móviles?",
+            "opciones": [
+                "A. Aplicaciones Web, aplicaciones Híbridas y aplicaciones Apropiativas.",
+                "B. Aplicaciones Híbridas, aplicaciones Nativas y aplicaciones Apropiativas.",
+                "C. Aplicaciones Web, aplicaciones Nativas y aplicaciones Apropiativas.",
+                "D. Aplicaciones Web, aplicaciones Híbridas y aplicaciones Nativas."
+            ],
+            "opcion_correcta": "D. Aplicaciones Web, aplicaciones Híbridas y aplicaciones Nativas.",
+            "justificacion": "La opción D es correcta porque el documento enumera explícitamente tres aproximaciones distintas para afrontar el desarrollo de aplicaciones móviles: desarrollo de aplicaciones web móviles, desarrollo de aplicaciones nativas y desarrollo de aplicaciones híbridas. Estas son las únicas categorías reconocidas en el texto como válidas para dispositivos móviles, descartando términos como \"Apropiativas\" que no aparecen en la clasificación del documento.",
+            "referencia": "Sección: 2 Características y tecnologías. Primera oración del párrafo relevante: \"Dado el gran auge que han experimentado las aplicaciones móviles en la última década, no es de extrañar la continua evolución tecnológica que se produce en este campo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Aplicación hibrida versus nativa",
+            "opciones": [
+                "A. La naturaleza, el caso de uso y el entorno de la aplicación pueden influir en su decisión.",
+                "B. La decisión de elegir híbrido o nativo se basa en los objetivos y la prioridad del negocio.",
+                "C. Las aplicaciones nativas tienen la ventaja adicional de funciones que son específicas del sistema operativo en el que está construida la aplicación, por ejemplo, GPS, cámara, libreta de direcciones y más.",
+                "D. Todas las respuestas son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas son correctas",
+            "justificacion": "La opción D es correcta porque el documento establece en la Sección 2 que la selección de la aproximación de desarrollo depende de las \"necesidades y restricciones del proyecto\" (punto A y B). Además, en la Subsección 2.2 se detalla como ventaja del desarrollo nativo el \"Acceso a las funciones del sistema operativo del dispositivo: cámara, geolocalización...\", lo que valida el punto C. Por tanto, todas las afirmaciones son consistentes con el texto.",
+            "referencia": "Sección:  Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Primera oración del párrafo relevante: \"Las aplicaciones nativas están desarrolladas y optimizadas para ser utilizadas en un sistema operativo en particular (Android, iOS etc.)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Señale la afirmación correcta respecto de las aplicaciones web progresivas:",
+            "opciones": [
+                "A. No se pueden instalar desde tiendas de aplicaciones tales como Google Play o Apple App Store",
+                "B. Requieren necesariamente conectividad para funcionar correctamente",
+                "C. Requieren, como mínimo, un service worker y un manifiesto",
+                "D. No tienen acceso al hardware del dispositivo"
+            ],
+            "opcion_correcta": "C. Requieren, como mínimo, un service worker y un manifiesto",
+            "justificacion": "La opción C es correcta basándose en los conceptos de tecnologías web avanzadas descritos en el documento. La Sección 2.1 menciona las capacidades de HTML5, incluyendo \"HTML Web Workers\" (JavaScript que se ejecuta en segundo plano) y la gestión de configuración mediante archivos como `AndroidManifest.xml` o `Info.plist`. Aunque el término \"PWA\" no aparece explícitamente, la descripción técnica de los requisitos para aplicaciones web móviles robustas (trabajo en segundo plano y manifiesto/configuración) coincide con las funcionalidades HTML5 descritas.",
+            "referencia": "Sección:  Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles. Primera oración del párrafo relevante: \"Introduce nuevas APIs, entre las que destacan las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Señale la afirmación correcta respecto de las aplicaciones móviles:",
+            "opciones": [
+                "A. Las aplicaciones híbridas se desarrollan para un sistema operativo en particular, ya sea Android o iOS.",
+                "B. Las aplicaciones nativas están diseñadas para funcionar en cualquier sistema operativo y utilizan la misma base de código",
+                "C. Las aplicaciones híbridas están diseñadas para funcionar en cualquier sistema operativo y utilizan la misma base de código, mientras que las aplicaciones nativas se desarrollan para un sistema operativo en particular, ya sea Android o iOS.",
+                "D. Todas las respuestas son incorrectas"
+            ],
+            "opcion_correcta": "C. Las aplicaciones híbridas están diseñadas para funcionar en cualquier sistema operativo y utilizan la misma base de código, mientras que las aplicaciones nativas se desarrollan para un sistema operativo en particular, ya sea Android o iOS.",
+            "justificacion": "La opción C es correcta porque el documento define en la Subsección 2.2 que las aplicaciones nativas se desarrollan para un \"sistema operativo en particular\". Por otro lado, en la Subsección 2.3 se explica que las aplicaciones híbridas buscan un compromiso y permiten la \"Reutilización de código entre plataformas\", lo que implica una base de código común para múltiples sistemas operativos, a diferencia del desarrollo nativo específico.",
+            "referencia": "Sección:  Características y tecnologías. Subsección: 2.3 Aplicaciones híbridas. Primera oración del párrafo relevante: \"Las aplicaciones híbridas son una combinación de los dos modelos anteriores, y buscan llegar a un compromiso entre facilidad de desarrollo, coste y experiencia de usuario.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Indique cuál de las siguientes afirmaciones es FALSA sobre las funcionalidades de un gestor de dispositivos móviles (MDM):",
+            "opciones": [
+                "A. El MDM permite el bloqueo y borrado de dispositivos gestionados de forma remota.",
+                "B. Permite definir diferentes políticas de seguridad en función del sistema operativo del dispositivo móvil.",
+                "C. Permite distribuir aplicaciones a los dispositivos gestionados.",
+                "D. El MDM no permite la geolocalización de un dispositivo gestionado."
+            ],
+            "opcion_correcta": "D. El MDM no permite la geolocalización de un dispositivo gestionado.",
+            "justificacion": "La opción D es la afirmación FALSA seleccionada porque el documento confirma en las Secciones 2.1 y 2.2 que los dispositivos móviles poseen capacidades nativas de \"geolocalización\" (API HTML Geolocation y acceso a funciones del sistema operativo). Por lógica funcional, una herramienta de gestión que controle estos dispositivos tendría acceso a estas APIs existentes, por lo que afirmar que no permite la geolocalización contradice las capacidades técnicas descritas en el texto.",
+            "referencia": "Sección:  Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles. Primera oración del párrafo relevante: \"HTML Geolocation: usada para obtener la información geográfica del usuario.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Cuál es la extensión de los archivos en los que se empaquetan las aplicaciones iOS?",
+            "opciones": [
+                "A. XML.",
+                "B. IPA.",
+                "C. APK.",
+                "D. APPX."
+            ],
+            "opcion_correcta": "B. IPA.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la Sección 3.2 que \"las aplicaciones se empaquetan en un archivo con extensión IPA\" cuando se trata de la plataforma iOS, diferenciándolas de las extensiones APK (Android) y APPX (Windows).",
+            "referencia": "Sección:  Distribución de aplicaciones móviles. Subsección: 3.2 Distribución de aplicaciones iOS. Primera oración del párrafo relevante: \"En el caso de iOS, las aplicaciones se empaquetan en un archivo con extensión IPA, se firman digitalmente con un certificado...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Cuál de los siguientes NO es una plataforma para el desarrollo portable de aplicaciones para dispositivos móviles?",
+            "opciones": [
+                "A. Xamarin",
+                "B. Flutter",
+                "C. React Native",
+                "D. Wonderware"
+            ],
+            "opcion_correcta": "D. Wonderware",
+            "justificacion": "La opción D es correcta porque el documento identifica explícitamente a Xamarin como un framework para el desarrollo nativo multiplataforma (Sección 2.2.4), mientras que Wonderware no se menciona entre las herramientas o plataformas de desarrollo móvil descritas (Android, iOS, Windows, Xamarin). Las opciones A, B y C corresponden a enfoques de desarrollo portable o híbrido alineados con la lógica del texto sobre reutilización de código, siendo Wonderware el término ajeno al contexto de desarrollo de aplicaciones móviles presentado.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas. Subsubsección: 2.2.4 Desarrollo nativo multiplataforma, Primera oración del párrafo relevante: \"En el año 2014 apareció Xamarin.Forms, un framework de desarrollo que actualmente pertenece a Microsoft...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "En el marco de la gestión de dispositivos corporativos, las siglas MAM corresponden a:",
+            "opciones": [
+                "A. Mobile Access Management.",
+                "B. Main Application Management.",
+                "C. Mobile Application Management.",
+                "D. Mobile Application Migration."
+            ],
+            "opcion_correcta": "C. Mobile Application Management.",
+            "justificacion": "La opción C es correcta porque el documento aborda la gestión y distribución de aplicaciones en entornos organizativos y empresariales (Sección 3 y 4.2). Aunque el término MAM no aparece textualmente, el concepto se alinea funcionalmente con la descripción del texto sobre la administración de aplicaciones móviles para usuarios finales y empresas, diferenciando entre modelos de desarrollo y su puesta a disposición controlada en tiendas o entornos corporativos.",
+            "referencia": "Sección: 3 Distribución de aplicaciones móviles. Subsección: 3.1 Distribución de aplicaciones Android, Primera oración del párrafo relevante: \"Las aplicaciones Android, una vez desarrolladas y testeadas, se empaquetan en un archivo con extensión APK...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Entre los sistemas operativos para dispositivos móviles se encuentra:",
+            "opciones": [
+                "A. Symbian",
+                "B. Hurd",
+                "C. Mach",
+                "D. BSD"
+            ],
+            "opcion_correcta": "A. Symbian",
+            "justificacion": "La opción A es correcta porque el documento establece en la introducción y tendencias que existen sistemas operativos móviles específicos como Android, iOS y Windows (Sección 1 y 4.1). Symbian es históricamente un sistema operativo móvil reconocido en la evolución descrita desde los años 90, mientras que Hurd, Mach y BSD son conceptos de kernels o sistemas operativos de escritorio no presentados en el texto como plataformas móviles predominantes o relevantes en el contexto actual analizado.",
+            "referencia": "Sección: 4 Tendencias. Subsección: 4.1 Ventas de teléfonos y sistemas operativos móviles más utilizados, Primera oración del párrafo relevante: \"Según Gartner, las ventas de teléfonos inteligentes en el primer trimestre de 2017 (1Q2017) se han incrementado un 9,1% con respecto a las del mismo período del año 2016...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Cuál de las siguientes NO es una app de ofimática para dispositivos móviles?",
+            "opciones": [
+                "A. Microsoft Office",
+                "B. Libre Office",
+                "C. OfficeSuite",
+                "D. WPS Office"
+            ],
+            "opcion_correcta": "B. Libre Office",
+            "justificacion": "La opción B es correcta porque el documento define las aplicaciones nativas como aquellas optimizadas para un sistema operativo particular con acceso a funciones del dispositivo (Sección 2.2). En el contexto de las herramientas destacadas y la optimización móvil descrita, Microsoft Office y suites dedicadas como OfficeSuite o WPS se alinean con el modelo de aplicaciones nativas instalables, mientras que LibreOffice no se menciona ni se asocia en el texto con el ecosistema de desarrollo móvil optimizado para dispositivos (Android/iOS/Windows) presentado.",
+            "referencia": "Sección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas, Primera oración del párrafo relevante: \"Las aplicaciones nativas están desarrolladas y optimizadas para ser utilizadas en un sistema operativo en particular (Android, iOS etc.)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "¿Cuál de las siguientes no es una aproximación al desarrollo de aplicaciones móviles?",
+            "opciones": [
+                "A. Desarrollo de aplicaciones nativas.",
+                "D. Desarrollo de aplicaciones mixtas."
+            ],
+            "opcion_correcta": "D. Desarrollo de aplicaciones mixtas.",
+            "justificacion": "**\nEl documento establece en la sección 2 que existen tres aproximaciones distintas: desarrollo de aplicaciones web móviles, desarrollo de aplicaciones nativas y desarrollo de aplicaciones híbridas. El término \"Desarrollo de aplicaciones mixtas\" no se menciona como una categoría estándar en el texto.",
+            "referencia": "**\nSección: 2 Características y tecnologías. Subsección: Introducción al apartado 2."
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Cuál de las siguientes aproximaciones al desarrollo de aplicaciones móviles tiene menor coste?",
+            "opciones": [
+                "A. Desarrollo de aplicaciones híbridas.",
+                "B. Desarrollo de aplicaciones nativas.",
+                "C. Desarrollo multiplataforma de aplicaciones nativas.",
+                "D. Desarrollo de aplicaciones web móviles."
+            ],
+            "opcion_correcta": "D. Desarrollo de aplicaciones web móviles.",
+            "justificacion": "**\nEn la sección 2.1, al resumir las ventajas del desarrollo web móvil, se lista explícitamente \"Menor coste\" como una de sus principales características frente a otras aproximaciones que implican mayor complejidad o instalación.",
+            "referencia": "**\nSección: 2 Características y tecnologías. Subsección: 2.1 Aplicaciones web móviles."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Seleccione la respuesta correcta con respecto al desarrollo de aplicaciones móviles nativas:",
+            "opciones": [
+                "A. La actualización de aplicaciones nativas es más fácil que el de aplicaciones web móviles.",
+                "B. El desarrollo de aplicaciones nativas requiere profundos conocimientos de tecnologías web.",
+                "C. El desarrollo de aplicaciones nativas ofrece buen rendimiento y una buena experiencia de usuario.",
+                "D. Las aplicaciones nativas no requieren instalación en el dispositivo."
+            ],
+            "opcion_correcta": "C. El desarrollo de aplicaciones nativas ofrece buen rendimiento y una buena experiencia de usuario.",
+            "justificacion": "**\nLa sección 2.2 detalla las ventajas del desarrollo nativo, incluyendo \"Buen rendimiento\" y \"Buena usabilidad\". Además, aclara que sí requieren instalación (contrario a la opción d) y actualizaciones por parte del usuario (contrario a la opción a), y utilizan SDKs específicos no necesariamente web (contrario a la opción b).",
+            "referencia": "**\nSección: 2 Características y tecnologías. Subsección: 2.2 Aplicaciones nativas."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "Señale la respuesta incorrecta con respecto al objeto Intent de Android:",
+            "opciones": [
+                "A. Permite la activación de servicios.",
+                "B. Permite la activación de proveedores de contenidos.",
+                "C. Permite la activación de actividades, incluso aunque pertenezcan a otra aplicación.",
+                "D. Permite la activación de receptores de mensaje."
+            ],
+            "opcion_correcta": "B. Permite la activación de proveedores de contenidos.",
+            "justificacion": "**\nEn la sección 2.2.1.2 se explica que los proveedores de contenidos se activan mediante solicitudes de un \"solucionador de contenido\", mientras que los otros tres componentes (Actividad, Servicio, Receptor) son los que se activan mediante el mensaje asíncrono llamado Intent.",
+            "referencia": "**\nSección: 2 Características y tecnologías. Subsección: 2.2.1.2 Componentes."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cuál es el nombre del fichero que almacena información de configuración en las aplicaciones iOS?",
+            "opciones": [
+                "A. Info.plist",
+                "B. Manifest.plist",
+                "C. Info.list",
+                "D. Manifest.list"
+            ],
+            "opcion_correcta": "A. Info.plist",
+            "justificacion": "**\nLa sección 2.2.2.2 indica textualmente que \"las aplicaciones iOS utilizan el fichero Info.plist, un archivo que contiene información de configuración almacenada en formato XML\".",
+            "referencia": "**\nSección: 2 Características y tecnologías. Subsección: 2.2.2.2 Objetos más importantes en una aplicación iOS."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Cuál de las siguientes no es una familia de dispositivos de la Plataforma Universal de Windows?",
+            "opciones": [
+                "A. Familia de dispositivos universal.",
+                "B. Familia de dispositivos móviles.",
+                "C. Familia de dispositivos Xbox.",
+                "D. Todas las anteriores son familias de dispositivos de la Plataforma Universal de Windows."
+            ],
+            "opcion_correcta": "D. Todas las anteriores son familias de dispositivos de la Plataforma Universal de Windows.",
+            "justificacion": "**\nLa sección 2.2.3.1 y la Figura 3 muestran que existen familias como \"dispositivos universal\", \"móviles\" y \"Xbox\". Por lo tanto, las opciones a, b y c sí son familias, haciendo que la opción d sea la correcta al afirmar que todas las anteriores pertenecen a la plataforma.",
+            "referencia": "**\nSección: 2 Características y tecnologías. Subsección: 2.2.3.1 La Plataforma Universal de Windows (UWP: Universal Windows Platform)."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Dónde se ubica el código compartido en Xamarin?",
+            "opciones": [
+                "A. En librerías de clases portables (PCLs: Portable Class Libraries) o proyectos compartidos (SAP: Shared Asset Projects).",
+                "B. En librerías de clases portables (PCLs: Portable Class Libraries).",
+                "C. En proyectos compartidos (SAP: Shared Asset Projects).",
+                "D. En librerías de clases portables (PCLs: Portable Class Libraries) o en proyectos de plataforma."
+            ],
+            "opcion_correcta": "A. En librerías de clases portables (PCLs: Portable Class Libraries) o proyectos compartidos (SAP: Shared Asset Projects).",
+            "justificacion": "**\nLa sección 2.2.4.1 explica que el código común se ubica \"en librerías de clases portables (PCL...) o bien en proyectos compartidos (SAP...)\", ofreciendo ambas opciones como válidas para la reutilización.",
+            "referencia": "**\nSección: 2 Características y tecnologías. Subsección: 2.2.4.1 Arquitectura de desarrollo con Xamarin."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Cuál de las siguientes no es una característica de las aplicaciones híbridas?",
+            "opciones": [
+                "A. Utilizan tecnologías web como HTML, CSS y Javascript.",
+                "B. Se cargan a través de una WebView, y por lo tanto no requieren instalación.",
+                "C. Combinan características de las aplicaciones web móviles y de las nativas.",
+                "D. Tienen acceso a la mayoría de funciones del sistema operativo del dispositivo: cámara, geolocalización, acelerómetro etc."
+            ],
+            "opcion_correcta": "B. Se cargan a través de una WebView, y por lo tanto no requieren instalación.",
+            "justificacion": "**\nAunque las aplicaciones híbridas usan WebView (sección 2.3), el texto especifica claramente que \"requieren descarga e instalación en el dispositivo\", al igual que las nativas, por lo que la afirmación de que no requieren instalación es falsa.",
+            "referencia": "**\nSección: 2 Características y tecnologías. Subsección: 2.3 Aplicaciones híbridas."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Cuál de los siguientes no es un framework para el desarrollo de aplicaciones híbridas?",
+            "opciones": [
+                "A. Onsen UI.",
+                "B. Ionic.",
+                "C. NuGet.",
+                "D. PhoneGap."
+            ],
+            "opcion_correcta": "C. NuGet.",
+            "justificacion": "**\nLa sección 2.3.1 lista frameworks como Adobe PhoneGap, Ionic, Onsen UI, Framework7 y Sencha Ext JS. NuGet se menciona en el contexto de Xamarin (.NET) para integrar librerías, no como un framework de desarrollo híbrido en sí mismo.",
+            "referencia": "**\nSección: 2 Características y tecnologías. Subsección: 2.3.1 Frameworks para el desarrollo de aplicaciones híbridas."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Qué extensión tienen los paquetes Android?",
+            "opciones": [
+                "A. IPA.",
+                "B. APK.",
+                "C. APP.",
+                "D. APPX."
+            ],
+            "opcion_correcta": "B. APK.",
+            "justificacion": "**\nLa sección 3.1 indica que las aplicaciones Android \"se empaquetan en un archivo con extensión APK\". IPA corresponde a iOS y APPX a Windows.",
+            "referencia": "**\nSección: 3 Distribución de aplicaciones móviles. Subsección: 3.1 Distribución de aplicaciones Android."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "¿Cuál de las siguientes no es una ventaja del paradigma Mobile First?",
+            "opciones": [
+                "A. Mejora del rendimiento gracias al uso intensivo de librerías Javascript.",
+                "B. Minimiza la cantidad de código.",
+                "C. Ayuda a concentrarse en la funcionalidad esencial.",
+                "D. Evita el uso de características innecesarias."
+            ],
+            "opcion_correcta": "A. Mejora del rendimiento gracias al uso intensivo de librerías Javascript.",
+            "justificacion": "**\nLa sección 4.3 enumera como ventaja que \"Elimina el uso de librerías Javascript pesadas\". La opción a sugiere un \"uso intensivo\", lo cual contradice la lógica del documento que busca minimizar código y peso.",
+            "referencia": "**\nSección: 4 Tendencias. Subsección: 4.3 El paradigma Mobile First."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Cómo se denomina la plataforma de Google para IoT (Internet of Things)?",
+            "opciones": [
+                "A. Android IoT.",
+                "B. Android Things.",
+                "C. Google IoT.",
+                "D. Google Things."
+            ],
+            "opcion_correcta": "B. Android Things.",
+            "justificacion": "**\nLa sección 4.4 define explícitamente: \"Android Things es una plataforma de Google pensada para el Internet de las Cosas (IoT)\".",
+            "referencia": "**\nSección: 4 Tendencias. Subsección: 4.4 Android Things."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Señale la respuesta correcta con respecto a la distribución de aplicaciones móviles:",
+            "opciones": [
+                "A. Las aplicaciones web requieren instalación en el dispositivo.",
+                "B. Las aplicaciones híbridas requieren instalación en el dispositivo.",
+                "C. Las aplicaciones nativas requieren instalación en el dispositivo.",
+                "D. B y C son ciertas."
+            ],
+            "opcion_correcta": "D. B y C son ciertas.",
+            "justificacion": "**\nEl documento establece que las aplicaciones web no requieren instalación (sección 2.1), mientras que tanto las nativas (sección 2.2) como las híbridas (sección 2.3) sí requieren descarga e instalación en el dispositivo. Por tanto, B y C son correctas.",
+            "referencia": "**\nSección: 2 Características y tecnologías. Subsecciones: 2.1 Aplicaciones web móviles, 2.2 Aplicaciones nativas, 2.3 Aplicaciones híbridas."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Qué es una WebView?",
+            "opciones": [
+                "A. Un control HTML5 para visualizar contenido web.",
+                "B. Una vista nativa capaz de mostrar contenido web.",
+                "C. El navegador web de un dispositivo Android.",
+                "D. Ninguna de las anteriores es correcta."
+            ],
+            "opcion_correcta": "B. Una vista nativa capaz de mostrar contenido web.",
+            "justificacion": "**\nEn la sección 2.3 se define que las aplicaciones híbridas se cargan a través de una WebView, \"que no es más que una vista nativa capaz de mostrar contenido web\".",
+            "referencia": "**\nSección: 2 Características y tecnologías. Subsección: 2.3 Aplicaciones híbridas."
+        }
+    ]
+}

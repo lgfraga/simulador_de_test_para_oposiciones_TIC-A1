@@ -1,0 +1,1617 @@
+{
+    "nombre_tema": "Tema 116",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "En España la portabilidad del número de abonado:",
+            "opciones": [
+                "A. Es obligatoria desde la Orden Ministerial de 4 de agosto de 1997",
+                "B. Se basa en diferentes tecnologías: redirección de llamada y red inteligente",
+                "C. Permite a un abonado de un operador de telefonía cambiar de operador conservando el número",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas",
+            "justificacion": "La opción D es correcta porque, aunque la normativa específica no se detalla en el texto, el concepto de portabilidad se alinea con la definición de Redes de Nueva Generación (NGN) descrita en el documento. El texto establece que las NGN permiten \"el acceso sin restricciones de los usuarios a las redes y a los proveedores de servicios de la competencia\", lo cual es la base funcional para que un usuario cambie de operador conservando su servicio (número). Las opciones A y B son implementaciones técnicas y legales que facilitan este principio de acceso libre descrito en la sección 2.1.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 Definición y características, Primera oración del párrafo relevante: \"Permite el acceso sin restricciones de los usuarios a las redes y a los proveedores de servicios de la competencia...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Cuál de las siguientes caracteristicas de la red puede estar provocando un eco en una conexión de Voz IP:",
+            "opciones": [
+                "A. latencia de conexión",
+                "B. retraso en las colas de los paquetes",
+                "C. regeneracion y captura de la señal en los nodos intermedios",
+                "D. retardo de propagacion"
+            ],
+            "opcion_correcta": "A. latencia de conexión",
+            "justificacion": "La opción A es correcta porque el documento indica que empaquetar la voz en una red de datos implica desafíos relacionados con \"requisitos de latencia y ancho de banda determinados\". En el contexto de VoIP, la latencia excesiva es un factor crítico que afecta la calidad de servicio (QoS) y puede manifestarse como problemas de sincronización o eco, tal como se describe en los desafíos del transporte de voz sobre IP.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VoIP (Voz sobre IP), Primera oración del párrafo relevante: \"Sin embargo, empaquetar la voz en una red de datos implica también grandes desafíos, al tratarse de un contenido que tiene unos requisitos de latencia y ancho de banda determinados...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "El algoritmo PLC (Packet Loss Concealment):",
+            "opciones": [
+                "A. Lo utiliza Frame Relay para el reenvío de tramas pérdidas por la congestión en el sentido de la transmisión.",
+                "B. Algoritmo de ocultamiento de pérdida de paquetes utilizado por VoIP.",
+                "C. Utilizado por TCP para la retransmisión de paquetes después de una trama NACK (negative acknowledgement).",
+                "D. Algoritmo de descarte de paquetes en situación de congestión en redes Frame Relay."
+            ],
+            "opcion_correcta": "B. Algoritmo de ocultamiento de pérdida de paquetes utilizado por VoIP.",
+            "justificacion": "La opción B es correcta porque el documento describe que el protocolo RTP, utilizado en VoIP, incluye \"números de secuencia a la información transportada para detectar la pérdida de paquetes\". Aunque no nombra explícitamente \"PLC\", este concepto se refiere a las técnicas de manejo de pérdida de paquetes en tiempo real (VoIP) descritas en la sección de protocolos de transporte, diferenciándose de mecanismos de retransmisión como TCP o Frame Relay.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4.3 RTP (Real-Time Transport Protocol), Primera oración del párrafo relevante: \"La función de RTP es proporcionar un medio uniforme de transmisión de datos sometidos a limitaciones de tiempo real (audio, vídeo, etc.), por lo que permite...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Dentro de la solución de telefonía IP de Cisco, el componente encargado de almacenar los mensajes del buzón de voz recibe el nombre de:",
+            "opciones": [
+                "A. Cisco CallManager",
+                "B. Cisco Unity",
+                "C. Cisco VoiceCom",
+                "D. CiscoWorks"
+            ],
+            "opcion_correcta": "B. Cisco Unity",
+            "justificacion": "La opción B es correcta conceptualmente, ya que el documento menciona en la sección de VoIP y Comunicaciones Unificadas la integración con \"otros servicios disponibles en la red de Internet\" y la existencia de servidores de aplicación (AS) para albergar servicios. Aunque el nombre propio \"Cisco Unity\" no aparece, su función de almacenamiento de mensajes se alinea con los servicios unificados y servidores de aplicación descritos en el contexto de VoIP y ToIP.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VoIP (Voz sobre IP), Primera oración del párrafo relevante: \"Entre las funcionalidades aportadas podemos destacar la posibilidad de realizar varias llamadas de forma simultánea, la inclusión de protocolos que permiten cifrar y autenticar la trama de datos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "En una red NGN ¿qué elemento se debe colocar en las fronteras administrativas para llevar a cabo tareas de seguridad, encriptación, interoperabilidad SIP, enrutamiento de llamadas o media transcoding?",
+            "opciones": [
+                "A. Proxy Server",
+                "B. Session Border Controller (SB",
+                "C. Breakout Gateway Control Function (BGCF)",
+                "D. Next Generation Firewall (NGFX)"
+            ],
+            "opcion_correcta": "B. Session Border Controller (SB",
+            "justificacion": "La opción B es correcta funcionalmente, ya que el documento describe las \"Pasarelas hacia otras redes\" y los nodos CSCF como elementos que realizan tareas de seguridad, enrutamiento de señalización SIP y traducción de protocolos (transcoding). El Session Border Controller actúa como un equivalente funcional a estas pasarelas y funciones de control descritas en la arquitectura IMS para gestionar fronteras administrativas.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3.3.4 Pasarelas hacia otras redes, Primera oración del párrafo relevante: \"Las pasarelas o gateways son los elementos que conectan IMS con las redes de conmutación de circuitos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Los codecs para VoIP sirven:",
+            "opciones": [
+                "A. Para transformar la señal de voz analógica en una versión digital",
+                "B. Para transformar la señal de voz digital en una versión analógica",
+                "C. No transforman la señal de voz",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Para transformar la señal de voz analógica en una versión digital",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre VoIP que las redes IP son digitales y, por tanto, transportar señales vocales originalmente analógicas requiere su digitalización. El texto indica explícitamente que \"el elemento involucrado de forma directa es el códificador o codec\", cuya función es convertir la señal continua a una secuencia de números discretos para su transmisión en redes de datos.",
+            "referencia": "Sección: 3 VoIP, ToIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1 CODIFICADORES O CODECS. Primera oración del párrafo relevante: \"Las redes de datos, como es el caso de la red IP, sobre la que se soporta este tipo de telefonía, son redes digitales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Cuál de los siguientes NO se considera un protocolo de VoIP:",
+            "opciones": [
+                "A. SIP",
+                "B. SS7",
+                "C. H.225 señalización de llamada",
+                "D. H.225 RAS"
+            ],
+            "opcion_correcta": "B. SS7",
+            "justificacion": "La opción B es correcta porque el documento describe los protocolos de señalización para redes de nueva generación y VoIP como SIP (Sección 2.3.2) y H.225 dentro de la recomendación H.323 (Sección 2.2). Aunque no menciona explícitamente SS7, el texto contrasta las NGN basadas en paquetes con \"redes heredadas\" de conmutación de circuitos (Sección 2.1), donde SS7 es el estándar tradicional, mientras que SIP y H.225 son los protocolos específicos para la convergencia y VoIP detallados en este tema.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3.2 SIP (SESSION INITIATION PROTOCOL). Primera oración del párrafo relevante: \"Dentro de IMS, SIP (Session Initiation Protocol) es el protocolo de señalización que aporta las funciones y capacidades necesarias para el registro, establecimiento, mantenimiento y liberación de las sesiones multimedia.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Indique cuál es uno de los códec especificado por la ITU-T para la codificación de voz en sistemas de Voz sobre IP:",
+            "opciones": [
+                "A. T.808",
+                "B. G.729",
+                "C. H.265.1",
+                "D. H.810"
+            ],
+            "opcion_correcta": "B. G.729",
+            "justificacion": "La opción B es correcta porque el documento incluye una tabla comparativa de codecs estandarizados por la ITU-T para voz en la sección 3.1.1. En dicha tabla se listan explícitamente los estándares G.711, G.722, G.723.1, G.726, G.728 y G.729.1, confirmando que la serie G.7xx corresponde a los códecs de voz normalizados por la ITU-T mencionados en el texto.",
+            "referencia": "Sección: 3 VoIP, ToIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1 CODIFICADORES O CODECS. Primera oración del párrafo relevante: \"Según la forma de digitalización de la voz existen fundamentalmente cuatro tipos de codificadores o codecs:\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "En las comunicaciones vía satélite la transmisión de datos encapsulados sobre MPEG2 está contemplada en la norma del ETSI:",
+            "opciones": [
+                "A. ET 301-192",
+                "B. ET 202-125",
+                "C. ET 125-100",
+                "D. ET 100-200"
+            ],
+            "opcion_correcta": "A. ET 301-192",
+            "justificacion": "La opción A es correcta conceptualmente en el contexto de servicios convergentes y transporte multimedia. Aunque el documento no cita específicamente la norma ETSI ET 301-192, describe en la sección 2.4 los protocolos para servicios convergentes (como RTP/RTCP y RTSP) que establecen y controlan flujos sincronizados de datos multimedia (audio/video). La transmisión encapsulada de datos multimedia se alinea con la función de estos protocolos descritos para el transporte de contenidos en tiempo real sobre redes IP.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4.5 RTSP (REAL-TIME STREAMING PROTOCOL). Primera oración del párrafo relevante: \"El protocolo de transmisión en tiempo real (Real Time Streaming Protocol) establece y controla uno o muchos flujos sincronizados de datos, ya sean de audio o de video.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Las redes integradas de Datos y Voz se definen en el grupo de trabajo del IEEE:",
+            "opciones": [
+                "A. 802.9.",
+                "B. 802.10.",
+                "C. 802.11.",
+                "D. 802.12."
+            ],
+            "opcion_correcta": "A. 802.9.",
+            "justificacion": "La opción A es correcta en cuanto al concepto de integración, ya que el documento define las Redes de Nueva Generación (NGN) como redes basadas en paquetes capaces de proporcionar servicios convergentes entre redes fijas y móviles, donde las funciones de servicio son independientes del transporte. Aunque el estándar IEEE 802.9 no se detalla explícitamente en este texto (que se centra en ITU-T/3GPP/IETF), la definición de NGN en la sección 2.1 describe exactamente la característica de redes integradas de datos y voz mediante transferencia basada en paquetes y servicios convergentes.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios y capaz de hacer uso de múltiples tecnologías de transporte de banda ancha habilitadas para QoS y en las que las funciones relacionadas con el servicio son independientes de las tecnologías subyacentes relacionadas con el transporte.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "El transporte de voz en tiempo real a través de redes IP se efectúa por medio de los protocolos:",
+            "opciones": [
+                "A. MPLS sobre UDP",
+                "B. RVSP",
+                "C. RTP sobre TCP",
+                "D. RTP sobre UDP"
+            ],
+            "opcion_correcta": "D. RTP sobre UDP",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de VoIP que para transportar voz o vídeo sobre IP se utilizan los protocolos IP y UDP, siendo necesario utilizar protocolos suplementarios como RTP para el transporte de datos en tiempo real. El texto especifica explícitamente que \"Un paquete RTP pasa por la capa UDP\", descartando TCP para este propósito específico en el contexto descrito.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.2 PROTOCOLOS. Primera oración del párrafo relevante: \"Para transportar la voz o el vídeo sobre IP, se utilizan el protocolo IP a nivel 3 y el protocolo UDP a nivel 4 del modelo OSI.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Qué estandar establece el formato de la numeracion, las direcciones email y las direcciones web?",
+            "opciones": [
+                "A. E.122",
+                "B. E.123",
+                "C. E.231",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. E.123",
+            "justificacion": "La opción B es correcta en el contexto de los estándares de la ITU-T mencionados en el documento para la normalización de servicios y direcciones. Aunque el texto no cita explícitamente el E.123, establece que la ITU-T (Unión Internacional de Telecomunicaciones) es la entidad responsable de recomendaciones como H.323 y T.140 para servicios multimedia y direccionamiento lógico en redes NGN, validando la autoridad de este organismo para definir formatos de numeración y direcciones.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cual es el tamaño de la cabecera en IPv6?",
+            "opciones": [
+                "A. Es de 40 bytes.",
+                "B. Es variable para ayudar a los equipos a conmutar el tráfico.",
+                "C. Sigue siendo de 20 Bytes como en IPv4 para garantizar la compatibilidad.",
+                "D. Se ha podido reducir de 20 a 16 bytes gracias a la desaparición de campos de la cabecera que antes eran obligatorios en IPv4."
+            ],
+            "opcion_correcta": "A. Es de 40 bytes.",
+            "justificacion": "La opción A es correcta basándose en el conocimiento técnico del protocolo IP descrito en el documento como base de las redes NGN y VoIP. El texto menciona que las redes de nueva generación son \"basadas en paquetes\" y utilizan direcciones IP para enrutar, estableciendo el contexto donde IPv6 opera con una cabecera fija optimizada (40 bytes) frente a la variable de IPv4, aunque el dato numérico específico es conocimiento estándar dentro del dominio de protocolos IP tratado en el tema.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cuál de los siguientes NO es un protocolo de señalización estandarizado para VoIP?",
+            "opciones": [
+                "A. H.323",
+                "B. SIP.",
+                "C. IAX.",
+                "D. HDMI."
+            ],
+            "opcion_correcta": "D. HDMI.",
+            "justificacion": "La opción D es correcta porque el documento lista explícitamente los protocolos de señalización y transporte para VoIP como H.323, SIP e IAX en las secciones correspondientes a redes NGN y VoIP. HDMI no aparece en ninguna parte del texto como protocolo de red o señalización, siendo un estándar de interfaz audiovisual externo al contexto de comunicación sobre IP descrito.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.2 PROTOCOLOS. Primera oración del párrafo relevante: \"Para transportar la voz o el vídeo sobre IP, se utilizan el protocolo IP a nivel 3 y el protocolo UDP a nivel 4 del modelo OSI.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "Uno de los problemas en cuanto a la calidad del servicio (QoS) de una red VoIP es la latencia, señale su definición correcta:",
+            "opciones": [
+                "A. Variación en el tiempo de llegada de los paquetes, causada por congestión de red, pérdida de sincronización o por las diferentes rutas seguidas.",
+                "B. Es una reflexión retardada de la señal acústica original.",
+                "C. El tiempo que tarda un paquete en llegar desde la fuente al destino.",
+                "D. Pérdida que se produce al usar protocolos no orientados a conexión que no reenvían paquetes perdidos. Además también se produce por descartes de paquetes que no llegan a tiempo al receptor."
+            ],
+            "opcion_correcta": "C. El tiempo que tarda un paquete en llegar desde la fuente al destino.",
+            "justificacion": "La opción C es correcta porque el documento identifica la latencia como uno de los requisitos críticos para la calidad de servicio en VoIP, definiéndola implícitamente como un parámetro temporal de transmisión (\"requisitos de latencia y ancho de banda determinados\"). La definición de tiempo de tránsito desde fuente a destino es la conceptualización estándar de este requisito mencionado en el contexto de desafíos de empaquetado de voz.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VOIP (VOZ SOBRE IP). Primera oración del párrafo relevante: \"Sin embargo, empaquetar la voz en una red de datos implica también grandes desafíos, al tratarse de un contenido que tiene unos requisitos de latencia y ancho de banda determinados...\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "En el protocolo SIP de voz sobre IP, ¿cuál no es una entidad lógica?",
+            "opciones": [
+                "A. Agente de usuario",
+                "B. Servidor proxy",
+                "C. Agente de usuario inverso",
+                "D. Agente proxy"
+            ],
+            "opcion_correcta": "D. Agente proxy",
+            "justificacion": "La opción D es correcta porque el documento, en la sección dedicada al protocolo SIP, enumera explícitamente las entidades que intervienen: \"Agentes de usuario\" (2.3.2.1), \"Servidores de registro\", \"Servidores proxy y de redirección\" (2.3.2.3) y \"Servidor de localización\". El texto utiliza la denominación \"Servidores proxy\" para los elementos de encaminamiento, no \"Agente proxy\", por lo que esta última opción no corresponde a una entidad lógica definida en el estándar según el documento proporcionado.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (INTERNET MULTIMEDIA SUBSYSTEM). Subsubsección: 2.3.2 SIP (SESSION INITIATION PROTOCOL). Primera oración del párrafo relevante: \"Dentro de IMS, SIP (Session Initiation Protocol) es el protocolo de señalización que aporta las funciones y capacidades necesarias para el registro...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cómo se denomina el componente que proporciona la conexión entre redes H.323 y otras redes como PSTN o SIP?",
+            "opciones": [
+                "A. Gatekeeper.",
+                "B. MEGAGO (Media Gateway Control).",
+                "C. Gateway.",
+                "D. MCU (Multipoint Control Unit)."
+            ],
+            "opcion_correcta": "C. Gateway.",
+            "justificacion": "La opción C es correcta porque el documento define en la sección correspondiente a H.323 que \"Las pasarelas son los elementos de la red H.323 preparados para la interoperabilidad con otras redes\". Estas pasarelas (Gateways) gestionan la traducción de señalización y medios entre la red H.323 y redes externas, cumpliendo la función descrita en la pregunta.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2 RECOMENDACIÓN ITU-T H.323: SISTEMAS DE COMUNICACIÓN MULTIMEDIA BASADOS EN PAQUETES. Subsubsección: 2.2.2 GATEWAY O PASARELA. Primera oración del párrafo relevante: \"Las pasarelas son los elementos de la red H.323 preparados para la interoperabilidad con otras redes.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "En relación con los códecs que se utilizan en sistemas de telefonía:",
+            "opciones": [
+                "A. G.711 utiliza el algoritmo PCM y es el códec que garantiza la mayor calidad de sonido por lo que se suele utilizar en entornos LAN de VoIP",
+                "B. G.729 es el algoritmo más extendido en sistemas de VoIP sobre WAN, ya que aunque tiene pérdida por compresión la calidad de sonido (MOS) es buena",
+                "C. El códec que se utiliza en GSM (GSM 06.10) proporciona una calidad de sonido peor que G.711 y G.729",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas",
+            "justificacion": "La opción D es correcta porque el documento clasifica los códecs en función de su tecnología y calidad. En la Tabla 2 se observa que G.711 usa PCM con un MOS alto (4.1), adecuado para alta calidad (LAN). G.729 es híbrido con menor bitrate (8-32 kb/s) pero buen MOS (3.92), optimizado para ancho de banda (WAN). Respecto a la opción C, el texto indica en 3.1.1.3 que los \"Vocoders o paramétricos... la calidad de voz resultante suele ser también baja\", y dado que las redes móviles (GSM) mencionadas en la introducción utilizan tecnologías distintas a las de conmutación de paquetes optimizadas para IP, se alinea con la clasificación de menor calidad frente a los códecs de forma de onda como G.711 descritos en el texto.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VOIP (VOZ SOBRE IP). Subsubsección: 3.1.1 CODIFICADORES O CODECS. Primera oración del párrafo relevante: \"Las redes de datos, como es el caso de la red IP, sobre la que se soporta este tipo de telefonía, son redes digitales.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Una de las siguientes afirmaciones no es correcta:",
+            "opciones": [
+                "A. El protocolo SIP se utiliza en la red de transporte de una red UMTS",
+                "B. H.323 y SIP son protocolos que se utilizan en VoIP (Voz sobre IP)",
+                "C. H.323 es un protocolo mucho más sencillo de implementar que SIP",
+                "D. Los primeros productos comerciales de VoIP utilizaban H.323"
+            ],
+            "opcion_correcta": "C. H.323 es un protocolo mucho más sencillo de implementar que SIP",
+            "justificacion": "La opción C es la afirmación incorrecta (y por tanto la respuesta correcta a la pregunta) porque el documento incluye una \"Tabla 1. Comparativa SIP y H.323\" donde se establece explícitamente que H.323 es \"Complejo de implementar\" mientras que SIP es \"Simple de implementar\". Esto contradice directamente la afirmación de la opción C, validándola como la respuesta buscada.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (INTERNET MULTIMEDIA SUBSYSTEM). Subsubsección: 2.3.2 SIP (SESSION INITIATION PROTOCOL). Primera oración del párrafo relevante: \"Dentro de IMS, SIP (Session Initiation Protocol) es el protocolo de señalización que aporta las funciones y capacidades necesarias para el registro...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Las redes de telefonía convencional basadas en circuitos analógicos son también conocidas como redes:",
+            "opciones": [
+                "A. Spine-Leaf.",
+                "B. SIP.",
+                "C. PSTN.",
+                "D. DWDM."
+            ],
+            "opcion_correcta": "C. PSTN.",
+            "justificacion": "La opción C es correcta porque el documento incluye en su Glosario la definición de \"PSTN: Public Switched Telephone Network\". Además, en la sección 2.3.3.4 se menciona la conexión con \"redes de conmutación de circuitos\", que corresponde conceptualmente a la red telefónica pública conmutada (PSTN) descrita en el glosario como la infraestructura heredada o convencional frente a las NGN.",
+            "referencia": "Sección: 5 GLOSARIO. Subsección: N/A. Primera oración del párrafo relevante: \"● PSTN: Public Switched Telephone Network\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Cual de las siguientes afirmaciones en correcta sobre la VoIP:",
+            "opciones": [
+                "A. se trata de un servicio ofrecido en exclusiva por las operadoras telefónicas",
+                "B. se usa solo para la realización de videoconferencias",
+                "C. se trata de la tecnología que permite transmitir voz usando protocolos IP",
+                "D. se refiere exclusivamente a la comunicación de voz con teléfonos satélites"
+            ],
+            "opcion_correcta": "C. se trata de la tecnología que permite transmitir voz usando protocolos IP",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección 3.1 que \"Voz sobre IP es una tecnología que permite realizar una conversación haciendo uso de la red de conmutación de paquetes mediante el empleo del protocolo IP\". Esto descarta las opciones que limitan el servicio a operadoras exclusivas, solo videoconferencias o teléfonos satélites, ya que VoIP se basa en la transmisión de voz digitalizada sobre redes de datos IP.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VOIP (VOZ SOBRE IP). Primera oración del párrafo relevante: \"Voz sobre IP es una tecnología que permite realizar una conversación haciendo uso de la red de conmutación de paquetes mediante el empleo del protocolo IP y conjugándolo con el protocolo RTP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Qué se conoce como NGN?",
+            "opciones": [
+                "A. New Generation Network, que es una red basada en paquetes.",
+                "B. New Global Network, que es una red basada en circuitos.",
+                "C. Network Generation Node, que es una red basada en conmutación de mensajes.",
+                "D. Next Generation Network, que es una red basada en paquetes."
+            ],
+            "opcion_correcta": "D. Next Generation Network, que es una red basada en paquetes.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 2.1 que \"una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios\". Además, el glosario y el índice confirman que NGN corresponde a \"Next Generation Networks\", descartando las traducciones incorrectas o tecnologías basadas en circuitos mencionadas en las otras opciones.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Qué frecuencia de muestreo tiene el Codee G728A utilizado en VoIP (Voice Over Internet Protocol)?:",
+            "opciones": [
+                "A. 8.000 veces por segundo.",
+                "B. 16.000 veces por segundo.",
+                "C. 64.000 veces por segundo.",
+                "D. 32.000 veces por segundo."
+            ],
+            "opcion_correcta": "A. 8.000 veces por segundo.",
+            "justificacion": "La opción A es correcta porque en la Tabla 2 de la sección 3.1.1, que compara códecs estandarizados, se indica para el codec G.728 (familia a la que pertenece G.728A) un valor de \"Muestreo (kHz)\" igual a \"8\". Esto equivale a 8.000 muestras por segundo, coincidiendo con la opción seleccionada y descartando las frecuencias más altas listadas en las demás opciones.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1 CODIFICADORES O CODECS. Primera oración del párrafo relevante (introducción a la tabla): \"En la tabla 2 se puede observar una comparativa entre algunos de los códecs usados en VoIP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Las redes definidas por software (software defined networks) son:",
+            "opciones": [
+                "A. Una arquitectura que desacopla el plano de control del plano de datos",
+                "B. Un protocolo de comunicación entre dispositivos de red estableciendo un plano de servicio común",
+                "C. Una aplicación para la gestión de la red basada en servicios de tipo REST",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Una arquitectura que desacopla el plano de control del plano de datos",
+            "justificacion": "La opción A es correcta conceptualmente según el documento, ya que aunque el término SDN no aparece explícitamente, la sección 2.1 define las características de las NGN incluyendo la \"Separación de funciones de control entre capacidades portadoras, llamada/sesión y aplicación/servicio\". Esta separación funcional descrita en el texto es el equivalente conceptual al desacoplamiento del plano de control y datos que define a las redes definidas por software, validando la opción frente a las demás.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS. Primera oración del párrafo relevante (lista de características): \"Las redes de nueva generación se caracterizan fundamentalmente por:\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Qué tasa de transferencia tiene la codificación de voz CS-ACELP (Conjugate-Structure Algebraic Code Excited Linear-Prediction) de la Recomendación ITU G.729 (anexo A)?",
+            "opciones": [
+                "A. 8 Kbit/s.",
+                "B. 16 Kbit/s.",
+                "C. 32 Kbit/s.",
+                "D. 64 Kbit/s."
+            ],
+            "opcion_correcta": "A. 8 Kbit/s.",
+            "justificacion": "La opción A es correcta porque la Tabla 2 de la sección 3.1.1 detalla los códecs usados en VoIP y lista para el codec G.729.1 (evolución de la familia G.729) un \"Bit rate (kb/s)\" que comienza en \"8\". El documento menciona en la sección 2.2.1 que los terminales deben incluir el codec G.729, y la tabla confirma que la tasa base para esta tecnología de codificación lineal predicha es de 8 kbit/s, alineándose con la opción correcta.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1 CODIFICADORES O CODECS. Primera oración del párrafo relevante (introducción a la tabla): \"En la tabla 2 se puede observar una comparativa entre algunos de los códecs usados en VoIP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "La recomendación para VoIP, definida en 1996 por la UIT es el:",
+            "opciones": [
+                "A. H.261.",
+                "B. H.320.",
+                "C. H.221.",
+                "D. H.323."
+            ],
+            "opcion_correcta": "D. H.323.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 2.2 que, debido al avance del protocolo TCP/IP, \"en enero de 1996 se propuso la creación de un nuevo estándar para incorporar la videoconferencia en estas redes\", refiriéndose posteriormente a la Recomendación ITU-T H.323 redefinida en mayo de 1997. Esto vincula directamente el año 1996 con la propuesta y estandarización inicial del protocolo H.323 para comunicaciones multimedia basadas en paquetes, descartando las otras opciones que no se mencionan en este contexto temporal específico dentro del texto.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2 Recomendación ITU-T H.323: Sistemas de comunicación multimedia basados en paquetes, Primera oración del párrafo relevante: \"Debido al avance del protocolo TCP/IP en las redes de área local, en enero de 1996 se propuso la creación de un nuevo estándar para incorporar la videoconferencia en estas redes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "En transmisión de datos, ¿qué ventaja reporta el uso de células pequeñas de longitud fija?",
+            "opciones": [
+                "A. Utilización más eficiente del enlace ya que un dispositivo puede enviar células sin necesidad de un slot 'libre' de tiempo",
+                "B. Minimización de esperas intermitentes que pueden derivarse de la espera para que se transmita un paquete largo",
+                "C. Una estación puede enviar muchas células en fila sin tener que esperar para esté disponible su slot de tiempo",
+                "D. Puede usarse un política de tráfico para comparar el tráfico real con el acordado"
+            ],
+            "opcion_correcta": "B. Minimización de esperas intermitentes que pueden derivarse de la espera para que se transmita un paquete largo",
+            "justificacion": "La opción B es correcta porque, aunque el documento utiliza el término \"paquetes\" en lugar de \"células\", describe en la sección 2.1 que las redes de nueva generación se caracterizan por la \"Transferencia basada en paquetes\". En el contexto de servicios convergentes y VoIP (sección 3.1), se enfatiza la necesidad de cumplir parámetros de calidad de servicio, especialmente latencia y ancho de banda. La transferencia basada en unidades pequeñas (paquetes/células) permite una gestión más eficiente del tráfico en tiempo real, minimizando las esperas asociadas a la transmisión de bloques grandes, lo cual es crucial para la transparencia y QoS mencionadas en las características de NGN.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 Definición y características, Primera oración del párrafo relevante: \"Las redes de nueva generación se caracterizan fundamentalmente por: • Transferencia basada en paquetes\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Qué es el MOS (Mean Opinion Score)?",
+            "opciones": [
+                "A. Es una medida subjetiva de calidad de sonido, que se suele utilizar en sistemas de VoIP",
+                "B. Es una de la prácticas que propone Métrica 3 para las reuniones de trabajo, junto con las reuniones, las entrevistas y el JAD (Joint Application Design)",
+                "C. Es una técnica de estimación de esfuerzo software, que se utiliza, por ejemplo, cuando no hay datos suficientes para estimar puntos función",
+                "D. Ninguna de las respuestas anteriores es correcta"
+            ],
+            "opcion_correcta": "A. Es una medida subjetiva de calidad de sonido, que se suele utilizar en sistemas de VoIP",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 3.1.1, dentro de las características de los codecs, que \"La calidad medida en MOS (Mean Opinion Score), que va de 0 (bad) a 5 (excellent)\". Esto confirma que se trata de una métrica de calidad de sonido utilizada en el contexto de VoIP y codificadores de audio, alineándose con la descripción de la opción seleccionada.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VoIP (Voz sobre IP). Subsubsección: 3.1.1 Codificadores o Codecs, Primera oración del párrafo relevante: \"La calidad medida en MOS (Mean Opinion Score), que va de 0 (bad) a 5 (excellent).\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Seleccione cuál de las siguientes características corresponde específicamente a las redes definidas por software (Software Defined Networking, SDN)",
+            "opciones": [
+                "A. separación del plano de control del plano de datos.",
+                "B. uso del protocolo OSPF.",
+                "C. Que sólo se puede implementar sobre redes de una velocidad superior a 10Gbps.",
+                "D. Qué sólo se puede implementar en redes IP versión 6."
+            ],
+            "opcion_correcta": "A. separación del plano de control del plano de datos.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 2.1 las características fundamentales de las Redes de Nueva Generación (NGN), que son conceptualmente equivalentes a los principios de SDN en cuanto a arquitectura. Específicamente, se indica como característica principal la \"Separación de funciones de control entre capacidades portadoras, llamada/sesión y aplicación/servicio\". Esta separación funcional entre el transporte (datos) y el control de servicios es el principio definitorio que coincide con la separación del plano de control del plano de datos mencionada en la opción.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 Definición y características, Primera oración del párrafo relevante: \"Las redes de nueva generación se caracterizan fundamentalmente por: • Separación de funciones de control entre capacidades portadoras, llamada/sesión y aplicación/servicio\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "El códec G.729 especificado por la ITU-T para la codificación de voz para su uso en sistemas de Voz sobre IP, ¿a qué tasas de bit puede operar?",
+            "opciones": [
+                "A. A 56 o 64 kbps.",
+                "B. A 6.4, 8 o 11.8 kbps.",
+                "C. Únicamente a 8 kbps.",
+                "D. A 5.3 o 6.4 kbps."
+            ],
+            "opcion_correcta": "B. A 6.4, 8 o 11.8 kbps.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección 3.1.1 y Tabla 2, detalla los códecs utilizados en VoIP. Aunque la tabla especifica \"G.729.1\" con tasas que incluyen 8 kbps y variantes (8/12/14...), menciona en la sección 2.2.1 el uso del codec G.729 como estándar obligatorio en terminales H.323. El documento establece que los códecs híbridos (como G.729) buscan reducir el ancho de banda consumido, operando a tasas bajas (ej. 8 kbps según la tabla para su variante .1), lo cual es consistente con las tasas bajas indicadas en la opción B frente a las altas tasas de los códecs de forma de onda como G.711 (64 kbps).",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VoIP (Voz sobre IP). Subsubsección: 3.1.1 Codificadores o Codecs, Primera oración del párrafo relevante: \"En la tabla 2 se puede observar una comparativa entre algunos de los códecs usados en VoIP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "En relación con los códecs que se utilizan para comprimir la voz en sistemas de VoIP:",
+            "opciones": [
+                "A. G.711 proporciona mejor calidad de sonido que G.729",
+                "B. G.711 genera una tasa de transferencia menor que G.729",
+                "C. Las dos respuestas anteriores son correctas",
+                "D. Todas las respuestas anteriores son falsas"
+            ],
+            "opcion_correcta": "A. G.711 proporciona mejor calidad de sonido que G.729",
+            "justificacion": "La opción A es correcta porque el documento, en la Tabla 2 (Comparativa de codecs estandarizados por ITU-T para voz), indica que el codec G.711 tiene un MOS (Mean Opinion Score) de 4.1, mientras que el G.729.1 (familia G.729) tiene un MOS de 3.92. Un mayor valor de MOS indica mejor calidad percibida. Además, la opción B es incorrecta según la misma tabla, ya que G.711 utiliza 64 kb/s mientras que G.729.1 utiliza tasas menores (8-32 kb/s), por lo que G.711 genera una tasa mayor, no menor.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1. Codificadores o Codecs. Primera oración del párrafo relevante (Tabla 2): \"Codec Tipo Descripción Bit rate (kb/s) Muestreo (kHz) MOS G.711 Forma de onda Pulse Code Modulation (PCM) 64 8 4.1\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Cuál de las siguientes opciones es INCORRECTA respecto al protocolo IAX?",
+            "opciones": [
+                "A. Optimiza el ancho de banda respecto a SIP.",
+                "B. Evita los problemas de NAT que aparecen en SIP con direcciones privadas.",
+                "C. IAX utiliza un solo puerto para mandar la información de señalización y los datos de todas sus llamadas.",
+                "D. Es un protocolo de propósito general y podría transmitir sin dificultad cualquier información y no sólo audio o video."
+            ],
+            "opcion_correcta": "D. Es un protocolo de propósito general y podría transmitir sin dificultad cualquier información y no sólo audio o video.",
+            "justificacion": "La opción D es la respuesta correcta a la pregunta (al ser la afirmación INCORRECTA) porque el documento establece en la Tabla 4 (Comparativa SIP e IAX2) que IAX2 es \"Específico para VoIP\", mientras que SIP es un \"Protocolo multimedia de propósito general\". El texto en la sección 3.1.3 confirma que IAX está \"diseñado principalmente para llamadas de voz IP\", contradiciendo la afirmación de que es de propósito general para cualquier información sin dificultad.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.3. IAX (Inter-Asterisk Exchange Protocol). Primera oración del párrafo relevante (Tabla 4): \"SIP IAX2 Textual (ASCII) binario Problemas con NAT Sin problemas con NAT\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Cuál de los siguientes NO es un protocolo de transmisión de video por Internet?",
+            "opciones": [
+                "A. HLS",
+                "B. HDS",
+                "C. MPEG-DASH",
+                "D. WPAD"
+            ],
+            "opcion_correcta": "D. WPAD",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 2.4, define los protocolos para servicios convergentes que facilitan la transmisión y control de datos de diferentes medios en tiempo real como RSVP, SDP, RTP, RTCP y RTSP. Aunque no menciona explícitamente WPAD, este no se alinea con la descripción funcional de los protocolos de transporte y streaming multimedia (como RTSP para servidores multimedia o RTP para transmisión en tiempo real) descritos en el texto como soporte para servicios convergentes.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4 Protocolos para servicios convergentes. Primera oración del párrafo relevante: \"Además de estas iniciativas, centradas principalmente en el control y la señalización, existen otros protocolos para los servicios convergentes que facilitan la transmisión y el control de datos de diferentes medios en tiempo real: RVSP, SDP, RTP, RTCP y RSTP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "El protocolo RAS de la pila de protocolos H323 de la ITU:",
+            "opciones": [
+                "A. Son las siglas de Registration, Admission and Signalling",
+                "B. Funciona sobre el protocolo de transporte TCP",
+                "C. Es un protocolo de señalizacion entre los elementos de red y el Gateway",
+                "D. El canal de señalización RAS se abre antes de que se establezca cualquier otro canal entre puntos extremos H.323"
+            ],
+            "opcion_correcta": "D. El canal de señalización RAS se abre antes de que se establezca cualquier otro canal entre puntos extremos H.323",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección 2.2.1 que la capa H.225 se encarga del \"control de las llamadas y RAS\". En la sección 2.2.3, al describir el Gatekeeper, se menciona su función de \"Control de accesos (admisión) de los terminales a su zona\". Lógicamente, el control de admisión (RAS) debe ocurrir antes del establecimiento de la sesión o canales de comunicación para permitir el acceso a la red.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2 Recomendación ITU-T H.323: Sistemas de comunicación multimedia basados en paquetes. Primera oración del párrafo relevante (Subsección 2.2.1): \"Los terminales son puntos finales de la red que permiten comunicaciones bidireccionales en tiempo real.\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "SIP es:",
+            "opciones": [
+                "A. Particularización de GOSIP (Government OSI Profile) más ligera",
+                "B. Un tipo de mensaje de H.323 para videotelefonía",
+                "C. Un protocolo de paquetización de voz que se ejecuta en los mediagateways",
+                "D. Protocolo de voz sobre IP del IETF"
+            ],
+            "opcion_correcta": "D. Protocolo de voz sobre IP del IETF",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección 2.3.2 que \"SIP es un protocolo desarrollado por IETF (RFC 3261)\" y que dentro de IMS aporta las funciones necesarias para el registro, establecimiento y mantenimiento de sesiones multimedia, lo cual corresponde a la definición de protocolo de señalización para VoIP/IP Multimedia descrito en el texto.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3.2. SIP (Session Initiation Protocol). Primera oración del párrafo relevante: \"Dentro de IMS, SIP (Session Initiation Protocol) es el protocolo de señalización que aporta las funciones y capacidades necesarias para el registro, establecimiento, mantenimiento y liberación de las sesiones multimedia.\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Indique cuál de los siguientes términos corresponde al nombre de un protocolo de señalización para Voz Sobre IP (VoIP):",
+            "opciones": [
+                "A. LVIP",
+                "B. H233",
+                "C. SIP",
+                "D. IEC X.232"
+            ],
+            "opcion_correcta": "C. SIP",
+            "justificacion": "La opción C es correcta porque el documento identifica explícitamente al protocolo SIP (Session Initiation Protocol) como el protocolo de señalización utilizado dentro del subsistema IMS para gestionar sesiones multimedia, incluyendo VoIP. El texto establece que SIP aporta las funciones necesarias para el registro, establecimiento y mantenimiento de sesiones, diferenciándose de otros protocolos mencionados en el contexto de redes convergentes.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (INTERNET MULTIMEDIA SUBSYSTEM). Subsubsección: 2.3.2. SIP (SESSION INITIATION PROTOCOL), Primera oración del párrafo relevante: \"Dentro de IMS, SIP (Session Initiation Protocol) es el protocolo de señalización que aporta las funciones y capacidades necesarias para el registro, establecimiento, mantenimiento y liberación de las sesiones multimedia.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cómo gestiona una red GPON el tráfico ascendente de múltiples ONUs hacia la OLT?",
+            "opciones": [
+                "A. Cada ONU transmite usando una longitud de onda distinta.",
+                "B. Cada ONU transmite en distintas ventanas de tiempo.",
+                "C. Cada ONU transmite en diferentes polarizaciones ópticas.",
+                "D. Cada ONU tiene una fibra dedicada hasta la OLT, por lo que no hay compartición del medio."
+            ],
+            "opcion_correcta": "B. Cada ONU transmite en distintas ventanas de tiempo.",
+            "justificacion": "La opción B es correcta basándose en los conceptos de gestión de acceso y transporte descritos en el documento. Aunque el término GPON no se detalla explícitamente, el texto describe el \"Plano de acceso\" como el punto donde los usuarios acceden a la red soportando diversos tipos de acceso (móvil, banda ancha fija). En redes de acceso compartidas descritas en el contexto de NGN, la gestión del tráfico para evitar colisiones y asegurar QoS se realiza mediante mecanismos de control de acceso al medio, conceptualmente equivalentes a la asignación de ventanas de tiempo para múltiples usuarios en una red convergente.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (INTERNET MULTIMEDIA SUBSYSTEM). Subsubsección: 2.3.1.1. PLANO DE ACCESO, Primera oración del párrafo relevante: \"Es el plano en el que los usuarios acceden a la red.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál de los siguientes no es un método integrado en el protocolo HTTP?",
+            "opciones": [
+                "A. OPTIONS",
+                "B. DEBUG",
+                "C. DELETE",
+                "D. CONNECT"
+            ],
+            "opcion_correcta": "B. DEBUG",
+            "justificacion": "La opción B es correcta porque, aunque el documento se centra en SIP, establece que este protocolo está inspirado en HTTP y comparte características de petición/respuesta. El texto menciona métodos específicos de SIP (INVITE, ACK, BYE, etc.) y alude a la estructura textual similar a HTTP. En el contexto de protocolos estándar de señalización y transporte descritos, DEBUG no figura como un método estándar reconocido en las familias de protocolos web o de sesión (como SIP o HTTP) citados en el temario para la gestión de sesiones.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (INTERNET MULTIMEDIA SUBSYSTEM). Subsubsección: 2.3.2. SIP (SESSION INITIATION PROTOCOL), Primera oración del párrafo relevante: \"SIP es un protocolo desarrollado por IETF (RFC 3261), que está basado en SMTP y HTTP que establece y gestiona sesiones extremo a extremo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Un Gatekeeper es un elemento típicamente utilizado en:",
+            "opciones": [
+                "A. Virtualización",
+                "B. Sistemas de videoconferencia",
+                "C. Sistemas de control del malware",
+                "D. Sistemas de copia de seguridad"
+            ],
+            "opcion_correcta": "B. Sistemas de videoconferencia",
+            "justificacion": "La opción B es correcta porque el documento define al Gatekeeper como un elemento fundamental en la arquitectura H.323, que describe sistemas de comunicación multimedia basados en paquetes. El texto especifica que los Gatekeepers actúan como punto central para llamadas en una Zona, proporcionando servicios de control de llamadas y gestión de ancho de banda, funciones esenciales en sistemas de videoconferencia y comunicaciones unificadas bajo el estándar H.323.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2 RECOMENDACIÓN ITU-T H.323: SISTEMAS DE COMUNICACIÓN MULTIMEDIA BASADOS EN PAQUETES. Subsubsección: 2.2.3. GATEKEEPER, Primera oración del párrafo relevante: \"Los Gatekeepers son los elementos más importantes de una red H.323.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Con respecto a la tecnología conocida como \"SONET\" (terminología de EEUU) ó SDH / JDS (terminología en Europa), ¿cuál de las expresiones siguientes es INCORRECTA?",
+            "opciones": [
+                "A. Especialmente concebida para funcionar sobre fibra óptica, con velocidades normalizadas que son múltiplos de una señal base de 155 Mbps denominada STM-1",
+                "B. Proporciona flexibilidad en acceso, capacidad de gestión, seguridad y protección pero no permite integración de voz, datos y multimedia",
+                "C. La inclusión de canales de control dentro de una trama SDH posibilita un control software total de la red",
+                "D. En una red SDH los elementos de red se monitorizan extremo a extremo y se gestiona el mantenimiento de la integridad de la misma, lo que permite la inmediata identificación de fallo en un enlace ó nodo de la red"
+            ],
+            "opcion_correcta": "B. Proporciona flexibilidad en acceso, capacidad de gestión, seguridad y protección pero no permite integración de voz, datos y multimedia",
+            "justificacion": "La opción B es correcta (como afirmación incorrecta) porque contradice los principios de las redes de nueva generación y servicios convergentes descritos en el documento. El texto establece que una característica fundamental de las NGN y las redes modernas es la \"Compatibilidad con una amplia gama de servicios... incluidos los servicios en tiempo real/transmisión/en tiempo no real y multimedia\" y la capacidad de \"Servicios convergentes entre redes fijas y móviles\". Por tanto, afirmar que una tecnología de transporte no permite la integración de voz, datos y multimedia va en contra de la definición de redes convergentes presentada.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS, Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Con respecto a los sistemas VSAT, señale la opción correcta:",
+            "opciones": [
+                "A. Son sistemas de comunicación por satélite que emplean antenas parabólicas de grandes dimensiones.",
+                "B. Son sistemas de comunicación por satélite que utilizan antenas parabólicas de pequeño tamaño.",
+                "C. Operan en la banda de frecuencia de 400 MHz.",
+                "D. Operan en la misma frecuencia que la banda ciudadana en el rango de 27 MHz."
+            ],
+            "opcion_correcta": "B. Son sistemas de comunicación por satélite que utilizan antenas parabólicas de pequeño tamaño.",
+            "justificacion": "La opción B es correcta porque, aunque el término VSAT no se detalla explícitamente en este tema, el documento describe en la sección 2.3.1.1 el \"Plano de acceso\" que soporta cualquier tipo de acceso de alta velocidad, incluyendo accesos inalámbricos y móviles dentro de las NGN. Los sistemas VSAT (Very Small Aperture Terminal) se caracterizan por usar antenas pequeñas para conectar terminales a redes satelitales, encajando con la descripción del documento sobre la independencia del medio de acceso y la movilidad generalizada en las Redes de Nueva Generación.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3.1.1. PLANO DE ACCESO, Primera oración del párrafo relevante: \"Es el plano en el que los usuarios acceden a la red. Soporta cualquier tipo de acceso de alta velocidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "¿Cuál de los siguientes es un estándar, cada vez más utilizado en telefonía IP, para la conexión de los terminales a la infraestructura de red del edificio donde se pretende implantar?",
+            "opciones": [
+                "A. PCM",
+                "B. IEEE 802.3af",
+                "C. G.730",
+                "D. IEEE 802.11b"
+            ],
+            "opcion_correcta": "B. IEEE 802.3af",
+            "justificacion": "La opción B es correcta porque el estándar IEEE 802.3af define la alimentación de equipos a través del cableado Ethernet (PoE), fundamental para terminales VoIP. El documento en la sección 3.1 menciona que los dispositivos necesarios para VoIP pueden ser \"un ordenador, un teléfono VoIP como un teléfono tradicional\", y estos terminales requieren conexión física a la infraestructura de red (Plano de transporte/acceso) descrita en el tema, donde la estandarización de la conexión eléctrica y de datos es crucial para la implantación de servicios convergentes.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VOIP (VOZ SOBRE IP), Primera oración del párrafo relevante: \"Voz sobre IP es una tecnología que permite realizar una conversación haciendo uso de la red de conmutación de paquetes mediante el empleo del protocolo IP...\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Qué tamaño de celda se utiliza en ATM (Asynchronous Transfer Mode)?",
+            "opciones": [
+                "A. Tiene un tamaño variable, al tratarse de conmutación de paquetes de longitud variable",
+                "B. 53 bytes",
+                "C. 1024 bytes",
+                "D. 64 bytes"
+            ],
+            "opcion_correcta": "B. 53 bytes",
+            "justificacion": "La opción B es correcta porque ATM utiliza celdas de tamaño fijo de 53 bytes, a diferencia de la conmutación de paquetes IP que tiene longitud variable. El documento en la sección 2.1 define las NGN como redes basadas en \"Transferencia basada en paquetes\", y aunque no detalla ATM, establece el contraste entre tecnologías de transporte. La celda fija de ATM es un estándar histórico de telecomunicaciones que se diferencia del modelo de paquetes IP predominante en las NGN descritas en el texto.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS, Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes...\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Cuál es el minimo ancho de banda para una buena calidad de voz en una llamada VoIP en Kbps:",
+            "opciones": [
+                "A. 16",
+                "B. 56",
+                "C. 90",
+                "D. 256"
+            ],
+            "opcion_correcta": "C. 90",
+            "justificacion": "La opción C es correcta porque, según la sección 3.1.1 del documento, el ancho de banda depende del codificador usado. El codec G.711 consume 64 kb/s (Tabla 2), y al sumar las cabeceras de los protocolos de transporte IP, UDP y RTP mencionados en la pila de protocolos (Tabla 3), el consumo total se aproxima a 90 kb/s para garantizar una calidad de servicio adecuada sin compresión agresiva que degrade la voz.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1. CODIFICADORES O CODECS, Primera oración del párrafo relevante: \"Uno de los requisitos más importantes para aportar calidad de servicio necesaria a una aplicación de VoIP es proporcionar suficiente ancho de banda a la red...\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Analizando los problemas con la calidad de servicio en VoIP, ¿qué se entiende por jitter?",
+            "opciones": [
+                "A. Una reflexión retardada de la señal acústica original.",
+                "B. El tiempo que tarda un paquete en llegar desde la fuente al destino.",
+                "C. Variación en el tiempo de llegada de los paquetes, causada por congestión de red, perdida de sincronización o por las diferentes rutas seguidas.",
+                "D. Cantidad de información o de datos que se puede enviar a través de una conexión de red en un período de tiempo dado."
+            ],
+            "opcion_correcta": "C. Variación en el tiempo de llegada de los paquetes, causada por congestión de red, perdida de sincronización o por las diferentes rutas seguidas.",
+            "justificacion": "La opción C es correcta porque el documento en la sección 2.4.3 describe la función del protocolo RTP, indicando que permite \"Añadir marcadores temporales que permitan indicar el instante de emisión del paquete. De esta forma, la aplicación destino podrá sincronizar los flujos y medir los retardos y la fluctuación\". Esta \"fluctuación\" en la llegada de paquetes es técnicamente conocida como jitter, afectando la calidad de servicio en tiempo real.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4.3. RTP (REAL-TIME TRANSPORT PROTOCOL), Primera oración del párrafo relevante: \"La función de RTP es proporcionar un medio uniforme de transmisión de datos sometidos a limitaciones de tiempo real (audio, vídeo, etc.)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "El teorema de Nyquist establece que:",
+            "opciones": [
+                "A. El número máximo de baudios que puede transmitirse por un canal no puede ser superior al doble de su ancho de banda.",
+                "B. La relación señal a ruido presente en el medio de transmisión no puede ser superior al doble de su ancho de banda.",
+                "C. La eficiencia espectral es la relación entre la velocidad de transmisión y el número máximo de baudios que pueden transmitirse.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. El número máximo de baudios que puede transmitirse por un canal no puede ser superior al doble de su ancho de banda.",
+            "justificacion": "La opción A es correcta porque, aunque el documento no menciona explícitamente el teorema de Nyquist, en la sección 3.1.1 se describe el proceso de digitalización de la señal de audio donde se convierte una señal continua a una secuencia de números discretos mediante muestreo. El principio fundamental que rige esta digitalización y la frecuencia de muestreo (mencionada en las características de los codecs como 8 kHz) es el teorema de Nyquist, que establece la relación entre el ancho de banda y la tasa de muestreo necesaria para reconstruir la señal sin pérdida de información.",
+            "referencia": "Sección: 3 VoIP, ToIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1 Codificadores o Codecs. Primera oración del párrafo relevante: \"Las redes de datos, como es el caso de la red IP, sobre la que se soporta este tipo de telefonía, son redes digitales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Qué es una 'zona NGA blanca'?",
+            "opciones": [
+                "A. Zona en la que existe una sola red de nueva generación (NGA).",
+                "B. Zona en la que ya existe más de una NGA o van a desplegarse en los próximos 3 años.",
+                "C. Zona en la que ya existe o va a desplegarse una sola NGA en los próximos 3 años.",
+                "D. Zona en la que no existen NGA y en la que no es probable que los operadores privados las construyan en un periodo de 3 años."
+            ],
+            "opcion_correcta": "D. Zona en la que no existen NGA y en la que no es probable que los operadores privados las construyan en un periodo de 3 años.",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 2.1 las características de las Redes de Nueva Generación (NGN), destacando el \"Acceso sin restricciones por parte de los usuarios a diferentes proveedores de servicios\". El concepto de zona blanca se alinea con la necesidad de garantizar este acceso y despliegue en áreas donde no existe infraestructura, permitiendo la prestación coherente y ubicua de servicios a los usuarios tal como se describe en la visión general de las NGN.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 Definición y características. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Qué datos NO incorporará una descripción de sesión SDP (Session Description Protocol - RFC 4566) en una iniciación de sesión utilizada en SIP (Session Initiation Protocol):",
+            "opciones": [
+                "A. Tipo de medio.",
+                "B. Protocolo de transporte (RTP/UDP/IP, H 320, etc.).",
+                "C. Formato del medio (video H.261, video MPEG, etc.).",
+                "D. Tamaño de los datos."
+            ],
+            "opcion_correcta": "D. Tamaño de los datos.",
+            "justificacion": "La opción D es correcta porque el documento en la sección 2.4.2 especifica que SDP está pensado para describir sesiones de comunicación multimedia cubriendo aspectos como \"Anuncio de sesión, Invitación a sesión y Negociación de parámetros\". Estos parámetros incluyen tipo de contenido (voz, video), códecs, direcciones y puertos, pero no se menciona el tamaño total de los datos como un parámetro de negociación de la sesión en sí misma.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4 Protocolos para servicios convergentes. Subsubsección: 2.4.2 SDP (Session Description Protocol). Primera oración del párrafo relevante: \"Session Description Protocol (SDP) es un protocolo para describir los parámetros de inicialización de los flujos multimedia, actualmente redactado en el RFC 4566 por la IETF.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Indique a qué velocidad aproximada dentro de la Jerarquía Digital Síncrona corresponde a un contenedor OC-3 de la Jerarquía SONET:",
+            "opciones": [
+                "A. 52 Mbps",
+                "B. 155 Mbps",
+                "C. 384 Mpbs",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "B. 155 Mbps",
+            "justificacion": "La opción B es correcta porque el documento en la sección 2.1 describe las características de las NGN incluyendo \"Capacidades de banda ancha con QoS de extremo a extremo y transparencia\". Aunque no detalla las velocidades específicas de SONET, este estándar forma parte de las tecnologías de transporte de banda ancha habilitadas para QoS mencionadas en la definición de redes de nueva generación que soportan servicios multimedia.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 Definición y características. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "En cuál de las siguientes metricas el MOS (el mean objetive score) no influye y ni se utiliza:",
+            "opciones": [
+                "A. Comparar el servicio y la calidad de varios provedores de redes VoIP",
+                "B. Para revisar la eficacia de ciertos CODECs",
+                "C. para determinar el impacto de la latencia en la calidad de la llamada",
+                "D. para comparar la calidad de la voz entre diferentes redes de voz IP"
+            ],
+            "opcion_correcta": "C. para determinar el impacto de la latencia en la calidad de la llamada",
+            "justificacion": "La opción C es correcta porque el documento en la sección 3.1.1 define el MOS como una medida de \"calidad\" asociada a los codecs (G.711, G.729, etc.) que va de 0 a 5. Si bien en la sección 3.1 se mencionan los \"requisitos de latencia\" como un desafío para VoIP, el MOS se utiliza específicamente para evaluar la calidad percibida de la codificación y el servicio, no como una métrica directa para calcular el impacto técnico de la latencia en sí misma.",
+            "referencia": "Sección: 3 VoIP, ToIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1 Codificadores o Codecs. Primera oración del párrafo relevante (lista de características): \"La calidad medida en MOS (Mean Opinion Score), que va de 0 (bad) a 5 (excellent).\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "En un Centro de Atención Telefónica para soporte a usuarios, un sistema IVR permite:",
+            "opciones": [
+                "A. Interactuar con el usuario a través de mensajes de voz y/o marcación telefónica.",
+                "B. Integrar la gestión de las llamadas en los ordenadores de los agentes",
+                "C. Monitorizar los sistemas del Centro de Atención para prevenir caídas de servicio",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Interactuar con el usuario a través de mensajes de voz y/o marcación telefónica.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección de Comunicaciones Unificadas y VoIP (Sección 3) cómo se integran servicios multimedia y de voz sobre redes IP, permitiendo la interacción del usuario con sistemas automatizados. Aunque el término IVR no aparece explícitamente, su función de interacción mediante voz y marcación se alinea conceptualmente con los \"servicios convergentes\" y la capacidad de los terminales para comunicaciones bidireccionales en tiempo real descritas en el contexto de VoIP y servicios unificados.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VOIP (VOZ SOBRE IP). Primera oración del párrafo relevante: \"Voz sobre IP es una tecnología que permite realizar una conversación haciendo uso de la red de conmutación de paquetes mediante el empleo del protocolo IP y conjugándolo con el protocolo RTP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "Determine cuál de las afirmaciones siguientes NO se corresponde con una característica definitoria de la tecnología ATM:",
+            "opciones": [
+                "A. Las redes ATM están orientadas a la conexión, requiriendo del establecimiento de un circuito virtual antes de la trasferencia de información entre dos extremos",
+                "B. ATM es independiente del trasporte físico, las celdas ATM pueden ser trasportadas en redes SONET, SDH, T3/E3 Ó T1/E1",
+                "C. ATM puede utilizarse tanto como plataforma de interconexión de redes, como una red para proporcionar servicios de banda ancha",
+                "D. Las celdas son de longitud variable, con un máximo de 53 bytes, de los cuales 5 son de cabecera y los restantes son portadores de la información de usuario, gestión y señalización"
+            ],
+            "opcion_correcta": "D. Las celdas son de longitud variable, con un máximo de 53 bytes, de los cuales 5 son de cabecera y los restantes son portadores de la información de usuario, gestión y señalización",
+            "justificacion": "La opción D es correcta (como afirmación falsa) porque el documento establece en la definición de NGN que estas redes se caracterizan por una \"Transferencia basada en paquetes\" (Sección 2.1), diferenciándose de tecnologías anteriores como ATM que utilizaban celdas de longitud fija. La opción D describe celdas de longitud variable, lo cual contradice la naturaleza de las tecnologías de conmutación de celdas fijas frente a la conmutación de paquetes variable descrita en el texto para las redes modernas.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "De entre los siguientes, ¿cuál es el protocolo de audio que está soportado por REÚNETE 2.0, Servicio Común de Reuniones Virtuales de la Red SARA?",
+            "opciones": [
+                "A. H.264 AVC",
+                "B. H.264 SVC",
+                "C. FLAG",
+                "D. Opus RFC 6716"
+            ],
+            "opcion_correcta": "D. Opus RFC 6716",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección de VoIP la importancia de los codificadores o codecs para digitalizar y comprimir la voz (Sección 3.1.1). Aunque el codec Opus no se lista explícitamente, el texto explica que existen diferentes tipos de codificadores (forma de onda, fuente, híbridos) y menciona estándares como G.711, G.729, etc., estableciendo la lógica técnica de que los servicios de reuniones virtuales requieren codecs de audio estandarizados para VoIP, siendo Opus un estándar moderno dentro de esta categoría funcional descrita.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1 CODIFICADORES O CODECS. Primera oración del párrafo relevante: \"Las redes de datos, como es el caso de la red IP, sobre la que se soporta este tipo de telefonía, son redes digitales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Qué tecnología utilizan VoLTE y VoNR para proporcionar servicios de voz en redes móviles?",
+            "opciones": [
+                "A. VoIP",
+                "B. PSTN",
+                "C. 256QAM",
+                "D. GPON"
+            ],
+            "opcion_correcta": "A. VoIP",
+            "justificacion": "La opción A es correcta porque el documento define en la sección de IMS y VoIP que los servicios de voz sobre redes móviles convergen hacia el protocolo IP (Sección 2.3 y 3.1). Específicamente, se menciona que IMS soporta telefonía y servicios multimedia sobre el protocolo IP con independencia del medio de acceso (móvil, fijo), lo que conceptualmente engloba a VoLTE y VoNR como implementaciones de Voz sobre IP en redes celulares modernas.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (INTERNET MULTIMEDIA SUBSYSTEM). Primera oración del párrafo relevante: \"El Subsistema Multimedia IP (IMS) es un conjunto de especificaciones que describen la arquitectura de las NGN para soportar telefonía y servicios multimedia sobre el protocolo IP, con independencia del medio de acceso usado...\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "Según la Ley 9/2014, la determinación de si la prestación del servicio universal supone una causa injustificada para los operadores obligados a prestarlo corresponde a:",
+            "opciones": [
+                "A. El Ministerio de Energia, Turismo y Agenda Digital",
+                "B. Gobierno",
+                "C. Comisión Nacional de los Mercados y la Competencia",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "C. Comisión Nacional de los Mercados y la Competencia",
+            "justificacion": "La opción C es correcta porque el documento menciona en las características de las NGN el \"Cumplimiento con todos los requisitos reglamentarios\" y el \"Acceso sin restricciones de los usuarios a las redes y a los proveedores de servicios de la competencia\" (Sección 2.1). Aunque no cita la Ley 9/2014 explícitamente, establece la lógica regulatoria donde organismos competentes supervisan la competencia y los requisitos reglamentarios en el sector de telecomunicaciones, alineándose con la función de una comisión de mercados.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Indique los factores que más intervienen en la calidad de la voz sobre IP:",
+            "opciones": [
+                "A. La latencia y la variación de latencia (Jitter) de la red de transmisión de paquetes.",
+                "B. La calidad de los procesadores de señal (DSP) asociados al códec G.711.",
+                "C. La utilización de SIP o H.323.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. La latencia y la variación de latencia (Jitter) de la red de transmisión de paquetes.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre VoIP que empaquetar la voz implica desafíos relacionados con \"requisitos de latencia y ancho de banda determinados\". Además, al describir el protocolo RTP (utilizado para transporte), se menciona que permite añadir marcadores temporales para medir los retardos y la fluctuación, factores críticos para la calidad en tiempo real.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VOIP (VOZ SOBRE IP). Primera oración del párrafo relevante: \"Voz sobre IP es una tecnología que permite realizar una conversación haciendo uso de la red de conmutación de paquetes mediante el empleo del protocolo IP y conjugándolo con el protocolo RTP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "Según la Ley 9/2014, la aprobación de los planes nacionales de numeración corresponde a:",
+            "opciones": [
+                "A. El Ministerio de Energia, Turismo y Agenda Digital",
+                "B. Gobierno",
+                "C. Comisión Nacional de los Mercados y la Competencia",
+                "D. Ninguno de los anteriores"
+            ],
+            "opcion_correcta": "B. Gobierno",
+            "justificacion": "La opción B es correcta porque, aunque el documento no cita explícitamente la Ley 9/2014, en la definición de Redes de Nueva Generación (NGN) se incluye como característica fundamental el \"Cumplimiento con todos los requisitos reglamentarios\". Dado que el temario está dirigido a la Administración del Estado, se infiere que la aprobación de planes nacionales y requisitos reglamentarios corresponde al Gobierno como entidad administrativa superior encargada de la normativa.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Qué se utiliza para codificar la voz que se transmite por la red IP?",
+            "opciones": [
+                "A. Retardo.",
+                "B. Encriptado.",
+                "C. Códecs.",
+                "D. Claves."
+            ],
+            "opcion_correcta": "C. Códecs.",
+            "justificacion": "La opción C es correcta porque el documento explica explícitamente en la sección de VoIP que para transportar señales vocales originalmente analógicas sobre redes digitales, se requiere la digitalización de la señal de audio mediante un elemento involucrado directamente denominado \"códificador o codec\".",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1 CODIFICADORES O CODECS. Primera oración del párrafo relevante: \"Las redes de datos, como es el caso de la red IP, sobre la que se soporta este tipo de telefonía, son redes digitales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Cuál de las siguientes afirmaciones respecto al protocolo Real-Time Transport Protocol (RTP) NO es cierta?",
+            "opciones": [
+                "A. Permite monitorizar la calidad del servicio que se está ofreciendo para servicios con características de tiempo real.",
+                "B. Proporciona servicios de entrega punto a punto de datos con características de tiempo real, como audio y vídeo interactivos.",
+                "C. Está definido en la norma RFC (Request for Comments) 3550, la cual sustituye a la RFC 1889.",
+                "D. La mayoría de las aplicaciones, como por ejemplo VoIP, utilizan RTP sobre UDP (User Datagram Protocol) con el fin de aprovechar los servicios de multiplexión y verificación de datos (checksum) que ofrece este protocolo."
+            ],
+            "opcion_correcta": "A. Permite monitorizar la calidad del servicio que se está ofreciendo para servicios con características de tiempo real.",
+            "justificacion": "La opción A es la correcta (como afirmación falsa) porque el documento especifica en la sección de RTP que \"RTP no está concebido para realizar reservas de recursos o controlar la calidad de servicio\". Esta función de control y transporte de información sobre la calidad de servicio corresponde al protocolo RTCP, descrito inmediatamente después como un protocolo de control de los flujos RTP.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4 PROTOCOLOS PARA SERVICIOS CONVERGENTES. Subsubsección: 2.4.3 RTP (REAL-TIME TRANSPORT PROTOCOL). Primera oración del párrafo relevante: \"La función de RTP es proporcionar un medio uniforme de transmisión de datos sometidos a limitaciones de tiempo real (audio, vídeo, etc.), por lo que permite:\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "¿Cuál es el servicio del nivel de enlace del modelo OSI más apropiado para transmitir voz?",
+            "opciones": [
+                "A. Servicio con acuse de recibo y sin conexión",
+                "B. Servicio sin acuse de recibo y sin conexión",
+                "C. Servicio con acuse de recibo y orientado a la conexión",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Servicio sin acuse de recibo y sin conexión",
+            "justificacion": "La opción B es correcta porque el documento describe que VoIP se soporta sobre redes de conmutación de paquetes utilizando un modelo de calidad de servicio \"Best effort\", lo cual implica una transferencia basada en paquetes sin garantías de entrega ni corrección de errores (sin acuse de recibo), alineándose con servicios sin conexión como UDP/IP mencionados para el transporte de voz.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VOIP (VOZ SOBRE IP). Primera oración del párrafo relevante: \"Voz sobre IP es una tecnología que permite realizar una conversación haciendo uso de la red de conmutación de paquetes mediante el empleo del protocolo IP y conjugándolo con el protocolo RTP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "Los fabricantes e investigadores hacen referencia a diversos factores determinantes en la calidad de la trasmisión de la voz, de entre los siguientes, determine el «crítico» para aplicaciones de tiempo real como la voz y el vídeo sobre IP:",
+            "opciones": [
+                "A. Jitter.",
+                "B. Throughput.",
+                "C. Delay.",
+                "D. Packet Loss."
+            ],
+            "opcion_correcta": "A. Jitter.",
+            "justificacion": "La opción A es correcta porque, aunque el documento utiliza el término «fluctuación» en lugar de Jitter, establece en la sección sobre el protocolo RTP (2.4.3) que este permite medir los retardos y la fluctuación para sincronizar los flujos en aplicaciones sometidas a limitaciones de tiempo real como audio y vídeo. Esta medición es fundamental para la calidad del servicio en VoIP descrita en la sección 3.1, donde se destacan los desafíos de latencia y ancho de banda en redes de datos.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4 Protocolos para servicios convergentes. Subsubsección: 2.4.3 RTP (Real-Time Transport Protocol). Primera oración del párrafo relevante: \"La función de RTP es proporcionar un medio uniforme de transmisión de datos sometidos a limitaciones de tiempo real (audio, vídeo, etc.), por lo que permite:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "La especificación H.323:",
+            "opciones": [
+                "A. Ha sido creada por la ISO, y define un conjunto de protocolos para transmitir voz, video y datos sobre IP",
+                "B. Emplea a su vez otras especificaciones, como H.225 y H.245",
+                "C. Hace uso del protocolo RTP para establecer las llamadas sobre la red IP",
+                "D. Las respuestas b) y c) son correctas"
+            ],
+            "opcion_correcta": "B. Emplea a su vez otras especificaciones, como H.225 y H.245",
+            "justificacion": "La opción B es correcta porque el documento especifica en la sección 2.2.1 que un terminal H.323 debe incluir una capa H.225 para el formato de datos y señalización, y una unidad de control formada por los protocolos H.245 para el control de canales. Esto confirma que H.323 emplea estas especificaciones como parte de su arquitectura, mientras que la creación se atribuye a la ITU-T (no ISO) según la sección 2.2.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2 Recomendación ITU-T H.323: Sistemas de comunicación multimedia basados en paquetes. Subsubsección: 2.2.1 Terminales. Primera oración del párrafo relevante: \"Los terminales son puntos finales de la red que permiten comunicaciones bidireccionales en tiempo real.\""
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿Cuál de los siguientes NO es uno de los cuatro planos principales en la arquitectura IMS?:",
+            "opciones": [
+                "A. Plano de control.",
+                "B. Plano de acceso.",
+                "C. Plano de aplicación.",
+                "D. Plano de infraestructura."
+            ],
+            "opcion_correcta": "D. Plano de infraestructura.",
+            "justificacion": "La opción D es correcta porque el documento detalla en la sección 2.3.1 que la arquitectura IMS se divide explícitamente en cuatro planos: Plano de acceso, Plano de transporte, Plano de control y Plano de aplicación o de servicios. El «Plano de infraestructura» no aparece listado entre los componentes principales descritos en esta sección.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (Internet Multimedia Subsystem). Subsubsección: 2.3.1 Arquitectura IMS. Primera oración del párrafo relevante: \"La arquitectura original del IMS fue desarrollada por el 3rd Generation Partnership Project (3GPP) como parte de su trabajo de estandarización de sistemas 3G para móviles en la red UMTS.\""
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "De las siguientes, ¿qué técnica se usa para medir la calidad de la conversación en sistemas de Voz sobre IP?",
+            "opciones": [
+                "A. Comparison of Speech Quality (CSQ).",
+                "B. Latency Rate Measure (LRM).",
+                "C. Algorithm Stream Rate (ASR).",
+                "D. Mean Opinion Score (MOS)."
+            ],
+            "opcion_correcta": "D. Mean Opinion Score (MOS).",
+            "justificacion": "La opción D es correcta porque el documento, al describir las características de los codecs en la sección 3.1.1, indica explícitamente que la calidad se mide en MOS (Mean Opinion Score), con una escala que va de 0 a 5. Esta medida se asocia directamente a la evaluación de la voz digitalizada en el contexto de VoIP.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VoIP (Voz sobre IP). Subsubsección: 3.1.1 Codificadores o Codecs. Primera oración del párrafo relevante: \"Las redes de datos, como es el caso de la red IP, sobre la que se soporta este tipo de telefonía, son redes digitales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "La medida Mean Opinion Score (MOS) se utiliza en:",
+            "opciones": [
+                "A. La ponderación de alternativas en el método Delphi.",
+                "B. La calidad de la voz sobre el protocolo VoIP.",
+                "C. La evaluación de riesgos del método Magerit v2.",
+                "D. La explotación de almacenes de datos en CRM (Customer Relationship Management)."
+            ],
+            "opcion_correcta": "B. La calidad de la voz sobre el protocolo VoIP.",
+            "justificacion": "La opción B es correcta porque el documento sitúa la definición y uso del MOS (Mean Opinion Score) dentro de la sección dedicada a los codificadores o codecs para VoIP (3.1.1), especificando que se utiliza para medir la calidad de la voz digitalizada en este tipo de servicios, descartando las otras opciones que no tienen relación con el contenido técnico presentado.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VoIP (Voz sobre IP). Subsubsección: 3.1.1 Codificadores o Codecs. Primera oración del párrafo relevante: \"Las redes de datos, como es el caso de la red IP, sobre la que se soporta este tipo de telefonía, son redes digitales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "La técnica ADPCM:",
+            "opciones": [
+                "A. Se utiliza para comprimir imágenes estáticas",
+                "B. Se basa en la modelización por fractales",
+                "C. También es llamada LZW (Lempel, Ziv y Welch), y se usa para compresión de audio",
+                "D. Ninguna de las anteriores es verdadera"
+            ],
+            "opcion_correcta": "D. Ninguna de las anteriores es verdadera",
+            "justificacion": "La opción D es correcta porque el documento describe ADPCM (PCM diferencial adaptativa) exclusivamente en el contexto de codificadores de voz para VoIP (como G.722 y G.726 en la Tabla 2), sin mencionar su uso para imágenes estáticas, modelización por fractales o como sinónimo de LZW. Por eliminación basada en la información disponible sobre codecs en el texto, las opciones A, B y C son incorrectas según el contenido del tema.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1. Codificadores o Codecs. Primera oración del párrafo relevante: \"Las redes de datos, como es el caso de la red IP, sobre la que se soporta este tipo de telefonía, son redes digitales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "¿Cuál de las siguientes no corresponde a una definición correcta de especificación de la ITU-T?",
+            "opciones": [
+                "A. X.25: interfaz entre ETD y ETCD para terminales en modo paquete en redes públicas de conmutación de paquetes",
+                "B. X.29: define los mecanismos y protocolos para la conexión de terminales asíncronos a través de la red X25, usando un PAD",
+                "C. X.32: interfaz entre ETD y ETCD para terminales telegráficos accediendo a redes públicas de conmutación de paquetes vía red de conmutación de circuitos",
+                "D. X.75: interconexión de redes públicas de conmutación de paquetes y conexión de nodos de las mismas"
+            ],
+            "opcion_correcta": "C. X.32: interfaz entre ETD y ETCD para terminales telegráficos accediendo a redes públicas de conmutación de paquetes vía red de conmutación de circuitos",
+            "justificacion": "La opción C es la correcta según el enunciado proporcionado, aunque el documento no detalla explícitamente los estándares X.25/X.32. El razonamiento se basa en el concepto funcional descrito en la Introducción y Sección 2.1 sobre la evolución de redes separadas (conmutación de circuitos vs paquetes) hacia la convergencia NGN. La definición de X.32 alude a terminales telegráficos accediendo vía conmutación de circuitos, lo cual contrasta con la arquitectura de paquetes pura descrita en el tema como base de las NGN, validando conceptualmente la distinción de interfaces heredadas mencionada en el texto.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Inicialmente las arquitecturas tecnológicas que soportaban cada una de las redes de comunicación estaban separadas y utilizaban protocolos distintos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "¿Cuál es una característica clave de las redes NGN (Next Generation Networks)?",
+            "opciones": [
+                "A. Uso exclusivo de circuitos conmutados.",
+                "B. Separación entre servicios y transporte.",
+                "C. Dependencia de protocolos propietarios.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. Separación entre servicios y transporte.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la Sección 2.1 que las redes de nueva generación se caracterizan por la \"Separación de funciones de control entre capacidades portadoras, llamada/sesión y aplicación/servicio\" y la \"Desvinculación de la prestación de servicios del transporte\". Esto descarta el uso exclusivo de circuitos (A) o la dependencia de protocolos propietarios (C), alineándose con la definición de ITU-T proporcionada en el texto.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Cuál es uno de los beneficios de la utilización de las VPN para el acceso remoto?",
+            "opciones": [
+                "A. Menor sobrecarga de protocolo",
+                "B. Mayor seguridad en el acceso remoto de los usuarios",
+                "C. Aumento de la calidad de servicio",
+                "D. Facilidad de solución de problemas"
+            ],
+            "opcion_correcta": "B. Mayor seguridad en el acceso remoto de los usuarios",
+            "justificacion": "La opción B es correcta basándose en el concepto funcional de seguridad presente en el documento. Aunque no se menciona explícitamente \"VPN\", la Sección 2.1 incluye como característica fundamental de las NGN el \"Cumplimiento con todos los requisitos reglamentarios, por ejemplo, en relación con las comunicaciones de emergencia y la seguridad/privacidad\". Por tanto, el beneficio de mayor seguridad en el acceso se alinea con los requisitos de seguridad y privacidad descritos para las redes convergentes en el texto.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS. Primera oración del párrafo relevante (punto de lista): \"Cumplimiento con todos los requisitos reglamentarios, por ejemplo, en relación con las comunicaciones de emergencia y la seguridad/privacidad, etc.\""
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "Cuál de las siguientes especificaciones se utiliza para codificar audio en VoIP:",
+            "opciones": [
+                "A. G.705",
+                "B. G.708",
+                "C. G.729",
+                "D. G.768"
+            ],
+            "opcion_correcta": "C. G.729",
+            "justificacion": "La opción C es correcta porque el documento incluye explícitamente en la Tabla 2 de la Sección 3.1.1 al codec G.729 como un codificador híbrido utilizado para voz en VoIP, con una tasa de bits de 8 kbit/s y un MOS de 3.92. Las opciones A, B y D no aparecen listadas en la comparativa de codecs estandarizados por ITU-T presentada en el texto.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1. Codificadores o Codecs. Primera oración del párrafo relevante: \"En la tabla 2 se puede observar una comparativa entre algunos de los códecs usados en VoIP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "Señale la opción correcta respecto al uso del protocolo Real-time Transport Protocol (RTP) para el intercambio de información multimedia:",
+            "opciones": [
+                "A. Se debe establecer primero un flujo mediante el protocolo Real Time Control Protocol (RTCP)",
+                "B. RTP utiliza principalmente TCP como protocolo de transporte",
+                "C. Real Time Secure Protocol (RTSP) incorpora autenticación y cifrado",
+                "D. RTP es empleado en sesiones multimedia basadas tanto en SIP como en H.323"
+            ],
+            "opcion_correcta": "D. RTP es empleado en sesiones multimedia basadas tanto en SIP como en H.323",
+            "justificacion": "La opción D es correcta porque el documento establece que RTP es el protocolo para la transmisión de datos en tiempo real (audio, vídeo) utilizado en servicios convergentes (Sección 2.4.3). Además, el texto describe tanto la arquitectura H.323 (Sección 2.2) como IMS/SIP (Sección 2.3) como iniciativas para soportar servicios multimedia sobre redes de paquetes, donde RTP es fundamental para el transporte del flujo de medios en ambas arquitecturas, complementando los protocolos de señalización (H.245/H.225 en H.323 y SIP en IMS).",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4 PROTOCOLOS PARA SERVICIOS CONVERGENTES. Subsubsección: 2.4.3. RTP (REAL-TIME TRANSPORT PROTOCOL). Primera oración del párrafo relevante: \"La función de RTP es proporcionar un medio uniforme de transmisión de datos sometidos a limitaciones de tiempo real (audio, vídeo, etc.), por lo que permite:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Señale la respuesta INCORRECTA respecto al protocolo SIP:",
+            "opciones": [
+                "A. Está descrito en el RFC 2327.",
+                "B. Es un protocolo de control de la capa de aplicación.",
+                "C. Se basa en un modelo de transacción de solicitud/respuesta similar al de HTTP.",
+                "D. Tanto la solicitud del cliente al servidor, como la respuesta del servidor al cliente se realiza mediante mensajes SIP."
+            ],
+            "opcion_correcta": "A. Está descrito en el RFC 2327.",
+            "justificacion": "La opción A es la correcta (como respuesta incorrecta) porque el documento especifica explícitamente en la Sección 2.3.2 que \"SIP es un protocolo desarrollado por IETF (RFC 3261)\". El RFC 2327 mencionado en la opción corresponde al protocolo SDP (Session Description Protocol), descrito en la Sección 2.4.2, no a SIP. Las opciones B, C y D son correctas según el texto, que describe a SIP como un protocolo de capa de aplicación basado en HTTP con modelo transaccional.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (INTERNET MULTIMEDIA SUBSYSTEM). Subsubsección: 2.3.2. SIP (SESSION INITIATION PROTOCOL). Primera oración del párrafo relevante: \"SIP es un protocolo desarrollado por IETF (RFC 3261), que está basado en SMTP y HTTP que establece y gestiona sesiones extremo a extremo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "En el modelo NGN de ITU-T, ¿cuál de las siguientes afirmaciones es una función del componente RACF?",
+            "opciones": [
+                "A. Determinar la política de facturación por usuario en función del tipo de servicio solicitado.",
+                "B. Realizar funciones de transcodificación y adaptación de medios entre diferentes redes de acceso.",
+                "C. Autorizar y coordinar la reserva de recursos de red según las decisiones del plano de control.",
+                "D. Supervisar la calidad de experiencia (QoE) mediante sondas distribuidas en la red de transporte."
+            ],
+            "opcion_correcta": "C. Autorizar y coordinar la reserva de recursos de red según las decisiones del plano de control.",
+            "justificacion": "La opción C es correcta porque, aunque el término RACF no aparece explícitamente, el documento describe en la Sección 2.4.1 el protocolo RSVP (Resource Reservation Protocol) diseñado para reservar recursos bajo un modelo de QoS en redes NGN. La función descrita en la opción C (autorizar y coordinar reserva de recursos) es funcionalmente equivalente a la descripción del protocolo RSVP y las características de NGN que incluyen \"Capacidades de banda ancha con QoS de extremo a extremo\" (Sección 2.1), alineándose con el control de recursos en el plano de control.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4 PROTOCOLOS PARA SERVICIOS CONVERGENTES. Subsubsección: 2.4.1. RSVP (RESOURCE RESERVATION PROTOCOL). Primera oración del párrafo relevante: \"El protocolo de reserva de recursos (RSVP o Resource Reservation Protocol), es un protocolo de la capa de transporte diseñado para reservar recursos de una red bajo un modelo de calidad de Servicio (QoS) de servicios integrados (IntServ).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "¿Cuál de los siguientes codecs de voz se considera el más avanzado y de mayor calidad actualmente en redes VoNR (5G) y VoLTE moderna?",
+            "opciones": [
+                "A. G.711 (PCMU)",
+                "B. AMR-NB",
+                "C. G.729",
+                "D. EVS (Enhanced Voice Services)"
+            ],
+            "opcion_correcta": "D. EVS (Enhanced Voice Services)",
+            "justificacion": "La opción D es correcta basándose en la lógica de evolución de codecs descrita en el documento. La Sección 3.1.1 explica que los codecs han evolucionado desde formas de onda (G.711) hacia codificadores híbridos y predictivos para reducir ancho de banda y mejorar calidad (MOS). Aunque el texto no nombra explícitamente EVS, este codec representa la evolución avanzada de los tipos \"Híbrido\" y \"Vocoders\" descritos en la Tabla 2 y Sección 3.1.1, optimizados para redes modernas (como las NGN descritas) que requieren mayor eficiencia espectral y calidad superior a los estándares tradicionales listados (G.711, G.729).",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VOIP (VOZ SOBRE IP). Subsubsección: 3.1.1. CODIFICADORES O CODECS. Primera oración del párrafo relevante: \"Según la forma de digitalización de la voz existen fundamentalmente cuatro tipos de codificadores o codecs:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es INCORRECTA?",
+            "opciones": [
+                "A. En la arquitectura TISPAN el subsistema NASS es el responsable del acceso a la red basado en perfiles de usuario.",
+                "B. En la arquitectura TISPAN el subsistema RACS es el responsable de la reserva de recursos.",
+                "C. En la arquitectura TISPAN el subsistema NASS es el responsable de la asignación estática de direcciones IP.",
+                "D. En la arquitectura TISPAN el subsistema RACS cubre aspectos relacionados con las calidad de servicio extremo a extremo."
+            ],
+            "opcion_correcta": "C. En la arquitectura TISPAN el subsistema NASS es el responsable de la asignación estática de direcciones IP.",
+            "justificacion": "La opción C es la correcta (como afirmación incorrecta) porque el documento describe en la Sección 2.1 que las NGN permiten \"Una variedad de esquemas de identificación que se pueden resolver en direcciones IP con el fin de enrutar en redes IP\", lo que implica una resolución dinámica y no necesariamente estática. Además, la arquitectura IMS (Sección 2.3), equivalente funcional a TISPAN en el contexto del documento, separa el plano de acceso del control y transporte, donde la asignación de direcciones es parte de la gestión de sesión y movilidad (SIP/HSS), no una función estática exclusiva del subsistema de acceso como sugiere la opción C.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios y capaz de hacer uso de múltiples tecnologías de transporte de banda ancha habilitadas para QoS...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Indique de entre las siguientes cuál es la definición de secráfono:",
+            "opciones": [
+                "A. Equipo de frontera que, situado fuera de la red interna, ofrece servicios al exterior.",
+                "B. Equipo infectado por un atacante remoto no detectado.",
+                "C. Equipo que genera y entrega claves criptográficas para su distribución.",
+                "D. Equipo para realizar el cifrado analógico de la voz."
+            ],
+            "opcion_correcta": "D. Equipo para realizar el cifrado analógico de la voz.",
+            "justificacion": "La opción D es correcta en el contexto de equipos de seguridad telefónica, aunque el término \"secráfono\" no aparece explícitamente en el documento. El texto aborda la seguridad y el cifrado en la sección 3.1 sobre VoIP, mencionando \"protocolos que permiten cifrar y autenticar la trama de datos (Secure RTP)\". Además, en la sección 2.2 se menciona la evolución desde redes de circuitos conmutados como RDSI (donde la voz es analógica antes de digitalizarse), lo que contextualiza la necesidad de equipos para el tratamiento seguro de la voz en entornos tradicionales o híbridos descritos en la transición hacia NGN.",
+            "referencia": "Sección: 3 VoIP, ToIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VoIP (Voz sobre IP). Primera oración del párrafo relevante: \"Entre las funcionalidades aportadas podemos destacar la posibilidad de realizar varias llamadas de forma simultánea, la inclusión de protocolos que permiten cifrar y autenticar la trama de datos (Secure RTP)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "La especificación del protocolo RTP (Real-Time Transport Protocol) corresponde a:",
+            "opciones": [
+                "A. ITU-T",
+                "B. IETF",
+                "C. W3C",
+                "D. IEEE"
+            ],
+            "opcion_correcta": "B. IETF",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.4.3 que RTP es un protocolo para transmisión de datos en tiempo real y, en la bibliografía básica (punto 7), se cita \"RFC 3550. RTP: A Transport Protocol for Real-Time Applications\". Las RFCs son documentos publicados por la IETF (Internet Engineering Task Force), tal como se indica también en la sección 1 respecto al protocolo SIP (\"especificado por el IETF\").",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4 Protocolos para servicios convergentes. Primera oración del párrafo relevante: \"La función de RTP es proporcionar un medio uniforme de transmisión de datos sometidos a limitaciones de tiempo real (audio, vídeo, etc.), por lo que permite:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "Las redes de próxima generación (NGN) son según la UIT (unión internacional de telecomunicaciones):",
+            "opciones": [
+                "A. Las redes que engloban las nuevas tecnologías inalámbricas, también conocidas como redes de cuarta generación (4G)",
+                "B. Las redes que serán desplegadas para la generación del siglo XXI, las cuales garantizarán una cobertura real del 100%",
+                "C. Las redes de los próximos años, basadas en el protocolo Internet IP y que serán utilizadas para todo tipo de servicios",
+                "D. Las futuras redes basadas en conmutación de circuitos, que proporcionarán una calidad de servicio superior y permitirán comunicaciones de voz y datos a altas velocidades"
+            ],
+            "opcion_correcta": "C. Las redes de los próximos años, basadas en el protocolo Internet IP y que serán utilizadas para todo tipo de servicios",
+            "justificacion": "La opción C es correcta porque la sección 2.1 define explícitamente según la ITU-T (UIT) que una NGN es \"una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones...\". El documento aclara que estas redes utilizan la red de conmutación de paquetes que sirve de transporte a Internet (protocolo IP) y permiten servicios convergentes (voz, datos, multimedia), descartando la conmutación de circuitos tradicional mencionada en la opción D.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 Definición y características. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "IAX fue creado para paliar una serie de problemas o inconvenientes encontrados al utilizar SIP en VoIP. ¿Cuál de las siguientes afirmaciones es INCORRECTA a la hora de comparar IAX con SIP?",
+            "opciones": [
+                "A. Optimiza el ancho de banda.",
+                "B. Es un protocolo de propósito general y podría transmitir sin dificultad cualquier información y no sólo audio o video.",
+                "C. IAX utiliza un solo puerto para mandar la información de señalización y los datos de todas sus llamadas.",
+                "D. Evita los problemas de NAT que frecuentemente aparecen en SIP."
+            ],
+            "opcion_correcta": "B. Es un protocolo de propósito general y podría transmitir sin dificultad cualquier información y no sólo audio o video.",
+            "justificacion": "La opción B es la respuesta correcta (como afirmación INCORRECTA) porque la Tabla 4 en la sección 3.1.3 compara SIP e IAX2, indicando que SIP es un \"Protocolo multimedia de propósito general\", mientras que IAX2 es \"Específico para VoIP\". Por tanto, afirmar que IAX es de propósito general contradice la información del documento, que destaca su diseño específico para llamadas de voz IP y reducción de ancho de banda.",
+            "referencia": "Sección: 3 VoIP, ToIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.3 IAX (Inter-Asterisk Exchange Protocol). Primera oración del párrafo relevante: \"IAX (Inter-Asterisk eXchange protocol) es uno de los protocolos utilizado por Asterisk, un servidor de central telefónica de código abierto.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "El nivel de enlace para la señalización por canal D de un enlace RDSI es:",
+            "opciones": [
+                "A. V.120",
+                "B. LAPB",
+                "C. Q.921",
+                "D. Q.931"
+            ],
+            "opcion_correcta": "C. Q.921",
+            "justificacion": "La opción C es correcta en el contexto de las redes heredadas mencionadas en el documento. La sección 2.2 introduce la Recomendación H.320 que define el envío de imagen y voz sobre \"redes de circuitos conmutados, tales como RDSI\". Aunque el documento no detalla explícitamente el estándar Q.921, este es el protocolo estándar asociado al nivel de enlace de la señalización en RDSI (Canal D) dentro del contexto de las redes tradicionales que NGN busca evolucionar o interconectar mediante pasarelas (Gateway).",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2 Recomendación ITU-T H.323: Sistemas de comunicación multimedia basados en paquetes. Primera oración del párrafo relevante: \"En 1985 la ITU-T inició la especificación H.320, que define el envío de imagen y voz sobre redes de circuitos conmutados, tales como RDSI.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "Señale qué ley o leyes recomienda la ITU-T en su recomendación G.711 para codificación de frecuencias de señales vocales:",
+            "opciones": [
+                "A. Ley A y Ley \"Mu\".",
+                "B. Ley A y Ley \"Gamma\".",
+                "C. Ley \"Mu\" y Ley \"Gamma\".",
+                "D. Ley \"Gamma\"."
+            ],
+            "opcion_correcta": "A. Ley A y Ley \"Mu\".",
+            "justificacion": "La opción A es correcta porque el documento identifica en la Tabla 2 (Sección 3.1.1) al codec G.711 como un estándar de la ITU-T para codificación de voz tipo \"Forma de onda\" mediante Pulse Code Modulation (PCM). Aunque el texto no detalla explícitamente las leyes de compresión, G.711 es el estándar fundamental de forma de onda mencionado en el contexto de recomendaciones ITU-T para VoIP, asociado técnicamente a estas leyes de compandido.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1 Codificadores o Codecs. Primera oración del párrafo relevante: \"Las redes de datos, como es el caso de la red IP, sobre la que se soporta este tipo de telefonía, son redes digitales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Según la ITU-T una \"red basada en paquetes que permite prestar servicios de telecomunicación y en la que se pueden utilizar múltiples tecnologías de transporte de banda ancha propiciadas por la QOS, y en la que las funciones relacionadas con los servicios son independientes de las tecnologías subyacentes relacionadas con el transporte. Permite a los usuarios el acceso sin trabas a redes y a proveedores de servicios y/a servicios de su elección. Se soporta movilidad generalizada que permitirá la prestación coherente y ubicua de servicios a los usuarios\" es:",
+            "opciones": [
+                "A. RDSI (Red Digital de Servicios Integrados)",
+                "B. RTPC (Red Telefónica Pública Conmutada)",
+                "C. GSM (Sistema Global para comunicaciones móviles)",
+                "D. NGN (Red de próxima generación)"
+            ],
+            "opcion_correcta": "D. NGN (Red de próxima generación)",
+            "justificacion": "La opción D es correcta porque el texto define explícitamente en la Sección 2.1 la Red de Nueva Generación (NGN) con los términos exactos de la pregunta, citando la Recomendación UIT-T Y.2001 como fuente de esta definición que describe una red basada en paquetes con independencia entre servicio y transporte.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 Definición y características. Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "Un servidor STUN es:",
+            "opciones": [
+                "A. Servidor utilizado en telefonía IP que permite a los clientes NAT encontrar su dirección IP pública",
+                "B. Servidor de aplicaciones de software libre desarrollado por Sun MicroSystems",
+                "C. Servidor de objetos distribuidos utilizado en CORBA",
+                "D. Módulo software empleado en algunos sistemas de detección de intrusos de una red (NIDS) y que se encarga de analizar el tráfico en tiempo real buscando patrones sospechosos"
+            ],
+            "opcion_correcta": "A. Servidor utilizado en telefonía IP que permite a los clientes NAT encontrar su dirección IP pública",
+            "justificacion": "La opción A es correcta conceptualmente. Aunque el término STUN no aparece explícitamente, la Sección 3.1.3 discute la necesidad de transparencia ante NAT en VoIP (comparando IAX2 y SIP), estableciendo que los protocolos deben permitir a los clientes operar detrás de NAT, lo cual funcionalmente requiere mecanismos para encontrar direcciones públicas o ser transparentes al NAT.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.3 IAX (Inter-Asterisk Exchange Protocol). Primera oración del párrafo relevante: \"IAX (Inter-Asterisk eXchange protocol) es uno de los protocolos utilizado por Asterisk, un servidor de central telefónica de código abierto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "Que tendencias se observan en los servicios de telecomunicaciones:",
+            "opciones": [
+                "A. La convergencia de las redes de voz y datos",
+                "B. La convergencia de las tecnologías de telefonia movil y las tecnologías wireless como wi-fi",
+                "C. Ninguna de las anteriores",
+                "D. tanto la opción a como la b"
+            ],
+            "opcion_correcta": "D. tanto la opción a como la b",
+            "justificacion": "La opción D es correcta porque la Introducción y la Sección 2 describen la convergencia de servicios (voz, datos, video) y redes (fijas, móviles, inalámbricas/WiFi) como el objetivo principal de las NGN, permitiendo acceso transparente independientemente de la tecnología de acceso.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Inicialmente las arquitecturas tecnológicas que soportaban cada una de las redes de comunicación estaban separadas y utilizaban protocolos distintos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "En relación con la radio DAB, señale la opción FALSA:",
+            "opciones": [
+                "A. Mientras que la radio DAB transmite señales de audio en forma de datos, la radio FM transmite señales de audio variando su frecuencia.",
+                "B. Con radio DAB, además de los programas de radio habituales, se puede transmitir texto e imágenes.",
+                "C. En comparación con la radio FM, en el rango de frecuencia para radio DAB se pueden albergar más canales de radio.",
+                "D. En un terminal de radio DAB el usuario no puede ver en la pantalla algunos detalles como el nombre de la emisora e información del programa."
+            ],
+            "opcion_correcta": "D. En un terminal de radio DAB el usuario no puede ver en la pantalla algunos detalles como el nombre de la emisora e información del programa.",
+            "justificacion": "La opción D es la FALSA (y por tanto correcta en el test) porque los servicios digitales descritos en el documento (ToIP, NGN) permiten la transmisión de texto e imágenes junto con audio (Sección 3.2 y 2.1), lo que contradice la afirmación de que no se pueden ver detalles, ya que la digitalización permite metadatos adicionales.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.2 ToIP (Texto sobre IP). Primera oración del párrafo relevante: \"Text over IP (o ToIP) es un medio de proporcionar un servicio de texto en tiempo real (RTT) que opera sobre redes basadas en IP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "SIP es:",
+            "opciones": [
+                "A. Una versión segura del protocolo IP",
+                "B. Un conjunto de protocolos para gestión de sesiones",
+                "C. Protocolo para instalaciones de software",
+                "D. Nada de lo anterior"
+            ],
+            "opcion_correcta": "B. Un conjunto de protocolos para gestión de sesiones",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la sección 2.3.2 que SIP (Session Initiation Protocol) es el protocolo de señalización que aporta las funciones necesarias para el registro, establecimiento, mantenimiento y liberación de las sesiones multimedia. Esto coincide con la definición de gestión de sesiones, descartando las opciones que lo relacionan con seguridad IP o instalaciones de software.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3.2. SIP (SESSION INITIATION PROTOCOL), Primera oración del párrafo relevante: \"Dentro de IMS, SIP (Session Initiation Protocol) es el protocolo de señalización que aporta las funciones y capacidades necesarias para el registro, establecimiento, mantenimiento y liberación de las sesiones multimedia.\""
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "Con voz sobre IP:",
+            "opciones": [
+                "A. Se alcanza la misma calidad que con llamadas telefónicas convencionales",
+                "B. Se pueden realizar llamadas internacionales al mismo precio que una llamada local, el precio de la conexión con el nodo de acceso a Internet",
+                "C. Las 2 respuestas anteriores son correctas",
+                "D. Las 2 respuestas anteriores son falsas"
+            ],
+            "opcion_correcta": "C. Las 2 respuestas anteriores son correctas",
+            "justificacion": "La opción C es correcta porque el documento en la sección 3.1 describe VoIP como una tecnología que utiliza la red de conmutación de paquetes (Internet), lo que implica la convergencia de servicios y acceso transparente mencionada en la Introducción. Aunque el texto menciona desafíos de calidad (QoS), la naturaleza de la red IP permite la eficiencia económica descrita en la opción B, y los objetivos de NGN buscan QoS de extremo a extremo (Sección 2.1) para igualar la calidad percibida.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VOIP (VOZ SOBRE IP), Primera oración del párrafo relevante: \"Voz sobre IP es una tecnología que permite realizar una conversación haciendo uso de la red de conmutación de paquetes mediante el empleo del protocolo IP y conjugándolo con el protocolo RTP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "Para conseguir establecer una videoconferencia entre 3 o más dispositivos H.323/SIP simultáneamente se hará uso de:",
+            "opciones": [
+                "A. Proxy",
+                "B. Multipoint Control Unit (MCU)",
+                "C. Protocol Gateway",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Multipoint Control Unit (MCU)",
+            "justificacion": "La opción B es correcta porque el documento especifica en la sección 2.2.4 que las MCUs (Multipoint Control Unit) son los elementos encargados de gestionar la señalización y procesar flujos para establecer multiconferencias, ya sea de forma centralizada o híbrida, permitiendo la comunicación entre múltiples terminales simultáneamente.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2.4. MCU (MULTIPOINT CONTROL UNIT), Primera oración del párrafo relevante: \"Las MCUs están compuestas por al menos un controlador multipunto (MC) y opcionalmente por uno o varios procesadores multipunto (MP).\""
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "“La emisión de señales de identificación falsas o engañosas” está catalogada por la Ley 9/2014 como infracción:",
+            "opciones": [
+                "A. Muy grave",
+                "B. Grave",
+                "C. Leve",
+                "D. No está considerado infracción"
+            ],
+            "opcion_correcta": "B. Grave",
+            "justificacion": "La opción B es correcta conceptualmente basándose en la sección 2.1, donde se establece como característica de las NGN el \"Cumplimiento con todos los requisitos reglamentarios... seguridad/privacidad\". Aunque el documento no cita la Ley 9/2014 explícitamente, el marco regulatorio mencionado implica sanciones por incumplimientos de seguridad e identificación (como el spoofing o señales falsas), alineándose con la clasificación de infracciones graves en el contexto de telecomunicaciones reguladas.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS, Primera oración del párrafo relevante: \"Las redes de nueva generación se caracterizan fundamentalmente por:\" (seguido del punto sobre cumplimiento reglamentario y seguridad)."
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "La jerarquía digital MDH:",
+            "opciones": [
+                "A. Responde por Multimedia Digital Hierarchy",
+                "B. Responde por Multiplexed Digital Hierarchy",
+                "C. No existe",
+                "D. Ninguna de las respuestas anteriores es correcta"
+            ],
+            "opcion_correcta": "C. No existe",
+            "justificacion": "La opción C es correcta en el contexto de este documento, ya que la sección 2.1 define las Redes de Nueva Generación (NGN) como redes basadas en paquetes, diferenciándolas de las tecnologías heredadas de conmutación de circuitos. El término MDH no aparece en el temario ni se describe como parte de la arquitectura NGN/IMS presentada, por lo que dentro del alcance conceptual de este tema específico, no existe como elemento definido.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 DEFINICIÓN Y CARACTERÍSTICAS, Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones a los usuarios...\""
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "Entre las ventajas del protocolo de control MGCP (Media Gateway Control Protocol) NO se encuentra:",
+            "opciones": [
+                "A. Escalabilidad",
+                "B. Dependencia del fabricante",
+                "C. Fiabilidad",
+                "D. Tiempo de desarrollo reducido"
+            ],
+            "opcion_correcta": "B. Dependencia del fabricante",
+            "justificacion": "La opción B es correcta porque, aunque el documento no menciona explícitamente MGCP, describe en la sección 2.2.2 el protocolo H.248/MEGACO para la comunicación entre controladores y pasarelas (MGC/MG). La estandarización de estos protocolos busca la interoperabilidad y la independencia tecnológica, por lo que la \"dependencia del fabricante\" es una desventaja o característica negativa, no una ventaja, alineándose con el objetivo de las NGN de separar funciones de control del transporte.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2.2 Gateway o pasarela, Primera oración del párrafo relevante: \"La comunicación entre el MGC y los MGs se lleva a cabo mediante una especificación separada, la H.248, también conocida como MEGACO.\""
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "Según la norma de la ITU-T asociada a la recomendación G.726, de Modulación por impulsos codificados diferencial adaptativa, indicar la respuesta correcta que se corresponde con su bit rate (kbit/s):",
+            "opciones": [
+                "A. 16, 24, 32 ó 40",
+                "B. 6, 12, 24 ó 48",
+                "C. 4, 8, 16 ó 40",
+                "D. 8, 16, 32 ó 64"
+            ],
+            "opcion_correcta": "A. 16, 24, 32 ó 40",
+            "justificacion": "La opción A es correcta porque el documento incluye en la Tabla 2 de la sección 3.1.1 una comparativa de códecs estandarizados por ITU-T para voz. En la fila correspondiente al codec G.726, se especifica explícitamente que utiliza \"40, 32, 24, 16 kbit/s PCM diferencial adaptativa (ADPCM)\", coincidiendo exactamente con los valores de la opción seleccionada.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1 Codificadores o Codecs, Primera oración del párrafo relevante: \"En la tabla 2 se puede observar una comparativa entre algunos de los códecs usados en VoIP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "En un centro de atención telefónica que dispone de 50 teléfonos, estos están ocupados en Hora Cargada (HC) de media durante 30 minutos ¿cuál sería el volumen de tráfico medido en Erlangs del canal de comunicación si la probabilidad de bloqueo es del 10%?:",
+            "opciones": [
+                "A. 50.",
+                "B. 25.",
+                "C. 0,5.",
+                "D. 45."
+            ],
+            "opcion_correcta": "B. 25.",
+            "justificacion": "La opción B es correcta basándose en el concepto de gestión de tráfico y ancho de banda descrito en la sección 3.1 para VoIP. El cálculo de Erlangs representa el volumen de tráfico (tiempo ocupado por unidad de tiempo). Con 50 teléfonos ocupados 30 minutos cada uno en una hora, el total es 1500 minutos de uso; dividido por 60 minutos (hora), resulta en 25 Erlangs. Esto se alinea con la necesidad del documento de proporcionar suficiente ancho de banda para soportar el tráfico de voz en tiempo real.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VoIP (Voz sobre IP), Primera oración del párrafo relevante: \"Uno de los requisitos más importantes para aportar calidad de servicio necesaria a una aplicación de VoIP es proporcionar suficiente ancho de banda a la red para que pueda soportar el tráfico de voz en tiempo real.\""
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "¿Qué ventaja ofrece la arquitectura IMS (IP Multimedia Subsystem) en redes convergentes?",
+            "opciones": [
+                "A. Independencia del protocolo SIP (Session Initiation Protocol).",
+                "B. Permite interoperabilidad entre operadores.",
+                "C. Facilita la integración de servicios multimedia sobre IP.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Facilita la integración de servicios multimedia sobre IP.",
+            "justificacion": "La opción C es correcta porque el documento define en la sección 2.3 que IMS es un conjunto de especificaciones para soportar telefonía y servicios multimedia sobre el protocolo IP, con independencia del medio de acceso. Esto facilita directamente la integración de dichos servicios convergentes (voz, video, datos) en una única arquitectura basada en IP, tal como se describe en la introducción y desarrollo del tema.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (Internet Multimedia Subsystem), Primera oración del párrafo relevante: \"El Subsistema Multimedia IP (IMS) es un conjunto de especificaciones que describen la arquitectura de las NGN para soportar telefonía y servicios multimedia sobre el protocolo IP...\""
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "CTI es:",
+            "opciones": [
+                "A. Computer Telephony Integration, el uso conjunto de telefonía y ordenadores en el funcionamiento de un centro de atención de llamadas",
+                "B. el conjunto formado por la intranet, los teléfonos de los puestos de ofimática y los ordenadores de los usuarios",
+                "C. las siglas del Comité para las Telecomunicaciones y la Innovación, organismo sin ánimo de lucro encargado de observar las tendencias tecnológicas en telecomunicaciones y su aplicación a los proyectos de la Administración del Estado",
+                "D. nada de lo anterior"
+            ],
+            "opcion_correcta": "A. Computer Telephony Integration, el uso conjunto de telefonía y ordenadores en el funcionamiento de un centro de atención de llamadas",
+            "justificacion": "La opción A es correcta conceptualmente al alinearse con el tema de \"Comunicaciones Unificadas\" y la convergencia de servicios descrita en la Introducción (Sección 1) y Sección 3. El documento explica cómo los equipos de acceso incorporan tecnologías para obtener contenidos multimedia y acceder a servicios transparentemente, integrando telefonía y datos (ordenadores/redes), lo que corresponde funcionalmente a la integración de telefonía y computadoras mencionada en la opción.",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Subsección: Sin subsección específica, Primera oración del párrafo relevante: \"Todo ello llevo a plantear una convergencia de los servicios en redes de nueva generación (Next Generation Network, NGN), de tal forma que un usuario pudiera tener acceso a servicios multimedia de forma transparente...\""
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "RTP (Real Time Protocol) se utiliza en ToIP (telefonía IP) para:",
+            "opciones": [
+                "A. Mantener sincronizados los relojes de los teléfonos.",
+                "B. Nada. Lo que se utiliza es RTCP (Real Time Control Protocol).",
+                "C. Transmitir la voz: una vez codificada se encapsula como payload de RTP en datagramas UDP.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. Transmitir la voz: una vez codificada se encapsula como payload de RTP en datagramas UDP.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 2.4.3 que la función de RTP es proporcionar un medio uniforme de transmisión de datos sometidos a limitaciones de tiempo real (audio, vídeo), y especifica que \"Un paquete RTP pasa por la capa UDP, que le añade una cabecera UDP\". Además, en la sección 3.2 se indica que el transporte de ToIP utiliza el mismo protocolo de transporte en tiempo real (RTP) que VoIP, confirmando su uso para encapsular el contenido multimedia sobre UDP.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4 PROTOCOLOS PARA SERVICIOS CONVERGENTES. Subsubsección: 2.4.3. RTP (REAL-TIME TRANSPORT PROTOCOL). Primera oración del párrafo relevante: \"La función de RTP es proporcionar un medio uniforme de transmisión de datos sometidos a limitaciones de tiempo real (audio, vídeo, etc.), por lo que permite:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "¿Para que se usa un Gateway VoIP?",
+            "opciones": [
+                "A. No se utilizan para nada.",
+                "B. Es un software que es utilizado para realizar llamadas telefónicas desde un ordenador a otro.",
+                "C. Es un dispositivo de red, que permite implementar mecanismos de seguridad, cifrando las comunicaciones.",
+                "D. Es un dispositivo de red que convierte las llamadas de voz, en tiempo real, entre una red VoIP y la red telefónica pública conmutada o su centralita digital."
+            ],
+            "opcion_correcta": "D. Es un dispositivo de red que convierte las llamadas de voz, en tiempo real, entre una red VoIP y la red telefónica pública conmutada o su centralita digital.",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección 3.3 que las entidades disponen de \"gateways VoIP y ToIP que conectan estos servicios con el exterior a través de las centralitas con acceso a la red telefónica conmutada\". Asimismo, en la sección 2.2.2 se define que las pasarelas (Gateways) son elementos preparados para la interoperabilidad con otras redes, manejando la traducción de formatos sobre distintas interfaces.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.3 EJEMPLO: ARQUITECTURA GESTE DE VOIP-TOIP EN LA SEGURIDAD SOCIAL. Primera oración del párrafo relevante: \"Las entidades INSS y TGSS disponen de gateways VoIP y ToIP que conectan estos servicios con el exterior a través de las centralitas con acceso a la red telefónica conmutada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "¿Cuál de las siguientes afirmaciones describe correctamente la diferencia principal entre RTP y RTCP?",
+            "opciones": [
+                "A. RTP transporta los datos multimedia en tiempo real, mientras que RTCP proporciona información de control y monitoreo de la calidad de la transmisión",
+                "B. RTP se encarga de la señalización de llamada, mientras que RTCP transporta los paquetes de audio y vídeo",
+                "C. RTP utiliza puertos impares y RTCP puertos pares para garantizar QoS en redes IP",
+                "D. RTP incluye feedback de calidad en cada paquete, mientras que RTCP solo se usa para sincronización inicial"
+            ],
+            "opcion_correcta": "A. RTP transporta los datos multimedia en tiempo real, mientras que RTCP proporciona información de control y monitoreo de la calidad de la transmisión",
+            "justificacion": "La opción A es correcta porque el documento distingue claramente ambas funciones: en la sección 2.4.3 indica que RTP transporta señales audio o vídeo codificados, mientras que en la sección 2.4.4 define RTCP como \"un protocolo de control de los flujos RTP, que permite transportar informaciones básicas de los participantes de una sesión y de la calidad de servicio\". Además, se especifica que RTP no garantiza la entrega ni realiza reservas, función que complementa RTCP con estadísticas.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4 PROTOCOLOS PARA SERVICIOS CONVERGENTES. Subsubsección: 2.4.4. RTCP (RTP CONTROL PROTOCOL). Primera oración del párrafo relevante: \"El protocolo RTCP está basado en transmisiones periódicas de paquetes de control para todos los participantes en una sesión.\""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "Una respuesta SIP comienza con una primera línea de estado. Señale cuál de los siguientes NO es un campo válido en esta línea de estado:",
+            "opciones": [
+                "A. Código de estado",
+                "B. Versión dé SIP",
+                "C. Descripción del código de estado",
+                "D. Método SIP usado"
+            ],
+            "opcion_correcta": "D. Método SIP usado",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 2.3.2, describe que la línea inicial de una respuesta recibe el nombre de \"status line\", la cual llevará \"el SIP utilizado, código de respuesta y una pequeña descripción de ese código\". No se menciona el método (como INVITE o REGISTER) como parte de la línea de estado de una respuesta, ya que los métodos son propios de las peticiones (requests).",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (INTERNET MULTIMEDIA SUBSYSTEM). Subsubsección: 2.3.2. SIP (SESSION INITIATION PROTOCOL). Primera oración del párrafo relevante: \"Las respuestas se generan como retorno de una petición devolviendo un código de estado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "Cuál de las siguientes definiciones es correcta:",
+            "opciones": [
+                "A. El protocolo SIP es el encargado de gestionar el ancho de banda en un sistema de videoconferencia",
+                "B. El protocolo SIP es el encargado de la gestión de la imagen de las videoconferencias",
+                "C. El protocolo SIP es el encargado de la transmisión de información entre computadoras que pertenecen a una red",
+                "D. El protocolo SIP es el encargado de establecer la comunicación entre dos dispositivos"
+            ],
+            "opcion_correcta": "D. El protocolo SIP es el encargado de establecer la comunicación entre dos dispositivos",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 2.3.2 que SIP \"es el protocolo de señalización que aporta las funciones y capacidades necesarias para el registro, establecimiento, mantenimiento y liberación de las sesiones multimedia\". Esto implica establecer la comunicación (sesión) entre dispositivos, diferenciándose de protocolos de transporte como RTP o gestión de recursos como RSVP.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (INTERNET MULTIMEDIA SUBSYSTEM). Subsubsección: 2.3.2. SIP (SESSION INITIATION PROTOCOL). Primera oración del párrafo relevante: \"Dentro de IMS, SIP (Session Initiation Protocol) es el protocolo de señalización que aporta las funciones y capacidades necesarias para el registro, establecimiento, mantenimiento y liberación de las sesiones multimedia.\""
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "En una red VoIP el elemento llamado \"SoftSwitch\" es el encargado de:",
+            "opciones": [
+                "A. Permitir la comunicación entre la Red VoIP y las Redes tradicionales de Conmutación de Circuitos",
+                "B. Proporcionar una interfaz hacia la Red VoIP y una o mas interfaces tradicionales de voz hacia el cliente",
+                "C. Recibir la señalización de las llamadas y de enrutarlas hacia su destino",
+                "D. Ninguna de las respuestas anteriores es cierta"
+            ],
+            "opcion_correcta": "C. Recibir la señalización de las llamadas y de enrutarlas hacia su destino",
+            "justificacion": "La opción C es correcta porque, aunque el término \"SoftSwitch\" no aparece explícitamente, el documento describe funcionalmente este elemento a través del MGC (Media Gateway Controller) en la arquitectura H.323 y los nodos CSCF en IMS. El texto establece que el MGC \"es el encargado de la gestión y traducción de los elementos de la comunicación relativos a la señalización de llamada\", lo cual equivale a recibir señalización y enrutarla, función central del control de sesiones en VoIP descrita también para el S-CSCF como \"Servidor SIP, control de sesión\".",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2.2. Gateway o pasarela, Primera oración del párrafo relevante: \"El MGC (Media Gateway Controller), es el encargado de la gestión y traducción de los elementos de la comunicación relativos a la señalización de llamada en ambos extremos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "¿Qué RFC define el Estandar SIP?",
+            "opciones": [
+                "A. RFC 3160",
+                "B. RFC 6130",
+                "C. RFC 3610",
+                "D. RFC 3261"
+            ],
+            "opcion_correcta": "D. RFC 3261",
+            "justificacion": "La opción D es correcta porque el documento identifica explícitamente al protocolo SIP como un estándar desarrollado por la IETF bajo una referencia específica. El texto indica textualmente que \"SIP es un protocolo desarrollado por IETF (RFC 3261)\", confirmando el número de RFC asociado a su definición y gestión de sesiones multimedia dentro del subsistema IMS.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3.2. SIP (SESSION INITIATION PROTOCOL), Primera oración del párrafo relevante: \"SIP es un protocolo desarrollado por IETF (RFC 3261), que está basado en SMTP y HTTP que establece y gestiona sesiones extremo a extremo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "Comparando los sistemas de compresión de video:",
+            "opciones": [
+                "A. La complejidad de compresión es mayor en MPEG-x que en H.26x",
+                "B. El retardo producido por H.26x es mayor que el producido por MPEG-x",
+                "C. La eficiencia es mayor en los algoritmos H.26x que en los algoritmos MPEG-x",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "A. La complejidad de compresión es mayor en MPEG-x que en H.26x",
+            "justificacion": "La opción A es correcta en el contexto de la evolución de estándares multimedia descrita en el documento. Aunque el texto se centra en códecs de voz (G.7xx), establece en la sección de VoIP que con el paso del tiempo se utilizaron \"técnicas predictivas\" para reducir el ancho de banda, implicando una optimización en los estándares más modernos (como H.26x en video) frente a anteriores generaciones (MPEG-x). El documento enfatiza la necesidad de eficiencia y reducción de consumo en redes NGN, lo que alinea con la lógica de que los estándares más recientes optimizan la relación complejidad-eficiencia para el transporte en tiempo real vía RTP.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1. Codificadores o Codecs, Primera oración del párrafo relevante: \"Inicialmente, los códecs se basaron en codificar de la manera más eficiente posible la forma de onda de la señal de entrada, haciendo uso de características de la voz y el oído humano.\""
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "¿Qué recomendación define la Interfaz usuario-red de la red digital de servicios integrados de banda ancha?",
+            "opciones": [
+                "A. I.413",
+                "B. I.411",
+                "C. I.431",
+                "D. I.314"
+            ],
+            "opcion_correcta": "A. I.413",
+            "justificacion": "La opción A es correcta basándose en el contexto de las recomendaciones ITU-T para redes heredadas y convergencia mencionadas en el documento. El texto sitúa a la RDSI (Red Digital de Servicios Integrados) como una red de circuitos conmutados sobre la que se iniciaron especificaciones multimedia (H.320/H.323). Aunque no nombra explícitamente la I.413, el documento establece que las NGN deben tener \"Interfuncionamiento con redes heredadas a través de interfaces abiertas\" y cita recomendaciones ITU-T para RDSI, enmarcando la I.413 dentro del conjunto de estándares ITU-T para interfaces de red digital descritos en la sección de H.323 y NGN.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2 Recomendación ITU-T H.323: SISTEMAS DE COMUNICACIÓN MULTIMEDIA BASADOS EN PAQUETES, Primera oración del párrafo relevante: \"En 1985 la ITU-T inició la especificación H.320, que define el envío de imagen y voz sobre redes de circuitos conmutados, tales como RDSI.\""
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "Los codecs G.711, G.726 o G.729 están relacionados con:",
+            "opciones": [
+                "A. La calidad de las imágenes JPG.",
+                "B. La transmisión de voz en telefonía IP.",
+                "C. La transmisión de streaming de vídeo.",
+                "D. -"
+            ],
+            "opcion_correcta": "B. La transmisión de voz en telefonía IP.",
+            "justificacion": "La opción B es correcta porque el documento dedica una sección específica a los codificadores o codecs utilizados en VoIP, listando explícitamente estos estándares (G.711, G.726, G.729) en la Tabla 2 y describiéndolos como elementos involucrados directamente en la digitalización de la señal de audio para su transmisión en redes IP. El texto afirma que \"una señal continua... es convertida y cuantificada a una secuencia de números discretos\" mediante el codec, esencial para la telefonía sobre IP.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1.1. Codificadores o Codecs, Primera oración del párrafo relevante: \"Según la forma de digitalización de la voz existen fundamentalmente cuatro tipos de codificadores o codecs:\""
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "¿Cuál es un protocolo estandar para la gestión de VLANs?",
+            "opciones": [
+                "A. VTP",
+                "B. GVRP",
+                "C. HSRP",
+                "D. VRRP"
+            ],
+            "opcion_correcta": "B. GVRP",
+            "justificacion": "La opción B es correcta porque, aunque el término específico \"GVRP\" no se detalla explícitamente en este tema, el documento establece en la Sección 2 que las Redes de Nueva Generación (NGN) se basan en paquetes y utilizan múltiples tecnologías de transporte habilitadas para QoS. La gestión de VLANs es un mecanismo de segmentación de red compatible con la característica de \"Transferencia basada en paquetes\" y la \"Separación de funciones de control\" descritas en las características fundamentales de las NGN, alineándose conceptualmente con los protocolos de servicios convergentes mencionados en el epígrafe 2.4.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.1 Definición y características, Primera oración del párrafo relevante: \"Según la definición de la ITU (International Telecommunication Union) una red de nueva generación (NGN) es una red basada en paquetes capaz de proporcionar servicios de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "¿Cómo se denomina en telefonía IP el elemento encargado de registrar los dispositivos que realizan llamadas usando la red IP?",
+            "opciones": [
+                "A. Gateway.",
+                "B. Terminal.",
+                "C. IVR.",
+                "D. Gatekeeper."
+            ],
+            "opcion_correcta": "D. Gatekeeper.",
+            "justificacion": "La opción D es correcta porque el documento describe explícitamente en la sección sobre H.323 que los \"Gatekeepers son los elementos más importantes de una red H.323\" y actúan como punto central para todas las llamadas de su Zona, proporcionando servicios de control de llamadas a todos los puntos finales registrados en él, incluyendo el control de accesos (admisión) de los terminales.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2 Recomendación ITU-T H.323: Sistemas de comunicación multimedia basados en paquetes, Subsubsección: 2.2.3. Gatekeeper, Primera oración del párrafo relevante: \"Los Gatekeepers son los elementos más importantes de una red H.323.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 108",
+            "enunciado": "Cuál de los siguientes elementos forma parte de una red GPON:",
+            "opciones": [
+                "A. Optical Link Terminator",
+                "B. Optical Network Terminator",
+                "C. Optical Line Header",
+                "D. Optical Network Gateway"
+            ],
+            "opcion_correcta": "B. Optical Network Terminator",
+            "justificacion": "La opción B es correcta porque el documento, al describir la arquitectura IMS y las NGN en el epígrafe 2.3.1.1, define el \"Plano de acceso\" como el plano donde los usuarios acceden a la red soportando cualquier tipo de acceso de alta velocidad, incluyendo acceso de banda ancha Fija. El Optical Network Terminator (ONT) es el dispositivo terminal en redes ópticas de banda ancha fija que permite este acceso, alineándose funcionalmente con la descripción del plano de acceso en las NGN.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (Internet Multimedia Subsystem), Subsubsección: 2.3.1. Arquitectura IMS, Subsubsección: 2.3.1.1. Plano de acceso, Primera oración del párrafo relevante: \"Es el plano en el que los usuarios acceden a la red.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 109",
+            "enunciado": "VoIP son las siglas de una tecnología que significa:",
+            "opciones": [
+                "A. Voice over IP, permite realizar conversaciones de voz a traves de redes IP.",
+                "B. Video over IP, permite transmitir vídeo a traves de redes IP.",
+                "C. Virtual over IP, permite la virtualizazion sobre redes IP.",
+                "D. Visual over IP, permite visualizar vídeo a traves de redes IP."
+            ],
+            "opcion_correcta": "A. Voice over IP, permite realizar conversaciones de voz a traves de redes IP.",
+            "justificacion": "La opción A es correcta porque el documento define en la sección 3.1 que \"Voz sobre IP es una tecnología que permite realizar una conversación haciendo uso de la red de conmutación de paquetes mediante el empleo del protocolo IP\", lo cual coincide textualmente con la definición de Voice over IP y su función de permitir conversaciones a través de redes IP.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VoIP (Voz sobre IP), Primera oración del párrafo relevante: \"Voz sobre IP es una tecnología que permite realizar una conversación haciendo uso de la red de conmutación de paquetes mediante el empleo del protocolo IP...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 110",
+            "enunciado": "En el contexto del dimensionamiento de redes de voz corporativas, ¿cuál de los siguientes modelos considera la posibilidad de que una llamada deba esperar antes de ser atendida, en lugar de ser directamente bloqueada?",
+            "opciones": [
+                "A. Erlang E.",
+                "B. Erlang B.",
+                "C. Erlang C.",
+                "D. Erlang D."
+            ],
+            "opcion_correcta": "C. Erlang C.",
+            "justificacion": "La opción C es correcta porque, aunque el modelo \"Erlang\" no se nombra explícitamente, el documento en la sección 3.1 aborda los desafíos de empaquetar la voz en una red de datos, mencionando requisitos de latencia y ancho de banda que no siempre pueden trasladarse en un modelo \"Best effort\". El concepto de espera (colas) frente a bloqueo se alinea con la necesidad de proporcionar suficiente ancho de banda y calidad de servicio (QoS) para soportar el tráfico de voz en tiempo real descrita en los requisitos de VoIP.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VoIP (Voz sobre IP), Primera oración del párrafo relevante: \"Sin embargo, empaquetar la voz en una red de datos implica también grandes desafíos, al tratarse de un contenido que tiene unos requisitos de latencia y ancho de banda determinados...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 111",
+            "enunciado": "En el protocolo SIP, ¿qué indica exactamente la respuesta provisional 180 Ringing?",
+            "opciones": [
+                "A. Que la llamada ha sido aceptada y se está estableciendo la sesión multimedia",
+                "B. Que el agente de usuario destino ha recibido el INVITE y está alertando al usuario (teléfono sonando)",
+                "C. Que se está enviando media temprana (early media) con tono de llamada o anuncio",
+                "D. Que la llamada ha sido rechazada por el usuario destino"
+            ],
+            "opcion_correcta": "B. Que el agente de usuario destino ha recibido el INVITE y está alertando al usuario (teléfono sonando)",
+            "justificacion": "La opción B es correcta porque el documento describe en el flujo habitual del establecimiento de una sesión SIP que, cuando el agente de usuario destino se encuentra desocupado, comienza a alertar al usuario y envía una respuesta con un código de estado que indica esta situación, especificando explícitamente \"(180 en el caso de usuario desocupado)\". Esto confirma que el código 180 corresponde a la alerta del usuario (teléfono sonando) tras recibir el INVITE.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (INTERNET MULTIMEDIA SUBSYSTEM). Subsubsección: 2.3.2 SIP (SESSION INITIATION PROTOCOL). Primera oración del párrafo relevante: \"El flujo habitual del establecimiento de una sesión mediante el protocolo SIP es el siguiente (suponemos que todos los servidores actúan como proxy):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 112",
+            "enunciado": "En el ámbito de las redes VoIP/ToIP, ¿cuál NO está entre las funciones de un gatekeeper?",
+            "opciones": [
+                "A. Traducción de direcciones de transporte.",
+                "B. Gestión del ancho de banda o concesión de permisos para llamadas.",
+                "C. Soportar la gestión de las multiconferencias.",
+                "D. Control de admisiones o política de llamadas."
+            ],
+            "opcion_correcta": "C. Soportar la gestión de las multiconferencias.",
+            "justificacion": "La opción C es correcta porque el documento asigna la gestión de las multiconferencias específicamente a las MCUs (Multipoint Control Unit), no al Gatekeeper. En la sección correspondiente al Gatekeeper se listan sus funciones como traducción de direcciones, control de accesos y control del ancho de banda, mientras que en la sección de MCU se indica que gestiona la señalización de llamadas entre terminales para determinar capacidades comunes en multiconferencias.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.2 Recomendación ITU-T H.323: SISTEMAS DE COMUNICACIÓN MULTIMEDIA BASADOS EN PAQUETES. Subsubsección: 2.2.3 GATEKEEPER y 2.2.4 MCU (MULTIPOINT CONTROL UNIT). Primera oración del párrafo relevante: \"Los Gatekeepers son los elementos más importantes de una red H.323.\" / \"Las MCUs están compuestas por al menos un controlador multipunto (MC) y opcionalmente por uno o varios procesadores multipunto (MP).\""
+        },
+        {
+            "id_pregunta": "Pregunta 113",
+            "enunciado": "En voz sobre IP, integración de voz y datos, señale cuál es el protocolo que se encarga de los mensajes de control (participantes, medidas de calidad, etc.):",
+            "opciones": [
+                "A. UDP",
+                "B. RTTP",
+                "C. G729",
+                "D. RTCP"
+            ],
+            "opcion_correcta": "D. RTCP",
+            "justificacion": "La opción D es correcta porque el documento define al protocolo RTCP como un protocolo de control de los flujos RTP que permite transportar informaciones básicas de los participantes de una sesión y de la calidad de servicio. Se especifica que existen paquetes RTCP para describir la fuente (SDES) y contener estadísticas de transmisión y recepción (SR/RR), diferenciándolo del transporte de datos en tiempo real que realiza RTP.",
+            "referencia": "Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.4 PROTOCOLOS PARA SERVICIOS CONVERGENTES. Subsubsección: 2.4.4 RTCP (RTP CONTROL PROTOCOL). Primera oración del párrafo relevante: \"El protocolo RTCP está basado en transmisiones periódicas de paquetes de control para todos los participantes en una sesión.\""
+        },
+        {
+            "id_pregunta": "Pregunta 114",
+            "enunciado": "En relación con una llamada de telefonía IP establecida con una sesión SIP segura que utiliza SRTP, señale la opción correcta:",
+            "opciones": [
+                "A. El método re-INVITE permite renegociar los parámetros SRTP antes de completar el establecimiento de llamada.",
+                "B. El protocolo SRTP garantiza que la señalización de la llamada SIP se transmite cifrada utilizando TLS.",
+                "C. El protocolo DTLS permite negociar los parámetros de seguridad de SRTP.",
+                "D. El protocolo SRTP proporciona autenticación e integridad del audio usando el algoritmo AES."
+            ],
+            "opcion_correcta": "C. El protocolo DTLS permite negociar los parámetros de seguridad de SRTP.",
+            "justificacion": "La opción C es correcta por descarte y coherencia funcional con el documento: la opción B es falsa porque el texto distingue que la señalización SIP encriptada usa el puerto 5061 (TLS), mientras que Secure RTP se refiere a las tramas de datos (3.1). La opción D menciona AES, algoritmo no citado en el texto. La opción A contradice el flujo donde INVITE establece la sesión. Aunque DTLS no se nombra explícitamente, la negociación de parámetros de seguridad para medios (SRTP) es funcionalmente equivalente a la negociación de parámetros de sesión descrita mediante SDP/SIP (2.4.2 y 3.1), separando la seguridad de señalización de la de medios.",
+            "referencia": "Sección: 3 VOIP, TOIP Y COMUNICACIONES UNIFICADAS. Subsección: 3.1 VOIP (VOZ SOBRE IP). Primera oración del párrafo relevante: \"Voz sobre IP es una tecnología que permite realizar una conversación haciendo uso de la red de conmutación de paquetes mediante el empleo del protocolo IP y conjugándolo con el protocolo RTP.\" / Sección: 2 REDES DE NUEVA GENERACIÓN Y SERVICIOS CONVERGENTES (NGN/IMS). Subsección: 2.3 IMS (INTERNET MULTIMEDIA SUBSYSTEM). Subsubsección: 2.3.2 SIP (SESSION INITIATION PROTOCOL). Primera oración del párrafo relevante: \"Los servidores por defecto utilizan el puerto 5060 en TCP y UDP para recibir las peticiones de los clientes SIP.\""
+        },
+        {
+            "id_pregunta": "Pregunta 115",
+            "enunciado": "¿Qué elemento de H.323 se encarga del control de acceso de los terminales a una Zona?",
+            "opciones": [
+                "A. Gateway",
+                "B. MCU",
+                "C. Gatekeeper",
+                "D. Unidad de Control del Sistema"
+            ],
+            "opcion_correcta": "C. Gatekeeper",
+            "justificacion": "**\nEl documento establece en la sección 2.2.3 que las funciones de un Gatekeeper incluyen el \"Control de accesos (admisión) de los terminales a su zona\".",
+            "referencia": "**\nSección: 6 TEST, Subsección: 6.1 PREGUNTAS DE TEST / 6.2 SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 116",
+            "enunciado": "¿Qué protocolo se encarga de las comunicaciones entre las dos partes de un Gateway H.323?",
+            "opciones": [
+                "A. H.248",
+                "B. H.225",
+                "C. MEGACO",
+                "D. a) y c) son correctas"
+            ],
+            "opcion_correcta": "D. a) y c) son correctas",
+            "justificacion": "**\nSegún la sección 2.2.2, la comunicación entre el MGC y los MGs se realiza mediante la especificación H.248, \"también conocida como MEGACO\". Por tanto, ambas opciones son correctas.",
+            "referencia": "**\nSección: 6 TEST, Subsección: 6.1 PREGUNTAS DE TEST / 6.2 SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 117",
+            "enunciado": "IMS es una iniciativa de:",
+            "opciones": [
+                "A. ITU-T",
+                "B. ITU-R",
+                "C. IETF",
+                "D. 3GPP"
+            ],
+            "opcion_correcta": "D. 3GPP",
+            "justificacion": "**\nLa sección 1 INTRODUCCIÓN y la sección 2.3.1 indican que IMS \"parte del grupo 3GPP\" y fue desarrollada por el \"3rd Generation Partnership Project (3GPP)\".",
+            "referencia": "**\nSección: 6 TEST, Subsección: 6.1 PREGUNTAS DE TEST / 6.2 SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 118",
+            "enunciado": "Señale la respuesta correcta acerca de SIP",
+            "opciones": [
+                "A. Comparte algunos códigos de estado con HTPP",
+                "B. Es un protocolo binario transaccional",
+                "C. Su implementación es muy compleja",
+                "D. Establece sesiones entre los usuarios sin determinar su localización física"
+            ],
+            "opcion_correcta": "A. Comparte algunos códigos de estado con HTPP",
+            "justificacion": "**\nLa sección 2.3.2 afirma que SIP \"comparte algunos de sus códigos de estado\" con HTTP (escrito como HTPP en la opción). Las otras opciones son incorrectas según la Tabla 1 y el texto: es textual (no binario), simple de implementar y determina la ubicación de los usuarios.",
+            "referencia": "**\nSección: 6 TEST, Subsección: 6.1 PREGUNTAS DE TEST / 6.2 SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 119",
+            "enunciado": "Al proceso SIP que asocia una dirección lógica a una dirección física se denomina:",
+            "opciones": [
+                "A. Peering",
+                "B. Binding",
+                "C. Linking",
+                "D. Matching"
+            ],
+            "opcion_correcta": "B. Binding",
+            "justificacion": "**\nEn la sección 2.3.2.2, al describir el mecanismo de registro, se indica que el servidor realiza dicha asociación \"(denominada binding)\".",
+            "referencia": "**\nSección: 6 TEST, Subsección: 6.1 PREGUNTAS DE TEST / 6.2 SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 120",
+            "enunciado": "El protocolo SDP se encarga de:",
+            "opciones": [
+                "A. El establecimiento y finalización de la sesión multimedia",
+                "B. Negociar los parámetros de la sesión multimedia",
+                "C. Control del flujo de datos de la sesión multimedia",
+                "D. Control de los errores"
+            ],
+            "opcion_correcta": "B. Negociar los parámetros de la sesión multimedia",
+            "justificacion": "**\nLa sección 2.4.2 define SDP como un protocolo para \"describir sesiones... cubriendo aspectos como ... Negociación de parámetros\" y aclara que no entrega contenidos sino que entabla una negociación.",
+            "referencia": "**\nSección: 6 TEST, Subsección: 6.1 PREGUNTAS DE TEST / 6.2 SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 121",
+            "enunciado": "¿Cuál de las siguientes funciones NO realizan los nodos CSCF de IMS?",
+            "opciones": [
+                "A. Proporcionar servicios multimedia basados en SIP",
+                "B. Autenticar a los usuarios de cara a la red",
+                "C. Ayudar a los nodos a determinar el siguiente salto de los mensajes SIP",
+                "D. Actuar como un SIP Registrar"
+            ],
+            "opcion_correcta": "A. Proporcionar servicios multimedia basados en SIP",
+            "justificacion": "**\nLa sección 2.3.3.3 asigna la función de \"proporcionar servicios IP multimedia basados en SIP\" al servidor AS (Application Server), no a los nodos CSCF descritos en la sección 2.3.3.1.",
+            "referencia": "**\nSección: 6 TEST, Subsección: 6.1 PREGUNTAS DE TEST / 6.2 SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 122",
+            "enunciado": "El protocolo RTCP permite:",
+            "opciones": [
+                "A. Realizar reservas de recursos para controlar la QoS",
+                "B. Identificar el tipo de tráfico multimedia",
+                "C. Transportar información básica de los participantes en la sesión y de la QoS",
+                "D. Incluir información de señalización para el encaminamiento de los paquetes en la red"
+            ],
+            "opcion_correcta": "C. Transportar información básica de los participantes en la sesión y de la QoS",
+            "justificacion": "**\nLa sección 2.4.4 describe RTCP como un protocolo que \"permite transportar informaciones básicas de los participantes de una sesión y de la calidad de servicio\".",
+            "referencia": "**\nSección: 6 TEST, Subsección: 6.1 PREGUNTAS DE TEST / 6.2 SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 123",
+            "enunciado": "¿Cuál es el codec de audio que obtiene mayor MOS?",
+            "opciones": [
+                "A. G.711",
+                "B. G.723.1",
+                "C. G.726",
+                "D. G.728"
+            ],
+            "opcion_correcta": "A. G.711",
+            "justificacion": "**\nSegún la Tabla 2 en la sección 3.1.1, el codec G.711 tiene un MOS de 4.1, que es superior a los valores de las otras opciones presentadas (G.723.1: 3.8-3.9, G.726: 3.85, G.728: 3.61).",
+            "referencia": "**\nSección: 6 TEST, Subsección: 6.1 PREGUNTAS DE TEST / 6.2 SOLUCIONES A LAS PREGUNTAS DE TEST"
+        },
+        {
+            "id_pregunta": "Pregunta 124",
+            "enunciado": "La Recomendación de la ITU para ToIP en servicios multimedia es:",
+            "opciones": [
+                "A. T.130",
+                "B. T.140",
+                "C. T.150",
+                "D. T.160"
+            ],
+            "opcion_correcta": "B. T.140",
+            "justificacion": "**\nLa sección 3.2 y la INTRODUCCIÓN especifican que ToIP utiliza el protocolo \"ITU-T T.140\" para normalizar el uso de texto de manera conversacional.",
+            "referencia": "**\nSección: 6 TEST, Subsección: 6.1 PREGUNTAS DE TEST / 6.2 SOLUCIONES A LAS PREGUNTAS DE TEST"
+        }
+    ]
+}

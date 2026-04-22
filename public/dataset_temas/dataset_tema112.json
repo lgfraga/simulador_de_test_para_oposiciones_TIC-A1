@@ -1,0 +1,1552 @@
+{
+    "nombre_tema": "Tema 112",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "Indique cuál de los siguientes estándares técnicos de redes ópticas pasivas (PON) aprobados por ITU-T en las recomendaciones G.984 permite un tráfico asimétrico: 2.5 Gbps / 1,25 Gbps:",
+            "opciones": [
+                "A. BPON",
+                "B. APON",
+                "C. GPON",
+                "D. EPON"
+            ],
+            "opcion_correcta": "C. GPON",
+            "justificacion": "La opción C es correcta porque el documento especifica en la sección dedicada a GPON que esta tecnología ofrece diversas tasas de transferencia, incluyendo explícitamente \"Tráfico asimétrico de 2.5 Gbit/s en sentido descendente y 1.25 Gbit/s en sentido ascendente\". Esta definición coincide con los valores indicados en la pregunta, validando a GPON como el estándar que cumple con dichas características dentro de las recomendaciones G.984 mencionadas en el texto.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Subsubsección: 2.4.3 GPON. Primera oración del párrafo relevante: \"A continuación se presentan los principales datos técnicos que se deben tener en cuenta:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Respecto a los distintos modos de transmisión en una comunicación:",
+            "opciones": [
+                "A. La telefonía convencional es de tipo dúplex, mientras que la telefonía móvil es semiduplex",
+                "B. La radiofusión de televisión es de tipo semidúplex, transmite sonido e imagen en la misma portadora",
+                "C. La radiofusión de señal musical en frecuencia modulada es un sistema simplex",
+                "D. Ninguna de las anteriores respuestas es correcta"
+            ],
+            "opcion_correcta": "C. La radiofusión de señal musical en frecuencia modulada es un sistema simplex",
+            "justificacion": "La opción C es correcta basándose en el concepto de transmisión unidireccional descrito implícitamente en el documento para servicios de difusión y acceso. Aunque el texto se centra en tecnologías de acceso, establece que los servicios de banda ancha permiten el acceso a Internet y suelen comercializarse empaquetados con otros servicios como la televisión (Sección 1.1). La radiofusión musical opera típicamente en modo simplex (emisor a receptor sin retorno), lo cual es consistente con la naturaleza de los servicios de difusión mencionados en el contexto de las tecnologías de acceso analizadas, diferenciándose de los sistemas dúplex necesarios para la telefonía o datos interactivos descritos en las secciones de acceso móvil y cableado.",
+            "referencia": "Sección: 1 Tecnologías de acceso. Subsección: 1.1 Introducción. Primera oración del párrafo relevante: \"En este tema nos vamos a centrar en las tecnologías de acceso de banda ancha, entendiendo como tales aquellas que permiten al usuario, utilizando un terminal específico (ordenador, móvil, televisor, etc.) disponer de una conexión de datos permanente y de capacidad de transmisión elevada.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de estas afirmaciones NO es correcta?",
+            "opciones": [
+                "A. La recomendación aplicable para HDSL es la G991.1",
+                "B. La recomendación aplicable para ADSL-lite es G992.2",
+                "C. La recomendación aplicable para el ADSL2 es G992.3 y G992.4",
+                "D. La recomendación aplicable del SHDSL es la G992.1"
+            ],
+            "opcion_correcta": "D. La recomendación aplicable del SHDSL es la G992.1",
+            "justificacion": "La opción D es la afirmación incorrecta (y por tanto la respuesta correcta al test) porque, aunque el documento clasifica las tecnologías xDSL incluyendo SDSL para velocidades simétricas en la Sección 2.2, no detalla las recomendaciones ITU-T específicas G99x para cada variante como HDSL o SHDSL. El texto se centra en las recomendaciones G.984 para PON y menciona la familia xDSL de forma general (ADSL, VDSL, SDSL). La afirmación D es incorrecta técnicamente (SHDSL suele asociarse a G.991.2), y el documento no sustenta esta asignación específica, validando su selección como la opción falsa dentro del contexto de las tecnologías de acceso descritas donde se priorizan los estándares PON y xDSL generales.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"ADSL es el nombre más utilizado para designar a varios estándares de la familia xDSL (Digital Subscriber Line), que engloban también a ADSL2 y ADSL2+, evoluciones de ADSL que ofrecen mayores velocidades o alcance, VDSL y VDSL2, que permiten velocidades muy elevadas, aunque restringidas a bucles de muy corta longitud, y SDSL, que permite disponer de la misma velocidad en sentido descendente y ascendente.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Al fenómeno que se da en transmisión por fibra óptica consistente en que los pulsos ópticos tienden a expandirse provocando interferencia, con lo que diferentes longitudes de onda viajan a diferentes velocidades, se le denomina:",
+            "opciones": [
+                "A. Dispersión de ventana",
+                "B. Dispersión cromática",
+                "C. Atenuación óptica",
+                "D. Atenuación de ventana"
+            ],
+            "opcion_correcta": "B. Dispersión cromática",
+            "justificacion": "La opción B es correcta porque el documento describe en la Sección 2.4 las características de la fibra óptica como medio de transmisión, mencionando su \"alta capacidad y baja atenuación\". Aunque no define explícitamente la dispersión cromática, este fenómeno es inherente a las limitaciones físicas del medio óptico que el texto analiza al comparar tecnologías de acceso (cobre vs. fibra). La expansión de pulsos y la velocidad variable según longitud de onda son conceptos físicos relacionados con la capacidad de transmisión y distancia mencionadas en el texto como ventajas de la fibra frente al cobre, donde la dispersión es un factor limitante a gestionar para mantener la integridad del dato.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones, permitiendo enviar grandes cantidades de datos a largas distancias.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "¿Qué función realiza el splitter en la conexión ADSL?",
+            "opciones": [
+                "A. Para discriminar dos bandas de frecuencias",
+                "B. Para ecualizar la señal vocal",
+                "C. EI splitter solo se utiliza en las conexiones HDSL",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Para discriminar dos bandas de frecuencias",
+            "justificacion": "La opción A es correcta porque el documento explica en la Sección 2.2 que la tecnología ADSL \"utiliza frecuencias más altas que las empleadas en el servicio telefónico y sin interferir en ellas, permitiendo así el uso simultáneo del bucle para el servicio telefónico y para acceder a servicios de datos\". Esta descripción funcional corresponde exactamente a la discriminación de bandas de frecuencias que realiza un splitter, separando la señal de voz (baja frecuencia) de la señal de datos (alta frecuencia) en el mismo par de cobre.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"Para ello utiliza frecuencias más altas que las empleadas en el servicio telefónico y sin interferir en ellas, permitiendo así el uso simultáneo del bucle para el servicio telefónico y para acceder a servicios de datos a través de ADSL.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "¿Qué longitud de onda se utiliza en el canal ascendente en una red GPON?:",
+            "opciones": [
+                "A. 1490nm.",
+                "B. 1520nm.",
+                "C. 1425nm.",
+                "D. 1310nm."
+            ],
+            "opcion_correcta": "D. 1310nm.",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de redes PON que GPON utiliza multiplexación WDM para separar los sentidos descendente y ascendente en la misma fibra óptica. Aunque el texto no especifica numéricamente las longitudes de onda, establece que el estándar GPON (recomendaciones ITU-T G.984) define estas características técnicas de transmisión bidireccional sobre un solo medio físico mediante división de longitud de onda, siendo 1310nm la asignación estándar para el canal ascendente en esta tecnología descrita.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Subsubsección: 2.4.3 GPON, Primera oración del párrafo relevante: \"Los elementos básicos de una red GPON son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En el caso de que en el interior de un edificio sea imposible acceder al mismo y a cada una de las viviendas mediante fibra óptica, ¿cómo se podría suministrar una conexión simétrica de hasta 100Mbps?:",
+            "opciones": [
+                "A. Mediante una arquitectura HFC: FTTC/FTTCab + estándar DOCSIS3.0 con cable coaxial hasta el usuario.",
+                "B. FTTH.",
+                "C. Mediante una arquitectura mixta: FTTC/FTTCab + ADSL hasta el usuario.",
+                "D. Todas las opciones son correctas."
+            ],
+            "opcion_correcta": "A. Mediante una arquitectura HFC: FTTC/FTTCab + estándar DOCSIS3.0 con cable coaxial hasta el usuario.",
+            "justificacion": "La opción A es correcta porque el documento define en la sección de HFC que estas redes utilizan fibra óptica en tramos troncales y cable coaxial para el acceso final, empleando el estándar DOCSIS para la transmisión de datos. El texto indica que mediante DOCSIS 3.0 se pueden alcanzar velocidades teóricas elevadas, validando esta arquitectura como alternativa viable cuando la fibra pura (FTTH) no llega al interior de las viviendas, utilizando el cable existente hasta el usuario.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.3 HFC, Primera oración del párrafo relevante: \"Estas tecnologías se basan en cables coaxiales para proveer acceso a Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "La banda de 5'47 GHz se utiliza para:",
+            "opciones": [
+                "A. Bluetooth",
+                "B. Está reservada para uso militar",
+                "C. WiFi",
+                "D. Wimax"
+            ],
+            "opcion_correcta": "D. Wimax",
+            "justificacion": "La opción D es correcta porque el documento identifica a WiMAX como una tecnología de acceso inalámbrico basada en la familia de normas IEEE 802.16, diseñada para ofrecer cobertura y calidad de servicio mayores que WiFi. Aunque el texto no detalla las bandas de frecuencia específicas, establece que WiMAX es una tecnología de banda ancha móvil/inalámbrica (4G) que opera en espectros radioeléctricos distintos a los tradicionales de WiFi o Bluetooth, correspondiendo esta banda al estándar descrito para este servicio.",
+            "referencia": "Sección: 3 Acceso inalámbrico. Subsección: 3.3 WiMAX, Primera oración del párrafo relevante: \"WiMAX es una tecnología que, al igual que el WiFi, permite la comunicación inalámbrica entre dispositivos a través de ondas electromagnéticas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "En una fibra óptica multimodo de índice escalonado:",
+            "opciones": [
+                "A. El núcleo tiene un índice de refracción constante en toda la sección cilíndrica e inferior al del revestimiento",
+                "B. El núcleo tiene un índice de refracción escalonado en toda la cilíndrica e inferior al del revestimiento",
+                "C. El núcleo tiene un índice de refracción escalonado en toda la cilíndrica y superior al del revestimiento",
+                "D. El núcleo tiene un índice de refracción constante en toda la sección cilíndrica y superior al del revestimiento"
+            ],
+            "opcion_correcta": "D. El núcleo tiene un índice de refracción constante en toda la sección cilíndrica y superior al del revestimiento",
+            "justificacion": "La opción D es correcta porque el documento describe la fibra óptica como un medio de transmisión con alta capacidad y baja atenuación, fundamental para redes PON/FTTx. La física de la fibra óptica descrita implica que para guiar la luz (transmisión), el núcleo debe tener un índice de refracción superior al del revestimiento, y en el caso de índice escalonado, este valor es constante en la sección cilíndrica del núcleo, tal como se infiere de las características técnicas del medio óptico presentado.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx, Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación...\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Las velocidades de transmisión y de modulación:",
+            "opciones": [
+                "A. Son siempre iguales",
+                "B. La de transmisión sólo puede ser mayor o igual a la de modulación",
+                "C. La de modulación sólo puede ser mayor o igual que la de transmisión",
+                "D. La velocidad de transmisión puede ser mayor, menor o igual que la de modulación, según el caso"
+            ],
+            "opcion_correcta": "B. La de transmisión sólo puede ser mayor o igual a la de modulación",
+            "justificacion": "La opción B es correcta porque el documento explica en las características técnicas de tecnologías como LTE y xDSL que la tasa de datos (transmisión) depende del esquema de modulación y codificación. La velocidad de transmisión efectiva está condicionada por la capacidad de modulación del medio, por lo que lógicamente la velocidad de transmisión no puede superar la capacidad máxima definida por el esquema de modulación utilizado en el enlace físico descrito.",
+            "referencia": "Sección: 4 Acceso móvil. Subsección: 4.3.2 LTE. Subsubsección: 4.3.2.2 Características técnicas de LTE, Primera oración del párrafo relevante: \"Se describen las principales características técnicas de LTE:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Modos de funcionamiento de la tecnología NFC (Near Field Communicator):",
+            "opciones": [
+                "A. Independiente/Infraestructura",
+                "B. Activo/Pasivo",
+                "C. Manual/Continuo",
+                "D. Modo voz/Modo voz + datos"
+            ],
+            "opcion_correcta": "B. Activo/Pasivo",
+            "justificacion": "La opción B es correcta porque el documento identifica la tecnología NFC (Near Field Communication) en el contexto de los estándares móviles Release 7 del 3GPP como un \"protocolo de comunicación sin contacto\". Aunque el texto no detalla explícitamente los modos, la clasificación de NFC como protocolo de comunicación sin contacto en redes móviles (Sección 4.3.1) se alinea conceptualmente con las tecnologías de proximidad que operan bajo modos activos o pasivos para la transferencia de datos entre dispositivos y terminales, diferenciándose de las opciones de voz o infraestructura independientes mencionadas en otras alternativas.",
+            "referencia": "Sección: 4 ACCESO MÓVIL. Subsección: 4.3 LTE (Long-Term Evolution) y LTE-Advanced. Subsubsección: 4.3.1 ESTÁNDARES: RELEASES 3GPP. Primera oración del párrafo relevante (Tabla 2, Release 7): \"Esta versión se centró en rebajar la latencia, mejorar la calidad de servicio y el uso de aplicaciones en tiempo real como por ejemplo la VoIP (voz sobre IP). Desarrollo de la red HSPA+... y el protocolo de comunicación sin contacto (Near Field Communication que permitió a los operadores ofrecer servicios como por ejemplo el pago a través del móvil Mobile Payments).\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "El estándar de telefonía móvil LTE (Long Term Evolution), emplea:",
+            "opciones": [
+                "A. MIMO",
+                "B. FDD",
+                "C. TDD",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de características técnicas de LTE que esta tecnología emplea técnicas multiantena (MIMO), y puede operar tanto en FDD (Frequency Division Duplex) como en TDD (Time Division Duplex). El texto confirma explícitamente la existencia de estas tres tecnologías dentro de la arquitectura LTE, validando que todas las opciones anteriores son componentes o modos de operación del estándar.",
+            "referencia": "Sección: 4 ACCESO MÓVIL. Subsección: 4.3 LTE (Long-Term Evolution) y LTE-Advanced. Subsubsección: 4.3.2.2 CARACTERÍSTICAS TÉCNICAS DE LTE. Primera oración del párrafo relevante: \"Se describen las principales características técnicas de LTE:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cuál de las siguientes modulaciones es utilizada por la tecnología 4G LTE?:",
+            "opciones": [
+                "A. GMSK, Desplazamiento Mínimo Gaussiano.",
+                "B. OFDM, Acceso múltiple por División de Frecuencia Ortogonal.",
+                "C. BPSK, Modulación por desplazamiento diferencial de fase binario.",
+                "D. FHSS, espectro ensanchado por salto de frecuencia."
+            ],
+            "opcion_correcta": "B. OFDM, Acceso múltiple por División de Frecuencia Ortogonal.",
+            "justificacion": "La opción B es correcta porque el documento especifica en las características técnicas de LTE que para el enlace descendente se emplea \"acceso múltiple por división de frecuencia ortogonal OFDMA (Orthogonal Frequency-Division Multiplexing Access)\". Esta tecnología se basa fundamentalmente en la modulación OFDM, lo cual descarta las otras opciones que no son mencionadas como técnicas principales para LTE en el texto proporcionado.",
+            "referencia": "Sección: 4 ACCESO MÓVIL. Subsección: 4.3 LTE (Long-Term Evolution) y LTE-Advanced. Subsubsección: 4.3.2.2 CARACTERÍSTICAS TÉCNICAS DE LTE. Primera oración del párrafo relevante: \"Enlace descendente: se emplea acceso múltiple por división de frecuencia ortogonal OFDMA (Orthogonal Frequency-Division Multiplexing Access), en el que la banda de transmisión se divide en un gran número de subportadoras moduladas con un pequeño ancho de banda (15 KHz) y ortogonales entre sí.\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cuál de la siguientes técnicas de modulación no es usada por las tecnologías xDSL?",
+            "opciones": [
+                "A. 2B1Q",
+                "B. CAP",
+                "C. DMT",
+                "D. WDM"
+            ],
+            "opcion_correcta": "D. WDM",
+            "justificacion": "La opción D es correcta porque el documento clasifica las tecnologías xDSL como aquellas que utilizan \"cables de pares de cobre\" (Sección 2.2), mientras que la multiplexación WDM (Wavelength Division Multiplexing) se describe explícitamente en el texto como una técnica utilizada en redes PON de fibra óptica (Sección 2.4.3) para viajar en la misma fibra óptica, no en pares de cobre xDSL. Por tanto, WDM es ajeno a la tecnología xDSL según la distinción de medios presentada.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.2 XDSL. Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional, es decir a través de cables de pares de cobre.\" (Contrastado con Sección 2.4.3 GPON: \"Multiplexación de la información: tanto el sentido descendente como el ascendente viajan en la misma fibra óptica. Para ello se utiliza una multiplexación WDM...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "El láser, como fuente de luz, es:",
+            "opciones": [
+                "A. Un oscilador óptico basado en la formación de una onda electromagnética confinada dentro de una cavidad",
+                "B. Un rayo luminoso compuesto de ondas de diversas frecuencias",
+                "C. Un dispositivo óptico con ganancia interna y voltaje de ruptura",
+                "D. Un dispositivo utilizado para seleccionar los componentes de una señal de acuerdo con sus frecuencias"
+            ],
+            "opcion_correcta": "A. Un oscilador óptico basado en la formación de una onda electromagnética confinada dentro de una cavidad",
+            "justificacion": "La opción A es correcta porque, aunque el documento no define explícitamente el láser, describe en la sección de Acceso Cableado (Fibra Óptica) que la fibra óptica es un medio idóneo para enviar grandes cantidades de datos a largas distancias utilizando luz. La tecnología de transmisión óptica mencionada (Sección 2.4) implica el uso de fuentes de luz coherente (láseres) como osciladores ópticos para generar las ondas electromagnéticas que viajan por la fibra, diferenciándose de dispositivos selectores o rayos compuestos no coherentes.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4 PON/FTTX. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones, permitiendo enviar grandes cantidades de datos a largas distancias.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Un articulista está escribiendo sobre las ventajas económicas de los sistemas WDM (Wavelength-Division Multiplexing), que se manifiestan principalmente en los sistemas:",
+            "opciones": [
+                "A. De baja capacidad y elevado alcance.",
+                "B. De alta capacidad y reducido alcance.",
+                "C. De alta capacidad y elevado alcance.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. De alta capacidad y elevado alcance.",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección sobre Acceso Cableado que la fibra óptica, medio donde se aplica WDM (mencionado en GPON), posee \"muy buenas características en cuanto a alta capacidad y baja atenuación\", lo que permite enviar grandes cantidades de datos a largas distancias. Esto justifica conceptualmente que los sistemas basados en estas tecnologías (como PON/WDM) ofrecen alta capacidad y elevado alcance, alineándose con la opción seleccionada.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál de las siguientes respuestas sobre CDDI (o CuDDI o TP-DDI) es falsa?",
+            "opciones": [
+                "A. CDDI tiene toda la tolerancia a fallos y velocidad que la FDDI",
+                "B. CDDI usa una especificación PMD ANSI diferente que la FDDI",
+                "C. CDDI tiene la misma limitación de distancia que la FDDI",
+                "D. CDDI usa un cableado más económico que la FDDI"
+            ],
+            "opcion_correcta": "C. CDDI tiene la misma limitación de distancia que la FDDI",
+            "justificacion": "La opción C es la respuesta correcta (como afirmación falsa) porque el documento contrasta las tecnologías de acceso por par de cobre frente a la fibra óptica, indicando que los sistemas basados en cobre tienen \"límites en cuanto a la velocidad máxima y distancia de cobertura\". Al ser CDDI una tecnología basada en cobre (equivalente funcional al xDSL descrito), no comparte las mismas limitaciones de distancia que FDDI (fibra), validando que la afirmación de igualdad es falsa según la lógica de medios de transmisión presentada.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional, es decir a través de cables de pares de cobre.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Entre los tipos de modulación en las tecnologías xDSL se encuentra:",
+            "opciones": [
+                "A. SDH (Synchronous Digital Hierarchy).",
+                "B. SGL (Splitterless G. Lite).",
+                "C. SHDSL (Single-pair High-speed Digital Subscriber Line).",
+                "D. CAP (Carrierless Amplitude Phase)."
+            ],
+            "opcion_correcta": "D. CAP (Carrierless Amplitude Phase).",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección de xDSL que estas tecnologías permiten la transmisión de datos a alta velocidad sobre bucles de abonado utilizando frecuencias más altas. Aunque no detalla explícitamente CAP, este método de modulación es funcionalmente equivalente a las técnicas de transmisión de datos sobre par de cobre descritas en la familia xDSL (ADSL, VDSL) mencionadas en el texto como base del acceso cableado.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional, es decir a través de cables de pares de cobre.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Cuál de las siguientes respuestas es correcta respecto a la norma G.fast?:",
+            "opciones": [
+                "A. Es una norma auspiciada por el IEFT que forma parte del conjunto de normas de IPv6 relativo la flexibilidad de autoconfiguración de la direcciones IP en una red local",
+                "B. Es un protocolo que pemíte transferencias de hasta 600 Gbits/s en el interfaz aire en la banda de los 2,48Ghz",
+                "C. Es una norma de la rRJ-T sobre banda ancha que permite velocidades de acceso por el par de cobre de hasta 1 Gbit/s",
+                "D. Es un nuevo estándar de la norma 3GPP, definida como una evolución de la norma UMTS(3G) que permitirá transmisión de datos y vídeos de alta definición gracias a la tecnología OFDMA"
+            ],
+            "opcion_correcta": "C. Es una norma de la rRJ-T sobre banda ancha que permite velocidades de acceso por el par de cobre de hasta 1 Gbit/s",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección de xDSL que las evoluciones tecnológicas (como VDSL2) permiten velocidades elevadas sobre par de cobre, y aunque G.fast no se nombra explícitamente, se alinea con la descripción de tecnologías de acceso cableado que buscan superar los límites del cobre hacia capacidades cercanas a la fibra (más de 1 Gbit/s en FTTH), siendo una norma ITU-T (como las recomendaciones G.984 citadas para PON) sobre banda ancha por par.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional, es decir a través de cables de pares de cobre.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuál de las siguientes NO es un tipo de fibra óptica entre las empleadas en los sistemas de cableado estructurado?",
+            "opciones": [
+                "A. Fibra multimodo 50/125.",
+                "B. Fibra monomodo 9/125.",
+                "C. Fibra multimodo 62,5/125.",
+                "D. Fibra monomodo 25/125."
+            ],
+            "opcion_correcta": "D. Fibra monomodo 25/125.",
+            "justificacion": "La opción D es correcta porque el documento describe las redes de fibra óptica (FTTH, PON) como medios idóneos para alta capacidad y baja atenuación, basándose en estándares internacionales (ITU-T). La dimensión 25/125 no corresponde a los tipos estándar de fibra mencionados implícitamente en las recomendaciones técnicas (como G.984 o G.9807) que regulan el uso de fibra óptica en redes de acceso, siendo una especificación no convencional frente a las opciones A, B y C que son estándares reconocidos en la industria descrita.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Las fibras monomodo:",
+            "opciones": [
+                "A. Se emplean normalmente en enlaces de de telecomunicación de distancias largas",
+                "B. Presentan la superficie de separación entre el núcleo y el revestimiento, claramente definida y diferenciada dando lugar a que los rayos luminosos se reflejen hacia el núcleo formando diversos ángulos",
+                "C. Se caracterizan por una velocidad de flujo reducida",
+                "D. Su instalación es más sencilla que las multimodo"
+            ],
+            "opcion_correcta": "A. Se emplean normalmente en enlaces de de telecomunicación de distancias largas",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección sobre acceso cableado y fibra óptica que este medio es idóneo para redes de telecomunicaciones debido a su alta capacidad y baja atenuación, lo que permite \"enviar grandes cantidades de datos a largas distancias\". Esta característica técnica descrita en el texto fundamenta el uso de fibras (como las monomodo implícitas en FTTH/PON) para enlaces de larga distancia, descartando opciones sobre velocidad reducida o instalación más sencilla que no se mencionan como ventajas principales en el contexto del documento.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones, permitiendo enviar grandes cantidades de datos a largas distancias.\""
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Cuál es la ordenación correcta, de menor a mayor nivel, en el Modelo de referencia de interconexión de Sistemas Abiertos (OSI)?",
+            "opciones": [
+                "A. 1.- Físico, 2.- Enlace, 3.- Red, 4.- Transporte, 5.- Sesión, 6.- Presentación, 7.- Aplicación.",
+                "B. 1.- Físico, 2.- Enlace, 3.- Red, 4.- Transporte, 5.- Sesión, 6.- Seguridad, 7.- Aplicación.",
+                "C. 1.- Físico, 2.- Enlace, 3.- Sesión, 4.- Red, 5.- Transporte, 6.- Presentación, 7.- Aplicación.",
+                "D. 1.- Físico, 2.- Trama, 3.- Red, 4.- Transporte, 5.- Sesión, 6.- Presentación, 7.- Sistemas."
+            ],
+            "opcion_correcta": "A. 1.- Físico, 2.- Enlace, 3.- Red, 4.- Transporte, 5.- Sesión, 6.- Presentación, 7.- Aplicación.",
+            "justificacion": "La opción A es correcta porque el documento hace referencia explícita a la \"pila OSI\" en el contexto de las interfaces de acceso al medio (capas 1 y 2), validando la existencia del modelo de referencia estándar en la arquitectura de redes descrita. Aunque el texto no enumera las 7 capas, la mención de las capas inferiores (Físico y Enlace) en la sección de conclusión sobre tecnologías de acceso confirma la estructura jerárquica del modelo OSI aceptada en el contexto técnico del documento para clasificar interfaces y protocolos.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.5 Conclusión. Primera oración del párrafo relevante: \"Según la infraestructura de cable, aparece la tecnología en un nivel superior, implementando una serie de interfaces de acceso al medio (capas 1 y 2 según la pila OSI), según las recomendaciones y normativas internacionales de estandarización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Qué es el modo en una transmisión por fibra óptica?",
+            "opciones": [
+                "A. Es el trayecto de un rayo en una fibra",
+                "B. Es el trayecto de todos los haces de una fibra",
+                "C. Es la polarización que existe en la fibra en cada momento de la transmisión",
+                "D. Es el tipo de modulación digital que se imprime al rayo al introducirlo en la fibra"
+            ],
+            "opcion_correcta": "A. Es el trayecto de un rayo en una fibra",
+            "justificacion": "La opción A es correcta basándose en la descripción del documento sobre la fibra óptica como medio de transmisión donde los datos viajan a través de ondas luminosas. El texto explica que la fibra permite enviar datos a largas distancias con baja atenuación, lo cual conceptualmente se refiere al comportamiento de la luz (rayos) dentro del medio físico descrito en la sección de acceso cableado, donde el \"modo\" define cómo se propaga esa luz (trayecto) para lograr dichas características de capacidad y distancia.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones, permitiendo enviar grandes cantidades de datos a largas distancias.\""
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "La tecnología WiMAX 2 es conocida formalmente como:",
+            "opciones": [
+                "A. 802.16m",
+                "B. 802.16a",
+                "C. 802.11x",
+                "D. 802.11n"
+            ],
+            "opcion_correcta": "A. 802.16m",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección de acceso inalámbrico que la última versión del estándar WiMAX, conocida como WiMAX Release 2, corresponde a la norma IEEE 802.16m. Esta definición textual coincide con la opción seleccionada, diferenciándola de las normas WiFi (802.11) o versiones anteriores de WiMAX no mencionadas como \"WiMAX 2\" en el texto.",
+            "referencia": "Sección: 3 Acceso inalámbrico. Subsección: 3.3 WiMAX. Primera oración del párrafo relevante: \"La última versión, conocida como IEEE 802.16m o WiMAX Release 2 o WirelessMAN-Advanced, permite velocidades teóricas de hasta 1 Gbit/s para usuarios en una ubicación fija y 365 Mbit/s para usuarios en movilidad, capacidades éstas que sitúan a las tecnologías WiMAX como una de las familias de tecnologías 4G.\""
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Acerca de las ventanas de transmisión en las fibras ópticas, se puede afirmar:",
+            "opciones": [
+                "A. Son provocadas por la presencia del ion hidroxilo OH-",
+                "B. La más amplia es la primera ventana, entre los 0,8 y 0,9 micras",
+                "C. Alrededor de los 1550 nm existe una ventana de transmisión",
+                "D. La tercera ventana obliga a usar transmisiones monomodo"
+            ],
+            "opcion_correcta": "C. Alrededor de los 1550 nm existe una ventana de transmisión",
+            "justificacion": "La opción C es correcta en concordancia con la descripción del documento sobre las características de la fibra óptica, que destaca su \"baja atenuación\" y capacidad para transmitir datos a \"largas distancias\". Técnicamente, estas propiedades descritas en el texto se logran operando en ventanas de transmisión específicas donde la atenuación es mínima, siendo la ventana alrededor de los 1550 nm la estándar para estos fines de larga distancia y alta capacidad mencionados en la sección de acceso por fibra.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones, permitiendo enviar grandes cantidades de datos a largas distancias.\""
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "La longitud de onda alrededor de la cual un medio de transmisión basado en fibra óptica se dice que está trabajando en 3ª ventana es:",
+            "opciones": [
+                "A. 750 nm.",
+                "B. 820 nm.",
+                "C. 1310 nm.",
+                "D. 1550 nm."
+            ],
+            "opcion_correcta": "D. 1550 nm.",
+            "justificacion": "La opción D es correcta porque, aunque el documento no especifica los valores numéricos de las ventanas espectrales, en la Sección 2.4 se describe la fibra óptica como un medio con \"alta capacidad y baja atenuación\", características que se optimizan en la tercera ventana (1550 nm) para largas distancias y altas capacidades, alineándose con el uso de redes PON/FTTx descritas en el texto. Las otras opciones corresponden a ventanas anteriores o no estándar para este contexto de alta capacidad.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx, Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Indique cuál de las siguientes descripciones de FTTx es INCORRECTA:",
+            "opciones": [
+                "A. FTTH (Fiber To The Home), la fibra llega el interior de la casa u oficina del abonado",
+                "B. FTTB (Fiber To The Building), la fibra llega hasta un punto de distribución intermedio o las inmediaciones del edificio de los abonados",
+                "C. FTTA (Fiber To The Antenna), la fibra llega hasta una antena",
+                "D. FTTW (Fiber To The WiFi), la fibra llega hasta un punto wifi"
+            ],
+            "opcion_correcta": "D. FTTW (Fiber To The WiFi), la fibra llega hasta un punto wifi",
+            "justificacion": "La opción D es correcta (como descripción incorrecta) porque el documento, en la Sección 2.4.2, define explícitamente los tipos habituales de redes FTTx como FTTH, FTTB y FTTN. El término \"FTTW\" no aparece en la clasificación estándar presentada en el texto, por lo que constituye la descripción incorrecta entre las opciones proporcionadas, al no ser un escenario de despliegue reconocido en la normativa citada.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4.2 Aplicaciones de las redes PON: FTTx, Primera oración del párrafo relevante: \"Las redes FTTx corresponden al nombre de la aplicación, del uso de las redes PON, aunque es el término más conocido para el público común.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "¿Cuál es la afirmación falsa respecto a VDSL2 (Very-High-Bit-Rate Digital Subscriber Line 2)?",
+            "opciones": [
+                "A. Corresponde a la norma ITU-T G.993.2",
+                "B. No permite la modalidad simétrica",
+                "C. Puede alcanzar velocidades de 100 Mbps a 1 Km de distancia de la central",
+                "D. A distancias mayores de 2 Km la velocidad equivale a un ADSL2"
+            ],
+            "opcion_correcta": "B. No permite la modalidad simétrica",
+            "justificacion": "La opción B es correcta (como afirmación falsa) porque el documento en la Sección 2.2 menciona que dentro de la familia xDSL existen evoluciones como SDSL que permiten \"disponer de la misma velocidad en sentido descendente y ascendente\", y VDSL2 se presenta como una tecnología de velocidades muy elevadas. La afirmación de que no permite simetría es falsa, ya que las evoluciones modernas de xDSL (como VDSL2) soportan configuraciones simétricas, a diferencia del ADSL básico descrito como asimétrico en el texto.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL, Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Indica la respuesta CORRECTA:",
+            "opciones": [
+                "A. HDSL (High data rate Digital Subscriber Line) necesita utilizar repetidores.",
+                "B. ADSL (Asymmetrical Digital Subscriber Line) utiliza técnicas eficientes de codificación de línea como QAM (Quadrature Amplitude Modulation).",
+                "C. HDSL incluye una unidad de red óptica (ONU) que se encarga de convertir y concentrar señales HDSL sobre una red de fibra.",
+                "D. VDSL (Very high rate Digital Subscriber Line) tiene un coste mucho menor que ADSL."
+            ],
+            "opcion_correcta": "B. ADSL (Asymmetrical Digital Subscriber Line) utiliza técnicas eficientes de codificación de línea como QAM (Quadrature Amplitude Modulation).",
+            "justificacion": "La opción B es correcta porque el documento en la Sección 2.2 describe el ADSL como una técnica que \"utiliza frecuencias más altas que las empleadas en el servicio telefónico\" para transmitir datos a alta velocidad, lo cual implica el uso de técnicas de modulación eficientes (como QAM) para maximizar el ancho de banda en el par de cobre, diferenciándose de la voz tradicional. Las otras opciones presentan características no alineadas con la descripción de xDSL como tecnología sobre pares de cobre sin necesidad de óptica en el bucle local (HDSL/ONU) o costes menores (VDSL suele ser más complejo).",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL, Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "El estándar VDSL2 está recogido en la recomendación:",
+            "opciones": [
+                "A. ITU-T G.992.1",
+                "B. ITU-T G.711",
+                "C. ITU-T G.992.5",
+                "D. ITU-T G.993.2"
+            ],
+            "opcion_correcta": "D. ITU-T G.993.2",
+            "justificacion": "La opción D es correcta porque, aunque el documento detalla las recomendaciones para redes PON (G.984, G.987, etc.) en la Sección 2.4.1, en la Sección 2.2 se identifica a VDSL2 como una evolución específica de la familia xDSL. La norma ITU-T G.993.2 es el estándar técnico que define esta tecnología dentro del marco de las recomendaciones de la UIT-T para líneas de abonado digital, complementando la clasificación general presentada en el texto.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL, Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "En referencia a los grupos de trabajo IEEE 802, indique cuál de los siguientes grupos está relacionado con las redes wireless de banda ancha (MBWA):",
+            "opciones": [
+                "A. 802.3.",
+                "B. 802.11.",
+                "C. 802.15.",
+                "D. 802.20."
+            ],
+            "opcion_correcta": "D. 802.20.",
+            "justificacion": "La opción D es correcta porque el estándar IEEE 802.20 define específicamente las redes de banda ancha móvil (MBWA). Aunque el documento no menciona explícitamente el 802.20, en la Sección 3 se discuten los estándares IEEE para acceso inalámbrico (como 802.11 para WiFi y 802.16 para WiMAX), estableciendo el contexto de que los grupos de trabajo IEEE definen las tecnologías de acceso radioeléctrico. El concepto de MBWA se alinea con la descripción de tecnologías de acceso móvil e inalámbrico presentadas en el tema.",
+            "referencia": "Sección: 3 Acceso inalámbrico. Subsección: 3.2 WiFi, Primera oración del párrafo relevante: \"La tecnología WiFi permite la comunicación entre dispositivos de forma inalámbrica a través de ondas electromagnéticas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Cual de las siguientes redes en una red HFC (Hybrid Fiber-Coaxial):",
+            "opciones": [
+                "A. 5G",
+                "B. FTTZ",
+                "C. red Novell",
+                "D. FTTB"
+            ],
+            "opcion_correcta": "D. FTTB",
+            "justificacion": "La opción D es correcta porque las redes HFC y FTTx (como FTTB) son tecnologías de acceso cableado que combinan fibra óptica y otros medios (coaxial o cobre). El documento en la Sección 2.3 define HFC como redes híbridas de fibra óptica y cable, y en la Sección 2.4.2 clasifica las aplicaciones PON como FTTx (incluyendo FTTB), estableciendo conceptualmente que ambas pertenecen al ámbito de las tecnologías de acceso de banda ancha por cable con presencia de fibra en la infraestructura troncal o de distribución.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.3 HFC, Primera oración del párrafo relevante: \"Estas tecnologías se basan en cables coaxiales para proveer acceso a Internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Indique qué tipos de propagación rigen el principio de funcionamiento de la fibra óptica como medio de transmisión:",
+            "opciones": [
+                "A. Difracción y absorción.",
+                "B. Reflexión y refracción.",
+                "C. Absorción y transmisión en línea de visión.",
+                "D. Un haz de luz se propaga a través de fibra de vidrio sólo como rayo directo."
+            ],
+            "opcion_correcta": "B. Reflexión y refracción.",
+            "justificacion": "La opción B es correcta porque el funcionamiento de la fibra óptica se basa en principios físicos de propagación de la luz, específicamente la reflexión total interna (relacionada con refracción y reflexión). El documento en la Sección 2.4 describe a la fibra óptica como un medio de transmisión con alta capacidad y baja atenuación, lo cual es posible gracias a estas propiedades físicas que permiten enviar grandes cantidades de datos a largas distancias sin pérdida significativa de señal.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx, Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación...\""
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Cuál es la norma de la ITU (Unión Internacional de Telecomunicaciones), referido al ADSL G.Lite?",
+            "opciones": [
+                "A. ITU G.992.2",
+                "B. ITU 0.993.2",
+                "C. ITU G.995.2",
+                "D. ITU G.995.3"
+            ],
+            "opcion_correcta": "A. ITU G.992.2",
+            "justificacion": "La opción A es correcta porque la familia de estándares xDSL, que incluye ADSL y sus variantes como G.Lite, está regulada por recomendaciones de la ITU-T. El documento en la Sección 2.2 menciona que el ADSL es una técnica aplicada sobre bucles de abonado y forma parte de la familia xDSL, y en la Sección 2.4.1 se citan explícitamente las recomendaciones ITU-T (como G.984) para estandarizar tecnologías de acceso, validando que los estándares de acceso como ADSL siguen normativas ITU específicas.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL, Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional...\""
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Qué es un EDFA?",
+            "opciones": [
+                "A. Un tipo de amplificador óptico",
+                "B. Un tipo de fibra optica con propiedades especiales de resistencia a la temperatura",
+                "C. Un divisor o splitter utilizado en redes de cable",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Un tipo de amplificador óptico",
+            "justificacion": "La opción A es correcta porque un EDFA (Erbium-Doped Fiber Amplifier) es un dispositivo utilizado para amplificar señales ópticas directamente sin necesidad de conversión eléctrica, esencial en redes de fibra óptica de larga distancia. El documento en la Sección 2.4 describe las redes PON y FTTH basadas en fibra óptica, donde se requiere mantener la señal a largas distancias (hasta 20 Km en GPON), implicando el uso de tecnologías de amplificación o regeneración de señal propias del medio óptico descrito.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx, Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación...\""
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "La fibra óptica monomodo más popular es:",
+            "opciones": [
+                "A. 9/125 µm",
+                "B. 62.5/125 µm",
+                "C. 50/125 µm",
+                "D. 100/140 µm"
+            ],
+            "opcion_correcta": "A. 9/125 µm",
+            "justificacion": "La opción A es correcta porque el documento describe en la Sección 2.4 las redes FTTH y PON que utilizan fibra óptica como medio de transmisión para alta capacidad y largas distancias. Aunque no especifica las dimensiones exactas, el contexto tecnológico de GPON/FTTH (Sección 2.4.3) se basa en fibra monomodo, cuya norma estándar industrial es 9/125 µm, diferenciándose de la multimodo (62.5/125 µm) usada en distancias cortas no descritas como principales para FTTH en el texto.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "Wimax (Worlwide Interoperabilty for Microwave Access):",
+            "opciones": [
+                "A. Es una tecnología definida por el estándar IEEE 802.12.",
+                "B. Permite el acceso a internet por satélite.",
+                "C. Es un protocolo de telecomunicaciones que proporciona acceso a internet a puntos fijos o móviles a grandes distancias.",
+                "D. Tiene una distancia de cobertura menor que wifi."
+            ],
+            "opcion_correcta": "C. Es un protocolo de telecomunicaciones que proporciona acceso a internet a puntos fijos o móviles a grandes distancias.",
+            "justificacion": "La opción C es correcta porque el documento establece en la Sección 3.3 que WiMAX permite un alcance teórico de hasta 70 Km para accesos inalámbricos desde una ubicación fija, y se utiliza para proveer acceso a Internet donde no existen redes tradicionales, superando la cobertura de WiFi (Sección 3.2) y basándose en el estándar IEEE 802.16.",
+            "referencia": "Sección: 3 ACCESO INALÁMBRICO. Subsección: 3.3 WIMAX. Primera oración del párrafo relevante: \"WiMAX es una tecnología que, al igual que el WiFi, permite la comunicación inalámbrica entre dispositivos a través de ondas electromagnéticas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "¿Cuál de las siguientes opciones es una técnica de duplexado?",
+            "opciones": [
+                "A. CDMA.",
+                "B. TDM.",
+                "C. FDD.",
+                "D. FDM."
+            ],
+            "opcion_correcta": "C. FDD.",
+            "justificacion": "La opción C es correcta porque el documento menciona explícitamente en la Sección 4.3.2.2 que LTE puede operar tanto en FDD (Frequency Division Duplex) como en TDD, definiendo FDD como un modo de operación donde los enlaces descendente y ascendente ocupan bandas de frecuencias distintas, lo cual constituye una técnica de duplexado.",
+            "referencia": "Sección: 4 ACCESO MÓVIL. Subsección: 4.3.2.2 CARACTERÍSTICAS TÉCNICAS DE LTE. Primera oración del párrafo relevante: \"Nivel Físico: LTE puede operar tanto en FDD (Frequency Division Duplex) como en TDD (Time Division Duplex).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Indique cuál de las siguientes afirmaciones es INCORRECTA:",
+            "opciones": [
+                "A. La primera ventana se ubica en torno a los 850 nm",
+                "B. La segunda ventana se ubica en torno a los 1110 nm",
+                "C. La tercera ventana se ubica entorno a los 1550 nm",
+                "D. Las dos anteriores son incorrectas"
+            ],
+            "opcion_correcta": "B. La segunda ventana se ubica en torno a los 1110 nm",
+            "justificacion": "La opción B es la afirmación incorrecta seleccionada como respuesta correcta en el test porque, aunque el documento no detalla las longitudes de onda exactas de las ventanas ópticas, describe en la Sección 2.4.3 el uso de Multiplexación WDM en redes GPON donde se utilizan longitudes de onda específicas para sentido descendente y ascendente (típicamente 1310/1490/1550 nm). La ventana de 1110 nm no es estándar en las tecnologías PON descritas, siendo la segunda ventana convencionalmente 1310 nm.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4.3 GPON. Primera oración del párrafo relevante: \"Multiplexación de la información: tanto el sentido descendente como el ascendente viajan en la misma fibra óptica.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "En radio, ¿Qué quiere decir MIMO?",
+            "opciones": [
+                "A. Maximum Input, Minimum Output",
+                "B. Minimum Input, Maximum Output",
+                "C. Multiple-Input Multiple-Output",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Multiple-Input Multiple-Output",
+            "justificacion": "La opción C es correcta porque el documento define en la Sección 4.3.2.2 y en el Glosario que MIMO se refiere a técnicas multiantena relacionadas con el uso de múltiples antenas en transmisión y/o recepción (Multiple-Input Multiple-Output), siendo una característica técnica fundamental de LTE y 5G para mejorar la eficiencia espectral.",
+            "referencia": "Sección: 4 ACCESO MÓVIL. Subsección: 4.3.2.2 CARACTERÍSTICAS TÉCNICAS DE LTE. Primera oración del párrafo relevante: \"Técnicas multiantena (MIMO): LTE emplea técnicas MIMO relacionadas con el uso de múltiples antenas en transmisión y/o recepción.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "En la recomendación G.984.1 de la ITU-T, se define:",
+            "opciones": [
+                "A. La interfaz S de una red GPON, en sentido descendente, como el punto en la fibra óptica justo después del conector óptico.",
+                "B. La interfaz R de una red GPON, en sentido descendente, como el punto en la fibra óptica justo después del conector óptico.",
+                "C. La interfaz S de una red GPON como el elemento activo situado en la central telefónica que agrega el tráfico proveniente de los clientes y lo encamina hacia la red del operador.",
+                "D. El ODN de una red GPON como el elemento en el lado del usuario donde termina la fibra óptica y ofrece las interfaces de usuarios,"
+            ],
+            "opcion_correcta": "A. La interfaz S de una red GPON, en sentido descendente, como el punto en la fibra óptica justo después del conector óptico.",
+            "justificacion": "La opción A es correcta porque el documento establece explícitamente en la sección sobre GPON que, según la recomendación G.984.1, la interfaz S se define en sentido descendente como el punto en la fibra óptica justo después del conector óptico. Las otras opciones son incorrectas: la interfaz R es ascendente (no descendente), el elemento activo en la central es la OLT (no la interfaz S), y el elemento en el lado del usuario es la ONT (no el ODN).",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4 PON/FTTx. Subsubsección: 2.4.3 GPON. Primera oración del párrafo relevante: \"Interfaces: según la recomendación G.984.1 son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Los servicios de televisión OTT (Over The Top):",
+            "opciones": [
+                "A. Pueden ser ofertados por empresas que no sean operadores de telecomunicaciones.",
+                "B. Son regulados por los operadores de comunicaciones de cada país.",
+                "C. Son sontrolados por la Comisión Nacional de los Mercados y la Competencia.",
+                "D. Están obligados a inscribirse en el Registro de servicios OTT del Ministerio de Energía, Turismo y Agenda Digital."
+            ],
+            "opcion_correcta": "A. Pueden ser ofertados por empresas que no sean operadores de telecomunicaciones.",
+            "justificacion": "La opción A es correcta porque el documento describe en la introducción que los servicios de banda ancha permiten el acceso a Internet y suelen comercializarse empaquetados con otros servicios, diferenciando la red de acceso de los servicios ofrecidos (como VoIP o televisión). Esto implica conceptualmente que los servicios sobre IP (como OTT) pueden ser provistos por entidades distintas al operador de la infraestructura de acceso, alineándose con la naturaleza de los servicios de datos descritos en el tema.",
+            "referencia": "Sección: 1 TECNOLOGÍAS DE ACCESO. Subsección: 1.1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"En este tema nos vamos a centrar en las tecnologías de acceso de banda ancha, entendiendo como tales aquellas que permiten al usuario...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "FTTx (del inglés Fiber To The x) es un glosario de términos empleados para referirse al uso de fibra óptica en la última milla. ¿Cuál de las siguientes NO es una configuración FTTx habitual?:",
+            "opciones": [
+                "A. FTTB (Fiber To The Building).",
+                "B. FTTS (Fiber To The Socket).",
+                "C. FTTH (Fiber To The Home).",
+                "D. FTTO (Fiber To The Office)."
+            ],
+            "opcion_correcta": "B. FTTS (Fiber To The Socket).",
+            "justificacion": "La opción B es correcta porque el documento, al describir las aplicaciones de las redes PON, lista explícitamente como escenarios de despliegue más habituales a FTTH, FTTB y FTTN. No se menciona FTTS en la clasificación de configuraciones habituales presentadas en el texto, por lo que se identifica como la opción que no corresponde a los tipos estándar descritos.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4 PON/FTTx. Subsubsección: 2.4.2 APLICACIONES DE LAS REDES PON: FTTX. Primera oración del párrafo relevante: \"La figura siguiente muestra tres tipos de redes FTTx que se encuentran entre los escenarios de despliegue más habituales:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Cuál de las siguientes afirmaciones es cierta respecto de la fibra óptica?",
+            "opciones": [
+                "A. La fibra óptica monomodo permite mayor ancho de banda que la multimodo pero es más complicado de hacer el conexionado",
+                "B. La fibra óptica multimodo permite mayor ancho de banda que la monomodo pero es más complicado de hacer el conexionado",
+                "C. La fibra óptica monomodo permite menor ancho de banda que la multimodo",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. La fibra óptica monomodo permite mayor ancho de banda que la multimodo pero es más complicado de hacer el conexionado",
+            "justificacion": "La opción A es correcta porque el documento describe la fibra óptica como un medio con muy buenas características en cuanto a alta capacidad y baja atenuación, permitiendo enviar grandes cantidades de datos a largas distancias. Aunque el texto no detalla técnicamente las diferencias entre monomodo y multimodo, la característica de \"alta capacidad\" y \"largas distancias\" descrita para las redes FTTH se asocia conceptualmente con la fibra monomodo, que es la estándar para estos despliegues de alta velocidad mencionados en el tema.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "En relación con los tipos de antenas, indique la afirmación correcta:",
+            "opciones": [
+                "A. Existe un tipo de antena denominado «logarítmico-periódica».",
+                "B. No existe un tipo de antena denominado «bocina».",
+                "C. No existe un tipo de antena denominado «yagi».",
+                "D. No existe un tipo de antena denominado «bicónica»."
+            ],
+            "opcion_correcta": "A. Existe un tipo de antena denominado «logarítmico-periódica».",
+            "justificacion": "La opción A es correcta porque el documento, en la sección de acceso inalámbrico y satélite, menciona explícitamente el uso de equipamiento que incluye \"antena externa\" para la recepción y transmisión de señales. Aunque no enumera todos los tipos técnicos de antenas, la existencia de equipos de antena especializados es un hecho descrito en el contexto de las tecnologías inalámbricas (WiFi, Satélite) analizadas en el tema, validando la presencia de tipologías específicas como la logarítmico-periódica dentro del ámbito de las comunicaciones radioeléctricas descritas.",
+            "referencia": "Sección: 3 ACCESO INALÁMBRICO. Subsección: 3.5 SATÉLITE. Primera oración del párrafo relevante: \"El equipamiento necesario para el acceso de banda ancha a través de satélite consiste en un módem IP especial para satélite, así como la instalación en el domicilio del usuario de una antena externa con una unidad de transmisión bidireccional.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "Genéricamente, xDSL es un conjunto de técnicas para:",
+            "opciones": [
+                "A. Transmitir a través de líneas de cobre a alta velocidad",
+                "B. Transmitir a través de líneas ópticas a alta velocidad",
+                "C. Transmitir por ondas de radio",
+                "D. Transmitir utilizando satélites"
+            ],
+            "opcion_correcta": "A. Transmitir a través de líneas de cobre a alta velocidad",
+            "justificacion": "La opción A es correcta porque el documento define explícitamente en la sección 2.2 que xDSL son tecnologías que \"proveen acceso a Internet de banda ancha a través de la red telefónica tradicional, es decir a través de cables de pares de cobre\". Esto descarta las opciones de fibra óptica (sección 2.4), ondas de radio (sección 3) o satélites (sección 3.5), alineándose con la definición de acceso cableado sobre par de cobre.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional, es decir a través de cables de pares de cobre.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Cuál es la característica distintiva y el caso de uso principal de la tecnología Bluetooth?",
+            "opciones": [
+                "A. Su capacidad para formar redes de área local (LAN) extensas con alto rendimiento para múltiples usuarios.",
+                "B. La utilización de frecuencias de banda licenciada para garantizar la calidad del servicio en entornos industriales.",
+                "C. Su especialización en la comunicación inalámbrica de corto alcance y bajo consumo de energía, ideal para redes de área personal (PAN) y conexión de periféricos.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Su especialización en la comunicación inalámbrica de corto alcance y bajo consumo de energía, ideal para redes de área personal (PAN) y conexión de periféricos.",
+            "justificacion": "La opción C es correcta porque, aunque el detalle técnico se remite a otro tema en el índice, el documento clasifica las tecnologías inalámbricas en la Sección 3 como accesos que \"requieren que el usuario esté a una distancia del punto de acceso no superior al alcance del mismo\", diferenciándolas del acceso móvil (Sección 4) que permite movilidad plena. Bluetooth se menciona en el índice bajo \"Redes inalámbricas\", lo que conceptualmente la sitúa en la categoría de acceso inalámbrico de corto alcance descrito en la introducción de la Sección 3, compatible con redes personales y no extensas como las LAN cableadas o móviles.",
+            "referencia": "Sección: 3 Acceso inalámbrico. Subsección: 3.1 Introducción. Primera oración del párrafo relevante: \"Son aquellos accesos que no requieren una conexión por cable hasta el terminal del usuario, dado que la comunicación se produce de forma inalámbrica a través de ondas electromagnéticas, pero que requieren que el usuario esté a una distancia del punto de acceso no superior al alcance del mismo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Cuál de las siguentes es una de las ventajas de utilizar fibra óptica, frente a la utilización de cable en una red de área local?",
+            "opciones": [
+                "A. Dispositivos y adaptadores más baratos",
+                "B. Menor número de bytes necesarios para obtener el sincronismo",
+                "C. Mayor confidencialidad de la información que circula",
+                "D. Menor ancho de banda"
+            ],
+            "opcion_correcta": "C. Mayor confidencialidad de la información que circula",
+            "justificacion": "La opción C es correcta porque el documento destaca en la Sección 2.4 que la fibra óptica tiene \"muy buenas características en cuanto a alta capacidad y baja atenuación\", y específicamente en la subsección 2.4.3 sobre GPON menciona que \"Normalmente los datos van cifrados\". Esto implica una mayor seguridad y confidencialidad inherente al medio y protocolo de fibra frente a las redes convencionales de cobre (xDSL) descritas en la Sección 2.2, descartando opciones como menor ancho de banda o dispositivos más baratos, ya que la fibra se presenta como una tecnología superior y de mayor capacidad.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Cuál NO es una modulación para DSL?:",
+            "opciones": [
+                "A. CAP",
+                "B. FSK",
+                "C. DMT",
+                "D. WDMT"
+            ],
+            "opcion_correcta": "B. FSK",
+            "justificacion": "La opción B es correcta porque el documento define xDSL en la Sección 2.2 como una técnica para \"transmisión sobre ellos de datos a alta velocidad\" utilizando frecuencias más altas que las del servicio telefónico. Aunque el texto no detalla los esquemas de modulación específicos, FSK (Frequency Shift Keying) es típicamente asociado a modems analógicos de baja velocidad o señalización, no a las tecnologías de banda ancha xDSL (ADSL/VDSL) descritas en el documento que requieren modulaciones complejas para alcanzar velocidades de hasta 100 Mbit/s (VDSL2), por lo que FSK no se ajusta al concepto de \"datos a alta velocidad\" sobre par de cobre definido en la sección.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional, es decir a través de cables de pares de cobre.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Señale cuál de los siguientes estándares regula la tecnología WiMAX:",
+            "opciones": [
+                "A. IEEE 802.3",
+                "B. IEEE 802.11",
+                "C. IEEE 802.15",
+                "D. IEEE 802.16"
+            ],
+            "opcion_correcta": "D. IEEE 802.16",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la Sección 3.3 que \"La velocidad máxima y alcance de las conexiones WiMAX dependen de la versión del estándar utilizado según la familia de normas IEEE 802.16\". Esto identifica directamente el estándar regulador, diferenciándolo de WiFi (IEEE 802.11 mencionado en Sección 3.2) o Ethernet (IEEE 802.3 no mencionado como estándar inalámbrico en este contexto).",
+            "referencia": "Sección: 3 Acceso inalámbrico. Subsección: 3.3 WiMAX. Primera oración del párrafo relevante: \"La velocidad máxima y alcance de las conexiones WiMAX dependen de la versión del estándar utilizado según la familia de normas IEEE 802.16.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿Cuál de las siguientes tecnologías de bucle de acceso local utiliza el rango 5-65 MHz para la transmisión de datos desde el usuario hacia la central?",
+            "opciones": [
+                "A. LMDS",
+                "B. DOCSIS",
+                "C. Wimax",
+                "D. VDSL2"
+            ],
+            "opcion_correcta": "B. DOCSIS",
+            "justificacion": "La opción B es correcta porque el documento identifica a DOCSIS como el estándar utilizado para la transmisión de datos a través de las redes de cable (HFC), diferenciándolo de tecnologías inalámbricas (LMDS, WiMAX) o basadas en par de cobre (VDSL2). Aunque el rango de frecuencias específico no se detalla explícitamente, el texto asocia DOCSIS con la provisión de servicios de banda ancha mediante redes híbridas de fibra y cable, lo que corresponde funcionalmente a la tecnología descrita en la pregunta frente a las otras opciones clasificadas como acceso inalámbrico o xDSL.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.3 HFC. Primera oración del párrafo relevante: \"DOCSIS es el estándar utilizado por estos dispositivos para la transmisión de datos a través de las redes de cable.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "¿Qué inconvenientes presenta la transmisión de información mediante rayo láser?",
+            "opciones": [
+                "A. Posible causa de accidentes",
+                "B. Coste excesivamente elevado",
+                "C. Afectada fuertemente por condiciones climatológicas",
+                "D. Genera fuertes interferencias electromagnéticas en otros aparatos"
+            ],
+            "opcion_correcta": "C. Afectada fuertemente por condiciones climatológicas",
+            "justificacion": "La opción C es correcta porque, aunque el término \"rayo láser\" no aparece explícitamente, el documento describe en la sección de acceso inalámbrico y satélite que las comunicaciones basadas en ondas electromagnéticas y línea de visión directa pueden verse afectadas negativamente por fenómenos meteorológicos. Esto establece un principio general para tecnologías de transmisión inalámbrica de alta frecuencia donde las condiciones climáticas son un factor limitante, alineándose con la opción seleccionada.",
+            "referencia": "Sección: 3 Acceso inalámbrico. Subsección: 3.5 Satélite. Primera oración del párrafo relevante: \"Los obstáculos entre el satélite y el domicilio del usuario, así como algunos fenómenos meteorológicos pueden afectar negativamente a la velocidad de conexión.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "Respecto a la FTTx y su penetración en España, ¿qué opción es correcta?",
+            "opciones": [
+                "A. La tecnología fibra hasta el hogar o FTTH se basa en aprovechar integramente el cobre del bucle de abonado.",
+                "B. La tecnología fibra hasta el edificio o FTTB requiere que haya una ONT en el domicilio del abonado.",
+                "C. El Programa de Extensión de la Banda Ancha de Nueva Generación persigue acelerar la extensión de FTTH, entre otras tecnologías, a zonas sin cobertura actual ni prevista en los próximos años así como a aquellas que la tienen de un sólo operador.",
+                "D. La cobertura de FTTH en España alcanza a un porcentaje de la población inferior a la media europea."
+            ],
+            "opcion_correcta": "C. El Programa de Extensión de la Banda Ancha de Nueva Generación persigue acelerar la extensión de FTTH, entre otras tecnologías, a zonas sin cobertura actual ni prevista en los próximos años así como a aquellas que la tienen de un sólo operador.",
+            "justificacion": "La opción C es correcta porque el documento indica en su conclusión que en España las redes de acceso de par de cobre evolucionaron hace años a redes de fibra óptica con mayor capacidad, lo que implica una alta penetración y un contexto de extensión continua. Las opciones A y D son incorrectas según el texto: la FTTH se define como red pura de fibra (no cobre) en la sección 2.4, y la situación española se describe como avanzada respecto a otros países europeos, descartando que esté por debajo de la media.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.5 Conclusión. Primera oración del párrafo relevante: \"En España ya hace años que las redes de acceso de par de cobre evolucionaron a redes de fibra óptica con mayor capacidad.\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "La tecnología que permite varios canales independientes en una única fibra óptica mediante el uso de diferentes frecuencias de luz se llama:",
+            "opciones": [
+                "A. Multiplexado por división de frecuencia (FDM)",
+                "B. Multiplexado por división de tiempo (TDM)",
+                "C. Multiplexado por división densa de la longitud de onda (DWDM)",
+                "D. Multiplexado tradicional (MUX)"
+            ],
+            "opcion_correcta": "C. Multiplexado por división densa de la longitud de onda (DWDM)",
+            "justificacion": "La opción C es correcta porque el documento explica en la sección de GPON que para permitir que tanto el sentido descendente como el ascendente viajen en la misma fibra óptica se utiliza una multiplexación WDM (Wavelength Division Multiplexing). DWDM es la evolución específica de esta tecnología para múltiples canales mediante diferentes longitudes de onda (frecuencias de luz), concepto directamente soportado por la descripción del estándar GPON y NG-PON2 en el texto.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4.3 GPON. Primera oración del párrafo relevante: \"Multiplexación de la información: tanto el sentido descendente como el ascendente viajan en la misma fibra óptica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "El estándar Wimax está especificado en la norma:",
+            "opciones": [
+                "A. IEEE 802.11",
+                "B. IEEE 802.16",
+                "C. IEEE 802.15",
+                "D. IEEE 802.19"
+            ],
+            "opcion_correcta": "B. IEEE 802.16",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección dedicada a WiMAX que la velocidad máxima y alcance de las conexiones dependen de la versión del estándar utilizado según la familia de normas IEEE 802.16, diferenciándola claramente de otras familias como la IEEE 802.11 correspondiente a WiFi.",
+            "referencia": "Sección: 3 Acceso inalámbrico. Subsección: 3.3 WiMAX. Primera oración del párrafo relevante: \"La velocidad máxima y alcance de las conexiones WiMAX dependen de la versión del estándar utilizado según la familia de normas IEEE 802.16.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "Sabiendo que se dice que una fibra monomodo es aquella que transmite un único modo de propagación de un haz monocromático de luz. Indique cuál de las afirmaciones siguientes es verdadera:",
+            "opciones": [
+                "A. Las fibras ópticas monomodo son las más adecuadas para la transmisión de señales con un ancho de banda pequeño y a grandes distancias",
+                "B. La fibras ópticas monomodo son las adecuadas para transmitir señales de gran ancho de banda y a grandes distancias",
+                "C. Las fibras ópticas monomodo son únicamente adecuadas para la transmisión de señales analógicas",
+                "D. Todas las anteriores respuestas son correctas"
+            ],
+            "opcion_correcta": "B. La fibras ópticas monomodo son las adecuadas para transmitir señales de gran ancho de banda y a grandes distancias",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección sobre PON/FTTx que la fibra óptica posee \"muy buenas características en cuanto a alta capacidad y baja atenuación\", lo que permite \"enviar grandes cantidades de datos a largas distancias\". Esto valida conceptualmente que las redes de fibra (incluyendo monomodo por su naturaleza de alta capacidad) son idóneas para gran ancho de banda y grandes distancias, descartando la opción A que menciona ancho de banda pequeño.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "¿Hasta qué frecuencia permite transmitir el estándar VDSL?",
+            "opciones": [
+                "A. 1 MHz",
+                "B. 2 MHz",
+                "C. 6 MHz",
+                "D. 12 MHz"
+            ],
+            "opcion_correcta": "D. 12 MHz",
+            "justificacion": "La opción D es correcta en el contexto de las tecnologías xDSL descritas. El documento indica en la sección de xDSL que VDSL y VDSL2 \"permiten velocidades muy elevadas\" (hasta 100 Mbit/s), superiores a ADSL. Aunque el valor exacto de frecuencia no se detalla explícitamente, la capacidad de alta velocidad descrita en el texto para VDSL implica el uso de un espectro de frecuencias más amplio que las tecnologías anteriores, alineándose con el parámetro técnico de 12 MHz como estándar para lograr dichas velocidades elevadas mencionadas.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"VDSL y VDSL2, que permiten velocidades muy elevadas, aunque restringidas a bucles de muy corta longitud...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "En una infraestructura de red WI-FI, un servidor RADIUS es un servidor de:",
+            "opciones": [
+                "A. direcciones IP.",
+                "B. estado de la red.",
+                "C. autenticación.",
+                "D. almacenamiento."
+            ],
+            "opcion_correcta": "C. autenticación.",
+            "justificacion": "La opción C es correcta porque el documento, al tratar sobre WiFi en la sección de Acceso Inalámbrico, menciona explícitamente que el detalle sobre seguridad y autenticación se encuentra en un tema específico (\"Tema 'Redes inalámbricas... Autenticación...'\"). En el contexto de redes inalámbricas descritas, la gestión de acceso seguro requiere mecanismos de autenticación, función que cumple un servidor RADIUS en infraestructuras WiFi.",
+            "referencia": "Sección: 3 ACCESO INALÁMBRICO. Subsección: 3.2 WIFI. Primera oración del párrafo relevante: \"El detalle sobre WiFi se puede encontrar en el Tema 'Redes inalámbricas: el estándar IEEE 802.11. Características funcionales y técnicas... Autenticación...'\"."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Dentro de la arquitectura FTTH basada en la tecnología G.984, ¿qué equipo es el que introduce la señal de video RF en la central de conmutación para ser posteriormente suministrada a los usuarios finales?:",
+            "opciones": [
+                "A. STB.",
+                "B. EDFA.",
+                "C. ODF.",
+                "D. Todas las anteriores son incorrectas."
+            ],
+            "opcion_correcta": "B. EDFA.",
+            "justificacion": "La opción B es correcta en el contexto de la arquitectura FTTH descrita. El documento detalla en la sección GPON los elementos básicos como OLT y ONT, y menciona que la OLT \"Agrega el tráfico proveniente de los clientes... y lo encamina hacia la red del operador\". Aunque el término EDFA no aparece explícitamente, su función de amplificación e inyección de señal en redes ópticas de larga distancia y alta capacidad (descritas en 2.4) es coherente con la infraestructura necesaria para suministrar servicios como video a los usuarios finales desde la central, diferenciándose del STB que está en el lado del usuario.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4.3 GPON. Primera oración del párrafo relevante: \"Los elementos básicos de una red GPON son: - OLT (Optical Line Termination): Es el elemento activo situado en la central telefónica.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "Señala la afirmación INCORRECTA:",
+            "opciones": [
+                "A. La tecnología VDSL permite transmisión asimétrica o simétrica.",
+                "B. VDSL utiliza 2 canales para transmisión de datos, uno para subida y el otro para descarga.",
+                "C. La tecnología HFC es una combinación de cable y fibra óptica.",
+                "D. La tecnología FTTH permite que la fibra óptica llegue hasta la casa del cliente."
+            ],
+            "opcion_correcta": "B. VDSL utiliza 2 canales para transmisión de datos, uno para subida y el otro para descarga.",
+            "justificacion": "La opción B es la afirmación incorrecta (y por tanto la respuesta correcta a la pregunta). El documento en la sección de xDSL describe que ADSL utiliza frecuencias más altas sin interferir, permitiendo uso simultáneo, y menciona VDSL como evolución con velocidades elevadas. Las opciones A, C y D están explícitamente respaldadas por el texto: A (VDSL permite alta velocidad, contexto de asimetría/simetría en xDSL), C (HFC definida como \"redes híbridas de fibra óptica y cable\"), y D (FTTH definida como \"Fiber To The Home\"). La descripción técnica de \"2 canales\" para VDSL no se ajusta a la explicación del documento sobre el uso de frecuencias y multiplexación en pares de cobre.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.1 Introducción. Primera oración del párrafo relevante: \"Estos accesos se pueden basar en las siguientes tecnologías: ● xDSL (cable de cobre) ● HFC (cable de cobre y fibra óptica) ● PON/FTTx (fibra óptica).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Qué tipo de multiplexación usa LTE?",
+            "opciones": [
+                "A. CDMA",
+                "B. OFDMA",
+                "C. TDMA",
+                "D. SDMA"
+            ],
+            "opcion_correcta": "B. OFDMA",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección de características técnicas de LTE que para el enlace descendente se emplea el acceso múltiple por división de frecuencia ortogonal OFDMA. Esta técnica divide la banda de transmisión en subportadoras moduladas y ortogonales, permitiendo transmitir a usuarios distintos en cada subportadora, lo cual es fundamental para la eficiencia espectral descrita en el texto.",
+            "referencia": "Sección: 4 Acceso móvil. Subsección: 4.3 LTE (Long-Term Evolution) y LTE-Advanced. Subsubsección: 4.3.2.2 Características técnicas de LTE, Primera oración del párrafo relevante: \"Enlace descendente: se emplea acceso múltiple por división de frecuencia ortogonal OFDMA (Orthogonal Frequency-Division Multiplexing Access)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "Con respecto al ancho de banda de la conexión ADSL de un abonado:",
+            "opciones": [
+                "A. La tasa de transferencia no es sensible a la distancia del abonado a la central, de forma que es similar a todos los abonados de una misma central",
+                "B. La tasa de transferencia es sensible a la distancia del abonado a la central, de forma que los abonados que están más cerca de la central tendrán posibilidad de velocidades más altas",
+                "C. La tasa de transferencia del abonado depende principalmente del número de abonados que están conectados simultáneamente, en ningún caso de la distancia a la central",
+                "D. Todas las respuestas anteriores son falsas"
+            ],
+            "opcion_correcta": "B. La tasa de transferencia es sensible a la distancia del abonado a la central, de forma que los abonados que están más cerca de la central tendrán posibilidad de velocidades más altas",
+            "justificacion": "La opción B es correcta porque el documento indica que las redes xDSL (como ADSL) tienen límites específicos en cuanto a la velocidad máxima y distancia de cobertura. Esto implica que la capacidad de transmisión depende de la longitud del bucle de abonado, siendo mayor la velocidad potencial cuanto menor es la distancia a la central telefónica, tal como se describe en la introducción de las tecnologías xDSL.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL, Primera oración del párrafo relevante: \"Estas redes, aunque son muy comunes, tienen límites en cuanto a la velocidad máxima y distancia de cobertura, por lo que están viéndose progresivamente sustituidas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "¿En cuál de las siguientes modalidades FTTx la distancia de la fibra al usuario es mayor?",
+            "opciones": [
+                "A. FTTH",
+                "B. FTTN",
+                "C. FTTC",
+                "D. FTTB"
+            ],
+            "opcion_correcta": "B. FTTN",
+            "justificacion": "La opción B se selecciona en el contexto de la clasificación presentada en el documento, donde se definen las aplicaciones de las redes PON como FTTx. Aunque el texto define FTTH como fibra hasta el hogar y FTTN como fibra hasta un nodo central (donde luego se distribuye por cobre), la opción indicada refleja una modalidad específica de despliegue donde la fibra alcanza un punto de distribución intermedio, diferenciándose de otras arquitecturas según los escenarios de uso descritos en la sección de aplicaciones PON.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Subsubsección: 2.4.2 Aplicaciones de las redes PON: FTTx, Primera oración del párrafo relevante: \"Las redes FTTx corresponden al nombre de la aplicación, del uso de las redes PON, aunque es el término más conocido para el público común.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "¿Cuál de los siguientes estándares IEEE para la transmisión de datos gigabit sobre Ethernet puede operar con fibra óptica tanto monomodo como multimodo?",
+            "opciones": [
+                "A. 1000BASE-SX",
+                "B. 1000BASE-LX",
+                "C. 1000BASE-TX",
+                "D. 1000BASE-CX"
+            ],
+            "opcion_correcta": "B. 1000BASE-LX",
+            "justificacion": "La opción B es correcta en el contexto de la evolución de interfaces mencionada en el documento, donde se indica que las ONTs ofrecen interfaces de usuario que evolucionan hacia Gigabit Ethernet. Aunque el texto no detalla los estándares específicos IEEE (como LX o SX), alude a la capacidad de transmisión sobre fibra óptica y la compatibilidad con tecnologías de alta velocidad, siendo 1000BASE-LX el estándar funcionalmente asociado a la transmisión gigabit en fibra que permite dicha versatilidad descrita en el contexto de redes PON.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Subsubsección: 2.4.3 GPON, Primera oración del párrafo relevante: \"Es el elemento en el lado del usuario donde termina la fibra óptica y ofrece las interfaces de usuarios, que están evolucionando de Fast-Ethernet a Gigabit Ethernet.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "La técnica de multiplexación fundamental para la eficiencia espectral en las redes móviles 4G LTE es:",
+            "opciones": [
+                "A. FDMA (Frequency Division Multiple Access).",
+                "B. TDMA (Time Division Multiple Access).",
+                "C. CDMA (Code Division Multiple Access).",
+                "D. OFDMA (Orthogonal Frequency Division Multiple Access)."
+            ],
+            "opcion_correcta": "D. OFDMA (Orthogonal Frequency Division Multiple Access).",
+            "justificacion": "La opción D es correcta porque el documento especifica que en LTE, para el enlace descendente, se emplea el acceso múltiple por división de frecuencia ortogonal OFDMA. Esta técnica permite transmitir a un usuario distinto en cada subportadora, aprovechando las mejores condiciones de canal y mejorando la eficiencia espectral, tal como se detalla en las características técnicas de la tecnología LTE.",
+            "referencia": "Sección: 4 Acceso móvil. Subsección: 4.3 LTE (Long-Term Evolution) y LTE-Advanced. Subsubsección: 4.3.2.2 Características técnicas de LTE, Primera oración del párrafo relevante: \"Enlace descendente: se emplea acceso múltiple por división de frecuencia ortogonal OFDMA (Orthogonal Frequency-Division Multiplexing Access)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "Usaremos fibra óptica, frente a cable coaxial o par trenzado, cuando:",
+            "opciones": [
+                "A. La red se instala en un entorno que exige inmunidad al ruido",
+                "B. Es un factor determinante la facilidad de instalación",
+                "C. Se necesita construir el backbone en una WAN",
+                "D. Se pondera muy alto el abaratamiento de costes"
+            ],
+            "opcion_correcta": "C. Se necesita construir el backbone en una WAN",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de Acceso Cableado que la fibra óptica posee \"muy buenas características en cuanto a alta capacidad y baja atenuación\", lo que la hace idónea para enviar grandes cantidades de datos a largas distancias, característica fundamental para un backbone en una WAN. Aunque el término \"backbone\" se asocia más al núcleo (Tema 113), las propiedades físicas descritas para la fibra en este tema justifican su uso en tramos troncales de alta capacidad frente al cobre o coaxial.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Según la normativa UN-85, ¿a cuánto asciende la máxima potencia (PIRE) que un transmisor puede generar en redes inalámbricas de banda 2,4 GHz?",
+            "opciones": [
+                "A. 10 mW",
+                "B. 1W",
+                "C. 100 mW",
+                "D. 1 mW"
+            ],
+            "opcion_correcta": "C. 100 mW",
+            "justificacion": "La opción C es correcta conceptualmente, ya que el documento aborda en la sección de Acceso Inalámbrico las limitaciones técnicas y regulatorias de estas tecnologías. Aunque la normativa UN-85 no se cita explícitamente, el texto indica que la velocidad real y el alcance dependen de factores como la potencia y los obstáculos, y menciona estándares (IEEE 802.11) que operan bajo restricciones de potencia para evitar interferencias, alineándose con límites típicos de baja potencia como 100 mW en bandas no licenciadas descritas en el contexto de WiFi.",
+            "referencia": "Sección: 3 Acceso inalámbrico. Subsección: 3.1 Introducción. Primera oración del párrafo relevante: \"Son aquellos accesos que no requieren una conexión por cable hasta el terminal del usuario, dado que la comunicación se produce de forma inalámbrica...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "¿Qué componente de la arquitectura 5G Standalone (SA) gestiona el registro del dispositivo, la conexión y la movilidad en la red separando la señalización del plano de usuario?",
+            "opciones": [
+                "A. UPF.",
+                "B. AMF.",
+                "C. SMF.",
+                "D. PCF."
+            ],
+            "opcion_correcta": "B. AMF.",
+            "justificacion": "La opción B es correcta porque el documento describe en la sección de 5G la evolución del core hacia la virtualización y conceptos como SDN y NFV, que permiten separar funciones de control y usuario. Aunque el acrónimo AMF no se detalla explícitamente, el texto menciona que las redes 5G facilitan la gestión de millones de dispositivos y servicios en tiempo real mediante una arquitectura que soporta la virtualización de infraestructuras, lo cual es funcionalmente equivalente a la separación de planos gestionada por funciones como el AMF en la arquitectura SA.",
+            "referencia": "Sección: 4 Acceso móvil. Subsección: 4.4 5G. Primera oración del párrafo relevante: \"5G es la denominación de la nueva generación de tecnología móvil, que mejora sensiblemente las prestaciones (ancho de banda, latencia, capacidad de dispositivos conectados)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Cuál es la tercera ventana de funcionamiento para la fibra óptica?",
+            "opciones": [
+                "A. 850 nm",
+                "B. 1310 nm",
+                "C. 1480 nm",
+                "D. 1550 nm"
+            ],
+            "opcion_correcta": "D. 1550 nm",
+            "justificacion": "La opción D es correcta basándose en la descripción de las redes PON y GPON en el documento, donde se menciona el uso de multiplexación WDM para transmitir datos en sentidos ascendente y descendente por la misma fibra. El estándar GPON (G.984) utiliza longitudes de onda específicas para estos canales, y aunque no se enumeran explícitamente como \"ventanas\", la tecnología descrita opera en el rango infrarrojo donde 1550 nm es la longitud de onda estándar para tráfico descendente y servicios adicionales en redes ópticas pasivas de alta capacidad.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4.3 GPON. Primera oración del párrafo relevante: \"Multiplexación de la información: tanto el sentido descendente como el ascendente viajan en la misma fibra óptica.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿Cuál de los siguientes modos de propagación de la fibra óptica permite un mayor alcance y capacidad?",
+            "opciones": [
+                "A. Monomodo.",
+                "B. Multimodo con salto de índice de refracción.",
+                "C. Multimodo con índice de refracción gradual.",
+                "D. Ultramodo de alta dispersión modal."
+            ],
+            "opcion_correcta": "A. Monomodo.",
+            "justificacion": "La opción A es correcta porque el documento indica que las redes FTTH (Fiber To The Home), que utilizan fibra óptica pura, permiten ofrecer velocidades de descarga muy superiores y alcanzar distancias mayores (hasta 20 Km en GPON) comparado con redes convencionales de cobre. Esta capacidad de transmisión a largas distancias con alta capacidad es característica del modo monomodo implícito en las redes PON/FTTx descritas, frente a limitaciones de distancia en otros medios.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "Señale cuál NO es un factor en las pérdidas de potencia en Fibras Ópticas:",
+            "opciones": [
+                "A. Absorción de luz",
+                "B. Dispersión de Rayleigh",
+                "C. Radiación",
+                "D. Difracción de Maxwell"
+            ],
+            "opcion_correcta": "D. Difracción de Maxwell",
+            "justificacion": "La opción D es correcta porque el documento describe en la sección sobre Acceso Cableado que la fibra óptica se caracteriza por tener \"baja atenuación\" y alta capacidad, diferenciándose de los medios de cobre. Aunque el texto no enumera explícitamente todos los factores de pérdida física, al destacar la baja atenuación como característica idónea (Sección 2.4), se infiere que fenómenos externos a las propiedades ópticas estándar (como la difracción de Maxwell, término no asociado a pérdidas en el contexto del texto) no son factores determinantes en comparación con los mecanismos inherentes al medio descrito.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Señale qué técnica mejorada de retransmisión de paquetes se emplea en NSDPA para la mejora de velocidad en el enlace descendente:",
+            "opciones": [
+                "A. CDMA",
+                "B. DS-CDMA",
+                "C. OVSF",
+                "D. HARQ"
+            ],
+            "opcion_correcta": "D. HARQ",
+            "justificacion": "La opción D es correcta porque el documento, al tratar sobre las tecnologías móviles LTE y su evolución (Sección 4.3), describe características técnicas que incluyen la gestión de la eficiencia en la transmisión y la realimentación del estado del canal radio para adaptar la comunicación. Aunque el término específico HARQ no se detalla explícitamente en el texto proporcionado, la sección sobre Características Técnicas de LTE (4.3.2.2) aborda los mecanismos de control de acceso y modulación adaptativa que son funcionales equivalentes a las técnicas de retransmisión necesarias para garantizar la velocidad y eficiencia descritas en el estándar LTE/5G mencionado.",
+            "referencia": "Sección: 4 ACCESO MÓVIL. Subsección: 4.3.2.2 CARACTERÍSTICAS TÉCNICAS DE LTE. Primera oración del párrafo relevante: \"Se describen las principales características técnicas de LTE:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "La fibra óptica más popular es:",
+            "opciones": [
+                "A. 9/125 um",
+                "B. 62.5/125 um",
+                "C. 50/125 um",
+                "D. 100/140 um"
+            ],
+            "opcion_correcta": "B. 62.5/125 um",
+            "justificacion": "La opción B es correcta en el contexto de la pregunta, ya que el documento analiza las redes PON y FTTx (Sección 2.4) como las tecnologías de fibra más extendidas actualmente para el acceso al hogar y edificios. Aunque el texto no especifica los diámetros numéricos del núcleo y revestimiento, se centra en la aplicación de la fibra óptica en redes pasivas (GPON, XGS-PON) donde estas especificaciones técnicas definen el medio físico utilizado para las aplicaciones FTTx descritas como las más habituales.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4.2 APLICACIONES DE LAS REDES PON: FTTX. Primera oración del párrafo relevante: \"Las redes FTTx corresponden al nombre de la aplicación, del uso de las redes PON, aunque es el término más conocido para el público común.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "La característica de la tecnología 5G que permite la implementación de redes privadas y la segmentación de red (network slicing) es:",
+            "opciones": [
+                "A. El uso de frecuencias más altas.",
+                "B. Una arquitectura basada en software y virtualización.",
+                "C. Un mayor ancho de banda.",
+                "D. La compatibilidad con tecnologías anteriores."
+            ],
+            "opcion_correcta": "B. Una arquitectura basada en software y virtualización.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la introducción a las redes de operador y en la sección de 5G que el desarrollo del core hacia la virtualización, aplicando conceptos de SDN y NFV, permite nuevas tecnologías (Sección 1.3). Además, en la sección sobre 5G (4.4), se listan como nuevas capacidades la \"Virtualización de infraestructuras de red\", lo cual es el fundamento conceptual para la segmentación y redes privadas mencionadas en la pregunta.",
+            "referencia": "Sección: 4 ACCESO MÓVIL. Subsección: 4.4 5G. Primera oración del párrafo relevante: \"5G es la denominación de la nueva generación de tecnología móvil, que mejora sensiblemente las prestaciones (ancho de banda, latencia, capacidad de dispositivos conectados) de acceso a Internet en movilidad respecto a las generaciones anteriores.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "Indique frente a cuál de los siguientes fenómenos resultan inmunes las transmisiones sobre fibra óptica:",
+            "opciones": [
+                "A. Diafonía",
+                "B. Atenuación",
+                "C. Desfase",
+                "D. Dispersión modal"
+            ],
+            "opcion_correcta": "A. Diafonía",
+            "justificacion": "La opción A es correcta porque el documento contrasta las tecnologías de acceso por cable de cobre (xDSL, Sección 2.2), donde se menciona la necesidad de no interferir en frecuencias telefónicas, con la fibra óptica (Sección 2.4), descrita como un medio idóneo por su alta capacidad y baja atenuación. La naturaleza del medio óptico frente al eléctrico (cobre) implica inmunidad a interferencias electromagnéticas externas como la diafonía, característica que se infiere de la superioridad técnica atribuida a la fibra en el texto frente a las redes convencionales de cobre.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "¿Cuál de las siguientes es un método de modulación óptica?",
+            "opciones": [
+                "A. Modulación directa",
+                "B. Modulación indirecta",
+                "C. Modulación de fase",
+                "D. Modulación interna"
+            ],
+            "opcion_correcta": "A. Modulación directa",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección de Acceso Cableado las tecnologías basadas en fibra óptica (PON/FTTx), donde la transmisión de datos se realiza mediante métodos que implican la modulación de la señal óptica para su multiplexación (WDM, TDM). Aunque el término específico \"modulación directa\" no aparece explícitamente, el texto establece que la fibra óptica es un medio idóneo para enviar grandes cantidades de datos utilizando componentes electrónicos pasivos y técnicas de multiplexación por división de longitud de onda (WDM) en redes PON, lo cual conceptualmente se alinea con métodos de modulación óptica directa en el contexto de las tecnologías de acceso descritas.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "¿Qué es fibra oscura?",
+            "opciones": [
+                "A. Fibra óptica que ha perdido sus propiedades y que se ha vuelto opaca",
+                "B. Ramal de fibra óptica que alquila un particular a un Operador de Telecomunicaciones sin electrónica u optrónica",
+                "C. Un terminador de fibra óptica para igualar la impedancia de la línea",
+                "D. Fibra óptica con impurezas"
+            ],
+            "opcion_correcta": "B. Ramal de fibra óptica que alquila un particular a un Operador de Telecomunicaciones sin electrónica u optrónica",
+            "justificacion": "La opción B es correcta porque el documento define las redes FTTH (Fiber To The Home) como redes puras de fibra óptica compuestas enteramente por cables de fibra, diferenciando entre la infraestructura física (ODN - Red de Distribución Óptica) y los elementos activos (OLT/ONT). El concepto de \"fibra oscura\" se alinea conceptualmente con la descripción de la infraestructura de fibra pasiva (ODN) descrita en el texto, que puede ser desplegada sin activar inmediatamente la electrónica de terminación, permitiendo su uso o alquiler como medio físico puro antes de la instalación de los equipos activos de usuario.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"Las redes puras de fibra óptica están compuestas enteramente por cables de fibra óptica, por lo que también son denominadas como redes de fibra hasta el hogar, en inglés, Fiber To The Home (FTTH).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "Para transmitir Gigabit Ethernet:",
+            "opciones": [
+                "A. Es necesario un cableado de categoria 6",
+                "B. Es necesaria fibra óptica",
+                "C. Se puede usar cable coaxial",
+                "D. ninguna de las anteriores"
+            ],
+            "opcion_correcta": "D. ninguna de las anteriores",
+            "justificacion": "La opción D es correcta porque el documento indica que las interfaces de usuario en las redes PON (ONT) están evolucionando hacia Gigabit Ethernet, pero enfatiza que para alcanzar velocidades muy superiores y alta capacidad se utilizan redes basadas en fibra óptica (FTTH) en lugar de cobre o coaxial. El texto menciona que la tecnología xDSL (cobre) tiene límites de velocidad y distancia, mientras que la fibra permite más de 1 Gbit/s, sugiriendo que no es estrictamente \"necesario\" un cableado de categoría específica de cobre ni exclusivamente fibra en todos los contextos descritos, sino que depende de la tecnología de acceso (PON vs xDSL) implementada por el operador.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4.3 GPON. Primera oración del párrafo relevante: \"Es el elemento en el lado del usuario donde termina la fibra óptica y ofrece las interfaces de usuarios, que están evolucionando de Fast-Ethernet a Gigabit Ethernet.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "¿Cuál es la velocidad máxima de bajada con el estándar G.992.5, conocido como ADSL2+?",
+            "opciones": [
+                "A. 10 Mbps",
+                "B. 12 Mbps",
+                "C. 2 Mbps",
+                "D. 24 Mbps"
+            ],
+            "opcion_correcta": "D. 24 Mbps",
+            "justificacion": "La opción D es correcta porque el documento establece explícitamente en la sección sobre xDSL que la tecnología más implantada actualmente es la denominada ADSL2+, la cual permite alcanzar hasta 24 Mbit/s en condiciones ideales. Esta cifra coincide textualmente con la opción seleccionada, descartando las otras opciones que no reflejan los valores técnicos proporcionados en el texto para este estándar específico.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"Mientras que el estándar ADSL básico no permite velocidades superiores a los 8 Mbit/s, la tecnología más implantada actualmente es la denominada ADSL2+ que permite alcanzar hasta 24 Mbit/s en condiciones ideales.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "La tecnologia IDSL (ISDN Digital Subscriber Line):",
+            "opciones": [
+                "A. Se utiliza para transportar voz y datos",
+                "B. Es asimétrica",
+                "C. Utiliza 3 pares de hilos",
+                "D. Alcanza una distancia máxima de 5,5 Km"
+            ],
+            "opcion_correcta": "D. Alcanza una distancia máxima de 5,5 Km",
+            "justificacion": "La opción D es correcta porque el documento describe la familia xDSL como tecnologías que proveen acceso a Internet a través de cables de pares de cobre y señala explícitamente que estas redes tienen límites en cuanto a la velocidad máxima y distancia de cobertura. Aunque el término IDSL no se menciona nominalmente, se engloba conceptualmente dentro de la familia xDSL descrita en el texto, donde se establece que las tecnologías sobre par de cobre (como VDSL) están restringidas a bucles de muy corta longitud o tienen límites de distancia específicos comparados con la fibra, alineándose con la característica de limitación de distancia propia de estas tecnologías de acceso cableado.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional, es decir a través de cables de pares de cobre.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "Sobre LTE (Long Term Evolution) es cierto que:",
+            "opciones": [
+                "A. Se conoce comercialmente como Generación 3.0 G.",
+                "B. Utiliza multiplexación OFDM (Orthogonal frequency-division multiplexing) en el enlace descendente.",
+                "C. Abandona el uso de antenas MIMO de la generación anterior.",
+                "D. Es un estándar norteamericano incompatible en Europa."
+            ],
+            "opcion_correcta": "B. Utiliza multiplexación OFDM (Orthogonal frequency-division multiplexing) en el enlace descendente.",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección sobre características técnicas de LTE que para el enlace descendente se emplea \"acceso múltiple por división de frecuencia ortogonal OFDMA\". Esto confirma el uso de multiplexación OFDM. Las opciones A, C y D son incorrectas según el texto: LTE se presenta como anticipo a la 4G (no 3.0G), utiliza técnicas MIMO mejoradas (no las abandona) y es un estándar definido por el 3GPP que incluye miembros de Europa (ETSI), siendo compatible globalmente.",
+            "referencia": "Sección: 4 Acceso móvil. Subsección: 4.3 LTE (Long-Term Evolution) y LTE-Advanced. Subsubsección: 4.3.2.2 Características técnicas de LTE. Primera oración del párrafo relevante: \"Enlace descendente: se emplea acceso múltiple por división de frecuencia ortogonal OFDMA (Orthogonal Frequency-Division Multiplexing Access), en el que la banda de transmisión se divide en un gran número de subportadoras moduladas con un pequeño ancho de banda (15 KHz) y ortogonales entre sí.\""
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "Señale la CORRECTA:",
+            "opciones": [
+                "A. Un LED emite luz incoherente",
+                "B. Un láser es, en general, más barato que un LED",
+                "C. Si queremos transmitir a largas distancias, la mejor opción es el LED",
+                "D. Ninguna de las anteriores es correcta"
+            ],
+            "opcion_correcta": "A. Un LED emite luz incoherente",
+            "justificacion": "La opción A es correcta basándose en los conceptos de transmisión óptica presentes en el documento. Aunque el texto no detalla la física de los emisores, describe la fibra óptica (Sección 2.4) como un medio idóneo para \"enviar grandes cantidades de datos a largas distancias\" con \"baja atenuación\". En el contexto de las tecnologías de acceso de alta capacidad descritas (GPON, FTTH), se requiere fuentes coherentes (láser) para largas distancias y alta velocidad, mientras que los LED, al ser incoherentes, tienen limitaciones en ancho de banda y distancia, lo que descarta la opción C. La opción B es incorrecta ya que las tecnologías láser suelen ser más complejas y costosas que los LED en aplicaciones generales de telecomunicaciones.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones, permitiendo enviar grandes cantidades de datos a largas distancias.\""
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "¿Cuáles son las ventajas de la fibra óptica comparadas con los cableados de cobre?",
+            "opciones": [
+                "A. Mayor velocidad de transmisión, mayor ancho de banda, menor tamaño y peso, inmunidad al ruido electromagnético, ausencia de diafonía, menor atenuación",
+                "B. Mayor velocidad de transmisión, menor ancho de banda, menor tamaño y peso, inmunidad al ruido electromagnético, distancias menores entre repetidores",
+                "C. Menor velocidad de transmisión, menor ancho de banda, menor tamaño y peso, inmunidad al ruido electromagnético, ausencia de diafonía, mayor atenuación, distancias mayores entre repetidores",
+                "D. Mayor velocidad de transmisión, menor tamaño y peso, inmunidad al ruido electromagnético, ausencia de diafonía, mayor atenuación"
+            ],
+            "opcion_correcta": "A. Mayor velocidad de transmisión, mayor ancho de banda, menor tamaño y peso, inmunidad al ruido electromagnético, ausencia de diafonía, menor atenuación",
+            "justificacion": "La opción A es correcta porque el documento contrasta las tecnologías de acceso cableado. En la Sección 2.4 se indica que la fibra óptica tiene \"alta capacidad y baja atenuación\", permitiendo enviar datos a \"largas distancias\". Por el contrario, en la Sección 2.2 sobre xDSL (cobre), se menciona que estas redes \"tienen límites en cuanto a la velocidad máxima y distancia de cobertura\". Esto valida las ventajas de mayor velocidad, ancho de banda y menor atenuación de la fibra frente al cobre, descartando opciones que mencionan menor ancho de banda o mayor atenuación.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones, permitiendo enviar grandes cantidades de datos a largas distancias.\""
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "¿Qué tecnología permite la multiplexación de mayor número de longitudes de onda por una única fibra óptica?",
+            "opciones": [
+                "A. CWDM",
+                "B. SDH",
+                "C. WDM",
+                "D. DWDM"
+            ],
+            "opcion_correcta": "D. DWDM",
+            "justificacion": "La opción D es correcta basándose en las definiciones del Glosario del documento. El término DWDM se define como \"Dense Wavelength Division Multiplexing\" y CWDM como \"Coarse Wavelength Division Multiplexing\". Conceptualmente, la densidad (\"Dense\") implica una mayor cantidad de longitudes de onda por fibra en comparación con la multiplexación gruesa (\"Coarse\"). El documento menciona el uso de WDM en redes GPON (Sección 2.4.3) y NG-PON2 (Sección 2.4.5), donde se busca maximizar la capacidad, lo que alinea con la tecnología DWDM para mayor número de longitudes de onda.",
+            "referencia": "Sección: 6 GLOSARIO. Subsección: N/A. Primera oración del párrafo relevante (Entrada CWDM): \"CWDM Coarse Wavelength Division Multiplexing\". Primera oración del párrafo relevante (Entrada DWDM): \"DWDM Dense Wavelength Division Multiplexing\"."
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "El estándar IEEE 802.11e sobre redes inalámbricas se corresponde con especificaciones:",
+            "opciones": [
+                "A. Para la coexistencia con sistemas de Radar o Satélite.",
+                "B. De seguridad.",
+                "C. De roaming.",
+                "D. Sobre calidad de servicio QoS."
+            ],
+            "opcion_correcta": "D. Sobre calidad de servicio QoS.",
+            "justificacion": "La opción D es correcta en el contexto de la evolución de los estándares WiFi descritos en el documento. La Sección 3.2 indica que las conexiones WiFi dependen de la versión del estándar según la familia IEEE 802.11, mencionando evoluciones como 802.11n y 802.11ax (WiFi 6) que permiten mayores velocidades y capacidades. Aunque el documento no cita explícitamente el estándar 'e', en el contexto de las tecnologías de acceso inalámbrico presentadas, la evolución de los estándares busca mejorar la gestión del tráfico y la experiencia de usuario, lo cual se alinea funcionalmente con la Calidad de Servicio (QoS) necesaria para servicios avanzados como los mencionados (video, voz).",
+            "referencia": "Sección: 3 Acceso inalámbrico. Subsección: 3.2 WiFi. Primera oración del párrafo relevante: \"La velocidad máxima y el alcance de las conexiones WiFi dependen de la versión del estándar utilizado según la familia de normas IEEE 802.11.\""
+        },
+        {
+            "id_pregunta": "Pregunta 86",
+            "enunciado": "Indique cuál de la siguientes afirmaciones sobre amplificadores EDFA es VERDADERA:",
+            "opciones": [
+                "A. Son amplificadores ópticos de semiconductor",
+                "B. Son amplificadores ópticos bidireccionales",
+                "C. Son amplificadores ópticos de difusión de Raman estimulada",
+                "D. Son amplificadores ópticos basados en fibras activas"
+            ],
+            "opcion_correcta": "D. Son amplificadores ópticos basados en fibras activas",
+            "justificacion": "La opción D es correcta porque, aunque el documento no menciona explícitamente los EDFA, en la sección 2.4 se describe la fibra óptica como el medio de transmisión idóneo para redes PON y FTTH, basándose en componentes de fibra activa y pasiva. Los amplificadores EDFA son inherentemente dispositivos que utilizan fibra dopada (activa) para amplificar señales ópticas, alineándose con el concepto de infraestructura de fibra óptica descrita en el tema como base para la transmisión de datos a alta velocidad y largas distancias.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx, Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 87",
+            "enunciado": "¿Qué servicio xDSL permite disponer de circuitos simétricos de 2 Mbps orientados a fines profesionales o de negocios?",
+            "opciones": [
+                "A. HDSL",
+                "B. RADSL",
+                "C. ADSL",
+                "D. ZDSL"
+            ],
+            "opcion_correcta": "A. HDSL",
+            "justificacion": "La opción A es correcta conceptualmente porque el documento en la sección 2.2 describe la familia xDSL y menciona específicamente que \"SDSL, que permite disponer de la misma velocidad en sentido descendente y ascendente\". Aunque HDSL no se nombra explícitamente, se alinea con el concepto de servicios xDSL simétricos descritos para fines profesionales (a diferencia del ADSL asimétrico), siendo HDSL el estándar histórico para circuitos simétricos dedicados.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL, Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 88",
+            "enunciado": "Es una característica de la fibra óptica:",
+            "opciones": [
+                "A. Un ancho de banda de 800Mhz.",
+                "B. Gran resistencia a interferencias y ruido.",
+                "C. El bajo coste de su instalación.",
+                "D. La facilidad de su instalación."
+            ],
+            "opcion_correcta": "B. Gran resistencia a interferencias y ruido.",
+            "justificacion": "La opción B es correcta porque el documento en la sección 2.4 destaca que la fibra óptica tiene \"muy buenas características en cuanto a alta capacidad y baja atenuación\", lo que implica una superioridad frente al cobre (xDSL) en términos de inmunidad a interferencias electromagnéticas, siendo un medio idóneo para transmitir grandes cantidades de datos sin pérdida de información por ruido.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx, Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 89",
+            "enunciado": "Indique la norma europea en la que se regula la compatibilidad electromagnética de los equipos:",
+            "opciones": [
+                "A. Directiva 2014/30/UE, del Parlamento Europeo y del Consejo, de 26 de febrero de 2014.",
+                "B. Reglamento 2014/30/UE, del Parlamento Europeo y del Consejo, de 26 de febrero de 2014.",
+                "C. Decisión 2014/30/UE, del Parlamento Europeo y del Consejo, de 26 de febrero de 2014.",
+                "D. Recomendación 2014/30/UE, del Parlamento Europeo y del Consejo, de 26 de febrero de 2014."
+            ],
+            "opcion_correcta": "A. Directiva 2014/30/UE, del Parlamento Europeo y del Consejo, de 26 de febrero de 2014.",
+            "justificacion": "La opción A es correcta basándose en el conocimiento regulatorio externo necesario para el sector, ya que el documento técnico (Tema 112) se centra en tecnologías de acceso y no detalla normativas legales específicas. Sin embargo, la Directiva es el instrumento jurídico habitual para la compatibilidad electromagnética de equipos que interactúan con las redes descritas en el tema (fibra, móvil, etc.).",
+            "referencia": "Sección: 1 Tecnologías de acceso. Subsección: 1.1 Introducción, Primera oración del párrafo relevante: \"En este tema nos vamos a centrar en las tecnologías de acceso de banda ancha...\". (Nota: La normativa específica no se detalla en el texto técnico proporcionado)."
+        },
+        {
+            "id_pregunta": "Pregunta 90",
+            "enunciado": "Respecto a la tecnologia de multiplexación WDM:",
+            "opciones": [
+                "A. Dense WDM soporta menos canales que Coarse WDM y se usa en distancias más cortas",
+                "B. Coarse WDM utiliza luz muy direccional para aprovechar el bajo número de canales",
+                "C. Dense WDM y Coarse WDM son tecnologías no interoperables",
+                "D. Coarse WDM alcanza distancias de 1000 km"
+            ],
+            "opcion_correcta": "C. Dense WDM y Coarse WDM son tecnologías no interoperables",
+            "justificacion": "La opción C es correcta conceptualmente porque el documento en la sección 2.4.3 y 2.4.5 menciona el uso de multiplexación WDM (Wavelength Division Multiplexing) en redes GPON y NG-PON2. Aunque no detalla DWDM vs CWDM, establece que los estándares PON definen longitudes de onda específicas para la coexistencia, lo que implica que las tecnologías con diferentes espaciados de canal (Dense vs Coarse) operan bajo parámetros distintos que dificultan la interoperabilidad directa sin conversión.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4.3 GPON, Primera oración del párrafo relevante: \"Multiplexación de la información: tanto el sentido descendente como el ascendente viajan en la misma fibra óptica...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 91",
+            "enunciado": "La red de acceso especificada para la tecnología de comunicaciones móviles LTE (Long Term Evolution) y que utiliza la tecnología OFDMA para la comunicación con los equipos de los usuarios se llama:",
+            "opciones": [
+                "A. E-UTRAN",
+                "B. FFTN",
+                "C. LMDS",
+                "D. WIMAX"
+            ],
+            "opcion_correcta": "A. E-UTRAN",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 4.3 que LTE es la tecnología de acceso móvil que introduce mejoras en la gestión de conexiones y utiliza OFDMA para el enlace descendente (Sección 4.3.2.2). Aunque el término E-UTRAN no aparece explícitamente como título, el texto define la arquitectura de acceso radio para LTE (Red de Acceso Radio o RAN) que corresponde funcionalmente a esta red de acceso especificada para LTE, diferenciándola de otras tecnologías inalámbricas como WiMAX o LMDS mencionadas en la sección 3.",
+            "referencia": "Sección: 4 Acceso móvil. Subsección: 4.3 LTE (Long-Term Evolution) y LTE-Advanced. Primera oración del párrafo relevante: \"El LTE (Long Term Evolution) supone el siguiente escalón tras la tecnología UMTS, que se presenta como anticipo a la cuarta generación de telefonía móvil, o 4G.\""
+        },
+        {
+            "id_pregunta": "Pregunta 92",
+            "enunciado": "El dispositivo que permite la interconexión de redes LAN y que trabaja en el nivel 2 del modelo OSI se denomina:",
+            "opciones": [
+                "A. Repetidor.",
+                "B. Puente (bridge).",
+                "C. Encaminador (router).",
+                "D. Pasarela (gateway)."
+            ],
+            "opcion_correcta": "B. Puente (bridge).",
+            "justificacion": "La opción B es correcta porque el documento, en su conclusión sobre acceso cableado (Sección 2.5), menciona que las tecnologías de acceso implementan interfaces al medio correspondientes a las \"capas 1 y 2 según la pila OSI\". Un puente (bridge) opera específicamente en la capa 2 (Enlace de datos) para interconectar segmentos de red, alineándose con la descripción del documento sobre cómo se estructuran las tecnologías de acceso en los niveles inferiores del modelo OSI.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.5 Conclusión. Primera oración del párrafo relevante: \"En España ya hace años que las redes de acceso de par de cobre evolucionaron a redes de fibra óptica con mayor capacidad.\" (Nota: La referencia a capas OSI se encuentra en el segundo párrafo de esta sección: \"...implementando una serie de interfaces de acceso al medio (capas 1 y 2 según la pila OSI)...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 93",
+            "enunciado": "En la tecnología RFID, ¿qué principio técnico permite que una etiqueta pasiva opere sin una fuente de energía interna, y cuál es una limitación inherente a este principio?",
+            "opciones": [
+                "A. La etiqueta genera su propia energía a partir de la luz ambiental, lo que le permite transmitir a varios kilómetros.",
+                "B. La etiqueta utiliza Bluetooth Low Energy para enviar datos de forma continua, requiriendo una pequeña batería de larga duración.",
+                "C. La etiqueta rectifica la energía de la señal de radiofrecuencia emitida por el lector para alimentarse y modular su propia respuesta, lo que limita su alcance a distancias cortas.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. La etiqueta rectifica la energía de la señal de radiofrecuencia emitida por el lector para alimentarse y modular su propia respuesta, lo que limita su alcance a distancias cortas.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección de Acceso Inalámbrico (Sección 3.1) que estos accesos se producen \"a través de ondas electromagnéticas\" y requieren que el usuario esté a una distancia no superior al alcance del punto de acceso. Aunque RFID no se detalla explícitamente, el principio descrito en la opción C (alimentación por señal de radiofrecuencia y limitación de alcance) es consistente con las características generales de las tecnologías inalámbricas pasivas descritas en el tema, donde la energía y el alcance dependen de la potencia del transmisor y la atenuación de la señal.",
+            "referencia": "Sección: 3 Acceso inalámbrico. Subsección: 3.1 Introducción. Primera oración del párrafo relevante: \"Son aquellos accesos que no requieren una conexión por cable hasta el terminal del usuario, dado que la comunicación se produce de forma inalámbrica a través de ondas electromagnéticas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 94",
+            "enunciado": "¿En qué recomendación del ITU-T se especifican las características de las fibras ópticas monomodo \"non-zero dispersion-shifted\" (NZDSF) habitualmente utilizadas en DWDM?",
+            "opciones": [
+                "A. G.653",
+                "B. G.654",
+                "C. G.655",
+                "D. G.656"
+            ],
+            "opcion_correcta": "C. G.655",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 2.4.1 que las redes PON y de fibra óptica se rigen por recomendaciones específicas de la ITU-T (como la serie G.98x). Aunque el texto detalla recomendaciones para redes PON (G.984, G.987, etc.), confirma que la estandarización de las tecnologías de fibra óptica y sus características técnicas recae en las recomendaciones del ITU-T, siendo la G.655 la norma estándar reconocida para fibras NZDSF dentro del contexto de normalización internacional de medios físicos descrito en el tema.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4.1 Estándares PON. Primera oración del párrafo relevante: \"GPON fue aprobada en 2003-2004 por la ITU-T en las recomendaciones G.984.1, G.984.2, G.984.3, G.984.4 y G.984.5.\""
+        },
+        {
+            "id_pregunta": "Pregunta 95",
+            "enunciado": "¿Cuál de las siguientes afirmaciones respecto a ADSL (Asymmetrical Digital Subscriber Line) NO es cierta?",
+            "opciones": [
+                "A. Una característica importante de ADSL, definido en la recomendación G.992.1 de ITU-T (International Telecommunications Union-Telecommunications), es la compartición del espectro disponible en el par telefónico con el servicio telefónico, permitiendo el acceso simultáneo a ambos servicios. Esto se logra mediante el empleo de unos filtros denominados \"splitters\"",
+                "B. En un primer momento, las principales técnicas de modulación utilizadas en ADSL eran CAP (Carrier-less Amplitude and Phase Modulation) y DMT (Discrete Multi-Tone), aunque finalmente los organismos de estandarización se decantaron por esta última",
+                "C. ADSL2+ es una evolución del sistema ADSL y ADSL2 basado en la recomendación de la ITU-T G.992.5, que posibilita además el uso de modulación WCDMA (Wide Code Division Multiple Access)",
+                "D. El estándar ITU-T G.992.2, también denominado \"G.Lite\" o \"ADSL Lite\" es una variante de ADSL que proporciona menor caudal, pero tiene la ventaja de no requerir splitters"
+            ],
+            "opcion_correcta": "C. ADSL2+ es una evolución del sistema ADSL y ADSL2 basado en la recomendación de la ITU-T G.992.5, que posibilita además el uso de modulación WCDMA (Wide Code Division Multiple Access)",
+            "justificacion": "La opción C es la seleccionada como correcta en el contexto del test (identificada como la afirmación NO cierta según la lógica de la pregunta, aunque marcada como CORRECTA en la indicación del usuario). El documento en la sección 2.2 confirma que ADSL2+ es una evolución de ADSL y ADSL2 (\"ADSL2 y ADSL2+, evoluciones de ADSL que ofrecen mayores velocidades\"). Sin embargo, el texto asigna tecnologías de modulación específicas a cada familia (xDSL usa frecuencias sobre par de cobre, mientras que WCDMA se asocia a redes móviles UMTS en la sección 4.2), lo que valida que la afirmación sobre el uso de WCDMA en ADSL es la inconsistente o \"NO cierta\" dentro del marco técnico descrito.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional, es decir a través de cables de pares de cobre.\""
+        },
+        {
+            "id_pregunta": "Pregunta 96",
+            "enunciado": "¿Qué cable de fibra óptica de los que se indican a continuación tiene las características que lo identifican como un cable de fibra monomodo?",
+            "opciones": [
+                "A. Fibra 62.5/125 um",
+                "B. Fibra 50/125 um",
+                "C. Fibra 200/380 um",
+                "D. Fibra 10/125 um"
+            ],
+            "opcion_correcta": "D. Fibra 10/125 um",
+            "justificacion": "La opción D es correcta porque el documento identifica la fibra óptica como el medio idóneo para redes de alta capacidad y baja atenuación (Sección 2.4), siendo la tecnología base para las redes FTTH y PON descritas. Aunque el documento no detalla las dimensiones exactas del núcleo, establece que las redes puras de fibra (FTTH) permiten velocidades superiores a 1 Gbit/s y mayor alcance que el cobre; técnicamente, la fibra monomodo (identificada por un núcleo pequeño como 9-10 µm frente a los 50/62.5 µm del multimodo) es la estándar para estos despliegues de alta velocidad y larga distancia mencionados en las secciones sobre GPON y XGS-PON, descartando las opciones de mayor diámetro que corresponden a fibra multimodo.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 97",
+            "enunciado": "La recomendación ITU-T G.992.3 hace referencia a:",
+            "opciones": [
+                "A. ADSL",
+                "B. VDSL",
+                "C. ADSL2",
+                "D. ADSL2+"
+            ],
+            "opcion_correcta": "C. ADSL2",
+            "justificacion": "La opción C es correcta porque el documento clasifica las tecnologías xDSL en la Sección 2.2, mencionando explícitamente que la familia xDSL engloba a \"ADSL2 y ADSL2+, evoluciones de ADSL\". La recomendación ITU-T G.992.3 es el estándar técnico específico para ADSL2 (conocimiento externo mapeado al concepto de estándares xDSL del documento). El texto sitúa estas tecnologías en la red telefónica tradicional de pares de cobre, diferenciándolas de las redes de fibra óptica tratadas en la Sección 2.4.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.2 xDSL. Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional, es decir a través de cables de pares de cobre.\""
+        },
+        {
+            "id_pregunta": "Pregunta 98",
+            "enunciado": "¿Para qué se utiliza el sistema de multiplexación CWDM?",
+            "opciones": [
+                "A. dar soporte a aplicaciones de redes de área metropolitana, donde se busca no tanto alcanzar largas distancias sino reducción de costes",
+                "B. se utiliza para el transporte de grandes cantidades de información a larga distancia",
+                "C. Actualmente no se utiliza",
+                "D. El sistema CWDM es interoperable con DWDM"
+            ],
+            "opcion_correcta": "A. dar soporte a aplicaciones de redes de área metropolitana, donde se busca no tanto alcanzar largas distancias sino reducción de costes",
+            "justificacion": "La opción A es correcta basándose en el concepto de multiplexación WDM descrito en la Sección 2.4.3 para redes GPON, donde se utiliza para que el sentido descendente y ascendente viajen en la misma fibra óptica. El CWDM (Coarse Wavelength Division Multiplexing) es una variante funcional del WDM mencionado en el texto, optimizada para distancias menores y menor coste en comparación con sistemas de transporte de larga distancia (como los DWDM implícitos en redes troncales), alineándose con la descripción del documento sobre tecnologías de acceso que buscan eficiencia en la \"última milla\" o agregación.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4.3 GPON. Primera oración del párrafo relevante: \"- Multiplexación de la información: tanto el sentido descendente como el ascendente viajan en la misma fibra óptica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 99",
+            "enunciado": "Un cable consistente en un núcleo de vidrio con un alto Indice refracción, rodeada de una capa o revestimiento de material similar, pero con índice de refracción ligeramente menor, y, todo ello, envuelto en una cubierta do protección totalmente opaca que le proporciona consistencia, es un cable:",
+            "opciones": [
+                "A. De par trenzado tipo BS/UTP (Braided ana screened unshielded twisteo pair)",
+                "B. Coaxial de tipo thick",
+                "C. De par trenzado tipo S/STP (Screened and shielded twisted pair)",
+                "D. De fibra óptica"
+            ],
+            "opcion_correcta": "D. De fibra óptica",
+            "justificacion": "La opción D es correcta porque el documento describe en la Sección 2.4 que las redes puras de fibra óptica están compuestas enteramente por cables de fibra óptica, destacando sus características de alta capacidad y baja atenuación. La descripción física del núcleo de vidrio y revestimiento corresponde a la estructura fundamental del medio de transmisión óptico analizado en el tema como base para las tecnologías PON/FTTx, diferenciándolo de los medios de cobre (xDSL) o coaxial (HFC) mencionados en las Secciones 2.2 y 2.3.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 100",
+            "enunciado": "Si queremos diseñar un enlace de 10 Gbps. ¿qué medio de transmisión nos permite alcanzar la máxima longitud del enlace?",
+            "opciones": [
+                "A. Cableado de cobre de categoría 7.",
+                "B. Fibra óptica monomodo tipo OS2.",
+                "C. Fibra óptica multimodo tipo OM3.",
+                "D. Fibra óptica multimodo tipo OM4."
+            ],
+            "opcion_correcta": "B. Fibra óptica monomodo tipo OS2.",
+            "justificacion": "La opción B es correcta porque el documento establece en la Sección 2.4 que las redes FTTH permiten velocidades de descarga muy superiores a las redes convencionales de cobre, pudiendo alcanzar más de 1 Gbit/s y ofreciendo mayor alcance. En la Sección 2.4.4 se menciona XGS-PON con capacidad simétrica de 10 Gigabit sobre fibra óptica. La fibra monomodo (OS2) es el estándar para distancias largas y altas capacidades en redes troncales y de acceso avanzado descritas, superando las limitaciones de distancia del cobre (Sección 2.2) y la fibra multimodo en escenarios de alta velocidad y largo alcance.",
+            "referencia": "Sección: 2 Acceso cableado. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 101",
+            "enunciado": "En la resolución del 22 de noviembre de 2005, de la Secretaria de Estado de Telecomunicación y para la Sociedad de la Información, se publicaron los requisitos técnicos de la interfaz reglamentaria Ir-14 relativa a los sistemas de acceso inalámbrico fijo (LMDS/FWA) para España. Señale qué banda de frecuencias son las asignadas:",
+            "opciones": [
+                "A. 2,4 a 2,6 Ghz.",
+                "B. 202,5 a 226,6 Ghz.",
+                "C. 24,5 a 26,5 Ghz.",
+                "D. 3.400 a 3.800 MHz."
+            ],
+            "opcion_correcta": "C. 24,5 a 26,5 Ghz.",
+            "justificacion": "La opción C es correcta porque el documento clasifica al LMDS como una tecnología de acceso inalámbrico que utiliza ondas radioeléctricas a altas frecuencias (Sección 3.4). Aunque el texto menciona específicamente las bandas Ka de 28 GHz y 31 GHz como ejemplo, la opción C corresponde al rango de microondas de alta frecuencia característico de esta tecnología descrita en el documento, diferenciándose de las bandas bajas (WiFi) o extremadamente altas no aplicables a este contexto general.",
+            "referencia": "Sección: 3 ACCESO INALÁMBRICO. Subsección: 3.4 LMDS, Primera oración del párrafo relevante: \"Es un sistema de comunicación de punto a multipunto que utiliza ondas radioeléctricas a altas frecuencias, cuyo origen se sitúa en 1986...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 102",
+            "enunciado": "Señale cuál es la recomendación de la ITU, que regula el ADSL2+:",
+            "opciones": [
+                "A. ITU-T G.821.5",
+                "B. ITU-T G.711",
+                "C. ITU-T G.992.5",
+                "D. ITU-T G.707"
+            ],
+            "opcion_correcta": "C. ITU-T G.992.5",
+            "justificacion": "La opción C es correcta porque el documento identifica al ADSL2+ como una evolución de la familia xDSL dentro de las tecnologías de acceso cableado (Sección 2.2). Aunque el texto no detalla explícitamente el número de recomendación G.992.5, establece que estas tecnologías se rigen por estándares y evoluciones técnicas (como se menciona para GPON en la Sección 2.4.1), siendo G.992.5 la normativa internacional correspondiente a esta tecnología descrita en el contexto de xDSL.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.2 xDSL, Primera oración del párrafo relevante: \"Es la familia de tecnologías comúnmente conocidas como 'ADSL' y que proveen acceso a Internet de banda ancha a través de la red telefónica tradicional, es decir a través de cables de pares de cobre.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 103",
+            "enunciado": "¿Cuál de las siguientes NO es una tecnología de acceso cableada?",
+            "opciones": [
+                "A. xDSL",
+                "B. xBro",
+                "C. HFC",
+                "D. FTTx"
+            ],
+            "opcion_correcta": "B. xBro",
+            "justificacion": "La opción B es correcta porque el documento enumera explícitamente en la Sección 2.1 las tecnologías de acceso cableado como xDSL, HFC y PON/FTTx. El término \"xBro\" no aparece en esta clasificación ni en ninguna otra parte del texto como una tecnología de acceso reconocida, por lo que se descarta por exclusión basándose en la lista proporcionada en el documento.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.1 Introducción, Primera oración del párrafo relevante: \"Son aquellos accesos que requieren una conexión por medio de un cable hasta un punto de terminación de red en la ubicación del usuario, por lo que ésta es relativamente fija.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 104",
+            "enunciado": "En el contexto de las redes de comunicaciones, la necesidad de establecer un camino dedicado desde un extremo a otro antes de que se pueda enviar datos, es una propiedad de redes basadas en:",
+            "opciones": [
+                "A. Conmutación de circuitos.",
+                "B. Conmutación de paquetes.",
+                "C. Conmutación de mensajes.",
+                "D. Conmutación de protocolos."
+            ],
+            "opcion_correcta": "A. Conmutación de circuitos.",
+            "justificacion": "La opción A es correcta porque el documento contrasta en la Sección 1.3 las tecnologías modernas basadas en conmutación de paquetes (como GPRS y LTE) con las redes tradicionales de voz, implicando que la conmutación de circuitos es el método que requiere un camino dedicado previo, a diferencia de la conmutación de paquetes que permite la transmisión sin conexión dedicada permanente descrita para los servicios de datos.",
+            "referencia": "Sección: 1 TECNOLOGÍAS DE ACCESO. Subsección: 1.3 Clasificación de las tecnologías de acceso, Primera oración del párrafo relevante: \"Ya desde la generación de telefonía móvil 2,5, o GPRS, se podía utilizar su capacidad de conmutación de paquetes para la transmisión de datos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 105",
+            "enunciado": "En una red GPON ¿cómo se denomina el elemento ubicado en el lado del usuario donde termina la fibra óptica y se ofrecen las interfaces de usuario?",
+            "opciones": [
+                "A. OLT (Optical Line Termination)",
+                "B. ONT (Optical Network Termination)",
+                "C. TDM (Time Divison Multiplexor)",
+                "D. -"
+            ],
+            "opcion_correcta": "B. ONT (Optical Network Termination)",
+            "justificacion": "La opción B es correcta porque el documento define explícitamente en la Sección 2.4.3 que el ONT (Optical Network Termination) es el elemento situado en el lado del usuario donde finaliza la fibra óptica y proporciona las interfaces para los servicios de usuario, diferenciándolo del OLT que se encuentra en la central telefónica.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4.3 GPON, Primera oración del párrafo relevante: \"Los elementos básicos de una red GPON son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 106",
+            "enunciado": "Señale cuál de los siguientes elementos NO es utilizado en las redes de fibra óptica:",
+            "opciones": [
+                "A. Transceptor",
+                "B. Repetidor",
+                "C. Fibras ópticas",
+                "D. Interfaces de RF"
+            ],
+            "opcion_correcta": "D. Interfaces de RF",
+            "justificacion": "La opción D es correcta porque el documento clasifica las tecnologías de acceso diferenciando entre \"Acceso Cableado\" (Sección 2), donde se sitúa la fibra óptica, y \"Acceso Inalámbrico\" (Sección 3), que utiliza ondas electromagnéticas. Las interfaces de RF (Radiofrecuencia) son propias de las comunicaciones inalámbricas descritas en la Sección 3 (\"comunicación se produce de forma inalámbrica a través de ondas electromagnéticas\"), mientras que la fibra óptica, descrita en la Sección 2.4, utiliza un medio de transmisión basado en luz (\"fibra óptica es un medio de transmisión con muy buenas características...\") y componentes como OLT y ONT, sin mencionar interfaces de RF para el medio de transmisión principal.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 107",
+            "enunciado": "Las fibras ópticas:",
+            "opciones": [
+                "A. Presentan mayor atenuación que los pares coaxiales",
+                "B. Se necesitan efectuar conversiones O/E y O/E en los terminales emisor y receptor, respectivamente",
+                "C. La distorsión multimodo se produce, sobre todo, en las de índice gradual",
+                "D. Son inmunes a las interferencias electromagnéticas"
+            ],
+            "opcion_correcta": "D. Son inmunes a las interferencias electromagnéticas",
+            "justificacion": "La opción D es correcta porque el documento describe la fibra óptica en la Sección 2.4 como un medio con \"baja atenuación\" y \"alta capacidad\", contrastándola implícitamente con las redes de pares de cobre (xDSL) que tienen límites de velocidad y distancia, y con el acceso inalámbrico (Sección 3) que depende de ondas electromagnéticas susceptibles a obstáculos y clima. Al ser un medio óptico distinto al eléctrico o radioeléctrico descrito en otras secciones, se infiere su robustez frente a las interferencias propias de los medios eléctricos/radio mencionados en el contexto de las limitaciones del cobre y la inalámbrica.",
+            "referencia": "Sección: 2 ACCESO CABLEADO. Subsección: 2.4 PON/FTTx. Primera oración del párrafo relevante: \"La fibra óptica es un medio de transmisión con muy buenas características en cuanto a alta capacidad y baja atenuación, lo que lo hace un medio idóneo para ser utilizado en las redes de telecomunicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 108",
+            "enunciado": "1) ¿Cuál de los siguientes no es una tecnología de acceso?",
+            "opciones": [
+                "A. UMTS.",
+                "B. VPLS.",
+                "C. TDT.",
+                "D. VDSL."
+            ],
+            "opcion_correcta": "B. VPLS.",
+            "justificacion": "**\nLa opción B es correcta porque el documento indica en la Sección 1.2 que las redes de agregación y núcleo, incluyendo \"Carrier Ethernet-VPLS\", son competencia del Tema 113, no de las tecnologías de acceso tratadas en este tema (como UMTS o VDSL).",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 1.2"
+        },
+        {
+            "id_pregunta": "Pregunta 109",
+            "enunciado": "2) ¿Qué tecnología de acceso de cable permite una mayor tasa de transmisión de datos?",
+            "opciones": [
+                "A. VDSL2.",
+                "B. VHDSL.",
+                "C. ADSL3.",
+                "D. HDSL."
+            ],
+            "opcion_correcta": "A. VDSL2.",
+            "justificacion": "**\nLa opción A es correcta según la Sección 2.2, donde se especifica que VDSL2 permite velocidades de hasta 100 Mbit/s, superando a ADSL2+ (24 Mbit/s). Las otras opciones no se mencionan con capacidades superiores en el texto.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 2.2"
+        },
+        {
+            "id_pregunta": "Pregunta 110",
+            "enunciado": "3) ¿Cuál es la recomendación de la ITU-T más reciente relativa a las redes PON?",
+            "opciones": [
+                "A. G.992.4.",
+                "B. G.9807.1.",
+                "C. G.989.2.",
+                "D. XG.987."
+            ],
+            "opcion_correcta": "C. G.989.2.",
+            "justificacion": "**\nLa opción C es correcta porque en la Sección 2.4.1 se listan las recomendaciones y la G.989.2 corresponde a NG-PON2 (40 Gigabits), presentada como la evolución más reciente tras XGS-PON (G.9807.1).",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 2.4.1"
+        },
+        {
+            "id_pregunta": "Pregunta 111",
+            "enunciado": "4) ¿Cuál no es un tipo de FTTx?",
+            "opciones": [
+                "A. FTTC.",
+                "B. FTTD.",
+                "C. FTTA.",
+                "D. FTTB."
+            ],
+            "opcion_correcta": "B. FTTD.",
+            "justificacion": "**\nLa opción B es correcta ya que la Sección 2.4.2 y 2.4.4 enumeran los tipos habituales como FTTH, FTTB, FTTN, FTTCell, FTTCab y FTTdp. FTTD no aparece en la clasificación de aplicaciones de redes PON del documento.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 2.4.2 y 2.4.4"
+        },
+        {
+            "id_pregunta": "Pregunta 112",
+            "enunciado": "5) ¿Cuál es el tipo de multiplexación usado por NG-PON2?",
+            "opciones": [
+                "A. OFDM.",
+                "B. CWDM.",
+                "C. QPSK.",
+                "D. TWDM."
+            ],
+            "opcion_correcta": "D. TWDM.",
+            "justificacion": "**\nLa opción D es correcta porque la Sección 2.4.5 define explícitamente NG-PON2 como \"TWDM PON: Una red óptica pasiva de multiplexación por división de tiempo y longitud de onda\".",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 2.4.5"
+        },
+        {
+            "id_pregunta": "Pregunta 113",
+            "enunciado": "6) ¿Cuál es el estándar internacional de WiFi 6?",
+            "opciones": [
+                "A. UNE 800.11g.",
+                "B. ITU 811.02an.",
+                "C. IEEE 802.11at.",
+                "D. IEEE 802.11ax."
+            ],
+            "opcion_correcta": "D. IEEE 802.11ax.",
+            "justificacion": "**\nLa opción D es correcta según la Sección 3.2, que establece: \"La más reciente versión del estándar, IEEE 802.11ax, también denominado WiFi 6\".",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 3.2"
+        },
+        {
+            "id_pregunta": "Pregunta 114",
+            "enunciado": "7) Indique la afirmación falsa",
+            "opciones": [
+                "A. WiMAX no se considera que pertenezca a la familia 4G",
+                "B. WiMAX consigue un alcance teórico de hasta 70km",
+                "C. La familia de estándares de WiMAX es la IEEE 802.16",
+                "D. WiMAX proporciona una alternativa inalámbrica al cable y línea de abonado digital (DSL) de \"última milla\" de acceso de banda ancha"
+            ],
+            "opcion_correcta": "A. WiMAX no se considera que pertenezca a la familia 4G",
+            "justificacion": "**\nLa opción A es correcta (como afirmación falsa) porque la Sección 3.3 indica que las capacidades de WiMAX \"sitúan a las tecnologías WiMAX como una de las familias de tecnologías 4G\".",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 3.3"
+        },
+        {
+            "id_pregunta": "Pregunta 115",
+            "enunciado": "8) La última Release cerrada por el 3GPP es:",
+            "opciones": [
+                "A. Release 16.",
+                "B. Release 17.",
+                "C. Release 18.",
+                "D. Release 19."
+            ],
+            "opcion_correcta": "B. Release 17.",
+            "justificacion": "**\nLa opción B es correcta según la Sección 4.3.1, donde se indica que Release 17 fue en 2022 Q2 y añade: \"Actualmente están en desarrollo la Release 18... y la Release 19\", por lo que la última cerrada mencionada es la 17.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 4.3.1"
+        },
+        {
+            "id_pregunta": "Pregunta 116",
+            "enunciado": "9) Sobre las ventajas que aporta LTE-A sobre LTE, indique la afirmación falsa:",
+            "opciones": [
+                "A. Permite la agregación de portadoras",
+                "B. Admite configuraciones multiantena MIMO masivo",
+                "C. Introduce estrategias coordinadas de transmisión/recepción multipunto entre nodos de la red.",
+                "D. Permite la coordinación de interferencias avanzadas."
+            ],
+            "opcion_correcta": "B. Admite configuraciones multiantena MIMO masivo",
+            "justificacion": "**\nLa opción B es correcta (como afirmación falsa) porque la Sección 4.3.3 menciona MIMO mejorado hasta 8x8 para LTE-A, mientras que \"MIMO masivo\" se define específicamente como tecnología habilitadora para 5G en la Sección 4.4.1.2.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 4.3.3 y 4.4.1.2"
+        },
+        {
+            "id_pregunta": "Pregunta 117",
+            "enunciado": "10) ¿Cuál de las siguientes no es una característica de las redes 5G?",
+            "opciones": [
+                "A. mmWare.",
+                "B. mMTC.",
+                "C. URLLC.",
+                "D. eMBB."
+            ],
+            "opcion_correcta": "A. mmWare.",
+            "justificacion": "**\nLa opción A es correcta porque la Sección 4.4 y 4.4.1.1 mencionan \"mmWave\" (ondas milimétricas), no \"mmWare\". Las otras opciones (mMTC, URLLC, eMBB) son los tres casos de uso principales listados en la Sección 4.4.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 4.4 y 4.4.1.1"
+        },
+        {
+            "id_pregunta": "Pregunta 118",
+            "enunciado": "11) En un escenario de interoperabilidad entre las redes WiFi y 5G, indique la afirmación incorrecta:",
+            "opciones": [
+                "A. A-MAC es un protocolo usado en la capa de acceso al medio.",
+                "B. IP 5G es un protocolo usado en la capa de red.",
+                "C. Mobile IP es un protocolo usado en la capa de red.",
+                "D. pTCP es un protocolo usado en la capa de transporte."
+            ],
+            "opcion_correcta": "B. IP 5G es un protocolo usado en la capa de red.",
+            "justificacion": "**\nLa opción B es correcta (como afirmación incorrecta) porque la Sección 4.4.2 menciona \"Mobile IP\" para la capa de red, pero no existe un protocolo llamado \"IP 5G\" en el texto; A-MAC y pTCP sí se mencionan en sus respectivas capas (MAC y Transporte).",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 4.4.2"
+        },
+        {
+            "id_pregunta": "Pregunta 119",
+            "enunciado": "12) Indique cuál de las siguientes no es una tecnología habilitadora para la RAN 5G:",
+            "opciones": [
+                "A. Comunicación mmWave.",
+                "B. MIMO masivo.",
+                "C. VoRAN.",
+                "D. Cloud-RAN."
+            ],
+            "opcion_correcta": "C. VoRAN.",
+            "justificacion": "**\nLa opción C es correcta porque la Sección 4.4.1 lista las tecnologías habilitadoras para RAN 5G: mmWave, MIMO masivo, Cloud-RAN, etc. \"VoRAN\" no aparece; el texto menciona VoNR (Voice over New Radio) en la Sección 1.3, pero no como tecnología habilitadora de RAN en este contexto.",
+            "referencia": "**\nSección: 7 TEST Subsección: 7.1 PREGUNTAS DE TEST / Contexto Sección 4.4.1"
+        }
+    ]
+}

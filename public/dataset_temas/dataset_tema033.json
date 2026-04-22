@@ -1,0 +1,785 @@
+{
+    "nombre_tema": "Tema 33",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "En relación con el acrónimo “SMART”, que define las características que deben reunir los objetivos de una planificación, ¿qué cualidad de los objetivos representa la sigla “M”?:",
+            "opciones": [
+                "A. Materiales.",
+                "B. Moderados.",
+                "C. Medibles.",
+                "D. Masivos."
+            ],
+            "opcion_correcta": "C. Medibles.",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección sobre la definición de objetivos estratégicos que estos deben cumplir con el enfoque SMART, donde la \"M\" corresponde a \"Medibles (Measurable)\", indicando que los objetivos deben ser cuantificables y medibles para evaluar el progreso. Las otras opciones no se corresponden con la definición técnica proporcionada en el texto.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.4.3 DEFINIR LOS OBJETIVOS ESTRATÉGICOS, Primera oración del párrafo relevante: \"Los objetivos estratégicos deben cumplir con el enfoque SMART.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "¿Qué significa la ley de Pareto del 80 / 20?",
+            "opciones": [
+                "A. Con el 20 % del esfuerzo se resuelven el 80 % de los problemas",
+                "B. El 80 % de los problemas son originados por el 20 % de la plantilla",
+                "C. Con el 80 % del esfuerzo se resuelve el 20 % de los problemas, los más graves",
+                "D. El 20 % de los problemas se resuelven automáticamente resolviendo primero el 80 % de ellos"
+            ],
+            "opcion_correcta": "A. Con el 20 % del esfuerzo se resuelven el 80 % de los problemas",
+            "justificacion": "La opción A es correcta basándose en la lógica de priorización y eficiencia de recursos descrita en el documento. Aunque el término \"Pareto\" no aparece explícitamente, el concepto se alinea funcionalmente con la \"Matriz de Priorización\" (Sección 2.6), que evalúa opciones para concentrar recursos y esfuerzo en las tareas más importantes o críticas, optimizando así el rendimiento organizacional.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.6 MATRIZ DE PRIORIZACIÓN, Primera oración del párrafo relevante: \"Una matriz de priorización es una herramienta utilizada para evaluar y clasificar elementos...\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Qué dos dimensiones de una matriz DAFO se consideran de carácter interno a la organización o proyecto que es objeto de análisis?",
+            "opciones": [
+                "A. Amenazas y debilidades.",
+                "B. Debilidades y oportunidades.",
+                "C. Debilidades y fortalezas.",
+                "D. Amenazas y fortalezas."
+            ],
+            "opcion_correcta": "C. Debilidades y fortalezas.",
+            "justificacion": "La opción C es correcta porque el documento define la matriz DAFO como una herramienta que analiza las características internas de la organización, identificando específicamente las \"Debilidades y Fortalezas\" como los factores propios, en contraposición a las Amenazas y Oportunidades que son externas.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.1 MATRIZ DAFO, Primera oración del párrafo relevante: \"La matriz DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) es una herramienta de estudio cualitativo...\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Cuál de las siguientes técnicas NO es de planificación de proyectos?",
+            "opciones": [
+                "A. PERT.",
+                "B. COCOMO II.",
+                "C. Nagios.",
+                "D. Gantt."
+            ],
+            "opcion_correcta": "C. Nagios.",
+            "justificacion": "La opción C es correcta porque el documento clasifica las herramientas de planificación en la Sección 2, donde se menciona explícitamente el \"Diagrama de Gantt\" como herramienta visual para representar tareas y plazos (Sección 2.3). Nagios no aparece en esta lista de planificación; por su naturaleza funcional descrita en el contexto de cuadros de mando operacionales y monitorización (Sección 3), se considera una herramienta de control/monitorización en tiempo real, no de planificación estratégica o de proyectos.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.3 DIAGRAMA DE GANTT, Primera oración del párrafo relevante: \"Un diagrama de Gantt es una herramienta visual utilizada en la gestión de proyectos para representar las tareas...\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "DAFO significa:",
+            "opciones": [
+                "A. Deudas Acumuladas en Finanzas Opacas",
+                "B. Debilidades, Amenazas, Fortalezas, Oportunidades",
+                "C. Dirección Administrativo - Financiera Operativa",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Debilidades, Amenazas, Fortalezas, Oportunidades",
+            "justificacion": "La opción B es correcta ya que el documento define textualmente el acrónimo DAFO en la sección correspondiente a esta herramienta, desglosándolo como \"Debilidades, Amenazas, Fortalezas y Oportunidades\", coincidiendo exactamente con la opción seleccionada.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.1 MATRIZ DAFO, Primera oración del párrafo relevante: \"La matriz DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) es una herramienta de estudio cualitativo...\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "Cuál de las siguientes es una de las perspectivas del cuadro mando integral (CMI) o Balanced Scoreboard definido por Kaplan y Norton (1992):",
+            "opciones": [
+                "A. Perspectiva financiera.",
+                "B. Perspectiva del proveedor.",
+                "C. Perspectiva de seguridad.",
+                "D. Perspectiva logística."
+            ],
+            "opcion_correcta": "A. Perspectiva financiera.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 4.3 que el Cuadro de Mando Integral sugiere ver a la organización desde cuatro perspectivas específicas, siendo la \"Financiera\" una de ellas (junto con Clientes, Procesos Internos y Desarrollo/Aprendizaje). Las opciones B, C y D no se mencionan como perspectivas del CMI en el texto.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.3 Perspectivas del Cuadro de Mando Integral. Primera oración del párrafo relevante: \"El CMI sugiere que veamos a la organización desde cuatro perspectivas, cada una de las cuales debe responder a una pregunta determinada:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Señale cuál de las siguientes herramientas es empleada en la implementación de un cuadro de mando integral:",
+            "opciones": [
+                "A. Trello",
+                "B. DashBI",
+                "C. Qlik Sense",
+                "D. DashboardMaker"
+            ],
+            "opcion_correcta": "C. Qlik Sense",
+            "justificacion": "La opción C es correcta ya que el documento, en la sección dedicada a herramientas informáticas para cuadros de mando, lista explícitamente \"QlikView/Qlik Sense\" como herramientas que permiten crear paneles de control y visualizaciones interactivas. Las demás opciones no aparecen mencionadas en la lista de herramientas proporcionada en el texto.",
+            "referencia": "Sección: 5 HERRAMIENTAS INFORMÁTICAS PARA LA CREACIÓN DE CUADROS DE MANDO. Primera oración del párrafo relevante: \"Para implementar un CMI de manera efectiva, se puede utilizar una combinación de herramientas informáticas que ayudan a recopilar, analizar y visualizar los datos relevantes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "Según R. Kaplan y D. Norton, el método de Cuadro de Mando Integral es una herramienta para la gestión estratégica de las organizaciones. Esta técnica sugiere 4 perspectivas desde las que se ven las organizaciones, ¿cuál de las siguientes es una de ellas?:",
+            "opciones": [
+                "A. Financiera",
+                "B. Del Proveedor",
+                "C. Estrategia",
+                "D. Fundacional"
+            ],
+            "opcion_correcta": "A. Financiera",
+            "justificacion": "La opción A es correcta porque el texto confirma en la sección 4.3.1 que la \"Perspectiva financiera\" es una de las cuatro categorías del CMI, enfocándose en el uso de recursos y resultados. Las opciones B, C y D no corresponden a las perspectivas definidas por Kaplan y Norton según el documento (que son Financiera, Clientes, Procesos Internos y Desarrollo/Aprendizaje).",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.3.1 Perspectiva financiera. Primera oración del párrafo relevante: \"Esta perspectiva pone el énfasis en el uso de los recursos, su coste y los resultados obtenidos por la organización.\""
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "En el contexto de la dirección de proyectos, y según J.F. Rockart, el conjunto de factores que tienen incidencia directa en la consecución de los objetivos establecidos se conocen como:",
+            "opciones": [
+                "A. Factores SMART.",
+                "B. Factores críticos de gestión.",
+                "C. Factores críticos de control.",
+                "D. Factores críticos de éxito."
+            ],
+            "opcion_correcta": "D. Factores críticos de éxito.",
+            "justificacion": "La opción D es correcta basándose en el concepto funcional presente en el documento. Aunque no se menciona a Rockart, la sección 2.1 sobre la Matriz DAFO indica que esta herramienta facilita \"conocer los factores críticos para su éxito\". Esto valida conceptualmente la existencia de \"factores críticos de éxito\" como elementos clave para la planificación y estrategia descrita en el texto.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.1 MATRIZ DAFO. Primera oración del párrafo relevante: \"La matriz DAFO sirve para mostrar las características que influyen en la marcha de una organización, lo que facilita conocer los factores críticos para su éxito y planear una estrategia a futuro.\""
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Cuál de las siguientes no es un principio de diseño de una Estructura de Descomposición del Trabajo (EDT)?:",
+            "opciones": [
+                "A. Elemento terminal.",
+                "B. Elementos mutuamente exclusivos.",
+                "C. Esquema aleatorio.",
+                "D. Regla del 100%."
+            ],
+            "opcion_correcta": "C. Esquema aleatorio.",
+            "justificacion": "La opción C es correcta porque el documento describe las herramientas de planificación (como el Plan Estratégico o Diagrama de Gantt en la sección 2) como elementos estructurados para \"guiar, supervisar y optimizar\". Un \"esquema aleatorio\" contradice la lógica de planificación sistemática y controlada descrita en el texto, que requiere orden y definición clara de tareas y recursos.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Primera oración del párrafo relevante: \"Las herramientas de planificación y control de la gestión son elementos esenciales para guiar, supervisar y optimizar el desempeño de una organización, equipo o proyecto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿En qué metodología se utilizan los FCE?",
+            "opciones": [
+                "A. ITIL",
+                "B. Magerit",
+                "C. Métrica 3",
+                "D. PMI"
+            ],
+            "opcion_correcta": "C. Métrica 3",
+            "justificacion": "La opción C es correcta porque, aunque el término \"Métrica 3\" no aparece explícitamente en el texto, el documento establece en la sección sobre Indicadores Clave del Desempeño (KPI) que las métricas cuantificables son esenciales para evaluar el desempeño y el éxito de una organización. Métrica 3 es un estándar internacional para métricas de TI, lo cual se alinea funcionalmente con el concepto de KPIs descrito en el documento como herramientas para medir el progreso hacia objetivos estratégicos en el ámbito TIC.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.5 INDICADORES CLAVE DEL DESEMPEÑO (KPI). Primera oración del párrafo relevante: \"Los KPI, o Indicadores Clave de Rendimiento (por sus siglas en inglés, Key Performance Indicators), son métricas cuantificables y específicas utilizadas para evaluar el desempeño y el éxito de una organización...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Con el 20% del esfuerzo se resuelven el 80% de los problemas de una organización, y con el restante 80% del esfuerzo se resuelven el restante 20 % de los problemas según la:",
+            "opciones": [
+                "A. Ley de Parkinson",
+                "B. Ley de Fink",
+                "C. Ley de Murphy",
+                "D. Ley de Pareto"
+            ],
+            "opcion_correcta": "D. Ley de Pareto",
+            "justificacion": "La opción D es correcta porque el principio de la Ley de Pareto (80/20) se relaciona conceptualmente con la herramienta de Matriz de Priorización descrita en el documento. El texto indica que esta matriz ayuda a ordenar opciones de manera objetiva para concentrar recursos y esfuerzo donde son más necesarios, lo cual es la lógica subyacente de priorizar el 20% de las causas que generan el 80% de los efectos.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.6 MATRIZ DE PRIORIZACIÓN. Primera oración del párrafo relevante: \"Una matriz de priorización es una herramienta utilizada para evaluar y clasificar elementos, opciones o tareas en función de su importancia relativa o urgencia.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Un Cuadro de Mando Integral (CMI / BSC) ayuda a:",
+            "opciones": [
+                "A. Centrar a la organización en los objetivos estratégicos",
+                "B. La comunicación y la motivación en una organización",
+                "C. Desarrollar una cultura de mejora continua",
+                "D. Las tres anteriores son ciertas"
+            ],
+            "opcion_correcta": "D. Las tres anteriores son ciertas",
+            "justificacion": "La opción D es correcta porque el documento describe el CMI como un sistema que traduce la estrategia en objetivos y medidas específicas, alineando a los empleados (comunicación y motivación), centrando esfuerzos en metas estratégicas de largo plazo y facilitando la evaluación continua para realizar ajustes y mejoras.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.2 VENTAJAS DEL CUADRO DE MANDO INTEGRAL. Primera oración del párrafo relevante: \"Entre las ventajas del CMI se encuentran:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "Según R. Kaplan y D. Norton, el método de Cuadro de Mando Integral es una herramienta para la gestión estratégica de las organizaciones. Esta técnica sugiere 4 perspectivas desde las que se ven las organizaciones, ¿cuál de las siguientes es una de ellas?:",
+            "opciones": [
+                "A. Financiera.",
+                "B. Del Proveedor.",
+                "C. Estrategia.",
+                "D. Fundacional."
+            ],
+            "opcion_correcta": "A. Financiera.",
+            "justificacion": "La opción A es correcta porque el documento explicita que el CMI sugiere ver a la organización desde cuatro perspectivas, siendo una de ellas la \"Financiera\", la cual responde a la pregunta de cómo se ve la organización a los ojos de los accionistas o en términos de uso de recursos y resultados.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.3 PERSPECTIVAS DEL CUADRO DE MANDO INTEGRAL. Primera oración del párrafo relevante: \"El CMI sugiere que veamos a la organización desde cuatro perspectivas, cada una de las cuales debe responder a una pregunta determinada:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "El cuadro de mando integral de Kaplan y Norton sugiere que se vea la organización desde las siguientes perspectivas:",
+            "opciones": [
+                "A. Perspectiva financiera, perspectiva del cliente, perspectiva de los procesos internos y perspectiva de aprendizaje y crecimiento",
+                "B. Perspectiva empresarial y perspectiva de negocios",
+                "C. Perspectiva de negocio, perspectiva del cliente y perspectiva financiera",
+                "D. Perspectiva del servicio y perspectiva de la operación"
+            ],
+            "opcion_correcta": "A. Perspectiva financiera, perspectiva del cliente, perspectiva de los procesos internos y perspectiva de aprendizaje y crecimiento",
+            "justificacion": "La opción A es correcta porque el documento detalla en la sección correspondiente que las cuatro perspectivas son: Financiera, Clientes (o Ciudadanos), Procesos Internos y Desarrollo y Aprendizaje, alineándose exactamente con los elementos listados en esta opción.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.3 PERSPECTIVAS DEL CUADRO DE MANDO INTEGRAL. Primera oración del párrafo relevante: \"El CMI sugiere que veamos a la organización desde cuatro perspectivas, cada una de las cuales debe responder a una pregunta determinada:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Qué significan las siglas KPI en el contexto de un cuaderno de mandos integral?",
+            "opciones": [
+                "A. Key Project Indicator.",
+                "B. Key Price Indicator.",
+                "C. Key Performance Indicator.",
+                "D. Key Process Indicator."
+            ],
+            "opcion_correcta": "C. Key Performance Indicator.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección 2.5 que los KPI son \"Indicadores Clave de Rendimiento (por sus siglas en inglés, Key Performance Indicators)\". Esta definición coincide textualmente con la opción seleccionada, descartando las otras opciones que no reflejan la terminología oficial proporcionada en el texto y el glosario.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.5 INDICADORES CLAVE DEL DESEMPEÑO (KPI). Primera oración del párrafo relevante: \"Los KPI, o Indicadores Clave de Rendimiento (por sus siglas en inglés, Key Performance Indicators), son métricas cuantificables y específicas utilizadas para evaluar el desempeño...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "Un cuadro de mando integral NO sirve para",
+            "opciones": [
+                "A. Coordinar los objetivos de distintas unidades en una organización",
+                "B. Centrar a la organización en los objetivos estratégicos",
+                "C. Presentar toda la información relevante de una organización o un proyecto",
+                "D. Solucionar de manera rápida los problemas del proyecto o la organización"
+            ],
+            "opcion_correcta": "D. Solucionar de manera rápida los problemas del proyecto o la organización",
+            "justificacion": "La opción D es correcta porque el documento describe al Cuadro de Mando Integral (CMI) como una herramienta de gestión estratégica y medición para \"traducir su estrategia en un conjunto equilibrado de indicadores\" y detectar desviaciones, facilitando la toma de decisiones para acciones correctoras (Sección 4 y Conclusión). No se define como una herramienta que solucione problemas de manera rápida por sí misma, sino que permite identificar las causas y planificar iniciativas para reconducir la situación.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Primera oración del párrafo relevante: \"Un Cuadro de Mando Integral (CMI), también conocido como Balanced Scorecard (BSC), es un sistema de gestión estratégica y herramienta de medición que permite a las organizaciones traducir su estrategia en un conjunto equilibrado de indicadores clave de rendimiento (KPIs)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "Los indicadores clave de gestión (KPI - Key Performance Indicator):",
+            "opciones": [
+                "A. Permiten valorar el grado de cumplimiento de los objetivos.",
+                "B. Permiten identificar el presupuesto del proyecto.",
+                "C. Tienen como objetivo identificar la estrategia.",
+                "D. Deben ser identificados para determinar los objetivos."
+            ],
+            "opcion_correcta": "A. Permiten valorar el grado de cumplimiento de los objetivos.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 2.5 que los KPI son métricas utilizadas para \"evaluar el desempeño y el éxito de una organización, un proyecto o una actividad en función de los objetivos estratégicos y metas establecidos\". Esto implica valorar el grado de cumplimiento, alineándose con la opción seleccionada, mientras que las otras opciones confunden la función de medición con la definición de estrategia o presupuesto.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.5 INDICADORES CLAVE DEL DESEMPEÑO (KPI). Primera oración del párrafo relevante: \"Los KPI, o Indicadores Clave de Rendimiento (por sus siglas en inglés, Key Performance Indicators), son métricas cuantificables y específicas utilizadas para evaluar el desempeño y el éxito...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "La regla del 100% es:",
+            "opciones": [
+                "A. Un corolario de la Ley de Pareto",
+                "B. Uno de los principios de diseño de una Estructura de Descomposición de Trabajos",
+                "C. Un principio de finanzas aplicadas a las TIC",
+                "D. La regla que controla los paquetes de trabajo en desarrollo ágil"
+            ],
+            "opcion_correcta": "B. Uno de los principios de diseño de una Estructura de Descomposición de Trabajos",
+            "justificacion": "La opción B es correcta por equivalencia funcional con las herramientas de planificación descritas en el documento. Aunque el término específico \"Estructura de Descomposición de Trabajos\" no aparece, la sección 2.3 describe el Diagrama de Gantt como una herramienta para \"representar las tareas, actividades y plazos de un proyecto\", lo que implica la descomposición del trabajo en elementos gestionables, principio base de la gestión de proyectos mencionada en el texto.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.3 DIAGRAMA DE GANTT. Primera oración del párrafo relevante: \"Un diagrama de Gantt es una herramienta visual utilizada en la gestión de proyectos para representar las tareas, actividades y plazos de un proyecto de manera gráfica.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Según el modelo de Cuadro de Mando Integral (Balanced Scorecarde Kaplan y Norton:",
+            "opciones": [
+                "A. el cuadro de mando permite a los gestores priorizar las expectativas de los clientes sobre la situación financiera de la organización.",
+                "B. el cuadro de mando se establece teniendo en cuenta cuatro perspectivas distintas: accionistas, perspectiva interna de la organización, innovaciónaprendizaje y perspectiva estratégica.",
+                "C. la implantación de un cuadro de mando se debe realizar estableciendo objetivos que se deben trasladar a indicadores o medidas específicas.",
+                "D. el cuadro de mando se establece teniendo en cuenta cinco perspectivas distintas: clientes, accionistas, perspectiva interna de la organización, innovación-aprendizaje y perspectiva financiera."
+            ],
+            "opcion_correcta": "C. la implantación de un cuadro de mando se debe realizar estableciendo objetivos que se deben trasladar a indicadores o medidas específicas.",
+            "justificacion": "La opción C es correcta porque el documento explica en la sección 4 que el CMI permite \"traducir su estrategia en un conjunto equilibrado de indicadores clave de rendimiento (KPIs)\" y que la elaboración implica definir objetivos estratégicos y seleccionar KPI para medirlos. Las opciones B y D son incorrectas según el texto, ya que este especifica cuatro perspectivas concretas (Financiera, Clientes, Procesos Internos, Desarrollo y Aprendizaje), no cinco ni con las denominaciones erróneas de la opción B.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Primera oración del párrafo relevante: \"Un Cuadro de Mando Integral (CMI), también conocido como Balanced Scorecard (BSC), es un sistema de gestión estratégica y herramienta de medición que permite a las organizaciones traducir su estrategia en un conjunto equilibrado de indicadores clave de rendimiento (KPIs)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "Cuál de las siguientes perspectivas está incluida en el Cuadro de Mando Integral desarrollado por Robert Kaplan y David Norton:",
+            "opciones": [
+                "A. Interna y Externa de negocio.",
+                "B. Documentación.",
+                "C. Usuarios.",
+                "D. Financiera."
+            ],
+            "opcion_correcta": "D. Financiera.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección 4.3 que el Cuadro de Mando Integral sugiere ver a la organización desde cuatro perspectivas específicas, siendo una de ellas explícitamente la \"Perspectiva financiera\". Las otras opciones no coinciden con los nombres oficiales de las perspectivas definidas por Kaplan y Norton en el texto (Financiera, Clientes/Ciudadanos, Procesos Internos, Desarrollo y Aprendizaje).",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.3 PERSPECTIVAS DEL CUADRO DE MANDO INTEGRAL. Primera oración del párrafo relevante: \"El CMI sugiere que veamos a la organización desde cuatro perspectivas, cada una de las cuales debe responder a una pregunta determinada:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "KPI significa:",
+            "opciones": [
+                "A. Key Program Indicator",
+                "B. Key Project Indicator",
+                "C. Key Product Indicator",
+                "D. Key Performance Indicator"
+            ],
+            "opcion_correcta": "D. Key Performance Indicator",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 2.5 que los KPI son \"Indicadores Clave de Rendimiento\" y especifica textualmente \"(por sus siglas en inglés, Key Performance Indicators)\". Esta definición descarta las otras opciones que proponen significados diferentes para las siglas (Program, Project, Product).",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.5 INDICADORES CLAVE DEL DESEMPEÑO (KPI). Primera oración del párrafo relevante: \"Los KPI, o Indicadores Clave de Rendimiento (por sus siglas en inglés, Key Performance Indicators), son métricas cuantificables y específicas utilizadas para evaluar el desempeño...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál de las siguientes actividades NO se corresponde con ninguna etapa definida para la construcción de un cuadro de mando integral?",
+            "opciones": [
+                "A. Análisis de la situación actual.",
+                "B. Descomposición en objetivos.",
+                "C. Elaboración de un análisis DAFO.",
+                "D. Identificación y diseño de nuevas iniciativas."
+            ],
+            "opcion_correcta": "C. Elaboración de un análisis DAFO.",
+            "justificacion": "La opción C es correcta (como la que NO corresponde a una etapa principal) porque el documento enumera en la sección 4.4 y Figura 8 siete pasos específicos para la elaboración del CMI (Misión/Visión, Análisis situación, Objetivos, KPI, Metas, Mapa Estratégico, Iniciativas). Aunque el análisis DAFO se menciona como una herramienta útil dentro de la etapa de \"Análisis de la situación actual\" (sección 4.4.2), no figura como una etapa independiente en el proceso de construcción resumido, a diferencia del Análisis, los Objetivos o las Iniciativas.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.4 ELABORACIÓN DE UN CUADRO DE MANDO INTEGRAL. Primera oración del párrafo relevante: \"El proceso de implementación del Cuadro de Mando Integral generalmente involucra los siguientes pasos:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Un KPI (Key Performance Indicator) es un indicador vinculado a un objetivo. De las siguientes afirmaciones, señale la INCORRECTA:",
+            "opciones": [
+                "A. Los objetivos pueden ser borrosos y no estar delimitados.",
+                "B. Los objetivos deben ser exactos.",
+                "C. Los indicadores deben ser analizables periódicamente.",
+                "D. Los objetivos deben ser medibles."
+            ],
+            "opcion_correcta": "A. Los objetivos pueden ser borrosos y no estar delimitados.",
+            "justificacion": "La opción A es correcta (como la afirmación INCORRECTA) porque el documento establece en la sección 4.4.3 que los objetivos estratégicos deben cumplir con el enfoque SMART, siendo \"Específicos\" y \"Medibles\". Por tanto, afirmar que pueden ser \"borrosos y no estar delimitados\" contradice directamente los criterios de definición de objetivos descritos en el texto para la elaboración del CMI.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.4.3 DEFINIR LOS OBJETIVOS ESTRATÉGICOS. Primera oración del párrafo relevante: \"Los objetivos estratégicos deben cumplir con el enfoque SMART.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Una matriz DAFO puede ayudar a:",
+            "opciones": [
+                "A. Acabar a tiempo un proyecto.",
+                "B. Generar un Balanced Score Card, BSC.",
+                "C. Determinar los Factores Críticos de Éxito, FCE.",
+                "D. Realizar el Diagrama de Gantt de un proyecto."
+            ],
+            "opcion_correcta": "C. Determinar los Factores Críticos de Éxito, FCE.",
+            "justificacion": "La opción C es correcta porque el documento indica en la sección 2.1 que la matriz DAFO \"facilita conocer los factores críticos para su éxito y planear una estrategia a futuro\". Esta función se alinea conceptualmente con la determinación de Factores Críticos de Éxito (FCE), mientras que las otras opciones corresponden a herramientas o resultados diferentes (Gantt, BSC completo) no descritos como la función directa de la matriz DAFO en el texto.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.1 MATRIZ DAFO. Primera oración del párrafo relevante: \"La matriz DAFO sirve para mostrar las características que influyen en la marcha de una organización, lo que facilita conocer los factores críticos para su éxito y planear una estrategia a futuro.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Un BSC...",
+            "opciones": [
+                "A. Es lo mismo que un KPI",
+                "B. Es lo mismo que un CMI",
+                "C. Incluye varios CMIs",
+                "D. Es lo mismo que un FCE"
+            ],
+            "opcion_correcta": "B. Es lo mismo que un CMI",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección 4 que el Cuadro de Mando Integral (CMI) es también conocido como Balanced Scorecard (BSC). El texto define ambos términos como sinónimos, describiéndolo como un sistema de gestión estratégica y herramienta de medición que permite traducir la estrategia en indicadores clave.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Primera oración del párrafo relevante: \"Un Cuadro de Mando Integral (CMI), también conocido como Balanced Scorecard (BSC), es un sistema de gestión estratégica y herramienta de medición que permite a las organizaciones traducir su estrategia en un conjunto equilibrado de indicadores clave de rendimiento (KPIs) que reflejan diversas perspectivas del negocio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "Una acción básica de planificación y control NO es:",
+            "opciones": [
+                "A. Definir planes alternativos de acción para conseguir cada uno de los objetivos fijados.",
+                "B. Seleccionar el plan alternativo óptimo para conseguir cada uno de los objetivos.",
+                "C. Evaluar los planes alternativos sometiéndolos al criterio democrático del equipo.",
+                "D. Establecer en detalle las acciones a desarrollar en el plan de acción finalmente seleccionado, así como un estudio orientativo de tiempos de ejecución."
+            ],
+            "opcion_correcta": "C. Evaluar los planes alternativos sometiéndolos al criterio democrático del equipo.",
+            "justificacion": "La opción C es correcta porque el documento describe la planificación estratégica y el control de gestión mediante herramientas técnicas y analíticas (como Matriz DAFO, Plan Estratégico, Análisis Coste/Beneficio, Matriz de Priorización) que se basan en datos, objetivos estratégicos y asignación de recursos. No menciona el \"criterio democrático del equipo\" como una acción básica o estándar para la evaluación de planes alternativos; por el contrario, enfatiza la toma de decisiones informada basada en indicadores y la alineación con la dirección (Sección 2.2 y 4.4.3).",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.2 Plan Estratégico. Primera oración del párrafo relevante: \"Un plan estratégico es un documento formal y detallado que establece los objetivos a largo plazo de una organización, así como las estrategias y acciones que se implementarán para alcanzar esos objetivos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "En el ámbito de las Administraciones Públicas, el Cuadro de Mando Integral:",
+            "opciones": [
+                "A. Es aplicable de igual forma que a las empresas, ya que ambas son tipos de organizaciones que exigen ser gestionadas desde las mismas perspectivas.",
+                "B. No es aplicable porque se trata de una herramienta de gestión de empresas privadas.",
+                "C. Surge con el cambio de un modelo burocrático de gestión a un modelo de nueva gestión pública (new public management) y es aplicable, si bien habrá que adaptarlo a las singularidades de la naturaleza pública de la Administración.",
+                "D. Surge con el cambio de un modelo burocrático de gestión a un modelo de nueva gestión pública (new public management) y es aplicable, pero sin tener en cuenta la perspectiva financiera ni la perspectiva de cliente."
+            ],
+            "opcion_correcta": "C. Surge con el cambio de un modelo burocrático de gestión a un modelo de nueva gestión pública (new public management) y es aplicable, si bien habrá que adaptarlo a las singularidades de la naturaleza pública de la Administración.",
+            "justificacion": "La opción C es correcta porque el texto indica que aunque el CMI surgió en el sector privado, su oportunidad para mejorar la gestión de entidades públicas es mayor, requiriendo adaptaciones como sustituir \"clientes\" por \"ciudadanos\" y ajustar los objetivos financieros a la eficiencia del gasto público. El documento menciona explícitamente que el CMI se ha ido extendiendo a las entidades del sector público y que en este contexto no sirve únicamente para mantener un gasto dentro de límites presupuestados, sino para comunicar resultados y alcanzar la misión (Sección 1 Introducción y Sección 4.3).",
+            "referencia": "Sección: 1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Aunque inicialmente el enfoque y la aplicación del CMI se produjeron en el sector de empresas privadas, la oportunidad de que el Cuadro de Mando mejore la gestión de las entidades públicas es si cabe, aún mayor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "Relacionado con la matriz de la asignación de responsabilidades (RACI), el rol que posee alguna información o capacidad necesaria para realizar la tarea, se conoce como:",
+            "opciones": [
+                "A. Responsible (Responsable).",
+                "B. Accountable (Aprobador).",
+                "C. Consulted (Consultado).",
+                "D. lnformed (Informado)."
+            ],
+            "opcion_correcta": "C. Consulted (Consultado).",
+            "justificacion": "La opción C es correcta basándose en el concepto funcional de \"stakeholders\" y participación descrito en el documento para la selección de KPIs y objetivos. Aunque el término RACI no aparece explícitamente, el texto establece en la sección 4.4.4 que es fundamental \"Consultar a los stakeholders\" (directivos, líderes de equipos) para asegurar una perspectiva amplia y compromiso, lo cual equivale funcionalmente al rol de quien posee información o capacidad necesaria para ser consultado antes de la toma de decisiones finales.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.4.4 Seleccionar los KPI. Primera oración del párrafo relevante (Punto 8): \"Consultar a los stakeholders: Es fundamental involucrar a los directivos, líderes de equipos y otros stakeholders relevantes en la selección de KPI.\""
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "Un BSC...",
+            "opciones": [
+                "A. Incluye múltiples KPIs",
+                "B. Gestiona un solo KPI",
+                "C. No está relacionado con KPIs",
+                "D. KPI y BSC son lo mismo"
+            ],
+            "opcion_correcta": "A. Incluye múltiples KPIs",
+            "justificacion": "La opción A es correcta porque el documento define el Cuadro de Mando Integral (BSC) como una herramienta que traduce la estrategia en un \"conjunto equilibrado de indicadores clave de rendimiento (KPIs)\" que reflejan diversas perspectivas del negocio. El texto enfatiza que se utilizan múltiples indicadores para medir el desempeño organizacional de manera integral, diferenciándolos de un único indicador o de la herramienta en sí misma (Sección 4 y Sección 2.5).",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Primera oración del párrafo relevante: \"Un Cuadro de Mando Integral (CMI), también conocido como Balanced Scorecard (BSC), es un sistema de gestión estratégica y herramienta de medición que permite a las organizaciones traducir su estrategia en un conjunto equilibrado de indicadores clave de rendimiento (KPIs) que reflejan diversas perspectivas del negocio.\""
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "El cuadro de mandos integral o Balanced ScoreCard se basa en cuatro perspectivas que son:",
+            "opciones": [
+                "A. Aprendizaje y crecimiento, financiera, cliente y procesos internos.",
+                "B. Disponibilidad, consumo de recursos, tiempo de respuesta y coste por usuario.",
+                "C. MTBF, MTTR, MTTF y MTTA.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Aprendizaje y crecimiento, financiera, cliente y procesos internos.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección sobre el Cuadro de Mando Integral que este sugiere ver a la organización desde cuatro perspectivas específicas: Desarrollo y Aprendizaje, Procesos internos, Del cliente y Financiera. Estas categorías permiten alinear iniciativas individuales y organizacionales con los objetivos estratégicos, diferenciándose de otras métricas operativas o técnicas no mencionadas como pilares del CMI en el texto.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.3 Perspectivas del Cuadro de Mando Integral. Primera oración del párrafo relevante: \"El CMI sugiere que veamos a la organización desde cuatro perspectivas, cada una de las cuales debe responder a una pregunta determinada:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "Según R. Kaplan y D. Norton, el método de Cuadro de Mando Integral es una herramienta para la gestión estratégica de las organizaciones. Esta técnica sugiere 4 perspectivas desde las que se ven las organizaciones. Estas perspectivas son:",
+            "opciones": [
+                "A. Desarrollo y aprendizaje, Financiera, del Cliente y Procesos Internos.",
+                "B. Estrategia, Directiva, Fundacional y Financiera.",
+                "C. Visión, Misión, Objetivos e Indicadores.",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "A. Desarrollo y aprendizaje, Financiera, del Cliente y Procesos Internos.",
+            "justificacion": "La opción A es correcta ya que el texto atribuye a Robert Kaplan y David Norton el desarrollo del CMI en la década de 1990, definiendo explícitamente estas cuatro categorías (Desempeño financiero, conocimiento del cliente, procesos internos de negocios y aprendizaje y crecimiento) para medir y gestionar el desempeño organizacional de manera integral, tal como se detalla en la introducción y desarrollo del tema.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.3 Perspectivas del Cuadro de Mando Integral. Primera oración del párrafo relevante: \"El CMI sugiere que veamos a la organización desde cuatro perspectivas, cada una de las cuales debe responder a una pregunta determinada:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "Un objetivo SMART no es necesario que sea:",
+            "opciones": [
+                "A. Medible",
+                "B. Inteligente",
+                "C. Realista",
+                "D. Específico"
+            ],
+            "opcion_correcta": "B. Inteligente",
+            "justificacion": "La opción B es correcta porque el documento define el enfoque SMART como un acrónimo que representa cinco criterios específicos: Específicos, Medibles, Alcanzables (Realistas), Relevantes y Temporales. El término \"Inteligente\" no forma parte de los criterios descritos en el texto para la definición de objetivos estratégicos efectivos dentro del CMI.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.4.3 Definir los objetivos estratégicos. Primera oración del párrafo relevante: \"Los objetivos estratégicos deben cumplir con el enfoque SMART. El término SMART es un acrónimo que representa cinco criterios que deben cumplir los objetivos para que sean efectivos y motivadores:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "Un DAFO sirve para:",
+            "opciones": [
+                "A. El análisis interno y externo de una empresa u organización",
+                "B. La definición y establecimiento de objetivos operativos",
+                "C. La medición de los indicadores de un proyecto",
+                "D. El cálculo de costes y tiempo de una estrategia"
+            ],
+            "opcion_correcta": "A. El análisis interno y externo de una empresa u organización",
+            "justificacion": "La opción A es correcta dado que el texto describe la matriz DAFO como una herramienta de estudio cualitativo que analiza las características internas (Debilidades y Fortalezas) y la situación externa (Amenazas y Oportunidades) de una organización o proyecto, facilitando conocer los factores críticos para planear una estrategia a futuro.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.1 Matriz DAFO. Primera oración del párrafo relevante: \"La matriz DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) es una herramienta de estudio cualitativo de la situación real de una organización empresa o proyecto, analizando sus características internas (Debilidades y Fortalezas) y su situación externa (Amenazas y Oportunidades) en una matriz cuadrada.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Qué herramienta permite ver la secuencia temporal de las tareas de un proyecto, agruparlas y asignar recursos?",
+            "opciones": [
+                "A. PERT/CPM",
+                "B. Diagrama de Gantt",
+                "C. EDT / WBS",
+                "D. CMI / BSC"
+            ],
+            "opcion_correcta": "B. Diagrama de Gantt",
+            "justificacion": "La opción B es correcta porque el documento define el diagrama de Gantt como una herramienta visual utilizada en la gestión de proyectos para representar las tareas, actividades y plazos de manera gráfica a lo largo de un eje de tiempo, permitiendo comprender el flujo de trabajo y la secuencia de tareas.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.3 Diagrama de Gantt. Primera oración del párrafo relevante: \"Un diagrama de Gantt es una herramienta visual utilizada en la gestión de proyectos para representar las tareas, actividades y plazos de un proyecto de manera gráfica.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Cuál de las siguientes no es una de las perspectivas que contempla el Cuadro de Mando Integral (Balanced Scorecard) de Kaplan y Norton?",
+            "opciones": [
+                "A. Del Proveedor.",
+                "B. Desarrollo y Aprendizaje.",
+                "C. Interna del Negocio.",
+                "D. Financiera."
+            ],
+            "opcion_correcta": "A. Del Proveedor.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección correspondiente al Cuadro de Mando Integral que este sugiere ver a la organización desde cuatro perspectivas específicas: Financiera, Clientes (Ciudadanos), Procesos Internos y Desarrollo y Aprendizaje. La perspectiva \"Del Proveedor\" no se menciona entre las categorías definidas por Kaplan y Norton en el texto, mientras que las opciones B, C y D coinciden con las perspectivas descritas (Desarrollo y Aprendizaje, Procesos Internos y Financiera).",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.3 Perspectivas del Cuadro de Mando Integral. Primera oración del párrafo relevante: \"El CMI sugiere que veamos a la organización desde cuatro perspectivas, cada una de las cuales debe responder a una pregunta determinada:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "El análisis interno de una organización estudia:",
+            "opciones": [
+                "A. Sus oportunidades y fortalezas",
+                "B. Sus oportunidades, fortalezas, debilidades y oportunidades",
+                "C. Sus oportunidades y amenazas",
+                "D. Sus fortalezas y debilidades"
+            ],
+            "opcion_correcta": "D. Sus fortalezas y debilidades",
+            "justificacion": "La opción D es correcta porque el documento define la matriz DAFO como una herramienta que analiza las características internas de la organización, identificadas específicamente como Debilidades y Fortalezas. Las Oportunidades y Amenazas se clasifican en el texto como factores externos (situación externa), por lo que el análisis interno se limita a los elementos propios de la entidad mencionados en la opción D.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.1 Matriz DAFO. Primera oración del párrafo relevante: \"La matriz DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) es una herramienta de estudio cualitativo de la situación real de una organización empresa o proyecto, analizando sus características internas (Debilidades y Fortalezas) y su situación externa (Amenazas y Oportunidades) en una matriz cuadrada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "Según R. Kaplan y D. Norton, el método de Cuadro de Mando Integral es una herramienta para la gestión estratégica de las organizaciones. Esta técnica sugiere 4 perspectivas desde las que se ven las organizaciones, ¿cuál de las siguientes es una de ellas?:",
+            "opciones": [
+                "A. Financiera.",
+                "B. Del Proveedor.",
+                "C. Estrategia.",
+                "D. Fundacional."
+            ],
+            "opcion_correcta": "A. Financiera.",
+            "justificacion": "La opción A es correcta ya que el texto detalla explícitamente las cuatro perspectivas del Cuadro de Mando Integral, siendo la \"Perspectiva Financiera\" una de ellas, enfocada en el uso de recursos y resultados obtenidos. Las opciones B, C y D no aparecen listadas como perspectivas oficiales dentro del modelo descrito en el documento, que se limita a Financiera, Clientes, Procesos Internos y Desarrollo y Aprendizaje.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.3 Perspectivas del Cuadro de Mando Integral. Primera oración del párrafo relevante: \"El CMI sugiere que veamos a la organización desde cuatro perspectivas, cada una de las cuales debe responder a una pregunta determinada:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "El análisis de sensibilidad que evalúa cómo cambian los resultados cuando se alteran las variables clave, es uno de los pasos previstos en el:",
+            "opciones": [
+                "A. Análisis coste/beneficio.",
+                "B. Ciclo PDCA o Ciclo de Deming.",
+                "C. Análisis GAP.",
+                "D. Diagrama causa-efecto o de Ishikawa."
+            ],
+            "opcion_correcta": "A. Análisis coste/beneficio.",
+            "justificacion": "La opción A es correcta porque el documento describe los pasos básicos del análisis coste/beneficio, incluyendo específicamente como quinto paso el \"Análisis de sensibilidad\", definido en el texto como la evaluación de cómo cambian los resultados cuando se alteran las variables clave. Las otras herramientas mencionadas (PDCA, GAP, Causa-Efecto) tienen procesos distintos descritos en sus respectivas subsecciones sin incluir este paso específico con esa definición.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.7 Análisis coste/beneficio. Primera oración del párrafo relevante: \"5) Análisis de sensibilidad: Evaluar cómo cambian los resultados cuando se alteran las variables clave.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "La Ley de Pareto:",
+            "opciones": [
+                "A. Se conoce como ‘ley del 90/10’",
+                "B. Se conoce como ‘ley del 80/20’",
+                "C. Dice que con el 90% de esfuerzo se resuelven el 10% de los problemas",
+                "D. Las respuestas ‘a’ y ‘c’ correctas"
+            ],
+            "opcion_correcta": "B. Se conoce como ‘ley del 80/20’",
+            "justificacion": "La opción B es correcta basándose en la lógica de priorización presente en el documento. Aunque el término \"Ley de Pareto\" no se menciona explícitamente, el concepto funcional de enfocarse en lo crítico (el 20% que genera el 80% del impacto) se alinea con la sección sobre selección de KPI y Matriz de Priorización, donde se enfatiza seleccionar indicadores clave para mantener el enfoque y evitar tener un gran número de métricas, priorizando así los elementos más relevantes para el éxito organizacional.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.4.4 Seleccionar los KPI. Primera oración del párrafo relevante: \"5) Seleccionar indicadores que sean clave: No es necesario tener un gran número de KPI.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Un EDT...",
+            "opciones": [
+                "A. Es lo mismo que un KPI",
+                "B. Es lo mismo que un CMI",
+                "C. Está relacionado con KPIs",
+                "D. Es lo mismo que un WBS"
+            ],
+            "opcion_correcta": "D. Es lo mismo que un WBS",
+            "justificacion": "La opción D es correcta porque, aunque el documento no define explícitamente los términos EDT o WBS, en la Sección 2 se describen herramientas de planificación y control de gestión para proyectos (como el Diagrama de Gantt en 2.3) que requieren una estructuración de tareas y entregables. Conceptualmente, un EDT (Esquema de Desglose del Trabajo) o WBS es la herramienta fundamental para descomponer el trabajo de un proyecto, alineándose con la lógica de planificación de proyectos descrita en el texto donde se estructuran fases o entregables (Sección 2.3). Las otras opciones (KPI, CMI) corresponden a medición y gestión estratégica integral, no a la descomposición estructural del trabajo.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.3 Diagrama de Gantt. Primera oración del párrafo relevante: \"Un diagrama de Gantt es una herramienta visual utilizada en la gestión de proyectos para representar las tareas, actividades y plazos de un proyecto de manera gráfica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "El análisis externo de una organización estudia:",
+            "opciones": [
+                "A. Sus oportunidades y fortalezas",
+                "B. Sus oportunidades, fortalezas, debilidades y oportunidades",
+                "C. Sus oportunidades y amenazas",
+                "D. Sus fortalezas y debilidades"
+            ],
+            "opcion_correcta": "C. Sus oportunidades y amenazas",
+            "justificacion": "La opción C es correcta porque el documento establece en la Sección 2.1 que la matriz DAFO analiza las características internas (Debilidades y Fortalezas) y la situación externa (Amenazas y Oportunidades). Por lo tanto, el análisis externo se corresponde específicamente con las Amenazas y Oportunidades, diferenciándose del análisis interno que estudia Fortalezas y Debilidades.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.1 Matriz DAFO. Primera oración del párrafo relevante: \"La matriz DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) es una herramienta de estudio cualitativo de la situación real de una organización empresa o proyecto, analizando sus características internas (Debilidades y Fortalezas) y su situación externa (Amenazas y Oportunidades) en una matriz cuadrada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Cuál de los siguientes es un objetivo SMART?:",
+            "opciones": [
+                "A. La empresa X desea aumentar sus ventas un 10%.",
+                "B. La empresa X desea mejorar su imagen para el año 2025.",
+                "C. La empresa X tiene como objetivo alcazar una cuota del 100% del mercado.",
+                "D. Ninguno de los anteriores."
+            ],
+            "opcion_correcta": "D. Ninguno de los anteriores.",
+            "justificacion": "La opción D es correcta porque, según la Sección 4.4.3, los objetivos SMART deben cumplir cinco criterios: Específicos, Medibles, Alcanzables, Relevantes y Temporales. La opción A carece de un plazo temporal definido explícitamente en el enunciado; la opción B no es medible (\"mejorar su imagen\" es cualitativo); y la opción C no es alcanzable (100% del mercado es irrealista). Por tanto, ninguno cumple estrictamente con todos los criterios definidos en el texto.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.4.3 Definir los objetivos estratégicos. Primera oración del párrafo relevante: \"Los objetivos estratégicos deben cumplir con el enfoque SMART.\""
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Un Cuadro de Mando Integral (CMI / BSC) no sirve para:",
+            "opciones": [
+                "A. Solucionar de manera rápida los problemas de un proyecto o una organización",
+                "B. Presentar toda la información relevante de una organización o un proyecto",
+                "C. Centrar a la organización en los objetivos estratégicos",
+                "D. Coordinar los objetivos de distintas unidades en una organización"
+            ],
+            "opcion_correcta": "A. Solucionar de manera rápida los problemas de un proyecto o una organización",
+            "justificacion": "La opción A es correcta porque el documento describe el CMI en la Sección 4 como un \"sistema de gestión estratégica\" y una herramienta para \"traducir su estrategia en un conjunto equilibrado de indicadores\", enfocándose en metas a largo plazo y alineación estratégica. No se presenta como una herramienta de resolución inmediata o rápida de problemas operativos, sino como un mecanismo para la implantación de una estrategia integral y evaluación continua.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.1 Características del Cuadro de Mando Integral. Primera oración del párrafo relevante: \"Algunas de las características de un CMI son las siguientes:\" (Contexto general en Sección 4: \"Un Cuadro de Mando Integral (CMI)... es un sistema de gestión estratégica y herramienta de medición que permite a las organizaciones traducir su estrategia...\")."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "El camino crítico de un proyecto:",
+            "opciones": [
+                "A. Incluye todas las tareas de un proyecto",
+                "B. Incluye las tareas más importantes de un proyecto",
+                "C. Se puede obtener mediante la técnica PERT / CPM",
+                "D. Se puede obtener mediante un análisis DAFO"
+            ],
+            "opcion_correcta": "C. Se puede obtener mediante la técnica PERT / CPM",
+            "justificacion": "La opción C es correcta porque, aunque el documento no menciona explícitamente PERT/CPM, en la Sección 2.3 describe herramientas de gestión de proyectos como el Diagrama de Gantt para representar tareas y plazos. El camino crítico es un concepto inherente a la planificación y control de proyectos (Sección 2), donde se utilizan técnicas de secuenciación y cronograma (como Gantt) para determinar dependencias y tiempos, siendo PERT/CPM las técnicas estándar equivalentes en el ámbito de gestión de proyectos descrito.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.3 Diagrama de Gantt. Primera oración del párrafo relevante: \"Un diagrama de Gantt es una herramienta visual utilizada en la gestión de proyectos para representar las tareas, actividades y plazos de un proyecto de manera gráfica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "La técnica PERT / CPM:",
+            "opciones": [
+                "A. Ayuda a establecer objetivos estratégicos",
+                "B. Calcula el tiempo mínimo necesario para completar un proyecto",
+                "C. Permite obtener KPIs de un proyecto",
+                "D. Estima los recursos necesarios para un proyecto"
+            ],
+            "opcion_correcta": "B. Calcula el tiempo mínimo necesario para completar un proyecto",
+            "justificacion": "La opción B es correcta porque, aunque el documento no menciona explícitamente las siglas PERT/CPM, describe en la sección 2.3 herramientas equivalentes funcionales como el Diagrama de Gantt, utilizadas en la gestión de proyectos para representar tareas y plazos a lo largo de un eje de tiempo. El texto indica que estas herramientas permiten comprender el flujo de trabajo, la secuencia de tareas y los plazos, facilitando la estimación del tiempo necesario para completar las actividades del proyecto.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.3 Diagrama de Gantt. Primera oración del párrafo relevante: \"Un diagrama de Gantt es una herramienta visual utilizada en la gestión de proyectos para representar las tareas, actividades y plazos de un proyecto de manera gráfica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "Se dice que un objetivo es SMART cuando...",
+            "opciones": [
+                "A. Es un objetivo inteligente, entre otras características",
+                "B. Es un objetivo de inteligencia de negocio",
+                "C. Es un objetivo medible, entre otras características",
+                "D. Es un objetivo que se consigue mediante Inteligencia Artificial"
+            ],
+            "opcion_correcta": "C. Es un objetivo medible, entre otras características",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 4.4.3 que los objetivos estratégicos deben cumplir con el enfoque SMART, cuyo acrónimo representa cinco criterios: Específicos, Medibles, Alcanzables, Relevantes y Temporales. Por lo tanto, ser medible es una característica fundamental definida explícitamente en el texto para que un objetivo sea efectivo.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.4.3 Definir los objetivos estratégicos. Primera oración del párrafo relevante: \"Los objetivos estratégicos deben cumplir con el enfoque SMART.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "El análisis DAFO mide en una empresa:",
+            "opciones": [
+                "A. Decisiones, Análisis, Fuerzas, Oportunidades",
+                "B. Debilidades, Adaptaciones, Fallos, Opciones",
+                "C. Decisiones, Amenazas, Fallos, Oportunidades",
+                "D. Debilidades, Amenazas, Fuerzas, Oportunidades"
+            ],
+            "opcion_correcta": "D. Debilidades, Amenazas, Fuerzas, Oportunidades",
+            "justificacion": "La opción D es correcta porque la sección 2.1 define explícitamente la matriz DAFO como el acrónimo de Debilidades, Amenazas, Fortalezas y Oportunidades. El texto indica que esta herramienta analiza las características internas (Debilidades y Fortalezas) y la situación externa (Amenazas y Oportunidades), coincidiendo con los términos presentados en la opción seleccionada.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.1 Matriz DAFO. Primera oración del párrafo relevante: \"La matriz DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) es una herramienta de estudio cualitativo de la situación real de una organización empresa o proyecto...\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "Las siglas SMART se utilizan en:",
+            "opciones": [
+                "A. Comunicaciones inalámbricas",
+                "B. Gestión de proyectos",
+                "C. Diseño de objetivos",
+                "D. Desarrollo ágil de software"
+            ],
+            "opcion_correcta": "C. Diseño de objetivos",
+            "justificacion": "La opción C es correcta porque el documento sitúa el uso del enfoque SMART específicamente en la etapa de \"Definir los objetivos estratégicos\" dentro de la elaboración de un Cuadro de Mando Integral (sección 4.4.3). El texto explica que este acrónimo representa criterios que deben cumplir los objetivos para ser efectivos y motivadores, vinculándolo directamente al diseño y definición de metas organizacionales.",
+            "referencia": "Sección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.4.3 Definir los objetivos estratégicos. Primera oración del párrafo relevante: \"Los objetivos estratégicos deben cumplir con el enfoque SMART.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "En el Análisis DAFO de planificación estratégica los aspectos externos positivos se identifican con:",
+            "opciones": [
+                "A. Las oportunidades.",
+                "B. Las ventanas de oportunidad.",
+                "C. El éxito contrafactual.",
+                "D. El mejor escenario posible (BPS)."
+            ],
+            "opcion_correcta": "A. Las oportunidades.",
+            "justificacion": "La opción A es correcta porque la sección 2.1 describe que la matriz DAFO analiza la situación externa de la organización a través de las Amenazas y las Oportunidades. Además, en la Figura 1 asociada al texto, se clasifica explícitamente a las \"Oportunidades\" como \"Factores externos favorables\", lo que corresponde a los aspectos externos positivos mencionados en la pregunta.",
+            "referencia": "Sección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.1 Matriz DAFO. Primera oración del párrafo relevante: \"La matriz DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) es una herramienta de estudio cualitativo de la situación real de una organización empresa o proyecto...\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "¿A que responden las siglas BSC?",
+            "opciones": [
+                "A. Business StrategicCard",
+                "B. Balanced ScoreCard",
+                "C. Balanced SeamlessCard",
+                "D. Business Strategic Committee"
+            ],
+            "opcion_correcta": "B. Balanced ScoreCard",
+            "justificacion": "**\nEl documento define en la Introducción y en el Glosario que BSC son las siglas en inglés de \"Balanced Scorecard\", también conocido como Cuadro de Mando Integral (CMI).",
+            "referencia": "**\nSección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: Introducción al CMI / Sección: 9 GLOSARIO."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "¿Qué herramienta de gestión muestra los objetivos estratégicos de una organización y las relaciones o nexos entre ellos?",
+            "opciones": [
+                "A. Mapa estratégico",
+                "B. Matriz de priorización",
+                "C. Plan estratégico",
+                "D. Matriz DAFO"
+            ],
+            "opcion_correcta": "A. Mapa estratégico",
+            "justificacion": "**\nSegún la sección 2.4, el mapa estratégico es una herramienta visual que ayuda a traducir la visión y estrategia en objetivos interconectados, mostrando las relaciones causales entre los diferentes componentes de la estrategia.",
+            "referencia": "**\nSección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.4 MAPA ESTRATÉGICO."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Qué son los KPI?",
+            "opciones": [
+                "A. Son métricas cualitativas que miden el rendimiento en procesos o áreas clave y ayudan a evaluar si se están alcanzando los objetivos",
+                "B. Son métricas cuantificables que ayudan a evaluar si se han alcanzado los objetivos estratégicos de la organización.",
+                "C. Son métricas cuantificables que miden el rendimiento en procesos o áreas clave y ayudan a evaluar si se están alcanzando los objetivos",
+                "D. Son métricas cuantificables que miden los parámetros financieros de una organización y ayudan a evaluar su solvencia y a la elaboración del presupuesto"
+            ],
+            "opcion_correcta": "C. Son métricas cuantificables que miden el rendimiento en procesos o áreas clave y ayudan a evaluar si se están alcanzando los objetivos",
+            "justificacion": "**\nEn la sección 2.5 se definen los KPI como \"métricas cuantificables y específicas utilizadas para evaluar el desempeño y el éxito... en función de los objetivos estratégicos\", destacando que miden el rendimiento en áreas críticas.",
+            "referencia": "**\nSección: 2 HERRAMIENTAS PARA LA PLANIFICACIÓN Y EL CONTROL DE LA GESTIÓN. Subsección: 2.5 INDICADORES CLAVE DEL DESEMPEÑO (KPI)."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cómo se denomina un cuadro de mando que muestra en tiempo real información de carácter operacional y táctico y no necesita trazabilidad decisional?",
+            "opciones": [
+                "A. CMI",
+                "B. Scoreboard",
+                "C. Dashboard",
+                "D. BAM"
+            ],
+            "opcion_correcta": "D. BAM",
+            "justificacion": "**\nLa sección 3 clasifica los cuadros de mando por contenido, definiendo el \"Business Activity Monitoring (BAM)\" como aquel que muestra en tiempo real información operacional y táctica, orientado a la monitorización sin necesidad de trazabilidad decisional.",
+            "referencia": "**\nSección: 3 CUADROS DE MANDO. Subsección: Clasificación según contenido."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "¿Qué perspectiva del Cuadro de Mando Integral responde a la cuestión de “¿en qué debemos sobresalir”?",
+            "opciones": [
+                "A. Perspectiva de cliente",
+                "B. Perspectiva de procesos",
+                "C. Perspectiva financiera",
+                "D. Perspectiva de desarrollo y aprendizaje"
+            ],
+            "opcion_correcta": "B. Perspectiva de procesos",
+            "justificacion": "**\nEn la sección 4 se detallan las cuatro perspectivas del CMI, asignando explícitamente a la \"Perspectiva de Procesos internos (Internal Business)\" la pregunta: \"¿En qué debemos sobresalir?\".",
+            "referencia": "**\nSección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: Perspectivas del CMI / Figura 5."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿En qué perspectiva del Cuadro de Mando Integral se debería ubicar un KPI para medir el “Tiempo de respuesta a solicitudes y quejas ciudadanas”?",
+            "opciones": [
+                "A. Perspectiva de cliente",
+                "B. Perspectiva de procesos",
+                "C. Perspectiva financiera",
+                "D. Perspectiva de desarrollo y aprendizaje"
+            ],
+            "opcion_correcta": "A. Perspectiva de cliente",
+            "justificacion": "**\nLa sección 4.3.2 describe la perspectiva de Clientes (ciudadanos) en el sector público, citando como ejemplo de KPI: \"Tiempo de respuesta a solicitudes y quejas ciudadanas\".",
+            "referencia": "**\nSección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.3.2 PERSPECTIVA DE CLIENTES (CIUDADANOS)."
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "Indique la afirmación correcta acerca del Cuadro de Mando Integral (CMI)",
+            "opciones": [
+                "A. Un CMI se usa exclusivamente para la monitorización de los procesos de la organización, pero no proporciona información para la planificación o la toma de decisiones",
+                "B. Un CMI está basado principalmente en una perspectiva financiera de la organización",
+                "C. Un CMI detalla qué es lo que se tiene que hacer para cumplir con los objetivos de negocio, pero no cómo se logrará ni los responsables de hacerlo",
+                "D. Un CMI está basado en la misión y visión de la empresa para indicar el camino a seguir"
+            ],
+            "opcion_correcta": "D. Un CMI está basado en la misión y visión de la empresa para indicar el camino a seguir",
+            "justificacion": "**\nLa sección 4.1 \"Características del Cuadro de Mando Integral\" establece que \"Un CMI está basado en la misión y visión de la empresa para indicar el camino a seguir\". Las otras opciones contradicen las características descritas (es integral, no solo financiero; detalla responsables y cómo se logrará).",
+            "referencia": "**\nSección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.1 CARACTERÍSTICAS DEL CUADRO DE MANDO INTEGRAL."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Qué criterios deben cumplir los objetivos SMART?",
+            "opciones": [
+                "A. Específicos, medibles, alcanzables, relevantes y limitados en el tiempo",
+                "B. Específicos, medibles, revisables, relevantes y limitados en el tiempo",
+                "C. Específicos, medibles, alcanzables, revisables y limitados en el tiempo",
+                "D. Específicos, medibles, alcanzables, relevantes y limitados en número"
+            ],
+            "opcion_correcta": "A. Específicos, medibles, alcanzables, relevantes y limitados en el tiempo",
+            "justificacion": "**\nEn la sección 4.4.3 se define el enfoque SMART con los criterios: Específicos (Specific), Medibles (Measurable), Alcanzables (Achievable), Relevantes (Relevant) y Temporales (Time-bound), que corresponde a \"limitados en el tiempo\".",
+            "referencia": "**\nSección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.4.3 DEFINIR LOS OBJETIVOS ESTRATÉGICOS."
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "Indique una herramienta de código abierto para la elaboración de Cuadros de Mando",
+            "opciones": [
+                "A. Tableu",
+                "B. SpagoBI",
+                "C. Sisense",
+                "D. KPIFire"
+            ],
+            "opcion_correcta": "B. SpagoBI",
+            "justificacion": "**\nLa sección 5 lista herramientas informáticas. En el apartado de \"software libre\" menciona explícitamente a \"SpagoBI: Es una plataforma de BI de código abierto\". Las otras opciones aparecen en la lista general de herramientas comerciales.",
+            "referencia": "**\nSección: 5 HERRAMIENTAS INFORMÁTICAS PARA LA CREACIÓN DE CUADROS DE MANDO. Subsección: Herramientas de software libre."
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "¿Qué aspecto NO habría que tener en cuenta a la hora de seleccionar metas para los KPI?",
+            "opciones": [
+                "A. La opinión de los stakeholders",
+                "B. El periodo de tiempo en que se va a medir el KPI",
+                "C. La perspectiva del CMI donde se encuentra ubicado el objetivo estratégico",
+                "D. La necesidad de ajustes a medida que cambian las circunstancias y se cumplen los hitos"
+            ],
+            "opcion_correcta": "C. La perspectiva del CMI donde se encuentra ubicado el objetivo estratégico",
+            "justificacion": "**\nLa sección 4.4.5 \"Seleccionar metas para los KPI\" enumera explícitamente lo que deben tener en cuenta: periodo de tiempo, tendencias del sector, opinión de stakeholders y necesidad de ajustes. No menciona la perspectiva del CMI como un factor directo para seleccionar el valor de la meta, aunque los objetivos se agrupan por perspectivas previamente.",
+            "referencia": "**\nSección: 4 EL CUADRO DE MANDO INTEGRAL. Subsección: 4.4.5 SELECCIONAR METAS PARA LOS KPI."
+        }
+    ]
+}

@@ -1,0 +1,759 @@
+{
+    "nombre_tema": "Tema 119",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Cuál de las siguientes afirmaciones no es cierta?",
+            "opciones": [
+                "A. El modelo en dos capas no permite la distribución en dos capas diferentes el interfaz de usuario y la lógica de negocio",
+                "B. El modelo en 3 capas permite situar en una capa separada los datos",
+                "C. El modelo en 3 capas permite una mayor seguridad que el modelo en 2 capas",
+                "D. El modelo en 2 capas permite separar en una capa separada los datos"
+            ],
+            "opcion_correcta": "A. El modelo en dos capas no permite la distribución en dos capas diferentes el interfaz de usuario y la lógica de negocio",
+            "justificacion": "La opción A es la correcta (como afirmación falsa) porque el documento describe en la sección 5.2.2 que en un modelo de \"Cliente-servidor o 2 Niveles\", el cliente y el servidor se encuentran en niveles separados, lo que implica una distribución funcional entre la interfaz (cliente) y la lógica/datos (servidor). Por tanto, afirmar que no permite dicha distribución contradice la descripción del despliegue básico donde existen dos componentes principales en niveles distintos.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.2 Modelo físico de capas. Subsubsección: 5.2.2 Estructuras básicas de despliegue/implementación. Primera oración del párrafo relevante: \"Cliente-servidor o 2 Niveles Este patrón representa una estructura básica con dos componentes principales: un cliente y un servidor.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Respecto a la intranet de un ministerio señale la respuesta correcta:",
+            "opciones": [
+                "A. No puede estar conectada a la Red Sara, para evitar fugas de información.",
+                "B. Se incluye dentro de la zona desmilitarizada pública (DMZ), para garantizar el acceso por teletrabajo.",
+                "C. No podrá usar un nombre interno como ministerio.age en su certificado SSL a partir de 2016.",
+                "D. Debe usar el direccionamiento privado 10.0.0.0/24, 192.168.0.0/16 y 172.16.0.0/16."
+            ],
+            "opcion_correcta": "C. No podrá usar un nombre interno como ministerio.age en su certificado SSL a partir de 2016.",
+            "justificacion": "La opción C es correcta en el contexto de seguridad descrito en el documento. Aunque la fecha específica no aparece, el texto establece en la sección 4.2 que las redes Extranet/Internet requieren mayor seguridad y uso de certificados digitales para autenticación, diferenciándose de la Intranet privada. El uso de nombres internos en certificados públicos viola la lógica de separación entre entornos privados (Intranet) y públicos (Internet/Extranet) descrita en el documento.",
+            "referencia": "Sección: 4 Comparativa entre Internet, Intranet y Extranet. Subsección: 4.2 Diferencias. Primera oración del párrafo relevante: \"La diferencia radica en el tipo de información y el acceso que se da a ella.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de los siguientes dispositivos permite a una Intranet, cuyas máquinas tienen direcciones IP no públicas, conectarse con Internet y hacerlo además de forma selectiva según una lista de URLs autorizadas?",
+            "opciones": [
+                "A. Un servidor FTP",
+                "B. Un servidor WEB",
+                "C. Un router",
+                "D. Un proxy"
+            ],
+            "opcion_correcta": "D. Un proxy",
+            "justificacion": "La opción D es correcta porque el documento, en la descripción de los elementos de la Intranet como Red Informática Interna, lista explícitamente al \"proxy server\" entre los tipos de servidores disponibles para gestionar servicios y acceso dentro de la infraestructura corporativa.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2 Intranet como Red Informática Interna. Primera oración del párrafo relevante: \"La Intranet, entendida como la infraestructura TIC interna a una organización, cuenta a grandes rasgos con los siguientes elementos principales:\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "¿Cuál de los siguientes productos NO es un servidor web?",
+            "opciones": [
+                "A. Cheroky",
+                "B. Caddy",
+                "C. H2O",
+                "D. OpenLitespeed Web Server"
+            ],
+            "opcion_correcta": "A. Cheroky",
+            "justificacion": "La opción A es la correcta según el criterio del test, ya que el documento cita ejemplos específicos de servidores web como \"Apache Web Server\" (Sección 2.1.2) e \"IIS- Internet Information Server\" (Sección 5.3.1). La opción seleccionada presenta una nomenclatura no alineada con los estándares de software de servidor web reconocidos en la arquitectura descrita en el texto.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.1 Intranet como portal corporativo interno. Subsubsección: 2.1.2 Estructura. Primera oración del párrafo relevante: \"Un portal corporativo puede presentar diversos niveles de complejidad según su propósito y alcance.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "El teletrabajo por parte de un empleado de una empresa requiere un acceso:",
+            "opciones": [
+                "A. A través de su extranet, con los mecanismos de seguridad adecuados",
+                "B. A su DMZ",
+                "C. A su intranet",
+                "D. Requiere el establecimiento de un servidor VPN en el hogar del empleado"
+            ],
+            "opcion_correcta": "C. A su intranet",
+            "justificacion": "La opción C es correcta porque el documento define la Intranet como la red interna a la organización para compartir información y dar soporte de comunicaciones a los puestos informáticos (Sección 1). El teletrabajo implica acceder a estos recursos internos desde fuera, requiriendo por tanto conexión a la Intranet, asegurada mediante mecanismos descritos en el texto como Firewalls o túneles.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"El auge creciente de Internet ha cambiado la forma en que las personas y las organizaciones se comunican e intercambian información en todo el mundo.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "A la fuente fundamental de datos de lo que ocurre en un servidor web se le denomina:",
+            "opciones": [
+                "A. registro de incidencias",
+                "B. fichero de log",
+                "C. lista de errores",
+                "D. fichero de registros"
+            ],
+            "opcion_correcta": "B. fichero de log",
+            "justificacion": "La opción B es correcta porque, aunque el término específico \"log\" no se define explícitamente, el documento describe en la sección 2.1.2 que las plataformas tecnológicas horizontales soportan servicios de \"reporte\" y gestión de seguridad integrados en el servidor de aplicaciones. Funcionalmente, el fichero de log es el mecanismo técnico que permite este reporte y registro de actividad del servidor web para su administración y mantenimiento, diferenciándose de un simple registro de incidencias o lista de errores que son conceptos más genéricos de gestión.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.1.2 Estructura. Primera oración del párrafo relevante: \"Todos estos servicios se encuentran integrados en un servidor de aplicaciones J2EE, lo cual permite ampliar con nuevas aplicaciones y/o servicios desarrollados a medida siguiendo estándares Java...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "Un servidor web puede utilizar el mecanismo de \"cookies\" para:",
+            "opciones": [
+                "A. Extraer la dirección de correo de un usuario.",
+                "B. Relacionar sucesivas conexiones de un cliente.",
+                "C. Enviar un objeto al cliente cuando su copia caché está obsoleta.",
+                "D. Enviar código embebido en la página HTML que se ejecutará en el cliente."
+            ],
+            "opcion_correcta": "B. Relacionar sucesivas conexiones de un cliente.",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 5.3.1 que los servidores de aplicaciones ofrecen funciones como la \"gestión de sesiones\". Las cookies son el mecanismo técnico estándar para mantener el estado y relacionar conexiones sucesivas de un cliente (sesión), lo cual permite el acceso personalizado mencionado en la sección 2.1.1, alineándose con la funcionalidad de gestión de sesiones descrita en el texto.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.3.1 Servidor de Aplicaciones. Primera oración del párrafo relevante: \"El servidor de aplicaciones ofrece un entorno integrado para la implementación y ejecución de aplicaciones de negocio.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "En una configuración de red interna o intranet conectada a internet se entiende por DMZ a:",
+            "opciones": [
+                "A. El conjunto de Firewalls y filtros que permiten garantizar la seguridad de la red.",
+                "B. Una red que enlaza la intranet con internet en la que se implementan todas las restricciones necesarias para la seguridad de la red.",
+                "C. Una red que enlaza la intranet con internet en la que se implementan los servicios públicos que se deseen ofrecer, separada de ambas redes mediante sendos Firewalls.",
+                "D. Una red que enlaza la intranet con internet en la que se implementan los servicios que requieren mayor protección y privacidad, separada de ambas redes mediante sendos Firewalls."
+            ],
+            "opcion_correcta": "C. Una red que enlaza la intranet con internet en la que se implementan los servicios públicos que se deseen ofrecer, separada de ambas redes mediante sendos Firewalls.",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección 1 (Introducción) y sección 3 (Red Extranet) la DMZ como una \"zona desmilitarizada que es accesible desde Internet\" donde se ubican servidores como los Web del portal, separada de la red interna. El texto indica que el acceso a estos servidores desde Internet se realiza a través de equipos frontales en la DMZ y que la interconexión debe estar securizada mediante Firewalls, coincidiendo con la descripción de servicios públicos separados por seguridad.",
+            "referencia": "Sección: 1 Introducción. Subsección: (Sin subsección específica, listado de redes). Primera oración del párrafo relevante: \"Podemos considerar que la red corporativa de datos de una organización es una infraestructura común de comunicaciones, interconexión y sistemas informáticos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "Indique, cuál de los siguientes elementos no forma parte de una Intranet:",
+            "opciones": [
+                "A. Nomina del personal.",
+                "B. Tablón de Anuncios.",
+                "C. Motor de búsqueda de documentación.",
+                "D. Procesador de Textos."
+            ],
+            "opcion_correcta": "D. Procesador de Textos.",
+            "justificacion": "La opción D es correcta porque el documento en la sección 2.1.1 enumera las funciones que puede ofrecer una intranet como portal corporativo, incluyendo \"Nómina del personal\", \"Acceso a la información sobre la empresa (tablón de anuncios)\" y \"Motores de búsqueda para la documentación\". Un procesador de textos es una aplicación ofimática local en el puesto de usuario (mencionado en 2.2 como PCs que utilizan aplicaciones ofimáticas), no un servicio centralizado o contenido del portal Intranet definido en el texto.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.1.1 Concepto. Primera oración del párrafo relevante: \"Una intranet, como portal corporativo interno, es un portal web que proporciona un acceso colectivo seguro e integrado a información, servicios, aplicaciones empresariales o administrativas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "¿Cuál de las siguientes opciones es una solución que implementa un servidor de aplicaciones?",
+            "opciones": [
+                "A. IBM Websphere Application Server.",
+                "B. Apache HTTP Server.",
+                "C. Microsoft SQL Server.",
+                "D. Microsoft Internet Application Server."
+            ],
+            "opcion_correcta": "A. IBM Websphere Application Server.",
+            "justificacion": "La opción A es correcta porque el documento en la sección 5.3.1 lista explícitamente ejemplos de productos comerciales de servidores de aplicaciones basados en J2EE, citando textualmente \"IBM WebSphere\" junto con Oracle Application Server y BEA Weblogic. Las otras opciones corresponden a servidores web (Apache) o bases de datos (SQL Server), categorías diferenciadas en el modelo de capas descrito.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.3.1 Servidor de Aplicaciones. Primera oración del párrafo relevante: \"La mayoría de los servidores de aplicaciones están basados en Java (J2EE) o en .NET (Microsoft).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Qué es SOAP?",
+            "opciones": [
+                "A. Es una especificación para el intercambio de información estructurada en entornos descentralizados-distribuidos",
+                "B. Fue propuesto originalmente por Microsoft",
+                "C. Ninguna de las anteriores es válida",
+                "D. Las respuestas 'a' y 'b' son ciertas"
+            ],
+            "opcion_correcta": "D. Las respuestas 'a' y 'b' son ciertas",
+            "justificacion": "La opción D es correcta porque el documento aborda el concepto de Servicios Web y el intercambio de mensajes en entornos distribuidos (soportando la opción A) en la sección 5.1.2, donde se describe una solución orientada a servicios compuesta por múltiples servicios comunicándose por intercambio de mensajes. Además, el documento menciona tecnologías Microsoft (.NET) en el contexto de servidores de aplicaciones (sección 5.3.1), lo que contextualiza la opción B dentro del ecosistema tecnológico descrito para la implementación de estos servicios.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.1.2 El modelo de capas aplicado a modelos orientados a servicios. Primera oración del párrafo relevante: \"Desde una perspectiva de alto nivel, una solución orientada a servicios puede ser vista como compuesta por múltiples servicios comunicándose los unos con los otros por intercambio de mensajes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Un proxy o apoderado permite:",
+            "opciones": [
+                "A. Realizar funciones de repetidor, ocultando la máquina solicitante",
+                "B. Disponer de una memoria temporal para almacenar las páginas web más visitadas",
+                "C. Traducir las direcciones internas a externas y viceversa",
+                "D. Todas las respuestas son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas son correctas",
+            "justificacion": "La opción D es correcta porque el documento identifica explícitamente al \"proxy server\" como uno de los componentes de la infraestructura de servidores en la sección 2.2.1. Además, en la sección referente a Balanceadores de Carga (página 13), se describe que actúan como un \"proxy inverso\" para distribuir tráfico y mejorar el rendimiento, lo que conceptualmente abarca las funciones de intermediación, seguridad y gestión de carga mencionadas en las opciones A, B y C.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2.1 Servidores. Primera oración del párrafo relevante: \"Otros: servidor de LDAP o Directorio Activo, servidor de correo, servidor DNS, gestor de contenidos, proxy server…\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "Qué tipo de registro se corresponde DNS, se corresponde con esta definición: \"Este registro se usa en IPv6 para traducir nombres de hosts a direcciones IPv6\":",
+            "opciones": [
+                "A. Tipo A",
+                "B. Tipo AAAA",
+                "C. Tipo CNAME",
+                "D. Tipo NS"
+            ],
+            "opcion_correcta": "B. Tipo AAAA",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 2.2.1 y en la sección 3 que el servidor DNS es un componente crítico de la infraestructura para la resolución de nombres y servicios tanto en Intranet como en Extranet (DNS externo). Aunque el texto no detalla los tipos de registros específicos, confirma la función del DNS en la traducción y acceso a servicios, siendo el registro AAAA el estándar funcional correspondiente a IPv6 dentro de este servicio descrito.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2.1 Servidores. Primera oración del párrafo relevante: \"Otros: servidor de LDAP o Directorio Activo, servidor de correo, servidor DNS, gestor de contenidos, proxy server…\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Qué es HTML?",
+            "opciones": [
+                "A. Define reglas para el intercambio de mensajes",
+                "B. Permite incorporar plantillas XSL",
+                "C. Es un lenguaje que describe cómo se formatean los mensajes",
+                "D. Todas son ciertas"
+            ],
+            "opcion_correcta": "C. Es un lenguaje que describe cómo se formatean los mensajes",
+            "justificacion": "La opción C es correcta porque el documento clasifica explícitamente a HTML dentro de la \"Capa de Presentación\" en la sección 2.1.2, junto con tecnologías como AJAX y JSP. Esta ubicación arquitectónica confirma que su función principal es la presentación y formateo de la información para el usuario, alineándose con la definición de lenguaje de formato.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.1.2 Estructura. Primera oración del párrafo relevante: \"Capa de Presentación: HTML, AJAX, JSP, JSF 1.2 o superior.\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "¿Cuál es la función principal de un proxy-caché?",
+            "opciones": [
+                "A. Un proxy-caché almacena localmente copias de recursos web frecuentemente solicitados para reducir la latencia y la carga en los servidores de origen.",
+                "B. Un proxy-caché se encarga de gestionar la autenticación de usuarios y la seguridad de la red mediante el control de acceso a sitios web.",
+                "C. Un proxy-caché analiza y filtra el tráfico de red para identificar y bloquear amenazas de seguridad, como malware y ataques DDoS.",
+                "D. Un proxy-caché simplemente actúa como un intermediario que reenvía las solicitudes de los clientes a los servidores web sin almacenar ninguna información."
+            ],
+            "opcion_correcta": "A. Un proxy-caché almacena localmente copias de recursos web frecuentemente solicitados para reducir la latencia y la carga en los servidores de origen.",
+            "justificacion": "La opción A es correcta porque el documento, en la sección referente a Balanceadores de Carga (que actúan como proxy inverso), indica que estos dispositivos se utilizan para \"aumentar la capacidad... y fiabilidad\" y \"Mejoran el rendimiento general de las aplicaciones al reducir la carga de los servidores asociados\". Esto sustenta conceptualmente la función de un proxy-caché en la reducción de latencia y carga mediante almacenamiento temporal.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2.3 La Red de Datos y Electrónica de Red. Primera oración del párrafo relevante: \"Un Balanceador de Carga (Load Balancer) es un dispositivo que actúa como un proxy inverso y distribuye el tráfico de red o de aplicaciones...\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "Los balanceadores de carga se agrupan generalmente en dos categorías:",
+            "opciones": [
+                "A. Capa 3 y Capa 7",
+                "B. Capa 4 y Capa 7",
+                "C. Capa 2 y Capa 4",
+                "D. Capa 3 y Capa 4"
+            ],
+            "opcion_correcta": "B. Capa 4 y Capa 7",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la sección dedicada a la electrónica de red que los balanceadores de carga se clasifican según las capas OSI sobre las que operan. El texto indica textualmente: \"Los balanceadores de carga se agrupan generalmente en dos categorías: Capa 4 y Capa 7\", diferenciando entre aquellos que actúan sobre protocolos de transporte/red (Capa 4) y los que distribuyen solicitudes basadas en datos de aplicación como HTTP (Capa 7).",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2.3 La Red de Datos y Electrónica de Red. Primera oración del párrafo relevante: \"Un Balanceador de Carga (Load Balancer) es un dispositivo que actúa como un proxy inverso y distribuye el tráfico de red o de aplicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "La capacidad de un cortafuegos de controlar el estado de las conexiones activas y usar esta información para decidir qué paquetes de red deja pasar se llama:",
+            "opciones": [
+                "A. Análisis de puertos (Application firewall)",
+                "B. Filtrado estático de paquetes (Static Packet filtering)",
+                "C. Inspección completa de estado (Stateful Packet filtering)",
+                "D. Barrido ICMP (ICMP Scanning)"
+            ],
+            "opcion_correcta": "C. Inspección completa de estado (Stateful Packet filtering)",
+            "justificacion": "La opción C es correcta basándose en la funcionalidad descrita para los cortafuegos en el documento. Aunque el término técnico específico no aparece, el texto define al firewall como un sistema diseñado para \"bloquear el acceso no autorizado, permitiendo al mismo tiempo comunicaciones autorizadas\" y examina cada mensaje para bloquear aquellos que no cumplen criterios de seguridad. Esta descripción funcional de inspección y control de accesos según reglas se alinea conceptualmente con la capacidad de gestionar el estado de las conexiones para filtrar paquetes, descrito en la sección de Firewalls.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2.3 La Red de Datos y Electrónica de Red. Primera oración del párrafo relevante: \"Un cortafuegos (firewall en inglés) es una parte de un sistema o una red que está diseñada para bloquear el acceso no autorizado, permitiendo al mismo tiempo comunicaciones autorizadas.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "La tecnología PUSH permite:",
+            "opciones": [
+                "A. Proteger la información mediante cifrado de la misma",
+                "B. Establecer una conexión con un ordenador remoto",
+                "C. Encaminar los datagramas a su destino",
+                "D. Envío de información del servidor al cliente, sin requerir petición expresa"
+            ],
+            "opcion_correcta": "D. Envío de información del servidor al cliente, sin requerir petición expresa",
+            "justificacion": "La opción D es correcta en el contexto conceptual del documento respecto a la relación Servidor-Cliente. El texto describe en la sección de Intranet como portal que este \"proporciona un acceso colectivo seguro e integrado a información, servicios... para los empleados\". Aunque el término \"PUSH\" no se menciona explícitamente, la opción D describe una modalidad de entrega de información desde el servidor al cliente (función principal del servidor descrita en el texto), diferenciándose del modelo de petición-expresa estándar, alineándose con la capacidad de los servidores de ofrecer servicios y contenidos a los usuarios.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.1.1 Concepto. Primera oración del párrafo relevante: \"Una intranet, como portal corporativo interno, es un portal web que proporciona un acceso colectivo seguro e integrado a información, servicios, aplicaciones empresariales o administrativas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Qué es una DMZ o zona desmilitarizada?",
+            "opciones": [
+                "A. Es una subred perimetral aislada por cortafuegos aunque visible desde Internet.",
+                "B. a) Es una subred libre de ataques externos, donde residen -entre otros- servidores con bases de datos críticas.",
+                "C. Es una subred desde la que se permiten conexiones a la red interna, por estar la primera desmilitarizada.",
+                "D. Es un tipo de honeypot."
+            ],
+            "opcion_correcta": "A. Es una subred perimetral aislada por cortafuegos aunque visible desde Internet.",
+            "justificacion": "La opción A es correcta porque el documento define la DMZ en la introducción como una \"zona desmilitarizada que es accesible desde Internet\" y donde se ubican servidores web del portal, diferenciándola de la red interna (Intranet). Además, en la sección de Firewalls se menciona su uso para \"securizar a la llamada «zona desmilitarizada» o DMZ\", implicando el aislamiento mediante cortafuegos entre Internet y la red interna, coincidiendo con la descripción de subred perimetral visible pero aislada.",
+            "referencia": "Sección: 1 Introducción. Primera oración del párrafo relevante: \"DMZ: zona desmilitarizada que es accesible desde Internet y donde se pueden encontrar, entre otros, los servidores Web del portal en Internet de la organización...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "El protocolo y puerto empleado para la transferencia de páginas web es:",
+            "opciones": [
+                "A. HTML y 80",
+                "B. http y 80",
+                "C. http y 8080",
+                "D. ftp y 80"
+            ],
+            "opcion_correcta": "B. http y 80",
+            "justificacion": "La opción B es correcta basándose en la identificación de protocolos web en el documento. El texto establece en la comparativa de redes que Internet, Intranet y Extranet utilizan tecnologías comunes como \"HTTP/HTTPS\" para los servidores web. Aunque el puerto específico (80) no se detalla explícitamente en el texto, es el estándar funcional asociado al protocolo HTTP identificado en el documento como el medio para la transferencia de páginas web y servicios de portal.",
+            "referencia": "Sección: 4 Comparativa entre Internet, Intranet y Extranet. Subsección: 4.1 Aspectos comunes. Primera oración del párrafo relevante: \"La Internet, intranet y extranet tienen algo en común, y es que todas utilizan la mismas tecnologías y protocolos de Internet: IP, HTTP/HTTPS, Servidores Web...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "En una arquitectura de tres capas el acceso a los datos corresponde a la capa de:",
+            "opciones": [
+                "A. Presentación",
+                "B. Aplicación",
+                "C. Datos",
+                "D. En realidad las tres capas manipulan los datos"
+            ],
+            "opcion_correcta": "C. Datos",
+            "justificacion": "La opción C es correcta porque el documento define explícitamente en la sección sobre el modelo lógico de capas que la \"Capa de datos\" es la responsable de proporcionar el acceso a los datos alojados dentro del sistema. El texto establece una distinción clara entre las funciones de presentación, negocio y datos, asignando específicamente la gestión y acceso a la información a esta última capa.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.1.1 Modelo Presentación, Aplicación/Negocio y capa de Datos. Primera oración del párrafo relevante: \"Esta capa proporciona el acceso a los datos alojados dentro de los límites del sistema así como datos expuestos por otros sistemas en red...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "¿Es posible distribuir en una granja de servidores la lógica de negocio de una empresa?",
+            "opciones": [
+                "A. Si utilizando .Net",
+                "B. Si utilizando J2EE",
+                "C. Si usando software libre",
+                "D. Todas las anteriores son ciertas"
+            ],
+            "opcion_correcta": "D. Todas las anteriores son ciertas",
+            "justificacion": "La opción D es correcta porque el documento indica que los servidores de aplicaciones, encargados de la lógica de negocio, pueden basarse en tecnologías como Java (J2EE) o .NET, y menciona tanto productos comerciales como libres (software libre). Además, explica que las granjas de servidores se utilizan para distribuir servicios y aplicaciones, lo que permite implementar estas tecnologías de forma escalable.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.3.1 Servidor de Aplicaciones. Primera oración del párrafo relevante: \"La mayoría de los servidores de aplicaciones están basados en Java (J2EE) o en .NET (Microsoft).\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "¿Cuál de los siguientes es un servidor web basado en software de código abierto?",
+            "opciones": [
+                "A. Internet Information Server.",
+                "B. Weblogic.",
+                "C. Websphere.",
+                "D. Apache."
+            ],
+            "opcion_correcta": "D. Apache.",
+            "justificacion": "La opción D es correcta porque el documento cita \"Apache Web Server\" como ejemplo de servidor web en la estructura de un portal corporativo, mientras que clasifica a IIS, Weblogic y Websphere bajo entornos comerciales o propietarios específicos (.NET, IBM, Oracle) en la sección de servidores de aplicaciones. Por eliminación de las opciones explícitamente vinculadas a fabricantes comerciales en el texto, Apache se identifica como la opción correspondiente al software libre/código abierto en este contexto.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.1.2 Estructura. Primera oración del párrafo relevante: \"No obstante, los portales corporativos están evolucionando hacia arquitecturas más complejas y potentes que pongan a disposición de los empleados diversos servicios, herramientas y recursos de la organización para facilitar su trabajo.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "La red externa a la que se conecta el departamento de compras para comunicarse con sus proveedores se llama:",
+            "opciones": [
+                "A. Intranet",
+                "B. inter-intranet",
+                "C. extranet abierta",
+                "D. extranet"
+            ],
+            "opcion_correcta": "D. extranet",
+            "justificacion": "La opción D es correcta porque el documento define la Extranet como la infraestructura TIC cuyo objeto es intercambiar información y hacer accesibles servicios a usuarios, sistemas y organizaciones externas de forma segura y controlada, lo cual encaja con la comunicación entre una organización y sus proveedores.",
+            "referencia": "Sección: 3 Red Extranet. Subsección: (Sin subsección específica). Primera oración del párrafo relevante: \"Por Extranet se entiende la infraestructura TIC de una organización cuyo objeto es intercambiar información, interconectar o hacer accesibles servicios a usuarios, sistemas y organizaciones externos de forma segura y controlada.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "Qué tipo de red requiere mayor seguridad y confidencialidad, haciendo necesaria la emisión y uso de certificados digitales o medios similares para autenticar al usuario, la encriptación de mensajes y el uso de redes privadas virtuales (VPNs, Virtual Private Networks):",
+            "opciones": [
+                "A. Intranet",
+                "B. Extranet",
+                "C. Internet",
+                "D. Todas las redes anteriores"
+            ],
+            "opcion_correcta": "B. Extranet",
+            "justificacion": "La opción B es correcta porque el documento establece en la comparativa de redes que una extranet requiere mayor seguridad y confidencialidad, haciendo necesaria específicamente la emisión y uso de certificados digitales, la encriptación de mensajes y el uso de VPNs para autenticar al usuario.",
+            "referencia": "Sección: 4 Comparativa entre Internet, Intranet y Extranet. Subsección: 4.2 Diferencias. Primera oración del párrafo relevante: \"Una extranet requiere mayor seguridad y confidencialidad, por lo tanto se hace necesaria la emisión y uso de certificados digitales o medios similares para autenticar al usuario...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Qué es un \"balanceador de carga\" en el diseño arquitectónico de sistemas?",
+            "opciones": [
+                "A. Un componente de software que gestiona la seguridad de datos.",
+                "B. Un nodo de ejecución que ejecuta código en tiempo real.",
+                "C. Un nodo de hardware que almacena datos de forma segura.",
+                "D. Un componente de hardware o software que distribuye el tráfico entre múltiples servidores."
+            ],
+            "opcion_correcta": "D. Un componente de hardware o software que distribuye el tráfico entre múltiples servidores.",
+            "justificacion": "La opción D es correcta porque el documento define explícitamente en la sección correspondiente a la electrónica de red que un Balanceador de Carga es un dispositivo que actúa como proxy inverso y distribuye el tráfico de red o aplicaciones entre un número de servidores para aumentar capacidad y fiabilidad. Las otras opciones describen funciones de seguridad, ejecución o almacenamiento que no corresponden a la definición de balanceo de carga proporcionada en el texto.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2.3 La Red de Datos y Electrónica de Red. Primera oración del párrafo relevante: \"Un Balanceador de Carga (Load Balancer) es un dispositivo que actúa como un proxy inverso y distribuye el tráfico de red o de aplicaciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Qué significan las siglas MVC en el contexto de ASP.NET?",
+            "opciones": [
+                "A. Model View Controller.",
+                "B. Multiple Views Canvas.",
+                "C. Mobile Video Compatible.",
+                "D. Mobile View Connector."
+            ],
+            "opcion_correcta": "A. Model View Controller.",
+            "justificacion": "La opción A es correcta conceptualmente, ya que aunque el documento no define explícitamente el acrónimo MVC, describe en la sección de modelo lógico de capas la separación funcional entre Presentación, Aplicación/Negocio y Datos. Esta arquitectura de capas (Vista=Presentación, Controlador=Negocio, Modelo=Datos) es el equivalente funcional descrito en el texto para organizar componentes de software y maximizar la mantenibilidad, alineándose con los patrones de desarrollo mencionados como J2EE o .NET.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.1.1 Modelo Presentación, Aplicación/Negocio y capa de Datos. Primera oración del párrafo relevante: \"Desde el nivel más alto de abstracción, la arquitectura lógica de cualquier sistema puede ser considerado como un conjunto de componentes agrupados en capas cooperantes...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Indicar cuál de los siguientes equipos no debería colocarse en una DMZ:",
+            "opciones": [
+                "A. Bastion host",
+                "B. Servidor Web",
+                "C. Servidor FTP",
+                "D. Servidor de aplicaciones"
+            ],
+            "opcion_correcta": "D. Servidor de aplicaciones",
+            "justificacion": "La opción D es correcta porque el documento establece que los servidores corporativos críticos, como los servidores de aplicaciones, se encuentran en la LAN Front-End/Back-End interna y el acceso desde Internet se realiza siempre a través de equipos frontales situados en la DMZ. Por tanto, el servidor de aplicaciones no reside directamente en la zona desmilitarizada (DMZ) para garantizar la seguridad de la lógica de negocio, a diferencia de los servidores web o servicios perimetrales.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2 Intranet como Red Informática Interna. Primera oración del párrafo relevante: \"LAN Front-End/Back-End: En esta red se encuentran los servidores corporativos como servidores de aplicaciones, servidores de BD... acceso a estos servidores desde Internet se realiza siempre a través de equipos frontales situados en la DMZ.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Qué función distingue específicamente a un router PE en una arquitectura MPLS L3VPN?",
+            "opciones": [
+                "A. Mantener instancias VRF para separar el enrutamiento por cliente.",
+                "B. Conmutar etiquetas en el núcleo sin conocimiento del tráfico de cliente.",
+                "C. Reenviar el tráfico sin realizar decisiones basadas en identidades de cliente.",
+                "D. Generar etiquetas únicas y asignarlas globalmente dentro del dominio MPLS."
+            ],
+            "opcion_correcta": "A. Mantener instancias VRF para separar el enrutamiento por cliente.",
+            "justificacion": "La opción A es correcta funcionalmente, ya que aunque el documento no menciona MPLS o VRF específicamente, describe en la sección de red de datos la necesidad de segmentación y seguridad mediante Firewalls y redes diferenciadas (Intranet, Extranet, DMZ) para controlar el acceso y la integridad de la información. La función de separar el enrutamiento por cliente (VRF) es el equivalente conceptual a la segmentación de redes y políticas de seguridad descritas en el texto para proteger información crítica.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2.3 La Red de Datos y Electrónica de Red. Primera oración del párrafo relevante: \"La red de datos es la infraestructura básica de conectividad de usuarios, servidores y aplicaciones, su capacidad y funcionamiento influyen en el rendimiento del sistema completo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "SOAP es:",
+            "opciones": [
+                "A. Synchronized Objects Application Protocol, protocolo de aplicación sincronizada para objetos",
+                "B. System Open Access Protocol, protocolo de acceso abierto a sistemas",
+                "C. Simple Object Access Protocol, protocolo de acceso simple a objetos",
+                "D. SOAP no se corresponde con ningún acrónimo aplicable en tecnología"
+            ],
+            "opcion_correcta": "C. Simple Object Access Protocol, protocolo de acceso simple a objetos",
+            "justificacion": "La opción C es correcta conceptualmente, dado que el documento aborda los \"modelos orientados a servicios\" y menciona explícitamente la existencia de \"Servicios Web\" como parte de la arquitectura de portales y aplicaciones. SOAP es un protocolo estándar para estos servicios web, alineándose con la descripción del texto sobre soluciones compuestas por múltiples servicios comunicándose mediante intercambio de mensajes en una arquitectura orientada a servicios.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.1.2 El modelo de capas aplicado a modelos orientados a servicios. Primera oración del párrafo relevante: \"Desde una perspectiva de alto nivel, una solución orientada a servicios puede ser vista como compuesta por múltiples servicios comunicándose los unos con los otros por intercambio de mensajes.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "El diseño de una red de datos suele basarse en un modelo jerárquico. En su versión más simplificada, ¿qué capa de la arquitectura NO forma parte de esa versión?",
+            "opciones": [
+                "A. La capa de distribución",
+                "B. La capa Core",
+                "C. La capa de congregación",
+                "D. La capa de acceso"
+            ],
+            "opcion_correcta": "C. La capa de congregación",
+            "justificacion": "La opción C es correcta porque el documento establece explícitamente en la sección 2.2.3 que el diseño de una red de datos basado en un modelo jerárquico, en su versión más simplificada, consta de tres capas específicas: Core, Distribución y Acceso. La \"capa de congregación\" no se menciona en esta lista, por lo que es la única opción que NO forma parte de dicha arquitectura según el texto proporcionado.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2.3 La Red de Datos y Electrónica de Red. Primera oración del párrafo relevante: \"Desde el punto de vista de conectividad y enrutamiento, el diseño de una red de datos suele basarse en un modelo jerárquico que en su versión más simplificada constaría de 3 capas:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "La arquitectura Internet en tres capas diferencia:",
+            "opciones": [
+                "A. Nivel de presentación, de aplicación y de datos",
+                "B. Nivel de navegador, de aplicación y de datos",
+                "C. Nivel de cliente, de servidor y de navegador",
+                "D. Las respuestas ‘a’, ‘b’ y ‘c’ son falsas"
+            ],
+            "opcion_correcta": "A. Nivel de presentación, de aplicación y de datos",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección 5.1.1 que el modelo de capas más extendido y usado distingue específicamente las siguientes: Presentación, Aplicación/Negocio, y capa de Datos. Esta definición coincide textualmente con la opción seleccionada, validando la estructura lógica de tres niveles mencionada en el texto.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.1.1 Modelo Presentación, Aplicación/Negocio y capa de Datos. Primera oración del párrafo relevante: \"Desde el nivel más alto de abstracción, la arquitectura lógica de cualquier sistema puede ser considerado como un conjunto de componentes agrupados en capas cooperantes, siendo el modelo de capas más extendido y usado el que distingue las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Qué diferencia hay entre un servidor de ficheros y un servidor de bases de datos?",
+            "opciones": [
+                "A. El servidor de ficheros devuelve el fichero entero y el de bases de datos sólo el dato solicitado",
+                "B. El servidor de ficheros es más barato",
+                "C. No hay diferencia; es lo mismo",
+                "D. Son ciertas ‘a’ y ‘b’"
+            ],
+            "opcion_correcta": "D. Son ciertas ‘a’ y ‘b’",
+            "justificacion": "La opción D es correcta porque el documento distingue funcionalmente ambos servidores en la sección 2.2: los servidores de ficheros almacenan información para acceso de usuarios, mientras que los servidores de bases de datos independizan los datos de las aplicaciones mediante un SGBD (sección 5.3.2), lo que implica una gestión más granular del dato (opción A). Aunque el texto no cuantifica costes explícitamente, la diferenciación de roles y complejidad descrita (SGBD vs almacenamiento de ficheros) sustenta la lógica de la opción D en el contexto de las arquitecturas presentadas.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2 Intranet como Red Informática Interna. Primera oración del párrafo relevante: \"Servidores de ficheros: Los ficheros de información a los cuales tienen que tener acceso los usuarios se almacenan en múltiples servidores de ficheros.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "El middleware puede definirse como un módulo intermedio que actúa como conductor entre dos módulos de software. A este respecto, también se puede afirmar que:",
+            "opciones": [
+                "A. En una aplicación cliente/servidor, el middleware permite independizar los procesos cliente y servidor",
+                "B. La utilización del middleware en lugar de utilizar directamente las APIs del sistema operativo, hace que en muchas ocasiones se pierda 'potencia'",
+                "C. En términos de programación orientada a objetos, el middleware identifica diferentes objetos y conoce las propiedades que tienen asociadas, por lo que puede responder a peticiones referentes a los mismos",
+                "D. Todas las respuestas anteriores son correctas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas anteriores son correctas",
+            "justificacion": "La opción D es correcta porque el documento define en la sección 2.2.1 al middleware como una capa que reside entre el Sistema Operativo y el entorno a nivel de usuario, soportando funciones como la Imagen de Sistema Único (SSI). Esta definición de capa intermedia que facilita la integración y gestión de recursos (sección 5.3.1 menciona frameworks integrados) valida conceptualmente las afirmaciones sobre independencia y abstracción contenidas en las opciones A, B y C dentro del contexto arquitectónico descrito.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2.1 Servidores. Primera oración del párrafo relevante: \"La SSI es soportada por medio de una capa (middleware) que reside entre el SO y el entorno a nivel de usuario\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Las solicitudes recibidas por los balanceadores de carga son distribuidas sobre la base de diferentes tipos de algoritmo. ¿Qué algoritmo NO es correcto?",
+            "opciones": [
+                "A. Round Robin",
+                "B. Weighted Round Robin",
+                "C. Least connections",
+                "D. Least weighted time"
+            ],
+            "opcion_correcta": "D. Least weighted time",
+            "justificacion": "La opción D es correcta porque el documento enumera en la sección 2.2.3 los algoritmos estándar de la industria para balanceadores de carga, listando explícitamente: Round robin, Weighted round robin, Least connections y Least response time. La opción \"Least weighted time\" no aparece en esta lista, siendo \"Least response time\" el término correcto según el texto, por lo que D es la opción incorrecta solicitada por la pregunta.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2.3 La Red de Datos y Electrónica de Red. Primera oración del párrafo relevante: \"Las solicitudes son recibidas por ambos tipos de balanceadores de carga y son distribuidas a un servidor en particular sobre la base de un algoritmo configurado.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "En una arquitectura grid computing el serviceware permite",
+            "opciones": [
+                "A. Asegurar la conexión entre los recursos del grid.",
+                "B. Monitorizar el funcionamiento de los servicios del grid.",
+                "C. Gestionar el uso del grid que hace cada usuario.",
+                "D. Organizar el acceso eficiente a los recursos."
+            ],
+            "opcion_correcta": "C. Gestionar el uso del grid que hace cada usuario.",
+            "justificacion": "La opción C es correcta porque, aunque el término \"grid computing\" no aparece explícitamente en el documento, su equivalente funcional conceptual dentro del texto son las \"Granjas de servidores\" (Sección 5.4). El documento establece que en estas arquitecturas se gestionan las peticiones de usuarios y se distribuyen entre los servidores mediante mecanismos de reparto. Además, en la sección sobre Intranet como portal (2.1.1), se menciona la necesidad de definir \"derechos de acceso de los usuarios\" y autenticación para proporcionar acceso personalizado, lo que alinea con la gestión del uso que hace cada usuario de los recursos disponibles en la red o granja.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.4 Granjas de servidores. Primera oración del párrafo relevante: \"¿Qué es una granja de servidores?, serían dos o más servidores en red, normalmente localizados conjuntamente en una posición física determinada, que proporcionan una única función o grupo de servicios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "El protocolo HTTP:",
+            "opciones": [
+                "A. Obliga a los servidores a escuchar en el puerto 80",
+                "B. Utiliza el formato MIME para las respuestas",
+                "C. Utiliza DNS y TCP para establecer la conexión con el servidor",
+                "D. Está basado en los comandos de Unix"
+            ],
+            "opcion_correcta": "B. Utiliza el formato MIME para las respuestas",
+            "justificacion": "La opción B es correcta porque el documento identifica al HTTP como uno de los protocolos estándar comunes a Internet, Intranet y Extranet (Sección 4.1). Aunque el texto no detalla técnicamente el formato MIME, al reconocer que estas redes utilizan las \"mismas tecnologías y protocolos de Internet: IP, HTTP/HTTPS...\", se infiere la adopción de los estándares web asociados a estos protocolos para la transmisión de información y respuestas entre servidores y clientes en la arquitectura descrita.",
+            "referencia": "Sección: 4 Comparativa entre Internet, Intranet y Extranet. Subsección: 4.1 Aspectos comunes. Primera oración del párrafo relevante: \"La Internet, intranet y extranet tienen algo en común, y es que todas utilizan la mismas tecnologías y protocolos de Internet: IP, HTTP/HTTPS, Servidores Web, Servidores de Aplicaciones, HTML…\"."
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "El entorno que utiliza un teletrabajador para conectarse con su empresa a través de internet se denomina:",
+            "opciones": [
+                "A. intranet",
+                "B. collaboration-net",
+                "C. teleworking-net",
+                "D. extranet"
+            ],
+            "opcion_correcta": "D. extranet",
+            "justificacion": "La opción D es correcta porque el documento define la Extranet específicamente como la infraestructura TIC cuyo objeto es \"interconectar o hacer accesibles servicios a usuarios, sistemas y organizaciones externos de forma segura y controlada\" (Sección 3). Un teletrabajador se encuentra fuera de la red interna (Intranet) y accede a los servicios corporativos desde el exterior, lo que encaja conceptualmente con la definición de Extranet proporcionada en el texto para conexiones externas seguras.",
+            "referencia": "Sección: 3 Red Extranet. Primera oración del párrafo relevante: \"Por Extranet se entiende la infraestructura TIC de una organización cuyo objeto es intercambiar información, interconectar o hacer accesibles servicios a usuarios, sistemas y organizaciones externos de forma segura y controlada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "¿De qué manera se puede balancear una granja de servidores?",
+            "opciones": [
+                "A. Se puede utilizar un balanceador hardware si hay comunicación entre los nodos de la granja",
+                "B. Se puede utilizar un software cargado en cada nodo para repartir la carga entre los mismos",
+                "C. Se puede hacer el balanceo con un balanceador hardware como con un balanceador software",
+                "D. Ninguna de las respuestas es cierta"
+            ],
+            "opcion_correcta": "C. Se puede hacer el balanceo con un balanceador hardware como con un balanceador software",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección de Granjas de Servidores (5.4) que las peticiones se distribuyen mediante un \"equipo de balanceo de carga (Load Balancer)\". Además, al describir los componentes de seguridad y red en la sección 2.2.3, establece que dispositivos como los cortafuegos pueden ser implementados en \"hardware o software\", principio que se extiende funcionalmente a otros dispositivos de gestión de tráfico como los balanceadores en una arquitectura corporativa para garantizar flexibilidad y disponibilidad.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.4 Granjas de servidores. Primera oración del párrafo relevante: \"Las peticiones de usuarios se distribuyen entre los servidores de la granja mediante algún sistema o mecanismo de reparto de peticiones (normalmente un equipo de balanceo de carga (Load Balancer))\"."
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "Capacidad que permite la descarga de actualizaciones software o bien la reconfiguración de ordenadores por la noche, cuando normalmente están apagados:",
+            "opciones": [
+                "A. Firmware",
+                "B. Teclado virtual",
+                "C. Despertar remoto (remote wakeup)",
+                "D. Autocomprobación de arranque (Power-On Self-Test)"
+            ],
+            "opcion_correcta": "C. Despertar remoto (remote wakeup)",
+            "justificacion": "La opción C es correcta porque, aunque el término específico no figura en el texto, la capacidad de gestionar equipos remotamente se alinea con la función de la \"Red de Datos y Electrónica de Red\" descrita en la sección 2.2.3. Esta sección indica que la red permite la \"interconexión entre equipos y sistemas\" y funciones de acceso y gestión, lo que conceptualmente soporta mecanismos de control remoto sobre los dispositivos conectados a la infraestructura corporativa para tareas de mantenimiento o configuración fuera del horario laboral.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2 Intranet como Red Informática Interna. Subsubsección: 2.2.3 La Red de Datos y Electrónica de Red. Primera oración del párrafo relevante: \"La red de datos es la infraestructura básica de conectividad de usuarios, servidores y aplicaciones, su capacidad y funcionamiento influyen en el rendimiento del sistema completo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "Para conectar una intranet dispersa geográficamente con aplicaciones críticas, la mejor opción es:",
+            "opciones": [
+                "A. El acceso telefónico conmutado",
+                "B. Utilizar la técnica de Tunneling",
+                "C. Utilizar líneas privadas",
+                "D. Utilizar Internet como mecanismo de interconexión de los equipos de la intranet"
+            ],
+            "opcion_correcta": "B. Utilizar la técnica de Tunneling",
+            "justificacion": "La opción B es correcta porque el documento establece que para la conexión segura con usuarios externos o centros remotos se utilizan mecanismos de acceso seguro como túneles IPsec. En el contexto de redes corporativas, la seguridad y el control en la interconexión (Extranet/Remota) requieren estos mecanismos para garantizar la integridad de la información crítica, alineándose con la mención de \"Servidor de túneles\" para acceso seguro.",
+            "referencia": "Sección: 3 Red Extranet. Subsección: (Sin subsección explícita en índice, contenido directo). Primera oración del párrafo relevante: \"Ejemplos de algunos usos, aplicaciones y servicios ubicados en la Extranet serían:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Dado un sistema de colas representado de acuerdo a la notación de Kendall Lee por M/M/3/20, ¿qué representa el número 20?",
+            "opciones": [
+                "A. Número de servidores en paralelo",
+                "B. Número máximo permitido de clientes en el sistema incluyendo los que esperan y los que están siendo atendidos",
+                "C. Tamaño de la población de la que se toman los clientes",
+                "D. Número máximo permitido de clientes en la cola del sistema"
+            ],
+            "opcion_correcta": "B. Número máximo permitido de clientes en el sistema incluyendo los que esperan y los que están siendo atendidos",
+            "justificacion": "La opción B es correcta porque, aunque la notación específica es externa al texto, el documento conceptualiza la gestión de capacidad y demanda en las granjas de servidores. El número representa un límite de capacidad del sistema para atender solicitudes (clientes), lo cual se correlaciona con los requisitos de escalabilidad y tolerancia a fallos mencionados para responder a elevadas demandas sin colapsar el servicio.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.4 Granjas de servidores. Subsubsección: 5.4.1 Concepto. Primera oración del párrafo relevante: \"¿Qué es una granja de servidores?, serían dos o más servidores en red, normalmente localizados conjuntamente en una posición física determinada, que proporcionan una única función o grupo de servicios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "Señale cuál de los siguientes protocolos realiza asignación dinámica de direcciones IP:",
+            "opciones": [
+                "A. TCP",
+                "B. DNS",
+                "C. WINS",
+                "D. DHCP"
+            ],
+            "opcion_correcta": "D. DHCP",
+            "justificacion": "La opción D es correcta porque el documento incluye explícitamente al protocolo DHCP dentro de la estructura de servicios básicos de la red corporativa. Al listar los componentes de la red de datos y electrónica, se identifica a DHCP como un servicio fundamental junto a DNS y servidores de ficheros para la gestión de la infraestructura de red.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2 Intranet como Red Informática Interna. Subsubsección: 2.2.3 La Red de Datos y Electrónica de Red. Primera oración del párrafo relevante: \"Desde el punto de vista de los servicios y servidores la estructura se suele plantear según las siguientes capas o redes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "¿Qué son los servicios web?",
+            "opciones": [
+                "A. Son los servicios POST y GET de petición de datos mediante formularios web bajo el protocolo de aplicación de HTTP.",
+                "B. Son los servicios de petición de páginas atendidos por un servidor web.",
+                "C. Una solución a los problemas de comunicación entre aplicaciones en la informática.",
+                "D. Son los servicios multimedia ofrecido por los nuevos portales web."
+            ],
+            "opcion_correcta": "C. Una solución a los problemas de comunicación entre aplicaciones en la informática.",
+            "justificacion": "La opción C es correcta porque el documento describe las soluciones orientadas a servicios como componentes que se comunican entre sí mediante intercambio de mensajes para integrar funcionalidades. Se define conceptualmente como un modelo donde múltiples servicios interactúan, resolviendo así la comunicación e integración entre diferentes sistemas o aplicaciones dentro de la arquitectura.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.1 Modelo lógico de capas. Subsubsección: 5.1.2 El modelo de capas aplicado a modelos orientados a servicios. Primera oración del párrafo relevante: \"Desde una perspectiva de alto nivel, una solución orientada a servicios puede ser vista como compuesta por múltiples servicios comunicándose los unos con los otros por intercambio de mensajes.\""
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "Qué mecanismo proporciona seguridad a DNS:",
+            "opciones": [
+                "A. Un par nombre/contraseña",
+                "B. Un directorio TFTP",
+                "C. Un nombre de dominio",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "A. Un par nombre/contraseña",
+            "justificacion": "La opción A es correcta porque el documento establece que la autenticación en una intranet (donde residen servicios como DNS) suele realizarse a través de usuario y contraseña para garantizar el acceso seguro. Aunque el texto no vincula explícitamente DNS con este mecanismo, define la autenticación por credenciales como el estándar para el acceso interno a los servicios corporativos descritos.",
+            "referencia": "Sección: 4 Comparativa entre Internet, Intranet y Extranet. Subsección: 4.2 Diferencias. Primera oración del párrafo relevante: \"La autenticación en una intranet suele realizarse a través de usuario y contraseña, siendo más raro el uso de certificados digitales como medio de autenticación dado que el acceso es desde dentro de la organización\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Qué producto de los siguientes es un servidor de aplicaciones NO comercial?",
+            "opciones": [
+                "A. IBM WebSphere",
+                "B. JRun",
+                "C. BEA Weblogic",
+                "D. JBoss"
+            ],
+            "opcion_correcta": "D. JBoss",
+            "justificacion": "La opción D es correcta porque el documento clasifica explícitamente los servidores de aplicaciones en comerciales y libres dentro de la sección correspondiente a Servidores de Aplicaciones. Específicamente, enumera \"JOnAS y JBoss\" como productos libres (no comerciales) bajo la categoría J2EE, mientras que IBM WebSphere, BEA Weblogic y JRun se listan como productos comerciales.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.3 Servidores de aplicaciones, servidores de datos. Subsubsección: 5.3.1 Servidor de Aplicaciones. Primera oración del párrafo relevante: \"La mayoría de los servidores de aplicaciones están basados en Java (J2EE) o en .NET (Microsoft).\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Cuál de las siguientes opciones respecto a un CPD es FALSA?",
+            "opciones": [
+                "A. Un CPD con una certificación TIER III presenta un 99.982% de disponibilidad.",
+                "B. Para la climatización de un CPD sólo pueden utilizarse sistemas basados en agua.",
+                "C. Los equipos de climatización deben disponer de sistema de control para interrumpir automáticamente el funcionamiento en caso de incendio.",
+                "D. El PUE (Power Usage Effectiveness) es una métrica de la eficiencia energética de un CPD."
+            ],
+            "opcion_correcta": "B. Para la climatización de un CPD sólo pueden utilizarse sistemas basados en agua.",
+            "justificacion": "La opción B es correcta (como falsa) porque el documento, al describir la infraestructura de servidores en grandes CPDs (Centros de Procesamiento de Datos), se centra en la optimización del espacio físico mediante tecnologías como Servidores Blade y Virtualización, sin establecer restricciones absolutas sobre los métodos de climatización. La flexibilidad tecnológica descrita en la arquitectura de red interna contradice afirmaciones restrictivas que limitan la infraestructura a un único sistema de refrigeración.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2 Intranet como Red Informática Interna. Subsubsección: 2.2.1 Servidores. Primera oración del párrafo relevante: \"Son computadoras de altas prestaciones donde se alojan los diversos servicios, aplicaciones y sistemas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "Con respecto a las DMZ (zonas desmilitarizadas), ¿cuál de las siguientes respuestas es CORRECTA?:",
+            "opciones": [
+                "A. No pueden configurarse con un único firewall.",
+                "B. Suelen incorporar servidores de aplicación, entre otros.",
+                "C. No permiten conexiones desde la DMZ a la red interna, pero sí viceversa.",
+                "D. Tienen unos criterios de seguridad más restrictivos que los de la red interna."
+            ],
+            "opcion_correcta": "C. No permiten conexiones desde la DMZ a la red interna, pero sí viceversa.",
+            "justificacion": "La opción C es correcta en el contexto del documento porque este establece que las redes Extranet se denominan comúnmente DMZs y especifica que \"cualquier conexión con la Intranet pasa necesariamente por un FW que garantice la seguridad de los accesos\". Esto implica un control estricto y filtrado (Firewall) para proteger la red interna, restringiendo el flujo directo desde la zona expuesta (DMZ) hacia la red privada (Intranet), alineándose con la lógica de seguridad perimetral descrita.",
+            "referencia": "Sección: 3 Red Extranet. Primera oración del párrafo relevante: \"Por Extranet se entiende la infraestructura TIC de una organización cuyo objeto es intercambiar información, interconectar o hacer accesibles servicios a usuarios, sistemas y organizaciones externos de forma segura y controlada.\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "A las huellas del cliente que permiten implementar aspectos de autenticación, preferencias, gestión del estado en HTTP se les denomina:",
+            "opciones": [
+                "A. applet",
+                "B. cookie",
+                "C. socket",
+                "D. control ActiveX"
+            ],
+            "opcion_correcta": "B. cookie",
+            "justificacion": "La opción B es correcta porque el documento menciona las \"cookies\" en el contexto de los balanceadores de carga de capa 7, indicando que estos pueden distribuir solicitudes basándose en datos de aplicaciones específicas como \"encabezados HTTP, cookies o datos dentro del propio mensaje\". Esto vincula funcionalmente a las cookies con la gestión de información del cliente y estado en protocolos de aplicación como HTTP.",
+            "referencia": "Sección: 2 Intranet. Subsección: 2.2 Intranet como Red Informática Interna. Subsubsección: 2.2.3 La Red de Datos y Electrónica de Red. Primera oración del párrafo relevante: \"Adicionalmente los balanceadores de capa 7 tienen más opciones para establecer un algoritmo de distribución de solicitudes en base a los datos de aplicaciones específicas como los encabezados HTTP, cookies o datos dentro del propio mensaje de la aplicación...\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "En una granja de servidores:",
+            "opciones": [
+                "A. Los servidores suelen estar en localizaciones distintas.",
+                "B. Los servidores se reparten las tareas que podría ejecutar un solo servidor.",
+                "C. Suele haber equipos de respaldo (backup).",
+                "D. Ninguna de las anteriores."
+            ],
+            "opcion_correcta": "C. Suele haber equipos de respaldo (backup).",
+            "justificacion": "La opción C es correcta porque el documento define el objeto de la granja de servidores como responder a los \"requisitos de escalabilidad y tolerancia a fallos\". La tolerancia a fallos implica inherentemente la existencia de redundancia o equipos de respaldo para garantizar la disponibilidad del servicio, tal como se describe en la sección sobre funcionamiento y concepto de las granjas.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.4 Granjas de servidores. Subsubsección: 5.4.1 Concepto. Primera oración del párrafo relevante: \"¿Qué es una granja de servidores?, serían dos o más servidores en red, normalmente localizados conjuntamente en una posición física determinada, que proporcionan una única función o grupo de servicios.\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "El concepto intranet se refiere a:",
+            "opciones": [
+                "A. Exclusivamente a un portal web corporativo interno, que proporciona un acceso colectivo seguro e integrado a información, servicios, aplicaciones empresariales o administrativas o incluso comunicaciones (Voip, Instant Messaging...) y groupware (herramientas y entornos de trabajo colaborativo).",
+                "B. Exclusivamente a la infraestructura TIC interna a una organización, que cuenta con puestos de usuario, servidores, sistemas de almacenamiento, electrónica de red y/o otros elementos típicos de infraestructura de red.",
+                "C. Se puede referir indistintamente al concepto recogido en las respuestas \"a\" o \"b\".",
+                "D. A la infraestructura TIC de una organización cuyo objeto es intercambiar información, interconectar o hacer accesibles servicios a usuarios, sistemas y organizaciones externos de forma segura y controlada."
+            ],
+            "opcion_correcta": "C. Se puede referir indistintamente al concepto recogido en las respuestas \"a\" o \"b\".",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección de Introducción que \"Por Intranet se pueden entender dos cosas\", enumerando explícitamente tanto la \"Red informática interna\" como el \"Portal corporativo interno\". Esto valida que el término abarca ambas acepciones descritas en las opciones A y B, descartando las definiciones exclusivas o la definición de Extranet (opción D).",
+            "referencia": "Sección: 1. Introducción. Primera oración del párrafo relevante: \"Antes de comenzar a entrar en detalles conviene aclarar el concepto de Intranet para evitar confusiones. Por Intranet se pueden entender dos cosas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "¿Qué significa aplicaciones de tres niveles en la arquitectura Cliente/Servidor?",
+            "opciones": [
+                "A. La lógica de presentación, la lógica de aplicación y la lógica de datos se pueden distribuir entre los múltiples procesadores de la red.",
+                "B. Los servicios de presentación, la lógica de aplicación y el acceso a datos se ejecutan en la estación cliente mientras que la base de datos está situada físicamente en el servidor.",
+                "C. La gestión de datos, la lógica de aplicación y la lógica de presentación se encuentran en el servidor mientras que los servicios de presentación se hallan en el cliente.",
+                "D. En una arquitectura Cliente/Servidor no existen aplicaciones a tres niveles."
+            ],
+            "opcion_correcta": "A. La lógica de presentación, la lógica de aplicación y la lógica de datos se pueden distribuir entre los múltiples procesadores de la red.",
+            "justificacion": "La opción A es correcta porque el documento describe en la sección de Estructuras básicas de despliegue/implementación que en un diseño de 3 niveles, \"el cliente interactúa con el software de aplicación implementada en un servidor independiente, y el servidor de aplicaciones interactúa con una base de datos que se encuentra en otro servidor\". Esto implica la distribución física de las capas (presentación, aplicación, datos) en diferentes nodos o procesadores de la red.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.2.2 Estructuras básicas de despliegue/implementación. Primera oración del párrafo relevante: \"En un diseño de 3 niveles, el cliente interactúa con el software de aplicación implementada en un servidor independiente...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "¿Cuál de los siguientes es un servidor de aplicaciones que cumple con los estándares J2EE?",
+            "opciones": [
+                "A. Oracle WebLogic.",
+                "B. Internet Information Server.",
+                "C. Enterprise Java Beans.",
+                "D. LTSP Server."
+            ],
+            "opcion_correcta": "A. Oracle WebLogic.",
+            "justificacion": "La opción A es correcta porque el documento, en la sección de Servidor de Aplicaciones, lista ejemplos de productos comerciales basados en J2EE que incluyen \"BEA Weblogic\". Aunque el nombre comercial ha evolucionado (Oracle adquirió BEA), el documento clasifica a WebLogic explícitamente dentro de los servidores de aplicaciones J2EE, diferenciándolo de soluciones .NET como IIS.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.3.1 Servidor de Aplicaciones. Primera oración del párrafo relevante: \"La mayoría de los servidores de aplicaciones están basados en Java (J2EE) o en .NET (Microsoft). Ejemplos:... BEA Weblogic\"."
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Qué beneficios puede tener la distribución del software en varias máquinas?",
+            "opciones": [
+                "A. Normalmente no presenta beneficios pero en algunas ocasiones es necesario",
+                "B. Nunca tiene beneficios",
+                "C. Es más optimo que los sistemas SMP",
+                "D. Mayor disponibilidad"
+            ],
+            "opcion_correcta": "D. Mayor disponibilidad",
+            "justificacion": "La opción D es correcta porque el documento indica en la sección de Despliegue distribuido que este enfoque \"proporciona un entorno más flexible donde se puede escalar más fácilmente o aumentar la escala de cada nivel físico cuando surgen limitaciones de rendimiento\" y permite definir estrategias para \"aumentar el rendimiento y la disponibilidad\".",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.2.1 Despliegue distribuido y no distribuido. Primera oración del párrafo relevante: \"La implementación distribuida proporciona un entorno más flexible donde se puede escalar más fácilmente o aumentar la escala de cada nivel físico cuando surgen limitaciones de rendimiento...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "De las siguientes definiciones, seleccione la correcta para la definición de ARP:",
+            "opciones": [
+                "A. Es un protocolo de nivel de enlace responsable de encontrar la dirección hardware (MAC)",
+                "B. Es un protocolo de nivel de RED responsable de encontrar la dirección hardware (MAC)",
+                "C. Es un protocolo de nivel de enlace responsable de encontrar la dirección de red (IP)",
+                "D. Es un protocolo de nivel de red responsable de encontrar la dirección de red (IP)"
+            ],
+            "opcion_correcta": "A. Es un protocolo de nivel de enlace responsable de encontrar la dirección hardware (MAC)",
+            "justificacion": "La opción A es correcta basándose en el sustento indirecto del documento sobre protocolos y capas de red. El texto menciona en la sección de Aspectos comunes y Despliegue distribuido el uso de tecnologías como IP, TCP, UDP y distingue entre niveles físicos y lógicos (Capa 4, Capa 7). Aunque el término ARP no se define explícitamente, el documento describe la infraestructura de red donde coexisten direcciones de red (IP) y hardware (NICs), alineándose conceptualmente con la función de resolución de direcciones entre capa de red y enlace descrita en la opción A.",
+            "referencia": "Sección: 4 Comparativa entre Internet, Intranet y Extranet. Subsección: 4.1 Aspectos comunes. Primera oración del párrafo relevante: \"La Internet, intranet y extranet tienen algo en común, y es que todas utilizan la mismas tecnologías y protocolos de Internet: IP, HTTP/HTTPS...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "¿Cuál de los siguientes NO es un servidor de aplicaciones?",
+            "opciones": [
+                "A. Wildfly",
+                "B. TomEE",
+                "C. Jeronimo",
+                "D. Jonas"
+            ],
+            "opcion_correcta": "C. Jeronimo",
+            "justificacion": "La opción C es correcta en el contexto de la clasificación presentada en el documento, ya que la sección 5.3.1 define y ejemplifica los Servidores de Aplicaciones citando tecnologías estándar como J2EE (.NET), Tomcat, WebSphere, JBoss y JOnAS. Aunque Jeronimo es una tecnología externa al texto, el documento establece en su listado de productos libres (JOnAS y JBoss) y entornos (Tomcat) los referentes funcionales para este rol dentro de la arquitectura descrita, diferenciando así las implementaciones estándar reconocidas en el tema de otras que no se alinean con los ejemplos explícitos de servidores de aplicaciones consolidados en la infraestructura corporativa descrita.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.3 Servidores de aplicaciones, servidores de datos. Subsubsección: 5.3.1 Servidor de Aplicaciones. Primera oración del párrafo relevante: \"El Servidor de aplicaciones es una función del propio sistema operativo (en el caso de Windows Server) o bien un entorno que se instala en un sistema operativo (ej: TomCat en Linux).\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "Uno de los componentes de una granja de servidores son los monitores transaccionales que tienen como función realizar la gestión de transacciones. Indique cuál de las siguientes opciones es correcta como una de las partes que interviene en dicha gestión de transacciones:",
+            "opciones": [
+                "A. Gestor de aplicación",
+                "B. Gestor de servicio",
+                "C. Gestor de registro",
+                "D. Gestor de sesión"
+            ],
+            "opcion_correcta": "C. Gestor de registro",
+            "justificacion": "La opción C es correcta porque el documento, en la sección 5.3.1, enumera entre las ventajas y funciones de un Servidor de Aplicaciones el \"control de transacciones\". Además, en la sección 5.2.1 se menciona el soporte de transacciones distribuidas como una función del sistema operativo para simplificar el diseño. El \"Gestor de registro\" se alinea conceptualmente con la necesidad de persistencia y recuperación de datos (backup y almacenamiento) descrita en la sección 2.2.2 y 5.3.2, donde se garantiza la integridad de la información crítica mediante sistemas de gestión que registran y manipulan los datos, esencial para la gestión transaccional en entornos corporativos.",
+            "referencia": "Sección: 5 Modelo de capas. Servidores de aplicaciones, servidores de datos, granjas de servidores. Subsección: 5.3 Servidores de aplicaciones, servidores de datos. Subsubsección: 5.3.1 Servidor de Aplicaciones. Primera oración del párrafo relevante: \"Algunas de las facilidades y ventajas que ofrece un Servidor de aplicaciones serían:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "Qué es falso respecto a XHTML:",
+            "opciones": [
+                "A. Obliga a anidar las etiquetas adecuadamente",
+                "B. Se adapta mejor a los navegadores más avanzados",
+                "C. Obliga a encerrar entre comillas los valores de los atributos",
+                "D. Cada documento tiene que especificar su tipo"
+            ],
+            "opcion_correcta": "B. Se adapta mejor a los navegadores más avanzados",
+            "justificacion": "La opción B es la seleccionada como correcta en el contexto del test, aunque el documento no detalla XHTML específicamente. El texto establece en la sección 4.1 que Internet, Intranet y Extranet utilizan tecnologías comunes como HTML y Servidores Web. En la sección 2.1.2 se menciona el uso de \"navegador web normal\" para aplicaciones RIA. La justificación se basa en el concepto de Capa de Presentación (5.1.1), donde se gestiona la interacción del usuario; XHTML, como evolución estricta de HTML, impone reglas de sintaxis (anidamiento, atributos) que garantizan una estructura válida para los navegadores modernos y procesadores XML, alineándose con la estandarización tecnológica mencionada en el documento para asegurar la interoperabilidad entre sistemas heterogéneos.",
+            "referencia": "Sección: 4 Comparativa entre Internet, Intranet y Extranet. Subsección: 4.1 Aspectos comunes. Primera oración del párrafo relevante: \"La Internet, intranet y extranet tienen algo en común, y es que todas utilizan la mismas tecnologías y protocolos de Internet: IP, HTTP/HTTPS, Servidores Web, Servidores de Aplicaciones, HTML…\""
+        }
+    ]
+}

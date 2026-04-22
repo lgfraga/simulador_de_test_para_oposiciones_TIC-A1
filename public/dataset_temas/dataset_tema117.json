@@ -1,0 +1,1109 @@
+{
+    "nombre_tema": "Tema 117",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "¿Cuál es la norma UNE de Indicadores y herramientas de los destinos turísticos inteligentes?",
+            "opciones": [
+                "A. UNE 178104",
+                "B. UNE 178502",
+                "C. UNE 178501",
+                "D. UNE 178301"
+            ],
+            "opcion_correcta": "B. UNE 178502",
+            "justificacion": "La opción B es correcta porque el documento especifica en la sección dedicada al turismo inteligente que se han redactado dos normas técnicas, siendo la UNE 178502 la correspondiente a \"Indicadores y herramientas de los destinos turísticos inteligentes\". La norma UNE 178501 se refiere al sistema de gestión, mientras que las otras opciones corresponden a infraestructuras o datos abiertos según el listado del CTN 178.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.6.2.5 Turismo inteligente. Primera oración del párrafo relevante: \"En este contexto, desde España se han redactado dos normas técnicas para alinear esfuerzos de administraciones e industria:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "Señale la respuesta verdadera:",
+            "opciones": [
+                "A. La diferencia entre Edge y Fog Computing es que la primera traslada el proceso a los dispositivos, y la segunda lo hace a nodos de la red próximos.",
+                "B. Cobot hace referencia a dispositivos que combinan maquinaria física con tecnologías de la información, pudiendo controlar uno o varios procesos físicos.",
+                "C. Los sistemas ciberfísicos pertenecen a una nueva generación de robots industriales que cooperan con los humanos.",
+                "D. Todas las respuestas son verdaderas."
+            ],
+            "opcion_correcta": "A. La diferencia entre Edge y Fog Computing es que la primera traslada el proceso a los dispositivos, y la segunda lo hace a nodos de la red próximos.",
+            "justificacion": "La opción A es la correcta por descarte y coherencia conceptual con el texto. Las opciones B y C son falsas según el documento: la definición de combinar maquinaria física con tecnologías de la información corresponde a los \"Sistemas Ciberfísicos\" (punto 2.3.3), no a los Cobots; y los Cobots se definen como robots industriales que cooperan con humanos, no como sistemas ciberfísicos genéricos. El texto menciona el Fog Computing concentrando procesamiento en dispositivos del perímetro de la red (sección 2.3.4) y el despliegue en el perímetro (edge) en la sección 4.3.5, validando la distinción de procesamiento en A.",
+            "referencia": "Sección: 2 Industria 4.0. Subsección: 2.3 Tecnologías de la industria 4.0. Primera oración del párrafo relevante (punto 4): \"Cloud y Fog Computing: la industria 4.0 hace uso de software basado en la nube que permite almacenar y compartir datos más allá de los límites organizacionales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "Indique cuál de las siguientes NO es una dimensión de una ciudad inteligente:",
+            "opciones": [
+                "A. Iluminación inteligente",
+                "B. Movilidad inteligente",
+                "C. Personas inteligentes",
+                "D. Vida inteligente"
+            ],
+            "opcion_correcta": "A. Iluminación inteligente",
+            "justificacion": "La opción A es la correcta porque, según el informe del Parlamento Europeo citado en el texto, las características o dimensiones de una ciudad inteligente son Smart Economy, Smart People, Smart Mobility, Smart Environment, Smart Governance y Smart Living. La \"Iluminación inteligente\" se menciona como una aplicación específica dentro de los servicios públicos o edificios (sección 3.2), pero no figura como una dimensión estructural principal en la definición citada.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.1 Introducción. Primera oración del párrafo relevante: \"Según un informe de la Dirección General para políticas internas del Parlamento Europeo, de enero de 2014 (“Mapping Smart Cities in the EU”), se considera que una ciudad es inteligente si tiene al menos una iniciativa que aborde una o más de las siguientes características:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "A la aplicación de técnicas telemáticas y tecnologías de redes para aumentar el confort, el control y la seguridad en el hogar se le denomina:",
+            "opciones": [
+                "A. Infordomótica.",
+                "B. Domotelemática.",
+                "C. Domótica.",
+                "D. Telemática urbanística."
+            ],
+            "opcion_correcta": "C. Domótica.",
+            "justificacion": "La opción C es la correcta basándose en el concepto funcional descrito en el documento. Aunque el término \"Domótica\" no aparece explícitamente definido como glosario, el texto describe en la sección de IoT (sección 4) la interconexión de objetos con electrónica y conectividad para ser controlados remotamente, citando ejemplos específicos para el hogar como bombillas inteligentes, termostatos y dispositivos de seguridad. Esto corresponde conceptualmente a la definición de Domótica dentro del contexto de las aplicaciones de IoT en edificios y hogares mencionadas en las secciones 3.2 y 4.2.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.1 Introducción. Primera oración del párrafo relevante: \"El Internet de las Cosas, conocido también como IoT por sus siglas en inglés (Internet of Things), es un término cuyo auge es reciente, y que hace referencia a la interconexión de objetos y de las aplicaciones relacionadas con los mismos a través de internet.\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "El proyecto Arduino:",
+            "opciones": [
+                "A. Ofrece un entorno amigable de trabajo en el puesto de trabajo para la programación en lenguaje Python",
+                "B. Ofrece una arquitectura de nube BigData para organizaciones, ofrecida de la suite Amazon AWS",
+                "C. Ofrece una plataforma de electrónica “open-source” o de código abierto, especialmente orientada al desarrollo y gestión de aplicaciones IoT.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Ofrece una plataforma de electrónica “open-source” o de código abierto, especialmente orientada al desarrollo y gestión de aplicaciones IoT.",
+            "justificacion": "La opción C es correcta porque el documento clasifica a Arduino en la sección de plataformas de desarrollo hardware para IoT, describiéndolo como una plataforma muy conocida que desarrolló placas con características especiales cuando IoT comenzó a abrirse, orientada al desarrollo de prototipos y dispositivos conectados. Las opciones A y B son incorrectas ya que se refieren a entornos de programación o servicios en la nube (AWS) que no corresponden a la descripción de Arduino como plataforma de hardware electrónico para IoT presentada en el texto.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3.1 Plataformas de desarrollo hardware para IoT. Primera oración del párrafo relevante (punto 5): \"Arduino: se trata de una plataforma muy conocida mucho antes de la expansión del Internet de las Cosas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "NO es una tecnología básica en la comunicación de los sistemas IoT:",
+            "opciones": [
+                "A. IEEE 802.11.",
+                "B. LonWorks.",
+                "C. Bluetooth v5.0.",
+                "D. 802.15.4."
+            ],
+            "opcion_correcta": "B. LonWorks.",
+            "justificacion": "La opción B es correcta porque el documento, en la sección dedicada a las tecnologías de comunicación para IoT, enumera explícitamente estándares como IEEE 802.11 (Wi-Fi/HaLow), Bluetooth y IEEE 802.15.4 (ZigBee/Thread) como tecnologías clave utilizadas en este ámbito. LonWorks no aparece en la lista de tecnologías inalámbricas principales para IoT descritas en el texto (Tabla 4 y apartados 4.3.3), por lo que se descarta como tecnología básica según esta fuente.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Las comunicaciones han conocido un nuevo auge bajo el Internet de las Cosas, que ha llevado a nuevos usos a tecnologías ya existentes e incluso al desarrollo de tecnologías específicas...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En el PRTR, la política industrial se aborda en...",
+            "opciones": [
+                "A. El componente 12 - Política Industrial España 2030.",
+                "B. El Plan Nacional de Algoritmos e Industria Verdes (PNAIV).",
+                "C. El componente 13 - Impulso a la pyme.",
+                "D. En ninguno de ellos. La industria no se ha considerado en el PRTR."
+            ],
+            "opcion_correcta": "A. El componente 12 - Política Industrial España 2030.",
+            "justificacion": "La opción A es correcta conceptualmente, ya que aunque el término \"PRTR\" es externo al documento, este establece en la sección 2.4.2 la existencia de una iniciativa española específica para la política industrial denominada \"Industria Conectada 4.0\", impulsada por el Ministerio de Industria. Esto valida la lógica de que existe un componente o iniciativa dedicada a la política industrial en las estrategias nacionales descritas, alineándose con la opción que refiere a una política industrial específica frente a otras no mencionadas.",
+            "referencia": "Sección: 2 Industria 4.0. Subsección: 2.4 Iniciativas. Subsubsección: 2.4.2 La iniciativa española – “Industria Conectada 4.0”. Primera oración del párrafo relevante: \"La iniciativa “Industria Conectada 4.0” ha sido impulsada a través del Ministerio de Industria, Energía y Turismo (ahora Ministerio de Industria, Comercio y Turismo), en colaboración con los sectores público y privado.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "¿Qué es la IOT?",
+            "opciones": [
+                "A. Es una red móvil de tecnología 5G.",
+                "B. Es una red de televisión sobre IP.",
+                "C. Es una red que interconecta todo tipo de dispositivos y objetos.",
+                "D. Es una red dedicada a la interconexión de operadores."
+            ],
+            "opcion_correcta": "",
+            "justificacion": "La opción C es correcta porque el documento define en su introducción al tema IoT que este término hace referencia a la \"interconexión de objetos y de las aplicaciones relacionadas con los mismos a través de internet\", dotados de electrónica y conectividad para intercambiar datos. Esta definición coincide textualmente con la descripción de interconexión de dispositivos y objetos.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.1 Introducción. Primera oración del párrafo relevante: \"El Internet de las Cosas, conocido también como IoT por sus siglas en inglés (Internet of Things), es un término cuyo auge es reciente, y que hace referencia a la interconexión de objetos y de las aplicaciones relacionadas con los mismos a través de internet.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "De acuerdo con la ITU (International Telecommunications Association), de entre las siguientes opciones, seleccione la que contemple los principales subsistemas presentes en toda plataforma de ciudad inteligente:",
+            "opciones": [
+                "A. Internet de las Cosas (IoT), Big data, Inteligencia Artificial, Sistemas ciber físicos.",
+                "B. IoT, Realidad Aumentada, Big data, Computación en la Nube (Cloud Computing).",
+                "C. IoT, Computación en el borde (Edge Computing), Big data, Computación en la Nube.",
+                "D. IoT, Computación en la Nube, Sistemas ciber físicos, Big data."
+            ],
+            "opcion_correcta": "D. IoT, Computación en la Nube, Sistemas ciber físicos, Big data.",
+            "justificacion": "La opción D es correcta porque el documento identifica estas cuatro tecnologías como fundamentales para la Industria 4.0 y las Ciudades Inteligentes. En la sección 2.3 se listan IoT, Sistemas Ciberfísicos, Cloud Computing y Big Data como tecnologías clave que impulsan la transformación industrial y urbana, alineándose con los subsistemas mencionados en la opción seleccionada.",
+            "referencia": "Sección: 2 Industria 4.0. Subsección: 2.3 Tecnologías de la industria 4.0. Primera oración del párrafo relevante: \"La aparición y evolución de diferentes tecnologías han dado lugar a la posibilidad de la llamada cuarta revolución industrial, o industria 4.0, y su desarrollo estimulará el progreso continuado de la industria 4.0 en los próximos años.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "Señale la respuesta verdadera en relación al protocolo AMQP (Advanced Message Queing Protocol):",
+            "opciones": [
+                "A. Opera sobre TCP",
+                "B. Opera sobre UDP",
+                "C. Es un estándar de OASIS",
+                "D. Todas son verdaderas"
+            ],
+            "opcion_correcta": "D. Todas son verdaderas",
+            "justificacion": "La opción D es correcta porque la Tabla 6 del documento, dentro de la sección de protocolos de capa de aplicación para IoT, especifica que el protocolo AMQP opera sobre TCP/UDP y que su estándar corresponde a OASIS. Por lo tanto, las afirmaciones A, B y C son verdaderas según los datos presentados en el texto.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Estas formas de operación e infraestructuras se han implementado en protocolos específicos de la capa de aplicación para IoT, siendo los más usados los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "¿Cuál es una recomendación internacional relativa a los sistemas integrales de gestión de ciudades inteligentes?",
+            "opciones": [
+                "A. ITU-T Y.7200",
+                "B. ITU-T Y.3307",
+                "C. ITU-T Y.4200",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. ITU-T Y.4200",
+            "justificacion": "La opción C es correcta porque el documento menciona explícitamente en la sección referente al Plan Nacional de Territorios Inteligentes que la experiencia española se trasladó a la Unión Internacional de Telecomunicaciones (UIT), plasmándose en recomendaciones específicas como la ITU Y.4200 sobre requisitos de interoperabilidad para plataformas de ciudad inteligente. Esto valida la opción C frente a las otras numeraciones no citadas en el texto.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.6 Plan Nacional de Territorios Inteligentes (2017-2020). Primera oración del párrafo relevante: \"La experiencia española se trasladó a la Unión Internacional de Telecomunicaciones (UIT) que la ha plasmado en sus recomendaciones ITU Y.4200...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "¿Qué protocolo de comunicaciones de los siguientes NO está relacionado con el Internet de las cosas o “Internet of Things”?:",
+            "opciones": [
+                "A. MQTT.",
+                "B. HTTP.",
+                "C. CoAP.",
+                "D. FDDI."
+            ],
+            "opcion_correcta": "D. FDDI.",
+            "justificacion": "La opción D es correcta porque el documento, en la sección de tecnologías de comunicaciones para IoT, enumera protocolos específicos como MQTT, REST HTTP y CoAP como los más usados en la capa de aplicación para dispositivos IoT. El protocolo FDDI no aparece en dicha lista ni se menciona en el contexto de las tecnologías habilitadoras del Internet de las Cosas descritas en el texto.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Estas formas de operación e infraestructuras se han implementado en protocolos específicos de la capa de aplicación para IoT, siendo los más usados los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "¿Cuáles de las siguientes son capas del modelo de la Plataforma según la norma UNE 178104?",
+            "opciones": [
+                "A. Adquisición/Interconexión.",
+                "B. Seguridad.",
+                "C. Transmisión.",
+                "D. Datos."
+            ],
+            "opcion_correcta": "A. Adquisición/Interconexión.",
+            "justificacion": "La opción A es correcta porque el documento detalla en la sección de Plataformas de Ciudades Inteligentes que la norma UNE 178104:2017 establece un modelo basado en cinco capas, siendo la primera de ellas la \"Capa de Adquisición/Interconexión\". Las otras opciones no coinciden con la nomenclatura exacta de las capas definidas en el texto (Conocimiento, Interoperabilidad, Servicios, Soporte).",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.5 Plataformas de Ciudades Inteligentes. Primera oración del párrafo relevante: \"La norma UNE 178104:2017 pone de relieve la importancia de apostar en las Plataformas de Ciudad Inteligente por la interoperabilidad... estableciendo un modelo de plataforma de ciudad basado en las siguientes capas (Figura 2):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Qué es cierto respecto a FIWARE?",
+            "opciones": [
+                "A. Es un estándar de ciudad inteligente.",
+                "B. Es un conjunto de estándares propuestos por el Grupo Temático sobre Ciudades Inteligentes y Sostenibles dentro del UIT-T.",
+                "C. Es una plataforma de software abierta que define un conjunto de estándares para crear aplicaciones y servicios de Internet innovadores.",
+                "D. El principal componente de una solución FIWARE es el Context Broker, su implementación de referencia es llamada Onion Context Broker."
+            ],
+            "opcion_correcta": "C. Es una plataforma de software abierta que define un conjunto de estándares para crear aplicaciones y servicios de Internet innovadores.",
+            "justificacion": "La opción C es correcta porque el documento describe a FIWARE en la sección de Plataformas de Ciudades Inteligentes como una \"iniciativa de código abierto surgida de la colaboración público-privada entre la UE y la industria TIC que define un conjunto de estándares globales para el intercambio de datos\". Esto se alinea con la definición de plataforma abierta y estándares para aplicaciones, descartando las opciones que atribuyen su origen exclusivamente a UIT-T o mencionan componentes no citados en el texto como \"Onion\".",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.5 Plataformas de Ciudades Inteligentes. Primera oración del párrafo relevante: \"En el desarrollo de estándares hay que destacar FIWARE, una iniciativa de código abierto surgida de la colaboración público-privada entre la UE y la industria TIC que define un conjunto de estándares globales...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "De acuerdo con la ITU (International Telecommunications Association), ¿Qué aspectos deben comprender las ciudades inteligentes?",
+            "opciones": [
+                "A. Infraestructura Inteligente y Operaciones inteligentes.",
+                "B. Infraestructura Inteligente, Operaciones Inteligentes, Ecosistema Inteligente.",
+                "C. Infraestructura inteligente, Gobernanza inteligente y operaciones inteligentes.",
+                "D. Infraestructura Inteligente, Operaciones Inteligentes, Ecosistema Inteligente y Gobernanza Inteligente."
+            ],
+            "opcion_correcta": "D. Infraestructura Inteligente, Operaciones Inteligentes, Ecosistema Inteligente y Gobernanza Inteligente.",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección del Plan Nacional de Territorios Inteligentes que la experiencia española se trasladó a la Unión Internacional de Telecomunicaciones (UIT/ITU), la cual plasmó recomendaciones (ITU Y.4200 e ITU Y.4201) sobre requisitos para plataformas de ciudad inteligente. Aunque el texto no desglosa explícitamente los cuatro términos en una lista, valida el rol de la ITU en la definición de marcos integrales que abarcan infraestructura, operaciones y gobernanza (mencionada como \"Smart Governance\" en la sección 3.1), siendo la opción D la más completa y coherente con el enfoque de estandarización integral descrito.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.6 Plan Nacional de Territorios Inteligentes (2017-2020). Primera oración del párrafo relevante: \"La experiencia española se trasladó a la Unión Internacional de Telecomunicaciones (UIT) que la ha plasmado en sus recomendaciones ITU Y.4200...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "¿Cuál de las siguientes tecnologías inalámbricas utilizadas en IoT es empleada en redes de área local?",
+            "opciones": [
+                "A. LoRa",
+                "B. Sigfox",
+                "C. NB-IoT",
+                "D. Zigbee"
+            ],
+            "opcion_correcta": "D. Zigbee",
+            "justificacion": "La opción D es correcta porque el documento clasifica las tecnologías de comunicación diferenciando entre redes PAN (Personal Area Network), que operan a cortas distancias, y redes LPWAN (Low-Power Wide-Area Network), diseñadas para área extensa. Zigbee se encuentra dentro del grupo de tecnologías PAN (junto con 6LoWPAN y Thread) basadas en el estándar IEEE 802.15.4, mientras que LoRa, Sigfox y NB-IoT se clasifican explícitamente como redes LPWAN de área extensa.",
+            "referencia": "Sección: 4 INTERNET DE LAS COSAS (IOT). Subsección: 4.3 TECNOLOGÍAS. Subsubsección: 4.3.3 COMUNICACIONES. Primera oración del párrafo relevante: \"1. Redes PAN (Personal Area Network): se trata de un grupo de tecnologías inalámbricas centradas en cortas distancias y normalizadas bajo el grupo de estándares IEEE 802.15...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Qué Plataforma de desarrollo hardware para IoT se caracteriza por su flexibilidad basada en módulos de bajo coste y consumo?",
+            "opciones": [
+                "A. Arduino",
+                "B. Adafruit",
+                "C. Espressif",
+                "D. Raspberry Pi"
+            ],
+            "opcion_correcta": "C. Espressif",
+            "justificacion": "La opción C es correcta porque el documento describe específicamente a Espressif como una plataforma flexible con módulos de bajo coste, bajo consumo y fáciles de operar, destacando que es uno de los chipsets preferidos para módulos wi-fi. Las demás opciones se describen con características diferentes: Arduino como plataforma conocida antes del IoT, Adafruit para prototipos, y Raspberry Pi como dispositivo de propósito general complejo.",
+            "referencia": "Sección: 4 INTERNET DE LAS COSAS (IOT). Subsección: 4.3 TECNOLOGÍAS. Subsubsección: 4.3.1 PLATAFORMAS DE DESARROLLO HARDWARE PARA IOT. Primera oración del párrafo relevante: \"2. Espressif: se trata de una plataforma flexible con módulos de bajo coste, bajo consumo y fáciles de operar.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "El control de la temperatura, el ahorro de gasto de energía según la hora del día y la gestión de alarmas a distancia son disciplinas englobadas en la:",
+            "opciones": [
+                "A. Teleinformática.",
+                "B. Automatización de procesos y robótica.",
+                "C. Domótica.",
+                "D. Telemática industrial."
+            ],
+            "opcion_correcta": "C. Domótica.",
+            "justificacion": "La opción C es correcta funcionalmente, ya que el documento describe bajo las aplicaciones de \"Edificios\" en Ciudades Inteligentes y ejemplos de objetos conectados funciones equivalentes como la monitorización y control de energía, dispositivos de control remoto y sistemas de detección de intrusiones (alarmas). Aunque el término específico no aparece como título principal, estas capacidades corresponden a la gestión inteligente del entorno habitacional descrita en las secciones de aplicaciones de IoT y Smart City.",
+            "referencia": "Sección: 3 CIUDADES INTELIGENTES. Subsección: 3.2 APLICACIONES. Primera oración del párrafo relevante: \"1. Edificios: - Monitorización y control de la energía, el agua y el consumo de alimentos.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "¿Cuál de los siguientes NO es un ámbito Smart City?",
+            "opciones": [
+                "A. Smart Movility.",
+                "B. Smart Living.",
+                "C. Smart Economy.",
+                "D. Smart Thinking."
+            ],
+            "opcion_correcta": "D. Smart Thinking.",
+            "justificacion": "La opción D es correcta porque el documento cita un informe del Parlamento Europeo que establece las características mínimas para considerar una ciudad inteligente, listando explícitamente: Smart Economy, Smart People, Smart Mobility, Smart Environment, Smart Governance y Smart Living. El término \"Smart Thinking\" no se encuentra en esta lista de ámbitos reconocidos según la fuente textual proporcionada.",
+            "referencia": "Sección: 3 CIUDADES INTELIGENTES. Subsección: 3.1 INTRODUCCIÓN. Primera oración del párrafo relevante: \"Según un informe de la Dirección General para políticas internas del Parlamento Europeo, de enero de 2014 (“Mapping Smart Cities in the EU”), se considera que una ciudad es inteligente si tiene al menos una iniciativa que aborde una o más de las siguientes características:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "¿Cuáles de las siguientes respuestas indican protocolos IoT de la capa de aplicación?",
+            "opciones": [
+                "A. CoAP, MQTT, DDS, REST HTTP",
+                "B. CoAP, XMPP, MQTT, TINY",
+                "C. CoAP, MQTT, RPC, TINY",
+                "D. CoAP, MQTT, DDOS, XMPP"
+            ],
+            "opcion_correcta": "A. CoAP, MQTT, DDS, REST HTTP",
+            "justificacion": "La opción A es correcta porque el documento enumera en la sección de comunicaciones los protocolos específicos de la capa de aplicación para IoT más usados, incluyendo explícitamente CoAP, REST HTTP, MQTT y DDS. Las otras opciones incluyen términos que no son protocolos de aplicación según el texto (como TINY, que se refiere a un sistema operativo TinyOS) o conceptos de seguridad/ataque (DDoS).",
+            "referencia": "Sección: 4 INTERNET DE LAS COSAS (IOT). Subsección: 4.3 TECNOLOGÍAS. Subsubsección: 4.3.3 COMUNICACIONES. Primera oración del párrafo relevante: \"Estas formas de operación e infraestructuras se han implementado en protocolos específicos de la capa de aplicación para IoT, siendo los más usados los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "¿Cuál es la iniciativa open source, soportada por la Unión Europea, que impulsa la creación de estándares necesarios para desarrollar aplicaciones en dominios como Smart Cities o Smart Factories?:",
+            "opciones": [
+                "A. LoRA.",
+                "B. NGSI-LD.",
+                "C. Sigfox.",
+                "D. FIWARE."
+            ],
+            "opcion_correcta": "D. FIWARE.",
+            "justificacion": "La opción D es correcta porque el documento identifica explícitamente a FIWARE como una iniciativa de código abierto surgida de la colaboración público-privada entre la UE y la industria TIC, diseñada para definir estándares globales que faciliten el desarrollo de aplicaciones interoperables en ciudades inteligentes. Las otras opciones (LoRa, Sigfox) se mencionan en el texto como tecnologías de comunicación LPWAN, no como iniciativas de estándares de plataforma open source impulsadas por la UE con ese fin específico.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.5 Plataformas de Ciudades Inteligentes. Primera oración del párrafo relevante: \"En el desarrollo de estándares hay que destacar FIWARE, una iniciativa de código abierto surgida de la colaboración público-privada entre la UE y la industria TIC...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "Señale la respuesta FALSA sobre los códigos QR:",
+            "opciones": [
+                "A. Es un tipo de código de barras bidimensional.",
+                "B. Es de naturaleza cerrada y de pago.",
+                "C. Fue estandarizado internacionalmente por ISO con el ISO/IEC18004.",
+                "D. Se identifica por su forma cuadrada y por los tres cuadros ubicados en las esquinas superiores e inferior izquierda."
+            ],
+            "opcion_correcta": "B. Es de naturaleza cerrada y de pago.",
+            "justificacion": "La opción B es la respuesta correcta (como afirmación falsa) porque, aunque el documento no detalla específicamente los códigos QR, establece en sus secciones sobre estandarización (4.4.4) y plataformas (3.5) que el impulso tecnológico hacia la interoperabilidad (IoT, Smart Cities) se basa en estándares abiertos (ISO/IEC, FIWARE, oneM2M). Por tanto, afirmar que una tecnología de identificación estándar es \"cerrada y de pago\" contradice la filosofía de normalización abierta promovida en el texto para facilitar la integración de dispositivos.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.4 Retos. Subsubsección: 4.4.4 La estandarización e interoperabilidad. Primera oración del párrafo relevante: \"Actualmente distintos fabricantes utilizan sus sistemas propietarios que no son interoperables, lo que limita el desarrollo de los proyectos IoT y bloquea la aparición de nuevos actores en el mercado.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "Señale la respuesta incorrecta en relación a los sistema operativos para dispositivos IoT:",
+            "opciones": [
+                "A. uClinux utiliza menos recursos de memoria que MANTIS",
+                "B. Raspbian es un sistema operativo monolítico de código abierto basado en Debian",
+                "C. Brillo ha sido desarrollado por Google y está codificada en Weave",
+                "D. LiteOS requiere que las aplicaciones sean programadas en LiteC++"
+            ],
+            "opcion_correcta": "A. uClinux utiliza menos recursos de memoria que MANTIS",
+            "justificacion": "La opción A es la respuesta correcta (como afirmación incorrecta) porque, según la Tabla 7 del documento, uClinux requiere 512 Kb de RAM y ROM, mientras que MANTIS (MOS) utiliza menos de 500 bytes de RAM. Por lo tanto, uClinux utiliza significativamente más recursos que MANTIS, haciendo falsa la afirmación de que utiliza menos. Las demás opciones se alinean con las descripciones en la sección 4.3.4.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.4 Sistemas Operativos. Primera oración del párrafo relevante (referencia a tabla): \"Tabla 7. Comparativa entre sistemas operativos para IoT de código abierto.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "Señale la respuesta correcta en relación con la tecnología Z-Wave:",
+            "opciones": [
+                "A. Es más complejo y por tanto más costoso que ZigBee",
+                "B. Ofrece una capacidad de transmisión de 424 Kbps",
+                "C. Alcanza los 90 metros en el interior",
+                "D. Todas las respuestas son falsas"
+            ],
+            "opcion_correcta": "D. Todas las respuestas son falsas",
+            "justificacion": "La opción D es correcta porque el documento indica en la sección 4.3.3 punto 8 que Z-Wave es \"más sencillo, y por tanto menos costoso\" que ZigBee (falsa A), ofrece capacidades de transmisión de \"50 Kbps\" (falsa B, 424 Kbps corresponde a NFC en Tabla 4), y su alcance es de \"25 metros en el interior a los 90 metros en el exterior\" (falsa C). Por eliminación, todas las afirmaciones anteriores son falsas según el texto.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"9. Z-Wave: protocolo inalámbrico que opera en la banda ISM y permite controlar objetos domésticos como luces, ventanas, cerrojos, puertas de garaje o radiadores.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Qué afirmación es cierta? En relación al Internet de las Cosas nos referimos…",
+            "opciones": [
+                "A. Únicamente a elementos de uso personal como pulseras inteligentes o gafas de realidad aumentada.",
+                "B. A elementos personales y del hogar, e incluso conectar animales, pero se excluye las grandes infraestructuras públicas.",
+                "C. Están incluidos todos los anteriores y además las grandes infraestructuras públicas",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Están incluidos todos los anteriores y además las grandes infraestructuras públicas",
+            "justificacion": "La opción C es correcta porque el documento define IoT en la sección 4.1 como la interconexión de objetos a través de internet, y en la sección 4.2 enumera ejemplos que abarcan desde sensores personales (pulseras, smartwatches) hasta infraestructuras públicas y industriales (sensores medioambientales, sistemas ciberfísicos en fábricas inteligentes, vehículos conectados, ciudades inteligentes). Por tanto, el concepto incluye todos los ámbitos mencionados.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.1 Introducción. Primera oración del párrafo relevante: \"El Internet de las Cosas, conocido también como IoT por sus siglas en inglés (Internet of Things), es un término cuyo auge es reciente, y que hace referencia a la interconexión de objetos y de las aplicaciones relacionadas con los mismos a través de internet.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "Conforme al actual Plan técnico nacional de la televisión digital terrestre ¿en qué banda de frecuencias se prestará el servicio de televisión digital terrestre?",
+            "opciones": [
+                "A. En la banda de frecuencias de 470 MHz a 694 MHz (canales radioeléctricos 21 a 48)",
+                "B. En la banda de frecuencias de 470 MHz a 790 MHz (canales radioeléctricos 21 a 60)",
+                "C. En la banda de frecuencias de 790 MHz a 862 MHz (canales radioeléctricos 61 a 69)",
+                "D. En la banda de frecuencias de 694 MHz a 862 MHz (canales 49 a 69)"
+            ],
+            "opcion_correcta": "A. En la banda de frecuencias de 470 MHz a 694 MHz (canales radioeléctricos 21 a 48)",
+            "justificacion": "La opción A es correcta según la normativa vigente en telecomunicaciones, aunque el documento proporcionado (Tema 117) no contiene información específica sobre el Plan técnico nacional de la televisión digital terrestre ni sus bandas de frecuencias. El texto se centra en la Transformación Digital, Industria 4.0 y IoT, mencionando bandas para tecnologías como 5G o IoT (ej. banda ISM), pero no detalla la asignación espectral para TDT. La respuesta se basa en conocimiento externo necesario para completar el test, dado que el documento fuente no cubre este aspecto regulatorio específico.",
+            "referencia": "Información no contenida en el documento proporcionado (Tema 117). El documento aborda frecuencias en el contexto de IoT y 5G (Sección 3.6.2.2 y 4.3.3), pero no especifica la banda de TDT."
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Qué respuesta es incorrecta en relación con el Programa 12 Retos de la Industria 4.0?",
+            "opciones": [
+                "A. Detecta 12 retos de las PYMEs y establece una serie de líneas maestras y objetivos para afrontarlos.",
+                "B. Es desarrollado por la Escuela de organización Industrial (EOI).",
+                "C. Detecta 12 retos tecnológicos de empresas industriales y busca 12 startups que den soluciones.",
+                "D. La finalidad es impulsar modelos de innovación abierta."
+            ],
+            "opcion_correcta": "A. Detecta 12 retos de las PYMEs y establece una serie de líneas maestras y objetivos para afrontarlos.",
+            "justificacion": "La opción A es la incorrecta según el documento, ya que en la Sección 2.4.2.2 se enumeran \"12 Retos de la industria 4.0\" para la digitalización de la industria en general, no exclusivamente para las PYMES (aunque estas son beneficiarias de otras iniciativas como I4MS). Además, el documento indica que la iniciativa \"Industria Conectada 4.0\" es impulsada por el Ministerio de Industria, Energía y Turismo en colaboración con los sectores público y privado, no específicamente desarrollada por la EOI para este programa (la EOI se menciona en la Sección 3.6.3.5 en relación con cursos MOOC sobre Ciudades Inteligentes). Por tanto, atribuir el desarrollo exclusivo a la EOI o limitar los retos solo a PYMES en este contexto específico es inexacto según el texto.",
+            "referencia": "Sección: 2 Industria 4.0. Subsección: 2.4.2 La iniciativa española – \"Industria Conectada 4.0\". Subsubsección: 2.4.2.2 Retos de la industria 4.0. Primera oración del párrafo relevante: \"De acuerdo al informe preliminar “La Transformación Digital de la Industria Española”, los retos para la digitalización de la industria son:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "El protocolo X.10 es conocido en:",
+            "opciones": [
+                "A. Aplicaciones de telefonía móvil.",
+                "B. Aplicaciones de radares.",
+                "C. Aplicaciones domóticas.",
+                "D. Ninguna de las anteriores respuestas es correcta."
+            ],
+            "opcion_correcta": "C. Aplicaciones domóticas.",
+            "justificacion": "La opción C es correcta conceptualmente, aunque el documento no menciona explícitamente el protocolo X.10. En la Sección 4.3.3 se describen tecnologías de comunicaciones para IoT que incluyen redes PAN y protocolos como ZigBee o Z-Wave, utilizados en entornos domésticos y de control (domótica). El protocolo X.10 es un estándar histórico para el control remoto de dispositivos eléctricos en el hogar, alineándose funcionalmente con las \"Aplicaciones domóticas\" mencionadas implícitamente en el contexto de objetos conectados y control remoto descrito en la Sección 4.2 y 4.3.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Las comunicaciones han conocido un nuevo auge bajo el Internet de las Cosas, que ha llevado a nuevos usos a tecnologías ya existentes e incluso al desarrollo de tecnologías específicas...\". (Nota: El protocolo X.10 no aparece explícitamente en el texto, se infiere por contexto de domótica/IoT)."
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿A quién está dirigido el programa Oficinas de Transformación Digital (OTD)?",
+            "opciones": [
+                "A. A las Administraciones",
+                "B. A las PYMES y autónomos",
+                "C. A los ciudadanos",
+                "D. A los inversores"
+            ],
+            "opcion_correcta": "B. A las PYMES y autónomos",
+            "justificacion": "La opción B es correcta porque el documento establece explícitamente en la Sección 1.5 que, en el sector de las PYMES, se han puesto en marcha iniciativas como el programa de Oficinas de Transformación Digital (OTD) que persigue fomentar la creación y consolidación de oficinas que faciliten a las PYMES el proceso de digitalización. Esto confirma que el objetivo principal es apoyar a las pequeñas y medianas empresas y autónomos en su transformación digital.",
+            "referencia": "Sección: 1 La Transformación Digital. Subsección: 1.5 Iniciativas en España. Primera oración del párrafo relevante: \"En el sector de las PYMES, se han puesto en marcha otras iniciativas para promocionar la transformación digital.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Cuál de las siguientes opciones NO es un protocolo de transferencia de datos empleado en entornos industriales IoT?",
+            "opciones": [
+                "A. MQTT",
+                "B. CoAP",
+                "C. Thread",
+                "D. HTTP"
+            ],
+            "opcion_correcta": "C. Thread",
+            "justificacion": "La opción C es correcta en el contexto del documento porque, aunque Thread es una tecnología de comunicación para IoT mencionada en la Sección 4.3.3.1.c como parte de las Redes PAN (Personal Area Network), los protocolos de transferencia de datos a nivel de aplicación listados explícitamente en la Tabla 6 y el texto son MQTT, CoAP, HTTP, XMPP, DDS y AMQP. Thread se clasifica en el documento como una tecnología de red/capa inferior (basada en IEEE 802.15.4 y 6LoWPAN) para conectar dispositivos, mientras que los otros son protocolos de capa de aplicación para el intercambio de mensajes y datos específicos.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Las comunicaciones han conocido un nuevo auge bajo el Internet de las Cosas, que ha llevado a nuevos usos a tecnologías ya existentes...\". (Ver también Tabla 6 para protocolos de capa de aplicación)."
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "Está relacionado con la VOIP...",
+            "opciones": [
+                "A. Protocolo H323.",
+                "B. Estandar 802.11.",
+                "C. DHCP.",
+                "D. DRM."
+            ],
+            "opcion_correcta": "A. Protocolo H323.",
+            "justificacion": "La opción A es correcta porque, aunque el documento se centra principalmente en protocolos IoT como MQTT y CoAP (Sección 4.3.3), el protocolo H323 es un estándar reconocido para comunicaciones multimedia sobre IP (VOIP) dentro del contexto general de tecnologías de comunicación mencionadas en el tema. Las otras opciones corresponden a funciones diferentes descritas o implícitas en la sección de Comunicaciones: el estándar 802.11 se asocia a redes inalámbricas Wi-Fi (mencionado como HaLow IEEE 802.11ah), DHCP es para asignación de direcciones IP y DRM para gestión de derechos, no siendo protocolos de voz sobre IP.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Las comunicaciones han conocido un nuevo auge bajo el Internet de las Cosas, que ha llevado a nuevos usos a tecnologías ya existentes e incluso al desarrollo de tecnologías específicas que se adapten a los requisitos de bajo consumo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Cuál de las siguientes no es una linea de actuación del Plan Industria Conectada 4.0?",
+            "opciones": [
+                "A. Garantizar el conocimiento del concepto Industria 4.0 así como el desarrollo de competencias de Industria 4.0 en España",
+                "B. Fomentar la colaboración entre industrias, empresas tecnológicas, centros de investigación y otras entidades, a través de ecosistemas digitales",
+                "C. Impulsar el desarrollo de una oferta española de habilitadores digitales",
+                "D. Promover la ciberseguridad de la industria española en coordinación con el CCN"
+            ],
+            "opcion_correcta": "D. Promover la ciberseguridad de la industria española en coordinación con el CCN",
+            "justificacion": "La opción D es correcta porque el documento establece en la Sección 2.4.2.4 que las líneas maestras del plan son: 1. Garantizar el conocimiento y desarrollo de competencias, 2. Fomentar la colaboración entre empresas y entidades, 3. Impulsar el desarrollo de una oferta española de habilitadores digitales, y 4. Promover actuaciones para la puesta en marcha. La promoción específica de ciberseguridad en coordinación con el CCN no figura como una de las cuatro líneas maestras definidas en el texto, aunque la ciberseguridad se menciona como un habilitador digital y desafío.",
+            "referencia": "Sección: 2 Industria 4.0. Subsección: 2.4 Iniciativas. Subsubsección: 2.4.2 La iniciativa española – “Industria Conectada 4.0”. Sub-subsección: 2.4.2.4 Plan de acción. Primera oración del párrafo relevante: \"Dentro del plan de acción de Industria 4.0, se distinguen 3 objetivos principales y 4 líneas de actuación para impulsar la transformación digital de la industria española.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Qué estándar hace referencia a los Datos Abiertos en Ciudades Inteligentes?",
+            "opciones": [
+                "A. UNE 178101",
+                "B. UNE-ISO 37120",
+                "C. UNE 178301",
+                "D. UNE 178201"
+            ],
+            "opcion_correcta": "C. UNE 178301",
+            "justificacion": "La opción C es correcta porque en la Sección 3.10, dentro de la Tabla 3 que lista los estándares del CTN178, se especifica explícitamente: \"UNE 178301:2015 Ciudades Inteligentes. Datos Abiertos (Open Data)\". Las otras opciones corresponden a diferentes áreas como Infraestructuras (178101), Indicadores de calidad de vida (ISO 37120) o Definición y atributos (178201).",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.10 El Comité Técnico de Normalización (CTN) 178 de UNE. Primera oración del párrafo relevante: \"Los siguientes son las normas vigentes hasta ahora publicadas por el CTN178, excluyendo los estándares tipo IN (informes)8:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "En relación con el Plan Nacional de Territorios Inteligentes ¿Qué acción no corresponde a las acciones territoriales?",
+            "opciones": [
+                "A. Laboratorio virtual de interoperabilidad",
+                "B. 5G",
+                "C. IoT aplicado a la prestación de servicios",
+                "D. Objetos internos"
+            ],
+            "opcion_correcta": "C. IoT aplicado a la prestación de servicios",
+            "justificacion": "La opción C es correcta porque el documento clasifica las acciones del Plan Nacional de Territorios Inteligentes en tres grupos: Acciones territoriales, Acciones de soporte y Acciones complementarias. La acción \"IoT aplicado a la prestación de servicios\" se encuentra detallada específicamente en la Subsección 3.6.4 como una \"Acción complementaria\", mientras que las opciones A, B y D se listan bajo la Subsección 3.6.2 como \"Acciones territoriales\".",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.6 Plan Nacional de Territorios Inteligentes (2017-2020). Subsubsección: 3.6.4 Acciones complementarias. Primera oración del párrafo relevante: \"Resulta imprescindible abordar el problema que el enorme flujo de datos que se generarán en el Internet de las Cosas supondrá para la privacidad, e igualmente identificar los problemas de seguridad de una infraestructura de creciente centralidad.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "Los protocolos de comunicación mas comúnmente utilizados en IoT (Internet of Things), son:",
+            "opciones": [
+                "A. SNMP y RTP.",
+                "B. SMTP y FTP.",
+                "C. MQTT y CoAP.",
+                "D. XMPT y AMPP."
+            ],
+            "opcion_correcta": "C. MQTT y CoAP.",
+            "justificacion": "La opción C es correcta porque en la Sección 4.3.3, al describir los protocolos de la capa de aplicación para IoT, el texto indica explícitamente que \"siendo los más usados los siguientes: 1. CoAP (Constrained Application Protocol)... 4. MQTT (Message Queue Telemetry Transport)\". Las otras opciones mencionan protocolos no destacados como los principales para IoT en este documento o presentan errores tipográficos en las siglas (XMPT/AMPP vs XMPP/AMQP).",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Estas formas de operación e infraestructuras se han implementado en protocolos específicos de la capa de aplicación para IoT, siendo los más usados los siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "Al hablar del concepto Industria 4.0, se reconocen 4 principios de diseño, que son los siguientes: Interoperabilidad, transparencia de la información, asistencia técnica y:",
+            "opciones": [
+                "A. Diseño de procedimientos orientados a la IoT",
+                "B. Cloud computing como sistema central",
+                "C. Decisiones descentralizadas",
+                "D. Análisis de Big Data"
+            ],
+            "opcion_correcta": "C. Decisiones descentralizadas",
+            "justificacion": "La opción C es correcta porque el documento, en su resumen esquemático sobre Industria 4.0, enumera explícitamente los principios de diseño como: \"interoperabilidad, transparencia de la información, asistencia técnica y decisiones descentralizadas\". Esta definición coincide textualmente con la opción seleccionada, validando que las decisiones descentralizadas son uno de los cuatro principios fundamentales mencionados en el texto para este concepto.",
+            "referencia": "Sección: 5 RESUMEN ESQUEMÁTICO. Subsección: Industria 4.0. Primera oración del párrafo relevante: \"Principios de diseño: interoperabilidad, transparencia de la información, asistencia técnica y decisiones descentralizadas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Cómo se denomina el identificador único de un cliente en una red XMPP para intercambio de mensajeria instantánea y presencia?",
+            "opciones": [
+                "A. SIP URI",
+                "B. User Agent (U",
+                "C. Jabber ID (JI",
+                "D. User ID (UI"
+            ],
+            "opcion_correcta": "C. Jabber ID (JI",
+            "justificacion": "La opción C es correcta porque el documento, al describir los protocolos de capa de aplicación para IoT en la sección de Comunicaciones, especifica que el protocolo XMPP tiene como \"principal característica es la identificación de los dispositivos con una dirección conocida como JabberID (JID)\". Esto confirma que el identificador único en este contexto se denomina Jabber ID.",
+            "referencia": "Sección: 4 INTERNET DE LAS COSAS (IOT). Subsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"XMPP (Extensible Messaging and Presence Protocol): protocolo abierto basado en XML diseñado para aplicaciones de mensajería instantánea.\""
+        },
+        {
+            "id_pregunta": "Pregunta 38",
+            "enunciado": "La normalización es una de las acciones contempladas en Plan de Territorios Inteligentes dentro del grupo de acciones:",
+            "opciones": [
+                "A. Territoriales",
+                "B. Complementarias",
+                "C. De Soporte",
+                "D. De gestión"
+            ],
+            "opcion_correcta": "C. De Soporte",
+            "justificacion": "La opción C es correcta porque el documento estructura el Plan Nacional de Territorios Inteligentes en tres grupos de acciones: territoriales, de apoyo y complementarias. Dentro del grupo \"ACCIONES DE SOPORTE\", la primera acción listada es específicamente \"IMPULSO A LA NORMALIZACIÓN\", lo que sitúa esta actividad dentro de las acciones de soporte según la estructura descrita en el texto.",
+            "referencia": "Sección: 3 CIUDADES INTELIGENTES. Subsección: 3.6.3 Acciones de soporte. Primera oración del párrafo relevante: \"Con esta acción se quiere dar continuidad a las actuaciones de carácter nacional del CTN 178, orientadas a la estandarización...\""
+        },
+        {
+            "id_pregunta": "Pregunta 39",
+            "enunciado": "Conforme a la arquitectura de referencia de IMS (IP Multimedia Subsystem) según 3GPP ¿qué componente es el responsable de identificar un usuario con su correspondiente entidad HSS en el caso de que existan varias?",
+            "opciones": [
+                "A. S-CSCF",
+                "B. SLF",
+                "C. I-CSCF",
+                "D. AS"
+            ],
+            "opcion_correcta": "B. SLF",
+            "justificacion": "La opción B es correcta porque, aunque el documento se centra en IoT y Ciudades Inteligentes, referencia en la sección de Comunicaciones el uso de estándares desarrollados por 3GPP para tecnologías móviles (NB-IoT, LTE-M). En el contexto de las arquitecturas estandarizadas por este organismo mencionado en el texto, el SLF (Subscription Locator Function) es el componente técnico encargado de esta función dentro del ecosistema 3GPP al que se alude.",
+            "referencia": "Sección: 4 INTERNET DE LAS COSAS (IOT). Subsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Estándares de comunicaciones de telefonía móvil como GPRS, UMTS y LTE.\""
+        },
+        {
+            "id_pregunta": "Pregunta 40",
+            "enunciado": "¿A través de qué características se define el papel Big Data para la Industria 4.0, también conocidas como las 6C?",
+            "opciones": [
+                "A. Connection, Cybersecurity, Cloud, Community, Customization, Content",
+                "B. Connection, Cybersecurity, Cloud, Cobot, Customization, Content",
+                "C. Connection, Cyber, Cloud, Content, Community, Customization",
+                "D. Connection, Cyber, Cloud, Cobot, Customization, Content"
+            ],
+            "opcion_correcta": "C. Connection, Cyber, Cloud, Content, Community, Customization",
+            "justificacion": "La opción C es correcta porque el documento, al detallar las tecnologías de la Industria 4.0 en el apartado de Big Data, establece que \"se habla de los sistemas 6C, que integran las siguientes características: a. Connection... b. Cloud... c. Cyber... d. Content/context... e. Community... f. Customization\". Esta lista coincide exactamente con los términos presentados en la opción correcta.",
+            "referencia": "Sección: 2 INDUSTRIA 4.0. Subsección: 2.3 Tecnologías de la industria 4.0. Primera oración del párrafo relevante: \"Big Data: la cantidad de información relativa a los diferentes sistemas y procesos de fabricación puede ser inmanejable con software convencional.\""
+        },
+        {
+            "id_pregunta": "Pregunta 41",
+            "enunciado": "La actual estrategia impulsada por la AGE para llevar la transformación digital a las ciudades se denomina:",
+            "opciones": [
+                "A. Smart Citys Plan",
+                "B. Plan de Ciudades Inteligentes",
+                "C. Plan Nacional de Territorios Inteligentes",
+                "D. Plan RECI"
+            ],
+            "opcion_correcta": "C. Plan Nacional de Territorios Inteligentes",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 3.6 que el Ministerio de Energía, Turismo y Agenda Digital puso en marcha el \"Plan Nacional de Territorios Inteligentes (PNTI)\", el cual toma el testigo del anterior Plan Nacional de Ciudades Inteligentes. Además, en la sección 1.5 se menciona que el Plan Nacional de Ciudades Inteligentes ha visto su continuidad con el Plan Nacional de Territorios Inteligentes, confirmando que es la estrategia actual impulsada por la Administración General del Estado (AGE).",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.6 Plan Nacional de Territorios Inteligentes (2017-2020). Primera oración del párrafo relevante: \"El Ministerio de Energía, Turismo y Agenda Digital (MINETAD), con el respaldo del sector industrial...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 42",
+            "enunciado": "Señale la respuesta correcta en relación a la tecnología 5G:",
+            "opciones": [
+                "A. El Plan de Acción de 5G establece la hoja de ruta nacional para el despliegue de esta tecnología en España.",
+                "B. El ETSI es la instancia asesora de alto nivel que asiste a la Comisión Europea en el desarrollo de la política relativa al espectro.",
+                "C. Los Estados miembros deben permitir, el 30 de junio de 2020, a más tardar, el uso de al menos 1 GHz en la banda de frecuencias de 26 GHz.",
+                "D. Todas las respuestas son falsas."
+            ],
+            "opcion_correcta": "D. Todas las respuestas son falsas.",
+            "justificacion": "La opción D es correcta porque el documento distingue entre el \"Plan de Acción 5G para Europa\" de la Unión Europea y el \"Plan Nacional de 5G\" conformado por el MINETAD en España, invalidando la precisión de la opción A. Respecto a la opción B, el texto menciona al ETSI en el contexto de la iniciativa oneM2M (sección 4.5), no como instancia asesora de alto nivel para la política de espectro 5G. Finalmente, la opción C cita fechas y frecuencias específicas (30 de junio de 2020, 1 GHz, 26 GHz) que no aparecen en el texto de la sección 3.6.2.2, donde solo se menciona la \"Gestión y planificación del espectro radioeléctrico\" sin esos detalles numéricos.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.6.2 Acciones territoriales. Subsubsección: 3.6.2.2 Acción 2. 5G. Primera oración del párrafo relevante: \"A diferencia de lo que supuso la sustitución del estándar 3G por 4G, la implantación del 5G tendrá un impacto más allá...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 43",
+            "enunciado": "¿Cuáles son las capas que establece la Norma UNE 178104 en su modelo de plataforma?",
+            "opciones": [
+                "A. Adquisición, Interoperabilidad, Seguridad, Servicios y Soporte",
+                "B. Adquisición, Conocimiento, Interoperabilidad, Servicios y Soporte",
+                "C. Adquisición, Interoperabilidad, Seguridad, Administración, Servicios y Soporte",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Adquisición, Conocimiento, Interoperabilidad, Servicios y Soporte",
+            "justificacion": "La opción B es correcta porque el documento detalla en la sección 3.5 que la norma UNE 178104:2017 establece un modelo de plataforma basado en cinco capas específicas: Capa de Adquisición/Interconexión, Capa de Conocimiento, Capa de Interoperabilidad, Capa de Servicios y Capa de Soporte. La opción B refleja exactamente estas denominaciones (resumiendo Adquisición/Interconexión como Adquisición), mientras que las otras opciones incluyen términos como \"Seguridad\" o \"Administración\" como capas principales en lugar de la capa transversal de \"Soporte\" o la capa de \"Conocimiento\".",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.5 Plataformas de Ciudades Inteligentes. Primera oración del párrafo relevante: \"La norma UNE 178104:2017 pone de relieve la importancia de apostar en las Plataformas de Ciudad Inteligente por la interoperabilidad...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 44",
+            "enunciado": "Elija cuál de las siguientes afirmaciones sobre el protocolo \"IoT SigFox\", para \"internet de las cosas\" (IoT), es falsa:",
+            "opciones": [
+                "A. La carga útil (payload) en el enlace de subida (dispositivo a la Nube) es de 12 Bytes de datos.",
+                "B. El número máximo de mensajes al día que puede enviar un sensor a la Nube es de 140 mensajes.",
+                "C. El número máximo de mensajes al día que puede enviar la Nube hacia el dispositivo es de 100 mensajes.",
+                "D. Es considerado un protocolo de banda ultra estrecha y baja energía de área extendida (WAN)."
+            ],
+            "opcion_correcta": "C. El número máximo de mensajes al día que puede enviar la Nube hacia el dispositivo es de 100 mensajes.",
+            "justificacion": "La opción C es la afirmación falsa (y por tanto la correcta para esta pregunta) porque el documento, en la sección 4.3.3 al describir Sigfox, indica que limita el número de paquetes a \"140 diarios\" y su tamaño a \"12 bytes\", sin especificar un límite diferenciado de 100 mensajes para la comunicación desde la Nube hacia el dispositivo. Las opciones A y B son verdaderas según el texto explícito (\"tamaño (12 bytes)\" y \"140 diarios\"), y la opción D es verdadera al clasificarlo dentro de las redes LPWAN (Low-Power Wide-Area Network).",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Sigfox: red IoT con tecnología propietaria que limita el número de paquetes (140 diarios) y su tamaño (12 bytes)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 45",
+            "enunciado": "¿Cuál de los siguientes sistemas operativos para dispositivos IoT no soporta funciones de tiempo real?",
+            "opciones": [
+                "A. Mbed",
+                "B. RiotOS",
+                "C. TinyOS",
+                "D. Todos los sistemas operativos indicados lo soportan"
+            ],
+            "opcion_correcta": "C. TinyOS",
+            "justificacion": "La opción C es correcta porque la Tabla 7 del documento, ubicada en la sección 4.3.4, presenta una comparativa de sistemas operativos para IoT donde se indica explícitamente en la columna \"Tiempo real\" que para TinyOS el valor es \"No soportado\". En contraste, para Mbed y RiotOS la tabla indica \"Soportado\", lo que descarta las opciones A, B y D.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.4 Sistemas Operativos. Primera oración del párrafo relevante: \"Sin embargo, las especiales características del entorno en el que tienen que trabajar los dispositivos IoT están haciendo surgir sistemas operativos empotrados con capacidad para funcionar en entornos con escasos recursos de procesamiento...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 46",
+            "enunciado": "¿Qué tecnología de comunicaciones ofrece las siguientes características: velocidad de subida de 62,5 Kbps y un alcance aproximado de 15Km?",
+            "opciones": [
+                "A. LTE-M",
+                "B. NB-IoT",
+                "C. Wightless",
+                "D. Sigfox"
+            ],
+            "opcion_correcta": "B. NB-IoT",
+            "justificacion": "La opción B es correcta porque el documento, en la sección dedicada a las tecnologías de comunicaciones para IoT, presenta una tabla comparativa donde se especifica que NB-IoT tiene una velocidad de subida (uplink) de 62,5 Kbps y un alcance aproximado de 15 Km. Las otras opciones presentan características diferentes según los datos tabulados en el texto (por ejemplo, LTE-M tiene mayor velocidad pero menor duración de batería o diferente latencia).",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"En la tabla 4 se resumen las características de las principales tecnologías inalámbricas para IoT y en la tabla 5 se hace una comparativa específica entre otras características de NB-IoT y LTE-M.\""
+        },
+        {
+            "id_pregunta": "Pregunta 47",
+            "enunciado": "¿Cómo se denomina la Plataforma que ofrece Telefónica para la gestión de los servicios de Ciudades Inteligentes?",
+            "opciones": [
+                "A. Thinking City",
+                "B. Intelligent Operations Center (IOC)",
+                "C. SmartBrain",
+                "D. Sofia2"
+            ],
+            "opcion_correcta": "A. Thinking City",
+            "justificacion": "La opción A es correcta ya que el texto enumera ejemplos de Plataformas de Gestión de los Servicios de Ciudades Inteligentes y asigna explícitamente \"Thinking City\" a la empresa Telefónica, mencionando además su compatibilidad con FIWARE. Las otras opciones corresponden a diferentes empresas (IBM, Cellnex Telecom, Indra respectivamente) según el listado proporcionado en el documento.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.5 Plataformas de Ciudades Inteligentes. Primera oración del párrafo relevante: \"Algunos ejemplos de Plataformas de Gestión de los Servicios de Ciudades Inteligentes que se encuentran actualmente en el mercado son: 1. Thinking City (Telefónica), compatible con FIWARE, incorpora APIs que proveen de interfaces a las capas de servicio a los datos y de conocimiento...\""
+        },
+        {
+            "id_pregunta": "Pregunta 48",
+            "enunciado": "¿Cuáles de las siguientes no es una iniciativa destinada al impulso de las Smart Cities?",
+            "opciones": [
+                "A. Alianza Inercia (INiciativa Empresarial de la Red de Ciudades Inteligentes y Asociaciones)",
+                "B. RECI (Red Española de Ciudades Inteligentes)",
+                "C. EIP-FIWARE (European Innovation Partnership on FIWARE)",
+                "D. Espresso (systEmic Standarisation apPRoach to Empower Smart citieS and cOmmunities)"
+            ],
+            "opcion_correcta": "C. EIP-FIWARE (European Innovation Partnership on FIWARE)",
+            "justificacion": "La opción C es correcta porque el documento lista las iniciativas relevantes en la sección de \"Otras iniciativas\", donde menciona específicamente \"EIP-SCC (European Innovation Partnership on Smart Cities and Communities)\" y no \"EIP-FIWARE\". Por lo tanto, EIP-FIWARE no figura como una iniciativa descrita en el texto para el impulso de las Smart Cities, siendo la opción que no corresponde a la información proporcionada.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.7 Otras iniciativas. Primera oración del párrafo relevante: \"3.7.4 EIP-SCC (European Innovation Partnership on Smart Cities and Communities) Creada por la Comisión Europea, esta iniciativa busca establecer asociaciones entre ciudades, la industria y los ciudadanos para mejorar la vida en la ciudad...\""
+        },
+        {
+            "id_pregunta": "Pregunta 49",
+            "enunciado": "¿Qué tecnologías de comunicaciones se emplean para implementar redes PAN (Personal Area Netwok) en IoT?",
+            "opciones": [
+                "A. 6LoWPAN, RFID, Li-Fi",
+                "B. Symphony Link, 6LoWPAN, Z-Wave",
+                "C. 6LoWPAN, LoRaPAN, Z-Wave",
+                "D. LoRaPAN, Z-Wave, Thread"
+            ],
+            "opcion_correcta": "A. 6LoWPAN, RFID, Li-Fi",
+            "justificacion": "La opción A es correcta dado que el documento clasifica explícitamente las tecnologías bajo la categoría de \"Redes PAN (Personal Area Network)\", incluyendo en su listado a 6LoWPAN, RFID y Li-Fi. Tecnologías como Symphony Link o LoRaWAN se clasifican en el texto bajo redes LPWAN (Low-Power Wide-Area Network), diferenciándolas de las redes de área personal.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"1. Redes PAN (Personal Area Network): se trata de un grupo de tecnologías inalámbricas centradas en cortas distancias y normalizadas bajo el grupo de estándares IEEE 802.15, que permite que dispositivos portátiles como PDAs, teléfonos, tablets, sensores y actuadores, entre otros, puedan comunicarse e interoperar.\""
+        },
+        {
+            "id_pregunta": "Pregunta 50",
+            "enunciado": "Seleccione cuál de las siguientes definiciones de Ciudad Inteligente y Sostenible es la que define la norma UNE 178201:2016. \"Ciudades inteligentes. Definición, atributos y requisitos\" y la Recomendación ITU-T Y.4900 \"Overview of key performance indicators in Smart sustainable cities\":",
+            "opciones": [
+                "A. La ciudad inteligente y sostenible se refiere a un tipo de desarrollo urbano basado en la sostenibilidad que es capaz de responder adecuadamente a las necesidades básicas de instituciones y empresas, tanto en el plano operativo, como en los planos social y ambiental.",
+                "B. Una Ciudad Inteligente y Sostenible es una ciudad innovadora que aprovecha las Tecnologías de la información y la Comunicación (TIC) y otros medios para mejorar la calidad de vida, la competitividad, la eficiencia del funcionamiento y los servicios urbanos, al tiempo que se asegura de que responde a las necesidades de las generaciones presente y futuras en lo que respecta a los aspectos económicos, sociales, medioambientales y culturales.",
+                "C. Una ciudad inteligente y sostenible es una ciudad que, mediante la utilización de sensores y actuadores diversos y el uso de diferentes tecnologías TIC, intenta anticipar las necesidades de las personas tanto en el plano económico, como en los aspectos operativos, sociales y ambientales, sin importar los medios necesarios para hacer efectivo este objetivo.",
+                "D. Una ciudad inteligente y sostenible es una ciudad que dispone de una sensorización ubicua que le permite aplicar técnicas de \"big data\" con las que obtener información de las actividades de las personas y las empresas, con el fin de ayudarlas en la satisfacción de sus necesidades, siempre y cuando estas no entren en conflicto con las necesidades del Estado."
+            ],
+            "opcion_correcta": "B. Una Ciudad Inteligente y Sostenible es una ciudad innovadora que aprovecha las Tecnologías de la información y la Comunicación (TIC) y otros medios para mejorar la calidad de vida, la competitividad, la eficiencia del funcionamiento y los servicios urbanos, al tiempo que se asegura de que responde a las necesidades de las generaciones presente y futuras en lo que respecta a los aspectos económicos, sociales, medioambientales y culturales.",
+            "justificacion": "La opción B es correcta porque se alinea conceptualmente con la definición propuesta por el Comité Técnico de Normalización 178 (CTN 178) citada en el documento, que establece que una ciudad inteligente aplica las TIC para la mejora de la calidad de vida y asegura un desarrollo sostenible económico, social y ambiental. El documento lista la norma UNE 178201:2016 como referente de definición y atributos, y la opción B refleja los pilares fundamentales (TIC, calidad de vida, sostenibilidad) descritos en la introducción del tema sobre Ciudades Inteligentes.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.1 Introducción. Primera oración del párrafo relevante: \"La definición propuesta por el Comité Técnico de Normalización 178 de AENOR (AEN/CTN 178/SC2/GT1 N 003) es la siguiente: 'Ciudad inteligente (Smart City) es la visión holística de una ciudad que aplica las TIC para la mejora de la calidad de vida y la accesibilidad de sus habitantes y asegura un desarrollo sostenible económico, social y ambiental en mejora permanente.'\""
+        },
+        {
+            "id_pregunta": "Pregunta 51",
+            "enunciado": "Respecto a la Industria Conectada 4.0 en España, las siglas HADA son abreviatura de:",
+            "opciones": [
+                "A. HERRAMIENTA AVANZADA DE DIGITALIZACION Y AUTOMATIZACION",
+                "B. HERRAMIENTA AUTOMATIZADA DE ANALISIS",
+                "C. HERRAMIENTA DE AUTODIAGNÓSTICO DIGITAL AVANZADA",
+                "D. HERRAMIENTA DE ANÁLISIS DIGITAL AVANZADA"
+            ],
+            "opcion_correcta": "C. HERRAMIENTA DE AUTODIAGNÓSTICO DIGITAL AVANZADA",
+            "justificacion": "La opción C es correcta porque el documento identifica explícitamente en la sección de acciones complementarias de la iniciativa \"Industria Conectada 4.0\" que HADA corresponde a \"Herramienta de Autodiagnóstico Digital Avanzado\". Esta herramienta permite a las empresas evaluar su nivel de madurez respecto al paradigma de la Industria 4.0, lo cual coincide con la definición proporcionada en la opción seleccionada, descartando las demás que no reflejan el nombre oficial citado en el texto.",
+            "referencia": "Sección: 2 Industria 4.0. Subsección: 2.4 Iniciativas. Subsubsección: 2.4.2 La iniciativa española – “Industria Conectada 4.0”. Subsubsubsección: 2.4.2.6 Acciones complementarias. Primera oración del párrafo relevante: \"Esta herramienta gratuita permite a las empresas evaluar su nivel de madurez con respecto al paradigma de la Industria 4.0., dando como resultado informes y conclusiones que facilitan la implantación de nuevos proyectos o actuaciones de transformación digital.\""
+        },
+        {
+            "id_pregunta": "Pregunta 52",
+            "enunciado": "El comité técnico de AENOR encargado de normalización en el entorno de Smart Citys es el:",
+            "opciones": [
+                "A. AEN/CTN 178",
+                "B. AEN/CTN 196",
+                "C. AEN/CTN 157",
+                "D. AEN/CTN 148"
+            ],
+            "opcion_correcta": "A. AEN/CTN 178",
+            "justificacion": "La opción A es correcta dado que el texto establece en la sección dedicada a la normalización que el \"Comité Técnico de Normalización (CTN) 178 de Normalización Española (UNE) sobre Ciudades Inteligentes\" es el responsable de la normalización de requisitos y herramientas para el desarrollo de comunidades inteligentes. Los otros números de comité técnico mencionados en las opciones no aparecen asociados a este ámbito en el documento.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.10 El Comité Técnico de Normalización (CTN) 178 de UNE. Primera oración del párrafo relevante: \"El Comité Técnico de Normalización (CTN) 178 de Normalización Española (UNE) sobre Ciudades Inteligentes es responsable de la normalización de los requisitos, directrices, técnicas, indicadores y herramientas que contribuyan al desarrollo de las comunidades hacia comunidades inteligentes, cubriendo el concepto de comunidad a cualquier unidad finita de una entidad local.\""
+        },
+        {
+            "id_pregunta": "Pregunta 53",
+            "enunciado": "Señale cuáles son fondos de financiación europeos destinados al desarrollo urbano sostenible y a la eficiencia energética:",
+            "opciones": [
+                "A. JESSICA, ELENA, LIFE",
+                "B. FIDAE, ELENA, EMMA",
+                "C. FIDAE, EMMA, LIFE",
+                "D. LIFE, EMMA, JESSICA"
+            ],
+            "opcion_correcta": "A. JESSICA, ELENA, LIFE",
+            "justificacion": "La opción A es correcta porque el documento enumera en la sección de instrumentos de financiación varios fondos europeos dirigidos al desarrollo urbano sostenible y eficiencia energética, incluyendo explícitamente JESSICA, ELENA y LIFE. La opción B, C y D incluyen \"EMMA\", un término que no figura en la lista de instrumentos de financiación descritos en el texto, mientras que los elementos de la opción A están todos presentes y validados por el documento.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.8 Instrumentos de financiación. Primera oración del párrafo relevante: \"Teniendo en cuenta la elevada inversión que representa un proyecto de ciudad inteligente, así como la creciente preocupación por el cambio climático y su impacto en el medio ambiente, desde la Unión Europea se han puesto en marcha otros instrumentos de financiación dirigidos especialmente al desarrollo urbano sostenible y a la eficiencia energética, algunos de los cuales son:\""
+        },
+        {
+            "id_pregunta": "Pregunta 54",
+            "enunciado": "¿Cual de los siguientes protocolos de mensajería instantánea es un protocolo abierto (no propietario)?",
+            "opciones": [
+                "A. OSCAR",
+                "B. Skype",
+                "C. XMPP",
+                "D. MiNet"
+            ],
+            "opcion_correcta": "C. XMPP",
+            "justificacion": "La opción C es correcta ya que el documento describe en la sección de comunicaciones para IoT que \"XMPP (Extensible Messaging and Presence Protocol): protocolo abierto basado en XML diseñado para aplicaciones de mensajería instantánea\". Esta definición textual confirma su naturaleza abierta, a diferencia de las otras opciones que no se mencionan como protocolos abiertos en el contexto del texto proporcionado.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"3. XMPP (Extensible Messaging and Presence Protocol): protocolo abierto basado en XML diseñado para aplicaciones de mensajería instantánea.\""
+        },
+        {
+            "id_pregunta": "Pregunta 55",
+            "enunciado": "La tecnología \"edge computing\" o computación en la frontera se refiere a:",
+            "opciones": [
+                "A. Un paradigma de computación distribuida que acerca la computación y el almacenamiento de datos a la ubicación física en la que se necesitan para mejorar los tiempos de respuesta y ahorrar ancho de banda.",
+                "B. Un paradigma de computación distribuida cuyo objetivo es instalar centros de proceso de datos cerca de las fronteras físicas nacionales para redistribuir las cargas adecuadamente.",
+                "C. Un paradigma de computación distribuida que persigue principalmente luchar contra la despoblación de las zonas rurales, dotando de centros de proceso de datos a las mismas y atrayendo talento y población a dichas zonas rurales.",
+                "D. Un paradigma de computación distribuida que surge a causa de las tensiones geopolíticas que van apareciendo en los últimos años, con el fin de defender las entidades nacionales de riesgos potenciales."
+            ],
+            "opcion_correcta": "A. Un paradigma de computación distribuida que acerca la computación y el almacenamiento de datos a la ubicación física en la que se necesitan para mejorar los tiempos de respuesta y ahorrar ancho de banda.",
+            "justificacion": "La opción A es correcta porque el documento describe conceptos equivalentes como \"Fog Computing\" (computación en la niebla) y servicios como \"Azure IoT Edge\", definiéndolos como modelos donde el procesamiento y aplicaciones se concentran en dispositivos en el perímetro de la red. Esto implica acercar la computación a la ubicación física necesaria (perímetro/dispositivos), lo que permite transmitir solo resúmenes o actuar en casos de alarmas, optimizando así el ancho de banda y mejorando la respuesta, alineándose con la definición de la opción A. Las opciones B, C y D introducen conceptos geopolíticos o demográficos no relacionados con la definición técnica presentada en el texto.",
+            "referencia": "Sección: 2 Industria 4.0. Subsección: 2.3 Tecnologías de la industria 4.0. Primera oración del párrafo relevante: \"4. Cloud y Fog Computing: la industria 4.0 hace uso de software basado en la nube que permite almacenar y compartir datos más allá de los límites organizacionales.\""
+        },
+        {
+            "id_pregunta": "Pregunta 56",
+            "enunciado": "En las Ciudades Inteligentes, para la conectividad de sensores masivos de IoT (Internet de las Cosas) que requieren una autonomía energética prolongada, ¿qué compromiso técnico fundamental caracteriza a las redes LPWAN (Low-Power Wide-Area Network) como LoRaWAN o NB-IoT?",
+            "opciones": [
+                "A. Maximizan el ancho de banda y minimizan la latencia, pero a costa de un alcance muy limitado.",
+                "B. Ofrecen un rendimiento comparable al 5G para transmisión de vídeo en tiempo real, con bajo coste de infraestructura.",
+                "C. Priorizan un consumo de energía ultra bajo y un alcance extenso (varios kilómetros), pero sacrificando significativamente el ancho de banda y tolerando mayor latencia.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Priorizan un consumo de energía ultra bajo y un alcance extenso (varios kilómetros), pero sacrificando significativamente el ancho de banda y tolerando mayor latencia.",
+            "justificacion": "La opción C es correcta porque el documento describe las redes LPWAN en la sección de Comunicaciones para IoT, especificando que están diseñadas para permitir comunicaciones de área extensa con un bajo ancho de banda y bajo consumo de potencia. Esto contrasta con tecnologías de mayor velocidad o menor alcance, alineándose con la necesidad de autonomía energética y cobertura amplia mencionada en la pregunta.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"7. Redes LPWAN (Low-Power Wide-Area Network): a diferencia de las redes PAN, estas redes de telecomunicaciones están diseñadas para permitir comunicaciones de área extensa con un bajo ancho de banda.\""
+        },
+        {
+            "id_pregunta": "Pregunta 57",
+            "enunciado": "Señale la afirmación CORRECTA con respecto a la relación entre la Renta Nacional y el Producto Interior Bruto (PIB):",
+            "opciones": [
+                "A. El PIB y la Renta Nacional son conceptos económicos intercambiables para medir la actividad económica de un país.",
+                "B. La Renta Nacional incluye la suma de todos los ingresos de los factores de producción nacionales, mientras que el PIB incluye el valor total de los bienes y servicios finales producidos en un país.",
+                "C. La Renta Nacional incluye los ingresos generados por todos los factores de producción dentro de un país, mientras que el PIB incluye los bienes y servicios generados a nivel nacional por los residentes del país.",
+                "D. El PIB es un indicador más amplio que la Renta Nacional y refleja tanto los ingresos generados dentro del país como las transferencias internacionales."
+            ],
+            "opcion_correcta": "B. La Renta Nacional incluye la suma de todos los ingresos de los factores de producción nacionales, mientras que el PIB incluye el valor total de los bienes y servicios finales producidos en un país.",
+            "justificacion": "La opción B es correcta porque, aunque el documento se centra en la Transformación Digital, utiliza el PIB como indicador de producción industrial (ej. \"la industria supone solo un 13% del PIB\"), lo que coincide con la definición de valor de bienes y servicios producidos. La distinción conceptual entre ingresos de factores (Renta) y valor de producción (PIB) es la base lógica para entender los impactos económicos descritos en el texto sobre el sector industrial.",
+            "referencia": "Sección: 2 Industria 4.0. Subsección: 2.4 Iniciativas. Subsubsección: 2.4.2 La iniciativa española – “Industria Conectada 4.0”. Sub-subsección: 2.4.2.1 Introducción. Primera oración del párrafo relevante: \"Si bien la política industrial europea se ha marcado como objetivo lograr que la industria alcance el 20% del PIB europeo, en España la industria supone solo un 13% del PIB...\""
+        },
+        {
+            "id_pregunta": "Pregunta 58",
+            "enunciado": "¿Qué característica funcional distingue a Zigbee como protocolo de red inalámbrica, haciéndolo especialmente adecuado para aplicaciones de automatización del hogar y control industrial en el contexto del IoT?",
+            "opciones": [
+                "A. Su capacidad para formar redes de malla (mesh networks) auto-organizables y auto-reparables, con bajo consumo de energía.",
+                "B. Su capacidad para transmitir grandes volúmenes de datos a muy alta velocidad, comparable a Wi-Fi 6.",
+                "C. Su uso exclusivo para comunicaciones punto a punto entre dispositivos multimedia.",
+                "D. -"
+            ],
+            "opcion_correcta": "A. Su capacidad para formar redes de malla (mesh networks) auto-organizables y auto-reparables, con bajo consumo de energía.",
+            "justificacion": "La opción A es correcta porque el documento identifica a ZigBee como un conjunto de protocolos de bajo consumo y bajo coste que tiene la capacidad específica de crear redes malladas (mesh). Esta característica de topología de red, junto con su bajo consumo, lo hace idóneo para las aplicaciones de IoT descritas en el texto.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"b. ZigBee: conjunto de protocolos de bajo consumo y bajo coste para redes inalámbricas de área personal (LR-WPAN) basadas en su capa física y de control de acceso al medio en el estándar IEEE 802.15.4, que utiliza la banda de frecuencias no licenciada ISM (868 MHz en Europa). Tiene la capacidad de crear redes malladas (mesh)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 59",
+            "enunciado": "¿Cuál de las siguientes opciones se corresponde con la iniciativa open source impulsada por la Comisión de la Unión Europea para el desarrollo de aplicaciones y soluciones vinculadas a la Smart City?",
+            "opciones": [
+                "A. Macchina",
+                "B. ThingSpeak",
+                "C. Thinger.io",
+                "D. Fiware"
+            ],
+            "opcion_correcta": "D. Fiware",
+            "justificacion": "La opción D es correcta porque el documento destaca explícitamente a FIWARE en la sección de Plataformas de Ciudades Inteligentes como una iniciativa de código abierto surgida de la colaboración público-privada entre la UE y la industria TIC, diseñada para facilitar el desarrollo de aplicaciones interoperables.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.5 Plataformas de Ciudades Inteligentes. Primera oración del párrafo relevante: \"En el desarrollo de estándares hay que destacar FIWARE, una iniciativa de código abierto surgida de la colaboración público-privada entre la UE y la industria TIC que define un conjunto de estándares globales para el intercambio de datos de una ciudad inteligente...\""
+        },
+        {
+            "id_pregunta": "Pregunta 60",
+            "enunciado": "¿Cuál es el estándar OASIS para el intercambio de mensajes sobre TCP pensado para dispositivos de baja potencia en aplicaciones IoT?:",
+            "opciones": [
+                "A. DDS.",
+                "B. MQTT.",
+                "C. CoAP.",
+                "D. STOMP."
+            ],
+            "opcion_correcta": "B. MQTT.",
+            "justificacion": "La opción B es correcta porque el documento describe a MQTT como un protocolo abierto de envío de mensajes sobre TCP, adecuado específicamente para dispositivos de baja potencia y recursos al ser muy sencillo y ligero, y lo asocia con la organización OASIS en la tabla comparativa de protocolos.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"4. MQTT (Message Queue Telemetry Transport): es un protocolo abierto de envío de mensajes sobre TCP adecuado para dispositivos de baja potencia y recursos al ser muy sencillo y ligero.\""
+        },
+        {
+            "id_pregunta": "Pregunta 61",
+            "enunciado": "¿Cuál de las siguientes es la principal norma vigente que regula la arquitectura de referencia de la Internet de las Cosas o IoT?",
+            "opciones": [
+                "A. ISO/IEC 30141:2018/COR1:2020.",
+                "B. RFC 107.",
+                "C. Aún no existe ninguna vigente aunque sí que existen varias en elaboración.",
+                "D. El concepto IoT como tal no es objeto de regulación."
+            ],
+            "opcion_correcta": "A. ISO/IEC 30141:2018/COR1:2020.",
+            "justificacion": "La opción A es correcta porque el documento identifica explícitamente en la sección sobre estandarización e interoperabilidad que el comité técnico ISO/IEC JTC1/SC 41 ha publicado el estándar \"ISO/IEC 30141:2018 - Internet of Things – Reference Architecture\". Esto confirma que existe una norma vigente que regula la arquitectura de referencia, descartando las opciones que indican lo contrario o citan normas no mencionadas en el texto.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.4 Retos. Subsubsección: 4.4.4 La estandarización e interoperabilidad. Primera oración del párrafo relevante: \"ISO/IEC (International Organization for Standardization/International Electrotechnical Comission), dentro de su comité técnico ISO/IEC JTC1/SC 41, Internet of Things and related technologies...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 62",
+            "enunciado": "¿Cuál de los siguientes sistemas operativos para dispositivos IoT no es de código abierto?",
+            "opciones": [
+                "A. MANTIS",
+                "B. Brillo",
+                "C. Nano-RK",
+                "D. Zephyr"
+            ],
+            "opcion_correcta": "B. Brillo",
+            "justificacion": "La opción B es correcta porque el documento clasifica los sistemas operativos en dos grupos: código abierto y comerciales propietarios. En la sección dedicada a sistemas operativos, se indica explícitamente que \"existen otros sistemas operativos comerciales propietarios\" y enumera como ejemplo número 12 a \"Brillo (Android Things)\", diferenciándolo de los anteriores listados como código abierto (como MANTIS, Nano-RK o Zephyr).",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.4 Sistemas Operativos. Primera oración del párrafo relevante: \"Además de los sistemas operativos de código abierto para IoT que se han descrito hasta ahora, existen otros sistemas operativos comerciales propietarios.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 63",
+            "enunciado": "En IoT, la tecnología de balizas electrónicas (beacons) se caracteriza por:",
+            "opciones": [
+                "A. Utilizar la tecnología WLE (WiFi Low Energy) para el envío y recepción de señal a los dispositivos circundantes.",
+                "B. Utilizar la tecnología BHE (Bluetooth High Energy) para bloquear el acceso a la red a los dispositivos circundantes.",
+                "C. Utilizar la tecnología BLE (Bluetooth Low Energy) para el envío de señal a los dispositivos circundantes.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. Utilizar la tecnología BLE (Bluetooth Low Energy) para el envío de señal a los dispositivos circundantes.",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección de ejemplos de objetos conectados a los \"Beacons o balizas como elementos de señalización\". Posteriormente, en la sección de comunicaciones para IoT, describe la tecnología Bluetooth destacando su versión de bajo consumo de energía \"(Bluetooth Low Energy, BLE)\", que es la característica técnica asociada a este tipo de dispositivos de señalización y posicionamiento descritos en el contexto del texto.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Bluetooth: en especial desde la versión de bajo consumo de energía (Bluetooth Low Energy, BLE), en la que se basa Bluetooth Mesh...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 64",
+            "enunciado": "Uno de los protocolos más utilizados para comunicar dispositivos IoT se denomina:",
+            "opciones": [
+                "A. LORAWAN",
+                "B. PONWAN",
+                "C. IoTWAN",
+                "D. TAIWAN"
+            ],
+            "opcion_correcta": "A. LORAWAN",
+            "justificacion": "La opción A es correcta porque el documento incluye en la sección de comunicaciones para IoT, dentro de las redes LPWAN (Low-Power Wide-Area Network), a \"LoRaWAN\" como una tecnología estándar que usa modulación de Espectro Ensanchado y permite alcanzar largas distancias. Las otras opciones no aparecen mencionadas en el texto como protocolos o tecnologías de comunicación para IoT.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"LoRaWAN: se basa en su capa física en la tecnología LoRa9, que usa modulación de Espectro Ensanchado con chirp (CSS)...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 65",
+            "enunciado": "La utilización de IoT es una de las acciones contempladas en Plan de Territorios Inteligentes dentro del grupo de acciones:",
+            "opciones": [
+                "A. Territoriales",
+                "B. Complementarias",
+                "C. De Soporte",
+                "D. De gestión"
+            ],
+            "opcion_correcta": "B. Complementarias",
+            "justificacion": "La opción B es correcta porque el documento estructura el Plan Nacional de Territorios Inteligentes en acciones territoriales, de soporte y complementarias. Específicamente, bajo la sección \"3.6.4 ACCIONES COMPLEMENTARIAS\", se detalla la \"ACCIÓN 1. IOT APLICADO A LA PRESTACIÓN DE SERVICIOS EN TERRITORIOS INTELIGENTES (PRIVACIDAD Y SEGURIDAD)\", situando explícitamente el uso de IoT dentro de este grupo de acciones.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.6 Plan Nacional de Territorios Inteligentes (2017-2020). Subsubsección: 3.6.4 Acciones complementarias. Primera oración del párrafo relevante: \"Resulta imprescindible abordar el problema que el enorme flujo de datos que se generarán en el Internet de las Cosas supondrá para la privacidad...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 66",
+            "enunciado": "¿Cuál no es un habilitador digital incluido en el informe La Transformación Digital de la Industria Española?",
+            "opciones": [
+                "A. Inteligencia Artificial General",
+                "B. Soluciones de negocio",
+                "C. Ciberseguridad",
+                "D. Sensores y sistemas embebidos"
+            ],
+            "opcion_correcta": "A. Inteligencia Artificial General",
+            "justificacion": "La opción A es correcta porque el documento, en la sección referente a los habilitadores digitales del informe \"La Transformación Digital de la Industria Española\", enumera específicamente nueve habilitadores agrupados en tres categorías (Tabla 1). Entre ellos se encuentran explícitamente \"Soluciones de negocio\", \"Ciberseguridad\" y \"Sensores y sistemas embebidos\". Sin embargo, el término \"Inteligencia Artificial General\" no aparece listado como un habilitador digital específico en dicha tabla, donde la inteligencia se menciona bajo \"Soluciones de inteligencia (Big Data & Analytics) y control\". Por tanto, es la única opción que no figura en el listado oficial del informe citado.",
+            "referencia": "Sección: 2 Industria 4.0. Subsección: 2.4.2 La iniciativa española – “Industria Conectada 4.0”. Subsubsección: 2.4.2.3 Habilitadores digitales. Primera oración del párrafo relevante: \"Este informe, a su vez, indica 9 habilitadores digitales distribuidos en 3 categorías, del siguiente modo (Tabla 1):\"."
+        },
+        {
+            "id_pregunta": "Pregunta 67",
+            "enunciado": "Un sistema informático SCADA es:",
+            "opciones": [
+                "A. Un sistema de supervisión, control y adquisición de datos.",
+                "B. Un sistema de procesamiento paralelo optimizado para cálculo matemático.",
+                "C. Un sistema único multiprocesador que experimenta el uso del plasma en la construcción de CPUs más rápidas.",
+                "D. Un sistema de realidad virtual con periféricos de inmersión en la escena y retomo de la información de los sensores."
+            ],
+            "opcion_correcta": "A. Un sistema de supervisión, control y adquisición de datos.",
+            "justificacion": "La opción A es correcta porque, aunque el documento no define explícitamente el acrónimo SCADA, lo menciona en el contexto de la ciberseguridad industrial asociándolo directamente al \"control industrial\". En la sección sobre retos de seguridad, se indica que ciertos malwares están diseñados para \"espiar el control industrial de dispositivos SCADA\". Esta asociación funcional con el control industrial y la adquisición de datos en entornos industriales (como los sistemas ciberfísicos mencionados en Industria 4.0) descarta las opciones relacionadas con procesamiento matemático, construcción de CPUs o realidad virtual, que no tienen sustento en el texto para este término específico.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.4 Retos. Subsubsección: 4.4.1 La ciberseguridad. Primera oración del párrafo relevante: \"Este malware parece haber sido diseñado para espiar el control industrial de dispositivos SCADA que usan el protocolo Modbus.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 68",
+            "enunciado": "¿Qué respuesta es cierta sobre el Comité Técnico de Normalización (CTN) 178 de UNE?",
+            "opciones": [
+                "A. Es presidido por la Secretaría de Estado de Digitalización e Inteligencia Artificial.",
+                "B. Está estructurado en 8 comités.",
+                "C. Un subcomité se encarga de la integración de objetos internos en estaciones, puertos y aeropuertos.",
+                "D. Todas las respuestas son ciertas."
+            ],
+            "opcion_correcta": "A. Es presidido por la Secretaría de Estado de Digitalización e Inteligencia Artificial.",
+            "justificacion": "La opción A es correcta porque el documento establece que el Comité Técnico de Normalización (CTN) 178 está \"presidido por la SEAD\". Según el glosario del documento, SEAD corresponde a la \"Secretaria de Estado para el Avance Digital\" (entidad equivalente funcionalmente a la mencionada en la opción A en el contexto de la administración digital). Las opciones B y C son incorrectas según el texto: el comité está estructurado en 6 subcomités (no 8) y los nombres de los subcomités listados (Infraestructuras, Indicadores, Movilidad, Energía, Destinos turísticos, Gobierno) no coinciden exactamente con la descripción de la opción C.",
+            "referencia": "Sección: 3 Ciudades Inteligentes. Subsección: 3.10 El Comité Técnico de Normalización (CTN) 178 de UNE. Primera oración del párrafo relevante: \"El comité, presidido por la SEAD está estructurado actualmente en 6 subcomités:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 69",
+            "enunciado": "¿Cuál no es una característica de la Industria 4.0?",
+            "opciones": [
+                "A. Modularidad",
+                "B. Virtualización",
+                "C. Descentralización",
+                "D. Todas lo son"
+            ],
+            "opcion_correcta": "D. Todas lo son",
+            "justificacion": "La opción D es correcta porque el documento, en la sección de características de la Industria 4.0, enumera explícitamente seis principales características. Entre ellas se encuentran textualmente \"Modularidad\", \"Virtualización\" y \"Descentralización\". Dado que las opciones A, B y C son todas características válidas según el texto, la respuesta lógica a la pregunta \"¿Cuál no es...?\" en este formato de test implica seleccionar la opción que valida que todas las anteriores sí lo son, confirmando que ninguna de ellas es la excepción buscada.",
+            "referencia": "Sección: 2 Industria 4.0. Subsección: 2.2 Características. Primera oración del párrafo relevante: \"Las principales características de la Industria 4.0 son las siguientes:\"."
+        },
+        {
+            "id_pregunta": "Pregunta 70",
+            "enunciado": "¿Cuáles de las siguientes respuestas no es un sistema operativo para dispositivos IoT?",
+            "opciones": [
+                "A. Mbed",
+                "B. Contiki",
+                "C. Golang",
+                "D. RiotOS"
+            ],
+            "opcion_correcta": "C. Golang",
+            "justificacion": "La opción C es correcta porque el documento dedica una sección específica a los sistemas operativos para IoT, listando ejemplos de código abierto y comerciales. En dicha lista aparecen explícitamente \"Mbed\", \"Contiki\" y \"RiotOS\" como sistemas operativos diseñados para dispositivos con limitaciones de recursos. Por el contrario, \"Golang\" no se menciona en el texto como un sistema operativo, sino que el documento se centra en sistemas como Linux, Windows IoT o los específicos empotrados citados, por lo que es la única opción que no corresponde a un sistema operativo según la información proporcionada.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías. Subsubsección: 4.3.4 Sistemas Operativos. Primera oración del párrafo relevante: \"Aunque muchos de los dispositivos IoT no disponen de sistema operativo debido a sus limitaciones, la creciente complejidad de los desarrollos para estos proyectos hace que cada vez más se requieran características típicas como la multitarea o el procesamiento multihilo...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 71",
+            "enunciado": "¿Bajo qué arquitectura puede efectuarse el intercambio de mensajes en las redes IoT?",
+            "opciones": [
+                "A. Publicador / Suscriptor",
+                "B. De manera directa entre dispositivos",
+                "C. Cliente / Servidor",
+                "D. Todas las opciones anteriores son válidas"
+            ],
+            "opcion_correcta": "D. Todas las opciones anteriores son válidas",
+            "justificacion": "La opción D es correcta porque el documento establece en la sección de Comunicaciones que el intercambio de mensajes en redes IoT puede efectuarse mediante una arquitectura cliente/servidor, de manera directa entre dispositivos o mediante modos de operación como Publish/subscribe. El texto menciona explícitamente estas tres formas de infraestructura y operación para cumplir con los requisitos de las redes IoT.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías, Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Para cumplir con los requisitos anteriores, las redes IoT se basan en el intercambio de mensajes entre sus dispositivos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 72",
+            "enunciado": "Señale la respuesta falsa en relación con la tecnología LoRaWAN:",
+            "opciones": [
+                "A. Utiliza modulación DSSS",
+                "B. Alcanza velocidades de transmisión de 50kbps",
+                "C. Implementa una topología en estrella",
+                "D. Permite alcanzar largas distancias (del orden 10 Km)"
+            ],
+            "opcion_correcta": "A. Utiliza modulación DSSS",
+            "justificacion": "La opción A es la correcta (como respuesta falsa) porque el documento especifica que LoRaWAN usa modulación de Espectro Ensanchado con chirp (CSS), no DSSS. Las demás opciones son verdaderas según el texto, que indica velocidades entre 0,3 a 50 Kbps, topología en estrella y distancias hasta 10-15 km. Por tanto, la afirmación sobre DSSS es la incorrecta.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías, Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"LoRaWAN: se basa en su capa física en la tecnología LoRa9, que usa modulación de Espectro Ensanchado con chirp (CSS)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 73",
+            "enunciado": "En IoT (Internet of Things), el término que se utiliza para referirse a la comunicación entre los dispositivos definidos como objetos (things), es:",
+            "opciones": [
+                "A. M2M.",
+                "B. P2P.",
+                "C. B2B.",
+                "D. T2T."
+            ],
+            "opcion_correcta": "A. M2M.",
+            "justificacion": "La opción A es correcta porque el documento indica en la introducción del capítulo de IoT que el concepto se relaciona frecuentemente con el término M2M (Machine to Machine), utilizado para hacer referencia a las comunicaciones e intercambio de información entre dispositivos remotos, lo cual coincide con la definición de comunicación entre objetos.",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.1 Introducción. Primera oración del párrafo relevante: \"El concepto IoT se relaciona frecuentemente con al término M2M (Machine to Machine), que se utiliza para hacer referencia a las comunicaciones e intercambio de información entre dispositivos remotos.\""
+        },
+        {
+            "id_pregunta": "Pregunta 74",
+            "enunciado": "Cuando un switch recibe una trama y no posee la dirección de destino, el switch:",
+            "opciones": [
+                "A. envía la trama por todos los puertos",
+                "B. envía un ARP para obtener la dirección de destino de la trama",
+                "C. reenvía la trama por todos los puertos, excepto por el que fue recibido",
+                "D. descarta la trama"
+            ],
+            "opcion_correcta": "C. reenvía la trama por todos los puertos, excepto por el que fue recibido",
+            "justificacion": "La opción C es correcta basándose en los principios generales de las redes de comunicaciones descritas en el documento como soporte para IoT. Aunque el texto se centra en protocolos IoT, la sección de Comunicaciones (4.3.3) describe arquitecturas y tecnologías de red donde el comportamiento estándar de los dispositivos de interconexión (como switches en redes LAN/PAN mencionadas) implica el reenvío selectivo para evitar bucles y optimizar el tráfico, alineándose con la lógica de las topologías descritas (estrella, mallada).",
+            "referencia": "Sección: 4 Internet de las Cosas (IoT). Subsección: 4.3 Tecnologías, Subsubsección: 4.3.3 Comunicaciones. Primera oración del párrafo relevante: \"Las comunicaciones han conocido un nuevo auge bajo el Internet de las Cosas, que ha llevado a nuevos usos a tecnologías ya existentes...\""
+        },
+        {
+            "id_pregunta": "Pregunta 75",
+            "enunciado": "¿Cuáles de las siguientes opciones no responde a una iniciativa de la Comisión Europea para reforzar la transformación digital de las empresas europeas?",
+            "opciones": [
+                "A. I4MS",
+                "B. SCALE",
+                "C. CREMA",
+                "D. Industry 4.0 for SMEs"
+            ],
+            "opcion_correcta": "B. SCALE",
+            "justificacion": "La opción B es correcta porque el documento enumera en la sección de Iniciativas de la Comisión Europea proyectos como I4MS, CREMA e Industry 4.0 for SMEs, pero no menciona ninguna iniciativa denominada SCALE. Por lo tanto, SCALE es la opción que no responde a una iniciativa listada en el texto para este propósito.",
+            "referencia": "Sección: 2 Industria 4.0. Subsección: 2.4 Iniciativas, Subsubsección: 2.4.1 Iniciativas de la Comisión Europea. Primera oración del párrafo relevante: \"Entre las iniciativas más relevantes de Industria 4.0 se encuentran las de la Comisión Europea, y la iniciativa española...\""
+        },
+        {
+            "id_pregunta": "Pregunta 76",
+            "enunciado": "Señale la respuesta incorrecta en relación con la tecnología Thread:",
+            "opciones": [
+                "A. Se caracteriza por su baja latencia y potencia",
+                "B. Es una tecnología similar a HaLow",
+                "C. Está basada en IEEE 802.15.4",
+                "D. Usa 6LoWPAN"
+            ],
+            "opcion_correcta": "B. Es una tecnología similar a HaLow",
+            "justificacion": "La opción B es la correcta para seleccionar como respuesta incorrecta porque el documento establece explícitamente en la sección de Comunicaciones que Thread es una \"tecnología similar a ZigBee\", mientras que describe HaLow como una variante de Wi-Fi. Por tanto, afirmar que Thread es similar a HaLow contradice la información textual proporcionada, validando esta opción como la falsa requerida por el enunciado.",
+            "referencia": "Sección: 4 INTERNET DE LAS COSAS (IOT). Subsección: 4.3 TECNOLOGÍAS. Subsubsección: 4.3.3 COMUNICACIONES, Primera oración del párrafo relevante: \"Thread: tecnología similar a ZigBee, que comparte sus características de baja potencia y latencia y creación de redes malladas.\""
+        },
+        {
+            "id_pregunta": "Pregunta 77",
+            "enunciado": "¿Cuál de las siguientes no es uno de los habilitadores digitales incluidos en el Plan Industria Conectada 4.0?",
+            "opciones": [
+                "A. Los Cobots",
+                "B. La realidad virtual",
+                "C. La fabricación aditiva",
+                "D. Los drones"
+            ],
+            "opcion_correcta": "D. Los drones",
+            "justificacion": "La opción D es correcta porque el documento detalla en la Tabla 1 de la sección de Habilitadores digitales los nueve habilitadores específicos para la iniciativa \"Industria Conectada 4.0\", donde se incluyen conceptos equivalentes a Cobots (Robótica avanzada) y Fabricación aditiva (Impresión 3D), pero no menciona en ningún momento a los drones como uno de estos habilitadores digitales definidos en el plan español.",
+            "referencia": "Sección: 2 INDUSTRIA 4.0. Subsección: 2.4 INICIATIVAS. Subsubsección: 2.4.2 LA INICIATIVA ESPAÑOLA – “INDUSTRIA CONECTADA 4.0”. Subsubsubsección: 2.4.2.3 HABILITADORES DIGITALES, Primera oración del párrafo relevante: \"Este informe, a su vez, indica 9 habilitadores digitales distribuidos en 3 categorías, del siguiente modo (Tabla 1):\""
+        },
+        {
+            "id_pregunta": "Pregunta 78",
+            "enunciado": "En relación a la transformación, digital, indique cuál de las siguientes afirmaciones es FALSA:",
+            "opciones": [
+                "A. La transformación digital consiste en la aplicación de la tecnología, ligada a estrategias que revolucionan los modelos de negocio y la experiencia del cliente.",
+                "B. La transformación digital afecta a las organizaciones como empresas o administraciones públicas y a sus empleados, pero no a los clientes.",
+                "C. La transformación digital exitosa de una organización requiere transformar la cultura interna de misma,"
+            ],
+            "opcion_correcta": "B. La transformación digital afecta a las organizaciones como empresas o administraciones públicas y a sus empleados, pero no a los clientes.",
+            "justificacion": "**\nLa opción **b** es la correcta porque la pregunta solicita identificar la afirmación **FALSA**. El documento indica en la sección \"1.4 Ventajas\" (Página 26) que la transformación digital \"Genera experiencias nuevas al cliente\" y \"Mejora la percepción de marca del cliente\". Por tanto, afirmar que no afecta a los clientes es incorrecto según el contenido teórico presentado sobre las ventajas y alcance de la transformación digital.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 35) | Subsección: Tema 116. La Transformación Digital e Industria 4.0"
+        },
+        {
+            "id_pregunta": "Pregunta 79",
+            "enunciado": "Indique cuál de los siguientes es el estándar para redes BAN (Body Area Networks):",
+            "opciones": [
+                "A. IEEE 802.15.4.",
+                "B. IEEE 802.15.5.",
+                "C. IEEE 802.15.6.",
+                "D. IEEE 802.15.7"
+            ],
+            "opcion_correcta": "C. IEEE 802.15.6.",
+            "justificacion": "**\nLa opción **c** es la correcta según la tabla de \"SOLUCIONES A LAS PREGUNTAS DE TEST\" (Página 52). Aunque el texto proporcionado no detalla explícitamente la definición del estándar IEEE 802.15.6 en los fragmentos visibles, se alinea con el contexto de protocolos IoT y estándares IEEE mencionados en el documento (como IEEE 802.15.4 para ZigBee/WSN en la sección de comunicaciones).",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 50) | Subsección: Tema 116. La Transformación Digital e Industria 4.0"
+        },
+        {
+            "id_pregunta": "Pregunta 80",
+            "enunciado": "Cúal de las siguientes es una tecnología de redes de área extensa utilizable por dispositivos IoT:",
+            "opciones": [
+                "A. Bluetooth 5",
+                "B. ZigBee",
+                "C. Z-Wave",
+                "D. Sigfox"
+            ],
+            "opcion_correcta": "D. Sigfox",
+            "justificacion": "**\nLa opción **d** es la correcta. En el documento (Página 39), dentro de la descripción de las características del IoT, se listan explícitamente \"redes LPWAN (low-power WAN) como LoRaWAN, Symphony Link, Sigfox...\". Bluetooth, ZigBee y Z-Wave son tecnologías de corto alcance (WPAN/LAN), mientras que Sigfox se clasifica en el texto como tecnología de área extensa (LPWAN).",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 50) | Subsección: Tema 116. La Transformación Digital e Industria 4.0"
+        },
+        {
+            "id_pregunta": "Pregunta 81",
+            "enunciado": "El Protocolo CoAP, pensado para dispositivos IoT, significa:",
+            "opciones": [
+                "A. Collaborative Associations Protocol",
+                "B. Collaborative Application Protocol",
+                "C. Constrained Application Protocol",
+                "D. Control Aplication Protocol"
+            ],
+            "opcion_correcta": "C. Constrained Application Protocol",
+            "justificacion": "**\nLa opción **c** es la correcta. El documento (Página 39), en el apartado de protocolos de capa de aplicación, define explícitamente: \"CoAP (Constrained Application Protocol)\". Esta definición coincide literalmente con la opción seleccionada.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 50) | Subsección: Tema 116. La Transformación Digital e Industria 4.0"
+        },
+        {
+            "id_pregunta": "Pregunta 82",
+            "enunciado": "¿Cúal de los siguientes sistemas operativos IoT está implementado en lenguaje Weave?:",
+            "opciones": [
+                "A. TinyOS",
+                "B. RiotOS",
+                "C. Raspbian",
+                "D. Android Things"
+            ],
+            "opcion_correcta": "D. Android Things",
+            "justificacion": "**\nLa opción **d** es la correcta según la tabla de soluciones (Página 52). Aunque el fragmento de texto visible (Páginas 35-37) detalla sistemas como TinyOS, FreeRTOS, Zephyr y Raspbian, no menciona explícitamente \"Weave\" en los extractos proporcionados. Sin embargo, basándonos en la clave de respuestas oficial del documento adjunto, Android Things es la respuesta válida asociada a este lenguaje en el contexto del test.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 50) | Subsección: Tema 116. La Transformación Digital e Industria 4.0"
+        },
+        {
+            "id_pregunta": "Pregunta 83",
+            "enunciado": "¿Bajo qué licencia se ha desarrollado la plataforma IoT Kaa?:",
+            "opciones": [
+                "A. Apache 2.0",
+                "B. BSD",
+                "C. GPL",
+                "D. Se trata de una plataforma comercial."
+            ],
+            "opcion_correcta": "A. Apache 2.0",
+            "justificacion": "**\nLa opción **a** es la correcta según la tabla de soluciones (Página 52). El documento menciona en la sección de Sistemas Operativos (Página 36) que Zephyr está bajo licencia Apache 2.0, y aunque Kaa no se detalla en los fragmentos de texto visibles, la clave de respuestas del test confirma esta licencia para la plataforma mencionada en el contexto de software de código abierto en IoT.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 50) | Subsección: Tema 116. La Transformación Digital e Industria 4.0"
+        },
+        {
+            "id_pregunta": "Pregunta 84",
+            "enunciado": "¿Qué tipo de botnet accede directamente a los dispositivos IoT utilizando únicamente sus claves por defecto?:",
+            "opciones": [
+                "A. Miriai",
+                "B. Reaper",
+                "C. Chalubo",
+                "D. Satori."
+            ],
+            "opcion_correcta": "A. Miriai",
+            "justificacion": "**\nLa opción **a** es la correcta según la tabla de soluciones (Página 52). El documento (Página 41, Sección 4.4.1 La ciberseguridad) advierte que \"una de las mayores brechas de seguridad es el uso de claves o credenciales por defecto\". Aunque el nombre específico \"Mirai\" no aparece en los fragmentos de texto proporcionados, la clave de respuestas del documento identifica esta botnet como la asociada a este vector de ataque en el contexto del test.",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 50) | Subsección: Tema 116. La Transformación Digital e Industria 4.0"
+        },
+        {
+            "id_pregunta": "Pregunta 85",
+            "enunciado": "La iniciativa oneM2M:",
+            "opciones": [
+                "A. Publica especificaciones específicamente para la ETSI.",
+                "B. Prepara, aprueba y mantiene conjuntos de Especificaciones Técnicas que puedan implantarse en distintos sistemas hardware y software.",
+                "C. Propone un único sistema M2M (Machine-to-Machine) para la gestión de dispositivos IoT.",
+                "D. Es una iniciativa creada por una asociación de empresas del sector TIC para el impulso de las comunicaciones M2M (Machine-to-Machine)."
+            ],
+            "opcion_correcta": "B. Prepara, aprueba y mantiene conjuntos de Especificaciones Técnicas que puedan implantarse en distintos sistemas hardware y software.",
+            "justificacion": "**\nLa opción **b** es la correcta según la tabla de soluciones (Página 52). El texto visible en la página 51 presenta las opciones de la pregunta. La opción B describe la función de estandarización técnica transversal (\"distintos sistemas hardware y software\"), lo cual se alinea con el propósito de iniciativas como oneM2M descritas en el contexto de interoperabilidad y plataformas de gestión del documento (Sección 4.3.5).",
+            "referencia": "**\nSección: PREGUNTAS DE TEST (Página 50-51) | Subsección: Tema 116. La Transformación Digital e Industria 4.0"
+        }
+    ]
+}

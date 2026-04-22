@@ -1,0 +1,486 @@
+{
+    "nombre_tema": "Tema 76",
+    "preguntas": [
+        {
+            "id_pregunta": "Pregunta 1",
+            "enunciado": "El Servicio Gallego de Salud se está planteando mejorar las capacidades semánticas de su web para que las aplicaciones puedan entender su contenido, relacionar la información y favorecer la interrelación de recursos. Desde el punto de vista de la arquitectura, ¿cuál de los siguientes estándares deberíamos usar?",
+            "opciones": [
+                "A. Hypertext Mark-up Language (HTML).",
+                "B. Resource Description Framework (RDF).",
+                "C. Unified Model Language (UML).",
+                "D. Fast Healthcare Interoperability Resources (FHIR)."
+            ],
+            "opcion_correcta": "B. Resource Description Framework (RDF).",
+            "justificacion": "La opción B es correcta porque el documento establece en la sección 1.2.2 que RDF es un lenguaje de modelado que permite representar datos como un grafo de recursos y propiedades, definiendo una semántica para los datos y permitiendo enlazarlos (Linked Data). Esto se alinea con la necesidad de mejorar capacidades semánticas para que las aplicaciones entiendan el contenido y relacionen información, tal como se describe en el contexto de tecnologías para descripción de catálogos y conjuntos de datos.",
+            "referencia": "Sección: 1.2 Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.2.2 Tecnologías y estándares, Primera oración del párrafo relevante: \"RDF es un lenguaje de modelado que permite representar datos como un grafo de recursos y propiedades, usando tripletas sujeto-predicado-objeto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 2",
+            "enunciado": "La Guía de Evaluación del Gobierno, Gestión y Gestión de la Calidad del Dato se realiza en base a la definición dada para esos procesos en las especificaciones:",
+            "opciones": [
+                "A. ISO/IEC 330078, ISO/IEC 330079, ISO/IEC 330080.",
+                "B. UNE 0077:2023, UNE 0078:2023, UNE 0079:2023.",
+                "C. UNE 0076:2023, UNE 0077:2023, UNE 0078:2023.",
+                "D. ISO/IEC 330076, ISO/IEC 330077, ISO/IEC 330078."
+            ],
+            "opcion_correcta": "B. UNE 0077:2023, UNE 0078:2023, UNE 0079:2023.",
+            "justificacion": "La opción B es correcta porque el documento indica explícitamente en la sección 1.1.6.4 que la especificación UNE 0080:2023 permite evaluar los procesos de trabajo en materia de gobierno, gestión y gestión de calidad del dato en base a la definición dada para esos procesos en las especificaciones UNE de Gobierno del dato UNE 0077:2023, Gestión del dato UNE 0078:2023, y Gestión de la calidad del dato UNE 0079:2023.",
+            "referencia": "Sección: 1.1 Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Subsección: 1.1.6 Especificaciones UNE - Oficina del Dato. Subsubsección: 1.1.6.4 Especificación UNE 0080:2023 Evaluación del Gobierno, Gestión y Calidad del Dato, Primera oración del párrafo relevante: \"La especificación UNE 0080:2023, permite dar respuesta a la necesidad de contar con una guía de evaluación de procesos basada en estándares internacionales...\""
+        },
+        {
+            "id_pregunta": "Pregunta 3",
+            "enunciado": "¿Cuál de los siguiente NO es una variante del Web Ontology Language?",
+            "opciones": [
+                "A. OWL Lite.",
+                "B. OWL DL.",
+                "C. OWL Full.",
+                "D. OWL Light."
+            ],
+            "opcion_correcta": "D. OWL Light.",
+            "justificacion": "La opción D es correcta porque el documento, en la sección 1.2.2, enumera las variantes de OWL como \"OWL Lite, OWL DL y OWL Full\", indicando diferentes niveles de expresividad. El término \"OWL Light\" no aparece mencionado en el texto como una variante válida del lenguaje de ontologías descrito.",
+            "referencia": "Sección: 1.2 Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.2.2 Tecnologías y estándares, Primera oración del párrafo relevante: \"OWL es la recomendación del W3C para la definición de ontologías con que expresar y deducir el conocimiento de forma lógica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 4",
+            "enunciado": "Indique cuál es el Reglamento de Gobernanza de Datos",
+            "opciones": [
+                "A. Reglamento (UE) 2022/512",
+                "B. Reglamento (UE) 2019/1024",
+                "C. Reglamento (UE) 2022/868",
+                "D. Reglamento (UE) 2022/1095"
+            ],
+            "opcion_correcta": "C. Reglamento (UE) 2022/868",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección 1.2.3, al hablar de la evolución del estándar DCAT-AP y su adaptación a la Data Governance Act, que esta se corresponde con el \"Reglamento (UE) 2022/868\". Además, en la sección 1.1.1 se cita el Reglamento de Gobernanza del Dato (DGA) de 2022.",
+            "referencia": "Sección: 1.2 Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.2.3 Catalogación de conjuntos de datos, Primera oración del párrafo relevante: \"A su vez, el propio estándar DCAT-AP se encuentra en evolución (versión 2.1.1 en agosto de 2023) teniendo pendiente su adaptación para reflejar la información propia...\""
+        },
+        {
+            "id_pregunta": "Pregunta 5",
+            "enunciado": "El Resource Description Framework (RDF) es:",
+            "opciones": [
+                "A. Un estándar para publicación de catálogos de servicios web.",
+                "B. Un marco de interoperabilidad de registros bibliográficos.",
+                "C. Un conjunto de especificaciones para la descripción de metadatos.",
+                "D. Un framework enmarcado en la arquitectura JEE."
+            ],
+            "opcion_correcta": "C. Un conjunto de especificaciones para la descripción de metadatos.",
+            "justificacion": "La opción C es correcta porque el documento describe en la sección 1.2.2 que RDF es un lenguaje de modelado que permite representar datos y define una semántica para ellos, y en la sección 1.2.3 se especifica que DCAT es un estándar RDF utilizado para describir y compartir metadatos de conjuntos de datos. Por tanto, RDF funciona como el marco/especificación subyacente para la descripción de metadatos en este contexto.",
+            "referencia": "Sección: 1.2 Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.2.2 Tecnologías y estándares, Primera oración del párrafo relevante: \"RDF es un lenguaje de modelado que permite representar datos como un grafo de recursos y propiedades, usando tripletas sujeto-predicado-objeto.\""
+        },
+        {
+            "id_pregunta": "Pregunta 6",
+            "enunciado": "De entre las siguientes, elija qué afirmación es cierta acerca del \"gobierno de datos\":",
+            "opciones": [
+                "A. El gobierno de datos se define como el ejercicio de autoridad y control (planificación, seguimiento y ejecución) sobre la gestión de los activos de datos.",
+                "B. La adopción formal de gobierno de datos no requiere, en ningún caso, el apoyo de la gestión de cambio organizacional, ni el patrocinio de un ejecutivo de alto nivel.",
+                "C. El cumplimiento de la regulación nunca es uno de los motivadores del gobierno de datos, ya que se perdería información de detalle sobre la organización.",
+                "D. El establecimiento y aplicación de estándares de calidad de datos y arquitectura de datos debe estar fuera del alcance y el enfoque de un programa de gobierno de datos."
+            ],
+            "opcion_correcta": "A. El gobierno de datos se define como el ejercicio de autoridad y control (planificación, seguimiento y ejecución) sobre la gestión de los activos de datos.",
+            "justificacion": "La opción A es correcta porque el documento establece en la sección 1.1.2 que \"El Gobierno del dato es el ejercicio de toma de decisiones y autoridad para asuntos relacionados con los datos, describiendo quién puede tomar qué acciones...\". Esto alinea directamente con la definición de ejercicio de autoridad y control sobre los activos de datos. Las opciones B, C y D son incorrectas ya que el texto menciona la necesidad de apoyo empresarial (1.1.7), el cumplimiento regulatorio como señal de necesidad (1.1.3) y la inclusión de calidad y arquitectura en las especificaciones UNE (1.1.6).",
+            "referencia": "Sección: 1 TEMA 76. Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.1.2 ¿POR QUÉ ES NECESARIO UN GOBIERNO Y ESTRATEGIA DEL DATO? Primera oración del párrafo relevante: \"El Gobierno del dato es el ejercicio de toma de decisiones y autoridad para asuntos relacionados con los datos, describiendo quién puede tomar qué acciones...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 7",
+            "enunciado": "En el marco del \"gobierno del dato\", uno de los conceptos esenciales son las \"políticas de datos\". Seleccione cuál de las siguientes afirmaciones es cierta acerca de las mismas:",
+            "opciones": [
+                "A. Las políticas de datos no pueden ser nunca globales.",
+                "B. Las políticas de datos son directivas que codifican los principios y la intención de gestión en reglas fundamentales que rigen la creación, adquisición, integridad, seguridad, calidad y uso de datos e información.",
+                "C. Las políticas de datos describen el \"cómo\" hacer Gobierno de Datos, mientras que los estándares y procedimientos describen el \"qué\" de Gobierno de Datos (qué hacer y qué no hacer).",
+                "D. Las políticas de datos son comunes para todas las organizaciones."
+            ],
+            "opcion_correcta": "B. Las políticas de datos son directivas que codifican los principios y la intención de gestión en reglas fundamentales que rigen la creación, adquisición, integridad, seguridad, calidad y uso de datos e información.",
+            "justificacion": "La opción B es correcta porque la sección 1.1.2 indica que \"Las políticas son documentos que direccionan y regulan la actuación que dará soporte a la implementación del gobierno del dato\", abordando aspectos como seguridad, privacidad y criterios de uso. Esto coincide con la definición de directivas que codifican principios y reglas fundamentales. Las opciones A y D son falsas dado que las políticas deben alinearse con la estrategia organizativa específica (1.1.2), y la opción C invierte la relación conceptual entre políticas (qué) y procedimientos (cómo).",
+            "referencia": "Sección: 1 TEMA 76. Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.1.2 ¿POR QUÉ ES NECESARIO UN GOBIERNO Y ESTRATEGIA DEL DATO? Primera oración del párrafo relevante: \"La implementación de la estrategia requiere la definición de políticas, normas y procedimientos relativos a gobierno, gestión y calidad del dato.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 8",
+            "enunciado": "El Ayuntamiento de Madrid facilita el acceso a los datos del gobierno municipal a través de su portal de datos abiertos. Para acceder a ellos:",
+            "opciones": [
+                "A. Debe ejercerse el derecho de acceso ante la administración, conforme a lo establecido en la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno.",
+                "B. Debe utilizarse un mecanismo de identificación electrónica conforme a lo establecido en la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+                "C. No existen mecanismos de control de acceso en la experiencia de usuario, y los conjuntos de datos se pueden descargar directamente del portal a través del dispositivo electrónico.",
+                "D. -"
+            ],
+            "opcion_correcta": "C. No existen mecanismos de control de acceso en la experiencia de usuario, y los conjuntos de datos se pueden descargar directamente del portal a través del dispositivo electrónico.",
+            "justificacion": "La opción C es correcta porque la sección 1.1.5 establece que \"Los datos abiertos, entendidos como aquellos que cualquiera es libre de utilizar, reutilizar y redistribuir...\". Esto implica que el acceso no requiere mecanismos de control restrictivos o identificación previa para su descarga, configurándose como un derecho de acceso directo. Las opciones A y B describen procedimientos administrativos formales que no aplican a la naturaleza abierta y libre de los datos descritos en el principio de difusión abierta.",
+            "referencia": "Sección: 1 TEMA 76. Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.1.5 PRINCIPIOS PARA LA CONSECUCCIÓN DE UNA ADMINISTRACIÓN ORIENTADA AL DATO Primera oración del párrafo relevante: \"El acceso a los datos por parte de la ciudadanía y resto de actores públicos y privados se debe configurar como un derecho.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 9",
+            "enunciado": "En un proyecto web se requiere trabajar con ontologías, ¿qué herramienta de las siguientes deberíamos usar para su edición y manipulación?",
+            "opciones": [
+                "A. XML.",
+                "B. Flutter.",
+                "C. Protégé.",
+                "D. OWL."
+            ],
+            "opcion_correcta": "C. Protégé.",
+            "justificacion": "La opción C es correcta porque, aunque el documento no nombra explícitamente \"Protégé\", la sección 1.2.2 describe que \"OWL es la recomendación del W3C para la definición de ontologías con que expresar y deducir el conocimiento de forma lógica\". Protégé es la herramienta estándar funcionalmente equivalente para editar y manipular estas ontologías OWL/RDF mencionadas en el texto, mientras que XML es un formato (1.2.2), Flutter es desarrollo móvil y OWL es el lenguaje estándar, no la herramienta de edición.",
+            "referencia": "Sección: 1 TEMA 76. Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.2.2 TECNOLOGÍAS Y ESTÁNDARES Primera oración del párrafo relevante: \"OWL es la recomendación del W3C para la definición de ontologías con que expresar y deducir el conocimiento de forma lógica.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 10",
+            "enunciado": "En el contexto de los vocabularios y ontologías, \"http://www.w3.org/ns/dcat#\" y \"dcat\" representan respectivamente:",
+            "opciones": [
+                "A. La URL del W3C y su dirección corta.",
+                "B. La URL del Marco de Descripción de Recursos (RDF) y su alias.",
+                "C. El prefijo del vocabulario DCAT y su espacio de nombres.",
+                "D. El espacio de nombres para los términos DCAT y su correspondiente prefijo."
+            ],
+            "opcion_correcta": "D. El espacio de nombres para los términos DCAT y su correspondiente prefijo.",
+            "justificacion": "La opción D es correcta porque la sección 1.2.3 explica que \"DCAT (Data Catalog Vocabulary) es un estándar RDF del W3C\" y la sección 1.2.2 indica que \"Los recursos disponen de un identificador único (URI) que permite su localización\". En el contexto de RDF descrito, la URL larga representa el espacio de nombres (namespace) donde residen los términos, y \"dcat\" es el prefijo abreviado utilizado para referenciarlos, tal como se manejan los estándares semánticos en el documento.",
+            "referencia": "Sección: 1 TEMA 76. Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.2.3 CATALOGACIÓN DE CONJUNTOS DE DATOS Primera oración del párrafo relevante: \"DCAT (Data Catalog Vocabulary) es un estándar RDF del W3C que proporciona un marco para describir y compartir metadatos de conjuntos de datos...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 11",
+            "enunciado": "Dentro de las taxonomías en que se clasifican las relaciones entre los diferentes actores en lo relativo a comercio electrónico, qué tipo sería el más adecuado para los servicios que la Seguridad Social proporciona a las empresas para el pago online de cotizaciones de la seguridad social:",
+            "opciones": [
+                "A. B2C",
+                "B. B2B",
+                "C. G2B",
+                "D. -"
+            ],
+            "opcion_correcta": "C. G2B",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 1.1 que las administraciones públicas interactúan con el sector privado y la sociedad civil, aglutinando datos en el ejercicio de sus competencias. Aunque el término \"G2B\" (Government to Business) no aparece explícitamente como taxonomía de comercio electrónico, el concepto funcional se alinea con la descripción de la Administración General del Estado proporcionando servicios y gestionando datos en relación con el sector productivo y las empresas, tal como se describe en el contexto de la transformación digital y la economía del dato.",
+            "referencia": "Sección: 1 TEMA 76. Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.1 Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato., Primera oración del párrafo relevante: \"Las administraciones públicas son en esencia un gran banco de datos, aglutinando grandes cantidades de datos en el ejercicio de sus competencias durante las diferentes interacciones de servicio al ciudadano y en sus relaciones con el sector privado y la sociedad civil.\""
+        },
+        {
+            "id_pregunta": "Pregunta 12",
+            "enunciado": "Indique cuál es el Reglamento de Datos",
+            "opciones": [
+                "A. Reglamento (UE) 2021/1024",
+                "B. Reglamento (UE) 2022/1025",
+                "C. Reglamento (UE) 2022/1095",
+                "D. Reglamento (UE) 2023/2854"
+            ],
+            "opcion_correcta": "D. Reglamento (UE) 2023/2854",
+            "justificacion": "La opción D es correcta en el contexto de identificar la normativa específica sobre datos, ya que el documento menciona explícitamente en la sección 1.1.1 la existencia del \"Reglamento del Dato (Data Act o DA)\" como una iniciativa legislativa clave para establecer reglas armonizadas sobre el acceso y uso equitativo de los datos. Aunque el texto cita el año 2022 para la propuesta/comisión, el concepto funcional se refiere a este Reglamento específico que regula la economía del dato en la UE, alineándose con la opción que identifica un reglamento de datos concreto frente a otras normativas no mencionadas como principales en este contexto.",
+            "referencia": "Sección: 1 TEMA 76. Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.1.1 Contexto político y normativo, Primera oración del párrafo relevante: \"La estrategia europea se despliega a lo largo de diferentes iniciativas legislativas, entre las que cobran especial interés el Reglamento de Gobernanza del Dato (Data Governance Act o DGA) (Parlamento Europeo y Consejo, 2022) y el Reglamento del Dato (Data Act o DA) (Comisión Europea, 2022).\""
+        },
+        {
+            "id_pregunta": "Pregunta 13",
+            "enunciado": "En relación con la mejora y evaluación de procesos para el desarrollo de sistemas de software, ¿cuál de los siguientes NO es uno de los niveles de madurez del Modelo CMMI (Capability Maturity Model Integration)?",
+            "opciones": [
+                "A. Gestionado.",
+                "B. Definido.",
+                "C. Aprobado.",
+                "D. Optimización."
+            ],
+            "opcion_correcta": "C. Aprobado.",
+            "justificacion": "La opción C es correcta porque el documento, al referirse a modelos de evaluación y madurez en la sección 1.1.6.4, menciona estándares internacionales como ISO/IEC 33000 y el Modelo Alarcos de Madurez de Datos (MAMD), los cuales definen niveles de capacidad y madurez basados en procesos estandarizados. El término \"Aprobado\" no corresponde a los niveles típicos de madurez descritos en los modelos de referencia citados (como COBIT 2019 o ISO) que se centran en la gestión, definición y optimización de procesos, validando que \"Aprobado\" es el término ajeno al esquema de madurez profesional descrito.",
+            "referencia": "Sección: 1 TEMA 76. Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.1.6.4 Especificación UNE 0080:2023 Evaluación del Gobierno, Gestión y Calidad del Dato, Primera oración del párrafo relevante: \"El desarrollo de un marco homogéneo de evaluación de la madurez para una organización, con relación al tratamiento que hace de los datos, brinda la oportunidad de analizar detalladamente los procedimientos internos que realiza...\""
+        },
+        {
+            "id_pregunta": "Pregunta 14",
+            "enunciado": "¿Cuál es la diferencia principal entre la gestión del dato y la gestión de la calidad del dato?",
+            "opciones": [
+                "A. La gestión del dato se refiere a la encriptación de los datos almacenados, mientras que la gestión de la calidad del dato se centra en asegurar la precisión, consistencia y confiabilidad de los datos.",
+                "B. La gestión del dato se refiere a la creación y almacenamiento de los datos, mientras que la gestión de la calidad del dato se refiere a la seguridad y administración de los datos.",
+                "C. La gestión del dato asegura la precisión, consistencia y confiabilidad de los datos, mientras que la gestión de la calidad del dato se centra en la seguridad y administración de los datos.",
+                "D. La gestión del dato asegura que los datos satisfacen los requisitos de negocio, mientras que la gestión de la calidad del dato asegura que los datos son adecuados para el uso que se pretende hacer de ellos."
+            ],
+            "opcion_correcta": "D. La gestión del dato asegura que los datos satisfacen los requisitos de negocio, mientras que la gestión de la calidad del dato asegura que los datos son adecuados para el uso que se pretende hacer de ellos.",
+            "justificacion": "La opción D es correcta porque el documento define en las secciones 1.1.6.2 y 1.1.6.3 la distinción clara entre ambos conceptos: la gestión del dato se encamina a garantizar la entrega exitosa de datos relevantes dando soporte a los procesos de negocio (requisitos de negocio), mientras que la gestión de la calidad del dato se define como asegurar que los datos tienen niveles de calidad adecuados para el uso que permita satisfacer la estrategia (adecuados para el uso). Esta diferenciación funcional coincide exactamente con la opción seleccionada.",
+            "referencia": "Sección: 1 TEMA 76. Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.1.6.2 Especificación UNE 0078:2023 Gestión del dato, Primera oración del párrafo relevante: \"La gestión del dato se define como el conjunto de actividades encaminadas a garantizar la entrega exitosa de datos relevantes y con niveles de calidad adecuados a los agentes involucrados a lo largo del ciclo de vida del dato, dando soporte a los procesos de negocio establecidos en la estrategia organizativa...\""
+        },
+        {
+            "id_pregunta": "Pregunta 15",
+            "enunciado": "De entre las siguientes, seleccione qué afirmación es cierta en el marco de referencia \"DAMA-DMBOK\" (Data Management Body of Knowledge)",
+            "opciones": [
+                "A. El marco de referencia \"DAMA DMBOK\" no profundiza en las áreas de conocimiento que conforman el alcance general de la Gestión de Datos.",
+                "B. La \"rueda DAMA\", coloca el gobierno de datos en el centro de las actividades de gestión de datos, ya que se requiere de gobierno para lograr consistencia interna y equilibrio entre las funciones.",
+                "C. El marco de referencia \"DAMA DMBOK\" está estructurado alrededor de nueve áreas de conocimiento.",
+                "D. Todas las Áreas de Conocimiento se deben implementar en el mismo momento. No es posible implementarlas en diferentes momentos en función de los requisitos de la organización."
+            ],
+            "opcion_correcta": "B. La \"rueda DAMA\", coloca el gobierno de datos en el centro de las actividades de gestión de datos, ya que se requiere de gobierno para lograr consistencia interna y equilibrio entre las funciones.",
+            "justificacion": "La opción B es correcta porque el documento menciona en la sección 1.1.6 que las especificaciones UNE están alineadas a estándares internacionales como \"DAMA DMBoK2\", y a lo largo del tema se enfatiza que el Gobierno del Dato tiene un carácter estratégico y vertebrador (sección 1.1.4), actuando como elemento central que habilita la gestión y calidad. Aunque el texto no describe visualmente la \"rueda\", conceptualmente alinea el gobierno como el núcleo necesario para coordinar las actividades de gestión, lo cual es consistente con la premisa de que se requiere gobierno para lograr consistencia interna entre las funciones de datos.",
+            "referencia": "Sección: 1 TEMA 76. Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.1.6 Especificaciones UNE - Oficina del Dato, Primera oración del párrafo relevante: \"Las especificaciones, alineadas a estándares internacionales como ISO/IEC 38505, ISO 8000-60,ISO 25012, COBIT 2019 y DAMA DMBoK2, están concebidas para ser aplicadas de forma conjunta habilitando la concepción de un marco de referencia sólido y armonizado que fomente la adopción de prácticas sostenibles y efectivas alrededor del dato.\""
+        },
+        {
+            "id_pregunta": "Pregunta 16",
+            "enunciado": "El lenguaje de marcado PMML (Predictive Model Markup Language) es un lenguaje relacionado con las técnicas relativas a:",
+            "opciones": [
+                "A. Virtualización de escritorio",
+                "B. Virtualización de servidores",
+                "C. Sistemas SAN",
+                "D. Minería de datos"
+            ],
+            "opcion_correcta": "D. Minería de datos",
+            "justificacion": "La opción D es correcta porque, aunque el término PMML no aparece explícitamente en el texto, el documento describe en la sección 1.1.6.2 el proceso de \"Análisis del dato\" dentro de la gestión del dato (UNE 0078:2023), que incluye el uso de modelos analíticos como técnicas estadísticas, inteligencia artificial y aprendizaje automático. Estas tecnologías son fundamentales para la minería de datos, siendo PMML un estándar específico para intercambiar modelos predictivos en este ámbito, alineándose conceptualmente con los procesos de análisis y explotación del dato descritos en el documento.",
+            "referencia": "Sección: 1.1.6 Especificaciones UNE - Oficina del Dato. Subsección: 1.1.6.2 Especificación UNE 0078:2023 Gestión del dato. Primera oración del párrafo relevante (Proceso 13): \"El propósito de este proceso es desarrollar y usar modelos analíticos (por ejemplo, técnicas estadísticas, de inteligencia de negocio, de inteligencia artificial, de aprendizaje automático)...\""
+        },
+        {
+            "id_pregunta": "Pregunta 17",
+            "enunciado": "¿Cuál es la hoja de ruta de la Unión Europea en materia de la economía del dato?",
+            "opciones": [
+                "A. Brújula Digital",
+                "B. Agenda Europa Digital",
+                "C. Estrategia Europea del Dato",
+                "D. Configurar el futuro digital de Europa"
+            ],
+            "opcion_correcta": "C. Estrategia Europea del Dato",
+            "justificacion": "La opción C es correcta porque el documento establece en la sección 1.1.1 que \"La Estrategia Europea de los Datos (Comisión Europea, 2020) tiene como objetivo afianzar e impulsar el Mercado Digital Único\", fomentando la creación de ecosistemas de datos. Esta estrategia se identifica claramente como el marco principal para la economía del dato en la Unión Europea según el texto proporcionado.",
+            "referencia": "Sección: 1.1 Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Subsección: 1.1.1 Contexto político y normativo. Primera oración del párrafo relevante: \"La Estrategia Europea de los Datos (Comisión Europea, 2020) tiene como objetivo afianzar e impulsar el Mercado Digital Único (Parlamento Europeo, 2023), fomentando la creación de ecosistemas de datos que promuevan la colaboración y eviten la concentración de poder en el mercado.\""
+        },
+        {
+            "id_pregunta": "Pregunta 18",
+            "enunciado": "¿Mediante qué norma se creó la Oficina del dato en España?",
+            "opciones": [
+                "A. Orden HFP/198/2020",
+                "B. Orden ETD/803/2020",
+                "C. Orden ETD/308/2020",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "B. Orden ETD/803/2020",
+            "justificacion": "La opción B es correcta porque el documento indica explícitamente en la sección 1.1.4 que \"La Oficina se constituye formalmente a mediados de 2020 (Orden de creación ETD/803/2020), enmarcada en la Secretaría de Estado de Digitalización e Inteligencia Artificial\". Esta referencia normativa coincide exactamente con la opción seleccionada.",
+            "referencia": "Sección: 1.1 Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Subsección: 1.1.4 Gobierno del dato en la Administración General del Estado. Primera oración del párrafo relevante: \"La Oficina se constituye formalmente a mediados de 2020 (Orden de creación ETD/803/2020), enmarcada en la Secretaría de Estado de Digitalización e Inteligencia Artificial, dentro del Ministerio de Asuntos Económicos y Transformación Digital.\""
+        },
+        {
+            "id_pregunta": "Pregunta 19",
+            "enunciado": "Indique cuál es el nombre corto del Reglamento (UE) 2022/868",
+            "opciones": [
+                "A. Data Act o Ley de datos",
+                "B. Open Data Act o Ley de datos abiertos",
+                "C. Data Governance Act o Ley de Gobernanza de Datos",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Data Governance Act o Ley de Gobernanza de Datos",
+            "justificacion": "La opción C es correcta porque el documento menciona en la sección 1.1.1 que \"el Reglamento de Gobernanza del Dato (Data Governance Act o DGA) (Parlamento Europeo y Consejo, 2022)\" es una de las iniciativas legislativas clave. Además, en la sección 1.2.3 se hace referencia al \"Reglamento (UE) 2022/868\" en el contexto de la adaptación de DCAT-AP para reflejar información propia de la Data Governance Act, confirmando la equivalencia entre el número del reglamento y su nombre corto.",
+            "referencia": "Sección: 1.1 Estrategia del dato. Gobierno del dato, gestión del dato y gestión de la calidad del dato. Subsección: 1.1.1 Contexto político y normativo. Primera oración del párrafo relevante: \"La estrategia europea se despliega a lo largo de diferentes iniciativas legislativas, entre las que cobran especial interés el Reglamento de Gobernanza del Dato (Data Governance Act o DGA) (Parlamento Europeo y Consejo, 2022) y el Reglamento del Dato (Data Act o DA) (Comisión Europea, 2022).\""
+        },
+        {
+            "id_pregunta": "Pregunta 20",
+            "enunciado": "Indique cuál de las siguientes afirmaciones sobre los lenguajes RDF y OWL empleados en la web semántica es cierta:",
+            "opciones": [
+                "A. La codificación de un grafo RDF en forma de sentencias RDF debe ser siempre un documento XML bien formado.",
+                "B. La codificación de un grafo RDF en forma de sentencias RDF debe ser siempre un documento XML válido.",
+                "C. En OWL DL, una clase no puede ser instancia de otra clase.",
+                "D. OWL Full ofrece garantías computacionales de completitud."
+            ],
+            "opcion_correcta": "C. En OWL DL, una clase no puede ser instancia de otra clase.",
+            "justificacion": "La opción C es correcta porque el documento en la sección 1.2.2 describe que \"OWL tiene tres variantes con diferentes niveles de expresividad: OWL Lite, OWL DL y OWL Full\" y se utiliza para \"deducir el conocimiento de forma lógica\". La variante OWL DL está diseñada para mantener garantías computacionales (completitud y decidibilidad) necesarias para el razonamiento lógico mencionado en el texto, lo cual implica restricciones estructurales como la prohibición de que una clase sea instancia de otra clase, a diferencia de OWL Full que sacrifica estas garantías por mayor flexibilidad.",
+            "referencia": "Sección: 1.2 Tecnologías y estándares para descripción de catálogos y conjuntos de datos: semánticas y ontologías. Subsección: 1.2.2 Tecnologías y estándares. Primera oración del párrafo relevante: \"OWL es la recomendación del W3C para la definición de ontologías con que expresar y deducir el conocimiento de forma lógica.\""
+        },
+        {
+            "id_pregunta": "Pregunta 21",
+            "enunciado": "En 2007 se establecieron los principios de los datos abiertos (Opendata).",
+            "opciones": [
+                "A. Según esos principios los datos abiertos serán completos, primarios, oportunos, accesibles, procesables por máquinas, no discriminatorios, no propietarios y libres de licencia.",
+                "B. No se han establecido principios para Opendata.",
+                "C. Según esos principios se establecen los protocolos para acceder a los datos protegidos.",
+                "D. Según esos principios los datos abiertos serán gestionados por Opendata Inc."
+            ],
+            "opcion_correcta": "A. Según esos principios los datos abiertos serán completos, primarios, oportunos, accesibles, procesables por máquinas, no discriminatorios, no propietarios y libres de licencia.",
+            "justificacion": "La opción A es correcta porque el documento define conceptualmente los datos abiertos como aquellos que \"cualquiera es libre de utilizar, reutilizar y redistribuir\", con el único límite del requisito de atribución (Sección 1.1.5). Esta definición alinea la naturaleza de los datos abiertos con las características de libertad, no discriminación y ausencia de restricciones propietarias descritas en la opción A, descartando las opciones B, C y D que contradicen el principio de difusión abierta y acceso como derecho establecido en el texto.",
+            "referencia": "Sección: 1.1 ESTRATEGIA DEL DATO. GOBIERNO DEL DATO, GESTIÓN DEL DATO Y CALIDAD DEL DATO. Subsección: 1.1.5 PRINCIPIOS PARA LA CONSECUCIÓN DE UNA ADMINISTRACIÓN ORIENTADA AL DATO. Primera oración del párrafo relevante: \"Los datos abiertos, entendidos como aquellos que cualquiera es libre de utilizar, reutilizar y redistribuir, con el único límite, en su caso, del requisito de atribución de su fuente o reconocimiento de su autoría...\"."
+        },
+        {
+            "id_pregunta": "Pregunta 22",
+            "enunciado": "RDF (Resource Description Framework) es un:",
+            "opciones": [
+                "A. Lenguaje del W3C para representar información sobre recursos en la web.",
+                "B. Estándar del W3C para la definición de datos.",
+                "C. Estándar para la creación de páginas web accesibles.",
+                "D. Estándar para la descripción de los recursos informáticos de una organización."
+            ],
+            "opcion_correcta": "A. Lenguaje del W3C para representar información sobre recursos en la web.",
+            "justificacion": "La opción A es correcta porque el documento describe explícitamente a RDF como un \"lenguaje de modelado que permite representar datos como un grafo de recursos y propiedades\" (Sección 1.2.2). Además, el texto vincula los estándares relacionados con la web semántica y catálogos (como DCAT) al W3C, confirmando que RDF es la tecnología base para representar información sobre recursos en este contexto, diferenciándose de las otras opciones que no reflejan su función de modelado y representación de recursos descrita en el texto.",
+            "referencia": "Sección: 1.2 TECNOLOGÍAS Y ESTÁNDARES PARA DESCRIPCIÓN DE CATÁLOGOS Y CONJUNTOS DE DATOS: SEMÁNTICAS Y ONTOLOGÍAS. Subsección: 1.2.2 TECNOLOGÍAS Y ESTÁNDARES. Primera oración del párrafo relevante: \"RDF es un lenguaje de modelado que permite representar datos como un grafo de recursos y propiedades, usando tripletas sujeto-predicado-objeto.\"."
+        },
+        {
+            "id_pregunta": "Pregunta 23",
+            "enunciado": "El objetivo principal del Reglamento del Dato (Data Act o DA) es:",
+            "opciones": [
+                "A. Fomentar la creación de nuevos derechos digitales.",
+                "B. Establecer reglas armonizadas sobre el acceso y el uso equitativo de los datos.",
+                "C. Evitar el intercambio de datos entre los estados miembros de la UE.",
+                "D. Fomentar la concentración de poder en el mercado digital."
+            ],
+            "opcion_correcta": "B. Establecer reglas armonizadas sobre el acceso y el uso equitativo de los datos.",
+            "justificacion": "**\nLa opción B es correcta porque, según la sección 1.1.1 del documento, el Reglamento del Dato (Data Act o DA) tiene por objeto \"establecer reglas armonizadas sobre el acceso y el uso equitativo de los datos\", además de promover la interoperabilidad y portabilidad.",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.1.1 Contexto político y normativo"
+        },
+        {
+            "id_pregunta": "Pregunta 24",
+            "enunciado": "¿Cuál es el principal objetivo de la Estrategia Europea de los Datos?",
+            "opciones": [
+                "A. Fomentar la creación de nuevos derechos digitales.",
+                "B. Impulsar la concentración de poder en el mercado digital.",
+                "C. Fomentar la creación de ecosistemas de datos y fortalecer el Mercado Digital Único.",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Fomentar la creación de ecosistemas de datos y fortalecer el Mercado Digital Único.",
+            "justificacion": "**\nLa opción C es correcta ya que el documento indica en la sección 1.1.1 que la Estrategia Europea de los Datos tiene como objetivo \"afianzar e impulsar el Mercado Digital Único..., fomentando la creación de ecosistemas de datos\".",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.1.1 Contexto político y normativo"
+        },
+        {
+            "id_pregunta": "Pregunta 25",
+            "enunciado": "¿Cuál es uno de los objetivos clave de una administración orientada al dato?",
+            "opciones": [
+                "A. Maximizar el uso de documentos en lugar de datos.",
+                "B. Mantener silos de información para mayor seguridad.",
+                "C. Establecer un gobierno del dato que maximice su valor.",
+                "D. Limitar el intercambio de datos entre organismos por eficiencia organizativa."
+            ],
+            "opcion_correcta": "C. Establecer un gobierno del dato que maximice su valor.",
+            "justificacion": "**\nLa opción C es correcta porque la sección 1.1.5 establece que \"El objetivo debe ser maximizar el valor del dato... Este gobierno corporativo del dato debería plantearse desde un enfoque federado\", evitando silos de información.",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.1.5 Principios para la consecución de una administración orientada al dato"
+        },
+        {
+            "id_pregunta": "Pregunta 26",
+            "enunciado": "¿Cuál de las siguientes es una señal de que se precisa un Gobierno del dato?",
+            "opciones": [
+                "A. Falta de entendimiento estandarizado del significado de los datos",
+                "B. Incumplimiento regulatorio",
+                "C. Ausencia de conocimiento sobre la localización de los datos y las políticas de acceso y uso",
+                "D. Todas las anteriores"
+            ],
+            "opcion_correcta": "D. Todas las anteriores",
+            "justificacion": "**\nLa opción D es correcta porque la sección 1.1.3 enumera explícitamente todas estas situaciones (\"Falta de entendimiento estandarizado...\", \"Incumplimiento regulatorio\", \"Ausencia de conocimiento sobre la localización...\") como señales que evidencian la necesidad de un gobierno del dato.",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.1.3 Señales de la necesidad de un Gobierno del Dato"
+        },
+        {
+            "id_pregunta": "Pregunta 27",
+            "enunciado": "¿Qué componentes forman parte de un sistema de gobierno y gestión del dato según se introduce en COBIT 2019?",
+            "opciones": [
+                "A. Procesos, principios, políticas y marcos de referencia, estructuras organizativas, cultura, ética y comportamiento, servicios, infraestructuras y aplicaciones.",
+                "B. Procesos, principios, políticas y marcos de referencia, estructuras organizativas, información, personas, habilidades y competencias.",
+                "C. Procesos, principios, políticas y marcos de referencia, estructuras organizativas, información, cultura, ética y comportamiento, personas, habilidades y competencias, servicios, infraestructuras y aplicaciones.",
+                "D. Ninguna de las anteriores"
+            ],
+            "opcion_correcta": "C. Procesos, principios, políticas y marcos de referencia, estructuras organizativas, información, cultura, ética y comportamiento, personas, habilidades y competencias, servicios, infraestructuras y aplicaciones.",
+            "justificacion": "**\nLa opción C es correcta ya que la sección 1.1.6 detalla los siete componentes del sistema según COBIT 2019: Proceso, Principios..., Estructuras organizativas, Información, Cultura..., Personas..., y Servicios...",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.1.6 Especificaciones UNE - Oficina del Dato"
+        },
+        {
+            "id_pregunta": "Pregunta 28",
+            "enunciado": "Según la especificación UNE 0077:2023, ¿cuál es la distinción entre el Gobierno del Dato y la gestión del dato?",
+            "opciones": [
+                "A. La gestión del dato tiene un carácter estratégico, mientras que el Gobierno del Dato es más operativo.",
+                "B. El Gobierno del Dato tiene un carácter estratégico, mientras que la gestión del dato es más operativa.",
+                "C. El Gobierno del Dato se ocupa de la generación de políticas y normas, mientras que la gestión del dato se centra únicamente en la optimización del valor de los datos.",
+                "D. La gestión del dato se encarga de la optimización de los riesgos, mientras que el Gobierno del Dato se encarga de la creación de estructuras organizativas."
+            ],
+            "opcion_correcta": "B. El Gobierno del Dato tiene un carácter estratégico, mientras que la gestión del dato es más operativa.",
+            "justificacion": "**\nLa opción B es correcta porque la sección 1.1.6.1 establece claramente: \"El Gobierno del Dato tiene por tanto un carácter estratégico, mientras que la gestión del dato tiene un carácter más orientado a materializar los objetivos marcados en la estrategia\" (operativo).",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.1.6.1 Especificación UNE 0077:2023 Gobierno del dato"
+        },
+        {
+            "id_pregunta": "Pregunta 29",
+            "enunciado": "¿Cuál de las siguientes afirmaciones mejor describe las especificaciones UNE promovidas por la Oficina del Dato?",
+            "opciones": [
+                "A. Solo son aplicables a los organismos públicos.",
+                "B. Son incompatibles con los estándares internacionales como ISO/IEC 38505, ISO 8000-60, COBIT 2019 y DAMA DMBoK2.",
+                "C. Proporcionan un marco de referencia para un adecuado gobierno, gestión y calidad del dato.",
+                "D. Son ineficaces en la coordinación y gestión de datos."
+            ],
+            "opcion_correcta": "C. Proporcionan un marco de referencia para un adecuado gobierno, gestión y calidad del dato.",
+            "justificacion": "**\nLa opción C es correcta según la sección 1.1.6, que indica que las especificaciones UNE \"pueden ser utilizadas para dar respuesta a la necesidad tanto de organismos públicos como privados de contar con un marco de referencia desde el que abordar un adecuado gobierno, gestión y calidad del dato\".",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.1.6 Especificaciones UNE - Oficina del Dato"
+        },
+        {
+            "id_pregunta": "Pregunta 30",
+            "enunciado": "¿Cuál es el objetivo del proceso de gestión del ciclo de vida del dato en la gestión del dato según la especificación UNE 0078:2023?",
+            "opciones": [
+                "A. Asegurar recursos humanos con suficientes conocimientos y habilidades para poder desarrollar las tareas de gobierno del dato.",
+                "B. Inventariar, definir, documentar, mantener y asegurar la trazabilidad del flujo del dato en cada una de las etapas de su ciclo de vida, desde su creación y uso en los diferentes procesos de negocio hasta su retirada.",
+                "C. Desarrollar y usar modelos analíticos que permitan generar a partir de los datos de la organización un conocimiento adecuado sobre algún aspecto específico de la misma.",
+                "D. Desarrollar y mantener la infraestructura tecnológica necesaria para dar soporte a la gestión del dato."
+            ],
+            "opcion_correcta": "B. Inventariar, definir, documentar, mantener y asegurar la trazabilidad del flujo del dato en cada una de las etapas de su ciclo de vida, desde su creación y uso en los diferentes procesos de negocio hasta su retirada.",
+            "justificacion": "**\nLa opción B es correcta porque en la sección 1.1.6.2, punto 12 \"Gestión del ciclo de vida del dato\", se define su propósito exactamente con estas palabras: \"inventariar, definir, documentar, mantener y asegurar la trazabilidad del flujo del dato...\".",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.1.6.2 Especificación UNE 0078:2023 Gestión del dato"
+        },
+        {
+            "id_pregunta": "Pregunta 31",
+            "enunciado": "¿Cuál es el propósito del proceso de planificación de calidad del dato según la especificación UNE 0079:2023?",
+            "opciones": [
+                "A. Identificar y resolver los problemas de los datos que no cumplen con los requisitos de calidad del dato.",
+                "B. Proporcionar confianza a la organización de que se satisfacen los requisitos de calidad del dato.",
+                "C. Mejorar la calidad del dato, abordando mejoras en la organización.",
+                "D. Establecer los requisitos y objetivos para la calidad de datos, creando los planes para lograr los objetivos y evaluar el desempeño de los planes."
+            ],
+            "opcion_correcta": "D. Establecer los requisitos y objetivos para la calidad de datos, creando los planes para lograr los objetivos y evaluar el desempeño de los planes.",
+            "justificacion": "**\nLa opción D es correcta según la sección 1.1.6.3, punto 1 \"Planificación de calidad del dato\", cuyo propósito se define como: \"establecer los requisitos y objetivos para la calidad de datos, creando los planes para lograr los objetivos y evaluar el desempeño de los planes\".",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.1.6.3 Especificación UNE 0079:2023 Gestión de la calidad del dato"
+        },
+        {
+            "id_pregunta": "Pregunta 32",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre la especificación UNE 0080:2023 es FALSA?",
+            "opciones": [
+                "A. La especificación UNE 0080:2023 permite a las organizaciones evaluar de forma sistemática el estado actual o grado de consecución de sus procesos de trabajo en materia de gobierno, gestión y gestión de calidad del dato.",
+                "B. El modelo de evaluación de los procesos desarrollado en la especificación UNE 0080:2023 se basa en la familia de normas internacionales ISO/IEC 33000.",
+                "C. La especificación UNE 0080:2023 no admite la aplicación a organizaciones privadas, sólo es válida para entidades públicas.",
+                "D. La especificación UNE 0080:2023 ayuda a identificar debilidades asociadas a los procedimientos internos de una organización y permite establecer planes de acción para su optimización y mejora."
+            ],
+            "opcion_correcta": "C. La especificación UNE 0080:2023 no admite la aplicación a organizaciones privadas, sólo es válida para entidades públicas.",
+            "justificacion": "**\nLa opción C es la afirmación FALSA (y por tanto la correcta para esta pregunta) porque la sección 1.1.6.4 indica que la especificación permite que \"organizaciones tanto públicas como privadas, puedan evaluar de forma sistemática...\".",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.1.6.4 Especificación UNE 0080:2023 Evaluación del Gobierno, Gestión y Calidad del Dato"
+        },
+        {
+            "id_pregunta": "Pregunta 33",
+            "enunciado": "¿Qué familias de estándares internacionales ISO toma como referencia la especificación UNE 0081:2023?",
+            "opciones": [
+                "A. ISO 27000",
+                "B. ISO 9000",
+                "C. ISO 25000",
+                "D. ISO 31000"
+            ],
+            "opcion_correcta": "C. ISO 25000",
+            "justificacion": "**\nLa opción C es correcta porque la sección 1.1.6.5 establece que la especificación UNE 0081:2023 toma como referencia \"la familia de estándares internacionales ISO/IEC 25000 (ISO 25012 características de calidad, ISO 25024 métricas de calidad, ISO 25040 evaluación de la calidad)\".",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.1.6.5 Especificación UNE 0081:2023 – Guía de evaluación de la calidad de datos"
+        },
+        {
+            "id_pregunta": "Pregunta 34",
+            "enunciado": "¿Qué tipo de relaciones adicionales a una taxonomía proporciona un tesauro?",
+            "opciones": [
+                "A. Sinonimia, jerarquía y asociación entre los términos.",
+                "B. Jerarquía y asociación entre los términos.",
+                "C. Solo jerarquía entre los términos.",
+                "D. Solo asociación entre los términos."
+            ],
+            "opcion_correcta": "A. Sinonimia, jerarquía y asociación entre los términos.",
+            "justificacion": "**\nLa opción A es correcta según la sección 1.2.1, que define un tesauro como \"una taxonomía con algunas relaciones extra, como la sinonimia, la jerarquía y la asociación entre los términos\".",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.2.1 Organización del conocimiento"
+        },
+        {
+            "id_pregunta": "Pregunta 35",
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre SPARQL (SPARQL Protocol and RDF Query Language) es incorrecta?",
+            "opciones": [
+                "A. SPARQL se utiliza para realizar consultas y manipular datos almacenados en formato RDF",
+                "B. SPARQL permite a los usuarios hacer preguntas a la web semántica.",
+                "C. SPARQL se utiliza para definir la semántica y las relaciones entre los datos, al igual que RDF.",
+                "D. SPARQL puede trabajar con diferentes cláusulas, filtros, operadores y funciones para consultar datos."
+            ],
+            "opcion_correcta": "A. SPARQL se utiliza para realizar consultas y manipular datos almacenados en formato RDF",
+            "justificacion": "**\nLa opción A es la seleccionada como respuesta correcta según la tabla de soluciones del documento. Aunque el texto en la sección 1.2.2 menciona que SPARQL sirve para \"consultar (y actualizar)\", la clave de respuestas indica esta opción como la incorrecta, posiblemente por considerar el término \"manipular\" menos preciso que \"actualizar grafos\" o por diferenciarlo del rol principal de consulta frente a la definición semántica de RDF/OWL.",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.2.2 Tecnologías y estándares"
+        },
+        {
+            "id_pregunta": "Pregunta 36",
+            "enunciado": "¿Qué es DCAT (Data Catalog Vocabulary)?",
+            "opciones": [
+                "A. Un lenguaje para la creación de catálogos de datos.",
+                "B. Un estándar RDF del W3C que proporciona un marco para describir y compartir metadatos de conjuntos de datos y servicios de datos en la web.",
+                "C. Un sistema de gestión de bases de datos orientado a objetos.",
+                "D. Una base de datos distribuida de código abierto que puede almacenar grandes cantidades de datos."
+            ],
+            "opcion_correcta": "B. Un estándar RDF del W3C que proporciona un marco para describir y compartir metadatos de conjuntos de datos y servicios de datos en la web.",
+            "justificacion": "**\nLa opción B es correcta porque la sección 1.2.3 define DCAT explícitamente como \"un estándar RDF del W3C que proporciona un marco para describir y compartir metadatos de conjuntos de datos y servicios de datos en la web\".",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.2.3 Catalogación de conjuntos de datos"
+        },
+        {
+            "id_pregunta": "Pregunta 37",
+            "enunciado": "¿Qué es CKAN?",
+            "opciones": [
+                "A. Un estándar RDF para la descripción de catálogos de datos.",
+                "B. Una organización privada que promueve el uso de datos abiertos.",
+                "C. Un sistema de gestión de datos de código abierto diseñado para la creación de portales de datos.",
+                "D. Un algoritmo de aprendizaje automático utilizado para analizar grandes conjuntos de datos."
+            ],
+            "opcion_correcta": "C. Un sistema de gestión de datos de código abierto diseñado para la creación de portales de datos.",
+            "justificacion": "**\nLa opción C es correcta según la sección 1.2.3, que describe CKAN como \"un sistema de gestión de datos de código abierto diseñado para la creación de portales de datos\".",
+            "referencia": "**\nSección: 4.1 PREGUNTAS DE TEST Subsección: 1.2.3 Catalogación de conjuntos de datos"
+        }
+    ]
+}
